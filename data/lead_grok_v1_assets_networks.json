@@ -1,1 +1,145 @@
-PLACEHOLDER
+{
+  "meta": {
+    "title": "Lead: Asset declarations, marital status, law firm partners, and academic supervisors for disputed TK judges",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Asset details from press reporting on official declarations. Spouse names not found for Korwin-Piotrowska or Berek. Court-level mentorship details (individual supervisors during apprenticeship) remain largely absent from public sources."
+  },
+  "nodes": [
+    {
+      "id": "hoffman_taborowski",
+      "type": "org",
+      "group": "law_firm",
+      "label": "Hoffman, Taborowski i Wspólnicy Adwokacka sp. p.",
+      "partners_noted": ["Piotr Hoffman", "Maciej Taborowski (former, left 2026)", "Monika Tabor-Gruszfeld", "Krzysztof Adam Januszewski"],
+      "sources": [
+        "https://hlegal.pl/team/",
+        "https://compabase.com/pl/companies/krs/0000901486"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "korwin_piotrowska",
+      "target": "asset_declaration",
+      "relation": "2025 (SO Opole, as of ~18 Apr 2025): 150m2 house on 913m2 plot + 95m2 flat in marital community; PLN 21k + EUR 312 savings; Hyundai Tucson 2017 + Alfa Romeo MiTo 2018; mortgage residual PLN 170,868.92. Side income: PLN 13,360 from MoJ exam commissions, PLN 1,800 from Opole Advocates' Chamber, PLN 280 from Opole Legal Advisers' Chamber (trainee training). 2026 (as of 9 Apr): PLN 132,774.70 + EUR 29,190.95 + USD 6,000 savings; same properties noted.",
+      "confidence": "fact",
+      "sources": [
+        "https://www.fakt.pl/pieniadze/anna-korwin-piotrowska-i-jej-majatek-dom-mieszkanie-samochody-i-kredyt/0e8kepc",
+        "https://naszapolska.pl/sedzia-anna-korwin-piotrowska/",
+        "https://www.biznesinfo.pl/dom-mieszkanie-samochody-i-pokazne-oszczednosci-oswiadczenie-majatkowe-anny-korwin-piotrowskiej-jb-wzk-311026"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "spouse",
+      "relation": "Married (properties in marital community of property per 2025 declaration); spouse name not found in public sources",
+      "confidence": "fact",
+      "sources": [
+        "https://naszapolska.pl/sedzia-anna-korwin-piotrowska/"
+      ]
+    },
+    {
+      "source": "berek",
+      "target": "asset_declaration",
+      "relation": "Declaration as of 31 Dec 2025 (filed Mar 2026 while minister): two houses (176m2 on 261m2 plot, 174m2 on 626m2 plot) in marital community; 2/3 share in 46m2 cooperative flat; ~PLN 63k savings; investment insurance ~PLN 49k + life insurance ~PLN 50k. Liabilities: ~CHF 163.5k + PLN 63.5k mortgages (with spouse); one credit previously annulled by court. Other income: ~PLN 44k from UW employment, ~PLN 17k from personal activity (incl. OIRP), ~PLN 66k from rental.",
+      "confidence": "fact",
+      "sources": [
+        "https://www.money.pl/gospodarka/berek-zaprzysiezony-na-sedziego-tk-oto-jego-majatek-7339875580365248a.html",
+        "https://www.fakt.pl/pieniadze/maciej-berek-odchodzi-ze-stanowiska-sprawdzilismy-jego-majatek/jjfteqc"
+      ]
+    },
+    {
+      "source": "berek",
+      "target": "spouse",
+      "relation": "Married (properties and mortgages in marital community); spouse name not found in public sources",
+      "confidence": "fact",
+      "sources": [
+        "https://www.money.pl/gospodarka/berek-zaprzysiezony-na-sedziego-tk-oto-jego-majatek-7339875580365248a.html"
+      ]
+    },
+    {
+      "source": "taborowski",
+      "target": "hoffman_taborowski",
+      "relation": "Partner until March 2026 (left upon TK election); firm name includes him; co-partners include Piotr Hoffman and Monika Tabor-Gruszfeld",
+      "confidence": "fact",
+      "sources": [
+        "https://hlegal.pl/team/",
+        "https://hlegal.pl/rozwijamy-sie/?lang=pl"
+      ]
+    },
+    {
+      "source": "markiewicz",
+      "target": "zedler",
+      "relation": "PhD supervisor (Feliks Zedler, UAM Poznań; thesis on deposit procedure, with distinction, 2006)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+        "https://pl.wikipedia.org/wiki/Feliks_Zedler"
+      ]
+    },
+    {
+      "source": "dziurda",
+      "target": "erecinski",
+      "relation": "PhD supervisor (Tadeusz Ereciński, UW; thesis on State Treasury representation in civil process, 2004)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Marcin_Dziurda"
+      ]
+    },
+    {
+      "source": "taborowski",
+      "target": "czaplinski",
+      "relation": "PhD supervisor (Władysław Andrzej Czapliński, INP PAN; thesis on consequences of national courts' breach of EU law, 2011)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Maciej_Taborowski"
+      ]
+    },
+    {
+      "source": "berek",
+      "target": "zubik",
+      "relation": "PhD supervisor (Marek Zubik, UW; thesis on Council of Ministers as legislative initiator, 2016). Zubik is former TK judge (2010-2019) and former deputy RPO",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Maciej_Berek",
+        "https://ejournals.eu/czasopismo/przeglad-konstytucyjny/strona/zespol-redakcyjny"
+      ]
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "markiewicz",
+      "searched_for": "detailed public asset declaration with side income or property",
+      "result": "none found in press or court sites examined",
+      "sources": []
+    },
+    {
+      "subject": "taborowski",
+      "searched_for": "detailed public asset declaration",
+      "result": "none found in press examined",
+      "sources": []
+    },
+    {
+      "subject": "dziurda",
+      "searched_for": "detailed public asset declaration",
+      "result": "none found in press examined",
+      "sources": []
+    },
+    {
+      "subject": "korwin_piotrowska",
+      "searched_for": "spouse name",
+      "result": "not found; only marital community confirmed",
+      "sources": [
+        "https://naszapolska.pl/sedzia-anna-korwin-piotrowska/"
+      ]
+    }
+  ],
+  "sources_primary": [
+    "https://www.fakt.pl/pieniadze/anna-korwin-piotrowska-i-jej-majatek-dom-mieszkanie-samochody-i-kredyt/0e8kepc",
+    "https://www.money.pl/gospodarka/berek-zaprzysiezony-na-sedziego-tk-oto-jego-majatek-7339875580365248a.html",
+    "https://hlegal.pl/team/",
+    "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+    "https://pl.wikipedia.org/wiki/Maciej_Berek"
+  ]
+}
