@@ -205,7 +205,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
             <label class="row"><input type="checkbox" id="t-anchor" checked><span class="name">Judges in a row, Tusk above, Nawrocki below (when shown)</span></label>
       <label class="row"><input type="checkbox" id="t-show-nawrocki"><span class="name">Show Nawrocki</span></label>
       <p class="meta-line" id="hidden-note"></p>
-      <label class="row"><input type="checkbox" id="t-names"><span class="name">Show every name</span></label>
+      <label class="row"><input type="checkbox" id="t-names"><span class="name">Show every name (names may overlap)</span></label>
     </div>
   </aside>
 
@@ -385,11 +385,11 @@ const state = {
 const svg = d3.select("#svg");
 const root = svg.append("g");
 const gLinks = root.append("g"), gHits = root.append("g"), gNodes = root.append("g");
-const zoom = d3.zoom().scaleExtent([0.15, 6]).on("zoom", ev => { root.attr("transform", ev.transform); updateLabelVis(ev.transform.k); });
+const zoom = d3.zoom().scaleExtent([0.15, 6]).on("zoom", ev => { root.attr("transform", ev.transform); const kChanged = ev.transform.k !== curK; curK = ev.transform.k; if (kChanged) { placeLabels(curK); queueDeclutter(); } });
 svg.call(zoom).on("dblclick.zoom", null);
 svg.on("click", ev => { if (ev.target === svg.node()) select(null); });
 const defs = svg.append("defs");
-let sim, simNodes = [], simLinks = [], curK = 1, pairGroups = new Map();
+let sim, simNodes = [], simLinks = [], curK = 1, pairGroups = new Map(), lastDeclutter = 0, declutterQueued = false;
 const SPRING = new Set(["fact", "alleged"]);
 const posCache = new Map();
 
@@ -422,7 +422,7 @@ function visibleSets() {
 
 // Fixed "spine": the 8 judges in a row (not-sworn left, sworn-in right), Tusk above the middle, Nawrocki below (when shown).
 const ANCHOR_TOP = "tusk", ANCHOR_BOTTOM = "nawrocki";
-let anchorFrame = null;
+let anchorFrame = null, judgeRank = new Map();
 function anchorPositions(width, height) {
   if (!anchorFrame) anchorFrame = { w: width, h: height };
   const { w, h } = anchorFrame, cx = w / 2, rowY = h / 2;
@@ -430,6 +430,7 @@ function anchorPositions(width, height) {
     (a.sworn_before_president === true) - (b.sworn_before_president === true) || String(a.elected || "").localeCompare(String(b.elected || "")) || a.label.localeCompare(b.label));
   const gap = Math.max(120, Math.min(170, (w * 0.9) / Math.max(1, judges.length)));
   const pos = new Map();
+  judgeRank = new Map(judges.map((j, i) => [j.id, i]));
   judges.forEach((j, i) => pos.set(j.id, { x: cx + (i - (judges.length - 1) / 2) * gap, y: rowY }));
   const span = gap * judges.length;
   pos.set(ANCHOR_TOP, { x: cx, y: rowY - Math.max(240, span * 0.28) });
@@ -494,10 +495,24 @@ function render() {
       .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (isAnchored(d)) { d.fx = d._anchor.x; d.fy = d._anchor.y; } else { d.fx = null; d.fy = null; } }));
   node.select(".shape").attr("d", d => d3.symbol(TYPE_SHAPES[d.type] || d3.symbolCircle, nodeSize(d))()).attr("fill", nodeColor);
   node.select(".ring").attr("r", d => isJudge(d) ? radius(d) + 3 : 0);
-  node.select("text").text(d => d.label.length > 42 ? d.label.slice(0, 40) + "…" : d.label)
-    .attr("text-anchor", d => isAnchored(d) ? "middle" : "start")
-    .attr("x", d => isAnchored(d) ? 0 : radius(d) + 4)
-    .attr("y", d => isAnchored(d) ? (d.id === ANCHOR_TOP ? -radius(d) - 8 : radius(d) + 16) : 4);
+  node.select("text").each(function (d) {
+    const t = d3.select(this).text(null).attr("text-anchor", isAnchored(d) ? "middle" : "start");
+    const name = d.label.length > 42 ? d.label.slice(0, 40) + "…" : d.label;
+    if (isAnchored(d)) {
+      // Judges in the row show their surname (full name on hover and in the panel), and every other one
+      // sits a line lower, so the row stays readable even when zoomed right out.
+      const top = d.id === ANCHOR_TOP;
+      const shown = isJudge(d) && name.indexOf(" ") > 0 ? name.slice(name.indexOf(" ") + 1) : name;
+      d._stag = isJudge(d) && judgeRank.get(d.id) % 2 === 1 ? 17 : 0;
+      d._lx = 0; d._ly = top ? -radius(d) - 8 : radius(d) + 16;
+      t.text(shown);
+    } else {
+      d._lx = radius(d) + 4; d._ly = 4; d._stag = 0;
+      t.text(name);
+    }
+    d._bb = null;
+  });
+  placeLabels(curK);
 
   sim = d3.forceSimulation(simNodes)
     .force("link", d3.forceLink(simLinks).id(d => d.id).distance(l => (isJudge(l.source) || isJudge(l.target)) ? 120 : 90).strength(l => SPRING.has(l.e.label) ? .45 : 0))
@@ -522,18 +537,57 @@ function render() {
     link.attr("d", pathD);
     gHits.selectAll("path").attr("d", pathD);
     node.attr("transform", d => `translate(${d.x},${d.y})`);
+    const now = performance.now();
+    if (now - lastDeclutter > 250) { lastDeclutter = now; declutter(); }
   }
+  sim.on("end.labels", declutter);
   applyHighlight();
   updateCounts();
   updateLabelVis(curK);
   setStatus();
 }
 
-function updateLabelVis(k) {
-  curK = k;
-  const sel = state.selected, focus = focusSet();
-  gNodes.selectAll("g.node").select("text").style("display", d =>
-    state.allNames || isJudge(d) || isAnchored(d) || k > 1.5 || (focus && focus.has(d.id)) || d.deg > 9 ? null : "none");
+// Labels keep roughly the same on-screen size while zooming, so zooming in opens up room for more names.
+function labelScale(k) { return 1 / Math.max(k, 0.6); }
+function placeLabels(k) {
+  const sc = labelScale(k);
+  gNodes.selectAll("g.node").select("text")
+    .attr("transform", `scale(${sc})`)
+    .attr("x", d => d._lx / sc).attr("y", d => d._ly / sc + (d._stag || 0));
+}
+function updateLabelVis(k) { curK = k; placeLabels(k); declutter(); }
+function queueDeclutter() {
+  if (declutterQueued) return; declutterQueued = true;
+  requestAnimationFrame(() => { declutterQueued = false; declutter(); });
+}
+// Show as many names as fit without overlapping. Higher-priority names win:
+// judges, Tusk and Nawrocki, then the selected node and its neighbours, search hits, then the best-connected nodes.
+function declutter() {
+  const focus = focusSet(), sel = state.selected, q = state.search.toLowerCase(), sc = labelScale(curK);
+  const texts = gNodes.selectAll("g.node").select("text");
+  const prio = d => (isJudge(d) || isAnchored(d) ? 1e6 : 0) + (sel?.kind === "node" && sel.id === d.id ? 5e5 : 0) +
+    (focus && focus.has(d.id) ? 1e5 : 0) + (q && (d.label.toLowerCase().includes(q) || d.id.includes(q)) ? 5e4 : 0) + d.deg;
+  const cand = [];
+  texts.each(function (d) {
+    if (focus && !focus.has(d.id)) { this.style.display = "none"; return; }
+    this.style.display = null;
+    if (d._bb && d._bb.sc !== sc) d._bb = null;
+    if (!d._bb) { const b = this.getBBox(); if (b.width) d._bb = { x: b.x * sc, y: b.y * sc, w: b.width * sc, h: b.height * sc, sc }; }
+    cand.push({ el: this, d, p: prio(d) });
+  });
+  if (state.allNames) return;
+  cand.sort((a, b) => b.p - a.p);
+  const pad = 2 * sc, placed = [];
+  // Node markers count as occupied space too, so names don't sit on top of other nodes.
+  const marks = simNodes.filter(n => !focus || focus.has(n.id)).map(n => { const r = radius(n); return { x: n.x - r, y: n.y - r, w: 2 * r, h: 2 * r, id: n.id }; });
+  const hit = (a, b) => a.x < b.x + b.w + pad && b.x < a.x + a.w + pad && a.y < b.y + b.h + pad && b.y < a.y + a.h + pad;
+  for (const c of cand) {
+    const bb = c.d._bb; if (!bb) continue;
+    const box = { x: c.d.x + bb.x, y: c.d.y + bb.y, w: bb.w, h: bb.h };
+    const must = c.p >= 1e6;
+    if (!must && (placed.some(b => hit(box, b)) || marks.some(m => m.id !== c.d.id && hit(box, m)))) { c.el.style.display = "none"; continue; }
+    placed.push(box);
+  }
 }
 function focusSet() {
   const s = state.selected; if (!s) return null;
