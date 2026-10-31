@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Lead: Remaining institutional funding, founders, and support details for Iustitia, Themis, and Dom Sędziego Seniora",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Concrete grant amounts and organisational details from Batory/Active Citizens (EEA/Norway), MEN, official foundation pages, and historical sources. Asset declarations for Markiewicz/Taborowski/Dziurda and full Themis annual financials remain unpublished in open sources examined. No direct USAID/NED grants to these associations identified beyond intermediaries."
+  },
+  "nodes": [
+    {
+      "id": "aktywni_obywatele",
+      "type": "project",
+      "group": "funding",
+      "label": "Aktywni Obywatele – Fundusz Krajowy (Active Citizens Fund Poland, EEA/Norway Grants, operated by Batory consortium)",
+      "sources": [
+        "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/",
+        "https://aktywniobywatele.org.pl/projekty/praworzadnosc-wspolna-sprawa/"
+      ]
+    },
+    {
+      "id": "dom_sedziego_seniora",
+      "type": "org",
+      "group": "ngo",
+      "label": "Fundacja Dom Sędziego Seniora (KRS 0000538611)",
+      "founded": "2014-11-26; OPP status 2017-11-29",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.kwartalnikiustitia.pl/domy-na-czas-jesieni-zyciao-inicjatywie-powstania-sieci-domow-sedziego-seniora,8376"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "aktywni_obywatele",
+      "target": "iustitia",
+      "relation": "organisational grant 100,000 EUR (1 May 2022–30 Apr 2024); additional 8,000 EUR to enhance results; project 'Praworządność Wspólna Sprawa' 58,830.82 EUR (1 Nov 2021–30 Apr 2024)",
+      "confidence": "fact",
+      "sources": [
+        "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/",
+        "https://aktywniobywatele.org.pl/projekty/praworzadnosc-wspolna-sprawa/"
+      ],
+      "notes": "EEA/Norway Grants administered via Batory-led Active Citizens Fund"
+    },
+    {
+      "source": "batory",
+      "target": "themis",
+      "relation": "project 'Wspólnie przeciw dyskryminacji' (nr E2/1493) with INPRIS partner; EEA Grants via 'Obywatele dla Demokracji' (Batory + Polish Foundation for Children and Youth); cited amounts include 2,389.98 PLN (2016) and 154,989.98 PLN under Active Citizens phase",
+      "confidence": "fact",
+      "sources": [
+        "https://themis-sedziowie.eu/themis-wspolnie-z-inpris-rozpoczynaja-projekt-wspolnie-przeciw-dyskryminacji/",
+        "https://www.inpris.pl/co-sie-dzieje-w-inpris/artykul/t/wspolnie-przeciw-dyskryminacji-nowy-projekt-themis-i-inpris/",
+        "https://x.com/DariuszMatecki/status/1888948831737323830"
+      ],
+      "date": "2014-2016 onward"
+    },
+    {
+      "source": "men",
+      "target": "iustitia",
+      "relation": "2025 'Młodzi obywatele' programme: ~139,877 PLN for 'Hallo! Tu Konstytucja'; related Fundacja Edukacji Prawnej Iustitia ~114,500 PLN for '100 lekcji w sądzie'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rmf24.pl/fakty/polityka/news-kontrola-poselska-ws-dotacji-dla-iustitii-korupcja-polityczn,nId,8040489",
+        "https://x.com/OZS_Aequitas/status/1957742218065715356"
+      ],
+      "date": "2025"
+    },
+    {
+      "source": "aba_ceeli",
+      "target": "iustitia",
+      "relation": "early 1990s support via American Bar Association Central and East European Law Initiative; US State Department support for 1998-99 criminal codes training programme covering nearly all Polish criminal judges",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+      ],
+      "date": "1990s"
+    },
+    {
+      "source": "iustitia",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder (represented by Maciej Strączyński and Jolanta Korwin-Piotrowska at founding); co-founder of Fundusz Pomocy used for Oct 2026 support requests",
+      "confidence": "fact",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.kwartalnikiustitia.pl/domy-na-czas-jesieni-zyciao-inicjatywie-powstania-sieci-domow-sedziego-seniora,8376",
+        "https://www.kwartalnikiustitia.pl/jest-fundacja-dom-sedziego-seniora,7457"
+      ],
+      "date": "2014-11-26"
+    },
+    {
+      "source": "themis",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder (represented by Irena Kamińska); Irena Kamińska later vice-president of foundation board",
+      "confidence": "fact",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.kwartalnikiustitia.pl/domy-na-czas-jesieni-zyciao-inicjatywie-powstania-sieci-domow-sedziego-seniora,8376"
+      ],
+      "date": "2014-11-26"
+    },
+    {
+      "source": "themis",
+      "target": "korwin_piotrowska",
+      "relation": "president of main board from August 2024 (after Beata Morawiec 2018-2024; Irena Kamińska 2010-2018); Themis founded 2010 as split from Iustitia",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_%E2%80%9EThemis%E2%80%9D",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ]
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "iustitia",
+      "searched_for": "direct USAID or NED grants",
+      "result": "none identified in open sources; funding documented via Batory/EEA/Active Citizens and early ABA/State Dept",
+      "sources": []
+    },
+    {
+      "subject": "themis",
+      "searched_for": "detailed annual financial statements or full donor lists",
+      "result": "KRS active (0000359066) but public financial reports limited; specific project grants documented",
+      "sources": [
+        "https://rejestr.io/krs/359066/stowarzyszenie-sedziow-themis"
+      ]
+    },
+    {
+      "subject": "markiewicz",
+      "searched_for": "detailed public asset declaration",
+      "result": "none found in press or court sites examined",
+      "sources": []
+    },
+    {
+      "subject": "taborowski",
+      "searched_for": "detailed public asset declaration",
+      "result": "none found; noted he retains university employment while barred from TK duties",
+      "sources": [
+        "https://www.wprost.pl/kraj/12482419/sedziowie-tk-bez-pensji-po-decyzji-bogdana-swieczkowskiego-sprawa-trafi-do-etpc.html"
+      ]
+    },
+    {
+      "subject": "dziurda",
+      "searched_for": "detailed public asset declaration",
+      "result": "none found",
+      "sources": []
+    }
+  ],
+  "sources_primary": [
+    "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/",
+    "https://aktywniobywatele.org.pl/projekty/praworzadnosc-wspolna-sprawa/",
+    "https://www.domsedziegoseniora.pl/o-fundacji/",
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D",
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_%E2%80%9EThemis%E2%80%9D",
+    "https://themis-sedziowie.eu/themis-wspolnie-z-inpris-rozpoczynaja-projekt-wspolnie-przeciw-dyskryminacji/",
+    "https://www.rmf24.pl/fakty/polityka/news-kontrola-poselska-ws-dotacji-dla-iustitii-korupcja-polityczn,nId,8040489",
+    "https://x.com/DariuszMatecki/status/1888948831737323830",
+    "https://x.com/OZS_Aequitas/status/1957742218065715356"
+  ]
+}
