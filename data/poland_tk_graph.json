@@ -466,15 +466,6 @@
    ]
   },
   {
-   "id": "baltic_9",
-   "type": "project",
-   "group": "wind_project",
-   "label": "Baltic 9 offshore wind",
-   "sources": [
-    "https://notesfrompoland.com/2026/07/10/polands-first-offshore-wind-farm-begins-generating-power/"
-   ]
-  },
-  {
    "id": "baltyk",
    "type": "project",
    "group": "wind_project",
@@ -2171,33 +2162,14 @@
    "added_by": "lead_taborowski_patyra"
   },
   {
-   "id": "gdansk_t5",
-   "type": "asset",
-   "group": "energy_wind",
-   "label": "Terminal T5, Port of Gdańsk (Baltica 2 installation base)",
-   "sources": [
-    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ]
-  },
-  {
    "id": "baltica2",
    "type": "project",
    "group": "energy_wind",
    "label": "Baltica 2 offshore wind farm (PGE + Ørsted)",
    "sources": [
     "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ]
-  },
-  {
-   "id": "istrana",
-   "type": "org",
-   "group": "company",
-   "label": "Istrana (PFR + Baltic Hub company)",
-   "sources": [
-    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/",
+    "https://notesfrompoland.com/2026/07/10/polands-first-offshore-wind-farm-begins-generating-power/"
    ]
   }
  ],
@@ -2577,7 +2549,7 @@
   },
   {
    "source": "pge",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "developer",
    "confidence": "fact",
    "sources": [
@@ -2586,7 +2558,7 @@
   },
   {
    "source": "orsted",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "partner",
    "confidence": "fact",
    "sources": [
@@ -5246,7 +5218,7 @@
   },
   {
    "source": "eib",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "loan €400M to PGE (Baltica 2)",
    "confidence": "fact",
    "date": "2025-02",
@@ -5265,7 +5237,7 @@
   },
   {
    "source": "ebrd",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "loan €200M (Baltica 2)",
    "confidence": "fact",
    "sources": [
@@ -5293,7 +5265,7 @@
   },
   {
    "source": "eifo",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "guarantee €800M (Baltica 2)",
    "confidence": "fact",
    "sources": [
@@ -5302,7 +5274,7 @@
   },
   {
    "source": "kpo_bgk",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "loan PLN 5.5B+ (Baltica 2)",
    "confidence": "fact",
    "date": "2025-01-30",
@@ -5931,7 +5903,7 @@
   },
   {
    "source": "patyra",
-   "target": "baltic_9",
+   "target": "baltica2",
    "relation": "voted on Baltica 2 wind decisions (not on strategy committee; FID taken by project company)",
    "confidence": "speculation",
    "sources": [
@@ -7356,42 +7328,6 @@
    "via": "batory"
   },
   {
-   "source": "tusk",
-   "target": "gdansk_t5",
-   "relation": "opened the terminal, morning of 30 Oct (same day as the TK move; first report 12:06)",
-   "confidence": "fact",
-   "sources": [
-    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ],
-   "added_by": "lead_t5_2026-10-30",
-   "date": "2026-10-30"
-  },
-  {
-   "source": "baltica2",
-   "target": "gdansk_t5",
-   "relation": "project company took over T5 from Istrana at the ceremony",
-   "confidence": "fact",
-   "sources": [
-    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ],
-   "added_by": "lead_t5_2026-10-30",
-   "date": "2026-10-30"
-  },
-  {
-   "source": "istrana",
-   "target": "gdansk_t5",
-   "relation": "built and handed over T5",
-   "confidence": "fact",
-   "sources": [
-    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
-    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ],
-   "added_by": "lead_t5_2026-10-30",
-   "date": "2026-10-30"
-  },
-  {
    "source": "pge",
    "target": "baltica2",
    "relation": "co-owner",
@@ -7414,16 +7350,15 @@
    "added_by": "lead_t5_2026-10-30"
   },
   {
-   "source": "gdansk_t5",
-   "target": "tk",
-   "relation": "T5 opening and 30 Oct TK move were connected (same day; no source links them, no TK mention or PGE speaker at the event; Patyra left PGE board Dec 2025)",
-   "confidence": "speculation",
+   "source": "tusk",
+   "target": "baltica2",
+   "relation": "opened its installation terminal in Gdańsk, 30 Oct",
+   "confidence": "fact",
+   "date": "2026-10-30",
    "sources": [
     "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
     "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
-   ],
-   "added_by": "lead_t5_2026-10-30",
-   "date": "2026-10-30"
+   ]
   }
  ],
  "checked_no_link": [
