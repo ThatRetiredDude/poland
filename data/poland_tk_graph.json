@@ -2096,7 +2096,8 @@
    "group": "us_gov",
    "label": "US State Dept International Visitor Leadership Program",
    "sources": [
-    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+    "https://www.gov.pl/web/climate/krzysztof-bolesta",
+    "https://en.wikipedia.org/wiki/International_Visitor_Leadership_Program"
    ]
   },
   {
@@ -7368,11 +7369,12 @@
   {
    "source": "tusk",
    "target": "ivlp",
-   "relation": "took part in a State Dept visitor programme (no record found)",
-   "confidence": "no_link",
+   "relation": "IVLP participant, 1995 (Wikipedia alumni table; not confirmed on a State Dept page)",
+   "confidence": "fact",
    "sources": [
-    "https://dzieje.pl/postacie/donald-tusk"
-   ]
+    "https://en.wikipedia.org/wiki/International_Visitor_Leadership_Program"
+   ],
+   "date": "1995"
   },
   {
    "source": "cia",
