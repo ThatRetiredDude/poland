@@ -55,15 +55,18 @@
    "roots": "Katowice, Silesia (career base; birthplace not found)",
    "education": "Law, Univ. of Silesia 2000; PhD 2006; habilitation 2014",
    "career": "Judge, Katowice courts 2003-2026 (first appointed by Lech Kaczynski); Iustitia president 2016-2025; chair, MoJ judiciary codification commission 2024",
-   "money_affiliations": "No asset declaration found; co-author of Osiatynski Archive 2024 report (council seat not confirmed); speaker at 2025 European Economic Congress rule-of-law panel",
+   "money_affiliations": "No asset declaration found; Osiatyński Archive programme council member since 2017; co-author of its 2024 report; speaker at 2025 European Economic Congress rule-of-law panel",
    "sources": [
     "https://www.wolterskluwer.com/pl-pl/experts/krystian-markiewicz",
     "https://tvn24.pl/polska/krystian-markiewicz-stawka-nie-sa-sady-a-wolnosc-ra757593-ls2571552",
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
     "https://www.eecpoland.eu/2025/en/panel/7204.html",
-    "https://trybunal.net/en/2026-elections-and-oaths/"
+    "https://trybunal.net/en/2026-elections-and-oaths/",
+    "https://pl.wikipedia.org/wiki/Krystian_Markiewicz"
    ],
-   "sejm_vote": "236 for, 187 against, 4 abstained (13 Mar 2026)"
+   "sejm_vote": "236 for, 187 against, 4 abstained (13 Mar 2026)",
+   "born": "1976-07-08, Proszowice (per Polish Wikipedia)",
+   "phd": "2006, Univ. of Silesia, dissertation on deposit of the object of performance with the court; supervisor Feliks Zedler (per Polish Wikipedia)"
   },
   {
    "id": "taborowski",
@@ -102,7 +105,7 @@
    "born": "1969-11-01",
    "education": "Law, Univ. of Wroclaw; postgraduate SGH",
    "career": "Judicial apprenticeship 1995-97; judge Kedzierzyn-Kozle district court 1999; its president from 1 Jun 2003 (second term 2007-09); Opole regional court judge 2006; Opole vice-president 2012-17 (removed by fax, Ziobro ministry, Dec 2017); Opole president 2024 (appointed by Bodnar); civil, enforcement, labour and commercial cases; court mediation promoter; lecturer for trainee advocates and legal advisers",
-   "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings. 2026: chair of Opole legal-adviser exam commission (Zurek ordinance 17 Feb 2026), fee ~PLN 7k. ECHR settlement EUR 15k (2024). President of Themis (MEDEL member). No private practice, firm, client, company, board or grant found. 2026 declaration (as of 9 Apr 2026): savings PLN 132,774.70 + EUR 29,190.95 + USD 6,000; the same house and flat plus an undeveloped plot. 2025 declaration side income: PLN 13,360 from MoJ exam commissions, PLN 1,800 from the Opole Bar, PLN 280 from the Opole legal advisers' chamber; cars Hyundai Tucson (2017) and Alfa Romeo MiTo (2018)",
+   "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings. 2026: chair of Opole legal-adviser exam commission (Zurek ordinance 17 Feb 2026), fee ~PLN 7k. ECHR case 38993/22: EUR 15,000 under Poland's unilateral declaration, which she accepted (decision 19 Dec 2024, published 23 Jan 2025). President of Themis (MEDEL member). No private practice, firm, client, company, board or grant found. 2026 declaration (as of 9 Apr 2026): savings PLN 132,774.70 + EUR 29,190.95 + USD 6,000; the same house and flat plus an undeveloped plot. 2025 declaration side income: PLN 13,360 from MoJ exam commissions, PLN 1,800 from the Opole Bar, PLN 280 from the Opole legal advisers' chamber; cars Hyundai Tucson (2017) and Alfa Romeo MiTo (2018)",
    "sources": [
     "https://www.money.pl/finanse/awantura-o-trybunal-konstytucyjny-taki-majatek-ma-sedzia-korwin-piotrowska-7345879794936288a.html",
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
@@ -113,7 +116,8 @@
     "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html",
     "https://naszapolska.pl/sedzia-anna-korwin-piotrowska/",
     "https://www.biznesinfo.pl/dom-mieszkanie-samochody-i-pokazne-oszczednosci-oswiadczenie-majatkowe-anny-korwin-piotrowskiej-jb-wzk-311026",
-    "https://trybunal.net/en/2026-elections-and-oaths/"
+    "https://trybunal.net/en/2026-elections-and-oaths/",
+    "https://www.gov.pl/web/sprawiedliwosc/decyzja-w-sprawie-korwin-piotrowska-przeciwko-polsce-skarga-nr-3899322"
    ],
    "birthplace": "Not found in any source",
    "family": "Married (property held in marital community per her 2025 declaration); spouse not named in any source. No documented family tie to journalist Karolina Korwin-Piotrowska or politician Janusz Korwin-Mikke",
@@ -161,10 +165,11 @@
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
     "https://notesfrompoland.com/2026/04/01/president-swears-in-polands-first-new-constitutional-court-judges-for-four-years-but-standoff-remains/",
     "https://trybunal.net/en/2026-elections-and-oaths/",
-    "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+    "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/",
+    "https://www.bielsko.info/wiadomosci/wiadomosci/47291-dariusz-szostek-mieszkaniec-jaworza-sedzia-trybunalu-konstytucyjnego-bielsko-biala"
    ],
    "sejm_vote": "237 for, 185 against, 4 abstained (13 Mar 2026)",
-   "born": "1973"
+   "born": "1973-03-21"
   },
   {
    "id": "bentkowska",
@@ -182,9 +187,11 @@
    "sources": [
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
     "https://notesfrompoland.com/2026/04/01/president-swears-in-polands-first-new-constitutional-court-judges-for-four-years-but-standoff-remains/",
-    "https://trybunal.net/en/2026-elections-and-oaths/"
+    "https://trybunal.net/en/2026-elections-and-oaths/",
+    "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/"
    ],
-   "sejm_vote": "236 for, 186 against, 4 abstained (13 Mar 2026)"
+   "sejm_vote": "236 for, 186 against, 4 abstained (13 Mar 2026)",
+   "roots": "Rzeszów"
   },
   {
    "id": "patyra",
@@ -231,9 +238,16 @@
     "https://www.eska.pl/news/polityka/berek-i-kotowski-w-grze-o-fotel-sedziego-trybunalu-konstytucyjnego-zdecyduje-sejm-aa-LvBk-UGsV-9hvJ.html",
     "https://www.eska.pl/news/polityka/karol-nawrocki-oswiadcza-berek-nie-jest-sedzia-tk-aa-6Ftt-z4dE-6TZw.html",
     "https://www.money.pl/gospodarka/berek-zaprzysiezony-na-sedziego-tk-oto-jego-majatek-7339875580365248a.html",
-    "https://trybunal.net/en/2026-elections-and-oaths/"
+    "https://trybunal.net/en/2026-elections-and-oaths/",
+    "https://czasnagdansk.pl/ludzie/maciej-berek",
+    "https://eli.gov.pl/api/acts/MP/2025/689/text/I/M20250689.pdf",
+    "https://inwestycje.pl/gospodarka/prezydent-dokonal-zmian-w-skladzie-rady-ministrow-2/",
+    "https://eli.gov.pl/api/acts/MP/2026/808/text/I/M20260808.pdf"
    ],
-   "sejm_vote": "226 votes of 437 (4 Sep 2026); oath in the Sejm 14 Oct 2026"
+   "sejm_vote": "226 votes of 437 (4 Sep 2026); oath in the Sejm 14 Oct 2026",
+   "born": "1972-05-12, Gdańsk",
+   "phd": "2016, Univ. of Warsaw law faculty; supervisor Marek Zubik",
+   "minister_posts": "Minister, member of the Council of Ministers 13 Dec 2023 - 24 Jul 2025; Minister for Supervising Implementation of Government Policy 24 Jul 2025 - 14 Aug 2026 (dismissed by presidential decision of 14 Aug 2026)"
   },
   {
    "id": "kotowski",
@@ -579,9 +593,15 @@
    "sources": [
     "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
     "https://themis-sedziowie.eu/statut/",
-    "https://www.inpris.pl/co-sie-dzieje-w-inpris/artykul/t/wspolnie-przeciw-dyskryminacji-nowy-projekt-themis-i-inpris/"
+    "https://www.inpris.pl/co-sie-dzieje-w-inpris/artykul/t/wspolnie-przeciw-dyskryminacji-nowy-projekt-themis-i-inpris/",
+    "https://www.rp.pl/sady-i-trybunaly/art7175111-themis-czyli-sedziowska-fronda",
+    "https://www.prawo.pl/prawnicy-sady/themis-nie-bedzie-zwiazkiem-zawodowym-sedziow,171171.html",
+    "https://www.rp.pl/sady-i-trybunaly/art2177111-beata-morawiec-prezesem-stowarzyszenia-sedziow-themis",
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_%E2%80%9EThemis%E2%80%9D"
    ],
-   "funding": "Dues (statute min. 20 zł/member/month), donations; one EEA-funded project found (2014 'Wspólnie przeciw dyskryminacji' with INPRIS, 'Obywatele dla Demokracji' programme, amount not stated); no financial statements published"
+   "funding": "Dues (statute min. 20 zł/member/month), donations; one EEA-funded project found (2014 'Wspólnie przeciw dyskryminacji' with INPRIS, 'Obywatele dla Demokracji' programme, amount not stated); no financial statements published",
+   "founded": "Registered June 2010 after the end-2009 split in Iustitia; Irena Kamińska among the founders (OKO.press gives 2009 as the founding year)",
+   "presidents": "Irena Kamińska 2010-Jan 2018; Beata Morawiec from Jan 2018; Anna Korwin-Piotrowska from 2024 (August per Polish Wikipedia)"
   },
   {
    "id": "hfhr",
@@ -3165,7 +3185,7 @@
   {
    "source": "korwin_piotrowska",
    "target": "themis",
-   "relation": "founder and member",
+   "relation": "member; president from 2024 (no source shows her as a founder)",
    "confidence": "fact",
    "sources": [
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"

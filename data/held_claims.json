@@ -109,15 +109,13 @@
   },
   {
    "id": "phd_supervisors",
-   "claim": "PhD supervisors: Markiewicz - Feliks Zedler (2006); Dziurda - Tadeusz Ereciński (UW 2004); Taborowski - Władysław Czapliński (INP PAN 2011); Berek - Marek Zubik (UW 2016), a former TK judge",
+   "claim": "PhD supervisors: Dziurda - Tadeusz Ereciński (UW 2004); Taborowski - Władysław Czapliński (INP PAN 2011)",
    "status": "needs_source",
    "about": [
-    "markiewicz",
     "dziurda",
-    "taborowski",
-    "berek"
+    "taborowski"
    ],
-   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31. No other source checked yet.",
+   "checked": "Polish Wikipedia could not be reached from the checking tool (not missing); no second source found yet. Markiewicz (Zedler) and Berek (Zubik) are now on their profiles.",
    "sources": [
     "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
     "https://pl.wikipedia.org/wiki/Marcin_Dziurda",
@@ -130,35 +128,19 @@
   },
   {
    "id": "judge_bio_details",
-   "claim": "Bio details: Markiewicz born 8 Jul 1976 in Proszowice; Berek born 12 May 1972, ENA study, PO Sejm candidate 2005; Bentkowska born 1966 in Rzeszów, daughter of Aleksander Bentkowski, DePaul scholarship; Szostek born 21 Mar 1973, PhD 2003, Horizon 2020 grants SHOP4CF and MAS4AI; Korwin-Piotrowska SGH postgraduate years 2004 and 2014",
+   "claim": "Bio details: Bentkowska born 24 Nov 1966, daughter of Aleksander Bentkowski, DePaul scholarship; Berek ENA study and 2005 PO Sejm candidacy; Szostek PhD 2003 and Horizon 2020 grants SHOP4CF and MAS4AI; Korwin-Piotrowska's SGH postgraduate years 2004 and 2014",
    "status": "needs_source",
    "about": [
-    "markiewicz",
-    "berek",
     "bentkowska",
+    "berek",
     "szostek",
     "korwin_piotrowska"
    ],
-   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31. Szostek's us.edu.pl profile gives only birth year 1973; Korwin-Piotrowska's SGH studies are confirmed but without years.",
+   "checked": "Polish Wikipedia could not be reached from the checking tool (not missing); no second source found yet. Markiewicz's and Berek's birth data, Berek's minister posts, Szostek's birth date and Bentkowska's Rzeszów roots are now on their profiles.",
    "sources": [
     "https://pl.wikipedia.org/wiki/Magdalena_Bentkowska",
     "https://pl.wikipedia.org/wiki/Dariusz_Szostek",
     "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
-   ],
-   "raised_in": [
-    "grok-v1 branch"
-   ]
-  },
-  {
-   "id": "markiewicz_osiatynski_council",
-   "claim": "Markiewicz sits on the Osiatyński Archive programme council",
-   "status": "misleading",
-   "about": [
-    "markiewicz"
-   ],
-   "checked": "The re:constitution profile puts Taborowski, not Markiewicz, on the Osiatyński Archive council. Earlier research found Markiewicz only co-authored a 2024 Archive report.",
-   "sources": [
-    "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski"
    ],
    "raised_in": [
     "grok-v1 branch"
@@ -207,24 +189,6 @@
    "checked": "HigherGov lists the $6,389,705 agreement as 'Building Resilience in Civil Society' to undisclosed foreign awardees, which matches GMF's CEBRICS title, and never mentions Dexis.",
    "sources": [
     "https://www.highergov.com/grant/7200AA22CA00025/"
-   ],
-   "raised_in": [
-    "grok-v1 branch"
-   ]
-  },
-  {
-   "id": "watchdog_ned_dexis_grants",
-   "claim": "Watchdog Polska got NED grants of $45,000 and $40,000 and a Dexis/USAID project of PLN 235,385",
-   "status": "needs_source",
-   "about": [
-    "ned",
-    "watchdog_polska",
-    "usaid_cep"
-   ],
-   "checked": "Watchdog's BIP page could not be read. Advocacy site Proelio says 'over PLN 700k' from NED and PLN 235k via Dexis in 2021-24; needs the primary report.",
-   "sources": [
-    "https://bip.siecobywatelska.pl/index.php?id=1190",
-    "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo"
    ],
    "raised_in": [
     "grok-v1 branch"
@@ -304,24 +268,9 @@
     "journal_of_democracy",
     "ned"
    ],
-   "checked": "The journal says it is published by Johns Hopkins University Press; NED holds the article copyright. Mapped with that wording.",
+   "checked": "NED's International Forum produces the journal and Johns Hopkins University Press publishes it 'for the Endowment'. 'In-house' overstates it; mapped with that wording.",
    "sources": [
     "https://www.journalofdemocracy.org/about/"
-   ],
-   "raised_in": [
-    "grok-v1 branch"
-   ]
-  },
-  {
-   "id": "themis_history",
-   "claim": "Themis founded 2010 as a split from Iustitia; presidents Irena Kamińska 2010-18, Beata Morawiec 2018-24, Korwin-Piotrowska from Aug 2024",
-   "status": "needs_source",
-   "about": [
-    "themis"
-   ],
-   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31.",
-   "sources": [
-    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_%E2%80%9EThemis%E2%80%9D"
    ],
    "raised_in": [
     "grok-v1 branch"

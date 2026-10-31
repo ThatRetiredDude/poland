@@ -72,7 +72,7 @@
    "id": "journal_of_democracy",
    "type": "org",
    "group": "media",
-   "label": "Journal of Democracy (NED journal, published by Johns Hopkins University Press)",
+   "label": "Journal of Democracy (produced by NED's International Forum, published by Johns Hopkins University Press)",
    "sources": [
     "https://www.journalofdemocracy.org/about/",
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
@@ -557,9 +557,11 @@
   {
    "source": "ned",
    "target": "journal_of_democracy",
-   "relation": "copyright holder of the journal's articles; publisher is Johns Hopkins University Press",
+   "relation": "NED's International Forum for Democratic Studies produces the journal; Johns Hopkins University Press publishes it 'for the Endowment'; NED holds article copyright",
    "confidence": "fact",
    "sources": [
+    "https://ned.org/international-forum-for-democratic-studies",
+    "https://www.ned.org/wp-content/uploads/Forum_Overview2010.pdf",
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
     "https://www.journalofdemocracy.org/about/"
    ],
@@ -572,6 +574,49 @@
    "confidence": "alleged",
    "sources": [
     "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "markiewicz",
+   "target": "osiatynski",
+   "relation": "programme council member since 2017",
+   "confidence": "fact",
+   "sources": [
+    "https://www.wolterskluwer.com/pl-pl/experts/krystian-markiewicz"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "watchdog_polska",
+   "relation": "EU Transparency Register, FY2024: NED grants EUR 41,250 ('Freedom of Information - Recovery Action') and EUR 41,129 ('Improving Access to Information'); FY2025: EUR 39,982",
+   "confidence": "fact",
+   "sources": [
+    "https://www.lobbyfacts.eu/datacard/sie%C4%87-obywatelska-watchdog-polska-citizens-network-watchdog-poland?rid=384760948458-33&sid=230271",
+    "https://www.lobbyfacts.eu/datacard/sie%C4%87-obywatelska-watchdog-polska-citizens-network-watchdog-poland?rid=384760948458-33"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "usaid_cep",
+   "target": "watchdog_polska",
+   "relation": "EU Transparency Register: Dexis / USAID CEP Rule of Law Activity project 'Watchdogs - expansion, effectiveness...' EUR 54,990 (FY2024), EUR 20,693 (FY2025)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.lobbyfacts.eu/datacard/sie%C4%87-obywatelska-watchdog-polska-citizens-network-watchdog-poland?rid=384760948458-33&sid=230271",
+    "https://www.lobbyfacts.eu/datacard/sie%C4%87-obywatelska-watchdog-polska-citizens-network-watchdog-poland?rid=384760948458-33"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "themis",
+   "target": "korwin_piotrowska",
+   "relation": "Irena Kamińska founded Themis in 2010 and led it to Jan 2018; Beata Morawiec followed; Korwin-Piotrowska president from 2024",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art2177111-beata-morawiec-prezesem-stowarzyszenia-sedziow-themis",
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
    ],
    "added_by": "grok-v1 review"
   }
