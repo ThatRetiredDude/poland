@@ -1,890 +1,759 @@
 {
- "meta": {
-  "title": "Lead: judges' associations, Free Courts, Wawrykiewicz and OSF",
-  "as_of": "2026-10-31",
-  "parent_graph": "poland_tk_graph.json",
-  "note": "Same schema as parent. node_updates add fields to existing parent nodes. Institutional/financial ties only."
- },
- "nodes": [
-  {
-   "id": "boell_pl",
-   "type": "org",
-   "group": "foreign_funder",
-   "label": "Heinrich Böll Foundation Warsaw (German Greens-linked)",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "id": "wolna_gospodarka",
-   "type": "org",
-   "group": "ngo",
-   "label": "Fundacja Wolna Gospodarka",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "id": "democrisis",
-   "type": "org",
-   "group": "ngo",
-   "label": "DemoCrisis (Brussels pro-democracy network, 2023)",
-   "sources": [
-    "https://demo-crisis.eu/",
-    "https://en.wikipedia.org/wiki/DemoCrisis"
-   ]
-  },
-  {
-   "id": "wawrykiewicz_law",
-   "type": "org",
-   "group": "company",
-   "label": "Wawrykiewicz Law Firm (Kancelaria Adwokacka)",
-   "sources": [
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
-   ]
-  },
-  {
-   "id": "ejchart",
-   "type": "person",
-   "group": "lawyer",
-   "label": "Maria Ejchart(-Dubois)",
-   "career": "Free Courts co-founder; KOS coordinator (per Free Courts 2021)",
-   "sources": [
-    "https://wolnesady.org/en/",
-    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
-   ]
-  },
-  {
-   "id": "gregorczyk_abram",
-   "type": "person",
-   "group": "lawyer",
-   "label": "Sylwia Gregorczyk-Abram",
-   "career": "Free Courts co-founder; co-leads the foundation now",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "id": "kieszkowska",
-   "type": "person",
-   "group": "lawyer",
-   "label": "Paulina Kieszkowska(-Knapik)",
-   "career": "Free Courts co-founder; co-leads the foundation now",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "id": "inpris",
-   "type": "org",
-   "group": "ngo",
-   "label": "INPRIS (Institute for Law and Society)",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
-   ]
-  },
-  {
-   "id": "bojarski",
-   "type": "person",
-   "group": "ngo_leader",
-   "label": "Łukasz Bojarski (INPRIS president)",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
-   ]
-  },
-  {
-   "id": "lex_super_omnia",
-   "type": "org",
-   "group": "ngo",
-   "label": "Lex Super Omnia (prosecutors' association)",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
-   ]
-  },
-  {
-   "id": "holda_assoc",
-   "type": "org",
-   "group": "ngo",
-   "label": "Prof. Zbigniew Hołda Association",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
-   ]
-  },
-  {
-   "id": "dom_sedziego_seniora",
-   "type": "org",
-   "group": "ngo",
-   "label": "Dom Sędziego Seniora foundation",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
-   ]
-  },
-  {
-   "id": "neo_krs",
-   "type": "org",
-   "group": "state_body",
-   "label": "National Council of the Judiciary (PiS-era 'neo-KRS')",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
-   ]
-  },
-  {
-   "id": "judicial_watch",
-   "type": "org",
-   "group": "media_advocacy",
-   "label": "Judicial Watch (US conservative watchdog)",
-   "sources": [
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ]
-  },
-  {
-   "id": "juri_libe",
-   "type": "org",
-   "group": "eu_body",
-   "label": "European Parliament JURI and LIBE committees",
-   "sources": [
-    "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home"
-   ]
-  },
-  {
-   "id": "sochanski",
-   "type": "person",
-   "group": "tk_judge_prior",
-   "label": "Bartłomiej Sochański (TK vice-president)",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  }
- ],
- "edges": [
-  {
-   "source": "osf",
-   "target": "free_courts",
-   "relation": "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself not machine-readable here",
-   "confidence": "fact",
-   "sources": [
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ],
-   "date": "2023"
-  },
-  {
-   "source": "ned",
-   "target": "free_courts",
-   "relation": "listed as a partner (logo only, no amount or year)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "boell_pl",
-   "target": "free_courts",
-   "relation": "listed as a partner (logo only)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "wolna_gospodarka",
-   "target": "free_courts",
-   "relation": "listed as a partner (logo only)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "osf",
-   "target": "free_courts",
-   "relation": "any OSF grant other than the 2023-24 one",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2"
-   ]
-  },
-  {
-   "source": "judicial_watch",
-   "target": "free_courts",
-   "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
-   "confidence": "fact",
-   "sources": [
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ],
-   "date": "2026-03-09"
-  },
-  {
-   "source": "judicial_watch",
-   "target": "free_courts",
-   "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
-   "confidence": "alleged",
-   "sources": [
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ]
-  },
-  {
-   "source": "osf",
-   "target": "themis",
-   "relation": "no OSF grant found",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ]
-  },
-  {
-   "source": "eea",
-   "target": "themis",
-   "relation": "no Active Citizens Fund grant found",
-   "confidence": "no_link",
-   "sources": [
-    "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/"
-   ]
-  },
-  {
-   "source": "neo_krs",
-   "target": "iustitia",
-   "relation": "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
-   ],
-   "date": "2023-08"
-  },
-  {
-   "source": "iustitia",
-   "target": "dom_sedziego_seniora",
-   "relation": "co-founder of foundation that fundraised for suspended judges",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
-   ]
-  },
-  {
-   "source": "themis",
-   "target": "dom_sedziego_seniora",
-   "relation": "co-founder of foundation that fundraised for suspended judges",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
-   ]
-  },
-  {
-   "source": "osf",
-   "target": "iustitia",
-   "relation": "'Soros funds Iustitia/Themis' claims: none found in any source checked",
-   "confidence": "no_link",
-   "sources": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach",
-    "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-   ]
-  },
-  {
-   "source": "holda_assoc",
-   "target": "kos",
-   "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
-   ]
-  },
-  {
-   "source": "lex_super_omnia",
-   "target": "kos",
-   "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
-   ]
-  },
-  {
-   "source": "hfhr",
-   "target": "kos",
-   "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
-   ]
-  },
-  {
-   "source": "inpris",
-   "target": "kos",
-   "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
-   ]
-  },
-  {
-   "source": "osiatynski",
-   "target": "kos",
-   "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
-   ]
-  },
-  {
-   "source": "bojarski",
-   "target": "kos",
-   "relation": "signed founding collaboration agreement for INPRIS",
-   "confidence": "fact",
-   "sources": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
-   ],
-   "date": "2018-06-04"
-  },
-  {
-   "source": "ejchart",
-   "target": "kos",
-   "relation": "coordinator (per Free Courts, 2021)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "kos",
-   "relation": "co-initiator",
-   "confidence": "fact",
-   "sources": [
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
-    "https://oko.press/wawrykiewicz-destrukcji-rzadow-prawa"
-   ],
-   "date": "2018-06-04"
-  },
-  {
-   "source": "markiewicz",
-   "target": "kos",
-   "relation": "led founding member Iustitia at the time; personal role in KOS not documented",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
-    "https://www.rp.pl/opinie-prawne/art1860231-niech-polityk-nie-wchodzi-na-nasza-plansze-sedzia-o-powolaniu-komitetu-obrony-sprawiedliwosci"
-   ]
-  },
-  {
-   "source": "kos",
-   "target": "tk",
-   "relation": "any KOS statement on the 2026 TK takeover; no dated KOS activity found after 2021",
-   "confidence": "no_link",
-   "sources": [
-    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/",
-    "https://hfhr.pl/en/about-us/cooperation-network/komitet-obrony-sprawiedliwosci-191467807"
-   ]
-  },
-  {
-   "source": "osf",
-   "target": "kos",
-   "relation": "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)",
-   "confidence": "speculation",
-   "sources": [
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
-    "https://archiwum.hfhr.pl/en/supporters/darczyncy-en/open-society-foundations-2/index.html"
-   ]
-  },
-  {
-   "source": "ejchart",
-   "target": "free_courts",
-   "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "gregorczyk_abram",
-   "target": "free_courts",
-   "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "kieszkowska",
-   "target": "free_courts",
-   "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "gregorczyk_abram",
-   "target": "free_courts",
-   "relation": "co-leads the foundation now",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "kieszkowska",
-   "target": "free_courts",
-   "relation": "co-leads the foundation now",
-   "confidence": "fact",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "free_courts",
-   "relation": "board member until 2024 (resigned June 2024 before taking EP seat); paid EUR 1,737/month per EP declaration",
-   "confidence": "fact",
-   "sources": [
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
-    "https://wolnesady.org/en/"
-   ],
-   "date": "2024-06-11"
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "wawrykiewicz_law",
-   "relation": "own law firm; declared PLN 1,632,556 lawyer income for 2025 + PLN 9,997 partnership",
-   "confidence": "fact",
-   "sources": [
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
-   ]
-  },
-  {
-   "source": "ned",
-   "target": "wawrykiewicz",
-   "relation": "NED fellowship in Washington 2022/23, USD 26,000 declared",
-   "confidence": "fact",
-   "sources": [
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html"
-   ],
-   "date": "2022-2023"
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "democrisis",
-   "relation": "co-founder and board member since 2023 (unpaid); DemoCrisis funders not published",
-   "confidence": "fact",
-   "sources": [
-    "https://demo-crisis.eu/",
-    "https://en.wikipedia.org/wiki/DemoCrisis",
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
-   ],
-   "date": "2023-10-11"
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "juri_libe",
-   "relation": "JURI member; LIBE substitute; EPP vice-coordinator in LIBE (Wikipedia); LIBE rapporteur 2026/2144(INI)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home",
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-   ]
-  },
-  {
-   "source": "ko",
-   "target": "wawrykiewicz",
-   "relation": "2019: ran as independent on European Coalition list (PO-led), 35,750 votes, no seat",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html"
-   ],
-   "date": "2019-05-26"
-  },
-  {
-   "source": "ko",
-   "target": "wawrykiewicz",
-   "relation": "2024: #2 on KO list, Wielkopolska, behind Ewa Kopacz; 119,068 votes, elected; non-party ('bezpartyjny')",
-   "confidence": "fact",
-   "sources": [
-    "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230",
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
-    "https://wpoznaniu.pl/michal-wawrykiewicz-kandyduje-do-parlamentu-europejskiego-zbieral-podpisy-w-poznaniu/",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-   ],
-   "date": "2024-06-09"
-  },
-  {
-   "source": "tusk",
-   "target": "wawrykiewicz",
-   "relation": "when/how they first met; any personal advisory or legal work for Tusk",
-   "confidence": "no_link",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
-    "https://wpoznaniu.pl/michal-wawrykiewicz-kandyduje-do-parlamentu-europejskiego-zbieral-podpisy-w-poznaniu/",
-    "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home"
-   ]
-  },
-  {
-   "source": "tusk",
-   "target": "wawrykiewicz",
-   "relation": "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
-   "confidence": "speculation",
-   "sources": [
-    "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "korwin_piotrowska",
-   "relation": "'Korwin-Piotrowska miała prawo zarządzić odsunięcie prezesa'; 'Wreszcie trybunał będzie mógł działać normalnie' (evening of 30 Oct, after the takeover)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.tvp.info/96222558/pytanie-dnia-michal-wawrykiewicz-o-sytuacji-w-trybunale-konstytucyjnym"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "tk",
-   "relation": "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summary was readable; what plan is not stated)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie"
-   ],
-   "date": "2026-09-14"
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "korwin_piotrowska",
-   "relation": "his 14 Sep 'precise plan' remark shows he knew the 30 Oct operation in advance",
-   "confidence": "speculation",
-   "sources": [
-    "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "korwin_piotrowska",
-   "relation": "documented direct contact before 30 Oct",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie",
-    "https://www.tvp.info/96222558/pytanie-dnia-michal-wawrykiewicz-o-sytuacji-w-trybunale-konstytucyjnym",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "themis",
-   "relation": "direct tie beyond shared KOS membership",
-   "confidence": "no_link",
-   "sources": [
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-   ]
-  },
-  {
-   "source": "wawrykiewicz",
-   "target": "iustitia",
-   "relation": "direct tie beyond shared KOS membership",
-   "confidence": "no_link",
-   "sources": [
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-   ]
-  },
-  {
-   "source": "zurek",
-   "target": "korwin_piotrowska",
-   "relation": "handed 5 immunity motions + 50 volumes of files to 'the most senior TK judge' on 30 Oct",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "zurek",
-   "target": "sochanski",
-   "relation": "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
-   "confidence": "fact",
-   "sources": [
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "sochanski",
-   "relation": "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "swieczkowski",
-   "relation": "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "iustitia",
-   "target": "markiewicz",
-   "relation": "27 Oct: applied for pay aid for Markiewicz and Taborowski; 'IUSTITIA bierze zatem sprawy w swoje ręce'",
-   "confidence": "fact",
-   "sources": [
-    "https://iustitia.pl/"
-   ],
-   "date": "2026-10-27"
-  },
-  {
-   "source": "iustitia",
-   "target": "tk",
-   "relation": "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)",
-   "confidence": "fact",
-   "sources": [
-    "https://iustitia.pl/"
-   ],
-   "date": "2026-10-28"
-  },
-  {
-   "source": "themis",
-   "target": "tk",
-   "relation": "any statement on TK in Sept-Oct 2026 (latest site item 19 May 2026)",
-   "confidence": "no_link",
-   "sources": [
-    "https://themis-sedziowie.eu/"
-   ]
-  },
-  {
-   "source": "free_courts",
-   "target": "tk",
-   "relation": "any Free Courts statement on the 2026 TK move (site news ends 2024)",
-   "confidence": "no_link",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "free_courts",
-   "target": "korwin_piotrowska",
-   "relation": "documented planning/coordination before 30 Oct",
-   "confidence": "no_link",
-   "sources": [
-    "https://wolnesady.org/en/",
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  },
-  {
-   "source": "iustitia",
-   "target": "korwin_piotrowska",
-   "relation": "documented planning/coordination before 30 Oct",
-   "confidence": "no_link",
-   "sources": [
-    "https://iustitia.pl/",
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  },
-  {
-   "source": "osf",
-   "target": "korwin_piotrowska",
-   "relation": "OSF money or contact behind the 30 Oct move",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  },
-  {
-   "source": "ko",
-   "target": "korwin_piotrowska",
-   "relation": "government planned the takeover with the judges ('Tusk's services', 'coup': Kaczyński, Morawiecki, Ziobro, Karski; Szefernaker: forces 'skierowane na miejsce przez rząd')",
-   "confidence": "alleged",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
-    "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "tusk",
-   "target": "tk",
-   "relation": "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
-   ],
-   "date": "2026-10-30"
-  },
-  {
-   "source": "us_congress",
-   "target": "ned",
-   "relation": "created 1983; funded almost entirely by annual Congressional appropriation; legally a private nonprofit",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "1983"
-  },
-  {
-   "source": "ned",
-   "target": "solidarnosc",
-   "relation": "funded Solidarity underground in 1980s Poland (via AFL-CIO)",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf"
-  },
-  {
-   "source": "russia_state",
-   "target": "ned",
-   "relation": "first group banned as 'undesirable' (July 2015), called a threat to Russian security",
-   "confidence": "fact",
-   "sources": [
-    "https://www.business-standard.com/article/pti-stories/russia-names-us-foundation-first-undesirable-foreign-group-115072801339_1.html",
-    "https://www.ned.org/ned-marks-ten-years-as-an-undesirable/"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "2015-07-28"
-  },
-  {
-   "source": "china_state",
-   "target": "ned",
-   "relation": "sanctioned NED (Dec 2019), accusing it of instigating the Hong Kong protests",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://www.pressreader.com/china/global-times/20191205/282239487494647"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "2019-12"
-  },
-  {
-   "source": "trump_admin",
-   "target": "ned",
-   "relation": "froze its funding in 2025; NED sued; judge ordered funds released (Aug 2025)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.washingtontimes.com/news/2025/aug/11/judge-orders-trump-restore-funding-national-endowment-democracy/",
-    "https://ned.org/national-endowment-for-democracy-files-lawsuit-seeking-access-to-congressionally-appropriated-funds"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "2025-08-11"
-  },
-  {
-   "source": "ned",
-   "target": "korwin_piotrowska",
-   "relation": "NED steered the 2026 TK move through Free Courts or Wawrykiewicz",
-   "confidence": "speculation",
-   "sources": [
-    "https://wolnesady.org/en/"
-   ],
-   "added_by": "lead_free_courts_osf"
-  }
- ],
- "node_updates": {
-  "iustitia": {
-   "funding": "Judges' dues + EEA/Norway Active Citizens grant €108k (2022-24); no state money, no 1.5% tax, no OSF grant found; no financial statements published",
-   "president_2026": "Bartłomiej Przymusiński per 2026 posts (Markiewicz 2016-2025)",
-   "sources_add": [
-    "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach",
-    "https://iustitia.pl/statut/",
-    "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/"
-   ]
-  },
-  "themis": {
-   "funding": "Dues (statute min. 20 zł/member/month), donations; no grant from any funder found; no financial statements published",
-   "sources_add": [
-    "https://themis-sedziowie.eu/statut/"
-   ]
-  },
-  "kos": {
-   "how_run": "Collaboration agreement of 8 orgs (4 Jun 2018), grew to 13 by 2021; numbered joint opinions signed by member orgs; coordinator Maria Ejchart-Dubois; no secretariat or funder named; no dated activity found after 2021",
-   "sources_add": [
-    "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
-    "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
-    "https://oko.press/12-organizacji-z-komitetu-obrony-sprawiedliwosci-kos-staje-w-obronie-sedziow",
-    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/",
-    "https://hfhr.pl/en/about-us/cooperation-network/komitet-obrony-sprawiedliwosci-191467807"
-   ]
-  },
-  "free_courts": {
-   "legal": "Informal initiative July 2017; foundation 2020, KRS 0000829554, Warsaw",
-   "founders": "Gregorczyk-Abram, Ejchart, Kieszkowska, Wawrykiewicz",
-   "funding": "OSF $130k (2023-24); partners NED, Böll Warsaw, Wolna Gospodarka (no amounts); individual donors; no financial report published",
-   "sources_add": [
-    "https://wolnesady.org/en/",
-    "https://wspieraj.wolnesady.org/",
-    "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2"
-   ]
-  },
-  "wawrykiewicz": {
-   "born": "1971-05-11",
-   "career": "Adwokat since 1999, own firm; parliamentary/Senate legal expert from 2016; Free Courts co-founder 2017, board to June 2024; KOS co-initiator 2018; NED fellow 2022/23; DemoCrisis co-founder 2023; MEP since July 2024 (non-party, KO list, EPP): JURI, LIBE sub, US delegation",
-   "income": "2025: PLN 1.63m lawyer income declared",
-   "tusk_history": "2019 indep. on PO-led European Coalition list (lost); 2024 #2 on KO list (won). No source on when or how he met Tusk.",
-   "sources_add": [
-    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
-    "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home",
-    "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
-    "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
-    "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230"
-   ]
-  }
- },
- "leads": [
-  {
-   "lead": "Soros/OSF funds Iustitia or Themis",
-   "result": "no OSF grant found for either; Iustitia's only grant is EEA/Norway €108k; OSF site could not be machine-searched, so not fully ruled out",
-   "label": "no_link"
-  },
-  {
-   "lead": "OSF money reached the TK move via Free Courts",
-   "result": "OSF gave Free Courts $130k for 2023 election-period work, ending 2024; nothing ties it to the 2026 TK move",
-   "label": "speculation"
-  },
-  {
-   "lead": "US government funds Free Courts",
-   "result": "NED is listed as partner and paid Wawrykiewicz a $26k fellowship; Judicial Watch FOIA suit pending; no State Dept grant shown",
-   "label": "alleged"
-  },
-  {
-   "lead": "Wawrykiewicz knew the 30 Oct plan in advance",
-   "result": "14 Sep he said 'there is a very precise plan'; plan not described; full transcript not retrieved",
-   "label": "speculation"
-  },
-  {
-   "lead": "KOS coalition coordinated the 30 Oct move",
-   "result": "no KOS activity found after 2021; no contact documented",
-   "label": "no_link"
-  },
-  {
-   "lead": "Wawrykiewicz is a long-time Tusk insider",
-   "result": "independent, on PO-led lists in 2019 and KO list in 2024; no source on a personal relationship",
-   "label": "speculation"
-  },
-  {
-   "lead": "Government planned the takeover with the judges",
-   "result": "Żurek handed files to Korwin-Piotrowska and SOP escorted judges on the day; PiS/President's office call it a coup; no pre-30 Oct planning document found",
-   "label": "alleged"
-  },
-  {
-   "lead": "NED shapes foreign governments by questionable methods",
-   "result": "documented: funded Solidarity, Nicaragua 1990 opposition, Venezuelan groups whose leaders backed 2002 coup; banned by Russia, sanctioned by China; directing coups is unproven; no NED money traced to the 2026 TK move",
-   "label": "alleged"
-  }
- ]
+  "meta": {
+    "title": "Lead: judges' associations, Free Courts, Wawrykiewicz and OSF",
+    "as_of": "2026-10-31",
+    "parent_graph": "poland_tk_graph.json",
+    "note": "Same schema as parent. node_updates add fields to existing parent nodes. Institutional/financial ties only."
+  },
+  "nodes": [
+    {
+      "id": "boell_pl",
+      "type": "org",
+      "group": "foreign_funder",
+      "label": "Heinrich Böll Foundation Warsaw (German Greens-linked)",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "id": "wolna_gospodarka",
+      "type": "org",
+      "group": "ngo",
+      "label": "Fundacja Wolna Gospodarka",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "id": "democrisis",
+      "type": "org",
+      "group": "ngo",
+      "label": "DemoCrisis (Brussels pro-democracy network, 2023)",
+      "sources": [
+        "https://demo-crisis.eu/",
+        "https://en.wikipedia.org/wiki/DemoCrisis"
+      ]
+    },
+    {
+      "id": "wawrykiewicz_law",
+      "type": "org",
+      "group": "company",
+      "label": "Wawrykiewicz Law Firm (Kancelaria Adwokacka)",
+      "sources": [
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+      ]
+    },
+    {
+      "id": "ejchart",
+      "type": "person",
+      "group": "lawyer",
+      "label": "Maria Ejchart(-Dubois)",
+      "career": "Free Courts co-founder; KOS coordinator (per Free Courts 2021)",
+      "sources": [
+        "https://wolnesady.org/en/",
+        "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
+      ]
+    },
+    {
+      "id": "gregorczyk_abram",
+      "type": "person",
+      "group": "lawyer",
+      "label": "Sylwia Gregorczyk-Abram",
+      "career": "Free Courts co-founder; co-leads the foundation now",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "id": "kieszkowska",
+      "type": "person",
+      "group": "lawyer",
+      "label": "Paulina Kieszkowska(-Knapik)",
+      "career": "Free Courts co-founder; co-leads the foundation now",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "id": "inpris",
+      "type": "org",
+      "group": "ngo",
+      "label": "INPRIS (Institute for Law and Society)",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
+      ]
+    },
+    {
+      "id": "bojarski",
+      "type": "person",
+      "group": "ngo_leader",
+      "label": "Łukasz Bojarski (INPRIS president)",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
+      ]
+    },
+    {
+      "id": "lex_super_omnia",
+      "type": "org",
+      "group": "ngo",
+      "label": "Lex Super Omnia (prosecutors' association)",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
+      ]
+    },
+    {
+      "id": "holda_assoc",
+      "type": "org",
+      "group": "ngo",
+      "label": "Prof. Zbigniew Hołda Association",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
+      ]
+    },
+    {
+      "id": "dom_sedziego_seniora",
+      "type": "org",
+      "group": "ngo",
+      "label": "Dom Sędziego Seniora foundation",
+      "sources": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
+      ]
+    },
+    {
+      "id": "neo_krs",
+      "type": "org",
+      "group": "state_body",
+      "label": "National Council of the Judiciary (PiS-era 'neo-KRS')",
+      "sources": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
+      ]
+    },
+    {
+      "id": "judicial_watch",
+      "type": "org",
+      "group": "media_advocacy",
+      "label": "Judicial Watch (US conservative watchdog)",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ]
+    },
+    {
+      "id": "juri_libe",
+      "type": "org",
+      "group": "eu_body",
+      "label": "European Parliament JURI and LIBE committees",
+      "sources": [
+        "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home"
+      ]
+    },
+    {
+      "id": "sochanski",
+      "type": "person",
+      "group": "tk_judge_prior",
+      "label": "Bartłomiej Sochański (TK vice-president)",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
+        "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "osf",
+      "target": "free_courts",
+      "relation": "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself not machine-readable here",
+      "confidence": "fact",
+      "sources": [
+        "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ],
+      "date": "2023"
+    },
+    {
+      "source": "ned",
+      "target": "free_courts",
+      "relation": "listed as a partner (logo only, no amount or year)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "boell_pl",
+      "target": "free_courts",
+      "relation": "listed as a partner (logo only)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "wolna_gospodarka",
+      "target": "free_courts",
+      "relation": "listed as a partner (logo only)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "judicial_watch",
+      "target": "free_courts",
+      "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ],
+      "date": "2026-03-09"
+    },
+    {
+      "source": "judicial_watch",
+      "target": "free_courts",
+      "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
+      "confidence": "alleged",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ]
+    },
+    {
+      "source": "neo_krs",
+      "target": "iustitia",
+      "relation": "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
+      ],
+      "date": "2023-08"
+    },
+    {
+      "source": "iustitia",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder of foundation that fundraised for suspended judges",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
+      ]
+    },
+    {
+      "source": "themis",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder of foundation that fundraised for suspended judges",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach"
+      ]
+    },
+    {
+      "source": "holda_assoc",
+      "target": "kos",
+      "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
+      ]
+    },
+    {
+      "source": "lex_super_omnia",
+      "target": "kos",
+      "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
+      ]
+    },
+    {
+      "source": "hfhr",
+      "target": "kos",
+      "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
+      ]
+    },
+    {
+      "source": "inpris",
+      "target": "kos",
+      "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
+      ]
+    },
+    {
+      "source": "osiatynski",
+      "target": "kos",
+      "relation": "founding member (4 Jun 2018, 8 orgs, collaboration agreement)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych"
+      ]
+    },
+    {
+      "source": "bojarski",
+      "target": "kos",
+      "relation": "signed founding collaboration agreement for INPRIS",
+      "confidence": "fact",
+      "sources": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/"
+      ],
+      "date": "2018-06-04"
+    },
+    {
+      "source": "ejchart",
+      "target": "kos",
+      "relation": "coordinator (per Free Courts, 2021)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
+      ]
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "kos",
+      "relation": "co-initiator",
+      "confidence": "fact",
+      "sources": [
+        "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
+        "https://oko.press/wawrykiewicz-destrukcji-rzadow-prawa"
+      ],
+      "date": "2018-06-04"
+    },
+    {
+      "source": "markiewicz",
+      "target": "kos",
+      "relation": "led founding member Iustitia at the time; personal role in KOS not documented",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
+        "https://www.rp.pl/opinie-prawne/art1860231-niech-polityk-nie-wchodzi-na-nasza-plansze-sedzia-o-powolaniu-komitetu-obrony-sprawiedliwosci"
+      ]
+    },
+    {
+      "source": "osf",
+      "target": "kos",
+      "relation": "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)",
+      "confidence": "speculation",
+      "sources": [
+        "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
+        "https://archiwum.hfhr.pl/en/supporters/darczyncy-en/open-society-foundations-2/index.html"
+      ]
+    },
+    {
+      "source": "ejchart",
+      "target": "free_courts",
+      "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "gregorczyk_abram",
+      "target": "free_courts",
+      "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "kieszkowska",
+      "target": "free_courts",
+      "relation": "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "gregorczyk_abram",
+      "target": "free_courts",
+      "relation": "co-leads the foundation now",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "kieszkowska",
+      "target": "free_courts",
+      "relation": "co-leads the foundation now",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ]
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "free_courts",
+      "relation": "board member until 2024 (resigned June 2024 before taking EP seat); paid EUR 1,737/month per EP declaration",
+      "confidence": "fact",
+      "sources": [
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
+        "https://wolnesady.org/en/"
+      ],
+      "date": "2024-06-11"
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "wawrykiewicz_law",
+      "relation": "own law firm; declared PLN 1,632,556 lawyer income for 2025 + PLN 9,997 partnership",
+      "confidence": "fact",
+      "sources": [
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+      ]
+    },
+    {
+      "source": "ned",
+      "target": "wawrykiewicz",
+      "relation": "NED fellowship in Washington 2022/23, USD 26,000 declared",
+      "confidence": "fact",
+      "sources": [
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
+        "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+        "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html"
+      ],
+      "date": "2022-2023"
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "democrisis",
+      "relation": "co-founder and board member since 2023 (unpaid); DemoCrisis funders not published",
+      "confidence": "fact",
+      "sources": [
+        "https://demo-crisis.eu/",
+        "https://en.wikipedia.org/wiki/DemoCrisis",
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+      ],
+      "date": "2023-10-11"
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "juri_libe",
+      "relation": "JURI member; LIBE substitute; EPP vice-coordinator in LIBE (Wikipedia); LIBE rapporteur 2026/2144(INI)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home",
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
+        "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
+      ]
+    },
+    {
+      "source": "ko",
+      "target": "wawrykiewicz",
+      "relation": "2019: ran as independent on European Coalition list (PO-led), 35,750 votes, no seat",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+        "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html"
+      ],
+      "date": "2019-05-26"
+    },
+    {
+      "source": "ko",
+      "target": "wawrykiewicz",
+      "relation": "2024: #2 on KO list, Wielkopolska, behind Ewa Kopacz; 119,068 votes, elected; non-party ('bezpartyjny')",
+      "confidence": "fact",
+      "sources": [
+        "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230",
+        "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
+        "https://wpoznaniu.pl/michal-wawrykiewicz-kandyduje-do-parlamentu-europejskiego-zbieral-podpisy-w-poznaniu/",
+        "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
+      ],
+      "date": "2024-06-09"
+    },
+    {
+      "source": "tusk",
+      "target": "wawrykiewicz",
+      "relation": "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "confidence": "speculation",
+      "sources": [
+        "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230"
+      ]
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "korwin_piotrowska",
+      "relation": "'Korwin-Piotrowska miała prawo zarządzić odsunięcie prezesa'; 'Wreszcie trybunał będzie mógł działać normalnie' (evening of 30 Oct, after the takeover)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.tvp.info/96222558/pytanie-dnia-michal-wawrykiewicz-o-sytuacji-w-trybunale-konstytucyjnym"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "tk",
+      "relation": "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summary was readable; what plan is not stated)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie"
+      ],
+      "date": "2026-09-14"
+    },
+    {
+      "source": "wawrykiewicz",
+      "target": "korwin_piotrowska",
+      "relation": "his 14 Sep 'precise plan' remark shows he knew the 30 Oct operation in advance",
+      "confidence": "speculation",
+      "sources": [
+        "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie"
+      ]
+    },
+    {
+      "source": "zurek",
+      "target": "korwin_piotrowska",
+      "relation": "handed 5 immunity motions + 50 volumes of files to 'the most senior TK judge' on 30 Oct",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "zurek",
+      "target": "sochanski",
+      "relation": "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "sochanski",
+      "relation": "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "swieczkowski",
+      "relation": "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "iustitia",
+      "target": "markiewicz",
+      "relation": "27 Oct: applied for pay aid for Markiewicz and Taborowski; 'IUSTITIA bierze zatem sprawy w swoje ręce'",
+      "confidence": "fact",
+      "sources": [
+        "https://iustitia.pl/"
+      ],
+      "date": "2026-10-27"
+    },
+    {
+      "source": "iustitia",
+      "target": "tk",
+      "relation": "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)",
+      "confidence": "fact",
+      "sources": [
+        "https://iustitia.pl/"
+      ],
+      "date": "2026-10-28"
+    },
+    {
+      "source": "osf",
+      "target": "korwin_piotrowska",
+      "relation": "OSF money or contact behind the 30 Oct move",
+      "confidence": "unproven_conspiracy",
+      "sources": [
+        "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
+        "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
+      ]
+    },
+    {
+      "source": "ko",
+      "target": "korwin_piotrowska",
+      "relation": "government planned the takeover with the judges ('Tusk's services', 'coup': Kaczyński, Morawiecki, Ziobro, Karski; Szefernaker: forces 'skierowane na miejsce przez rząd')",
+      "confidence": "alleged",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
+        "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "tusk",
+      "target": "tk",
+      "relation": "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ],
+      "date": "2026-10-30"
+    },
+    {
+      "source": "us_congress",
+      "target": "ned",
+      "relation": "created 1983; funded almost entirely by annual Congressional appropriation; legally a private nonprofit",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
+      ],
+      "added_by": "lead_free_courts_osf",
+      "date": "1983"
+    },
+    {
+      "source": "ned",
+      "target": "solidarnosc",
+      "relation": "funded Solidarity underground in 1980s Poland (via AFL-CIO)",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
+      ],
+      "added_by": "lead_free_courts_osf"
+    },
+    {
+      "source": "russia_state",
+      "target": "ned",
+      "relation": "first group banned as 'undesirable' (July 2015), called a threat to Russian security",
+      "confidence": "fact",
+      "sources": [
+        "https://www.business-standard.com/article/pti-stories/russia-names-us-foundation-first-undesirable-foreign-group-115072801339_1.html",
+        "https://www.ned.org/ned-marks-ten-years-as-an-undesirable/"
+      ],
+      "added_by": "lead_free_courts_osf",
+      "date": "2015-07-28"
+    },
+    {
+      "source": "china_state",
+      "target": "ned",
+      "relation": "sanctioned NED (Dec 2019), accusing it of instigating the Hong Kong protests",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+        "https://www.pressreader.com/china/global-times/20191205/282239487494647"
+      ],
+      "added_by": "lead_free_courts_osf",
+      "date": "2019-12"
+    },
+    {
+      "source": "trump_admin",
+      "target": "ned",
+      "relation": "froze its funding in 2025; NED sued; judge ordered funds released (Aug 2025)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.washingtontimes.com/news/2025/aug/11/judge-orders-trump-restore-funding-national-endowment-democracy/",
+        "https://ned.org/national-endowment-for-democracy-files-lawsuit-seeking-access-to-congressionally-appropriated-funds"
+      ],
+      "added_by": "lead_free_courts_osf",
+      "date": "2025-08-11"
+    },
+    {
+      "source": "ned",
+      "target": "korwin_piotrowska",
+      "relation": "NED steered the 2026 TK move through Free Courts or Wawrykiewicz",
+      "confidence": "speculation",
+      "sources": [
+        "https://wolnesady.org/en/"
+      ],
+      "added_by": "lead_free_courts_osf"
+    }
+  ],
+  "node_updates": {
+    "iustitia": {
+      "funding": "Judges' dues + EEA/Norway Active Citizens grant €108k (2022-24); no state money, no 1.5% tax, no OSF grant found; no financial statements published",
+      "president_2026": "Bartłomiej Przymusiński per 2026 posts (Markiewicz 2016-2025)",
+      "sources_add": [
+        "https://oko.press/neo-krs-chce-kontroli-iustitia-zemsta-na-sedziach",
+        "https://iustitia.pl/statut/",
+        "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/"
+      ]
+    },
+    "themis": {
+      "funding": "Dues (statute min. 20 zł/member/month), donations; no grant from any funder found; no financial statements published",
+      "sources_add": [
+        "https://themis-sedziowie.eu/statut/"
+      ]
+    },
+    "kos": {
+      "how_run": "Collaboration agreement of 8 orgs (4 Jun 2018), grew to 13 by 2021; numbered joint opinions signed by member orgs; coordinator Maria Ejchart-Dubois; no secretariat or funder named; no dated activity found after 2021",
+      "sources_add": [
+        "https://www.inpris.pl/en/whats-going-on-at-inpris/article/t/powstal-komitet-obrony-sprawiedliwosci-kos/",
+        "https://oko.press/powstaje-komitet-obrony-sprawiedliwosci-bedziemy-sledzic-naciski-na-sedziow-i-wspierac-szykanowanych",
+        "https://oko.press/12-organizacji-z-komitetu-obrony-sprawiedliwosci-kos-staje-w-obronie-sedziow",
+        "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/",
+        "https://hfhr.pl/en/about-us/cooperation-network/komitet-obrony-sprawiedliwosci-191467807"
+      ]
+    },
+    "free_courts": {
+      "legal": "Informal initiative July 2017; foundation 2020, KRS 0000829554, Warsaw",
+      "founders": "Gregorczyk-Abram, Ejchart, Kieszkowska, Wawrykiewicz",
+      "funding": "OSF $130k (2023-24); partners NED, Böll Warsaw, Wolna Gospodarka (no amounts); individual donors; no financial report published",
+      "sources_add": [
+        "https://wolnesady.org/en/",
+        "https://wspieraj.wolnesady.org/",
+        "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2"
+      ]
+    },
+    "wawrykiewicz": {
+      "born": "1971-05-11",
+      "career": "Adwokat since 1999, own firm; parliamentary/Senate legal expert from 2016; Free Courts co-founder 2017, board to June 2024; KOS co-initiator 2018; NED fellow 2022/23; DemoCrisis co-founder 2023; MEP since July 2024 (non-party, KO list, EPP): JURI, LIBE sub, US delegation",
+      "income": "2025: PLN 1.63m lawyer income declared",
+      "tusk_history": "2019 indep. on PO-led European Coalition list (lost); 2024 #2 on KO list (won). No source on when or how he met Tusk.",
+      "sources_add": [
+        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
+        "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home",
+        "https://www.wnp.pl/parlamentarny/osoba/michal-wawrykiewicz,193624.html",
+        "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+        "https://tvn24.pl/polska/wybory-do-europarlamentu-2024-kandydaci-ko-pelna-lista-kandydatow-w-13-okregach-st7904230"
+      ]
+    }
+  },
+  "leads": [
+    {
+      "lead": "Soros/OSF funds Iustitia or Themis",
+      "result": "no OSF grant found for either; Iustitia's only grant is EEA/Norway €108k; OSF site could not be machine-searched, so not fully ruled out",
+      "label": "no_link"
+    },
+    {
+      "lead": "OSF money reached the TK move via Free Courts",
+      "result": "OSF gave Free Courts $130k for 2023 election-period work, ending 2024; nothing ties it to the 2026 TK move",
+      "label": "speculation"
+    },
+    {
+      "lead": "US government funds Free Courts",
+      "result": "NED is listed as partner and paid Wawrykiewicz a $26k fellowship; Judicial Watch FOIA suit pending; no State Dept grant shown",
+      "label": "alleged"
+    },
+    {
+      "lead": "Wawrykiewicz knew the 30 Oct plan in advance",
+      "result": "14 Sep he said 'there is a very precise plan'; plan not described; full transcript not retrieved",
+      "label": "speculation"
+    },
+    {
+      "lead": "KOS coalition coordinated the 30 Oct move",
+      "result": "no KOS activity found after 2021; no contact documented",
+      "label": "no_link"
+    },
+    {
+      "lead": "Wawrykiewicz is a long-time Tusk insider",
+      "result": "independent, on PO-led lists in 2019 and KO list in 2024; no source on a personal relationship",
+      "label": "speculation"
+    },
+    {
+      "lead": "Government planned the takeover with the judges",
+      "result": "Żurek handed files to Korwin-Piotrowska and SOP escorted judges on the day; PiS/President's office call it a coup; no pre-30 Oct planning document found",
+      "label": "alleged"
+    },
+    {
+      "lead": "NED shapes foreign governments by questionable methods",
+      "result": "documented: funded Solidarity, Nicaragua 1990 opposition, Venezuelan groups whose leaders backed 2002 coup; banned by Russia, sanctioned by China; directing coups is unproven; no NED money traced to the 2026 TK move",
+      "label": "alleged"
+    }
+  ]
 }

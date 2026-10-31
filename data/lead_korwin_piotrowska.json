@@ -1,456 +1,362 @@
 {
- "meta": {
-  "title": "Lead: Anna Korwin-Piotrowska profile",
-  "as_of": "2026-10-31",
-  "merged_into": "poland_tk_graph.json",
-  "added_by": "lead_korwin_piotrowska"
- },
- "node_update": {
-  "id": "korwin_piotrowska",
-  "birthplace": "Not found in any source",
-  "family": "No spouse or relatives found in any source; no documented family tie to journalist Karolina Korwin-Piotrowska or politician Janusz Korwin-Mikke",
-  "career": "Judicial apprenticeship 1995-97; judge Kedzierzyn-Kozle district court 1999; its president from 1 Jun 2003 (second term 2007-09); Opole regional court judge 2006; Opole vice-president 2012-17 (removed by fax, Ziobro ministry, Dec 2017); Opole president 2024 (appointed by Bodnar); civil, enforcement, labour and commercial cases; court mediation promoter; lecturer for trainee advocates and legal advisers",
-  "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings. 2026: chair of Opole legal-adviser exam commission (Zurek ordinance 17 Feb 2026), fee ~PLN 7k. ECHR settlement EUR 15k (2024). President of Themis (MEDEL member). No private practice, firm, client, company, board or grant found",
-  "tk_oath": "Took oath in the Sejm before a notary on 9 Apr 2026; refused to resign her Opole judgeship (Apr 2026)",
-  "energy_wind": "None found"
- },
- "nodes": [
-  {
-   "id": "bodnar",
-   "type": "person",
-   "group": "government",
-   "label": "Adam Bodnar",
-   "career": "Ombudsman (RPO) 2015-21; Justice Minister 2023-25; honorary member of Themis",
-   "sources": [
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ]
+  "meta": {
+    "title": "Lead: Anna Korwin-Piotrowska profile",
+    "as_of": "2026-10-31",
+    "merged_into": "poland_tk_graph.json",
+    "added_by": "lead_korwin_piotrowska"
   },
-  {
-   "id": "medel",
-   "type": "org",
-   "group": "intl",
-   "label": "MEDEL (European Judges for Democracy and Liberty)",
-   "funding": "Statute: dues, subsidies, donations, legacies; no funder named in any page read; no OSF or EU grant found",
-   "sources": [
-    "https://medelnet.eu/?p=5904",
-    "https://medelnet.eu/wp-content/uploads/2023/06/Statuts-MEDEL-2022-English.pdf",
-    "https://medelnet.eu/"
-   ]
+  "node_update": {
+    "id": "korwin_piotrowska",
+    "birthplace": "Not found in any source",
+    "family": "No spouse or relatives found in any source; no documented family tie to journalist Karolina Korwin-Piotrowska or politician Janusz Korwin-Mikke",
+    "career": "Judicial apprenticeship 1995-97; judge Kedzierzyn-Kozle district court 1999; its president from 1 Jun 2003 (second term 2007-09); Opole regional court judge 2006; Opole vice-president 2012-17 (removed by fax, Ziobro ministry, Dec 2017); Opole president 2024 (appointed by Bodnar); civil, enforcement, labour and commercial cases; court mediation promoter; lecturer for trainee advocates and legal advisers",
+    "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings. 2026: chair of Opole legal-adviser exam commission (Zurek ordinance 17 Feb 2026), fee ~PLN 7k. ECHR settlement EUR 15k (2024). President of Themis (MEDEL member). No private practice, firm, client, company, board or grant found",
+    "tk_oath": "Took oath in the Sejm before a notary on 9 Apr 2026; refused to resign her Opole judgeship (Apr 2026)",
+    "energy_wind": "None found"
   },
-  {
-   "id": "so_opole",
-   "type": "org",
-   "group": "court",
-   "label": "Opole Regional Court (Sąd Okręgowy w Opolu)",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
-   ]
-  },
-  {
-   "id": "sr_kedzierzyn",
-   "type": "org",
-   "group": "court",
-   "label": "Kędzierzyn-Koźle District Court",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ]
-  },
-  {
-   "id": "opole_exam_commission",
-   "type": "org",
-   "group": "government",
-   "label": "Opole legal-adviser (radca prawny) exam commission",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ]
-  },
-  {
-   "id": "morawiec",
-   "type": "person",
-   "group": "judge",
-   "label": "Beata Morawiec",
-   "career": "Krakow judge; former Themis president; surveilled with Pegasus",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ]
-  },
-  {
-   "id": "majcher",
-   "type": "person",
-   "group": "judge",
-   "label": "Irena Majcher",
-   "career": "Opole judge facing Disciplinary Chamber case",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ]
-  }
- ],
- "edges": [
-  {
-   "source": "korwin_piotrowska",
-   "target": "themis",
-   "relation": "president of the national board (Prezes Zarządu Głównego); opened the 15th-anniversary conference Oct 2025",
-   "confidence": "fact",
-   "sources": [
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ],
-   "date": "2025-10-18"
-  },
-  {
-   "source": "zurek",
-   "target": "themis",
-   "relation": "co-founder (2009-10); listed as vice-president on Themis's undated board page; Oct 2025 press calls him a former member and board member",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art7175111-themis-czyli-sedziowska-fronda",
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ]
-  },
-  {
-   "source": "zurek",
-   "target": "korwin_piotrowska",
-   "relation": "Themis board colleagues: she is president, he co-founder and listed vice-president",
-   "confidence": "fact",
-   "sources": [
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ],
-   "tie": "indirect",
-   "via": "themis"
-  },
-  {
-   "source": "zurek",
-   "target": "korwin_piotrowska",
-   "relation": "as minister, appointed her chair of the Opole legal-adviser exam commission (ordinance 17 Feb 2026); paid fee ~PLN 7k (1,920 zł/month + 120 zł per candidate)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ],
-   "tie": "direct",
-   "date": "2026-02-17"
-  },
-  {
-   "source": "zurek",
-   "target": "korwin_piotrowska",
-   "relation": "exam-commission pay while a TK judge is a conflict of interest (Zalasiński, Gutowski); she says it does not affect impartiality",
-   "confidence": "alleged",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "opole_exam_commission",
-   "relation": "chair (przewodnicząca), 2026",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ],
-   "date": "2026"
-  },
-  {
-   "source": "bodnar",
-   "target": "korwin_piotrowska",
-   "relation": "as Justice Minister, appointed her president of the Opole Regional Court (one of 3 candidates put forward by judges' assembly)",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ],
-   "tie": "direct",
-   "date": "2024-10"
-  },
-  {
-   "source": "bodnar",
-   "target": "themis",
-   "relation": "honorary member; encouraged its founding",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ]
-  },
-  {
-   "source": "bodnar",
-   "target": "zurek",
-   "relation": "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
-    "https://demo-crisis.eu/?p=798"
-   ]
-  },
-  {
-   "source": "themis",
-   "target": "medel",
-   "relation": "admitted as member 7 Oct 2023 (Belgrade)",
-   "confidence": "fact",
-   "sources": [
-    "https://medelnet.eu/?p=5904"
-   ],
-   "date": "2023-10-07"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "medel",
-   "relation": "any personal role or payment",
-   "confidence": "no_link",
-   "sources": [
-    "https://medelnet.eu/?p=5904",
-    "https://medelnet.eu/"
-   ],
-   "tie": "direct"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "medel",
-   "relation": "heads Themis, a MEDEL member association",
-   "confidence": "fact",
-   "sources": [
-    "https://medelnet.eu/?p=5904",
-    "https://themis-sedziowie.eu/zarzad-glowny/"
-   ],
-   "tie": "indirect",
-   "via": "themis"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "so_opole",
-   "relation": "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
-   "confidence": "fact",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
-    "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "sr_kedzierzyn",
-   "relation": "judge 1999; president 2003-09",
-   "confidence": "fact",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ]
-  },
-  {
-   "source": "ziobro",
-   "target": "korwin_piotrowska",
-   "relation": "his ministry removed her as Opole vice-president by fax with no reasons (Dec 2017); she kept signing as vice-president until she got the original",
-   "confidence": "fact",
-   "sources": [
-    "https://forsal.pl/artykuly/1093053,opole-wiceprezes-so-pracuje-wbrew-decyzji-ministra.html",
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://oko.press/ministerstwo-ziobry-czysci-sady-swietami"
-   ],
-   "date": "2017-12"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "morawiec",
-   "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted), 2021",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ],
-   "date": "2021-06"
-  },
-  {
-   "source": "morawiec",
-   "target": "themis",
-   "relation": "former president",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "majcher",
-   "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted)",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "echr",
-   "relation": "second application with Markiewicz, Taborowski, Dziurda over being blocked from adjudicating (2 Jun 2026); lawyer not named",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
-   ],
-   "date": "2026-06-02"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "markiewicz",
-   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
-   ],
-   "date": "2026-06-02"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "taborowski",
-   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
-   ],
-   "date": "2026-06-02"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "dziurda",
-   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
-   "confidence": "fact",
-   "sources": [
-    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
-   ],
-   "date": "2026-06-02"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "tk",
-   "relation": "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr",
-   "confidence": "fact",
-   "sources": [
-    "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
-   ],
-   "date": "2026-04-09"
-  },
-  {
-   "source": "zurek",
-   "target": "korwin_piotrowska",
-   "relation": "their 16-year Themis tie is why Żurek's 30 Oct files went to her and why she was picked to act as TK head",
-   "confidence": "speculation",
-   "sources": [
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
-   ]
-  },
-  {
-   "source": "tusk",
-   "target": "korwin_piotrowska",
-   "relation": "link runs Tusk -> Żurek (his minister) -> Themis (Żurek co-founded; she is president); no direct Tusk contact documented",
-   "confidence": "fact",
-   "sources": [
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ],
-   "tie": "indirect",
-   "via": "zurek"
-  },
-  {
-   "source": "batory",
-   "target": "korwin_piotrowska",
-   "relation": "any role, fellowship, expert-team seat or grant (expert-team biographies and 2017/2023/2024 reports checked)",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/Biogramy%20czlonkow%20Zespolu%20Ekspertow%20Prawnych.pdf",
-    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
-   ],
-   "tie": "direct"
-  },
-  {
-   "source": "china_state",
-   "target": "korwin_piotrowska",
-   "relation": "any payment, trip, post or contact",
-   "confidence": "no_link",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ],
-   "tie": "direct"
-  },
-  {
-   "source": "russia_state",
-   "target": "korwin_piotrowska",
-   "relation": "any payment, trip, post or contact",
-   "confidence": "no_link",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ],
-   "tie": "direct"
-  }
- ],
- "checked_no_link": [
-  {
-   "subject": "korwin_piotrowska",
-   "searched_for": "birthplace, schooling, spouse, children, relatives",
-   "result": "none found in Sejm, press or Ombudsman sources; born 1969 (from earlier record); no documented family tie to Karolina Korwin-Piotrowska or Janusz Korwin-Mikke",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
-    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ]
-  },
-  {
-   "subject": "korwin_piotrowska",
-   "searched_for": "law firm, private clients, company shares, supervisory boards",
-   "result": "none found; career judge since 1999 with no private practice recorded",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
-    "https://www.money.pl/finanse/awantura-o-trybunal-konstytucyjny-taki-majatek-ma-sedzia-korwin-piotrowska-7345879794936288a.html"
-   ]
-  },
-  {
-   "subject": "korwin_piotrowska",
-   "searched_for": "academic post, research grant, foreign fellowship (US, EU, Council of Europe)",
-   "result": "none found; only lecturing to trainee advocates/legal advisers",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
-   ]
-  },
-  {
-   "subject": "korwin_piotrowska",
-   "searched_for": "energy or wind company roles, statements on wind or energy",
-   "result": "none found",
-   "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami"
-   ]
-  },
-  {
-   "subject": "themis",
-   "searched_for": "funders, grants, sponsors (Themis site, board page, 2025 conference report)",
-   "result": "none named; dues only per statute",
-   "sources": [
-    "https://themis-sedziowie.eu/",
-    "https://themis-sedziowie.eu/zarzad-glowny/",
-    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
-   ]
-  }
- ],
- "leads": [
-  {
-   "lead": "Themis is the Żurek network inside the TK",
-   "result": "fact that Żurek co-founded Themis and she leads it; Bodnar is an honorary member and appointed her Opole president; that this tie drove 30 Oct is not documented",
-   "label": "speculation"
-  },
-  {
-   "lead": "Foreign money reached her through MEDEL",
-   "result": "Themis joined MEDEL in 2023; MEDEL names no funders; no payment to Themis or her found",
-   "label": "no_link"
-  },
-  {
-   "lead": "Paid by Żurek's ministry while a TK judge",
-   "result": "yes, ~PLN 7k exam-commission fee under his 17 Feb 2026 ordinance; experts call it a conflict of interest",
-   "label": "fact"
-  }
- ]
+  "nodes": [
+    {
+      "id": "bodnar",
+      "type": "person",
+      "group": "government",
+      "label": "Adam Bodnar",
+      "career": "Ombudsman (RPO) 2015-21; Justice Minister 2023-25; honorary member of Themis",
+      "sources": [
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+      ]
+    },
+    {
+      "id": "medel",
+      "type": "org",
+      "group": "intl",
+      "label": "MEDEL (European Judges for Democracy and Liberty)",
+      "funding": "Statute: dues, subsidies, donations, legacies; no funder named in any page read; no OSF or EU grant found",
+      "sources": [
+        "https://medelnet.eu/?p=5904",
+        "https://medelnet.eu/wp-content/uploads/2023/06/Statuts-MEDEL-2022-English.pdf",
+        "https://medelnet.eu/"
+      ]
+    },
+    {
+      "id": "so_opole",
+      "type": "org",
+      "group": "court",
+      "label": "Opole Regional Court (Sąd Okręgowy w Opolu)",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "sr_kedzierzyn",
+      "type": "org",
+      "group": "court",
+      "label": "Kędzierzyn-Koźle District Court",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+      ]
+    },
+    {
+      "id": "opole_exam_commission",
+      "type": "org",
+      "group": "government",
+      "label": "Opole legal-adviser (radca prawny) exam commission",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+      ]
+    },
+    {
+      "id": "morawiec",
+      "type": "person",
+      "group": "judge",
+      "label": "Beata Morawiec",
+      "career": "Krakow judge; former Themis president; surveilled with Pegasus",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ]
+    },
+    {
+      "id": "majcher",
+      "type": "person",
+      "group": "judge",
+      "label": "Irena Majcher",
+      "career": "Opole judge facing Disciplinary Chamber case",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "korwin_piotrowska",
+      "target": "themis",
+      "relation": "president of the national board (Prezes Zarządu Głównego); opened the 15th-anniversary conference Oct 2025",
+      "confidence": "fact",
+      "sources": [
+        "https://themis-sedziowie.eu/zarzad-glowny/",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ],
+      "date": "2025-10-18"
+    },
+    {
+      "source": "zurek",
+      "target": "themis",
+      "relation": "co-founder (2009-10); listed as vice-president on Themis's undated board page; Oct 2025 press calls him a former member and board member",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art7175111-themis-czyli-sedziowska-fronda",
+        "https://themis-sedziowie.eu/zarzad-glowny/",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ]
+    },
+    {
+      "source": "zurek",
+      "target": "korwin_piotrowska",
+      "relation": "Themis board colleagues: she is president, he co-founder and listed vice-president",
+      "confidence": "fact",
+      "sources": [
+        "https://themis-sedziowie.eu/zarzad-glowny/",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ],
+      "tie": "indirect",
+      "via": "themis"
+    },
+    {
+      "source": "zurek",
+      "target": "korwin_piotrowska",
+      "relation": "as minister, appointed her chair of the Opole legal-adviser exam commission (ordinance 17 Feb 2026); paid fee ~PLN 7k (1,920 zł/month + 120 zł per candidate)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+      ],
+      "tie": "direct",
+      "date": "2026-02-17"
+    },
+    {
+      "source": "zurek",
+      "target": "korwin_piotrowska",
+      "relation": "exam-commission pay while a TK judge is a conflict of interest (Zalasiński, Gutowski); she says it does not affect impartiality",
+      "confidence": "alleged",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "opole_exam_commission",
+      "relation": "chair (przewodnicząca), 2026",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+      ],
+      "date": "2026"
+    },
+    {
+      "source": "bodnar",
+      "target": "korwin_piotrowska",
+      "relation": "as Justice Minister, appointed her president of the Opole Regional Court (one of 3 candidates put forward by judges' assembly)",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+      ],
+      "tie": "direct",
+      "date": "2024-10"
+    },
+    {
+      "source": "bodnar",
+      "target": "themis",
+      "relation": "honorary member; encouraged its founding",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ]
+    },
+    {
+      "source": "bodnar",
+      "target": "zurek",
+      "relation": "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
+        "https://demo-crisis.eu/?p=798"
+      ]
+    },
+    {
+      "source": "themis",
+      "target": "medel",
+      "relation": "admitted as member 7 Oct 2023 (Belgrade)",
+      "confidence": "fact",
+      "sources": [
+        "https://medelnet.eu/?p=5904"
+      ],
+      "date": "2023-10-07"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "medel",
+      "relation": "heads Themis, a MEDEL member association",
+      "confidence": "fact",
+      "sources": [
+        "https://medelnet.eu/?p=5904",
+        "https://themis-sedziowie.eu/zarzad-glowny/"
+      ],
+      "tie": "indirect",
+      "via": "themis"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "so_opole",
+      "relation": "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "sr_kedzierzyn",
+      "relation": "judge 1999; president 2003-09",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+      ]
+    },
+    {
+      "source": "ziobro",
+      "target": "korwin_piotrowska",
+      "relation": "his ministry removed her as Opole vice-president by fax with no reasons (Dec 2017); she kept signing as vice-president until she got the original",
+      "confidence": "fact",
+      "sources": [
+        "https://forsal.pl/artykuly/1093053,opole-wiceprezes-so-pracuje-wbrew-decyzji-ministra.html",
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://oko.press/ministerstwo-ziobry-czysci-sady-swietami"
+      ],
+      "date": "2017-12"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "morawiec",
+      "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted), 2021",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+      ],
+      "date": "2021-06"
+    },
+    {
+      "source": "morawiec",
+      "target": "themis",
+      "relation": "former president",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "majcher",
+      "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted)",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+      ]
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "echr",
+      "relation": "second application with Markiewicz, Taborowski, Dziurda over being blocked from adjudicating (2 Jun 2026); lawyer not named",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+      ],
+      "date": "2026-06-02"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "markiewicz",
+      "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+      ],
+      "date": "2026-06-02"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "taborowski",
+      "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+      ],
+      "date": "2026-06-02"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "dziurda",
+      "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+      "confidence": "fact",
+      "sources": [
+        "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+      ],
+      "date": "2026-06-02"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "tk",
+      "relation": "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr",
+      "confidence": "fact",
+      "sources": [
+        "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
+      ],
+      "date": "2026-04-09"
+    },
+    {
+      "source": "zurek",
+      "target": "korwin_piotrowska",
+      "relation": "their 16-year Themis tie is why Żurek's 30 Oct files went to her and why she was picked to act as TK head",
+      "confidence": "speculation",
+      "sources": [
+        "https://themis-sedziowie.eu/zarzad-glowny/",
+        "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ]
+    },
+    {
+      "source": "tusk",
+      "target": "korwin_piotrowska",
+      "relation": "link runs Tusk -> Żurek (his minister) -> Themis (Żurek co-founded; she is president); no direct Tusk contact documented",
+      "confidence": "fact",
+      "sources": [
+        "https://themis-sedziowie.eu/zarzad-glowny/",
+        "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+      ],
+      "tie": "indirect",
+      "via": "zurek"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Themis is the Żurek network inside the TK",
+      "result": "fact that Żurek co-founded Themis and she leads it; Bodnar is an honorary member and appointed her Opole president; that this tie drove 30 Oct is not documented",
+      "label": "speculation"
+    },
+    {
+      "lead": "Foreign money reached her through MEDEL",
+      "result": "Themis joined MEDEL in 2023; MEDEL names no funders; no payment to Themis or her found",
+      "label": "no_link"
+    },
+    {
+      "lead": "Paid by Żurek's ministry while a TK judge",
+      "result": "yes, ~PLN 7k exam-commission fee under his 17 Feb 2026 ordinance; experts call it a conflict of interest",
+      "label": "fact"
+    }
+  ]
 }

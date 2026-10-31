@@ -1,350 +1,339 @@
 {
- "meta": {
-  "title": "Op-ed check: US handover spending, NED lawsuit, EU layer",
-  "as_of": "2026-10-31",
-  "parent_graph": "poland_tk_graph.json",
-  "oped_flags": [
-   "Op-ed calls the judge 'Krystyna' Korwin-Piotrowska; every source says Anna.",
-   "Op-ed calls Patyra 'Stanisław'; his name is Sławomir.",
-   "'the group Tusk led as party president': Tusk led the EPP party (2019-22), not the EP group (led by Weber).",
-   "'Soros's Polish foundation': Batory was founded by Soros in 1988 and lists OSF as a donor, but is an independent Polish foundation; 'Soros-founded' is accurate.",
-   "'Civic Coalition MEP': elected on the KO list but non-party; EP profile says 'Independent'.",
-   "'Free Courts has published no statement': we only know its website news stops in 2024; say 'none found on its website'.",
-   "'precise plan' quote comes from TVP's page summary only; full interview not retrieved.",
-   "'An American-funded fellow co-founded a group that took Soros money': he co-founded Free Courts in 2017, years before the NED fellowship (2022/23) and the OSF grant (2023-24); the wording implies a sequence that did not happen.",
-   "'Two other new judges advised Soros's Polish foundation': they co-signed a Batory expert-team position; 'advised' is fair, payment undisclosed.",
-   "US 'They said it out loud' section: all real quotes, but none is tied to Poland in any source; the graph marks the Poland link no_link."
+  "meta": {
+    "title": "Op-ed check: US handover spending, NED lawsuit, EU layer",
+    "as_of": "2026-10-31",
+    "parent_graph": "poland_tk_graph.json",
+    "oped_flags": [
+      "Op-ed calls the judge 'Krystyna' Korwin-Piotrowska; every source says Anna.",
+      "Op-ed calls Patyra 'Stanisław'; his name is Sławomir.",
+      "'the group Tusk led as party president': Tusk led the EPP party (2019-22), not the EP group (led by Weber).",
+      "'Soros's Polish foundation': Batory was founded by Soros in 1988 and lists OSF as a donor, but is an independent Polish foundation; 'Soros-founded' is accurate.",
+      "'Civic Coalition MEP': elected on the KO list but non-party; EP profile says 'Independent'.",
+      "'Free Courts has published no statement': we only know its website news stops in 2024; say 'none found on its website'.",
+      "'precise plan' quote comes from TVP's page summary only; full interview not retrieved.",
+      "'An American-funded fellow co-founded a group that took Soros money': he co-founded Free Courts in 2017, years before the NED fellowship (2022/23) and the OSF grant (2023-24); the wording implies a sequence that did not happen.",
+      "'Two other new judges advised Soros's Polish foundation': they co-signed a Batory expert-team position; 'advised' is fair, payment undisclosed.",
+      "US 'They said it out loud' section: all real quotes, but none is tied to Poland in any source; the graph marks the Poland link no_link."
+    ]
+  },
+  "nodes": [
+    {
+      "id": "efron",
+      "type": "person",
+      "group": "us_gov",
+      "label": "Brent Efron (EPA special adviser, Biden admin)",
+      "sources": [
+        "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
+      ]
+    },
+    {
+      "id": "epa_ggrf",
+      "type": "program",
+      "group": "us_gov",
+      "label": "EPA $20bn climate grants parked at Citibank (8 groups)",
+      "sources": [
+        "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
+      ]
+    },
+    {
+      "id": "zeldin",
+      "type": "person",
+      "group": "us_gov",
+      "label": "Lee Zeldin (EPA Administrator, Trump admin)",
+      "sources": [
+        "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
+      ]
+    },
+    {
+      "id": "blinken",
+      "type": "person",
+      "group": "us_gov",
+      "label": "Antony Blinken (US Secretary of State to Jan 2025)",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2024-11-13/us-to-push-every-dollar-to-kyiv-before-jan-20-blinken-says"
+      ]
+    },
+    {
+      "id": "ukraine_gov",
+      "type": "org",
+      "group": "foreign_gov",
+      "label": "Ukrainian government",
+      "sources": [
+        "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
+      ]
+    },
+    {
+      "id": "nato",
+      "type": "org",
+      "group": "intl_org",
+      "label": "NATO",
+      "sources": [
+        "https://spokesman.com/stories/2024/jul/10/nato-leaders-move-to-trump-proof-alliance-in-washi"
+      ]
+    },
+    {
+      "id": "watchdog_polska",
+      "type": "org",
+      "group": "ngo",
+      "label": "Watchdog Polska (Katarzyna Batko-Tołuć)",
+      "sources": [
+        "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
+      ]
+    },
+    {
+      "id": "agoraeu",
+      "type": "program",
+      "group": "eu_body",
+      "label": "AgoraEU (proposed EU programme, up to €8.6bn, 2028-34)",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ]
+    },
+    {
+      "id": "brussels_signal",
+      "type": "org",
+      "group": "media",
+      "label": "Brussels Signal (conservative EU outlet)",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ]
+    },
+    {
+      "id": "datarepublican",
+      "type": "person",
+      "group": "commentator",
+      "label": "DataRepublican (pseudonymous X researcher)",
+      "sources": [
+        "https://threadreaderapp.com/scrolly/1889172190282821690"
+      ]
+    },
+    {
+      "id": "carothers",
+      "type": "person",
+      "group": "analyst",
+      "label": "Thomas Carothers (Carnegie Endowment)",
+      "sources": [
+        "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
+      ]
+    },
+    {
+      "id": "dc_circuit",
+      "type": "org",
+      "group": "us_court",
+      "label": "US Court of Appeals, DC Circuit",
+      "sources": [
+        "https://clearinghouse.net/case/46198"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "efron",
+      "target": "epa_ggrf",
+      "relation": "on Project Veritas video: 'throwing like gold bars off the edge', 'get the money out as fast as possible'",
+      "confidence": "fact",
+      "sources": [
+        "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2024-12"
+    },
+    {
+      "source": "zeldin",
+      "target": "epa_ggrf",
+      "relation": "moved to claw back the $20bn; said it was 'designed to obligate all of the money in a rush job'; fought in court",
+      "confidence": "fact",
+      "sources": [
+        "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-02-13"
+    },
+    {
+      "source": "blinken",
+      "target": "ukraine_gov",
+      "relation": "'every dollar we have at our disposal' pushed to Kyiv before 20 Jan",
+      "confidence": "fact",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2024-11-13/us-to-push-every-dollar-to-kyiv-before-jan-20-blinken-says",
+        "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2024-11-13"
+    },
+    {
+      "source": "nato",
+      "target": "trump",
+      "relation": "July 2024 Washington summit moves to 'Trump-proof' the alliance (Washington Post)",
+      "confidence": "fact",
+      "sources": [
+        "https://spokesman.com/stories/2024/jul/10/nato-leaders-move-to-trump-proof-alliance-in-washi"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2024-07-10"
+    },
+    {
+      "source": "watchdog_polska",
+      "target": "tusk",
+      "relation": "asked government to cover USAID cuts: 'We need help from the government'",
+      "confidence": "fact",
+      "sources": [
+        "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-02-13"
+    },
+    {
+      "source": "tusk",
+      "target": "watchdog_polska",
+      "relation": "chancellery pointed to extra €17m for civil society in 2025 budget (not a USAID replacement grant to named groups)",
+      "confidence": "fact",
+      "sources": [
+        "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-02"
+    },
+    {
+      "source": "usaid",
+      "target": "watchdog_polska",
+      "relation": "USAID-funded until 2025 cuts (per its appeal)",
+      "confidence": "fact",
+      "sources": [
+        "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "source": "vdl",
+      "target": "agoraeu",
+      "relation": "Commission proposal, up to €8.6bn for 2028-34",
+      "confidence": "fact",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2026-01"
+    },
+    {
+      "source": "brussels_signal",
+      "target": "agoraeu",
+      "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
+      "confidence": "alleged",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "source": "agoraeu",
+      "target": "free_courts",
+      "relation": "any EU money (CERV/AgoraEU) to Free Courts, OKO.press or Batory: not yet checked",
+      "confidence": "speculation",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "source": "datarepublican",
+      "target": "ned",
+      "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
+      "confidence": "alleged",
+      "sources": [
+        "https://threadreaderapp.com/scrolly/1889172190282821690"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-02-11"
+    },
+    {
+      "source": "carothers",
+      "target": "ned",
+      "relation": "democracy-aid sector 'will have its back to the wall' after 2025 cuts",
+      "confidence": "fact",
+      "sources": [
+        "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-03"
+    },
+    {
+      "source": "ned",
+      "target": "trump_admin",
+      "relation": "sued 5 Mar 2025 over $167m obligated + $72m appropriated; ~$97m released 10 Mar",
+      "confidence": "fact",
+      "sources": [
+        "https://ned.org/national-endowment-for-democracy-files-lawsuit-seeking-access-to-congressionally-appropriated-funds",
+        "https://news.bloomberglaw.com/litigation/national-endowment-for-democracy-receives-some-frozen-funds"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-03-05"
+    },
+    {
+      "source": "trump_admin",
+      "target": "ned",
+      "relation": "Judge Dabney Friedrich (D.D.C., Trump appointee) preliminary injunction on ~$95m FY25 funds; withheld 'for impermissible policy reasons'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.mto.com/achievement/preliminary-injunction-prohibits-federal-government-from-withholding-funding-from-national-endowment-for-democracy/",
+        "https://clearinghouse.net/case/46198"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-08-11"
+    },
+    {
+      "source": "trump_admin",
+      "target": "dc_circuit",
+      "relation": "appealed NED injunction (No. 25-5361); outcome not found",
+      "confidence": "fact",
+      "sources": [
+        "https://clearinghouse.net/case/46198"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked",
+      "date": "2025-10-09"
+    },
+    {
+      "source": "tusk",
+      "target": "epp",
+      "relation": "EPP party president 2019-22 (the party, not the EP group Weber leads)",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Donald_Tusk"
+      ],
+      "added_by": "lead_oped_handover",
+      "verified": "source cited in op-ed; not independently re-checked"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Biden-era 'Trump-proofing' reached Polish groups",
+      "result": "US actors said openly they were rushing money out (EPA, Ukraine aid, NATO); no money from those pushes traced to Polish NGOs or the TK fight",
+      "label": "speculation"
+    },
+    {
+      "lead": "EU money (CERV/AgoraEU) replaced US money for Free Courts, OKO.press or Batory",
+      "result": "not yet checked",
+      "label": "speculation"
+    },
+    {
+      "lead": "Outcome of DC Circuit appeal 25-5361 on NED funds",
+      "result": "not found",
+      "label": "no_link"
+    }
   ]
- },
- "nodes": [
-  {
-   "id": "efron",
-   "type": "person",
-   "group": "us_gov",
-   "label": "Brent Efron (EPA special adviser, Biden admin)",
-   "sources": [
-    "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
-   ]
-  },
-  {
-   "id": "epa_ggrf",
-   "type": "program",
-   "group": "us_gov",
-   "label": "EPA $20bn climate grants parked at Citibank (8 groups)",
-   "sources": [
-    "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
-   ]
-  },
-  {
-   "id": "zeldin",
-   "type": "person",
-   "group": "us_gov",
-   "label": "Lee Zeldin (EPA Administrator, Trump admin)",
-   "sources": [
-    "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
-   ]
-  },
-  {
-   "id": "blinken",
-   "type": "person",
-   "group": "us_gov",
-   "label": "Antony Blinken (US Secretary of State to Jan 2025)",
-   "sources": [
-    "https://www.bloomberg.com/news/articles/2024-11-13/us-to-push-every-dollar-to-kyiv-before-jan-20-blinken-says"
-   ]
-  },
-  {
-   "id": "ukraine_gov",
-   "type": "org",
-   "group": "foreign_gov",
-   "label": "Ukrainian government",
-   "sources": [
-    "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
-   ]
-  },
-  {
-   "id": "nato",
-   "type": "org",
-   "group": "intl_org",
-   "label": "NATO",
-   "sources": [
-    "https://spokesman.com/stories/2024/jul/10/nato-leaders-move-to-trump-proof-alliance-in-washi"
-   ]
-  },
-  {
-   "id": "watchdog_polska",
-   "type": "org",
-   "group": "ngo",
-   "label": "Watchdog Polska (Katarzyna Batko-Tołuć)",
-   "sources": [
-    "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
-   ]
-  },
-  {
-   "id": "agoraeu",
-   "type": "program",
-   "group": "eu_body",
-   "label": "AgoraEU (proposed EU programme, up to €8.6bn, 2028-34)",
-   "sources": [
-    "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-   ]
-  },
-  {
-   "id": "brussels_signal",
-   "type": "org",
-   "group": "media",
-   "label": "Brussels Signal (conservative EU outlet)",
-   "sources": [
-    "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-   ]
-  },
-  {
-   "id": "datarepublican",
-   "type": "person",
-   "group": "commentator",
-   "label": "DataRepublican (pseudonymous X researcher)",
-   "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
-   ]
-  },
-  {
-   "id": "carothers",
-   "type": "person",
-   "group": "analyst",
-   "label": "Thomas Carothers (Carnegie Endowment)",
-   "sources": [
-    "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
-   ]
-  },
-  {
-   "id": "dc_circuit",
-   "type": "org",
-   "group": "us_court",
-   "label": "US Court of Appeals, DC Circuit",
-   "sources": [
-    "https://clearinghouse.net/case/46198"
-   ]
-  }
- ],
- "edges": [
-  {
-   "source": "efron",
-   "target": "epa_ggrf",
-   "relation": "on Project Veritas video: 'throwing like gold bars off the edge', 'get the money out as fast as possible'",
-   "confidence": "fact",
-   "sources": [
-    "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-12"
-  },
-  {
-   "source": "zeldin",
-   "target": "epa_ggrf",
-   "relation": "moved to claw back the $20bn; said it was 'designed to obligate all of the money in a rush job'; fought in court",
-   "confidence": "fact",
-   "sources": [
-    "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-02-13"
-  },
-  {
-   "source": "blinken",
-   "target": "ukraine_gov",
-   "relation": "'every dollar we have at our disposal' pushed to Kyiv before 20 Jan",
-   "confidence": "fact",
-   "sources": [
-    "https://www.bloomberg.com/news/articles/2024-11-13/us-to-push-every-dollar-to-kyiv-before-jan-20-blinken-says",
-    "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-11-13"
-  },
-  {
-   "source": "nato",
-   "target": "trump",
-   "relation": "July 2024 Washington summit moves to 'Trump-proof' the alliance (Washington Post)",
-   "confidence": "fact",
-   "sources": [
-    "https://spokesman.com/stories/2024/jul/10/nato-leaders-move-to-trump-proof-alliance-in-washi"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-07-10"
-  },
-  {
-   "source": "watchdog_polska",
-   "target": "tusk",
-   "relation": "asked government to cover USAID cuts: 'We need help from the government'",
-   "confidence": "fact",
-   "sources": [
-    "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-02-13"
-  },
-  {
-   "source": "tusk",
-   "target": "watchdog_polska",
-   "relation": "chancellery pointed to extra €17m for civil society in 2025 budget (not a USAID replacement grant to named groups)",
-   "confidence": "fact",
-   "sources": [
-    "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-02"
-  },
-  {
-   "source": "usaid",
-   "target": "watchdog_polska",
-   "relation": "USAID-funded until 2025 cuts (per its appeal)",
-   "confidence": "fact",
-   "sources": [
-    "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
-  },
-  {
-   "source": "vdl",
-   "target": "agoraeu",
-   "relation": "Commission proposal, up to €8.6bn for 2028-34",
-   "confidence": "fact",
-   "sources": [
-    "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2026-01"
-  },
-  {
-   "source": "brussels_signal",
-   "target": "agoraeu",
-   "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
-   "confidence": "alleged",
-   "sources": [
-    "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
-  },
-  {
-   "source": "agoraeu",
-   "target": "free_courts",
-   "relation": "any EU money (CERV/AgoraEU) to Free Courts, OKO.press or Batory: not yet checked",
-   "confidence": "speculation",
-   "sources": [
-    "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
-  },
-  {
-   "source": "datarepublican",
-   "target": "ned",
-   "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
-   "confidence": "alleged",
-   "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-02-11"
-  },
-  {
-   "source": "carothers",
-   "target": "ned",
-   "relation": "democracy-aid sector 'will have its back to the wall' after 2025 cuts",
-   "confidence": "fact",
-   "sources": [
-    "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-03"
-  },
-  {
-   "source": "ned",
-   "target": "trump_admin",
-   "relation": "sued 5 Mar 2025 over $167m obligated + $72m appropriated; ~$97m released 10 Mar",
-   "confidence": "fact",
-   "sources": [
-    "https://ned.org/national-endowment-for-democracy-files-lawsuit-seeking-access-to-congressionally-appropriated-funds",
-    "https://news.bloomberglaw.com/litigation/national-endowment-for-democracy-receives-some-frozen-funds"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-03-05"
-  },
-  {
-   "source": "trump_admin",
-   "target": "ned",
-   "relation": "Judge Dabney Friedrich (D.D.C., Trump appointee) preliminary injunction on ~$95m FY25 funds; withheld 'for impermissible policy reasons'",
-   "confidence": "fact",
-   "sources": [
-    "https://www.mto.com/achievement/preliminary-injunction-prohibits-federal-government-from-withholding-funding-from-national-endowment-for-democracy/",
-    "https://clearinghouse.net/case/46198"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-08-11"
-  },
-  {
-   "source": "trump_admin",
-   "target": "dc_circuit",
-   "relation": "appealed NED injunction (No. 25-5361); outcome not found",
-   "confidence": "fact",
-   "sources": [
-    "https://clearinghouse.net/case/46198"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2025-10-09"
-  },
-  {
-   "source": "epa_ggrf",
-   "target": "tk",
-   "relation": "US pre-handover spending connected to Poland's TK fight",
-   "confidence": "no_link",
-   "sources": [
-    "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
-  },
-  {
-   "source": "tusk",
-   "target": "epp",
-   "relation": "EPP party president 2019-22 (the party, not the EP group Weber leads)",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Donald_Tusk"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
-  }
- ],
- "leads": [
-  {
-   "lead": "Biden-era 'Trump-proofing' reached Polish groups",
-   "result": "US actors said openly they were rushing money out (EPA, Ukraine aid, NATO); no money from those pushes traced to Polish NGOs or the TK fight",
-   "label": "speculation"
-  },
-  {
-   "lead": "EU money (CERV/AgoraEU) replaced US money for Free Courts, OKO.press or Batory",
-   "result": "not yet checked",
-   "label": "speculation"
-  },
-  {
-   "lead": "Outcome of DC Circuit appeal 25-5361 on NED funds",
-   "result": "not found",
-   "label": "no_link"
-  }
- ]
 }

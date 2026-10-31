@@ -187,7 +187,6 @@ dd { margin: 0; overflow-wrap: anywhere; }
       <h2>Evidence label</h2>
       <div id="f-labels"></div>
       <div class="mini"><a data-all="labels">All</a><a data-none="labels">None</a><a id="only-solid">Fact + alleged only</a></div>
-      <p class="meta-line" id="nolink-note"></p>
     </div>
     <div class="section">
       <h2>Node type</h2>
@@ -674,7 +673,6 @@ function shapeIcon(type) {
 function buildFilters() {
   const lc = {}; store.edges.forEach(e => lc[e.label] = (lc[e.label] || 0) + 1);
   const labels = LABELS.map(l => l.key).filter(k => k !== "no_link").concat(lc.unlabelled ? ["unlabelled"] : []);
-  document.getElementById("nolink-note").textContent = lc.no_link ? `${lc.no_link} "no link found" results are not drawn; open a node to see them.` : "";
   document.getElementById("f-labels").innerHTML = labels.map(k => `
     <label class="row" data-k="${k}"><input type="checkbox" id="lab-${k}" ${state.labels.has(k) ? "checked" : ""}>${swatch(k)}<span class="name">${LABEL_NAME[k]}</span><span class="count" data-lc="${k}">${lc[k] || 0}</span></label>`).join("");
   const tc = {}; store.nodes.forEach(n => tc[n.type || "unknown"] = (tc[n.type || "unknown"] || 0) + 1);
@@ -734,16 +732,13 @@ function renderPanel() {
     let edges = [...store.edges.values()].filter(e => e.s === n.id || e.t === n.id)
       .sort((a, b) => LABELS.findIndex(l => l.key === a.label) - LABELS.findIndex(l => l.key === b.label));
     const shownKeys = new Set(simLinks.flatMap(l => l.es.map(e => e.key)));
-    const noLinks = edges.filter(e => e.label === "no_link");
     edges = edges.filter(e => e.label !== "no_link");
     const hidden = edges.filter(e => !shownKeys.has(e.key)).length;
-    const checks = store.checked.filter(c => c.subject === n.id);
     return p.innerHTML = `
       <div><h3>${esc(n.label)}</h3>
       <div class="meta-line"><span class="tag">${esc(n.type || "unknown")}</span>${n.group ? `<span class="tag">${esc(n.group.replace(/_/g, " "))}</span>` : ""}${isJudge(n) ? `<span class="tag" style="color:var(--judge);border-color:var(--judge)">one of the 8 judges</span>` : ""}${n.stub ? `<span class="tag">referenced but not defined in any loaded file</span>` : ""}</div></div>
       ${fields.length ? `<dl>${fields.map(([k, v]) => `<div><dt>${esc(fieldName(k))}</dt><dd>${fmtVal(v)}</dd></div>`).join("")}</dl>` : ""}
       <div class="section"><h2>Sources for this entry</h2>${sourcesHTML(n.sources)}</div>
-      ${checks.length || noLinks.length ? `<div class="section"><h2>Searched, nothing found (${checks.length + noLinks.length})</h2>${noLinks.map(e => `<div class="lead"><div class="q">${esc(nodeName(e.s === n.id ? e.t : e.s))}</div><div class="r">${esc(e.relation)}</div>${sourcesHTML(e.sources)}</div>`).join("")}${checks.map(c => `<div class="lead"><div class="q">${esc(c.searched_for)}</div><div class="r">${esc(c.result)}</div>${sourcesHTML(c.sources)}</div>`).join("")}</div>` : ""}
       <div class="section"><h2>Links (${edges.length}${hidden ? `, ${hidden} hidden by filters` : ""})</h2>
         <div class="conn">${edges.map(e => { const other = e.s === n.id ? e.t : e.s; const dir = e.s === n.id ? "→" : "←";
           return `<button type="button" data-edge="${esc(e.key)}"><span class="who">${dir} ${esc(nodeName(other))}</span><span class="rel">${esc(e.relation)}</span><span><span class="pill ${e.label}">${LABEL_NAME[e.label]}</span> <span class="meta-line" style="display:inline">${e.sources.length} source${e.sources.length === 1 ? "" : "s"}${e.date ? " · " + esc(e.date) : ""}</span></span></button>`; }).join("") || `<p class="empty">No links.</p>`}</div></div>
@@ -780,8 +775,8 @@ function overviewHTML() {
   const levels = store.metas.find(m => m.meta.confidence_levels)?.meta.confidence_levels || {};
   const judges = [...store.nodes.values()].filter(isJudge);
   return `
-    <div><h3>How to read this map</h3><p class="empty">Click any node or line to see its sources. Line style shows how solid each claim is. Only fact and alleged links pull nodes together, so closeness on screen means a sourced tie. "No link found" results are never drawn; they are listed on each node instead.</p></div>
-    <div class="section"><h2>Evidence labels</h2>${LABELS.map(l => `<div class="row" style="cursor:default;align-items:flex-start">${swatch(l.key)}<span><b>${l.name}</b><br><span class="meta-line" style="display:inline">${esc(levels[l.key] || "")}${l.key === "no_link" ? " (never drawn as a line; listed on each node)" : ""}</span></span></div>`).join("")}</div>
+    <div><h3>How to read this map</h3><p class="empty">Click any node or line to see its sources. Line style shows how solid each claim is. Only fact and alleged links pull nodes together, so closeness on screen means a sourced tie.</p></div>
+    <div class="section"><h2>Evidence labels</h2>${LABELS.filter(l => l.key !== "no_link").map(l => `<div class="row" style="cursor:default;align-items:flex-start">${swatch(l.key)}<span><b>${l.name}</b><br><span class="meta-line" style="display:inline">${esc(levels[l.key] || "")}</span></span></div>`).join("")}</div>
     <div class="section"><h2>Money</h2><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="2.5"/></svg><span class="name">Thicker line = more money. Only money ties get thickness; amounts converted to rough USD.</span></div><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="8"/></svg><span class="name">Large sums, e.g. multi-million funds</span></div></div>
     <div class="section"><h2>Shapes</h2>${Object.keys(TYPE_SHAPES).map(t => `<div class="row" style="cursor:default">${shapeIcon(t)}<span class="name" style="text-transform:capitalize">${t}</span></div>`).join("")}
       <div class="row" style="cursor:default"><svg width="16" height="16" viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="none" stroke="var(--judge)" stroke-width="2.2"/></svg><span class="name">Gold ring: one of the 8 judges</span></div></div>
@@ -800,8 +795,7 @@ function filesHTML() {
     <ul class="files">${store.files.map(f => `<li><span class="mono">${esc(f.name)}</span><br><span class="meta-line" style="display:inline">${esc(f.title || "")}${f.as_of ? " · as of " + esc(f.as_of) : ""} · ${f.nodes} nodes, ${f.edges} links (${f.newNodes} new nodes, ${f.newEdges} new links after merging)</span></li>`).join("")}</ul>
     ${store.updates ? `<p class="meta-line">${store.updates} node update block${store.updates === 1 ? "" : "s"} applied.</p>` : ""}
     ${docs.length ? `<div class="section"><h2>Research write-up</h2>${sourcesHTML([...new Set(docs)])}</div>` : ""}
-    ${notes.length ? `<div class="section"><h2>Research notes</h2><ul class="sources">${notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>` : ""}
-    ${store.checked.length ? `<div class="section"><h2>Searched, nothing found (${store.checked.length})</h2>${store.checked.map(c => `<div class="lead"><div class="q">${esc(nodeName(c.subject))}: ${esc(c.searched_for)}</div><div class="r">${esc(c.result)}</div>${sourcesHTML(c.sources)}</div>`).join("")}</div>` : ""}`;
+    ${notes.length ? `<div class="section"><h2>Research notes</h2><ul class="sources">${notes.map(n => `<li>${esc(n)}</li>`).join("")}</ul></div>` : ""}`;
 }
 
 function select(sel) {
