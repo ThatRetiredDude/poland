@@ -200,10 +200,14 @@ dd { margin: 0; overflow-wrap: anywhere; }
       <div class="mini"><a id="judges-all">All</a><a id="judges-none">None</a></div>
     </div>
     <div class="section toggles">
+      <h2>Key people</h2>
+      <div id="f-people"></div>
+      <p class="meta-line">Unticking someone also hides anything that links to the map only through them.</p>
+    </div>
+    <div class="section toggles">
       <h2>View</h2>
       <label class="row"><input type="checkbox" id="t-isolated" checked><span class="name">Hide nodes with no visible links</span></label>
             <label class="row"><input type="checkbox" id="t-anchor" checked><span class="name">Judges in a row, Tusk above, Nawrocki below (when shown)</span></label>
-      <label class="row"><input type="checkbox" id="t-show-nawrocki"><span class="name">Show Nawrocki (and what links only to him)</span></label>
       <p class="meta-line" id="hidden-note"></p>
       <label class="row"><input type="checkbox" id="t-names"><span class="name">Show every name (names may overlap)</span></label>
     </div>
@@ -437,6 +441,15 @@ function visibleSets() {
 
 // Fixed "spine": the 8 judges in a row (not-sworn left, sworn-in right), Tusk above the middle, Nawrocki below (when shown).
 const ANCHOR_TOP = "tusk", ANCHOR_BOTTOM = "nawrocki";
+// The ten best-connected people outside the judges get their own show/hide tick box (Nawrocki starts hidden).
+// Worked out from the data on load, so the list follows the research as it grows.
+let KEY_PEOPLE = [];
+function topPeople(n) {
+  const deg = new Map();
+  store.edges.forEach(e => { if (e.label === "no_link") return; deg.set(e.s, (deg.get(e.s) || 0) + 1); deg.set(e.t, (deg.get(e.t) || 0) + 1); });
+  return [...store.nodes.values()].filter(x => x.type === "person" && !isJudge(x) && !x.stub)
+    .sort((a, b) => (deg.get(b.id) || 0) - (deg.get(a.id) || 0) || a.label.localeCompare(b.label)).slice(0, n).map(x => x.id);
+}
 let anchorFrame = null, judgeRank = new Map();
 function anchorPositions(width, height) {
   if (!anchorFrame) anchorFrame = { w: width, h: height };
@@ -808,12 +821,12 @@ function toggleHidden(id, on) {
   render(); renderPanel();
 }
 function syncHiddenControls() {
-  document.getElementById("t-show-nawrocki").checked = !state.hidden.has("nawrocki");
-  document.querySelectorAll("#f-judges input").forEach(i => { i.checked = !state.hidden.has(i.dataset.id); i.closest(".row").classList.toggle("off", !i.checked); });
-  const names = [...state.hidden].filter(id => id !== "nawrocki" && !isJudge(store.nodes.get(id) || {})).map(nodeName);
+  document.querySelectorAll("#f-judges input, #f-people input").forEach(i => { i.checked = !state.hidden.has(i.dataset.id); i.closest(".row").classList.toggle("off", !i.checked); });
+  const listed = id => KEY_PEOPLE.includes(id) || isJudge(store.nodes.get(id) || {});
+  const names = [...state.hidden].filter(id => !listed(id)).map(nodeName);
   document.getElementById("hidden-note").innerHTML = names.length ? `Hidden: ${names.map(esc).join(", ")} · <a href="#" id="show-all-hidden">Show all</a>` : "";
   const a = document.getElementById("show-all-hidden");
-  if (a) a.onclick = e => { e.preventDefault(); [...state.hidden].forEach(x => { if (x !== "nawrocki" && !isJudge(store.nodes.get(x) || {})) state.hidden.delete(x); }); toggleHidden("__none__", false); };
+  if (a) a.onclick = e => { e.preventDefault(); [...state.hidden].forEach(x => { if (!listed(x)) state.hidden.delete(x); }); toggleHidden("__none__", false); };
 }
 function buildJudgeToggles() {
   const judges = [...store.nodes.values()].filter(isJudge).sort((a, b) =>
@@ -824,6 +837,12 @@ function buildJudgeToggles() {
   const setAll = show => { judges.forEach(j => show ? state.hidden.delete(j.id) : state.hidden.add(j.id)); syncHiddenControls(); render(); renderPanel(); };
   document.getElementById("judges-all").onclick = () => setAll(true);
   document.getElementById("judges-none").onclick = () => setAll(false);
+  // Key people: name only, without the role in brackets; ticked means shown.
+  KEY_PEOPLE = topPeople(10);
+  const people = KEY_PEOPLE.map(id => store.nodes.get(id)).filter(Boolean);
+  document.getElementById("f-people").innerHTML = people.map(n => `
+    <label class="row"><input type="checkbox" id="kp-${esc(n.id)}" data-id="${esc(n.id)}"><span class="name">${esc(n.label.replace(/\s*\(.*\)\s*$/, ""))}</span></label>`).join("");
+  document.querySelectorAll("#f-people input").forEach(i => i.onchange = () => toggleHidden(i.dataset.id, !i.checked));
   syncHiddenControls();
 }
 function centerOn(id) {
@@ -839,7 +858,6 @@ document.getElementById("only-solid").onclick = () => { state.labels = new Set([
 document.getElementById("f-group").onchange = ev => { state.group = ev.target.value; render(); setTimeout(fit, 900); };
 document.getElementById("t-isolated").onchange = ev => { state.hideIsolated = ev.target.checked; render(); };
 document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.checked; render(); setTimeout(fit, 1200); };
-document.getElementById("t-show-nawrocki").onchange = ev => toggleHidden("nawrocki", !ev.target.checked);
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-reheat").onclick = () => { posCache.clear(); simNodes.forEach(n => { n.x += (Math.random() - .5) * 40; n.y += (Math.random() - .5) * 40; }); sim.alpha(1).restart(); setTimeout(fit, 1500); };
