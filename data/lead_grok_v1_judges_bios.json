@@ -1,1 +1,108 @@
-PLACEHOLDER
+{
+  "meta": {
+    "title": "Lead: Biographical dig on five disputed TK judges (Oct 2026 crisis)",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Parents and secondary schooling not found in any public source for any judge. All career steps and appointments sourced to Wikipedia/Sejm/press. No conclusions drawn."
+  },
+  "judges": {
+    "korwin_piotrowska": {
+      "full_name": "Anna Józefa Korwin-Piotrowska",
+      "born": "1969-11-01 (place not stated)",
+      "education": "Law, University of Wrocław; postgraduate European law (SGH 2004); postgraduate judicial management (SGH 2014)",
+      "career_path": [
+        "Judicial apprenticeship ~1995-99",
+        "Judge, SR Kędzierzyn-Koźle 1999; president 1 Jun 2003–30 Sep 2009 (second term 2007-09)",
+        "Judge, SO Opole 22 Nov 2006 (commercial/enforcement/labour); vice-president 2012–Dec 2017 (removed by Ziobro ministry fax; ECHR application settled 2022 for EUR 15k)",
+        "President SO Opole Oct 2024 (appointed by Bodnar; one of three candidates from judges' assembly)",
+        "Themis co-founder/vice-president; president of main board 2024–",
+        "Sejm-elected TK judge 13 Mar 2026 (236-185-4); oath in Sejm before notary 9 Apr 2026 (worded 'before the President'); barred from adjudicating by Święczkowski"
+      ],
+      "ngos_orgs": ["Themis (president)", "MEDEL (via Themis membership 2023)"],
+      "international_trips": "None documented",
+      "family_parents": "None found in any source; no documented link to journalist Karolina Korwin-Piotrowska or Janusz Korwin-Mikke",
+      "how_jobs_obtained": "Court presidencies by ministerial appointment; TK by Sejm election (coalition majority); oath self-administered in Sejm"
+    },
+    "markiewicz": {
+      "full_name": "Krystian Maksymilian Markiewicz",
+      "born": "1976-07-08, Proszowice",
+      "education": "Law, University of Silesia 2000; PhD 25 Apr 2006 (Zedler supervisor, with distinction); habilitation 15 Apr 2014 (monograph awarded)",
+      "career_path": [
+        "Assessor SR Katowice 2003–07",
+        "Judge SR Katowice 2007–15 (presidential appointment 19 Jul 2007)",
+        "Judge SO Katowice 2015–13 Apr 2026 (presidential appointment 22 Jul 2015); resigned judgeship after TK election",
+        "Adjunct then professor UWŚl Civil Procedure 2007–; delegated to SN as assistant 2007–09",
+        "Iustitia: Śląsk branch president from 2009; national board 2010–13; national president 2016–25 (re-elected 2019); remained on board and Śląsk branch president",
+        "Chaired Codification Commission for Judiciary and Prosecution 2024–26 (resigned after TK election)",
+        "Sejm-elected TK judge 13 Mar 2026; oath in Sejm 9 Apr 2026"
+      ],
+      "ngos_orgs": ["Iustitia (president 2016-25)", "Osiatyński Archive program council", "Zbigniew Hołda Association", "Towarzystwo Naukowe Procesualistów Cywilnych (co-founder)"],
+      "international_trips": "None documented",
+      "family_parents": "None found",
+      "how_jobs_obtained": "Court appointments by presidential decree; Iustitia by election of members; TK by Sejm election"
+    },
+    "taborowski": {
+      "full_name": "Maciej Henryk Taborowski",
+      "born": "1978-12-16, Łódź",
+      "education": "Law, University of Warsaw 2003; PhD INP PAN 21 Jan 2011 (Czapliński supervisor; book awarded); habilitation UW 18 May 2020",
+      "career_path": [
+        "UW European Law adjunct 2003– (unpaid leave during RPO role); INP PAN professor",
+        "Advocate (Warsaw bar); partner Hoffman, Taborowski i Wspólnicy (left on TK election)",
+        "Deputy Ombudsman 6 May 2019–1 Apr 2022 (appointed by Bodnar, replacing Spurek; supervised admin/economic and equal treatment teams; RPO counsel in CJEU cases)",
+        "TVP supervisory board vice-chair 2023–",
+        "Codification Commission member and MoJ EU-law advisory team 2024–",
+        "Sejm-elected TK judge 13 Mar 2026; oath in Sejm 9 Apr 2026"
+      ],
+      "ngos_orgs": ["Batory Legal Experts Team", "Osiatyński Archive council", "ELI", "Zbigniew Hołda Association", "Friedrich Ebert Foundation rule-of-law working group", "The Good Lobby Profs"],
+      "international_trips": "Fellowships: University of Regensburg, KU Leuven, MPI Heidelberg, MPI Hamburg; Batory fellow Oxford; ERA Trier lectures; appearances at CJEU and ECtHR",
+      "family_parents": "Married journalist Magda Mołek 2011–2024; two sons. Parents not found.",
+      "how_jobs_obtained": "Deputy RPO by appointment of Bodnar; academic posts by university; TK by Sejm election"
+    },
+    "dziurda": {
+      "full_name": "Marcin Dziurda",
+      "born": "1972 (place not stated)",
+      "education": "Law and Journalism/Political Science, University of Warsaw; PhD UW 2004 (Ereciński supervisor); habilitation UW 2020; professor UW 2023–",
+      "career_path": [
+        "Legal Bureau director, City of Warsaw office; head of process representation dept, Ministry of State Treasury; Bureau of Studies and Analyses, Supreme Court",
+        "Prime Minister's proxy for creation of Prokuratoria Generalna 2005; first president 22 Mar 2006–8 Nov 2012",
+        "Of counsel Linklaters; arbitrator at KIG Arbitration Court; vice-dean Warsaw Chamber of Legal Advisers; KRRP member",
+        "Academic teacher UW Civil Procedure",
+        "Sejm-elected TK judge 13 Mar 2026; oath in Sejm 9 Apr 2026"
+      ],
+      "ngos_orgs": "None prominent found",
+      "international_trips": "None documented",
+      "family_parents": "None found",
+      "how_jobs_obtained": "Prokuratoria presidency after being appointed proxy to create it; academic by university; TK by Sejm election"
+    },
+    "berek": {
+      "full_name": "Maciej Ludwik Berek",
+      "born": "1972-05-12, Gdańsk",
+      "education": "Law, University of Gdańsk; European integration study (KSAP/ENA); PhD UW 2016 (Zubik supervisor: Rada Ministrów as legislative initiator); legal adviser qualification",
+      "career_path": [
+        "Senate Chancellery 1997– (deputy director Legal-Organizational Bureau)",
+        "NIK 2004– (deputy director Legal and Adjudication Control Dept; deputy director Budget and Finance)",
+        "PO candidate (unsuccessful) 2005 Sejm election",
+        "President Government Legislation Centre Dec 2007–Nov 2015; Secretary of Council of Ministers Jan 2008–2015 (under Tusk/Kopacz governments)",
+        "Adjunct constitutional law UMCS 2016–20; UW 2019–",
+        "Senate Information Centre director 2020; RPO Office director-general 2021 (appointed by Wiącek); strategic development coordinator 2022",
+        "Chief legislator Employers of Poland 2023; private legal practice",
+        "Minister without portfolio / member of Council of Ministers 13 Dec 2023–24 Jul 2025 (Sejm election; appointed by Duda); chair Standing Committee of Council of Ministers; then Minister for Government Policy Implementation to 14 Aug 2026",
+        "Sejm-elected TK judge 4 Sep 2026 (226 votes); oath in Sejm 14 Oct 2026"
+      ],
+      "ngos_orgs": ["Polish Legislation Society"],
+      "international_trips": "ENA (France) study program; 2015 candidate for European Court of Auditors (competition cancelled by new government)",
+      "family_parents": "None found",
+      "how_jobs_obtained": "RCL/Secretary by government appointment under Tusk; ministerial posts by Sejm election + presidential appointment; TK by Sejm election (KO candidate)"
+    }
+  },
+  "sources_primary": [
+    "https://pl.wikipedia.org/wiki/Anna_Korwin-Piotrowska",
+    "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+    "https://pl.wikipedia.org/wiki/Maciej_Taborowski",
+    "https://pl.wikipedia.org/wiki/Marcin_Dziurda",
+    "https://pl.wikipedia.org/wiki/Maciej_Berek",
+    "https://trybunal.net/en/october-2026-leadership-crisis/",
+    "https://tvn24.pl/polska/kim-jest-anna-korwin-piotrowska-ktora-pelni-obowiazki-prezesa-trybunalu-konstytucyjnego-st9315369",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+  ]
+}
