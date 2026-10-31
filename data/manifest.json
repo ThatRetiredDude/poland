@@ -16,6 +16,7 @@
     "lead_grok_v1_remaining_details.json",
     "lead_grok_v1_election_networks.json",
     "lead_grok_v1_other_judges.json",
-    "lead_grok_v1_funding_details.json"
+    "lead_grok_v1_funding_details.json",
+    "response_to_grok_v1_merge_review.md"
   ]
 }
