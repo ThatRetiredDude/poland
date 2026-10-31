@@ -21,7 +21,8 @@
    "lead_funders_ned_osf_usaid.json",
    "lead_oped_handover.json",
    "lead_korwin_piotrowska.json",
-   "lead_energy_for_europe_wyborcza.json"
+   "lead_energy_for_europe_wyborcza.json",
+   "lead_taborowski_patyra.json"
   ],
   "oped_flags": [
    "Op-ed calls the judge 'Krystyna' Korwin-Piotrowska; every source says Anna.",
@@ -68,17 +69,20 @@
    "group": "tk_judge",
    "label": "Maciej Taborowski",
    "tk_status": "oath not recognised",
-   "nominated_by": "Sejm Presidium (coalition)",
+   "nominated_by": "Sejm Presidium (presented by Deputy Speaker Dorota Niedziela)",
    "elected": "2026-03-13",
    "sworn_before_president": false,
    "energy_wind": "None found",
    "born": "1978-12-16, Lodz",
-   "education": "Habilitation; professor, Polish Academy of Sciences law institute",
-   "career": "Advocate (CJEU, ECtHR); Deputy Ombudsman 2019-2022",
-   "money_affiliations": "Batory Foundation legal expert team; European Law Institute; advisory work for unnamed law firms and businesses",
+   "education": "Habilitation 2020 (university not named); fellowships Regensburg, Leuven, MPI Heidelberg, MPI Hamburg, Batory fellow in Oxford",
+   "career": "Advocate (Warsaw bar 2020); partner Hoffman, Taborowski i Wspólnicy; INP PAN professor; UW European law; Deputy Ombudsman from 6 May 2019 (to 2021/22); RPO counsel in CJEU C-824/18",
+   "money_affiliations": "Batory Legal Experts Team (no fee found); Batory Oxford fellowship; Osiatyński Archive council; ELI member; FES rule-of-law working group; law firm revenue not public",
    "sources": [
-    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
-   ]
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://rejestradwokatow.pl/adwokat/pdf/taborowski-maciej-87304"
+   ],
+   "family": "None found"
   },
   {
    "id": "korwin_piotrowska",
@@ -175,13 +179,18 @@
    "elected": "2026-06-11",
    "sworn_before_president": true,
    "energy_wind": "None found",
-   "education": "Habilitation; prosecutor traineeship 1997",
-   "career": "UMCS constitutional law from 1994 (chair 2019); legal adviser; Senate expert 2020-23",
-   "money_affiliations": "No declaration found",
+   "education": "Law UMCS 1994; prosecutor training 1995-97; PhD 2000; habilitation 2012",
+   "career": "UMCS from 1994, vice-dean 2019, chair of constitutional law 2019; legal adviser 2013; Senate Marshal's constitutional team 2019/20-23; KO/PSL Ombudsman candidate 2021; PGE supervisory board 2024-25",
+   "money_affiliations": "PGE board pay (amount not retrieved); MoJ Barski opinion Jan 2024 (fee not disclosed); Batory Legal Experts Team to 2024 (no fee found); earlier Lublin Science Park board",
    "sources": [
     "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html",
-    "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues/"
-   ]
+    "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues/",
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala"
+   ],
+   "born": "1970-03-27, Pyrzyce",
+   "party": "SKL 1998-99 only",
+   "family": "None found"
   },
   {
    "id": "berek",
@@ -1955,6 +1964,211 @@
    "sources": [
     "https://www.mdif.org/about/funders-and-impact-investors/"
    ]
+  },
+  {
+   "id": "zep_batory",
+   "type": "org",
+   "group": "ngo",
+   "label": "Batory Legal Experts Team (Zespół Ekspertów Prawnych)",
+   "founded": "operating since 2016 (rp.pl 2018); ~17 legal scholars in 2024",
+   "outputs": "2018 statement that Przyłębska's TK presidency was unlawful; 2019-22 drafted TK bills (published Jul 2022, 48 NGOs backed); 22 May 2023 position against PiS TK bill (print 3187); 2023-24 promoted its TK bills, filed by coalition MPs 4 Mar 2024",
+   "pay": "No fee, honorarium or budget line for the team found in any team document or 2023-25 annual report",
+   "members_2023": "Bogdanowicz, Bojarski, Czaja, Florczak-Wątor, Frąckowiak-Adamska, Gwizdak, Jasiński, Kładoczny, Krzyżanowska-Mierzewska, Matczak, Patyra, Pietrzykowski, Rakowska, Śledzińska-Simon, Taborowski, Zalasiński",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art1940141-fundacja-batorego-manipulujac-skladami-tk-julia-przylebska-lamie-prawo",
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "tk_bills_2024",
+   "type": "event",
+   "group": "legislation",
+   "label": "Coalition TK bills 2024 (Batory expert drafts, part of 'Bodnar four-pack')",
+   "date": "filed 4 Mar 2024; 1st reading 24 Apr 2024; committee 9 Jul 2024",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/03/argumenty_49.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "hoffman_taborowski",
+   "type": "org",
+   "group": "law_firm",
+   "label": "Hoffman, Taborowski i Wspólnicy (law firm)",
+   "registry": "KRS 0000901486, incorporated 2021-06-01, Warsaw; partner Piotr Hoffman; 1 employee (2025); revenue not public",
+   "sources": [
+    "https://compabase.com/companies/krs/0000901486",
+    "https://www.emis.com/php/company-profile/PL/Hoffman_Taborowski_I_Wspolnicy_Adwokacka_sp_p_en_12990435.html",
+    "https://rejestradwokatow.pl/adwokat/pdf/taborowski-maciej-87304",
+    "https://rejestradwokatow.pl/adwokat/pdf/hoffman-piotr-42110",
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "rpo_office",
+   "type": "org",
+   "group": "state",
+   "label": "Ombudsman's Office (RPO / BRPO)",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "machinska",
+   "type": "person",
+   "group": "ngo_leader",
+   "label": "Hanna Machińska (ex-Deputy Ombudsman; Batory council)",
+   "career": "Deputy Ombudsman under Bodnar, removed by Wiącek 2022; Batory Foundation council from Jul 2023",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10969886,rpo-marcin-wiacek-machinska-bodnar-prawa-czlowieka.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "matczak",
+   "type": "person",
+   "group": "academic",
+   "label": "Marcin Matczak (UW; DZP law firm)",
+   "career": "Batory Legal Experts Team; Batory council to Jun 2025; partner, Domański Zakrzewski Palinka",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "zalasinski",
+   "type": "person",
+   "group": "academic",
+   "label": "Tomasz Zalasiński (State Tribunal judge; DZP)",
+   "career": "Batory expert team; named co-author of TK bills; Hołda Association board; DZP law firm",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "rakowska",
+   "type": "person",
+   "group": "academic",
+   "label": "Anna Rakowska (Univ. of Łódź)",
+   "career": "Batory expert team (2023); Senate Marshal's constitutional review team from 2020; wrote one of three MoJ Barski opinions (Jan 2024)",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "barski_opinions",
+   "type": "event",
+   "group": "legal",
+   "label": "MoJ legal opinions used to unseat National Prosecutor Barski (published 12 Jan 2024)",
+   "authors": "Patyra (UMCS), Rakowska (UŁ), Kuca (UJ)",
+   "fee": "not disclosed",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego",
+    "https://niezalezna.pl/polityka/jego-opinia-pomogla-przejac-prokurature-teraz-mowi-o-silowym-wejsciu-do-tk-kandydat-demokracji-walczacej/571527"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "myrcha",
+   "type": "person",
+   "group": "politician",
+   "label": "Arkadiusz Myrcha (KO MP; deputy justice minister)",
+   "sources": [
+    "https://www.pap.pl/aktualnosci/myrcha-odbetonujemy-prokurature-krs-wybrana-zgodnie-z-konstytucja-zweryfikuje-powolania",
+    "https://bip.swps.pl/attachments/1847/download"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "senate_const_team",
+   "type": "org",
+   "group": "state",
+   "label": "Senate Marshal's advisory team on constitutional review (10th term, 2019-23)",
+   "note": "Senate Marshal in that term: Tomasz Grodzki (KO)",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html",
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "lpnt",
+   "type": "org",
+   "group": "company",
+   "label": "Lublin Science and Technology Park SA",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "kirp",
+   "type": "org",
+   "group": "professional",
+   "label": "National Chamber of Legal Advisers (KIRP/KRRP)",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "eli",
+   "type": "org",
+   "group": "intl",
+   "label": "European Law Institute",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "era_trier",
+   "type": "org",
+   "group": "eu_body",
+   "label": "Academy of European Law (ERA), Trier",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "fes",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "Friedrich Ebert Foundation (German SPD-linked)",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "cerv",
+   "type": "program",
+   "group": "eu_body",
+   "label": "EU CERV programme (Citizens, Equality, Rights and Values)",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
   }
  ],
  "edges": [
@@ -6468,6 +6682,648 @@
    ],
    "tie": "direct",
    "added_by": "lead_energy_for_europe_wyborcza"
+  },
+  {
+   "source": "taborowski",
+   "target": "zep_batory",
+   "relation": "member; co-signed 22 May 2023 TK position (listed with his law firm)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2023-05-22"
+  },
+  {
+   "source": "patyra",
+   "target": "zep_batory",
+   "relation": "member (to 2024 per prawo.pl); co-signed 22 May 2023 TK position",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html",
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2021-2024"
+  },
+  {
+   "source": "zep_batory",
+   "target": "batory",
+   "relation": "expert team run by the foundation (Forum Idei)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "zep_batory",
+   "target": "tk_bills_2024",
+   "relation": "drafted the TK bills 2019-22; filed by coalition MPs 2024",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego",
+    "https://www.batory.org.pl/wp-content/uploads/2024/03/argumenty_49.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "tk_bills_2024",
+   "relation": "personally co-drafted the 2024 TK bills (team had ~17 members; only Zalasiński named as author)",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "tk_bills_2024",
+   "relation": "personally co-drafted the 2024 TK bills (not named as author in any source)",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "bodnar",
+   "target": "tk_bills_2024",
+   "relation": "bills counted in the 'Bodnar four-pack' of justice laws",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "zep_batory",
+   "target": "taborowski",
+   "relation": "fee, honorarium or stipend for team work",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "direct"
+  },
+  {
+   "source": "zep_batory",
+   "target": "patyra",
+   "relation": "fee, honorarium or stipend for team work",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "direct"
+  },
+  {
+   "source": "pis",
+   "target": "batory",
+   "relation": "PiS MPs Bogucki, Jabłoński, Wójcik: TK bills = illegal lobbying by Batory (Batory denies, 12 Jul 2024)",
+   "confidence": "alleged",
+   "sources": [
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2024-07-10"
+  },
+  {
+   "source": "matczak",
+   "target": "zep_batory",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/Biogramy%20czlonkow%20Zespolu%20Ekspertow%20Prawnych.pdf",
+    "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/Zespol_Ekspertow20160707.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "matczak",
+   "target": "batory",
+   "relation": "council member (to Jun 2025)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "zalasinski",
+   "target": "zep_batory",
+   "relation": "member; named co-author of TK bills",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "zalasinski",
+   "target": "holda_assoc",
+   "relation": "board member",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "bojarski",
+   "target": "zep_batory",
+   "relation": "member (INPRIS president, ex-KRS)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/Biogramy%20czlonkow%20Zespolu%20Ekspertow%20Prawnych.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "rakowska",
+   "target": "zep_batory",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "machinska",
+   "target": "batory",
+   "relation": "council member from Jul 2023",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "machinska",
+   "target": "rpo_office",
+   "relation": "Deputy Ombudsman under Bodnar; removed by Wiącek 2022",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10969886,rpo-marcin-wiacek-machinska-bodnar-prawa-czlowieka.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "osf",
+   "target": "batory",
+   "relation": "named donor 2023, 2024, 2025 (amounts not given); 2006-09 reports: most programmes OSI-funded",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2006.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2008.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "eea",
+   "target": "batory",
+   "relation": "2023: 287 Active Citizens grant instalments EUR 4.82m paid; 2024: 209 instalments EUR 1.69m; 2025-31: Batory leads EEA Civil Society Fund (EUR 83.47m)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "cerv",
+   "target": "batory",
+   "relation": "2025: EU CERV funds Batory's Equal Rights Programme (EUR 6.7m for 2025-27) and Stronger Roots",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2025"
+  },
+  {
+   "source": "osf",
+   "target": "zep_batory",
+   "relation": "OSF money earmarked for the Legal Experts Team",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "rpo_office",
+   "relation": "Deputy Ombudsman from 6 May 2019 (end 2021 or 2022: sources differ)",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://english.swps.pl/academics/warsaw/postrgraduate-studies/master-of-laws-in-international-human-rights-law/195-community/lecturers-post-graduate-programs/35275-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2019-05-06"
+  },
+  {
+   "source": "bodnar",
+   "target": "taborowski",
+   "relation": "Ombudsman Bodnar was in office when Taborowski became his deputy (the Ombudsman appoints deputies)",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10969886,rpo-marcin-wiacek-machinska-bodnar-prawa-czlowieka.html"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2019-05-06"
+  },
+  {
+   "source": "taborowski",
+   "target": "machinska",
+   "relation": "fellow Deputy Ombudsman under Bodnar",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10969886,rpo-marcin-wiacek-machinska-bodnar-prawa-czlowieka.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "cjeu",
+   "relation": "Ombudsman's counsel at 6 Jul 2020 hearing in C-824/18 (A.B., Supreme Court appointments), with Paweł Filipek",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/sites/default/files/Wyst%C4%85pienie%20przedstawicieli%20RPO%20przed%20TSUE,%206.07.2020.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2020-07-06"
+  },
+  {
+   "source": "taborowski",
+   "target": "hoffman_taborowski",
+   "relation": "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+   "confidence": "fact",
+   "sources": [
+    "https://rejestradwokatow.pl/adwokat/pdf/taborowski-maciej-87304",
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "hoffman_taborowski",
+   "target": "taborowski",
+   "relation": "firm's clients, state contracts or fees (a Sejm written question no. 3200 mentions the firm; text not retrievable)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+    "https://www.emis.com/php/company-profile/PL/Hoffman_Taborowski_I_Wspolnicy_Adwokacka_sp_p_en_12990435.html"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "direct"
+  },
+  {
+   "source": "taborowski",
+   "target": "eli",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "era_trier",
+   "relation": "lectured under ERA patronage (incl. seminars for Bulgarian judges); no formal role",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "fes",
+   "relation": "member of FES European working group led by Péter Balázs on an EU rule-of-law strategy",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "batory",
+   "relation": "'Batory fellow in Oxford' (undated); no Oxford programme or his name found in Batory 2006/2008/2009 reports",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2006.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2008.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "wawrykiewicz",
+   "relation": "any documented joint work, case or organisation",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "taborowski",
+   "target": "free_courts",
+   "relation": "any role or payment",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "direct"
+  },
+  {
+   "source": "taborowski",
+   "target": "zurek",
+   "relation": "any documented joint case (a CJEU pleading file 'WZ' in the Osiatyński Archive is offline; author unknown)",
+   "confidence": "speculation",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "senate_const_team",
+   "relation": "member, Senate Marshal's advisory team on constitutional review 2019/20-2023; expert, Senate Legislative Committee",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "rakowska",
+   "target": "senate_const_team",
+   "relation": "member from 2020",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "ko",
+   "target": "patyra",
+   "relation": "KO + KP-PSL MPs nominated him for Ombudsman (print 1029, 19 Mar 2021); Sejm rejected him 15 Apr 2021",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.polsatnews.pl/wiadomosc/2021-03-17/ko-i-psl-o-swoim-kandydacie-na-rzecznika-praw-obywatelskich-ogladaj-od-1115/",
+    "https://demagog.org.pl/wypowiedzi/kto-i-jak-glosowal-na-opozycyjnych-kandydatow-na-rpo/"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2021-03-19"
+  },
+  {
+   "source": "patyra",
+   "target": "bodnar",
+   "relation": "said as Ombudsman he would follow Bodnar, who 'performs his function excellently'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2021-03-17/ko-i-psl-o-swoim-kandydacie-na-rzecznika-praw-obywatelskich-ogladaj-od-1115/"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2021-03-17"
+  },
+  {
+   "source": "patyra",
+   "target": "barski_opinions",
+   "relation": "wrote one of three MoJ opinions (with Rakowska, Kuca) saying Barski's 2022 reinstatement had no legal effect",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego",
+    "https://niezalezna.pl/polityka/jego-opinia-pomogla-przejac-prokurature-teraz-mowi-o-silowym-wejsciu-do-tk-kandydat-demokracji-walczacej/571527"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2024-01-12"
+  },
+  {
+   "source": "bodnar",
+   "target": "barski_opinions",
+   "relation": "Justice Ministry under Bodnar commissioned and published the opinions",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego",
+    "https://niezalezna.pl/polityka/jego-opinia-pomogla-przejac-prokurature-teraz-mowi-o-silowym-wejsciu-do-tk-kandydat-demokracji-walczacej/571527"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "rakowska",
+   "target": "barski_opinions",
+   "relation": "co-author",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-zmiany-na-stanowisku-prokuratora-krajowego"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "barski_opinions",
+   "target": "pge",
+   "relation": "PGE board seat ~3 weeks later was a reward for the opinion",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polityka/jego-opinia-pomogla-przejac-prokurature-teraz-mowi-o-silowym-wejsciu-do-tk-kandydat-demokracji-walczacej/571527",
+    "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "pge",
+   "relation": "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch)",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala",
+    "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza",
+    "https://www.gkpge.pl/en/for-investors/current-reports/changes-in-the-supervisory-board4"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "lpnt",
+   "relation": "earlier supervisory board member",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "kirp",
+   "relation": "legal adviser since 2013; head of KIRP research centre's state/justice team from 2022; represented KRRP at TK and CJEU",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "holda_assoc",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "zalasinski",
+   "relation": "both in Batory expert team and Hołda Association",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "indirect"
+  },
+  {
+   "source": "patyra",
+   "target": "myrcha",
+   "relation": "sole reviewer of KO MP Myrcha's PhD (SWPS), recommended acceptance, 9 Feb 2023",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.swps.pl/attachments/1847/download"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2023-02-09"
+  },
+  {
+   "source": "patyra",
+   "target": "korwin_piotrowska",
+   "relation": "his note gave the reasons for her 30 Oct suspension orders: blocking the TK 2027 budget assembly, arbitrary panels, barring the new judges despite a 5 May 2026 ECtHR order",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art45423951-bogdan-swieczkowski-odsuniety-anna-korwin-piotrowska-na-czele-tk"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "date": "2026-10-30"
+  },
+  {
+   "source": "patyra",
+   "target": "tusk",
+   "relation": "any direct contact or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "wawrykiewicz",
+   "relation": "any documented joint work",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "patyra",
+   "target": "free_courts",
+   "relation": "any role or payment",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "direct"
+  },
+  {
+   "source": "patyra",
+   "target": "zurek",
+   "relation": "any documented tie",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ],
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "source": "osf",
+   "target": "patyra",
+   "relation": "INDIRECT: Batory Legal Experts Team member; Batory is OSF-, EEA- and EU-funded",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "indirect",
+   "via": "batory"
+  },
+  {
+   "source": "osf",
+   "target": "taborowski",
+   "relation": "INDIRECT: Batory Legal Experts Team member and 'Batory fellow in Oxford'; Batory is OSF-, EEA- and EU-funded",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+   ],
+   "added_by": "lead_taborowski_patyra",
+   "tie": "indirect",
+   "via": "batory"
   }
  ],
  "checked_no_link": [
@@ -6604,6 +7460,24 @@
     "https://www.parkiet.com/komunikaty-espi/art44728521-agora-sa-powolanie-skladu-rady-nadzorczej-na-nowa-kadencje"
    ],
    "added_by": "lead_energy_for_europe_wyborcza"
+  },
+  {
+   "subject": "taborowski",
+   "searched_for": "family members in public roles",
+   "result": "none found",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ]
+  },
+  {
+   "subject": "patyra",
+   "searched_for": "family members, law firm, party donations",
+   "result": "none found (SKL membership 1998-99 only)",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term9/prints/1029/1029.pdf",
+    "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+   ]
   }
  ],
  "leads": [
@@ -6775,6 +7649,54 @@
    "result": "Not checked in this pass; bylines of the 8 judges in Wyborcza not searched.",
    "label": "speculation",
    "added_by": "lead_energy_for_europe_wyborcza"
+  },
+  {
+   "lead": "Batory paid Taborowski and Patyra for expert-team work",
+   "result": "No fee, honorarium or budget line found in the team's documents or 2023-25 annual reports; payment simply undisclosed",
+   "label": "no_link",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "The two judges drafted the TK law they now apply",
+   "result": "Fact that their team drafted the 2024 TK bills; their personal drafting role is not documented (only Zalasiński named)",
+   "label": "speculation",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "PGE seat was a reward for the Barski opinion",
+   "result": "Timing fits (opinion published 12 Jan 2024, PGE seat from 1 Feb 2024) and Bodnar's ministry used the opinion; the reward claim is only made by niezalezna.pl",
+   "label": "alleged",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "Taborowski is Bodnar's man",
+   "result": "Fact: he was Deputy Ombudsman under Bodnar from May 2019 and argued RPO cases at the CJEU; nothing documents coordination with Bodnar as minister",
+   "label": "speculation",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "Taborowski's law firm has state or foreign clients",
+   "result": "Sejm written question 3200 mentions the firm but its text could not be retrieved; firm revenue is paywalled. Open lead",
+   "label": "speculation",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "Taborowski still practises law while a TK judge",
+   "result": "Bar register still lists him as practising; registers often lag and he is not yet recognised as a judge by the TK leadership. No evidence of current practice",
+   "label": "speculation",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "Expert-team network = Bodnar/Batory circle around both judges",
+   "result": "Fact edges: Rakowska (Batory team) co-wrote the Barski opinions with Patyra; Machińska (Bodnar deputy with Taborowski) sits on Batory's council; Matczak in team and council",
+   "label": "fact",
+   "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "lead": "EU money replaced US money for Batory",
+   "result": "2025 report adds EU CERV (EUR 6.7m Equal Rights Programme) and Batory leads the EUR 83.5m EEA fund for 2025-31; OSF still listed as donor",
+   "label": "fact",
+   "added_by": "lead_taborowski_patyra"
   }
  ]
 }
