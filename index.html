@@ -172,6 +172,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
     <span class="spacer"></span>
     <button class="btn" id="btn-fit" type="button">Fit to screen</button>
     <button class="btn" id="btn-reheat" type="button">Re-run layout</button>
+    <button class="btn" id="btn-pdf" type="button" title="Save the map exactly as it is on screen">Export PDF</button>
   </header>
 
   <aside class="left" aria-label="Filters">
@@ -860,6 +861,56 @@ document.getElementById("t-isolated").onchange = ev => { state.hideIsolated = ev
 document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.checked; render(); setTimeout(fit, 1200); };
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
+document.getElementById("btn-pdf").onclick = exportPDF;
+// Export PDF: copies the map exactly as it is on screen (current filters, hidden people, selection, zoom and pan)
+// into a print-ready page in light colours with a short legend, then opens the print dialog,
+// where "Save as PDF" makes the file. No library and nothing leaves the browser.
+function exportPDF() {
+  const live = svg.node(), { width, height } = live.getBoundingClientRect();
+  const clone = live.cloneNode(true);
+  clone.setAttribute("viewBox", `0 0 ${Math.round(width)} ${Math.round(height)}`);
+  clone.setAttribute("preserveAspectRatio", "xMidYMid meet");
+  clone.removeAttribute("width"); clone.removeAttribute("height"); clone.removeAttribute("id");
+  const css = [...document.querySelectorAll("style")].map(x => x.textContent).join("\n");
+  const fonts = document.querySelector('link[href*="fonts.googleapis"]');
+  const shownLabels = LABELS.map(l => l.key).filter(k => k !== "no_link" && state.labels.has(k));
+  const hidden = [...state.hidden].map(nodeName).filter(Boolean);
+  const sel = state.selected?.kind === "node" ? nodeName(state.selected.id) : "";
+  const t = d3.zoomTransform(live), onScreen = n => { const [x, y] = t.apply([n.x, n.y]); return x >= 0 && x <= width && y >= 0 && y <= height; };
+  const nOn = simNodes.filter(onScreen).length, lOn = simLinks.filter(l => onScreen(l.source) || onScreen(l.target)).length;
+  const notes = [
+    `${nOn} nodes and ${lOn} lines on screen`,
+    state.group ? `group: ${state.group.replace(/_/g, " ")}` : "",
+    sel ? `focused on ${sel}` : "",
+    hidden.length ? `hidden: ${hidden.join(", ")}` : ""
+  ].filter(Boolean).join(" · ");
+  const legend = shownLabels.map(k => `<span class="lg">${swatch(k)} ${esc(LABEL_NAME[k])}</span>`).join("");
+  const today = new Date().toISOString().slice(0, 10);
+  const html = `<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="utf-8">
+<title>Poland coup d'état relationship map - ${today}</title>
+${fonts ? `<link rel="stylesheet" href="${fonts.href}">` : ""}
+<style>${css}
+@page { size: landscape; margin: 10mm; }
+html, body { height: auto; background: #fff; }
+body { margin: 0; padding: 12px 16px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.ex-head h1 { font: 600 20px/1.2 var(--font-display); margin: 0 0 2px; }
+.ex-head p { margin: 0; color: var(--muted); font-size: 11.5px; }
+.ex-map { border: 1px solid var(--line); margin: 8px 0; background: var(--canvas); }
+.ex-map svg { display: block; width: 100%; height: auto; max-height: 160mm; }
+.ex-foot { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; font-size: 11px; color: var(--muted); }
+.lg { display: inline-flex; align-items: center; gap: 5px; color: var(--ink); }
+.ex-print { position: fixed; top: 10px; right: 12px; } @media print { .ex-print { display: none; } }
+</style></head><body>
+<button class="btn ex-print" onclick="window.print()">Print / Save as PDF</button>
+<div class="ex-head"><h1>Poland coup d'état relationship map</h1><p>${esc(notes)} · exported ${today}</p></div>
+<div class="ex-map">${new XMLSerializer().serializeToString(clone)}</div>
+<div class="ex-foot">${legend}<span>Thicker line = more money</span><span>Source for every line: thatretireddude.github.io/poland</span></div>
+<script>window.addEventListener("load", () => setTimeout(() => window.print(), 600));<\/script>
+</body></html>`;
+  const w = window.open("", "_blank");
+  if (!w) { alert("Your browser blocked the export window. Allow pop-ups for this site and try again."); return; }
+  w.document.open(); w.document.write(html); w.document.close();
+}
 document.getElementById("btn-reheat").onclick = () => { posCache.clear(); simNodes.forEach(n => { n.x += (Math.random() - .5) * 40; n.y += (Math.random() - .5) * 40; }); sim.alpha(1).restart(); setTimeout(fit, 1500); };
 const search = document.getElementById("search");
 search.addEventListener("input", () => { state.search = search.value.trim(); applyHighlight(); });
