@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Lead: USAID-funded GMF CEBRICS election grants (Latarnik) and Kultura Liberalna/NED ties (grok-v1)",
+    "as_of": "2026-10-31",
+    "added_by": "grok-v1",
+    "notes": [
+      "Institutional and funding flows only. No religion, ethnicity, or interpretive conclusions.",
+      "Builds on existing funder and crisis leads without duplicating nodes/edges."
+    ]
+  },
+  "nodes": [
+    {
+      "id": "gmf_cebrics",
+      "type": "program",
+      "group": "us_funding",
+      "label": "German Marshall Fund CEBRICS (Central Europe—Building Resilience in Civil Society)",
+      "sources": [
+        "https://www.gmfus.org/cebrics",
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ]
+    },
+    {
+      "id": "latarnik_wyborczy",
+      "type": "project",
+      "group": "election_tool",
+      "label": "Latarnik Wyborczy (Civic Education Center voter preference tool)",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf",
+        "https://warsawpoint.com/news/80511-pko-orlen-polish-business-council-and-developers-back-manipulative-campaign.html"
+      ]
+    },
+    {
+      "id": "kultura_liberalna",
+      "type": "org",
+      "group": "media",
+      "label": "Fundacja Kultura Liberalna",
+      "sources": [
+        "https://kulturaliberalna.pl/partnerzy/",
+        "https://rejestr.io/krs/398695/fundacja-kultura-liberalna"
+      ]
+    },
+    {
+      "id": "wigura",
+      "type": "person",
+      "group": "academic_media",
+      "label": "Karolina Wigura (Kultura Liberalna board/member, UW associate professor)",
+      "sources": [
+        "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+        "https://kulturaliberalna.pl/o-nas/"
+      ]
+    },
+    {
+      "id": "kuisz",
+      "type": "person",
+      "group": "academic_media",
+      "label": "Jarosław Kuisz (Kultura Liberalna editor-in-chief, UW associate professor)",
+      "sources": [
+        "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+        "https://kulturaliberalna.pl/o-nas/"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "usaid",
+      "target": "gmf_cebrics",
+      "relation": "single-donor funder of CEBRICS 2022-2026 regional grantmaking and capacity-building project (Bulgaria, Hungary, Poland focus)",
+      "confidence": "fact",
+      "date": "2022-2026",
+      "sources": [
+        "https://www.gmfus.org/cebrics",
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "gmf_cebrics",
+      "target": "latarnik_wyborczy",
+      "relation": "part of four grants totaling $79,910 for 2023 Polish parliamentary election electoral integrity / mobilization projects",
+      "confidence": "fact",
+      "date": "2023",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf",
+        "https://warsawpoint.com/news/80511-pko-orlen-polish-business-council-and-developers-back-manipulative-campaign.html"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "ned",
+      "target": "kultura_liberalna",
+      "relation": "listed as partner/grantor on official partners page; projects implemented with NED funding per public reports and Wigura statements on funding suspension",
+      "confidence": "fact",
+      "sources": [
+        "https://kulturaliberalna.pl/partnerzy/",
+        "https://polanddaily24.com/post/page/719"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "kultura_liberalna",
+      "target": "wigura",
+      "relation": "board member and political section associate; co-founder",
+      "confidence": "fact",
+      "sources": [
+        "https://kulturaliberalna.pl/o-nas/",
+        "https://rejestr.io/krs/398695/fundacja-kultura-liberalna"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "kultura_liberalna",
+      "target": "kuisz",
+      "relation": "editor-in-chief and foundation president",
+      "confidence": "fact",
+      "sources": [
+        "https://kulturaliberalna.pl/o-nas/",
+        "https://rejestr.io/krs/398695/fundacja-kultura-liberalna"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "wigura",
+      "target": "kuisz",
+      "relation": "co-authors of Journal of Democracy online exclusive 'How to Dismantle an Illiberal Democracy' (Dec 2023) urging transitional justice and accountability for rule-of-law violations",
+      "confidence": "fact",
+      "date": "2023-12",
+      "sources": [
+        "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+      ],
+      "added_by": "grok-v1"
+    }
+  ]
+}
