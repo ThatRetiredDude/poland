@@ -11,6 +11,8 @@
     "lead_grok_v1_verified.json",
     "lead_issues5_6.json",
     "lead_four_judges.json",
-    "lead_held_claims_sources.json"
+    "lead_held_claims_sources.json",
+    "lead_netherlands_funding.json",
+    "lead_slotkin_sikorski.json"
   ]
 }

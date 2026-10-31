@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Checked tip: US Senator Slotkin's Poland/Hungary trip, the 'playbook' remark, and Sikorski",
+    "as_of": "2026-10-31",
+    "notes": "Tip from a social media post claiming Slotkin 'brought home the playbook' from Poland and Hungary, and that 'Deputy Foreign Minister' Sikorski is celebrating the alleged coup. Sikorski is actually Foreign Minister (since 13 Dec 2023) and Deputy Prime Minister (since 24 Jul 2025). No tie found from Slotkin to the 8 judges, Wawrykiewicz, NED, OSF or USAID. Sikorski's only new edge is his public 31 Oct statement backing the new TK majority, which is a government minister defending government policy."
+  },
+  "nodes": [
+    {
+      "id": "sikorski",
+      "type": "person",
+      "group": "government",
+      "label": "Radosław Sikorski",
+      "role": "Minister of Foreign Affairs (since 13 Dec 2023); Deputy Prime Minister (since 24 Jul 2025), Tusk government",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rados%C5%82aw_Sikorski"
+      ]
+    },
+    {
+      "id": "slotkin",
+      "type": "person",
+      "group": "us_politics",
+      "label": "Elissa Slotkin",
+      "role": "US Senator (D-Michigan); visited Poland and Hungary early September 2026",
+      "sources": [
+        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
+        "https://www.slotkin.senate.gov/2026/09/30/icymi-slotkin-delivers-speech-at-carnegie-institution-on-defending-democracy/"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "tusk",
+      "target": "sikorski",
+      "relation": "Sikorski serves in Tusk's cabinet as Foreign Minister (since 13 Dec 2023) and Deputy Prime Minister (since 24 Jul 2025)",
+      "confidence": "fact",
+      "date": "2023-",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rados%C5%82aw_Sikorski"
+      ]
+    },
+    {
+      "source": "sikorski",
+      "target": "korwin_piotrowska",
+      "relation": "Public statement 31 Oct 2026 (06:18) backing the new TK majority: parliament 'elected, in line with procedure, a new majority of judges'; the outgoing president 'constantly blocked' them; the most senior new-majority judge 'took control of the Tribunal's seat and asked the police for protection'; 'the populist opposition does not want to accept losing control of the Tribunal'; 'the democratically elected government will continue to stand guard over the constitution'. Public support, not a payment or organisational tie.",
+      "confidence": "fact",
+      "date": "2026-10-31",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45424861-chaos-wokol-trybunalu-konstytucyjnego-prezydent-zwoluje-konsultacje-relacja-na-zywo"
+      ]
+    },
+    {
+      "source": "slotkin",
+      "target": "sikorski",
+      "relation": "Met during a US Senate delegation visit to Warsaw, about 9-10 Sep 2026. Fact: Slotkin and Sen. Thom Tillis were at the Polish defence ministry on 9 Sep; Sikorski met 'a US Senate delegation' on Thu 10 Sep (topics: US troop presence, joint arms production, 2027 US defence bill amendment, Ukraine, energy, critical raw materials; no courts or TK). Not yet confirmed: that Slotkin was in the Sikorski meeting (reports do not name the senators; the photo in the tip was not verified).",
+      "confidence": "alleged",
+      "date": "2026-09-10",
+      "sources": [
+        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
+        "https://wiadomosci.wp.pl/amerykanie-sa-w-polsce-kluczowa-wizyta-ws-baz-7327967135082656a",
+        "https://www.wnp.pl/polityka-i-sondaze/mon-prezentuje-delegacji-usa-zaklady-zbrojeniowe-i-potencjalne-miejsca-stalego-stacjonowania-amerykanskich-wojsk,1098045.html",
+        "https://www.globalsecurity.org/military/library/news/2026/09/mil-260910-pl-mfa01.htm"
+      ]
+    }
+  ],
+  "held_claims": [
+    {
+      "claim": "Slotkin bragged she went to Poland and Hungary and 'brought home the playbook to get out of authoritarian governments'",
+      "status": "misleading",
+      "what_was_checked": "Full Carnegie speech text, 30 Sep 2026. The 'playbook' line is about Hungary: 'In the past six months, Hungary has quite literally taken the playbook to fight an authoritarian', meaning Orban's defeat at the ballot box. Her X post about the speech does lump both countries ('I visited Poland and Hungary, and I saw firsthand how they have quite literally taken the playbook to fight an authoritarian'). Her only Poland-specific line is 'In Poland, they called this plan the Iron Broom - cleaning the place up', about holding officials who misused public money to account. She does not mention the TK or judges, and the speech came a month before the 30-31 Oct TK events. The words 'brought home the playbook' are the tip's paraphrase, not hers.",
+      "sources": [
+        "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf",
+        "https://x.com/SenatorSlotkin/status/2105750850404483317"
+      ],
+      "raised_in": "social media tip"
+    },
+    {
+      "claim": "Radosław Sikorski is Poland's Deputy Foreign Minister",
+      "status": "misleading",
+      "what_was_checked": "He is Foreign Minister and Deputy Prime Minister.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rados%C5%82aw_Sikorski"
+      ],
+      "raised_in": "social media tip"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Was Slotkin in the 10 Sep Sikorski meeting? Check the MFA post on X for 10 Sep 2026 and Slotkin's or Tillis's own trip posts/photos",
+      "result": "open",
+      "label": "alleged"
+    },
+    {
+      "lead": "What is the Polish 'Iron Broom' plan Slotkin cites, and does it involve the judiciary?",
+      "result": "open; speech gives no detail",
+      "label": "speculation"
+    }
+  ]
+}

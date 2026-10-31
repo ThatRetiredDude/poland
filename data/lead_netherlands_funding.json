@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "title": "Netherlands: did Dutch government or Dutch private money reach the key players?",
+    "as_of": "2026-10-31",
+    "notes": [
+      "Covers Dutch MFA, Warsaw embassy, Matra/NFRP, Dutch-funded bodies (NHC) and Dutch private funders (Adessium, Stichting Democratie en Media, Vereniging Veronica, Rechters voor Rechters).",
+      "'no_link' covers direct payments only; indirect organisational ties are 'fact' edges with tie='indirect' and via=<org>.",
+      "Existing node ids reused: hfhr, okopress, watchdog_polska, batory, iustitia, themis, medel, free_courts.",
+      "Civitates grants come from a pooled fund; no source attributes a Polish grant to a specific funder, so Dutch shares are unknown."
+    ]
+  },
+  "nodes": [
+    {
+      "id": "nl_gov",
+      "type": "org",
+      "group": "foreign_gov",
+      "label": "Dutch government (Ministry of Foreign Affairs)",
+      "country": "NL",
+      "sources": [
+        "https://www.government.nl/topics/european-grants/dutch-fund-for-regional-partnerships-nfrp/nfrp-matra-grants-for-strengthening-democracy-and-the-rule-of-law-in-europe"
+      ]
+    },
+    {
+      "id": "nl_embassy_pl",
+      "type": "org",
+      "group": "foreign_gov",
+      "label": "Embassy of the Kingdom of the Netherlands in Warsaw",
+      "country": "NL",
+      "sources": [
+        "https://www.netherlandsandyou.nl/web/poland/themes/rule-of-law-human-rights",
+        "https://www.netherlandsandyou.nl/web/poland/themes/human-rights"
+      ]
+    },
+    {
+      "id": "nl_matra",
+      "type": "org",
+      "group": "foreign_gov",
+      "label": "NFRP/Matra (Dutch rule-of-law grants for EU candidate and Eastern Partnership states)",
+      "country": "NL",
+      "notes": "Poland is not an eligible country.",
+      "sources": [
+        "https://www.government.nl/topics/european-grants/dutch-fund-for-regional-partnerships-nfrp/nfrp-matra-grants-for-strengthening-democracy-and-the-rule-of-law-in-europe",
+        "https://english.rvo.nl/subsidies-financing/nfrp-matra",
+        "https://www.nhc.nl/assets/uploads/2024/04/Brochure-Human-Rights-2024.pdf"
+      ]
+    },
+    {
+      "id": "watch_docs",
+      "type": "org",
+      "group": "ngo",
+      "label": "WATCH DOCS human rights film festival (run by HFHR)",
+      "sources": [
+        "https://watchdocs.pl/en/travelling-festival",
+        "https://archiwum.hfhr.pl/wp-content/uploads/2015/02/RAPORT-Z-DZIA%C5%81ALNO%C5%9ACI-W-2019-ROKU-005-00000003.pdf"
+      ]
+    },
+    {
+      "id": "adessium",
+      "type": "org",
+      "group": "funder",
+      "label": "Adessium Foundation (Dutch private foundation)",
+      "country": "NL",
+      "notes": "About EUR 18.7m in grants in 2025, 95 organisations; its public grants list names no Polish organisation.",
+      "sources": [
+        "https://www.adessium.org/",
+        "https://en.wikipedia.org/wiki/Adessium_Foundation",
+        "https://www.adessium.org/onze-donaties/page/2/"
+      ]
+    },
+    {
+      "id": "stichting_dem_media",
+      "type": "org",
+      "group": "funder",
+      "label": "Stichting Democratie en Media (Dutch private foundation)",
+      "country": "NL",
+      "sources": [
+        "https://civitates-eu.org/foundation-partners/"
+      ]
+    },
+    {
+      "id": "veronica_assoc",
+      "type": "org",
+      "group": "funder",
+      "label": "Vereniging Veronica (Dutch association)",
+      "country": "NL",
+      "sources": [
+        "https://civitates-eu.org/foundation-partners/"
+      ]
+    },
+    {
+      "id": "civitates",
+      "type": "org",
+      "group": "funder",
+      "label": "Civitates (pooled European democracy fund, hosted by Network of European Foundations)",
+      "notes": "About 16-21 foundation partners pool money; grants are made by Civitates, not attributed to any single funder.",
+      "sources": [
+        "https://civitates-eu.org/foundation-partners/",
+        "https://kbs-frb.be/en/civitates-grants-eu2467000-11-independent-public-interest-journalism-organisations-across-europe"
+      ]
+    },
+    {
+      "id": "rechters_voor_rechters",
+      "type": "org",
+      "group": "ngo",
+      "label": "Rechters voor Rechters / Judges for Judges (Dutch private foundation, The Hague)",
+      "country": "NL",
+      "notes": "Funded entirely by gifts, per its own newsletter.",
+      "sources": [
+        "https://www.rechtersvoorrechters.nl/media/nieuws/Nieuwsbrief%202020-01.pdf",
+        "https://www.rechtersvoorrechters.nl/petition-in-support-of-polish-judges/"
+      ]
+    },
+    {
+      "id": "our_rule_of_law",
+      "type": "org",
+      "group": "ngo",
+      "label": "Stichting Our Rule of Law (Dutch student-founded foundation, Groningen, 2021)",
+      "country": "NL",
+      "sources": [
+        "https://www.ourruleoflaw.eu/about-us",
+        "https://www.ourruleoflaw.eu/"
+      ]
+    },
+    {
+      "id": "nl_helsinki_committee",
+      "type": "org",
+      "group": "ngo",
+      "label": "Netherlands Helsinki Committee (NHC)",
+      "country": "NL",
+      "sources": [
+        "https://www.nhc.nl/assets/uploads/2024/04/Brochure-Human-Rights-2024.pdf",
+        "https://www.ourruleoflaw.eu/about-us"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "nl_gov",
+      "target": "nl_embassy_pl",
+      "relation": "embassy of the Dutch state",
+      "confidence": "fact",
+      "sources": [
+        "https://www.netherlandsandyou.nl/web/poland/themes/rule-of-law-human-rights"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "nl_gov",
+      "target": "nl_matra",
+      "relation": "runs the Matra programme (administered by RVO)",
+      "confidence": "fact",
+      "sources": [
+        "https://english.rvo.nl/subsidies-financing/nfrp-matra"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "nl_embassy_pl",
+      "target": "hfhr",
+      "relation": "co-financed HFHR's 17th WATCH DOCS festival, Warsaw, 7-14 Dec 2017 (with Warsaw city, PISF, Nordic Council of Ministers, Visegrad Fund); amount not stated",
+      "confidence": "fact",
+      "sources": [
+        "https://archiwum.hfhr.pl/wp-content/uploads/2019/01/Raport-2017.pdf"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2017"
+    },
+    {
+      "source": "nl_embassy_pl",
+      "target": "watch_docs",
+      "relation": "listed as co-financier of the WATCH DOCS travelling festival (2026 edition, with EU Creative Europe MEDIA and PKO BP Foundation); embassy calls itself a 'long time contributor'; amount not stated",
+      "confidence": "fact",
+      "sources": [
+        "https://watchdocs.pl/en/travelling-festival",
+        "https://www.netherlandsandyou.nl/web/poland/themes/human-rights"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2026"
+    },
+    {
+      "source": "hfhr",
+      "target": "watch_docs",
+      "relation": "organises the festival (program run by HFHR for 19+ years)",
+      "confidence": "fact",
+      "sources": [
+        "https://archiwum.hfhr.pl/wp-content/uploads/2015/02/RAPORT-Z-DZIA%C5%81ALNO%C5%9ACI-W-2019-ROKU-005-00000003.pdf",
+        "https://watchdocs.pl/en/travelling-festival"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "adessium",
+      "target": "civitates",
+      "relation": "funds Civitates (listed on Adessium's grants page) and is a Civitates consortium member",
+      "confidence": "fact",
+      "sources": [
+        "https://www.adessium.org/onze-donaties/page/2/",
+        "https://kbs-frb.be/en/civitates-grants-eu2467000-11-independent-public-interest-journalism-organisations-across-europe"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "stichting_dem_media",
+      "target": "civitates",
+      "relation": "Civitates foundation partner",
+      "confidence": "fact",
+      "sources": [
+        "https://civitates-eu.org/foundation-partners/"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "veronica_assoc",
+      "target": "civitates",
+      "relation": "Civitates foundation partner",
+      "confidence": "fact",
+      "sources": [
+        "https://civitates-eu.org/foundation-partners/"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "batory",
+      "target": "civitates",
+      "relation": "Batory is a Civitates member and contributor (e.g. PLN 105,420 in 2018; EUR 150k pledged for 2024-26), i.e. a funder, not a recipient",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/en/2019/03/16/boosting-civil-society-in-poland/",
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "civitates",
+      "target": "okopress",
+      "relation": "EUR 349,888 independent-journalism grant to OKO (Foundation Centre for Civic Monitoring); 11-grantee call worth EUR 2.467m announced Nov 2020, grants paid from early 2021 over 3 years, renewed for a further year",
+      "confidence": "fact",
+      "sources": [
+        "https://civitates-eu.org/media-grantees/",
+        "https://philea.eu/civitates-award-grants-worth-e2467000-to-11-independent-public-interest-journalism-organisations-across-europe/",
+        "https://kbs-frb.be/en/civitates-grants-eu2467000-11-independent-public-interest-journalism-organisations-across-europe"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2021-2024"
+    },
+    {
+      "source": "adessium",
+      "target": "okopress",
+      "relation": "indirect: Adessium is one of the pooled funders of Civitates, which granted OKO.press EUR 349,888; no source says how much of that was Dutch money",
+      "confidence": "fact",
+      "sources": [
+        "https://www.adessium.org/onze-donaties/page/2/",
+        "https://kbs-frb.be/en/civitates-grants-eu2467000-11-independent-public-interest-journalism-organisations-across-europe",
+        "https://civitates-eu.org/media-grantees/"
+      ],
+      "added_by": "netherlands_funding",
+      "tie": "indirect",
+      "via": "civitates"
+    },
+    {
+      "source": "civitates",
+      "target": "watchdog_polska",
+      "relation": "2025 core ('anchor') grant to Citizens Network Watchdog Poland; amount not stated (open call: up to EUR 120k over 2 years)",
+      "confidence": "fact",
+      "sources": [
+        "https://civitates-eu.org/wp-content/uploads/2026/05/Civitates_Annual_Report_2025_ext.pdf",
+        "https://www.europeanheritagehub.eu/funding/civic-power-protecting-and-expanding-civic-space-in-europe-anchor-grantees/"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2025"
+    },
+    {
+      "source": "adessium",
+      "target": "watchdog_polska",
+      "relation": "indirect: via Civitates pooled fund (see above)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.adessium.org/onze-donaties/page/2/",
+        "https://civitates-eu.org/wp-content/uploads/2026/05/Civitates_Annual_Report_2025_ext.pdf"
+      ],
+      "added_by": "netherlands_funding",
+      "tie": "indirect",
+      "via": "civitates"
+    },
+    {
+      "source": "rechters_voor_rechters",
+      "target": "iustitia",
+      "relation": "solidarity: ran a petition for Polish judges (2020) and reposted Iustitia statements; joined the Iustitia/Themis 'silent march' in Warsaw, 11 Jan 2020; no money found",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rechtersvoorrechters.nl/petition-in-support-of-polish-judges/",
+        "https://www.rechtersvoorrechters.nl/media/nieuws/Nieuwsbrief%202020-01.pdf",
+        "https://www.rechtersvoorrechters.nl/?p=2604"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2019-2020"
+    },
+    {
+      "source": "rechters_voor_rechters",
+      "target": "themis",
+      "relation": "walked in the Iustitia/Themis silent march, Warsaw, 11 Jan 2020; no money found",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rechtersvoorrechters.nl/media/nieuws/Nieuwsbrief%202020-01.pdf"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2020"
+    },
+    {
+      "source": "rechters_voor_rechters",
+      "target": "medel",
+      "relation": "co-plaintiffs (with EAJ and AEAJ) suing the EU Council in Aug 2022 over unblocking Poland's EU recovery funds; who paid the lawyers is not stated",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rechtersvoorrechters.nl/?p=3361",
+        "https://notesfrompoland.com/2022/08/29/european-judges-bodies-call-for-polands-eu-funds-to-remain-blocked/",
+        "https://nos.nl/artikel/2442387-europese-rechters-klagen-eu-aan-om-miljardensteun-aan-polen"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2022"
+    },
+    {
+      "source": "our_rule_of_law",
+      "target": "free_courts",
+      "relation": "co-organised 'Justice under attack: lessons from Poland' meeting, Amsterdam Law Hub, 4 Feb 2024; Free Courts says the project was supported by NED (US), not Dutch money",
+      "confidence": "fact",
+      "sources": [
+        "https://wolnesady.org/en/justice-under-attack-lessons-form-poland-meeting-in-amsterdam/"
+      ],
+      "added_by": "netherlands_funding",
+      "date": "2024"
+    },
+    {
+      "source": "nl_gov",
+      "target": "our_rule_of_law",
+      "relation": "Dutch Permanent Representation to the EU is listed among ORoL's supporting partners; whether this was money is not stated",
+      "confidence": "fact",
+      "sources": [
+        "https://www.ourruleoflaw.eu/about-us"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "nl_helsinki_committee",
+      "target": "our_rule_of_law",
+      "relation": "listed among ORoL's supporting partners; type of support not stated",
+      "confidence": "fact",
+      "sources": [
+        "https://www.ourruleoflaw.eu/about-us"
+      ],
+      "added_by": "netherlands_funding"
+    },
+    {
+      "source": "nl_gov",
+      "target": "free_courts",
+      "relation": "indirect at most: Dutch Permanent Representation supports ORoL, which co-hosted a NED-funded Free Courts event; no Dutch money to Free Courts found",
+      "confidence": "fact",
+      "sources": [
+        "https://www.ourruleoflaw.eu/about-us",
+        "https://wolnesady.org/en/justice-under-attack-lessons-form-poland-meeting-in-amsterdam/"
+      ],
+      "added_by": "netherlands_funding",
+      "tie": "indirect",
+      "via": "our_rule_of_law"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Dutch government funded the Polish 'coup' players",
+      "result": "No Dutch government money found to any of the 8 judges, Tusk, Wawrykiewicz, Zurek or Berek, or to Iustitia, Themis, Free Courts, KOD, Akcja Demokracja or Batory. The only Dutch state money found in this network is the Warsaw embassy co-financing HFHR's WATCH DOCS film festival (2017, 2026).",
+      "label": "no_link"
+    },
+    {
+      "lead": "Dutch private money via Civitates",
+      "result": "Held up as indirect: Adessium (NL) pools money in Civitates, which granted OKO.press EUR 349,888 (2021-24) and Watchdog Polska a 2025 core grant. Other Polish Civitates grantees (not on the map): Panoptykon, Klon/Jawor, OFOP, Association 61, Polish Robert Schuman Foundation, Fundacja Pismo (EUR 300k).",
+      "label": "fact"
+    },
+    {
+      "lead": "Dutch government behind anti-Poland actions (Deputy Justice Minister Marcin Romanowski, Radio Maryja, Dec 2020: 'the Netherlands is an ulcer on the body of the EU')",
+      "result": "Concerned an Amsterdam court's European Arrest Warrant referral to the CJEU, which OKO.press says he wrongly treated as Dutch government action. Real Dutch state actions were open policy: backing the Commission against Poland at the CJEU (Dec 2020), a parliamentary motion to sue Poland, abstaining on unblocking Poland's recovery funds (2022). None involves money to Polish actors.",
+      "label": "unproven_conspiracy",
+      "sources": [
+        "https://oko.press/holandia-wrzodem-na-ciele-unii-europejskiej-wiceminister-tropi-spisek-przeciw-polsce",
+        "https://nos.nl/artikel/2442387-europese-rechters-klagen-eu-aan-om-miljardensteun-aan-polen"
+      ]
+    },
+    {
+      "lead": "Who paid for the 2022 judges' lawsuit against the EU Council (Rechters voor Rechters co-plaintiff)",
+      "result": "Not stated in sources read; a tweet says it was filed 'with support from' The Good Lobby. Press release not yet read: https://www.iaj-uim.org/iuw/wp-content/uploads/2022/08/PRESS-RELEASE-EN.pdf",
+      "label": "speculation"
+    },
+    {
+      "lead": "Dutch party foundations (CDA's Eduardo Frei Foundation, VVD's Haya van Someren, D66's IDEE) training Civic Platform",
+      "result": "Not checked yet; EFS annual reports exist at s.cda.nl.",
+      "label": "speculation"
+    },
+    {
+      "lead": "OKO.press 2023 financial statement (may list further donors)",
+      "result": "PDF could not be text-read: https://cdn.oko.press/2025/02/2023.OKO_.Sprawozdanie-finansowe.pdf",
+      "label": "speculation"
+    }
+  ]
+}
