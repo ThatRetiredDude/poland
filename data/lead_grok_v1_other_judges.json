@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Lead: Biographical and international-network details for other Sejm-elected TK judges (Bentkowska, Szostek, Patyra) plus MEDEL/IAJ ties",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Facts from Wikipedia, university announcements, and MEDEL/Iustitia official pages. Parents/secondary schools largely absent except Bentkowska. No direct USAID/NED/OSF grants identified for these three in sources examined."
+  },
+  "nodes": [
+    {
+      "id": "medel",
+      "type": "org",
+      "group": "ngo",
+      "label": "MEDEL (Magistrats Européens pour la Démocratie et les Libertés)",
+      "sources": [
+        "https://medelnet.eu/medel-council-of-administration-in-belgrade/",
+        "https://medelnet.eu/medel-ca-in-athens/"
+      ]
+    },
+    {
+      "id": "iaj",
+      "type": "org",
+      "group": "ngo",
+      "label": "International Association of Judges (IAJ) / European Association of Judges (EAJ)",
+      "sources": [
+        "https://iustitia.pl/dzialalnosc-miedzynarodowa/",
+        "https://www.do2024.iustitia.pl/en/about-us/about-us"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "iustitia",
+      "target": "iaj",
+      "relation": "member of IAJ (from ~2000), EAJ, and MEDEL",
+      "confidence": "fact",
+      "sources": [
+        "https://iustitia.pl/dzialalnosc-miedzynarodowa/",
+        "https://www.do2024.iustitia.pl/en/about-us/about-us",
+        "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+      ]
+    },
+    {
+      "source": "themis",
+      "target": "medel",
+      "relation": "admitted as MEDEL member at Council of Administration in Belgrade, 7 Oct 2023",
+      "confidence": "fact",
+      "sources": [
+        "https://medelnet.eu/medel-council-of-administration-in-belgrade/"
+      ],
+      "date": "2023-10-07"
+    },
+    {
+      "source": "iustitia",
+      "target": "medel",
+      "relation": "Łukasz Mrozek (Iustitia) elected member of MEDEL bureau 2025-2028",
+      "confidence": "fact",
+      "sources": [
+        "https://medelnet.eu/medel-ca-in-athens/"
+      ],
+      "date": "2025-11"
+    },
+    {
+      "source": "bentkowska",
+      "target": "tk",
+      "relation": "Sejm-elected 13 Mar 2026 (236-186-4); sworn by President Nawrocki 1 Apr 2026; started duties 9 Apr 2026. Introduced Markiewicz to judicial section of TK building 22 Oct 2026 (disciplinary notification by Święczkowski)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Magdalena_Bentkowska",
+        "https://wiadomosci.dziennik.pl/polityka/artykuly/11335269,prezes-swieczkowski-zdecydowal-ws-sedzi-markiewicz-traktuje-tk-jak-prywatny-folwark.html"
+      ],
+      "date": "2026"
+    },
+    {
+      "source": "szostek",
+      "target": "tk",
+      "relation": "Sejm-elected 13 Mar 2026; sworn by President Nawrocki 1 Apr 2026; started duties 9 Apr 2026",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Dariusz_Szostek",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ],
+      "date": "2026"
+    },
+    {
+      "source": "patyra",
+      "target": "tk",
+      "relation": "Sejm-elected 11 Jun 2026; sworn by President Nawrocki 28 Jul 2026",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/S%C5%82awomir_Patyra",
+        "https://www.rp.pl/sady-i-trybunaly/art44606991-slawomir-patyra-wybrany-na-nowego-sedziego-trybunalu-konstytucyjnego-to-radca-prawny"
+      ],
+      "date": "2026"
+    }
+  ],
+  "judges": {
+    "bentkowska": {
+      "full_name": "Magdalena Bentkowska (previously Bentkowska-Kiczor)",
+      "born": "1966-11-24, Rzeszów",
+      "family": "Daughter of Danuta and lawyer/politician Aleksander Bentkowski",
+      "education": "Law, UMCS Rzeszów branch (1991, administrative law thesis); scholarship DePaul University Chicago; PhD theory of law UMCS Lublin 2014 (Andrzej Korybski)",
+      "career_notes": "Specialist in criminal, family, labour, and personal-rights protection law",
+      "sources": ["https://pl.wikipedia.org/wiki/Magdalena_Bentkowska"]
+    },
+    "szostek": {
+      "full_name": "Dariusz Szostek",
+      "born": "1973-03-21",
+      "education": "Law, University of Silesia 1997; PhD 2003 (electronic legal acts); habilitation University of Wrocław",
+      "career_notes": "Professor University of Silesia; specialist in civil law, new technologies, AI, cybersecurity, blockchain. Expert European Parliament AI Observatory. Founder/director of Śląskie Centrum Inżynierii Prawa, Technologii i Kompetencji Cyfrowych 'CYBER SCIENCE' (consortium with UŚ, UE Katowice, Politechnika Śląska, NASK). Horizon 2020 grants: SHOP4CF, MAS4AI. Co-author of e-sąd concept and electronic delivery confirmation. Legal adviser.",
+      "sources": ["https://pl.wikipedia.org/wiki/Dariusz_Szostek", "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"]
+    },
+    "patyra": {
+      "full_name": "Sławomir Janusz Patyra",
+      "born": "1970-03-27, Pyrzyce",
+      "education": "Law, UMCS Lublin 1994; PhD 2000 (status of Prime Minister under 1997 Constitution); habilitation 2012",
+      "career_notes": "Professor UMCS (head of Constitutional Law Department) and University of Radom. Member of Polish Society of Constitutional Law board. 2024: supervisory board PGE Polska Grupa Energetyczna. Previously recommended by opposition as candidate for Ombudsman. Legal adviser (OIRP Lublin). Author of numerous constitutional-law opinions for Sejm, Senate, KRRiP, MoJ, MoF.",
+      "sources": ["https://pl.wikipedia.org/wiki/S%C5%82awomir_Patyra", "https://www.rp.pl/sady-i-trybunaly/art44606991-slawomir-patyra-wybrany-na-nowego-sedziego-trybunalu-konstytucyjnego-to-radca-prawny"]
+    }
+  },
+  "checked_no_link": [
+    {
+      "subject": "bentkowska",
+      "searched_for": "direct grants from Batory/OSF/USAID/NED or Iustitia/Themis membership",
+      "result": "none identified in sources examined",
+      "sources": ["https://pl.wikipedia.org/wiki/Magdalena_Bentkowska"]
+    },
+    {
+      "subject": "szostek",
+      "searched_for": "direct grants from Batory/OSF/USAID/NED or judge-association leadership roles",
+      "result": "none identified; academic Horizon 2020 grants documented",
+      "sources": ["https://pl.wikipedia.org/wiki/Dariusz_Szostek"]
+    },
+    {
+      "subject": "patyra",
+      "searched_for": "direct grants from Batory/OSF/USAID/NED",
+      "result": "none identified; Batory Legal Experts Team role noted in prior leads",
+      "sources": ["https://pl.wikipedia.org/wiki/S%C5%82awomir_Patyra"]
+    }
+  ],
+  "sources_primary": [
+    "https://pl.wikipedia.org/wiki/Magdalena_Bentkowska",
+    "https://pl.wikipedia.org/wiki/Dariusz_Szostek",
+    "https://pl.wikipedia.org/wiki/S%C5%82awomir_Patyra",
+    "https://medelnet.eu/medel-council-of-administration-in-belgrade/",
+    "https://medelnet.eu/medel-ca-in-athens/",
+    "https://iustitia.pl/dzialalnosc-miedzynarodowa/",
+    "https://wiadomosci.dziennik.pl/polityka/artykuly/11335269,prezes-swieczkowski-zdecydowal-ws-sedzi-markiewicz-traktuje-tk-jak-prywatny-folwark.html",
+    "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+  ]
+}

@@ -14,6 +14,7 @@
     "lead_grok_v1_institutional_pathways.json",
     "lead_grok_v1_assets_networks.json",
     "lead_grok_v1_remaining_details.json",
-    "lead_grok_v1_election_networks.json"
+    "lead_grok_v1_election_networks.json",
+    "lead_grok_v1_other_judges.json"
   ]
 }
