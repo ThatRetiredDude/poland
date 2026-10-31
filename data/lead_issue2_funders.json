@@ -1,0 +1,60 @@
+{
+ "meta": {
+  "title": "Verified items from submitted tip (issue #2: additional funders and network ties)",
+  "as_of": "2026-10-31",
+  "notes": "Only the claims from issue #2 that were new to the map and checked against a primary or reliable source. Claims still waiting on a source, and claims judged misleading, are kept in held_claims.json instead."
+ },
+ "nodes": [
+  {
+   "id": "kod",
+   "type": "org",
+   "group": "ngo",
+   "label": "Komitet Obrony Demokracji (KOD)",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "batory",
+   "target": "iustitia",
+   "relation": "2022 instalment EUR 22,319, project 'Praworządność Wspólna Sprawa' (Active Citizens Fund, EEA/Norway money run by Batory, not OSF); probably part of the EUR 108k EEA grant already on the map, not extra money",
+   "confidence": "fact",
+   "date": "2022",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ]
+  },
+  {
+   "source": "batory",
+   "target": "kod",
+   "relation": "2022 instalment EUR 29,887, project 'Manifestacje.pl' (Active Citizens Fund, EEA/Norway money run by Batory)",
+   "confidence": "fact",
+   "date": "2022",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ]
+  },
+  {
+   "source": "batory",
+   "target": "akcja_demokracja",
+   "relation": "2022 instalment EUR 30,000, online campaigning training for activists (Active Citizens Fund, EEA/Norway money run by Batory)",
+   "confidence": "fact",
+   "date": "2022",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "berek",
+   "relation": "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as minister 11 Aug 2026",
+   "confidence": "fact",
+   "date": "2008-2015",
+   "sources": [
+    "https://oko.press/maciej-berek-ma-byc-nowym-sedzia-tk-to-dlatego-zrezygnowal-z-teki-ministra-w-rzadzie-tuska"
+   ]
+  }
+ ]
+}
