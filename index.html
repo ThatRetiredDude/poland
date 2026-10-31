@@ -41,6 +41,7 @@
   --node-policy: #9c5d8f;
   --node-group: #7b8a35;
   --node-other: #b4b9bf;
+  --us: #d0367f;
   --canvas: #fbfbf9;
   --halo: rgba(251,251,249,.92);
   --font-display: "Source Serif 4", Georgia, serif;
@@ -55,7 +56,7 @@
     --conspiracy: #f06a6a; --nolink: #7c848e; --unlabelled: #bbb;
     --node-person: #6f9ad4; --node-org: #8c95a2; --node-event: #c49c6a; --node-project: #4bbac0;
     --node-policy: #c483b6; --node-group: #a3b45a; --node-other: #59606a;
-    --canvas: #111418; --halo: rgba(17,20,24,.9); color-scheme: dark;
+    --us: #f36fae; --canvas: #111418; --halo: rgba(17,20,24,.9); color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
@@ -64,7 +65,7 @@
   --conspiracy: #f06a6a; --nolink: #7c848e; --unlabelled: #bbb;
   --node-person: #6f9ad4; --node-org: #8c95a2; --node-event: #c49c6a; --node-project: #4bbac0;
   --node-policy: #c483b6; --node-group: #a3b45a; --node-other: #59606a;
-  --canvas: #111418; --halo: rgba(17,20,24,.9); color-scheme: dark;
+  --us: #f36fae; --canvas: #111418; --halo: rgba(17,20,24,.9); color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
@@ -117,6 +118,10 @@ main svg:active { cursor: grabbing; }
 .node { cursor: pointer; }
 .node .shape { stroke: var(--canvas); stroke-width: 1.5; }
 .node.judge .ring { fill: none; stroke: var(--judge); stroke-width: 2.5; }
+/* US layer: pink halo on US politicians, officials and government bodies, and a soft pink band under every line touching one. */
+.node .usring { fill: none; stroke: var(--us); stroke-width: 3.5; }
+.usband { fill: none; stroke: var(--us); stroke-opacity: .3; stroke-width: 8; stroke-linecap: round; pointer-events: none; }
+.usband.faded { opacity: .1; }
 .node.stub .shape { fill: var(--canvas) !important; stroke: var(--muted); stroke-dasharray: 2 2; }
 .node text { font: 11px var(--font-body); fill: var(--ink); paint-order: stroke; stroke: var(--halo); stroke-width: 3.5px; stroke-linejoin: round; pointer-events: none; }
 .node.judge text, .node.anchor text { font-weight: 600; font-size: 12px; }
@@ -217,6 +222,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
       <label class="row"><input type="checkbox" id="t-isolated" checked><span class="name">Hide nodes with no visible links</span></label>
             <label class="row"><input type="checkbox" id="t-anchor" checked><span class="name">Judges in a row, Tusk above, Nawrocki below (when shown)</span></label>
       <p class="meta-line" id="hidden-note"></p>
+      <label class="row"><input type="checkbox" id="t-us" checked><span class="name"><svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true" style="vertical-align:-2px"><circle r="5" fill="none" stroke="var(--us)" stroke-width="2.5"/></svg> Highlight US politicians and officials</span></label>
       <label class="row"><input type="checkbox" id="t-names"><span class="name">Show every name (names may overlap)</span></label>
     </div>
   </aside>
@@ -387,7 +393,7 @@ async function loadAll() {
 const state = {
   labels: new Set(LABELS.map(l => l.key).filter(k => k !== "no_link").concat("unlabelled")),
   types: new Set(), group: "", hideIsolated: true, judgesOnly: false, allNames: false,
-  anchor: true,
+  anchor: true, usLayer: true,
   hidden: new Set(["nawrocki"]),
   selected: null, // {kind:'node'|'edge', id}
   search: "", tab: "detail",
@@ -396,7 +402,7 @@ const state = {
 /* ---------- graph rendering ---------- */
 const svg = d3.select("#svg");
 const root = svg.append("g");
-const gLinks = root.append("g"), gHits = root.append("g"), gNodes = root.append("g");
+const gUS = root.append("g"), gLinks = root.append("g"), gHits = root.append("g"), gNodes = root.append("g");
 const zoom = d3.zoom().scaleExtent([0.15, 6]).on("zoom", ev => { root.attr("transform", ev.transform); const kChanged = ev.transform.k !== curK; curK = ev.transform.k; if (kChanged) { placeLabels(curK); queueDeclutter(); } });
 svg.call(zoom).on("dblclick.zoom", null);
 svg.on("click", ev => { if (ev.target === svg.node()) select(null); });
@@ -406,6 +412,10 @@ const SPRING = new Set(["fact", "alleged"]);
 const posCache = new Map();
 
 function isJudge(n) { return n.group === "tk_judge"; }
+// US layer: people who are or were US politicians or US government officials, plus US government bodies.
+// Taken from the node's group, or from "us_layer": true in the data. It marks nationality and office only, not intent.
+const US_GROUPS = new Set(["us_gov", "us_politics", "us_court"]);
+function isUS(n) { return !!n && (n.us_layer === true || US_GROUPS.has(n.group)); }
 function makeArrows() {
   defs.selectAll("marker").data(LABELS.map(l => l.key).concat("unlabelled", "money")).join("marker")
     .attr("id", d => "arr-" + d).attr("viewBox", "0 -4 8 8").attr("refX", 8).attr("refY", 0)
@@ -516,6 +526,7 @@ function render() {
 
   const node = gNodes.selectAll("g.node").data(simNodes, d => d.id).join(enter => {
     const g = enter.append("g");
+    g.append("circle").attr("class", "usring");
     g.append("circle").attr("class", "ring");
     g.append("path").attr("class", "shape");
     g.append("text");
@@ -531,6 +542,8 @@ function render() {
       .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); if (isAnchored(d)) { d.fx = d._anchor.x; d.fy = d._anchor.y; } else { d.fx = null; d.fy = null; } }));
   node.select(".shape").attr("d", d => d3.symbol(TYPE_SHAPES[d.type] || d3.symbolCircle, nodeSize(d))()).attr("fill", nodeColor);
   node.select(".ring").attr("r", d => isJudge(d) ? radius(d) + 3 : 0);
+  node.select(".usring").attr("r", d => state.usLayer && isUS(d) ? radius(d) + (isJudge(d) ? 7 : 3) : 0);
+  const usBand = gUS.selectAll("path").data(state.usLayer ? simLinks.filter(l => isUS(store.nodes.get(l.e.s)) || isUS(store.nodes.get(l.e.t))) : [], d => d.gk).join("path").attr("class", "usband");
   node.select("text").each(function (d) {
     const t = d3.select(this).text(null).attr("text-anchor", isAnchored(d) ? "middle" : "start");
     const name = d.label.length > 42 ? d.label.slice(0, 40) + "…" : d.label;
@@ -571,6 +584,7 @@ function render() {
       return `M${sx},${sy}Q${mx},${my} ${ex},${ey}`;
     };
     link.attr("d", pathD);
+    usBand.attr("d", pathD);
     gHits.selectAll("path").attr("d", pathD);
     node.attr("transform", d => `translate(${d.x},${d.y})`);
     const now = performance.now();
@@ -643,6 +657,7 @@ function applyHighlight() {
   gLinks.selectAll("path")
     .classed("faded", d => !!s && (s.kind === "node" ? !(d.e.s === s.id || d.e.t === s.id) : s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id)))
     .classed("selected", d => (s?.kind === "pair" && d.gk === s.id) || (s?.kind === "edge" && d.es.some(e => e.key === s.id)));
+  gUS.selectAll("path").classed("faded", d => !!s && (s.kind === "node" ? !(d.e.s === s.id || d.e.t === s.id) : s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id)));
   updateLabelVis(curK);
 }
 
@@ -784,7 +799,8 @@ function overviewHTML() {
     <div class="section"><h2>Evidence labels</h2>${LABELS.filter(l => l.key !== "no_link").map(l => `<div class="row" style="cursor:default;align-items:flex-start">${swatch(l.key)}<span><b>${l.name}</b><br><span class="meta-line" style="display:inline">${esc(levels[l.key] || "")}</span></span></div>`).join("")}</div>
     <div class="section"><h2>Money</h2><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="2.5"/></svg><span class="name">Green = sourced money tie. Thicker line = more money (amounts converted to rough USD). Other sourced ties are thin slate lines.</span></div><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="8"/></svg><span class="name">Large sums, e.g. multi-million funds</span></div></div>
     <div class="section"><h2>Shapes</h2>${Object.keys(TYPE_SHAPES).map(t => `<div class="row" style="cursor:default">${shapeIcon(t)}<span class="name" style="text-transform:capitalize">${t}</span></div>`).join("")}
-      <div class="row" style="cursor:default"><svg width="16" height="16" viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="none" stroke="var(--judge)" stroke-width="2.2"/></svg><span class="name">Gold ring: one of the 8 judges</span></div></div>
+      <div class="row" style="cursor:default"><svg width="16" height="16" viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="none" stroke="var(--judge)" stroke-width="2.2"/></svg><span class="name">Gold ring: one of the 8 judges</span></div>
+      <div class="row" style="cursor:default"><svg width="16" height="16" viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="none" stroke="var(--us)" stroke-width="2.5"/></svg><span class="name">Pink ring: US politician, US official or US government body. A pink band marks every line that touches one. It shows who is American, not what anyone intended.</span></div></div>
     <div class="section"><h2>The 8 judges</h2><div class="conn">${judges.map(j => `<button type="button" data-node="${esc(j.id)}"><span class="who">${esc(j.label)}</span>${j.tk_status ? `<span class="rel">${esc(j.tk_status)}</span>` : ""}</button>`).join("")}</div></div>`;
 }
 function leadsHTML() {
@@ -861,6 +877,7 @@ document.getElementById("only-solid").onclick = () => { state.labels = new Set([
 document.getElementById("f-group").onchange = ev => { state.group = ev.target.value; render(); setTimeout(fit, 900); };
 document.getElementById("t-isolated").onchange = ev => { state.hideIsolated = ev.target.checked; render(); };
 document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.checked; render(); setTimeout(fit, 1200); };
+document.getElementById("t-us").onchange = ev => { state.usLayer = ev.target.checked; render(); };
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-pdf").onclick = exportPDF;
@@ -882,6 +899,7 @@ function viewToHash() {
   if (!state.hideIsolated) p.set("isolated", "1");
   if (!state.anchor) p.set("free", "1");
   if (state.allNames) p.set("names", "all");
+  if (!state.usLayer) p.set("us", "0");
   return p.toString();
 }
 function hashToView() {
@@ -895,6 +913,7 @@ function hashToView() {
   if (p.get("isolated") === "1") { state.hideIsolated = false; document.getElementById("t-isolated").checked = false; }
   if (p.get("free") === "1") { state.anchor = false; document.getElementById("t-anchor").checked = false; }
   if (p.get("names") === "all") { state.allNames = true; document.getElementById("t-names").checked = true; }
+  if (p.get("us") === "0") { state.usLayer = false; document.getElementById("t-us").checked = false; }
   return { typesOff: list("types_off"), focus: p.get("focus") };
 }
 async function shareView() {
@@ -953,7 +972,7 @@ body { margin: 0; padding: 12px 16px; -webkit-print-color-adjust: exact; print-c
 <button class="btn ex-print" onclick="window.print()">Print / Save as PDF</button>
 <div class="ex-head"><h1>Poland coup d'état relationship map</h1><p>${esc(notes)} · exported ${today}</p></div>
 <div class="ex-map">${new XMLSerializer().serializeToString(clone)}</div>
-<div class="ex-foot">${legend}<span class="lg"><svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="var(--fact)" stroke-width="4"/></svg> Money (thicker = more)</span><span>Source for every line: thatretireddude.github.io/poland</span></div>
+<div class="ex-foot">${legend}<span class="lg"><svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="var(--fact)" stroke-width="4"/></svg> Money (thicker = more)</span>${state.usLayer ? `<span class="lg"><svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><circle r="5" fill="none" stroke="var(--us)" stroke-width="2.5"/></svg> US politician or official</span>` : ""}<span>Source for every line: thatretireddude.github.io/poland</span></div>
 <script>window.addEventListener("load", () => setTimeout(() => window.print(), 600));<\/script>
 </body></html>`;
   const w = window.open("", "_blank");

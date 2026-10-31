@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Checked tip: US Senator Slotkin's Poland/Hungary trip, the 'playbook' remark, and Sikorski",
+    "title": "Checked tip: US Senator Slotkin's Poland/Hungary trip, the 'playbook' remark, Sikorski, and the paths back to the map",
     "as_of": "2026-10-31",
-    "notes": "Tip from a social media post claiming Slotkin 'brought home the playbook' from Poland and Hungary, and that 'Deputy Foreign Minister' Sikorski is celebrating the alleged coup. Sikorski is actually Foreign Minister (since 13 Dec 2023) and Deputy Prime Minister (since 24 Jul 2025). No tie found from Slotkin to the 8 judges, Wawrykiewicz, NED, OSF or USAID. Sikorski's only new edge is his public 31 Oct statement backing the new TK majority, which is a government minister defending government policy."
+    "notes": "Tip from a social media post claiming Slotkin 'brought home the playbook' from Poland and Hungary, and that 'Deputy Foreign Minister' Sikorski is celebrating the alleged coup. Sikorski is Foreign Minister (since 13 Dec 2023) and Deputy Prime Minister (since 24 Jul 2025). Slotkin led the US Senate delegation that met Sikorski on 10 Sep 2026 (Defence24). Paths to the map: (1) Slotkin -> Sikorski -> Tusk / Korwin-Piotrowska (public backing); (2) Slotkin -> Applebaum (Carnegie Q&A host, Sikorski's wife) -> NED board 2016-Jan 2025 -> Wawrykiewicz fellowship; Applebaum -> Journal of Democracy editorial board; (3) Slotkin -> Carnegie Endowment (speech venue) -> OSF (top-tier donor) and -> Carothers. All ties are organisational or family; no payment to any judge, Tusk or Wawrykiewicz from Slotkin or her circle was found."
   },
   "nodes": [
     {
@@ -20,10 +20,58 @@
       "type": "person",
       "group": "us_politics",
       "label": "Elissa Slotkin",
-      "role": "US Senator (D-Michigan); visited Poland and Hungary early September 2026",
+      "role": "US Senator (D-Michigan) since 2025; former CIA analyst and Pentagon official; led a US Senate delegation to Poland 9-10 Sep 2026 and also visited Hungary",
       "sources": [
         "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
-        "https://www.slotkin.senate.gov/2026/09/30/icymi-slotkin-delivers-speech-at-carnegie-institution-on-defending-democracy/"
+        "https://www.slotkin.senate.gov/2026/09/30/icymi-slotkin-delivers-speech-at-carnegie-institution-on-defending-democracy/",
+        "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+      ]
+    },
+    {
+      "id": "applebaum",
+      "type": "person",
+      "group": "media",
+      "label": "Anne Applebaum (journalist; Sikorski's wife)",
+      "role": "Staff writer, The Atlantic (2020-); senior fellow, Johns Hopkins SAIS/SNF Agora Institute (2019-); married to Radosław Sikorski since 1992; Polish citizen since 2013",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anne_Applebaum",
+        "https://sais.jhu.edu/sites/default/files/Applebaum%2C%20Anne%20CV%202024%20Spring.pdf"
+      ]
+    },
+    {
+      "id": "carnegie_endowment",
+      "type": "org",
+      "group": "think_tank",
+      "label": "Carnegie Endowment for International Peace (Washington)",
+      "sources": [
+        "https://carnegieendowment.org/development?lang=en"
+      ]
+    },
+    {
+      "id": "tillis",
+      "type": "person",
+      "group": "us_politics",
+      "label": "Thom Tillis (US Senator, R-North Carolina)",
+      "sources": [
+        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej"
+      ]
+    },
+    {
+      "id": "curtis",
+      "type": "person",
+      "group": "us_politics",
+      "label": "John Curtis (US Senator, R-Utah)",
+      "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+      ]
+    },
+    {
+      "id": "przydacz",
+      "type": "person",
+      "group": "presidential_palace",
+      "label": "Marcin Przydacz (head of the President's International Policy Bureau)",
+      "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
       ]
     }
   ],
@@ -51,14 +99,171 @@
     {
       "source": "slotkin",
       "target": "sikorski",
-      "relation": "Met during a US Senate delegation visit to Warsaw, about 9-10 Sep 2026. Fact: Slotkin and Sen. Thom Tillis were at the Polish defence ministry on 9 Sep; Sikorski met 'a US Senate delegation' on Thu 10 Sep (topics: US troop presence, joint arms production, 2027 US defence bill amendment, Ukraine, energy, critical raw materials; no courts or TK). Not yet confirmed: that Slotkin was in the Sikorski meeting (reports do not name the senators; the photo in the tip was not verified).",
-      "confidence": "alleged",
+      "relation": "Slotkin led a US Senate delegation (with Republican senators Thom Tillis and John Curtis) that met Foreign Minister Sikorski in Warsaw on Thu 10 Sep 2026. Topics per MFA: permanent US troop presence, joint arms production, a 2027 US defence bill amendment on industrial cooperation, Ukraine, Poland's G20 role, energy and critical raw materials. No courts, Constitutional Tribunal or rule-of-law item reported. Slotkin and Tillis also visited the defence ministry on 9 Sep.",
+      "confidence": "fact",
       "date": "2026-09-10",
       "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
         "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
         "https://wiadomosci.wp.pl/amerykanie-sa-w-polsce-kluczowa-wizyta-ws-baz-7327967135082656a",
         "https://www.wnp.pl/polityka-i-sondaze/mon-prezentuje-delegacji-usa-zaklady-zbrojeniowe-i-potencjalne-miejsca-stalego-stacjonowania-amerykanskich-wojsk,1098045.html",
         "https://www.globalsecurity.org/military/library/news/2026/09/mil-260910-pl-mfa01.htm"
+      ]
+    },
+    {
+      "source": "slotkin",
+      "target": "przydacz",
+      "relation": "The Slotkin-led Senate delegation was also received at the Presidential Palace by Przydacz (Nawrocki's foreign-policy chief) on 10 Sep 2026; the delegation met both sides of the Polish executive",
+      "confidence": "fact",
+      "date": "2026-09-10",
+      "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+      ]
+    },
+    {
+      "source": "slotkin",
+      "target": "tillis",
+      "relation": "Travelled together in the Sep 2026 Senate delegation to Poland (defence ministry 9 Sep; Sikorski 10 Sep)",
+      "confidence": "fact",
+      "date": "2026-09-09",
+      "sources": [
+        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+      ]
+    },
+    {
+      "source": "slotkin",
+      "target": "curtis",
+      "relation": "Travelled together in the Sep 2026 Senate delegation to Poland (Sikorski meeting 10 Sep)",
+      "confidence": "fact",
+      "date": "2026-09-10",
+      "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+      ]
+    },
+    {
+      "source": "slotkin",
+      "target": "carnegie_endowment",
+      "relation": "Delivered her 'defending democracy' speech on the Poland/Hungary trip at Carnegie, 30 Sep 2026; the Q&A was hosted by Anne Applebaum",
+      "confidence": "fact",
+      "date": "2026-09-30",
+      "sources": [
+        "https://www.slotkin.senate.gov/2026/09/30/icymi-slotkin-delivers-speech-at-carnegie-institution-on-defending-democracy/",
+        "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
+      ]
+    },
+    {
+      "source": "applebaum",
+      "target": "slotkin",
+      "relation": "Hosted the Q&A after Slotkin's Carnegie speech, 30 Sep 2026",
+      "confidence": "fact",
+      "date": "2026-09-30",
+      "sources": [
+        "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
+      ]
+    },
+    {
+      "source": "applebaum",
+      "target": "sikorski",
+      "relation": "Married since 1992 (family tie, public record)",
+      "confidence": "fact",
+      "date": "1992-",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anne_Applebaum"
+      ]
+    },
+    {
+      "source": "ned",
+      "target": "applebaum",
+      "relation": "NED board member: elected Jan 2016 to a first three-year term; listed among departing board members in NED's 17 Jan 2025 release (so on the board roughly 2016-Jan 2025, overlapping Wawrykiewicz's 2022/23 NED fellowship). No source shows she had any role in that fellowship.",
+      "confidence": "fact",
+      "date": "2016-2025",
+      "sources": [
+        "https://ned.org/national-endowment-for-democracy-adds-three-to-board-of-directors-skaggs-applebaum-horowitz-begin-three-year-term",
+        "https://ned.org/ned-board-elects-new-chairman-and-members"
+      ]
+    },
+    {
+      "source": "applebaum",
+      "target": "journal_of_democracy",
+      "relation": "Editorial board member (NED's International Forum journal), per her 2024 CV",
+      "confidence": "fact",
+      "sources": [
+        "https://sais.jhu.edu/sites/default/files/Applebaum%2C%20Anne%20CV%202024%20Spring.pdf"
+      ]
+    },
+    {
+      "source": "osf",
+      "target": "carnegie_endowment",
+      "relation": "Listed in Carnegie's FY2024 (Jul 2023-Jun 2024) donor list in the top tier, '$2,000,000 and above' (programmes incl. Carnegie Europe, Europe Program, Russia and Eurasia Program), and again in the FY2025 list at the same tier. Read from PDF text extraction, not yet checked against the printed page; Carnegie publishes tiers, not amounts.",
+      "confidence": "alleged",
+      "date": "2023-2025",
+      "sources": [
+        "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf",
+        "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf"
+      ]
+    },
+    {
+      "source": "carnegie_endowment",
+      "target": "carothers",
+      "relation": "Carothers is a Carnegie senior fellow (democracy, conflict and governance); already on the map for his 2025 democracy-aid analysis",
+      "confidence": "fact",
+      "sources": [
+        "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
+      ]
+    },
+    {
+      "source": "us_congress",
+      "target": "slotkin",
+      "relation": "Member of the US Senate (D-Michigan); the Senate funds NED by annual appropriation (institutional, not personal, tie)",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+      ]
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "slotkin",
+      "searched_for": "any tie to the 8 TK judges, Tusk, Wawrykiewicz, Free Courts, NED, OSF or USAID; any mention of Polish courts or the TK in her Carnegie speech or trip reports",
+      "result": "none found. The full speech text (30 Sep 2026) never mentions courts, judges, the Constitutional Tribunal, Tusk or Sikorski. Note: the speech Q&A was with Anne Applebaum, who is Sikorski's wife (family tie, public record; not evidence of coordination).",
+      "sources": [
+        "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf",
+        "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
+      ]
+    },
+    {
+      "subject": "sikorski",
+      "searched_for": "role in planning or carrying out the 30-31 Oct TK takeover",
+      "result": "none found beyond the public statement of support after the event",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art45424861-chaos-wokol-trybunalu-konstytucyjnego-prezydent-zwoluje-konsultacje-relacja-na-zywo"
+      ]
+    },
+    {
+      "subject": "slotkin",
+      "searched_for": "any meeting with Tusk, Czarzasty, Bodnar, Żurek, Wawrykiewicz or any of the 8 judges during the Sep 2026 trip",
+      "result": "none reported. Named hosts: Sikorski (MFA), Zalewski (defence ministry), Przydacz (Presidential Palace). A Sejm notice announced a Marshal-Senate delegation meeting, but it could not be read to confirm the date or delegation.",
+      "sources": [
+        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
+        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
+        "https://sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C3969F47F9F661CC1258E6D0034B793"
+      ]
+    },
+    {
+      "subject": "applebaum",
+      "searched_for": "board, grant or advisory role at OSF, Batory Foundation, Free Courts, Iustitia, Themis, KOS or any Polish institution",
+      "result": "none in her 2024 CV or Wikipedia (her 'Agora Institute' post is Johns Hopkins, unrelated to Agora SA/Wyborcza)",
+      "sources": [
+        "https://sais.jhu.edu/sites/default/files/Applebaum%2C%20Anne%20CV%202024%20Spring.pdf"
+      ]
+    },
+    {
+      "subject": "slotkin",
+      "searched_for": "mention of Polish courts, judges or the Tribunal in the 29/30 Oct 2026 hidden-camera clip ('signature cases' remarks)",
+      "result": "none; the clip references Hungary/Budapest and US corruption cases only",
+      "sources": [
+        "https://www.thegatewaypundit.com/2026/10/watch-hidden-camera-video-exposes-sen-elissa-slotkin/"
       ]
     }
   ],
@@ -85,14 +290,29 @@
   ],
   "leads": [
     {
-      "lead": "Was Slotkin in the 10 Sep Sikorski meeting? Check the MFA post on X for 10 Sep 2026 and Slotkin's or Tillis's own trip posts/photos",
+      "lead": "Did the Slotkin delegation meet Sejm Marshal Czarzasty? (Sejm announced a Marshal-US Senate delegation meeting; page blocked to automated reads; Czarzasty has been boycotted by the US embassy since 5 Feb 2026)",
       "result": "open",
-      "label": "alleged"
+      "label": "speculation"
     },
     {
       "lead": "What is the Polish 'Iron Broom' plan Slotkin cites, and does it involve the judiciary?",
       "result": "open; speech gives no detail",
       "label": "speculation"
+    },
+    {
+      "lead": "Confirm OSF's tier in Carnegie's printed donor list (FY2024 p.33, FY2025 p.34)",
+      "result": "open; text extraction says '$2,000,000 and above' both years",
+      "label": "alleged"
+    },
+    {
+      "lead": "Whom did Slotkin meet in Budapest (Magyar government?) and did any Hungarian contact tie to Polish actors?",
+      "result": "open; no readout found",
+      "label": "speculation"
     }
-  ]
+  ],
+  "node_updates": {
+    "trump": {
+      "us_layer": true
+    }
+  }
 }
