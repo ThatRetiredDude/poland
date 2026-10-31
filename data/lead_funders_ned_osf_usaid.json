@@ -51,15 +51,6 @@
       ]
     },
     {
-      "id": "musk",
-      "type": "person",
-      "group": "us_gov",
-      "label": "Elon Musk",
-      "sources": [
-        "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
-      ]
-    },
-    {
       "id": "ndi_iri",
       "type": "org",
       "group": "us_gov",
@@ -344,17 +335,6 @@
         "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
       ],
       "added_by": "lead_funders_ned_osf_usaid"
-    },
-    {
-      "source": "musk",
-      "target": "tusk",
-      "relation": "reshared a post (with 🤔) claiming Biden-era USAID money went to anti-PiS groups; made no claim himself",
-      "confidence": "fact",
-      "sources": [
-        "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2025-02-27"
     },
     {
       "source": "usaid",

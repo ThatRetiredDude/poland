@@ -410,6 +410,43 @@
     5
    ],
    "promoted_to": "lead_held_claims_sources.json"
+  },
+  {
+   "id": "musk_usaid_repost",
+   "claim": "Elon Musk reshared (with a 🤔) a post claiming Biden-era USAID money went to anti-PiS groups in Poland",
+   "status": "needs_source",
+   "about": [
+    "musk",
+    "tusk",
+    "usaid"
+   ],
+   "checked": "The reshare itself is documented (27 Feb 2025), but Musk made no claim of his own and the original post's evidence for USAID money reaching anti-PiS groups was not traced. Removed from the map on 2026-10-31 (was a fact line Musk -> Tusk, and Musk was ringed as US government because he ran DOGE as a special government employee). Promote back only if the original post's underlying grant records are found.",
+   "sources": [
+    "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
+   ],
+   "raised_in": [
+    "map review"
+   ],
+   "removed_from": [
+    "poland_tk_graph.json",
+    "lead_funders_ned_osf_usaid.json"
+   ],
+   "removed_node": {
+    "id": "musk",
+    "type": "person",
+    "group": "us_gov",
+    "label": "Elon Musk"
+   },
+   "removed_edge": {
+    "source": "musk",
+    "target": "tusk",
+    "relation": "reshared a post (with 🤔) claiming Biden-era USAID money went to anti-PiS groups; made no claim himself",
+    "confidence": "fact",
+    "date": "2025-02-27",
+    "sources": [
+     "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
+    ]
+   }
   }
  ]
 }
