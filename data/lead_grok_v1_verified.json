@@ -1,0 +1,579 @@
+{
+ "meta": {
+  "title": "Lead: review of the grok-v1 branch (verified items only)",
+  "as_of": "2026-10-31",
+  "added_by": "grok-v1 review",
+  "notes": [
+   "Every claim in the grok-v1 branch was checked against its cited pages. Only claims the pages support are here; the rest are in held_claims.json.",
+   "Several Polish Wikipedia pages the branch cited did not resolve, so bio details resting only on them are held."
+  ]
+ },
+ "nodes": [
+  {
+   "id": "cebrics",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "GMF CEBRICS (USAID-funded civil-society grant programme)",
+   "sources": [
+    "https://www.gmfus.org/cebrics",
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "funding": "USAID single donor, 2022-2026, Bulgaria, Hungary, Poland; 2023: 44 projects, $1,286,587"
+  },
+  {
+   "id": "ceo_poland",
+   "type": "org",
+   "group": "ngo",
+   "label": "Center for Citizenship Education (Centrum Edukacji Obywatelskiej)",
+   "sources": [
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ]
+  },
+  {
+   "id": "aktywna_demokracja",
+   "type": "org",
+   "group": "ngo",
+   "label": "Fundacja Aktywna Demokracja (Tour de Konstytucja)",
+   "sources": [
+    "https://patronite.pl/post/76494/pilne-tour-de-konstytucja-jestem-za-godnoscia-etap-szkolny-w-bardzo-trudnej-sytuacji"
+   ]
+  },
+  {
+   "id": "kultura_liberalna",
+   "type": "org",
+   "group": "media",
+   "label": "Kultura Liberalna (weekly and foundation)",
+   "sources": [
+    "https://kulturaliberalna.pl/o-nas/",
+    "https://kulturaliberalna.pl/partnerzy/"
+   ]
+  },
+  {
+   "id": "kuisz",
+   "type": "person",
+   "group": "commentator",
+   "label": "Jarosław Kuisz (Kultura Liberalna editor-in-chief)",
+   "sources": [
+    "https://kulturaliberalna.pl/o-nas/",
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ]
+  },
+  {
+   "id": "wigura",
+   "type": "person",
+   "group": "commentator",
+   "label": "Karolina Wigura (Kultura Liberalna Foundation board)",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+    "https://kulturaliberalna.pl/o-nas/"
+   ]
+  },
+  {
+   "id": "journal_of_democracy",
+   "type": "org",
+   "group": "media",
+   "label": "Journal of Democracy (NED journal, published by Johns Hopkins University Press)",
+   "sources": [
+    "https://www.journalofdemocracy.org/about/",
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ]
+  },
+  {
+   "id": "kkusip",
+   "type": "org",
+   "group": "government",
+   "label": "Codification Commission for the System of Courts and Prosecution (KKUSiP)",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+    "https://www.gov.pl/web/sprawiedliwosc/nowy-przewodniczacy-komisji-kodyfikacyjnej-ustroju-sadownictwa-i-prokuratury"
+   ],
+   "chair": "Krystian Markiewicz (act received 3 Apr 2024) until his TK election; Marcin Walasik from 24 Apr 2026 (appointed by Tusk at Żurek's request)",
+   "members_2024": "15 appointed 12 Apr 2024, incl. Maciej Taborowski, Marcin Walasik, Karolina Kremens (deputy chair), Piotr Tuleja, Jarosław Matras"
+  },
+  {
+   "id": "reconstitution",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "re:constitution fellowship programme (Forum Transregionale Studien and DRI; Stiftung Mercator logo as funder)",
+   "sources": [
+    "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski"
+   ]
+  },
+  {
+   "id": "ncn",
+   "type": "org",
+   "group": "government",
+   "label": "National Science Centre (NCN, Polish state research funder)",
+   "sources": [
+    "https://inp.pan.pl/aktualnosci/nowe-granty-z-narodowego-centrum-nauki-dla-witolda-klausa-oraz-macieja-taborowskiego/"
+   ]
+  },
+  {
+   "id": "men",
+   "type": "org",
+   "group": "government",
+   "label": "Ministry of National Education (MEN)",
+   "sources": [
+    "https://www.rmf24.pl/fakty/polityka/news-kontrola-poselska-ws-dotacji-dla-iustitii-korupcja-polityczn,nId,8040489"
+   ]
+  },
+  {
+   "id": "us_state_dept",
+   "type": "org",
+   "group": "us_gov",
+   "label": "US State Department",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+   ]
+  },
+  {
+   "id": "aba_ceeli",
+   "type": "org",
+   "group": "professional",
+   "label": "American Bar Association CEELI (Central and East European Law Initiative)",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+   ]
+  },
+  {
+   "id": "iaj_eaj",
+   "type": "org",
+   "group": "professional",
+   "label": "International Association of Judges (IAJ) and its European Association (EAJ)",
+   "sources": [
+    "https://iustitia.pl/dzialalnosc-miedzynarodowa/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "nawrocki",
+   "target": "tk",
+   "relation": "30 Oct 2026: turned his plane back from a state visit to Senegal; entered the TK building about 1 a.m. on 31 Oct; his office called it 'a forceful takeover of a constitutional body'",
+   "confidence": "fact",
+   "sources": [
+    "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice/",
+    "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/",
+    "https://trybunal.net/en/october-2026-leadership-crisis/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "tusk",
+   "target": "berek",
+   "relation": "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+   "confidence": "fact",
+   "sources": [
+    "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "berek",
+   "target": "korwin_piotrowska",
+   "relation": "backed her 30 Oct 2026 order taking over TK leadership, with Taborowski",
+   "confidence": "fact",
+   "sources": [
+    "https://trybunal.net/en/october-2026-leadership-crisis/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "nawrocki",
+   "target": "korwin_piotrowska",
+   "relation": "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiewicz breached the head of state's inviolability; video shows Nawrocki pushing past; no authority has established what happened",
+   "confidence": "alleged",
+   "sources": [
+    "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/",
+    "https://trybunal.net/en/october-2026-leadership-crisis/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "markiewicz",
+   "target": "korwin_piotrowska",
+   "relation": "named as author in the PDF metadata of the 30 Oct suspension order, per a screenshot posted by the association Prawnicy dla Polski (no response reported)",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polityka/kto-przygotowal-dokument-dotyczacy-swieczkowskiego-zapomnieli-usunac-metadane/582928"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "iustitia",
+   "target": "markiewicz",
+   "relation": "27 Oct 2026: asked the Dom Sędziego Seniora aid fund for one-time support of PLN 75,000 (request, not yet paid); he gave up his court judgeship and has had no TK pay for 7+ months",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "iustitia",
+   "target": "taborowski",
+   "relation": "27 Oct 2026: asked the Dom Sędziego Seniora aid fund for one-time support of PLN 75,000 (request, not yet paid); he stopped his advocate practice and has had no TK pay for 7+ months",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "bentkowska",
+   "target": "markiewicz",
+   "relation": "22 Oct 2026: brought him into the judges' section of the TK building; Święczkowski informed the disciplinary officer",
+   "confidence": "fact",
+   "sources": [
+    "https://wiadomosci.dziennik.pl/polityka/artykuly/11335269,prezes-swieczkowski-zdecydowal-ws-sedzi-markiewicz-traktuje-tk-jak-prywatny-folwark.html"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "markiewicz",
+   "target": "kkusip",
+   "relation": "chair (appointment act received 3 Apr 2024); gave up the post after his TK election",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+    "https://www.rp.pl/sady-i-trybunaly/art44381021-wybrano-nastepce-sedziego-krystiana-markiewicza-w-komisji-zajmujacej-sie-reforma-sadow"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "tusk",
+   "target": "kkusip",
+   "relation": "appointed the 15 members on 12 Apr 2024 at Bodnar's request after consulting chair Markiewicz; appointed Walasik chair 24 Apr 2026 at Żurek's request",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+    "https://www.gov.pl/web/sprawiedliwosc/nowy-przewodniczacy-komisji-kodyfikacyjnej-ustroju-sadownictwa-i-prokuratury"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "bodnar",
+   "target": "kkusip",
+   "relation": "requested the members' appointment (12 Apr 2024) as Justice Minister",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "taborowski",
+   "target": "kkusip",
+   "relation": "member, appointed 12 Apr 2024",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "taborowski",
+   "target": "reconstitution",
+   "relation": "fellow 2021/2022 (mobility phase at Central European University and University of Oslo)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ncn",
+   "target": "taborowski",
+   "relation": "2026 Opus research grant for project 'CARVE' on rights and values in Europe (amount not stated)",
+   "confidence": "fact",
+   "sources": [
+    "https://inp.pan.pl/aktualnosci/nowe-granty-z-narodowego-centrum-nauki-dla-witolda-klausa-oraz-macieja-taborowskiego/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "taborowski",
+   "target": "tvp",
+   "relation": "vice-chair of TVP's supervisory board since Dec 2023",
+   "confidence": "fact",
+   "sources": [
+    "https://viva.pl/ludzie/newsy/magda-molek-rozwod-mazmaciej-taborowski-dzieci-oswiadczenie-148397-r1/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "batory",
+   "target": "iustitia",
+   "relation": "2024: institutional grant instalment EUR 10,000 plus EUR 8,000 additional institutional grant; same report lists a EUR 8,127.18 refund on the 'Praworządność Wspólna Sprawa' project (EEA/Norway Active Citizens money)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "eea",
+   "target": "iustitia",
+   "relation": "Active Citizens Fund project 'Praworządność Wspólna Sprawa': EUR 58,830.82 (Nov 2021-Apr 2024); Batory's 2022 and 2023 instalments are part of it",
+   "confidence": "fact",
+   "sources": [
+    "https://aktywniobywatele.org.pl/projekty/praworzadnosc-wspolna-sprawa/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "men",
+   "target": "iustitia",
+   "relation": "2025 'Młodzi obywatele' grants: PLN 139,877 to Iustitia ('Hallo! Tu Konstytucja') and PLN 114,500 to its Fundacja Edukacji Prawnej ('100 lekcji w sądzie'); PiS MPs announced an inspection, calling it 'political corruption'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rmf24.pl/fakty/polityka/news-kontrola-poselska-ws-dotacji-dla-iustitii-korupcja-polityczn,nId,8040489"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "aba_ceeli",
+   "target": "iustitia",
+   "relation": "US grants, incl. ABA CEELI, funded Iustitia in its first years after its 1990 founding",
+   "confidence": "fact",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "us_state_dept",
+   "target": "iustitia",
+   "relation": "supported Iustitia's 1998-1999 training of judges on the new criminal codes",
+   "confidence": "fact",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "iustitia",
+   "target": "iaj_eaj",
+   "relation": "member of the IAJ and the EAJ",
+   "confidence": "fact",
+   "sources": [
+    "https://iustitia.pl/dzialalnosc-miedzynarodowa/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "iustitia",
+   "target": "medel",
+   "relation": "member; Łukasz Mrozek (Iustitia) on the MEDEL bureau 2025-2028",
+   "confidence": "fact",
+   "sources": [
+    "https://iustitia.pl/dzialalnosc-miedzynarodowa/",
+    "https://medelnet.eu/medel-ca-in-athens/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "eea",
+   "target": "themis",
+   "relation": "2014 project 'Wspólnie przeciw dyskryminacji' with INPRIS, funded by the EEA 'Obywatele dla Demokracji' programme (amount not stated)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.inpris.pl/co-sie-dzieje-w-inpris/artykul/t/wspolnie-przeciw-dyskryminacji-nowy-projekt-themis-i-inpris/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "usaid",
+   "target": "cebrics",
+   "relation": "single donor of CEBRICS, 2022-2026",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/cebrics"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "gmf",
+   "target": "cebrics",
+   "relation": "runs the programme; 2023 grants $1,286,587 across 44 projects; in Poland four grants totalling $79,910 for the Oct 2023 election (electoral integrity and mobilisation)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/cebrics",
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "cebrics",
+   "target": "ceo_poland",
+   "relation": "credited for the 'Electoral Lighthouse' voter app (5.6 million users) among the Oct 2023 Poland election grants",
+   "confidence": "fact",
+   "sources": [
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "hfhr",
+   "target": "cebrics",
+   "relation": "named implementation partner of GMF for CEBRICS",
+   "confidence": "fact",
+   "sources": [
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "hfhr",
+   "relation": "FY2022 NED-funded revenue lines totalling about PLN 4.41 million, incl. PLN 2,278,917.20 'Strengthening and Protecting Civil Society in Eurasia' and PLN 369,644.12 for documenting war crimes in Ukraine",
+   "confidence": "fact",
+   "sources": [
+    "https://hfhr.pl/upload/2024/02/additionalinfo201744278-25282-2529-20-281-29.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "hfhr",
+   "relation": "PLN 11.5 million via NED in 2021-2023 (of PLN 13.35m grants), per advocacy group Grupa Proelio citing HFHR reports",
+   "confidence": "alleged",
+   "sources": [
+    "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "usaid_cep",
+   "target": "aktywna_demokracja",
+   "relation": "school stage of Tour de Konstytucja funded by a DEXIS USAID grant until the 27 Jan 2025 US funding freeze",
+   "confidence": "fact",
+   "sources": [
+    "https://patronite.pl/post/76494/pilne-tour-de-konstytucja-jestem-za-godnoscia-etap-szkolny-w-bardzo-trudnej-sytuacji"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "batory",
+   "target": "aktywna_demokracja",
+   "relation": "2024 democracy-support grant PLN 154,000",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "iustitia",
+   "target": "aktywna_demokracja",
+   "relation": "listed among supporters of Tour de Konstytucja by PiS MP Dariusz Matecki",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/index.php/polityka/amerykanie-nie-sypna-juz-groszem-na-tour-de-konstytucja-posel-wskazal-kto-za-tym-stoi-padly-tez-kwoty/537204"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "themis",
+   "target": "aktywna_demokracja",
+   "relation": "listed among supporters of Tour de Konstytucja by PiS MP Dariusz Matecki",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/index.php/polityka/amerykanie-nie-sypna-juz-groszem-na-tour-de-konstytucja-posel-wskazal-kto-za-tym-stoi-padly-tez-kwoty/537204"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "osf",
+   "target": "aktywna_demokracja",
+   "relation": "listed among supporters of Tour de Konstytucja by PiS MP Dariusz Matecki",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/index.php/polityka/amerykanie-nie-sypna-juz-groszem-na-tour-de-konstytucja-posel-wskazal-kto-za-tym-stoi-padly-tez-kwoty/537204"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "kultura_liberalna",
+   "relation": "listed on Kultura Liberalna's 'partners and grantors' page",
+   "confidence": "fact",
+   "sources": [
+    "https://kulturaliberalna.pl/partnerzy/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "kultura_liberalna",
+   "relation": "NED-funded projects 2020-2023, incl. an English-language infographics database on Poland's rule-of-law crisis (per Gazeta Polska, citing the foundation's reports)",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "kultura_liberalna",
+   "target": "kuisz",
+   "relation": "editor-in-chief",
+   "confidence": "fact",
+   "sources": [
+    "https://kulturaliberalna.pl/o-nas/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "kultura_liberalna",
+   "target": "wigura",
+   "relation": "member of the Kultura Liberalna Foundation board; works with its politics section",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+    "https://kulturaliberalna.pl/o-nas/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "kuisz",
+   "target": "journal_of_democracy",
+   "relation": "co-wrote with Wigura 'How to Dismantle an Illiberal Democracy' (Dec 2023): urges the new Tusk government to pursue transitional justice, punish specific acts and hold Kaczyński responsible",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "wigura",
+   "target": "journal_of_democracy",
+   "relation": "co-wrote with Kuisz 'How to Dismantle an Illiberal Democracy' (Dec 2023)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "ned",
+   "target": "journal_of_democracy",
+   "relation": "copyright holder of the journal's articles; publisher is Johns Hopkins University Press",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+    "https://www.journalofdemocracy.org/about/"
+   ],
+   "added_by": "grok-v1 review"
+  },
+  {
+   "source": "kultura_liberalna",
+   "target": "wawrykiewicz",
+   "relation": "Dec 2023 YouTube interview of Wawrykiewicz by a Kultura Liberalna representative (per Gazeta Polska)",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943"
+   ],
+   "added_by": "grok-v1 review"
+  }
+ ]
+}

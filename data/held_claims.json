@@ -2,7 +2,7 @@
  "meta": {
   "title": "Held claims: submitted claims not (yet) on the map",
   "as_of": "2026-10-31",
-  "notes": "Claims from submissions that were not added to the map. status needs_source = no source found yet; a source can promote it to an edge. status misleading = sources point the other way; kept so it can be revisited. raised_in lists the issue numbers that made the claim, so repeats are counted. Not loaded by the map.",
+  "notes": "Claims from submissions that were not added to the map. status needs_source = no source found yet; a source can promote it to an edge. status misleading = sources point the other way; kept so it can be revisited. raised_in lists the issue numbers that made the claim, so repeats are counted. Not loaded by the map. raised_in may also name a research branch (e.g. 'grok-v1 branch') instead of an issue number.",
   "statuses": {
    "needs_source": "No source found that confirms the claim. Send a direct link to promote it.",
    "misleading": "Available sources contradict or do not support the claim as worded."
@@ -22,7 +22,8 @@
     "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
    ],
    "raised_in": [
-    2
+    2,
+    "grok-v1 branch"
    ]
   },
   {
@@ -33,12 +34,13 @@
     "batory",
     "iustitia"
    ],
-   "checked": "Batory 2022 annual report pp. 1-37: only a EUR 22,319 project instalment found. The per-grant list of institutional grants was not reached.",
+   "checked": "Batory 2022 annual report pp. 1-37: only a EUR 22,319 project instalment found. The per-grant list of institutional grants was not reached. Re-checked 2026-10-31: still no Iustitia institutional entry in the 2022 report.",
    "sources": [
     "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
    ],
    "raised_in": [
-    2
+    2,
+    "grok-v1 branch"
    ]
   },
   {
@@ -69,7 +71,8 @@
    "checked": "Aequitas document not found. Parts of the tally match Batory reports (2023 EUR 44,639 + 40,000 already on the map; 2022 EUR 22,319 confirmed).",
    "sources": [],
    "raised_in": [
-    2
+    2,
+    "grok-v1 branch"
    ]
   },
   {
@@ -102,6 +105,242 @@
    ],
    "raised_in": [
     2
+   ]
+  },
+  {
+   "id": "phd_supervisors",
+   "claim": "PhD supervisors: Markiewicz - Feliks Zedler (2006); Dziurda - Tadeusz Ereciński (UW 2004); Taborowski - Władysław Czapliński (INP PAN 2011); Berek - Marek Zubik (UW 2016), a former TK judge",
+   "status": "needs_source",
+   "about": [
+    "markiewicz",
+    "dziurda",
+    "taborowski",
+    "berek"
+   ],
+   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31. No other source checked yet.",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+    "https://pl.wikipedia.org/wiki/Marcin_Dziurda",
+    "https://pl.wikipedia.org/wiki/Maciej_Taborowski",
+    "https://pl.wikipedia.org/wiki/Maciej_Berek"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "judge_bio_details",
+   "claim": "Bio details: Markiewicz born 8 Jul 1976 in Proszowice; Berek born 12 May 1972, ENA study, PO Sejm candidate 2005; Bentkowska born 1966 in Rzeszów, daughter of Aleksander Bentkowski, DePaul scholarship; Szostek born 21 Mar 1973, PhD 2003, Horizon 2020 grants SHOP4CF and MAS4AI; Korwin-Piotrowska SGH postgraduate years 2004 and 2014",
+   "status": "needs_source",
+   "about": [
+    "markiewicz",
+    "berek",
+    "bentkowska",
+    "szostek",
+    "korwin_piotrowska"
+   ],
+   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31. Szostek's us.edu.pl profile gives only birth year 1973; Korwin-Piotrowska's SGH studies are confirmed but without years.",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Magdalena_Bentkowska",
+    "https://pl.wikipedia.org/wiki/Dariusz_Szostek",
+    "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "markiewicz_osiatynski_council",
+   "claim": "Markiewicz sits on the Osiatyński Archive programme council",
+   "status": "misleading",
+   "about": [
+    "markiewicz"
+   ],
+   "checked": "The re:constitution profile puts Taborowski, not Markiewicz, on the Osiatyński Archive council. Earlier research found Markiewicz only co-authored a 2024 Archive report.",
+   "sources": [
+    "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "markiewicz_batory_conference_2024",
+   "claim": "Markiewicz spoke at Batory's Nov 2024 conference on a year of rebuilding the rule of law",
+   "status": "needs_source",
+   "about": [
+    "markiewicz",
+    "batory"
+   ],
+   "checked": "Batory's 2024 annual report, the cited source, does not name him or the conference.",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "batory_tour_de_konstytucja_bus",
+   "claim": "Batory paid for repair of the Tour de Konstytucja bus in its 3rd edition",
+   "status": "needs_source",
+   "about": [
+    "batory",
+    "aktywna_demokracja"
+   ],
+   "checked": "Cited Wyborcza article could not be read (blocked). Batory's 2024 report does show a PLN 154,000 grant to Fundacja Aktywna Demokracja, now on the map.",
+   "sources": [
+    "https://wyborcza.pl/7,162657,31829878,granty-z-niw-nie-dla-tour-de-konstytucja-zagrozony-tegoroczny.html"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "dexis_7200AA22CA00025",
+   "claim": "USAID cooperative agreement 7200AA22CA00025 (about $6.4m) funds Dexis's Central Europe rule-of-law programme",
+   "status": "misleading",
+   "about": [
+    "usaid",
+    "usaid_cep"
+   ],
+   "checked": "HigherGov lists the $6,389,705 agreement as 'Building Resilience in Civil Society' to undisclosed foreign awardees, which matches GMF's CEBRICS title, and never mentions Dexis.",
+   "sources": [
+    "https://www.highergov.com/grant/7200AA22CA00025/"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "watchdog_ned_dexis_grants",
+   "claim": "Watchdog Polska got NED grants of $45,000 and $40,000 and a Dexis/USAID project of PLN 235,385",
+   "status": "needs_source",
+   "about": [
+    "ned",
+    "watchdog_polska",
+    "usaid_cep"
+   ],
+   "checked": "Watchdog's BIP page could not be read. Advocacy site Proelio says 'over PLN 700k' from NED and PLN 235k via Dexis in 2021-24; needs the primary report.",
+   "sources": [
+    "https://bip.siecobywatelska.pl/index.php?id=1190",
+    "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "batory_themis_amounts",
+   "claim": "Batory/EEA money to Themis: PLN 2,389.98 (2016) and PLN 154,989.98 under Active Citizens",
+   "status": "needs_source",
+   "about": [
+    "batory",
+    "themis"
+   ],
+   "checked": "Source is an MP's X post that could not be read; the Themis project page failed. The 2014 EEA project itself is on the map.",
+   "sources": [
+    "https://x.com/DariuszMatecki/status/1888948831737323830",
+    "https://themis-sedziowie.eu/themis-wspolnie-z-inpris-rozpoczynaja-projekt-wspolnie-przeciw-dyskryminacji/"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "cebrics_hfhr_grantee",
+   "claim": "HFHR received money from GMF's CEBRICS 2023 portfolio",
+   "status": "misleading",
+   "about": [
+    "gmf",
+    "hfhr"
+   ],
+   "checked": "The CEBRICS factsheet names HFHR as an implementation partner, not as a grantee. The partner tie is on the map.",
+   "sources": [
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "latarnik_campaign",
+   "claim": "Latarnik Wyborczy was part of a PKO/Orlen-backed 'manipulative campaign'",
+   "status": "needs_source",
+   "about": [
+    "ceo_poland"
+   ],
+   "checked": "Cited warsawpoint.com page could not be read. GMF credits the Center for Citizenship Education's 'Electoral Lighthouse' app; that tie is on the map.",
+   "sources": [
+    "https://warsawpoint.com/news/80511-pko-orlen-polish-business-council-and-developers-back-manipulative-campaign.html"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "kultura_liberalna_roles",
+   "claim": "Kuisz is president of the Kultura Liberalna Foundation; Wigura is its co-founder",
+   "status": "needs_source",
+   "about": [
+    "kuisz",
+    "wigura",
+    "kultura_liberalna"
+   ],
+   "checked": "KRS page failed; the site's 'about' page lists Kuisz as editor-in-chief only and says nothing about co-founders.",
+   "sources": [
+    "https://rejestr.io/krs/398695/fundacja-kultura-liberalna",
+    "https://kulturaliberalna.pl/o-nas/"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "jod_ned_in_house",
+   "claim": "Journal of Democracy is NED's in-house journal",
+   "status": "misleading",
+   "about": [
+    "journal_of_democracy",
+    "ned"
+   ],
+   "checked": "The journal says it is published by Johns Hopkins University Press; NED holds the article copyright. Mapped with that wording.",
+   "sources": [
+    "https://www.journalofdemocracy.org/about/"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "themis_history",
+   "claim": "Themis founded 2010 as a split from Iustitia; presidents Irena Kamińska 2010-18, Beata Morawiec 2018-24, Korwin-Piotrowska from Aug 2024",
+   "status": "needs_source",
+   "about": [
+    "themis"
+   ],
+   "checked": "Cited Polish Wikipedia page did not resolve when checked 2026-10-31.",
+   "sources": [
+    "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_%E2%80%9EThemis%E2%80%9D"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
+   ]
+  },
+  {
+   "id": "dss_founder_reps",
+   "claim": "At the Dom Sędziego Seniora founding, Iustitia was represented by Maciej Strączyński and Jolanta Korwin-Piotrowska, Themis by Irena Kamińska",
+   "status": "needs_source",
+   "about": [
+    "dom_sedziego_seniora"
+   ],
+   "checked": "The foundation page lists founders and Kamińska as board vice-president but not who represented each founder; Kwartalnik Iustitia lists Jolanta Korwin-Piotrowska on the first council only. No family tie to Anna Korwin-Piotrowska is documented.",
+   "sources": [
+    "https://www.domsedziegoseniora.pl/o-fundacji/",
+    "https://www.kwartalnikiustitia.pl/jest-fundacja-dom-sedziego-seniora,7457"
+   ],
+   "raised_in": [
+    "grok-v1 branch"
    ]
   }
  ]
