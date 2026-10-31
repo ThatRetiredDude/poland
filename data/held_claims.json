@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "title": "Held claims: submitted claims not (yet) on the map",
+  "as_of": "2026-10-31",
+  "notes": "Claims from submissions that were not added to the map. status needs_source = no source found yet; a source can promote it to an edge. status misleading = sources point the other way; kept so it can be revisited. raised_in lists the issue numbers that made the claim, so repeats are counted. Not loaded by the map.",
+  "statuses": {
+   "needs_source": "No source found that confirms the claim. Send a direct link to promote it.",
+   "misleading": "Available sources contradict or do not support the claim as worded."
+  }
+ },
+ "claims": [
+  {
+   "id": "batory_iustitia_2019_95k",
+   "claim": "Batory paid Iustitia 95,000 zł in 2019 for outreach at music festivals and book fairs",
+   "status": "needs_source",
+   "about": [
+    "batory",
+    "iustitia"
+   ],
+   "checked": "Batory's 2019 annual report; only a summary of page 23 could be read, which matches the claim. Needs a word-for-word check of page 23.",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+   ],
+   "raised_in": [
+    2
+   ]
+  },
+  {
+   "id": "batory_iustitia_2022_50k_institutional",
+   "claim": "Batory gave Iustitia a EUR 50,000 institutional grant in 2022",
+   "status": "needs_source",
+   "about": [
+    "batory",
+    "iustitia"
+   ],
+   "checked": "Batory 2022 annual report pp. 1-37: only a EUR 22,319 project instalment found. The per-grant list of institutional grants was not reached.",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ],
+   "raised_in": [
+    2
+   ]
+  },
+  {
+   "id": "fpos_batory_6_3m",
+   "claim": "The Foundation to Promote Open Society gives Batory about 6.3 million zł a year and is its largest donor",
+   "status": "needs_source",
+   "about": [
+    "fpos",
+    "batory"
+   ],
+   "checked": "Batory 2019 and 2022 reports name the Open Society donor but give no amounts. Financial statements not yet checked.",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+   ],
+   "raised_in": [
+    2
+   ]
+  },
+  {
+   "id": "aequitas_tally",
+   "claim": "The Aequitas judges' association published a tally of Batory money to Iustitia: EUR 156,958 + 95,000 zł",
+   "status": "needs_source",
+   "about": [
+    "batory",
+    "iustitia"
+   ],
+   "checked": "Aequitas document not found. Parts of the tally match Batory reports (2023 EUR 44,639 + 40,000 already on the map; 2022 EUR 22,319 confirmed).",
+   "sources": [],
+   "raised_in": [
+    2
+   ]
+  },
+  {
+   "id": "berek_prepared_plan",
+   "claim": "Berek said the Sejm-elected judges have a prepared plan to restore the Tribunal using existing statutory tools, and would not reveal it in advance",
+   "status": "needs_source",
+   "about": [
+    "berek",
+    "tk"
+   ],
+   "checked": "Not in OKO.press (11 and 30 Aug 2026) or Interia coverage of his Sejm committee hearing. Sejm committee transcript not checked.",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-emocje-na-posiedzeniu-komisji-przepytali-berka-w-sprawie-tk,nId,23538072"
+   ],
+   "raised_in": [
+    2
+   ]
+  },
+  {
+   "id": "serafin_unlocked_137bn",
+   "claim": "Piotr Serafin, as gatekeeper, unlocked about EUR 137 billion of frozen EU funds for Poland after the 2023 change of government",
+   "status": "misleading",
+   "about": [
+    "serafin",
+    "tusk"
+   ],
+   "checked": "PAP (18 Sep 2024) calls him gatekeeper for blocking funds under the rule-of-law conditionality mechanism as Budget Commissioner. No source found tying him personally to the unlocking or to the EUR 137bn figure. His tie to Tusk (chief aide 2014-19) is already on the map.",
+   "sources": [
+    "https://pap.pl/en/news/polands-serafin-becomes-gatekeeper-frozen-eu-funds"
+   ],
+   "raised_in": [
+    2
+   ]
+  }
+ ]
+}
