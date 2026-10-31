@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Lead: Specific USAID/NED/GMF/Dexis funding to Polish NGOs and Iustitia support for TK judges",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Documented grant amounts and intermediaries for rule-of-law, election integrity, and civic education projects; one-time financial support request by Iustitia for Markiewicz and Taborowski. Facts only, no conclusions."
+  },
+  "nodes": [
+    {
+      "id": "gmf_cebrics",
+      "type": "project",
+      "group": "ngo",
+      "label": "German Marshall Fund CEBRICS (Central Europe – Building Resilience in Civil Society)",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ]
+    },
+    {
+      "id": "dexis_cep_rola",
+      "type": "project",
+      "group": "ngo",
+      "label": "Dexis CEP ROLA (USAID Central Europe Program Rule of Law Activity)",
+      "sources": [
+        "https://dexisonline.com/wp-content/uploads/2023/05/2023-APS-001-CEP-ROLA-Civic-Education-Grants-PL.pdf",
+        "https://www.highergov.com/grant/7200AA22CA00025/"
+      ]
+    },
+    {
+      "id": "watchdog_polska",
+      "type": "org",
+      "group": "ngo",
+      "label": "Sieć Obywatelska Watchdog Polska",
+      "sources": [
+        "https://bip.siecobywatelska.pl/index.php?id=1190",
+        "https://siecobywatelska.pl/"
+      ]
+    },
+    {
+      "id": "hfhr",
+      "type": "org",
+      "group": "ngo",
+      "label": "Helsińska Fundacja Praw Człowieka (HFHR)",
+      "sources": [
+        "https://hfhr.pl/",
+        "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo"
+      ]
+    },
+    {
+      "id": "dom_sedziego_seniora",
+      "type": "org",
+      "group": "ngo",
+      "label": "Fundacja Dom Sędziego Seniora (incl. Fundusz Pomocy)",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "usaid",
+      "target": "gmf_cebrics",
+      "relation": "primary funder of CEBRICS; 2023 total $1,286,587 across 44 projects in BG/HU/PL",
+      "confidence": "fact",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ],
+      "date": "2023"
+    },
+    {
+      "source": "gmf_cebrics",
+      "target": "poland_2023_election",
+      "relation": "4 grants totaling $79,910 focused on electoral integrity and mobilization for Oct 2023 parliamentary election; partners included HFHR; outcomes included Electoral Lighthouse app (5.6M users) and Election Superhero campaign (125k users)",
+      "confidence": "fact",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ],
+      "date": "2023"
+    },
+    {
+      "source": "usaid",
+      "target": "dexis_cep_rola",
+      "relation": "implementer of Central Europe Program Rule of Law Activity; cooperative agreement 7200AA22CA00025 ~$6.4M (Building Resilience in Civil Society, Poland focus); civic education grants $5k–25k USD",
+      "confidence": "fact",
+      "sources": [
+        "https://www.highergov.com/grant/7200AA22CA00025/",
+        "https://dexisonline.com/wp-content/uploads/2023/05/2023-APS-001-CEP-ROLA-Civic-Education-Grants-PL.pdf"
+      ],
+      "date": "2022-2027"
+    },
+    {
+      "source": "ned",
+      "target": "watchdog_polska",
+      "relation": "grants including $45,000 USD (Improving Access to Information) and $40,000 USD (Freedom of Information – Recovery Action)",
+      "confidence": "fact",
+      "sources": [
+        "https://bip.siecobywatelska.pl/index.php?id=1190"
+      ]
+    },
+    {
+      "source": "dexis_cep_rola",
+      "target": "watchdog_polska",
+      "relation": "USAID-funded project 'Watchdogs - expansion, effectiveness, sustainability and resilience' ~235,385 PLN",
+      "confidence": "fact",
+      "sources": [
+        "https://bip.siecobywatelska.pl/index.php?id=1190"
+      ]
+    },
+    {
+      "source": "ned",
+      "target": "hfhr",
+      "relation": "multiple grants documented in HFHR reports (e.g. Strengthening Civil Society Resilience, Promoting Civic Engagement, Dokumentowanie zbrodni wojennych na Ukrainie ~369k PLN, Strengthening and Protecting Civil Society in Eurasia ~2.28M PLN); Proelio aggregates 11.5 mln zł via NED for 2021-2023 based on foundation reports",
+      "confidence": "fact",
+      "sources": [
+        "https://hfhr.pl/upload/2024/02/additionalinfo201744278-25282-2529-20-281-29.pdf",
+        "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo"
+      ],
+      "date": "2021-2023"
+    },
+    {
+      "source": "gmf_cebrics",
+      "target": "hfhr",
+      "relation": "named partner in CEBRICS; received funding within the $1.28M 2023 portfolio",
+      "confidence": "fact",
+      "sources": [
+        "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+      ]
+    },
+    {
+      "source": "iustitia",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder (with Themis and others); applied Oct 2026 for one-time 75,000 PLN support each to Krystian Markiewicz and Maciej Taborowski from Fundusz Pomocy (citizen donations for repressed judges)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html",
+        "https://www.wprost.pl/kraj/12484771/trybunal-konstytucyjny-iustitia-wnioskuje-o-po-75-tys-zl-dla-dwoch-sedziow-tk.html"
+      ],
+      "date": "2026-10"
+    },
+    {
+      "source": "themis",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder",
+      "confidence": "fact",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/"
+      ]
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "markiewicz OR taborowski",
+      "searched_for": "direct personal NED/USAID/OSF grants or paid roles",
+      "result": "none located in examined sources; institutional ties via Iustitia/Themis and Batory expert teams previously documented",
+      "sources": []
+    }
+  ],
+  "sources_primary": [
+    "https://gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf",
+    "https://www.highergov.com/grant/7200AA22CA00025/",
+    "https://bip.siecobywatelska.pl/index.php?id=1190",
+    "https://hfhr.pl/upload/2024/02/additionalinfo201744278-25282-2529-20-281-29.pdf",
+    "https://proelio.pl/petycje/viewpetition/70-nie-dla-dalszego-finansowania-politycznej-i-ideolo",
+    "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html",
+    "https://www.domsedziegoseniora.pl/o-fundacji/"
+  ]
+}
