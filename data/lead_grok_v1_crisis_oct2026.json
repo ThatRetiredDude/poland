@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Lead: October 2026 TK leadership crisis and related ties (grok-v1)",
+    "as_of": "2026-10-31",
+    "added_by": "grok-v1",
+    "notes": [
+      "Based on contemporaneous reporting of the 30-31 Oct 2026 events at the Constitutional Tribunal.",
+      "Metadata authorship of the suspension order is an allegation from one association; not independently verified here.",
+      "Physical confrontation accounts conflict; both sides' versions included as alleged."
+    ]
+  },
+  "nodes": [
+    {
+      "id": "tk_crisis_oct2026",
+      "type": "event",
+      "group": "crisis",
+      "label": "Oct 30-31 2026 TK leadership crisis (Korwin-Piotrowska suspension order, Nawrocki return from Senegal, police/protests)",
+      "date": "2026-10-30/31",
+      "sources": [
+        "https://www.reuters.com/world/polands-president-accuses-tusk-forced-takeover-countrys-top-court-2026-10-31/",
+        "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/",
+        "https://trybunal.net/en/october-2026-leadership-crisis/",
+        "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice/"
+      ]
+    },
+    {
+      "id": "markiewicz_metadata",
+      "type": "event",
+      "group": "allegation",
+      "label": "Allegation: suspension order PDF metadata lists Krystian Markiewicz as author (Prawnicy dla Polski)",
+      "date": "2026-10-30",
+      "sources": [
+        "https://wpolityce.pl/polityka/kto-naprawde-stoi-za-zarzadzeniem-uderzajacym-w-prezesa-tk,288194",
+        "https://niezalezna.pl/polityka/kto-przygotowal-dokument-dotyczacy-swieczkowskiego-zapomnieli-usunac-metadane/582928"
+      ]
+    },
+    {
+      "id": "iustitia_support_75k",
+      "type": "event",
+      "group": "financial",
+      "label": "Iustitia requests 75k PLN one-time support each for Markiewicz and Taborowski (via Dom Sędziego Seniora fund)",
+      "date": "2026-10",
+      "sources": [
+        "https://www.wprost.pl/kraj/12484771/trybunal-konstytucyjny-iustitia-wnioskuje-o-po-75-tys-zl-dla-dwoch-sedziow-tk.html"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "korwin_piotrowska",
+      "target": "tk_crisis_oct2026",
+      "relation": "issued orders suspending Święczkowski and Sochański for one month and claimed to direct TK as longest-serving judge",
+      "confidence": "fact",
+      "date": "2026-10-30",
+      "sources": [
+        "https://trybunal.net/en/october-2026-leadership-crisis/",
+        "https://www.reuters.com/world/polands-president-accuses-tusk-forced-takeover-countrys-top-court-2026-10-31/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "nawrocki",
+      "target": "tk_crisis_oct2026",
+      "relation": "turned back from Senegal flight, entered TK building overnight, called events a 'forcible takeover' / breach of public order",
+      "confidence": "fact",
+      "date": "2026-10-30/31",
+      "sources": [
+        "https://www.reuters.com/world/africa/polish-president-turns-back-senegal-trip-top-court-chief-suspended-2026-10-30/",
+        "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "tusk",
+      "target": "tk_crisis_oct2026",
+      "relation": "stated 'There is no other way' and 'Restoring the rule of law is our duty'",
+      "confidence": "fact",
+      "date": "2026-10-30",
+      "sources": [
+        "https://trybunal.net/en/october-2026-leadership-crisis/",
+        "https://www.reuters.com/world/polands-president-accuses-tusk-forced-takeover-countrys-top-court-2026-10-31/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "berek",
+      "target": "tusk",
+      "relation": "described by Tusk/Reuters as PM's 'right-hand man'; former Minister for Government Policy Implementation until Aug 2026; elected TK judge Sep 2026",
+      "confidence": "fact",
+      "sources": [
+        "https://www.reuters.com/world/polish-pms-right-hand-man-gets-nod-parliament-top-court-job-2026-09-04/",
+        "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "berek",
+      "target": "tk_crisis_oct2026",
+      "relation": "supported Korwin-Piotrowska takeover; filmed and reported physical confrontation with Nawrocki at entrance",
+      "confidence": "fact",
+      "date": "2026-10-30/31",
+      "sources": [
+        "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/",
+        "https://trybunal.net/en/october-2026-leadership-crisis/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "markiewicz",
+      "target": "markiewicz_metadata",
+      "relation": "named as PDF author of suspension-related document in metadata (allegation by Prawnicy dla Polski)",
+      "confidence": "alleged",
+      "date": "2026-10-30",
+      "sources": [
+        "https://wpolityce.pl/polityka/kto-naprawde-stoi-za-zarzadzeniem-uderzajacym-w-prezesa-tk,288194",
+        "https://niezalezna.pl/polityka/kto-przygotowal-dokument-dotyczacy-swieczkowskiego-zapomnieli-usunac-metadane/582928"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "markiewicz",
+      "target": "iustitia_support_75k",
+      "relation": "beneficiary of Iustitia-requested 75k PLN one-time support",
+      "confidence": "fact",
+      "sources": [
+        "https://www.wprost.pl/kraj/12484771/trybunal-konstytucyjny-iustitia-wnioskuje-o-po-75-tys-zl-dla-dwoch-sedziow-tk.html"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "taborowski",
+      "target": "iustitia_support_75k",
+      "relation": "beneficiary of Iustitia-requested 75k PLN one-time support",
+      "confidence": "fact",
+      "sources": [
+        "https://www.wprost.pl/kraj/12484771/trybunal-konstytucyjny-iustitia-wnioskuje-o-po-75-tys-zl-dla-dwoch-sedziow-tk.html"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "themis",
+      "relation": "president of Themis association of judges (confirmed in recent reporting)",
+      "confidence": "fact",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Anna_Korwin-Piotrowska",
+        "https://naszapolska.pl/sedzia-anna-korwin-piotrowska/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "nawrocki",
+      "target": "korwin_piotrowska",
+      "relation": "physical push/confrontation at TK entrance (accounts conflict: Berek says president barged/attacked; presidential side says judges obstructed)",
+      "confidence": "alleged",
+      "date": "2026-10-31",
+      "sources": [
+        "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/",
+        "https://www.politico.eu/article/poland-president-karol-nawrocki-rule-of-law-crisis/"
+      ],
+      "added_by": "grok-v1"
+    }
+  ]
+}
