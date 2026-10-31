@@ -1,1 +1,217 @@
-PLACEHOLDER_READ_FROM_FILE
+{
+  "meta": {
+    "title": "Lead: Institutional pathways and funding for five disputed TK judges",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Focus on funders, commissions, networks, and support mechanisms. Facts only; parents/secondary schools still not found. Themis financials remain largely opaque in public sources."
+  },
+  "nodes": [
+    {
+      "id": "iustitia",
+      "type": "org",
+      "group": "ngo",
+      "label": "Stowarzyszenie Sędziów Polskich Iustitia",
+      "funding_notes": "Batory institutional and program grants documented in multiple years; MEN educational grants 2025; early history included ABA CEELI and US State Dept support in 1990s",
+      "sources": [
+        "https://x.com/OZS_Aequitas/status/1928044189297582112",
+        "https://x.com/OZS_Aequitas/status/1957742218065715356",
+        "https://pl.wikipedia.org/wiki/Stowarzyszenie_S%C4%99dzi%C3%B3w_Polskich_%E2%80%9EIustitia%E2%80%9D"
+      ]
+    },
+    {
+      "id": "themis",
+      "type": "org",
+      "group": "ngo",
+      "label": "Stowarzyszenie Sędziów Themis",
+      "funding_notes": "Public financial reports limited; KRS active (0000359066); co-founder of Dom Sędziego Seniora",
+      "sources": [
+        "https://rejestr.io/krs/359066/stowarzyszenie-sedziow-themis",
+        "https://www.domsedziegoseniora.pl/o-fundacji/"
+      ]
+    },
+    {
+      "id": "dom_sedziego_seniora",
+      "type": "org",
+      "group": "ngo",
+      "label": "Fundacja Dom Sędziego Seniora (and Fundusz Pomocy)",
+      "founded": "2014; OPP status 2017",
+      "founders": ["Iustitia", "Themis", "other judge associations"],
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/",
+        "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html"
+      ]
+    },
+    {
+      "id": "kkusip",
+      "type": "org",
+      "group": "state_body",
+      "label": "Komisja Kodyfikacyjna Ustroju Sądownictwa i Prokuratury",
+      "established": "2024 (regulation 5 Mar 2024)",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+        "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240000350/O/D20240350.pdf"
+      ]
+    },
+    {
+      "id": "batory",
+      "type": "org",
+      "group": "ngo",
+      "label": "Fundacja im. Stefana Batorego",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "2019: PLN 95,000 grant (festivals/book fairs per report p.23); 2022: €22,319 (Praworządność Wspólna Sprawa) + €50,000 institutional; 2023: €44,639 (Praworządność Wspólna Sprawa) + €40,000 institutional; 2024: €10,000 + €8,000 additional institutional",
+      "confidence": "fact",
+      "sources": [
+        "https://x.com/OZS_Aequitas/status/1928044189297582112",
+        "https://x.com/OZS_Aequitas/status/1957742218065715356"
+      ],
+      "notes": "Amounts cited by OZS Aequitas from Batory annual reports; not independently re-extracted from PDFs here"
+    },
+    {
+      "source": "iustitia",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder; applied Oct 2026 via Fundusz Pomocy for PLN 75,000 each to Markiewicz and Taborowski (lost income while barred from TK duties)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html",
+        "https://www.wprost.pl/kraj/12484771/trybunal-konstytucyjny-iustitia-wnioskuje-o-po-75-tys-zl-dla-dwoch-sedziow-tk.html"
+      ],
+      "date": "2026-10-27"
+    },
+    {
+      "source": "themis",
+      "target": "dom_sedziego_seniora",
+      "relation": "co-founder",
+      "confidence": "fact",
+      "sources": [
+        "https://www.domsedziegoseniora.pl/o-fundacji/"
+      ]
+    },
+    {
+      "source": "tusk",
+      "target": "markiewicz",
+      "relation": "appointed chair of KKUSIP (act received 3 Apr 2024) on request of Justice Minister Bodnar",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "date": "2024-04-03"
+    },
+    {
+      "source": "tusk",
+      "target": "kkusip",
+      "relation": "appointed members 12 Apr 2024 on Bodnar request after consulting chair Markiewicz",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "date": "2024-04-12"
+    },
+    {
+      "source": "taborowski",
+      "target": "kkusip",
+      "relation": "member (appointed 12 Apr 2024)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "date": "2024-04-12"
+    },
+    {
+      "source": "markiewicz",
+      "target": "kkusip",
+      "relation": "chair until resignation after TK election; succeeded by Marcin Walasik (appointed 24 Apr 2026 by Tusk on Żurek request)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/nowy-przewodniczacy-komisji-kodyfikacyjnej-ustroju-sadownictwa-i-prokuratury",
+        "https://www.rp.pl/sady-i-trybunaly/art44381021-wybrano-nastepce-sedziego-krystiana-markiewicza-w-komisji-zajmujacej-sie-reforma-sadow"
+      ]
+    },
+    {
+      "source": "taborowski",
+      "target": "reconstitution",
+      "relation": "fellow 2021/2022 (mobility phase Central European University / University of Oslo)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski"
+      ]
+    },
+    {
+      "source": "taborowski",
+      "target": "ncn",
+      "relation": "Opus grant 2026: CARVE project on EU rights and values",
+      "confidence": "fact",
+      "sources": [
+        "https://inp.pan.pl/aktualnosci/nowe-granty-z-narodowego-centrum-nauki-dla-witolda-klausa-oraz-macieja-taborowskiego/"
+      ],
+      "date": "2026-06"
+    },
+    {
+      "source": "sejm_presidium",
+      "target": "korwin_piotrowska",
+      "relation": "nominated for TK election 13 Mar 2026 (one of six Presidium nominees; 236-185-4)",
+      "confidence": "fact",
+      "sources": [
+        "https://trybunal.net/en/2026-elections-and-oaths/",
+        "https://trybunal.net/rok-2026/"
+      ],
+      "date": "2026-03-13"
+    },
+    {
+      "source": "sejm_presidium",
+      "target": "markiewicz",
+      "relation": "nominated for TK election 13 Mar 2026 (236-187-4)",
+      "confidence": "fact",
+      "sources": [
+        "https://trybunal.net/en/2026-elections-and-oaths/"
+      ],
+      "date": "2026-03-13"
+    },
+    {
+      "source": "sejm_presidium",
+      "target": "taborowski",
+      "relation": "nominated for TK election 13 Mar 2026 (237-185-4)",
+      "confidence": "fact",
+      "sources": [
+        "https://trybunal.net/en/2026-elections-and-oaths/"
+      ],
+      "date": "2026-03-13"
+    },
+    {
+      "source": "sejm_presidium",
+      "target": "dziurda",
+      "relation": "nominated for TK election 13 Mar 2026 (237-182-6)",
+      "confidence": "fact",
+      "sources": [
+        "https://trybunal.net/en/2026-elections-and-oaths/"
+      ],
+      "date": "2026-03-13"
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "themis",
+      "searched_for": "detailed donor lists or annual financial reports comparable to Batory/Iustitia",
+      "result": "none found in public sources examined; KRS exists but financials not publicly detailed",
+      "sources": [
+        "https://rejestr.io/krs/359066/stowarzyszenie-sedziow-themis"
+      ]
+    }
+  ],
+  "sources_primary": [
+    "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+    "https://www.prawo.pl/prawnicy-sady/wsparcie-finansowe-dla-sedziow-tk-wniosek-iustitii-do-funduszu-pomocy-przy-fundacji-dom-sedziego-seniora,1555717.html",
+    "https://trybunal.net/en/2026-elections-and-oaths/",
+    "https://x.com/OZS_Aequitas/status/1928044189297582112",
+    "https://www.reconstitution.eu/fellows/detail/2021-2022/maciej-taborowski",
+    "https://www.domsedziegoseniora.pl/o-fundacji/"
+  ]
+}
