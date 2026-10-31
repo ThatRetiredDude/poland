@@ -1,0 +1,773 @@
+{
+ "meta": {
+  "title": "Lead: judges, Tusk and Wawrykiewicz vs NED, OSF/Soros, USAID",
+  "as_of": "2026-10-31",
+  "parent_graph": "poland_tk_graph.json"
+ },
+ "nodes": [
+  {
+   "id": "szijjarto",
+   "type": "person",
+   "group": "foreign_gov",
+   "label": "Péter Szijjártó (Hungarian FM)",
+   "sources": [
+    "https://newsukraine.rbc.ua/news/hungarian-foreign-minister-took-offense-at-1737847262.html"
+   ]
+  },
+  {
+   "id": "magyar_nemzet",
+   "type": "org",
+   "group": "media",
+   "label": "Magyar Nemzet (Hungarian pro-government daily)",
+   "sources": [
+    "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+   ]
+  },
+  {
+   "id": "house_gop_mast",
+   "type": "group",
+   "group": "us_gov",
+   "label": "Rep. Brian Mast + 7 House Republicans",
+   "sources": [
+    "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-republicans-blast-eu-inaction-as-polish-globalists-undermine-free-election"
+   ]
+  },
+  {
+   "id": "akcja_demokracja",
+   "type": "org",
+   "group": "ngo",
+   "label": "Akcja Demokracja",
+   "sources": [
+    "https://notesfrompoland.com/2025/05/15/polish-ngo-implicated-in-alleged-illegal-election-ads-favouring-frontrunner-trzaskowski/"
+   ]
+  },
+  {
+   "id": "daily_signal",
+   "type": "org",
+   "group": "media",
+   "label": "The Daily Signal (Heritage Foundation outlet)",
+   "sources": [
+    "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+   ]
+  },
+  {
+   "id": "musk",
+   "type": "person",
+   "group": "us_gov",
+   "label": "Elon Musk",
+   "sources": [
+    "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
+   ]
+  },
+  {
+   "id": "ndi_iri",
+   "type": "org",
+   "group": "us_gov",
+   "label": "NDI and IRI (NED core institutes)",
+   "sources": [
+    "https://ndi.org/central-and-eastern-europe/poland",
+    "https://www.iri.org/news/iri-convenes-sixth-meeting-of-eppfi-network"
+   ]
+  },
+  {
+   "id": "usaid",
+   "type": "org",
+   "group": "us_gov",
+   "label": "USAID",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy",
+    "https://monitor.civicus.org/explore/civil-society-scrambles-to-replace-usaid-funding-pis-aims-to-discredit-opponents-as-elections-approach/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "ned",
+   "target": "markiewicz",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2335/2335.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "markiewicz",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2335/2335.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "markiewicz",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2335/2335.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "taborowski",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "taborowski",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "taborowski",
+   "relation": "any direct OSF grant/role (only Batory ties, see Batory edges)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "korwin_piotrowska",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2333/2333.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "korwin_piotrowska",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2333/2333.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "korwin_piotrowska",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2333/2333.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "dziurda",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2332/2332.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "dziurda",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2332/2332.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "dziurda",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2332/2332.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "szostek",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2337/2337.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "szostek",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2337/2337.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "szostek",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2337/2337.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "bentkowska",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2331/2331.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "bentkowska",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2331/2331.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "bentkowska",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2331/2331.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "patyra",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "patyra",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "patyra",
+   "relation": "any direct OSF grant/role (only Batory ties, see Batory edges)",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "berek",
+   "relation": "any grant, fellowship, event or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "berek",
+   "relation": "any grant or role (incl. Central Europe Program)",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "berek",
+   "relation": "any direct grant/role; no Batory/HFHR tie either",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "okopress",
+   "target": "osiatynski",
+   "relation": "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc",
+    "https://oko.press/otwieramy-archiwum-osiatynskiego"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2017"
+  },
+  {
+   "source": "ned",
+   "target": "okopress",
+   "relation": "$100k (2022-23), per OKO.press disclosure",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2022-2023"
+  },
+  {
+   "source": "usaid",
+   "target": "okopress",
+   "relation": "$88k via intermediaries (Instytut Reportażu, Zinc Network) for named reporting projects, 2024-25; '$1.5m' claim false",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2024-2025"
+  },
+  {
+   "source": "osf",
+   "target": "okopress",
+   "relation": "$310k (2018-20), per OKO.press disclosure",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2018-2020"
+  },
+  {
+   "source": "okopress",
+   "target": "osiatynski",
+   "relation": "NED/USAID/OSF money went to the Archive itself: not stated",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "batory",
+   "target": "osiatynski",
+   "relation": "2017 grant paid for the Archive website",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/otwieramy-archiwum-osiatynskiego"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2017"
+  },
+  {
+   "source": "taborowski",
+   "target": "osiatynski",
+   "relation": "programme council member (2019 list; current list offline)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc",
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "markiewicz",
+   "target": "osiatynski",
+   "relation": "one of ~19 authors of Archive report 'Jak przywrócić praworządność' (no funder named)",
+   "confidence": "fact",
+   "sources": [
+    "https://publicystyka.ngo.pl/archiwum-osiatynskiego-pobierz-raport-jak-przywrocic-praworzadnosc"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2024-03-27"
+  },
+  {
+   "source": "gregorczyk_abram",
+   "target": "osiatynski",
+   "relation": "programme council member (2019 list)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "markiewicz",
+   "relation": "money reaches him via OKO.press/Archive (no source shows money to the Archive or to him)",
+   "confidence": "speculation",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy",
+    "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "taborowski",
+   "target": "batory",
+   "relation": "Batory fellowship in Oxford (undated); direct grant tie",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "taborowski",
+   "target": "batory",
+   "relation": "co-signed Legal Experts Team position on TK law; payment not disclosed",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023-05-22"
+  },
+  {
+   "source": "patyra",
+   "target": "batory",
+   "relation": "Legal Experts Team member; co-signed TK law position; payment not disclosed",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023-05-22"
+  },
+  {
+   "source": "osf",
+   "target": "batory",
+   "relation": "named donor in 2023 annual report (no amount)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023"
+  },
+  {
+   "source": "batory",
+   "target": "iustitia",
+   "relation": "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+    "https://www.tvp.info/61395281/granty-od-fundacji-batorego-wsrod-beneficjentow-kod-i-iustitia"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023"
+  },
+  {
+   "source": "batory",
+   "target": "tk",
+   "relation": "PiS: coalition TK bills drafted by Batory experts = illegal lobbying (Batory denies)",
+   "confidence": "alleged",
+   "sources": [
+    "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego",
+    "https://wpolityce.pl/polityka/698486-politycy-zp-o-ustawie-reformujacej-tk-to-jest-lobbing"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2024-07"
+  },
+  {
+   "source": "osf",
+   "target": "patyra",
+   "relation": "'Soros funds the new judges' (no such claim found; nothing beyond Batory expert-team roles)",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "gregorczyk_abram",
+   "target": "korwin_piotrowska",
+   "relation": "her lawyer in ECHR case 38993/22 (struck out 19 Dec 2024, €15k unilateral declaration)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.mezisoudy.cz/databaze-judikatury/detail-rozhodnuti/a1c75f52-d9ee-11ef-be17-005056b43026_korwin-piotrowska",
+    "https://www.gov.pl/web/sprawiedliwosc/decyzja-w-sprawie-korwin-piotrowska-przeciwko-polsce-skarga-nr-3899322"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2024-12-19"
+  },
+  {
+   "source": "osf",
+   "target": "tusk",
+   "relation": "any meeting with George/Alex Soros, joint post, or Soros statement on him/2023 vote",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.gazetaprawna.pl/wiadomosci/artykuly/1036810,juncker-i-kilku-komisarzy-spotkaja-sie-w-przyszlym-tygodniu-z-sorosem.html"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "szijjarto",
+   "target": "tusk",
+   "relation": "called Tusk 'Soros' agent' on Facebook",
+   "confidence": "alleged",
+   "sources": [
+    "https://newsukraine.rbc.ua/news/hungarian-foreign-minister-took-offense-at-1737847262.html"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2025-01"
+  },
+  {
+   "source": "magyar_nemzet",
+   "target": "tusk",
+   "relation": "'Soros, Zelensky, von der Leyen and Tusk celebrate together' (separate congratulations to Magyar; no contact shown)",
+   "confidence": "alleged",
+   "sources": [
+    "https://magyarnemzet.hu/english/2026/04/soros-zelensky-von-der-leyen-and-tusk-celebrate-tisza-victory-together"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2026-04-14"
+  },
+  {
+   "source": "magyar_nemzet",
+   "target": "batory",
+   "relation": "2023 series: Soros-funded NGOs (Batory, HFHR, Krytyka Polityczna) shaped Polish campaign; Tusk/PO not named",
+   "confidence": "alleged",
+   "sources": [
+    "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023-10"
+  },
+  {
+   "source": "osf",
+   "target": "tusk",
+   "relation": "Soros backed Tusk's 2023 win (reading of Magyar Nemzet series)",
+   "confidence": "speculation",
+   "sources": [
+    "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "house_gop_mast",
+   "target": "akcja_demokracja",
+   "relation": "letter to von der Leyen: OSF-funded NGO network made pro-Trzaskowski ads; NGO denies, Meta found no foreign interference, PO distanced itself",
+   "confidence": "alleged",
+   "sources": [
+    "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-republicans-blast-eu-inaction-as-polish-globalists-undermine-free-election",
+    "https://notesfrompoland.com/2025/05/15/polish-ngo-implicated-in-alleged-illegal-election-ads-favouring-frontrunner-trzaskowski/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2025-05-27"
+  },
+  {
+   "source": "daily_signal",
+   "target": "tusk",
+   "relation": "USAID 'backed' Tusk's coalition in 2023 via grants to 27 Polish bodies; no grant to PO shown",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2025-02-28"
+  },
+  {
+   "source": "usaid",
+   "target": "tusk",
+   "relation": "DOGE 'exposed' USAID grants aimed at changing Poland's government: no DOGE/State Dept document found",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "musk",
+   "target": "tusk",
+   "relation": "reshared a post (with 🤔) claiming Biden-era USAID money went to anti-PiS groups; made no claim himself",
+   "confidence": "fact",
+   "sources": [
+    "https://android.com.pl/tech/899216-elon-musk-donald-tusk-x/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2025-02-27"
+  },
+  {
+   "source": "usaid",
+   "target": "hfhr",
+   "relation": "funded HFHR and other Polish NGOs until 2025 cuts; they then asked Tusk's government to fill gap",
+   "confidence": "fact",
+   "sources": [
+    "https://monitor.civicus.org/explore/civil-society-scrambles-to-replace-usaid-funding-pis-aims-to-discredit-opponents-as-elections-approach/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2025"
+  },
+  {
+   "source": "ned",
+   "target": "tusk",
+   "relation": "any award, grant or speech",
+   "confidence": "no_link",
+   "sources": [
+    "https://ndi.org/central-and-eastern-europe/poland"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ndi_iri",
+   "target": "ko",
+   "relation": "programmes with Civic Platform/Civic Coalition (NDI trained unnamed parties in 1990s; no PO work stated)",
+   "confidence": "no_link",
+   "sources": [
+    "https://ndi.org/central-and-eastern-europe/poland",
+    "https://www.iri.org/news/iri-convenes-sixth-meeting-of-eppfi-network"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ned",
+   "target": "wawrykiewicz",
+   "relation": "panelist at NED event 'Declining Rule of Law in Poland' (NED staff moderated)",
+   "confidence": "fact",
+   "sources": [
+    "https://ned.org/events/democratic-deconsolidation-and-declining-rule-of-law-in-poland-restoration-resilience-and-resolve"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2023-01-31"
+  },
+  {
+   "source": "osf",
+   "target": "wawrykiewicz",
+   "relation": "any personal grant/event (only via Free Courts' $130k)",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "usaid",
+   "target": "wawrykiewicz",
+   "relation": "any grant or role, for him or Free Courts",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
+    "https://wolnesady.org/en/"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "ndi_iri",
+   "target": "wawrykiewicz",
+   "relation": "any programme or role",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "osf",
+   "target": "democrisis",
+   "relation": "funders of DemoCrisis not disclosed; no OSF/NED/USAID named",
+   "confidence": "no_link",
+   "sources": [
+    "https://demo-crisis.eu/",
+    "https://en.wikipedia.org/wiki/DemoCrisis"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid"
+  },
+  {
+   "source": "judicial_watch",
+   "target": "democrisis",
+   "relation": "FOIA suit v. State Dept covers DemoCrisis grants; no records released yet",
+   "confidence": "fact",
+   "sources": [
+    "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
+   ],
+   "added_by": "lead_funders_ned_osf_usaid",
+   "date": "2026-02"
+  },
+  {
+   "source": "osf",
+   "target": "taborowski",
+   "relation": "INDIRECT organisational tie: member of Legal Experts Team of OSF-funded Batory Foundation; held a Batory-funded Oxford fellowship (money from an OSF-funded org)",
+   "confidence": "fact",
+   "tie": "indirect",
+   "via": "batory",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf"
+   ],
+   "added_by": "correction_2026-10-31"
+  },
+  {
+   "source": "osf",
+   "target": "patyra",
+   "relation": "INDIRECT organisational tie: member of Legal Experts Team of OSF-funded Batory Foundation (payment undisclosed)",
+   "confidence": "fact",
+   "tie": "indirect",
+   "via": "batory",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf"
+   ],
+   "added_by": "correction_2026-10-31"
+  },
+  {
+   "source": "osf",
+   "target": "taborowski",
+   "relation": "INDIRECT: programme council of Osiatyński Archive, run by OKO.press foundation (OSF $310k 2018-20, NED $100k, USAID $88k to OKO.press)",
+   "confidence": "fact",
+   "tie": "indirect",
+   "via": "osiatynski",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy",
+    "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc"
+   ],
+   "added_by": "correction_2026-10-31"
+  }
+ ],
+ "leads": [
+  {
+   "lead": "NED/OSF/USAID money to any of the 8 judges",
+   "result": "No direct NED/OSF/USAID payment to any judge found. Indirect OSF ties are FACT for 2 judges: Taborowski and Patyra sit on the Legal Experts Team of OSF-funded Batory (an expert team, not the board); Taborowski also had a Batory Oxford fellowship and sits on the Osiatyński Archive council (OKO.press foundation, OSF/NED/USAID-funded).",
+   "label": "fact"
+  },
+  {
+   "lead": "Soros backs Tusk",
+   "result": "Hungarian FM calls him 'Soros agent'; no meeting, money or statement found",
+   "label": "alleged"
+  },
+  {
+   "lead": "USAID helped Tusk win in 2023",
+   "result": "Daily Signal claim; USAID funded Polish NGOs and media small sums; no grant to PO or campaign; DOGE 'exposure' not found",
+   "label": "alleged"
+  }
+ ]
+}

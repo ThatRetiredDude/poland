@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "title": "Ties missing from the first version of the map",
+  "as_of": "2026-10-31"
+ },
+ "nodes": [
+  {
+   "id": "bodnar",
+   "type": "person",
+   "group": "government",
+   "label": "Adam Bodnar (Justice Minister 2023-25, ex-Ombudsman)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Bodnar"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "taborowski",
+   "target": "osiatynski",
+   "relation": "programme council",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "themis",
+   "relation": "vice-president, general board member since 2018",
+   "confidence": "fact",
+   "date": "2018",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Waldemar_%C5%BBurek"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "iustitia",
+   "relation": "management board 2004-2008",
+   "confidence": "fact",
+   "date": "2004-2008",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Waldemar_%C5%BBurek"
+   ]
+  },
+  {
+   "source": "bodnar",
+   "target": "hfhr",
+   "relation": "vice-president 2010-2015",
+   "confidence": "fact",
+   "date": "2010-2015",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Bodnar"
+   ]
+  },
+  {
+   "source": "bodnar",
+   "target": "taborowski",
+   "relation": "Taborowski became deputy ombudsman in May 2019, during Bodnar's term as ombudsman",
+   "confidence": "fact",
+   "date": "2019-05-06",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "bodnar",
+   "relation": "Justice Minister in his government, Dec 2023 to Jul 2025; replaced by Żurek",
+   "confidence": "fact",
+   "date": "2023-12-13",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Bodnar"
+   ]
+  },
+  {
+   "source": "bodnar",
+   "target": "ejchart",
+   "relation": "deputy justice minister in his ministry from Dec 2023",
+   "confidence": "fact",
+   "date": "2023-12-13",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+    "https://www.gov.pl/web/justice/maria-ejchart2"
+   ]
+  },
+  {
+   "source": "ejchart",
+   "target": "hfhr",
+   "relation": "coordinated its Innocence programme from 2003",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/justice/maria-ejchart2"
+   ]
+  },
+  {
+   "source": "gregorczyk_abram",
+   "target": "ko",
+   "relation": "chosen as human rights commissioner by the ruling majority, confirmed by the Senate (Jul 2026)",
+   "confidence": "fact",
+   "date": "2026-07",
+   "sources": [
+    "https://notesfrompoland.com/2026/07/23/poland-appoints-new-human-rights-commissioner/"
+   ]
+  }
+ ]
+}
