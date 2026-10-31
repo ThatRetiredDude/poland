@@ -77,6 +77,7 @@ header { grid-column: 1 / -1; display: flex; align-items: center; gap: 16px; fle
 header h1 { font: 600 19px/1.2 var(--font-display); margin: 0; text-wrap: balance; }
 header .status { color: var(--muted); font-size: 12.5px; font-variant-numeric: tabular-nums; }
 header .spacer { flex: 1; }
+a.btn { text-decoration: none; color: var(--ink); display: inline-block; }
 .btn { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 10px; cursor: pointer; font-size: 13px; }
 .btn:hover { border-color: var(--accent); }
 
@@ -176,6 +177,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
     <button class="btn" id="btn-reheat" type="button">Re-run layout</button>
     <button class="btn" id="btn-pdf" type="button" title="Save the map exactly as it is on screen">Export PDF</button>
     <button class="btn" id="btn-share" type="button" title="Share a link that opens the map with these settings">Share</button>
+    <a class="btn" id="btn-suggest" href="https://github.com/ThatRetiredDude/poland/issues/new?template=submit-information.md" target="_blank" rel="noopener" title="Add, correct or remove information. Needs a free GitHub account; please include a source link.">Suggest an edit</a>
   </header>
 
   <aside class="left" aria-label="Filters">
