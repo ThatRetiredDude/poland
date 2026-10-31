@@ -1,0 +1,295 @@
+{
+ "meta": {
+  "title": "Sources found for held claims (second sourcing pass)",
+  "as_of": "2026-10-31",
+  "notes": "Held claims from held_claims.json that a direct source now supports, in full or in part. Each edge names the held claim it came from in from_held_claim. Parts still unsourced stay in held_claims.json. Indirect ties are marked indirect: true. Labels: fact / alleged / speculation / unproven_conspiracy / no_link."
+ },
+ "nodes": [
+  {
+   "id": "tk_judges_statement_2026_10_16",
+   "type": "event",
+   "group": "tk",
+   "label": "Joint statement of the eight Sejm-elected TK judges (16 Oct 2026)",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ]
+  },
+  {
+   "id": "batory_conf_2024_rule_of_law",
+   "type": "event",
+   "group": "ngo",
+   "label": "Batory/HFHR conference 'Ewolucja państwa i prawa. Refleksje z roku odbudowy praworządności' (28-29 Nov 2024)",
+   "sources": [
+    "https://www.batory.org.pl/wydarzenia/ewolucja-panstwa-i-prawa-refleksje-z-roku-odbudowy-praworzadnosci/"
+   ]
+  },
+  {
+   "id": "paszyk",
+   "type": "person",
+   "group": "politician",
+   "label": "Krzysztof Paszyk (PSL MP)",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/022"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "fpos",
+   "target": "batory",
+   "relation": "donated PLN 15,979,870.00 in 2024, the largest single donor line (about 54% of Batory's foreign-source income of PLN 29.5m; note 10.1.1, p. 21 of the 2024 financial statement). Yearly amounts vary widely: earlier years read only in part, see held claim",
+   "confidence": "fact",
+   "date": "2024",
+   "sources": [
+    "https://www.batory.org.pl/wp-content/uploads/2026/05/Sprawozdanie_Finansowe_2024_z-opinia.pdf"
+   ],
+   "from_held_claim": "fpos_batory_6_3m"
+  },
+  {
+   "source": "markiewicz",
+   "target": "batory_conf_2024_rule_of_law",
+   "relation": "listed speaker, Panel 1 'Proces przywracania praworządności – gdzie jesteśmy rok po?' (28 Nov 2024), as president of Iustitia. Programme listing, not an attendance record",
+   "confidence": "fact",
+   "date": "2024-11-28",
+   "sources": [
+    "https://www.batory.org.pl/wydarzenia/ewolucja-panstwa-i-prawa-refleksje-z-roku-odbudowy-praworzadnosci/"
+   ],
+   "from_held_claim": "markiewicz_batory_conference_2024"
+  },
+  {
+   "source": "batory",
+   "target": "batory_conf_2024_rule_of_law",
+   "relation": "co-organiser",
+   "confidence": "fact",
+   "date": "2024-11",
+   "sources": [
+    "https://www.batory.org.pl/wydarzenia/ewolucja-panstwa-i-prawa-refleksje-z-roku-odbudowy-praworzadnosci/"
+   ],
+   "from_held_claim": "markiewicz_batory_conference_2024"
+  },
+  {
+   "source": "hfhr",
+   "target": "batory_conf_2024_rule_of_law",
+   "relation": "co-organiser",
+   "confidence": "fact",
+   "date": "2024-11",
+   "sources": [
+    "https://www.batory.org.pl/wydarzenia/ewolucja-panstwa-i-prawa-refleksje-z-roku-odbudowy-praworzadnosci/"
+   ],
+   "from_held_claim": "markiewicz_batory_conference_2024"
+  },
+  {
+   "source": "markiewicz",
+   "target": "batory",
+   "relation": "spoke on a Batory co-organised conference panel (Nov 2024); an appearance, no payment documented",
+   "confidence": "fact",
+   "date": "2024-11-28",
+   "sources": [
+    "https://www.batory.org.pl/wydarzenia/ewolucja-panstwa-i-prawa-refleksje-z-roku-odbudowy-praworzadnosci/"
+   ],
+   "from_held_claim": "markiewicz_batory_conference_2024",
+   "indirect": true
+  },
+  {
+   "source": "kuisz",
+   "target": "kultura_liberalna",
+   "relation": "president of the board (prezes zarządu) of Fundacja Kultura Liberalna (KRS 0000398695)",
+   "confidence": "fact",
+   "sources": [
+    "https://kulturaliberalna.pl/fundacji/"
+   ],
+   "from_held_claim": "kultura_liberalna_roles"
+  },
+  {
+   "source": "wigura",
+   "target": "kultura_liberalna",
+   "relation": "member of the board (członkini zarządu) of Fundacja Kultura Liberalna; co-founder status not stated by the source",
+   "confidence": "fact",
+   "sources": [
+    "https://kulturaliberalna.pl/fundacji/"
+   ],
+   "from_held_claim": "kultura_liberalna_roles"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "sochanski",
+   "relation": "ordered a one-month break in his duties as TK vice-president on 30 Oct 2026, alongside the order on President Święczkowski (disputed: the president and PiS do not recognise her authority)",
+   "confidence": "fact",
+   "date": "2026-10-30",
+   "sources": [
+    "https://www.rp.pl/polityka/art45424161-anna-korwin-piotrowska-wyjasnia-co-dalej-z-wladzami-tk-decyzje-podejmie-sad-dyscyplinarny",
+    "https://tvn24.pl/polska/zarzadzono-przerwe-w-czynnosciach-sluzbowych-bogdana-swieczkowskiego-st9314760",
+    "https://wydarzenia.interia.pl/kraj/news-sedzia-korwin-piotrowska-o-sytuacji-wokol-tk-pierwsze-zarzad,nId,23566772"
+   ],
+   "from_held_claim": "kp_sochanski_order"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "swieczkowski",
+   "relation": "30 Oct 2026 orders: legal basis given as art. 130 of the common courts law, applied to TK judges via art. 19 of the TK judges' status act and art. 10 § 1 of the Supreme Court Act; she took over under art. 12(4) TK Act as longest-serving judge. Reasons quoted from Patyra's note include: blocking the General Assembly from adopting the 2027 spending plan, arbitrary panel assignments, and not admitting the Sejm-elected judges since 9 Apr 2026 in breach of the ECHR order of 5 May 2026",
+   "confidence": "fact",
+   "date": "2026-10-30",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
+    "https://www.rp.pl/polityka/art45424161-anna-korwin-piotrowska-wyjasnia-co-dalej-z-wladzami-tk-decyzje-podejmie-sad-dyscyplinarny",
+    "https://tvn24.pl/polska/zarzadzono-przerwe-w-czynnosciach-sluzbowych-bogdana-swieczkowskiego-st9314760",
+    "https://wydarzenia.interia.pl/kraj/news-sedzia-korwin-piotrowska-o-sytuacji-wokol-tk-pierwsze-zarzad,nId,23566772"
+   ],
+   "from_held_claim": "kp_order_grounds"
+  },
+  {
+   "source": "solvere",
+   "target": "pfn",
+   "relation": "two former Solvere board members (named in most outlets as Anna P. and Piotr M.) detained by CBA on 23 Sep 2026 in the Rzeszów prosecutors' PFN probe over the 2017 'Sprawiedliwe Sądy' campaign; allegations, no charges proven",
+   "confidence": "alleged",
+   "date": "2026-09-23",
+   "sources": [
+    "https://oko.press/na-zywo/na-zywo-relacja/zatrzymania-polska-fundacja-narodowa",
+    "https://superbiz.se.pl/wiadomosci/glosna-akcja-ws-pfn-zatrzymano-min-dyrektorke-w-kprp-w-tle-wielkie-pieniadze-aa-SiS8-gek6-s58a.html"
+   ],
+   "from_held_claim": "solvere_detainees"
+  },
+  {
+   "source": "nik",
+   "target": "pfn",
+   "relation": "NIK audit (presented 16 Jan 2024): nine audited state companies gave PFN PLN 152m in 2017-2021, out of about PLN 680m they gave to foundations",
+   "confidence": "fact",
+   "date": "2017-2021",
+   "sources": [
+    "https://forsal.pl/gospodarka/aktualnosci/artykuly/9404464,nik-zlozyla-10-zawiadomien-do-prokuratury-chodzi-min-o-spolki-z-udz.html"
+   ],
+   "from_held_claim": "nik_pfn_633m"
+  },
+  {
+   "source": "markiewicz",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "taborowski",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "dziurda",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "szostek",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "bentkowska",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "patyra",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "berek",
+   "target": "tk_judges_statement_2026_10_16",
+   "relation": "signed: 'podejmiemy wszystkie przewidziane prawem działania, aby przywrócić i zapewnić zgodne z prawem funkcjonowanie' the Tribunal (all eight Sejm-elected judges signed, per PAP)",
+   "confidence": "fact",
+   "date": "2026-10-16",
+   "sources": [
+    "https://xyz.pl/dzieje-sie/oswiadczenie-sedziow-tk-podejmiemy-wszelkie-przewidziane-prawem-dzialania-2506",
+    "https://www.tvp.info/95959568/oswiadczenie-sedziow-tk-podejmiemy-przewidziane-prawem-dzialania-aby-przywrocic-trybunal-konstytucyjny"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "tusk",
+   "target": "berek",
+   "relation": "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister said he would use existing TK Act and constitutional rules to make changes. Anonymous, not Berek's own words",
+   "confidence": "alleged",
+   "date": "2026-08",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-idzie-na-gole-piesci-tusk-jesienia-chce-odbic-tk-berek-to-cz,nId,23532260"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "paszyk",
+   "target": "berek",
+   "relation": "in the Sejm debate on 4 Sep 2026 said Berek 'pokazał, że ma pomysł, jak odbudować Trybunał Konstytucyjny'",
+   "confidence": "fact",
+   "date": "2026-09-04",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/022"
+   ],
+   "from_held_claim": "berek_prepared_plan"
+  },
+  {
+   "source": "taborowski",
+   "target": "tk",
+   "relation": "Sejm candidacy print 2338 (11 Mar 2026): born 16 Dec 1978 in Łódź, advocate, dr hab., professor at INP PAN; RPO page: habilitation 2020",
+   "confidence": "fact",
+   "date": "2026-03-11",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/prints/2338/2338.pdf",
+    "https://bip.brpo.gov.pl/pl/osoba/dr-hab-maciej-taborowski"
+   ],
+   "from_held_claim": "phd_supervisors"
+  }
+ ]
+}
