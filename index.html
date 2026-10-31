@@ -203,7 +203,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
       <h2>View</h2>
       <label class="row"><input type="checkbox" id="t-isolated" checked><span class="name">Hide nodes with no visible links</span></label>
             <label class="row"><input type="checkbox" id="t-anchor" checked><span class="name">Judges in a row, Tusk above, Nawrocki below (when shown)</span></label>
-      <label class="row"><input type="checkbox" id="t-show-nawrocki"><span class="name">Show Nawrocki</span></label>
+      <label class="row"><input type="checkbox" id="t-show-nawrocki"><span class="name">Show Nawrocki (and what links only to him)</span></label>
       <p class="meta-line" id="hidden-note"></p>
       <label class="row"><input type="checkbox" id="t-names"><span class="name">Show every name (names may overlap)</span></label>
     </div>
@@ -411,6 +411,21 @@ function visibleSets() {
   if (state.judgesOnly) edges = edges.filter(e => isJudge(store.nodes.get(e.s)) || isJudge(store.nodes.get(e.t)));
   if (state.group) edges = edges.filter(e => store.nodes.get(e.s).group === state.group || store.nodes.get(e.t).group === state.group);
   let nodes = [...store.nodes.values()].filter(typeOk);
+  // Hiding cascades: anything whose only route to the judges or Tusk ran through a hidden node is hidden too.
+  if (state.hidden.size) {
+    const adj = new Map(); edges.forEach(e => { (adj.get(e.s) || adj.set(e.s, []).get(e.s)).push(e.t); (adj.get(e.t) || adj.set(e.t, []).get(e.t)).push(e.s); });
+    const touchesHidden = new Set();
+    all.forEach(e => { if (e.label === "no_link") return; if (state.hidden.has(e.s)) touchesHidden.add(e.t); if (state.hidden.has(e.t)) touchesHidden.add(e.s); });
+    const seen = new Set(), drop = new Set();
+    nodes.forEach(n => {
+      if (seen.has(n.id)) return;
+      const comp = [], stack = [n.id]; seen.add(n.id);
+      while (stack.length) { const id = stack.pop(); comp.push(id); (adj.get(id) || []).forEach(m => { if (!seen.has(m)) { seen.add(m); stack.push(m); } }); }
+      const anchored = comp.some(id => { const x = store.nodes.get(id); return x && (isJudge(x) || id === ANCHOR_TOP); });
+      if (!anchored && comp.some(id => touchesHidden.has(id))) comp.forEach(id => drop.add(id));
+    });
+    if (drop.size) { nodes = nodes.filter(n => !drop.has(n.id)); edges = edges.filter(e => !drop.has(e.s) && !drop.has(e.t)); }
+  }
   if (state.hideIsolated || state.judgesOnly || state.group) {
     const used = new Set(); edges.forEach(e => { used.add(e.s); used.add(e.t); });
     nodes = nodes.filter(n => used.has(n.id) || (state.group && n.group === state.group));
