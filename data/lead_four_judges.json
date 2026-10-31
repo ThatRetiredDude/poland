@@ -1,0 +1,746 @@
+{
+  "meta": {
+    "title": "Lead: Szostek, Bentkowska, Dziurda and Berek profiles",
+    "as_of": "2026-10-31",
+    "added_by": "lead_four_judges",
+    "merged_into": null,
+    "note": "Hearing transcripts were only half readable; items from the unread half are marked alleged."
+  },
+  "node_update": [
+    {
+      "id": "szostek",
+      "career": "Law UŚ 1997, PhD 2003, habilitation Wrocław 2013; professor Univ. of Opole 2014-21 and UŚ from 2021; director of Cyber Science; KRASP cybersecurity chair 2024; Instytut Łączności scientific council 2025; science minister's cybersecurity expert 2025; Polish UNCITRAL commission expert 2020-24; EP AI Observatory; co-author of the e-Sąd concept and e-delivery confirmation; radca prawny (IT, energy, data protection); work for Poczta Polska solutions",
+      "roots": "Lives in Jaworze (Bielsko-Biała county)",
+      "oath": "Sworn in by Nawrocki 1 Apr 2026; took up duties 9 Apr 2026"
+    },
+    {
+      "id": "bentkowska",
+      "career": "Advocate apprenticeship Rzeszów 1991-95; DePaul scholarship 1993; Polish Embassy Washington 1995-2000; partner Synoradzki, Bentkowska i Partnerzy (Warsaw); criminal, family, labour, copyright and personal-rights law; pro bono defender in political trials 2016-23; PhD UMCS 2014",
+      "notable_cases": "Represented heart surgeon Mirosław G. against Ziobro"
+    },
+    {
+      "id": "dziurda",
+      "career": "Warsaw city legal office 2002-05; organised Prokuratoria 2005-06; its president 2006-Nov 2012; Linklaters of counsel 2013; Supreme Court analysis office 2017-23; OIRP Warsaw deputy dean; KRRP member; Civil Law Codification Commission; UW professor 2023"
+    },
+    {
+      "id": "berek",
+      "career": "Born 12 May 1972; Senate chancellery 1997-2004; NIK 2004-07; RCL president 2007/08-15 and Secretary of the Council of Ministers 2008-15; NIK 2016-20; Senate Information Centre director 2020-21; Ombudsman's Office director general from Sep 2021 (under Wiącek); UMCS 2017-19, UW from 2019; PhD 2016; minister Dec 2023-Aug 2026",
+      "party": "Denies party membership; PiS MPs allege a 2005 PO Sejm candidacy (unconfirmed)",
+      "money_affiliations_2024": "Declaration as of 31 Dec 2024: UW PLN 38k, KIRP contracts PLN 25.5k, Wolters Kluwer PLN 1.3k, rent PLN 39k; CHF mortgages; solar-panel loan"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "uni_silesia",
+      "type": "org",
+      "group": "academia",
+      "label": "University of Silesia (Katowice)",
+      "sources": [
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ]
+    },
+    {
+      "id": "uni_opole",
+      "type": "org",
+      "group": "academia",
+      "label": "University of Opole",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "cyber_science",
+      "type": "org",
+      "group": "academia",
+      "label": "Cyber Science inter-university centre for legal engineering, technology and digital skills",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ]
+    },
+    {
+      "id": "krasp",
+      "type": "org",
+      "group": "academia",
+      "label": "Conference of Rectors of Academic Schools in Poland (KRASP)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "instytut_lacznosci",
+      "type": "org",
+      "group": "state",
+      "label": "National Institute of Telecommunications (Instytut Łączności)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ]
+    },
+    {
+      "id": "mnisw",
+      "type": "org",
+      "group": "government",
+      "label": "Ministry of Science and Higher Education",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "uncitral_pl",
+      "type": "org",
+      "group": "state",
+      "label": "Polish national commission for UNCITRAL (UN trade-law body)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "forum_bankowe",
+      "type": "event",
+      "group": "finance",
+      "label": "Forum Bankowe (banking forum; Remigiusz Kaszubski award)",
+      "sources": [
+        "https://us.edu.pl/?p=153479"
+      ]
+    },
+    {
+      "id": "shop4cf",
+      "type": "project",
+      "group": "eu_funding",
+      "label": "SHOP4CF (EU Horizon 2020 project 873087)",
+      "sources": [
+        "https://cordis.europa.eu/project/id/873087"
+      ],
+      "note": "EUR 15.0m EU contribution; coordinated by TU Munich; Univ. of Opole a participant (EUR 189k)"
+    },
+    {
+      "id": "synoradzki_bentkowska",
+      "type": "org",
+      "group": "law_firm",
+      "label": "Synoradzki, Bentkowska i Partnerzy Adwokaci (Warsaw)",
+      "sources": [
+        "https://rejestradwokatow.pl/adwokat/pdf/bentkowska-magdalena-42768"
+      ]
+    },
+    {
+      "id": "pl_embassy_dc",
+      "type": "org",
+      "group": "state",
+      "label": "Polish Embassy in Washington, economic counsellor's office",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "depaul",
+      "type": "org",
+      "group": "academia",
+      "label": "DePaul University (Chicago)",
+      "sources": [
+        "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/"
+      ]
+    },
+    {
+      "id": "obywatele_rp",
+      "type": "org",
+      "group": "ngo",
+      "label": "Obywatele RP (Citizens of Poland civil-disobedience movement)",
+      "sources": [
+        "https://civicspacewatch.eu/alert/stories-of-resistance-obywatele-rp-a-story-of-civil-disobedience-from-poland/"
+      ],
+      "note": "Its ObyPomoc network of pro bono lawyers defended protesters (about 700 people, 200+ cases by 2020); funding not stated on the source"
+    },
+    {
+      "id": "prokuratoria",
+      "type": "org",
+      "group": "state",
+      "label": "State Treasury Solicitors' Office (Prokuratoria Generalna)",
+      "sources": [
+        "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "warsaw_city_legal",
+      "type": "org",
+      "group": "local_gov",
+      "label": "City of Warsaw legal office",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+      ]
+    },
+    {
+      "id": "supreme_court",
+      "type": "org",
+      "group": "court",
+      "label": "Supreme Court of Poland (Office of Studies and Analyses)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ]
+    },
+    {
+      "id": "oirp_warszawa",
+      "type": "org",
+      "group": "professional",
+      "label": "Warsaw Regional Chamber of Legal Advisers (OIRP Warszawa)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://www.money.pl/polityka/dwa-domy-wiekszosciowy-udzial-w-mieszkaniu-oszczednosci-majatek-macieja-berka-7317329836427264a.html"
+      ]
+    },
+    {
+      "id": "uw",
+      "type": "org",
+      "group": "academia",
+      "label": "University of Warsaw, Faculty of Law and Administration",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ]
+    },
+    {
+      "id": "umcs",
+      "type": "org",
+      "group": "academia",
+      "label": "Maria Curie-Skłodowska University (UMCS), Lublin",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/"
+      ]
+    },
+    {
+      "id": "senate_chancellery",
+      "type": "org",
+      "group": "state",
+      "label": "Chancellery of the Senate (incl. Senate Information Centre)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8233126,maciej-berek-odchodzi-z-senatu.html"
+      ]
+    },
+    {
+      "id": "rcl",
+      "type": "org",
+      "group": "government",
+      "label": "Government Legislation Centre (RCL)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.gov.pl/web/primeminister/maciej-berek2"
+      ]
+    },
+    {
+      "id": "ksrm",
+      "type": "org",
+      "group": "government",
+      "label": "Standing Committee of the Council of Ministers (KSRM)",
+      "sources": [
+        "https://www.gov.pl/web/primeminister/maciej-berek2"
+      ]
+    },
+    {
+      "id": "wiacek",
+      "type": "person",
+      "group": "state",
+      "label": "Marcin Wiącek (Ombudsman from 2021)",
+      "sources": [
+        "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8233126,maciej-berek-odchodzi-z-senatu.html"
+      ]
+    },
+    {
+      "id": "gko_dfp",
+      "type": "org",
+      "group": "state",
+      "label": "Chief Adjudicating Committee for breaches of public-finance discipline",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.rmf24.pl/fakty/polityka/news-mielismy-byc-inni-niz-pis-awantura-o-berka-nabiera-rozpedu,nIdn,1014099"
+      ]
+    },
+    {
+      "id": "wolters_kluwer",
+      "type": "org",
+      "group": "publisher",
+      "label": "Wolters Kluwer Polska (legal publisher)",
+      "sources": [
+        "https://superbiz.se.pl/wiadomosci/majatek-nowego-spec-ministra-macieja-berka-domy-mieszkania-i-znaczne-oszczednosci-aa-fHTN-9G6R-3tFR.html"
+      ]
+    },
+    {
+      "id": "po",
+      "type": "org",
+      "group": "party",
+      "label": "Civic Platform (PO)",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ]
+    },
+    {
+      "id": "cooling_off_bill",
+      "type": "law",
+      "group": "legislation",
+      "label": "Bill with 4-year cooling-off period for ministers going to the TK",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "szostek",
+      "target": "uni_opole",
+      "relation": "professor 2014-2021",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "uni_silesia",
+      "relation": "professor since 2021; law degree 1997, PhD 2003 there",
+      "confidence": "fact",
+      "sources": [
+        "https://www.bielsko.info/wiadomosci/wiadomosci/47291-dariusz-szostek-mieszkaniec-jaworza-sedzia-trybunalu-konstytucyjnego-bielsko-biala",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "cyber_science",
+      "relation": "director",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "krasp",
+      "relation": "chair of KRASP cybersecurity team since 2024",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "instytut_lacznosci",
+      "relation": "member of scientific council since 2025",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://us.edu.pl/prof-k-markiewicz-oraz-prof-d-szostek-wybrani-na-stanowiska-sedziow-trybunalu-konstytucyjnego/"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "mnisw",
+      "relation": "expert to the minister on cybersecurity since 2025 (Tusk government); wrote opinions for this ministry, the Justice Ministry and the competition office UOKiK",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges",
+      "indirect": true,
+      "note": "Government advisory role held before his March 2026 TK election; no fee amount found"
+    },
+    {
+      "source": "szostek",
+      "target": "uncitral_pl",
+      "relation": "expert 2020-2024",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "eli",
+      "relation": "contributor to European Law Institute expert work and AI-regulation initiatives",
+      "confidence": "fact",
+      "sources": [
+        "https://www.bielsko.info/wiadomosci/wiadomosci/47291-dariusz-szostek-mieszkaniec-jaworza-sedzia-trybunalu-konstytucyjnego-bielsko-biala"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "szostek",
+      "target": "forum_bankowe",
+      "relation": "received Remigiusz Kaszubski award (2022) for spreading knowledge of blockchain and tokenisation",
+      "confidence": "fact",
+      "sources": [
+        "https://us.edu.pl/?p=153479"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "bentkowska",
+      "target": "synoradzki_bentkowska",
+      "relation": "name partner (bar register, Warsaw, entered 2008)",
+      "confidence": "fact",
+      "sources": [
+        "https://rejestradwokatow.pl/adwokat/pdf/bentkowska-magdalena-42768"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "bentkowska",
+      "target": "pl_embassy_dc",
+      "relation": "lawyer in economic counsellor's office 1995-2000",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "bentkowska",
+      "target": "depaul",
+      "relation": "scholarship holder (1993), with practice at US law firms",
+      "confidence": "fact",
+      "sources": [
+        "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "bentkowska",
+      "target": "umcs",
+      "relation": "law graduate; PhD 2014",
+      "confidence": "fact",
+      "sources": [
+        "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "bentkowska",
+      "target": "obywatele_rp",
+      "relation": "pro bono defender in political trials 2016-2023",
+      "confidence": "fact",
+      "sources": [
+        "https://radio.rzeszow.pl/301263/rzeszowianka-zostala-sedzia-trybunalu-konstytucyjnego/"
+      ],
+      "added_by": "lead_four_judges",
+      "note": "Source says 'political trials' and does not name the group; Obywatele RP ran the main pro bono defence network for protesters in that period"
+    },
+    {
+      "source": "bentkowska",
+      "target": "obywatele_rp",
+      "relation": "award from Obywatele RP listed in her CV; a PiS MP asked about it at her Sejm hearing",
+      "confidence": "alleged",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges",
+      "note": "Only in the unreadable second half of the hearing transcript; CV print 2331 not retrieved"
+    },
+    {
+      "source": "swieczkowski",
+      "target": "bentkowska",
+      "relation": "sought disciplinary proceedings against her (Apr 2026) after her public interview",
+      "confidence": "fact",
+      "sources": [
+        "https://www.tvp.info/92776812/sedzia-bentkowska-sprawy-w-tk-czekaja-nawet-10-lat"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "warsaw_city_legal",
+      "relation": "deputy director then director 2002-2005",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "prokuratoria",
+      "relation": "organised it 2005-06 as government plenipotentiary; president 2006-Nov 2012; coordinated thousands of court and dozens of arbitration cases, incl. the largest investment-treaty claims against Poland",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "supreme_court",
+      "relation": "member of Office of Studies and Analyses 2017-2023",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "oirp_warszawa",
+      "relation": "deputy dean",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "kirp",
+      "relation": "member of National Council of Legal Advisers (KRRP)",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "codification_commission",
+      "relation": "member of the Codification Commission for Civil Law",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "dziurda",
+      "target": "uw",
+      "relation": "professor, civil procedure (2023); PhD 2004, habilitation 2020",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "senate_chancellery",
+      "relation": "legislative office 1997-2002; deputy director legal office 2002-04; director of Senate Information Centre 2020-21",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8233126,maciej-berek-odchodzi-z-senatu.html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "nik",
+      "relation": "legal adviser then deputy director 2004-07; again 2016-2020 (budget and finance department)",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "rcl",
+      "relation": "president 2007/08-2015; also Secretary of the Council of Ministers 2008-2015",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.gov.pl/web/primeminister/maciej-berek2"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "rpo_office",
+      "relation": "director general of the Ombudsman's Office from 13 Sep (2021, inferred from Wiącek's term)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8233126,maciej-berek-odchodzi-z-senatu.html",
+        "https://www.gov.pl/web/primeminister/maciej-berek2"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "wiacek",
+      "target": "berek",
+      "relation": "hired him as director general of his office",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/8233126,maciej-berek-odchodzi-z-senatu.html"
+      ],
+      "added_by": "lead_four_judges",
+      "note": "Article quotes the move to 'prof. Marcin Wiącek'; year inferred"
+    },
+    {
+      "source": "berek",
+      "target": "gko_dfp",
+      "relation": "member for two terms (2009-2017)",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.rmf24.pl/fakty/polityka/news-mielismy-byc-inni-niz-pis-awantura-o-berka-nabiera-rozpedu,nIdn,1014099"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "umcs",
+      "relation": "assistant professor, constitutional law 2017-2019",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "uw",
+      "relation": "assistant professor since 2019; ~PLN 44k in 2025",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.money.pl/polityka/dwa-domy-wiekszosciowy-udzial-w-mieszkaniu-oszczednosci-majatek-macieja-berka-7317329836427264a.html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "ksrm",
+      "relation": "head of KSRM from Dec 2023; minister for government policy implementation Jul 2025-Aug 2026; deregulation team Mar 2025",
+      "confidence": "fact",
+      "sources": [
+        "https://www.gov.pl/web/primeminister/maciej-berek2",
+        "https://www.rmf24.pl/fakty/polityka/news-mielismy-byc-inni-niz-pis-awantura-o-berka-nabiera-rozpedu,nIdn,1014099"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "oirp_warszawa",
+      "relation": "member; ~PLN 17k meeting fees in 2025",
+      "confidence": "fact",
+      "sources": [
+        "https://www.money.pl/polityka/dwa-domy-wiekszosciowy-udzial-w-mieszkaniu-oszczednosci-majatek-macieja-berka-7317329836427264a.html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "kirp",
+      "relation": "expert of KRRP research and legislation centre; civil-law contracts ~PLN 25.5k in 2024",
+      "confidence": "fact",
+      "sources": [
+        "https://superbiz.se.pl/wiadomosci/majatek-nowego-spec-ministra-macieja-berka-domy-mieszkania-i-znaczne-oszczednosci-aa-fHTN-9G6R-3tFR.html",
+        "https://xyz.pl/dzieje-sie/maciej-berek-oficjalnym-kandydatem-na-sedziego-tk-3006"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "wolters_kluwer",
+      "relation": "copyright income ~PLN 1.3k (2024)",
+      "confidence": "fact",
+      "sources": [
+        "https://superbiz.se.pl/wiadomosci/majatek-nowego-spec-ministra-macieja-berka-domy-mieszkania-i-znaczne-oszczednosci-aa-fHTN-9G6R-3tFR.html"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "berek",
+      "target": "po",
+      "relation": "ran for the Sejm on a PO list in 2005",
+      "confidence": "alleged",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+        "https://www.rmf24.pl/fakty/polityka/news-mielismy-byc-inni-niz-pis-awantura-o-berka-nabiera-rozpedu,nIdn,1014099"
+      ],
+      "added_by": "lead_four_judges",
+      "counter": "Government spokesman Szłapka: he never belonged to a party, never ran, never campaigned"
+    },
+    {
+      "source": "berek",
+      "target": "cooling_off_bill",
+      "relation": "authored or steered the bill (PiS MPs Smoliński, Woś)",
+      "confidence": "alleged",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ],
+      "added_by": "lead_four_judges"
+    },
+    {
+      "source": "swieczkowski",
+      "target": "berek",
+      "relation": "called him 'entangled' and noted he was questioned in the alleged-coup probe (TK/SN/KRS threads closed)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.rmf24.pl/fakty/polska/news-maciej-berek-w-nowej-roli-premier-tusk-potwierdza,nIdn,1013610"
+      ],
+      "added_by": "lead_four_judges",
+      "note": "Fact that he said it; the substance is an allegation"
+    },
+    {
+      "source": "berek",
+      "target": "dziurda",
+      "relation": "both in the legal-advisers' self-government: Dziurda is OIRP Warsaw deputy dean and KRRP member; Berek is paid by OIRP Warsaw and KIRP",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://superbiz.se.pl/wiadomosci/majatek-nowego-spec-ministra-macieja-berka-domy-mieszkania-i-znaczne-oszczednosci-aa-fHTN-9G6R-3tFR.html",
+        "https://www.money.pl/polityka/dwa-domy-wiekszosciowy-udzial-w-mieszkaniu-oszczednosci-majatek-macieja-berka-7317329836427264a.html"
+      ],
+      "added_by": "lead_four_judges",
+      "indirect": true,
+      "note": "Shared institutions only; no evidence Dziurda set Berek's fees"
+    },
+    {
+      "source": "berek",
+      "target": "dziurda",
+      "relation": "colleagues at the University of Warsaw law faculty",
+      "confidence": "fact",
+      "sources": [
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+        "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+      ],
+      "added_by": "lead_four_judges",
+      "indirect": true
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Berek and Dziurda are tied through the legal-advisers' chambers",
+      "result": "fact that both sit in the same self-government and Berek is paid by it; nothing shows it shaped either election",
+      "label": "speculation"
+    },
+    {
+      "lead": "Szostek was rewarded by the Tusk government before his election",
+      "result": "fact that the science minister made him a cybersecurity expert in 2025; no pay found and no sign it was linked to the TK nomination",
+      "label": "speculation"
+    },
+    {
+      "lead": "Bentkowska is an Obywatele RP activist",
+      "result": "she defended people pro bono in political trials 2016-23 (fact); the Obywatele RP award comes only from an unread part of the hearing; membership unproven",
+      "label": "alleged"
+    },
+    {
+      "lead": "Berek was a PO candidate in 2005",
+      "result": "raised by three MPs at his hearing; the government denies it; PKW 2005 lists not yet checked",
+      "label": "alleged"
+    },
+    {
+      "lead": "Szostek got EU Horizon money via SHOP4CF",
+      "result": "his former university took part; he is not named",
+      "label": "no_link"
+    }
+  ]
+}
