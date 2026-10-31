@@ -2062,6 +2062,114 @@
     "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/",
     "https://notesfrompoland.com/2026/07/10/polands-first-offshore-wind-farm-begins-generating-power/"
    ]
+  },
+  {
+   "id": "gmf",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "German Marshall Fund of the US (GMF)",
+   "sources": [
+    "https://www.gmfus.org/about/history"
+   ]
+  },
+  {
+   "id": "cia",
+   "type": "org",
+   "group": "us_gov",
+   "label": "CIA",
+   "sources": [
+    "https://lawliberty.org/?p=8507"
+   ]
+  },
+  {
+   "id": "solidarity_1980s",
+   "type": "org",
+   "group": "union",
+   "label": "Solidarity movement (1980s)",
+   "sources": [
+    "https://lawliberty.org/?p=8507"
+   ]
+  },
+  {
+   "id": "ivlp",
+   "type": "org",
+   "group": "us_gov",
+   "label": "US State Dept International Visitor Leadership Program",
+   "sources": [
+    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+   ]
+  },
+  {
+   "id": "baranowski",
+   "type": "person",
+   "group": "government",
+   "label": "Michał Baranowski (deputy minister, Development)",
+   "sources": [
+    "https://www.gov.pl/web/development-technology/michal-baranowski"
+   ]
+  },
+  {
+   "id": "rudzinska_bluszcz",
+   "type": "person",
+   "group": "government",
+   "label": "Zuzanna Rudzińska-Bluszcz (deputy justice minister 2023-Aug 2025)",
+   "sources": [
+    "https://www.gov.pl/web/justice/zuzanna-rudzinska-bluszcz2"
+   ]
+  },
+  {
+   "id": "duszczyk",
+   "type": "person",
+   "group": "government",
+   "label": "Maciej Duszczyk (deputy interior minister)",
+   "sources": [
+    "https://www.gov.pl/web/mswia-en/maciej-duszczyk"
+   ]
+  },
+  {
+   "id": "sikora",
+   "type": "person",
+   "group": "government",
+   "label": "Monika Sikora (deputy minister, Funds then Family)",
+   "sources": [
+    "https://www.gov.pl/web/family/monika-sikora"
+   ]
+  },
+  {
+   "id": "bolesta",
+   "type": "person",
+   "group": "government",
+   "label": "Krzysztof Bolesta (deputy climate minister)",
+   "sources": [
+    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+   ]
+  },
+  {
+   "id": "dziadkowiec",
+   "type": "person",
+   "group": "government",
+   "label": "Monika Dziadkowiec (Director-General, Climate Ministry)",
+   "sources": [
+    "https://www.gov.pl/web/climate/monika-dziadkowiec"
+   ]
+  },
+  {
+   "id": "sobkowiak",
+   "type": "person",
+   "group": "government",
+   "label": "Magdalena Sobkowiak-Czarnecka (deputy minister, EU affairs then Defence)",
+   "sources": [
+    "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state"
+   ]
+  },
+  {
+   "id": "vatican",
+   "type": "org",
+   "group": "foreign_gov",
+   "label": "Vatican (Holy See / IOR)",
+   "sources": [
+    "https://www.carlbernstein.com/the-holy-alliance-time-magazine-february-24-1992"
+   ]
   }
  ],
  "edges": [
@@ -7102,6 +7210,222 @@
    "confidence": "fact",
    "sources": [
     "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ]
+  },
+  {
+   "source": "baranowski",
+   "target": "gmf",
+   "relation": "worked at GMF 2005-2024: founded Warsaw office 2011, Managing Director GMF East from 2021",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/development-technology/michal-baranowski"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "baranowski",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/development-technology/michal-baranowski"
+   ]
+  },
+  {
+   "source": "rudzinska_bluszcz",
+   "target": "gmf",
+   "relation": "Marshall Memorial Fellow (2019)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/justice/zuzanna-rudzinska-bluszcz2"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "rudzinska_bluszcz",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/justice/zuzanna-rudzinska-bluszcz2"
+   ]
+  },
+  {
+   "source": "duszczyk",
+   "target": "gmf",
+   "relation": "member, GMF-linked Transatlantic Forum on Migration and Integration",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/mswia-en/maciej-duszczyk"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "duszczyk",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/mswia-en/maciej-duszczyk"
+   ]
+  },
+  {
+   "source": "sikora",
+   "target": "gmf",
+   "relation": "Marshall Memorial Fellow (2022-23)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/family/monika-sikora"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "sikora",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/family/monika-sikora"
+   ]
+  },
+  {
+   "source": "bolesta",
+   "target": "gmf",
+   "relation": "GMF exchange programme",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "bolesta",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+   ]
+  },
+  {
+   "source": "dziadkowiec",
+   "target": "gmf",
+   "relation": "GMF scholarship holder",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/climate/monika-dziadkowiec"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "dziadkowiec",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/climate/monika-dziadkowiec"
+   ]
+  },
+  {
+   "source": "sobkowiak",
+   "target": "gmf",
+   "relation": "picked for GMF Brussels Forum Young Professionals Summit",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "sobkowiak",
+   "relation": "serves in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/national-defence/magdalena-sobkowiak-czarnecka-secretary-of-state"
+   ]
+  },
+  {
+   "source": "bolesta",
+   "target": "ivlp",
+   "relation": "State Dept international leadership programme (year not given)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gov.pl/web/climate/krzysztof-bolesta"
+   ]
+  },
+  {
+   "source": "gmf",
+   "target": "tusk",
+   "relation": "\"CIA-affiliated GMF groomed Tusk officials\" (viral X post)",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://rockrachon.substack.com/p/donald-tusks-cabinet-germanys-strategic"
+   ]
+  },
+  {
+   "source": "cia",
+   "target": "gmf",
+   "relation": "CIA affiliation of GMF",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.gmfus.org/about/history"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "ivlp",
+   "relation": "took part in a State Dept visitor programme (no record found)",
+   "confidence": "no_link",
+   "sources": [
+    "https://dzieje.pl/postacie/donald-tusk"
+   ]
+  },
+  {
+   "source": "cia",
+   "target": "tusk",
+   "relation": "CIA contact",
+   "confidence": "no_link",
+   "sources": [
+    "https://dzieje.pl/postacie/donald-tusk"
+   ]
+  },
+  {
+   "source": "cia",
+   "target": "solidarity_1980s",
+   "relation": "covert support ~$20M (QRHELPFUL): printing, papers, radio; no weapons",
+   "confidence": "fact",
+   "sources": [
+    "https://lawliberty.org/?p=8507"
+   ]
+  },
+  {
+   "source": "ned",
+   "target": "solidarity_1980s",
+   "relation": "~$9M 1984-89 (incl. AFL-CIO channel)",
+   "confidence": "fact",
+   "sources": [
+    "https://lawliberty.org/?p=8507"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "solidarity_1980s",
+   "relation": "member from 1980; co-founded NZS Gdańsk; wrote for Samorządność",
+   "confidence": "fact",
+   "sources": [
+    "https://dzieje.pl/postacie/donald-tusk"
+   ]
+  },
+  {
+   "source": "vatican",
+   "target": "solidarity_1980s",
+   "relation": "secret Vatican accounts helped fund Solidarity (Bernstein 1992, anonymous sources)",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.carlbernstein.com/the-holy-alliance-time-magazine-february-24-1992"
+   ]
+  },
+  {
+   "source": "vatican",
+   "target": "solidarity_1980s",
+   "relation": "\"Vatican cut of CIA narco funds\" laundered to Solidarity",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Banco_Ambrosiano_scandal"
    ]
   }
  ],
