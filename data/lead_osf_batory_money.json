@@ -1,0 +1,431 @@
+{
+  "meta": {
+    "title": "OSF and Batory money to the 8 judges (grant-record sweep)",
+    "as_of": "2026-10-31",
+    "method": "Read Stefan Batory Foundation annual reports 2002-2025 grant tables, its Legal Experts Team lists, EEA Grants and Active Citizens project pages, and OSF award listings. Grant lines quoted from the reports were checked twice. Gaps: 2004 report not read; the OSF grants database blocks automated reading.",
+    "summary": "No OSF or Batory payment to any of the 8 judges personally. Indirect fact ties: Markiewicz (Iustitia grants 2019 and 2022-24; KOS; Archive council), Korwin-Piotrowska (Themis 2014-16), Patyra (Hołda Association/KOS), Taborowski (Archive council). Bentkowska, Dziurda, Szostek, Berek: nothing found."
+  },
+  "nodes": [
+    {
+      "id": "polska_rada_biznesu",
+      "type": "org",
+      "group": "funder",
+      "label": "Polish Business Council (Polska Rada Biznesu)",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "note": "Business association; named donor to Batory's Democracy in Action programme in 2019"
+    },
+    {
+      "id": "batory_democracy_in_action",
+      "type": "project",
+      "group": "funder",
+      "label": "Batory 'Demokracja w Działaniu' grant programme",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "funding": "2017: incl. OSF grant PLN 97,800; 2018: Batory own funds + OSF grant + 1% tax; 2019: Batory own funds + 1% tax + Polish Business Council (no OSF named for the programme)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "2002: partner in Batory's Legal Education Programme ('Obywatel w sądzie', 'Dziennikarz w sądzie' with HFHR); probable grant PLN 39,000 for judges' training (amount read from table layout)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2002.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2002"
+    },
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "2007: two-year institutional grant PLN 90,000 for statutory work on judicial independence and justice reform",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2007.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2007",
+      "note": "Batory's 2006-09 programmes were mostly OSI/OSF-funded; this grant's own funding line not checked. Before Markiewicz's presidency."
+    },
+    {
+      "source": "osf",
+      "target": "iustitia",
+      "relation": "2007 Batory institutional grant (PLN 90,000) was OSF money passed through Batory",
+      "confidence": "speculation",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2007.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "note": "Plausible because OSI funded most Batory programmes then, but no line ties this grant to OSF money"
+    },
+    {
+      "source": "batory_democracy_in_action",
+      "target": "iustitia",
+      "relation": "2019: grant PLN 95,000 for education on human rights, the constitution and the courts",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2019",
+      "note": "Programme funded by Batory own funds, 1% tax and Polish Business Council; OSF not named for this programme"
+    },
+    {
+      "source": "batory",
+      "target": "batory_democracy_in_action",
+      "relation": "runs the programme",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "added_by": "lead_osf_batory_money"
+    },
+    {
+      "source": "osf",
+      "target": "batory_democracy_in_action",
+      "relation": "co-funded the programme: grant PLN 97,800 (2017); grant, amount not stated (2018)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ],
+      "added_by": "lead_osf_batory_money"
+    },
+    {
+      "source": "polska_rada_biznesu",
+      "target": "batory_democracy_in_action",
+      "relation": "2019 donor to the programme (amount not stated)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2019"
+    },
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "Active Citizens organisational grant EUR 108,000 (EUR 100,000 + EUR 8,000 top-up), 1 May 2022 - 30 Apr 2024, approved 30 Nov 2022; instalments EUR 40,000 (2023), EUR 10,000 + EUR 8,000 (2024). EEA/Norway money run by Batory, not OSF",
+      "confidence": "fact",
+      "sources": [
+        "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494",
+        "https://aktywniobywatele.org.pl/en/projekty/polish-judges-association-iustitia/",
+        "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2022-2024"
+    },
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "2024: refund of EUR 8,127.18 on project 'Praworządność Wspólna Sprawa' (unspent part of the EUR 22,319 + EUR 44,639 instalments)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2024"
+    },
+    {
+      "source": "batory",
+      "target": "markiewicz",
+      "relation": "INDIRECT: Iustitia, which he led 2016-2025, received Batory-run money during his presidency: PLN 95,000 (2019, Batory own funds), EUR 22,319 + EUR 44,639 project instalments (2022-23) and EUR 108,000 organisational grant (2022-24, EEA/Norway). No payment to him personally found",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+        "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory_democracy_in_action",
+      "target": "holda_assoc",
+      "relation": "2018: PLN 100,000 to run the Justice Defence Committee (KOS)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2018"
+    },
+    {
+      "source": "batory",
+      "target": "holda_assoc",
+      "relation": "2019: non-competitive grant PLN 100,000, KOS continuation (monitoring, documentation, interventions)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2019"
+    },
+    {
+      "source": "batory",
+      "target": "holda_assoc",
+      "relation": "2020: PLN 100,000 'Dofinansowanie działalności Komitetu Obrony Sprawiedliwości KOS w latach 2020-2021'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2020"
+    },
+    {
+      "source": "holda_assoc",
+      "target": "kos",
+      "relation": "channelled Batory's KOS grants: PLN 300,000 in 2018-2020",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money"
+    },
+    {
+      "source": "osf",
+      "target": "kos",
+      "relation": "INDIRECT: the 2018 Batory programme that paid PLN 100,000 for KOS was co-funded by an OSF grant",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true,
+      "date": "2018"
+    },
+    {
+      "source": "batory",
+      "target": "patyra",
+      "relation": "INDIRECT: member of the Hołda Association, which received PLN 300,000 from Batory for KOS in 2018-2020 (his membership dates not found)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "markiewicz",
+      "relation": "INDIRECT: Iustitia, which he led, was a founding member of KOS, funded by Batory with PLN 300,000 (2018-2020)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "okopress",
+      "relation": "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2017"
+    },
+    {
+      "source": "batory_democracy_in_action",
+      "target": "okopress",
+      "relation": "2018: PLN 300,000 for the OKO.press portal and the Osiatyński Archive",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2018"
+    },
+    {
+      "source": "osf",
+      "target": "markiewicz",
+      "relation": "INDIRECT: sits on the programme council of the Osiatyński Archive, which Batory funded (PLN 100,000 in 2017, PLN 300,000 in 2018) from a programme co-funded by OSF, besides OSF's own USD 310k to OKO.press (2018-20)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.wolterskluwer.com/pl-pl/experts/krystian-markiewicz"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "taborowski",
+      "relation": "INDIRECT: Osiatyński Archive programme council member; Batory funded the Archive with PLN 100,000 (2017) and PLN 300,000 (2018, with OKO.press)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "themis",
+      "relation": "grant 'Wspólnie przeciw dyskryminacji' (anti-discrimination): instalments PLN 76,300 (2014), PLN 76,300 (2015), PLN 2,389.98 (2016), from the Obywatele dla Demokracji programme (EEA Grants run by Batory)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2014-2016"
+    },
+    {
+      "source": "eea",
+      "target": "themis",
+      "relation": "2014-16: EEA Grants money reached Themis via Batory's Obywatele dla Demokracji programme (about PLN 155,000)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "korwin_piotrowska",
+      "relation": "INDIRECT: Themis, which she now presides, got about PLN 155,000 from Batory's EEA-funded programme in 2014-16 (her Themis role at that time not established). No payment to her personally",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "indirect": true
+    },
+    {
+      "source": "batory",
+      "target": "obywatele_rp",
+      "relation": "2020: PLN 30,000 to Fundacja Wolni Obywatele RP (the movement's foundation), 'Dotacje Fundacji Batorego'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf",
+        "https://oko.press/mswia-chce-zawiesic-fundacje-wolni-obywatele-rp-bo-rzekomo-wzywaja-do-lamania-prawa-i-obrazaja-prezydenta"
+      ],
+      "added_by": "lead_osf_batory_money",
+      "date": "2020"
+    }
+  ],
+  "node_updates": {
+    "markiewicz": {
+      "osf_batory_money": "Indirect only: Iustitia under his presidency got Batory grants PLN 95,000 (2019) and Batory-run EEA/Norway grants (EUR 22,319 + 44,639 project, EUR 108,000 organisational, 2022-24); Batory also gave PLN 300,000 to KOS (2018-20), which Iustitia co-founded; Osiatyński Archive council (Batory PLN 400,000 in 2017-18, OSF co-funded). No personal payment found.",
+      "sources_add": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+        "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf"
+      ]
+    },
+    "korwin_piotrowska": {
+      "osf_batory_money": "Indirect only: Themis (she now presides) got about PLN 155,000 from Batory's EEA-funded Obywatele dla Demokracji programme, 2014-16. No personal payment found.",
+      "sources_add": [
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf"
+      ]
+    },
+    "patyra": {
+      "osf_batory_money": "Indirect: Batory Legal Experts Team (no fee found); Hołda Association member, which received PLN 300,000 from Batory for KOS, 2018-20.",
+      "sources_add": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ]
+    },
+    "taborowski": {
+      "osf_batory_money": "Indirect: Batory Legal Experts Team and Oxford fellowship; Osiatyński Archive council (Batory PLN 100,000 in 2017, PLN 300,000 in 2018, OSF co-funded programme).",
+      "sources_add": [
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+      ]
+    },
+    "bentkowska": {
+      "osf_batory_money": "None found. Obywatele RP, whose activists she defended pro bono, got PLN 30,000 from Batory in 2020.",
+      "sources_add": [
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+      ]
+    },
+    "dziurda": {
+      "osf_batory_money": "None found in Batory annual reports 2002-2025 or expert-team lists."
+    },
+    "szostek": {
+      "osf_batory_money": "None found in Batory annual reports 2002-2025 or expert-team lists."
+    },
+    "berek": {
+      "osf_batory_money": "None found in Batory annual reports 2002-2025 or expert-team lists."
+    }
+  },
+  "leads": [
+    {
+      "lead": "Batory money reached the judges' organisations",
+      "result": "Fact, indirect: Iustitia (Markiewicz) got Batory grants in 2002, 2007, 2019 and 2022-24; Themis (Korwin-Piotrowska) in 2014-16; Hołda Association/KOS (Patyra, Iustitia) PLN 300,000 in 2018-20; Osiatyński Archive (Markiewicz, Taborowski) PLN 400,000 in 2017-18. No payment to any judge personally.",
+      "label": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf"
+      ]
+    },
+    {
+      "lead": "That Batory money was Soros/OSF money",
+      "result": "Mixed. OSF co-funded the 2017-18 programme that paid KOS and the Archive (fact). The 2019 Iustitia grant came from Batory own funds, 1% tax and the Polish Business Council; the 2014-16 Themis and 2022-24 Iustitia grants were EEA/Norway money. The 2007 Iustitia grant may have been OSF money (Batory was mostly OSF-funded then) but no line says so.",
+      "label": "speculation",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2007.pdf"
+      ]
+    },
+    {
+      "lead": "Dziurda, Szostek or Berek got OSF or Batory money",
+      "result": "No name or institution hit in Batory reports 2002-2025 (some back halves checked only by summary) or the expert-team lists; OSF grants database could not be read by machine.",
+      "label": "no_link",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2002.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2007.pdf",
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf",
+        "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+      ]
+    }
+  ]
+}
