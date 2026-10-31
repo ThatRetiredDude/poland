@@ -28,6 +28,7 @@
   --accent: #2c5d8f;
   --judge: #c8930f;
   --fact: #1f7a5a;
+  --tie: #5f7288;
   --alleged: #c27409;
   --speculation: #7a4fc2;
   --conspiracy: #c43838;
@@ -50,7 +51,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #15181c; --panel: #1c2026; --ink: #e6e8ea; --muted: #9aa3ad; --line: #2e343c;
-    --accent: #7fb0e0; --judge: #e5b23a; --fact: #3fbf8c; --alleged: #f0a43a; --speculation: #a98af0;
+    --accent: #7fb0e0; --judge: #e5b23a; --fact: #3fbf8c; --tie: #8fa3bf; --alleged: #f0a43a; --speculation: #a98af0;
     --conspiracy: #f06a6a; --nolink: #7c848e; --unlabelled: #bbb;
     --node-person: #6f9ad4; --node-org: #8c95a2; --node-event: #c49c6a; --node-project: #4bbac0;
     --node-policy: #c483b6; --node-group: #a3b45a; --node-other: #59606a;
@@ -59,7 +60,7 @@
 }
 :root[data-theme="dark"] {
   --bg: #15181c; --panel: #1c2026; --ink: #e6e8ea; --muted: #9aa3ad; --line: #2e343c;
-  --accent: #7fb0e0; --judge: #e5b23a; --fact: #3fbf8c; --alleged: #f0a43a; --speculation: #a98af0;
+  --accent: #7fb0e0; --judge: #e5b23a; --fact: #3fbf8c; --tie: #8fa3bf; --alleged: #f0a43a; --speculation: #a98af0;
   --conspiracy: #f06a6a; --nolink: #7c848e; --unlabelled: #bbb;
   --node-person: #6f9ad4; --node-org: #8c95a2; --node-event: #c49c6a; --node-project: #4bbac0;
   --node-policy: #c483b6; --node-group: #a3b45a; --node-other: #59606a;
@@ -104,7 +105,9 @@ main svg:active { cursor: grabbing; }
 .tooltip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 12.5px; max-width: 320px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; }
 
 .link { fill: none; }
-.link.fact { stroke: var(--fact); stroke-width: 1.4; }
+/* Green means money: sourced money ties are green and sized by amount; every other sourced tie is slate. */
+.link.fact { stroke: var(--tie); stroke-width: 1.1; }
+.link.fact.money { stroke: var(--fact); }
 .link.alleged { stroke: var(--alleged); stroke-width: 1.4; stroke-dasharray: 7 4; }
 .link.speculation { stroke: var(--speculation); stroke-width: 1.6; stroke-dasharray: 1.5 4; stroke-linecap: round; }
 .link.unproven_conspiracy { stroke: var(--conspiracy); stroke-width: .9; stroke-dasharray: 6 3; opacity: .85; }
@@ -129,7 +132,7 @@ main svg:active { cursor: grabbing; }
 .detail h3 { font: 600 20px/1.25 var(--font-display); margin: 0 0 6px; text-wrap: balance; }
 .meta-line { color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .pill { display: inline-flex; align-items: center; gap: 5px; padding: 2px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; border: 1.5px solid currentColor; white-space: nowrap; }
-.pill.fact { color: var(--fact); }
+.pill.fact { color: var(--tie); }
 .pill.alleged { color: var(--alleged); border-style: dashed; }
 .pill.speculation { color: var(--speculation); border-style: dotted; }
 .pill.unproven_conspiracy { color: var(--conspiracy); border-style: dashed; }
@@ -404,11 +407,11 @@ const posCache = new Map();
 
 function isJudge(n) { return n.group === "tk_judge"; }
 function makeArrows() {
-  defs.selectAll("marker").data(LABELS.map(l => l.key).concat("unlabelled")).join("marker")
+  defs.selectAll("marker").data(LABELS.map(l => l.key).concat("unlabelled", "money")).join("marker")
     .attr("id", d => "arr-" + d).attr("viewBox", "0 -4 8 8").attr("refX", 8).attr("refY", 0)
     .attr("markerUnits", "userSpaceOnUse").attr("markerWidth", 9).attr("markerHeight", 9).attr("orient", "auto")
     .selectAll("path").data(d => [d]).join("path").attr("d", "M0,-3.5L8,0L0,3.5")
-    .attr("fill", d => cssVar({ fact: "--fact", alleged: "--alleged", speculation: "--speculation", unproven_conspiracy: "--conspiracy", no_link: "--nolink" }[d] || "--unlabelled"));
+    .attr("fill", d => cssVar({ money: "--fact", fact: "--tie", alleged: "--alleged", speculation: "--speculation", unproven_conspiracy: "--conspiracy", no_link: "--nolink" }[d] || "--unlabelled"));
 }
 function nodeSize(n) { return isJudge(n) ? 260 : (n.deg > 10 ? 190 : n.deg > 4 ? 130 : 90); }
 function radius(n) { return Math.sqrt(nodeSize(n) / Math.PI) + 2; }
@@ -505,7 +508,7 @@ function render() {
   const link = gLinks.selectAll("path").data(simLinks, d => d.gk).join("path")
     .attr("class", d => "link " + d.e.label + (d.es.some(e => e.money) ? " money" : ""))
     .style("stroke-width", d => { const w = Math.max(...d.es.map(e => moneyWidth(e) || 0)); return w ? w + "px" : null; })
-    .attr("marker-end", d => d.e.label === "no_link" ? null : `url(#arr-${d.e.label})`);
+    .attr("marker-end", d => d.e.label === "no_link" ? null : `url(#arr-${d.e.label === "fact" && d.es.some(e => e.money) ? "money" : d.e.label})`);
   gHits.selectAll("path").data(simLinks, d => d.gk).join("path").attr("class", "hit")
     .on("click", (ev, d) => { ev.stopPropagation(); select(d.es.length > 1 ? { kind: "pair", id: d.gk } : { kind: "edge", id: d.e.key }); })
     .on("mousemove", (ev, d) => showTip(ev, `<span class="pill ${d.e.label}">${LABEL_NAME[d.e.label]}</span><div style="margin-top:4px"><b>${esc(store.nodes.get(d.e.s).label)}</b> → <b>${esc(store.nodes.get(d.e.t).label)}</b></div>${d.es.some(e => e.money?.usd) ? `<div><b>Money: about ${fmtUSD(Math.max(...d.es.map(e => e.money?.usd || 0)))}</b></div>` : ""}${d.es.length > 1 ? `<div>${d.es.length} claims. Click to see them all.</div>` : `<div>${esc(d.e.relation)}</div>`}`))
@@ -665,7 +668,7 @@ function fit() {
 /* ---------- side panels ---------- */
 function swatch(label) {
   const dash = { fact: "", alleged: "7 4", speculation: "1.5 4", unproven_conspiracy: "6 3", no_link: "1 5", unlabelled: "" }[label];
-  const col = { fact: "--fact", alleged: "--alleged", speculation: "--speculation", unproven_conspiracy: "--conspiracy", no_link: "--nolink", unlabelled: "--unlabelled" }[label];
+  const col = { fact: "--tie", alleged: "--alleged", speculation: "--speculation", unproven_conspiracy: "--conspiracy", no_link: "--nolink", unlabelled: "--unlabelled" }[label];
   return `<svg class="legend-swatch" width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="var(${col})" stroke-width="2.4" stroke-dasharray="${dash}" stroke-linecap="${label === "speculation" || label === "no_link" ? "round" : "butt"}"/></svg>`;
 }
 function shapeIcon(type) {
@@ -779,7 +782,7 @@ function overviewHTML() {
   return `
     <div><h3>How to read this map</h3><p class="empty">Click any node or line to see its sources. Line style shows how solid each claim is. Only fact and alleged links pull nodes together, so closeness on screen means a sourced tie.</p></div>
     <div class="section"><h2>Evidence labels</h2>${LABELS.filter(l => l.key !== "no_link").map(l => `<div class="row" style="cursor:default;align-items:flex-start">${swatch(l.key)}<span><b>${l.name}</b><br><span class="meta-line" style="display:inline">${esc(levels[l.key] || "")}</span></span></div>`).join("")}</div>
-    <div class="section"><h2>Money</h2><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="2.5"/></svg><span class="name">Thicker line = more money. Only money ties get thickness; amounts converted to rough USD.</span></div><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="8"/></svg><span class="name">Large sums, e.g. multi-million funds</span></div></div>
+    <div class="section"><h2>Money</h2><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="2.5"/></svg><span class="name">Green = sourced money tie. Thicker line = more money (amounts converted to rough USD). Other sourced ties are thin slate lines.</span></div><div class="row" style="cursor:default"><svg width="34" height="12" aria-hidden="true"><line x1="1" y1="6" x2="33" y2="6" stroke="var(--fact)" stroke-width="8"/></svg><span class="name">Large sums, e.g. multi-million funds</span></div></div>
     <div class="section"><h2>Shapes</h2>${Object.keys(TYPE_SHAPES).map(t => `<div class="row" style="cursor:default">${shapeIcon(t)}<span class="name" style="text-transform:capitalize">${t}</span></div>`).join("")}
       <div class="row" style="cursor:default"><svg width="16" height="16" viewBox="-8 -8 16 16" aria-hidden="true"><circle r="6" fill="none" stroke="var(--judge)" stroke-width="2.2"/></svg><span class="name">Gold ring: one of the 8 judges</span></div></div>
     <div class="section"><h2>The 8 judges</h2><div class="conn">${judges.map(j => `<button type="button" data-node="${esc(j.id)}"><span class="who">${esc(j.label)}</span>${j.tk_status ? `<span class="rel">${esc(j.tk_status)}</span>` : ""}</button>`).join("")}</div></div>`;
@@ -950,7 +953,7 @@ body { margin: 0; padding: 12px 16px; -webkit-print-color-adjust: exact; print-c
 <button class="btn ex-print" onclick="window.print()">Print / Save as PDF</button>
 <div class="ex-head"><h1>Poland coup d'état relationship map</h1><p>${esc(notes)} · exported ${today}</p></div>
 <div class="ex-map">${new XMLSerializer().serializeToString(clone)}</div>
-<div class="ex-foot">${legend}<span>Thicker line = more money</span><span>Source for every line: thatretireddude.github.io/poland</span></div>
+<div class="ex-foot">${legend}<span class="lg"><svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="var(--fact)" stroke-width="4"/></svg> Money (thicker = more)</span><span>Source for every line: thatretireddude.github.io/poland</span></div>
 <script>window.addEventListener("load", () => setTimeout(() => window.print(), 600));<\/script>
 </body></html>`;
   const w = window.open("", "_blank");
