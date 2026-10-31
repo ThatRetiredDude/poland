@@ -63,33 +63,6 @@
    ]
   },
   {
-   "id": "house_dems",
-   "type": "group",
-   "group": "us_gov",
-   "label": "House Democrats (lame-duck 2024)",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ]
-  },
-  {
-   "id": "pritzker_team",
-   "type": "group",
-   "group": "us_gov",
-   "label": "Gov. JB Pritzker's team (Illinois)",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
-   ]
-  },
-  {
-   "id": "project_2025",
-   "type": "program",
-   "group": "us_policy",
-   "label": "Project 2025 (Heritage policy plan)",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
-   ]
-  },
-  {
    "id": "nato",
    "type": "org",
    "group": "intl_org",
@@ -192,30 +165,6 @@
    "date": "2024-11-13"
   },
   {
-   "source": "house_dems",
-   "target": "trump",
-   "relation": "met to 'put a damper on' Trump plans, get money 'out the door as quickly as possible' (Axios)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-11-11"
-  },
-  {
-   "source": "pritzker_team",
-   "target": "project_2025",
-   "relation": "'literally going through Project 2025' to shield Illinois",
-   "confidence": "fact",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-11"
-  },
-  {
    "source": "nato",
    "target": "trump",
    "relation": "July 2024 Washington summit moves to 'Trump-proof' the alliance (Washington Post)",
@@ -226,17 +175,6 @@
    "added_by": "lead_oped_handover",
    "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-07-10"
-  },
-  {
-   "source": "house_dems",
-   "target": "trump",
-   "relation": "floor posters on how to 'Trump-proof' (recalled but unsourced; not found)",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "watchdog_polska",

@@ -68,15 +68,6 @@
    ]
   },
   {
-   "id": "kpo_rpo",
-   "type": "event",
-   "group": "ngo",
-   "label": "Congress of Civic Rights (Kongres Praw Obywatelskich, Ombudsman's office)",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ]
-  },
-  {
    "id": "morawiec",
    "type": "person",
    "group": "judge",
@@ -287,24 +278,6 @@
    "confidence": "fact",
    "sources": [
     "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
-   ]
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "kpo_rpo",
-   "relation": "panelist at 1st and 2nd Congress of Civic Rights (organised by the Ombudsman's office under Bodnar)",
-   "confidence": "fact",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ]
-  },
-  {
-   "source": "bodnar",
-   "target": "kpo_rpo",
-   "relation": "Ombudsman whose office ran the Congress",
-   "confidence": "fact",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
    ]
   },
   {

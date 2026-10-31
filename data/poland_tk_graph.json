@@ -253,8 +253,12 @@
    "energy_wind": "Government eased onshore wind rules (500 m setback)",
    "sources": [
     "https://en.wikipedia.org/wiki/Donald_Tusk",
-    "https://www.money.pl/polityka/oswiadczenia-majatkowe-za-2025-r-oto-ile-posiadaja-liderzy-partii-7292935548791232a.html"
-   ]
+    "https://www.money.pl/polityka/oswiadczenia-majatkowe-za-2025-r-oto-ile-posiadaja-liderzy-partii-7292935548791232a.html",
+    "https://notesfrompoland.com/2025/01/09/poland-confirms-it-will-not-arrest-netanyahu-on-icc-warrant-if-he-attends-auschwitz-anniversary/",
+    "https://notesfrompoland.com/2023/11/29/outgoing-governments-russian-influence-commission-recommends-tusk-not-hold-public-office/"
+   ],
+   "note_netanyahu_auschwitz": "Netanyahu safe passage for Auschwitz anniversary (2025): government guaranteed safe passage despite ICC warrant (2025-01-09) [fact] Source: https://notesfrompoland.com/2025/01/09/poland-confirms-it-will-not-arrest-netanyahu-on-icc-warrant-if-he-attends-auschwitz-anniversary/",
+   "note_lex_tusk": "\"Lex Tusk\" Russian-influence commission (2023): claimed SKW-FSB cooperation under Tusk; recommended he hold no security posts (2023-11-29) [alleged] Source: https://notesfrompoland.com/2023/11/29/outgoing-governments-russian-influence-commission-recommends-tusk-not-hold-public-office/"
   },
   {
    "id": "nawrocki",
@@ -269,8 +273,13 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Karol_Nawrocki",
     "https://wydarzenia.interia.pl/kraj/news-nowe-oswiadczenie-majatkowe-nawrockiego-wzrosly-oszczednosci,nId,23478492",
-    "https://oko.press/kto-finansowal-nawrockiego-a-kto-trzaskowskiego"
-   ]
+    "https://oko.press/kto-finansowal-nawrockiego-a-kto-trzaskowskiego",
+    "https://news.online.ua/en/navrosky-vetoed-the-law-on-continuing-support-for-ukrainian-refugees-in-poland-whats-next-896448/",
+    "https://notesfrompoland.com/2025/08/26/polish-president-proposes-law-making-ukrainian-refugee-benefits-conditional/",
+    "https://pro.rp.pl/raporty-ekonomiczne/art43845341-salomonowy-ruch-prezydenta-w-sprawie-lex-huawei-cyberbezpieczenstwo-na-nowych-zasadach"
+   ],
+   "note_ukraine_refugee_bill": "Ukrainian refugee aid bill (vetoed Aug 2025): vetoed; proposed conditional version (2025-08-25) [fact] Source: https://news.online.ua/en/navrosky-vetoed-the-law-on-continuing-support-for-ukrainian-refugees-in-poland-whats-next-896448/ ; https://notesfrompoland.com/2025/08/26/polish-president-proposes-law-making-ukrainian-refugee-benefits-conditional/",
+   "note_lex_huawei": "\"Lex Huawei\" cybersecurity law (Feb 2026): signed; referred parts to TK (2026-02-19) [fact] Source: https://pro.rp.pl/raporty-ekonomiczne/art43845341-salomonowy-ruch-prezydenta-w-sprawie-lex-huawei-cyberbezpieczenstwo-na-nowych-zasadach"
   },
   {
    "id": "swieczkowski",
@@ -495,15 +504,6 @@
    ]
   },
   {
-   "id": "eec",
-   "type": "event",
-   "group": "event",
-   "label": "European Economic Congress 2025",
-   "sources": [
-    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
-   ]
-  },
-  {
    "id": "batory",
    "type": "org",
    "group": "ngo",
@@ -577,7 +577,8 @@
    ],
    "legal": "Informal initiative July 2017; foundation 2020, KRS 0000829554, Warsaw",
    "founders": "Gregorczyk-Abram, Ejchart, Kieszkowska, Wawrykiewicz",
-   "funding": "OSF $130k (2023-24); partners NED, Böll Warsaw, Wolna Gospodarka (no amounts); individual donors; no financial report published"
+   "funding": "OSF $130k (2023-24); partners NED, Böll Warsaw, Wolna Gospodarka (no amounts); individual donors; no financial report published",
+   "note_fc_small_donors": "Free Courts individual donors: foundation says it runs 'only thanks to donors' payments'; no totals published [fact] Source: https://wspieraj.wolnesady.org/"
   },
   {
    "id": "osiatynski",
@@ -771,24 +772,6 @@
    ]
   },
   {
-   "id": "ukraine_refugee_bill",
-   "type": "event",
-   "group": "legislation",
-   "label": "Ukrainian refugee aid bill (vetoed Aug 2025)",
-   "sources": [
-    "https://news.online.ua/en/navrosky-vetoed-the-law-on-continuing-support-for-ukrainian-refugees-in-poland-whats-next-896448/"
-   ]
-  },
-  {
-   "id": "netanyahu_auschwitz",
-   "type": "event",
-   "group": "event",
-   "label": "Netanyahu safe passage for Auschwitz anniversary (2025)",
-   "sources": [
-    "https://notesfrompoland.com/2025/01/09/poland-confirms-it-will-not-arrest-netanyahu-on-icc-warrant-if-he-attends-auschwitz-anniversary/"
-   ]
-  },
-  {
    "id": "gazprom",
    "type": "org",
    "group": "energy",
@@ -813,15 +796,6 @@
    "label": "China-CEE Investment Cooperation Fund (China Exim Bank)",
    "sources": [
     "https://www.gramwzielone.pl/energia-wiatrowa/11903/pep-przejmie-aktywa-polenergii-holding-i-pozyska-inwestora-z-chin"
-   ]
-  },
-  {
-   "id": "lex_tusk",
-   "type": "event",
-   "group": "event",
-   "label": "\"Lex Tusk\" Russian-influence commission (2023)",
-   "sources": [
-    "https://notesfrompoland.com/2023/11/29/outgoing-governments-russian-influence-commission-recommends-tusk-not-hold-public-office/"
    ]
   },
   {
@@ -1011,15 +985,6 @@
    ]
   },
   {
-   "id": "lex_huawei",
-   "type": "event",
-   "group": "legislation",
-   "label": "\"Lex Huawei\" cybersecurity law (Feb 2026)",
-   "sources": [
-    "https://pro.rp.pl/raporty-ekonomiczne/art43845341-salomonowy-ruch-prezydenta-w-sprawie-lex-huawei-cyberbezpieczenstwo-na-nowych-zasadach"
-   ]
-  },
-  {
    "id": "duda",
    "type": "person",
    "group": "politician",
@@ -1053,15 +1018,6 @@
    "label": "Fundacja Wolna Gospodarka",
    "sources": [
     "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "id": "fc_small_donors",
-   "type": "group",
-   "group": "funder",
-   "label": "Free Courts individual donors",
-   "sources": [
-    "https://wspieraj.wolnesady.org/"
    ]
   },
   {
@@ -1194,34 +1150,6 @@
    "sources": [
     "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada",
     "https://pl.euronews.com/2026/10/31/nocna-eskalacja-w-trybunale-konstytucyjnym-nawrocki-oskarza-rzad-o-silowe-przejecie-zurek-"
-   ]
-  },
-  {
-   "id": "nicaragua_1990",
-   "type": "event",
-   "group": "foreign_election",
-   "label": "Nicaragua 1990 election",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ]
-  },
-  {
-   "id": "venezuela_2002",
-   "type": "event",
-   "group": "foreign_coup",
-   "label": "Venezuela April 2002 coup attempt",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://znetwork.org/znetarticle/ned-in-venezuela-by-bart-jones/"
-   ]
-  },
-  {
-   "id": "hong_kong_2019",
-   "type": "event",
-   "group": "foreign_protest",
-   "label": "Hong Kong 2019 protests",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
    ]
   },
   {
@@ -1368,33 +1296,6 @@
    "label": "Ukrainian government",
    "sources": [
     "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
-   ]
-  },
-  {
-   "id": "house_dems",
-   "type": "group",
-   "group": "us_gov",
-   "label": "House Democrats (lame-duck 2024)",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ]
-  },
-  {
-   "id": "pritzker_team",
-   "type": "group",
-   "group": "us_gov",
-   "label": "Gov. JB Pritzker's team (Illinois)",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
-   ]
-  },
-  {
-   "id": "project_2025",
-   "type": "program",
-   "group": "us_policy",
-   "label": "Project 2025 (Heritage policy plan)",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
    ]
   },
   {
@@ -1823,16 +1724,6 @@
    "label": "Opole legal-adviser (radca prawny) exam commission",
    "sources": [
     "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
-   ],
-   "added_by": "lead_korwin_piotrowska"
-  },
-  {
-   "id": "kpo_rpo",
-   "type": "event",
-   "group": "ngo",
-   "label": "Congress of Civic Rights (Kongres Praw Obywatelskich, Ombudsman's office)",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
    ],
    "added_by": "lead_korwin_piotrowska"
   },
@@ -2659,42 +2550,6 @@
    ]
   },
   {
-   "source": "markiewicz",
-   "target": "eec",
-   "relation": "speaker, rule-of-law panel",
-   "confidence": "fact",
-   "sources": [
-    "https://www.eecpoland.eu/2025/en/panel/7204.html"
-   ]
-  },
-  {
-   "source": "orlen",
-   "target": "eec",
-   "relation": "main sponsor",
-   "confidence": "fact",
-   "sources": [
-    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
-   ]
-  },
-  {
-   "source": "pge",
-   "target": "eec",
-   "relation": "main sponsor",
-   "confidence": "fact",
-   "sources": [
-    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
-   ]
-  },
-  {
-   "source": "polenergia",
-   "target": "eec",
-   "relation": "partner",
-   "confidence": "fact",
-   "sources": [
-    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
-   ]
-  },
-  {
    "source": "osf",
    "target": "batory",
    "relation": "founder (Soros, 1988); grants e.g. $340k 2014; donor 2023 and 2025",
@@ -3069,27 +2924,6 @@
    ]
   },
   {
-   "source": "nawrocki",
-   "target": "ukraine_refugee_bill",
-   "relation": "vetoed; proposed conditional version",
-   "confidence": "fact",
-   "date": "2025-08-25",
-   "sources": [
-    "https://news.online.ua/en/navrosky-vetoed-the-law-on-continuing-support-for-ukrainian-refugees-in-poland-whats-next-896448/",
-    "https://notesfrompoland.com/2025/08/26/polish-president-proposes-law-making-ukrainian-refugee-benefits-conditional/"
-   ]
-  },
-  {
-   "source": "tusk",
-   "target": "netanyahu_auschwitz",
-   "relation": "government guaranteed safe passage despite ICC warrant",
-   "confidence": "fact",
-   "date": "2025-01-09",
-   "sources": [
-    "https://notesfrompoland.com/2025/01/09/poland-confirms-it-will-not-arrest-netanyahu-on-icc-warrant-if-he-attends-auschwitz-anniversary/"
-   ]
-  },
-  {
    "source": "tusk",
    "target": "gazprom",
    "relation": "government signed PGNiG-Gazprom deal up to 10.2 bcm/yr (2010)",
@@ -3135,16 +2969,6 @@
    "confidence": "no_link",
    "sources": [
     "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
-   ]
-  },
-  {
-   "source": "lex_tusk",
-   "target": "tusk",
-   "relation": "claimed SKW-FSB cooperation under Tusk; recommended he hold no security posts",
-   "confidence": "alleged",
-   "date": "2023-11-29",
-   "sources": [
-    "https://notesfrompoland.com/2023/11/29/outgoing-governments-russian-influence-commission-recommends-tusk-not-hold-public-office/"
    ]
   },
   {
@@ -3534,16 +3358,6 @@
    ]
   },
   {
-   "source": "nawrocki",
-   "target": "lex_huawei",
-   "relation": "signed; referred parts to TK",
-   "confidence": "fact",
-   "date": "2026-02-19",
-   "sources": [
-    "https://pro.rp.pl/raporty-ekonomiczne/art43845341-salomonowy-ruch-prezydenta-w-sprawie-lex-huawei-cyberbezpieczenstwo-na-nowych-zasadach"
-   ]
-  },
-  {
    "source": "duda",
    "target": "xi",
    "relation": "state visit to Beijing",
@@ -3620,16 +3434,6 @@
    "confidence": "fact",
    "sources": [
     "https://wolnesady.org/en/"
-   ],
-   "added_by": "lead_free_courts_osf"
-  },
-  {
-   "source": "fc_small_donors",
-   "target": "free_courts",
-   "relation": "foundation says it runs 'only thanks to donors' payments'; no totals published",
-   "confidence": "fact",
-   "sources": [
-    "https://wspieraj.wolnesady.org/"
    ],
    "added_by": "lead_free_courts_osf"
   },
@@ -4239,39 +4043,6 @@
    "added_by": "lead_free_courts_osf"
   },
   {
-   "source": "ned",
-   "target": "nicaragua_1990",
-   "relation": "funded opposition-side groups before the 1990 election that ousted the Sandinistas",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "1989-1990"
-  },
-  {
-   "source": "ned",
-   "target": "venezuela_2002",
-   "relation": "funded Venezuelan groups whose leaders backed the 2002 coup against Chávez",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://znetwork.org/znetarticle/ned-in-venezuela-by-bart-jones/"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "2002"
-  },
-  {
-   "source": "ned",
-   "target": "venezuela_2002",
-   "relation": "NED planned or directed the coup",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf"
-  },
-  {
    "source": "russia_state",
    "target": "ned",
    "relation": "first group banned as 'undesirable' (July 2015), called a threat to Russian security",
@@ -4294,17 +4065,6 @@
    ],
    "added_by": "lead_free_courts_osf",
    "date": "2019-12"
-  },
-  {
-   "source": "ned",
-   "target": "hong_kong_2019",
-   "relation": "instigated / ran the protests (Chinese state claim); NED funded HK civil-society groups but no evidence it ran protests",
-   "confidence": "alleged",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://news.cgtn.com/news/2019-09-07/Attempts-to-instigate-color-revolutions-in-Hong-Kong-doomed-to-failure-JMGi08sF0Y/share_amp.html"
-   ],
-   "added_by": "lead_free_courts_osf"
   },
   {
    "source": "trump_admin",
@@ -4997,30 +4757,6 @@
    "date": "2024-11-13"
   },
   {
-   "source": "house_dems",
-   "target": "trump",
-   "relation": "met to 'put a damper on' Trump plans, get money 'out the door as quickly as possible' (Axios)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-11-11"
-  },
-  {
-   "source": "pritzker_team",
-   "target": "project_2025",
-   "relation": "'literally going through Project 2025' to shield Illinois",
-   "confidence": "fact",
-   "sources": [
-    "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked",
-   "date": "2024-11"
-  },
-  {
    "source": "nato",
    "target": "trump",
    "relation": "July 2024 Washington summit moves to 'Trump-proof' the alliance (Washington Post)",
@@ -5031,17 +4767,6 @@
    "added_by": "lead_oped_handover",
    "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-07-10"
-  },
-  {
-   "source": "house_dems",
-   "target": "trump",
-   "relation": "floor posters on how to 'Trump-proof' (recalled but unsourced; not found)",
-   "confidence": "no_link",
-   "sources": [
-    "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
-   ],
-   "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "watchdog_polska",
@@ -6327,26 +6052,6 @@
   },
   {
    "source": "korwin_piotrowska",
-   "target": "kpo_rpo",
-   "relation": "panelist at 1st and 2nd Congress of Civic Rights (organised by the Ombudsman's office under Bodnar)",
-   "confidence": "fact",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ],
-   "added_by": "lead_korwin_piotrowska"
-  },
-  {
-   "source": "bodnar",
-   "target": "kpo_rpo",
-   "relation": "Ombudsman whose office ran the Congress",
-   "confidence": "fact",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
-   ],
-   "added_by": "lead_korwin_piotrowska"
-  },
-  {
-   "source": "korwin_piotrowska",
    "target": "echr",
    "relation": "second application with Markiewicz, Taborowski, Dziurda over being blocked from adjudicating (2 Jun 2026); lawyer not named",
    "confidence": "fact",
@@ -7358,6 +7063,45 @@
    "sources": [
     "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
     "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ]
+  },
+  {
+   "source": "markiewicz",
+   "target": "orlen",
+   "relation": "spoke at European Economic Congress 2025 (main sponsor: Orlen (state))",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/panel/7204.html",
+    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
+   ]
+  },
+  {
+   "source": "markiewicz",
+   "target": "pge",
+   "relation": "spoke at European Economic Congress 2025 (main sponsor: PGE (state))",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/panel/7204.html",
+    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
+   ]
+  },
+  {
+   "source": "markiewicz",
+   "target": "polenergia",
+   "relation": "spoke at European Economic Congress 2025 (partner: Polenergia)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/panel/7204.html",
+    "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
+   ]
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "bodnar",
+   "relation": "panelist at the Congress of Civic Rights run by his Ombudsman office",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
    ]
   }
  ],

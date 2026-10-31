@@ -25,15 +25,6 @@
    ]
   },
   {
-   "id": "fc_small_donors",
-   "type": "group",
-   "group": "funder",
-   "label": "Free Courts individual donors",
-   "sources": [
-    "https://wspieraj.wolnesady.org/"
-   ]
-  },
-  {
    "id": "democrisis",
    "type": "org",
    "group": "ngo",
@@ -203,15 +194,6 @@
    "confidence": "fact",
    "sources": [
     "https://wolnesady.org/en/"
-   ]
-  },
-  {
-   "source": "fc_small_donors",
-   "target": "free_courts",
-   "relation": "foundation says it runs 'only thanks to donors' payments'; no totals published",
-   "confidence": "fact",
-   "sources": [
-    "https://wspieraj.wolnesady.org/"
    ]
   },
   {
@@ -767,39 +749,6 @@
    "added_by": "lead_free_courts_osf"
   },
   {
-   "source": "ned",
-   "target": "nicaragua_1990",
-   "relation": "funded opposition-side groups before the 1990 election that ousted the Sandinistas",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "1989-1990"
-  },
-  {
-   "source": "ned",
-   "target": "venezuela_2002",
-   "relation": "funded Venezuelan groups whose leaders backed the 2002 coup against Chávez",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://znetwork.org/znetarticle/ned-in-venezuela-by-bart-jones/"
-   ],
-   "added_by": "lead_free_courts_osf",
-   "date": "2002"
-  },
-  {
-   "source": "ned",
-   "target": "venezuela_2002",
-   "relation": "NED planned or directed the coup",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
-   ],
-   "added_by": "lead_free_courts_osf"
-  },
-  {
    "source": "russia_state",
    "target": "ned",
    "relation": "first group banned as 'undesirable' (July 2015), called a threat to Russian security",
@@ -822,17 +771,6 @@
    ],
    "added_by": "lead_free_courts_osf",
    "date": "2019-12"
-  },
-  {
-   "source": "ned",
-   "target": "hong_kong_2019",
-   "relation": "instigated / ran the protests (Chinese state claim); NED funded HK civil-society groups but no evidence it ran protests",
-   "confidence": "alleged",
-   "sources": [
-    "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
-    "https://news.cgtn.com/news/2019-09-07/Attempts-to-instigate-color-revolutions-in-Hong-Kong-doomed-to-failure-JMGi08sF0Y/share_amp.html"
-   ],
-   "added_by": "lead_free_courts_osf"
   },
   {
    "source": "trump_admin",
