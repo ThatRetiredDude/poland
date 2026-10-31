@@ -342,6 +342,101 @@
    "raised_in": [
     "grok-v1 branch"
    ]
+  },
+  {
+   "id": "patyra_named_tk_cases",
+   "claim": "The prosecutor's statement reproduces Patyra's panel allegations for TK cases K 3/26, Kpt 1/26, U 2/26 and K 22/26",
+   "status": "misleading",
+   "about": [
+    "patyra",
+    "swieczkowski"
+   ],
+   "checked": "The 1 Oct 2026 prosecutor statement names no TK case numbers and no specific panels. The case list may come from another document; none was cited.",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ],
+   "raised_in": [
+    6
+   ]
+  },
+  {
+   "id": "kp_sochanski_order",
+   "claim": "On 30 Oct 2026 Korwin-Piotrowska issued a separate order imposing a one-month break in duties on Vice-President Sochański",
+   "status": "needs_source",
+   "about": [
+    "korwin_piotrowska",
+    "sochanski"
+   ],
+   "checked": "The TK information page title names both Święczkowski and Sochański, but the page and the order PDFs could not be read (blocked). Needs a readable copy or press report.",
+   "sources": [
+    "https://trybunal.gov.pl/wiadomosci/uroczystosci-spotkania-wyklady/art/informacja-w-sprawie-zarzadzenia-przerwy-w-czynnosciach-sluzbowych-bogdana-swieczkowskiego-oraz-bartlomieja-sochanskiego-na-podstawie-art-130-ustawy-prawo-o-ustroju-sadow-powszechnych"
+   ],
+   "raised_in": [
+    6
+   ]
+  },
+  {
+   "id": "kp_order_grounds",
+   "claim": "The 30 Oct order invokes art. 12(4)/11(2) TK Act, art. 130(1) common courts law, art. 10(1) Supreme Court Act and art. 19/30 TK judges status act, and lists seven grounds (assembly and 2027 budget, five judges not admitted, ECHR interim measure of 5 May 2026, outsiders at Berek's oath, political statements, panel order, delays)",
+   "status": "needs_source",
+   "about": [
+    "korwin_piotrowska",
+    "swieczkowski"
+   ],
+   "checked": "Order PDFs blocked to automated reading. The map already carries Patyra's note giving the main reasons. Needs a readable copy.",
+   "sources": [
+    "https://trybunal.gov.pl/wiadomosci/uroczystosci-spotkania-wyklady/art/informacja-w-sprawie-zarzadzenia-przerwy-w-czynnosciach-sluzbowych-bogdana-swieczkowskiego-oraz-bartlomieja-sochanskiego-na-podstawie-art-130-ustawy-prawo-o-ustroju-sadow-powszechnych"
+   ],
+   "raised_in": [
+    6
+   ]
+  },
+  {
+   "id": "nik_pfn_633m",
+   "claim": "NIK (Supreme Audit Office) put funding for the PFN system at PLN 633m+ through 2026",
+   "status": "needs_source",
+   "about": [
+    "pfn",
+    "nik"
+   ],
+   "checked": "Not in the Polsat (15 Jul 2026) or OKO.press (2017) articles. The cited Polskie Radio article could not be read.",
+   "sources": [],
+   "raised_in": [
+    5
+   ]
+  },
+  {
+   "id": "fair_courts_8_43m",
+   "claim": "PLN 8.43m is the amount of the Fair Courts campaign",
+   "status": "misleading",
+   "about": [
+    "pfn",
+    "swirski"
+   ],
+   "checked": "Prosecutors give 'at least PLN 8.4m' as alleged damage to PFN, not the campaign cost. OKO.press put the campaign budget at about PLN 10m.",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-07-15/zarzuty-dla-macieja-s-byly-szef-krrit-zatrzymany-przez-cba/",
+    "https://oko.press/swirski-klamal-pr-owcy-premier-szydlo-dostali-sprawiedliwe-sady-12-mln-a-240-tys-zl-spotka-kara"
+   ],
+   "raised_in": [
+    5
+   ]
+  },
+  {
+   "id": "solvere_detainees",
+   "claim": "Former Solvere board members Anna P. and Piotr M. were detained in the PFN investigation",
+   "status": "needs_source",
+   "about": [
+    "solvere",
+    "pfn"
+   ],
+   "checked": "TVP (23 Sep 2026) confirms CBA detained 'Piotr M. and Anna P.' on the Rzeszów prosecutor's order, but does not name Solvere. Linking them to Solvere is an inference from founders' initials. Private individuals: not mapped without a source naming the link.",
+   "sources": [
+    "https://www.tvp.info/95538303/w-warszawie-na-polecenie-prokuratury-regionalnej-w-rzeszowie-agenci-cba-zatrzymali-piotra-m-i-anne-p-prokuratura-w-rzeszowie-prowadzi-sledztwo-dotyczace-nieprawidlowosci-w-polskiej-fundacji-narodowej"
+   ],
+   "raised_in": [
+    5
+   ]
   }
  ]
 }

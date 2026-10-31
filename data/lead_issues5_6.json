@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "title": "Verified items from submitted tips (issues #5 and #6: PFN and Fair Courts campaign; TK investigations)",
+  "as_of": "2026-10-31",
+  "notes": "Only claims from issues #5 and #6 that were new to the map and checked against the cited source. Prosecutor statements are the prosecution's account, not court findings. Claims still waiting on a source, and claims judged misleading, are in held_claims.json."
+ },
+ "nodes": [
+  {
+   "id": "pk_case_1001_14",
+   "type": "event",
+   "group": "government",
+   "label": "Prosecutor investigation 1001-14.Ds.16.2026 (TK judges denied work and pay)",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ]
+  },
+  {
+   "id": "swirski",
+   "type": "person",
+   "group": "government",
+   "label": "Maciej Świrski (ex-PFN board member, ex-KRRiT head)",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-07-15/zarzuty-dla-macieja-s-byly-szef-krrit-zatrzymany-przez-cba/"
+   ]
+  },
+  {
+   "id": "solvere",
+   "type": "org",
+   "group": "business",
+   "label": "Solvere (PR firm, 2017 'Sprawiedliwe Sądy' campaign)",
+   "sources": [
+    "https://oko.press/swirski-klamal-pr-owcy-premier-szydlo-dostali-sprawiedliwe-sady-12-mln-a-240-tys-zl-spotka-kara"
+   ]
+  }
+ ],
+ "node_updates": {
+  "pfn": {
+   "founded": "2016 by 17 State Treasury companies",
+   "sources_add": [
+    "https://www.polsatnews.pl/wiadomosc/2026-07-15/zarzuty-dla-macieja-s-byly-szef-krrit-zatrzymany-przez-cba/"
+   ]
+  }
+ },
+ "edges": [
+  {
+   "source": "patyra",
+   "target": "swieczkowski",
+   "relation": "filed a criminal notification (dated 28 Sep 2026, received 29 Sep) accusing him of exceeding his powers by assigning TK panels against art. 38(1) of the TK Act, Jan to 7 Sep 2026 (art. 231 kk); an accusation, not a finding",
+   "confidence": "fact",
+   "date": "2026-09-28",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "pk_case_1001_14",
+   "relation": "his notification was joined to this existing investigation (prosecutor statement, 1 Oct 2026)",
+   "confidence": "fact",
+   "date": "2026-10-01",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ]
+  },
+  {
+   "source": "pk_case_1001_14",
+   "target": "tk",
+   "relation": "investigates alleged failure by TK officials to give four judges work, pay and cases (art. 231 §1 and 218 §1a kk); the four are not named",
+   "confidence": "fact",
+   "date": "2026",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "pk_case_1001_14",
+   "relation": "handled by the prosecutors' team on the KRS and its appointees, set up by his order No. 30/2025 (12 Sep 2025)",
+   "confidence": "fact",
+   "date": "2025-09-12",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-w-sprawie-zawiadomienia-zlozonego-przez-sedziego-trybunalu-konstytucyjnego-slawomira-patyre"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "swieczkowski",
+   "relation": "30 Sep 2025: asked the TK to allow his prosecution (Pegasus team No. 3); prosecutors allege that as National Prosecutor (Jul 2020 to Jun 2021) he directed unauthorised oversight of Giertych surveillance and copying of the material",
+   "confidence": "fact",
+   "date": "2025-09-30",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/wnioski-o-uchylenie-immunitetu-sedziemu-trybunalu-konstytucyjnego-bogdanowi-swieczkowskiemu-oraz-prokuratorowi-prokuratury-krajowej-pawlowi-wilkoszewskiemu"
+   ]
+  },
+  {
+   "source": "tk",
+   "target": "swieczkowski",
+   "relation": "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified files and the resolution has no legal effect",
+   "confidence": "fact",
+   "date": "2025-10-15",
+   "sources": [
+    "https://www.gov.pl/web/prokuratura-krajowa/komunikat-o-nierozpoznaniu-przez-zgromadzenie-ogolne-sedziow-trybunalu-konstytucyjnego-wniosku-o-uchylenie-immunitetu-bogdanowi-swieczkowskiemu"
+   ]
+  },
+  {
+   "source": "swirski",
+   "target": "pfn",
+   "relation": "board member (2017)",
+   "confidence": "fact",
+   "date": "2017",
+   "sources": [
+    "https://oko.press/swirski-klamal-pr-owcy-premier-szydlo-dostali-sprawiedliwe-sady-12-mln-a-240-tys-zl-spotka-kara",
+    "https://www.polsatnews.pl/wiadomosc/2026-07-15/zarzuty-dla-macieja-s-byly-szef-krrit-zatrzymany-przez-cba/"
+   ]
+  },
+  {
+   "source": "swirski",
+   "target": "pfn",
+   "relation": "charged 14 Jul 2026 by Rzeszów regional prosecutors, with fellow board member Cezary J., with abuse of power over the 2017 'Sprawiedliwe Sądy' campaign; alleged damage to PFN at least PLN 8.4m; both deny",
+   "confidence": "alleged",
+   "date": "2026-07-14",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-07-15/zarzuty-dla-macieja-s-byly-szef-krrit-zatrzymany-przez-cba/"
+   ]
+  },
+  {
+   "source": "pfn",
+   "target": "solvere",
+   "relation": "paid about PLN 1.2m on four invoices for 2017 'Sprawiedliwe Sądy' campaign work (Onet, via OKO.press)",
+   "confidence": "fact",
+   "date": "2017",
+   "sources": [
+    "https://oko.press/swirski-klamal-pr-owcy-premier-szydlo-dostali-sprawiedliwe-sady-12-mln-a-240-tys-zl-spotka-kara"
+   ]
+  }
+ ]
+}
