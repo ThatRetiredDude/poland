@@ -1,1 +1,85 @@
-PLACEHOLDER
+{
+  "meta": {
+    "title": "Lead: Batory/OSF funding and organizational ties to TK-related judges and associations (grok-v1)",
+    "as_of": "2026-10-31",
+    "added_by": "grok-v1",
+    "notes": [
+      "Hard financial and membership ties drawn from Stefan Batory Foundation annual reports (primary source) and official announcements.",
+      "Focuses on new or reinforced money flows and expert/membership links, not contemporaneous crisis reporting.",
+      "Civil Society Fund is the successor programme to Active Citizens Fund, now under Tusk government period."
+    ]
+  },
+  "nodes": [
+    {
+      "id": "civil_society_fund_2025",
+      "type": "project",
+      "group": "funding",
+      "label": "EEA/Norway Civil Society Fund Poland 2025-2031 (~83.47M EUR total; Batory-led consortium)",
+      "date": "2025-2031",
+      "sources": [
+        "https://www.batory.org.pl/en/2025/06/10/another-round-of-support-for-civil-society-organisations-in-poland-is-being-launched/",
+        "https://eeagrants.org/en/poland/news/civil-society-fund-launched-new-support-ngos-coming-soon"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "batory",
+      "target": "iustitia",
+      "relation": "institutional grants in 2024: 10,000 EUR + additional 8,000 EUR (from Batory 2024 annual report Dotacje Fundacji Batorego section)",
+      "confidence": "fact",
+      "date": "2024",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "markiewicz",
+      "target": "batory",
+      "relation": "speaker at Batory conference 'Evolution of the State and the Law: Reflections on a Year of Rebuilding the Rule of Law' (28-29 Nov 2024); listed as Iustitia president",
+      "confidence": "fact",
+      "date": "2024-11",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "taborowski",
+      "target": "zep_batory",
+      "relation": "explicitly listed as member of Batory Legal Experts Team in 2024 annual report",
+      "confidence": "fact",
+      "date": "2024",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf",
+        "https://www.batory.org.pl/o-nas/zespoly-eksperckie/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "batory",
+      "target": "civil_society_fund_2025",
+      "relation": "lead organisation of consortium operating the ~83.47M EUR EEA/Norway Civil Society Fund (2025-2031); first thematic call launched May 2026",
+      "confidence": "fact",
+      "date": "2025-",
+      "sources": [
+        "https://www.batory.org.pl/en/2025/06/10/another-round-of-support-for-civil-society-organisations-in-poland-is-being-launched/",
+        "https://eeagrants.org/en/poland/news/civil-society-fund-launched-new-support-ngos-coming-soon",
+        "https://www.batory.org.pl/2026/05/29/pierwszy-konkurs-na-projekty-tematyczne/"
+      ],
+      "added_by": "grok-v1"
+    },
+    {
+      "source": "iustitia",
+      "target": "markiewicz",
+      "relation": "president (long-serving; confirmed in Batory 2024 report and contemporaneous sources)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.batory.org.pl/wp-content/uploads/2026/05/Internet_Sprawozdanie_2024_PL_z-opinia.pdf",
+        "https://pl.wikipedia.org/wiki/Krystian_Markiewicz"
+      ],
+      "added_by": "grok-v1"
+    }
+  ]
+}
