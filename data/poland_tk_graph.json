@@ -19,7 +19,8 @@
   "companions": [
    "lead_free_courts_osf.json",
    "lead_funders_ned_osf_usaid.json",
-   "lead_oped_handover.json"
+   "lead_oped_handover.json",
+   "lead_korwin_piotrowska.json"
   ],
   "oped_flags": [
    "Op-ed calls the judge 'Krystyna' Korwin-Piotrowska; every source says Anna.",
@@ -90,13 +91,20 @@
    "energy_wind": "None found",
    "born": "1969",
    "education": "Law, Univ. of Wroclaw; postgraduate SGH",
-   "career": "Judge from 1999; president Kedzierzyn-Kozle court 2003; Opole court vice-president (removed 2017), president from 2024",
-   "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings; president of Themis judges' association",
+   "career": "Judicial apprenticeship 1995-97; judge Kedzierzyn-Kozle district court 1999; its president from 1 Jun 2003 (second term 2007-09); Opole regional court judge 2006; Opole vice-president 2012-17 (removed by fax, Ziobro ministry, Dec 2017); Opole president 2024 (appointed by Bodnar); civil, enforcement, labour and commercial cases; court mediation promoter; lecturer for trainee advocates and legal advisers",
+   "money_affiliations": "2025 declaration: 150 m2 house, 95 m2 flat, PLN 170,868.92 mortgage, ~PLN 21k + EUR 312 savings. 2026: chair of Opole legal-adviser exam commission (Zurek ordinance 17 Feb 2026), fee ~PLN 7k. ECHR settlement EUR 15k (2024). President of Themis (MEDEL member). No private practice, firm, client, company, board or grant found",
    "sources": [
     "https://www.money.pl/finanse/awantura-o-trybunal-konstytucyjny-taki-majatek-ma-sedzia-korwin-piotrowska-7345879794936288a.html",
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
-    "https://oko.press/pilne-prezes-tk-swieczkowski-i-zastepca-zawieszeni-trybunalem-kieruje-sedzia-korwin-piotrowska"
-   ]
+    "https://oko.press/pilne-prezes-tk-swieczkowski-i-zastepca-zawieszeni-trybunalem-kieruje-sedzia-korwin-piotrowska",
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl",
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
+   ],
+   "birthplace": "Not found in any source",
+   "family": "No spouse or relatives found in any source; no documented family tie to journalist Karolina Korwin-Piotrowska or politician Janusz Korwin-Mikke",
+   "tk_oath": "Took oath in the Sejm before a notary on 9 Apr 2026; refused to resign her Opole judgeship (Apr 2026)"
   },
   {
    "id": "dziurda",
@@ -1511,6 +1519,342 @@
    "sources": [
     "https://www.nucnet.org/news/us-development-finance-corporation-signs-letter-of-intent-for-usd979-million-nuclear-loan-11-3-2024"
    ]
+  },
+  {
+   "id": "police_warsaw",
+   "type": "org",
+   "group": "government",
+   "label": "Warsaw Police HQ",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art45423931-co-dzieje-sie-w-trybunale-konstytucyjnym-policja-i-zawieszenie-swieczkowskiego"
+   ]
+  },
+  {
+   "id": "codification_commission",
+   "type": "org",
+   "group": "government",
+   "label": "Justice Ministry codification commission",
+   "sources": [
+    "https://ruleoflaw.pl/poland-reforms-courts-codification-commission/"
+   ]
+  },
+  {
+   "id": "tvp",
+   "type": "org",
+   "group": "media",
+   "label": "TVP / Polish Radio / PAP (public media)",
+   "sources": [
+    "https://www.prawo.pl/biznes/oddalenie-wniosku-o-otwarcie-likwidacji-tvp-z-powolaniem-na-wyrok-tk,525058.html"
+   ]
+  },
+  {
+   "id": "barski",
+   "type": "person",
+   "group": "government",
+   "label": "Dariusz Barski (PiS-era National Prosecutor)",
+   "sources": [
+    "https://notesfrompoland.com/2024/09/30/appointee-of-former-government-barred-from-prosecutors-office-despite-supreme-court-ruling/"
+   ]
+  },
+  {
+   "id": "pegasus",
+   "type": "event",
+   "group": "event",
+   "label": "Pegasus spyware use (2017-2023)",
+   "sources": [
+    "https://oko.press/ap-telefony-romana-giertycha-i-prok-ewy-wrzosek-byly-sledzone-z-pomoca-pegasusa"
+   ]
+  },
+  {
+   "id": "giertych",
+   "type": "person",
+   "group": "politician",
+   "label": "Roman Giertych (Tusk lawyer, KO MP)",
+   "sources": [
+    "https://oko.press/ap-telefony-romana-giertycha-i-prok-ewy-wrzosek-byly-sledzone-z-pomoca-pegasusa"
+   ]
+  },
+  {
+   "id": "justice_fund",
+   "type": "org",
+   "group": "government",
+   "label": "Justice Fund (Fundusz Sprawiedliwości)",
+   "sources": [
+    "https://oko.press/ujawniamy-szczegoly-26-zarzutow-dla-ziobry-54-mln-na-wybory-telefon-do-zibiego-i-dotacje-2-tyg"
+   ]
+  },
+  {
+   "id": "profeto",
+   "type": "org",
+   "group": "ngo",
+   "label": "Profeto Foundation",
+   "sources": [
+    "https://oko.press/ujawniamy-szczegoly-26-zarzutow-dla-ziobry-54-mln-na-wybory-telefon-do-zibiego-i-dotacje-2-tyg"
+   ]
+  },
+  {
+   "id": "piebiak_radzik",
+   "type": "person",
+   "group": "government",
+   "label": "Łukasz Piebiak & Przemysław Radzik (Ziobro ministry)",
+   "sources": [
+    "https://oko.press/pilne-zarzuty-dla-piebiaka-i-radzika-za-afere-hejterska"
+   ]
+  },
+  {
+   "id": "rydzyk",
+   "type": "org",
+   "group": "media",
+   "label": "Rydzyk organisations (Radio Maryja, Lux Veritatis)",
+   "sources": [
+    "https://oko.press/325-milionow-rydzyka"
+   ]
+  },
+  {
+   "id": "nik",
+   "type": "org",
+   "group": "government",
+   "label": "Supreme Audit Office (NIK)",
+   "sources": [
+    "https://www.eska.pl/news/polityka/nik-ujawnia-nieprawidlowosci-w-ipn-za-kadencji-karola-nawrockiego-raport-obciaza-prezesa-chodzi-o-72-mln-zl-aa-kMyc-Rbij-BaBR.html"
+   ]
+  },
+  {
+   "id": "new_direction",
+   "type": "org",
+   "group": "eu_party",
+   "label": "New Direction (ECR think tank, EP-funded)",
+   "sources": [
+    "https://newdirection.online/event/judges_law_nation_who_really_rules_in_democracy"
+   ]
+  },
+  {
+   "id": "danube_cfr",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "Danube Institute & Center for Fundamental Rights (Hungary)",
+   "sources": [
+    "https://newdirection.online/event/judges_law_nation_who_really_rules_in_democracy"
+   ]
+  },
+  {
+   "id": "pfn",
+   "type": "org",
+   "group": "government",
+   "label": "Polska Fundacja Narodowa (state-company funded)",
+   "sources": [
+    "https://oko.press/zarzuty-dla-urzedniczki-nawrockiego-i-komentatora-tv-republika-za-nagonke-na-sedziow"
+   ]
+  },
+  {
+   "id": "republika",
+   "type": "org",
+   "group": "media",
+   "label": "TV Republika",
+   "sources": [
+    "https://www.money.pl/gospodarka/55-mln-zl-od-widzow-tak-telewizja-republika-zarabia-7329625778383008a.html"
+   ]
+  },
+  {
+   "id": "referendum_4nie",
+   "type": "event",
+   "group": "event",
+   "label": "\"4 x NIE\" referendum campaign (2023)",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-05-19/akt-oskarzenia-przeciwko-bylej-prezes-fundacji-orlen-grozi-jej-do-10-lat-wiezienia/"
+   ]
+  },
+  {
+   "id": "strozny",
+   "type": "person",
+   "group": "government",
+   "label": "Andrzej Stróżny (ex-CBA chief)",
+   "sources": [
+    "https://xyz.pl/?p=258012"
+   ]
+  },
+  {
+   "id": "heritage",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "Heritage Foundation / MCC network",
+   "sources": [
+    "https://www.desmog.com/fr/2025/03/14/heritage-foundation-project-2025-allies-mcc-ordo-iuris-discuss-dismantling-the-eu-european-union/"
+   ]
+  },
+  {
+   "id": "kig_arbitration",
+   "type": "org",
+   "group": "legal",
+   "label": "Polish Chamber of Commerce arbitration court",
+   "sources": [
+    "https://sakig.pl/en/news/marcin-dziurda-appointed-as-vice-president-of-the-arbitration-council"
+   ]
+  },
+  {
+   "id": "linklaters",
+   "type": "org",
+   "group": "legal",
+   "label": "Linklaters (law firm)",
+   "sources": [
+    "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+   ]
+  },
+  {
+   "id": "budka",
+   "type": "person",
+   "group": "government",
+   "label": "Borys Budka (State Assets Minister 2023-25)",
+   "sources": [
+    "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza"
+   ]
+  },
+  {
+   "id": "wawrykiewicz_firm",
+   "type": "org",
+   "group": "legal",
+   "label": "Wawrykiewicz law firm (sole practice + partnership in liquidation)",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ]
+  },
+  {
+   "id": "eee_sa",
+   "type": "org",
+   "group": "energy",
+   "label": "Energy Efficiency Engineering S.A. (3E SA, KRS 0000480141)",
+   "sources": [
+    "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000480141?rejestr=P",
+    "https://www.bizraport.pl/krs/0000480141"
+   ],
+   "status": "registered 2013; no accounts ever filed; appears dormant",
+   "owner": "one private individual (100%)"
+  },
+  {
+   "id": "grabiec",
+   "type": "person",
+   "group": "government",
+   "label": "Jan Grabiec (head of PM Chancellery)",
+   "sources": [
+    "https://www.rp.pl/prawo-karne/art44921361-bogdan-swieczkowski-oskarza-jana-grabca-o-znieslawienie"
+   ]
+  },
+  {
+   "id": "repressed_judges_fund",
+   "type": "org",
+   "group": "ngo",
+   "label": "Fund for repressed judges (Dom Sędziego Seniora)",
+   "sources": [
+    "https://oko.press/powstal-fundusz-dla-represjonowanych-sedziow"
+   ]
+  },
+  {
+   "id": "mw_estate",
+   "type": "org",
+   "group": "business",
+   "label": "MW Estate Consulting sp. z o.o. (KRS 0000599941)",
+   "sources": [
+    "https://www.bizraport.pl/osoba/0b43aa4ac0ba49bd0cc2b412da63ed70/wawrykiewicz_michal"
+   ]
+  },
+  {
+   "id": "saag",
+   "type": "org",
+   "group": "business",
+   "label": "Saag sp. z o.o. (KRS 0000378979)",
+   "sources": [
+    "https://www.bizraport.pl/osoba/0b43aa4ac0ba49bd0cc2b412da63ed70/wawrykiewicz_michal"
+   ]
+  },
+  {
+   "id": "bodnar",
+   "type": "person",
+   "group": "government",
+   "label": "Adam Bodnar",
+   "career": "Ombudsman (RPO) 2015-21; Justice Minister 2023-25; honorary member of Themis",
+   "sources": [
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "medel",
+   "type": "org",
+   "group": "intl",
+   "label": "MEDEL (European Judges for Democracy and Liberty)",
+   "funding": "Statute: dues, subsidies, donations, legacies; no funder named in any page read; no OSF or EU grant found",
+   "sources": [
+    "https://medelnet.eu/?p=5904",
+    "https://medelnet.eu/wp-content/uploads/2023/06/Statuts-MEDEL-2022-English.pdf",
+    "https://medelnet.eu/"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "so_opole",
+   "type": "org",
+   "group": "court",
+   "label": "Opole Regional Court (Sąd Okręgowy w Opolu)",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "sr_kedzierzyn",
+   "type": "org",
+   "group": "court",
+   "label": "Kędzierzyn-Koźle District Court",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "opole_exam_commission",
+   "type": "org",
+   "group": "government",
+   "label": "Opole legal-adviser (radca prawny) exam commission",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "kpo_rpo",
+   "type": "event",
+   "group": "ngo",
+   "label": "Congress of Civic Rights (Kongres Praw Obywatelskich, Ombudsman's office)",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "morawiec",
+   "type": "person",
+   "group": "judge",
+   "label": "Beata Morawiec",
+   "career": "Krakow judge; former Themis president; surveilled with Pegasus",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "id": "majcher",
+   "type": "person",
+   "group": "judge",
+   "label": "Irena Majcher",
+   "career": "Opole judge facing Disciplinary Chamber case",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ],
+   "added_by": "lead_korwin_piotrowska"
   }
  ],
  "edges": [
@@ -4308,7 +4652,7 @@
     "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-12"
   },
   {
@@ -4320,7 +4664,7 @@
     "https://m.washingtontimes.com/news/2025/feb/13/epa-clawing-back-20-billion-biden-last-minute-spen/"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-02-13"
   },
   {
@@ -4333,7 +4677,7 @@
     "https://kyivindependent.com/biden-administration-rushing-to-deliver-6-billion-in-remaining-aid-to-ukraine-ahead-of-trumps-inauguration-politico-reports/"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-11-13"
   },
   {
@@ -4345,7 +4689,7 @@
     "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-11-11"
   },
   {
@@ -4357,7 +4701,7 @@
     "https://nbcnews.com/politics/2024-election/democratic-governors-vow-protect-states-trump-policies-rcna179295"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-11"
   },
   {
@@ -4369,7 +4713,7 @@
     "https://spokesman.com/stories/2024/jul/10/nato-leaders-move-to-trump-proof-alliance-in-washi"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2024-07-10"
   },
   {
@@ -4381,7 +4725,7 @@
     "https://www.axios.com/2024/11/11/house-democrats-trump-lame-duck"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "watchdog_polska",
@@ -4392,7 +4736,7 @@
     "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-02-13"
   },
   {
@@ -4404,7 +4748,7 @@
     "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-02"
   },
   {
@@ -4416,7 +4760,7 @@
     "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "vdl",
@@ -4427,7 +4771,7 @@
     "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2026-01"
   },
   {
@@ -4439,7 +4783,7 @@
     "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "agoraeu",
@@ -4450,7 +4794,7 @@
     "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "datarepublican",
@@ -4461,7 +4805,7 @@
     "https://threadreaderapp.com/scrolly/1889172190282821690"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-02-11"
   },
   {
@@ -4473,7 +4817,7 @@
     "https://carnegieendowment.org/europe/research/2025/03/does-us-democracy-aid-have-a-future"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-03"
   },
   {
@@ -4486,7 +4830,7 @@
     "https://news.bloomberglaw.com/litigation/national-endowment-for-democracy-receives-some-frozen-funds"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-03-05"
   },
   {
@@ -4499,7 +4843,7 @@
     "https://clearinghouse.net/case/46198"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-08-11"
   },
   {
@@ -4511,7 +4855,7 @@
     "https://clearinghouse.net/case/46198"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread",
+   "verified": "source cited in op-ed; not independently re-checked",
    "date": "2025-10-09"
   },
   {
@@ -4523,7 +4867,7 @@
     "https://legalinsurrection.com/2024/12/epa-special-advisor-admits-to-giving-out-grants-to-trump-proof-bidens-green-new-deal/"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "tusk",
@@ -4534,7 +4878,7 @@
     "https://en.wikipedia.org/wiki/Donald_Tusk"
    ],
    "added_by": "lead_oped_handover",
-   "verified": "source cited in op-ed; not re-fetched by research thread"
+   "verified": "source cited in op-ed; not independently re-checked"
   },
   {
    "source": "eib",
@@ -4718,6 +5062,1087 @@
     "https://oko.press/staramy-sie-realizowac-wizje-wiktora-osiatynskiego-zobacz-jak-mozesz-nam-pomoc"
    ],
    "added_by": "correction_2026-10-31"
+  },
+  {
+   "source": "tusk",
+   "target": "tk",
+   "relation": "\"our judges will enter that building\" (Campus Polska)",
+   "confidence": "fact",
+   "date": "2026-08",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-tusk-idzie-na-gole-piesci-w-sprawie-tk-premier-potwierdza-us,nId,23535773"
+   ]
+  },
+  {
+   "source": "berek",
+   "target": "korwin_piotrowska",
+   "relation": "\"brain\" of the 30 Oct operation (anonymous govt sources)",
+   "confidence": "alleged",
+   "date": "2026-10-30",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-weekend-jest-nieprzypadkowy-zmiana-warty-w-tk-rzadzacy-zreal,nId,23566773",
+    "https://zero.pl/news/kryzys-wokol-trybunalu-konstytucyjnego-kulisy-operacji-przejecia-jaka-byla-rola-macieja-berka"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "berek",
+   "relation": "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+   "confidence": "alleged",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-idzie-na-gole-piesci-tusk-jesienia-chce-odbic-tk-berek-to-cz,nId,23532260"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "korwin_piotrowska",
+   "relation": "direct coordination of 30 Oct (no texts/meetings published)",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://wydarzenia.interia.pl/kraj/news-weekend-jest-nieprzypadkowy-zmiana-warty-w-tk-rzadzacy-zreal,nId,23566773"
+   ]
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "police_warsaw",
+   "relation": "wrote to police citing risks to judges",
+   "confidence": "fact",
+   "date": "2026-10-30",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art45423931-co-dzieje-sie-w-trybunale-konstytucyjnym-policja-i-zawieszenie-swieczkowskiego"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "police_warsaw",
+   "relation": "requested police secure the TK",
+   "confidence": "fact",
+   "date": "2026-10-30",
+   "sources": [
+    "https://kaszuby24.pl/kryzys-trybunal-konstytucyjny-swieczkowski-nawrocki-co-dalej/"
+   ]
+  },
+  {
+   "source": "sop",
+   "target": "korwin_piotrowska",
+   "relation": "let judges in via KPRM gate, dismissed TK guards (TK spokesperson)",
+   "confidence": "alleged",
+   "date": "2026-10-30",
+   "sources": [
+    "https://www.rmf24.pl/fakty/polska/news-kryzys-w-trybunale-konstytucyjnym-zawieszenie-prezesa-protes,nIdn,1024182"
+   ]
+  },
+  {
+   "source": "markiewicz",
+   "target": "codification_commission",
+   "relation": "chair Apr 2024-Apr 2026 (appointed under Tusk govt)",
+   "confidence": "fact",
+   "sources": [
+    "https://ruleoflaw.pl/poland-reforms-courts-codification-commission/",
+    "https://www.gov.pl/web/sprawiedliwosc/informacja-o-powolaniu-nowego-przewodniczacego-komisji"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "themis",
+   "relation": "member before becoming minister",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rmf24.pl/fakty/polityka/news-kolejne-zmiany-w-resorcie-zurka-zlozylam-rezygnacje,nId,8006660"
+   ]
+  },
+  {
+   "source": "ejchart",
+   "target": "free_courts",
+   "relation": "co-founder; deputy justice minister from Dec 2023",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rmf24.pl/fakty/polityka/news-kolejne-zmiany-w-resorcie-zurka-zlozylam-rezygnacje,nId,8006660"
+   ]
+  },
+  {
+   "source": "gregorczyk_abram",
+   "target": "free_courts",
+   "relation": "co-founder; elected Ombudsman 17 Jul 2026",
+   "confidence": "fact",
+   "date": "2026-07-17",
+   "sources": [
+    "https://www.theioi.org/ioi-news/current-news/sylwia-gregorczyk-abram-took-the-oath-of-office-before-the-sejm"
+   ]
+  },
+  {
+   "source": "free_courts",
+   "target": "tusk",
+   "relation": "\"NGO capture of the state\" framing",
+   "confidence": "speculation",
+   "sources": [
+    "https://dorzeczy.pl/opinie/938116/berek-wybrany-do-tk-komentuja-warzecha-matczak-bosak.html"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "tvp",
+   "relation": "government put public media into liquidation (Dec 2023)",
+   "confidence": "fact",
+   "date": "2023-12",
+   "sources": [
+    "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10966079,telewizja-polska-w-likwidacji-wpisana-do-krs.html"
+   ]
+  },
+  {
+   "source": "tvp",
+   "target": "korwin_piotrowska",
+   "relation": "pro-government framing of 30 Oct (no documented instruction)",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.tvp.info/96221535/to-ona-wyrzucila-swiaczkowskiego-korwin-piotrowska-stanie-na-czele-tk"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "barski",
+   "relation": "kept him out despite Supreme Court ruling",
+   "confidence": "fact",
+   "date": "2024-09",
+   "sources": [
+    "https://notesfrompoland.com/2024/09/30/appointee-of-former-government-barred-from-prosecutors-office-despite-supreme-court-ruling/"
+   ]
+  },
+  {
+   "source": "swieczkowski",
+   "target": "pegasus",
+   "relation": "charges sought over Giertych recordings; refused Sejm commission",
+   "confidence": "alleged",
+   "sources": [
+    "https://oko.press/prokuratura-chce-stawiac-zarzuty-swieczkowskiemu-za-pegasusa-chodzi-o-inwigilacje-romana-giertycha",
+    "https://www.rmf24.pl/fakty/polityka/news-swieczkowski-nie-stawil-sie-przed-komisja-sledcza-jest-wnios,nId,7905013"
+   ]
+  },
+  {
+   "source": "pegasus",
+   "target": "giertych",
+   "relation": "hacked",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/ap-telefony-romana-giertycha-i-prok-ewy-wrzosek-byly-sledzone-z-pomoca-pegasusa"
+   ]
+  },
+  {
+   "source": "pegasus",
+   "target": "themis",
+   "relation": "Themis president Morawiec surveilled",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/wiemy-o-drugim-polskim-sedzi-inwigilowanym-pegasusem-to-sedzia-apelacyjna-z-krakowa-news-oko-press"
+   ]
+  },
+  {
+   "source": "pegasus",
+   "target": "tk",
+   "relation": "any of the 8 judges surveilled",
+   "confidence": "no_link",
+   "sources": [
+    "https://oko.press/wiemy-o-drugim-polskim-sedzi-inwigilowanym-pegasusem-to-sedzia-apelacyjna-z-krakowa-news-oko-press"
+   ]
+  },
+  {
+   "source": "justice_fund",
+   "target": "pegasus",
+   "relation": "fund money bought Pegasus for CBA",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/ujawniamy-szczegoly-26-zarzutow-dla-ziobry-54-mln-na-wybory-telefon-do-zibiego-i-dotacje-2-tyg"
+   ]
+  },
+  {
+   "source": "ziobro",
+   "target": "justice_fund",
+   "relation": "26 charges incl. leading organised group around fund",
+   "confidence": "fact",
+   "date": "2025-10",
+   "sources": [
+    "https://oko.press/ujawniamy-szczegoly-26-zarzutow-dla-ziobry-54-mln-na-wybory-telefon-do-zibiego-i-dotacje-2-tyg"
+   ]
+  },
+  {
+   "source": "justice_fund",
+   "target": "profeto",
+   "relation": "~PLN 100M",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/ujawniamy-szczegoly-26-zarzutow-dla-ziobry-54-mln-na-wybory-telefon-do-zibiego-i-dotacje-2-tyg"
+   ]
+  },
+  {
+   "source": "piebiak_radzik",
+   "target": "markiewicz",
+   "relation": "hate-scandal smear (\"Mała Emi\"); 57 disciplinary charges (dropped 2024)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/pilne-zarzuty-dla-piebiaka-i-radzika-za-afere-hejterska",
+    "https://oko.press/prezes-iustitii-uniewinniony-z-57-zarzutow"
+   ]
+  },
+  {
+   "source": "piebiak_radzik",
+   "target": "zurek",
+   "relation": "targeted; leaked his disciplinary file to Ziobro (charged)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/pilne-zarzuty-dla-piebiaka-i-radzika-za-afere-hejterska"
+   ]
+  },
+  {
+   "source": "ziobro",
+   "target": "piebiak_radzik",
+   "relation": "minister over them",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/pilne-zarzuty-dla-piebiaka-i-radzika-za-afere-hejterska"
+   ]
+  },
+  {
+   "source": "neo_krs",
+   "target": "piebiak_radzik",
+   "relation": "members appear in hate network (Puchalski edited pamphlet)",
+   "confidence": "alleged",
+   "sources": [
+    "https://oko.press/pilne-zarzuty-dla-piebiaka-i-radzika-za-afere-hejterska"
+   ]
+  },
+  {
+   "source": "rydzyk",
+   "target": "nawrocki",
+   "relation": "Nawrocki praised Radio Maryja as \"credible herald of the truth\"",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bankier.pl/wiadomosc/Nawrocki-gratuluje-o-Rydzykowi-Radio-Maryja-wiarygodnym-glosicielem-prawdy-9051689.html"
+   ]
+  },
+  {
+   "source": "justice_fund",
+   "target": "rydzyk",
+   "relation": "at least PLN 26M (of PLN 325M total public money)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/325-milionow-rydzyka"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "obajtek",
+   "relation": "asked EP to lift immunity and allow arrest (PLN 4.1bn Orlen loss)",
+   "confidence": "fact",
+   "date": "2026-10-15",
+   "sources": [
+    "https://oko.press/na-zywo/na-zywo-relacja/zurek-chce-uchylenia-immunitetu-i-aresztowania-obajtka-w-tle-41-mld-zl-strat-orlenu"
+   ]
+  },
+  {
+   "source": "nik",
+   "target": "ipn",
+   "relation": "negative audit under Nawrocki (~PLN 72M improper)",
+   "confidence": "fact",
+   "date": "2025-05-27",
+   "sources": [
+    "https://www.eska.pl/news/polityka/nik-ujawnia-nieprawidlowosci-w-ipn-za-kadencji-karola-nawrockiego-raport-obciaza-prezesa-chodzi-o-72-mln-zl-aa-kMyc-Rbij-BaBR.html"
+   ]
+  },
+  {
+   "source": "obajtek",
+   "target": "nawrocki",
+   "relation": "donors shaped refusal to swear in judges",
+   "confidence": "speculation",
+   "sources": [
+    "https://oko.press/kto-finansowal-nawrockiego-a-kto-trzaskowskiego"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "pge",
+   "relation": "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala",
+    "https://www.gkpge.pl/en/for-investors/current-reports/changes-in-the-supervisory-board4"
+   ]
+  },
+  {
+   "source": "pge",
+   "target": "patyra",
+   "relation": "board role shaped his TK conduct",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.gkpge.pl/en/for-investors/current-reports/changes-in-the-supervisory-board4"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "batory",
+   "relation": "legal expert team member",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala"
+   ]
+  },
+  {
+   "source": "ko",
+   "target": "patyra",
+   "relation": "joint KO/PSL Ombudsman candidate (2021)",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2024/01/nowi-czlonkowie-w-radzie-nadzorczej-pge-wsrod-nich-slawomir-patyra-i-michal-domagala"
+   ]
+  },
+  {
+   "source": "new_direction",
+   "target": "ordo_iuris",
+   "relation": "hosted its president at \"Judges, Law, Nation\" event",
+   "confidence": "fact",
+   "date": "2025-10-30",
+   "sources": [
+    "https://newdirection.online/event/judges_law_nation_who_really_rules_in_democracy"
+   ]
+  },
+  {
+   "source": "danube_cfr",
+   "target": "new_direction",
+   "relation": "co-speakers at Warsaw anti-judges event",
+   "confidence": "fact",
+   "date": "2025-10-30",
+   "sources": [
+    "https://newdirection.online/event/judges_law_nation_who_really_rules_in_democracy"
+   ]
+  },
+  {
+   "source": "ecr",
+   "target": "new_direction",
+   "relation": "party think tank",
+   "confidence": "fact",
+   "sources": [
+    "https://newdirection.online/event/judges_law_nation_who_really_rules_in_democracy"
+   ]
+  },
+  {
+   "source": "pfn",
+   "target": "republika",
+   "relation": "2017 no-tender contract to firm of a now-Republika commentator; charged",
+   "confidence": "alleged",
+   "date": "2026-09-23",
+   "sources": [
+    "https://oko.press/zarzuty-dla-urzedniczki-nawrockiego-i-komentatora-tv-republika-za-nagonke-na-sedziow"
+   ]
+  },
+  {
+   "source": "pfn",
+   "target": "nawrocki",
+   "relation": "his chancellery events head charged over 2017 anti-judge campaign",
+   "confidence": "alleged",
+   "date": "2026-09-23",
+   "sources": [
+    "https://oko.press/zarzuty-dla-urzedniczki-nawrockiego-i-komentatora-tv-republika-za-nagonke-na-sedziow"
+   ]
+  },
+  {
+   "source": "orlen",
+   "target": "referendum_4nie",
+   "relation": "PLN 4.7M via Kwiatkowski Foundation (indictment)",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-05-19/akt-oskarzenia-przeciwko-bylej-prezes-fundacji-orlen-grozi-jej-do-10-lat-wiezienia/"
+   ]
+  },
+  {
+   "source": "zondacrypto",
+   "target": "republika",
+   "relation": "advertiser",
+   "confidence": "fact",
+   "sources": [
+    "https://www.money.pl/gospodarka/55-mln-zl-od-widzow-tak-telewizja-republika-zarabia-7329625778383008a.html"
+   ]
+  },
+  {
+   "source": "swieczkowski",
+   "target": "strozny",
+   "relation": "hired as security adviser (Oct 2026); Stróżny charged Sep 2026",
+   "confidence": "fact",
+   "date": "2026-10-05",
+   "sources": [
+    "https://xyz.pl/?p=258012"
+   ]
+  },
+  {
+   "source": "swieczkowski",
+   "target": "patyra",
+   "relation": "opened disciplinary cases vs Szostek, Bentkowska, Patyra",
+   "confidence": "fact",
+   "date": "2026-09-24",
+   "sources": [
+    "https://oko.press/odwet-swieczkowskiego-chce-scigania-dyscyplinarnego-nowych-sedziow-trybunalu"
+   ]
+  },
+  {
+   "source": "neo_krs",
+   "target": "tk",
+   "relation": "renewed KRS (May 2026) backed Sejm-elected judges; TK ordered it to stop",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedziowie-z-krs-dali-wsparcie-6-sedziom-tk",
+    "https://wydarzenia.interia.pl/kraj/news-iskrzy-miedzy-tk-a-krs-jest-apel-w-odpowiedzi-zabezpieczenie,nId,23504076"
+   ]
+  },
+  {
+   "source": "bentkowska",
+   "target": "ziobro",
+   "relation": "lawyer for heart surgeon in case against Ziobro",
+   "confidence": "fact",
+   "sources": [
+    "https://lublin24.pl/z-lublina/adwokat-i-absolwentka-umcs-w-lublinie-sedzia-tk-reprezentowala-lekarza-w-procesie-przeciwko-ziobrze/CHA2fCVE5Fkr8AP0nsjq"
+   ]
+  },
+  {
+   "source": "dziurda",
+   "target": "linklaters",
+   "relation": "Of Counsel from 2013",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+   ]
+  },
+  {
+   "source": "dziurda",
+   "target": "kig_arbitration",
+   "relation": "vice-chair of arbitration council (energy, investment)",
+   "confidence": "fact",
+   "date": "2025-04-30",
+   "sources": [
+    "https://sakig.pl/en/news/marcin-dziurda-appointed-as-vice-president-of-the-arbitration-council"
+   ]
+  },
+  {
+   "source": "democrisis",
+   "target": "zurek",
+   "relation": "Warsaw Summit held at Justice Ministry under Bodnar (2024); funders undisclosed",
+   "confidence": "fact",
+   "date": "2024-04-17",
+   "sources": [
+    "https://demo-crisis.eu/?p=798"
+   ]
+  },
+  {
+   "source": "heritage",
+   "target": "ordo_iuris",
+   "relation": "closed workshop on dismantling EU institutions",
+   "confidence": "fact",
+   "date": "2025-03-11",
+   "sources": [
+    "https://www.desmog.com/fr/2025/03/14/heritage-foundation-project-2025-allies-mcc-ordo-iuris-discuss-dismantling-the-eu-european-union/"
+   ]
+  },
+  {
+   "source": "zondacrypto",
+   "target": "nawrocki",
+   "relation": "its comments shaped crypto bill (via bankers) that Nawrocki vetoed 3x",
+   "confidence": "fact",
+   "sources": [
+    "https://www.money.pl/gospodarka/jak-zondacrypto-pisala-ustawe-z-pomoca-bankowcow-7295746567305216a.html"
+   ]
+  },
+  {
+   "source": "venice",
+   "target": "tk",
+   "relation": "translator married to Wyborcza journalist (presidential office claim)",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polska/komisja-wenecka-wydala-opinie-ws-slubowania-sedziow-tk-posel-to-zadziwiajaca-uzurpacja/581562"
+   ]
+  },
+  {
+   "source": "budka",
+   "target": "patyra",
+   "relation": "State Treasury nominated him to PGE board",
+   "confidence": "fact",
+   "date": "2024-01-31",
+   "sources": [
+    "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "budka",
+   "relation": "minister in his government",
+   "confidence": "fact",
+   "sources": [
+    "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "barski",
+   "relation": "wrote Justice Ministry opinion used to remove Barski ~3 weeks before PGE seat (reward claim)",
+   "confidence": "alleged",
+   "sources": [
+    "https://niezalezna.pl/polityka/jego-opinia-pomogla-przejac-prokurature-teraz-mowi-o-silowym-wejsciu-do-tk-kandydat-demokracji-walczacej/571527"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "baltic_9",
+   "relation": "voted on Baltica 2 wind decisions (not on strategy committee; FID taken by project company)",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.gkpge.pl/en/for-investors/current-reports/adoption-of-the-final-investment-decision-concerning-the-baltica-2-project"
+   ]
+  },
+  {
+   "source": "patyra",
+   "target": "korwin_piotrowska",
+   "relation": "circulated legal reasons for her 30 Oct suspension orders",
+   "confidence": "fact",
+   "date": "2026-10-30",
+   "sources": [
+    "https://rp.pl/sady-i-trybunaly/art45423951-bogdan-swieczkowski-odsuniety-anna-korwin-piotrowska-na-czele-tk"
+   ]
+  },
+  {
+   "source": "ned",
+   "target": "wawrykiewicz",
+   "relation": "US$26,000 fellowship 2022/23",
+   "confidence": "fact",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/6f0bc53e-a5b3-4f81-802c-4756cf968144_1721296800340.pdf"
+   ]
+  },
+  {
+   "source": "free_courts",
+   "target": "wawrykiewicz",
+   "relation": "paid board member until Apr 2024 (~€1,737/month)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/6f0bc53e-a5b3-4f81-802c-4756cf968144_1721296800340.pdf"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "wawrykiewicz_firm",
+   "relation": "income PLN 151,917 (2024) -> PLN 1,632,556 (2025) while MEP; clients not named",
+   "confidence": "fact",
+   "sources": [
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "democrisis",
+   "relation": "unpaid board member",
+   "confidence": "fact",
+   "sources": [
+    "https://en.wikipedia.org/wiki/DemoCrisis"
+   ]
+  },
+  {
+   "source": "ejchart",
+   "target": "free_courts",
+   "relation": "still listed in founders' assembly while in office",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady"
+   ]
+  },
+  {
+   "source": "gregorczyk_abram",
+   "target": "free_courts",
+   "relation": "still listed in founders' assembly while Ombudsman",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "tk",
+   "relation": "\"a very precise plan of action\" for the TK (14 Sep 2026)",
+   "confidence": "fact",
+   "date": "2026-09-14",
+   "sources": [
+    "https://www.tvp.info/95374190/"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "berek",
+   "relation": "knew of or helped plan 30 Oct",
+   "confidence": "speculation",
+   "sources": [
+    "https://www.tvp.info/95374190/"
+   ]
+  },
+  {
+   "source": "ejchart",
+   "target": "kos",
+   "relation": "coordinator",
+   "confidence": "fact",
+   "sources": [
+    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
+   ]
+  },
+  {
+   "source": "hfhr",
+   "target": "kos",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
+   ]
+  },
+  {
+   "source": "osiatynski",
+   "target": "kos",
+   "relation": "member",
+   "confidence": "fact",
+   "sources": [
+    "https://wolnesady.org/en/justice-defence-comittee-third-anniversary/"
+   ]
+  },
+  {
+   "source": "grabiec",
+   "target": "swieczkowski",
+   "relation": "called him a \"criminal\"; sued for defamation",
+   "confidence": "fact",
+   "date": "2026-08-01",
+   "sources": [
+    "https://www.rp.pl/prawo-karne/art44921361-bogdan-swieczkowski-oskarza-jana-grabca-o-znieslawienie"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "grabiec",
+   "relation": "head of his Chancellery",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/prawo-karne/art44921361-bogdan-swieczkowski-oskarza-jana-grabca-o-znieslawienie"
+   ]
+  },
+  {
+   "source": "zurek",
+   "target": "swieczkowski",
+   "relation": "suspended his wife as Sosnowiec court president (Jul 2025)",
+   "confidence": "fact",
+   "date": "2025-07",
+   "sources": [
+    "https://ground.news/article/zurek-begins-purge-and-retaliation-suspends-head-of-sosnowiec-court-shes-the-wife-of-the-constitutional-tribunal-president"
+   ]
+  },
+  {
+   "source": "iustitia",
+   "target": "repressed_judges_fund",
+   "relation": "co-founder (public donations, 1% tax)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/powstal-fundusz-dla-represjonowanych-sedziow"
+   ]
+  },
+  {
+   "source": "themis",
+   "target": "repressed_judges_fund",
+   "relation": "co-founder",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/powstal-fundusz-dla-represjonowanych-sedziow"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "eee_sa",
+   "relation": "supervisory board member since registration 9 Oct 2013; no exit entered in KRS",
+   "confidence": "fact",
+   "date": "2013-10-09",
+   "sources": [
+    "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000480141?rejestr=P"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "eee_sa",
+   "relation": "board seat not in EP declarations (mandate may have lapsed by law ~2019)",
+   "confidence": "alleged",
+   "sources": [
+    "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000480141?rejestr=P",
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ]
+  },
+  {
+   "source": "eee_sa",
+   "target": "wawrykiewicz",
+   "relation": "state, EU or green money to the company",
+   "confidence": "no_link",
+   "sources": [
+    "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000480141?rejestr=P"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "mw_estate",
+   "relation": "president and 100% owner; not in EP declarations",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bizraport.pl/osoba/0b43aa4ac0ba49bd0cc2b412da63ed70/wawrykiewicz_michal",
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ]
+  },
+  {
+   "source": "wawrykiewicz",
+   "target": "saag",
+   "relation": "50% owner; activity resumed May 2025 during MEP term; not in EP declarations",
+   "confidence": "fact",
+   "date": "2025-05-27",
+   "sources": [
+    "https://www.bizraport.pl/osoba/0b43aa4ac0ba49bd0cc2b412da63ed70/wawrykiewicz_michal",
+    "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
+   ]
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "themis",
+   "relation": "president of the national board (Prezes Zarządu Głównego); opened the 15th-anniversary conference Oct 2025",
+   "confidence": "fact",
+   "sources": [
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "date": "2025-10-18",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "zurek",
+   "target": "themis",
+   "relation": "co-founder (2009-10); listed as vice-president on Themis's undated board page; Oct 2025 press calls him a former member and board member",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art7175111-themis-czyli-sedziowska-fronda",
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "zurek",
+   "target": "korwin_piotrowska",
+   "relation": "Themis board colleagues: she is president, he co-founder and listed vice-president",
+   "confidence": "fact",
+   "sources": [
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "tie": "indirect",
+   "via": "themis",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "zurek",
+   "target": "korwin_piotrowska",
+   "relation": "as minister, appointed her chair of the Opole legal-adviser exam commission (ordinance 17 Feb 2026); paid fee ~PLN 7k (1,920 zł/month + 120 zł per candidate)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+   ],
+   "tie": "direct",
+   "date": "2026-02-17",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "zurek",
+   "target": "korwin_piotrowska",
+   "relation": "exam-commission pay while a TK judge is a conflict of interest (Zalasiński, Gutowski); she says it does not affect impartiality",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "opole_exam_commission",
+   "relation": "chair (przewodnicząca), 2026",
+   "confidence": "fact",
+   "sources": [
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+   ],
+   "date": "2026",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "bodnar",
+   "target": "korwin_piotrowska",
+   "relation": "as Justice Minister, appointed her president of the Opole Regional Court (one of 3 candidates put forward by judges' assembly)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ],
+   "tie": "direct",
+   "date": "2024-10",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "bodnar",
+   "target": "themis",
+   "relation": "honorary member; encouraged its founding",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "bodnar",
+   "target": "zurek",
+   "relation": "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich",
+    "https://demo-crisis.eu/?p=798"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "themis",
+   "target": "medel",
+   "relation": "admitted as member 7 Oct 2023 (Belgrade)",
+   "confidence": "fact",
+   "sources": [
+    "https://medelnet.eu/?p=5904"
+   ],
+   "date": "2023-10-07",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "medel",
+   "relation": "any personal role or payment",
+   "confidence": "no_link",
+   "sources": [
+    "https://medelnet.eu/?p=5904",
+    "https://medelnet.eu/"
+   ],
+   "tie": "direct",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "medel",
+   "relation": "heads Themis, a MEDEL member association",
+   "confidence": "fact",
+   "sources": [
+    "https://medelnet.eu/?p=5904",
+    "https://themis-sedziowie.eu/zarzad-glowny/"
+   ],
+   "tie": "indirect",
+   "via": "themis",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "so_opole",
+   "relation": "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "sr_kedzierzyn",
+   "relation": "judge 1999; president 2003-09",
+   "confidence": "fact",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "ziobro",
+   "target": "korwin_piotrowska",
+   "relation": "his ministry removed her as Opole vice-president by fax with no reasons (Dec 2017); she kept signing as vice-president until she got the original",
+   "confidence": "fact",
+   "sources": [
+    "https://forsal.pl/artykuly/1093053,opole-wiceprezes-so-pracuje-wbrew-decyzji-ministra.html",
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://oko.press/ministerstwo-ziobry-czysci-sady-swietami"
+   ],
+   "date": "2017-12",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "morawiec",
+   "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted), 2021",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ],
+   "date": "2021-06",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "morawiec",
+   "target": "themis",
+   "relation": "former president",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "majcher",
+   "relation": "defence counsel before the Disciplinary Chamber (immunity not lifted)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "kpo_rpo",
+   "relation": "panelist at 1st and 2nd Congress of Civic Rights (organised by the Ombudsman's office under Bodnar)",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "bodnar",
+   "target": "kpo_rpo",
+   "relation": "Ombudsman whose office ran the Congress",
+   "confidence": "fact",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "echr",
+   "relation": "second application with Markiewicz, Taborowski, Dziurda over being blocked from adjudicating (2 Jun 2026); lawyer not named",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+   ],
+   "date": "2026-06-02",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "markiewicz",
+   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+   ],
+   "date": "2026-06-02",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "taborowski",
+   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+   ],
+   "date": "2026-06-02",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "dziurda",
+   "relation": "co-applicant in 2 Jun 2026 ECHR complaint",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/z-powodu-swieczkowskiego-i-nawrockiego-nowi-sedziowie-tk-skladaja-skarge-do-etpcz"
+   ],
+   "date": "2026-06-02",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "korwin_piotrowska",
+   "target": "tk",
+   "relation": "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/sedziowie-tk-markiewicz-korwin-piotrowska-zrzeczenie-z-urzedow-sedziowskich,1542730.html"
+   ],
+   "date": "2026-04-09",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "zurek",
+   "target": "korwin_piotrowska",
+   "relation": "their 16-year Themis tie is why Żurek's 30 Oct files went to her and why she was picked to act as TK head",
+   "confidence": "speculation",
+   "sources": [
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://www.rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+   ],
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "tusk",
+   "target": "korwin_piotrowska",
+   "relation": "link runs Tusk -> Żurek (his minister) -> Themis (Żurek co-founded; she is president); no direct Tusk contact documented",
+   "confidence": "fact",
+   "sources": [
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://www.rp.pl/sady-i-trybunaly/art44229151-nowa-sedzia-trybunalu-konstytucyjnego-dorabia-przy-egzaminach-radcowskich-moze-dostac-ok-7-tys-zl"
+   ],
+   "tie": "indirect",
+   "via": "zurek",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "batory",
+   "target": "korwin_piotrowska",
+   "relation": "any role, fellowship, expert-team seat or grant (expert-team biographies and 2017/2023/2024 reports checked)",
+   "confidence": "no_link",
+   "sources": [
+    "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/Biogramy%20czlonkow%20Zespolu%20Ekspertow%20Prawnych.pdf",
+    "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+   ],
+   "tie": "direct",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "china_state",
+   "target": "korwin_piotrowska",
+   "relation": "any payment, trip, post or contact",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "tie": "direct",
+   "added_by": "lead_korwin_piotrowska"
+  },
+  {
+   "source": "russia_state",
+   "target": "korwin_piotrowska",
+   "relation": "any payment, trip, post or contact",
+   "confidence": "no_link",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska"
+   ],
+   "tie": "direct",
+   "added_by": "lead_korwin_piotrowska"
   }
  ],
  "checked_no_link": [
@@ -4784,12 +6209,60 @@
    "sources": [
     "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
    ]
+  },
+  {
+   "subject": "korwin_piotrowska",
+   "searched_for": "birthplace, schooling, spouse, children, relatives",
+   "result": "none found in Sejm, press or Ombudsman sources; born 1969 (from earlier record); no documented family tie to Karolina Korwin-Piotrowska or Janusz Korwin-Mikke",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
+    "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+   ]
+  },
+  {
+   "subject": "korwin_piotrowska",
+   "searched_for": "law firm, private clients, company shares, supervisory boards",
+   "result": "none found; career judge since 1999 with no private practice recorded",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
+    "https://www.money.pl/finanse/awantura-o-trybunal-konstytucyjny-taki-majatek-ma-sedzia-korwin-piotrowska-7345879794936288a.html"
+   ]
+  },
+  {
+   "subject": "korwin_piotrowska",
+   "searched_for": "academic post, research grant, foreign fellowship (US, EU, Council of Europe)",
+   "result": "none found; only lecturing to trainee advocates/legal advisers",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/kpo/osoba/anna-korwin-piotrowska",
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+   ]
+  },
+  {
+   "subject": "korwin_piotrowska",
+   "searched_for": "energy or wind company roles, statements on wind or energy",
+   "result": "none found",
+   "sources": [
+    "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
+    "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami"
+   ]
+  },
+  {
+   "subject": "themis",
+   "searched_for": "funders, grants, sponsors (Themis site, board page, 2025 conference report)",
+   "result": "none named; dues only per statute",
+   "sources": [
+    "https://themis-sedziowie.eu/",
+    "https://themis-sedziowie.eu/zarzad-glowny/",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ]
   }
  ],
  "leads": [
   {
    "lead": "Wind money paid the judges",
-   "result": "no money found",
+   "result": "no money found; but Patyra sat on PGE (Baltica 2 wind developer) supervisory board Feb 2024-Dec 2025",
    "label": "no_link"
   },
   {
@@ -4911,6 +6384,26 @@
    "lead": "US climate grants (EPA GGRF 'gold bars') funded Polish wind, directly or via funds",
    "result": "GGRF was US-only and rescinded; no record of it in Polish wind; Brookfield BIF IV investor list not public beyond named pensions",
    "label": "unproven_conspiracy"
+  },
+  {
+   "lead": "TK judges' China trip",
+   "result": "2015 trip under earlier court; none of current 8",
+   "label": "no_link"
+  },
+  {
+   "lead": "Themis is the Żurek network inside the TK",
+   "result": "fact that Żurek co-founded Themis and she leads it; Bodnar is an honorary member and appointed her Opole president; that this tie drove 30 Oct is not documented",
+   "label": "speculation"
+  },
+  {
+   "lead": "Foreign money reached her through MEDEL",
+   "result": "Themis joined MEDEL in 2023; MEDEL names no funders; no payment to Themis or her found",
+   "label": "no_link"
+  },
+  {
+   "lead": "Paid by Żurek's ministry while a TK judge",
+   "result": "yes, ~PLN 7k exam-commission fee under his 17 Feb 2026 ordinance; experts call it a conflict of interest",
+   "label": "fact"
   }
  ]
 }
