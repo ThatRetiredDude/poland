@@ -122,6 +122,8 @@ main svg:active { cursor: grabbing; }
 .match .shape { stroke: var(--accent); stroke-width: 3; }
 
 .legend-swatch { flex: none; }
+#toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(20px); background: var(--ink); color: var(--panel); padding: 8px 14px; border-radius: 6px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 50; }
+#toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 .detail { display: flex; flex-direction: column; gap: 18px; padding-top: 14px; }
 .detail h3 { font: 600 20px/1.25 var(--font-display); margin: 0 0 6px; text-wrap: balance; }
 .meta-line { color: var(--muted); font-size: 12.5px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
@@ -173,6 +175,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
     <button class="btn" id="btn-fit" type="button">Fit to screen</button>
     <button class="btn" id="btn-reheat" type="button">Re-run layout</button>
     <button class="btn" id="btn-pdf" type="button" title="Save the map exactly as it is on screen">Export PDF</button>
+    <button class="btn" id="btn-share" type="button" title="Share a link that opens the map with these settings">Share</button>
   </header>
 
   <aside class="left" aria-label="Filters">
@@ -862,6 +865,53 @@ document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-pdf").onclick = exportPDF;
+document.getElementById("btn-share").onclick = shareView;
+// Share: the current settings go into the link after "#", so the page opens the same way for whoever gets it.
+// Only map settings are stored (filters, hidden people, selected node, search); nothing about the person sharing.
+const DEFAULT_LABELS = LABELS.map(l => l.key).filter(k => k !== "no_link").concat("unlabelled");
+function viewToHash() {
+  const p = new URLSearchParams();
+  const labelsOff = DEFAULT_LABELS.filter(k => !state.labels.has(k));
+  if (labelsOff.length) p.set("off", labelsOff.join(","));
+  const typesOff = [...(state._knownTypes || [])].filter(t => !state.types.has(t));
+  if (typesOff.length) p.set("types_off", typesOff.join(","));
+  if (state.group) p.set("group", state.group);
+  const hid = [...state.hidden].sort().join(",");
+  if (hid !== "nawrocki") p.set("hide", hid || "none");
+  if (state.selected?.kind === "node") p.set("focus", state.selected.id);
+  if (state.search) p.set("q", state.search);
+  if (!state.hideIsolated) p.set("isolated", "1");
+  if (!state.anchor) p.set("free", "1");
+  if (state.allNames) p.set("names", "all");
+  return p.toString();
+}
+function hashToView() {
+  const p = new URLSearchParams(location.hash.replace(/^#/, ""));
+  if (![...p.keys()].length) return null;
+  const list = k => (p.get(k) || "").split(",").map(x => x.trim()).filter(Boolean);
+  if (p.has("off")) { const off = new Set(list("off")); state.labels = new Set(DEFAULT_LABELS.filter(k => !off.has(k))); }
+  if (p.has("group")) state.group = p.get("group");
+  if (p.has("hide")) state.hidden = new Set(p.get("hide") === "none" ? [] : list("hide"));
+  if (p.has("q")) { state.search = p.get("q"); document.getElementById("search").value = state.search; }
+  if (p.get("isolated") === "1") { state.hideIsolated = false; document.getElementById("t-isolated").checked = false; }
+  if (p.get("free") === "1") { state.anchor = false; document.getElementById("t-anchor").checked = false; }
+  if (p.get("names") === "all") { state.allNames = true; document.getElementById("t-names").checked = true; }
+  return { typesOff: list("types_off"), focus: p.get("focus") };
+}
+async function shareView() {
+  const url = location.origin + location.pathname + (viewToHash() ? "#" + viewToHash() : "");
+  history.replaceState(null, "", url);
+  const data = { title: "Poland coup d'état relationship map", text: "Relationship map: every tie sourced and labelled", url };
+  if (navigator.share && matchMedia("(pointer: coarse)").matches) { try { await navigator.share(data); return; } catch (e) { if (e.name === "AbortError") return; } }
+  try { await navigator.clipboard.writeText(url); toast("Link copied. It opens the map with your current settings."); }
+  catch { prompt("Copy this link:", url); }
+}
+function toast(msg) {
+  let t = document.getElementById("toast");
+  if (!t) { t = document.createElement("div"); t.id = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 2600);
+}
 // Export PDF: copies the map exactly as it is on screen (current filters, hidden people, selection, zoom and pan)
 // into a print-ready page in light colours with a short legend, then opens the print dialog,
 // where "Save as PDF" makes the file. No library and nothing leaves the browser.
@@ -930,7 +980,9 @@ window.addEventListener("resize", () => { if (sim) { const { width, height } = s
   makeArrows();
   const failed = await loadAll();
   fixDangling();
+  const shared = hashToView();
   buildFilters();
+  if (shared?.typesOff.length) { shared.typesOff.forEach(t => { state.types.delete(t); const i = document.getElementById("typ-" + t); if (i) i.checked = false; }); }
   buildJudgeToggles();
   if (!store.nodes.size) {
     const box = document.createElement("div"); box.className = "loadfail";
@@ -938,7 +990,8 @@ window.addEventListener("resize", () => { if (sim) { const { width, height } = s
     document.getElementById("main").appendChild(box);
   }
   render(); renderPanel();
-  setTimeout(fit, 1800);
+  if (shared?.focus && store.nodes.has(shared.focus)) { select({ kind: "node", id: shared.focus }); setTimeout(() => centerOn(shared.focus), 1900); }
+  else setTimeout(fit, 1800);
   if (failed.length && store.nodes.size) setStatus("could not load " + failed.join(", "));
   matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => { makeArrows(); render(); });
   new MutationObserver(() => { makeArrows(); gNodes.selectAll("g.node .shape").attr("fill", nodeColor); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
