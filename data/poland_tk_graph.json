@@ -2169,6 +2169,36 @@
     "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
    ],
    "added_by": "lead_taborowski_patyra"
+  },
+  {
+   "id": "gdansk_t5",
+   "type": "asset",
+   "group": "energy_wind",
+   "label": "Terminal T5, Port of Gdańsk (Baltica 2 installation base)",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ]
+  },
+  {
+   "id": "baltica2",
+   "type": "project",
+   "group": "energy_wind",
+   "label": "Baltica 2 offshore wind farm (PGE + Ørsted)",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ]
+  },
+  {
+   "id": "istrana",
+   "type": "org",
+   "group": "company",
+   "label": "Istrana (PFR + Baltic Hub company)",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ]
   }
  ],
  "edges": [
@@ -7324,6 +7354,76 @@
    "added_by": "lead_taborowski_patyra",
    "tie": "indirect",
    "via": "batory"
+  },
+  {
+   "source": "tusk",
+   "target": "gdansk_t5",
+   "relation": "opened the terminal, morning of 30 Oct (same day as the TK move; first report 12:06)",
+   "confidence": "fact",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30",
+   "date": "2026-10-30"
+  },
+  {
+   "source": "baltica2",
+   "target": "gdansk_t5",
+   "relation": "project company took over T5 from Istrana at the ceremony",
+   "confidence": "fact",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30",
+   "date": "2026-10-30"
+  },
+  {
+   "source": "istrana",
+   "target": "gdansk_t5",
+   "relation": "built and handed over T5",
+   "confidence": "fact",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30",
+   "date": "2026-10-30"
+  },
+  {
+   "source": "pge",
+   "target": "baltica2",
+   "relation": "co-owner",
+   "confidence": "fact",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30"
+  },
+  {
+   "source": "orsted",
+   "target": "baltica2",
+   "relation": "co-owner",
+   "confidence": "fact",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30"
+  },
+  {
+   "source": "gdansk_t5",
+   "target": "tk",
+   "relation": "T5 opening and 30 Oct TK move were connected (same day; no source links them, no TK mention or PGE speaker at the event; Patyra left PGE board Dec 2025)",
+   "confidence": "speculation",
+   "sources": [
+    "https://energetyka24.com/energetyka/oze/strategiczny-terminal-w-porcie-gdansk-otwarty-tusk-bierzemy-stery-w-swoje-rece",
+    "https://radiogdansk.pl/wiadomosci/trojmiasto/2026/10/30/otwarcie-terminala-t5-premier-tusk-bedziemy-konkurowac-z-potegami/"
+   ],
+   "added_by": "lead_t5_2026-10-30",
+   "date": "2026-10-30"
   }
  ],
  "checked_no_link": [
