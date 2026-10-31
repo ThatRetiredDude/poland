@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Lead: Election-related networks, Tour de Konstytucja funding, and Wigura/Kuisz NED ties",
+    "as_of": "2026-10-31",
+    "added_by": "grok",
+    "notes": "Facts on USAID-linked school project funding (halted 2025), listed supporters including judge associations, and NED-backed authors of the Dec 2023 Journal of Democracy transitional justice piece. No conclusions."
+  },
+  "nodes": [
+    {
+      "id": "tour_de_konstytucja",
+      "type": "project",
+      "group": "ngo",
+      "label": "Tour de Konstytucja (managed by Fundacja Aktywna Demokracja)",
+      "sources": [
+        "https://polanddaily24.com/u-s-halts-funding-for-tour-de-konstytucja/poland-today/51725",
+        "https://patronite.pl/post/76494/pilne-tour-de-konstytucja-jestem-za-godnoscia-etap-szkolny-w-bardzo-trudnej-sytuacji"
+      ]
+    },
+    {
+      "id": "kultura_liberalna",
+      "type": "org",
+      "group": "media",
+      "label": "Kultura Liberalna (Karolina Wigura, Jarosław Kuisz)",
+      "sources": [
+        "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943",
+        "https://www.bankier.pl/wiadomosc/Polskie-organizacje-odciete-od-grantow-z-USA-Bez-pieniedzy-i-Krytyka-Polityczna-i-Helsinska-Fundacja-Praw-Czlowieka-8889616.html"
+      ]
+    },
+    {
+      "id": "journal_of_democracy",
+      "type": "org",
+      "group": "media",
+      "label": "Journal of Democracy (NED in-house journal)",
+      "sources": [
+        "https://journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+        "https://wpolityce.pl/polityka/721115-nie-tylko-usaid-ciekawy-przypadek-ned"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "usaid",
+      "target": "tour_de_konstytucja",
+      "relation": "school-stage workshops funded via DEXIS USAID grant; funding halted Jan 2025 under Trump administration freeze of foreign aid programs",
+      "confidence": "fact",
+      "sources": [
+        "https://patronite.pl/post/76494/pilne-tour-de-konstytucja-jestem-za-godnoscia-etap-szkolny-w-bardzo-trudnej-sytuacji",
+        "https://www.tokfm.pl/polska/mazowieckie/tokfm-7-189663-31652084-projekt-edukacji-obywatelskiej-tour-de-konstytucja-dla-szkol"
+      ],
+      "date": "pre-2025"
+    },
+    {
+      "source": "iustitia",
+      "target": "tour_de_konstytucja",
+      "relation": "listed among supporters/partners alongside Themis, OSF, KOD, OKO.press, Women's Strike, Lex Super Omnia",
+      "confidence": "fact",
+      "sources": [
+        "https://polanddaily24.com/u-s-halts-funding-for-tour-de-konstytucja/poland-today/51725",
+        "https://niezalezna.pl/index.php/polityka/amerykanie-nie-sypna-juz-groszem-na-tour-de-konstytucja-posel-wskazal-kto-za-tym-stoi-padly-tez-kwoty/537204"
+      ]
+    },
+    {
+      "source": "themis",
+      "target": "tour_de_konstytucja",
+      "relation": "listed among supporters/partners",
+      "confidence": "fact",
+      "sources": [
+        "https://polanddaily24.com/u-s-halts-funding-for-tour-de-konstytucja/poland-today/51725",
+        "https://niezalezna.pl/index.php/polityka/amerykanie-nie-sypna-juz-groszem-na-tour-de-konstytucja-posel-wskazal-kto-za-tym-stoi-padly-tez-kwoty/537204"
+      ]
+    },
+    {
+      "source": "batory",
+      "target": "tour_de_konstytucja",
+      "relation": "supported bus repair during III edition (with Fundusz Obywatelski im. Ludwiki i Henryka Wujców)",
+      "confidence": "fact",
+      "sources": [
+        "https://wyborcza.pl/7,162657,31829878,granty-z-niw-nie-dla-tour-de-konstytucja-zagrozony-tegoroczny.html"
+      ]
+    },
+    {
+      "source": "ned",
+      "target": "kultura_liberalna",
+      "relation": "projects funded 2020–2023 (per public reports and Wigura's statement on Trump freeze impact); one project produced English-language infographics on Polish rule-of-law crisis",
+      "confidence": "fact",
+      "sources": [
+        "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943",
+        "https://www.bankier.pl/wiadomosc/Polskie-organizacje-odciete-od-grantow-z-USA-Bez-pieniedzy-i-Krytyka-Polityczna-i-Helsinska-Fundacja-Praw-Czlowieka-8889616.html"
+      ],
+      "date": "2020-2023"
+    },
+    {
+      "source": "wigura_kuisz",
+      "target": "journal_of_democracy",
+      "relation": "authors of Dec 2023 article 'How to Dismantle an Illiberal Democracy' advising new government on transitional justice and accountability for specific PiS-era acts (incl. potential focus on Kaczyński); also authored NYT (Jun 2023) and Foreign Affairs pieces",
+      "confidence": "fact",
+      "sources": [
+        "https://journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+        "https://wpolityce.pl/polityka/721115-nie-tylko-usaid-ciekawy-przypadek-ned",
+        "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943"
+      ],
+      "date": "2023-12"
+    },
+    {
+      "source": "taborowski",
+      "target": "magda_molek",
+      "relation": "married 2011–2024 (divorced; two sons Henryk and Stefan); Mołek publicly confirmed divorce Mar 2024",
+      "confidence": "fact",
+      "sources": [
+        "https://plejada.pl/newsy/magda-molek-byla-z-mezem-13-lat-maciej-taborowski-jest-w-radzie-nadzorczej-tvp/rbb1ezb",
+        "https://viva.pl/ludzie/newsy/magda-molek-rozwod-mazmaciej-taborowski-dzieci-oswiadczenie-148397-r1/"
+      ],
+      "date": "2011-2024"
+    }
+  ],
+  "checked_no_link": [
+    {
+      "subject": "tour_de_konstytucja",
+      "searched_for": "direct grants from NED (beyond listed OSF/USAID/EEA paths)",
+      "result": "not documented in sources examined; supporters list includes OSF, Iustitia, Themis",
+      "sources": [
+        "https://polanddaily24.com/u-s-halts-funding-for-tour-de-konstytucja/poland-today/51725"
+      ]
+    },
+    {
+      "subject": "markiewicz",
+      "searched_for": "detailed public asset declaration numbers",
+      "result": "none located; Wikipedia notes archived 2019 declaration; post-2026 TK filings reported as submitted after Sejm oath",
+      "sources": [
+        "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+        "https://niezalezna.pl/polityka/oswiadczenia-majatkowe-po-pseudoslubowaniu-wbrew-ustawie-przebierancy-zrzekli-sie-urzedu/567943"
+      ]
+    }
+  ],
+  "sources_primary": [
+    "https://patronite.pl/post/76494/pilne-tour-de-konstytucja-jestem-za-godnoscia-etap-szkolny-w-bardzo-trudnej-sytuacji",
+    "https://polanddaily24.com/u-s-halts-funding-for-tour-de-konstytucja/poland-today/51725",
+    "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943",
+    "https://journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/",
+    "https://www.bankier.pl/wiadomosc/Polskie-organizacje-odciete-od-grantow-z-USA-Bez-pieniedzy-i-Krytyka-Polityczna-i-Helsinska-Fundacja-Praw-Czlowieka-8889616.html",
+    "https://wyborcza.pl/7,162657,31829878,granty-z-niw-nie-dla-tour-de-konstytucja-zagrozony-tegoroczny.html",
+    "https://plejada.pl/newsy/magda-molek-byla-z-mezem-13-lat-maciej-taborowski-jest-w-radzie-nadzorczej-tvp/rbb1ezb"
+  ]
+}
