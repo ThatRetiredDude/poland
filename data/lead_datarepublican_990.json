@@ -1,0 +1,2049 @@
+{
+  "meta": {
+    "title": "DataRepublican's 990 money flows between organisations on the map",
+    "as_of": "2026-11-01",
+    "notes": "Grants between organisations, taken from DataRepublican's open IRS Form 990 data (github.com/twinforces/datarepublican). Each edge runs from the giver to the receiver and is credited to her in lead_origin. Single-year amounts come from her latest-year grants file (tax years 2022-2023); all-years amounts are the sums in her browse tool's $10M band, covering IRS e-file data 2017-2025. Where a return names a grantee without an EIN, her tool matches the name to an EIN; those parts are flagged in each edge's 'verified' note. Organisations with several legal entities are merged into one node (NDI and IRI; the three Tides entities; Open Society Institute, Open Society Action Fund and Alliance for Open Society International under OSF; ABA and its Fund for Justice and Education), and money moving inside one merged node is left out of the edges and noted in the node's role. Government-grant shares come from her charities file (each filer's latest return). DataRepublican herself is not a node. The 'audit' list checks each earlier link built from her site against her own data.",
+    "credit": "Data compiled by DataRepublican; map by ThatRetiredDude (CC BY 4.0)"
+  },
+  "nodes": [
+    {
+      "id": "freedom_house",
+      "type": "org",
+      "group": "ngo",
+      "label": "Freedom House (Washington)",
+      "role": "US democracy NGO, one of the eight groups in DataRepublican's 'NED Hydra' grouping. Its tax year 2024 Form 990: total receipts $69,617,662, of which government grants $64,078,135 (92%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/131656647",
+        "https://datarepublican.com/browse/?e=131656647"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "aba",
+      "type": "org",
+      "group": "professional",
+      "label": "American Bar Association (incl. ABA Fund for Justice and Education)",
+      "role": "US lawyers' association; its overseas rule-of-law work gets NED, NDI, IFES and Freedom House money in DataRepublican's 990 data. ABA Fund for Justice and Education tax year 2024 Form 990: total receipts $109,268,636, of which government grants $84,564,330 (77%); ABA tax year 2024 Form 990: total receipts $266,358,504, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/360723150",
+        "https://projects.propublica.org/nonprofits/organizations/366110299",
+        "https://datarepublican.com/browse/?e=360723150&e=366110299"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "tides",
+      "type": "org",
+      "group": "funder",
+      "label": "Tides network (Tides Foundation, Tides Center, Tides Advocacy)",
+      "role": "San Francisco fiscal-sponsor and grant network. DataRepublican lists Tides Foundation and Tides Center in her 'Soros' grouping. Money moving inside the network (all years in her data): Tides Foundation to Tides Advocacy $340,673,130; Tides Center to Tides Foundation $114,543,526; Tides Center to Tides Advocacy $105,411,838; Tides Foundation to Tides Center $91,868,330. Tides Center tax year 2024 Form 990: total receipts $282,975,548, of which government grants $37,810,397 (13%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://projects.propublica.org/nonprofits/organizations/943213100",
+        "https://projects.propublica.org/nonprofits/organizations/943153687",
+        "https://datarepublican.com/browse/?e=510198509&e=943213100&e=943153687"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "new_venture_fund",
+      "type": "org",
+      "group": "funder",
+      "label": "New Venture Fund",
+      "role": "Fiscal-sponsor fund, one of the funds Arabella Advisors has managed (Wikipedia). DataRepublican lists it in her 'Advocacy Networks' grouping. Its tax year 2024 Form 990: total receipts $664,320,202, of which government grants $11,000 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://datarepublican.com/browse/?e=205806345",
+        "https://en.wikipedia.org/wiki/Arabella_Advisors"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "sixteen_thirty",
+      "type": "org",
+      "group": "funder",
+      "label": "Sixteen Thirty Fund (501(c)(4))",
+      "role": "501(c)(4) fund in the Arabella Advisors-managed group (Wikipedia). Its tax year 2024 Form 990: total receipts $284,289,469, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/264486735",
+        "https://datarepublican.com/browse/?e=264486735",
+        "https://en.wikipedia.org/wiki/Arabella_Advisors"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "hopewell",
+      "type": "org",
+      "group": "funder",
+      "label": "Hopewell Fund",
+      "role": "Fiscal-sponsor fund in the Arabella Advisors-managed group (Wikipedia). Its tax year 2024 Form 990: total receipts $230,588,028, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://datarepublican.com/browse/?e=473681860",
+        "https://en.wikipedia.org/wiki/Arabella_Advisors"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "sandler",
+      "type": "org",
+      "group": "funder",
+      "label": "Sandler Foundation",
+      "role": "San Francisco family foundation; funds Democracy Forward, States United, GMF and the Tides and Arabella-managed funds in DataRepublican's 990 data.",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://datarepublican.com/browse/?e=943147856"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "democracy_fund",
+      "type": "org",
+      "group": "funder",
+      "label": "Democracy Fund",
+      "role": "Grant-maker that DataRepublican lists in her 'Omidyar' grouping. Its tax year 2024 Form 990: total receipts $63,960,855, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://datarepublican.com/browse/?e=383926408"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "protect_democracy",
+      "type": "org",
+      "group": "ngo",
+      "label": "Protect Democracy Project",
+      "role": "US legal and advocacy group. Its tax year 2024 Form 990: total receipts $55,482,925, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/814777062",
+        "https://datarepublican.com/browse/?e=814777062"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "democracy_forward",
+      "type": "org",
+      "group": "ngo",
+      "label": "Democracy Forward Foundation",
+      "role": "US litigation group. Its tax year 2024 Form 990: total receipts $67,735,822, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/821007988",
+        "https://datarepublican.com/browse/?e=821007988"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "states_united",
+      "type": "org",
+      "group": "ngo",
+      "label": "States United Democracy Center",
+      "role": "US election-law group co-founded by Norm Eisen in 2021 (Wikipedia). Its tax year 2024 Form 990: total receipts $35,194,579, of which government grants $0 (0%) (DataRepublican's 990 data).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/861704152",
+        "https://datarepublican.com/browse/?e=861704152",
+        "https://en.wikipedia.org/wiki/Norman_Eisen"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "macarthur",
+      "type": "org",
+      "group": "funder",
+      "label": "MacArthur Foundation",
+      "role": "Chicago private foundation (Form 990-PF).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://datarepublican.com/browse/?e=237093598"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "rbf",
+      "type": "org",
+      "group": "funder",
+      "label": "Rockefeller Brothers Fund",
+      "role": "New York private foundation (Form 990-PF).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://datarepublican.com/browse/?e=131760106"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "rf_catalytic",
+      "type": "org",
+      "group": "funder",
+      "label": "RF Catalytic Capital",
+      "role": "Rockefeller Foundation-linked fund; gives to the GGRF grantees Coalition for Green Capital and Climate United in DataRepublican's 990 data.",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/852150251",
+        "https://datarepublican.com/browse/?e=852150251"
+      ],
+      "us_layer": true
+    },
+    {
+      "id": "knight",
+      "type": "org",
+      "group": "funder",
+      "label": "Knight Foundation",
+      "role": "Miami private foundation (Form 990-PF).",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/650464177",
+        "https://datarepublican.com/browse/?e=650464177"
+      ],
+      "us_layer": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "cepps",
+      "target": "ndi_iri",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $64,298,125 to NDI in tax year 2022; $51,707,077 to IRI in tax year 2022. All years: $1,071,216,294 across all returns in her database, IRS e-file data 2017-2025 (to NDI $622,650,504; to IRI $448,565,790).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521943638&e=521338892",
+        "https://datarepublican.com/browse/?e=521943638&e=521340267",
+        "https://projects.propublica.org/nonprofits/organizations/521943638",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "ndi_iri",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $39,199,882 to IRI in tax year 2022; $33,422,549 to NDI in tax year 2022. All years: $513,777,768 across all returns in her database, IRS e-file data 2017-2025 (to IRI $262,535,220; to NDI $251,242,548).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=521340267",
+        "https://datarepublican.com/browse/?e=521344831&e=521338892",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "sixteen_thirty",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $27,601,875 in tax year 2023. All years: $481,104,236 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=264486735",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "solidarity_center",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $35,988,004 (two lines on the return: $28,701,508 + $7,286,496) in tax year 2022. All years: $248,297,914 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=521984713",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "cipe",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $33,751,325 (two lines on the return: $24,024,205 + $9,727,120) in tax year 2022. All years: $235,948,778 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=521398742",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "cepps",
+      "target": "ifes",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $104,245,990 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file). Separately, CEPPS's 2022 lines in her latest-year file include $49,137,537 to a grantee listed under CEPPS's own EIN, beside its NDI and IRI lines.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521943638&e=521527835",
+        "https://projects.propublica.org/nonprofits/organizations/521943638",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "sixteen_thirty",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $88,740,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=522028955&e=264486735",
+        "https://projects.propublica.org/nonprofits/organizations/522028955",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $81,836,200 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $81,836,200 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $78,720,400 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $78,720,400 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "freedom_house",
+      "target": "aba",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $7,502,882 to American Bar Association in tax year 2022. All years: $61,161,618 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131656647&e=360723150",
+        "https://projects.propublica.org/nonprofits/organizations/131656647",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "freedom_house",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $5,774,784 in tax year 2022. All years: $52,880,260 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131656647&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/131656647",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "osf",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $51,039,468 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=810623035",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $51,039,468 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 810623035 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $6,527,128 in tax year 2023. All years: $46,084,572 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $45,590,000 across all returns in her database, IRS e-file data 2017-2025 (Open Society Action Fund to Tides Advocacy $34,850,000; Open Society Institute to Tides Foundation $10,640,000; Open Society Action Fund to Tides Center $100,000) (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=522028955&e=943153687",
+        "https://datarepublican.com/browse/?e=137029285&e=510198509",
+        "https://datarepublican.com/browse/?e=522028955&e=943213100",
+        "https://projects.propublica.org/nonprofits/organizations/522028955",
+        "https://projects.propublica.org/nonprofits/organizations/137029285",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $10,640,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 510198509 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $740,000 from Tides Foundation in tax year 2023. All years: $45,561,158 across all returns in her database, IRS e-file data 2017-2025 (from Tides Foundation $45,281,158; from Tides Center $280,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=205806345",
+        "https://datarepublican.com/browse/?e=943213100&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://projects.propublica.org/nonprofits/organizations/943213100",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $44,950,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $44,950,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 473681860 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $10,956,633 from Alliance for Open Society International in tax year 2023. All years: $42,511,124 across all returns in her database, IRS e-file data 2017-2025 (from Alliance for Open Society International $23,695,124; from Open Society Institute $16,916,000; from Open Society Action Fund $1,900,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=810623035&e=205806345",
+        "https://datarepublican.com/browse/?e=137029285&e=205806345",
+        "https://datarepublican.com/browse/?e=522028955&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/810623035",
+        "https://projects.propublica.org/nonprofits/organizations/137029285",
+        "https://projects.propublica.org/nonprofits/organizations/522028955",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $16,916,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "sixteen_thirty",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $250,000 in tax year 2023. All years: $38,794,134 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=264486735",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $35,246,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $35,246,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "democracy_forward",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $2,500,000 in tax year 2022. All years: $32,000,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=821007988",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $30,600,038 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $30,600,038 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "rf_catalytic",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $29,400,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=852150251",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $29,400,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 852150251 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,081,000 in tax year 2023. All years: $22,340,602 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $22,068,524 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=510198509",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $22,068,524 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 510198509 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,023,310 to Tides Center in tax year 2023; $247,000 to Tides Foundation in tax year 2023; $10,000 to Tides Advocacy in tax year 2023. All years: $21,846,690 across all returns in her database, IRS e-file data 2017-2025 (to Tides Center $11,893,312; to Tides Foundation $9,232,088; to Tides Advocacy $721,290).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=943213100",
+        "https://datarepublican.com/browse/?e=205806345&e=510198509",
+        "https://datarepublican.com/browse/?e=205806345&e=943153687",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sixteen_thirty",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $18,241,936 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=264486735&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/264486735",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "sixteen_thirty",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $162,000 from Tides Foundation in tax year 2023. All years: $13,659,400 across all returns in her database, IRS e-file data 2017-2025 (from Tides Advocacy $12,035,400; from Tides Foundation $1,624,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943153687&e=264486735",
+        "https://datarepublican.com/browse/?e=510198509&e=264486735",
+        "https://projects.propublica.org/nonprofits/organizations/943153687",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,500,000 in tax year 2022. All years: $13,000,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $900,000 in tax year 2022. All years: $12,400,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "rbf",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $12,308,598 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131760106&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $12,308,598 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $9,334,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $9,334,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "ndi_iri",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $2,284,520 from NDI in tax year 2022. All years: $9,083,280 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521338892&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $8,890,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $8,890,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 473681860 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,100,000 (two lines on the return: $350,000 + $750,000) to Tides Foundation in tax year 2022. All years: $8,100,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=510198509",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sixteen_thirty",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $7,575,400 across all returns in her database, IRS e-file data 2017-2025 (to Tides Advocacy $6,775,400; to Tides Foundation $700,000; to Tides Center $100,000) (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=264486735&e=943153687",
+        "https://datarepublican.com/browse/?e=264486735&e=510198509",
+        "https://datarepublican.com/browse/?e=264486735&e=943213100",
+        "https://projects.propublica.org/nonprofits/organizations/264486735",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "gmf",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $500,000 in tax year 2022. All years: $7,500,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=520954751",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $364,240 from Tides Foundation in tax year 2023. All years: $7,069,104 across all returns in her database, IRS e-file data 2017-2025 (from Tides Foundation $7,049,104; from Tides Center $20,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=473681860",
+        "https://datarepublican.com/browse/?e=943213100&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://projects.propublica.org/nonprofits/organizations/943213100",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ifes",
+      "target": "aba",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $812,855 to American Bar Association in tax year 2022. All years: $7,061,448 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521527835&e=360723150",
+        "https://projects.propublica.org/nonprofits/organizations/521527835",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "freedom_house",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $641,502 in tax year 2022. All years: $6,867,970 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=131656647",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $6,700,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $6,700,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 814777062 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "rf_catalytic",
+      "target": "green_capital",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $6,529,408 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=852150251&e=900868299",
+        "https://projects.propublica.org/nonprofits/organizations/852150251",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $354,475 to Tides Foundation in tax year 2023; $250,000 to Tides Center in tax year 2023; $40,000 to Tides Advocacy in tax year 2023. All years: $6,126,550 across all returns in her database, IRS e-file data 2017-2025 (to Tides Foundation $2,777,950; to Tides Center $1,796,600; to Tides Advocacy $1,552,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=510198509",
+        "https://datarepublican.com/browse/?e=473681860&e=943213100",
+        "https://datarepublican.com/browse/?e=473681860&e=943153687",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $5,618,474 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $5,618,474 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 814777062 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $5,175,868 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $5,175,868 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 473681860 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $225,000 from Tides Foundation in tax year 2023. All years: $5,130,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "rbf",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $4,450,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131760106&e=510198509",
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $4,450,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 510198509 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "ndi_iri",
+      "target": "aba",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,136,372 NDI to ABA Fund for Justice and Education in tax year 2022. All years: $4,015,052 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521338892&e=366110299",
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "obama_foundation",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,000,000 to Tides Center in tax year 2023. All years: $4,000,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=464950751&e=943213100",
+        "https://projects.propublica.org/nonprofits/organizations/464950751",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "votevets",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $150,000 from Tides Foundation in tax year 2023. All years: $3,980,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=510596352",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sixteen_thirty",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,470,662 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=264486735&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/264486735",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ifes",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $497,201 in tax year 2022. All years: $3,363,426 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521527835&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/521527835",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "ndi_iri",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,340,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=522028955&e=521340267",
+        "https://projects.propublica.org/nonprofits/organizations/522028955",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "states_united",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,315,086 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=861704152",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "votevets",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,200,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=522028955&e=510596352",
+        "https://projects.propublica.org/nonprofits/organizations/522028955",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $3,000,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 943027961 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "sandler",
+      "target": "states_united",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $3,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943147856&e=861704152",
+        "https://projects.propublica.org/nonprofits/organizations/943147856",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ndi_iri",
+      "target": "freedom_house",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $217,901 from NDI in tax year 2022. All years: $2,927,582 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521338892&e=131656647",
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "rf_catalytic",
+      "target": "climate_united",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $600,000 in tax year 2023. All years: $2,659,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=852150251&e=922069788",
+        "https://projects.propublica.org/nonprofits/organizations/852150251",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "obama_foundation",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $2,050,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=464950751",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "osf",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $2,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=810623035",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $2,000,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 810623035 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "atlantic_council",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $850,000 from Tides Foundation in tax year 2023. All years: $2,000,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=520742294",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,000,000 from Tides Foundation in tax year 2023. All years: $2,000,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "knight",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $2,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=650464177&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/650464177",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $2,000,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 205806345 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "rbf",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,730,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131760106&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $1,730,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "occrp",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $250,000 Tides Foundation to Journalism Development Network (OCCRP) in tax year 2023. All years: $1,513,800 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=260898750",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,500,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $1,500,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 814777062 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "internews",
+      "target": "freedom_house",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $260,170 in tax year 2023. All years: $1,475,328 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=943027961&e=131656647",
+        "https://projects.propublica.org/nonprofits/organizations/943027961",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ndi_iri",
+      "target": "solidarity_center",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $196,605 from NDI in tax year 2022. All years: $1,303,476 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521338892&e=521984713",
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,262,496 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=137029285&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/137029285",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $1,262,496 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "rf_catalytic",
+      "target": "new_venture_fund",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,100,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=852150251&e=205806345",
+        "https://projects.propublica.org/nonprofits/organizations/852150251",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "fpos",
+      "target": "rf_catalytic",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,097,800 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=263753801&e=852150251",
+        "https://projects.propublica.org/nonprofits/organizations/263753801",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $1,097,800 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 852150251 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "ndi_iri",
+      "target": "cipe",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $139,731 from NDI in tax year 2022. All years: $1,045,274 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521338892&e=521398742",
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "knight",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=650464177&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/650464177",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $1,000,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "mdif",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $1,000,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=134052259",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "votevets",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $790,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=510596352",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "aba",
+      "target": "cipe",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $83,065 from ABA Fund for Justice and Education in tax year 2022. All years: $779,820 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=366110299&e=521398742",
+        "https://projects.propublica.org/nonprofits/organizations/366110299",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $720,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $720,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 130552040 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $700,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $700,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=943213100",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $700,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 943213100 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "rbf",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $650,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131760106&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $650,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 814777062 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $576,242 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "occrp",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $286,207 Alliance for Open Society International to Journalism Development Network (OCCRP) in tax year 2023. All years: $572,414 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=810623035&e=260898750",
+        "https://projects.propublica.org/nonprofits/organizations/810623035",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "protect_democracy",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $25,000 to Tides Advocacy in tax year 2023. All years: $565,568 across all returns in her database, IRS e-file data 2017-2025 (to Tides Foundation $515,568; to Tides Advocacy $50,000).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=814777062&e=510198509",
+        "https://datarepublican.com/browse/?e=814777062&e=943153687",
+        "https://projects.propublica.org/nonprofits/organizations/814777062",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "freedom_house",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $400,500 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=131656647",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "democracy_fund",
+      "target": "democracy_forward",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $400,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=383926408&e=821007988",
+        "https://projects.propublica.org/nonprofits/organizations/383926408",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $400,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 821007988 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "rbf",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $400,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=131760106&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/131760106",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $400,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 473681860 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "atlantic_council",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $382,096 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=520742294",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "green_capital",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $360,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=900868299",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ifes",
+      "target": "ndi_iri",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $107,669 to NDI in tax year 2022. All years: $358,636 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521527835&e=521338892",
+        "https://projects.propublica.org/nonprofits/organizations/521527835",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2022",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "atlantic_council",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $330,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=520742294",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "osf",
+      "target": "hopewell",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $315,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=137029285&e=473681860",
+        "https://projects.propublica.org/nonprofits/organizations/137029285",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $315,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 473681860 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "gmf",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $150,000 from Tides Foundation in tax year 2023. All years: $300,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=520954751",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "carnegie_endowment",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $50,000 in tax year 2023. All years: $300,000 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=130552040",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "ned",
+      "target": "aba",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $295,142 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521344831&e=366110299",
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "democracy_forward",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $5,893 from Tides Foundation in tax year 2023. All years: $221,578 across all returns in her database, IRS e-file data 2017-2025.",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=821007988",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/blob/main/charity/grants_latest.csv.zip",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2023",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files: single-year amounts in charity/grants_latest, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "new_venture_fund",
+      "target": "votevets",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $190,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=205806345&e=510596352",
+        "https://projects.propublica.org/nonprofits/organizations/205806345",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "sixteen_thirty",
+      "target": "votevets",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $190,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=264486735&e=510596352",
+        "https://projects.propublica.org/nonprofits/organizations/264486735",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "tides",
+      "target": "internews",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $130,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510198509&e=943027961",
+        "https://projects.propublica.org/nonprofits/organizations/510198509",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "solidarity_center",
+      "target": "cipe",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $130,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=521984713&e=521398742",
+        "https://projects.propublica.org/nonprofits/organizations/521984713",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "protect_democracy",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $100,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=814777062",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "gmf",
+      "target": "occrp",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $80,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=520954751&e=260898750",
+        "https://projects.propublica.org/nonprofits/organizations/520954751",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "votevets",
+      "target": "sixteen_thirty",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $50,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=510596352&e=264486735",
+        "https://projects.propublica.org/nonprofits/organizations/510596352",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "macarthur",
+      "target": "tides",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $38,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=237093598&e=510198509",
+        "https://projects.propublica.org/nonprofits/organizations/237093598",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return. $38,000 of the all-years sum is on returns that name the grantee without an EIN; her tool matched the name to EIN 510198509 (her 'inferred' flag).",
+      "indirect": false
+    },
+    {
+      "source": "hopewell",
+      "target": "democracy_forward",
+      "relation": "Grants listed on IRS Form 990 returns (DataRepublican's 990 data): $20,000 across all returns in her database, IRS e-file data 2017-2025 (no line in her latest-year file).",
+      "confidence": "fact",
+      "sources": [
+        "https://datarepublican.com/browse/?e=473681860&e=821007988",
+        "https://projects.propublica.org/nonprofits/organizations/473681860",
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ],
+      "date": "2017-2025",
+      "lead_origin": "DataRepublican (990 grant data)",
+      "verified": "Checked in DataRepublican's open data files, all-years sums in browse/tsv_chunks (her $10M band). Not re-checked against each IRS return.",
+      "indirect": false
+    },
+    {
+      "source": "eisen",
+      "target": "states_united",
+      "relation": "Co-founded the States United Democracy Center in 2021; left it in early 2024",
+      "confidence": "fact",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Norman_Eisen"
+      ],
+      "date": "2021",
+      "verified": "Wikipedia: 'Eisen was a co-founder of the States United Democracy Center in 2021' and 'Eisen departed States United in early 2024'. The group's own About page does not name its founders.",
+      "indirect": false
+    },
+    {
+      "source": "aba",
+      "target": "aba_ceeli",
+      "relation": "The ABA set up its Rule of Law Initiative in 2007 to consolidate its overseas rule-of-law programmes, including CEELI, which it created in 1990",
+      "confidence": "fact",
+      "sources": [
+        "https://www.americanbar.org/advocacy/rule_of_law/about/"
+      ],
+      "date": "2007",
+      "verified": "ABA Rule of Law Initiative 'About' page (calls CEELI the 'Central European and Eurasian Law Initiative').",
+      "indirect": false
+    }
+  ],
+  "node_updates": {
+    "ned": {
+      "government_funding_990": "NED tax year 2023 Form 990: total receipts $356,168,378, of which government grants $354,129,218 (99%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521344831",
+        "https://datarepublican.com/browse/?e=521344831"
+      ]
+    },
+    "ndi_iri": {
+      "government_funding_990": "NDI tax year 2023 Form 990: total receipts $182,359,535, of which government grants $178,576,378 (98%); IRI tax year 2023 Form 990: total receipts $126,799,495, of which government grants $122,440,570 (97%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521338892",
+        "https://projects.propublica.org/nonprofits/organizations/521340267",
+        "https://datarepublican.com/browse/?e=521338892&e=521340267"
+      ]
+    },
+    "cepps": {
+      "government_funding_990": "CEPPS tax year 2023 Form 990: total receipts $177,653,103, of which government grants $177,653,103 (100%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521943638",
+        "https://datarepublican.com/browse/?e=521943638"
+      ]
+    },
+    "ifes": {
+      "government_funding_990": "IFES tax year 2023 Form 990: total receipts $77,503,021, of which government grants $60,776,652 (78%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521527835",
+        "https://datarepublican.com/browse/?e=521527835"
+      ]
+    },
+    "cipe": {
+      "government_funding_990": "CIPE tax year 2023 Form 990: total receipts $51,993,935, of which government grants $51,927,007 (100%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521398742",
+        "https://datarepublican.com/browse/?e=521398742"
+      ]
+    },
+    "solidarity_center": {
+      "government_funding_990": "Solidarity Center tax year 2024 Form 990: total receipts $79,607,769, of which government grants $78,303,944 (98%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/521984713",
+        "https://datarepublican.com/browse/?e=521984713"
+      ]
+    },
+    "internews": {
+      "government_funding_990": "Internews tax year 2024 Form 990: total receipts $111,303,831, of which government grants $84,589,566 (76%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/943027961",
+        "https://datarepublican.com/browse/?e=943027961"
+      ]
+    },
+    "occrp": {
+      "government_funding_990": "Journalism Development Network (OCCRP's US entity) tax year 2024 Form 990: total receipts $21,467,970, of which government grants $15,647,571 (73%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/260898750",
+        "https://datarepublican.com/browse/?e=260898750"
+      ]
+    },
+    "gmf": {
+      "government_funding_990": "GMF tax year 2024 Form 990: total receipts $58,281,324, of which government grants $15,037,202 (26%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/520954751",
+        "https://datarepublican.com/browse/?e=520954751"
+      ]
+    },
+    "atlantic_council": {
+      "government_funding_990": "Atlantic Council tax year 2024 Form 990: total receipts $84,519,551, of which government grants $9,908,972 (12%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/520742294",
+        "https://datarepublican.com/browse/?e=520742294"
+      ]
+    },
+    "carnegie_endowment": {
+      "government_funding_990": "Carnegie Endowment tax year 2024 Form 990: total receipts $131,714,925, of which government grants $3,111,127 (2%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/130552040",
+        "https://datarepublican.com/browse/?e=130552040"
+      ]
+    },
+    "green_capital": {
+      "government_funding_990": "Coalition for Green Capital tax year 2024 Form 990: total receipts $24,315,819, of which government grants $23,875,919 (98%) (DataRepublican's 990 data).",
+      "sources_add": [
+        "https://projects.propublica.org/nonprofits/organizations/900868299",
+        "https://datarepublican.com/browse/?e=900868299"
+      ]
+    }
+  },
+  "audit": [
+    {
+      "link": "usaid -> cepps",
+      "her_claim": "Over half a billion dollars in active grants and $160m+ a year in contributions, mostly USAID",
+      "check": "USAspending (her award files): 48 active USAID awards, $528,658,494. CEPPS tax year 2023 Form 990: receipts $177,653,103, all of it government grants.",
+      "result": "Confirmed",
+      "label": "fact"
+    },
+    {
+      "link": "ndi_iri -> cepps and ifes -> cepps",
+      "her_claim": "IRI 31%, NDI 41%, IFES 28% of CEPPS funding",
+      "check": "CEPPS 2022 grant lines: IRI $51,707,077 (31%), NDI $64,298,125 (39%), and $49,137,537 (30%) under CEPPS's own EIN, which is probably IFES.",
+      "result": "IRI share confirmed; NDI share 2 points lower in this year; IFES share close if the third line is IFES",
+      "label": "fact"
+    },
+    {
+      "link": "ned -> cipe, ned -> solidarity_center",
+      "her_claim": "NED core institutes",
+      "check": "NED 2022 grant lines: CIPE $24,024,205 + $9,727,120; Solidarity Center $28,701,508 + $7,286,496. All years: CIPE $235,948,778; Solidarity Center $248,297,914.",
+      "result": "Confirmed, money edges added",
+      "label": "fact"
+    },
+    {
+      "link": "ned -> ndi_iri (main graph)",
+      "her_claim": "NED core institutes",
+      "check": "NED 2022: IRI $39,199,882, NDI $33,422,549. All years: IRI $262,535,220, NDI $251,242,548.",
+      "result": "Confirmed, money edge added",
+      "label": "fact"
+    },
+    {
+      "link": "usaid -> internews",
+      "her_claim": "$94.5m in active USAID and State grants; 990 shows $93.9m in taxpayer funding",
+      "check": "USAspending: 13 active awards, $94,501,096. Her charities file holds the 2024 return: government grants $84,589,566 of $111,303,831.",
+      "result": "Award total confirmed; the $93.9m 990 figure not confirmed (probably the 2023 return, which could not be read)",
+      "label": "fact (award total)"
+    },
+    {
+      "link": "us_state_dept -> ned",
+      "her_claim": "$1.62bn in State Department grants",
+      "check": "USAspending: $1,617.6m across 7 awards. NED tax year 2023 Form 990: government grants $354,129,218 of $356,168,378 receipts (99%).",
+      "result": "Confirmed",
+      "label": "fact"
+    },
+    {
+      "link": "usaid -> usaid_cep, usaid -> usaid_pol_political, usaid -> cebrics",
+      "her_claim": "USAID Poland awards",
+      "check": "Her award files: 7200AA22CA00024, 00025, 00026 (recipients masked on USAspending).",
+      "result": "Confirmed",
+      "label": "fact"
+    },
+    {
+      "link": "smolar -> ned, journal_of_democracy -> isp",
+      "her_claim": "NED index entries",
+      "check": "Her NED Journal of Democracy index (ned/data.zip).",
+      "result": "Confirmed",
+      "label": "fact"
+    },
+    {
+      "link": "reiff, zeitz, nsl4a, memo98, crta, osborn_bengs, eisen -> rad_drg",
+      "her_claim": "Democracy Files recordings and documents",
+      "check": "No 990 or award records for these groups in her open data; the claims rest on her recordings.",
+      "result": "Unchanged",
+      "label": "alleged"
+    },
+    {
+      "link": "votevets (claim)",
+      "her_claim": "Former chair Jon Soltz paid $437,000 for 30 hours a week",
+      "check": "Officer pay is not in her open data files.",
+      "result": "Not checked",
+      "label": "alleged"
+    },
+    {
+      "link": "datarepublican -> ned (main graph and op-ed file)",
+      "her_claim": "NED and its institutes 'function as an off-the-books shadow U.S. government'",
+      "check": "Her opinion, so it belongs on her claims list, not as a link from a DataRepublican node.",
+      "result": "Node removal and move to 'claims made about NED' already staged in the shared map files",
+      "label": "alleged"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Internews: DataRepublican's thread says its 990 shows '$93.9 million in taxpayer funding'",
+      "result": "Not confirmed. Her current file holds the 2024 return: government grants $84,589,566 of $111,303,831. ProPublica does not show the government-grant line for 2022-2023; the 2023 return (contributions $123,850,736) needs checking by hand.",
+      "label": "alleged",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/943027961"
+      ]
+    },
+    {
+      "lead": "CEPPS 2022: $49,137,537 listed under CEPPS's own EIN",
+      "result": "Probably the IFES line with the wrong EIN (it sits beside the NDI and IRI lines and is close to the 28% IFES share she cites). Needs the CEPPS 2022 Schedule I to confirm.",
+      "label": "speculation",
+      "sources": [
+        "https://projects.propublica.org/nonprofits/organizations/521943638"
+      ]
+    },
+    {
+      "lead": "DataRepublican's 'Soros' grouping lists EIN 263750801",
+      "result": "No return under that EIN in her data; it looks like a typo for the Foundation to Promote Open Society (26-3753801), so her preset view misses OSF's largest grant-maker. The flows here use the correct EIN.",
+      "label": "speculation",
+      "sources": [
+        "https://github.com/twinforces/datarepublican/blob/main/browse/presets.js"
+      ]
+    },
+    {
+      "lead": "All-years sums",
+      "result": "Her browse sums were not broken down by year here, and amended returns could be counted twice. The single-year figures are the safer numbers.",
+      "label": "speculation",
+      "sources": [
+        "https://github.com/twinforces/datarepublican/tree/main/browse/tsv_chunks"
+      ]
+    }
+  ]
+}
