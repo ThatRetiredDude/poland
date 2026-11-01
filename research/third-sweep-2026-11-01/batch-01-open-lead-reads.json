@@ -25,46 +25,46 @@
   ]
  },
  "stats": {
-  "agents": 4,
+  "agents": 5,
   "agents_left_out_unfinished_or_other_batch": 12,
   "searches": 0,
   "search_results": 0,
   "unique_result_urls": 0,
-  "page_fetches": 16,
-  "pages_reported": 14,
-  "pages_with_page_text": 12,
+  "page_fetches": 19,
+  "pages_reported": 17,
+  "pages_with_page_text": 15,
   "fetch_status": {
    "partial": 4,
-   "ok": 8,
+   "ok": 11,
    "empty": 2
   },
-  "claims": 125,
+  "claims": 152,
   "labels": {
-   "fact": 99,
-   "alleged": 8,
+   "fact": 107,
+   "alleged": 19,
    "speculation": 1,
-   "no_link": 17
+   "no_link": 25
   },
   "evidence_check": {
-   "exact": 98,
-   "normalized": 27
+   "exact": 108,
+   "normalized": 44
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 75,
-   "pair_already_linked": 12,
-   "both_names_unmatched": 26,
-   "new_tie_between_known_entities": 12
+   "new_entity_or_unmatched_name": 89,
+   "pair_already_linked": 19,
+   "both_names_unmatched": 29,
+   "new_tie_between_known_entities": 15
   },
   "kinds": {
-   "membership_or_board": 8,
+   "membership_or_board": 9,
    "event_or_speech": 6,
    "statement": 28,
    "nomination_or_vote": 16,
-   "role_or_job": 17,
-   "other": 26,
-   "grant_or_donation": 15,
-   "legal_action": 7,
-   "contract_or_fee": 2
+   "role_or_job": 19,
+   "other": 32,
+   "grant_or_donation": 19,
+   "legal_action": 18,
+   "contract_or_fee": 5
   },
   "title_only_leads": 0,
   "to_read_unread": 0,
@@ -2426,6 +2426,733 @@
    ]
   },
   {
+   "ref": "R044",
+   "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
+   "host": "judicialwatch.org",
+   "lead_ref": "S1-free_courts_us_funding",
+   "capture_request": "Likely source of the grant list behind the OSF and NED entries on the map | Lead question: Does any US government money reach Free Courts (Fundacja Wolne Sądy) or its co-founders, and what capacity did the NED fellowship (Wawrykiewicz) involve?",
+   "fetch_status": "ok",
+   "fetch_note": "Returned in full (HTTP 200, text/html, 46,174 characters). Judicial Watch press release dated March 09, 2026, byline Tatiana Venn. The OSF, NED and DemoCrisis ties are Judicial Watch's own statements that cite linked sources (opensocietyfoundations.org grant page, wolnesady.org, jpost.com, newsbusters.org, europeanconservative.com, hungarytoday.hu). None of those linked pages was read. Michał Wawrykiewicz is described only as 'Polish lawyer'.",
+   "page_title": "Judicial Watch Sues State Dept for Records on Grants to Left-Wing European NGOs",
+   "page_date": "March 09, 2026",
+   "publisher": "Judicial Watch",
+   "capture_answer": "Only second-hand; it is not a grant list. The release (March 09, 2026) cites two ties: that the Free Courts Foundation received a $130,000 grant from the Open Society Foundations in 2023, according to the OSF website, and that Free Courts lists the National Endowment for Democracy as a 'partner organization' on its website. It gives no NED amount, date or fellowship, and calls NED 'quasi-governmental'. No US government contract, grant or payment to Free Courts or to Michał Wawrykiewicz is stated. The only US-government funding item is a project of Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation) supported by the U.S. Embassy Budapest’s Free Media Grant Program. Wawrykiewicz is described only as a 'Polish lawyer' who co-founded Free Courts and sits on the board of DemoCrisis; no MEP role or party is stated. The page uses 'Free Courts (Wolne Sądy)' and 'Free Courts Foundation'; it does not use 'Fundacja'.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:20:36.808Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 46174,
+    "sha256": "fa1344bd30912630b1ed4bab9ba3a5ea77943bddfcbdb47b273c125f3064bb97",
+    "url_read": "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+   },
+   "names_listed": [
+    "Michał Wawrykiewicz",
+    "Free Courts (Wolne Sądy)",
+    "Civil Liberties Union for Europe",
+    "DemoCrisis",
+    "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation)"
+   ],
+   "names_found_in_page_text": "5/5",
+   "followup_urls": [
+    {
+     "url": "https://www.opensocietyfoundations.org/grants/past?grant_id=OR2023-91066",
+     "why": "OSF grant record the release cites for the $130,000 grant to the Free Courts Foundation in 2023. Check recipient, year and amount."
+    },
+    {
+     "url": "https://wolnesady.org/#news",
+     "why": "Free Courts site the release cites for the listing of the National Endowment for Democracy as a partner organization."
+    },
+    {
+     "url": "https://www.jpost.com/international/article-763158",
+     "why": "Cited for DemoCrisis (founded 2023, umbrella organization of NGOs in Israel, Poland and Hungary) and Wawrykiewicz's board seat."
+    },
+    {
+     "url": "https://hungarytoday.hu/us-taxpayers-money-reportedly-flowing-to-hungarian-opposition-media/",
+     "why": "Cited for the U.S. Embassy Budapest Free Media Grant Program project tied to Ökotárs (HEPF). Not a Free Courts source."
+    },
+    {
+     "url": "https://newsbusters.org/blogs/business/tom-olohan/2024/02/12/exclusive-biden-gives-taxpayer-dollars-soros-funded-groups",
+     "why": "Cited for the $306,000 OSF grant to the Hungarian Environmental Partnership (2017 to 2022). Check against OSF grant records."
+    },
+    {
+     "url": "https://europeanconservative.com/articles/news/eu-funded-ngo-report-slams-conservative-governments/",
+     "why": "Cited for LibertiesEU receiving about 40% of its funding from OSF. Not an actor on the list; lower priority."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0102",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "filed a Freedom of Information Act (FOIA) lawsuit against",
+     "object": "U.S. Department of State",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "March 09, 2026",
+     "evidence_text": "it filed a Freedom of Information Act (FOIA) lawsuit against the U.S. Department of State",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own announcement that it filed the suit (Judicial Watch v. U.S. Department of State, No. 1:26-cv-00346, D.D.C., per the release). The court filing itself is covered under R045.",
+     "evidence_location": "Body para 1 (lead)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0103",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "requested State Department contracts and grant agreements connected to (FOIA request, November 2025)",
+     "object": "Free Courts (Wolne Sądy)",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "November 2025",
+     "evidence_text": "connected to the organizations Free Courts (Wolne Sądy)",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own statement that it made this request, which covers all contracts and grant agreements from January 2016 to November 2025. A request is not evidence that any contract or grant exists.",
+     "evidence_location": "Body para 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0104",
+     "subject": "U.S. Department of State",
+     "subject_type": "public_body",
+     "relation": "failed to respond to the FOIA request from",
+     "object": "Judicial Watch",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "November 2025",
+     "evidence_text": "the State Department failed to respond to a November 2025 FOIA request",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch states this in the release. The complaint (R045, para 8) makes the same claim. No State Department response is quoted in these pages.",
+     "evidence_location": "Body para 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "orlen",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0105",
+     "subject": "Open Society Foundations",
+     "subject_type": "org",
+     "relation": "made a grant to (according to the OSF website, as cited by Judicial Watch)",
+     "object": "Free Courts Foundation",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "$130,000",
+     "currency": "$ (as printed)",
+     "date": "2023",
+     "evidence_text": "According to the Open Society Foundations’ website, the Free Courts Foundation received a $130,000 grant in 2023.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this, citing the OSF website (linked grant_id=OR2023-91066, not read). The release names the grantee 'Free Courts Foundation'; elsewhere it uses 'Free Courts (Wolne Sądy)'.",
+     "evidence_location": "Body para 3",
+     "new_entities": [
+      "Open Society Foundations"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "osf",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n"
+     ]
+    },
+    {
+     "id": "B01-C0106",
+     "subject": "Free Courts (Wolne Sądy)",
+     "subject_type": "org",
+     "relation": "lists as a partner organization on its website (per Judicial Watch)",
+     "object": "National Endowment for Democracy",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "The organization lists the quasi-governmental National Endowment for Democracy as a partner organization on its website.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this, citing the Free Courts website (wolnesady.org/#news, linked, not read). 'Quasi-governmental' is Judicial Watch's description. No NED amount, date or capacity is given. 'The organization' is the Free Courts Foundation named in the preceding sentence.",
+     "evidence_location": "Body para 3",
+     "new_entities": [
+      "National Endowment for Democracy"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "object_map_id": "ned",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)"
+     ]
+    },
+    {
+     "id": "B01-C0107",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "co-founded",
+     "object": "Free Courts (Wolne Sądy)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Polish lawyer Michał Wawrykiewicz, who co-founded Free Courts, is on the board of DemoCrisis",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this. The page describes him only as a 'Polish lawyer'. No date or title for the co-founder role is given.",
+     "evidence_location": "Body para 3",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-founder (2017)",
+      "board member until 2024 (resigned June 2024 before taking EP seat); paid EUR 1,737/month per EP declaration",
+      "paid board member until Apr 2024 (~€1,737/month)",
+      "board member until 2024 (resigned June 2024 before taking EP seat); paid EUR 1,737/month per EP declaration",
+      "co-founder (2017)"
+     ]
+    },
+    {
+     "id": "B01-C0108",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "is on the board of",
+     "object": "DemoCrisis",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Polish lawyer Michał Wawrykiewicz, who co-founded Free Courts, is on the board of DemoCrisis",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this, linking a jpost.com article (not read) for it. No start date or board title is given.",
+     "evidence_location": "Body para 3",
+     "new_entities": [
+      "DemoCrisis"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "democrisis",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-founder and board member since 2023 (unpaid); DemoCrisis funders not published",
+      "unpaid board member",
+      "co-founder and board member since 2023 (unpaid); DemoCrisis funders not published",
+      "co-founder and board member since 2023 (unpaid); DemoCrisis funders not published",
+      "unpaid board member"
+     ]
+    },
+    {
+     "id": "B01-C0109",
+     "subject": "DemoCrisis",
+     "subject_type": "org",
+     "relation": "was founded as an umbrella organization of",
+     "object": "non-government organizations (NGOs) in Israel, Poland and Hungary",
+     "object_type": "other",
+     "kind": "other",
+     "date": "2023",
+     "evidence_text": "DemoCrisis which was founded in 2023 and is an umbrella organization of non-government organizations (NGOs)",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this. The release gives the Israel, Poland and Hungary scope. The linked jpost.com article was not read.",
+     "evidence_location": "Body para 3",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "democrisis",
+     "subject_map_status": "on_map",
+     "object_map_id": "danube_cfr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0110",
+     "subject": "Civil Liberties Union for Europe (LibertiesEU)",
+     "subject_type": "org",
+     "relation": "was spun off from, and receives approximately 40% of its funding from (per Judicial Watch)",
+     "object": "Open Society Foundations",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "approximately 40% of its funding",
+     "evidence_text": "which was spun off from Open Society Foundations and received approximately 40% of its funding from the organization",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this, citing a europeanconservative.com article (linked, not read). 'The organization' is Open Society Foundations. The release gives no currency amount.",
+     "evidence_location": "Body para 4",
+     "new_entities": [
+      "Civil Liberties Union for Europe (LibertiesEU)"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "osf",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0111",
+     "subject": "Open Society Foundations",
+     "subject_type": "org",
+     "relation": "provided grant funding to (per Judicial Watch, citing a newsbusters.org post)",
+     "object": "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "$306,000",
+     "currency": "$ (as printed)",
+     "date": "between 2017 and 2022",
+     "evidence_text": "The Hungarian Environmental Partnership received $306,000 from the Open Society Foundations between 2017 and 2022",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this, citing a newsbusters.org post (linked, not read). The release calls the grantee 'The Hungarian Environmental Partnership'; the FOIA list in the same release calls it Ökotárs Alapítvány.",
+     "evidence_location": "Body para 5",
+     "new_entities": [
+      "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation)"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "osf",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0112",
+     "subject": "U.S. Embassy Budapest’s Free Media Grant Program",
+     "subject_type": "public_body",
+     "relation": "supported one of the projects funded by",
+     "object": "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "One of the projects the organization funds was also supported by the U.S. Embassy Budapest’s Free Media Grant Program",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch claims this and cites a hungarytoday.hu report (linked, not read) that U.S. taxpayer dollars helped fund the program. No project name or amount is given. The tie is to Ökotárs, not to Free Courts.",
+     "evidence_location": "Body para 5",
+     "new_entities": [
+      "U.S. Embassy Budapest Free Media Grant Program"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0113",
+     "subject": "Free Courts (Wolne Sądy)",
+     "subject_type": "org",
+     "relation": "holds a U.S. government contract, grant or payment (none stated)",
+     "object": "U.S. government",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_text": "the State Department failed to respond to a November 2025 FOIA request",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the release (and its duplicate R046). It states no US government contract, grant or payment to Free Courts. The only State Department item is a FOIA request that the release says went unanswered.",
+     "evidence_location": "Body para 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0114",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "holds a U.S. government contract, grant or payment (none stated)",
+     "object": "U.S. government",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_text": "the State Department failed to respond to a November 2025 FOIA request",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the release (and R046). No US government money to Wawrykiewicz personally is stated. The page's only US-government funding item concerns Ökotárs (HEPF), not him.",
+     "evidence_location": "Body para 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0115",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "held a National Endowment for Democracy fellowship (capacity not stated)",
+     "object": "National Endowment for Democracy",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "The organization lists the quasi-governmental National Endowment for Democracy as a partner organization on its website.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the release (and R046). No NED fellowship or other NED role for Wawrykiewicz appears. NED is named only as a partner listed on the Free Courts website, per Judicial Watch.",
+     "evidence_location": "Body para 3",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "ned",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "NED fellowship in Washington 2022/23, USD 26,000 declared",
+      "panelist at NED event 'Declining Rule of Law in Poland' (NED staff moderated)",
+      "US$26,000 fellowship 2022/23",
+      "NED fellowship in Washington 2022/23, USD 26,000 declared",
+      "panelist at NED event 'Declining Rule of Law in Poland' (NED staff moderated)"
+     ]
+    },
+    {
+     "id": "B01-C0116",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "is a Member of the European Parliament (MEP)",
+     "object": "European Parliament",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Polish lawyer Michał Wawrykiewicz, who co-founded Free Courts",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the release (and R046). He is described only as a 'Polish lawyer'. No European Parliament seat, MEP title or party affiliation is stated.",
+     "evidence_location": "Body para 3",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "european_parliament",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0117",
+     "subject": "George Soros",
+     "subject_type": "person",
+     "relation": "personal or institutional tie to Free Courts or Michał Wawrykiewicz",
+     "object": "Free Courts (Wolne Sądy)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "non-profits that are supported by George Soros",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the release (and R046). Soros is named only in general background and in Romania and Albania items. No tie to Free Courts or Wawrykiewicz is stated.",
+     "evidence_location": "Background paragraphs after the Fitton quote",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "osf",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n"
+     ]
+    },
+    {
+     "id": "B01-C0118",
+     "subject": "Judicial Watch press release (R044; duplicate R046)",
+     "subject_type": "document",
+     "relation": "names any of the other listed actors",
+     "object": "Donald Tusk; Waldemar Żurek; Adam Bodnar; the eight TK judges; Bogdan Święczkowski; Karol Nawrocki; Iustitia; Themis; HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "records on contracts, grants, and communications with several left-wing European non-governmental organizations (NGOs)",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the full release: none of these names or organizations appear. The complaint (R045) names none of them either. The release's scope is US State Department records for named organizations.",
+     "evidence_location": "Body para 1 (lead)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "R045",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "host": "judicialwatch.org",
+   "lead_ref": "S1-free_courts_us_funding",
+   "capture_request": "FOIA complaint against State Dept on Europe grants; may name recipients | Lead question: Does any US government money reach Free Courts (Fundacja Wolne Sądy) or its co-founders, and what capacity did the NED fellowship (Wawrykiewicz) involve?",
+   "fetch_status": "ok",
+   "fetch_note": "Returned as text (application/pdf, 5,719 characters), 4 pages. No exhibits or grant amounts in the text. Complaint dated February 4, 2026, file-stamped 02/05/26, case 1:26-cv-00346 (D.D.C.). The caption's 'Civil Action No.' is blank; the number is in the page footers. The period in para 5 is 'January 1, 2016, to the present'; the release says January 2016 to November 2025.",
+   "page_title": "Complaint, Judicial Watch, Inc. v. U.S. Department of State, No. 1:26-cv-00346 (document has no separate title)",
+   "page_date": "Dated February 4, 2026; filed 02/05/26",
+   "publisher": "Judicial Watch, Inc. (plaintiff's complaint)",
+   "capture_answer": "Names four recipients whose State Department contracts and grants Judicial Watch sought: Free Courts, the Civil Liberties Union for Europe, DemoCrisis and Ökotárs Alapítvány. It gives no amounts, no grant list and no contract. It does not name Michał Wawrykiewicz, the National Endowment for Democracy or any fellowship. Per the complaint, State acknowledged the request by email dated November 12, 2025 (FOIA reference F-2026-02738) and, as of February 4, 2026, had not produced records. The complaint therefore identifies no US government money to Free Courts or Wawrykiewicz.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:20:37.183Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 5719,
+    "sha256": "d0e6e8084765c1cdb1dbedd883a4107cb09c27a1d840a3f9d3fff319764ebcbf",
+    "url_read": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
+   },
+   "names_listed": [
+    "James F. Peterson",
+    "Free Courts",
+    "Civil Liberties Union for Europe",
+    "DemoCrisis",
+    "Ökotárs Alapítvány (English: Hungarian Environmental Partnership Foundation, HEPF)"
+   ],
+   "names_found_in_page_text": "5/5",
+   "claims": [
+    {
+     "id": "B01-C0119",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "filed a FOIA complaint against (Civil Action, U.S. District Court for the District of Columbia)",
+     "object": "U.S. Department of State",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "February 4, 2026 (dated); filed 02/05/26",
+     "evidence_text": "Case 1:26-cv-00346 Document 1 Filed 02/05/26 Page 1 of 4",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Court filing stamp on the complaint (Document 1, filed 02/05/26). The complaint is dated February 4, 2026. The caption's Civil Action No. is blank; the case number is in the footer.",
+     "evidence_location": "Footer, page 1",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0120",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "sent a FOIA request to, via the State Department's online portal",
+     "object": "U.S. Department of State",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "November 12, 2025",
+     "evidence_text": "On November 12, 2025, Plaintiff sent a FOIA request to the State Department, via the agency’s online portal",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own statement (complaint para 5) that it sent the request. A request is not evidence that any contract or grant exists.",
+     "evidence_location": "Complaint para 5, first sentence",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0121",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "requested State Department contracts, grant agreements or similar records with",
+     "object": "Free Courts",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "January 1, 2016, to the present",
+     "evidence_text": "A. All contracts, grant agreements, or similar records between the Department of State and the organization Free Courts.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Scope of the request as Judicial Watch states it (para 5, item A). Item A notes the Polish name is 'Wolne Sady'. Here the period runs 'to the present'; the release says January 2016 to November 2025. Item E also covers State emails that mention the four organizations.",
+     "evidence_location": "Complaint para 5, item A",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0122",
+     "subject": "U.S. Department of State",
+     "subject_type": "public_body",
+     "relation": "acknowledged receipt of the Judicial Watch request and assigned it a FOIA reference number",
+     "object": "Judicial Watch, Inc.",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "November 12, 2025",
+     "evidence_text": "had been assigned FOIA reference number F-2026-02738",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch (plaintiff) states this in its complaint (para 6), citing a State Department email dated November 12, 2025, which is not in the text. The same complaint says State made no determination (para 8).",
+     "evidence_location": "Complaint para 6",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "orlen",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0123",
+     "subject": "U.S. Department of State",
+     "subject_type": "public_body",
+     "relation": "has not determined, notified or produced records for the Judicial Watch request",
+     "object": "Judicial Watch, Inc.",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "as of the date of the complaint (February 4, 2026)",
+     "evidence_text": "the State Department has failed to: (i) determine whether to comply with the request",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "alleged",
+     "label_scope": "Judicial Watch (plaintiff) alleges this in its complaint (para 8), as of the complaint date. No State Department document is quoted.",
+     "evidence_location": "Complaint para 8",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "orlen",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0124",
+     "subject": "Free Courts",
+     "subject_type": "org",
+     "relation": "holds a contract or grant agreement with (none identified)",
+     "object": "U.S. Department of State",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_text": "Plaintiff has received no further communication from Defendant regarding this request.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the complaint. It names no State Department contract or grant with Free Courts. It seeks such records and says (para 8) that State had not produced them as of the complaint date.",
+     "evidence_location": "Complaint para 7",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0125",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "held a National Endowment for Democracy fellowship (capacity not stated)",
+     "object": "National Endowment for Democracy",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "mentioning or referring to any of the organizations listed in parts one through four of this request",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "no_link",
+     "label_scope": "Checked the complaint. It does not name Michał Wawrykiewicz, the National Endowment for Democracy or any fellowship. Its records scope is limited to the four named organizations.",
+     "evidence_location": "Complaint para 5, item E",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "ned",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "NED fellowship in Washington 2022/23, USD 26,000 declared",
+      "panelist at NED event 'Declining Rule of Law in Poland' (NED staff moderated)",
+      "US$26,000 fellowship 2022/23",
+      "NED fellowship in Washington 2022/23, USD 26,000 declared",
+      "panelist at NED event 'Declining Rule of Law in Poland' (NED staff moderated)"
+     ]
+    },
+    {
+     "id": "B01-C0126",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "requested State Department contracts, grant agreements or similar records with",
+     "object": "Civil Liberties Union for Europe",
+     "object_type": "org",
+     "kind": "legal_action",
+     "evidence_text": "the Department of State and the organization Civil Liberties Union for Europe.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own request scope (para 5, item B). Items C and D cover DemoCrisis and Ökotárs Alapítvány.",
+     "evidence_location": "Complaint para 5, item B",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0127",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "requested State Department contracts, grant agreements or similar records with",
+     "object": "DemoCrisis",
+     "object_type": "org",
+     "kind": "legal_action",
+     "evidence_text": "the Department of State and the organization DemoCrisis.",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own request scope (para 5, item C). Wawrykiewicz's DemoCrisis board seat is stated in the release (R044), not in this complaint.",
+     "evidence_location": "Complaint para 5, item C",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "democrisis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0128",
+     "subject": "Judicial Watch, Inc.",
+     "subject_type": "org",
+     "relation": "requested State Department contracts, grant agreements or similar records with",
+     "object": "Ökotárs Alapítvány (English: Hungarian Environmental Partnership Foundation, HEPF)",
+     "object_type": "org",
+     "kind": "legal_action",
+     "evidence_text": "the organization Ökotárs Alapítvány (English: Hungarian Environmental Partnership Foundation, HEPF).",
+     "evidence_translation": "Same as evidence_text (English original).",
+     "label": "fact",
+     "label_scope": "Judicial Watch's own request scope (para 5, item D).",
+     "evidence_location": "Complaint para 5, item D",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "R046",
+   "url": "https://www.judicialwatch.org/?p=152386",
+   "host": "judicialwatch.org",
+   "lead_ref": "S1-free_courts_us_funding",
+   "capture_request": "Surfaced in 3 queries on the Free Courts / NED topic; content unknown | Lead question: Does any US government money reach Free Courts (Fundacja Wolne Sądy) or its co-founders, and what capacity did the NED fellowship (Wawrykiewicz) involve?",
+   "fetch_status": "ok",
+   "fetch_note": "Returned in full (HTTP 200, text/html, 46,174 characters). Same article as R044: same canonical URL (grants-left-wing-european-ngos), same length, same March 09, 2026 release. Claims are recorded under R044 only, so do not count them twice.",
+   "page_title": "Judicial Watch Sues State Dept for Records on Grants to Left-Wing European NGOs",
+   "page_date": "March 09, 2026",
+   "publisher": "Judicial Watch",
+   "capture_answer": "Same article as R044, so it adds nothing beyond R044. The Free Courts, NED and Wawrykiewicz content is in R044's claims.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:20:40.002Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 46174,
+    "sha256": "b7452ccae9a702134c1509a5b5304891f5665ee466b648d0bfdd5358d754aa1a",
+    "url_read": "https://www.judicialwatch.org/?p=152386"
+   },
+   "names_listed": [
+    "Michał Wawrykiewicz",
+    "Free Courts (Wolne Sądy)",
+    "Civil Liberties Union for Europe",
+    "DemoCrisis",
+    "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation)"
+   ],
+   "names_found_in_page_text": "5/5",
+   "claims": []
+  },
+  {
    "ref": "R047",
    "url": "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/",
    "host": "wolnesady.org",
@@ -2458,7 +3185,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0102",
+     "id": "B01-C0129",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "was Board Member of (resignation accepted)",
@@ -2487,7 +3214,7 @@
      ]
     },
     {
-     "id": "B01-C0103",
+     "id": "B01-C0130",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "decided to run as a 'candidate representing civil society' in, which the Foundation gives as the reason for leaving the board",
@@ -2509,7 +3236,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0104",
+     "id": "B01-C0131",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "will represent Poland in, after 'a great result' in the elections (per the Foundation)",
@@ -2534,7 +3261,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0105",
+     "id": "B01-C0132",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "party membership or party role",
@@ -2553,7 +3280,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0106",
+     "id": "B01-C0133",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "held a fellowship or grant from, or received funding through, the National Endowment for Democracy or the US government",
@@ -2581,7 +3308,7 @@
      ]
     },
     {
-     "id": "B01-C0107",
+     "id": "B01-C0134",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "received US government funding or NED grants",
@@ -2600,7 +3327,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0108",
+     "id": "B01-C0135",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "cites, as its concern in announcing the board change, the statutory independence requirement",
@@ -2620,7 +3347,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0109",
+     "id": "B01-C0136",
      "subject": "Sylwia Gregorczyk – Abram",
      "subject_type": "person",
      "relation": "is a board member directing the Foundation's statutory tasks (as of April 24, 2024)",
@@ -2652,7 +3379,7 @@
      ]
     },
     {
-     "id": "B01-C0110",
+     "id": "B01-C0137",
      "subject": "Paulina Kieszkowska",
      "subject_type": "person",
      "relation": "is a board member directing the Foundation's statutory tasks (as of April 24, 2024)",
@@ -2675,7 +3402,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0111",
+     "id": "B01-C0138",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "says its team has developed the Free Courts Initiative together over the years",
@@ -2697,7 +3424,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0112",
+     "id": "B01-C0139",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "submitted board-change amendments to",
@@ -2752,7 +3479,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0113",
+     "id": "B01-C0140",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "created an account on (crowdfunding for regular patron support)",
@@ -2775,7 +3502,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0114",
+     "id": "B01-C0141",
      "subject": "Patrons",
      "subject_type": "other",
      "relation": "give regular support to, as 'our Patrons'",
@@ -2795,7 +3522,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0115",
+     "id": "B01-C0142",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "represents judges, prosecutors and other lawyers as pro bono work",
@@ -2815,7 +3542,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0116",
+     "id": "B01-C0143",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "prepares reports, opinions and analyses of case law (fee status not stated)",
@@ -2835,7 +3562,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0117",
+     "id": "B01-C0144",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "supports and represents",
@@ -2855,7 +3582,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0118",
+     "id": "B01-C0145",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "is conducting over 50 proceedings before",
@@ -2881,7 +3608,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0119",
+     "id": "B01-C0146",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "says financial support for it and for other rule-of-law organisations can be treated as an investment",
@@ -2901,7 +3628,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0120",
+     "id": "B01-C0147",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "received US government funding or NED grants",
@@ -2944,7 +3671,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0121",
+     "id": "B01-C0148",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "established on (incorporation date)",
@@ -2964,7 +3691,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0122",
+     "id": "B01-C0149",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "main activity classified as",
@@ -2983,7 +3710,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0123",
+     "id": "B01-C0150",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "reported net sales revenue growth of",
@@ -3005,7 +3732,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0124",
+     "id": "B01-C0151",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "has key executives, management board members or financial auditors",
@@ -3024,7 +3751,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0125",
+     "id": "B01-C0152",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "received US government funding or NED grants, or any grant or donor funding",

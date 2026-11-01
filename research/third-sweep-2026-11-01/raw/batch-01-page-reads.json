@@ -160,6 +160,42 @@
    "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/pl/node/8672/revisions/8723/view\n    Redirect URL (from the server's Location header — server-supplied, not verified): https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/"
   },
   {
+   "agent": "read:R044-R046",
+   "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
+   "final_url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
+   "fetched_at": "2026-11-01T19:20:36.808Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 46174,
+   "sha256": "fa1344bd30912630b1ed4bab9ba3a5ea77943bddfcbdb47b273c125f3064bb97",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R044-R046",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "final_url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "fetched_at": "2026-11-01T19:20:37.183Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5719,
+   "sha256": "d0e6e8084765c1cdb1dbedd883a4107cb09c27a1d840a3f9d3fff319764ebcbf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R044-R046",
+   "url": "https://www.judicialwatch.org/?p=152386",
+   "final_url": "https://www.judicialwatch.org/?p=152386",
+   "fetched_at": "2026-11-01T19:20:40.002Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 46174,
+   "sha256": "b7452ccae9a702134c1509a5b5304891f5665ee466b648d0bfdd5358d754aa1a",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R047-R049",
    "url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html",
    "final_url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html",
