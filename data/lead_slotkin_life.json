@@ -506,6 +506,28 @@
     "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
     "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
    ]
+  },
+  {
+   "id": "holy_land_trust",
+   "type": "org",
+   "group": "ngo",
+   "label": "Holy Land Trust (Bethlehem)",
+   "role": "Palestinian NGO founded 1998 by Sami Awad; executive director Elias Deis (2025); US fiscal sponsor Nonviolence International (Washington DC). No Orlando/Florida link found.",
+   "sources": [
+    "https://www.influencewatch.org/non-profit/holy-land-trust/",
+    "https://www.nonviolenceinternational.net/donate_hlt",
+    "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/"
+   ]
+  },
+  {
+   "id": "rebuilding_alliance",
+   "type": "org",
+   "group": "ngo",
+   "label": "Rebuilding Alliance (US 501(c)(3))",
+   "role": "Sponsor of the Aug 2022 Israel/West Bank staff trip; executive director Donna Baranski-Walker",
+   "sources": [
+    "https://disclosures-clerk.house.gov/gtimages/ST/2022/500025366.pdf"
+   ]
   }
  ],
  "node_updates": {
@@ -845,6 +867,53 @@
     "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
     "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
    ]
+  },
+  {
+   "source": "rebuilding_alliance",
+   "target": "slotkin",
+   "relation": "Paid for her communications director Austin Cook's 13-21 Aug 2022 Israel/West Bank 'Leadership Learning Mission 4.0' (co-sponsor: Rotary Club of Woodside/Portola Valley Foundation). Per-traveller costs: transport $2,126, lodging $540, meals $266.40, guide and speaker fees $576, driver tips $36. House Ethics approved it 28 Jul 2022. Staff trip, not Slotkin herself.",
+   "confidence": "fact",
+   "date": "2022-08",
+   "sources": [
+    "https://disclosures-clerk.house.gov/gtimages/ST/2022/500025366.pdf"
+   ],
+   "tie": "indirect",
+   "via": "staff"
+  },
+  {
+   "source": "holy_land_trust",
+   "target": "slotkin",
+   "relation": "Planning partner and guide (Elias Deis) for her communications director's Aug 2022 trip, per Free Beacon. Staff trip, not Slotkin herself.",
+   "confidence": "fact",
+   "date": "2022-08",
+   "sources": [
+    "https://freebeacon.com/democrats/slotkin-spox-attended-anti-israel-west-bank-tour-led-by-member-of-terrorist-group/"
+   ],
+   "tie": "indirect",
+   "via": "staff",
+   "lead_origin": "Free Beacon"
+  },
+  {
+   "source": "osf",
+   "target": "holy_land_trust",
+   "relation": "Open Society Institute grants: $138,070 (2011, new media) and $58,070 (2012), as reported by InfluenceWatch",
+   "confidence": "alleged",
+   "date": "2011-2012",
+   "sources": [
+    "https://www.influencewatch.org/non-profit/holy-land-trust/"
+   ],
+   "lead_origin": "InfluenceWatch"
+  },
+  {
+   "source": "usaid",
+   "target": "holy_land_trust",
+   "relation": "US grant of $41,000 (2022) to train 30 women from marginalised communities, as reported by NGO Monitor",
+   "confidence": "alleged",
+   "date": "2022",
+   "sources": [
+    "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/"
+   ],
+   "lead_origin": "NGO Monitor"
   }
  ],
  "checked_no_link": [
@@ -917,6 +986,17 @@
     "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/S001208.html",
     "https://www.ethics.senate.gov/public/index.cfm/travel",
     "https://m.washingtontimes.com/news/2026/feb/20/lawmakers-trip-munich-dhs-shutdown-puts-spotlight-congress-pricey/"
+   ]
+  },
+  {
+   "subject": "holy_land_trust",
+   "searched_for": "any Orlando/Florida branch, or tie to the Holy Land Experience theme park (TBN) or the Texas Holy Land Foundation",
+   "result": "none found; only US link is fiscal sponsor Nonviolence International, Washington DC",
+   "sources": [
+    "https://www.influencewatch.org/non-profit/holy-land-trust/",
+    "https://www.nonviolenceinternational.net/donate_hlt",
+    "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/",
+    "https://zenpeacemakers.org/projects/holy-land-trust"
    ]
   }
  ],
@@ -1000,6 +1080,17 @@
    ],
    "date": "2026-11-01",
    "verified": "Partly. The Sikorski meeting (10 Sep 2026) is fact per Poland's MFA, but he is Foreign Minister and Deputy PM, not Deputy FM. 'Brought home the playbook' is not her wording. The article gives no source for any Soros money or NGO link to Slotkin or her trip; none found here."
+  },
+  {
+   "about": "holy_land_trust",
+   "reported_by": "Free Beacon (26 Sep 2024)",
+   "relation": "Its director Elias Deis ran on the DFLP ticket for a West Bank city council; the DFLP is US-sanctioned",
+   "confidence": "alleged",
+   "sources": [
+    "https://freebeacon.com/democrats/slotkin-spox-attended-anti-israel-west-bank-tour-led-by-member-of-terrorist-group/"
+   ],
+   "date": "2024-09-26",
+   "verified": "Not verified"
   }
  ]
 }
