@@ -475,7 +475,7 @@ const state = {
   anchor: true, usLayer: true, showDR: true, showBenz: true,
   hidden: new Set(["nawrocki"]),
   selected: null, // {kind:'node'|'edge', id}
-  search: "", tab: "detail", hops: 1, anFocus: null,
+  search: "", tab: "detail", hops: 1, anFocus: null, anTrim: true,
 };
 
 /* ---------- graph rendering ---------- */
@@ -511,6 +511,10 @@ function originShown(e) {
 }
 function visibleSets() {
   const all = [...store.edges.values()];
+  // Path analysis, trimmed: only the nodes and lines on the highlighted paths are drawn.
+  if (state.anFocus && state.anTrim) {
+    return { nodes: [...state.anFocus.nodes].map(id => store.nodes.get(id)).filter(Boolean), edges: [...state.anFocus.edgeKeys].map(k => store.edges.get(k)).filter(Boolean) };
+  }
   const typeOk = n => !state.hidden.has(n.id) && state.types.has(n.type || "unknown") && (!state.group || n.group === state.group || isJudge(n));
   let edges = all.filter(e => e.label !== "no_link" && state.labels.has(e.label) && typeOk(store.nodes.get(e.s)) && typeOk(store.nodes.get(e.t)));
   // Claims credited to DataRepublican or Mike Benz (their lead_origin) can be switched off.
@@ -597,7 +601,8 @@ function render() {
   });
   const anchors = anchorPositions(width, height);
   simNodes.forEach(n => {
-    const a = state.anchor && anchors.get(n.id);
+    // Trimmed path view drops the judges-in-a-row layout so paths can spread out.
+    const a = state.anchor && !(state.anFocus && state.anTrim) && anchors.get(n.id);
     n._anchor = a || null;
     if (a) { n.fx = a.x; n.fy = a.y; n.x = a.x; n.y = a.y; } else if (n._wasAnchored) { n.fx = null; n.fy = null; }
     n._wasAnchored = !!a;
@@ -671,7 +676,7 @@ function render() {
     .force("collide", d3.forceCollide(d => radius(d) + 6))
     .force("x", d3.forceX(width / 2).strength(.035)).force("y", d3.forceY(height / 2).strength(.045))
     .on("tick", ticked);
-  if (!posCache.size || simNodes.some(n => !posCache.has(n.id))) sim.alpha(1); else sim.alpha(.3);
+  if (!posCache.size || simNodes.some(n => !posCache.has(n.id)) || (state.anFocus && state.anTrim)) sim.alpha(1); else sim.alpha(.3);
 
   function ticked() {
     const pathD = d => {
@@ -727,7 +732,8 @@ function declutter() {
     if (!d._bb) { const b = this.getBBox(); if (b.width) d._bb = { x: b.x * sc, y: b.y * sc, w: b.width * sc, h: b.height * sc, sc }; }
     cand.push({ el: this, d, p: prio(d) });
   });
-  if (state.allNames) return;
+  // Trimmed path view has few nodes, so every name is shown.
+  if (state.allNames || (state.anFocus && state.anTrim)) return;
   cand.sort((a, b) => b.p - a.p);
   const pad = 2 * sc, placed = [];
   // Node markers count as occupied space too, so names don't sit on top of other nodes.
@@ -1166,6 +1172,7 @@ function anRenderForm() {
       <label>Max hops <select id="an-hops">${[1, 2, 3, 4, 5, 6].map(h => `<option value="${h}" ${an.hops === h ? "selected" : ""}>${h}</option>`).join("")}</select></label>
       <label>Evidence <select id="an-ev">${AN_EVIDENCE.map((t, i) => `<option value="${i}" ${an.ev === i ? "selected" : ""}>${t}</option>`).join("")}</select></label>
       <label class="row"><input type="checkbox" id="an-money" ${an.money ? "checked" : ""}><span class="name">Money ties only</span></label>
+      <label class="row"><input type="checkbox" id="an-trim" ${state.anTrim ? "checked" : ""}><span class="name">Show only path nodes on the map</span></label>
     </div>
     <div class="an-go"><button class="btn primary" id="an-run" type="button">Analyse</button><button class="btn" id="an-clear" type="button">Clear</button><span class="meta-line" id="an-status"></span></div>
     <div id="an-out"></div>`;
@@ -1210,6 +1217,7 @@ function anWireForm() {
   document.getElementById("an-hops").onchange = ev => { an.hops = +ev.target.value; };
   document.getElementById("an-ev").onchange = ev => { an.ev = +ev.target.value; };
   document.getElementById("an-money").onchange = ev => { an.money = ev.target.checked; };
+  document.getElementById("an-trim").onchange = ev => { state.anTrim = ev.target.checked; if (state.anFocus) anSetFocus(state.anFocus); };
   document.getElementById("an-run").onclick = () => anRun();
   document.getElementById("an-clear").onclick = () => { an.from = []; an.to = []; an.avoid = AN_DEFAULT_AVOID.filter(id => store.nodes.has(id)); an.grid = null; anSetFocus(null); anRenderForm(); };
 }
@@ -1237,7 +1245,7 @@ function anRun(keepCell) {
     const rows = anRows();
     an.grid = { rows, cols: an.to.slice(), cells: rows.map(r => an.to.map(c => anCellBest(r, c))) };
     const g0 = c => an.grid.cells[c[0]]?.[c[1]]?.best;
-    if (!keepCell) { an.cell = null; an.paths = null; an.pathOn = -1; anSetFocus(null); }
+    if (!keepCell) { an.cell = null; an.paths = null; an.pathOn = -1; anFocusGrid(); }
     st.textContent = `${rows.length} × ${an.to.length} checked in ${Math.round(performance.now() - t0)} ms`;
     anRenderOut();
     if (keepCell && an.cell && g0(an.cell)) anOpenCell(an.cell[0], an.cell[1], an.pathOn);
@@ -1296,12 +1304,20 @@ function anRenderPaths() {
   if (!an.cell || !an.paths) { box.innerHTML = ""; return; }
   const r = an.grid.rows[an.cell[0]], c = an.grid.cols[an.cell[1]];
   box.innerHTML = `<div class="section"><h2>${esc(shortName(r))} to ${esc(anLabel(c))}</h2>
-    <p class="meta-line">Top ${an.paths.length} path${an.paths.length === 1 ? "" : "s"}, best first. Lit up on the map; everything else is faded.</p></div>
+    <p class="meta-line">Top ${an.paths.length} path${an.paths.length === 1 ? "" : "s"}, best first. ${state.anTrim ? "The map shows only these paths." : "Lit up on the map; everything else is faded."}</p></div>
     ${an.paths.map(anPathHTML).join("") || `<p class="empty">No path found.</p>`}`;
 }
 // Highlight the chosen paths on the map. Their nodes and lines are drawn even when filters would hide them.
+// Before a cell is opened, the map shows the best path of every cell in the grid.
+function anFocusGrid() {
+  const ps = an.grid ? an.grid.cells.flat().map(c => c.best).filter(Boolean) : [];
+  if (!ps.length) { anSetFocus(null); return; }
+  const nodes = new Set(), edgeKeys = new Set();
+  ps.forEach(p => { p.nodes.forEach(n => nodes.add(n)); p.steps.forEach(s => edgeKeys.add(s.e.key)); });
+  anSetFocus({ nodes, edgeKeys });
+}
 function anFocusPaths() {
-  if (!an.paths?.length) { anSetFocus(null); return; }
+  if (!an.paths?.length) { anFocusGrid(); return; }
   const ps = an.pathOn >= 0 ? [an.paths[an.pathOn]] : an.paths;
   const nodes = new Set(), edgeKeys = new Set();
   ps.forEach(p => { p.nodes.forEach(n => nodes.add(n)); p.steps.forEach(s => edgeKeys.add(s.e.key)); });
@@ -1311,7 +1327,7 @@ function anSetFocus(f) {
   state.anFocus = f;
   if (f) state.selected = null;
   render();
-  if (f) setTimeout(() => fitTo([...f.nodes]), 700);
+  if (f) setTimeout(() => fitTo([...f.nodes]), state.anTrim ? 1200 : 700);
 }
 function fitTo(ids) {
   const ns = simNodes.filter(n => ids.includes(n.id)); if (!ns.length) return;
@@ -1440,6 +1456,7 @@ function viewToHash() {
     if (an.hops !== 4) p.set("a_hops", an.hops);
     if (an.ev !== 1) p.set("a_ev", an.ev);
     if (an.money) p.set("a_money", "1");
+    if (!state.anTrim) p.set("a_trim", "0");
     p.set("a_run", "1");
     if (an.cell) p.set("a_cell", an.cell.join(","));
     if (an.pathOn >= 0) p.set("a_path", an.pathOn);
@@ -1467,6 +1484,7 @@ function hashToView() {
   if (p.has("a_hops")) an.hops = Math.min(6, Math.max(1, parseInt(p.get("a_hops"), 10) || 4));
   if (p.has("a_ev")) an.ev = Math.min(3, Math.max(0, parseInt(p.get("a_ev"), 10) || 0));
   if (p.get("a_money") === "1") an.money = true;
+  if (p.get("a_trim") === "0") state.anTrim = false;
   if (p.has("a_cell")) an.cell = list("a_cell").map(Number);
   if (p.has("a_path")) an.pathOn = parseInt(p.get("a_path"), 10);
   return { typesOff: list("types_off"), focus: p.get("focus"), tab: p.get("tab"), anRun: p.get("a_run") === "1" };
