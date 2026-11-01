@@ -102,6 +102,10 @@ h2 { font: 600 11.5px/1 var(--font-body); letter-spacing: .08em; text-transform:
 main { position: relative; overflow: hidden; background: var(--canvas); }
 main svg { width: 100%; height: 100%; display: block; cursor: grab; }
 main svg:active { cursor: grabbing; }
+.hops { position: absolute; left: 12px; top: 10px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; max-width: calc(100% - 24px); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; font-size: 13px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.hops[hidden] { display: none; }
+.hops #hops-name { font-weight: 600; max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hops select { margin-left: 6px; padding: 2px 4px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); }
 .hint { position: absolute; left: 12px; bottom: 10px; font-size: 12px; color: var(--muted); background: var(--halo); padding: 4px 8px; border-radius: 5px; pointer-events: none; }
 .tooltip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 12.5px; max-width: 320px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; }
 
@@ -235,6 +239,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
   <main id="main">
     <svg id="svg" role="img" aria-label="Force-directed graph of people, organisations and events with labelled links"></svg>
     <div class="hint">Scroll to zoom · drag to pan · click a node or line for sources</div>
+    <div class="hops" id="hops" hidden><span id="hops-name"></span><label>Steps out <select id="hops-n" aria-label="How many steps out from the selected node"></select></label><span class="meta-line" id="hops-count"></span></div>
     <div class="tooltip" id="tip"></div>
   </main>
 
@@ -401,7 +406,7 @@ const state = {
   anchor: true, usLayer: true,
   hidden: new Set(["nawrocki"]),
   selected: null, // {kind:'node'|'edge', id}
-  search: "", tab: "detail",
+  search: "", tab: "detail", hops: 1,
 };
 
 /* ---------- graph rendering ---------- */
@@ -658,7 +663,17 @@ function declutter() {
 function focusSet() {
   const s = state.selected; if (!s) return null;
   const set = new Set();
-  if (s.kind === "node") { set.add(s.id); simLinks.forEach(l => { if (l.e.s === s.id || l.e.t === s.id) { set.add(l.e.s); set.add(l.e.t); } }); }
+  if (s.kind === "node") {
+    // Everything within state.hops steps of the selected node, following the lines currently drawn.
+    const adj = new Map();
+    simLinks.forEach(l => { (adj.get(l.e.s) || adj.set(l.e.s, []).get(l.e.s)).push(l.e.t); (adj.get(l.e.t) || adj.set(l.e.t, []).get(l.e.t)).push(l.e.s); });
+    set.add(s.id); let ring = [s.id];
+    for (let h = 0; h < state.hops && ring.length; h++) {
+      const next = [];
+      ring.forEach(id => (adj.get(id) || []).forEach(m => { if (!set.has(m)) { set.add(m); next.push(m); } }));
+      ring = next;
+    }
+  }
   else if (s.kind === "pair") { const g = pairGroups.get(s.id); if (g) { set.add(g.es[0].s); set.add(g.es[0].t); } }
   else { const e = store.edges.get(s.id); if (e) { set.add(e.s); set.add(e.t); } }
   return set;
@@ -671,9 +686,15 @@ function applyHighlight() {
     .classed("selected", d => s?.kind === "node" && s.id === d.id)
     .classed("match", d => !!q && (d.label.toLowerCase().includes(q) || d.id.includes(q)));
   gLinks.selectAll("path")
-    .classed("faded", d => !!s && (s.kind === "node" ? !(d.e.s === s.id || d.e.t === s.id) : s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id)))
+    .classed("faded", linkFaded)
     .classed("selected", d => (s?.kind === "pair" && d.gk === s.id) || (s?.kind === "edge" && d.es.some(e => e.key === s.id)));
-  gUS.selectAll("path").classed("faded", d => !!s && (s.kind === "node" ? !(d.e.s === s.id || d.e.t === s.id) : s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id)));
+  gUS.selectAll("path").classed("faded", linkFaded);
+  function linkFaded(d) {
+    if (!s) return false;
+    if (s.kind === "node") return state.hops > 1 ? !(focus.has(d.e.s) && focus.has(d.e.t)) : !(d.e.s === s.id || d.e.t === s.id);
+    return s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id);
+  }
+  syncHopsBox();
   updateLabelVis(curK);
 }
 
@@ -901,6 +922,19 @@ document.getElementById("t-us").onchange = ev => { state.usLayer = ev.target.che
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-pdf").onclick = exportPDF;
+// Steps-out box: shows when a node is selected; 1 = direct ties only, up to 10.
+const hopsSel = document.getElementById("hops-n");
+hopsSel.innerHTML = Array.from({ length: 10 }, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join("");
+hopsSel.onchange = () => { state.hops = +hopsSel.value; applyHighlight(); };
+function syncHopsBox() {
+  const box = document.getElementById("hops"), s = state.selected;
+  if (s?.kind !== "node") { box.hidden = true; return; }
+  box.hidden = false;
+  hopsSel.value = String(state.hops);
+  document.getElementById("hops-name").textContent = nodeName(s.id).replace(/\s*\(.*\)\s*$/, "");
+  const n = (focusSet()?.size || 1) - 1;
+  document.getElementById("hops-count").textContent = `${n} node${n === 1 ? "" : "s"} highlighted`;
+}
 document.getElementById("btn-share").onclick = shareView;
 // Share: the current settings go into the link after "#", so the page opens the same way for whoever gets it.
 // Only map settings are stored (filters, hidden people, selected node, search); nothing about the person sharing.
@@ -914,7 +948,7 @@ function viewToHash() {
   if (state.group) p.set("group", state.group);
   const hid = [...state.hidden].sort().join(",");
   if (hid !== "nawrocki") p.set("hide", hid || "none");
-  if (state.selected?.kind === "node") p.set("focus", state.selected.id);
+  if (state.selected?.kind === "node") { p.set("focus", state.selected.id); if (state.hops > 1) p.set("hops", state.hops); }
   if (state.search) p.set("q", state.search);
   if (!state.hideIsolated) p.set("isolated", "1");
   if (!state.anchor) p.set("free", "1");
@@ -929,6 +963,7 @@ function hashToView() {
   if (p.has("off")) { const off = new Set(list("off")); state.labels = new Set(DEFAULT_LABELS.filter(k => !off.has(k))); }
   if (p.has("group")) state.group = p.get("group");
   if (p.has("hide")) state.hidden = new Set(p.get("hide") === "none" ? [] : list("hide"));
+  if (p.has("hops")) state.hops = Math.min(10, Math.max(1, parseInt(p.get("hops"), 10) || 1));
   if (p.has("q")) { state.search = p.get("q"); document.getElementById("search").value = state.search; }
   if (p.get("isolated") === "1") { state.hideIsolated = false; document.getElementById("t-isolated").checked = false; }
   if (p.get("free") === "1") { state.anchor = false; document.getElementById("t-anchor").checked = false; }
