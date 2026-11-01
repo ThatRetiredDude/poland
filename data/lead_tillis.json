@@ -2,7 +2,7 @@
  "meta": {
   "title": "Thom Tillis: should he be on the map, and what ties him to it",
   "as_of": "2026-11-01",
-  "notes": "Tillis was already a node (lead_slotkin_sikorski.json). This file adds what his Sep 2026 Poland visit touched. New find: on 10 Sep 2026 the delegation led by Slotkin, Tillis and Curtis met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder, and Judge Korwin-Piotrowska's ECHR lawyer) on the rule of law in Poland. On 9 Sep he and Slotkin met Justice Minister Żurek, Ejchart and Mazur, who say the TK crisis was discussed. He then spoke at YES 2026 in Kyiv (organised by the Victor Pinchuk Foundation; the Soros-founded International Renaissance Foundation was a listed partner). No money, job, board seat or grant tie between Tillis and NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz was found. What he said in the Warsaw meetings is not public; any role in the 30-31 Oct TK events is speculation with no source. Shared ids with lead_curtis.json: tillis->gregorczyk_abram, tillis->yes_forum, curtis->tillis and the YES/Pinchuk/IRF nodes and edges live in that file, so both files should go live together."
+  "notes": "Tillis was already a node (lead_slotkin_sikorski.json). This file adds what his Sep 2026 Poland visit touched. New find: on 10 Sep 2026 the delegation led by Slotkin, Tillis and Curtis met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder, and Judge Korwin-Piotrowska's ECHR lawyer) on the rule of law in Poland. On 9 Sep he and Slotkin met Justice Minister Żurek, Ejchart and Mazur, who say the TK crisis was discussed. He then spoke at YES 2026 in Kyiv (organised by the Victor Pinchuk Foundation; the Soros-founded International Renaissance Foundation was a listed partner). No money, job, board seat or grant tie between Tillis and NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz was found. What he said in the Warsaw meetings is not public; any role in the 30-31 Oct TK events is speculation with no source. Shared ids with lead_curtis.json: tillis->gregorczyk_abram, tillis->yes_forum, curtis->tillis and the YES/Pinchuk/IRF nodes and edges live in that file, so both files should go live together. Hops (fact edges only): Tillis is 1 hop from Polish officials (Żurek, Ejchart, Mazur, Sikorski, Gregorczyk-Abram), 2 hops from Judge Korwin-Piotrowska (via Gregorczyk-Abram, her ECHR lawyer, or via Żurek) and from Tusk (via Żurek or Sikorski), and 3 hops from OSF money (e.g. Tillis - Gregorczyk-Abram or Ejchart - Free Courts - OSF $130k; Tillis - YES 2026 - IRF - OSF; Tillis - Atlantic Council - Tides - OSF). No OSF, NED or USAID money to Tillis himself was found."
  },
  "timeline": [
   {
@@ -11,6 +11,28 @@
    "event": "Elected US Senator (R-North Carolina); took office Jan 2015. Earlier: Speaker of the NC House 2011-2014; IBM / PwC management consultant.",
    "sources": [
     "https://www.csce.gov/commissioner-or-staff-bios/senator-thom-tillis-north-carolina"
+   ]
+  },
+  {
+   "date": "2018-11",
+   "kind": "trip",
+   "event": "Halifax International Security Forum, Canada: Shaheen and Tillis led a bipartisan Senate delegation as 'co-chairs of the recently re-established Senate North Atlantic Treaty Organization Observer Group'. Who paid is not stated.",
+   "sources": [
+    "https://www.shaheen.senate.gov/news/in-the-news/shaheen-tillis-lead-delegation-to-security-forum"
+   ]
+  },
+  {
+   "date": "2023-07-11",
+   "kind": "trip",
+   "event": "Vilnius NATO summit: one of six members of a bipartisan delegation co-led by Shaheen; said Ukraine's NATO membership should depend on democratic reforms and the end of the war.",
+   "quote": {
+    "original": "all attention needs to be on prosecuting this war.",
+    "language": "en",
+    "where": "Tillis to WUNC/WFAE, Vilnius, 11 Jul 2023"
+   },
+   "sources": [
+    "https://www.yahoo.com/news/thom-tillis-transatlantic-tightrope-193528288.html",
+    "https://www.wfae.org/2023-07-11/senator-thom-tillis-war-ukraine-member-nato"
    ]
   },
   {
@@ -134,8 +156,12 @@
     "https://www.csce.gov/commissioner-or-staff-bios/senator-thom-tillis-north-carolina",
     "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
     "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm",
-    "https://news.ballotpedia.org/2025/06/30/sen-thom-tillis-announces-he-will-not-seek-re-election-to-the-u-s-senate-in-2026/"
-   ]
+    "https://news.ballotpedia.org/2025/06/30/sen-thom-tillis-announces-he-will-not-seek-re-election-to-the-u-s-senate-in-2026/",
+    "https://www.fec.gov/data/candidate/S4NC00162/",
+    "https://fhkedhfrxykvkdsdlrpd.supabase.co/storage/v1/object/public/files/pac_contributions/thomtillis.pdf",
+    "https://www.legistorm.com/person/bio/192907/Thomas_Roland_Tillis.html"
+   ],
+   "money": "Campaign: Thom Tillis Committee (FEC C00545772): $26.7m receipts 2015-2020; $8.1m 1 Jan 2021-30 Sep 2026, cash on hand $3.58m. Leadership PACs: NC RED (C00768085) and Together Holding Our Majority PAC (C00571323). PAC money 2023-24: $1.03m from 282 PACs, mostly corporate (top givers $10k each incl. Deloitte, Home Depot, Gilead, Nucor). Privately paid travel: he has filed such disclosures, but the sponsor list is behind LegiStorm's paywall."
   }
  },
  "edges": [
@@ -240,18 +266,6 @@
    "sources": [
     "https://pinchukfund.org/en/about_fund/partners/"
    ]
-  },
-  {
-   "source": "tillis",
-   "target": "osf",
-   "relation": "Indirect only: he spoke at YES 2026, which listed the OSF-network International Renaissance Foundation as a partner. No OSF payment to Tillis found.",
-   "confidence": "fact",
-   "date": "2026-09-11",
-   "sources": [
-    "https://www.kyivpost.com/post/84397",
-    "https://www.irf.ua/en/about/"
-   ],
-   "indirect": true
   }
  ],
  "checked_no_link": [
@@ -299,9 +313,40 @@
     "https://www.curtis.senate.gov/newsroom/press-releases/curtis-joins-tillis-armstrong-on-delegation-to-ukraine/",
     "https://www.pbs.org/newshour/politics/hungarian-government-declines-to-meet-u-s-senators-seeking-approval-for-swedens-nato-bid"
    ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "Soros, Democracy PAC, foreign-policy or Poland/Ukraine-linked PAC money (2023-24)",
+   "result": "none found; PAC money was mostly corporate and trade (a Turning Point Action summary of FEC data shows 'Foreign Policy 0.1%'). Leadership PAC donor lists not read (FEC tables load by script).",
+   "sources": [
+    "https://fhkedhfrxykvkdsdlrpd.supabase.co/storage/v1/object/public/files/pac_contributions/thomtillis.pdf",
+    "https://www.fec.gov/data/candidate/S4NC00162/"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "former staff lobbying for Poland, Ukraine, Hungary or any foreign government",
+   "result": "none visible among 19 former staff lobbyists (clients include Citigroup, Lockheed Martin, Meta, Gilead); full client lists are truncated",
+   "sources": [
+    "https://www.quiverquant.com/congresstrading/politician/Thom%20Tillis-T000476/revolving-door"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "awards from Polish or Ukrainian bodies (Pulaski Foundation 'Knight of Freedom', US-Ukraine Foundation)",
+   "result": "none found; the only US Knight of Freedom is Sen. Lugar (2012)",
+   "sources": [
+    "https://pulaski.pl/en/knight-of-freedom/",
+    "https://usukraine.org/events/star-of-ukraine-2024-award-dinner"
+   ]
   }
  ],
  "leads": [
+  {
+   "lead": "Who paid for his privately sponsored trips: LegiStorm says he 'has filed disclosures indicating that one or more outside organizations has funded travel'; the list (sponsor, place, cost) needs LegiStorm Pro or the Senate's paper travel filings: https://www.legistorm.com/trip/list/by/approver/name/Sen_Thom_Tillis/id/3023.html",
+   "result": "open; paywalled",
+   "label": "speculation"
+  },
   {
    "lead": "Who paid for the Sep 2026 trip and the Kyiv leg: Congressional Record foreign travel report Q3 2026 (likely Armed Services or Foreign Relations), and whether YES/Pinchuk covered any costs",
    "result": "open",
