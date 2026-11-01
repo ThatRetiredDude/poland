@@ -1,0 +1,1005 @@
+{
+ "meta": {
+  "title": "Elissa Slotkin: life timeline and every point where it touches the map",
+  "as_of": "2026-11-01",
+  "notes": "Companion to lead_slotkin_sikorski.json. Not merged into poland_tk_graph.json. The main new tie: on 9 Sep 2026 Slotkin and Tillis met Justice Minister Żurek and deputy ministers Ejchart and Mazur, and the Justice Ministry says the Constitutional Tribunal crisis was discussed. No money, job or board tie between Slotkin and any judge, Tusk, Wawrykiewicz, NED, OSF or USAID was found. Campaign-finance checks are incomplete (FEC/OpenSecrets blocked)."
+ },
+ "timeline": [
+  {
+   "date": "1976-07-10",
+   "kind": "life",
+   "event": "Born in New York City; raised on the family farm in Holly, Michigan. Great-grandfather Samuel Slotkin founded Hygrade Meat Company (original maker of Ball Park Franks).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1994",
+   "kind": "education",
+   "event": "High school diploma, Cranbrook Kingswood Upper School, Bloomfield Township, Mich.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1994-1998",
+   "kind": "education",
+   "event": "Cornell University, bachelor's in rural sociology (resume: 'Sociology/International Development').",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1996-10 to 1997-08",
+   "kind": "job",
+   "event": "Women's Group Trainer, Maendeleo Ya Wanawake ('Women's Development'), Kenya.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1998-06 to 1998-08",
+   "kind": "job",
+   "event": "Tanzania Project Coordinator, Putney Student Travel (led 20 college students building an elementary school).",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1998-09 to 2000-09",
+   "kind": "job",
+   "event": "Roca, Inc., Boston: community organiser / director of the state-funded Teen PACT Project for refugee teens.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "1999-02 to 2000-09",
+   "kind": "job",
+   "event": "Part-time Swahili translator, Harbor (Area) Early Childhood Services, Boston.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2000-2001",
+   "kind": "job",
+   "event": "Israel/West Bank NGO work. Sources differ: her 2012 resume says Director of Development, 'The Follow-Up Committee on Arab Education' (Sep 2000-Jun 2001), 'a Palestinian civil rights organization'; LegiStorm says Grant Writer, Isha L'Isha (Haifa feminist centre), Nov 2000-Jun 2001. JACPAC: 'writer for a feminist center in Haifa'.",
+   "sources": [
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf",
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://www.jacpac.org/candidates/elissa-slotkin"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2001",
+   "kind": "education",
+   "event": "Certificate in intensive Arabic, American University in Cairo.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2001-2003",
+   "kind": "education",
+   "event": "Columbia University SIPA, Master of International Affairs (security policy and Middle East). Recruited to the CIA after 9/11.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2002-05 to 2002-08/09",
+   "kind": "job",
+   "event": "US State Department political officer intern, US Embassy Amman, Jordan (reported on the Arab-Israeli conflict).",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2003-09 to 2007-08",
+   "kind": "job",
+   "event": "CIA: political analyst (Sep 2003-Jun 2004); intelligence briefer to the US Ambassador to Iraq, John Negroponte (Jun 2004-Mar 2005); Senior Assistant to the Director of National Intelligence, Negroponte, ODNI (Feb 2005-May 2006); team leader, Special Field Assessment Team (May-Sep 2006); team leader, 'Iran in Iraq' cell (Sep 2006-Aug 2007). Three Iraq tours; War Zone Service Awards 4/05, 9/06, 9/08.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf",
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": "cia"
+  },
+  {
+   "date": "2007-08 to 2009-07",
+   "kind": "job",
+   "event": "National Security Council: Director for Iraq under Bush (Aug 2007-Jan 2009), NSC representative on the US-Iraq Security Agreement (SOFA) team, 5 months in Baghdad; Acting Senior Director for Iraq under Obama (Jan-Jul 2009), drafted the Iraq drawdown strategy.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2009-07 to 2011-06",
+   "kind": "job",
+   "event": "State Department, Senior Adviser on Iraq (military-to-civilian transition; 'regularly briefed Members and staffers').",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2010",
+   "kind": "life",
+   "event": "Married Dave Moore, retired Army colonel and Apache pilot, met in Baghdad. Divorce filed Feb 2023.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2011-06 to 2012-02",
+   "kind": "job",
+   "event": "Pentagon, Senior Adviser for Middle East Transition (Arab Spring task force), Office of the Under Secretary of Defense for Policy.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2012-02 to 2012-11",
+   "kind": "job",
+   "event": "Pentagon, Chief of Staff to the Assistant Secretary for International Security Affairs (boss: Derek Chollet). Resume: ISA is 'responsible for policy development on Defense issues in the Middle East, Europe/NATO, Russia/Eurasia, and Africa'.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ],
+   "map_touch": "nato"
+  },
+  {
+   "date": "2012-11 to 2015-01",
+   "kind": "job",
+   "event": "Pentagon: Principal Deputy Assistant Secretary of Defense for ISA (Nov 2012-Jul 2013; Aug 2014-Jan 2015); Acting Principal Deputy Under Secretary of Defense for Policy (Jul 2013-Aug 2014). Covers the 2014 Crimea annexation period.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
+   ],
+   "map_touch": "nato"
+  },
+  {
+   "date": "2014-12-02",
+   "kind": "claim",
+   "event": "Senate Armed Services nomination hearing for Assistant Secretary of Defense (ISA). Said the US had given Ukraine over $116m in security assistance and must keep NATO ready for Russia.",
+   "quote": {
+    "original": "I think it is important to note that we have provided over $116 million worth of security assistance to the Ukrainians.",
+    "language": "en",
+    "where": "SASC hearing 2 Dec 2014, as quoted by DoD News"
+   },
+   "sources": [
+    "https://www.dvidshub.net/news/504882/slotkin-vows-address-global-security-challenges",
+    "https://www.armed-services.senate.gov/download/transcript_14-67---12-2-14pdf"
+   ],
+   "map_touch": "nato, ukraine_gov, russia_state"
+  },
+  {
+   "date": "2015-01-15 to 2017-01-20",
+   "kind": "job",
+   "event": "Acting Assistant Secretary of Defense for International Security Affairs (Europe/NATO, Russia, Middle East, Africa). Period includes the July 2016 NATO Warsaw summit and the US rotational brigade for Poland. Her own role in Poland decisions is not yet documented. Awarded the Secretary of Defense Medal for Outstanding Public Service.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": "nato"
+  },
+  {
+   "date": "2015-11-04",
+   "kind": "trip",
+   "event": "Kyiv: headed a US delegation that met Ukraine's Deputy Foreign Minister Vadym Prystaiko on US-Ukraine security cooperation and 'the reform of Ukrainian Army with the US assistance'.",
+   "sources": [
+    "https://mfa.gov.ua/en/news/41645-deputy-minister-for-foreign-affairs-of-ukraine-vadym-prystaiko-met-with-the-american-delegation-headed-by-acting-assistant-secretary-of-defence-for-international-security-affairs-elissa"
+   ],
+   "map_touch": "ukraine_gov"
+  },
+  {
+   "date": "2016-07-28",
+   "kind": "claim",
+   "event": "Aspen Security Forum panel on Russia, as Acting ASD/ISA, three weeks after the NATO Warsaw summit.",
+   "quote": {
+    "original": "The strong means the U.S. and NATO have to have the capabilities that they need in the right places to deter Russia, and we have to support partners … in building their resilience in response to Russia – Ukraine, Moldova, Georgia.",
+    "language": "en",
+    "where": "Aspen Security Forum, as quoted by DoD News, 28 Jul 2016"
+   },
+   "sources": [
+    "https://www.globalsecurity.org/wmd/library/news/russia/2016/russia-160728-afps01.htm"
+   ],
+   "map_touch": "nato, russia_state"
+  },
+  {
+   "date": "2017-06-21",
+   "kind": "business",
+   "event": "Pinpoint Consulting LLC registered in Michigan. Her 2023 House disclosure: 'Business has been inactive since 2017 and generates no income/revenue.' No clients named. She said she 'was asked to do some work on an Iraq-related matter.'",
+   "sources": [
+    "https://www.foxnews.com/politics/dem-senate-candidate-elissa-slotkins-small-consulting-business-never-active.amp"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2017-07",
+   "kind": "politics",
+   "event": "Announced House run against Rep. Mike Bishop (MI-8).",
+   "sources": [
+    "https://www.foxnews.com/politics/dem-senate-candidate-elissa-slotkins-small-consulting-business-never-active.amp"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2018-07-24",
+   "kind": "money",
+   "event": "Foreign Policy for America Action Fund gave $250 to Elissa Slotkin for Congress.",
+   "sources": [
+    "https://projects.propublica.org/itemizer/committee/C00650150/pac-donations/C00657379"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2019-01-03 to 2025-01-03",
+   "kind": "job",
+   "event": "US House (MI-8, then MI-7 from 2023). Committees: Armed Services; Homeland Security; Veterans' Affairs. Caucuses (from Wikipedia reference titles): Congressional Ukraine Caucus, New Democrat Coalition, Problem Solvers Caucus and others.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": "us_congress"
+  },
+  {
+   "date": "2019-09",
+   "kind": "claim",
+   "event": "Co-wrote a Washington Post op-ed with six freshman national-security Democrats backing a Trump impeachment inquiry; voted to impeach in 2019 and 2021.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": "trump"
+  },
+  {
+   "date": "2020-11",
+   "kind": "claim",
+   "event": "Reported as a possible Biden pick for CIA Director (not appointed).",
+   "sources": [
+    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director"
+   ],
+   "map_touch": "cia"
+  },
+  {
+   "date": "2022 cycle",
+   "kind": "endorsement",
+   "event": "Endorsed by The Steady State, a group of former national-security professionals founded after the 2016 election.",
+   "sources": [
+    "https://thesteadystate.org/the-steady-state-endorses-elissa-slotkin-for-re-election-to-congress/"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2022-07-23",
+   "kind": "trip",
+   "event": "Kyiv, House Armed Services delegation (Adam Smith, Mikie Sherrill, Mike Quigley, Michael Waltz). Met President Zelensky, his defence minister, MPs; visited Irpin and Bucha.",
+   "quote": {
+    "original": "This weekend, I had the chance to travel to Ukraine in a bipartisan delegation from the Armed Services Committee to reiterate to President Zelenskyy, his defense minister, members of Parliament and others that the U.S., our allies, and the American people stand firmly with Ukraine.",
+    "language": "en",
+    "where": "Slotkin press release, quoted 23 Jul 2022"
+   },
+   "sources": [
+    "https://thelivingstonpost.com/slotkin-meets-with-zelenskyy-other-ukrainian-officials-in-kyiv-as-part-of-congressional-delegation",
+    "https://whmi.com/news/article/42159"
+   ],
+   "map_touch": "ukraine_gov"
+  },
+  {
+   "date": "2024-11-05",
+   "kind": "politics",
+   "event": "Elected US Senator for Michigan, defeating Mike Rogers. Took office 3 Jan 2025.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2025-03-04",
+   "kind": "claim",
+   "event": "Gave the Democratic response to Trump's address to Congress; said Reagan would be 'rolling in his grave' over Trump 'cozying up to Vladimir Putin'.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ],
+   "map_touch": "trump"
+  },
+  {
+   "date": "2025-10-29",
+   "kind": "claim",
+   "event": "Brookings Knight Forum speech on Trump's 'authoritarian playbook'. Speech text never mentions Poland, Hungary, Europe, NATO, Russia, courts or judges.",
+   "sources": [
+    "https://www.slotkin.senate.gov/wp-content/uploads/2025/10/2025-10-29-Brookings-Remarks.pdf"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2025-11",
+   "kind": "claim",
+   "event": "One of six Democratic lawmakers in the 'illegal orders' video telling service members they can refuse illegal orders. Trump called them 'traitors'. In Jan 2026 she said she was under federal investigation; reports in Feb 2026 say a grand jury declined to indict.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin",
+    "https://www.michiganpublic.org/2026-01-14/democrat-elissa-slotkin-says-she-is-under-investigation-for-video-on-illegal-orders",
+    "https://www.turnto23.com/politics/grand-jury-declines-to-indict-democratic-lawmakers-over-military-video"
+   ],
+   "map_touch": "trump_admin"
+  },
+  {
+   "date": "2026-02-13/15",
+   "kind": "trip",
+   "event": "Munich Security Conference, in the Graham-Whitehouse Senate delegation; Bloomberg interview on US-Europe ties. Sikorski and Tusk also attended; no Slotkin meeting with either found.",
+   "sources": [
+    "https://capitolreleases.com/releases/082303a6-52e4-4de4-9a54-e22a895a2d70",
+    "https://www.bloomberg.com/news/videos/2026-02-14/us-senator-slotkin-speaks-on-us-relationship-with-europe-video"
+   ],
+   "map_touch": null
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "meeting",
+   "event": "Warsaw: with Sen. Thom Tillis, met Justice Minister Waldemar Żurek and deputy ministers Maria Ejchart and Dariusz Mazur. Topics per the ministry: restoring the rule of law, justice reform, and 'the crisis surrounding the Constitutional Tribunal'. Same day: defence ministry visit.",
+   "quote": {
+    "original": "Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego.",
+    "translation_literal": "Discussed moreover [was] the crisis around the Constitutional Tribunal.",
+    "language": "pl",
+    "where": "Polish Justice Ministry release, published 10.09.2026"
+   },
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ],
+   "map_touch": "zurek, ejchart, tk"
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "meeting",
+   "event": "Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked).",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+   ],
+   "map_touch": "sikorski"
+  },
+  {
+   "date": "2026-09 (early)",
+   "kind": "trip",
+   "event": "Hungary (Budapest), early Sep 2026, same trip as Poland. No named Hungarian contact in any source found: her speech refers only to 'everyone I talked to' and 'the people I talked to'. No press release from her office or the US Embassy Budapest. The separate 9 Jul 2026 Shaheen/Durbin/Turner delegation did not include her.",
+   "sources": [
+    "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf",
+    "https://redstate.com/beccalower/2026/10/30/elissa-slotkin-lawfare-n2208827",
+    "https://x.com/townhallcom/status/2116231489423605807",
+    "https://www.budapesttimes.hu/diplomacy/us-congressional-delegation-visits-praises-new-governments-openness/"
+   ],
+   "map_touch": null,
+   "quotes": [
+    {
+     "original": "In Hungary, everyone I talked to spoke about the fear under Orban: The press wouldn't report on him; People hid their organizing; Teachers were fired for speaking their minds.",
+     "where": "Carnegie speech as prepared, 30 Sep 2026"
+    },
+    {
+     "original": "The people I talked to told me that the opposition parties spent their time squabbling amongst themselves in 2022.",
+     "where": "Carnegie speech as prepared, 30 Sep 2026"
+    },
+    {
+     "original": "In Hungary, Orban used Plan A. One week before his election, he falsely claimed there was a major threat to an oil pipeline in an attempt to be seen as the only true protector.",
+     "where": "Carnegie speech as prepared, 30 Sep 2026"
+    },
+    {
+     "original": "I just went to Hungary. I went over to Budapest because they just got rid of their authoritarian leader after 16 years. And I'm like, how did you handle 16 years of corruption? We don't have that much, but we have so much.",
+     "where": "Undercover video filmed 29 Oct 2026 at a Michigan campaign event for Sean McCann, published by Townhall on X 30 Oct 2026; transcript as printed by RedState/Townhall, not checked against audio"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "kind": "claim",
+   "event": "Carnegie Endowment speech on lessons from Poland and Hungary, then Q&A with Anne Applebaum (Sikorski's wife). Carnegie's event page: 'Both Poland and Hungary, which previously experienced substantial democratic erosion, are forging more encouraging paths.'",
+   "quote": {
+    "original": "In Poland, they called this plan the Iron Broom – cleaning the place up.",
+    "language": "en",
+    "where": "Speech as prepared, Carnegie, 30 Sep 2026"
+   },
+   "sources": [
+    "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf",
+    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum"
+   ],
+   "map_touch": "carnegie_endowment, applebaum"
+  },
+  {
+   "date": "2026-10-13",
+   "kind": "claim",
+   "event": "University of Chicago Institute of Politics, live recording of Vox's 'America, Actually!' podcast: wants 'signature cases' against Trump officials as a 'deterrence message' to young people. Two outlets transcribe the ending slightly differently; not checked against the audio.",
+   "quote": {
+    "original": "I want to look at these signature cases and not just focus on the president, but on the people who enabled him.",
+    "language": "en",
+    "where": "as printed by Breitbart, 17 Oct 2026 (from an X clip)"
+   },
+   "sources": [
+    "https://www.breitbart.com/politics/2026/10/17/elissa-slotkin-says-she-wants-to-deter-young-people-from-working-for-trump/",
+    "https://thealaskastory.com/peltola-ally-slotkin-wants-prosecutions-used-to-intimidate-prospective-trump-staffers/"
+   ],
+   "map_touch": null
+  }
+ ],
+ "nodes": [
+  {
+   "id": "mazur",
+   "type": "person",
+   "group": "government",
+   "label": "Dariusz Mazur (deputy justice minister)",
+   "role": "Kraków Regional Court judge; undersecretary of state, Justice Ministry, appointed by the PM at Bodnar's request (announced 22 Dec 2023); awarded Iustitia's Honorary Badge 2020; OKO.press lists him among judges 'associated with Themis'",
+   "sources": [
+    "https://www.radiokrakow.pl/aktualnosci/ms-sedzia-dariusz-mazur-z-krakowa-powolany-na-wiceministra-sprawiedliwosci",
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ]
+  },
+  {
+   "id": "carnegie_dcg",
+   "type": "program",
+   "group": "think_tank",
+   "label": "Carnegie Democracy, Conflict, and Governance Program (DCG)",
+   "role": "Host of Slotkin's 30 Sep 2026 event. Director: Steven Feldstein. Staff include Thomas Carothers, Saskia Brechenmacher, Rachel Kleinfeld, Richard Youngs; overseen by VP for Studies Frances Z. Brown. Runs the European Democracy Hub, Civic Research Network and Digital Democracy Network.",
+   "sources": [
+    "https://carnegieendowment.org/programs/democracy-conflict-and-governance",
+    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum"
+   ]
+  },
+  {
+   "id": "feldstein",
+   "type": "person",
+   "group": "analyst",
+   "label": "Steven Feldstein (director, Carnegie DCG)",
+   "role": "Former Deputy Assistant Secretary of State, Democracy, Human Rights and Labor (Obama); former USAID director of policy; former counsel, Senate Foreign Relations Committee (Biden, Kerry chairmanships)",
+   "sources": [
+    "https://carnegieendowment.org/people/steven-feldstein"
+   ]
+  },
+  {
+   "id": "fz_brown",
+   "type": "person",
+   "group": "analyst",
+   "label": "Frances Z. Brown (Carnegie VP for Studies)",
+   "role": "Oversees DCG. Biden NSC senior director for Africa; NSC director for democracy and fragile states 2016-17; earlier USAID Office of Transition Initiatives",
+   "sources": [
+    "https://carnegieendowment.org/people/frances-z-brown?lang=en"
+   ]
+  },
+  {
+   "id": "ford_foundation",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "Ford Foundation",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  },
+  {
+   "id": "hewlett",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "William and Flora Hewlett Foundation",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  }
+ ],
+ "node_updates": {
+  "slotkin": {
+   "role": "US Senator (D-Michigan) since 3 Jan 2025; US House 2019-2025; CIA analyst and ODNI aide 2003-2007; NSC Director for Iraq 2007-2009; State Dept Iraq adviser 2009-2011; Pentagon 2011-2017, ending as Acting Assistant Secretary of Defense for International Security Affairs (Europe/NATO, Russia, Middle East, Africa) 2015-2017",
+   "life_timeline": [
+    "1976-07-10: Born in New York City; raised on the family farm in Holly, Michigan. Great-grandfather Samuel Slotkin founded Hygrade Meat Company (original maker of Ball Park Franks).",
+    "1994: High school diploma, Cranbrook Kingswood Upper School, Bloomfield Township, Mich.",
+    "1994-1998: Cornell University, bachelor's in rural sociology (resume: 'Sociology/International Development').",
+    "1996-10 to 1997-08: Women's Group Trainer, Maendeleo Ya Wanawake ('Women's Development'), Kenya.",
+    "1998-06 to 1998-08: Tanzania Project Coordinator, Putney Student Travel (led 20 college students building an elementary school).",
+    "1998-09 to 2000-09: Roca, Inc., Boston: community organiser / director of the state-funded Teen PACT Project for refugee teens.",
+    "1999-02 to 2000-09: Part-time Swahili translator, Harbor (Area) Early Childhood Services, Boston.",
+    "2000-2001: Israel/West Bank NGO work. Sources differ: her 2012 resume says Director of Development, 'The Follow-Up Committee on Arab Education' (Sep 2000-Jun 2001), 'a Palestinian civil rights organization'; LegiStorm says Grant Writer, Isha L'Isha (Haifa feminist centre), Nov 2000-Jun 2001. JACPAC: 'writer for a feminist center in Haifa'.",
+    "2001: Certificate in intensive Arabic, American University in Cairo.",
+    "2001-2003: Columbia University SIPA, Master of International Affairs (security policy and Middle East). Recruited to the CIA after 9/11.",
+    "2002-05 to 2002-08/09: US State Department political officer intern, US Embassy Amman, Jordan (reported on the Arab-Israeli conflict).",
+    "2003-09 to 2007-08: CIA: political analyst (Sep 2003-Jun 2004); intelligence briefer to the US Ambassador to Iraq, John Negroponte (Jun 2004-Mar 2005); Senior Assistant to the Director of National Intelligence, Negroponte, ODNI (Feb 2005-May 2006); team leader, Special Field Assessment Team (May-Sep 2006); team leader, 'Iran in Iraq' cell (Sep 2006-Aug 2007). Three Iraq tours; War Zone Service Awards 4/05, 9/06, 9/08.",
+    "2007-08 to 2009-07: National Security Council: Director for Iraq under Bush (Aug 2007-Jan 2009), NSC representative on the US-Iraq Security Agreement (SOFA) team, 5 months in Baghdad; Acting Senior Director for Iraq under Obama (Jan-Jul 2009), drafted the Iraq drawdown strategy.",
+    "2009-07 to 2011-06: State Department, Senior Adviser on Iraq (military-to-civilian transition; 'regularly briefed Members and staffers').",
+    "2010: Married Dave Moore, retired Army colonel and Apache pilot, met in Baghdad. Divorce filed Feb 2023.",
+    "2011-06 to 2012-02: Pentagon, Senior Adviser for Middle East Transition (Arab Spring task force), Office of the Under Secretary of Defense for Policy.",
+    "2012-02 to 2012-11: Pentagon, Chief of Staff to the Assistant Secretary for International Security Affairs (boss: Derek Chollet). Resume: ISA is 'responsible for policy development on Defense issues in the Middle East, Europe/NATO, Russia/Eurasia, and Africa'.",
+    "2012-11 to 2015-01: Pentagon: Principal Deputy Assistant Secretary of Defense for ISA (Nov 2012-Jul 2013; Aug 2014-Jan 2015); Acting Principal Deputy Under Secretary of Defense for Policy (Jul 2013-Aug 2014). Covers the 2014 Crimea annexation period.",
+    "2014-12-02: Senate Armed Services nomination hearing for Assistant Secretary of Defense (ISA). Said the US had given Ukraine over $116m in security assistance and must keep NATO ready for Russia. Quote: \"I think it is important to note that we have provided over $116 million worth of security assistance to the Ukrainians.\" [SASC hearing 2 Dec 2014, as quoted by DoD News]",
+    "2015-01-15 to 2017-01-20: Acting Assistant Secretary of Defense for International Security Affairs (Europe/NATO, Russia, Middle East, Africa). Period includes the July 2016 NATO Warsaw summit and the US rotational brigade for Poland. Her own role in Poland decisions is not yet documented. Awarded the Secretary of Defense Medal for Outstanding Public Service.",
+    "2015-11-04: Kyiv: headed a US delegation that met Ukraine's Deputy Foreign Minister Vadym Prystaiko on US-Ukraine security cooperation and 'the reform of Ukrainian Army with the US assistance'.",
+    "2016-07-28: Aspen Security Forum panel on Russia, as Acting ASD/ISA, three weeks after the NATO Warsaw summit. Quote: \"The strong means the U.S. and NATO have to have the capabilities that they need in the right places to deter Russia, and we have to support partners … in building their resilience in response to Russia – Ukraine, Moldova, Georgia.\" [Aspen Security Forum, as quoted by DoD News, 28 Jul 2016]",
+    "2017-06-21: Pinpoint Consulting LLC registered in Michigan. Her 2023 House disclosure: 'Business has been inactive since 2017 and generates no income/revenue.' No clients named. She said she 'was asked to do some work on an Iraq-related matter.'",
+    "2017-07: Announced House run against Rep. Mike Bishop (MI-8).",
+    "2018-07-24: Foreign Policy for America Action Fund gave $250 to Elissa Slotkin for Congress.",
+    "2019-01-03 to 2025-01-03: US House (MI-8, then MI-7 from 2023). Committees: Armed Services; Homeland Security; Veterans' Affairs. Caucuses (from Wikipedia reference titles): Congressional Ukraine Caucus, New Democrat Coalition, Problem Solvers Caucus and others.",
+    "2019-09: Co-wrote a Washington Post op-ed with six freshman national-security Democrats backing a Trump impeachment inquiry; voted to impeach in 2019 and 2021.",
+    "2020-11: Reported as a possible Biden pick for CIA Director (not appointed).",
+    "2022 cycle: Endorsed by The Steady State, a group of former national-security professionals founded after the 2016 election.",
+    "2022-07-23: Kyiv, House Armed Services delegation (Adam Smith, Mikie Sherrill, Mike Quigley, Michael Waltz). Met President Zelensky, his defence minister, MPs; visited Irpin and Bucha. Quote: \"This weekend, I had the chance to travel to Ukraine in a bipartisan delegation from the Armed Services Committee to reiterate to President Zelenskyy, his defense minister, members of Parliament and others that the U.S., our allies, and the American people stand firmly with Ukraine.\" [Slotkin press release, quoted 23 Jul 2022]",
+    "2024-11-05: Elected US Senator for Michigan, defeating Mike Rogers. Took office 3 Jan 2025.",
+    "2025-03-04: Gave the Democratic response to Trump's address to Congress; said Reagan would be 'rolling in his grave' over Trump 'cozying up to Vladimir Putin'.",
+    "2025-10-29: Brookings Knight Forum speech on Trump's 'authoritarian playbook'. Speech text never mentions Poland, Hungary, Europe, NATO, Russia, courts or judges.",
+    "2025-11: One of six Democratic lawmakers in the 'illegal orders' video telling service members they can refuse illegal orders. Trump called them 'traitors'. In Jan 2026 she said she was under federal investigation; reports in Feb 2026 say a grand jury declined to indict.",
+    "2026-02-13/15: Munich Security Conference, in the Graham-Whitehouse Senate delegation; Bloomberg interview on US-Europe ties. Sikorski and Tusk also attended; no Slotkin meeting with either found.",
+    "2026-09-09: Warsaw: with Sen. Thom Tillis, met Justice Minister Waldemar Żurek and deputy ministers Maria Ejchart and Dariusz Mazur. Topics per the ministry: restoring the rule of law, justice reform, and 'the crisis surrounding the Constitutional Tribunal'. Same day: defence ministry visit. Quote: \"Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego.\" (literal translation: \"Discussed moreover [was] the crisis around the Constitutional Tribunal.\") [Polish Justice Ministry release, published 10.09.2026]",
+    "2026-09-10: Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked).",
+    "2026-09 (early): Hungary (Budapest), early Sep 2026, same trip as Poland. No named Hungarian contact in any source found: her speech refers only to 'everyone I talked to' and 'the people I talked to'. No press release from her office or the US Embassy Budapest. The separate 9 Jul 2026 Shaheen/Durbin/Turner delegation did not include her.",
+    "2026-09-30: Carnegie Endowment speech on lessons from Poland and Hungary, then Q&A with Anne Applebaum (Sikorski's wife). Carnegie's event page: 'Both Poland and Hungary, which previously experienced substantial democratic erosion, are forging more encouraging paths.' Quote: \"In Poland, they called this plan the Iron Broom – cleaning the place up.\" [Speech as prepared, Carnegie, 30 Sep 2026]",
+    "2026-10-13: University of Chicago Institute of Politics, live recording of Vox's 'America, Actually!' podcast: wants 'signature cases' against Trump officials as a 'deterrence message' to young people. Two outlets transcribe the ending slightly differently; not checked against the audio. Quote: \"I want to look at these signature cases and not just focus on the president, but on the people who enabled him.\" [as printed by Breitbart, 17 Oct 2026 (from an X clip)]"
+   ],
+   "sources_add": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ]
+  }
+ },
+ "edges": [
+  {
+   "source": "slotkin",
+   "target": "zurek",
+   "relation": "Met Justice Minister Żurek at the Justice Ministry, Warsaw, 9 Sep 2026, with Sen. Thom Tillis, their advisers and US Embassy staff. Ministry release: topics were restoring the rule of law, the justice reform (incl. the bill abolishing the Supreme Court's Extraordinary Review Chamber, the KRS reform vetoed in Feb 2026) and the Constitutional Tribunal crisis. Original (pl): 'Głównymi tematami rozmów były działania na rzecz przywracania praworządności w Polsce, stan prac nad reformą wymiaru sprawiedliwości oraz polsko-amerykańska współpraca prawna i procesowa w sprawach karnych.' ... 'Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego.' Literal translation: 'The main topics of the talks were actions for restoring the rule of law in Poland, the state of work on the reform of the justice system, and Polish-American legal and procedural cooperation in criminal matters.' ... 'Discussed moreover [was] the crisis around the Constitutional Tribunal.' Żurek (pl): 'Cieszy nas, że nasi amerykańscy partnerzy ze zrozumieniem i wsparciem odnoszą się do procesu naprawy polskiego wymiaru sprawiedliwości.' Literal translation: 'It pleases us that our American partners relate with understanding and support to the process of repairing the Polish justice system.' This was 7 weeks before the 30-31 Oct TK move. The release does not say what Slotkin said.",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "ejchart",
+   "relation": "Deputy Justice Minister Maria Ejchart (Free Courts co-founder) took part in the same 9 Sep 2026 Justice Ministry meeting with Slotkin and Tillis",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "mazur",
+   "relation": "Deputy Justice Minister Dariusz Mazur took part in the same 9 Sep 2026 Justice Ministry meeting with Slotkin and Tillis",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "tk",
+   "relation": "The Constitutional Tribunal crisis was on the agenda of her 9 Sep 2026 Justice Ministry meeting ('Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego' / literal: 'Discussed moreover [was] the crisis around the Constitutional Tribunal'). Briefing on the topic, not a role in it.",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ],
+   "tie": "indirect",
+   "via": "zurek"
+  },
+  {
+   "source": "slotkin",
+   "target": "korwin_piotrowska",
+   "relation": "The 9 Sep 2026 Justice Ministry briefing told the US side about, or got US backing for, the plan that put Korwin-Piotrowska in control of the TK on 30-31 Oct. No source says the plan was discussed; the release only says the TK crisis was discussed and that Żurek felt 'understanding and support'.",
+   "confidence": "speculation",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "bodnar",
+   "target": "mazur",
+   "relation": "As Justice Minister, requested Mazur's appointment as undersecretary of state; the PM appointed him (announced 22 Dec 2023). Original (pl): 'Na wniosek ministra sprawiedliwości Adama Bodnara premier powołał sędziego Dariusza Mazura na stanowisko podsekretarza stanu' / literal: 'At the request of the minister of justice Adam Bodnar the prime minister appointed judge Dariusz Mazur to the post of undersecretary of state'",
+   "confidence": "fact",
+   "date": "2023-12-22",
+   "sources": [
+    "https://www.radiokrakow.pl/aktualnosci/ms-sedzia-dariusz-mazur-z-krakowa-powolany-na-wiceministra-sprawiedliwosci"
+   ]
+  },
+  {
+   "source": "tusk",
+   "target": "mazur",
+   "relation": "Appointed him undersecretary of state in the Justice Ministry (on Bodnar's request), Dec 2023",
+   "confidence": "fact",
+   "date": "2023-12-22",
+   "sources": [
+    "https://www.radiokrakow.pl/aktualnosci/ms-sedzia-dariusz-mazur-z-krakowa-powolany-na-wiceministra-sprawiedliwosci"
+   ]
+  },
+  {
+   "source": "mazur",
+   "target": "themis",
+   "relation": "OKO.press (19 Oct 2025) lists him among judges associated with Themis: 'Z Themis byli związani sędziowie ... Dariusz Mazur (obecny wiceminister sprawiedliwości)' / literal: 'With Themis were associated judges ... Dariusz Mazur (current deputy minister of justice)'. Membership or office not stated.",
+   "confidence": "fact",
+   "date": "2025-10-19",
+   "sources": [
+    "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+   ]
+  },
+  {
+   "source": "iustitia",
+   "target": "mazur",
+   "relation": "Awarded him Iustitia's Honorary Badge in 2020 ('W 2020 r. wyróżniono go Odznaką Honorową Stowarzyszenia Sędziów Polskich \"Iustitia\"' / literal: 'In 2020 he was distinguished with the Honorary Badge of the Association of Polish Judges \"Iustitia\"')",
+   "confidence": "fact",
+   "date": "2020",
+   "sources": [
+    "https://www.radiokrakow.pl/aktualnosci/ms-sedzia-dariusz-mazur-z-krakowa-powolany-na-wiceministra-sprawiedliwosci"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "zurek",
+   "relation": "Attended the 9 Sep 2026 Justice Ministry meeting with Slotkin (rule of law, justice reform, TK crisis)",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "cia",
+   "target": "slotkin",
+   "relation": "Employed: political analyst (Sep 2003-Jun 2004), briefer to the US Ambassador to Iraq (Jun 2004-Mar 2005), team leader roles incl. the 'Iran in Iraq' cell (May 2006-Aug 2007); Feb 2005-May 2006 seconded to ODNI as senior assistant to DNI Negroponte. Iraq-focused; no Europe work listed.",
+   "confidence": "fact",
+   "date": "2003-2007",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "nato",
+   "relation": "Pentagon International Security Affairs, which sets defence policy for 'Europe/NATO, Russia/Eurasia' (her 2012 resume): chief of staff 2012, principal deputy 2012-15, Acting Assistant Secretary Jan 2015-Jan 2017, covering the July 2016 Warsaw NATO summit. SASC hearing 2 Dec 2014: 'From ensuring the Transatlantic Alliance and ensuring that it's prepared to meet the challenge of Russian aggressive behavior...' (transcript p.5). Policy job, not a NATO post.",
+   "confidence": "fact",
+   "date": "2012-2017",
+   "sources": [
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf",
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://www.armed-services.senate.gov/download/transcript_14-67---12-2-14pdf"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "ukraine_gov",
+   "relation": "Headed a Pentagon delegation to Kyiv that met Deputy FM Prystaiko on 4 Nov 2015 (army reform with US help); met President Zelensky in Kyiv with a House Armed Services delegation on 23 Jul 2022. Congressional Ukraine Caucus member (per Wikipedia reference titles).",
+   "confidence": "fact",
+   "date": "2015-2022",
+   "sources": [
+    "https://mfa.gov.ua/en/news/41645-deputy-minister-for-foreign-affairs-of-ukraine-vadym-prystaiko-met-with-the-american-delegation-headed-by-acting-assistant-secretary-of-defence-for-international-security-affairs-elissa",
+    "https://thelivingstonpost.com/slotkin-meets-with-zelenskyy-other-ukrainian-officials-in-kyiv-as-part-of-congressional-delegation"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "russia_state",
+   "relation": "Public statements only: 'We don't want to be adversarial with the Russians. That said, we can't stand aside while they illegally annex places and sow dissent in places and destabilize places.' (Aspen Security Forum, DoD News 28 Jul 2016)",
+   "confidence": "fact",
+   "date": "2016-07-28",
+   "sources": [
+    "https://www.globalsecurity.org/wmd/library/news/russia/2016/russia-160728-afps01.htm"
+   ]
+  },
+  {
+   "source": "trump_admin",
+   "target": "slotkin",
+   "relation": "Federal investigation over the Nov 2025 'illegal orders' video (she disclosed it 14 Jan 2026); a grand jury declined to indict the lawmakers (Feb 2026 reports)",
+   "confidence": "fact",
+   "date": "2025-11 to 2026-02",
+   "sources": [
+    "https://www.michiganpublic.org/2026-01-14/democrat-elissa-slotkin-says-she-is-under-investigation-for-video-on-illegal-orders",
+    "https://www.turnto23.com/politics/grand-jury-declines-to-indict-democratic-lawmakers-over-military-video"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "trump",
+   "relation": "Voted to impeach him twice (2019, 2021); 2025 Democratic response; Carnegie 30 Sep 2026: 'So I feel I've earned some street cred on the authoritarian playbook that President Trump and his team are employing.'",
+   "confidence": "fact",
+   "date": "2019-2026",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Elissa_Slotkin",
+    "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf"
+   ]
+  },
+  {
+   "source": "carnegie_dcg",
+   "target": "slotkin",
+   "relation": "Hosted her 30 Sep 2026 speech and the Q&A with Applebaum. Event page: 'Please join the Carnegie Endowment's Democracy, Conflict, and Governance Program for this conversation.' The page names no funder, sponsor, moderator or inviter.",
+   "confidence": "fact",
+   "date": "2026-09-30",
+   "sources": [
+    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum"
+   ]
+  },
+  {
+   "source": "carnegie_dcg",
+   "target": "applebaum",
+   "relation": "Hosted the 30 Sep 2026 Q&A she led with Slotkin (event page lists her as 'Staff Writer, The Atlantic')",
+   "confidence": "fact",
+   "date": "2026-09-30",
+   "sources": [
+    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum"
+   ]
+  },
+  {
+   "source": "carnegie_endowment",
+   "target": "carnegie_dcg",
+   "relation": "DCG is one of Carnegie's research programmes",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/programs/democracy-conflict-and-governance"
+   ]
+  },
+  {
+   "source": "feldstein",
+   "target": "carnegie_dcg",
+   "relation": "Director and Senior Fellow of the programme that hosted Slotkin. No source says he invited her.",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/people/steven-feldstein",
+    "https://carnegieendowment.org/programs/democracy-conflict-and-governance"
+   ]
+  },
+  {
+   "source": "feldstein",
+   "target": "usaid",
+   "relation": "Former USAID director of policy (Carnegie bio; years not given)",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/people/steven-feldstein"
+   ]
+  },
+  {
+   "source": "fz_brown",
+   "target": "carnegie_dcg",
+   "relation": "As VP for Studies, oversees DCG",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/people/frances-z-brown?lang=en"
+   ]
+  },
+  {
+   "source": "fz_brown",
+   "target": "usaid",
+   "relation": "Worked at USAID's Office of Transition Initiatives, managing political transition programmes (Africa, Middle East, South Asia)",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/people/frances-z-brown?lang=en"
+   ]
+  },
+  {
+   "source": "carothers",
+   "target": "carnegie_dcg",
+   "relation": "Harvey V. Fineberg Chair for Democracy Studies; Senior Fellow, DCG",
+   "confidence": "fact",
+   "sources": [
+    "https://carnegieendowment.org/programs/democracy-conflict-and-governance"
+   ]
+  },
+  {
+   "source": "ford_foundation",
+   "target": "carnegie_dcg",
+   "relation": "Donor earmarked to DCG: FY2025 '$1,000,000 to $1,999,999'; FY2024 '$2,000,000 and above'. Read by machine from the annual-report PDF (text extraction summary, not verbatim); tier not yet checked against the printed page. Carnegie publishes tiers, not amounts.",
+   "confidence": "alleged",
+   "date": "2023-2025",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  },
+  {
+   "source": "hewlett",
+   "target": "carnegie_dcg",
+   "relation": "Donor earmarked to DCG: FY2025 '$250,000 to $549,999'; FY2024 '$1,000,000 to $1,999,999'. Read by machine from the annual-report PDF (text extraction summary, not verbatim); tier not yet checked against the printed page. Carnegie publishes tiers, not amounts.",
+   "confidence": "alleged",
+   "date": "2023-2025",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  },
+  {
+   "source": "ned",
+   "target": "carnegie_endowment",
+   "relation": "Listed as a Carnegie donor in FY2025, '$25,000 to $99,999' (programme not given). Read by machine from the annual-report PDF (text extraction summary, not verbatim); tier not yet checked against the printed page. Carnegie publishes tiers, not amounts.",
+   "confidence": "alleged",
+   "date": "2024-2025",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf"
+   ]
+  },
+  {
+   "source": "sida",
+   "target": "carnegie_endowment",
+   "relation": "Listed as a Carnegie donor: FY2025 '$250,000 to $549,999' (Sweden's MFA separately '$100,000 to $249,999'); FY2024 '$250,000 to $549,999'. Programme not given. Read by machine from the annual-report PDF (text extraction summary, not verbatim); tier not yet checked against the printed page. Carnegie publishes tiers, not amounts.",
+   "confidence": "alleged",
+   "date": "2023-2025",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  }
+ ],
+ "checked_no_link": [
+  {
+   "subject": "slotkin",
+   "searched_for": "any job, grant, board seat or speech at NED, NDI/IRI, OSF, Batory, Free Courts, Iustitia, Themis, GMF or USAID",
+   "result": "none found. Her jobs were all US government (CIA, ODNI, NSC, State, Pentagon) or small NGOs in Kenya, Tanzania, Boston and Israel/West Bank in 1996-2001.",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "any meeting with Tusk, Bodnar, Wawrykiewicz or any of the 8 TK judges",
+   "result": "none found. Her Polish counterparts on record are Żurek, Ejchart and Mazur (Justice Ministry, 9 Sep 2026), Zalewski (defence ministry, 9 Sep 2026), Sikorski (10 Sep 2026) and Przydacz (Presidential Palace, 10 Sep 2026). Tusk and Sikorski were at the Feb 2026 Munich conference with her; no meeting found.",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa",
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://capitolreleases.com/releases/082303a6-52e4-4de4-9a54-e22a895a2d70"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "Poland, courts or judges in her Brookings 'authoritarian playbook' speech (29 Oct 2025)",
+   "result": "none; the text never mentions Poland, Hungary, Europe, NATO, Russia, courts or judges",
+   "sources": [
+    "https://www.slotkin.senate.gov/wp-content/uploads/2025/10/2025-10-29-Brookings-Remarks.pdf"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "her Senate NATO Observer Group membership (S.1980)",
+   "result": "not named in the bill (sponsors Tillis and Shaheen)",
+   "sources": [
+    "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "a Warsaw Security Forum appearance (2025)",
+   "result": "not named in the WSF 2025 recap",
+   "sources": [
+    "https://warsawsecurityforum.org/wp-content/uploads/2025/10/2025-10-02-Press-Release-—-WSF-2025-Recap.pdf"
+   ]
+  },
+  {
+   "subject": "carnegie_dcg",
+   "searched_for": "who invited Slotkin, who paid for the 30 Sep 2026 event, any event sponsor",
+   "result": "none stated. The event page names only the host programme. Carnegie's funding policy says it 'does not allow donors prior approval of drafts, selection of project participants, or any influence over the findings' (Carnegie's own statement, published on its site).",
+   "sources": [
+    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum",
+    "https://carnegieendowment.org/development"
+   ]
+  },
+  {
+   "subject": "osf",
+   "searched_for": "OSF money earmarked to the DCG programme that hosted Slotkin",
+   "result": "none found: OSF is in Carnegie's top tier ($2m+) in FY2024 and FY2025, but the donor lists tie it to other programmes, not DCG (machine-read; check printed pages)",
+   "sources": [
+    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
+    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "privately paid trips to Poland, Hungary or Europe (Senate/House gift-rule travel)",
+   "result": "none found. Four privately sponsored trips 2019-2022 for her office (Los Angeles, San Francisco, Boston, Tel Aviv), none to Europe. The Sep 2026 trip was a Senate delegation, which is government-paid and needs no ethics pre-approval; its foreign-currency costs appear in quarterly Congressional Record reports (Q3 2026 report not yet found).",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/S001208.html",
+    "https://www.ethics.senate.gov/public/index.cfm/travel",
+    "https://m.washingtontimes.com/news/2026/feb/20/lawmakers-trip-munich-dhs-shutdown-puts-spotlight-congress-pricey/"
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "file": "lead_slotkin_sikorski.json",
+   "was": "checked_no_link: 'none reported' for a meeting with Żurek during the Sep 2026 trip; 'No courts, Constitutional Tribunal or rule-of-law item reported' (that line was about the MFA/defence readouts)",
+   "now": "The Justice Ministry's own release shows Slotkin and Tillis met Żurek, Ejchart and Mazur on 9 Sep 2026 and discussed the rule of law, justice reform and the TK crisis. The earlier check did not find this release."
+  }
+ ],
+ "leads": [
+  {
+   "lead": "What did Slotkin say in the Carnegie Q&A with Applebaum (30 Sep 2026) about Poland, the TK or the Justice Ministry meeting? The Q&A is not in the prepared text. Video: https://www.youtube.com/live/FIzat4Rl5-I",
+   "result": "open; needs the video (YouTube blocked here)",
+   "label": "speculation"
+  },
+  {
+   "lead": "Did the 9 Sep 2026 meeting cover the plan the coalition carried out on 30-31 Oct (Żurek's files to the most senior judge)? Ask: US Embassy Warsaw readout, Tillis's office, Slotkin's own posts about the trip",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "What is Poland's 'Iron Broom' (Żelazna Miotła?) plan she cites: the coalition's accountability drive (Ziobro, Justice Fund, Pegasus)? Is that the name used in Poland?",
+   "result": "open; no Polish source using the name found yet",
+   "label": "speculation"
+  },
+  {
+   "lead": "Did she meet Sejm Marshal Czarzasty? (Sejm notice of a Marshal meeting with a US Senate delegation; page blocked)",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Whom did she meet in Budapest in early Sep 2026 (Magyar government, NGOs)?",
+   "result": "open; no readout found",
+   "label": "speculation"
+  },
+  {
+   "lead": "Money: did George, Alex or Jonathan Soros or Soros-funded super PACs (Democracy PAC) give to or spend for her 2018-2024 campaigns? FEC and OpenSecrets pages are blocked here",
+   "result": "open; only a $250 Foreign Policy for America Action Fund gift (2018) confirmed",
+   "label": "speculation"
+  },
+  {
+   "lead": "Her Pentagon role in the 2016 Warsaw summit decisions and the US rotational brigade in Poland (ISA ran Europe policy). No document naming her on Poland found yet",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Kyiv Security Forum 2018 speaker page (Open Ukraine Foundation) may list her; page redirects",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Budapest contacts: Magyar/Tisza government, NGOs or journalists she met in early Sep 2026; check her X posts, Hungarian press (telex.hu, 444.hu, hvg.hu, MTI) and the US Embassy Budapest",
+   "result": "open; no named contact in any source found 2026-11-01",
+   "label": "speculation"
+  },
+  {
+   "lead": "Who paid for and led the Sep 2026 Poland/Hungary trip: find the Q3 2026 Congressional Record foreign-travel expense report (likely Armed Services or Foreign Relations committee, or Senate leadership) naming Slotkin, Tillis, Curtis",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Confirm Carnegie FY2024/FY2025 donor lines on the printed pages (DCG earmarks: Ford, Hewlett, Mott, Joyce; NED, Sida, OSF tiers)",
+   "result": "open; text extraction only",
+   "label": "alleged"
+  },
+  {
+   "lead": "Who invited Slotkin to Carnegie: ask Carnegie's DCG (Feldstein) or her office; check her Senate schedule or any press release before 30 Sep",
+   "result": "open; nothing published",
+   "label": "speculation"
+  }
+ ],
+ "reported_claims": [
+  {
+   "about": "slotkin",
+   "reported_by": "RedState (Ben Sellers, 1 Nov 2026)",
+   "relation": "On the Hungary trip where she 'brought home the playbook' she 'also met with Polish officials including Deputy Foreign Minister Radosław Sikorski'; framed as a 'color revolution' tie backed by 'oligarchs like the Soros family'",
+   "confidence": "alleged",
+   "sources": [
+    "https://redstate.com/ben-sellers/2026/11/01/elissa-slotkin-just-revealed-her-ties-to-color-revolutions-in-europes-last-two-free-countries-n2208869"
+   ],
+   "date": "2026-11-01",
+   "verified": "Partly. The Sikorski meeting (10 Sep 2026) is fact per Poland's MFA, but he is Foreign Minister and Deputy PM, not Deputy FM. 'Brought home the playbook' is not her wording. The article gives no source for any Soros money or NGO link to Slotkin or her trip; none found here."
+  }
+ ]
+}
