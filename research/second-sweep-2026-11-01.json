@@ -45,7 +45,7 @@
   ],
   "how_to_read_a_data_point": {
    "title_as_returned": "exact text of the result title. Where it is lower-case without punctuation it is the URL slug, not the typeset headline (title_note says so). Where the title is a site banner, descriptor_from_url_slug gives the slug text.",
-   "translation_literal": "literal translation of Polish titles, written by the assistant, not official; null where none was given.",
+   "translation_literal": "literal translation of Polish titles, written for this file, not official; null where none was given.",
    "date_from_url": "a date only where the URL path contains one (basis=url_path). Otherwise null; no date is inferred except where a field says \"inference\".",
    "ref": "Qnn#k = query number nn, result rank k (see queries and the raw results file).",
    "proposed_label": "fact | alleged | speculation | unproven_conspiracy. Applies to what label_scope says, usually that the item was published and what it reports. It is a proposal pending a read of the page, not a verdict.",
@@ -4592,7 +4592,7 @@
    "id": "prokuratura_krajowa",
    "type": "org",
    "group": "government",
-   "label": "National Prosecutor's Office (Prokuratura Krajowa; expansion of \"PK\" by the assistant)",
+   "label": "National Prosecutor's Office (Prokuratura Krajowa; \"PK\" expanded here, not spelled out in the headline)",
    "sources": [
     "https://xyz.pl/dzieje-sie/szef-ms-polecilem-szefowi-pk-podjecie-czynnosci-w-zwiazku-z-proba-sparalizowania-pracy-tk-4264"
    ],
