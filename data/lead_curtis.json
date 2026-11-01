@@ -214,7 +214,7 @@
    "id": "crypto_donors",
    "type": "org",
    "group": "us_money",
-   "label": "Crypto executives: Marc Andreessen, Ben Horowitz, Brian Armstrong, Chris Dixon, Kyle Samani, Tushar Jain",
+   "label": "Crypto executives (Andreessen, Horowitz, Armstrong, Dixon, Samani, Jain)",
    "sources": [
     "https://influence.citationneeded.news/2024/elections/UT-S"
    ]
@@ -235,6 +235,42 @@
    "label": "Center for Strategic and International Studies (CSIS)",
    "sources": [
     "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "fairshake",
+   "type": "org",
+   "group": "us_money",
+   "label": "Fairshake (crypto-industry super PAC, parent of Defend American Jobs)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00836221/"
+   ]
+  },
+  {
+   "id": "coinbase",
+   "type": "org",
+   "group": "us_money",
+   "label": "Coinbase Inc.",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00836221/"
+   ]
+  },
+  {
+   "id": "ripple",
+   "type": "org",
+   "group": "us_money",
+   "label": "Ripple Labs Inc.",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00836221/"
+   ]
+  },
+  {
+   "id": "robert_walton_bgr",
+   "type": "person",
+   "group": "us_money",
+   "label": "Robert Walton (McLean, VA; BGR Group consultant per FEC)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00855064/"
    ]
   }
  ],
@@ -613,7 +649,7 @@
   {
    "source": "aipac",
    "target": "curtis",
-   "relation": "Endorsed Curtis in the 2024 Senate race (listed as having 'switched endorsement to Curtis' from Romney).",
+   "relation": "Endorsed Curtis in the 2024 Senate race (listed as having 'switched endorsement to Curtis' from Romney). FEC: the AIPAC PAC (C00797670) gave $7,900 (2022 cycle) and $7,000 (2024 cycle).",
    "confidence": "fact",
    "sources": [
     "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
@@ -657,7 +693,7 @@
   {
    "source": "clearpath",
    "target": "curtis",
-   "relation": "Paid Curtis staff trips (2019 Cambridge MD with MIT; Aug 2022 Chicago). In 2024 ClearPath Action Fund announced 'a $500,000 effort to support John Curtis for Senate' (CPAF release, 13 Feb 2024); E&E: it 'has spent nearly $500,000 backing Curtis'.",
+   "relation": "Paid Curtis staff trips (2019 Cambridge MD with MIT; Aug 2022 Chicago). In 2024 ClearPath Action Fund announced 'a $500,000 effort to support John Curtis for Senate' (CPAF release, 13 Feb 2024); E&E: it 'has spent nearly $500,000 backing Curtis'. FEC bulk data: ClearPath Action Fund independent expenditures for Curtis were $125,000 (2022) and $485,992 (2024). Faison personally gave ClearPath Action Fund $2,418,000 (2020) and $590,000 (2022); he also gave Curtis's campaign $18,000 (2024) and his leadership PAC $30,000 (2024 and 2026).",
    "confidence": "fact",
    "sources": [
     "https://clearpathactionfund.org/wp-content/uploads/sites/36/2024/02/CPAF-2024-clean-energy-champions-.pdf",
@@ -703,7 +739,7 @@
   {
    "source": "cv_utah",
    "target": "curtis",
-   "relation": "Super PAC created Oct 2023 to back Curtis; 'more than $5.3 million' spent for him in the 2024 cycle (E&E/Deseret; KSL 8 Jun 2024 cites $4.6M support), plus ~$550,000 against rival Trent Staggs.",
+   "relation": "Super PAC created Oct 2023 to back Curtis; 'more than $5.3 million' spent for him in the 2024 cycle (E&E/Deseret; KSL 8 Jun 2024 cites $4.6M support), plus ~$550,000 against rival Trent Staggs. FEC bulk data confirms $4,989,117 in independent expenditures supporting Curtis (24E, 2024 cycle). Its largest donors (FEC): Jay Faison $2,000,000; Big Sky Action Fund $1,020,000; Robert Walton (BGR Group) $1,000,000; Conservative Leadership Network $420,000; Jeffrey Chambers (TA Associates) $350,000.",
    "confidence": "fact",
    "sources": [
     "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
@@ -716,7 +752,7 @@
   {
    "source": "defend_american_jobs",
    "target": "curtis",
-   "relation": "Crypto-industry super PAC: $1,685,684 to support Curtis and $283,338 against Staggs in the 2024 primary (Follow the Crypto); Deseret puts its pro-Curtis total at 'roughly $3.5 million'. KSL: 'funded by venture capital firms which concentrate on infrastructure, cryptocurrency and technology.' Figures conflict between sources.",
+   "relation": "Crypto-industry super PAC: $1,685,684 to support Curtis and $283,338 against Staggs in the 2024 primary (Follow the Crypto); Deseret puts its pro-Curtis total at 'roughly $3.5 million'. KSL: 'funded by venture capital firms which concentrate on infrastructure, cryptocurrency and technology.' Figures conflict between sources. FEC bulk data: $1,945,951 in independent expenditures for Curtis (24E, 2024 cycle).",
    "confidence": "fact",
    "sources": [
     "https://influence.citationneeded.news/2024/elections/UT-S",
@@ -773,7 +809,7 @@
   {
    "source": "singer",
    "target": "curtis",
-   "relation": "Gave Curtis $6,600 on 25 Feb 2024 (Daily Caller News Foundation via BizPac Review; reported as a Haley donor).",
+   "relation": "Gave Curtis $6,600 on 25 Feb 2024 (Daily Caller News Foundation via BizPac Review; reported as a Haley donor). FEC: $9,400 in total to John Curtis for Utah in the 2024 cycle.",
    "confidence": "fact",
    "sources": [
     "https://www.bizpacreview.com/2024/04/25/gop-rep-running-for-mitt-romneys-seat-rakes-in-thousands-from-nikki-haley-donors-in-first-quarter-as-candidate-1455213/"
@@ -792,6 +828,66 @@
    ],
    "added_by": "lead_curtis_money",
    "date": "2021-11-05"
+  },
+  {
+   "source": "fairshake",
+   "target": "defend_american_jobs",
+   "relation": "FEC bulk 'oth' file, 2024 cycle: Fairshake transferred $54,400,000 (18G) plus $150,000 (18K) to Defend American Jobs.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00836221/"
+   ],
+   "date": "2024",
+   "added_by": "lead_curtis_fec"
+  },
+  {
+   "source": "coinbase",
+   "target": "defend_american_jobs",
+   "relation": "FEC itemised receipts: Coinbase Inc. gave Defend American Jobs $2,500,000 (2024 cycle). (The super PAC spent for many candidates, not only Curtis.)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00836221/"
+   ],
+   "date": "2024",
+   "added_by": "lead_curtis_fec"
+  },
+  {
+   "source": "ripple",
+   "target": "defend_american_jobs",
+   "relation": "FEC itemised receipts: Ripple Labs Inc. gave Defend American Jobs $1,750,000 (2026 cycle).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00836221/"
+   ],
+   "date": "2026",
+   "added_by": "lead_curtis_fec"
+  },
+  {
+   "source": "crypto_donors",
+   "target": "defend_american_jobs",
+   "relation": "FEC itemised receipts, 2026 cycle: Marc Andreessen $925,000 and Ben Horowitz $925,000 (AH Capital Management); Multicoin's Samani and Jain $12,500 each.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00836221/"
+   ],
+   "date": "2026",
+   "added_by": "lead_curtis_fec"
+  },
+  {
+   "source": "robert_walton_bgr",
+   "target": "cv_utah",
+   "relation": "FEC itemised receipts: $1,000,000 to Conservative Values for Utah (2024 cycle). FEC lists him as 'WALTON, ROBERT', McLean VA, employer BGR Group, consultant. Correction: press called this donor a Walmart heir; the FEC record shows a different person.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00855064/"
+   ],
+   "date": "2024",
+   "added_by": "lead_curtis_fec"
   }
  ],
  "checked_no_link": [
@@ -825,22 +921,18 @@
   },
   {
    "subject": "curtis",
-   "searched_for": "Soros family, Open Society, Democracy PAC, Reid Hoffman, Bloomberg, Pinchuk, NED-linked, Polish or Ukrainian donors (2017-2026)",
-   "result": "no link found in reported coverage of his donors and super PACs (Deseret, KSL, SL Tribune, E&E, Follow the Crypto, Legilist FEC summary). Not checked against itemised FEC records (FEC/OpenSecrets blocked here); queued for manual capture.",
-   "sources": [
-    "https://legilist.com/campaign-finance/C001114/2024",
-    "https://influence.citationneeded.news/2024/elections/UT-S",
-    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
-    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/",
-    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
-   ]
-  },
-  {
-   "subject": "curtis",
    "searched_for": "privately funded trips paid by NED, IRI, NDI, OSF, GMF, Carnegie Endowment or any Poland/Ukraine group",
    "result": "none among the 52 sponsored House-office trips 2018-2023. Senate-era (2025-) gift travel not checked (efdsearch requires a browser).",
    "sources": [
     "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "subject": "curtis",
+   "searched_for": "Soros, Open Society, Pinchuk, Reid Hoffman, Bloomberg (person), NED/IRI/NDI/GMF/Atlantic Council/Carnegie/Tides/RBF/Omidyar/Democracy Fund/Aspen or USAID employees, Applebaum/Sikorski, and Polish or Ukrainian names, employers or addresses, among itemised donors to his five committees and the five super PACs that backed him (2018-2026)",
+   "result": "no link found. The FEC bulk files for the 2018, 2020, 2022, 2024 and 2026 cycles were scanned (individual, committee and PAC-to-candidate files). Only trivial name matches: one Bloomberg LP programmer gave $1,000.",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ]
   }
  ],
@@ -936,6 +1028,16 @@
    "sources": [
     "https://www.standard.net/news/2026/mar/31/utah-sen-john-curtis-leads-delegation-to-taiwan-to-affirm-american-support/"
    ]
+  },
+  {
+   "date": "2018-2026",
+   "event": "FEC bulk data (itemised receipts): campaign committee C00647339 took $950,136 (2018), $256,750 (2020), $651,100 (2022), $2,376,550 (2024), $345,411 (2026 to date) from individuals; Team Curtis JFC (C00654459) $117,500 / $236,728 / $252,600 / $1,463,600 / $788,000; leadership PAC Sock It To 'Em (C00654186, formerly Utah First PAC) $5,000 / $12,000 / $21,000 / $62,750 / $293,250. Committee money for the campaign: $496,385 (2018), $526,662 (2020), $1,408,196 (2022), $2,077,442 (2024), $444,500 (2026). 2024 transfers also came from the Cornyn Victory Committee ($197,793), 2024 Thune Republican Senate Victory ($59,260) and Friends of Mitt JFC ($19,814 to the campaign and $19,990 to the leadership PAC); Mitt and Ann Romney gave $6,600 each. In 2018 Club for Growth Action spent $151,350 against him. Walmart-family Waltons of Bentonville gave small direct sums: Robson Walton $9,900 (2024) and Lukas Walton $13,400 (2026) to the campaign; Lukas, S. Robson and James Walton gave ACC PAC $40,000 combined (2026).",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00647339/",
+    "https://www.fec.gov/data/committee/C00654459/",
+    "https://www.fec.gov/data/committee/C00654186/"
+   ]
   }
  ],
  "leads": [
@@ -960,17 +1062,12 @@
    "label": "speculation"
   },
   {
-   "lead": "Itemised FEC donors for John Curtis for Utah (C00647339), Team Curtis JFC and Sock It To 'Em PAC (C00654186), 2017-2026",
-   "result": "open; FEC blocked",
-   "label": "speculation"
-  },
-  {
    "lead": "Senate gift travel 2025-26 on efdsearch.senate.gov, and House foreign-travel (CODEL) cost reports for Taiwan 2022 and Middle East 2024",
    "result": "open",
    "label": "speculation"
   },
   {
-   "lead": "Who funds Defend American Jobs (named VC/crypto firms)",
+   "lead": "Who funds Big Sky Action Fund and Conservative Leadership Network (CV Utah's #2 and #4 donors)",
    "result": "open",
    "label": "speculation"
   }
@@ -986,6 +1083,16 @@
    ],
    "date": "2024-06-25",
    "verified": "Partly. Super PAC spending for Curtis is reported at about $6.6-8.4M from various outlets, which is outside spending, not campaign money."
+  }
+ ],
+ "corrections": [
+  {
+   "what": "Robert Walton's $1M to Conservative Values for Utah",
+   "was": "described in press coverage of the 2024 race (Deseret News, Breitbart) as the Walmart founder's heir",
+   "now": "FEC lists the donor as Robert Walton, McLean VA, BGR Group consultant",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00855064/"
+   ]
   }
  ]
 }
