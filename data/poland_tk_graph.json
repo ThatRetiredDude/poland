@@ -1177,15 +1177,6 @@
       ]
     },
     {
-      "id": "judicial_watch",
-      "type": "org",
-      "group": "media_advocacy",
-      "label": "Judicial Watch (US conservative watchdog)",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-      ]
-    },
-    {
       "id": "juri_libe",
       "type": "org",
       "group": "eu_body",
@@ -1241,15 +1232,6 @@
       ]
     },
     {
-      "id": "magyar_nemzet",
-      "type": "org",
-      "group": "media",
-      "label": "Magyar Nemzet (Hungarian pro-government daily)",
-      "sources": [
-        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
-      ]
-    },
-    {
       "id": "house_gop_mast",
       "type": "group",
       "group": "us_gov",
@@ -1265,15 +1247,6 @@
       "label": "Akcja Demokracja",
       "sources": [
         "https://notesfrompoland.com/2025/05/15/polish-ngo-implicated-in-alleged-illegal-election-ads-favouring-frontrunner-trzaskowski/"
-      ]
-    },
-    {
-      "id": "daily_signal",
-      "type": "org",
-      "group": "media",
-      "label": "The Daily Signal (Heritage Foundation outlet)",
-      "sources": [
-        "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
       ]
     },
     {
@@ -1366,24 +1339,6 @@
       "label": "AgoraEU (proposed EU programme, up to €8.6bn, 2028-34)",
       "sources": [
         "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-      ]
-    },
-    {
-      "id": "brussels_signal",
-      "type": "org",
-      "group": "media",
-      "label": "Brussels Signal (conservative EU outlet)",
-      "sources": [
-        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-      ]
-    },
-    {
-      "id": "datarepublican",
-      "type": "person",
-      "group": "commentator",
-      "label": "DataRepublican (pseudonymous X researcher)",
-      "sources": [
-        "https://threadreaderapp.com/scrolly/1889172190282821690"
       ]
     },
     {
@@ -3509,27 +3464,6 @@
       "added_by": "lead_free_courts_osf"
     },
     {
-      "source": "judicial_watch",
-      "target": "free_courts",
-      "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
-      "confidence": "fact",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-      ],
-      "date": "2026-03-09",
-      "added_by": "lead_free_courts_osf"
-    },
-    {
-      "source": "judicial_watch",
-      "target": "free_courts",
-      "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
-      "confidence": "alleged",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-      ],
-      "added_by": "lead_free_courts_osf"
-    },
-    {
       "source": "neo_krs",
       "target": "iustitia",
       "relation": "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
@@ -4215,28 +4149,6 @@
       "date": "2025-01"
     },
     {
-      "source": "magyar_nemzet",
-      "target": "tusk",
-      "relation": "'Soros, Zelensky, von der Leyen and Tusk celebrate together' (separate congratulations to Magyar; no contact shown)",
-      "confidence": "alleged",
-      "sources": [
-        "https://magyarnemzet.hu/english/2026/04/soros-zelensky-von-der-leyen-and-tusk-celebrate-tisza-victory-together"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2026-04-14"
-    },
-    {
-      "source": "magyar_nemzet",
-      "target": "batory",
-      "relation": "2023 series: Soros-funded NGOs (Batory, HFHR, Krytyka Polityczna) shaped Polish campaign; Tusk/PO not named",
-      "confidence": "alleged",
-      "sources": [
-        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2023-10"
-    },
-    {
       "source": "osf",
       "target": "tusk",
       "relation": "Soros backed Tusk's 2023 win (reading of Magyar Nemzet series)",
@@ -4259,7 +4171,7 @@
       "date": "2025-05-27"
     },
     {
-      "source": "daily_signal",
+      "source": "usaid",
       "target": "tusk",
       "relation": "USAID 'backed' Tusk's coalition in 2023 via grants to 27 Polish bodies; no grant to PO shown",
       "confidence": "alleged",
@@ -4267,7 +4179,8 @@
         "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
       ],
       "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2025-02-28"
+      "date": "2025-02-28",
+      "lead_origin": "The Daily Signal"
     },
     {
       "source": "usaid",
@@ -4300,17 +4213,6 @@
       ],
       "added_by": "lead_funders_ned_osf_usaid",
       "date": "2023-01-31"
-    },
-    {
-      "source": "judicial_watch",
-      "target": "democrisis",
-      "relation": "FOIA suit v. State Dept covers DemoCrisis grants; no records released yet",
-      "confidence": "fact",
-      "sources": [
-        "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2026-02"
     },
     {
       "source": "efron",
@@ -4409,17 +4311,6 @@
       "date": "2026-01"
     },
     {
-      "source": "brussels_signal",
-      "target": "agoraeu",
-      "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
-      "confidence": "alleged",
-      "sources": [
-        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-      ],
-      "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked"
-    },
-    {
       "source": "agoraeu",
       "target": "free_courts",
       "relation": "any EU money (CERV/AgoraEU) to Free Courts, OKO.press or Batory: not yet checked",
@@ -4429,18 +4320,6 @@
       ],
       "added_by": "lead_oped_handover",
       "verified": "source cited in op-ed; not independently re-checked"
-    },
-    {
-      "source": "datarepublican",
-      "target": "ned",
-      "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
-      "confidence": "alleged",
-      "sources": [
-        "https://threadreaderapp.com/scrolly/1889172190282821690"
-      ],
-      "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked",
-      "date": "2025-02-11"
     },
     {
       "source": "carothers",
@@ -4792,15 +4671,6 @@
       "date": "2023-12",
       "sources": [
         "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10966079,telewizja-polska-w-likwidacji-wpisana-do-krs.html"
-      ]
-    },
-    {
-      "source": "tvp",
-      "target": "korwin_piotrowska",
-      "relation": "pro-government framing of 30 Oct (no documented instruction)",
-      "confidence": "speculation",
-      "sources": [
-        "https://www.tvp.info/96221535/to-ona-wyrzucila-swiaczkowskiego-korwin-piotrowska-stanie-na-czele-tk"
       ]
     },
     {
@@ -6833,5 +6703,153 @@
       "label": "fact",
       "added_by": "lead_taborowski_patyra"
     }
-  ]
+  ],
+  "reported_claims": [
+    {
+      "about": "free_courts",
+      "reported_by": "Judicial Watch",
+      "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ],
+      "date": "2026-03-09"
+    },
+    {
+      "about": "free_courts",
+      "reported_by": "Judicial Watch",
+      "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
+      "confidence": "alleged",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ]
+    },
+    {
+      "about": "tusk",
+      "reported_by": "Magyar Nemzet",
+      "relation": "'Soros, Zelensky, von der Leyen and Tusk celebrate together' (separate congratulations to Magyar; no contact shown)",
+      "confidence": "alleged",
+      "sources": [
+        "https://magyarnemzet.hu/english/2026/04/soros-zelensky-von-der-leyen-and-tusk-celebrate-tisza-victory-together"
+      ],
+      "date": "2026-04-14"
+    },
+    {
+      "about": "batory",
+      "reported_by": "Magyar Nemzet",
+      "relation": "2023 series: Soros-funded NGOs (Batory, HFHR, Krytyka Polityczna) shaped Polish campaign; Tusk/PO not named",
+      "confidence": "alleged",
+      "sources": [
+        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+      ],
+      "date": "2023-10"
+    },
+    {
+      "about": "democrisis",
+      "reported_by": "Judicial Watch",
+      "relation": "FOIA suit v. State Dept covers DemoCrisis grants; no records released yet",
+      "confidence": "fact",
+      "sources": [
+        "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
+      ],
+      "date": "2026-02"
+    },
+    {
+      "about": "agoraeu",
+      "reported_by": "Brussels Signal",
+      "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
+      "confidence": "alleged",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ],
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "about": "ned",
+      "reported_by": "DataRepublican",
+      "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
+      "confidence": "alleged",
+      "sources": [
+        "https://threadreaderapp.com/scrolly/1889172190282821690"
+      ],
+      "date": "2025-02-11",
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "about": "korwin_piotrowska",
+      "reported_by": "TVP / Polish Radio / PAP",
+      "relation": "pro-government framing of 30 Oct (no documented instruction)",
+      "confidence": "speculation",
+      "sources": [
+        "https://www.tvp.info/96221535/to-ona-wyrzucila-swiaczkowskiego-korwin-piotrowska-stanie-na-czele-tk"
+      ]
+    }
+  ],
+  "reporters": {
+    "judicial_watch": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "judicial_watch",
+        "type": "org",
+        "group": "media_advocacy",
+        "label": "Judicial Watch (US conservative watchdog)",
+        "sources": [
+          "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+        ]
+      }
+    },
+    "magyar_nemzet": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "magyar_nemzet",
+        "type": "org",
+        "group": "media",
+        "label": "Magyar Nemzet (Hungarian pro-government daily)",
+        "sources": [
+          "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+        ]
+      }
+    },
+    "daily_signal": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "daily_signal",
+        "type": "org",
+        "group": "media",
+        "label": "The Daily Signal (Heritage Foundation outlet)",
+        "sources": [
+          "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+        ]
+      }
+    },
+    "brussels_signal": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "brussels_signal",
+        "type": "org",
+        "group": "media",
+        "label": "Brussels Signal (conservative EU outlet)",
+        "sources": [
+          "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+        ]
+      }
+    },
+    "datarepublican": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "datarepublican",
+        "type": "person",
+        "group": "commentator",
+        "label": "DataRepublican (pseudonymous X researcher)",
+        "sources": [
+          "https://threadreaderapp.com/scrolly/1889172190282821690"
+        ]
+      }
+    }
+  }
 }

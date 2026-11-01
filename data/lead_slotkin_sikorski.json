@@ -150,17 +150,19 @@
       "sources": [
         "https://www.slotkin.senate.gov/2026/09/30/icymi-slotkin-delivers-speech-at-carnegie-institution-on-defending-democracy/",
         "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
-      ]
+      ],
+      "note": "Spoke about her Poland/Hungary trip and defending democracy while at Carnegie (30 Sep 2026)"
     },
     {
-      "source": "applebaum",
-      "target": "slotkin",
-      "relation": "Hosted the Q&A after Slotkin's Carnegie speech, 30 Sep 2026",
+      "source": "slotkin",
+      "target": "applebaum",
+      "relation": "Spoke about her Poland/Hungary trip and defending democracy in the Q&A Applebaum hosted after Slotkin's Carnegie speech (30 Sep 2026)",
       "confidence": "fact",
       "date": "2026-09-30",
       "sources": [
         "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
-      ]
+      ],
+      "note": "Spoke while on this platform: Applebaum's Carnegie Q&A"
     },
     {
       "source": "applebaum",
@@ -219,51 +221,6 @@
       "confidence": "fact",
       "sources": [
         "https://en.wikipedia.org/wiki/Elissa_Slotkin"
-      ]
-    }
-  ],
-  "checked_no_link": [
-    {
-      "subject": "slotkin",
-      "searched_for": "any tie to the 8 TK judges, Tusk, Wawrykiewicz, Free Courts, NED, OSF or USAID; any mention of Polish courts or the TK in her Carnegie speech or trip reports",
-      "result": "none found. The full speech text (30 Sep 2026) never mentions courts, judges, the Constitutional Tribunal, Tusk or Sikorski. Note: the speech Q&A was with Anne Applebaum, who is Sikorski's wife (family tie, public record; not evidence of coordination).",
-      "sources": [
-        "https://www.slotkin.senate.gov/wp-content/uploads/2026/09/Slokin_Carnegie_Speech_9_30.pdf",
-        "https://www.forth.news/stories/CfYQ6mwXMs4piy4aa4gbP"
-      ]
-    },
-    {
-      "subject": "sikorski",
-      "searched_for": "role in planning or carrying out the 30-31 Oct TK takeover",
-      "result": "none found beyond the public statement of support after the event",
-      "sources": [
-        "https://www.rp.pl/sady-i-trybunaly/art45424861-chaos-wokol-trybunalu-konstytucyjnego-prezydent-zwoluje-konsultacje-relacja-na-zywo"
-      ]
-    },
-    {
-      "subject": "slotkin",
-      "searched_for": "any meeting with Tusk, Czarzasty, Bodnar, Żurek, Wawrykiewicz or any of the 8 judges during the Sep 2026 trip",
-      "result": "none reported. Named hosts: Sikorski (MFA), Zalewski (defence ministry), Przydacz (Presidential Palace). A Sejm notice announced a Marshal-Senate delegation meeting, but it could not be read to confirm the date or delegation.",
-      "sources": [
-        "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
-        "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej",
-        "https://sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C3969F47F9F661CC1258E6D0034B793"
-      ]
-    },
-    {
-      "subject": "applebaum",
-      "searched_for": "board, grant or advisory role at OSF, Batory Foundation, Free Courts, Iustitia, Themis, KOS or any Polish institution",
-      "result": "none in her 2024 CV or Wikipedia (her 'Agora Institute' post is Johns Hopkins, unrelated to Agora SA/Wyborcza)",
-      "sources": [
-        "https://sais.jhu.edu/sites/default/files/Applebaum%2C%20Anne%20CV%202024%20Spring.pdf"
-      ]
-    },
-    {
-      "subject": "slotkin",
-      "searched_for": "mention of Polish courts, judges or the Tribunal in the 29/30 Oct 2026 hidden-camera clip ('signature cases' remarks)",
-      "result": "none; the clip references Hungary/Budapest and US corruption cases only",
-      "sources": [
-        "https://www.thegatewaypundit.com/2026/10/watch-hidden-camera-video-exposes-sen-elissa-slotkin/"
       ]
     }
   ],

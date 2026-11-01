@@ -129,15 +129,6 @@
       ]
     },
     {
-      "id": "judicial_watch",
-      "type": "org",
-      "group": "media_advocacy",
-      "label": "Judicial Watch (US conservative watchdog)",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-      ]
-    },
-    {
       "id": "juri_libe",
       "type": "org",
       "group": "eu_body",
@@ -194,25 +185,6 @@
       "confidence": "fact",
       "sources": [
         "https://wolnesady.org/en/"
-      ]
-    },
-    {
-      "source": "judicial_watch",
-      "target": "free_courts",
-      "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
-      "confidence": "fact",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
-      ],
-      "date": "2026-03-09"
-    },
-    {
-      "source": "judicial_watch",
-      "target": "free_courts",
-      "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
-      "confidence": "alleged",
-      "sources": [
-        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
       ]
     },
     {
@@ -755,5 +727,41 @@
       "result": "documented: funded Solidarity, Nicaragua 1990 opposition, Venezuelan groups whose leaders backed 2002 coup; banned by Russia, sanctioned by China; directing coups is unproven; no NED money traced to the 2026 TK move",
       "label": "alleged"
     }
-  ]
+  ],
+  "reported_claims": [
+    {
+      "about": "free_courts",
+      "reported_by": "Judicial Watch",
+      "relation": "FOIA suit vs US State Dept over grants to Free Courts and others (No. 1:26-cv-00346); frames them as 'left-wing NGOs'",
+      "confidence": "fact",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ],
+      "date": "2026-03-09"
+    },
+    {
+      "about": "free_courts",
+      "reported_by": "Judicial Watch",
+      "relation": "implied US-government funding of Free Courts; the suit seeks records, no grant amount shown",
+      "confidence": "alleged",
+      "sources": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+      ]
+    }
+  ],
+  "reporters": {
+    "judicial_watch": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "judicial_watch",
+        "type": "org",
+        "group": "media_advocacy",
+        "label": "Judicial Watch (US conservative watchdog)",
+        "sources": [
+          "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+        ]
+      }
+    }
+  }
 }

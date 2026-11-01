@@ -90,24 +90,6 @@
       ]
     },
     {
-      "id": "brussels_signal",
-      "type": "org",
-      "group": "media",
-      "label": "Brussels Signal (conservative EU outlet)",
-      "sources": [
-        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-      ]
-    },
-    {
-      "id": "datarepublican",
-      "type": "person",
-      "group": "commentator",
-      "label": "DataRepublican (pseudonymous X researcher)",
-      "sources": [
-        "https://threadreaderapp.com/scrolly/1889172190282821690"
-      ]
-    },
-    {
       "id": "carothers",
       "type": "person",
       "group": "analyst",
@@ -224,17 +206,6 @@
       "date": "2026-01"
     },
     {
-      "source": "brussels_signal",
-      "target": "agoraeu",
-      "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
-      "confidence": "alleged",
-      "sources": [
-        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
-      ],
-      "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked"
-    },
-    {
       "source": "agoraeu",
       "target": "free_courts",
       "relation": "any EU money (CERV/AgoraEU) to Free Courts, OKO.press or Batory: not yet checked",
@@ -244,18 +215,6 @@
       ],
       "added_by": "lead_oped_handover",
       "verified": "source cited in op-ed; not independently re-checked"
-    },
-    {
-      "source": "datarepublican",
-      "target": "ned",
-      "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
-      "confidence": "alleged",
-      "sources": [
-        "https://threadreaderapp.com/scrolly/1889172190282821690"
-      ],
-      "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked",
-      "date": "2025-02-11"
     },
     {
       "source": "carothers",
@@ -335,5 +294,56 @@
       "result": "not found",
       "label": "no_link"
     }
-  ]
+  ],
+  "reported_claims": [
+    {
+      "about": "agoraeu",
+      "reported_by": "Brussels Signal",
+      "relation": "frames it as a 'bailout' of Europe's NGO sector after USAID cuts (commentary)",
+      "confidence": "alleged",
+      "sources": [
+        "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+      ],
+      "verified": "source cited in op-ed; not independently re-checked"
+    },
+    {
+      "about": "ned",
+      "reported_by": "DataRepublican",
+      "relation": "NED, IRI, NDI, IFES, CIPE, Internews, Solidarity Center 'function as an off-the-books shadow U.S. government' (author's view)",
+      "confidence": "alleged",
+      "sources": [
+        "https://threadreaderapp.com/scrolly/1889172190282821690"
+      ],
+      "date": "2025-02-11",
+      "verified": "source cited in op-ed; not independently re-checked"
+    }
+  ],
+  "reporters": {
+    "brussels_signal": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "brussels_signal",
+        "type": "org",
+        "group": "media",
+        "label": "Brussels Signal (conservative EU outlet)",
+        "sources": [
+          "https://brusselssignal.eu/2026/01/how-brussels-is-moving-to-bailout-europes-left-wing-ngo-industry"
+        ]
+      }
+    },
+    "datarepublican": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "datarepublican",
+        "type": "person",
+        "group": "commentator",
+        "label": "DataRepublican (pseudonymous X researcher)",
+        "sources": [
+          "https://threadreaderapp.com/scrolly/1889172190282821690"
+        ]
+      }
+    }
+  }
 }

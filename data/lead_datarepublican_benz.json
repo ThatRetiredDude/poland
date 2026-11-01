@@ -6,31 +6,6 @@
  },
  "nodes": [
   {
-   "id": "benz",
-   "type": "person",
-   "group": "commentator",
-   "label": "Mike Benz (Foundation for Freedom Online)",
-   "role": "Former corporate lawyer; speechwriter at HUD and in the first Trump White House; briefly deputy assistant secretary for international communications and information policy at the State Department (sources differ on dates: 2018 or Nov 2020-Jan 2021). Founded Foundation for Freedom Online in April 2022. Hired by OMB director Vought as a special government employee to investigate USAID records (Dec 2025). MIT Technology Review found he was paid $530,000 by one organisation in 2023-24.",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Mike_Benz",
-    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-    "https://usaidalumni.org/wp-content/uploads/2025/12/USAID-Hired-the-Right-Wing-Influencer-Responsible-for-Its-Decimation.-By-Isaac-Stanley-Becker-The-Atlantic-9-Dec-2025.pdf"
-   ],
-   "us_layer": true
-  },
-  {
-   "id": "ffo",
-   "type": "org",
-   "group": "media_advocacy",
-   "label": "Foundation for Freedom Online (FFO)",
-   "role": "Benz's 'free speech watchdog', launched April 2022; per MIT Technology Review not registered as a nonprofit; an early About page called it a project of Empower Oversight",
-   "sources": [
-    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-    "https://en.wikipedia.org/wiki/Mike_Benz"
-   ],
-   "us_layer": true
-  },
-  {
    "id": "internews",
    "type": "org",
    "group": "ngo",
@@ -131,30 +106,12 @@
    "us_layer": true
   },
   {
-   "id": "us_supreme_court",
-   "type": "org",
-   "group": "us_court",
-   "label": "US Supreme Court",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Mike_Benz"
-   ]
-  },
-  {
    "id": "rubio",
    "type": "person",
    "group": "us_gov",
    "label": "Marco Rubio (US Secretary of State)",
    "sources": [
     "https://www.globalsecurity.org/intell/library/news/2025/intell-250416-state01.htm"
-   ]
-  },
-  {
-   "id": "doge",
-   "type": "org",
-   "group": "us_gov",
-   "label": "DOGE (Department of Government Efficiency)",
-   "sources": [
-    "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone"
    ]
   },
   {
@@ -232,15 +189,6 @@
    "label": "Krytyka Polityczna",
    "sources": [
     "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation/",
-    "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
-   ]
-  },
-  {
-   "id": "gazeta_polska",
-   "type": "org",
-   "group": "media",
-   "label": "Gazeta Polska (conservative weekly)",
-   "sources": [
     "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
    ]
   },
@@ -434,60 +382,7 @@
  ],
  "edges": [
   {
-   "source": "benz",
-   "target": "ffo",
-   "relation": "Founder and executive director of Foundation for Freedom Online (April 2022)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-    "https://en.wikipedia.org/wiki/Mike_Benz"
-   ],
-   "date": "2022-04"
-  },
-  {
-   "source": "benz",
-   "target": "usaid",
-   "relation": "Hired as a special government employee (by OMB director Vought) to investigate USAID from the inside, after campaigning to shut it; The Atlantic, 9 Dec 2025",
-   "confidence": "fact",
-   "sources": [
-    "https://usaidalumni.org/wp-content/uploads/2025/12/USAID-Hired-the-Right-Wing-Influencer-Responsible-for-Its-Decimation.-By-Isaac-Stanley-Becker-The-Atlantic-9-Dec-2025.pdf"
-   ],
-   "date": "2025-12",
-   "verified": "news report citing officials"
-  },
-  {
-   "source": "benz",
-   "target": "rubio",
-   "relation": "Rubio, in a video interview with Benz on closing R/FIMI: 'We ended government-sponsored censorship in the United States through the State Department'",
-   "confidence": "fact",
-   "sources": [
-    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/"
-   ],
-   "date": "2025-04"
-  },
-  {
-   "source": "datarepublican",
-   "target": "doge",
-   "relation": "Jennica Pounds (DataRepublican) flagged a $229m Global Refuge payment to DOGE on 21 Jan 2025; Musk replied 'Noted'; she says DOGE staff messaged her. Rolling Stone suggested she advised Musk directly; she disputes it",
-   "confidence": "fact",
-   "sources": [
-    "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone"
-   ],
-   "date": "2025-01",
-   "verified": "news report; the influence claim itself is disputed"
-  },
-  {
-   "source": "datarepublican",
-   "target": "benz",
-   "relation": "DataRepublican's NED thread defers to Benz: '@MikeBenzCyber is the expert on this topic'",
-   "confidence": "fact",
-   "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
-   ],
-   "date": "2025-02-11"
-  },
-  {
-   "source": "datarepublican",
+   "source": "usaid",
    "target": "cepps",
    "relation": "Thread claim: CEPPS has 'over half a billion dollars in active spending grants and $160+ million in annual contributions, mostly USAID'",
    "confidence": "fact",
@@ -557,7 +452,7 @@
    "lead_origin": "DataRepublican"
   },
   {
-   "source": "datarepublican",
+   "source": "usaid",
    "target": "internews",
    "relation": "Thread claim: Internews has '$94.5 million in active grants from USAID and the Department of State'; its 990 shows '$93.9 million in taxpayer funding, out of a $124 million total budget'",
    "confidence": "fact",
@@ -584,7 +479,7 @@
    "amount": "USD 94,501,096"
   },
   {
-   "source": "benz",
+   "source": "usaid",
    "target": "internews",
    "relation": "FFO claim: Internews received 'roughly $400 million' from USAID since the early 2000s; a Bush-era estimate put government sources at about 80% of its funding",
    "confidence": "alleged",
@@ -593,18 +488,6 @@
    ],
    "lead_origin": "Mike Benz (FFO)",
    "verified": "cumulative total not checked; active awards alone are $94.5m (USAspending)"
-  },
-  {
-   "source": "benz",
-   "target": "internews",
-   "relation": "FFO: Internews CEO Bourgault backed advertiser 'exclusion lists' at the WEF in 2025 (ad blacklists = censorship, in FFO's view)",
-   "confidence": "alleged",
-   "sources": [
-    "https://foundationforfreedomonline.com/internews-backed-by-400m-usaid-war-chest-pushes-ad-blacklists/"
-   ],
-   "date": "2026-07-09",
-   "lead_origin": "Mike Benz (FFO)",
-   "verified": "quote not linked to a WEF transcript"
   },
   {
    "source": "gec",
@@ -631,18 +514,6 @@
    "verified": "amount not found"
   },
   {
-   "source": "benz",
-   "target": "gec",
-   "relation": "Benz/FFO: the GEC was part of a 'censorship industrial complex' (e.g. the Cat Park game was meant to 'subliminally train young people' to see corruption claims as fake news); House Republicans used FFO reports; Congress let the GEC lapse end-2024",
-   "confidence": "alleged",
-   "sources": [
-    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/"
-   ],
-   "date": "2023-2024",
-   "lead_origin": "Mike Benz",
-   "verified": "The game's developer: 'there were no political goals at all'"
-  },
-  {
    "source": "us_congress",
    "target": "gec",
    "relation": "Congress did not renew the GEC's mandate; it shut on 23 Dec 2024 and State reorganised the staff as R/FIMI (Counter Foreign Information Manipulation and Interference)",
@@ -663,28 +534,6 @@
    "date": "2025-04-16"
   },
   {
-   "source": "benz",
-   "target": "sio_eip",
-   "relation": "Benz claim: the Election Integrity Partnership flagged 22 million messages for platforms in 2020; a Murthy v. Missouri lower-court injunction repeated it",
-   "confidence": "alleged",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Mike_Benz"
-   ],
-   "date": "2023",
-   "lead_origin": "Mike Benz",
-   "verified": "the figure is disputed (Techdirt); SIO wound down in 2024"
-  },
-  {
-   "source": "benz",
-   "target": "us_supreme_court",
-   "relation": "Filed an amicus brief in Murthy v. Missouri (20 Sep 2023). The Court ruled 6-3 (June 2024) that the challengers lacked standing; Justice Barrett said lower courts relied on 'clearly erroneous' findings",
-   "confidence": "fact",
-   "sources": [
-    "https://en.wikipedia.org/wiki/Mike_Benz"
-   ],
-   "date": "2023-09/2024-06"
-  },
-  {
    "source": "trump_admin",
    "target": "sio_eip",
    "relation": "EO 'Restoring Freedom of Speech and Ending Federal Censorship' signed 20 Jan 2025; CISA's mis/disinformation work, the FBI Foreign Influence Task Force and USAID were then cut back or closed",
@@ -693,18 +542,6 @@
     "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/"
    ],
    "date": "2025-01-20"
-  },
-  {
-   "source": "benz",
-   "target": "atlantic_council",
-   "relation": "Benz on Tucker Carlson (2024): Germany's NetzDG came about 'under pressure from the Atlantic Council', whose board he says is dominated by former CIA directors",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://www.kettner-edelmetalle.de/news/enthullungen-bei-tucker-carlson-ist-das-deutsche-netzdg-ein-produkt-der-cia-einflussnahme-02-03-2024"
-   ],
-   "date": "2024-03",
-   "lead_origin": "Mike Benz",
-   "verified": "no document cited; source is a secondary write-up"
   },
   {
    "source": "atlantic_council",
@@ -741,7 +578,7 @@
    "date": "2025"
   },
   {
-   "source": "benz",
+   "source": "usaid",
    "target": "occrp",
    "relation": "Benz (Rogan, Feb 2025): USAID funds OCCRP, which adjusts work plans 'to impose political changes'. Mediapart/Drop Site (Dec 2024): the US gave about half OCCRP's budget and could veto key hires",
    "confidence": "alleged",
@@ -801,7 +638,7 @@
    "date": "2026-08-04"
   },
   {
-   "source": "benz",
+   "source": "usaid",
    "target": "pis",
    "relation": "Benz claim (Rogan #2272, Feb 2025): 'USAID advises the Polish government on which citizens to arrest to maintain power'",
    "confidence": "alleged",
@@ -814,7 +651,7 @@
    "verified": "no USAID document on this found; the USAID Poland rule-of-law programme found is $5k-25k civic-education grants (Dexis APS 2023-001)"
   },
   {
-   "source": "benz",
+   "source": "usaid",
    "target": "tusk",
    "relation": "Benz claim (Rogan #2272, Feb 2025): USAID and NED backed Donald Tusk against PiS",
    "confidence": "alleged",
@@ -827,8 +664,21 @@
    "verified": "no payment from USAID or NED to Tusk found"
   },
   {
-   "source": "benz",
-   "target": "ned",
+   "source": "ned",
+   "target": "tusk",
+   "relation": "Benz claim (Rogan #2272, Feb 2025): USAID and NED backed Donald Tusk against PiS",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
+    "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
+   ],
+   "date": "2025-02",
+   "lead_origin": "Mike Benz",
+   "verified": "no payment from USAID or NED to Tusk found"
+  },
+  {
+   "source": "ned",
+   "target": "pis",
    "relation": "Benz claim (Rogan #2272, Feb 2025): NED pressed for the arrest of PiS members to 'stamp out populism'",
    "confidence": "alleged",
    "sources": [
@@ -941,7 +791,7 @@
    "verified": "unsourced"
   },
   {
-   "source": "gazeta_polska",
+   "source": "usaid",
    "target": "tusk",
    "relation": "Gazeta Polska: 'the PiS government was toppled with money from abroad' (USAID and NED); cites a 'confidential' USAID document advising weakening TV Republika, not published",
    "confidence": "unproven_conspiracy",
@@ -953,18 +803,16 @@
    "verified": "no documents shown; the Polish government says it kept no full record of US grants"
   },
   {
-   "source": "datarepublican",
-   "target": "rad_drg",
-   "relation": "Published the 'Democracy Files / Illegitimacy Playbook' (from 20 Oct 2026): recordings and documents (she says 312 GB) of calls in which ex-USAID staff plan how to judge the federal government 'illegitimate' and respond",
-   "confidence": "fact",
+   "source": "ned",
+   "target": "tusk",
+   "relation": "Gazeta Polska: 'the PiS government was toppled with money from abroad' (USAID and NED); cites a 'confidential' USAID document advising weakening TV Republika, not published",
+   "confidence": "unproven_conspiracy",
    "sources": [
-    "https://x.com/DataRepublican/status/2113256798878916775",
-    "https://threadreaderapp.com/user/DataRepublican",
-    "https://dailycaller.com/2026/10/25/ex-usaid-officials-military-brass-discuss-extra-constitutional-plans-america-datarepublican-report/"
+    "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
    ],
-   "date": "2026-10",
-   "lead_origin": "DataRepublican",
-   "verified": "that she published them is fact; what the recordings show is labelled on the edges below"
+   "date": "2025-02",
+   "lead_origin": "Gazeta Polska",
+   "verified": "no documents shown; the Polish government says it kept no full record of US grants"
   },
   {
    "source": "reiff",
@@ -1023,7 +871,8 @@
     "https://dailycaller.com/2026/10/25/ex-usaid-officials-military-brass-discuss-extra-constitutional-plans-america-datarepublican-report/"
    ],
    "date": "2026-07-09",
-   "lead_origin": "DataRepublican"
+   "lead_origin": "DataRepublican",
+   "note": "Spoke while on a Reiff-hosted call (9 Jul 2026)"
   },
   {
    "source": "ndi_iri",
@@ -1061,42 +910,6 @@
    "verified": "no money flows or filings cited"
   },
   {
-   "source": "datarepublican",
-   "target": "rad_drg",
-   "relation": "Framing: under the 'illegitimacy criteria' governors 'do not have to explicitly sign on to the pact to play their role in the coup'; foreign officials would 'provide cover'",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://threadreaderapp.com/user/DataRepublican"
-   ],
-   "date": "2026-10",
-   "lead_origin": "DataRepublican",
-   "verified": "the 'coup' reading is hers; no source shows an agreed plan or funding"
-  },
-  {
-   "source": "benz",
-   "target": "rad_drg",
-   "relation": "Benz (stream, cited by DataRepublican): DRG members 'come from the CIA coup parts of USAID'",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://threadreaderapp.com/user/DataRepublican"
-   ],
-   "date": "2026-10",
-   "lead_origin": "Mike Benz",
-   "verified": "no source given"
-  },
-  {
-   "source": "datarepublican",
-   "target": "votevets",
-   "relation": "Claims VoteVets' 2025 filing shows former chair Jon Soltz paid $437,000 for 30 hrs/week while current chair Paul Eaton got $43,000; Vet Voice Foundation paid Soltz $181k",
-   "confidence": "alleged",
-   "sources": [
-    "https://threadreaderapp.com/user/DataRepublican"
-   ],
-   "date": "2026-09-03",
-   "lead_origin": "DataRepublican",
-   "verified": "screenshots only; 990 not checked here"
-  },
-  {
    "source": "obama_foundation",
    "target": "rudzinska_bluszcz",
    "relation": "Alumna of the Obama Foundation leadership programme; Obama held a published conversation with her and two Hungarian alumni on fighting 'the rising wave of authoritarianism' (Oct 2025). She was Poland's deputy justice minister 2023-25",
@@ -1106,17 +919,6 @@
     "https://dailycaller.com/2025/10/16/obama-foundation-autocracy-poland-hungary-viktor-orban/"
    ],
    "date": "2025-10"
-  },
-  {
-   "source": "benz",
-   "target": "ned",
-   "relation": "Benz on Bannon's War Room (30 Jul 2025): the 'global rise of populist parties' became the 'new global menace' and NED 'descended like a pack of vultures' on populist movements",
-   "confidence": "alleged",
-   "sources": [
-    "https://dailycallernewsfoundation.org/2025/07/30/mike-benz-explains-why-cia-considers-populist-movements-a-global-menace-and-how-house-republicans-dont-help-matters/"
-   ],
-   "date": "2025-07-30",
-   "lead_origin": "Mike Benz"
   },
   {
    "source": "usaid",
@@ -1308,11 +1110,12 @@
     "https://polskieradio.pl/395/7784/Artykul/3477195,update-former-us-president-barack-obama-to-visit-poland",
     "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
    ],
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "note": "Spoke while at Impact'25 (keynote conversation with Timothy Snyder, days before the 18 May 2025 election)"
   },
   {
-   "source": "benz",
-   "target": "obama",
+   "source": "obama",
+   "target": "pis",
    "relation": "Benz (May 2025): Obama, Alex Soros and 'globalist operatives' came to Poland days before the election to 'stamp out populism'; the same 'rule of law' model USAID used in Romania (via the ABA) was used against Poland's populists",
    "confidence": "alleged",
    "sources": [
@@ -1321,18 +1124,6 @@
    "date": "2025-05-16",
    "lead_origin": "Mike Benz",
    "verified": "the Obama visit is fact (Impact'25, Poznań); its purpose as stated by Benz is his claim"
-  },
-  {
-   "source": "benz",
-   "target": "alex_soros",
-   "relation": "Benz claim: Alex Soros was in Poland days before the May 2025 election",
-   "confidence": "alleged",
-   "sources": [
-    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
-   ],
-   "date": "2025-05-16",
-   "lead_origin": "Mike Benz",
-   "verified": "no source for the visit found"
   },
   {
    "source": "alex_soros",
@@ -1344,8 +1135,8 @@
    ]
   },
   {
-   "source": "benz",
-   "target": "eisen",
+   "source": "eisen",
+   "target": "pis",
    "relation": "Benz: Eisen is 'on tape bragging about him pursuing legal action inside of Poland against the Law and Justice Party'",
    "confidence": "alleged",
    "sources": [
@@ -1368,19 +1159,7 @@
    "verified": "her inference; no document shown in the text read"
   },
   {
-   "source": "benz",
-   "target": "ned",
-   "relation": "Benz: NED is a CIA creation, set up to fund groups the CIA used to fund directly, and 'the CIA gets a copy of every grant'",
-   "confidence": "unproven_conspiracy",
-   "sources": [
-    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
-   ],
-   "date": "2025-05-16",
-   "lead_origin": "Mike Benz",
-   "verified": "the founding history is public (co-founder Weinstein, 1991: 'A lot of what we do today was done covertly 25 years ago by the CIA'); no evidence shown that the CIA receives every grant"
-  },
-  {
-   "source": "benz",
+   "source": "ned",
    "target": "pis",
    "relation": "Benz on Rogan #2272 (about 3:15:00, machine transcript): 'it's the same thing with Poland. They want to achieve stability, democratic stability, so that he can't rise... It was a razor close election. And remember... we pull a lot of tricks'; points to NED and the Solidarity Center",
    "confidence": "alleged",
@@ -1390,69 +1169,6 @@
    "date": "2025-02-12",
    "lead_origin": "Mike Benz",
    "verified": "quote from an automatic transcript; check against the audio"
-  }
- ],
- "checked_no_link": [
-  {
-   "subject": "the 8 judges",
-   "searched_for": "any mention of Markiewicz, Taborowski, Korwin-Piotrowska, Dziurda, Szostek, Bentkowska, Patyra or Berek in Benz or DataRepublican posts read, or USAID/NED/State money to them in the records they cite",
-   "result": "none found",
-   "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690",
-    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2"
-   ]
-  },
-  {
-   "subject": "tusk",
-   "searched_for": "US government money to Tusk (Benz says USAID/NED 'backed' him)",
-   "result": "no payment found; the claim is political support, not money. Earlier sweeps of NED/OSF/USAID records also found nothing to Tusk",
-   "sources": [
-    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
-    "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
-   ]
-  },
-  {
-   "subject": "internews",
-   "searched_for": "named Polish Internews grantee or project",
-   "result": "Internews says it 'currently supports independent media across ... Poland' but names no partner or amount",
-   "sources": [
-    "https://www.internews.org/what-we-do"
-   ]
-  },
-  {
-   "subject": "occrp",
-   "searched_for": "named Polish OCCRP partner",
-   "result": "OCCRP says its cut sub-grants hurt groups 'in Hungary, Poland, and Macedonia' but names none",
-   "sources": [
-    "https://www.occrp.org/en/feature/with-a-strike-of-a-pen-trumps-aid-cuts-threaten-independent-journalism-around-the-world"
-   ]
-  },
-  {
-   "subject": "datarepublican",
-   "searched_for": "any DataRepublican post on Poland",
-   "result": "none found; her NED thread and later threads (to Oct 2026) do not mention Poland",
-   "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690",
-    "https://threadreaderapp.com/user/DataRepublican"
-   ]
-  },
-  {
-   "subject": "alex_soros",
-   "searched_for": "Alex Soros visit to Poland before the May 2025 election (Benz)",
-   "result": "no source for the visit found. Obama's visit is documented (Impact'25, Poznań, 14-15 May 2025, fact edge)",
-   "sources": [
-    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/",
-    "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
-   ]
-  },
-  {
-   "subject": "rad_drg",
-   "searched_for": "who funds Renew American Democracy / DRG / Renew to Thrive / NSL4A; any Poland link",
-   "result": "no funder, grant or amount in any source read; Poland not mentioned (Serbia, Slovakia, Brazil, Guatemala are)",
-   "sources": [
-    "https://dailycaller.com/2026/10/25/ex-usaid-officials-military-brass-discuss-extra-constitutional-plans-america-datarepublican-report/",
-    "https://threadreaderapp.com/user/DataRepublican"
-   ]
   }
  ],
  "held_claims": [
@@ -1552,15 +1268,284 @@
    "label": "speculation"
   }
  ],
- "node_updates": {
-  "datarepublican": {
-   "role": "Jennica Pounds, Utah software engineer (ex-Amazon, eBay, Snap, Upstart); posted anonymously until March 2025; runs datarepublican.com donor/NGO 'reverse index' tools",
-   "sources_add": [
-    "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone",
-    "https://www.sltrib.com/news/2025/03/09/utah-software-engineer-is-giving"
+ "node_updates": {},
+ "reported_claims": [
+  {
+   "about": "internews",
+   "reported_by": "Mike Benz (FFO)",
+   "relation": "FFO: Internews CEO Bourgault backed advertiser 'exclusion lists' at the WEF in 2025 (ad blacklists = censorship, in FFO's view)",
+   "confidence": "alleged",
+   "sources": [
+    "https://foundationforfreedomonline.com/internews-backed-by-400m-usaid-war-chest-pushes-ad-blacklists/"
    ],
-   "us_layer": true,
-   "site_tools": "datarepublican.com: 15 free tools (USAspending grant search, nonprofit officer search, charity Sankey/graph, NED Journal of Democracy explorer that its own page says uses AI summaries that may be wrong, EA explorer). Her code and data are open on GitHub (github.com/twinforces/datarepublican); the award_search and ned data files were read directly for this layer."
+   "date": "2026-07-09",
+   "verified": "quote not linked to a WEF transcript",
+   "lead_origin": "Mike Benz (FFO)"
+  },
+  {
+   "about": "gec",
+   "reported_by": "Mike Benz",
+   "relation": "Benz/FFO: the GEC was part of a 'censorship industrial complex' (e.g. the Cat Park game was meant to 'subliminally train young people' to see corruption claims as fake news); House Republicans used FFO reports; Congress let the GEC lapse end-2024",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/"
+   ],
+   "date": "2023-2024",
+   "verified": "The game's developer: 'there were no political goals at all'",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "sio_eip",
+   "reported_by": "Mike Benz",
+   "relation": "Benz claim: the Election Integrity Partnership flagged 22 million messages for platforms in 2020; a Murthy v. Missouri lower-court injunction repeated it",
+   "confidence": "alleged",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mike_Benz"
+   ],
+   "date": "2023",
+   "verified": "the figure is disputed (Techdirt); SIO wound down in 2024",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "atlantic_council",
+   "reported_by": "Mike Benz",
+   "relation": "Benz on Tucker Carlson (2024): Germany's NetzDG came about 'under pressure from the Atlantic Council', whose board he says is dominated by former CIA directors",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://www.kettner-edelmetalle.de/news/enthullungen-bei-tucker-carlson-ist-das-deutsche-netzdg-ein-produkt-der-cia-einflussnahme-02-03-2024"
+   ],
+   "date": "2024-03",
+   "verified": "no document cited; source is a secondary write-up",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "rad_drg",
+   "reported_by": "DataRepublican",
+   "relation": "Published the 'Democracy Files / Illegitimacy Playbook' (from 20 Oct 2026): recordings and documents (she says 312 GB) of calls in which ex-USAID staff plan how to judge the federal government 'illegitimate' and respond",
+   "confidence": "fact",
+   "sources": [
+    "https://x.com/DataRepublican/status/2113256798878916775",
+    "https://threadreaderapp.com/user/DataRepublican",
+    "https://dailycaller.com/2026/10/25/ex-usaid-officials-military-brass-discuss-extra-constitutional-plans-america-datarepublican-report/"
+   ],
+   "date": "2026-10",
+   "verified": "that she published them is fact; what the recordings show is labelled on the edges below",
+   "lead_origin": "DataRepublican"
+  },
+  {
+   "about": "rad_drg",
+   "reported_by": "DataRepublican",
+   "relation": "Framing: under the 'illegitimacy criteria' governors 'do not have to explicitly sign on to the pact to play their role in the coup'; foreign officials would 'provide cover'",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://threadreaderapp.com/user/DataRepublican"
+   ],
+   "date": "2026-10",
+   "verified": "the 'coup' reading is hers; no source shows an agreed plan or funding",
+   "lead_origin": "DataRepublican"
+  },
+  {
+   "about": "rad_drg",
+   "reported_by": "Mike Benz",
+   "relation": "Benz (stream, cited by DataRepublican): DRG members 'come from the CIA coup parts of USAID'",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://threadreaderapp.com/user/DataRepublican"
+   ],
+   "date": "2026-10",
+   "verified": "no source given",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "votevets",
+   "reported_by": "DataRepublican",
+   "relation": "Claims VoteVets' 2025 filing shows former chair Jon Soltz paid $437,000 for 30 hrs/week while current chair Paul Eaton got $43,000; Vet Voice Foundation paid Soltz $181k",
+   "confidence": "alleged",
+   "sources": [
+    "https://threadreaderapp.com/user/DataRepublican"
+   ],
+   "date": "2026-09-03",
+   "verified": "screenshots only; 990 not checked here",
+   "lead_origin": "DataRepublican"
+  },
+  {
+   "about": "ned",
+   "reported_by": "Mike Benz",
+   "relation": "Benz on Bannon's War Room (30 Jul 2025): the 'global rise of populist parties' became the 'new global menace' and NED 'descended like a pack of vultures' on populist movements",
+   "confidence": "alleged",
+   "sources": [
+    "https://dailycallernewsfoundation.org/2025/07/30/mike-benz-explains-why-cia-considers-populist-movements-a-global-menace-and-how-house-republicans-dont-help-matters/"
+   ],
+   "date": "2025-07-30",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "alex_soros",
+   "reported_by": "Mike Benz",
+   "relation": "Benz claim: Alex Soros was in Poland days before the May 2025 election",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "verified": "no source for the visit found",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "about": "ned",
+   "reported_by": "Mike Benz",
+   "relation": "Benz: NED is a CIA creation, set up to fund groups the CIA used to fund directly, and 'the CIA gets a copy of every grant'",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "verified": "the founding history is public (co-founder Weinstein, 1991: 'A lot of what we do today was done covertly 25 years ago by the CIA'); no evidence shown that the CIA receives every grant",
+   "lead_origin": "Mike Benz"
+  }
+ ],
+ "reporters": {
+  "benz": {
+   "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+   "actions": [
+    {
+     "source": "benz",
+     "target": "ffo",
+     "relation": "Founder and executive director of Foundation for Freedom Online (April 2022)",
+     "confidence": "fact",
+     "sources": [
+      "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "https://en.wikipedia.org/wiki/Mike_Benz"
+     ],
+     "date": "2022-04"
+    },
+    {
+     "source": "benz",
+     "target": "usaid",
+     "relation": "Hired as a special government employee (by OMB director Vought) to investigate USAID from the inside, after campaigning to shut it; The Atlantic, 9 Dec 2025",
+     "confidence": "fact",
+     "sources": [
+      "https://usaidalumni.org/wp-content/uploads/2025/12/USAID-Hired-the-Right-Wing-Influencer-Responsible-for-Its-Decimation.-By-Isaac-Stanley-Becker-The-Atlantic-9-Dec-2025.pdf"
+     ],
+     "date": "2025-12",
+     "verified": "news report citing officials"
+    },
+    {
+     "source": "benz",
+     "target": "rubio",
+     "relation": "Rubio, in a video interview with Benz on closing R/FIMI: 'We ended government-sponsored censorship in the United States through the State Department'",
+     "confidence": "fact",
+     "sources": [
+      "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/"
+     ],
+     "date": "2025-04"
+    },
+    {
+     "source": "benz",
+     "target": "us_supreme_court",
+     "relation": "Filed an amicus brief in Murthy v. Missouri (20 Sep 2023). The Court ruled 6-3 (June 2024) that the challengers lacked standing; Justice Barrett said lower courts relied on 'clearly erroneous' findings",
+     "confidence": "fact",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Benz"
+     ],
+     "date": "2023-09/2024-06"
+    }
+   ],
+   "node": {
+    "id": "benz",
+    "type": "person",
+    "group": "commentator",
+    "label": "Mike Benz (Foundation for Freedom Online)",
+    "role": "Former corporate lawyer; speechwriter at HUD and in the first Trump White House; briefly deputy assistant secretary for international communications and information policy at the State Department (sources differ on dates: 2018 or Nov 2020-Jan 2021). Founded Foundation for Freedom Online in April 2022. Hired by OMB director Vought as a special government employee to investigate USAID records (Dec 2025). MIT Technology Review found he was paid $530,000 by one organisation in 2023-24.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Mike_Benz",
+     "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+     "https://usaidalumni.org/wp-content/uploads/2025/12/USAID-Hired-the-Right-Wing-Influencer-Responsible-for-Its-Decimation.-By-Isaac-Stanley-Becker-The-Atlantic-9-Dec-2025.pdf"
+    ],
+    "us_layer": true
+   },
+   "nodes": [
+    {
+     "id": "ffo",
+     "type": "org",
+     "group": "media_advocacy",
+     "label": "Foundation for Freedom Online (FFO)",
+     "role": "Benz's 'free speech watchdog', launched April 2022; per MIT Technology Review not registered as a nonprofit; an early About page called it a project of Empower Oversight",
+     "sources": [
+      "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "https://en.wikipedia.org/wiki/Mike_Benz"
+     ],
+     "us_layer": true
+    },
+    {
+     "id": "us_supreme_court",
+     "type": "org",
+     "group": "us_court",
+     "label": "US Supreme Court",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Mike_Benz"
+     ]
+    }
+   ]
+  },
+  "datarepublican": {
+   "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+   "actions": [
+    {
+     "source": "datarepublican",
+     "target": "doge",
+     "relation": "Jennica Pounds (DataRepublican) flagged a $229m Global Refuge payment to DOGE on 21 Jan 2025; Musk replied 'Noted'; she says DOGE staff messaged her. Rolling Stone suggested she advised Musk directly; she disputes it",
+     "confidence": "fact",
+     "sources": [
+      "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone"
+     ],
+     "date": "2025-01",
+     "verified": "news report; the influence claim itself is disputed"
+    },
+    {
+     "source": "datarepublican",
+     "target": "benz",
+     "relation": "DataRepublican's NED thread defers to Benz: '@MikeBenzCyber is the expert on this topic'",
+     "confidence": "fact",
+     "sources": [
+      "https://threadreaderapp.com/scrolly/1889172190282821690"
+     ],
+     "date": "2025-02-11"
+    }
+   ],
+   "node_update": {
+    "role": "Jennica Pounds, Utah software engineer (ex-Amazon, eBay, Snap, Upstart); posted anonymously until March 2025; runs datarepublican.com donor/NGO 'reverse index' tools",
+    "sources_add": [
+     "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone",
+     "https://www.sltrib.com/news/2025/03/09/utah-software-engineer-is-giving"
+    ],
+    "us_layer": true,
+    "site_tools": "datarepublican.com: 15 free tools (USAspending grant search, nonprofit officer search, charity Sankey/graph, NED Journal of Democracy explorer that its own page says uses AI summaries that may be wrong, EA explorer). Her code and data are open on GitHub (github.com/twinforces/datarepublican); the award_search and ned data files were read directly for this layer."
+   },
+   "nodes": [
+    {
+     "id": "doge",
+     "type": "org",
+     "group": "us_gov",
+     "label": "DOGE (Department of Government Efficiency)",
+     "sources": [
+      "https://www.deseret.com/politics/2025/03/11/datarepublican-jennica-pounds-uses-ai-to-help-doge-doxxed-by-rolling-stone"
+     ]
+    }
+   ]
+  },
+  "gazeta_polska": {
+   "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+   "actions": [],
+   "node": {
+    "id": "gazeta_polska",
+    "type": "org",
+    "group": "media",
+    "label": "Gazeta Polska (conservative weekly)",
+    "sources": [
+     "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
+    ]
+   }
   }
  }
 }

@@ -542,7 +542,8 @@
    "sources": [
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
    ],
-   "added_by": "grok-v1 review"
+   "added_by": "grok-v1 review",
+   "note": "Wrote about dismantling an 'illiberal democracy' and holding PiS to account while in NED's Journal of Democracy (Dec 2023)"
   },
   {
    "source": "wigura",
@@ -552,7 +553,8 @@
    "sources": [
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
    ],
-   "added_by": "grok-v1 review"
+   "added_by": "grok-v1 review",
+   "note": "Wrote about dismantling an 'illiberal democracy' and holding PiS to account while in NED's Journal of Democracy (Dec 2023)"
   },
   {
    "source": "ned",
@@ -568,14 +570,15 @@
    "added_by": "grok-v1 review"
   },
   {
-   "source": "kultura_liberalna",
-   "target": "wawrykiewicz",
-   "relation": "Dec 2023 YouTube interview of Wawrykiewicz by a Kultura Liberalna representative (per Gazeta Polska)",
+   "source": "wawrykiewicz",
+   "target": "kultura_liberalna",
+   "relation": "Spoke in a Dec 2023 YouTube interview by a Kultura Liberalna representative (per Gazeta Polska; topic not given)",
    "confidence": "alleged",
    "sources": [
     "https://niezalezna.pl/polska/grzegorz-wierzcholowski-w-gazecie-polskiej-tak-obalano-rzad-pis-za-pieniadze-z-zagranicy/537943"
    ],
-   "added_by": "grok-v1 review"
+   "added_by": "grok-v1 review",
+   "note": "Spoke while on this platform: Kultura Liberalna's YouTube channel"
   },
   {
    "source": "markiewicz",

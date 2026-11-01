@@ -314,7 +314,7 @@ function cssVar(n) { return getComputedStyle(document.documentElement).getProper
 function nodeColor(d) { return cssVar(TYPE_VARS[d.type] || "--node-other"); }
 
 /* ---------- data store and merge ---------- */
-const store = { nodes: new Map(), edges: new Map(), leads: [], checked: [], files: [], metas: [], updates: 0 };
+const store = { nodes: new Map(), edges: new Map(), claims: [], leads: [], checked: [], files: [], metas: [], updates: 0 };
 
 function addSources(target, list) {
   const set = new Set(target.sources || []);
@@ -355,6 +355,12 @@ function mergeFile(name, data) {
     store.edges.set(key, { ...e, key, s, t, label, money: moneyOf(e.relation), rawLabel: e.confidence ?? e.label, sources: [...new Set(arr(e.sources))], _files: [name] });
   }
   const leadSeen = new Set(store.leads.map(l => l.lead + "|" + l.result));
+  // Claims a commentator made about one actor, with no second actor to draw a line to. Shown in that node's panel.
+  for (const c of arr(data.reported_claims)) {
+    if (!c || !c.about) continue;
+    const k = c.about + "|" + (c.relation || "");
+    if (!store.claims.some(x => x._k === k)) store.claims.push({ ...c, _k: k, label: normLabel(c.confidence), sources: arr(c.sources), _file: name });
+  }
   for (const l of arr(data.leads)) {
     const k = l.lead + "|" + l.result;
     if (!leadSeen.has(k)) { store.leads.push({ ...l, label: normLabel(l.label), _file: name }); leadSeen.add(k); }
@@ -438,18 +444,19 @@ function makeArrows() {
 function nodeSize(n) { return isJudge(n) ? 260 : (n.deg > 10 ? 190 : n.deg > 4 ? 130 : 90); }
 function radius(n) { return Math.sqrt(nodeSize(n) / Math.PI) + 2; }
 
+function originShown(e) {
+  const o = String(e.lead_origin || "");
+  return !((!state.showDR && o.startsWith("DataRepublican")) || (!state.showBenz && o.startsWith("Mike Benz")));
+}
 function visibleSets() {
   const all = [...store.edges.values()];
   const typeOk = n => !state.hidden.has(n.id) && state.types.has(n.type || "unknown") && (!state.group || n.group === state.group || isJudge(n));
   let edges = all.filter(e => e.label !== "no_link" && state.labels.has(e.label) && typeOk(store.nodes.get(e.s)) && typeOk(store.nodes.get(e.t)));
-  // Claims credited to DataRepublican or Mike Benz (their lead_origin) can be switched off; Benz's own node goes with his.
-  const origin = e => String(e.lead_origin || "");
-  if (!state.showDR) edges = edges.filter(e => !origin(e).startsWith("DataRepublican"));
-  if (!state.showBenz) edges = edges.filter(e => !origin(e).startsWith("Mike Benz") && e.s !== "benz" && e.t !== "benz");
+  // Claims credited to DataRepublican or Mike Benz (their lead_origin) can be switched off.
+  edges = edges.filter(originShown);
   if (state.judgesOnly) edges = edges.filter(e => isJudge(store.nodes.get(e.s)) || isJudge(store.nodes.get(e.t)));
   if (state.group) edges = edges.filter(e => store.nodes.get(e.s).group === state.group || store.nodes.get(e.t).group === state.group);
   let nodes = [...store.nodes.values()].filter(typeOk);
-  if (!state.showBenz) nodes = nodes.filter(n => n.id !== "benz");
   // Hiding cascades: anything whose only route to the judges or Tusk ran through a hidden node is hidden too.
   if (state.hidden.size) {
     const adj = new Map(); edges.forEach(e => { (adj.get(e.s) || adj.set(e.s, []).get(e.s)).push(e.t); (adj.get(e.t) || adj.set(e.t, []).get(e.t)).push(e.s); });
@@ -798,6 +805,7 @@ function renderPanel() {
     const shownKeys = new Set(simLinks.flatMap(l => l.es.map(e => e.key)));
     edges = edges.filter(e => e.label !== "no_link");
     const hidden = edges.filter(e => !shownKeys.has(e.key)).length;
+    const claims = store.claims.filter(c => c.about === n.id && originShown(c));
     return p.innerHTML = `
       <div><h3>${esc(n.label)}</h3>
       <div class="meta-line"><span class="tag">${esc(n.type || "unknown")}</span>${n.group ? `<span class="tag">${esc(n.group.replace(/_/g, " "))}</span>` : ""}${isJudge(n) ? `<span class="tag" style="color:var(--judge);border-color:var(--judge)">one of the 8 judges</span>` : ""}${n.stub ? `<span class="tag">referenced but not defined in any loaded file</span>` : ""}</div></div>
@@ -806,6 +814,9 @@ function renderPanel() {
       <div class="section"><h2>Links (${edges.length}${hidden ? `, ${hidden} hidden by filters` : ""})</h2>
         <div class="conn">${edges.map(e => { const other = e.s === n.id ? e.t : e.s; const dir = e.s === n.id ? "→" : "←";
           return `<button type="button" data-edge="${esc(e.key)}"><span class="who">${dir} ${esc(nodeName(other))}</span><span class="rel">${esc(e.relation)}</span><span><span class="pill ${e.label}">${LABEL_NAME[e.label]}</span> <span class="meta-line" style="display:inline">${e.sources.length} source${e.sources.length === 1 ? "" : "s"}${e.date ? " · " + esc(e.date) : ""}</span></span></button>`; }).join("") || `<p class="empty">No links.</p>`}</div></div>
+      ${claims.length ? `<div class="section"><h2>Claims made about ${esc(n.label)} (${claims.length})</h2>
+        <p class="meta-line">What commentators say about this ${esc(n.type || "entry")}. They report on others, so they are credited here rather than drawn as nodes.</p>
+        ${claims.map(c => `<div class="lead"><span><span class="pill ${c.label}">${LABEL_NAME[c.label]}</span> <span class="meta-line" style="display:inline">${esc(c.reported_by || c.lead_origin || "")}${c.date ? " · " + esc(c.date) : ""}</span></span><div class="q">${esc(c.relation || "")}</div>${c.verified ? `<div class="r">Checked: ${esc(c.verified)}</div>` : ""}${sourcesHTML(c.sources)}</div>`).join("")}</div>` : ""}
       <div class="conn"><button type="button" data-hide="${esc(n.id)}"><span class="who">${state.hidden.has(n.id) ? "Show" : "Hide"} ${esc(n.label)} on the map</span><span class="rel">Removes this node and its lines until you show it again</span></button></div>
       <p class="meta-line">From: ${n._files.map(esc).join(", ")}</p>`;
   }
@@ -926,8 +937,8 @@ document.getElementById("f-group").onchange = ev => { state.group = ev.target.va
 document.getElementById("t-isolated").onchange = ev => { state.hideIsolated = ev.target.checked; render(); };
 document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.checked; render(); setTimeout(fit, 1200); };
 document.getElementById("t-us").onchange = ev => { state.usLayer = ev.target.checked; render(); };
-document.getElementById("t-dr").onchange = ev => { state.showDR = ev.target.checked; render(); };
-document.getElementById("t-benz").onchange = ev => { state.showBenz = ev.target.checked; render(); };
+document.getElementById("t-dr").onchange = ev => { state.showDR = ev.target.checked; render(); renderPanel(); };
+document.getElementById("t-benz").onchange = ev => { state.showBenz = ev.target.checked; render(); renderPanel(); };
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-pdf").onclick = exportPDF;

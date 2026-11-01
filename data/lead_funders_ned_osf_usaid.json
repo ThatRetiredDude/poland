@@ -15,15 +15,6 @@
       ]
     },
     {
-      "id": "magyar_nemzet",
-      "type": "org",
-      "group": "media",
-      "label": "Magyar Nemzet (Hungarian pro-government daily)",
-      "sources": [
-        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
-      ]
-    },
-    {
       "id": "house_gop_mast",
       "type": "group",
       "group": "us_gov",
@@ -39,15 +30,6 @@
       "label": "Akcja Demokracja",
       "sources": [
         "https://notesfrompoland.com/2025/05/15/polish-ngo-implicated-in-alleged-illegal-election-ads-favouring-frontrunner-trzaskowski/"
-      ]
-    },
-    {
-      "id": "daily_signal",
-      "type": "org",
-      "group": "media",
-      "label": "The Daily Signal (Heritage Foundation outlet)",
-      "sources": [
-        "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
       ]
     },
     {
@@ -272,28 +254,6 @@
       "date": "2025-01"
     },
     {
-      "source": "magyar_nemzet",
-      "target": "tusk",
-      "relation": "'Soros, Zelensky, von der Leyen and Tusk celebrate together' (separate congratulations to Magyar; no contact shown)",
-      "confidence": "alleged",
-      "sources": [
-        "https://magyarnemzet.hu/english/2026/04/soros-zelensky-von-der-leyen-and-tusk-celebrate-tisza-victory-together"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2026-04-14"
-    },
-    {
-      "source": "magyar_nemzet",
-      "target": "batory",
-      "relation": "2023 series: Soros-funded NGOs (Batory, HFHR, Krytyka Polityczna) shaped Polish campaign; Tusk/PO not named",
-      "confidence": "alleged",
-      "sources": [
-        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2023-10"
-    },
-    {
       "source": "osf",
       "target": "tusk",
       "relation": "Soros backed Tusk's 2023 win (reading of Magyar Nemzet series)",
@@ -316,7 +276,7 @@
       "date": "2025-05-27"
     },
     {
-      "source": "daily_signal",
+      "source": "usaid",
       "target": "tusk",
       "relation": "USAID 'backed' Tusk's coalition in 2023 via grants to 27 Polish bodies; no grant to PO shown",
       "confidence": "alleged",
@@ -324,7 +284,8 @@
         "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
       ],
       "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2025-02-28"
+      "date": "2025-02-28",
+      "lead_origin": "The Daily Signal"
     },
     {
       "source": "usaid",
@@ -357,17 +318,6 @@
       ],
       "added_by": "lead_funders_ned_osf_usaid",
       "date": "2023-01-31"
-    },
-    {
-      "source": "judicial_watch",
-      "target": "democrisis",
-      "relation": "FOIA suit v. State Dept covers DemoCrisis grants; no records released yet",
-      "confidence": "fact",
-      "sources": [
-        "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
-      ],
-      "added_by": "lead_funders_ned_osf_usaid",
-      "date": "2026-02"
     },
     {
       "source": "osf",
@@ -426,5 +376,65 @@
       "result": "Daily Signal claim; USAID funded Polish NGOs and media small sums; no grant to PO or campaign; DOGE 'exposure' not found",
       "label": "alleged"
     }
-  ]
+  ],
+  "reported_claims": [
+    {
+      "about": "tusk",
+      "reported_by": "Magyar Nemzet",
+      "relation": "'Soros, Zelensky, von der Leyen and Tusk celebrate together' (separate congratulations to Magyar; no contact shown)",
+      "confidence": "alleged",
+      "sources": [
+        "https://magyarnemzet.hu/english/2026/04/soros-zelensky-von-der-leyen-and-tusk-celebrate-tisza-victory-together"
+      ],
+      "date": "2026-04-14"
+    },
+    {
+      "about": "batory",
+      "reported_by": "Magyar Nemzet",
+      "relation": "2023 series: Soros-funded NGOs (Batory, HFHR, Krytyka Polityczna) shaped Polish campaign; Tusk/PO not named",
+      "confidence": "alleged",
+      "sources": [
+        "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+      ],
+      "date": "2023-10"
+    },
+    {
+      "about": "democrisis",
+      "reported_by": "Judicial Watch",
+      "relation": "FOIA suit v. State Dept covers DemoCrisis grants; no records released yet",
+      "confidence": "fact",
+      "sources": [
+        "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf"
+      ],
+      "date": "2026-02"
+    }
+  ],
+  "reporters": {
+    "magyar_nemzet": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "magyar_nemzet",
+        "type": "org",
+        "group": "media",
+        "label": "Magyar Nemzet (Hungarian pro-government daily)",
+        "sources": [
+          "https://magyarnemzet.hu/english/2023/10/how-foreign-interference-in-polands-elections-happened-soros-run-organizations-campaign-role"
+        ]
+      }
+    },
+    "daily_signal": {
+      "note": "Kept for the record, not drawn on the map: this source reports on others, so it is credited on claims instead of being a node.",
+      "actions": [],
+      "node": {
+        "id": "daily_signal",
+        "type": "org",
+        "group": "media",
+        "label": "The Daily Signal (Heritage Foundation outlet)",
+        "sources": [
+          "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+        ]
+      }
+    }
+  }
 }
