@@ -159,9 +159,10 @@
     "https://news.ballotpedia.org/2025/06/30/sen-thom-tillis-announces-he-will-not-seek-re-election-to-the-u-s-senate-in-2026/",
     "https://www.fec.gov/data/candidate/S4NC00162/",
     "https://fhkedhfrxykvkdsdlrpd.supabase.co/storage/v1/object/public/files/pac_contributions/thomtillis.pdf",
-    "https://www.legistorm.com/person/bio/192907/Thomas_Roland_Tillis.html"
+    "https://www.legistorm.com/person/bio/192907/Thomas_Roland_Tillis.html",
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ],
-   "money": "Campaign: Thom Tillis Committee (FEC C00545772): $26.7m receipts 2015-2020; $8.1m 1 Jan 2021-30 Sep 2026, cash on hand $3.58m. Leadership PACs: NC RED (C00768085) and Together Holding Our Majority PAC (C00571323). PAC money 2023-24: $1.03m from 282 PACs, mostly corporate (top givers $10k each incl. Deloitte, Home Depot, Gilead, Nucor). Privately paid travel: he has filed such disclosures, but the sponsor list is behind LegiStorm's paywall."
+   "money": "Campaign: Thom Tillis Committee (FEC C00545772): $26.7m receipts 2015-2020; $8.1m 1 Jan 2021-30 Sep 2026, cash on hand $3.58m. Leadership PACs: NC RED (C00768085) and Together Holding Our Majority PAC (C00571323). PAC money 2023-24: $1.03m from 282 PACs, mostly corporate (top givers $10k each incl. Deloitte, Home Depot, Gilead, Nucor). Privately paid travel: he has filed such disclosures, but the sponsor list is behind LegiStorm's paywall. FEC bulk files (2023-26), all itemised entries read: 610 committees gave the campaign $2.10m; largest were Support America's Police PAC ($45.9k), Gilead ($15k), PwC, Dominion, US Bancorp ($10k each). Defence-firm PACs (Lockheed, RTX, General Dynamics, Northrop, Boeing, L3Harris) gave the campaign about $22.5k and his leadership PAC Together Holding Our Majority $45k. That PAC's largest donors: Senate Leadership Fund $200k, NRSC committees, Tillis Majority Committee."
   }
  },
  "edges": [
@@ -338,6 +339,14 @@
    "sources": [
     "https://pulaski.pl/en/knight-of-freedom/",
     "https://usukraine.org/events/star-of-ukraine-2024-award-dinner"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "FEC itemised receipts 2023-26 (campaign C00545772, leadership PACs C00571323 and C00768085): any donor named Soros, Hoffman, Pinchuk, or employed by OSF, Tides, NED, IRI, NDI, Atlantic Council, Carnegie, Freedom House, USAID, State Dept, or a Polish, Ukrainian or Hungarian body",
+   "result": "none. Keyword hits were false positives (donors with first name Ned; 'Tides Medical', a North Carolina company). 2019-20 and 2023-24 individual files still being scanned.",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ]
   }
  ],
