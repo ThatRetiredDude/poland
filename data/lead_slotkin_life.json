@@ -941,6 +941,26 @@
    "sources": [
     "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
    ]
+  },
+  {
+   "source": "curtis",
+   "target": "gregorczyk_abram",
+   "relation": "Co-led the US delegation (with Slotkin and Tillis) that met Ombudsman Sylwia Gregorczyk-Abram and her deputy Adam Krzywoń at the RPO office, Warsaw, 10 Sep 2026; topic: the rule of law in Poland. Original (pl): 'Delegacji amerykańskiej przewodniczyli senatorowie Elissa Slotkin, Thom Tillis oraz John Curtis, którym towarzyszyli współpracownicy oraz przedstawicielka Ambasady USA w Polsce.' Literal translation: 'The American delegation was chaired by senators Elissa Slotkin, Thom Tillis and John Curtis, who were accompanied by co-workers and a [female] representative of the US Embassy in Poland.' Original (pl): 'Rozmowa dotyczyła aktualnej sytuacji i wyzwań w obszarze praworządności w Polsce.' Literal translation: 'The conversation concerned the current situation and challenges in the area of the rule of law in Poland.' She is a Free Courts co-founder and was Korwin-Piotrowska's ECHR lawyer. The release does not say what Curtis said.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "gregorczyk_abram",
+   "relation": "Co-led the delegation that met Ombudsman Gregorczyk-Abram on 10 Sep 2026 about the rule of law in Poland (same RPO release; quotes on the curtis edge).",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
   }
  ],
  "checked_no_link": [
