@@ -8,7 +8,7 @@ Goal: find more people, money, contract jobs and organisations (NGOs, foundation
 
 | Batch | What | Status |
 |---|---|---|
-| 01 | Page reads of the open leads left by the two earlier sweeps | running |
+| 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | partial: 14 of 113 pages so far |
 | 02 | New searches and page reads: people, appointments and contract jobs | running |
 | 03 | New searches and page reads: money, grants and organisations | running |
 | 04 | Cross-check of every quoted string against the raw tool output | to do |

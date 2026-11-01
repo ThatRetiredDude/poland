@@ -1,0 +1,199 @@
+{
+ "meta": {
+  "what": "every page-reader call in this batch: URL, time, HTTP line, length and SHA-256 of the text returned. The page text itself is not republished here."
+ },
+ "fetches": [
+  {
+   "agent": "read:R001-R004",
+   "url": "https://bip.brpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego",
+   "final_url": "https://bip.brpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego",
+   "fetched_at": "2026-11-01T19:12:53.002Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 107,
+   "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R001-R004",
+   "url": "https://bip.brpo.gov.pl/pl/content/konkurs-grantowy-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-nagrody-rafto",
+   "final_url": "https://bip.brpo.gov.pl/pl/content/konkurs-grantowy-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-nagrody-rafto",
+   "fetched_at": "2026-11-01T19:12:53.896Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 10207,
+   "sha256": "15ef8e5247b25478e9457a875a9d70fe168678f001209e65baade1f78f897496",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R001-R004",
+   "url": "https://wydarzenia.interia.pl/kraj/news-jest-z-ko-nie-poparl-kandydatury-berka-doszlo-do-klotni-poli,nId,23538885",
+   "final_url": "https://wydarzenia.interia.pl/kraj/news-jest-z-ko-nie-poparl-kandydatury-berka-doszlo-do-klotni-poli,nId,23538885",
+   "fetched_at": "2026-11-01T19:12:54.362Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20919,
+   "sha256": "70b466b505bb5690d3f1acbe4a9523a309a124dc353d9b3416b6d2ffd96a58f3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R001-R004",
+   "url": "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie",
+   "final_url": "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie",
+   "fetched_at": "2026-11-01T19:12:54.522Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2261,
+   "sha256": "6510a6cbba8ad41302449cf253680832c83f4303a49269b582f2c8c702690d12",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R001-R004",
+   "url": "https://www.rpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:23:46.146Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego\n    Redirect URL (from the server's Location head"
+  },
+  {
+   "agent": "read:R005-R008",
+   "url": "https://www.developmentaid.org/organizations/awards/view/606812/europe-and-central-asia-to-support-investigative-research-around-judicial-accountability-and-narrati",
+   "final_url": "https://www.developmentaid.org/organizations/awards/view/606812/europe-and-central-asia-to-support-investigative-research-around-judicial-accountability-and-narrati",
+   "fetched_at": "2026-11-01T19:12:53.519Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 837,
+   "sha256": "807c1b7d8d8a338f6a988406e926d4af8984b309db1bb053705fecf7de5737f7",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R005-R008",
+   "url": "https://notesfrompoland.com/2026/09/24/polish-constitutional-court-officials-charged-with-preventing-entry-of-new-judges/",
+   "final_url": "https://notesfrompoland.com/2026/09/24/polish-constitutional-court-officials-charged-with-preventing-entry-of-new-judges/",
+   "fetched_at": "2026-11-01T19:12:53.715Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 32726,
+   "sha256": "fbd6df7f0c742c8eec336d58b0e3ef67d7ddbed2851969ed35388f97c7064427",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R005-R008",
+   "url": "https://wydarzenia.interia.pl/kraj/news-tusk-o-zamachu-stanu-wskazuje-na-trzy-kraje-i-pisze-o-kooper,nId,7908088",
+   "final_url": "https://wydarzenia.interia.pl/kraj/news-tusk-o-zamachu-stanu-wskazuje-na-trzy-kraje-i-pisze-o-kooper,nId,7908088",
+   "fetched_at": "2026-11-01T19:12:53.747Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 14460,
+   "sha256": "0d5054a7182a735e960f1b216cefcb0b1d3a9b317c7005657c46024d4b634319",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R005-R008",
+   "url": "https://www.developmentaid.org/organizations/awards/view/606867/europe-and-central-asia-to-provide-general-support",
+   "final_url": "https://www.developmentaid.org/organizations/awards/view/606867/europe-and-central-asia-to-provide-general-support",
+   "fetched_at": "2026-11-01T19:12:53.970Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 692,
+   "sha256": "28f17126e6891d3d38e92d4ce0025c81f6a51d421b736eb1a631416137bec1c4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R030-R032",
+   "url": "https://bip.brpo.gov.pl/pl/content/dr-adam-bodnar-i-biuro-RPO-z-nagroda-praworzadnosci-WJP",
+   "final_url": "https://bip.brpo.gov.pl/pl/content/dr-adam-bodnar-i-biuro-RPO-z-nagroda-praworzadnosci-WJP",
+   "fetched_at": "2026-11-01T19:20:42.348Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 13228,
+   "sha256": "674a2fda6e1b0d0228478a0434e3d736d57b64719f8a5da63ebf09145844c013",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R030-R032",
+   "url": "https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/view",
+   "final_url": "https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/view",
+   "fetched_at": "2026-11-01T19:20:42.841Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 107,
+   "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R030-R032",
+   "url": "https://bip.brpo.gov.pl/pl/content/nagroda-godnosci-czlowieka-fundacji-rolanda-bergera-dla-rpo-adama-bodnara",
+   "final_url": "https://bip.brpo.gov.pl/pl/content/nagroda-godnosci-czlowieka-fundacji-rolanda-bergera-dla-rpo-adama-bodnara",
+   "fetched_at": "2026-11-01T19:20:43.098Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 9489,
+   "sha256": "fa2b06bf78b3d94dc1c68a5541beb8f9f376de9736b4eb5e6b7e46246e916593",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R030-R032",
+   "url": "https://www.rpo.gov.pl/pl/node/8672/revisions/8723/view",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:21:42.591Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/pl/node/8672/revisions/8723/view\n    Redirect URL (from the server's Location header — server-supplied, not verified): https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/"
+  },
+  {
+   "agent": "read:R047-R049",
+   "url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html",
+   "final_url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html",
+   "fetched_at": "2026-11-01T19:20:42.346Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 7622,
+   "sha256": "f292f591b76841dc4b75bf00837ce1ce130317f8e53f48addd318cb742704730",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R047-R049",
+   "url": "https://wolnesady.org/en/support-free-courts-foundation-on-patronite-polish-crowdfunding-site/",
+   "final_url": "https://wolnesady.org/en/support-free-courts-foundation-on-patronite-polish-crowdfunding-site/",
+   "fetched_at": "2026-11-01T19:20:44.001Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 3637,
+   "sha256": "53ae00d852b5800fb910abe3347b32e58b0fb6e233c0a5e91629efb4f958e9f9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R047-R049",
+   "url": "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/",
+   "final_url": "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/",
+   "fetched_at": "2026-11-01T19:20:44.943Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 3551,
+   "sha256": "2573e4a5b92e91d5d4113e793fd0a217eb1aca166364b051f4fdaca935e4f92e",
+   "error": null,
+   "note": null
+  }
+ ]
+}
