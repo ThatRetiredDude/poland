@@ -171,8 +171,66 @@ dd { margin: 0; overflow-wrap: anywhere; }
 .loadfail > div { max-width: 460px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; display: flex; flex-direction: column; gap: 10px; }
 .mono { font-family: var(--font-mono); font-size: 12px; }
 
+/* Analysis tab: From/To path finder. */
+.app.wide { grid-template-columns: 270px 1fr 480px; }
+#analysis { display: flex; flex-direction: column; gap: 14px; padding-top: 14px; }
+#analysis[hidden], #panel[hidden] { display: none; }
+.an-field { display: flex; flex-direction: column; gap: 5px; position: relative; }
+.an-field > label { font: 600 11.5px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.an-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.an-chip { display: inline-flex; align-items: center; gap: 4px; padding: 2px 4px 2px 9px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); font-size: 12.5px; }
+.an-chip.set { border-color: var(--accent); }
+.an-chip button { border: 0; background: none; cursor: pointer; color: var(--muted); padding: 0 4px; font-size: 14px; line-height: 1; }
+.an-chip button:hover { color: var(--conspiracy); }
+.an-sugg { position: absolute; z-index: 20; left: 0; right: 0; top: 100%; margin: 2px 0 0; padding: 4px; list-style: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 6px 18px rgba(0,0,0,.14); max-height: 280px; overflow-y: auto; }
+.an-sugg li { padding: 5px 8px; border-radius: 4px; cursor: pointer; display: flex; gap: 8px; align-items: baseline; }
+.an-sugg li .k { color: var(--muted); font-size: 11.5px; margin-left: auto; white-space: nowrap; }
+.an-sugg li[aria-selected="true"], .an-sugg li:hover { background: var(--bg); }
+.an-quick { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px; }
+.an-quick a { cursor: pointer; text-decoration: underline; }
+.an-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; align-items: center; font-size: 13px; }
+.an-opts select { width: 100%; padding: 4px 6px; border: 1px solid var(--line); border-radius: 5px; background: var(--bg); }
+.an-opts .row { padding: 0; }
+.an-go { display: flex; gap: 8px; align-items: center; }
+.an-go .btn.primary { background: var(--accent); color: var(--panel); border-color: var(--accent); font-weight: 600; }
+.an-grid-wrap { overflow-x: auto; }
+table.an-grid { border-collapse: collapse; font-size: 12.5px; width: 100%; }
+.an-grid th { font-weight: 600; text-align: left; padding: 4px 6px; vertical-align: bottom; }
+.an-grid tbody th { vertical-align: middle; }
+.an-grid thead th { font-size: 11.5px; color: var(--muted); max-width: 110px; }
+.an-grid td { padding: 2px; }
+.an-cell { width: 100%; min-width: 64px; border: 1.5px solid var(--line); border-radius: 6px; background: var(--bg); padding: 4px 6px; cursor: pointer; text-align: left; display: flex; flex-direction: column; gap: 1px; }
+.an-cell:hover, .an-cell[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: 0; }
+.an-cell .h { font: 600 15px/1.1 var(--font-body); font-variant-numeric: tabular-nums; }
+.an-cell .g { font-size: 11px; font-weight: 600; }
+.an-cell .alt { font-size: 10.5px; color: var(--muted); }
+.an-cell.fact { border-color: var(--tie); } .an-cell.fact .g { color: var(--tie); }
+.an-cell.alleged { border-color: var(--alleged); border-style: dashed; } .an-cell.alleged .g { color: var(--alleged); }
+.an-cell.speculation { border-color: var(--speculation); border-style: dotted; } .an-cell.speculation .g { color: var(--speculation); }
+.an-cell.unproven_conspiracy, .an-cell.unlabelled { border-color: var(--conspiracy); border-style: dashed; } .an-cell.unproven_conspiracy .g { color: var(--conspiracy); }
+.an-cell.none { cursor: default; color: var(--muted); }
+.an-cell.none .h { font-size: 12px; font-weight: 500; }
+.an-path { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; gap: 6px; }
+.an-path.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.an-path-head { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12.5px; }
+.an-path-head .btn { margin-left: auto; padding: 2px 8px; font-size: 12px; }
+.an-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.an-node { font-weight: 600; cursor: pointer; }
+.an-node:hover { color: var(--accent); }
+.an-step { margin: 2px 0 2px 6px; padding: 3px 0 3px 12px; border-left: 2px solid var(--line); font-size: 12.5px; display: flex; flex-direction: column; gap: 3px; }
+.an-step.fact { border-left-color: var(--tie); } .an-step.fact.money { border-left-color: var(--fact); }
+.an-step.alleged { border-left: 2px dashed var(--alleged); }
+.an-step.speculation { border-left: 2px dotted var(--speculation); }
+.an-step.unproven_conspiracy, .an-step.unlabelled { border-left: 2px dashed var(--conspiracy); }
+.an-step .dir { color: var(--muted); font-size: 11.5px; }
+.an-step .srcs { display: flex; flex-wrap: wrap; gap: 4px 8px; font-size: 11.5px; }
+.an-step .srcs a { font-family: var(--font-mono); }
+.an-step .more { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; font-size: 11.5px; text-align: left; }
+.an-note { border: 1px dashed var(--line); border-radius: 6px; padding: 5px 8px; font-size: 12px; background: var(--bg); display: flex; flex-direction: column; gap: 3px; }
+.money-tag { color: var(--fact); font-weight: 600; font-size: 11.5px; }
+
 @media (max-width: 1000px) {
-  .app { grid-template-columns: 1fr; grid-template-rows: auto auto 60vh auto; height: auto; }
+  .app, .app.wide { grid-template-columns: 1fr; grid-template-rows: auto auto 60vh auto; height: auto; }
   aside.left, aside.right { border: 0; border-bottom: 1px solid var(--line); }
   main { min-height: 60vh; }
 }
@@ -187,6 +245,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
     <span class="spacer"></span>
     <button class="btn" id="btn-fit" type="button">Fit to screen</button>
     <button class="btn" id="btn-reheat" type="button">Re-run layout</button>
+    <button class="btn" id="btn-analysis" type="button" title="Find how many steps link the people or groups you pick">Path analysis</button>
     <button class="btn" id="btn-pdf" type="button" title="Save the map exactly as it is on screen">Export PDF</button>
     <button class="btn" id="btn-share" type="button" title="Share a link that opens the map with these settings">Share</button>
     <a class="btn" id="btn-suggest" href="https://github.com/ThatRetiredDude/poland/issues/new?template=submit-information.md" target="_blank" rel="noopener" title="Add new information or a correction. Needs a free GitHub account; please include a source link.">Add more data</a>
@@ -248,10 +307,12 @@ dd { margin: 0; overflow-wrap: anywhere; }
   <aside class="right" aria-label="Details">
     <div class="tabs" role="tablist">
       <button role="tab" id="tab-detail" aria-selected="true" type="button">Details</button>
+      <button role="tab" id="tab-analysis" aria-selected="false" type="button">Path analysis</button>
       <button role="tab" id="tab-leads" aria-selected="false" type="button">Leads</button>
       <button role="tab" id="tab-files" aria-selected="false" type="button">Sources &amp; notes</button>
     </div>
     <div id="panel" class="detail"></div>
+    <div id="analysis" hidden></div>
   </aside>
 </div>
 
@@ -414,7 +475,7 @@ const state = {
   anchor: true, usLayer: true, showDR: true, showBenz: true,
   hidden: new Set(["nawrocki"]),
   selected: null, // {kind:'node'|'edge', id}
-  search: "", tab: "detail", hops: 1,
+  search: "", tab: "detail", hops: 1, anFocus: null,
 };
 
 /* ---------- graph rendering ---------- */
@@ -478,6 +539,12 @@ function visibleSets() {
   }
   const ids = new Set(nodes.map(n => n.id));
   edges = edges.filter(e => ids.has(e.s) && ids.has(e.t));
+  // Path analysis: the highlighted paths are always drawn, even through nodes the filters hide.
+  if (state.anFocus) {
+    state.anFocus.nodes.forEach(id => { if (!ids.has(id) && store.nodes.has(id)) { ids.add(id); nodes.push(store.nodes.get(id)); } });
+    const have = new Set(edges.map(e => e.key));
+    state.anFocus.edgeKeys.forEach(k => { if (!have.has(k) && store.edges.has(k)) edges.push(store.edges.get(k)); });
+  }
   return { nodes, edges };
 }
 
@@ -675,7 +742,7 @@ function declutter() {
   }
 }
 function focusSet() {
-  const s = state.selected; if (!s) return null;
+  const s = state.selected; if (!s) return state.anFocus ? state.anFocus.nodes : null;
   const set = new Set();
   if (s.kind === "node") {
     // Everything within state.hops steps of the selected node, following the lines currently drawn.
@@ -704,7 +771,7 @@ function applyHighlight() {
     .classed("selected", d => (s?.kind === "pair" && d.gk === s.id) || (s?.kind === "edge" && d.es.some(e => e.key === s.id)));
   gUS.selectAll("path").classed("faded", linkFaded);
   function linkFaded(d) {
-    if (!s) return false;
+    if (!s) return state.anFocus ? !d.es.some(e => state.anFocus.edgeKeys.has(e.key)) : false;
     if (s.kind === "node") return state.hops > 1 ? !(focus.has(d.e.s) && focus.has(d.e.t)) : !(d.e.s === s.id || d.e.t === s.id);
     return s.kind === "pair" ? d.gk !== s.id : !d.es.some(e => e.key === s.id);
   }
@@ -793,6 +860,12 @@ function nodeName(id) { return store.nodes.get(id)?.label || id; }
 function renderPanel() {
   document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.id === "tab-" + state.tab));
   const p = document.getElementById("panel");
+  const isAn = state.tab === "analysis";
+  anBox.hidden = !isAn; p.hidden = isAn;
+  const app = document.querySelector(".app"), wasWide = app.classList.contains("wide");
+  app.classList.toggle("wide", isAn);
+  if (wasWide !== isAn) window.dispatchEvent(new Event("resize"));
+  if (isAn) { if (!anBox.innerHTML) anRenderForm(); return; }
   if (state.tab === "leads") return p.innerHTML = leadsHTML();
   if (state.tab === "files") return p.innerHTML = filesHTML();
   const s = state.selected;
@@ -880,6 +953,383 @@ function select(sel) {
   applyHighlight(); renderPanel();
 }
 
+/* ---------- path analysis ----------
+   Pick people or groups in From and To, set a hop limit, and the map finds the best chains of ties between them.
+   Direction is ignored (a tie counts either way) but every step shows which way the line points.
+   Ranking: factualness first (a path is only as strong as its weakest step), then fewer hops, then more money steps. */
+const AN_LEVEL = { fact: 0, alleged: 1, speculation: 2, unproven_conspiracy: 3, unlabelled: 3 };
+const AN_LEVEL_KEY = ["fact", "alleged", "speculation", "unproven_conspiracy"];
+const AN_EVIDENCE = ["Fact only", "Fact + alleged", "Up to speculation", "Everything (incl. unproven conspiracy)"];
+const AN_K = 5; // paths listed per pair
+const SOROS_IDS = ["osf", "george_soros", "alex_soros", "fpos", "fund_policy_reform", "democracy_pac"];
+const AN_DEFAULT_AVOID = ["tk"];
+const ROLE_RE = /\b(member|board|staff|fellow\w*|employ\w*|worked|works|director|president|chair\w*|founder|founding|co-founder|council|team|head|adviser|advisor|expert|lectur\w*|trustee|officer|vice|secretary|researcher|associate|partner|counsel|consultant|editor|coordinator)\b/i;
+const UNPAID_RE = /\b(unpaid|pro bono|voluntary|volunteer|without pay)\b/i;
+const NOPAY_RE = /\b(no payment|no pay|not paid|not yet paid|no money (to him|to her|found)|no salary)\b/i;
+const PAID_RE = /\b(paid|salary|fee|fees|remunerat\w*|stipend|honorarium|fellowship|per month|\/month|wage)\b/i;
+const PAY_UNKNOWN_RE = /\b(not disclosed|undisclosed|not documented|not stated|not given|not known|unknown)\b/i;
+function anIndirect(e) { return !!e.indirect || /^\s*indirect\b/i.test(e.relation || ""); }
+const an = { from: [], to: [], avoid: null, hops: 4, ev: 1, money: false, grid: null, cell: null, paths: null, pathOn: -1 };
+
+function anSets() {
+  const list = [{ code: "set:judges", label: "All 8 judges", hint: "group" }, { code: "set:soros", label: "Soros network (OSF and Soros entities)", hint: "group" }];
+  const gc = {}; store.nodes.forEach(n => { if (n.group) gc[n.group] = (gc[n.group] || 0) + 1; });
+  Object.keys(gc).sort().forEach(g => list.push({ code: "group:" + g, label: "Group: " + g.replace(/_/g, " "), hint: gc[g] + " nodes" }));
+  return list;
+}
+function anMembers(code) {
+  if (code === "set:judges") return [...store.nodes.values()].filter(isJudge).map(n => n.id);
+  if (code === "set:soros") return SOROS_IDS.filter(id => store.nodes.has(id) && !store.nodes.get(id).stub);
+  if (code.startsWith("group:")) { const g = code.slice(6); return [...store.nodes.values()].filter(n => n.group === g).map(n => n.id); }
+  return store.nodes.has(code) ? [code] : [];
+}
+function anIsSet(code) { return code.startsWith("set:") || code.startsWith("group:"); }
+function anLabel(code) {
+  if (anIsSet(code)) return anSets().find(s => s.code === code)?.label || code;
+  return shortName(code);
+}
+function shortName(id) { return nodeName(id).replace(/\s*\(.*\)\s*$/, ""); }
+
+/* --- the graph the analysis walks: every pair of nodes with the claims between them, best first --- */
+let anAdj = null;
+function anBuild() {
+  const pairs = new Map(); anAdj = new Map();
+  for (const e of store.edges.values()) {
+    if (e.label === "no_link" || e.s === e.t) continue;
+    const lv = AN_LEVEL[e.label]; if (lv == null || lv > an.ev) continue;
+    if (!originShown(e)) continue;
+    if (an.money && !e.money) continue;
+    const pk = [e.s, e.t].sort().join("|");
+    if (!pairs.has(pk)) { pairs.set(pk, []); for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) { if (!anAdj.has(a)) anAdj.set(a, []); anAdj.get(a).push({ to: b, pk }); } }
+    pairs.get(pk).push(e);
+  }
+  // Best claim for a pair: lowest label level, then money, then most sources.
+  for (const es of pairs.values()) es.sort((a, b) => AN_LEVEL[a.label] - AN_LEVEL[b.label] || (!!b.money - !!a.money) || b.sources.length - a.sources.length);
+  anAdj.pairs = pairs;
+}
+function anPairBest(pk, L) { const es = anAdj.pairs.get(pk); const e = es && es[0]; return e && AN_LEVEL[e.label] <= L ? e : null; }
+
+// Shortest path by hops (a money step counts 0.9, so it only breaks ties) using claims up to level L.
+function anDijkstra(src, dst, L, bannedNodes, bannedPairs, maxHops) {
+  const dist = new Map([[src, 0]]), hops = new Map([[src, 0]]), prev = new Map(), done = new Set();
+  const heap = [[0, src]];
+  const push = x => { heap.push(x); let i = heap.length - 1; while (i > 0) { const p = (i - 1) >> 1; if (heap[p][0] <= heap[i][0]) break; [heap[p], heap[i]] = [heap[i], heap[p]]; i = p; } };
+  const pop = () => { const top = heap[0], last = heap.pop(); if (heap.length) { heap[0] = last; let i = 0; for (;;) { const l = 2 * i + 1, r = l + 1; let m = i; if (l < heap.length && heap[l][0] < heap[m][0]) m = l; if (r < heap.length && heap[r][0] < heap[m][0]) m = r; if (m === i) break; [heap[m], heap[i]] = [heap[i], heap[m]]; i = m; } } return top; };
+  while (heap.length) {
+    const [d, u] = pop();
+    if (done.has(u)) continue; done.add(u);
+    if (u === dst) break;
+    if (hops.get(u) >= maxHops) continue;
+    for (const { to, pk } of anAdj.get(u) || []) {
+      if (done.has(to) || bannedPairs.has(pk) || (to !== dst && bannedNodes.has(to))) continue;
+      const e = anPairBest(pk, L); if (!e) continue;
+      const nd = d + (e.money ? 0.9 : 1);
+      if (nd < (dist.get(to) ?? Infinity)) { dist.set(to, nd); hops.set(to, hops.get(u) + 1); prev.set(to, u); push([nd, to]); }
+    }
+  }
+  if (!done.has(dst)) return null;
+  const nodes = [dst]; while (nodes[0] !== src) nodes.unshift(prev.get(nodes[0]));
+  return nodes;
+}
+function anWeight(nodes, L) { let w = 0; for (let i = 0; i < nodes.length - 1; i++) w += anPairBest([nodes[i], nodes[i + 1]].sort().join("|"), L).money ? 0.9 : 1; return w; }
+// Yen's k shortest simple paths.
+function anKShortest(src, dst, L, K, maxHops, banned) {
+  const first = anDijkstra(src, dst, L, banned, new Set(), maxHops); if (!first) return [];
+  const A = [first], B = [], seen = new Set([first.join(">")]);
+  while (A.length < K) {
+    const last = A[A.length - 1];
+    for (let i = 0; i < last.length - 1; i++) {
+      const spur = last[i], rootP = last.slice(0, i + 1);
+      const bp = new Set();
+      for (const p of A) if (p.length > i + 1 && rootP.every((x, j) => p[j] === x)) bp.add([p[i], p[i + 1]].sort().join("|"));
+      const bn = new Set(banned); rootP.slice(0, -1).forEach(x => bn.add(x));
+      const sp = anDijkstra(spur, dst, L, bn, bp, maxHops - i); if (!sp) continue;
+      const full = rootP.concat(sp.slice(1)), k = full.join(">");
+      if (seen.has(k)) continue; seen.add(k);
+      B.push({ nodes: full, w: anWeight(full, L) });
+    }
+    if (!B.length) break;
+    B.sort((a, b) => a.w - b.w);
+    A.push(B.shift().nodes);
+  }
+  return A;
+}
+function anDescribe(nodes) {
+  const steps = [];
+  for (let i = 0; i < nodes.length - 1; i++) {
+    const pk = [nodes[i], nodes[i + 1]].sort().join("|"), es = anAdj.pairs.get(pk);
+    steps.push({ a: nodes[i], b: nodes[i + 1], pk, e: es[0], all: es });
+  }
+  const grade = Math.max(...steps.map(s => AN_LEVEL[s.e.label]));
+  return { nodes, steps, grade, hops: steps.length, money: steps.filter(s => s.e.money).length, indirect: steps.filter(s => anIndirect(s.e)).length, notes: anPayNotes(nodes, steps) };
+}
+function anRank(a, b) { return a.grade - b.grade || a.hops - b.hops || b.money - a.money; }
+function anPairPaths(a, b, banned, K) {
+  const out = [], seen = new Set();
+  for (let L = 0; L <= an.ev; L++) {
+    for (const nodes of anKShortest(a, b, L, K, an.hops, banned)) {
+      const k = nodes.join(">"); if (seen.has(k)) continue; seen.add(k);
+      out.push(anDescribe(nodes));
+    }
+    if (out.filter(p => p.grade <= L).length >= K) break;
+  }
+  return out.sort(anRank).slice(0, K);
+}
+// Rows: each From pick (groups split into one row per member). Columns: each To pick (a group stays one column).
+function anRows() { const r = []; an.from.forEach(c => (anIsSet(c) ? anMembers(c) : [c]).forEach(id => { if (store.nodes.has(id) && !r.includes(id)) r.push(id); })); return r; }
+function anBanned(row, members, target) {
+  const b = new Set(an.avoid); members.forEach(m => { if (m !== target) b.add(m); }); b.delete(row); b.delete(target); return b;
+}
+// Best path for one cell, plus the shortest path at any grade when it is shorter.
+function anCellBest(row, col) {
+  const members = anMembers(col);
+  if (members.includes(row)) return { self: true };
+  let best = null, shortest = null;
+  for (const m of members) {
+    const banned = anBanned(row, members, m);
+    for (let L = 0; L <= an.ev; L++) {
+      const nodes = anDijkstra(row, m, L, banned, new Set(), an.hops); if (!nodes) continue;
+      const p = anDescribe(nodes);
+      if (!best || anRank(p, best) < 0) best = p;
+      if (!shortest || p.hops < shortest.hops || (p.hops === shortest.hops && p.grade < shortest.grade)) shortest = p;
+    }
+  }
+  return { best, shortest: shortest && best && shortest.hops < best.hops ? shortest : null };
+}
+function anCellPaths(row, col) {
+  const members = anMembers(col); let all = [];
+  for (const m of members) if (m !== row) all = all.concat(anPairPaths(row, m, anBanned(row, members, m), AN_K));
+  const seen = new Set();
+  return all.sort(anRank).filter(p => { const k = p.nodes.join(">"); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, AN_K);
+}
+
+/* --- money passing through an organisation to someone who worked there --- */
+function anYears(es) {
+  const yrs = t => (String(t || "").match(/\b(19[5-9]\d|20[0-4]\d)\b/g) || []).map(Number);
+  // Years from the date field and from the claim text (e.g. "board member 2017 until 2024").
+  const ys = es.flatMap(e => yrs(e.date).concat(yrs(e.relation)));
+  return ys.length ? [Math.min(...ys), Math.max(...ys)] : null;
+}
+function anPayNotes(nodes, steps) {
+  const notes = [];
+  for (let i = 1; i < nodes.length - 1; i++) {
+    const org = store.nodes.get(nodes[i]); if (!org || org.type !== "org") continue;
+    for (const [mi, ri] of [[i - 1, i], [i, i - 1]]) {
+      const ms = steps[mi], rs = steps[ri];
+      const personId = rs.a === nodes[i] ? rs.b : rs.a, funderId = ms.a === nodes[i] ? ms.b : ms.a;
+      const person = store.nodes.get(personId);
+      if (!person || person.type !== "person") continue;
+      // The money step must be a direct tie with the money going into the organisation (line points funder -> org).
+      const moneyIn = ms.all.filter(e => e.money && !anIndirect(e) && e.s === funderId && e.t === org.id &&
+        !(store.nodes.get(funderId)?.type === "person" && (ROLE_RE.test(e.relation || "") || PAID_RE.test(e.relation || ""))));
+      if (!moneyIn.length) continue;
+      // Only direct role ties count: an indirect line means the person did not work at this organisation themselves.
+      const roleEs = rs.all.filter(e => !anIndirect(e) && ROLE_RE.test(e.relation || ""));
+      if (!roleEs.length) continue;
+      const rel = roleEs.map(e => e.relation || "").join(" · ");
+      const paid = roleEs.some(e => PAID_RE.test(e.relation || "") && !PAY_UNKNOWN_RE.test(e.relation || "") && !NOPAY_RE.test(e.relation || "") && !UNPAID_RE.test(e.relation || ""));
+      const unpaid = roleEs.some(e => UNPAID_RE.test(e.relation || "") || NOPAY_RE.test(e.relation || ""));
+      let label, text;
+      if (paid) { label = "fact"; text = `${shortName(personId)} was paid by ${shortName(org.id)} (on record). Whether that pay came from the money given by ${shortName(funderId)} is not shown.`; }
+      else if (unpaid) { label = "no_link"; text = `${shortName(personId)}'s role at ${shortName(org.id)} is listed as unpaid, or no pay was found.`; }
+      else { label = "speculation"; text = `Possible pay-through: ${shortName(org.id)} got money from ${shortName(funderId)} and ${shortName(personId)} held a role there. No pay to ${shortName(personId)} is on record.`; }
+      const my = anYears(moneyIn), ry = anYears(roleEs);
+      const yr = y => y[0] === y[1] ? String(y[0]) : y[0] + "-" + y[1];
+      const when = !my || !ry ? "Dates: not known for both ties." : (my[0] <= ry[1] && ry[0] <= my[1] ? `Dates overlap (money ${yr(my)}, role ${yr(ry)}).` : `Dates do not overlap (money ${yr(my)}, role ${yr(ry)}).`);
+      notes.push({ at: i, label, text, when, role: rel });
+    }
+  }
+  return notes;
+}
+
+/* --- panel UI --- */
+const anBox = document.getElementById("analysis");
+function anChips(list, field) {
+  return list.map((c, i) => `<span class="an-chip${anIsSet(c) ? " set" : ""}">${esc(anLabel(c))}${anIsSet(c) ? ` <span class="meta-line" style="display:inline">(${anMembers(c).length})</span>` : ""}<button type="button" data-rm="${field}" data-i="${i}" aria-label="Remove ${esc(anLabel(c))}">×</button></span>`).join("");
+}
+function anField(field, title, placeholder) {
+  return `<div class="an-field" data-field="${field}"><label for="an-in-${field}">${title}</label>
+    <div class="an-chips" id="an-chips-${field}">${anChips(an[field], field)}</div>
+    <input class="search" id="an-in-${field}" type="search" autocomplete="off" placeholder="${placeholder}" role="combobox" aria-expanded="false" aria-controls="an-sugg-${field}">
+    <ul class="an-sugg" id="an-sugg-${field}" role="listbox" hidden></ul></div>`;
+}
+function anRenderForm() {
+  anBox.innerHTML = `
+    <div><h3>Path analysis</h3><p class="empty">How many steps link the people or groups in <b>From</b> to those in <b>To</b>? Paths are ranked by how factual they are (a path is only as strong as its weakest step), then by fewest hops, then by most money steps. Direction does not count against a path, but each step shows which way the line points.</p></div>
+    ${anField("from", "From", "Type a name or group, e.g. judges…")}
+    <div class="an-quick"><a data-quick="from" data-code="set:judges">+ All 8 judges</a><a data-quick="from" data-code="tusk">+ Tusk</a><a data-quick="from" data-code="wawrykiewicz">+ Wawrykiewicz</a></div>
+    ${anField("to", "To", "Type a name or group, e.g. Soros…")}
+    <div class="an-quick"><a data-quick="to" data-code="set:soros">+ Soros network</a><a data-quick="to" data-code="batory">+ Batory</a><a data-quick="to" data-code="ned">+ NED</a><a data-quick="to" data-code="usaid">+ USAID</a></div>
+    ${anField("avoid", "Avoid (paths may not pass through)", "Type a name to keep paths away from it…")}
+    <p class="meta-line">The Tribunal is avoided by default, because every judge is linked to it and it would make every pair of judges two steps apart.</p>
+    <div class="an-opts">
+      <label>Max hops <select id="an-hops">${[1, 2, 3, 4, 5, 6].map(h => `<option value="${h}" ${an.hops === h ? "selected" : ""}>${h}</option>`).join("")}</select></label>
+      <label>Evidence <select id="an-ev">${AN_EVIDENCE.map((t, i) => `<option value="${i}" ${an.ev === i ? "selected" : ""}>${t}</option>`).join("")}</select></label>
+      <label class="row"><input type="checkbox" id="an-money" ${an.money ? "checked" : ""}><span class="name">Money ties only</span></label>
+    </div>
+    <div class="an-go"><button class="btn primary" id="an-run" type="button">Analyse</button><button class="btn" id="an-clear" type="button">Clear</button><span class="meta-line" id="an-status"></span></div>
+    <div id="an-out"></div>`;
+  anWireForm();
+  anRenderOut();
+}
+function anRefreshChips() { ["from", "to", "avoid"].forEach(f => { document.getElementById("an-chips-" + f).innerHTML = anChips(an[f], f); }); }
+function anSuggest(field, q) {
+  q = q.trim().toLowerCase(); if (!q) return [];
+  const taken = new Set(an[field]);
+  const sets = (field === "avoid" ? [] : anSets()).filter(s => !taken.has(s.code) && s.label.toLowerCase().includes(q)).slice(0, 4);
+  const deg = new Map(); store.edges.forEach(e => { deg.set(e.s, (deg.get(e.s) || 0) + 1); deg.set(e.t, (deg.get(e.t) || 0) + 1); });
+  const nodes = [...store.nodes.values()].filter(n => !taken.has(n.id) && !n.stub && (n.label.toLowerCase().includes(q) || n.id.includes(q)))
+    .sort((a, b) => (b.label.toLowerCase().startsWith(q) - a.label.toLowerCase().startsWith(q)) || ((deg.get(b.id) || 0) - (deg.get(a.id) || 0)))
+    .slice(0, 10).map(n => ({ code: n.id, label: n.label, hint: (n.type || "") + (n.group ? " · " + n.group.replace(/_/g, " ") : "") }));
+  return sets.concat(nodes);
+}
+function anWireForm() {
+  ["from", "to", "avoid"].forEach(field => {
+    const inp = document.getElementById("an-in-" + field), ul = document.getElementById("an-sugg-" + field);
+    let items = [], cur = 0;
+    const close = () => { ul.hidden = true; inp.setAttribute("aria-expanded", "false"); };
+    const draw = () => {
+      items = anSuggest(field, inp.value);
+      if (!items.length) { ul.innerHTML = inp.value.trim() ? `<li class="meta-line" aria-disabled="true">No match</li>` : ""; ul.hidden = !inp.value.trim(); return; }
+      cur = Math.min(cur, items.length - 1);
+      ul.innerHTML = items.map((s, i) => `<li role="option" data-i="${i}" aria-selected="${i === cur}"><span>${esc(s.label)}</span><span class="k">${esc(s.hint || "")}</span></li>`).join("");
+      ul.hidden = false; inp.setAttribute("aria-expanded", "true");
+    };
+    const pick = i => { const s = items[i]; if (!s) return; an[field].push(s.code); inp.value = ""; close(); anRefreshChips(); inp.focus(); };
+    inp.addEventListener("input", () => { cur = 0; draw(); });
+    inp.addEventListener("keydown", ev => {
+      if (ev.key === "ArrowDown") { ev.preventDefault(); cur = Math.min(cur + 1, items.length - 1); draw(); }
+      else if (ev.key === "ArrowUp") { ev.preventDefault(); cur = Math.max(cur - 1, 0); draw(); }
+      else if (ev.key === "Enter") { ev.preventDefault(); if (!ul.hidden && items.length) pick(cur); else if (!inp.value.trim()) anRun(); }
+      else if (ev.key === "Escape") { ev.stopPropagation(); close(); }
+      else if (ev.key === "Backspace" && !inp.value && an[field].length) { an[field].pop(); anRefreshChips(); }
+    });
+    inp.addEventListener("blur", () => setTimeout(close, 150));
+    ul.addEventListener("mousedown", ev => { const li = ev.target.closest("li[data-i]"); if (li) { ev.preventDefault(); pick(+li.dataset.i); } });
+  });
+  document.getElementById("an-hops").onchange = ev => { an.hops = +ev.target.value; };
+  document.getElementById("an-ev").onchange = ev => { an.ev = +ev.target.value; };
+  document.getElementById("an-money").onchange = ev => { an.money = ev.target.checked; };
+  document.getElementById("an-run").onclick = () => anRun();
+  document.getElementById("an-clear").onclick = () => { an.from = []; an.to = []; an.avoid = AN_DEFAULT_AVOID.filter(id => store.nodes.has(id)); an.grid = null; anSetFocus(null); anRenderForm(); };
+}
+anBox.addEventListener("click", ev => {
+  const rm = ev.target.closest("button[data-rm]");
+  if (rm) { an[rm.dataset.rm].splice(+rm.dataset.i, 1); anRefreshChips(); return; }
+  const q = ev.target.closest("a[data-quick]");
+  if (q) { const f = q.dataset.quick, c = q.dataset.code; if ((anIsSet(c) || store.nodes.has(c)) && !an[f].includes(c)) { an[f].push(c); anRefreshChips(); } return; }
+  const cell = ev.target.closest("button[data-cell]");
+  if (cell) { const [r, c] = cell.dataset.cell.split(",").map(Number); anOpenCell(r, c); return; }
+  const po = ev.target.closest("button[data-path]");
+  if (po) { const i = +po.dataset.path; an.pathOn = an.pathOn === i ? -1 : i; anFocusPaths(); anRenderPaths(); return; }
+  const nd = ev.target.closest("[data-an-node]");
+  if (nd) { select({ kind: "node", id: nd.dataset.anNode }); centerOn(nd.dataset.anNode); return; }
+  const pe = ev.target.closest("button[data-an-pair]");
+  if (pe) { const g = [...pairGroups.values()].find(g => g.pk === pe.dataset.anPair); if (g) select(g.es.length > 1 ? { kind: "pair", id: g.gk } : { kind: "edge", id: g.es[0].key }); }
+});
+function anRun(keepCell) {
+  const st = document.getElementById("an-status");
+  if (!an.from.length || !an.to.length) { st.textContent = "Add at least one name to From and one to To."; return; }
+  st.textContent = "Analysing…";
+  setTimeout(() => {
+    const t0 = performance.now();
+    anBuild();
+    const rows = anRows();
+    an.grid = { rows, cols: an.to.slice(), cells: rows.map(r => an.to.map(c => anCellBest(r, c))) };
+    const g0 = c => an.grid.cells[c[0]]?.[c[1]]?.best;
+    if (!keepCell) { an.cell = null; an.paths = null; an.pathOn = -1; anSetFocus(null); }
+    st.textContent = `${rows.length} × ${an.to.length} checked in ${Math.round(performance.now() - t0)} ms`;
+    anRenderOut();
+    if (keepCell && an.cell && g0(an.cell)) anOpenCell(an.cell[0], an.cell[1], an.pathOn);
+    else if (keepCell) { an.cell = null; an.pathOn = -1; }
+  }, 20);
+}
+function anRenderOut() {
+  const out = document.getElementById("an-out"); if (!out) return;
+  const g = an.grid; if (!g) { out.innerHTML = ""; return; }
+  const cellHTML = (c, r, k) => {
+    if (c.self) return `<span class="an-cell none"><span class="h">same</span></span>`;
+    if (!c.best) return `<span class="an-cell none" title="No path within ${an.hops} hops at this evidence level"><span class="h">none</span><span class="alt">within ${an.hops}</span></span>`;
+    const lab = AN_LEVEL_KEY[c.best.grade];
+    return `<button type="button" class="an-cell ${lab}" data-cell="${r},${k}" aria-pressed="${an.cell && an.cell[0] === r && an.cell[1] === k}" title="Best path: ${c.best.hops} hops, weakest step ${esc(LABEL_NAME[lab])}${c.best.money ? ", " + c.best.money + " money step(s)" : ""}">
+      <span class="h">${c.best.hops} hop${c.best.hops === 1 ? "" : "s"}</span><span class="g">${esc(LABEL_NAME[lab])}${c.best.money ? ` <span class="money-tag">$${c.best.money > 1 ? "×" + c.best.money : ""}</span>` : ""}</span>${c.best.indirect ? `<span class="alt">indirect step</span>` : ""}
+      ${c.shortest ? `<span class="alt">or ${c.shortest.hops} (${esc(LABEL_NAME[AN_LEVEL_KEY[c.shortest.grade]])})</span>` : ""}</button>`;
+  };
+  const found = g.cells.flat().filter(c => c.best).length, total = g.cells.flat().filter(c => !c.self).length;
+  out.innerHTML = `
+    <div class="section"><h2>Results</h2>
+    <p class="meta-line">${found} of ${total} pairs linked within ${an.hops} hop${an.hops === 1 ? "" : "s"} · ${esc(AN_EVIDENCE[an.ev])}${an.money ? " · money ties only" : ""}${an.avoid.length ? " · avoiding " + an.avoid.map(shortName).map(esc).join(", ") : ""}. Each cell shows the best path; "or N" means a shorter but less factual path exists. Click a cell for the steps and sources.</p>
+    <div class="an-grid-wrap"><table class="an-grid"><thead><tr><th></th>${g.cols.map(c => `<th scope="col">${esc(anLabel(c))}</th>`).join("")}</tr></thead>
+    <tbody>${g.rows.map((r, i) => `<tr><th scope="row"><span class="an-node" data-an-node="${esc(r)}">${esc(shortName(r))}</span></th>${g.cols.map((c, k) => `<td>${cellHTML(g.cells[i][k], i, k)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div>
+    <div id="an-paths"></div>`;
+  anRenderPaths();
+}
+function anOpenCell(r, c, pathOn = -1) {
+  an.cell = [r, c]; an.pathOn = pathOn;
+  an.paths = anCellPaths(an.grid.rows[r], an.grid.cols[c]);
+  document.querySelectorAll(".an-cell[data-cell]").forEach(b => b.setAttribute("aria-pressed", b.dataset.cell === r + "," + c));
+  anFocusPaths(); anRenderPaths();
+  document.getElementById("an-paths")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function anStepHTML(s) {
+  const dir = s.e.s === s.a ? `${esc(shortName(s.e.s))} → ${esc(shortName(s.e.t))}` : `${esc(shortName(s.e.t))} ← ${esc(shortName(s.e.s))}`;
+  const others = s.all.length - 1;
+  return `<li class="an-step ${s.e.label}${s.e.money ? " money" : ""}">
+    <span><span class="pill ${s.e.label}">${esc(LABEL_NAME[s.e.label])}</span>${anIndirect(s.e) ? ` <span class="tag">indirect</span>` : ""}${s.e.money ? ` <span class="money-tag">money${s.e.money.usd ? " ≈ " + fmtUSD(s.e.money.usd) : ""}</span>` : ""}${s.e.date ? ` <span class="meta-line" style="display:inline">${esc(s.e.date)}</span>` : ""}</span>
+    <span>${esc(s.e.relation || "")}</span>
+    <span class="dir">Line points: ${dir}</span>
+    <span class="srcs">${s.e.sources.length ? s.e.sources.map(u => /^https?:/i.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer" title="${esc(u)}">${esc(host(u) || u)}</a>` : `<span>${esc(u)}</span>`).join("") : `<span class="empty">no source listed</span>`}</span>
+    ${others ? `<button type="button" class="more" data-an-pair="${esc(s.pk)}">+${others} other claim${others === 1 ? "" : "s"} between these two</button>` : ""}</li>`;
+}
+function anPathHTML(p, i) {
+  const lab = AN_LEVEL_KEY[p.grade];
+  let body = `<li><span class="an-node" data-an-node="${esc(p.nodes[0])}">${esc(shortName(p.nodes[0]))}</span></li>`;
+  p.steps.forEach((s, k) => {
+    body += anStepHTML(s);
+    body += `<li><span class="an-node" data-an-node="${esc(s.b)}">${esc(shortName(s.b))}</span></li>`;
+    p.notes.filter(n => n.at === k + 1).forEach(n => { body += `<li class="an-note"><span><span class="pill ${n.label}">${esc(LABEL_NAME[n.label])}</span> <b>Money through ${esc(shortName(p.nodes[n.at]))}</b></span><span>${esc(n.text)}</span><span class="meta-line">${esc(n.when)} Role on record: ${esc(n.role)}</span></li>`; });
+  });
+  return `<div class="an-path${an.pathOn === i ? " on" : ""}"><div class="an-path-head"><b>Path ${i + 1}</b><span class="pill ${lab}">weakest: ${esc(LABEL_NAME[lab])}</span><span>${p.hops} hop${p.hops === 1 ? "" : "s"}</span>${p.money ? `<span class="money-tag">${p.money} money step${p.money === 1 ? "" : "s"}</span>` : ""}${p.indirect ? `<span class="tag">${p.indirect} indirect</span>` : ""}<button class="btn" type="button" data-path="${i}">${an.pathOn === i ? "Show all paths" : "Show only this on map"}</button></div><ol class="an-steps">${body}</ol></div>`;
+}
+function anRenderPaths() {
+  const box = document.getElementById("an-paths"); if (!box) return;
+  if (!an.cell || !an.paths) { box.innerHTML = ""; return; }
+  const r = an.grid.rows[an.cell[0]], c = an.grid.cols[an.cell[1]];
+  box.innerHTML = `<div class="section"><h2>${esc(shortName(r))} to ${esc(anLabel(c))}</h2>
+    <p class="meta-line">Top ${an.paths.length} path${an.paths.length === 1 ? "" : "s"}, best first. Lit up on the map; everything else is faded.</p></div>
+    ${an.paths.map(anPathHTML).join("") || `<p class="empty">No path found.</p>`}`;
+}
+// Highlight the chosen paths on the map. Their nodes and lines are drawn even when filters would hide them.
+function anFocusPaths() {
+  if (!an.paths?.length) { anSetFocus(null); return; }
+  const ps = an.pathOn >= 0 ? [an.paths[an.pathOn]] : an.paths;
+  const nodes = new Set(), edgeKeys = new Set();
+  ps.forEach(p => { p.nodes.forEach(n => nodes.add(n)); p.steps.forEach(s => edgeKeys.add(s.e.key)); });
+  anSetFocus({ nodes, edgeKeys });
+}
+function anSetFocus(f) {
+  state.anFocus = f;
+  if (f) state.selected = null;
+  render();
+  if (f) setTimeout(() => fitTo([...f.nodes]), 700);
+}
+function fitTo(ids) {
+  const ns = simNodes.filter(n => ids.includes(n.id)); if (!ns.length) return;
+  const { width, height } = svg.node().getBoundingClientRect();
+  const xs = ns.map(n => n.x), ys = ns.map(n => n.y);
+  const x0 = Math.min(...xs) - 80, x1 = Math.max(...xs) + 180, y0 = Math.min(...ys) - 60, y1 = Math.max(...ys) + 60;
+  const k = Math.min(1.8, .9 * Math.min(width / (x1 - x0), height / (y1 - y0)));
+  svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(width / 2 - k * (x0 + x1) / 2, height / 2 - k * (y0 + y1) / 2).scale(k));
+}
+function anExportHTML() {
+  if (!an.cell || !an.paths?.length) return "";
+  const r = an.grid.rows[an.cell[0]], c = an.grid.cols[an.cell[1]];
+  const ps = an.pathOn >= 0 ? [[an.paths[an.pathOn], an.pathOn]] : an.paths.map((p, i) => [p, i]);
+  return `<div class="ex-an"><h2 style="margin:12px 0 4px">Path analysis: ${esc(shortName(r))} to ${esc(anLabel(c))}</h2>
+    <p class="meta-line">Max ${an.hops} hops · ${esc(AN_EVIDENCE[an.ev])}${an.money ? " · money ties only" : ""}${an.avoid.length ? " · avoiding " + an.avoid.map(shortName).map(esc).join(", ") : ""}</p>
+    ${ps.map(([p, i]) => anPathHTML(p, i)).join("")}</div>`;
+}
+
 /* ---------- wiring ---------- */
 document.getElementById("panel").addEventListener("click", ev => {
   const h = ev.target.closest("button[data-hide]");
@@ -929,7 +1379,13 @@ function centerOn(id) {
   const k = Math.max(curK, 1.1);
   svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity.translate(width / 2 - k * n.x, height / 2 - k * n.y).scale(k));
 }
-["detail", "leads", "files"].forEach(t => document.getElementById("tab-" + t).onclick = () => { state.tab = t; renderPanel(); });
+["detail", "analysis", "leads", "files"].forEach(t => document.getElementById("tab-" + t).onclick = () => openTab(t));
+function openTab(t) {
+  state.tab = t;
+  if (t === "analysis" && state.selected) { state.selected = null; applyHighlight(); }
+  renderPanel();
+}
+document.getElementById("btn-analysis").onclick = () => { openTab("analysis"); document.getElementById("an-in-from")?.focus(); };
 document.querySelectorAll("[data-all]").forEach(a => a.onclick = () => { const set = state[a.dataset.all]; document.querySelectorAll(`#f-${a.dataset.all} input`).forEach(i => { i.checked = true; set.add(i.id.slice(4)); }); render(); });
 document.querySelectorAll("[data-none]").forEach(a => a.onclick = () => { const set = state[a.dataset.none]; set.clear(); document.querySelectorAll(`#f-${a.dataset.none} input`).forEach(i => i.checked = false); render(); });
 document.getElementById("only-solid").onclick = () => { state.labels = new Set(["fact", "alleged"]); document.querySelectorAll("#f-labels input").forEach(i => i.checked = state.labels.has(i.id.slice(4))); render(); };
@@ -976,6 +1432,18 @@ function viewToHash() {
   if (!state.usLayer) p.set("us", "0");
   if (!state.showDR) p.set("dr", "0");
   if (!state.showBenz) p.set("benz", "0");
+  if (state.tab === "analysis") p.set("tab", "analysis");
+  if (an.from.length) p.set("a_from", an.from.join(","));
+  if (an.to.length) p.set("a_to", an.to.join(","));
+  if (an.avoid && an.avoid.join(",") !== AN_DEFAULT_AVOID.join(",")) p.set("a_avoid", an.avoid.join(",") || "none");
+  if (an.grid) {
+    if (an.hops !== 4) p.set("a_hops", an.hops);
+    if (an.ev !== 1) p.set("a_ev", an.ev);
+    if (an.money) p.set("a_money", "1");
+    p.set("a_run", "1");
+    if (an.cell) p.set("a_cell", an.cell.join(","));
+    if (an.pathOn >= 0) p.set("a_path", an.pathOn);
+  }
   return p.toString();
 }
 function hashToView() {
@@ -993,7 +1461,15 @@ function hashToView() {
   if (p.get("us") === "0") { state.usLayer = false; document.getElementById("t-us").checked = false; }
   if (p.get("dr") === "0") { state.showDR = false; document.getElementById("t-dr").checked = false; }
   if (p.get("benz") === "0") { state.showBenz = false; document.getElementById("t-benz").checked = false; }
-  return { typesOff: list("types_off"), focus: p.get("focus") };
+  if (p.has("a_from")) an.from = list("a_from");
+  if (p.has("a_to")) an.to = list("a_to");
+  if (p.has("a_avoid")) an.avoid = p.get("a_avoid") === "none" ? [] : list("a_avoid");
+  if (p.has("a_hops")) an.hops = Math.min(6, Math.max(1, parseInt(p.get("a_hops"), 10) || 4));
+  if (p.has("a_ev")) an.ev = Math.min(3, Math.max(0, parseInt(p.get("a_ev"), 10) || 0));
+  if (p.get("a_money") === "1") an.money = true;
+  if (p.has("a_cell")) an.cell = list("a_cell").map(Number);
+  if (p.has("a_path")) an.pathOn = parseInt(p.get("a_path"), 10);
+  return { typesOff: list("types_off"), focus: p.get("focus"), tab: p.get("tab"), anRun: p.get("a_run") === "1" };
 }
 async function shareView() {
   const url = location.origin + location.pathname + (viewToHash() ? "#" + viewToHash() : "");
@@ -1047,10 +1523,12 @@ body { margin: 0; padding: 12px 16px; -webkit-print-color-adjust: exact; print-c
 .ex-foot { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; font-size: 11px; color: var(--muted); }
 .lg { display: inline-flex; align-items: center; gap: 5px; color: var(--ink); }
 .ex-print { position: fixed; top: 10px; right: 12px; } @media print { .ex-print { display: none; } }
+.ex-an .an-path-head .btn { display: none; } .ex-an .an-path { break-inside: avoid; margin-bottom: 6px; }
 </style></head><body>
 <button class="btn ex-print" onclick="window.print()">Print / Save as PDF</button>
 <div class="ex-head"><h1>Poland coup d'état relationship map</h1><p>${esc(notes)} · exported ${today}</p></div>
 <div class="ex-map">${new XMLSerializer().serializeToString(clone)}</div>
+${anExportHTML()}
 <div class="ex-foot">${legend}<span class="lg"><svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="var(--fact)" stroke-width="4"/></svg> Money (thicker = more)</span>${state.usLayer ? `<span class="lg"><svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><circle r="5" fill="none" stroke="var(--us)" stroke-width="2.5"/></svg> US politician or official</span>` : ""}<span>Source for every line: thatretireddude.github.io/poland</span></div>
 <script>window.addEventListener("load", () => setTimeout(() => window.print(), 600));<\/script>
 </body></html>`;
@@ -1086,7 +1564,10 @@ window.addEventListener("resize", () => { if (sim) { const { width, height } = s
     box.innerHTML = `<div><h3>Could not load the map data</h3><p>The research data files did not load. If you opened this page straight from disk, serve it over HTTP instead.</p><p>Try reloading the page.</p><p class="meta-line">${failed.map(esc).join("<br>")}</p></div>`;
     document.getElementById("main").appendChild(box);
   }
+  if (an.avoid == null) an.avoid = AN_DEFAULT_AVOID.filter(id => store.nodes.has(id));
+  if (shared?.tab === "analysis") state.tab = "analysis";
   render(); renderPanel();
+  if (shared?.anRun && state.tab === "analysis") anRun(!!an.cell);
   if (shared?.focus && store.nodes.has(shared.focus)) { select({ kind: "node", id: shared.focus }); setTimeout(() => centerOn(shared.focus), 1900); }
   else setTimeout(fit, 1800);
   if (failed.length && store.nodes.size) setStatus("could not load " + failed.join(", "));
