@@ -220,7 +220,7 @@ dd { margin: 0; overflow-wrap: anywhere; }
     <div class="section toggles">
       <h2>Key organisations</h2>
       <div id="f-orgs"></div>
-      <p class="meta-line">The 10 organisations with the most money in fact or alleged ties, in rough USD. Unticking one also hides what links only through it.</p>
+      <p class="meta-line">The 20 organisations with the most money in fact or alleged ties, in rough USD. Unticking one also hides what links only through it.</p>
     </div>
     <div class="section toggles">
       <h2>View</h2>
@@ -473,7 +473,7 @@ function topPeople(n) {
   return [...store.nodes.values()].filter(x => x.type === "person" && !isJudge(x) && !x.stub)
     .sort((a, b) => (deg.get(b.id) || 0) - (deg.get(a.id) || 0) || a.label.localeCompare(b.label)).slice(0, n).map(x => x.id);
 }
-// The ten organisations with the most money moving through them (fact and alleged ties, rough USD).
+// The twenty organisations with the most money moving through them (fact and alleged ties, rough USD).
 let KEY_ORGS = [], orgMoney = new Map();
 function topOrgs(n) {
   orgMoney = new Map();
@@ -878,7 +878,7 @@ function buildJudgeToggles() {
   document.getElementById("f-people").innerHTML = people.map(n => `
     <label class="row"><input type="checkbox" id="kp-${esc(n.id)}" data-id="${esc(n.id)}"><span class="name">${esc(n.label.replace(/\s*\(.*\)\s*$/, ""))}</span></label>`).join("");
   document.querySelectorAll("#f-people input").forEach(i => i.onchange = () => toggleHidden(i.dataset.id, !i.checked));
-  KEY_ORGS = topOrgs(10);
+  KEY_ORGS = topOrgs(20);
   document.getElementById("f-orgs").innerHTML = KEY_ORGS.map(id => store.nodes.get(id)).map(n => `
     <label class="row"><input type="checkbox" id="ko-${esc(n.id)}" data-id="${esc(n.id)}"><span class="name">${esc(n.label.replace(/\s*\(.*\)\s*$/, ""))}</span><span class="count">${fmtUSD(orgMoney.get(n.id))}</span></label>`).join("");
   document.querySelectorAll("#f-orgs input").forEach(i => i.onchange = () => toggleHidden(i.dataset.id, !i.checked));
