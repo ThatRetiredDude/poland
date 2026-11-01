@@ -618,8 +618,7 @@ function render() {
   });
   const anchors = anchorPositions(width, height);
   simNodes.forEach(n => {
-    // Trimmed path view drops the judges-in-a-row layout so paths can spread out.
-    const a = state.anchor && !(state.anFocus && state.anTrim) && anchors.get(n.id);
+    const a = state.anchor && anchors.get(n.id);
     n._anchor = a || null;
     if (a) { n.fx = a.x; n.fy = a.y; n.x = a.x; n.y = a.y; } else if (n._wasAnchored) { n.fx = null; n.fy = null; }
     n._wasAnchored = !!a;
@@ -688,8 +687,9 @@ function render() {
   placeLabels(curK);
 
   sim = d3.forceSimulation(simNodes)
-    .force("link", d3.forceLink(simLinks).id(d => d.id).distance(l => (isJudge(l.source) || isJudge(l.target)) ? 120 : 90).strength(l => SPRING.has(l.e.label) ? .45 : 0))
-    .force("charge", d3.forceManyBody().strength(d => isJudge(d) ? -800 : -340))
+    .force("link", d3.forceLink(simLinks).id(d => d.id).distance(l => ((isJudge(l.source) || isJudge(l.target)) ? 120 : 90) * (state.anFocus && state.anTrim ? 1.6 : 1)).strength(l => SPRING.has(l.e.label) ? .45 : 0))
+    // The trimmed path view has few nodes, so they push apart harder to keep names readable.
+    .force("charge", d3.forceManyBody().strength(d => (isJudge(d) ? -800 : -340) * (state.anFocus && state.anTrim ? 2.5 : 1)))
     .force("collide", d3.forceCollide(d => radius(d) + 6))
     .force("x", d3.forceX(width / 2).strength(.035)).force("y", d3.forceY(height / 2).strength(.045))
     .on("tick", ticked);
@@ -1330,7 +1330,8 @@ function anRun(keepCell) {
     if (!keepCell) { an.cell = null; an.paths = null; an.pathOn = -1; anFocusGrid(); }
     st.textContent = `${rows.length} × ${an.to.length} checked in ${Math.round(performance.now() - t0)} ms`;
     anRenderOut();
-    if (keepCell && an.cell && g0(an.cell)) anOpenCell(an.cell[0], an.cell[1], an.pathOn);
+    if (an._bridgeFromLink) { const id = an._bridgeFromLink; an._bridgeFromLink = null; anOpenBridge(id); }
+    else if (keepCell && an.cell && g0(an.cell)) anOpenCell(an.cell[0], an.cell[1], an.pathOn);
     else if (keepCell) { an.cell = null; an.pathOn = -1; }
   }, 20);
 }
@@ -1515,9 +1516,13 @@ function centerOn(id) {
   svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity.translate(width / 2 - k * n.x, height / 2 - k * n.y).scale(k));
 }
 ["detail", "analysis", "leads", "files"].forEach(t => document.getElementById("tab-" + t).onclick = () => openTab(t));
+// Leaving the Path analysis tab puts the full map back; coming back re-applies the path view.
 function openTab(t) {
+  const was = state.tab;
   state.tab = t;
   if (t === "analysis" && state.selected) { state.selected = null; applyHighlight(); }
+  if (was === "analysis" && t !== "analysis" && state.anFocus) { state.anFocus = null; render(); }
+  if (t === "analysis" && was !== "analysis" && an.grid && !state.anFocus) { an.paths ? anFocusPaths() : anFocusGrid(); }
   renderPanel();
 }
 document.getElementById("btn-analysis").onclick = () => { openTab("analysis"); document.getElementById("an-in-from")?.focus(); };
@@ -1584,6 +1589,7 @@ function viewToHash() {
     if (!state.anTrim) p.set("a_trim", "0");
     p.set("a_run", "1");
     if (an.cell) p.set("a_cell", an.cell.join(","));
+    if (an.bridge) p.set("a_bridge", an.bridge);
     if (an.pathOn >= 0) p.set("a_path", an.pathOn);
   }
   return p.toString();
@@ -1618,6 +1624,7 @@ function hashToView() {
   if (p.get("a_trim") === "0") state.anTrim = false;
   if (p.has("a_cell")) an.cell = list("a_cell").map(Number);
   if (p.has("a_path")) an.pathOn = parseInt(p.get("a_path"), 10);
+  if (p.has("a_bridge")) an._bridgeFromLink = p.get("a_bridge");
   return { typesOff: list("types_off"), focus: p.get("focus"), tab: p.get("tab"), anRun: p.get("a_run") === "1" };
 }
 async function shareView() {
@@ -1716,7 +1723,7 @@ window.addEventListener("resize", () => { if (sim) { const { width, height } = s
   if (an.avoid == null) an.avoid = AN_DEFAULT_AVOID.filter(id => store.nodes.has(id));
   if (shared?.tab === "analysis") state.tab = "analysis";
   render(); renderPanel();
-  if (shared?.anRun && state.tab === "analysis") anRun(!!an.cell);
+  if (shared?.anRun && state.tab === "analysis") anRun(!!an.cell || !!an._bridgeFromLink);
   if (shared?.focus && store.nodes.has(shared.focus)) { select({ kind: "node", id: shared.focus }); setTimeout(() => centerOn(shared.focus), 1900); }
   else setTimeout(fit, 1800);
   if (failed.length && store.nodes.size) setStatus("could not load " + failed.join(", "));
