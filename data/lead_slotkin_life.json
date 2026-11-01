@@ -2,7 +2,7 @@
  "meta": {
   "title": "Elissa Slotkin: life timeline and every point where it touches the map",
   "as_of": "2026-11-01",
-  "notes": "Companion to lead_slotkin_sikorski.json. Not merged into poland_tk_graph.json. Main new ties: on 10 Sep 2026 the delegation Slotkin co-chaired met Ombudsman Gregorczyk-Abram (Free Courts co-founder) on the rule of law in Poland (edge in lead_curtis.json). And on 9 Sep 2026 Slotkin and Tillis met Justice Minister Żurek and deputy ministers Ejchart and Mazur, and the Justice Ministry says the Constitutional Tribunal crisis was discussed. No money, job or board tie between Slotkin and any judge, Tusk, Wawrykiewicz, NED, OSF or USAID was found. Campaign-finance checks are incomplete (FEC/OpenSecrets blocked)."
+  "notes": "Companion to lead_slotkin_sikorski.json. Not merged into poland_tk_graph.json. Main new ties: on 10 Sep 2026 the delegation Slotkin co-chaired met Ombudsman Gregorczyk-Abram (Free Courts co-founder) on the rule of law in Poland (edge in lead_curtis.json). And on 9 Sep 2026 Slotkin and Tillis met Justice Minister Żurek and deputy ministers Ejchart and Mazur, and the Justice Ministry says the Constitutional Tribunal crisis was discussed. No money, job or board tie between Slotkin and any judge, Tusk, Wawrykiewicz, NED, OSF or USAID was found. Campaign-finance checks are incomplete (FEC/OpenSecrets blocked). Party and money layer added 2026-11-01 from FEC bulk data: Democratic Party, DSCC, DCCC, Biden, Obama, SMP, WinSenate, Democracy PAC (Soros) and Fund for Policy Reform (OSF)."
  },
  "timeline": [
   {
@@ -282,7 +282,7 @@
    "kind": "claim",
    "event": "Reported as a possible Biden pick for CIA Director (not appointed).",
    "sources": [
-    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director"
+    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director", "https://whmi.com/news/article/38179"
    ],
    "map_touch": "cia"
   },
@@ -534,6 +534,81 @@
    "role": "Sponsor of the Aug 2022 Israel/West Bank staff trip; executive director Donna Baranski-Walker",
    "sources": [
     "https://disclosures-clerk.house.gov/gtimages/ST/2022/500025366.pdf"
+   ]
+  },
+  {
+   "id": "dem_party",
+   "type": "org",
+   "group": "us_party",
+   "label": "Democratic Party (DNC and state/campaign committees)",
+   "sources": [
+    "https://democrats.org/"
+   ]
+  },
+  {
+   "id": "dscc",
+   "type": "org",
+   "group": "us_party",
+   "label": "DSCC (Democratic Senatorial Campaign Committee)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00042366/"
+   ]
+  },
+  {
+   "id": "dccc",
+   "type": "org",
+   "group": "us_party",
+   "label": "DCCC (Democratic Congressional Campaign Committee)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00000935/"
+   ]
+  },
+  {
+   "id": "biden",
+   "type": "person",
+   "group": "us_politics",
+   "label": "Joe Biden (US President 2021-2025; Vice President 2009-2017)",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Joe_Biden"
+   ]
+  },
+  {
+   "id": "smp",
+   "type": "org",
+   "group": "us_pac",
+   "label": "Senate Majority PAC (SMP, Democratic super PAC)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00484642/"
+   ]
+  },
+  {
+   "id": "winsenate",
+   "type": "org",
+   "group": "us_pac",
+   "label": "WinSenate (Democratic super PAC funded by SMP)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00865444/"
+   ]
+  },
+  {
+   "id": "democracy_pac",
+   "type": "org",
+   "group": "us_pac",
+   "label": "Democracy PAC / Democracy PAC II (Soros super PACs)",
+   "role": "Created by George Soros (FactCheck.org); treasurer Michael Vachon, Soros adviser",
+   "sources": [
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2",
+    "https://www.fec.gov/data/committee/C00693382/",
+    "https://www.fec.gov/data/committee/C00786624/"
+   ]
+  },
+  {
+   "id": "fund_policy_reform",
+   "type": "org",
+   "group": "foreign_funder",
+   "label": "Fund for Policy Reform (Open Society Foundations entity)",
+   "sources": [
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
    ]
   }
  ],
@@ -961,6 +1036,166 @@
    "sources": [
     "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
    ]
+  },
+  {
+   "source": "slotkin",
+   "target": "dem_party",
+   "relation": "Democrat. FEC candidate records list her party as DEM in every race: House MI-8 2018 and 2020, MI-7 2022 (ID H8MI08102), Senate 2024 (ID S4MI00470). Sits with the Senate Democratic caucus. Michigan Democratic Party made a $36,414 coordinated expenditure for her (23 Sep 2024).",
+   "confidence": "fact",
+   "date": "2017-",
+   "sources": [
+    "https://www.fec.gov/data/candidate/H8MI08102/",
+    "https://www.fec.gov/data/candidate/S4MI00470/",
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "dem_party",
+   "relation": "Spoke on the final night (Day 4, 22 Aug 2024) of the Democratic National Convention in Chicago, as the party's Senate nominee in Michigan, backing Kamala Harris",
+   "confidence": "fact",
+   "date": "2024-08-22",
+   "sources": [
+    "https://www.cbsnews.com/detroit/news/michigan-rep-elissa-slotkin-democratic-national-convention",
+    "https://nbcchicago.com/dnc-chicago-2024/rep-elissa-slotkin-says-harris-wont-shy-away-from-futures-biggest-challenges/3529969/?amp=1"
+   ]
+  },
+  {
+   "source": "dem_party",
+   "target": "slotkin",
+   "relation": "Chosen by Democratic congressional leaders to give the party's official response to Trump's address to Congress, 4 Mar 2025",
+   "confidence": "fact",
+   "date": "2025-03-04",
+   "sources": [
+    "https://www.clickondetroit.com/news/local/2025/02/27/michigan-sen-elissa-slotkin-to-deliver-democratic-response-to-trumps-joint-address", "https://m.washingtontimes.com/news/2025/feb/27/democrats-pick-michigan-elissa-slotkin-counter-donald-trumps-address/",
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
+   ]
+  },
+  {
+   "source": "dscc",
+   "target": "slotkin",
+   "relation": "Coordinated party expenditure of $1,959,000 for her Senate race (20 Sep 2024), plus $12,332,937 in independent expenditures against her opponent Mike Rogers (2024). FEC bulk data (pas2 file, 2024 cycle).",
+   "confidence": "fact",
+   "date": "2024",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00042366/"
+   ]
+  },
+  {
+   "source": "dccc",
+   "target": "slotkin",
+   "relation": "Coordinated expenditures of $288,537 and direct contributions of $28,537 (plus $5,118 in kind) for her House races, 2018-2022. FEC bulk data (pas2 files).",
+   "confidence": "fact",
+   "date": "2018-2022",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00000935/"
+   ]
+  },
+  {
+   "source": "obama",
+   "target": "slotkin",
+   "relation": "Served in the Obama administration Jan 2009-Jan 2017: NSC Acting Senior Director for Iraq (Jan-Jul 2009), State Dept senior adviser on Iraq (2009-11), then Pentagon posts ending as Acting Assistant Secretary of Defense for International Security Affairs (2015-17)",
+   "confidence": "fact",
+   "date": "2009-2017",
+   "sources": [
+    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
+    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
+   ]
+  },
+  {
+   "source": "biden",
+   "target": "slotkin",
+   "relation": "Biden campaigned for her in her 2018 House race (Lansing City Pulse: 'Last year Biden campaigned for Slotkin'). While he was Vice President (2009-17) she served in the Obama-Biden administration. Reported in Nov 2020 (Fox News, WHMI) as a possible pick for his CIA director (not appointed).",
+   "confidence": "fact",
+   "date": "2018-2020",
+   "sources": [
+    "https://www.lansingcitypulse.com/stories/slotkinendorses-biden-as-michigan-primary-approaches,13928",
+    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director", "https://whmi.com/news/article/38179"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "biden",
+   "relation": "Endorsed him for president before the Mar 2020 Michigan primary: 'That is why I support Joe Biden' (said she cast an absentee ballot for him; Lansing City Pulse, Thu 5 Mar, year inferred as 2020). In 2024 told donors 'Right now, President Biden is behind Trump in all of our polling and this Senate race is in a dead heat' (donor call reported 10 Jul 2024) and skipped his 12 Jul 2024 Detroit stop. After he withdrew (21 Jul 2024): 'Over the next four months, everyone who cares about our fragile democracy — Democrats, Independents and Republicans alike — must work together to defend it by electing a Democratic president this November.'",
+   "confidence": "fact",
+   "date": "2020-2024",
+   "sources": [
+    "https://www.lansingcitypulse.com/stories/slotkinendorses-biden-as-michigan-primary-approaches,13928",
+    "https://www.washingtonexaminer.com/news/3076882/slotkin-says-biden-trails-trump-michigan-polling/",
+    "https://gazette.com/2024/07/12/democrat-elissa-slotkin-to-snub-biden-detroit-visit-amid-heated-senate-race/",
+    "https://www.wkar.org/wkar-news/2024-07-21/whitmer-michigan-democrats-react-to-end-of-biden-presidential-campaign"
+   ]
+  },
+  {
+   "source": "winsenate",
+   "target": "slotkin",
+   "relation": "Independent expenditures of $1,898,849 supporting her and $21,116,959 opposing Mike Rogers in the 2024 Michigan Senate race. FEC bulk data (pas2 file, 2024).",
+   "confidence": "fact",
+   "date": "2024",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00865444/"
+   ]
+  },
+  {
+   "source": "smp",
+   "target": "winsenate",
+   "relation": "Transferred $312,850,000 to WinSenate in 38 transfers during the 2024 cycle (from 1 Feb 2024). FEC bulk data (oth file, 2024).",
+   "confidence": "fact",
+   "date": "2024",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00484642/",
+    "https://www.fec.gov/data/committee/C00865444/"
+   ]
+  },
+  {
+   "source": "democracy_pac",
+   "target": "smp",
+   "relation": "Democracy PAC gave Senate Majority PAC $10,500,000 in 5 contributions in 2024 (from 26 Jan 2024); Democracy PAC II gave $2,500,000 (22 Jun 2023). FEC bulk data (oth file, 2024 cycle).",
+   "confidence": "fact",
+   "date": "2023-2024",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00693382/",
+    "https://www.fec.gov/data/committee/C00786624/",
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
+   ]
+  },
+  {
+   "source": "democracy_pac",
+   "target": "slotkin",
+   "relation": "Indirect: Soros's Democracy PAC money went to Senate Majority PAC, which funded WinSenate, which spent $1.9m for Slotkin and $21.1m against Rogers in 2024. The money is pooled at each step, so no source shows which dollars reached her race. No direct Democracy PAC spending for or against her appears in FEC data.",
+   "confidence": "fact",
+   "tie": "indirect",
+   "via": "smp, winsenate",
+   "date": "2024",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
+   ]
+  },
+  {
+   "source": "fund_policy_reform",
+   "target": "democracy_pac",
+   "relation": "FactCheck.org: 'Democracy PAC is solely funded by Soros and the Fund for Policy Reform'; as of 30 Jun 2024 it had received $60.7m for the 2024 cycle, 'nearly all of it was donated by the Fund for Policy Reform'.",
+   "confidence": "fact",
+   "date": "2024",
+   "sources": [
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
+   ]
+  },
+  {
+   "source": "osf",
+   "target": "fund_policy_reform",
+   "relation": "FactCheck.org: 'The Fund for Policy Reform is one of six Open Society Foundations'; Soros is its founder and board chairman",
+   "confidence": "fact",
+   "sources": [
+    "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
+   ]
   }
  ],
  "checked_no_link": [
@@ -1045,6 +1280,14 @@
     "https://www.nonviolenceinternational.net/donate_hlt",
     "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/",
     "https://zenpeacemakers.org/projects/holy-land-trust"
+   ]
+  },
+  {
+   "subject": "slotkin",
+   "searched_for": "DNC (national committee) money to her campaigns, and Democracy PAC / Soros direct spending for her (FEC bulk pas2 files 2018-2024)",
+   "result": "none found: no DNC contributions or coordinated expenditures; party money came from the DSCC, DCCC and Michigan Democratic Party. No Democracy PAC transactions for or against her; its money reached her race only indirectly via SMP and WinSenate.",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ]
   }
  ],
