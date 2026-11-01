@@ -1,0 +1,326 @@
+{
+ "meta": {
+  "title": "Thom Tillis: should he be on the map, and what ties him to it",
+  "as_of": "2026-11-01",
+  "notes": "Tillis was already a node (lead_slotkin_sikorski.json). This file adds what his Sep 2026 Poland visit touched. New find: on 10 Sep 2026 the delegation led by Slotkin, Tillis and Curtis met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder, and Judge Korwin-Piotrowska's ECHR lawyer) on the rule of law in Poland. On 9 Sep he and Slotkin met Justice Minister Żurek, Ejchart and Mazur, who say the TK crisis was discussed. He then spoke at YES 2026 in Kyiv (organised by the Victor Pinchuk Foundation; the Soros-founded International Renaissance Foundation was a listed partner). No money, job, board seat or grant tie between Tillis and NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz was found. What he said in the Warsaw meetings is not public; any role in the 30-31 Oct TK events is speculation with no source. Shared ids with lead_curtis.json: tillis->gregorczyk_abram, tillis->yes_forum, curtis->tillis and the YES/Pinchuk/IRF nodes and edges live in that file, so both files should go live together."
+ },
+ "timeline": [
+  {
+   "date": "2014-11",
+   "kind": "job",
+   "event": "Elected US Senator (R-North Carolina); took office Jan 2015. Earlier: Speaker of the NC House 2011-2014; IBM / PwC management consultant.",
+   "sources": [
+    "https://www.csce.gov/commissioner-or-staff-bios/senator-thom-tillis-north-carolina"
+   ]
+  },
+  {
+   "date": "2024-02-18",
+   "kind": "trip",
+   "event": "Budapest: Senate delegation (Shaheen, Tillis, Murphy, Van Hollen; Intellinews says Shaheen led) pressed Hungary to ratify Sweden's NATO entry. Hungarian government and Fidesz MPs declined to meet them. Shaheen and Tillis authored a resolution condemning 'democratic backsliding in Hungary'.",
+   "quote": {
+    "original": "With accession, Hungary and your prime minister will be doing a great service to freedom-loving nations worldwide",
+    "language": "en",
+    "where": "Tillis, news conference at the US Embassy Budapest, 18 Feb 2024 (AP)"
+   },
+   "sources": [
+    "https://www.pbs.org/newshour/politics/hungarian-government-declines-to-meet-u-s-senators-seeking-approval-for-swedens-nato-bid",
+    "https://www.intellinews.com/hungarian-government-officials-fidesz-cold-shoulder-us-bipartisan-delegation-visiting-budapest-312888",
+    "https://m.washingtontimes.com/news/2024/feb/18/jeanne-shaheen-thom-tillis-to-submit-resolution-co/"
+   ]
+  },
+  {
+   "date": "2025-06-05",
+   "kind": "role",
+   "event": "Introduced S.1980 'To establish the Senate NATO Observer Group' (with Shaheen). The Polish MFA calls him Co-Chair of the Senate NATO Observer Group.",
+   "sources": [
+    "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm",
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation"
+   ]
+  },
+  {
+   "date": "2025-06-29",
+   "kind": "life",
+   "event": "Announced he will not seek re-election in 2026 (after opposing Trump's budget bill). His term ends Jan 2027.",
+   "sources": [
+    "https://news.ballotpedia.org/2025/06/30/sen-thom-tillis-announces-he-will-not-seek-re-election-to-the-u-s-senate-in-2026/"
+   ]
+  },
+  {
+   "date": "2026-06-17",
+   "kind": "speech",
+   "event": "Atlantic Council (Transatlantic Security Initiative, Scowcroft Center), Washington: Shaheen and Tillis, as NATO Observer Group co-chairs, on the NATO summit in Ankara; moderator Torrey Taussig. No Poland, Hungary or courts content in the transcript text read.",
+   "quote": {
+    "original": "what we don't want to have in Ankara is some discussion of us reducing our commitment to NATO.",
+    "language": "en",
+    "where": "Atlantic Council event page transcript, 17 Jun 2026"
+   },
+   "sources": [
+    "https://www.atlanticcouncil.org/event/senators-jeanne-shaheen-and-thom-tillis-on-the-upcoming-nato-summit-in-ankara/"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "meeting",
+   "event": "Warsaw, Defence Ministry: secretary of state Paweł Zalewski met Slotkin and Tillis (bilateral and allied ties, security, defence industry).",
+   "quote": {
+    "original": "9 września 2026 r. sekretarz stanu w MON Paweł Zalewski spotkał się z senatorem ze Stanu Michigan Elissą Slotkin oraz senatorem z Karoliny Północnej Thom'em Tillis'em.",
+    "translation_literal": "On 9 September 2026 the secretary of state in MON Paweł Zalewski met with the senator from the State of Michigan Elissa Slotkin and the senator from North Carolina Thom Tillis.",
+    "language": "pl",
+    "where": "Defence Ministry release, 09.09.2026"
+   },
+   "sources": [
+    "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "meeting",
+   "event": "Warsaw, Justice Ministry: Żurek, Ejchart, Mazur and Mirosław Iwanicki (National Prosecutor's Office) met Slotkin and Tillis, their advisers and US Embassy staff. Topics: restoring the rule of law, the court reform bill, the KRS, and the TK crisis.",
+   "quote": {
+    "original": "Stronę amerykańską reprezentowali senator Elissa Slotkin oraz senator Thom Tillis wraz z doradcami oraz przedstawicielami Ambasady USA w Warszawie. [...] Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego.",
+    "translation_literal": "The American side was represented by senator Elissa Slotkin and senator Thom Tillis together with advisers and representatives of the US Embassy in Warsaw. [...] Discussed moreover [was] the crisis around the Constitutional Tribunal.",
+    "language": "pl",
+    "where": "Justice Ministry release, 10.09.2026"
+   },
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "meeting",
+   "event": "Warsaw, Ombudsman's Office: Ombudsman Sylwia Gregorczyk-Abram and deputy Adam Krzywoń met the delegation led by Slotkin, Tillis and Curtis on the rule of law in Poland.",
+   "quote": {
+    "original": "Rozmowa dotyczyła aktualnej sytuacji i wyzwań w obszarze praworządności w Polsce. [...] Delegacji amerykańskiej przewodniczyli senatorowie Elissa Slotkin, Thom Tillis oraz John Curtis, którym towarzyszyli współpracownicy oraz przedstawicielka Ambasady USA w Polsce.",
+    "translation_literal": "The conversation concerned the current situation and challenges in the area of the rule of law in Poland. [...] The American delegation was led by senators Elissa Slotkin, Thom Tillis and John Curtis, who were accompanied by co-workers and a [female] representative of the US Embassy in Poland.",
+    "language": "pl",
+    "where": "Ombudsman's Office (BIP RPO), published 2026-09-10"
+   },
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "meeting",
+   "event": "Warsaw: Deputy PM / Foreign Minister Sikorski met Slotkin, Tillis and Curtis (security, Russia/Ukraine, bilateral ties; no courts item in the readout). The MFA names Tillis as Co-Chair of the Senate NATO Observer Group.",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "kind": "speech",
+   "event": "Kyiv: Tillis, Curtis and Armstrong spoke at the YES 2026 Annual Meeting (11-12 Sep), organised by the Victor Pinchuk Foundation; partners per the organisers' release: General Cherry, With Honor, UFORCE, International Renaissance Foundation. Sikorski also spoke. Tillis's panel: 'The US Senate's Ukraine Policy - A Tribute to Lindsey Graham'. Curtis's office says the Republican delegation (Curtis, Tillis, Armstrong; Slotkin joined in Poland) went on to Kharkiv.",
+   "quote": {
+    "original": "You can't flip a switch and all of a sudden double the capacity of interceptors overnight.",
+    "language": "en",
+    "where": "YES organisers' day-1 summary, 13 Sep 2026"
+   },
+   "sources": [
+    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
+    "https://yes-ukraine.org/en/news/peace-through-strength-now-pidsumki-pershogo-dnya-shchorichnoyi-zustrichi-yaltinskoyi-yevropeyskoyi-strategiyi-yes-31444",
+    "https://www.kyivpost.com/post/84397",
+    "https://www.curtis.senate.gov/newsroom/press-releases/curtis-joins-tillis-armstrong-on-delegation-to-ukraine/"
+   ]
+  }
+ ],
+ "nodes": [],
+ "node_updates": {
+  "tillis": {
+   "label": "Thom Tillis (US Senator, R-North Carolina)",
+   "role": "US Senator since Jan 2015, not running again in 2026; Armed Services (chairs Personnel subcommittee), Judiciary and other committees; Co-Chair, Senate NATO Observer Group; Helsinki Commission commissioner; co-chair, Senate Human Rights Caucus (with Coons)",
+   "sources": [
+    "https://www.csce.gov/commissioner-or-staff-bios/senator-thom-tillis-north-carolina",
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm",
+    "https://news.ballotpedia.org/2025/06/30/sen-thom-tillis-announces-he-will-not-seek-re-election-to-the-u-s-senate-in-2026/"
+   ]
+  }
+ },
+ "edges": [
+  {
+   "source": "tillis",
+   "target": "ejchart",
+   "relation": "Deputy Justice Minister Ejchart (Free Courts co-founder) took part in the 9 Sep 2026 Justice Ministry meeting with Tillis and Slotkin",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "mazur",
+   "relation": "Deputy Justice Minister Mazur took part in the 9 Sep 2026 Justice Ministry meeting with Tillis and Slotkin",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "tk",
+   "relation": "The TK crisis was on the agenda of the 9 Sep 2026 Justice Ministry meeting he attended ('Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego' / literal: 'Discussed moreover [was] the crisis around the Constitutional Tribunal'). The release does not say what he said.",
+   "confidence": "fact",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "tk",
+   "relation": "Did the 9 Sep meeting discuss or encourage the plan carried out on 30-31 Oct 2026? No source says so.",
+   "confidence": "speculation",
+   "date": "2026-09-09",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "rpo_office",
+   "relation": "Delegation meeting at the Ombudsman's Office, 10 Sep 2026, with Ombudsman Gregorczyk-Abram and deputy Adam Krzywoń",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "sikorski",
+   "relation": "Met Deputy PM / Foreign Minister Sikorski with Slotkin and Curtis, 10 Sep 2026 (security, Ukraine, bilateral ties; no courts item in the MFA readout)",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "nato",
+   "relation": "Co-Chair of the Senate NATO Observer Group (Polish MFA); sponsor of S.1980 to set the group up in law (5 Jun 2025, with Shaheen)",
+   "confidence": "fact",
+   "date": "2025-06-05",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "atlantic_council",
+   "relation": "Spoke at an Atlantic Council event on the NATO Ankara summit, 17 Jun 2026, as NATO Observer Group co-chair, with Shaheen; host programme: Transatlantic Security Initiative (dir. Torrey Taussig). No payment to him reported.",
+   "confidence": "fact",
+   "date": "2026-06-17",
+   "sources": [
+    "https://www.atlanticcouncil.org/event/senators-jeanne-shaheen-and-thom-tillis-on-the-upcoming-nato-summit-in-ankara/"
+   ]
+  },
+  {
+   "source": "sikorski",
+   "target": "yes_forum",
+   "relation": "Listed speaker at YES 2026, Kyiv",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
+    "https://yes-ukraine.org/en/news/peace-through-strength-now-pidsumki-pershogo-dnya-shchorichnoyi-zustrichi-yaltinskoyi-yevropeyskoyi-strategiyi-yes-31444"
+   ]
+  },
+  {
+   "source": "pinchuk_foundation",
+   "target": "osf",
+   "relation": "The Pinchuk Foundation's partners page lists the Open Society Institute among organisations it collaborates with (no money flow stated)",
+   "confidence": "fact",
+   "date": "",
+   "sources": [
+    "https://pinchukfund.org/en/about_fund/partners/"
+   ]
+  },
+  {
+   "source": "tillis",
+   "target": "osf",
+   "relation": "Indirect only: he spoke at YES 2026, which listed the OSF-network International Renaissance Foundation as a partner. No OSF payment to Tillis found.",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.kyivpost.com/post/84397",
+    "https://www.irf.ua/en/about/"
+   ],
+   "indirect": true
+  }
+ ],
+ "checked_no_link": [
+  {
+   "subject": "tillis",
+   "searched_for": "any job, grant, fellowship or board seat at NED, IRI, NDI, OSF, Batory, Free Courts, Iustitia, Themis, Carnegie, GMF or USAID",
+   "result": "none found; he is not on the IRI board (IRI board pages list Senators Graham, Ernst and Cotton)",
+   "sources": [
+    "https://www.iri.org/news/person_type/board-members",
+    "https://www.iri.org/news/person_type/board-members/page/2",
+    "https://www.csce.gov/commissioner-or-staff-bios/senator-thom-tillis-north-carolina"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "payments or meetings with any of the 8 TK judges, Tusk or Wawrykiewicz",
+   "result": "none found. Closest path: Tillis met Ombudsman Gregorczyk-Abram, who was Judge Korwin-Piotrowska's ECHR lawyer (2022-24)",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "campaign donors tied to the map (Soros, Democracy PAC, Poland/Ukraine-linked donors)",
+   "result": "none found in the sources read. Named 2019 donors: Adelson, Zell, Singer, Schwarzman, Leonard Leo, Calabresi, Hamm, DeVos family, pharma CEOs. FEC 2015-2020 receipts $26.7m. Full FEC itemised search not done.",
+   "sources": [
+    "https://ncnewsline.com/2019/08/23/gop-megadonors-fill-tillis-campaign-coffers/",
+    "https://ncnewsline.com/briefs/betsy-devos-family-boosts-tillis-2020-campaign/",
+    "https://www.fec.gov/data/candidate/S4NC00162/?cycle=2020"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "a press release or statement by Tillis on Poland, Polish courts or the TK (2025-26)",
+   "result": "none on his press-release page 1 (Jul-Oct 2026); X posts not checked",
+   "sources": [
+    "https://www.tillis.senate.gov/press-releases"
+   ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "a Budapest stop on the Sep 2026 trip",
+   "result": "no source puts Tillis in Budapest in Sep 2026 (Slotkin's own remarks say she went). Tillis's documented Hungary trip is Feb 2024.",
+   "sources": [
+    "https://www.curtis.senate.gov/newsroom/press-releases/curtis-joins-tillis-armstrong-on-delegation-to-ukraine/",
+    "https://www.pbs.org/newshour/politics/hungarian-government-declines-to-meet-u-s-senators-seeking-approval-for-swedens-nato-bid"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "lead": "Who paid for the Sep 2026 trip and the Kyiv leg: Congressional Record foreign travel report Q3 2026 (likely Armed Services or Foreign Relations), and whether YES/Pinchuk covered any costs",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Tillis's X posts from Warsaw/Kyiv, 8-15 Sep 2026, and any comment on the 30-31 Oct TK events (ask Grok)",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "US Embassy Warsaw readouts of the 9-10 Sep meetings",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Pages 2+ of tillis.senate.gov press releases and his 2024 Hungary resolution text on congress.gov",
+   "result": "open",
+   "label": "speculation"
+  }
+ ]
+}
