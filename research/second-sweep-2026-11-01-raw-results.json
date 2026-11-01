@@ -1,0 +1,4193 @@
+{
+ "meta": {
+  "as_of": "2026-11-01",
+  "note": "Every result returned by the 45 queries, in rank order, exactly as the search tool gave it (title and URL only)."
+ },
+ "queries": [
+  {
+   "id": "Q01",
+   "query": "Polish PM confirms he wants his right hand man made constitutional court judge Berek",
+   "mode": "extended",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Polish PM confirms he wants his “right-hand man” to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 2,
+     "title": "constitutional tribunal",
+     "url": "https://notesfrompoland.com/tag/constitutional-tribunal/"
+    },
+    {
+     "rank": 3,
+     "title": "maciej Berek",
+     "url": "https://notesfrompoland.com/tag/maciej-berek/"
+    },
+    {
+     "rank": 4,
+     "title": "Prime minister’s “right-hand man” elected as Polish constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+    },
+    {
+     "rank": 5,
+     "title": "New Polish constitutional court judge takes oath in defiance of president",
+     "url": "https://notesfrompoland.com/2026/10/14/new-polish-constitutional-court-judge-takes-oath-in-defiance-of-president/"
+    },
+    {
+     "rank": 6,
+     "title": "New Polish constitutional court judge takes oath in defiance of president",
+     "url": "https://ground.news/article/new-polish-constitutional-court-judge-takes-oath-in-defiance-of-president_830de7"
+    },
+    {
+     "rank": 7,
+     "title": "Polish president in physical confrontation with judges amid power struggle at constitutional court",
+     "url": "https://notesfrompoland.com/2026/10/31/polish-president-in-physical-confrontation-with-judges-amid-power-struggle-at-constitutional-court/"
+    },
+    {
+     "rank": 8,
+     "title": "Tusk gets his right-hand man elected to court - Brussels Signal",
+     "url": "https://brusselssignal.eu/2026/09/tusk-gets-his-minister-and-right-hand-man-elected-to-polish-top-court/"
+    },
+    {
+     "rank": 9,
+     "title": "Poland Parliament Backs Tusk Ally for Constitutional Tribunal Judge",
+     "url": "https://www.globalbankingandfinance.com/polish-pms-right-hand-man-gets-nod-parliament-top-court-job/"
+    }
+   ]
+  },
+  {
+   "id": "Q02",
+   "query": "Maciej Berek Tusk minister członek Rady Ministrów wybrany sędzią Trybunału Konstytucyjnego Sejm 4 września 2026",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "maciej berek z poparciem sejmowej komisji sprawiedliwosci",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-z-poparciem-sejmowej-komisji-sprawiedliwosci"
+    },
+    {
+     "rank": 2,
+     "title": "maciej berek zlozyl slubowanie sedziego tk",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-zlozyl-slubowanie-sedziego-tk"
+    },
+    {
+     "rank": 3,
+     "title": "Strona główna Alerty Maciej Berek nowym sędzią Trybunału Konstytucyjnego",
+     "url": "https://demagog.org.pl/na-biezaco/maciej-berek-w-trybunale-konstytucyjnym/"
+    },
+    {
+     "rank": 4,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 5,
+     "title": "maciej berek ma byc nowym sedzia tk to dlatego zrezygnowal z teki ministra w rzadzie tuska",
+     "url": "https://oko.press/maciej-berek-ma-byc-nowym-sedzia-tk-to-dlatego-zrezygnowal-z-teki-ministra-w-rzadzie-tuska"
+    },
+    {
+     "rank": 6,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 7,
+     "title": "prime ministers right hand man elected as polish constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+    },
+    {
+     "rank": 8,
+     "title": "maciej berek pisze do prezydenta w sprawie slubowania",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-pisze-do-prezydenta-w-sprawie-slubowania"
+    },
+    {
+     "rank": 9,
+     "title": "berek wybrany sedzia tk koalicja jest przekonana ze nie bedzie czekal w kolejce na laske prezydenta",
+     "url": "https://oko.press/berek-wybrany-sedzia-tk-koalicja-jest-przekonana-ze-nie-bedzie-czekal-w-kolejce-na-laske-prezydenta"
+    },
+    {
+     "rank": 10,
+     "title": "polish pm confirms he wants his right hand man to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 11,
+     "title": "w obronie macieja berka jest potrzebny w tk nie bedzie tam partyjnym sedzia widze to tak",
+     "url": "https://oko.press/w-obronie-macieja-berka-jest-potrzebny-w-tk-nie-bedzie-tam-partyjnym-sedzia-widze-to-tak"
+    },
+    {
+     "rank": 12,
+     "title": "news jaki plan dla macieja berka donald tusk potwierdza,nId,23528708",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jaki-plan-dla-macieja-berka-donald-tusk-potwierdza,nId,23528708"
+    },
+    {
+     "rank": 13,
+     "title": "czy berek jest juz sedzia ciag dalszy sporu o trybunal konstytucyjny",
+     "url": "https://demagog.org.pl/na-biezaco/czy-berek-jest-juz-sedzia-ciag-dalszy-sporu-o-trybunal-konstytucyjny/"
+    },
+    {
+     "rank": 14,
+     "title": "MACIEJ BEREK",
+     "url": "https://www.se.pl/temat/maciej-berek,tg-S91y-U7FU-WhW2/"
+    },
+    {
+     "rank": 15,
+     "title": "news emocje na posiedzeniu komisji przepytali berka w sprawie tk,nId,23538072",
+     "url": "https://wydarzenia.interia.pl/kraj/news-emocje-na-posiedzeniu-komisji-przepytali-berka-w-sprawie-tk,nId,23538072"
+    },
+    {
+     "rank": 16,
+     "title": "maciej berek a trybunal konstytucyjny,1550691",
+     "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html"
+    },
+    {
+     "rank": 17,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-zastanawia-mnie-wrzawa-tusk-broni-berka,nIdn,1014300"
+    },
+    {
+     "rank": 18,
+     "title": "Sejm dokonał wyboru sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=245708"
+    },
+    {
+     "rank": 19,
+     "title": "maciej berek kandydatem na sedziego trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/94837884/maciej-berek-kandydatem-na-sedziego-trybunalu-konstytucyjnego"
+    }
+   ]
+  },
+  {
+   "id": "Q03",
+   "query": "Wawrykiewicz precyzyjny plan Trybunał Konstytucyjny 14 września wypowiedź",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "spor o trybunal konstytucyjny gosc poranka michal wawrykiewicz z ko trybunal konstytucyjny sklad 2026 awantura o nowych sedziow i slubowanie",
+     "url": "https://www.tvp.info/95374190/spor-o-trybunal-konstytucyjny-gosc-poranka-michal-wawrykiewicz-z-ko-trybunal-konstytucyjny-sklad-2026-awantura-o-nowych-sedziow-i-slubowanie"
+    },
+    {
+     "rank": 2,
+     "title": "wawrykiewicz destrukcji rzadow prawa",
+     "url": "https://oko.press/wawrykiewicz-destrukcji-rzadow-prawa"
+    },
+    {
+     "rank": 3,
+     "title": "curia.europa.eu",
+     "url": "https://curia.europa.eu/jcms/jcms/p1_4967275/pl"
+    },
+    {
+     "rank": 4,
+     "title": "curia.europa.eu",
+     "url": "https://curia.europa.eu/jcms/jcms/p1_5003575/pl"
+    },
+    {
+     "rank": 5,
+     "title": "curia.europa.eu",
+     "url": "https://curia.europa.eu/jcms/jcms/p1_4831997/pl"
+    },
+    {
+     "rank": 6,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/2388/2388.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "www.senat.gov.pl",
+     "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatposiedzeniatematy/4027/drukisejmowe/2388.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2008/1103/text.html"
+    },
+    {
+     "rank": 9,
+     "title": "nowoczesna rozdaje konstytucje mieszkancom krakowa i tarnowa",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/nowoczesna-rozdaje-konstytucje-mieszkancom-krakowa-i-tarnowa"
+    },
+    {
+     "rank": 10,
+     "title": "12 m ziokowski ps 2187 2025",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2025-tom-33-numer-2-187/12-m_ziokowski_ps_2187_2025.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "sprawy-generalne.brpo.gov.pl",
+     "url": "https://sprawy-generalne.brpo.gov.pl/pdf//2019/3/VII.510.29.2019/1593039.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Constitutional Tribunal (Poland)",
+     "url": "https://wikipedia.com/wiki/Polish_Constitutional_Court"
+    },
+    {
+     "rank": 13,
+     "title": "ipo.trybunal.gov.pl",
+     "url": "https://ipo.trybunal.gov.pl/ipo/downloadOrzeczenieDoc?dok=121273"
+    },
+    {
+     "rank": 14,
+     "title": "core.ac.uk",
+     "url": "https://core.ac.uk/download/250299664.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "curia.europa.eu",
+     "url": "https://curia.europa.eu/jcms/jcms/p1_5145268/pl"
+    },
+    {
+     "rank": 16,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/MP/2024/198/text/I/M20240198.pdf"
+    }
+   ]
+  },
+  {
+   "id": "Q04",
+   "query": "Poland Constitutional Tribunal coup Tusk Korwin-Piotrowska suspended Święczkowski October 2026",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "aa.com.tr",
+     "url": "https://aa.com.tr/en/europe/poland-s-constitutional-court-rejects-4-new-judges-deepening-rule-of-law-crisis/3901200"
+    },
+    {
+     "rank": 2,
+     "title": "Prosecutor Suspended: The Battle Over Poland’s Constitutional Order",
+     "url": "https://rockrachon.substack.com/p/prosecutor-suspended-the-battle-over"
+    },
+    {
+     "rank": 3,
+     "title": "polish parliament ..",
+     "url": "https://notesfrompoland.com/2026/04/09/polish-parliament-..."
+    },
+    {
+     "rank": 4,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=91499"
+    },
+    {
+     "rank": 5,
+     "title": "zarzuty dla urzednikow tk swieczkowskiego za blokowanie nowych sedziow",
+     "url": "https://oko.press/zarzuty-dla-urzednikow-tk-swieczkowskiego-za-blokowanie-nowych-sedziow"
+    },
+    {
+     "rank": 6,
+     "title": "Battle for Poland: Coup Allegations against PM Tusk and the Scandal of the “Warta” Plan",
+     "url": "https://rockrachon.substack.com/p/battle-for-poland-coup-allegations"
+    },
+    {
+     "rank": 7,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=76521"
+    },
+    {
+     "rank": 8,
+     "title": "polish justice minister suspends prosecutor investigating claim government led coup detat",
+     "url": "https://notesfrompoland.com/2025/02/11/polish-justice-minister-suspends-prosecutor-investigating-claim-government-led-coup-detat/"
+    },
+    {
+     "rank": 9,
+     "title": "poland needs new round table talks to solve its rule of law crisis opinion",
+     "url": "https://notesfrompoland.com/2025/02/14/poland-needs-new-round-table-talks-to-solve-its-rule-of-law-crisis-opinion/"
+    },
+    {
+     "rank": 10,
+     "title": "tusk moves to take over constitutional court by force",
+     "url": "https://brusselssignal.eu/2026/10/tusk-moves-to-take-over-constitutional-court-by-force/"
+    },
+    {
+     "rank": 11,
+     "title": "The Rule of Law Strikes Back: Tusk and Bodnar Called to Testify in Coup Case",
+     "url": "https://rockrachon.substack.com/p/the-rule-of-law-strikes-back-tusk"
+    },
+    {
+     "rank": 12,
+     "title": "Accessibility links",
+     "url": "https://www.rferl.org/a/poland-donald-tusk-prosecutors-charge-coup-attempt/33305456.html"
+    },
+    {
+     "rank": 13,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3482863,polish-deputy-prosecutor-general-suspended-over-alleged-coup-investigation"
+    },
+    {
+     "rank": 14,
+     "title": "hungarianconservative.com",
+     "url": "https://hungarianconservative.com/?p=41346"
+    },
+    {
+     "rank": 15,
+     "title": "polish constitutional court rejects four new judges amid standoff between government and president",
+     "url": "https://notesfrompoland.com/2026/04/09/polish-constitutional-court-rejects-four-new-judges-amid-standoff-between-government-and-president/"
+    },
+    {
+     "rank": 16,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1sj9psf/snapshots/2026-04-17T16%3A40%3A26.729925Z"
+    }
+   ]
+  },
+  {
+   "id": "Q05",
+   "query": "zamach stanu Trybunał Konstytucyjny Tusk Korwin-Piotrowska Święczkowski zawieszony",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Święczkowski po interwencji w TK. „Mogą próbować pozbawić mnie wolności”",
+     "url": "https://www.wprost.pl/12388377"
+    },
+    {
+     "rank": 2,
+     "title": "„Zamach stanu” w Polsce. Rzecznik prokuratury o nowych faktach",
+     "url": "https://www.wprost.pl/11962024"
+    },
+    {
+     "rank": 3,
+     "title": "polish constitutional court chief launches legal action against government for coup detat",
+     "url": "https://notesfrompoland.com/2025/02/05/polish-constitutional-court-chief-launches-legal-action-against-government-for-coup-detat/"
+    },
+    {
+     "rank": 4,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=197095"
+    },
+    {
+     "rank": 5,
+     "title": "news prezes tk krytykuje premiera przerzucil sie z galy na ping p,nId,7906961",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prezes-tk-krytykuje-premiera-przerzucil-sie-z-galy-na-ping-p,nId,7906961"
+    },
+    {
+     "rank": 6,
+     "title": "6850099,prof piotrowski jezeli przyjac ze naruszenia konstytucji to zamach stanu to wszyscy sa zamachowcami",
+     "url": "https://www.infor.pl/prawo/nowosci-prawne/6850099,prof-piotrowski-jezeli-przyjac-ze-naruszenia-konstytucji-to-zamach-stanu-to-wszyscy-sa-zamachowcami.html"
+    },
+    {
+     "rank": 7,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=76359"
+    },
+    {
+     "rank": 8,
+     "title": "news prezes tk o tusku wyprowadzi wojsko na ulice by tlumic prote,nId,7906458",
+     "url": "https://www.rmf24.pl/tylko-w-rmf24/poranna-rozmowa/news-prezes-tk-o-tusku-wyprowadzi-wojsko-na-ulice-by-tlumic-prote,nId,7906458"
+    },
+    {
+     "rank": 9,
+     "title": "Trybunal Konstytucyjny informuje o podejrzeniu zamachu stanu Wszczeto postepowanie 8887834",
+     "url": "https://www.bankier.pl/wiadomosc/Trybunal-Konstytucyjny-informuje-o-podejrzeniu-zamachu-stanu-Wszczeto-postepowanie-8887834.html"
+    },
+    {
+     "rank": 10,
+     "title": "art44232511 sledztwo ws zamachu stanu kolejny watek umorzony",
+     "url": "https://www.rp.pl/prawo-karne/art44232511-sledztwo-ws-zamachu-stanu-kolejny-watek-umorzony"
+    },
+    {
+     "rank": 11,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-nasi-sedziowie-protestuja-po-slowach-premiera-tuska,nIdn,1015699"
+    },
+    {
+     "rank": 12,
+     "title": "Prezes TK grzmi o zamachu stanu w Polsce. \"Prokuratura wszczęła śledztwo\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2025-02-05/sledztwo-w-sprawie-zamachu-stanu-to-efekt-wniosku-prezesa-tk/"
+    },
+    {
+     "rank": 13,
+     "title": "Radoslaw Sikorski o zamachu stanu Autorytetu TK nie da sie juz odbudowac 8889339",
+     "url": "https://www.bankier.pl/wiadomosc/Radoslaw-Sikorski-o-zamachu-stanu-Autorytetu-TK-nie-da-sie-juz-odbudowac-8889339.html"
+    },
+    {
+     "rank": 14,
+     "title": "zarzuty dla urzednikow tk swieczkowskiego za blokowanie nowych sedziow",
+     "url": "https://oko.press/zarzuty-dla-urzednikow-tk-swieczkowskiego-za-blokowanie-nowych-sedziow"
+    },
+    {
+     "rank": 15,
+     "title": "prezes tk prokurator ostrowski wszczal sledztwo w sprawie podejrzenia o zamach stanu",
+     "url": "https://www.pap.pl/aktualnosci/prezes-tk-prokurator-ostrowski-wszczal-sledztwo-w-sprawie-podejrzenia-o-zamach-stanu"
+    },
+    {
+     "rank": 16,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-bogdan-swieczkowski-przesluchany-ws-zamachu-stanu,nId,7932767"
+    },
+    {
+     "rank": 17,
+     "title": "prof serowaniec o sledztwie ws zamachu stanu stabilnosc systemu konstytucyjnego w",
+     "url": "https://www.pap.pl/aktualnosci/prof-serowaniec-o-sledztwie-ws-zamachu-stanu-stabilnosc-systemu-konstytucyjnego-w"
+    },
+    {
+     "rank": 18,
+     "title": "Prezes TK mówi o rzekomym zamachu stanu w Polsce. Podpisał zawiadomienie",
+     "url": "https://www.eska.pl/wiadomosci/prezes-tk-mowi-o-rzekomym-zamachu-stanu-w-polsce-podpisal-zawiadomienie-aa-b6j4-Fg5F-shxa.html"
+    },
+    {
+     "rank": 19,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=178870"
+    }
+   ]
+  },
+  {
+   "id": "Q06",
+   "query": "Fundusz Sprawiedliwości dotacje 2024 2025 organizacje pozarządowe Iustitia Themis Wolne Sądy Helsińska Fundacja",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "norweska poslanka zglosila iustitia do pokojowej nagrody nobla",
+     "url": "https://oko.press/norweska-poslanka-zglosila-iustitia-do-pokojowej-nagrody-nobla"
+    },
+    {
+     "rank": 2,
+     "title": "z02453 o1 1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDJ6JAN/z02453-o1_1.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "pieniadze z funduszu sprawiedliwosci na program pomocy osobom pokrzywdzonym na lata 2019 2026",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/pieniadze-z-funduszu-sprawiedliwosci-na-program-pomocy-osobom-pokrzywdzonym-na-lata-2019-2026"
+    },
+    {
+     "rank": 4,
+     "title": "i07583 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDKWHVD/i07583-o1.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "news fundusz sprawiedliwosci gdzie plynely pieniadze lista jest d,nId,7413480",
+     "url": "https://wydarzenia.interia.pl/kraj/news-fundusz-sprawiedliwosci-gdzie-plynely-pieniadze-lista-jest-d,nId,7413480"
+    },
+    {
+     "rank": 6,
+     "title": "i10776 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDLKJ4A/i10776-o1.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "fundusz sprawiedliwosci w grudniu czyli w lutym ministerstwo sie chwali organizacje zalamane",
+     "url": "https://oko.press/fundusz-sprawiedliwosci-w-grudniu-czyli-w-lutym-ministerstwo-sie-chwali-organizacje-zalamane"
+    },
+    {
+     "rank": 8,
+     "title": "ziobro fundusz sprawiedliwosci ofiary",
+     "url": "https://oko.press/ziobro-fundusz-sprawiedliwosci-ofiary"
+    },
+    {
+     "rank": 9,
+     "title": "i09828 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDJDJ2Y/i09828-o1.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "Interpelacja nr 4059",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4059/body"
+    },
+    {
+     "rank": 11,
+     "title": "i10436 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDLUHH3/i10436-o1.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Resort sprawiedliwości ogłosił konkurs na 120 mln zł z Funduszu Sprawiedliwości na pomoc dla ofiar przestępstw",
+     "url": "https://xyz.pl/?p=99918"
+    },
+    {
+     "rank": 13,
+     "title": "Zapytanie nr 2453",
+     "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/2453/body"
+    },
+    {
+     "rank": 14,
+     "title": "fs aktualnosci",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/fs-aktualnosci?page=3"
+    },
+    {
+     "rank": 15,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-pis-wzywa-do-kontroli-funduszu-sprawiedliwosci-poslowie-chca,nId,8056761"
+    },
+    {
+     "rank": 16,
+     "title": "nowe zasady funkcjonowania funduszu sprawiedliwosci",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/nowe-zasady-funkcjonowania-funduszu-sprawiedliwosci"
+    },
+    {
+     "rank": 17,
+     "title": "612ca14b 2c09 49b1 835a ab72261e8b91",
+     "url": "https://www.gov.pl/attachment/612ca14b-2c09-49b1-835a-ab72261e8b91"
+    },
+    {
+     "rank": 18,
+     "title": "oswiadczenie w sprawie funduszu sprawiedliwosci",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/oswiadczenie-w-sprawie-funduszu-sprawiedliwosci"
+    },
+    {
+     "rank": 19,
+     "title": "fs aktualnosci",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/fs-aktualnosci?page=2"
+    }
+   ]
+  },
+  {
+   "id": "Q07",
+   "query": "sędziowie delegowani do Ministerstwa Sprawiedliwości Żurek Bodnar delegacje wynagrodzenie dodatki",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Umów prezentację LEX Kompas Orzeczniczy 2.0",
+     "url": "https://www.prawo.pl/prawnicy-sady/jakie-zmiany-w-delegacjach-sedziow,526692.html"
+    },
+    {
+     "rank": 2,
+     "title": "Do MS sedziowie delegowanie wiek spoczynku 6 11 2025",
+     "url": "https://bip.brpo.gov.pl/sites/default/files/2025-11/Do_MS_sedziowie_delegowanie_wiek_spoczynku_6_11_2025.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "bodnar odwolal piecioro sedziow z delegacji do sadu apelacyjnego w warszawie",
+     "url": "https://www.pap.pl/aktualnosci/bodnar-odwolal-piecioro-sedziow-z-delegacji-do-sadu-apelacyjnego-w-warszawie"
+    },
+    {
+     "rank": 4,
+     "title": "Interpelacja nr 13973",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13973/body"
+    },
+    {
+     "rank": 5,
+     "title": "Zapytanie nr 92",
+     "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body"
+    },
+    {
+     "rank": 6,
+     "title": "Pierwsze decyzje ministra Żurka. Podał informacje o odwołaniach",
+     "url": "https://wydarzenia.interia.pl/kraj/news-pierwsze-decyzje-ministra-zurka-podal-informacje-o-odwolania,nId,22170585"
+    },
+    {
+     "rank": 7,
+     "title": "1. Bezprawnik -",
+     "url": "https://bezprawnik.pl/podwyzki-dla-sedziow/"
+    },
+    {
+     "rank": 8,
+     "title": "Dziennik Ustaw",
+     "url": "https://eli.gov.pl/eli/DU/1973/61/ogl/pol"
+    },
+    {
+     "rank": 9,
+     "title": "ministerstwo sprawiedliwosci",
+     "url": "https://oko.press/instytucje/ministerstwo-sprawiedliwosci?page=16"
+    },
+    {
+     "rank": 10,
+     "title": "3 4 54 2024 Konferencje i szkolenia 2",
+     "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2"
+    },
+    {
+     "rank": 11,
+     "title": "nowe decyzje bodnara nielegalna krs reforme bieglych",
+     "url": "https://oko.press/nowe-decyzje-bodnara-nielegalna-krs-reforme-bieglych"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/593/text.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=3"
+    },
+    {
+     "rank": 14,
+     "title": "Kasę biorą, a nie sądzą. Sędziowie delegowani do MS dostają 11 tys. zł i więcej",
+     "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/sedziowie-delegowani,120,0,2415736.html"
+    },
+    {
+     "rank": 15,
+     "title": "\"Przegląd kadr\" ministra A. Bodnara. Odwołał z delegacji kilkunastu sędziów",
+     "url": "https://wydarzenia.interia.pl/kraj/news-przeglad-kadr-ministra-a-bodnara-odwolal-z-delegacji-kilkuna,nId,7265167"
+    },
+    {
+     "rank": 16,
+     "title": "art5193521 maja orzekac a nie liczyc",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art5193521-maja-orzekac-a-nie-liczyc"
+    },
+    {
+     "rank": 17,
+     "title": "Dziennik Ustaw",
+     "url": "https://eli.gov.pl/eli/DU/1973/61/ogl"
+    },
+    {
+     "rank": 18,
+     "title": "bodnar zada odwolania 144 prokuratorow",
+     "url": "https://oko.press/bodnar-zada-odwolania-144-prokuratorow"
+    },
+    {
+     "rank": 19,
+     "title": "ministerstwo sprawiedliwosci",
+     "url": "https://oko.press/instytucje/ministerstwo-sprawiedliwosci?page=13"
+    },
+    {
+     "rank": 20,
+     "title": "88a36b69 efff 4232 9d7d d9ad9dedda7f",
+     "url": "https://www.gov.pl/attachment/88a36b69-efff-4232-9d7d-d9ad9dedda7f"
+    }
+   ]
+  },
+  {
+   "id": "Q08",
+   "query": "komisja kodyfikacyjna ustroju sądów powszechnych członkowie wynagrodzenie Markiewicz Taborowski Ministerstwo Sprawiedliwości",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "minister bodnar powolal komisje kodyfikacyjna ktora ma zreformowac sady i prokurature",
+     "url": "https://oko.press/minister-bodnar-powolal-komisje-kodyfikacyjna-ktora-ma-zreformowac-sady-i-prokurature"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 3,
+     "title": "jakie zmiany w sadach wywiad z prof krystianem markiewiczem,527530",
+     "url": "https://www.prawo.pl/prawnicy-sady/jakie-zmiany-w-sadach-wywiad-z-prof-krystianem-markiewiczem,527530.html"
+    },
+    {
+     "rank": 4,
+     "title": "prof safjan i jego komisja zreformuja prawo cywilne",
+     "url": "https://oko.press/prof-safjan-i-jego-komisja-zreformuja-prawo-cywilne"
+    },
+    {
+     "rank": 5,
+     "title": "Umów prezentację LEX Kompas Orzeczniczy 2.0",
+     "url": "https://www.prawo.pl/prawnicy-sady/komisja-kodyfikacyjna-sklad-kiedy-powstana,525535.html"
+    },
+    {
+     "rank": 6,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2016/1741/text.html"
+    },
+    {
+     "rank": 7,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/DU/2016/1741/text.html"
+    },
+    {
+     "rank": 8,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2024/350/text.html"
+    },
+    {
+     "rank": 9,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/eli/DU/2024/350/ogl/pol/pdf"
+    },
+    {
+     "rank": 10,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/DU/2024/350/text.html"
+    },
+    {
+     "rank": 11,
+     "title": "NOWOŚĆ LEX CyberEdukacja Cyberbezpieczeństwo zaczyna się od wiedzy Umów prezentację",
+     "url": "https://www.prawo.pl/aktualnosci/579,strona.html"
+    },
+    {
+     "rank": 12,
+     "title": "i04671 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDAHJZV/i04671-o1.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "6e3f2d25 f96a 4d5d 9981 545ce2aea518",
+     "url": "https://www.gov.pl/attachment/6e3f2d25-f96a-4d5d-9981-545ce2aea518"
+    },
+    {
+     "rank": 14,
+     "title": "uwb.edu.pl",
+     "url": "https://miscellanea.uwb.edu.pl/article/download/571/524/1153"
+    },
+    {
+     "rank": 15,
+     "title": "Komisja Kodyfikacyjna Ustroju Sądownictwa i Prokuratury",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/komisja-kodyfikacyjna-ustroju-sadownictwa-i-prokuratury"
+    },
+    {
+     "rank": 16,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/eli/MP/1956/857/ogl/pol/pdf"
+    },
+    {
+     "rank": 17,
+     "title": "pressto.amu.edu.pl",
+     "url": "https://pressto.amu.edu.pl/index.php/cph/article/download/47666/42053/128198"
+    },
+    {
+     "rank": 18,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/eli/DU/2012/856/ogl/pol/pdf"
+    }
+   ]
+  },
+  {
+   "id": "Q09",
+   "query": "Wawrykiewicz Tusk lista KO europarlament Wolne Sądy kampania Donald Tusk Michał Wawrykiewicz",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Micha%C5%82 Wawrykiewicz",
+     "url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
+    },
+    {
+     "rank": 2,
+     "title": "statement of the board of the free courts foundation regarding the resignation of michal wawrykiewicz from the position of the board member",
+     "url": "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/"
+    },
+    {
+     "rank": 3,
+     "title": "wawrykiewicz kpo sady",
+     "url": "https://oko.press/wawrykiewicz-kpo-sady"
+    },
+    {
+     "rank": 4,
+     "title": "michal wawrykiewicz czas otworzyc polityke na aktywistow ekspertow organizacje pozarzadowe",
+     "url": "https://oko.press/michal-wawrykiewicz-czas-otworzyc-polityke-na-aktywistow-ekspertow-organizacje-pozarzadowe"
+    },
+    {
+     "rank": 5,
+     "title": "Meet our speaker - Michał Wawrykiewicz",
+     "url": "https://impactcee.com/impact/2024/speaker-2/?spk=3627"
+    },
+    {
+     "rank": 6,
+     "title": "\"Przedstawiciele partii rządzącej z klapkami na oczach krzyczeli: my mamy rację. Rzeczywistość wygląda inaczej\"",
+     "url": "https://tvn24.pl/najnowsze/debata-o-praworzadnosci-w-polsce-michal-wawrykiewicz-komentuje-st4020462"
+    },
+    {
+     "rank": 7,
+     "title": "tagi michal wawrykiewicz,tId,446607",
+     "url": "https://wydarzenia.interia.pl/tagi-michal-wawrykiewicz,tId,446607"
+    },
+    {
+     "rank": 8,
+     "title": "tematy michal wawrykiewicz,gsbi,4555",
+     "url": "https://wydarzenia.interia.pl/tematy-michal-wawrykiewicz,gsbi,4555"
+    },
+    {
+     "rank": 9,
+     "title": "Michał WAWRYKIEWICZ",
+     "url": "https://www.eppgroup.eu/it/chi-siamo/il-gruppo/michal-wawrykiewicz"
+    },
+    {
+     "rank": 10,
+     "title": "- Independent Poland 2024/07/16 -",
+     "url": "https://parltrack.org/mep/257045/Michał WAWRYKIEWICZ"
+    },
+    {
+     "rank": 11,
+     "title": "donald tusk bedzie lamal prawo premier chce dzialac skutecznie",
+     "url": "https://www.tvp.info/82251492/donald-tusk-bedzie-lamal-prawo-premier-chce-dzialac-skutecznie"
+    },
+    {
+     "rank": 12,
+     "title": "speaker 2",
+     "url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627"
+    },
+    {
+     "rank": 13,
+     "title": "Michał WAWRYKIEWICZ",
+     "url": "https://www.eppgroup.eu/es/quienes-somos/nuestro-grupo/michal-wawrykiewicz"
+    },
+    {
+     "rank": 14,
+     "title": "Michał WAWRYKIEWICZ",
+     "url": "https://www.eppgroup.eu/pt/quem-somos/o-nosso-grupo/michal-wawrykiewicz"
+    },
+    {
+     "rank": 15,
+     "title": "Michał WAWRYKIEWICZ",
+     "url": "https://www.eppgroup.eu/who-we-are/our-members/michal-wawrykiewicz"
+    },
+    {
+     "rank": 16,
+     "title": "Michał WAWRYKIEWICZ",
+     "url": "https://parltrack.eu/mep/Michał WAWRYKIEWICZ"
+    },
+    {
+     "rank": 17,
+     "title": "michal wawrykiewicz",
+     "url": "https://ruleoflaw.pl/tag/michal-wawrykiewicz/"
+    },
+    {
+     "rank": 18,
+     "title": "Michał Wawrykiewicz",
+     "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Micha%C5%82_Wawrykiewicz"
+    },
+    {
+     "rank": 19,
+     "title": "Jump to content",
+     "url": "https://wiki.riteme.site/wiki/Micha%C5%82_Wawrykiewicz"
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "query": "plan Warta Tusk Trybunał Konstytucyjny zamach stanu zawiadomienie Święczkowski nazwiska osoby wskazane",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "prezes trybunalu konstytucyjnego bogdan swieczkowski zawiadomienie o zamachu stanu",
+     "url": "https://www.tvp.info/85928486/prezes-trybunalu-konstytucyjnego-bogdan-swieczkowski-zawiadomienie-o-zamachu-stanu"
+    },
+    {
+     "rank": 2,
+     "title": "Battle for Poland: Coup Allegations against PM Tusk and the Scandal of the “Warta” Plan",
+     "url": "https://rockrachon.substack.com/p/battle-for-poland-coup-allegations"
+    },
+    {
+     "rank": 3,
+     "title": "news bodnar o swieczkowskim i ostrowskim to wierni zolnierze ziob,nId,7907047",
+     "url": "https://www.rmf24.pl/polityka/news-bodnar-o-swieczkowskim-i-ostrowskim-to-wierni-zolnierze-ziob,nId,7907047"
+    },
+    {
+     "rank": 4,
+     "title": "art42047981 prezes tk napisal do adama bodnara znow ws zamachu stanu",
+     "url": "https://www.rp.pl/prawo-karne/art42047981-prezes-tk-napisal-do-adama-bodnara-znow-ws-zamachu-stanu"
+    },
+    {
+     "rank": 5,
+     "title": "art44232511 sledztwo ws zamachu stanu kolejny watek umorzony",
+     "url": "https://www.rp.pl/prawo-karne/art44232511-sledztwo-ws-zamachu-stanu-kolejny-watek-umorzony"
+    },
+    {
+     "rank": 6,
+     "title": "Trybunal Konstytucyjny informuje o podejrzeniu zamachu stanu Wszczeto postepowanie 8887834",
+     "url": "https://www.bankier.pl/wiadomosc/Trybunal-Konstytucyjny-informuje-o-podejrzeniu-zamachu-stanu-Wszczeto-postepowanie-8887834.html"
+    },
+    {
+     "rank": 7,
+     "title": "„Zamach stanu” w Polsce. Rzecznik prokuratury o nowych faktach",
+     "url": "https://www.wprost.pl/11962024"
+    },
+    {
+     "rank": 8,
+     "title": "art41864891 oto prokuratorka ktora zajmie sie zawiadomieniem ws zamachu stanu",
+     "url": "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu"
+    },
+    {
+     "rank": 9,
+     "title": "polish constitutional court chief launches legal action against government for coup detat",
+     "url": "https://notesfrompoland.com/2025/02/05/polish-constitutional-court-chief-launches-legal-action-against-government-for-coup-detat/"
+    },
+    {
+     "rank": 10,
+     "title": "Prezes TK grzmi o zamachu stanu w Polsce. \"Prokuratura wszczęła śledztwo\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2025-02-05/sledztwo-w-sprawie-zamachu-stanu-to-efekt-wniosku-prezesa-tk/"
+    },
+    {
+     "rank": 11,
+     "title": "art41791071 dokumenty ws zamachu stanu trafily do sekretariatu prokuratora generalnego",
+     "url": "https://www.rp.pl/prawo-karne/art41791071-dokumenty-ws-zamachu-stanu-trafily-do-sekretariatu-prokuratora-generalnego"
+    },
+    {
+     "rank": 12,
+     "title": "Święczkowski po interwencji w TK. „Mogą próbować pozbawić mnie wolności”",
+     "url": "https://www.wprost.pl/12388377"
+    },
+    {
+     "rank": 13,
+     "title": "prezes tk prokurator ostrowski wszczal sledztwo w sprawie podejrzenia o zamach stanu",
+     "url": "https://www.pap.pl/aktualnosci/prezes-tk-prokurator-ostrowski-wszczal-sledztwo-w-sprawie-podejrzenia-o-zamach-stanu"
+    },
+    {
+     "rank": 14,
+     "title": "Święczkowski żąda wyjaśnień po akcji policji w TK. „Zamach na organ państwa”",
+     "url": "https://www.wprost.pl/kraj/12392751/bogdan-swieczkowski-zada-wyjasnien-po-interwencji-policji-w-tk.html"
+    },
+    {
+     "rank": 15,
+     "title": "Prokuratura przesluchala Swieczkowskiego Toczy sie sledztwo ws zamachu stanu 8909175",
+     "url": "https://www.bankier.pl/wiadomosc/Prokuratura-przesluchala-Swieczkowskiego-Toczy-sie-sledztwo-ws-zamachu-stanu-8909175.html"
+    },
+    {
+     "rank": 16,
+     "title": "15 lat - konkursu dla młodych talentów prawniczych Rising Stars Prawnicy - liderzy jutra 2026",
+     "url": "https://www.prawo.pl/prawnicy-sady/sledztwo-ws-podejrzenia-o-zamach-stanu-po-zawiadomieniu-prezesa-tk,531353.html"
+    },
+    {
+     "rank": 17,
+     "title": "news prezes tk krytykuje premiera przerzucil sie z galy na ping p,nId,7906961",
+     "url": "https://wydarzenia.interia.pl/kraj/news-prezes-tk-krytykuje-premiera-przerzucil-sie-z-galy-na-ping-p,nId,7906961"
+    },
+    {
+     "rank": 18,
+     "title": "news pelzajacy zamach stanu w polsce sledczy zbadaja zawiadomieni,nId,7919863",
+     "url": "https://www.rmf24.pl/fakty/polska/news-pelzajacy-zamach-stanu-w-polsce-sledczy-zbadaja-zawiadomieni,nId,7919863"
+    }
+   ]
+  },
+  {
+   "id": "Q11",
+   "query": "Iustitia Themis oświadczenie Korwin-Piotrowska zawieszenie Święczkowskiego 30 października 2026 stowarzyszenia sędziów",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "WYROK W SPRAWIE MORAWIEC PRZECIWKO POLSCE",
+     "url": "https://arch-bip.ms.gov.pl/pl/prawa-czlowieka/europejski-trybunal-praw-czlowieka/orzecznictwo-europejskiego-trybunalu-praw-czlowieka/download,3925,1.html"
+    },
+    {
+     "rank": 2,
+     "title": "WYROK W SPRAWIE MORAWIEC PRZECIWKO POLSCE",
+     "url": "https://arch-bip.ms.gov.pl/pl/prawa-czlowieka/europejski-trybunal-praw-czlowieka/orzecznictwo-europejskiego-trybunalu-praw-czlowieka/download,3914,1.html"
+    },
+    {
+     "rank": 3,
+     "title": "sedziowie z themis obronilismy sady ale czas wyjsc do obywateli bo sady sa ich",
+     "url": "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+    },
+    {
+     "rank": 4,
+     "title": "Portal informacyjny po 1 marca 2026 r. – składanie pism procesowych po nowelizacji KPC",
+     "url": "https://www.prawo.pl/prawnicy-sady/protest-sedziow-ms-uderzenie-w-obywateli,505879.html"
+    },
+    {
+     "rank": 5,
+     "title": "sedzia korwin piotrowska walczyla o wolne sady teraz zostala prezeska sadu okregowego w opolu",
+     "url": "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu"
+    },
+    {
+     "rank": 6,
+     "title": "oko.press",
+     "url": "https://oko.press/tag/iustitia?page=11"
+    },
+    {
+     "rank": 7,
+     "title": "art2177111 beata morawiec prezesem stowarzyszenia sedziow themis",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art2177111-beata-morawiec-prezesem-stowarzyszenia-sedziow-themis"
+    },
+    {
+     "rank": 8,
+     "title": "oko.press",
+     "url": "https://oko.press/tag/themis"
+    },
+    {
+     "rank": 9,
+     "title": "odwolana ziobro prezes krakowskiego sadu zostala szefowa stowarzyszenia sedziow",
+     "url": "https://oko.press/odwolana-ziobro-prezes-krakowskiego-sadu-zostala-szefowa-stowarzyszenia-sedziow"
+    },
+    {
+     "rank": 10,
+     "title": "oko.press",
+     "url": "https://oko.press/tag/themis?page=0"
+    },
+    {
+     "rank": 11,
+     "title": "izba dyscyplinarna sn 12 pazdziernika zajmie sie sprawa immunitetu sedzi morawiec",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/izba-dyscyplinarna-sn-12-pazdziernika-zajmie-sie-sprawa-immunitetu-sedzi-morawiec/"
+    },
+    {
+     "rank": 12,
+     "title": "sedzia beata morawiec prezes sadu nie wezwala mnie do zaniechania czynnosci orzeczniczych",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/sedzia-beata-morawiec-prezes-sadu-nie-wezwala-mnie-do-zaniechania-czynnosci-orzeczniczych/"
+    },
+    {
+     "rank": 13,
+     "title": "krakowscy sedziowie za skierowaniem ustawy o sn do trybunalu sprawiedliwosci ue",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/krakowscy-sedziowie-za-skierowaniem-ustawy-o-sn-do-trybunalu-sprawiedliwosci-ue"
+    },
+    {
+     "rank": 14,
+     "title": "15 lat - konkursu dla młodych talentów prawniczych Rising Stars Prawnicy - liderzy jutra 2026",
+     "url": "https://www.prawo.pl/prawnicy-sady/59,strona.html"
+    },
+    {
+     "rank": 15,
+     "title": "sedziowie zadaja powrotu do pracy sedziow tulei morawiec i juszczyszyna raz w miesiacu nie beda sadzic",
+     "url": "https://oko.press/sedziowie-zadaja-powrotu-do-pracy-sedziow-tulei-morawiec-i-juszczyszyna-raz-w-miesiacu-nie-beda-sadzic"
+    },
+    {
+     "rank": 16,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/sedzia-beata-morawiec-ma-byc-oskarzona-o-naduzycia-wniosek,503106.html"
+    },
+    {
+     "rank": 17,
+     "title": "wygrana sedzi morawiec szefowej themis radzik umorzyl jej bezpodstawna dyscyplinarke",
+     "url": "https://oko.press/wygrana-sedzi-morawiec-szefowej-themis-radzik-umorzyl-jej-bezpodstawna-dyscyplinarke"
+    },
+    {
+     "rank": 18,
+     "title": "sedzia beata morawiec nie stawi sie przed izba dyscyplinarna sn",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/sedzia-beata-morawiec-nie-stawi-sie-przed-izba-dyscyplinarna-sn/"
+    }
+   ]
+  },
+  {
+   "id": "Q12",
+   "query": "Adam Bodnar po odejściu z rządu nowa praca stanowisko fundacja uczelnia 2026",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Adam Bodnar",
+     "url": "https://en.wikipedia.org/wiki/Adam_Bodnar"
+    },
+    {
+     "rank": 2,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=8"
+    },
+    {
+     "rank": 3,
+     "title": "Adam Bodnar zakończył kadencję jako RPO. Ma już nową funkcję",
+     "url": "https://www.wprost.pl/10472336"
+    },
+    {
+     "rank": 4,
+     "title": "Poland’s president accuses departing ombudsman of being ‘anti-Polish’",
+     "url": "https://www.irishtimes.com/news/world/europe/poland-s-president-accuses-departing-ombudsman-of-being-anti-polish-1.4556293"
+    },
+    {
+     "rank": 5,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=25"
+    },
+    {
+     "rank": 6,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=4"
+    },
+    {
+     "rank": 7,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=37"
+    },
+    {
+     "rank": 8,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/gospodarka/polityka/artykuly/8143637,bodnar-na-razie-nie-przewiduje-wejscia-do-polityki.html"
+    },
+    {
+     "rank": 9,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=24"
+    },
+    {
+     "rank": 10,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=41"
+    },
+    {
+     "rank": 11,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/adam-bodnar-nie-b%C4%99de-startowal-w-wyborach-prezydenckich"
+    },
+    {
+     "rank": 12,
+     "title": "deans leadership series adam bodnar senator republic poland member parliamentary assembly",
+     "url": "https://spia.princeton.edu/events/deans-leadership-series-adam-bodnar-senator-republic-poland-member-parliamentary-assembly"
+    },
+    {
+     "rank": 13,
+     "title": "Adam Bodnar",
+     "url": "https://cavac.at/cavacopedia/Adam%20Bodnar"
+    },
+    {
+     "rank": 14,
+     "title": "Adam Bodnar",
+     "url": "https://biznes.interia.pl/tagi-adam-bodnar,tId,144655"
+    },
+    {
+     "rank": 15,
+     "title": "Adam Bodnar nowym ministrem sprawiedliwości? Szef klubu KO zabrał głos",
+     "url": "https://www.wprost.pl/11480795"
+    },
+    {
+     "rank": 16,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=30"
+    },
+    {
+     "rank": 17,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=29"
+    },
+    {
+     "rank": 18,
+     "title": "tagi adam bodnar,tId,144655",
+     "url": "https://wydarzenia.interia.pl/tagi-adam-bodnar,tId,144655"
+    },
+    {
+     "rank": 19,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=33"
+    }
+   ]
+  },
+  {
+   "id": "Q13",
+   "query": "Stowarzyszenie Sędziów Themis finansowanie dotacja Fundacja Batorego OR Open Society OR Norwegian Funds darowizna sprawozdanie",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Dąbrowski: Quo vadis, Iustitia? [OPINIA]",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10959276,dabrowski-quo-vadis-iustitia-opinia.html"
+    },
+    {
+     "rank": 2,
+     "title": "jak tvp info zdemaskowalo oko press i fundusze norweskie by przykryc afere willa plus",
+     "url": "https://oko.press/jak-tvp-info-zdemaskowalo-oko-press-i-fundusze-norweskie-by-przykryc-afere-willa-plus"
+    },
+    {
+     "rank": 3,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2003.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "art2133001 ordo iuris zlozyl skarge do wsa na fundacje batorego",
+     "url": "https://www.rp.pl/fundacje-i-stowarzyszenia/art2133001-ordo-iuris-zlozyl-skarge-do-wsa-na-fundacje-batorego"
+    },
+    {
+     "rank": 5,
+     "title": "Proces karny ws. fundacji o. Rydzyka rozpocznie się 9 kwietnia",
+     "url": "https://www.rp.pl/prawo/prawo-dla-ciebie/fundacje-i-stowarzyszenia/3"
+    },
+    {
+     "rank": 6,
+     "title": "2 sprawozdanie finansowe za 2024 rok",
+     "url": "https://app.zaiks.org.pl//media/o3sdqijl/2-sprawozdanie-finansowe-za-2024-rok.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "fundacja batorego klamstwa i insynuacje tvp o programie aktywni obywatele szach mat propagandzie",
+     "url": "https://oko.press/fundacja-batorego-klamstwa-i-insynuacje-tvp-o-programie-aktywni-obywatele-szach-mat-propagandzie"
+    },
+    {
+     "rank": 8,
+     "title": "THEMIS nie będzie związkiem zawodowym sędziów",
+     "url": "https://www.prawo.pl/prawnicy-sady/themis-nie-bedzie-zwiazkiem-zawodowym-sedziow,171171.html"
+    },
+    {
+     "rank": 9,
+     "title": "art9667561 grzywna dla fundacji batorego za brak udostepnienia informacji publicznej",
+     "url": "https://www.rp.pl/fundacje-i-stowarzyszenia/art9667561-grzywna-dla-fundacji-batorego-za-brak-udostepnienia-informacji-publicznej"
+    },
+    {
+     "rank": 10,
+     "title": "art7175111 themis czyli sedziowska fronda",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art7175111-themis-czyli-sedziowska-fronda"
+    },
+    {
+     "rank": 11,
+     "title": "Powstaje nowe stowarzyszenie sędziowskie",
+     "url": "https://e-prawnik.pl/temat/powstaje-nowe-stowarzyszenie-sedziowskie.html"
+    },
+    {
+     "rank": 12,
+     "title": "Sprawozdanie 2022 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2006.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2007.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "sedziowie z themis obronilismy sady ale czas wyjsc do obywateli bo sady sa ich",
+     "url": "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+    },
+    {
+     "rank": 16,
+     "title": "Internet Sprawozdanie 2023 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "Sprawozdanie 2024 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Sprawozdanie 2025 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+    },
+    {
+     "rank": 19,
+     "title": "[b]Od lat w środowisku sędziowskim działa Iustitia. Po co tworzyć nowe stowarzyszenie?[/b]",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art15151651-nie-kazdy-protest-przystoi-sedziemu"
+    }
+   ]
+  },
+  {
+   "id": "Q14",
+   "query": "ambasador USA Tom Rose Trybunał Konstytucyjny Polska 2026 spotkanie sędziowie Nawrocki Tusk",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "US cuts ties with Polish speaker of parliament over 'insults' against Trump",
+     "url": "https://www.startribune.com/us-cuts-ties-with-polish-speaker-of-parliament-over-insults-against-trump/601577458"
+    },
+    {
+     "rank": 2,
+     "title": "Trump’s ambassador broke every rule of diplomacy in Warsaw — yet the alliance held",
+     "url": "https://www.washingtonexaminer.com/?p=4706498"
+    },
+    {
+     "rank": 3,
+     "title": "US cuts contact with Polish parliament speaker who said Trump doesn't deserve Nobel Peace Prize",
+     "url": "https://www.intellinews.com/us-cuts-contact-with-polish-parliament-speaker-who-said-trump-doesn-t-deserve-nobel-peace-prize-424553/"
+    },
+    {
+     "rank": 4,
+     "title": "US cuts contact with Polish parliament speaker over Trump ‘insults’",
+     "url": "https://www.timeslive.co.za/news/world/2026-02-05-us-cuts-contact-with-polish-parliament-speaker-over-trump-insults/"
+    },
+    {
+     "rank": 5,
+     "title": "us cuts contact with polish parliament speaker over trump insults ce7e5ad8d88df627",
+     "url": "https://www.marketscreener.com/news/us-cuts-contact-with-polish-parliament-speaker-over-trump-insults-ce7e5ad8d88df627"
+    },
+    {
+     "rank": 6,
+     "title": "us ambassador refuses to say how polish speaker insulted trump",
+     "url": "https://notesfrompoland.com/2026/02/10/us-ambassador-refuses-to-say-how-polish-speaker-insulted-trump/"
+    },
+    {
+     "rank": 7,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3644414,wrapup-us-envoy-cuts-contact-with-polish-parliament-speaker-accuses-him-of-insulting-trump"
+    },
+    {
+     "rank": 8,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3644033,us envoy-halts-contacts-with-polands-top-lawmaker-over-remarks-on-trump"
+    },
+    {
+     "rank": 9,
+     "title": "us ambassador questions troop presence in poland after official says trump doesnt deserve nobel prize",
+     "url": "https://kyivindependent.com/us-ambassador-questions-troop-presence-in-poland-after-official-says-trump-doesnt-deserve-nobel-prize/"
+    },
+    {
+     "rank": 10,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3644033,us envoy-halts-contacts-with-polands-top-lawmaker-over-remarks-on-trump"
+    },
+    {
+     "rank": 11,
+     "title": "Tom Rose",
+     "url": "https://episteme.tllm.fr/wiki/Tom_Rose"
+    },
+    {
+     "rank": 12,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3644089,allies-should-respect-not-lecture-each-other-polish-pm-tells-us-ambassador"
+    },
+    {
+     "rank": 13,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7785/artykul/3619943,polish-pm-hails-good-meeting-with-us-ambassador"
+    },
+    {
+     "rank": 14,
+     "title": "Newsletter Newsletters Events Events Podcasts Videos Africanews",
+     "url": "https://euronews.com/2026/02/06/us-cuts-diplomatic-ties-with-polish-sejm-speaker-wlodzimierz-czarzasty"
+    },
+    {
+     "rank": 15,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=88793"
+    },
+    {
+     "rank": 16,
+     "title": "us cuts diplomatic ties with polish sejm speaker wlodzimierz czarzasty",
+     "url": "https://www.inkl.com/news/us-cuts-diplomatic-ties-with-polish-sejm-speaker-wlodzimierz-czarzasty"
+    },
+    {
+     "rank": 17,
+     "title": "Thomas Rose is the new U.S. ambassador to Poland",
+     "url": "https://dailymare.com/news/thomas-rose-nowym-ambasadorem-usa-w-polsce,870"
+    }
+   ]
+  },
+  {
+   "id": "Q15",
+   "query": "Venice Commission Poland Constitutional Tribunal 2026 statement judges oath dispute European Commission Council of Europe",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "rm.coe.int",
+     "url": "https://rm.coe.int/poland-opinion-on-the-powers-of-the-president-in-the-context-of-the-oa/48802e450a"
+    },
+    {
+     "rank": 2,
+     "title": "CDL AD(2026)031 e",
+     "url": "https://www.coe.int/documents/268333607/300678634/CDL-AD(2026)031-e.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=105505"
+    },
+    {
+     "rank": 4,
+     "title": "Back Poland – request for an opinion",
+     "url": "https://www.coe.int/web/venice-commission/-/poland-request-for-an-opinion-2"
+    },
+    {
+     "rank": 5,
+     "title": "www.coe.int",
+     "url": "https://www.coe.int/en/web/venice-commission/poland"
+    },
+    {
+     "rank": 6,
+     "title": "rm.coe.int",
+     "url": "https://rm.coe.int/poland-extracts-from-national-legislation-concerning-the-powers-of-the/48802e41f7"
+    },
+    {
+     "rank": 7,
+     "title": "Opinion search",
+     "url": "https://www.coe.int/en/web/venice-commission/opinions-search?Countries=274727952"
+    },
+    {
+     "rank": 8,
+     "title": "the european court has decided to end the blocking of constitutional tribunal judges",
+     "url": "https://ground.news/article/the-european-court-has-decided-to-end-the-blocking-of-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 9,
+     "title": "cdl ref 2026 022 e",
+     "url": "https://www.coe.int/web/venice-commission/-/cdl-ref-2026-022-e"
+    },
+    {
+     "rank": 10,
+     "title": "cdl ref 2026 022 e",
+     "url": "https://www.coe.int/fr/web/venice-commission/-/cdl-ref-2026-022-e"
+    },
+    {
+     "rank": 11,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3697529,polish-parliament-elects-new-constitutional-tribunal-judge-amid-oath-dispute"
+    },
+    {
+     "rank": 12,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=92838"
+    },
+    {
+     "rank": 13,
+     "title": "$ 45.05 € 50.26 zł 11.46",
+     "url": "https://ua.news/en/world/venetsiiska-komisiia-ukhvalila-visnovok-shchodo-prisiagi-suddiv-u-polshchi-interia"
+    },
+    {
+     "rank": 14,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3671257,four-new-constitutional-judges-invite-president-to-parliament-for-oathtaking-ceremony"
+    },
+    {
+     "rank": 15,
+     "title": "rm.coe.int",
+     "url": "https://rm.coe.int/pologne-avis-sur-les-pouvoirs-du-president-dans-le-cadre-de-la-prestat/48802e450b"
+    }
+   ]
+  },
+  {
+   "id": "Q16",
+   "query": "Dziurda sędzia Trybunału Konstytucyjnego życiorys kandydat Sejm wybrany nominowany przez klub",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Nowy kandydat na sędziego TK. Zgłosi go klub KO",
+     "url": "https://www.wprost.pl/12340596"
+    },
+    {
+     "rank": 2,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/news-terlecki-o-pawlowicz-i-piotrowiczu-to-osoby-zasluzone-dla-wy,nId,3316800"
+    },
+    {
+     "rank": 3,
+     "title": "druk 1778",
+     "url": "https://www.inpris.pl/fileadmin/user_upload/documents/druk_1778.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/1584/1584.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/56.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 7,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/50/50.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 29. posiedzenie, 2. dzień (21-02-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/29/2025-02-21/transcripts/214"
+    },
+    {
+     "rank": 9,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/2193/2193.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/26/26.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "Sejmowa komisja za wyborem mec. Zielonackiego na sędziego TK",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/1048803,sejmowa-komisja-za-wyborem-mec-zielonackiego-na-sedziego-tk.html"
+    },
+    {
+     "rank": 12,
+     "title": "orka.sejm.gov.pl",
+     "url": "https://orka.sejm.gov.pl/Druki7ka.nsf/0/F2BF7AAFCF72BA71C125794D0028167D/%24File/20.doc"
+    },
+    {
+     "rank": 13,
+     "title": "LEX dostarcza wiedzę. Libra pomaga zamienić ją w działanie",
+     "url": "https://www.prawo.pl/prawnicy-sady/szesciu-kandydatow-do-tk,33922.html"
+    },
+    {
+     "rank": 14,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1455/1455.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331"
+    },
+    {
+     "rank": 16,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334/2334.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/22/22.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/227/227.pdf"
+    },
+    {
+     "rank": 19,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/369/369.pdf"
+    }
+   ]
+  },
+  {
+   "id": "Q17",
+   "query": "Szostek Bentkowska sędzia Trybunału Konstytucyjnego życiorys kandydat nominowany klub KO Lewica Polska 2050 PSL",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 3,
+     "title": "\"Zagrywka pod radykalny elektorat\". Żukowska o decyzji Tuska",
+     "url": "https://www.polsatnews.pl/gosc-wydarzen/2026-08-17/mielismy-byc-inni-niz-pis-koalicjantka-gorzko-o-decyzji-tuska/"
+    },
+    {
+     "rank": 4,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/1361/1361.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/1224/1224.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "news%2C1074315%2Cwybor bogdana swieczkowskiego na sedziego trybunalu konstytucyjnego sejm",
+     "url": "https://www.pap.pl/aktualnosci/news%2C1074315%2Cwybor-bogdana-swieczkowskiego-na-sedziego-trybunalu-konstytucyjnego-sejm"
+    },
+    {
+     "rank": 7,
+     "title": "maciej berek z poparciem sejmowej komisji sprawiedliwosci",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-z-poparciem-sejmowej-komisji-sprawiedliwosci"
+    },
+    {
+     "rank": 8,
+     "title": "Strona główna Alerty Maciej Berek nowym sędzią Trybunału Konstytucyjnego",
+     "url": "https://demagog.org.pl/na-biezaco/maciej-berek-w-trybunale-konstytucyjnym/"
+    },
+    {
+     "rank": 9,
+     "title": "Lewica: Nie zgłosimy kandydatów. Nie będziemy legalizowali tego, co się w TK stało",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/1438168,lewica-o-kandydatach-do-tk.html"
+    },
+    {
+     "rank": 10,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 11,
+     "title": "maciej berek jako kandydat do trybunalu konstytucyjnego komentarze lewica i konfederacja",
+     "url": "https://www.tvp.info/95193770/maciej-berek-jako-kandydat-do-trybunalu-konstytucyjnego-komentarze-lewica-i-konfederacja"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/26/26.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "Zbigniew Konwiński o kandydaturze Berka do TK. \"Niesprawiedliwa ocena\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-09-02/zbigniew-konwinski-o-kandydaturze-berka-do-tk-niesprawiedliwa-ocena/"
+    },
+    {
+     "rank": 14,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    },
+    {
+     "rank": 15,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1455/1455.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "news jest z ko nie poparl kandydatury berka doszlo do klotni poli,nId,23538885",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jest-z-ko-nie-poparl-kandydatury-berka-doszlo-do-klotni-poli,nId,23538885"
+    },
+    {
+     "rank": 17,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/1584/1584.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "constitutional tribunal judges invited to take the oath before the president",
+     "url": "https://groundnews.lakegeneva.lib.wi.us/article/constitutional-tribunal-judges-invited-to-take-the-oath-before-the-president"
+    }
+   ]
+  },
+  {
+   "id": "Q18",
+   "query": "wiceministrowie sprawiedliwości z Iustitii i Themis Ejchart Mazur Żurek ministerstwo zatrudnienie sędziowie stowarzyszeń",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "sedziowie z themis obronilismy sady ale czas wyjsc do obywateli bo sady sa ich",
+     "url": "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+    },
+    {
+     "rank": 2,
+     "title": "oko.press",
+     "url": "https://oko.press/tag/themis"
+    },
+    {
+     "rank": 3,
+     "title": "oko.press",
+     "url": "https://oko.press/tag/themis?page=0"
+    },
+    {
+     "rank": 4,
+     "title": "151a40ec 576a 46de 898b 816e308a39a7",
+     "url": "https://www.gov.pl/attachment/151a40ec-576a-46de-898b-816e308a39a7"
+    },
+    {
+     "rank": 5,
+     "title": "0a462789 5f02 47d7 8b5e 33b3d0beaa2e",
+     "url": "https://www.gov.pl/attachment/0a462789-5f02-47d7-8b5e-33b3d0beaa2e"
+    },
+    {
+     "rank": 6,
+     "title": "ministerstwo sprawiedliwosci",
+     "url": "https://oko.press/instytucje/ministerstwo-sprawiedliwosci?page=10"
+    },
+    {
+     "rank": 7,
+     "title": "ministerstwo sprawiedliwosci",
+     "url": "https://oko.press/instytucje/ministerstwo-sprawiedliwosci?page=48"
+    },
+    {
+     "rank": 8,
+     "title": "debfd331 f039 4546 9404 9ec27327af57",
+     "url": "https://www.gov.pl/attachment/debfd331-f039-4546-9404-9ec27327af57"
+    },
+    {
+     "rank": 9,
+     "title": "Top Polish official resigns over alleged harassment of judges",
+     "url": "https://uk.news.yahoo.com/top-polish-official-resigns-over-165525159.html"
+    },
+    {
+     "rank": 10,
+     "title": "a293a428 1554 4183 8436 ff36687ae285",
+     "url": "https://www.gov.pl/attachment/a293a428-1554-4183-8436-ff36687ae285"
+    },
+    {
+     "rank": 11,
+     "title": "adam bodnar",
+     "url": "https://oko.press/ludzie/adam-bodnar?page=3"
+    },
+    {
+     "rank": 12,
+     "title": "odwolana ziobro prezes krakowskiego sadu zostala szefowa stowarzyszenia sedziow",
+     "url": "https://oko.press/odwolana-ziobro-prezes-krakowskiego-sadu-zostala-szefowa-stowarzyszenia-sedziow"
+    },
+    {
+     "rank": 13,
+     "title": "polands new justice minister to dismiss dozens court heads in move to clean up judiciary",
+     "url": "https://notesfrompoland.com/2025/07/31/polands-new-justice-minister-to-dismiss-dozens-court-heads-in-move-to-clean-up-judiciary/"
+    },
+    {
+     "rank": 14,
+     "title": "Pierwsze decyzje ministra Żurka. Podał informacje o odwołaniach",
+     "url": "https://wydarzenia.interia.pl/kraj/news-pierwsze-decyzje-ministra-zurka-podal-informacje-o-odwolania,nId,22170585"
+    },
+    {
+     "rank": 15,
+     "title": "www.gov.pl",
+     "url": "https://www.gov.pl/web/justice/information"
+    },
+    {
+     "rank": 16,
+     "title": "www.gov.pl",
+     "url": "https://www.gov.pl/web/justice/news2"
+    },
+    {
+     "rank": 17,
+     "title": "Informacje o Ministerstwie Sprawiedliwości",
+     "url": "https://www.gov.pl/attachment/8b8e2412-4dcd-4ccc-8ec0-7096d1b38cc5"
+    },
+    {
+     "rank": 18,
+     "title": "Go to the Banner section",
+     "url": "https://www.gov.pl/web/justice"
+    }
+   ]
+  },
+  {
+   "id": "Q19",
+   "query": "Fundacja Batorego sprawozdanie 2024 granty sądownictwo Wolne Sądy Iustitia Themis Helsińska Fundacja OKO.press lista grantów",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "iustitia nie dalismy sie zlamac przez 8 lat wygramy walczymy o nowoczesne sady i nowa krs",
+     "url": "https://oko.press/iustitia-nie-dalismy-sie-zlamac-przez-8-lat-wygramy-walczymy-o-nowoczesne-sady-i-nowa-krs"
+    },
+    {
+     "rank": 2,
+     "title": "Sprawozdanie 2024 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "Dąbrowski: Quo vadis, Iustitia? [OPINIA]",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10959276,dabrowski-quo-vadis-iustitia-opinia.html"
+    },
+    {
+     "rank": 4,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2006.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "norweska poslanka zglosila iustitia do pokojowej nagrody nobla",
+     "url": "https://oko.press/norweska-poslanka-zglosila-iustitia-do-pokojowej-nagrody-nobla"
+    },
+    {
+     "rank": 6,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2008.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2005.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "Sprawozdanie 2014 PL",
+     "url": "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "grants left wing european ngos",
+     "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+    },
+    {
+     "rank": 10,
+     "title": "mariusz jaloszewski z nagroda stowarzyszenia sedziow polskich iustitia",
+     "url": "https://oko.press/mariusz-jaloszewski-z-nagroda-stowarzyszenia-sedziow-polskich-iustitia"
+    },
+    {
+     "rank": 11,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego"
+    },
+    {
+     "rank": 12,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/konkurs-grantowy-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-nagrody-rafto"
+    },
+    {
+     "rank": 13,
+     "title": "sedziowie z themis obronilismy sady ale czas wyjsc do obywateli bo sady sa ich",
+     "url": "https://oko.press/sedziowie-z-themis-obronilismy-sady-ale-czas-wyjsc-do-obywateli-bo-sady-sa-ich"
+    }
+   ]
+  },
+  {
+   "id": "Q20",
+   "query": "Open Society Foundations Poland grants 2025 rule of law judges independent judiciary grantee list",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Open Society Foundations",
+     "url": "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2"
+    },
+    {
+     "rank": 2,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/en/category/international/page/2/"
+    },
+    {
+     "rank": 3,
+     "title": "Open Society Foundations",
+     "url": "https://www.developmentaid.org/organizations/awards/view/606812/europe-and-central-asia-to-support-investigative-research-around-judicial-accountability-and-narrati"
+    },
+    {
+     "rank": 4,
+     "title": "Forsal: Lyudmyla Kozlovska’s foundation received a grant from the Department of State",
+     "url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/"
+    },
+    {
+     "rank": 5,
+     "title": "en.odfoundation.eu",
+     "url": "https://en.odfoundation.eu/?p=31797"
+    },
+    {
+     "rank": 6,
+     "title": "Open Society Foundations",
+     "url": "https://www.developmentaid.org/organizations/awards/view/606867/europe-and-central-asia-to-provide-general-support"
+    },
+    {
+     "rank": 7,
+     "title": "31797,forsal lyudmyla kozlovskas foundation received a grant from the department of state",
+     "url": "https://en.odfoundation.eu/a/31797,forsal-lyudmyla-kozlovskas-foundation-received-a-grant-from-the-department-of-state/"
+    },
+    {
+     "rank": 8,
+     "title": "Open Society Foundations",
+     "url": "https://www.developmentaid.org/organizations/awards/view/603514/europe-and-central-asia-to-decrease-the-risk-of-anti-climate-backlash-by-building-support-for-just-t"
+    },
+    {
+     "rank": 9,
+     "title": "• Skip to primary navigation",
+     "url": "https://news.fundsforngos.org/2025/11/24/judicial-independence-under-threat-understanding-polands-reform-challenges/"
+    },
+    {
+     "rank": 10,
+     "title": "Freeze transfer of Norway Grants to the Ministry of Justice in Poland",
+     "url": "https://www.rafto.no/en/news/freeze-poland-grants"
+    },
+    {
+     "rank": 11,
+     "title": "RoLR word",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/06/RoLR_word.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Onet: Grant from the US Embassy in Poland to the Open Dialogue Foundation",
+     "url": "https://en.odfoundation.eu/tag/grants-for-projects/"
+    },
+    {
+     "rank": 13,
+     "title": "worldjusticeproject.org",
+     "url": "https://worldjusticeproject.org/node/50885"
+    },
+    {
+     "rank": 14,
+     "title": "Deadline: 29-Jul-2026",
+     "url": "https://www2.fundsforngos.org/?p=469370"
+    },
+    {
+     "rank": 15,
+     "title": "www.hrw.org",
+     "url": "https://www.hrw.org/world-report/2026/country-chapters/poland"
+    },
+    {
+     "rank": 16,
+     "title": "7246 Informational Materials 20240517 38",
+     "url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "TVP complies with court order in ODF case",
+     "url": "https://en.odfoundation.eu/topic/rule-of-law/page/13/"
+    },
+    {
+     "rank": 18,
+     "title": "liberties.eu",
+     "url": "https://liberties.eu/f/nkqwtg"
+    }
+   ]
+  },
+  {
+   "id": "Q21",
+   "query": "Fundusze norweskie EOG Fundusz dla Organizacji Pozarządowych Wolne Sądy Iustitia OKO.press projekt dofinansowanie praworządność",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "konserwatywno prawicowy skok fundusze norweskie a pospieszalski tropi sorosa",
+     "url": "https://oko.press/konserwatywno-prawicowy-skok-fundusze-norweskie-a-pospieszalski-tropi-sorosa"
+    },
+    {
+     "rank": 2,
+     "title": "53 miliony euro dla organizacji spolecznych ruszyl progam aktywni obywatele",
+     "url": "https://oko.press/53-miliony-euro-dla-organizacji-spolecznych-ruszyl-progam-aktywni-obywatele/"
+    },
+    {
+     "rank": 3,
+     "title": "polski rzad ustepuje norwegia przejmie funduszy dla organizacji pozarzadowych",
+     "url": "https://oko.press/polski-rzad-ustepuje-norwegia-przejmie-funduszy-dla-organizacji-pozarzadowych"
+    },
+    {
+     "rank": 4,
+     "title": "norweska poslanka zglosila iustitia do pokojowej nagrody nobla",
+     "url": "https://oko.press/norweska-poslanka-zglosila-iustitia-do-pokojowej-nagrody-nobla"
+    },
+    {
+     "rank": 5,
+     "title": "norwegia oficjalnie potwierdza polski rzad przejmie milionow euro dla ngo sow",
+     "url": "https://oko.press/norwegia-oficjalnie-potwierdza-polski-rzad-przejmie-milionow-euro-dla-ngo-sow"
+    },
+    {
+     "rank": 6,
+     "title": "dz u ue l 2024 2602,72383625",
+     "url": "https://www.prawo.pl/akty/dz-u-ue-l-2024-2602,72383625.html"
+    },
+    {
+     "rank": 7,
+     "title": "12369 fundusze norweskie i eog darczycy zatwierdzili kolejne programy",
+     "url": "https://wartowiedziec.pl/serwis-glowny/52-aktualnosci/12369-fundusze-norweskie-i-eog-darczycy-zatwierdzili-kolejne-programy"
+    },
+    {
+     "rank": 8,
+     "title": "List popracia dla Wegrow",
+     "url": "https://www.maszglos.pl/wp-content/uploads/2014/06/List-popracia-dla-Wegrow.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "art862431 ministerstwo sprawiedliwosci nie dostanie 300 mln zl z funduszy norweskich",
+     "url": "https://www.rp.pl/prawo/art862431-ministerstwo-sprawiedliwosci-nie-dostanie-300-mln-zl-z-funduszy-norweskich"
+    },
+    {
+     "rank": 10,
+     "title": "ziobro nie dostanie 292 mln zl z funduszy norweskich",
+     "url": "https://oko.press/ziobro-nie-dostanie-292-mln-zl-z-funduszy-norweskich"
+    },
+    {
+     "rank": 11,
+     "title": "Bezpłatny e-book Skarga pauliańska w najnowszym orzecznictwie – wpływ na dochodzenie i egzekucję roszczeń",
+     "url": "https://www.prawo.pl/samorzad/fundusze-norweskie-nie-dla-ministerstwa-sprawiedliwosci,498230.html"
+    },
+    {
+     "rank": 12,
+     "title": "fundusze norweskie dla rzadu apel organizacji pozarzadowych",
+     "url": "https://oko.press/fundusze-norweskie-dla-rzadu-apel-organizacji-pozarzadowych"
+    },
+    {
+     "rank": 13,
+     "title": "manipulacje pomowienia raporcie ordo iuris fundacja im batorego odpowiada",
+     "url": "https://oko.press/manipulacje-pomowienia-raporcie-ordo-iuris-fundacja-im-batorego-odpowiada"
+    },
+    {
+     "rank": 14,
+     "title": "art12788441 druga edycja funduszy norweskich i funduszy eog",
+     "url": "https://www.rp.pl/fundusze-europejskie/art12788441-druga-edycja-funduszy-norweskich-i-funduszy-eog"
+    },
+    {
+     "rank": 15,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/upload/files/Programy%20dotacyjne/Obywatele%20dla%20Demokracji/O%20zasadach%20dystrybucji%20srodkow%20z%20Funduszy%20EOG%20w%20programie%20Obywatele%20dla%20Demokracji%281%29.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "fundusze norweskie i eog umowy na zielona transformacje oraz sprawiedliwosc podpisane",
+     "url": "https://www.gov.pl/web/fundusze-regiony/fundusze-norweskie-i-eog-umowy-na-zielona-transformacje-oraz-sprawiedliwosc-podpisane"
+    },
+    {
+     "rank": 17,
+     "title": "WYJASNIENIE DOTYCZACE PRZYZNANIA",
+     "url": "https://gardzienice.org/wp-content/uploads/2020/12/WYJASNIENIE-DOTYCZACE-PRZYZNANIA.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "norweski mechanizm finansowy oraz mechanizm finansowy europejskiego obszaru gospodarczego",
+     "url": "https://www.gov.pl/web/fundusze-regiony/norweski-mechanizm-finansowy-oraz-mechanizm-finansowy-europejskiego-obszaru-gospodarczego"
+    }
+   ]
+  },
+  {
+   "id": "Q22",
+   "query": "Czarzasty Marszałek Sejmu głosowanie wybór sędziego TK Berek 4 września 2026 wynik głosowania",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "czarzasty bije sie z nawrockim o berka wyciaga mu mieszkanie i sutenerstwo",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/czarzasty-bije-sie-z-nawrockim-o-berka-wyciaga-mu-mieszkanie-i-sutenerstwo"
+    },
+    {
+     "rank": 2,
+     "title": "maciej berek zlozyl slubowanie sedziego tk",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-zlozyl-slubowanie-sedziego-tk"
+    },
+    {
+     "rank": 3,
+     "title": "czarzasty odpowiedzial nawrockiemu w sprawie berka",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/czarzasty-odpowiedzial-nawrockiemu-w-sprawie-berka"
+    },
+    {
+     "rank": 4,
+     "title": "Kancelaria Sejmu odpowiedziała prezydentowi. Oczekuje niezwłocznego przyjęcia ślubowania od nowego sędziego TK",
+     "url": "https://xyz.pl/?p=248418"
+    },
+    {
+     "rank": 5,
+     "title": "Berek zwrócił się do prezydenta o niezwłoczne wskazanie miejsca i daty złożenia ślubowania na sędziego TK",
+     "url": "https://xyz.pl/?p=252104"
+    },
+    {
+     "rank": 6,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164"
+    },
+    {
+     "rank": 8,
+     "title": "news prezydent odbierze przysiege od nowego sedziego tk marszalek,nId,2187222",
+     "url": "https://www.rmf24.pl/fakty/polska/news-prezydent-odbierze-przysiege-od-nowego-sedziego-tk-marszalek,nId,2187222"
+    },
+    {
+     "rank": 9,
+     "title": "news spiecie wicepremiera z prezydenckim ministrem to mnie sprowo,nId,23538742",
+     "url": "https://wydarzenia.interia.pl/kraj/news-spiecie-wicepremiera-z-prezydenckim-ministrem-to-mnie-sprowo,nId,23538742"
+    },
+    {
+     "rank": 10,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-czarzasty-pisze-do-nawrockiego-niech-pan-sie-nie-boi,nId,8072827"
+    },
+    {
+     "rank": 11,
+     "title": "berek zlozyl slubowanieale pat w trybunale konstytucyjnym trwa",
+     "url": "https://oko.press/berek-zlozyl-slubowanieale-pat-w-trybunale-konstytucyjnym-trwa"
+    },
+    {
+     "rank": 12,
+     "title": "news jest z ko nie poparl kandydatury berka doszlo do klotni poli,nId,23538885",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jest-z-ko-nie-poparl-kandydatury-berka-doszlo-do-klotni-poli,nId,23538885"
+    },
+    {
+     "rank": 13,
+     "title": "Strona główna Wypowiedzi Nowi sędziowie Trybunału Konstytucyjnego. Czy przy ich wyborze naruszono regulamin?",
+     "url": "https://demagog.org.pl/wypowiedzi/nowi-sedziowie-trybunalu-konstytucyjnego-czy-naruszono-regulamin-przy-ich-wyborze/"
+    },
+    {
+     "rank": 14,
+     "title": "czy berek jest juz sedzia ciag dalszy sporu o trybunal konstytucyjny",
+     "url": "https://demagog.org.pl/na-biezaco/czy-berek-jest-juz-sedzia-ciag-dalszy-sporu-o-trybunal-konstytucyjny/"
+    },
+    {
+     "rank": 15,
+     "title": "Maciej Berek złożył w Sejmie ślubowanie sędziego Trybunału Konstytucyjnego z formułą „wobec prezydenta”",
+     "url": "https://xyz.pl/?p=261926"
+    },
+    {
+     "rank": 16,
+     "title": "jesienna rewolucja w tk wladza prezesa swieczkowskiego bedzie zalezala od sedziow",
+     "url": "https://oko.press/jesienna-rewolucja-w-tk-wladza-prezesa-swieczkowskiego-bedzie-zalezala-od-sedziow"
+    },
+    {
+     "rank": 17,
+     "title": "Strona główna Wypowiedzi Czy według TK Platforma Obywatelska wybrała sędziów do Trybunału z naruszeniem Konstytucji?",
+     "url": "https://demagog.org.pl/wypowiedzi/czy-wedlug-tk-platforma-obywatelska-wybrala-sedziow-do-trybunalu-z-naruszeniem-konstytucji/"
+    },
+    {
+     "rank": 18,
+     "title": "czarzasty uderza w nawrockiego marszalek upomina sie o macieja berka",
+     "url": "https://www.tvp.info/95648253/czarzasty-uderza-w-nawrockiego-marszalek-upomina-sie-o-macieja-berka"
+    },
+    {
+     "rank": 19,
+     "title": "Strona główna Alerty Maciej Berek nowym sędzią Trybunału Konstytucyjnego",
+     "url": "https://demagog.org.pl/na-biezaco/maciej-berek-w-trybunale-konstytucyjnym/"
+    }
+   ]
+  },
+  {
+   "id": "Q23",
+   "query": "Gregorczyk-Abram Rzecznik Praw Obywatelskich wybór Senat 2026 Wolne Sądy kancelaria",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95292"
+    },
+    {
+     "rank": 2,
+     "title": "poland appoints new human rights commissioner",
+     "url": "https://notesfrompoland.com/2026/07/23/poland-appoints-new-human-rights-commissioner/"
+    },
+    {
+     "rank": 3,
+     "title": "news sylwia gregorczyk abram i adam borowski to oni zmierza sie o,nId,23514094",
+     "url": "https://wydarzenia.interia.pl/kraj/news-sylwia-gregorczyk-abram-i-adam-borowski-to-oni-zmierza-sie-o,nId,23514094"
+    },
+    {
+     "rank": 4,
+     "title": "tematy sylwia gregorczyk abram,gsbi,56031",
+     "url": "https://wydarzenia.interia.pl/tematy-sylwia-gregorczyk-abram,gsbi,56031"
+    },
+    {
+     "rank": 5,
+     "title": "trump w oredziu oskarza chiny o ingerencje w wybory",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/trump-w-oredziu-oskarza-chiny-o-ingerencje-w-wybory"
+    },
+    {
+     "rank": 6,
+     "title": "1. Bezprawnik -",
+     "url": "https://bezprawnik.pl/sylwia-gregorczyk-abram/"
+    },
+    {
+     "rank": 7,
+     "title": "news nowy rzecznik praw obywatelskich sejm zdecydowal,nId,23515518",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-rzecznik-praw-obywatelskich-sejm-zdecydowal,nId,23515518"
+    },
+    {
+     "rank": 8,
+     "title": "sylwia gregorczyk abram formalnie objela stanowisko rzecznika praw obywatelskich",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/sylwia-gregorczyk-abram-formalnie-objela-stanowisko-rzecznika-praw-obywatelskich"
+    },
+    {
+     "rank": 9,
+     "title": "weto dla statusu osoby najblizszej podpis dla zakazu patostreamingu",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/weto-dla-statusu-osoby-najblizszej-podpis-dla-zakazu-patostreamingu"
+    },
+    {
+     "rank": 10,
+     "title": "senat wyrazil zgode na powolanie sylwii gregorczyk abram na urzad rpo",
+     "url": "https://www.pap.pl/aktualnosci/senat-wyrazil-zgode-na-powolanie-sylwii-gregorczyk-abram-na-urzad-rpo"
+    },
+    {
+     "rank": 11,
+     "title": "Nowy rzecznik praw obywatelskich. Sejm zdecydował",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-07-17/nowy-rzecznik-praw-obywatelskich-sejm-zdecydowal/"
+    },
+    {
+     "rank": 12,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/wybor-rzecznika-praw-obywatelskich-sejm-poparl-sylwie-gregorczyk-abram/"
+    },
+    {
+     "rank": 13,
+     "title": "news jest nowa rzecznik praw obywatelskich senat zdecydowal,nId,23518343",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jest-nowa-rzecznik-praw-obywatelskich-senat-zdecydowal,nId,23518343"
+    },
+    {
+     "rank": 14,
+     "title": "sejm powolal sylwie gregorczyk abram na urzad rzecznika praw obywatelskich",
+     "url": "https://www.pap.pl/aktualnosci/sejm-powolal-sylwie-gregorczyk-abram-na-urzad-rzecznika-praw-obywatelskich"
+    },
+    {
+     "rank": 15,
+     "title": "news slubowanie nowej rpo poslowie pis wyszli z sali,nId,23521346",
+     "url": "https://wydarzenia.interia.pl/kraj/news-slubowanie-nowej-rpo-poslowie-pis-wyszli-z-sali,nId,23521346"
+    },
+    {
+     "rank": 16,
+     "title": "Polska ma nowa Rzeczniczke Praw Obywatelskich Sylwia Gregorczyk Abram zlozyla slubowanie 9174765",
+     "url": "https://www.bankier.pl/wiadomosc/Polska-ma-nowa-Rzeczniczke-Praw-Obywatelskich-Sylwia-Gregorczyk-Abram-zlozyla-slubowanie-9174765.html"
+    },
+    {
+     "rank": 17,
+     "title": "nowa rpo sylwia gregorczyk abram zlozyla slubowanie przed sejmem",
+     "url": "https://www.pap.pl/aktualnosci/nowa-rpo-sylwia-gregorczyk-abram-zlozyla-slubowanie-przed-sejmem"
+    },
+    {
+     "rank": 18,
+     "title": "sejm wybral sylwie gregorczyk abram na urzad rpo jej kandydatura zajmie sie teraz senat",
+     "url": "https://www.pap.pl/aktualnosci/sejm-wybral-sylwie-gregorczyk-abram-na-urzad-rpo-jej-kandydatura-zajmie-sie-teraz-senat"
+    }
+   ]
+  },
+  {
+   "id": "Q24",
+   "query": "European Court of Human Rights Constitutional Tribunal judges blocking Poland 2026 decision Strasbourg new judges",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "the european court has decided to end the blocking of constitutional tribunal judges",
+     "url": "https://ground.news/article/the-european-court-has-decided-to-end-the-blocking-of-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 2,
+     "title": "newly sworn in judge of polands constitutional court stages boycott over blocked colleagues",
+     "url": "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues/"
+    },
+    {
+     "rank": 3,
+     "title": "polish constitutional court officials charged with preventing entry of new judges",
+     "url": "https://notesfrompoland.com/2026/09/24/polish-constitutional-court-officials-charged-with-preventing-entry-of-new-judges/"
+    },
+    {
+     "rank": 4,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95498"
+    },
+    {
+     "rank": 5,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=104375"
+    },
+    {
+     "rank": 6,
+     "title": "april 2026 0",
+     "url": "https://www.idea.int/democracytracker/report/poland/april-2026-0"
+    },
+    {
+     "rank": 7,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3683292,european-court-orders-poland-to-allow-constitutional-judges-to-take-office"
+    },
+    {
+     "rank": 8,
+     "title": "european court orders polish constitutional tribunal to accept judges rejected by president",
+     "url": "https://notesfrompoland.com/2026/05/06/european-court-orders-polish-constitutional-tribunal-to-accept-judges-rejected-by-president/"
+    },
+    {
+     "rank": 9,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95282"
+    },
+    {
+     "rank": 10,
+     "title": "polish constitutional court endorses presidents right not to swear in new judges",
+     "url": "https://notesfrompoland.com/2026/05/13/polish-constitutional-court-endorses-presidents-right-not-to-swear-in-new-judges/"
+    },
+    {
+     "rank": 11,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=92551"
+    },
+    {
+     "rank": 12,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1t71bx5/snapshots/2026-05-08T17%3A55%3A50.033955Z"
+    },
+    {
+     "rank": 13,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1tbz201/snapshots/2026-05-15T16%3A50%3A04.879972Z"
+    },
+    {
+     "rank": 14,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1t5hiqr/snapshots/2026-05-07T06%3A46%3A56.42912Z"
+    },
+    {
+     "rank": 15,
+     "title": "GDELT CloudGDELT Cloud",
+     "url": "https://gdeltcloud.com/events/karol-nawrocki-blocks-another-constitutional-tribunal-judge--cameoplus_e09dc166"
+    }
+   ]
+  },
+  {
+   "id": "Q25",
+   "query": "policja interwencja w Trybunale Konstytucyjnym 30 października 2026 Korwin-Piotrowska prezes TK Żurek Tusk zgromadzenie sędziów",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Interwencja policji w TK. Bogdan Święczkowski domaga się wyjaśnień",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-07-20/interwencja-policji-w-tk-bogdan-swieczkowski-domaga-sie-wyjasnien/"
+    },
+    {
+     "rank": 2,
+     "title": "Burzliwe sceny przed TK. Musiały interweniować służby",
+     "url": "https://www.wprost.pl/12387261"
+    },
+    {
+     "rank": 3,
+     "title": "Święczkowski po interwencji w TK. „Mogą próbować pozbawić mnie wolności”",
+     "url": "https://www.wprost.pl/12388377"
+    },
+    {
+     "rank": 4,
+     "title": "policja coraz blizej tk trela decyzja dojrzewa",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/policja-coraz-blizej-tk-trela-decyzja-dojrzewa"
+    },
+    {
+     "rank": 5,
+     "title": "Święczkowski żąda wyjaśnień po akcji policji w TK. „Zamach na organ państwa”",
+     "url": "https://www.wprost.pl/kraj/12392751/bogdan-swieczkowski-zada-wyjasnien-po-interwencji-policji-w-tk.html"
+    },
+    {
+     "rank": 6,
+     "title": "Święczkowski żąda wyjaśnień po akcji policji w TK. „Zamach na organ państwa”",
+     "url": "https://www.wprost.pl/12392751"
+    },
+    {
+     "rank": 7,
+     "title": "news burza po wydarzeniach w trybunale swieczkowski chce ujawnien,nId,23517205",
+     "url": "https://wydarzenia.interia.pl/kraj/news-burza-po-wydarzeniach-w-trybunale-swieczkowski-chce-ujawnien,nId,23517205"
+    },
+    {
+     "rank": 8,
+     "title": "news trybunal konstytucyjny mozna przejac ale co dalej,nId,23542278",
+     "url": "https://wydarzenia.interia.pl/felietony/news-trybunal-konstytucyjny-mozna-przejac-ale-co-dalej,nId,23542278"
+    },
+    {
+     "rank": 9,
+     "title": "prof wyrzykowski o tk jak zrzucic antykonstytucyjne kajdany",
+     "url": "https://oko.press/prof-wyrzykowski-o-tk-jak-zrzucic-antykonstytucyjne-kajdany"
+    },
+    {
+     "rank": 10,
+     "title": "czy berek jest juz sedzia ciag dalszy sporu o trybunal konstytucyjny",
+     "url": "https://demagog.org.pl/na-biezaco/czy-berek-jest-juz-sedzia-ciag-dalszy-sporu-o-trybunal-konstytucyjny/"
+    },
+    {
+     "rank": 11,
+     "title": "swieczkowski idzie na zwarcie w tk chce silowo zablokowac nowym sedziom wejscie na zgromadzenie",
+     "url": "https://oko.press/swieczkowski-idzie-na-zwarcie-w-tk-chce-silowo-zablokowac-nowym-sedziom-wejscie-na-zgromadzenie"
+    },
+    {
+     "rank": 12,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/tk"
+    },
+    {
+     "rank": 13,
+     "title": "media policja wkroczy do trybunalu konstytucyjnego 40 lecie tk przepychanki w siedzibie aws co wydarzy sie w piatek 11 wrzesnia",
+     "url": "https://www.tvp.info/95333951/media-policja-wkroczy-do-trybunalu-konstytucyjnego-40-lecie-tk-przepychanki-w-siedzibie-aws-co-wydarzy-sie-w-piatek-11-wrzesnia"
+    },
+    {
+     "rank": 14,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-nasi-sedziowie-protestuja-po-slowach-premiera-tuska,nIdn,1015699"
+    },
+    {
+     "rank": 15,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3671257,four-new-constitutional-judges-invite-president-to-parliament-for-oathtaking-ceremony"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 63. posiedzenie, 3. dzień (31-07-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/096"
+    }
+   ]
+  },
+  {
+   "id": "Q26",
+   "query": "zawiadomienie prezesa TK zamach stanu dotyczy Tusk Bodnar Żurek Sikorski wymienieni z nazwiska zawiadomienie Święczkowski",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "news bodnar o swieczkowskim i ostrowskim to wierni zolnierze ziob,nId,7907047",
+     "url": "https://www.rmf24.pl/polityka/news-bodnar-o-swieczkowskim-i-ostrowskim-to-wierni-zolnierze-ziob,nId,7907047"
+    },
+    {
+     "rank": 2,
+     "title": "Prokuratura przesluchala Swieczkowskiego Toczy sie sledztwo ws zamachu stanu 8909175",
+     "url": "https://www.bankier.pl/wiadomosc/Prokuratura-przesluchala-Swieczkowskiego-Toczy-sie-sledztwo-ws-zamachu-stanu-8909175.html"
+    },
+    {
+     "rank": 3,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=85286"
+    },
+    {
+     "rank": 4,
+     "title": "Tusk o \"zamachu stanu\". Wskazuje na trzy kraje i pisze o \"kooperacji\"",
+     "url": "https://wydarzenia.interia.pl/kraj/news-tusk-o-zamachu-stanu-wskazuje-na-trzy-kraje-i-pisze-o-kooper,nId,7908088"
+    },
+    {
+     "rank": 5,
+     "title": "polish justice minister seeks criminal charges against chief justice of constitutional court",
+     "url": "https://notesfrompoland.com/2025/09/30/polish-justice-minister-seeks-criminal-charges-against-chief-justice-of-constitutional-court/"
+    },
+    {
+     "rank": 6,
+     "title": "prokurator michal ostrowski zawieszony na okres szesciu miesiecy",
+     "url": "https://radiokielce.pl/1270185/prokurator-michal-ostrowski-zawieszony-na-okres-szesciu-miesiecy"
+    },
+    {
+     "rank": 7,
+     "title": "wiadomo kto zajmie sie zawiadomieniem prezesa tk ws zamachu stanu",
+     "url": "https://www.pap.pl/aktualnosci/wiadomo-kto-zajmie-sie-zawiadomieniem-prezesa-tk-ws-zamachu-stanu"
+    },
+    {
+     "rank": 8,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=84685"
+    },
+    {
+     "rank": 9,
+     "title": "polish constitutional court rejects justice ministers request to lift chief justices immunity",
+     "url": "https://notesfrompoland.com/2025/10/17/polish-constitutional-court-rejects-justice-ministers-request-to-lift-chief-justices-immunity/"
+    },
+    {
+     "rank": 10,
+     "title": "art41855681 prezes tk bogdan swieczkowski napisal do adama bodnara wskazuje kto ma prowadzic sledztwo ws zamachu stanu",
+     "url": "https://www.rp.pl/prawo-karne/art41855681-prezes-tk-bogdan-swieczkowski-napisal-do-adama-bodnara-wskazuje-kto-ma-prowadzic-sledztwo-ws-zamachu-stanu"
+    },
+    {
+     "rank": 11,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=76359"
+    },
+    {
+     "rank": 12,
+     "title": "prokurator ostrowski zawieszony groza mu zarzuty",
+     "url": "https://oko.press/prokurator-ostrowski-zawieszony-groza-mu-zarzuty"
+    },
+    {
+     "rank": 13,
+     "title": "art42047981 prezes tk napisal do adama bodnara znow ws zamachu stanu",
+     "url": "https://www.rp.pl/prawo-karne/art42047981-prezes-tk-napisal-do-adama-bodnara-znow-ws-zamachu-stanu"
+    },
+    {
+     "rank": 14,
+     "title": "art41797261 sprawa zamachu stanu co ze sledztwem po zawieszeniu prok ostrowskiego",
+     "url": "https://www.rp.pl/prawo-karne/art41797261-sprawa-zamachu-stanu-co-ze-sledztwem-po-zawieszeniu-prok-ostrowskiego"
+    },
+    {
+     "rank": 15,
+     "title": "\"Wierni żołnierze Ziobry realizują konkretne polityczne zadania\"",
+     "url": "https://tvn24.pl/polska/adam-bodnar-o-zawiadomieniu-bogdana-swieczkowskiego-st8294365"
+    },
+    {
+     "rank": 16,
+     "title": "Śledztwo w sprawie \"zamachu stanu\". Bodnar komentuje",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/9728887,sledztwo-w-sprawie-zamachu-stanu-bodnar-komentuje.html"
+    },
+    {
+     "rank": 17,
+     "title": "„Zamach stanu” w Polsce. Rzecznik prokuratury o nowych faktach",
+     "url": "https://www.wprost.pl/11962024"
+    },
+    {
+     "rank": 18,
+     "title": "Święczkowski po interwencji w TK. „Mogą próbować pozbawić mnie wolności”",
+     "url": "https://www.wprost.pl/12388377"
+    },
+    {
+     "rank": 19,
+     "title": "art41864891 oto prokuratorka ktora zajmie sie zawiadomieniem ws zamachu stanu",
+     "url": "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu"
+    },
+    {
+     "rank": 20,
+     "title": "prof cwiakalski o zawiadomieniu w sprawie zamachu stanu niepowazne akcja polityczna",
+     "url": "https://www.pap.pl/aktualnosci/prof-cwiakalski-o-zawiadomieniu-w-sprawie-zamachu-stanu-niepowazne-akcja-polityczna"
+    }
+   ]
+  },
+  {
+   "id": "Q27",
+   "query": "Obywatele dla Demokracji Fundusze EOG granty lista beneficjentów Wolne Sądy Iustitia Themis OKO.press",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/upload/files/Programy%20dotacyjne/Obywatele%20dla%20Demokracji/O%20zasadach%20dystrybucji%20srodkow%20z%20Funduszy%20EOG%20w%20programie%20Obywatele%20dla%20Demokracji%281%29.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "jak tvp info zdemaskowalo oko press i fundusze norweskie by przykryc afere willa plus",
+     "url": "https://oko.press/jak-tvp-info-zdemaskowalo-oko-press-i-fundusze-norweskie-by-przykryc-afere-willa-plus"
+    },
+    {
+     "rank": 3,
+     "title": "grants left wing european ngos",
+     "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/"
+    },
+    {
+     "rank": 4,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/es/documents/download/107497"
+    },
+    {
+     "rank": 5,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/ar/documents/download/107497"
+    },
+    {
+     "rank": 6,
+     "title": "www.judicialwatch.org",
+     "url": "https://www.judicialwatch.org/?p=152386"
+    },
+    {
+     "rank": 7,
+     "title": "WYJASNIENIE DOTYCZACE PRZYZNANIA",
+     "url": "https://gardzienice.org/wp-content/uploads/2020/12/WYJASNIENIE-DOTYCZACE-PRZYZNANIA.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "Styczen 2021 w Gardzienicach",
+     "url": "https://gardzienice.org/wp-content/uploads/2020/12/Styczen-2021-w-Gardzienicach.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/en/documents/download/107498"
+    },
+    {
+     "rank": 10,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/ar/documents/download/101183"
+    },
+    {
+     "rank": 11,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/es/documents/download/107498"
+    },
+    {
+     "rank": 12,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/ar/documents/download/107498"
+    },
+    {
+     "rank": 13,
+     "title": "materialy do dyskusji potomkowie cywilizacji lacinskiej tysiac tog",
+     "url": "https://www.watchdocs.pl/upload/2022/06/materialy-do-dyskusji-potomkowie-cywilizacji-lacinskiej-tysiac-tog.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "by Press | Sep 30, 2021 | Press Releases",
+     "url": "https://www.lawyerscommittee.org/tag/technology/"
+    }
+   ]
+  },
+  {
+   "id": "Q28",
+   "query": "Kancelaria Wawrykiewicz klienci zlecenia umowa Skarb Państwa OR Ministerstwo OR spółka Wawrykiewicz adwokat zarobki oświadczenie",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "wawrykiewicz micha 46988",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/wawrykiewicz-micha-46988"
+    },
+    {
+     "rank": 2,
+     "title": "3743,3,Kancelaria Prawna Skarbiec",
+     "url": "https://www.infor.pl/eksperci/3743,3,Kancelaria-Prawna-Skarbiec.html"
+    },
+    {
+     "rank": 3,
+     "title": "V%20KK%20535 19",
+     "url": "https://www.sn.pl/sites/orzecznictwo/Orzeczenia3/V%20KK%20535-19.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "palestra r2005 t50 n3 4567 568 s306 308",
+     "url": "https://bazhum.muzhp.pl/media/texts/palestra/2005-tom-50-numer-3-4567-568/palestra-r2005-t50-n3_4567_568-s306-308.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "Umowa Nr ………….. / 2026",
+     "url": "https://www.gov.pl/attachment/107ce5b6-7a44-49f9-8c0c-b6cbc27b7339"
+    },
+    {
+     "rank": 6,
+     "title": "sygn. XII Ga 505/16 28 grudnia 2016 Sąd Okręgowy w Gdańsku",
+     "url": "https://dlajurysty.pl/orzeczenia/pokaz/400635/XII-Ga-505-16"
+    },
+    {
+     "rank": 7,
+     "title": "wawryk aneta 87421",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/wawryk-aneta-87421"
+    },
+    {
+     "rank": 8,
+     "title": "GORAZDA, ŚWISTUŃ, WĄTROBA I PARTNERZY ADWOKACI I RADCOWIE PRAWNI",
+     "url": "https://lawinsider.com/pl/contracts/lGVIjPzi8cE"
+    },
+    {
+     "rank": 9,
+     "title": "146f118b db45 4bd9 a000 e73e5fb113d7",
+     "url": "https://www.gov.pl/attachment/146f118b-db45-4bd9-a000-e73e5fb113d7"
+    },
+    {
+     "rank": 10,
+     "title": "kancelaria zatrudni aplikanta lub radce prawnego",
+     "url": "https://oirp.krakow.pl/pdf/kancelaria-zatrudni-aplikanta-lub-radce-prawnego/"
+    },
+    {
+     "rank": 11,
+     "title": "Standardy Prawa",
+     "url": "https://standardyprawa.pl/akt/36/art/7254"
+    },
+    {
+     "rank": 12,
+     "title": "DZU.2013.184.0001150,ustawa o prokuratorii generalnej skarbu panstwa",
+     "url": "https://www.infor.pl/akt-prawny/DZU.2013.184.0001150,ustawa-o-prokuratorii-generalnej-skarbu-panstwa.html"
+    },
+    {
+     "rank": 13,
+     "title": "ebookpoint.pl",
+     "url": "https://ebookpoint.pl/pobierz-fragment/etyka-adwokacka-na-egzamin-komentarz-wraz-z-orzecznictwem-do-kodeksu-etyki-adwokackiej-teksty-pr-joanna-ablewicz,e_433b/pdf"
+    },
+    {
+     "rank": 14,
+     "title": "Wekslowe przypadki adwokata Ćwiąkalskiego",
+     "url": "https://tvn24.pl/najnowsze/wekslowe-przypadki-adwokata-cwiakalskiego-ra244200-ls3733016"
+    },
+    {
+     "rank": 15,
+     "title": "KANCELARIA ADWOKACKA ADWOKAT PAWEŁ KRUPA tenders – contracts won",
+     "url": "https://mimira.eu/przetargi/en/contractors/kancelaria-adwokacka-adwokat-pawel-krupa"
+    },
+    {
+     "rank": 16,
+     "title": "ebookpoint.pl",
+     "url": "https://ebookpoint.pl/pobierz-fragment/odpowiedzialnosc-prawnika-wobec-klienta-krzysztof-janczukowicz,e_2jsl/pdf"
+    },
+    {
+     "rank": 17,
+     "title": "301613,Zarobki w Prokuratorii Generalnej",
+     "url": "https://www.infor.pl/prawo/zarobki/wysokosc-zarobkow/301613,Zarobki-w-Prokuratorii-Generalnej.html"
+    }
+   ]
+  },
+  {
+   "id": "Q29",
+   "query": "Bodnar senator Zgromadzenie Parlamentarne Rady Europy PACE Poland Constitutional Tribunal 2026",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Adam Bodnar",
+     "url": "https://en.wikipedia.org/wiki/Adam_Bodnar"
+    },
+    {
+     "rank": 2,
+     "title": "koniec epoki ministra bodnara europejskie sukcesy krajowa krytyka",
+     "url": "https://oko.press/koniec-epoki-ministra-bodnara-europejskie-sukcesy-krajowa-krytyka"
+    },
+    {
+     "rank": 3,
+     "title": "rpo nie chce by w jego sprawie w tk orzekali byly posel pis piotrowicz i sedzia dubler",
+     "url": "https://oko.press/rpo-nie-chce-by-w-jego-sprawie-w-tk-orzekali-byly-posel-pis-piotrowicz-i-sedzia-dubler"
+    },
+    {
+     "rank": 4,
+     "title": "Adam Bodnar",
+     "url": "https://Www.Wikipedia.org/wiki/Adam_Bodnar"
+    },
+    {
+     "rank": 5,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=26603"
+    },
+    {
+     "rank": 6,
+     "title": "TVN24 | TVN24 News in English",
+     "url": "https://tvn24.pl/tvn24-news-in-english/polands-upper-house-approves-marcin-wiacek-as-new-ombudsman-5154278"
+    },
+    {
+     "rank": 7,
+     "title": "minister adam bodnar in tirana at the meeting of the monitoring committee of the parliamentary assembly of the council of europe",
+     "url": "https://www.gov.pl/web/justice/minister-adam-bodnar-in-tirana-at-the-meeting-of-the-monitoring-committee-of-the-parliamentary-assembly-of-the-council-of-europe"
+    },
+    {
+     "rank": 8,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/node/7230/revisions/7281/view"
+    },
+    {
+     "rank": 9,
+     "title": "polish constitutional court rules human rights commissioner must leave office",
+     "url": "https://notesfrompoland.com/2021/04/15/polish-constitutional-court-rules-human-rights-commissioner-must-leave-office/"
+    },
+    {
+     "rank": 10,
+     "title": "When It Rains, It Pours: Polish Constitutional Tribunal Removes Human Rights Watchdog",
+     "url": "https://www.humanrightspulse.com/mastercontentblog/when-it-rains-it-pours-polish-constitutional-tribunal-removes-human-rights-watchdog"
+    },
+    {
+     "rank": 11,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/news-bodnar-trzeba-starac-sie-odzyskac-praworzadnosc-i-demokracje,nId,7052535"
+    },
+    {
+     "rank": 12,
+     "title": "www.venice.coe.int",
+     "url": "https://www.venice.coe.int/WebForms/events/?id=3713"
+    },
+    {
+     "rank": 13,
+     "title": "Poland: Human rights chief ordered out by top court",
+     "url": "https://scottishlegal.com/article/poland-human-rights-chief-ordered-out-by-top-court"
+    },
+    {
+     "rank": 14,
+     "title": "polands upper house rejects ruling party candidate for ombudsman st5093644",
+     "url": "https://tvn24.pl/tvn24-news-in-english/polands-upper-house-rejects-ruling-party-candidate-for-ombudsman-st5093644"
+    },
+    {
+     "rank": 15,
+     "title": "art39434411 adam bodnar tlumaczy odrzucenie kandydatury senatora pis na wicemarszalka chodzi o konkretne slowa",
+     "url": "https://www.rp.pl/polityka/art39434411-adam-bodnar-tlumaczy-odrzucenie-kandydatury-senatora-pis-na-wicemarszalka-chodzi-o-konkretne-slowa"
+    },
+    {
+     "rank": 16,
+     "title": "Photo Credit: M. Józefaciuk - Kancelaria Senatu",
+     "url": "https://jewishpress.com/news/politics/ousted-human-rights-chief-warns-poland-becoming-undemocratic/2021/05/02"
+    },
+    {
+     "rank": 17,
+     "title": "Poland: Human rights chief ordered out by top court",
+     "url": "https://www.scottishlegal.com/articles/poland-human-rights-chief-ordered-out-by-top-court"
+    }
+   ]
+  },
+  {
+   "id": "Q30",
+   "query": "manifestacja pod Trybunałem Konstytucyjnym październik 2026 KOD Obywatele RP poparcie dla nowych sędziów Korwin-Piotrowska",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "prof wyrzykowski o tk jak zrzucic antykonstytucyjne kajdany",
+     "url": "https://oko.press/prof-wyrzykowski-o-tk-jak-zrzucic-antykonstytucyjne-kajdany"
+    },
+    {
+     "rank": 2,
+     "title": "wyjasniamy o co chodzi ze slubowaniem sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/wyjasniamy-o-co-chodzi-ze-slubowaniem-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 3,
+     "title": "Constitutional Tribunal at a crossroads: New judges, lingering controversy",
+     "url": "https://xyz.pl/?p=183056"
+    },
+    {
+     "rank": 4,
+     "title": "efekt domina spor o trybunal konstytucyjny trwa juz ponad 10 lat",
+     "url": "https://demagog.org.pl/na-biezaco/efekt-domina-spor-o-trybunal-konstytucyjny-trwa-juz-ponad-10-lat/"
+    },
+    {
+     "rank": 5,
+     "title": "news kod manifestowal w krakowie przeciw wyrokowi tk ws wyboru cz,nId,2409861",
+     "url": "https://www.rmf24.pl/fakty/polska/news-kod-manifestowal-w-krakowie-przeciw-wyrokowi-tk-ws-wyboru-cz,nId,2409861"
+    },
+    {
+     "rank": 6,
+     "title": "\"Dość łamania prawa\". Manifestacja i tłum ludzi przed Pałacem Prezydenta",
+     "url": "https://tvn24.pl/polska/dosc-lamania-prawa-manifestacja-i-tlum-ludzi-przed-palacem-prezydenta-ra626864-ls3177721"
+    },
+    {
+     "rank": 7,
+     "title": "nowi sedziowie tk chca by wszyscy sedziowie trybunalu ocenili dzialania prezesa swieczkowskiego",
+     "url": "https://oko.press/nowi-sedziowie-tk-chca-by-wszyscy-sedziowie-trybunalu-ocenili-dzialania-prezesa-swieczkowskiego"
+    },
+    {
+     "rank": 8,
+     "title": "Manifestacja przed Trybunałem Konstytucyjnym. Utrudnienia w stolicy",
+     "url": "https://www.wprost.pl/533663"
+    },
+    {
+     "rank": 9,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 10,
+     "title": "swieczkowski idzie na zwarcie w tk chce silowo zablokowac nowym sedziom wejscie na zgromadzenie",
+     "url": "https://oko.press/swieczkowski-idzie-na-zwarcie-w-tk-chce-silowo-zablokowac-nowym-sedziom-wejscie-na-zgromadzenie"
+    },
+    {
+     "rank": 11,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-nasi-sedziowie-protestuja-po-slowach-premiera-tuska,nIdn,1015699"
+    },
+    {
+     "rank": 12,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/strona-glowna/news-policja-12-tys-osob-na-manifestacji-kod-u-na-transparentach-,nId,2280338"
+    },
+    {
+     "rank": 13,
+     "title": "prezesi i sedziowie tk do swieczkowskiego sklady orzekajace bez 4 nowych sedziow tk sa nielegalne",
+     "url": "https://oko.press/prezesi-i-sedziowie-tk-do-swieczkowskiego-sklady-orzekajace-bez-4-nowych-sedziow-tk-sa-nielegalne"
+    },
+    {
+     "rank": 14,
+     "title": "List otwarty otwarty organizacji spolecznych w sprawie Trybunalu Konstytucyjnego",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2026/02/List-otwarty-otwarty-organizacji-spolecznych-w-sprawie-Trybunalu-Konstytucyjnego.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Pikieta KOD przed kancelaria premiera ws publikacji orzeczenia TK 3508871",
+     "url": "https://www.bankier.pl/wiadomosc/Pikieta-KOD-przed-kancelaria-premiera-ws-publikacji-orzeczenia-TK-3508871.html"
+    },
+    {
+     "rank": 16,
+     "title": "KOD manifestował poparcie dla Trybunału Konstytucyjnego",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/967087,kod-manifestowal-poparcie-dla-trybunalu-konstytucyjnego.html"
+    },
+    {
+     "rank": 17,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=178870"
+    },
+    {
+     "rank": 18,
+     "title": "tarcze z konstytucja blokowaly wejscie do sadu najwyzszego sedziom nielegalnie powolanym przez pis",
+     "url": "https://oko.press/tarcze-z-konstytucja-blokowaly-wejscie-do-sadu-najwyzszego-sedziom-nielegalnie-powolanym-przez-pis"
+    },
+    {
+     "rank": 19,
+     "title": "pis ma tylko 18 procent w sondazu cbos",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/pis-ma-tylko-18-procent-w-sondazu-cbos"
+    }
+   ]
+  },
+  {
+   "id": "Q31",
+   "query": "Iustitia statement Constitutional Tribunal October 2026 judges association Korwin-Piotrowska Święczkowski suspended reaction",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=91592"
+    },
+    {
+     "rank": 2,
+     "title": "zarzuty dla urzednikow tk swieczkowskiego za blokowanie nowych sedziow",
+     "url": "https://oko.press/zarzuty-dla-urzednikow-tk-swieczkowskiego-za-blokowanie-nowych-sedziow"
+    },
+    {
+     "rank": 3,
+     "title": "polish constitutional court rejects four new judges amid standoff between government and president",
+     "url": "https://notesfrompoland.com/2026/04/09/polish-constitutional-court-rejects-four-new-judges-amid-standoff-between-government-and-president/"
+    },
+    {
+     "rank": 4,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    },
+    {
+     "rank": 5,
+     "title": "Constitutional Tribunal at a crossroads: New judges, lingering controversy",
+     "url": "https://xyz.pl/?p=183056"
+    },
+    {
+     "rank": 6,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1sj9psf/snapshots/2026-04-17T16%3A40%3A26.729925Z"
+    },
+    {
+     "rank": 7,
+     "title": "sedzia trybunalu konstytucyjnego praworzadnosc mozna przywracac praworzadnymi metodami",
+     "url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami"
+    },
+    {
+     "rank": 8,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 9,
+     "title": "Report on the current situation of the judiciary in Poland 1",
+     "url": "https://www.iaj-uim.org/iuw/wp-content/uploads/2019/10/Report-on-the-current-situation-of-the-judiciary-in-Poland-1.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "corte costituzionale nel mirino di tusk altra tappa del golpe polacco",
+     "url": "https://www.newdailycompass.com/it/pdf/corte-costituzionale-nel-mirino-di-tusk-altra-tappa-del-golpe-polacco"
+    },
+    {
+     "rank": 11,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3674245,polish-justice-minister-orders-probe-into-presidential-aides-amid judicial oath-dispute"
+    },
+    {
+     "rank": 12,
+     "title": "Statement of IUSTITIA",
+     "url": "https://iaj-uim.org/iuw/?p=45303"
+    },
+    {
+     "rank": 13,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3668567,polands-justice-minister-says-president-risks-breaking-constitution-over-top-court-judges"
+    },
+    {
+     "rank": 14,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1t71bx5/snapshots/2026-05-08T17%3A55%3A50.033955Z"
+    },
+    {
+     "rank": 15,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3668562,polish-president-swears-in-two-new-constitutional-tribunal-judges-leaves-four-appointments-unresolved"
+    },
+    {
+     "rank": 16,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3658781,polish-parliament-to-vote-friday-on-constitutional-tribunal-judges-speaker-says"
+    },
+    {
+     "rank": 17,
+     "title": "Umów prezentację LEX Kompas Orzeczniczy 2.0",
+     "url": "https://www.prawo.pl/prawnicy-sady/akcja-protestacyjna-sedziow-rusza-od-stycznia,505315.html"
+    },
+    {
+     "rank": 18,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3456623,new-head-for-polands-constitutional-court"
+    }
+   ]
+  },
+  {
+   "id": "Q32",
+   "query": "Korwin-Piotrowska prezes TK 30 października przejęła kierownictwo Trybunału reakcja Tusk Żurek Kosiniak-Kamysz Czarzasty",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "KUP TVN24+",
+     "url": "https://tvn24.pl/najnowsze/sedzia-korwin-piotrowska-o-rozmowie-z-prezesem-tk-vd9142791"
+    },
+    {
+     "rank": 2,
+     "title": "polish constitutional court rejects justice ministers request to lift chief justices immunity",
+     "url": "https://notesfrompoland.com/2025/10/17/polish-constitutional-court-rejects-justice-ministers-request-to-lift-chief-justices-immunity/"
+    },
+    {
+     "rank": 3,
+     "title": "karolina opolska komentuje felieton nawrocki wybiera sedziow pis zawiesza szczuckiego",
+     "url": "https://www.tvp.info/92455289/karolina-opolska-komentuje-felieton-nawrocki-wybiera-sedziow-pis-zawiesza-szczuckiego"
+    },
+    {
+     "rank": 4,
+     "title": "anna korwin piotrowska",
+     "url": "https://oko.press/tag/anna-korwin-piotrowska"
+    },
+    {
+     "rank": 5,
+     "title": "zurek apeluje do prezydenta aby jak najszybciej zaprosil pozostala czworke sedziow",
+     "url": "https://www.pap.pl/aktualnosci/zurek-apeluje-do-prezydenta-aby-jak-najszybciej-zaprosil-pozostala-czworke-sedziow"
+    },
+    {
+     "rank": 6,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=85286"
+    },
+    {
+     "rank": 7,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 8,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-nasi-sedziowie-protestuja-po-slowach-premiera-tuska,nIdn,1015699"
+    },
+    {
+     "rank": 9,
+     "title": "spor o trybunal konstytucyjny co wydarzylo sie w 2015 roku",
+     "url": "https://demagog.org.pl/analizy_i_raporty/spor-o-trybunal-konstytucyjny-co-wydarzylo-sie-w-2015-roku/"
+    },
+    {
+     "rank": 10,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 11,
+     "title": "polish pm confirms he wants his right hand man to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 12,
+     "title": "krystian markiewicz",
+     "url": "https://oko.press/tag/krystian-markiewicz"
+    },
+    {
+     "rank": 13,
+     "title": "konkret 22 postawienie politykow pis przed trybunalem stanu",
+     "url": "https://demagog.org.pl/obietnice/konkret-22-postawienie-politykow-pis-przed-trybunalem-stanu"
+    },
+    {
+     "rank": 14,
+     "title": "wladyslaw kosiniak kamysz porannym gosciem radia krakow zadaj pytanie",
+     "url": "https://www.radiokrakow.pl/audycje/wladyslaw-kosiniak-kamysz-porannym-gosciem-radia-krakow-zadaj-pytanie/"
+    },
+    {
+     "rank": 15,
+     "title": "Szef MS: poleciłem szefowi PK podjęcie czynności w związku z próbą sparaliżowania pracy TK",
+     "url": "https://xyz.pl/dzieje-sie/szef-ms-polecilem-szefowi-pk-podjecie-czynnosci-w-zwiazku-z-proba-sparalizowania-pracy-tk-4264"
+    }
+   ]
+  },
+  {
+   "id": "Q33",
+   "query": "Maciej Berek kariera Rząd Tuska szef Stałego Komitetu Rady Ministrów Centrum Legislacji doradca premiera umowa biografia majątek",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Odchodzi ze stanowiska. Oto jego majątek",
+     "url": "https://www.money.pl/polityka/dwa-domy-wiekszosciowy-udzial-w-mieszkaniu-oszczednosci-majatek-macieja-berka-7317329836427264a.html"
+    },
+    {
+     "rank": 2,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=237430"
+    },
+    {
+     "rank": 3,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/zaskakujaca-rezygnacja-maciej-berek-odchodzi-z-rzadu/"
+    },
+    {
+     "rank": 4,
+     "title": "Zmiana w rządzie. Premier właśnie ogłosił",
+     "url": "https://www.money.pl/polityka/zmiana-w-rzadzie-premier-wlasnie-oglosil-7317282641582080a.html"
+    },
+    {
+     "rank": 5,
+     "title": "news nieoczekiwana zmiana w rzadzie bliski wspolpracownik tuska o,nId,23527605",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nieoczekiwana-zmiana-w-rzadzie-bliski-wspolpracownik-tuska-o,nId,23527605"
+    },
+    {
+     "rank": 6,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-premier-oglosil-zmiane-w-rzadzie-przejdzie-do-innych-zadan,nIdn,1013289"
+    },
+    {
+     "rank": 7,
+     "title": "Zmiany w rządzie. Premier ogłosił odejście ministra",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-11/zmiany-w-rzadzie-premier-oglosil-odejscie-ministra/"
+    },
+    {
+     "rank": 8,
+     "title": "Majątek nowego \"spec-ministra\" Macieja Berka. Domy, mieszkania i znaczne oszczędności",
+     "url": "https://superbiz.se.pl/wiadomosci/majatek-nowego-spec-ministra-macieja-berka-domy-mieszkania-i-znaczne-oszczednosci-aa-fHTN-9G6R-3tFR.html"
+    },
+    {
+     "rank": 9,
+     "title": "„Prawa ręka\" Donalda Tuska odchodzi z rządu. Zastąpi go Joanna Knapińska",
+     "url": "https://xyz.pl/?p=237312"
+    },
+    {
+     "rank": 10,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-maciej-berek-w-nowej-roli-premier-tusk-potwierdza,nIdn,1013610"
+    },
+    {
+     "rank": 11,
+     "title": "news jaki plan dla macieja berka donald tusk potwierdza,nId,23528708",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jaki-plan-dla-macieja-berka-donald-tusk-potwierdza,nId,23528708"
+    },
+    {
+     "rank": 12,
+     "title": "Sejmowa komisja pozytywnie zaopiniowała kandydaturę Macieja Berka na sędziego TK",
+     "url": "https://xyz.pl/dzieje-sie/sejmowa-komisja-pozytywnie-zaopiniowala-kandydature-macieja-berka-na-sedziego-tk-1913"
+    },
+    {
+     "rank": 13,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-zastanawia-mnie-wrzawa-tusk-broni-berka,nIdn,1014300"
+    },
+    {
+     "rank": 14,
+     "title": "maciej berek kandydatem na sedziego trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/94837884/maciej-berek-kandydatem-na-sedziego-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 15,
+     "title": "tagi maciej berek,tId,206246",
+     "url": "https://wydarzenia.interia.pl/tagi-maciej-berek,tId,206246"
+    },
+    {
+     "rank": 16,
+     "title": "tusk cpn wraca bedzie tansze paliwo i regulowana cena",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/tusk-cpn-wraca-bedzie-tansze-paliwo-i-regulowana-cena"
+    },
+    {
+     "rank": 17,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-maciej-berek-jednak-zgloszony-do-tk-przez-koalicje-obywatels,nIdn,1014008"
+    },
+    {
+     "rank": 18,
+     "title": "maciej berek jako kandydat do trybunalu konstytucyjnego komentarze lewica i konfederacja",
+     "url": "https://www.tvp.info/95193770/maciej-berek-jako-kandydat-do-trybunalu-konstytucyjnego-komentarze-lewica-i-konfederacja"
+    }
+   ]
+  },
+  {
+   "id": "Q34",
+   "query": "Helsińska Fundacja Praw Człowieka sprawozdanie finansowe 2024 przychody dotacje darczyńcy lista",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "sprawozdanie merytoryczne",
+     "url": "https://archiwum.hfhr.pl/wp-content/uploads/2022/11/sprawozdanie_merytoryczne.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "bip.uodo.gov.pl",
+     "url": "https://bip.uodo.gov.pl/pl/file/5700"
+    },
+    {
+     "rank": 3,
+     "title": "rozliczenie pit online 0000035831",
+     "url": "https://www.pitax.pl/rozliczenie-pit-online-0000035831/"
+    },
+    {
+     "rank": 4,
+     "title": "zpe.gov.pl",
+     "url": "https://zpe.gov.pl/a/przeczytaj/DTymGcvn2"
+    },
+    {
+     "rank": 5,
+     "title": "Kategoria instytucji:",
+     "url": "https://www.lublin.eu/en/what-to-see-do/attractions-sights/iinstitutions/helsinki-foundation-for-human-rights,3728,w.html"
+    },
+    {
+     "rank": 6,
+     "title": "human rights ngo receives 80000 in donations",
+     "url": "https://themoscowtimes.com/archive/human-rights-ngo-receives-80000-in-donations"
+    },
+    {
+     "rank": 7,
+     "title": "projects.propublica.org",
+     "url": "https://projects.propublica.org/nonprofits/organizations/208607942"
+    },
+    {
+     "rank": 8,
+     "title": "Statut HFPC 13082021",
+     "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/08/Statut-HFPC-13082021.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "2 sprawozdanie finansowe za 2024 rok",
+     "url": "https://app.zaiks.org.pl//media/o3sdqijl/2-sprawozdanie-finansowe-za-2024-rok.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "Barion Pixel",
+     "url": "https://helsinki.hu/en/the-hungarian-helsinki-committees-annual-report-is-out/"
+    },
+    {
+     "rank": 11,
+     "title": "Rola Helsińskiej Fundacji Praw Człowieka",
+     "url": "https://zpe.gov.pl/b/PnBi0SzZF"
+    },
+    {
+     "rank": 12,
+     "title": "4b03a442 05f8 4fc6 a927 4e4ec8dec737 JCR",
+     "url": "https://dziennikurzedowy.msz.gov.pl/resource/4b03a442-05f8-4fc6-a927-4e4ec8dec737_JCR"
+    },
+    {
+     "rank": 13,
+     "title": "fundacja 2",
+     "url": "https://archiwum.hfhr.pl/fundacja-2/"
+    }
+   ]
+  },
+  {
+   "id": "Q35",
+   "query": "OKO.press darczyńcy finansowanie 2024 sprawozdanie przychody Fundusze EOG Fundacja Batorego Open Society",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Sprawozdanie 2024 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2025/06/Sprawozdanie_2024_PL.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "Sprawozdanie 2025 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2026/06/Sprawozdanie_2025_PL.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "Sprawozdanie 2022 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2023/06/Sprawozdanie_2022_PL.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "Sprawozdanie Finansowe 2024 z opinia",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2026/05/Sprawozdanie_Finansowe_2024_z-opinia.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "Internet Sprawozdanie 2020 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2021/06/Internet_Sprawozdanie_2020_PL.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "Sprawozdanie 2017",
+     "url": "https://www.batory.org.pl/upload/files/pdf/_Sprawozdanie_2017.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "Internet Sprawozdanie 2023 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/07/Internet_Sprawozdanie_2023_PL.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2013.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "konserwatywno prawicowy skok fundusze norweskie a pospieszalski tropi sorosa",
+     "url": "https://oko.press/konserwatywno-prawicowy-skok-fundusze-norweskie-a-pospieszalski-tropi-sorosa"
+    },
+    {
+     "rank": 10,
+     "title": "Sprawozdanie 2021 PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2022/06/Sprawozdanie_2021_PL.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "Sprawozdanie 2016 PL skompresowany",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Sprawozdanie 2019 z opinia",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2020/06/Sprawozdanie_2019_z_opinia.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "Sprawozdanie 2014 PL",
+     "url": "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "Sprawozdanie 2018 fin",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2020/08/Sprawozdanie_2018_fin.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Sprawozdanie 2015PL",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "Sprawozdanie 2018 fin",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2018_fin.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/upload/files/Programy%20dotacyjne/Obywatele%20dla%20Demokracji/O%20zasadach%20dystrybucji%20srodkow%20z%20Funduszy%20EOG%20w%20programie%20Obywatele%20dla%20Demokracji%281%29.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Sprawozdanie skarbnika za rok 2023",
+     "url": "https://www.otwarta.org/wp-content/uploads/2024/05/Sprawozdanie-skarbnika-za-rok-2023.pdf"
+    },
+    {
+     "rank": 19,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/Spr2012.pdf"
+    },
+    {
+     "rank": 20,
+     "title": "manipulacje pomowienia raporcie ordo iuris fundacja im batorego odpowiada",
+     "url": "https://oko.press/manipulacje-pomowienia-raporcie-ordo-iuris-fundacja-im-batorego-odpowiada"
+    }
+   ]
+  },
+  {
+   "id": "Q36",
+   "query": "Fundacja Wolne Sądy sprawozdanie finansowe 2024 przychody darowizny dotacje KRS 0000829554",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "sprawozdanieFWS 2022",
+     "url": "https://www.szymborska.org.pl/app/uploads/2024/01/sprawozdanieFWS_2022.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "FUNDACJA WOLNE SĄDY",
+     "url": "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady"
+    },
+    {
+     "rank": 3,
+     "title": "www.sws.org.pl",
+     "url": "https://www.sws.org.pl/sites/default/files/inline-files/SPRAWOZDANIE%20FINANSOWE%202022.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "2 sprawozdanie finansowe za 2024 rok",
+     "url": "https://app.zaiks.org.pl//media/o3sdqijl/2-sprawozdanie-finansowe-za-2024-rok.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "REQUEST A DEMO",
+     "url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html"
+    },
+    {
+     "rank": 6,
+     "title": "Stowarzyszenie Wolnego Slowa SF 2018",
+     "url": "https://www.sws.org.pl/sites/default/files/inline-files/Stowarzyszenie_Wolnego_Slowa_SF_2018.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "Fundacja sprawozdanie finansowe 2024 1",
+     "url": "https://42warsaw.pl/wp-content/uploads/2026/02/Fundacja_sprawozdanie-finansowe-2024-1.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "wprowadzenie do sprawozd finansowego 2014",
+     "url": "https://wolnoscodreligii.pl/web/app/uploads/2015/06/wprowadzenie-do-sprawozd-finansowego-2014.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "rozliczenie pit online 0000428743",
+     "url": "https://www.pitax.pl/rozliczenie-pit-online-0000428743/"
+    },
+    {
+     "rank": 10,
+     "title": "1659449323 wolni i solidarni ewp 366",
+     "url": "https://info.pkw.gov.pl/uploaded_files/1659449323_wolni-i-solidarni-ewp-366.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "1768384334 ewp 469 wolnosc i dobrobyt",
+     "url": "https://pkw.gov.pl/uploaded_files/1768384334_ewp-469-wolnosc-i-dobrobyt.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "za 2024 ID",
+     "url": "https://www.naszewycieczki.pl/images/sprawozdania/za_2024_ID.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "darowizny 2024 do US",
+     "url": "https://bip.rodzicpoludzku.pl/wp-content/uploads/2025/07/darowizny_2024_do_US.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "darowizny ordo iuris rekordowe darowizny ordo iuris ponad 15 mln zl przychodow",
+     "url": "https://www.tvp.info/95964566/darowizny-ordo-iuris-rekordowe-darowizny-ordo-iuris-ponad-15-mln-zl-przychodow"
+    }
+   ]
+  },
+  {
+   "id": "Q37",
+   "query": "Dariusz Szostek sędzia Trybunału Konstytucyjnego profesor Opole radca prawny kancelaria kim jest",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "sedzia szostek na pewno tuz po swietach obejme funkcje jako sedzia tk",
+     "url": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk"
+    },
+    {
+     "rank": 2,
+     "title": "Trybunał Konstytucyjny",
+     "url": "https://www.rmf24.pl/tagi-trybunal-konstytucyjny,tId,97280"
+    },
+    {
+     "rank": 3,
+     "title": "dariusz szostek",
+     "url": "https://www.pap.pl/aktualnosci/dariusz-szostek"
+    },
+    {
+     "rank": 4,
+     "title": "ulubiony ekspert pis pomogl przejac trybunal konstytucyjny zostal sedzia trybunalu stanu",
+     "url": "https://oko.press/ulubiony-ekspert-pis-pomogl-przejac-trybunal-konstytucyjny-zostal-sedzia-trybunalu-stanu"
+    },
+    {
+     "rank": 5,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/MP/1999/332/text/T/M19990332L.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/komentarz-RPO-do-umorzenia-postepowania-przed-trybunalem-konstytucyjnym-w-sprawie-Opola"
+    },
+    {
+     "rank": 7,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/tuleja-rymar-i-zubik-sedziami-trybunalu-konstytucyjnego,171478.html"
+    },
+    {
+     "rank": 8,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/MP/1999/332/text/T/M19990332L.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "dariusz jonski wkrotce przedstawimy propozycje jak naprawic trybunal konstytucyjny",
+     "url": "https://www.pap.pl/aktualnosci/dariusz-jonski-wkrotce-przedstawimy-propozycje-jak-naprawic-trybunal-konstytucyjny"
+    },
+    {
+     "rank": 10,
+     "title": "co mowil prof zoll na temat wyroku trybunalu konstytucyjnego ws rpo",
+     "url": "https://demagog.org.pl/wypowiedzi/co-mowil-prof-zoll-na-temat-wyroku-trybunalu-konstytucyjnego-ws-rpo/"
+    },
+    {
+     "rank": 11,
+     "title": "jest nowy prezes tk prezydent zdecydowal",
+     "url": "https://www.pap.pl/aktualnosci/jest-nowy-prezes-tk-prezydent-zdecydowal"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/prints/26/26.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/MP/2024/198/text/I/M20240198.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "wpia.uni.opole.pl",
+     "url": "https://wpia.uni.opole.pl/wp-content/uploads/sites/93/4de5f104a3b28c3b1515524ccaff75f6.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Ziobro powołuje się na \"ośmiu wybitnych konstytucjonalistów\". Kim są, co napisali?",
+     "url": "https://tvn24.pl/polska/eksperci-ktorzy-podzielaja-zdanie-rzadu-ws-trybunalu-ra626234-ls3177259"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/97"
+    },
+    {
+     "rank": 17,
+     "title": "opinie prawne dot prawnych i faktycznych podstaw wydania przez tk postanowienia o sygnaturze ts 924 oraz jego legalnosci",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-prawnych-i-faktycznych-podstaw-wydania-przez-tk-postanowienia-o-sygnaturze-ts-924-oraz-jego-legalnosci"
+    }
+   ]
+  },
+  {
+   "id": "Q38",
+   "query": "Magdalena Bentkowska adwokat sędzia Trybunału Konstytucyjnego kancelaria życiorys ambasada Waszyngton",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 3,
+     "title": "bentkowska magdalena 42768",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/bentkowska-magdalena-42768"
+    },
+    {
+     "rank": 4,
+     "title": "bentkowska magdalena 46603",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/bentkowska-magdalena-46603"
+    },
+    {
+     "rank": 5,
+     "title": "sedzia bentkowska sprawy w tk czekaja nawet 10 lat",
+     "url": "https://www.tvp.info/92776812/sedzia-bentkowska-sprawy-w-tk-czekaja-nawet-10-lat"
+    },
+    {
+     "rank": 6,
+     "title": "biznes.edu.pl",
+     "url": "https://biznes.edu.pl/?p=17366"
+    },
+    {
+     "rank": 7,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/014"
+    },
+    {
+     "rank": 9,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/3859/3859.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "Sprawozdanie polskiego rządu z wykonywania Międzynarodowego Paktu Praw Obywatelskich i Politycznych",
+     "url": "https://www.rp.pl/prawo/prawnicy/909"
+    },
+    {
+     "rank": 11,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term9/committees/SPC/sittings/91/html"
+    },
+    {
+     "rank": 12,
+     "title": "kowalczyk magdalena 33990",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/kowalczyk-magdalena-33990"
+    },
+    {
+     "rank": 13,
+     "title": "kapczyska magdalena 35887",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/kapczyska-magdalena-35887"
+    },
+    {
+     "rank": 14,
+     "title": "dobrosielska zawadzka magdalena 94893",
+     "url": "https://rejestradwokatow.pl/adwokat/pdf/dobrosielska-zawadzka-magdalena-94893"
+    },
+    {
+     "rank": 15,
+     "title": "Jump to ratings and reviews",
+     "url": "https://www.goodreads.com/book/show/198623933"
+    },
+    {
+     "rank": 16,
+     "title": "Poszukiwanie prawnika do sprawy o zachowek w Warszawie - forum prawne",
+     "url": "https://e-prawnik.pl/forum/zachowek-37.html"
+    },
+    {
+     "rank": 17,
+     "title": "Wizyta pełnomocnika Departamentu Stanu USA ds. Demokracji, Praw Człowieka i Pracy w Biurze RPO",
+     "url": "https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/view"
+    }
+   ]
+  },
+  {
+   "id": "Q39",
+   "query": "Joanna Knapińska minister członek Rady Ministrów zastąpi Berka Stały Komitet",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "„Prawa ręka\" Donalda Tuska odchodzi z rządu. Zastąpi go Joanna Knapińska",
+     "url": "https://xyz.pl/?p=237312"
+    },
+    {
+     "rank": 2,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=237430"
+    },
+    {
+     "rank": 3,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/zaskakujaca-rezygnacja-maciej-berek-odchodzi-z-rzadu/"
+    },
+    {
+     "rank": 4,
+     "title": "maciej berek nie bedzie ministrem ds nadzoru nad wdrazaniem polityki rzadukto go zastapi",
+     "url": "https://www.tvp.info/94801290/maciej-berek-nie-bedzie-ministrem-ds-nadzoru-nad-wdrazaniem-polityki-rzadukto-go-zastapi"
+    },
+    {
+     "rank": 5,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-premier-oglosil-zmiane-w-rzadzie-przejdzie-do-innych-zadan,nIdn,1013289"
+    },
+    {
+     "rank": 6,
+     "title": "Premier RP powołał nową minister ds. nadzoru nad wdrażaniem polityki rządu",
+     "url": "https://bank.pl/?p=555999"
+    },
+    {
+     "rank": 7,
+     "title": "Premier RP powołał nową minister ds. nadzoru nad wdrażaniem polityki rządu",
+     "url": "https://bank.pl/premier-rp-powolal-nowa-minister-ds-nadzoru-nad-wdrazaniem-polityki-rzadu/"
+    },
+    {
+     "rank": 8,
+     "title": "news z rzadu wprost na sedziego tk nieoficjalne doniesienia o min,nId,23527779",
+     "url": "https://wydarzenia.interia.pl/kraj/news-z-rzadu-wprost-na-sedziego-tk-nieoficjalne-doniesienia-o-min,nId,23527779"
+    },
+    {
+     "rank": 9,
+     "title": "Zmiana w rządzie. Premier właśnie ogłosił",
+     "url": "https://www.money.pl/polityka/zmiana-w-rzadzie-premier-wlasnie-oglosil-7317282641582080a.html"
+    },
+    {
+     "rank": 10,
+     "title": "news nieoczekiwana zmiana w rzadzie bliski wspolpracownik tuska o,nId,23527605",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nieoczekiwana-zmiana-w-rzadzie-bliski-wspolpracownik-tuska-o,nId,23527605"
+    },
+    {
+     "rank": 11,
+     "title": "Zmiany w rządzie. Premier ogłosił odejście ministra",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-08-11/zmiany-w-rzadzie-premier-oglosil-odejscie-ministra/"
+    },
+    {
+     "rank": 12,
+     "title": "Joanna Kopcińska będzie rzecznikiem rządu. Premier Morawiecki ogłosił zmiany personalne",
+     "url": "https://www.money.pl/gospodarka/wiadomosci/artykul/joanna-kopcinska-rzecznik-rzadu-kprm,5,0,2394117.html"
+    },
+    {
+     "rank": 13,
+     "title": "Tusk’s government faces a year to turn things around",
+     "url": "https://xyz.pl/?p=238986"
+    },
+    {
+     "rank": 14,
+     "title": "wbj.pl",
+     "url": "https://wbj.pl/maciej-berek-steps-down-as-pms-right-hand-man/post/150785"
+    },
+    {
+     "rank": 15,
+     "title": "Legutko, Kluzik-Rostkowska, Barszcz i Gróbarczyk w rządzie",
+     "url": "https://www.wprost.pl/kraj/112009/legutko-kluzik-rostkowska-barszcz-i-grobarczyk-w-rzadzie.html"
+    },
+    {
+     "rank": 16,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/eli/DU/2023/2714/ogl/pol/pdf"
+    },
+    {
+     "rank": 17,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/MP/2025/710/text/I/M20250710.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "10. kadencja, 13. posiedzenie, 3. dzień (14-06-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/13/2024-06-14/transcripts/0"
+    }
+   ]
+  },
+  {
+   "id": "Q40",
+   "query": "Marcin Dziurda sędzia TK Prokuratoria Generalna prezes Linklaters kancelaria wybrany Sejm KO",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "art13167891 kancelaria linklaters rozwija dzial sporow sadowych i arbitrazu",
+     "url": "https://www.rp.pl/w-kancelariach/art13167891-kancelaria-linklaters-rozwija-dzial-sporow-sadowych-i-arbitrazu"
+    },
+    {
+     "rank": 2,
+     "title": "karolina opolska komentuje felieton nawrocki wybiera sedziow pis zawiesza szczuckiego",
+     "url": "https://www.tvp.info/92455289/karolina-opolska-komentuje-felieton-nawrocki-wybiera-sedziow-pis-zawiesza-szczuckiego"
+    },
+    {
+     "rank": 3,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    },
+    {
+     "rank": 4,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/en/news/marcin-dziurda-appointed-as-member-of-the-arbitration-council-for-the-term-2023-2026"
+    },
+    {
+     "rank": 5,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/?p=21708"
+    },
+    {
+     "rank": 6,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/en/news/marcin-dziurda-appointed-as-vice-president-of-the-arbitration-council"
+    },
+    {
+     "rank": 7,
+     "title": "sejm wybor szesciu sedziow trybunalu konstytucyjnego mozliwy jeszcze w tym roku czy prezydent ich zaprzysiegnie",
+     "url": "https://www.tvp.info/89687407/sejm-wybor-szesciu-sedziow-trybunalu-konstytucyjnego-mozliwy-jeszcze-w-tym-roku-czy-prezydent-ich-zaprzysiegnie"
+    },
+    {
+     "rank": 8,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rqp5uz/snapshots/2026-03-13T20%3A24%3A26.298162Z"
+    },
+    {
+     "rank": 9,
+     "title": "Marcin Dziurda",
+     "url": "https://sakig.pl/?p=3001"
+    },
+    {
+     "rank": 10,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/51,strona.html"
+    },
+    {
+     "rank": 11,
+     "title": "sedziowie tk,35",
+     "url": "https://www.gazetaprawna.pl/tagi/sedziowie-tk,35"
+    },
+    {
+     "rank": 12,
+     "title": "marcin wiacek",
+     "url": "https://oko.press/ludzie/marcin-wiacek"
+    },
+    {
+     "rank": 13,
+     "title": "prezes dagmara pawelczyk woicka",
+     "url": "https://oko.press/tag/prezes-dagmara-pawelczyk-woicka"
+    },
+    {
+     "rank": 14,
+     "title": "waldemar zurek",
+     "url": "https://oko.press/ludzie/waldemar-zurek?page=4"
+    },
+    {
+     "rank": 15,
+     "title": "waldemar zurek",
+     "url": "https://oko.press/ludzie/waldemar-zurek?page=1"
+    },
+    {
+     "rank": 16,
+     "title": "waldemar zurek,2",
+     "url": "https://www.gazetaprawna.pl/tagi/waldemar-zurek,2"
+    },
+    {
+     "rank": 17,
+     "title": "26224 janusz dzianachowski and marcin schulz appointed new managing partners at linklaters warsaw",
+     "url": "https://mail.ceelegalmatters.com/poland/26224-janusz-dzianachowski-and-marcin-schulz-appointed-new-managing-partners-at-linklaters-warsaw"
+    },
+    {
+     "rank": 18,
+     "title": "Aktualności Prokuratury Krajowej",
+     "url": "https://www.gov.pl/web/prokuratura-krajowa/aktualnosci?page=47"
+    }
+   ]
+  },
+  {
+   "id": "Q41",
+   "query": "Sylwia Gregorczyk-Abram RPO ślubowanie Wolne Sądy współzałożycielka kancelaria Ejchart zastępca RPO",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "nowa rpo sylwia gregorczyk abram zlozyla slubowanie przed sejmem",
+     "url": "https://www.pap.pl/aktualnosci/nowa-rpo-sylwia-gregorczyk-abram-zlozyla-slubowanie-przed-sejmem"
+    },
+    {
+     "rank": 2,
+     "title": "Polska ma nowa Rzeczniczke Praw Obywatelskich Sylwia Gregorczyk Abram zlozyla slubowanie 9174765",
+     "url": "https://www.bankier.pl/wiadomosc/Polska-ma-nowa-Rzeczniczke-Praw-Obywatelskich-Sylwia-Gregorczyk-Abram-zlozyla-slubowanie-9174765.html"
+    },
+    {
+     "rank": 3,
+     "title": "art44904181 nowa rpo sylwia gregorczyk abram zlozyla slubowanie przed sejmem",
+     "url": "https://www.rp.pl/administracja-panstwowa/art44904181-nowa-rpo-sylwia-gregorczyk-abram-zlozyla-slubowanie-przed-sejmem"
+    },
+    {
+     "rank": 4,
+     "title": "Nowa Rzecznik Praw Obywatelskich złożyła ślubowanie przed Sejmem",
+     "url": "https://xyz.pl/?p=232866"
+    },
+    {
+     "rank": 5,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/wybor-rzecznika-praw-obywatelskich-sejm-poparl-sylwie-gregorczyk-abram/"
+    },
+    {
+     "rank": 6,
+     "title": "news slubowanie nowej rpo poslowie pis wyszli z sali,nId,23521346",
+     "url": "https://wydarzenia.interia.pl/kraj/news-slubowanie-nowej-rpo-poslowie-pis-wyszli-z-sali,nId,23521346"
+    },
+    {
+     "rank": 7,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=229011"
+    },
+    {
+     "rank": 8,
+     "title": "Nowa RPO ocenia Trybunał Konstytucyjny. Padła jednoznaczna odpowiedź",
+     "url": "https://www.wprost.pl/12400476"
+    },
+    {
+     "rank": 9,
+     "title": "Nowa RPO ocenia Trybunał Konstytucyjny. Padła jednoznaczna odpowiedź",
+     "url": "https://www.wprost.pl/kraj/12400476/sylwia-gregorczyk-abram-obejmuje-urzad-rpo-mowi-o-wyrokach-tk.html"
+    },
+    {
+     "rank": 10,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95292"
+    },
+    {
+     "rank": 11,
+     "title": "Nowa RPO wybrana przez Sejm. Kim jest Sylwia Gregorczyk-Abram?",
+     "url": "https://www.wprost.pl/kraj/12390039/nowa-rpo-wybrana-przez-sejm-kim-jest-sylwia-gregorczyk-abram.html"
+    },
+    {
+     "rank": 12,
+     "title": "Nowa RPO wybrana przez Sejm. Kim jest Sylwia Gregorczyk-Abram?",
+     "url": "https://www.wprost.pl/12390039"
+    },
+    {
+     "rank": 13,
+     "title": "1. Bezprawnik -",
+     "url": "https://bezprawnik.pl/sylwia-gregorczyk-abram/"
+    },
+    {
+     "rank": 14,
+     "title": "sejm powolal sylwie gregorczyk abram na urzad rzecznika praw obywatelskich",
+     "url": "https://www.pap.pl/aktualnosci/sejm-powolal-sylwie-gregorczyk-abram-na-urzad-rzecznika-praw-obywatelskich"
+    },
+    {
+     "rank": 15,
+     "title": "weto dla statusu osoby najblizszej podpis dla zakazu patostreamingu",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/weto-dla-statusu-osoby-najblizszej-podpis-dla-zakazu-patostreamingu"
+    },
+    {
+     "rank": 16,
+     "title": "senat wyrazil zgode na powolanie sylwii gregorczyk abram na urzad rpo",
+     "url": "https://www.pap.pl/aktualnosci/senat-wyrazil-zgode-na-powolanie-sylwii-gregorczyk-abram-na-urzad-rpo"
+    },
+    {
+     "rank": 17,
+     "title": "Kontrowersyjna kandydatka na RPO. Szykuje się spór w koalicji?",
+     "url": "https://www.wprost.pl/12296646"
+    }
+   ]
+  },
+  {
+   "id": "Q42",
+   "query": "list otwarty organizacji społecznych w sprawie Trybunału Konstytucyjnego luty 2026 sygnatariusze Fundacja Batorego Helsińska Fundacja Wolne Sądy",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "List otwarty otwarty organizacji spolecznych w sprawie Trybunalu Konstytucyjnego",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2026/02/List-otwarty-otwarty-organizacji-spolecznych-w-sprawie-Trybunalu-Konstytucyjnego.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/31-organizacji-apeluje-w-sprawie-transparentnosci-wyboru-sedziow-do-tk,1539501.html"
+    },
+    {
+     "rank": 3,
+     "title": "muszynski zarzucil bodnarowi brak szacunku dla konstytucji organizacje pozarzadowe protestuja",
+     "url": "https://oko.press/muszynski-zarzucil-bodnarowi-brak-szacunku-dla-konstytucji-organizacje-pozarzadowe-protestuja"
+    },
+    {
+     "rank": 4,
+     "title": "organizacje pozarzadowe apeluja do prezydenta o podpisanie ustaw o tk",
+     "url": "https://www.pap.pl/aktualnosci/organizacje-pozarzadowe-apeluja-do-prezydenta-o-podpisanie-ustaw-o-tk"
+    },
+    {
+     "rank": 5,
+     "title": "Apel do prezydenta o podpisanie ustaw o TK",
+     "url": "https://amnesty.org.pl/wp-content/uploads/2024/09/Apel-do-prezydenta-o-podpisanie-ustaw-o-TK.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "organizacje pozarzadowe apeluja do prezydenta o podpisanie ustaw o tk",
+     "url": "https://www.tvp.info/82474248/organizacje-pozarzadowe-apeluja-do-prezydenta-o-podpisanie-ustaw-o-tk"
+    },
+    {
+     "rank": 7,
+     "title": "organizacje apeluja do dudy niech pan podpisze ustawy ratujace trybunal konstytucyjny",
+     "url": "https://oko.press/organizacje-apeluja-do-dudy-niech-pan-podpisze-ustawy-ratujace-trybunal-konstytucyjny"
+    },
+    {
+     "rank": 8,
+     "title": "hfpc amicus tk 23022016",
+     "url": "https://hfhr.pl/upload/2022/01/hfpc_amicus_tk_23022016.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "helsinska fundacja praw czlowieka",
+     "url": "https://www.gazetaprawna.pl/tagi/helsinska-fundacja-praw-czlowieka"
+    },
+    {
+     "rank": 10,
+     "title": "news pilny apel do premiera przestrzegaja przed kolejnym bledem,nId,7770422",
+     "url": "https://wydarzenia.interia.pl/kraj/news-pilny-apel-do-premiera-przestrzegaja-przed-kolejnym-bledem,nId,7770422"
+    },
+    {
+     "rank": 11,
+     "title": "argumenty 51",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/04/argumenty_51.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/12"
+    },
+    {
+     "rank": 13,
+     "title": "opinia hfpc do projektu ustawy o tk",
+     "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "jest zawiadomienie na julie przylebska do prokuratury za reczne sterowanie skladami orzekajacymi tk",
+     "url": "https://oko.press/jest-zawiadomienie-na-julie-przylebska-do-prokuratury-za-reczne-sterowanie-skladami-orzekajacymi-tk"
+    },
+    {
+     "rank": 15,
+     "title": "ZEP TK",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "ELSA Glossa RPO K20 20",
+     "url": "https://test-brpo.brpo.gov.pl/sites/default/files/ELSA-Glossa-RPO-K20-20.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "sprawy-generalne.brpo.gov.pl",
+     "url": "https://sprawy-generalne.brpo.gov.pl/pdf//2019/3/VII.510.29.2019/1593039.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Argumenty 43",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2023/11/Argumenty_43.pdf"
+    }
+   ]
+  },
+  {
+   "id": "Q43",
+   "query": "Fundusz Obywatelski Nagroda Rafto RPO konkurs grantowy wyniki laureaci organizacje Wolne Sądy Iustitia",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/konkurs-grantowy-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-nagrody-rafto"
+    },
+    {
+     "rank": 2,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego"
+    },
+    {
+     "rank": 3,
+     "title": "niezlomny rpo adam bodnar odebral nagrode za walke o praworzadnosc i prawa czlowieka",
+     "url": "https://oko.press/niezlomny-rpo-adam-bodnar-odebral-nagrode-za-walke-o-praworzadnosc-i-prawa-czlowieka"
+    },
+    {
+     "rank": 4,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/nagroda-godnosci-czlowieka-fundacji-rolanda-bergera-dla-rpo-adama-bodnara"
+    },
+    {
+     "rank": 5,
+     "title": "Assistance, Grants & Awards",
+     "url": "https://www.gc4hr.org/resource/rafto-prize/"
+    },
+    {
+     "rank": 6,
+     "title": "Assistance, Grants & Awards",
+     "url": "https://www.gc4hr.org/?p=36631"
+    },
+    {
+     "rank": 7,
+     "title": "voanews.com",
+     "url": "https://voanews.com/a/reu-russian-lawyer-wins-norwegian-human-rights-prize/2461951.html"
+    },
+    {
+     "rank": 8,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/dr-adam-bodnar-i-biuro-RPO-z-nagroda-praworzadnosci-WJP"
+    },
+    {
+     "rank": 9,
+     "title": "prawnicy z inicjatywy wolne sady laureatami nagrody parlamentu europejskiego",
+     "url": "https://oko.press/prawnicy-z-inicjatywy-wolne-sady-laureatami-nagrody-parlamentu-europejskiego"
+    },
+    {
+     "rank": 10,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/lawina-bieg-od-tego-zmienia%E2%80%A6-adam-bodnar-odebral-w-bergen-nagrode-rafto"
+    },
+    {
+     "rank": 11,
+     "title": "protectproject.w.uib.no",
+     "url": "https://protectproject.w.uib.no/tag/prize/"
+    },
+    {
+     "rank": 12,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/konferencja-fundacji-rafto-o-praworzadnosci-w-polsce-z-udzialem-rpo-adama-bodnara"
+    },
+    {
+     "rank": 13,
+     "title": "rafto foundation celebrates 30 years",
+     "url": "https://humanrightshouse.org/articles/rafto-foundation-celebrates-30-years/"
+    },
+    {
+     "rank": 14,
+     "title": "data.unhcr.org",
+     "url": "https://data.unhcr.org/es/documents/download/107498"
+    },
+    {
+     "rank": 15,
+     "title": "humanrightshouse.org",
+     "url": "https://humanrightshouse.org/?p=853"
+    }
+   ]
+  },
+  {
+   "id": "Q44",
+   "query": "Sąd Arbitrażowy przy Krajowej Izbie Gospodarczej Rada Arbitrażowa Marcin Dziurda wiceprzewodniczący skład 2023-2026",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "kig.pl",
+     "url": "https://kig.pl/wp-content/uploads/2024/06/statut.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "15 lat - konkursu dla młodych talentów prawniczych Rising Stars Prawnicy - liderzy jutra 2026",
+     "url": "https://www.prawo.pl/biznes/rada-arbitrazowa-kig-marek-furtek-nowym-przewodniczacym,364340.html"
+    },
+    {
+     "rank": 3,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/en/news/marcin-dziurda-appointed-as-member-of-the-arbitration-council-for-the-term-2023-2026"
+    },
+    {
+     "rank": 4,
+     "title": "sakig.pl",
+     "url": "https://sakig.pl/en/news/page/2"
+    },
+    {
+     "rank": 5,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/?p=21359"
+    },
+    {
+     "rank": 6,
+     "title": "sakig.pl",
+     "url": "https://sakig.pl/en/news"
+    },
+    {
+     "rank": 7,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rada-arbitrazowa-kig-marek-furtek-nowym-przewodniczacym,364340.html"
+    },
+    {
+     "rank": 8,
+     "title": "STATUT 13 12 2018",
+     "url": "https://sakig.pl/wp-content/uploads/2019/01/STATUT_13_12_2018.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "REGULAMIN SĄDU ARBITRAŻOWEGO",
+     "url": "https://kipa.pl/wp-content/uploads/2018/05/SARA-Regulamin.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "KIG stawia na kobiece przywodztwo.3",
+     "url": "https://kig.pl/wp-content/uploads/2025/07/KIG-stawia-na-kobiece-przywodztwo.3.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "Go to main section",
+     "url": "https://sakig.pl/?p=21708"
+    },
+    {
+     "rank": 12,
+     "title": "Regulamin mediacyjny CM KIG",
+     "url": "https://kig.pl/wp-content/uploads/2025/03/Regulamin-mediacyjny-CM-KIG.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "art12034951 arbitrazowe forum mlodych i prezentacja wytycznych young icca",
+     "url": "https://www.rp.pl/w-kancelariach/art12034951-arbitrazowe-forum-mlodych-i-prezentacja-wytycznych-young-icca"
+    },
+    {
+     "rank": 14,
+     "title": "sakig.pl",
+     "url": "https://sakig.pl/en/list/page/2"
+    },
+    {
+     "rank": 15,
+     "title": "Lex ODO Oferta specjalna - VII 2026",
+     "url": "https://www.prawo.pl/prawnicy-sady/arbitraz-malgorzata-surdek-janicka-we-wladzach-miedzynarodowego,509269.html"
+    },
+    {
+     "rank": 16,
+     "title": "Rules of the Court of Arbitration CCCI",
+     "url": "https://iph.krakow.pl/images/do-pobrania/sad-polubowny/Rules-of-the-Court-of-Arbitration-CCCI.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "bank.pl",
+     "url": "https://bank.pl/?p=276185"
+    },
+    {
+     "rank": 18,
+     "title": "Polscy przedsiębiorcy nie wiedzą czym jest arbitraż, KIG chce to zmienić",
+     "url": "https://superbiz.se.pl/wiadomosci/polscy-przedsiebiorcy-nie-wiedza-czym-jest-arbitraz-kig-chce-to-zmienic-aa-UZon-MRcD-5XHP.html"
+    }
+   ]
+  },
+  {
+   "id": "Q45",
+   "query": "Ministerstwo Sprawiedliwości umowy z organizacjami pozarządowymi 2025 2026 Żurek dotacje Iustitia Themis Helsińska Fundacja Wolne Sądy konkurs",
+   "mode": "standard",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Resort sprawiedliwości ogłosił konkurs na 120 mln zł z Funduszu Sprawiedliwości na pomoc dla ofiar przestępstw",
+     "url": "https://xyz.pl/?p=99918"
+    },
+    {
+     "rank": 2,
+     "title": "Pieniądze z Funduszu Sprawiedliwości. Resort chce zapewnić ciągłość wypłat",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10964513,pieniadze-z-funduszu-sprawiedliwosci-resort-chce-zapewnic-ciaglosc-wy.html"
+    },
+    {
+     "rank": 3,
+     "title": "i14034 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDTBHT7/i14034-o1.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "fundusz sprawiedliwosci w grudniu czyli w lutym ministerstwo sie chwali organizacje zalamane",
+     "url": "https://oko.press/fundusz-sprawiedliwosci-w-grudniu-czyli-w-lutym-ministerstwo-sie-chwali-organizacje-zalamane"
+    },
+    {
+     "rank": 5,
+     "title": "i14308 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSYHVR/i14308-o1.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "akty pdf,U06,2024,334,277",
+     "url": "https://inforlex.pl/download/akty_pdf,U06,2024,334,277.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "U06.2025.349.0000209,zarzadzenie ministra sprawiedliwosci zmieniajace zarzadzenie w sprawie powolania komisji konkursowej do spraw wyboru ofert w otwartym konkursie ofert nr 12025 na powierzenie realizacji zadan ze srodko",
+     "url": "https://www.infor.pl/akt-prawny/U06.2025.349.0000209,zarzadzenie-ministra-sprawiedliwosci-zmieniajace-zarzadzenie-w-sprawie-powolania-komisji-konkursowej-do-spraw-wyboru-ofert-w-otwartym-konkursie-ofert-nr-12025-na-powierzenie-realizacji-zadan-ze-srodko.html"
+    },
+    {
+     "rank": 8,
+     "title": "1 4 55 2025 Na dobry poczatek",
+     "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2026/04/1-4-55-2025-Na-dobry-poczatek.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "i15637 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDT5HQS/i15637-o1.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "www.prawo.pl",
+     "url": "https://www.prawo.pl/aktualnosci/149,strona.html"
+    },
+    {
+     "rank": 11,
+     "title": "120 mln zl na pomoc pokrzywdzonym   rusza konkurs dla organizacji pozarzadowych",
+     "url": "https://www.gov.pl/web/uw-warminsko-mazurski/120-mln-zl-na-pomoc-pokrzywdzonym---rusza-konkurs-dla-organizacji-pozarzadowych"
+    },
+    {
+     "rank": 12,
+     "title": "c840b085 f49f 4902 a00f e34c1225b755",
+     "url": "https://www.gov.pl/attachment/c840b085-f49f-4902-a00f-e34c1225b755"
+    },
+    {
+     "rank": 13,
+     "title": "i17198 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDV6HP4/i17198-o1.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "Zapytanie nr 703",
+     "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/703/body"
+    },
+    {
+     "rank": 15,
+     "title": "2520adb4 e4fc 4716 b5fb eff095570983",
+     "url": "https://www.gov.pl/attachment/2520adb4-e4fc-4716-b5fb-eff095570983"
+    },
+    {
+     "rank": 16,
+     "title": "33a010d1 c0ca 4b80 a704 ec5e59fa7274",
+     "url": "https://www.gov.pl/attachment/33a010d1-c0ca-4b80-a704-ec5e59fa7274"
+    },
+    {
+     "rank": 17,
+     "title": "pieniadze z funduszu sprawiedliwosci na program pomocy osobom pokrzywdzonym na lata 2019 2026",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/pieniadze-z-funduszu-sprawiedliwosci-na-program-pomocy-osobom-pokrzywdzonym-na-lata-2019-2026"
+    },
+    {
+     "rank": 18,
+     "title": "584eab94 a51b 49d8 9daf 695671e62ab5",
+     "url": "https://prezentacja.www.gov.pl/attachment/584eab94-a51b-49d8-9daf-695671e62ab5"
+    }
+   ]
+  }
+ ]
+}
