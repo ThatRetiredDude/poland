@@ -1,0 +1,271 @@
+{
+ "meta": {
+  "title": "European Economic Congress 2025 (Katowice) speakers cross-checked against the map",
+  "as_of": "2026-11-01",
+  "source_list": "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/",
+  "source_note": "Wayback capture (18 Oct 2025) of the official 2025 speaker list, 1,255 speakers, supplied by ThatRetiredDude as HTML; parsed in full. The list gives name and position only; panels are known only where stated.",
+  "not_on_2025_list": [
+   "tusk",
+   "wawrykiewicz",
+   "zurek",
+   "bodnar",
+   "gregorczyk_abram",
+   "taborowski",
+   "korwin_piotrowska",
+   "dziurda",
+   "szostek",
+   "bentkowska",
+   "patyra",
+   "berek",
+   "hennig_kloska",
+   "serafin",
+   "bolesta",
+   "matczak",
+   "bojarski",
+   "rudzinska_bluszcz",
+   "ejchart",
+   "giertych",
+   "grabiec",
+   "myrcha",
+   "kulczyk (Dominika)"
+  ],
+  "orgs_with_no_speaker": [
+   "batory",
+   "themis",
+   "free_courts",
+   "osf",
+   "okopress",
+   "ned",
+   "usaid",
+   "inpris",
+   "kos"
+  ],
+  "sponsors": "not yet checked: the speaker list has no sponsor section",
+  "other_years": [
+   {
+    "node": "szostek",
+    "year": 2022,
+    "detail": "EEC 2022 speaker, panel 5028 'Blockchain in a different way'",
+    "sources": [
+     "https://www.eecpoland.eu/2022/en/speakers/dariusz-szostek,17404.html",
+     "https://www.eecpoland.eu/2022/en/panel/5028.html"
+    ]
+   },
+   {
+    "node": "rudzinska_bluszcz",
+    "year": 2023,
+    "detail": "EEC 2023 speaker page",
+    "sources": [
+     "https://www.eecpoland.eu/2023/en/speakers/zuzanna-rudzinska-bluszcz,19503.html"
+    ]
+   },
+   {
+    "node": "bodnar",
+    "year": 2024,
+    "detail": "EEC 2024 speaker page",
+    "sources": [
+     "https://www.eecpoland.eu/2024/en/speakers/adam-bodnar,22734.html"
+    ]
+   },
+   {
+    "node": "hennig_kloska",
+    "year": 2026,
+    "detail": "EEC 2026 speaker page",
+    "sources": [
+     "https://www.eecpoland.eu/2026/en/speakers/paulina-hennig-kloska,16388.html"
+    ]
+   }
+  ],
+  "other_years_note": "found via search-engine index of speaker pages, surname by surname; not a full sweep of earlier years"
+ },
+ "nodes": [
+  {
+   "id": "eec_2025",
+   "type": "event",
+   "group": "event",
+   "label": "European Economic Congress 2025 (17th EEC, Katowice, 23-25 Apr 2025)",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "markiewicz",
+   "target": "eec_2025",
+   "relation": "spoke as President, Association of Polish Judges 'Iustitia', panel 7204 'The rule of law and justice system' (23 Apr 2025)",
+   "confidence": "fact",
+   "date": "2025-04-23",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/speakers/krystian-markiewicz,26129.html",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "hfhr",
+   "target": "eec_2025",
+   "relation": "Maciej Nowicki, Chairman of the Board, Helsinki Foundation for Human Rights, spoke on panel 7204 'The rule of law and justice system' with Markiewicz",
+   "confidence": "fact",
+   "date": "2025-04-23",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "budka",
+   "target": "eec_2025",
+   "relation": "spoke as Member of the European Parliament, Head of EP ITRE Committee (panel not listed)",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/speakers/borys-budka,2215.html",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "baranowski",
+   "target": "eec_2025",
+   "relation": "spoke as Undersecretary of State, Ministry of Development and Technology (panel not listed)",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/speakers/michal-baranowski,25777.html",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "duszczyk",
+   "target": "eec_2025",
+   "relation": "spoke as Undersecretary of State, Ministry of the Interior and Administration (panel not listed)",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "sikora",
+   "target": "eec_2025",
+   "relation": "spoke as Undersecretary of State, Ministry of Funds and Regional Policy (panel not listed)",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "sobkowiak",
+   "target": "eec_2025",
+   "relation": "spoke as Undersecretary of State, EU Affairs Division, Chancellery of the Prime Minister (panel not listed)",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/speakers/magdalena-sobkowiak-czarnecka,16425.html",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ]
+  },
+  {
+   "source": "kulczyk",
+   "target": "eec_2025",
+   "relation": "Kulczyk family business people spoke in business roles: Dawid Jakubowicz (President, Kulczyk Investments), Krzysztof Andrzejewski (board member, Kulczyk Investments), Joanna Maliszewska-Mazek (Project Department Director, Kulczyk Foundation). Dominika Kulczyk herself is not on the list",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://www.eecpoland.eu/2025/en/speakers/dawid-jakubowicz,15542.html",
+    "https://www.eecpoland.eu/2025/en/speakers/krzysztof-andrzejewski,22427.html",
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "polenergia",
+   "target": "eec_2025",
+   "relation": "Przemysław Brzywcy, CEO of subsidiary Polenergia Fotowoltaika SA, spoke",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "orlen",
+   "target": "eec_2025",
+   "relation": "ORLEN executives spoke, incl. CEO Ireneusz Fąfara and board members Witold Literacki, Robert Soszyński, Ireneusz Sitarski; plus ORLEN Neptun, ORLEN Synthos Green Energy staff",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "pge",
+   "target": "eec_2025",
+   "relation": "PGE executives spoke, incl. CEO Dariusz Marzec, board members Maciej Górski and Marcin Laskowski, PGE Baltica CEO Bartosz Fedurek",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "agora_sa",
+   "target": "eec_2025",
+   "relation": "Agora CEO Bartosz Hojka, board member Anna Kryńska-Godlewska and Head of Legal Paweł Czajkowski spoke",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "gazeta_wyborcza",
+   "target": "eec_2025",
+   "relation": "Aleksandra Sobczak, deputy editor-in-chief, spoke",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "kpo_bgk",
+   "target": "eec_2025",
+   "relation": "BGK President Mirosław Czekaj and board members Jarosław Dąbrowski and Leszek Stypułkowski spoke",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "eib",
+   "target": "eec_2025",
+   "relation": "Artur Rudnicki (JASPERS, European Investment Bank) spoke",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  },
+  {
+   "source": "tvp",
+   "target": "eec_2025",
+   "relation": "Polish Radio CEO Paweł Majcher and TVP journalists (Joanna Dunikowska-Paź, Marcin Kowalski, Marcin Zaborowski) took part",
+   "confidence": "fact",
+   "date": "2025-04-23/25",
+   "sources": [
+    "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+   ],
+   "indirect": true
+  }
+ ]
+}

@@ -22,7 +22,8 @@
       "lead_oped_handover.json",
       "lead_korwin_piotrowska.json",
       "lead_energy_for_europe_wyborcza.json",
-      "lead_taborowski_patyra.json"
+      "lead_taborowski_patyra.json",
+      "lead_osf_batory_money.json"
     ],
     "oped_flags": [
       "Op-ed calls the judge 'Krystyna' Korwin-Piotrowska; every source says Anna.",
@@ -55,14 +56,15 @@
       "roots": "Katowice, Silesia (career base; birthplace not found)",
       "education": "Law, Univ. of Silesia 2000; PhD 2006; habilitation 2014",
       "career": "Judge, Katowice courts 2003-2026 (first appointed by Lech Kaczynski); Iustitia president 2016-2025; chair, MoJ judiciary codification commission 2024",
-      "money_affiliations": "No asset declaration found; Osiatyński Archive programme council member since 2017; co-author of its 2024 report; speaker at 2025 European Economic Congress rule-of-law panel",
+      "money_affiliations": "2016 judge asset declaration archived (not yet reviewed); none found for 2023-25; Osiatyński Archive programme council member since 2017; co-author of its 2024 report; speaker at 2025 European Economic Congress rule-of-law panel",
       "sources": [
         "https://www.wolterskluwer.com/pl-pl/experts/krystian-markiewicz",
         "https://tvn24.pl/polska/krystian-markiewicz-stawka-nie-sa-sady-a-wolnosc-ra757593-ls2571552",
         "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html",
         "https://www.eecpoland.eu/2025/en/panel/7204.html",
         "https://trybunal.net/en/2026-elections-and-oaths/",
-        "https://pl.wikipedia.org/wiki/Krystian_Markiewicz"
+        "https://pl.wikipedia.org/wiki/Krystian_Markiewicz",
+        "https://web.archive.org/web/20190821113450/https://katowice.sa.gov.pl/container/oswiadczeniamajatkowe/2016/sedziowie/Markiewicz_Krystian.pdf"
       ],
       "sejm_vote": "236 for, 187 against, 4 abstained (13 Mar 2026)",
       "born": "1976-07-08, Proszowice (per Polish Wikipedia)",
@@ -2169,6 +2171,137 @@
       "sources": [
         "https://www.carlbernstein.com/the-holy-alliance-time-magazine-february-24-1992"
       ]
+    },
+    {
+      "id": "bernatowicz",
+      "type": "person",
+      "group": "business",
+      "label": "Łukasz Bernatowicz",
+      "career": "President, Employers Association, Business Centre Club",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "type": "person",
+      "group": "ngo_leader",
+      "label": "Maciej Nowicki (HFHR board president)",
+      "sources": [
+        "https://hfhr.pl/en/news/statement-of-the-hfhr-board-on-the-constitutional-tribunal"
+      ],
+      "id": "nowicki",
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "type": "person",
+      "group": "eec_panel",
+      "label": "Robert Gwiazdowski (tax expert, Adam Smith Centre)",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "id": "gwiazdowski",
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "type": "person",
+      "group": "eec_panel",
+      "label": "Piotr Kamiński (Vice-President, Employers of Poland)",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "id": "kaminski_piotr",
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "type": "person",
+      "group": "eec_panel",
+      "label": "Katarzyna Stabińska (partner, Ślązak, Zapiór i Partnerzy)",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "id": "stabinska",
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "type": "person",
+      "group": "eec_panel",
+      "label": "Dominika Sikora (editor, PTWP Group; EEC panel host)",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "id": "sikora_dominika",
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "id": "ces_harvard",
+      "type": "org",
+      "group": "academic",
+      "label": "Center for European Studies, Harvard (Zaleski lecture series)",
+      "sources": [
+        "https://ces.fas.harvard.edu/study-groups/the-august-zaleski-memorial-lecture-in-modern-polish-history-ces-harvard"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "ceu_democracy_institute",
+      "type": "org",
+      "group": "academic",
+      "label": "CEU Democracy Institute / Rule of Law Clinic",
+      "sources": [
+        "https://events.ceu.edu/2024-05-27/legal-and-political-challenges-rebuilding-rule-law-poland-lecture-adam-bodnar-minister"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "stiftung_mercator",
+      "type": "org",
+      "group": "funder",
+      "label": "Stiftung Mercator",
+      "sources": [
+        "https://events.ceu.edu/2024-05-27/legal-and-political-challenges-rebuilding-rule-law-poland-lecture-adam-bodnar-minister"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "rafto_foundation",
+      "type": "org",
+      "group": "award",
+      "label": "Rafto Foundation (Rafto Prize, Bergen)",
+      "sources": [
+        "https://bip.brpo.gov.pl/en/content/newsletter-commissioner-human-rights-poland-5-9-november-2018"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "leiden_law",
+      "type": "org",
+      "group": "academic",
+      "label": "Leiden Law School (Sackler Distinguished Lecture on Human Rights)",
+      "sources": [
+        "https://www.universiteitleiden.nl/en/news/2018/12/when-human-rights-clash-with-politics-and-desire-for-power-reflections-on-the-current-status-of-liberal-democracy"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "gssr",
+      "type": "org",
+      "group": "unknown",
+      "label": "GSSR (venue of Bodnar keynote, details not retrieved)",
+      "sources": [
+        "https://www.youtube.com/watch?v=_L4MQbDBTNI"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "id": "bodnar_rpo_report",
+      "type": "org",
+      "group": "publication",
+      "label": "'Z urzędu' (RPO five-year report book, 2020; Imiołczyk, Jędrzejczyk, Kosz)",
+      "sources": [
+        "https://oko.press/cudowna-bron-adama-bodnara-fragmenty-niezwyklej-ksiazki-ktora-trzeba-znac"
+      ],
+      "added_by": "lead_bodnar_talks"
     }
   ],
   "edges": [
@@ -6483,6 +6616,356 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Banco_Ambrosiano_scandal"
       ]
+    },
+    {
+      "source": "bentkowska",
+      "target": "markiewicz",
+      "relation": "brought him into the judges' section of the TK building, against internal rules (TK statement)",
+      "confidence": "fact",
+      "date": "2026-10-22",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-ruch-swieczkowskiego-ws-sedzi-tk-zignorowala-wewnetrzna-proc,nId,23562452"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "markiewicz",
+      "target": "berek",
+      "relation": "accompanied him into the TK judges' section after Święczkowski had blocked Berek",
+      "confidence": "fact",
+      "date": "2026-10-22",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-ruch-swieczkowskiego-ws-sedzi-tk-zignorowala-wewnetrzna-proc,nId,23562452"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "markiewicz",
+      "target": "swieczkowski",
+      "relation": "said 'doszło do szarpaniny' (a scuffle) at the TK; Święczkowski denies using force",
+      "confidence": "alleged",
+      "date": "2026-10-22",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-ruch-swieczkowskiego-ws-sedzi-tk-zignorowala-wewnetrzna-proc,nId,23562452"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "swieczkowski",
+      "target": "bentkowska",
+      "relation": "referred her to the disciplinary spokesman over Markiewicz entry",
+      "confidence": "fact",
+      "date": "2026-10-22",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-ruch-swieczkowskiego-ws-sedzi-tk-zignorowala-wewnetrzna-proc,nId,23562452"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "berek",
+      "target": "tk",
+      "relation": "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate",
+      "confidence": "fact",
+      "date": "2026-10-23",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-odpowiedzieli-prezydentowi-jest-oswiadczenie-ni,nId,23563098"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "dziurda",
+      "target": "tk",
+      "relation": "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate",
+      "confidence": "fact",
+      "date": "2026-10-23",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-odpowiedzieli-prezydentowi-jest-oswiadczenie-ni,nId,23563098"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "tk",
+      "relation": "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate",
+      "confidence": "fact",
+      "date": "2026-10-23",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-odpowiedzieli-prezydentowi-jest-oswiadczenie-ni,nId,23563098"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "markiewicz",
+      "target": "tk",
+      "relation": "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate",
+      "confidence": "fact",
+      "date": "2026-10-23",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-odpowiedzieli-prezydentowi-jest-oswiadczenie-ni,nId,23563098"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "taborowski",
+      "target": "tk",
+      "relation": "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate",
+      "confidence": "fact",
+      "date": "2026-10-23",
+      "sources": [
+        "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-odpowiedzieli-prezydentowi-jest-oswiadczenie-ni,nId,23563098"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "korwin_piotrowska",
+      "target": "tk",
+      "relation": "claimed leadership as judge with longest judicial service (art. 12(4)); said all judges would be notified of the 3 Nov general assembly",
+      "confidence": "fact",
+      "date": "2026-10-30",
+      "sources": [
+        "https://rp.pl/sady-i-trybunaly/art45423951-premier-komentuje-sytuacje-w-tk-prezydent-wrocil-do-kraju-zgromadzenie-ogolne-sedziow-3-listopada"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "nowicki",
+      "target": "hfhr",
+      "relation": "President of the Board; signed 31 Oct 2026 statement",
+      "confidence": "fact",
+      "sources": [
+        "https://hfhr.pl/en/news/statement-of-the-hfhr-board-on-the-constitutional-tribunal"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "hfhr",
+      "target": "korwin_piotrowska",
+      "relation": "criticised 30 Oct order: 'legal basis ... is questionable'; 'We see no clear legal basis for such a decision to be issued by the longest-serving judge'; 'could establish a dangerous precedent'",
+      "confidence": "fact",
+      "date": "2026-10-31",
+      "sources": [
+        "https://hfhr.pl/en/news/statement-of-the-hfhr-board-on-the-constitutional-tribunal"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "nowicki",
+      "target": "markiewicz",
+      "relation": "co-panellist, EEC 2025 rule-of-law panel",
+      "confidence": "fact",
+      "date": "2025-04-23",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "tusk",
+      "target": "codification_commission",
+      "relation": "appointed members on Bodnar request (12 Apr 2024)",
+      "confidence": "fact",
+      "date": "2024-04-12",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "markiewicz",
+      "target": "codification_commission",
+      "relation": "chair from 3 Apr 2024 until he resigned after his TK election (successor Walasik, May 2026)",
+      "confidence": "fact",
+      "date": "2024-04-03",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2",
+        "https://www.rp.pl/sady-i-trybunaly/art44381021-wybrano-nastepce-sedziego-krystiana-markiewicza-w-komisji-zajmujacej-sie-reforma-sadow"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "taborowski",
+      "target": "codification_commission",
+      "relation": "member under chair Markiewicz",
+      "confidence": "fact",
+      "date": "2024-04-12",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "markiewicz",
+      "target": "tk",
+      "relation": "Apr 2024 interview: commission would not handle the TK ('Na razie nie było o tym mowy i uważam, że nie będzie'); TK 'wymaga głębokiej naprawy'; 'Plan przywrócenia go społeczeństwu został już przedstawiony, a projekt jest już procedowany w Sejmie'",
+      "confidence": "fact",
+      "date": "2024-04-15",
+      "sources": [
+        "https://www.rp.pl/sady-i-trybunaly/art40163211-krystian-markiewicz-przemodelowac-krs-i-sn-odbudujemy-sady-od-fundamentow"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
+    },
+    {
+      "source": "bodnar",
+      "target": "ces_harvard",
+      "relation": "gave Zaleski Memorial Lecture \"'It is Our Court': Defending the Rule of Law in Poland\" (title quotes 2017 photo caption 'To jest nasz sąd')",
+      "confidence": "fact",
+      "date": "2018-11-08",
+      "sources": [
+        "https://ces.fas.harvard.edu/events/2018/11/it-is-our-court-defending-the-rule-of-law-in-poland-an-address-by-adam-bodnar-commissioner-for-human-rights-republic-of-poland"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "ces_harvard",
+      "target": "bodnar",
+      "relation": "event page lists sponsor: August Zaleski Memorial Lecture in Modern Polish History (series endowed 1983 by gift from the estate of Countess Evelyn Komorowski)",
+      "confidence": "fact",
+      "sources": [
+        "https://ces.fas.harvard.edu/events/2018/11/it-is-our-court-defending-the-rule-of-law-in-poland-an-address-by-adam-bodnar-commissioner-for-human-rights-republic-of-poland",
+        "https://ces.fas.harvard.edu/study-groups/the-august-zaleski-memorial-lecture-in-modern-polish-history-ces-harvard"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "ceu_democracy_institute",
+      "relation": "lecture 'The Legal and Political Challenges in Rebuilding the Rule of Law in Poland' (as Minister of Justice)",
+      "confidence": "fact",
+      "date": "2024-05-27",
+      "sources": [
+        "https://events.ceu.edu/2024-05-27/legal-and-political-challenges-rebuilding-rule-law-poland-lecture-adam-bodnar-minister"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "stiftung_mercator",
+      "target": "ceu_democracy_institute",
+      "relation": "EUR 1M grant established the Rule of Law Clinic (host of the 2024 Bodnar lecture); indirect to Bodnar",
+      "confidence": "fact",
+      "sources": [
+        "https://events.ceu.edu/2024-05-27/legal-and-political-challenges-rebuilding-rule-law-poland-lecture-adam-bodnar-minister"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "rafto_foundation",
+      "target": "bodnar",
+      "relation": "awarded Rafto Prize to RPO Bodnar and his office, Bergen 4 Nov 2018; RPO headlined it 'Lawina bieg od tego zmienia...' (Miłosz line)",
+      "confidence": "fact",
+      "date": "2018-11-04",
+      "sources": [
+        "https://bip.brpo.gov.pl/en/content/newsletter-commissioner-human-rights-poland-5-9-november-2018"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bernatowicz",
+      "target": "markiewicz",
+      "relation": "used the same avalanche line on the EEC 2025 panel they shared (approx. 0:44:55, English interpretation)",
+      "confidence": "fact",
+      "date": "2025-04-23",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bernatowicz",
+      "target": "bodnar",
+      "relation": "avalanche line reuse shows coordination or shared messaging",
+      "confidence": "speculation",
+      "sources": [
+        "https://bip.brpo.gov.pl/en/content/newsletter-commissioner-human-rights-poland-5-9-november-2018",
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "free_courts",
+      "relation": "part of an organised 'resistance movement' in the judiciary; based on protest-style rhetoric ('It is our court', avalanche line) at high-profile venues",
+      "confidence": "speculation",
+      "sources": [
+        "https://ces.fas.harvard.edu/events/2018/11/it-is-our-court-defending-the-rule-of-law-in-poland-an-address-by-adam-bodnar-commissioner-for-human-rights-republic-of-poland",
+        "https://bip.brpo.gov.pl/en/content/newsletter-commissioner-human-rights-poland-5-9-november-2018"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "leiden_law",
+      "relation": "8th Sackler Distinguished Lecture; ended with Miłosz 1947: 'The avalanche changes direction depending on what rocks it encounters in its path' ... 'It depends upon us what kind of rocks we are.'",
+      "confidence": "fact",
+      "date": "2018-12-10",
+      "sources": [
+        "https://www.universiteitleiden.nl/en/news/2018/12/when-human-rights-clash-with-politics-and-desire-for-power-reflections-on-the-current-status-of-liberal-democracy"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "iustitia",
+      "relation": "speech to Iustitia general assembly: 'powstrzymanie lawiny, która miała zniszczyć niezależność Sądu Najwyższego'; 'główna lawina została zatrzymana, to jednak przez kamienie przedostały się mniejsze strumienie śniegu'",
+      "confidence": "fact",
+      "date": "2019-03-09",
+      "sources": [
+        "https://monitorkonstytucyjny.eu/archiwa/8287"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "bodnar_rpo_report",
+      "relation": "RPO five-year report book 'Z urzędu' (2020) opens with the Miłosz epigraph 'Lawina bieg od tego zmienia / Po jakich toczy się kamieniach'",
+      "confidence": "fact",
+      "date": "2020-09",
+      "sources": [
+        "https://oko.press/cudowna-bron-adama-bodnara-fragmenty-niezwyklej-ksiazki-ktora-trzeba-znac"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "gssr",
+      "relation": "video titled 'Adam Bodnar's GSSR Keynote on Resistance and Fight for the Rule of Law in Poland' (date, venue and content not retrieved)",
+      "confidence": "fact",
+      "sources": [
+        "https://www.youtube.com/watch?v=_L4MQbDBTNI"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "ceu_democracy_institute",
+      "relation": "2024 talk: 'political appointees still being present in the Constitutional Tribunal'; called TK 'the institution that catalyzed the Rule of Law crisis'; would not submit actions before it",
+      "confidence": "fact",
+      "date": "2024-05-27",
+      "sources": [
+        "https://democracyinstitute.ceu.edu/articles/adam-bodnar-budapest"
+      ],
+      "added_by": "lead_bodnar_talks"
+    },
+    {
+      "source": "bodnar",
+      "target": "markiewicz",
+      "relation": "invited to the same EEC 2025 rule-of-law panel as Justice Ministry representative; host: 'Minister Bodner couldn't join us because of his other duties' [0:21:28, English interpretation]",
+      "confidence": "fact",
+      "date": "2025-04-23",
+      "sources": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html"
+      ],
+      "added_by": "lead_markiewicz_eec"
+    },
+    {
+      "source": "bodnar",
+      "target": "codification_commission",
+      "relation": "requested its members; Markiewicz consulted on them",
+      "confidence": "fact",
+      "date": "2024-04-12",
+      "sources": [
+        "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-ustroju-sadow-powszechnych-i-prokuratury2"
+      ],
+      "added_by": "lead_eec_panel_coup_ties"
     }
   ],
   "leads": [
