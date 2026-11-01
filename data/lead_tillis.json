@@ -2,7 +2,7 @@
  "meta": {
   "title": "Thom Tillis: should he be on the map, and what ties him to it",
   "as_of": "2026-11-01",
-  "notes": "Tillis was already a node (lead_slotkin_sikorski.json). This file adds what his Sep 2026 Poland visit touched. New find: on 10 Sep 2026 the delegation led by Slotkin, Tillis and Curtis met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder, and Judge Korwin-Piotrowska's ECHR lawyer) on the rule of law in Poland. On 9 Sep he and Slotkin met Justice Minister Żurek, Ejchart and Mazur, who say the TK crisis was discussed. He then spoke at YES 2026 in Kyiv (organised by the Victor Pinchuk Foundation; the Soros-founded International Renaissance Foundation was a listed partner). No money, job, board seat or grant tie between Tillis and NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz was found. What he said in the Warsaw meetings is not public; any role in the 30-31 Oct TK events is speculation with no source."
+  "notes": "Tillis was already a node (lead_slotkin_sikorski.json). This file adds what his Sep 2026 Poland visit touched. New find: on 10 Sep 2026 the delegation led by Slotkin, Tillis and Curtis met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder, and Judge Korwin-Piotrowska's ECHR lawyer) on the rule of law in Poland. On 9 Sep he and Slotkin met Justice Minister Żurek, Ejchart and Mazur, who say the TK crisis was discussed. He then spoke at YES 2026 in Kyiv (organised by the Victor Pinchuk Foundation; the Soros-founded International Renaissance Foundation was a listed partner). No money, job, board seat or grant tie between Tillis and NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz was found. What he said in the Warsaw meetings is not public; any role in the 30-31 Oct TK events is speculation with no source. Shared ids with lead_curtis.json: tillis->gregorczyk_abram, tillis->yes_forum, curtis->tillis and the YES/Pinchuk/IRF nodes and edges live in that file, so both files should go live together."
  },
  "timeline": [
   {
@@ -125,40 +125,7 @@
    ]
   }
  ],
- "nodes": [
-  {
-   "id": "yes_2026",
-   "type": "event",
-   "group": "foreign_funder",
-   "label": "YES 2026 Annual Meeting, Kyiv (Yalta European Strategy, 11-12 Sep 2026)",
-   "role": "Annual conference organised by the Victor Pinchuk Foundation; YES board chaired by ex-Polish President Aleksander Kwaśniewski",
-   "sources": [
-    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
-    "https://www.kyivpost.com/post/84397"
-   ]
-  },
-  {
-   "id": "pinchuk_foundation",
-   "type": "org",
-   "group": "foreign_funder",
-   "label": "Victor Pinchuk Foundation (Ukraine)",
-   "role": "Private foundation set up in 2006 by businessman Victor Pinchuk; organises YES",
-   "sources": [
-    "https://www.kyivpost.com/post/84397",
-    "https://pinchukfund.org/en/about_fund/partners/"
-   ]
-  },
-  {
-   "id": "irf_ukraine",
-   "type": "org",
-   "group": "foreign_funder",
-   "label": "International Renaissance Foundation (Ukraine)",
-   "role": "Ukrainian member of the Open Society Foundations network, founded by George Soros",
-   "sources": [
-    "https://www.irf.ua/en/about/"
-   ]
-  }
- ],
+ "nodes": [],
  "node_updates": {
   "tillis": {
    "label": "Thom Tillis (US Senator, R-North Carolina)",
@@ -214,36 +181,6 @@
   },
   {
    "source": "tillis",
-   "target": "gregorczyk_abram",
-   "relation": "Co-led the US Senate delegation (with Slotkin and Curtis) that met Ombudsman Gregorczyk-Abram on 10 Sep 2026 about the rule of law in Poland (RPO release)",
-   "confidence": "fact",
-   "date": "2026-09-10",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
-   ]
-  },
-  {
-   "source": "slotkin",
-   "target": "gregorczyk_abram",
-   "relation": "Co-led the US Senate delegation (with Tillis and Curtis) that met Ombudsman Gregorczyk-Abram on 10 Sep 2026 about the rule of law in Poland (RPO release)",
-   "confidence": "fact",
-   "date": "2026-09-10",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
-   ]
-  },
-  {
-   "source": "curtis",
-   "target": "gregorczyk_abram",
-   "relation": "Co-led the US Senate delegation (with Slotkin and Tillis) that met Ombudsman Gregorczyk-Abram on 10 Sep 2026 about the rule of law in Poland (RPO release)",
-   "confidence": "fact",
-   "date": "2026-09-10",
-   "sources": [
-    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
-   ]
-  },
-  {
-   "source": "tillis",
    "target": "rpo_office",
    "relation": "Delegation meeting at the Ombudsman's Office, 10 Sep 2026, with Ombudsman Gregorczyk-Abram and deputy Adam Krzywoń",
    "confidence": "fact",
@@ -260,17 +197,6 @@
    "date": "2026-09-10",
    "sources": [
     "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation"
-   ]
-  },
-  {
-   "source": "tillis",
-   "target": "curtis",
-   "relation": "Travelled together: Warsaw (10 Sep 2026), then Kyiv and Kharkiv in a Republican delegation with Sen. Alan Armstrong",
-   "confidence": "fact",
-   "date": "2026-09-10",
-   "sources": [
-    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
-    "https://www.curtis.senate.gov/newsroom/press-releases/curtis-joins-tillis-armstrong-on-delegation-to-ukraine/"
    ]
   },
   {
@@ -295,67 +221,14 @@
    ]
   },
   {
-   "source": "tillis",
-   "target": "yes_2026",
-   "relation": "Listed speaker at YES 2026, Kyiv (panel 'The US Senate's Ukraine Policy - A Tribute to Lindsey Graham'). Who paid for his travel is not stated.",
-   "confidence": "fact",
-   "date": "2026-09-11",
-   "sources": [
-    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
-    "https://yes-ukraine.org/en/news/peace-through-strength-now-pidsumki-pershogo-dnya-shchorichnoyi-zustrichi-yaltinskoyi-yevropeyskoyi-strategiyi-yes-31444"
-   ]
-  },
-  {
-   "source": "curtis",
-   "target": "yes_2026",
-   "relation": "Listed speaker at YES 2026, Kyiv; his office says the YES meeting was the 'impetus' for the trip (Deseret News)",
-   "confidence": "fact",
-   "date": "2026-09-11",
-   "sources": [
-    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
-    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
-   ]
-  },
-  {
    "source": "sikorski",
-   "target": "yes_2026",
+   "target": "yes_forum",
    "relation": "Listed speaker at YES 2026, Kyiv",
    "confidence": "fact",
    "date": "2026-09-11",
    "sources": [
     "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
     "https://yes-ukraine.org/en/news/peace-through-strength-now-pidsumki-pershogo-dnya-shchorichnoyi-zustrichi-yaltinskoyi-yevropeyskoyi-strategiyi-yes-31444"
-   ]
-  },
-  {
-   "source": "pinchuk_foundation",
-   "target": "yes_2026",
-   "relation": "Organiser of the YES Annual Meeting 2026",
-   "confidence": "fact",
-   "date": "2026-09-11",
-   "sources": [
-    "https://yes-ukraine.org/en/news/peace-through-strength-now-u-kiyevi-vidbulasya-22-ga-shchorichna-zustrich-yaltinskoyi-yevropeyskoyi-strategiyi-yes",
-    "https://www.kyivpost.com/post/84397"
-   ]
-  },
-  {
-   "source": "irf_ukraine",
-   "target": "yes_2026",
-   "relation": "Listed as a partner of the YES Annual Meeting 2026 in the organisers' press release (form of support not stated)",
-   "confidence": "fact",
-   "date": "2026-09-11",
-   "sources": [
-    "https://www.kyivpost.com/post/84397"
-   ]
-  },
-  {
-   "source": "irf_ukraine",
-   "target": "osf",
-   "relation": "Part of the Open Society Foundations network, founded by George Soros ('The Foundation was founded by philanthropist George Soros and is part of the international network of Open Society Foundations.')",
-   "confidence": "fact",
-   "date": "1990-",
-   "sources": [
-    "https://www.irf.ua/en/about/"
    ]
   },
   {
