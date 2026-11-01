@@ -227,6 +227,11 @@ table.an-grid { border-collapse: collapse; font-size: 12.5px; width: 100%; }
 .an-step .srcs a { font-family: var(--font-mono); }
 .an-step .more { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; font-size: 11.5px; text-align: left; }
 .an-note { border: 1px dashed var(--line); border-radius: 6px; padding: 5px 8px; font-size: 12px; background: var(--bg); display: flex; flex-direction: column; gap: 3px; }
+.an-bridges { display: flex; flex-direction: column; gap: 4px; }
+.an-bridge { display: grid; grid-template-columns: 1fr auto auto; gap: 2px 6px; align-items: center; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; font-size: 12.5px; }
+.an-bridge.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.an-bridge .meta-line { grid-column: 1; grid-row: 2; }
+.an-bridge .btn { padding: 2px 8px; font-size: 12px; grid-row: 1 / span 2; }
 .money-tag { color: var(--fact); font-weight: 600; font-size: 11.5px; }
 
 @media (max-width: 1000px) {
@@ -513,7 +518,19 @@ function visibleSets() {
   const all = [...store.edges.values()];
   // Path analysis, trimmed: only the nodes and lines on the highlighted paths are drawn.
   if (state.anFocus && state.anTrim) {
-    return { nodes: [...state.anFocus.nodes].map(id => store.nodes.get(id)).filter(Boolean), edges: [...state.anFocus.edgeKeys].map(k => store.edges.get(k)).filter(Boolean) };
+    const ids = new Set(state.anFocus.nodes), edges = [...state.anFocus.edgeKeys].map(k => store.edges.get(k)).filter(Boolean);
+    // Optional context ring: direct neighbours of every path node, drawn faded (one line per pair).
+    if (an.context) {
+      const pairSeen = new Set(edges.map(e => [e.s, e.t].sort().join("|")));
+      all.forEach(e => {
+        if (e.label === "no_link" || !state.labels.has(e.label) || !originShown(e)) return;
+        const inS = state.anFocus.nodes.has(e.s), inT = state.anFocus.nodes.has(e.t);
+        if (!inS && !inT) return;
+        const pk = [e.s, e.t].sort().join("|"); if (pairSeen.has(pk)) return; pairSeen.add(pk);
+        edges.push(e); ids.add(e.s); ids.add(e.t);
+      });
+    }
+    return { nodes: [...ids].map(id => store.nodes.get(id)).filter(Boolean), edges };
   }
   const typeOk = n => !state.hidden.has(n.id) && state.types.has(n.type || "unknown") && (!state.group || n.group === state.group || isJudge(n));
   let edges = all.filter(e => e.label !== "no_link" && state.labels.has(e.label) && typeOk(store.nodes.get(e.s)) && typeOk(store.nodes.get(e.t)));
@@ -974,10 +991,13 @@ const UNPAID_RE = /\b(unpaid|pro bono|voluntary|volunteer|without pay)\b/i;
 const NOPAY_RE = /\b(no payment|no pay|not paid|not yet paid|no money (to him|to her|found)|no salary)\b/i;
 const PAID_RE = /\b(paid|salary|fee|fees|remunerat\w*|stipend|honorarium|fellowship|per month|\/month|wage)\b/i;
 const PAY_UNKNOWN_RE = /\b(not disclosed|undisclosed|not documented|not stated|not given|not known|unknown)\b/i;
+// Opposing ties: the line itself says one side acted against the other (refused, sued, vetoed...). They are not a connection.
+const OPPOSE_RE = /^\s*(refus\w*|reject\w*|sued|sues|suing|veto\w*|blocked|attack\w*|accus\w*|dismiss\w*|suspended|called (him|her|them) an? |denounc\w*|condemn\w*|froze|sanction\w*|opponent|charges sought|filed a criminal|opposed|criticis\w*|criticiz\w*)/i;
+function anOpposing(e) { return OPPOSE_RE.test(e.relation || ""); }
 // A money claim that says no money was paid (e.g. a request not yet paid) does not count as a money step.
 function anMoney(e) { return e.money && !NOPAY_RE.test(e.relation || "") ? 1 : 0; }
 function anIndirect(e) { return !!e.indirect || /^\s*indirect\b/i.test(e.relation || ""); }
-const an = { from: [], to: [], avoid: null, hops: 4, ev: 1, money: false, indirect: false, grid: null, cell: null, paths: null, pathOn: -1 };
+const an = { from: [], to: [], avoid: null, hops: 4, ev: 1, money: false, indirect: false, routes: true, bridges: true, perPair: 1, skipOpp: true, context: false, bridge: null, oppSkipped: 0, grid: null, cell: null, paths: null, pathOn: -1 };
 
 function anSets() {
   const list = [{ code: "set:judges", label: "All 8 judges", hint: "group" }, { code: "set:soros", label: "Soros network (OSF and Soros entities)", hint: "group" }];
@@ -1001,7 +1021,7 @@ function shortName(id) { return nodeName(id).replace(/\s*\(.*\)\s*$/, ""); }
 /* --- the graph the analysis walks: every pair of nodes with the claims between them, best first --- */
 let anAdj = null;
 function anBuild() {
-  const pairs = new Map(); anAdj = new Map();
+  const pairs = new Map(); anAdj = new Map(); an.oppSkipped = 0;
   for (const e of store.edges.values()) {
     if (e.label === "no_link" || e.s === e.t) continue;
     const lv = AN_LEVEL[e.label]; if (lv == null || lv > an.ev) continue;
@@ -1010,6 +1030,7 @@ function anBuild() {
     // "INDIRECT" lines sum up a chain (e.g. OSF -> Batory -> Archive -> judge) in one line. They are skipped
     // by default so a path walks the real steps and its hop count is honest.
     if (!an.indirect && anIndirect(e)) continue;
+    if (an.skipOpp && anOpposing(e)) { an.oppSkipped++; continue; }
     const pk = [e.s, e.t].sort().join("|");
     if (!pairs.has(pk)) { pairs.set(pk, []); for (const [a, b] of [[e.s, e.t], [e.t, e.s]]) { if (!anAdj.has(a)) anAdj.set(a, []); anAdj.get(a).push({ to: b, pk }); } }
     pairs.get(pk).push(e);
@@ -1107,11 +1128,48 @@ function anCellBest(row, col) {
   }
   return { best, shortest: shortest && best && shortest.hops < best.hops ? shortest : null };
 }
-function anCellPaths(row, col) {
+function anCellPaths(row, col, K = AN_K) {
   const members = anMembers(col); let all = [];
-  for (const m of members) if (m !== row) all = all.concat(anPairPaths(row, m, anBanned(row, members, m), AN_K));
+  for (const m of members) if (m !== row) all = all.concat(anPairPaths(row, m, anBanned(row, members, m), K));
   const seen = new Set();
-  return all.sort(anRank).filter(p => { const k = p.nodes.join(">"); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, AN_K);
+  return all.sort(anRank).filter(p => { const k = p.nodes.join(">"); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, K);
+}
+
+/* --- route counting: every simple path within the hop limit, capped so a dense web stays fast --- */
+const AN_ROUTE_CAP = 500;
+function anCountRoutes(row, col) {
+  const members = anMembers(col), res = { count: 0, capped: false, via: new Map() };
+  if (members.includes(row)) return res;
+  for (const m of members) {
+    const banned = anBanned(row, members, m);
+    // Hops from every node to the target, so the walk only follows steps that can still arrive in time.
+    const dist = new Map([[m, 0]]); let ring = [m];
+    for (let d = 1; d < an.hops && ring.length; d++) {
+      const next = [];
+      ring.forEach(u => (anAdj.get(u) || []).forEach(({ to }) => { if (!dist.has(to) && !banned.has(to)) { dist.set(to, d); next.push(to); } }));
+      ring = next;
+    }
+    const path = [row], seen = new Set([row]);
+    const walk = u => {
+      if (res.count >= AN_ROUTE_CAP) { res.capped = true; return; }
+      for (const { to } of anAdj.get(u) || []) {
+        if (seen.has(to)) continue;
+        if (to === m) {
+          res.count++;
+          const full = path.concat(m);
+          full.slice(1, -1).forEach(x => { const v = res.via.get(x); if (!v) res.via.set(x, { routes: 1, best: full }); else { v.routes++; if (full.length < v.best.length) v.best = full; } });
+          if (res.count >= AN_ROUTE_CAP) { res.capped = true; return; }
+          continue;
+        }
+        if (banned.has(to) || !dist.has(to) || path.length + dist.get(to) > an.hops) continue;
+        seen.add(to); path.push(to); walk(to); path.pop(); seen.delete(to);
+        if (res.capped) return;
+      }
+    };
+    if (an.hops >= 1) walk(row);
+    if (res.capped) break;
+  }
+  return res;
 }
 
 /* --- money passing through an organisation to someone who worked there --- */
@@ -1172,12 +1230,18 @@ function anRenderForm() {
     ${anField("to", "To", "Type a name or group, e.g. Soros…")}
     <div class="an-quick"><a data-quick="to" data-code="set:soros">+ Soros network</a><a data-quick="to" data-code="batory">+ Batory</a><a data-quick="to" data-code="ned">+ NED</a><a data-quick="to" data-code="usaid">+ USAID</a></div>
     ${anField("avoid", "Avoid (paths may not pass through)", "Type a name to keep paths away from it…")}
+    <div class="an-quick"><a data-quick="avoid" data-code="tk_judges_statement_2026_10_16">+ Judges' joint statement</a><a data-quick="avoid" data-code="ko">+ KO</a><a data-quick="avoid" data-code="nawrocki">+ Nawrocki</a></div>
     <p class="meta-line">The Tribunal is avoided by default, because every judge is linked to it and it would make every pair of judges two steps apart.</p>
     <div class="an-opts">
       <label>Max hops <select id="an-hops">${[1, 2, 3, 4, 5, 6].map(h => `<option value="${h}" ${an.hops === h ? "selected" : ""}>${h}</option>`).join("")}</select></label>
       <label>Evidence <select id="an-ev">${AN_EVIDENCE.map((t, i) => `<option value="${i}" ${an.ev === i ? "selected" : ""}>${t}</option>`).join("")}</select></label>
       <label class="row"><input type="checkbox" id="an-money" ${an.money ? "checked" : ""}><span class="name">Money ties only</span></label>
       <label class="row" title="Indirect lines sum up a chain of ties in one line, which makes paths look shorter than they are"><input type="checkbox" id="an-ind" ${an.indirect ? "checked" : ""}><span class="name">Count indirect shortcut lines</span></label>
+      <label class="row" title="Lines where one side acted against the other (refused, sued, vetoed, suspended...)"><input type="checkbox" id="an-opp" ${an.skipOpp ? "checked" : ""}><span class="name">Skip opposing ties</span></label>
+      <label class="row"><input type="checkbox" id="an-routes" ${an.routes ? "checked" : ""}><span class="name">Count routes in each cell</span></label>
+      <label class="row"><input type="checkbox" id="an-bridges" ${an.bridges ? "checked" : ""}><span class="name">Show main bridges</span></label>
+      <label class="row"><input type="checkbox" id="an-ctx" ${an.context ? "checked" : ""}><span class="name">Show neighbours of path nodes (faded)</span></label>
+      <label>Paths per pair on map <select id="an-pp">${[1, 3, 5].map(n => `<option value="${n}" ${an.perPair === n ? "selected" : ""}>${n}</option>`).join("")}</select></label>
       <label class="row"><input type="checkbox" id="an-trim" ${state.anTrim ? "checked" : ""}><span class="name">Show only path nodes on the map</span></label>
     </div>
     <div class="an-go"><button class="btn primary" id="an-run" type="button">Analyse</button><button class="btn" id="an-clear" type="button">Clear</button><span class="meta-line" id="an-status"></span></div>
@@ -1223,7 +1287,12 @@ function anWireForm() {
   document.getElementById("an-hops").onchange = ev => { an.hops = +ev.target.value; };
   document.getElementById("an-ev").onchange = ev => { an.ev = +ev.target.value; };
   document.getElementById("an-money").onchange = ev => { an.money = ev.target.checked; };
-  document.getElementById("an-ind").onchange = ev => { an.indirect = ev.target.checked; };
+  document.getElementById("an-ind").onchange = ev => { an.indirect = ev.target.checked; if (an.grid) anRun(); };
+  document.getElementById("an-opp").onchange = ev => { an.skipOpp = ev.target.checked; if (an.grid) anRun(); };
+  document.getElementById("an-routes").onchange = ev => { an.routes = ev.target.checked; if (an.grid) anRun(!!an.cell); };
+  document.getElementById("an-bridges").onchange = ev => { an.bridges = ev.target.checked; if (an.grid) anRun(!!an.cell); };
+  document.getElementById("an-ctx").onchange = ev => { an.context = ev.target.checked; if (state.anFocus) anSetFocus(state.anFocus); };
+  document.getElementById("an-pp").onchange = ev => { an.perPair = +ev.target.value; if (an.grid && !an.cell && !an.bridge) anFocusGrid(); };
   document.getElementById("an-trim").onchange = ev => { state.anTrim = ev.target.checked; if (state.anFocus) anSetFocus(state.anFocus); };
   document.getElementById("an-run").onclick = () => anRun();
   document.getElementById("an-clear").onclick = () => { an.from = []; an.to = []; an.avoid = AN_DEFAULT_AVOID.filter(id => store.nodes.has(id)); an.grid = null; anSetFocus(null); anRenderForm(); };
@@ -1235,6 +1304,10 @@ anBox.addEventListener("click", ev => {
   if (q) { const f = q.dataset.quick, c = q.dataset.code; if ((anIsSet(c) || store.nodes.has(c)) && !an[f].includes(c)) { an[f].push(c); anRefreshChips(); } return; }
   const cell = ev.target.closest("button[data-cell]");
   if (cell) { const [r, c] = cell.dataset.cell.split(",").map(Number); anOpenCell(r, c); return; }
+  const br = ev.target.closest("button[data-bridge]");
+  if (br) { anOpenBridge(br.dataset.bridge); return; }
+  const ba = ev.target.closest("button[data-bridge-avoid]");
+  if (ba) { const id = ba.dataset.bridgeAvoid; if (!an.avoid.includes(id)) an.avoid.push(id); anRefreshChips(); anRun(); return; }
   const po = ev.target.closest("button[data-path]");
   if (po) { const i = +po.dataset.path; an.pathOn = an.pathOn === i ? -1 : i; anFocusPaths(); anRenderPaths(); return; }
   const nd = ev.target.closest("[data-an-node]");
@@ -1250,7 +1323,9 @@ function anRun(keepCell) {
     const t0 = performance.now();
     anBuild();
     const rows = anRows();
-    an.grid = { rows, cols: an.to.slice(), cells: rows.map(r => an.to.map(c => anCellBest(r, c))) };
+    an.grid = { rows, cols: an.to.slice(), cells: rows.map(r => an.to.map(c => anCellBest(r, c))), top: rows.map(() => an.to.map(() => null)) };
+    if (an.routes || an.bridges) an.grid.cells.forEach((row, i) => row.forEach((c, k) => { c.routes = anCountRoutes(rows[i], an.to[k]); }));
+    an.bridge = null;
     const g0 = c => an.grid.cells[c[0]]?.[c[1]]?.best;
     if (!keepCell) { an.cell = null; an.paths = null; an.pathOn = -1; anFocusGrid(); }
     st.textContent = `${rows.length} × ${an.to.length} checked in ${Math.round(performance.now() - t0)} ms`;
@@ -1268,22 +1343,55 @@ function anRenderOut() {
     const lab = AN_LEVEL_KEY[c.best.grade];
     return `<button type="button" class="an-cell ${lab}" data-cell="${r},${k}" aria-pressed="${an.cell && an.cell[0] === r && an.cell[1] === k}" title="Best path: ${c.best.hops} hops, weakest step ${esc(LABEL_NAME[lab])}${c.best.money ? ", " + c.best.money + " money step(s)" : ""}">
       <span class="h">${c.best.hops} hop${c.best.hops === 1 ? "" : "s"}</span><span class="g">${esc(LABEL_NAME[lab])}${c.best.money ? ` <span class="money-tag">$${c.best.money > 1 ? "×" + c.best.money : ""}</span>` : ""}</span>${c.best.indirect ? `<span class="alt">indirect step</span>` : ""}
-      ${c.shortest ? `<span class="alt">or ${c.shortest.hops} (${esc(LABEL_NAME[AN_LEVEL_KEY[c.shortest.grade]])})</span>` : ""}</button>`;
+      ${c.shortest ? `<span class="alt">or ${c.shortest.hops} (${esc(LABEL_NAME[AN_LEVEL_KEY[c.shortest.grade]])})</span>` : ""}${an.routes && c.routes ? `<span class="alt"><b>${c.routes.count}${c.routes.capped ? "+" : ""}</b> route${c.routes.count === 1 ? "" : "s"}</span>` : ""}</button>`;
   };
   const found = g.cells.flat().filter(c => c.best).length, total = g.cells.flat().filter(c => !c.self).length;
   out.innerHTML = `
     <div class="section"><h2>Results</h2>
-    <p class="meta-line">${found} of ${total} pairs linked within ${an.hops} hop${an.hops === 1 ? "" : "s"} · ${esc(AN_EVIDENCE[an.ev])}${an.money ? " · money ties only" : ""}${an.indirect ? " · indirect shortcut lines counted" : " · indirect shortcut lines skipped"}${an.avoid.length ? " · avoiding " + an.avoid.map(shortName).map(esc).join(", ") : ""}. Each cell shows the best path; "or N" means a shorter but less factual path exists. Click a cell for the steps and sources.</p>
+    <p class="meta-line">${found} of ${total} pairs linked within ${an.hops} hop${an.hops === 1 ? "" : "s"} · ${esc(AN_EVIDENCE[an.ev])}${an.money ? " · money ties only" : ""}${an.indirect ? " · indirect shortcut lines counted" : " · indirect shortcut lines skipped"}${an.skipOpp ? ` · ${an.oppSkipped} opposing line${an.oppSkipped === 1 ? "" : "s"} skipped` : ""}${an.avoid.length ? " · avoiding " + an.avoid.map(shortName).map(esc).join(", ") : ""}. Each cell shows the best path; "or N" means a shorter but less factual path exists. Click a cell for the steps and sources.</p>
     <div class="an-grid-wrap"><table class="an-grid"><thead><tr><th></th>${g.cols.map(c => `<th scope="col">${esc(anLabel(c))}</th>`).join("")}</tr></thead>
     <tbody>${g.rows.map((r, i) => `<tr><th scope="row"><span class="an-node" data-an-node="${esc(r)}">${esc(shortName(r))}</span></th>${g.cols.map((c, k) => `<td>${cellHTML(g.cells[i][k], i, k)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div>
+    ${anBridgesHTML()}
     <div id="an-paths"></div>`;
   anRenderPaths();
 }
+// Main bridges: the nodes the most From rows run through on their way to the To picks.
+function anBridgeStats() {
+  const g = an.grid, ends = new Set(g.rows.concat(g.cols.flatMap(anMembers))), stats = new Map();
+  g.cells.forEach((row, i) => row.forEach(c => {
+    if (!c.routes) return;
+    c.routes.via.forEach((v, id) => {
+      if (ends.has(id)) return;
+      let s = stats.get(id); if (!s) stats.set(id, s = { id, rows: new Map(), routes: 0 });
+      s.routes += v.routes;
+      const cur = s.rows.get(i); if (!cur || v.best.length < cur.length) s.rows.set(i, v.best);
+    });
+  }));
+  return [...stats.values()].sort((a, b) => b.rows.size - a.rows.size || b.routes - a.routes).slice(0, 10);
+}
+function anBridgesHTML() {
+  if (!an.bridges || !an.grid) return "";
+  const list = anBridgeStats(); if (!list.length) return "";
+  const capped = an.grid.cells.flat().some(c => c.routes?.capped);
+  return `<div class="section"><h2>Main bridges</h2>
+    <p class="meta-line">The nodes most routes pass through, by how many of the ${an.grid.rows.length} From rows use them.${capped ? ` Some cells hit the ${AN_ROUTE_CAP}-route cap, so counts there are partial.` : ""}</p>
+    <div class="an-bridges">${list.map(b => `<div class="an-bridge${an.bridge === b.id ? " on" : ""}"><span class="an-node" data-an-node="${esc(b.id)}">${esc(shortName(b.id))}</span><span class="meta-line">${b.rows.size} of ${an.grid.rows.length} rows · ${b.routes} routes</span><button class="btn" type="button" data-bridge="${esc(b.id)}">${an.bridge === b.id ? "Hide paths" : "Show paths"}</button><button class="btn" type="button" data-bridge-avoid="${esc(b.id)}" title="Re-run without this node">Avoid</button></div>`).join("")}</div></div>`;
+}
+function anOpenBridge(id) {
+  if (an.bridge === id) { an.bridge = null; an.paths = null; anFocusGrid(); anRenderOut(); return; }
+  const b = anBridgeStats().find(x => x.id === id); if (!b) return;
+  an.bridge = id; an.cell = null; an.pathOn = -1;
+  an.paths = [...b.rows.values()].map(anDescribe).sort(anRank);
+  an.pathsTitle = `Paths through ${shortName(id)}`;
+  anFocusPaths(); anRenderOut();
+  document.getElementById("an-paths")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
 function anOpenCell(r, c, pathOn = -1) {
+  an.bridge = null;
   an.cell = [r, c]; an.pathOn = pathOn;
   an.paths = anCellPaths(an.grid.rows[r], an.grid.cols[c]);
-  document.querySelectorAll(".an-cell[data-cell]").forEach(b => b.setAttribute("aria-pressed", b.dataset.cell === r + "," + c));
-  anFocusPaths(); anRenderPaths();
+  an.pathsTitle = `${shortName(an.grid.rows[r])} to ${anLabel(an.grid.cols[c])}`;
+  anFocusPaths(); anRenderOut();
   document.getElementById("an-paths")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 function anStepHTML(s) {
@@ -1308,16 +1416,21 @@ function anPathHTML(p, i) {
 }
 function anRenderPaths() {
   const box = document.getElementById("an-paths"); if (!box) return;
-  if (!an.cell || !an.paths) { box.innerHTML = ""; return; }
-  const r = an.grid.rows[an.cell[0]], c = an.grid.cols[an.cell[1]];
-  box.innerHTML = `<div class="section"><h2>${esc(shortName(r))} to ${esc(anLabel(c))}</h2>
-    <p class="meta-line">Top ${an.paths.length} path${an.paths.length === 1 ? "" : "s"}, best first. ${state.anTrim ? "The map shows only these paths." : "Lit up on the map; everything else is faded."}</p></div>
+  if ((!an.cell && !an.bridge) || !an.paths) { box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="section"><h2>${esc(an.pathsTitle)}</h2>
+    <p class="meta-line">${an.bridge ? `Shortest path through it for each row that uses it.` : `Top ${an.paths.length} path${an.paths.length === 1 ? "" : "s"}, best first.`} ${state.anTrim ? "The map shows only these paths." : "Lit up on the map; everything else is faded."}</p></div>
     ${an.paths.map(anPathHTML).join("") || `<p class="empty">No path found.</p>`}`;
 }
 // Highlight the chosen paths on the map. Their nodes and lines are drawn even when filters would hide them.
 // Before a cell is opened, the map shows the best path of every cell in the grid.
 function anFocusGrid() {
-  const ps = an.grid ? an.grid.cells.flat().map(c => c.best).filter(Boolean) : [];
+  let ps = [];
+  if (an.grid) an.grid.cells.forEach((row, i) => row.forEach((c, k) => {
+    if (!c.best) return;
+    if (an.perPair <= 1) { ps.push(c.best); return; }
+    if (!an.grid.top[i][k]) an.grid.top[i][k] = anCellPaths(an.grid.rows[i], an.grid.cols[k], 5);
+    ps = ps.concat(an.grid.top[i][k].slice(0, an.perPair));
+  }));
   if (!ps.length) { anSetFocus(null); return; }
   const nodes = new Set(), edgeKeys = new Set();
   ps.forEach(p => { p.nodes.forEach(n => nodes.add(n)); p.steps.forEach(s => edgeKeys.add(s.e.key)); });
@@ -1345,10 +1458,9 @@ function fitTo(ids) {
   svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(width / 2 - k * (x0 + x1) / 2, height / 2 - k * (y0 + y1) / 2).scale(k));
 }
 function anExportHTML() {
-  if (!an.cell || !an.paths?.length) return "";
-  const r = an.grid.rows[an.cell[0]], c = an.grid.cols[an.cell[1]];
+  if ((!an.cell && !an.bridge) || !an.paths?.length) return "";
   const ps = an.pathOn >= 0 ? [[an.paths[an.pathOn], an.pathOn]] : an.paths.map((p, i) => [p, i]);
-  return `<div class="ex-an"><h2 style="margin:12px 0 4px">Path analysis: ${esc(shortName(r))} to ${esc(anLabel(c))}</h2>
+  return `<div class="ex-an"><h2 style="margin:12px 0 4px">Path analysis: ${esc(an.pathsTitle)}</h2>
     <p class="meta-line">Max ${an.hops} hops · ${esc(AN_EVIDENCE[an.ev])}${an.money ? " · money ties only" : ""}${an.avoid.length ? " · avoiding " + an.avoid.map(shortName).map(esc).join(", ") : ""}</p>
     ${ps.map(([p, i]) => anPathHTML(p, i)).join("")}</div>`;
 }
@@ -1464,6 +1576,11 @@ function viewToHash() {
     if (an.ev !== 1) p.set("a_ev", an.ev);
     if (an.money) p.set("a_money", "1");
     if (an.indirect) p.set("a_ind", "1");
+    if (!an.skipOpp) p.set("a_opp", "0");
+    if (!an.routes) p.set("a_routes", "0");
+    if (!an.bridges) p.set("a_bridges", "0");
+    if (an.context) p.set("a_ctx", "1");
+    if (an.perPair !== 1) p.set("a_pp", an.perPair);
     if (!state.anTrim) p.set("a_trim", "0");
     p.set("a_run", "1");
     if (an.cell) p.set("a_cell", an.cell.join(","));
@@ -1493,6 +1610,11 @@ function hashToView() {
   if (p.has("a_ev")) an.ev = Math.min(3, Math.max(0, parseInt(p.get("a_ev"), 10) || 0));
   if (p.get("a_money") === "1") an.money = true;
   if (p.get("a_ind") === "1") an.indirect = true;
+  if (p.get("a_opp") === "0") an.skipOpp = false;
+  if (p.get("a_routes") === "0") an.routes = false;
+  if (p.get("a_bridges") === "0") an.bridges = false;
+  if (p.get("a_ctx") === "1") an.context = true;
+  if (p.has("a_pp")) an.perPair = [1, 3, 5].includes(+p.get("a_pp")) ? +p.get("a_pp") : 1;
   if (p.get("a_trim") === "0") state.anTrim = false;
   if (p.has("a_cell")) an.cell = list("a_cell").map(Number);
   if (p.has("a_path")) an.pathOn = parseInt(p.get("a_path"), 10);
