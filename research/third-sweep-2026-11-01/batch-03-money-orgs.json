@@ -27,48 +27,715 @@
   ]
  },
  "stats": {
-  "agents": 3,
-  "agents_left_out_unfinished_or_other_batch": 8,
-  "searches": 93,
-  "search_results": 1471,
-  "unique_result_urls": 981,
-  "page_fetches": 26,
-  "pages_reported": 15,
-  "pages_with_page_text": 0,
+  "agents": 5,
+  "agents_left_out_unfinished_or_other_batch": 10,
+  "searches": 108,
+  "search_results": 1688,
+  "unique_result_urls": 1110,
+  "page_fetches": 43,
+  "pages_reported": 25,
+  "pages_with_page_text": 5,
   "fetch_status": {
-   "partial": 2,
-   "ok": 13
+   "ok": 19,
+   "partial": 6
   },
-  "claims": 68,
+  "claims": 113,
   "labels": {
-   "fact": 61,
-   "no_link": 5,
-   "speculation": 2
+   "no_link": 24,
+   "fact": 86,
+   "speculation": 2,
+   "alleged": 1
   },
   "evidence_check": {
-   "exact_in_reader_extract": 68
+   "exact": 19,
+   "normalized": 2,
+   "exact_in_reader_extract": 90,
+   "not_found_in_reader_extract": 2
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 32,
-   "new_tie_between_known_entities": 23,
-   "pair_already_linked": 9,
-   "both_names_unmatched": 4
+   "new_entity_or_unmatched_name": 61,
+   "both_names_unmatched": 13,
+   "pair_already_linked": 11,
+   "new_tie_between_known_entities": 28
   },
   "kinds": {
-   "grant_or_donation": 45,
+   "grant_or_donation": 70,
+   "other": 14,
+   "statement": 4,
    "role_or_job": 3,
-   "other": 4,
-   "membership_or_board": 5,
+   "membership_or_board": 8,
    "ownership": 1,
    "contract_or_fee": 7,
    "nomination_or_vote": 2,
-   "statement": 1
+   "legal_action": 4
   },
-  "title_only_leads": 92,
-  "to_read_unread": 24,
-  "nothing_found": 23
+  "title_only_leads": 104,
+  "to_read_unread": 29,
+  "nothing_found": 30
  },
  "pages": [
+  {
+   "ref": "C4_private_foundations-T1",
+   "url": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf",
+   "host": "sigrid-rausing-trust.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200. The PDF came back as extracted text (33,257 characters); no file was saved. Page numbers are the page labels in the extracted text. The report's contents list differs for some sections: Open Societies is listed at 11 but its introduction is labelled 13, and Total grants is listed at 27 but its table is labelled 28. The text contains no hyperlinks. Named grantees are highlights only; the report has no full grantee list and gives programme totals only. No repository or file access in this run, so nothing was saved to a branch.",
+   "page_title": "THE SIGRID RAUSING TRUST Activity Report 2024/25",
+   "page_date": "Covers 2024 and 2025; no publication date in the extracted text",
+   "publisher": "The Sigrid Rausing Trust",
+   "capture_answer": "No Polish grantee and no Poland-focused grant is named in this report. HFHR (Helsińska Fundacja Praw Człowieka), Stefan Batory Foundation, Free Courts / Wolne Sądy, Iustitia, Themis, OKO.press, Akcja Demokracja, Watchdog Polska, KOS and KOD do not appear anywhere in the text. So the GBP 1,050,000 HFHR grant (March 2024) and the GBP 75,000 gift (2025) cannot be found in it. The report gives only programme totals for 2024 and 2025 combined: Human Rights and the Rule of Law £7,708,000; Open Societies £7,115,500; Environment £3,505,000; Chair and Trustee Gifts £6,312,966; Strategic Initiatives £2,651,000; Grand Total £27,292,466. Named grantees are described in Hungary, Georgia, Ukraine, Kenya, Serbia, Moldova, Kazakhstan, Bulgaria, Israel and the UK. None of Donald Tusk, Michał Wawrykiewicz, Waldemar Żurek, Adam Bodnar, Bogdan Święczkowski, Karol Nawrocki or the eight judges appears.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:33:46.169Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 33255,
+    "sha256": "b0ca3e15361e7171a83c337ae0a99be7b8be7eb8675f5a7df5130cf781726132",
+    "url_read": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf"
+   },
+   "names_listed": [
+    "Sigrid Rausing",
+    "Duncan Wilson",
+    "Jane Pickering",
+    "Laura Dowley",
+    "Chris Stone",
+    "Hosh Ibrahim",
+    "Helena Kennedy",
+    "Pia Bungarten",
+    "Peter Pomerantsev",
+    "European Human Rights Advocacy Centre (EHRAC)",
+    "Hungarian Helsinki Committee",
+    "Hungarian Civil Liberties Union (HCLU)",
+    "Truth Hounds",
+    "Mnemonic",
+    "International Legal Initiative Foundation",
+    "International Rehabilitation Council for Torture Victims (IRCT)",
+    "Liberty",
+    "Howard League for Penal Reform",
+    "Direkt36",
+    "TV8",
+    "KRIK",
+    "European Center for Not-for-Profit Law (ECNL)",
+    "Defenders’ Coalition",
+    "The Bureau of Investigative Journalism",
+    "UNCAC Coalition",
+    "Off-Biennale",
+    "Heartefact",
+    "International Pollutants Elimination Network (IPEN)",
+    "Chem Trust",
+    "Bulgarian Society for the Protection of Birds (BSPB)",
+    "BirdLife Europe and Central Asia",
+    "Watershed Investigations",
+    "ClientEarth",
+    "European Environmental Bureau",
+    "UCL Queen’s Square Institute of Neurology",
+    "Turquoise Mountain",
+    "Protection Approaches",
+    "Physicians for Human Rights Israel",
+    "Standing Together",
+    "Team Domenica",
+    "Médecins Sans Frontières",
+    "Redress",
+    "Global Survivors Fund",
+    "Human Dignity Trust",
+    "Háttér Society",
+    "Hope not Hate",
+    "Social Change Initiative"
+   ],
+   "names_found_in_page_text": "47/47",
+   "claims": [
+    {
+     "id": "B03-C0001",
+     "subject": "HFHR (Helsińska Fundacja Praw Człowieka)",
+     "subject_type": "org",
+     "relation": "received grant of GBP 1,050,000 (March 2024) from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "HFHR is not named under either name, and no GBP 1,050,000 grant (March 2024) appears. The report gives only programme totals and highlighted grantees, so an unlisted grant is not excluded. The report names only 'Hungarian Helsinki Committee', not HFHR.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0002",
+     "subject": "HFHR (Helsińska Fundacja Praw Człowieka)",
+     "subject_type": "org",
+     "relation": "received gift of GBP 75,000 (2025) from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Gifts and Trustees’ Gifts are given at the discretion of the Chair and the Trustees.",
+     "evidence_translation": "Gifts and Trustees’ Gifts are given at the discretion of the Chair and the Trustees.",
+     "evidence_location": "Page labelled 22, opening paragraph of the section 'GIFTS AND TRUSTEES’ GIFTS'",
+     "label": "no_link",
+     "label_scope": "The Gifts and Trustees’ Gifts section and the rest of the text were checked for a GBP 75,000 gift to HFHR in 2025; none appears. None of the gift recipients named in that section is Polish.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0003",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Stefan Batory Foundation and Batory Foundation are not named in the report text. The report does not itemise grants by grantee, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0004",
+     "subject": "Free Courts / Wolne Sądy",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Free Courts / Wolne Sądy is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0005",
+     "subject": "Iustitia",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Iustitia is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0006",
+     "subject": "Themis",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Themis is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "themis",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0007",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "OKO.press is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0008",
+     "subject": "Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Akcja Demokracja is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0009",
+     "subject": "Watchdog Polska",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "Watchdog Polska is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "watchdog_polska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0010",
+     "subject": "KOS",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "KOS is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kos",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0011",
+     "subject": "KOD",
+     "subject_type": "org",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_translation": "TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025",
+     "evidence_location": "Page labelled 28, table heading 'TOTAL GRANTS PAID BY PROGRAMME IN 2024 & 2025 (IN GBP)'",
+     "label": "no_link",
+     "label_scope": "KOD is not named in the report text. The report names only highlighted grantees, so an unlisted grant is not excluded.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0012",
+     "subject": "Any Polish organisation or Poland-focused grant",
+     "subject_type": "other",
+     "relation": "received grant from",
+     "object": "The Sigrid Rausing Trust",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Our grant-making is organised into three main programmes:",
+     "evidence_translation": "Our grant-making is organised into three main programmes:",
+     "evidence_location": "Page labelled 5, bullet list in the section 'ABOUT THE SIGRID RAUSING TRUST'",
+     "label": "no_link",
+     "label_scope": "No Polish organisation and no Poland-focused grant is named in the report text. Named grantees are described in Hungary, Georgia, Ukraine, Kenya, Serbia, Moldova, Kazakhstan, Bulgaria, Israel and the UK. These are highlights only, not a full list.",
+     "new_entities": [
+      "The Sigrid Rausing Trust"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T2",
+   "url": "https://www.mott.org/grants/200701771/",
+   "host": "mott.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200. HTML grant record. The record shows no approval date; its fields are Program, Program Initiative, Grant Amount, Grant Period, Location and Geographic Focus. Page metadata shows modified 2026-11-01. The grantee website linked on the record is www.batory.org.pl. The record names the funder only as Mott Foundation.",
+   "page_title": "Stefan Batory Foundation, Regional Advocacy Fund, 200701771 | Mott Foundation",
+   "page_date": "2026-11-01 (modified date in page metadata)",
+   "publisher": "Mott Foundation",
+   "capture_answer": "Mott grant record 200701771, 'Regional Advocacy Fund', to Stefan Batory Foundation (Location Warsaw, Poland). Amount $1,200,000; Grant Period January 1, 2008–December 31, 2013; Program Civil Society, Program Initiative Strengthening Civic Space; Geographic Focus Hungary, Poland, Czech Republic, Slovakia. Purpose: strengthen NGOs in those four countries to influence public policy, through Batory grantmaking and technical assistance. Approval date: not shown on the page. The record names the funder only as 'Mott Foundation' (no 'Charles Stewart' appears in the text). The grant period ends in 2013, before 2016. No HFHR or other named Polish NGO appears.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:33:47.029Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 4989,
+    "sha256": "ac40a73d0c6423c53ed8a81e3cc9c9a85f5c7b3ba5b62383773b495e71d623ee",
+    "url_read": "https://www.mott.org/grants/200701771/"
+   },
+   "names_listed": [
+    "Stefan Batory Foundation",
+    "George Soros"
+   ],
+   "names_found_in_page_text": "2/2",
+   "followup_urls": [
+    {
+     "url": "https://www.batory.org.pl",
+     "why": "Grantee website linked on the grant record. It may publish its funders, annual reports or grant lists."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0013",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "received grant of $1,200,000 ('Regional Advocacy Fund') from",
+     "object": "Mott Foundation",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "$1,200,000",
+     "currency": "$ (as printed)",
+     "date": "January 1, 2008–December 31, 2013",
+     "evidence_text": "Grant Amount $1,200,000",
+     "evidence_translation": "Grant Amount $1,200,000",
+     "evidence_location": "Grant details list under the heading 'Regional Advocacy Fund' (bold labels removed)",
+     "label": "fact",
+     "label_scope": "The Mott Foundation grants database record lists this grant to Stefan Batory Foundation, Location Warsaw, Poland. The database's site name is Mott Foundation.",
+     "new_entities": [
+      "Mott Foundation"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0014",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "was established in 1988 by",
+     "object": "George Soros",
+     "object_type": "person",
+     "kind": "other",
+     "date": "1988",
+     "evidence_text": "The foundation was established in 1988 by the American philanthropist George Soros and a group of Polish democratic leaders",
+     "evidence_translation": "The foundation was established in 1988 by the American philanthropist George Soros and a group of Polish democratic leaders",
+     "evidence_location": "'About this grant' section, first paragraph",
+     "label": "fact",
+     "label_scope": "Stated in the Mott grant record's description of the foundation. The record does not name the other founders ('a group of Polish democratic leaders').",
+     "new_entities": [
+      "George Soros"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "object_map_id": "osf",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founder (Soros, 1988); grants e.g. $340k 2014; donor 2023 and 2025",
+      "\"Soros interfered in Poland 2023 election\" (Magyar Nemzet)",
+      "named donor in 2023 annual report (no amount)",
+      "named donor 2023, 2024, 2025 (amounts not given); 2006-09 reports: most programmes OSI-funded",
+      "named donor in 2023 annual report (no amount)"
+     ]
+    },
+    {
+     "id": "B03-C0015",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "is described in the Mott record as the primary nongovernmental funder of",
+     "object": "hundreds of Polish nonprofit organizations",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "the foundation has been the primary nongovernmental source of funding for hundreds of Polish nonprofit organizations",
+     "evidence_translation": "the foundation has been the primary nongovernmental source of funding for hundreds of Polish nonprofit organizations",
+     "evidence_location": "'About this grant' section, first paragraph (sentence beginning 'For over 18 years')",
+     "label": "fact",
+     "label_scope": "The Mott grant record states this about the foundation. The record gives no source for the claim, and it is not checked against the foundation's own reporting.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0016",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "will provide under this grant",
+     "object": "tailor-made grantmaking and technical assistance programs",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "provide tailor-made grantmaking and technical assistance programs",
+     "evidence_translation": "provide tailor-made grantmaking and technical assistance programs",
+     "evidence_location": "'About this grant' section, first paragraph",
+     "label": "fact",
+     "label_scope": "The grant record describes the planned program under the grant. It gives no amounts for regranting.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T3",
+   "url": "https://www.mott.org/?p=97494",
+   "host": "mott.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200. HTML grant record. The URL read is https://www.mott.org/?p=97494, but the record it returns has canonical URL https://www.mott.org/grants/200600165/ and title 'Stefan Batory Foundation, Endowment Fund, 200600165 | Mott Foundation'. It is not the 200701771 record. No approval date appears on the page. Page metadata shows modified 2026-11-01.",
+   "page_title": "Stefan Batory Foundation, Endowment Fund, 200600165 | Mott Foundation",
+   "page_date": "2026-11-01 (modified date in page metadata)",
+   "publisher": "Mott Foundation",
+   "capture_answer": "The URL https://www.mott.org/?p=97494 returned Mott grant record 200600165, 'Endowment Fund', to Stefan Batory Foundation (Location Warsaw, Poland), not a second copy of 200701771. Amount $1,000,000; Grant Period January 1, 2006–December 31, 2009; Geographic Focus Belarus, Moldova, Poland, Ukraine. Purpose: support to the foundation's endowment, with a goal to raise $14.1 million and increase the endowment to $35 million by the end of 2009, and an annual budget of at least $4 million. Approval date: not shown. The grant period ends in 2009, before 2016. No HFHR or other named Polish NGO appears.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:33:47.396Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 4517,
+    "sha256": "bc6c74c4640ec131519e136bb93eeb5c913f709e1923f8197660473da13ce9af",
+    "url_read": "https://www.mott.org/?p=97494"
+   },
+   "names_listed": [
+    "Stefan Batory Foundation"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B03-C0017",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "received grant of $1,000,000 ('Endowment Fund') from",
+     "object": "Mott Foundation",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "$1,000,000",
+     "currency": "$ (as printed)",
+     "date": "January 1, 2006–December 31, 2009",
+     "evidence_text": "This grant will provide support to an endowment fund for the Stefan Batory Foundation.",
+     "evidence_translation": "This grant will provide support to an endowment fund for the Stefan Batory Foundation.",
+     "evidence_location": "'About this grant' section, first sentence",
+     "label": "fact",
+     "label_scope": "The Mott Foundation grants database record (ID 200600165) lists this grant. Location Warsaw, Poland.",
+     "new_entities": [
+      "Mott Foundation"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0018",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "endowment-building goal under the grant",
+     "object": "raise $14.1 million and increase total endowment to $35 million by the end of 2009",
+     "object_type": "other",
+     "kind": "other",
+     "date": "by the end of 2009",
+     "evidence_text": "The goal of the endowment-building program is to raise $14.1 million and increase the foundation’s total endowment",
+     "evidence_translation": "The goal of the endowment-building program is to raise $14.1 million and increase the foundation’s total endowment",
+     "evidence_location": "'About this grant' section, single paragraph",
+     "label": "fact",
+     "label_scope": "Stated as the program goal in the Mott grant record. The page does not say whether the goal was reached.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0019",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "is described in the Mott record as",
+     "object": "the largest local grantmaker supporting civil society development in Poland",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "The Stefan Batory Foundation is the largest local grantmaker supporting civil society development in Poland.",
+     "evidence_translation": "The Stefan Batory Foundation is the largest local grantmaker supporting civil society development in Poland.",
+     "evidence_location": "'About this grant' section, single paragraph",
+     "label": "fact",
+     "label_scope": "Stated in the Mott grant record's description. Not verified against other sources.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0020",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "committed to maintain",
+     "object": "an annual budget of at least $4 million",
+     "object_type": "other",
+     "kind": "statement",
+     "amount": "at least $4 million",
+     "currency": "$ (as printed)",
+     "evidence_text": "the foundation is committed to continuing its grantmaking programs and maintaining an annual budget of at least $4 million",
+     "evidence_translation": "the foundation is committed to continuing its grantmaking programs and maintaining an annual budget of at least $4 million",
+     "evidence_location": "'About this grant' section, single paragraph",
+     "label": "fact",
+     "label_scope": "The Mott grant record states the foundation's commitment. The page gives no actual budget figures.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T2-pg20",
+   "url": "https://www.mott.org/grants/?pg=20",
+   "host": "mott.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200. One listing page (8,754 characters) read, as the page-through start point for the T2 request. The pagination shown ends at page 877, and the database is described as nearly 9,000 grants, so a full 2016–2025 page-through was not done. Results are labelled 'Sort by: Newest Relevance'. This page's grant IDs are 2025 and 2026. The Location filter's options are not in the fetched text. The 'Next' link goes to pg=21, which was not read. Page metadata shows modified 2026-08-20.",
+   "page_title": "Grants Database | Mott Foundation",
+   "page_date": "2026-08-20 (modified date in page metadata)",
+   "publisher": "Mott Foundation",
+   "capture_answer": "None of the ten grants on listing page 20 is located in Poland or made to a Polish grantee. Locations: Brasilia (Brazil); Washington, DC (two); Flint, MI (four); San Francisco, CA; Woodstock (South Africa); Naguru (Uganda). The ten grant IDs on this page run from 2025-14062 to 2026-14566. The 2016–2025 Polish grants could not be checked by paging in this run: the pagination runs to page 877 and only page 20 was read. The page has no Poland filter link, and the Location filter's options do not appear in the fetched text.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:33:49.041Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 8754,
+    "sha256": "222cb92847e94478a880fe15763608e762226a6f84af302c73fe746fba5f3891",
+    "url_read": "https://www.mott.org/grants/?pg=20"
+   },
+   "names_listed": [
+    "Instituto Internacional de Educação do Brasil",
+    "Aspen Institute",
+    "Genesee Area Focus Fund",
+    "Hopewell Fund",
+    "Social Change Assistance Trust",
+    "United Way of Genesee County",
+    "Biodiversity Funders Group",
+    "Ferris Wheel Innovation Center",
+    "Crim Fitness Foundation",
+    "Collaboration on International ICT Policy for East and Southern Africa"
+   ],
+   "names_found_in_page_text": "10/10",
+   "followup_urls": [
+    {
+     "url": "https://www.mott.org/grants/?pg=21",
+     "why": "Next page of the listing. The listing runs to page 877, so a country check by paging alone is not practical."
+    },
+    {
+     "url": "https://maps.foundationcenter.org/#/map/?subjects=all&popgroups=all&years=all&location=6295630&excludeLocation=0&geoScale=ADM1&layer=recip&boundingBox=-180,-90,180,90&gmOrgs=all&recipOrgs=all&tags=all&keywords=&pathwaysOrg=&pathwaysType=&acct=mott&typesOfSupport=all&transactionTypes=all&amtRanges=all&minGrantAmt=0&maxGrantAmt=0&gmTypes=all&minAssetsAmt=0&maxAssetsAmt=0&minGivingAmt=0&maxGivingAmt=0&andOr=0&includeGov=1&custom=all&customArea=all&indicator=&dataSource=oecd&chartType=trends&multiSubject=1&listType=gm&windRoseAnd=undefined&zoom=2",
+     "why": "External Candid map linked from the Mott map page. It was not read. It may allow filtering of Mott grants by country."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0021",
+     "subject": "Mott Foundation grants listing, page 20",
+     "subject_type": "document",
+     "relation": "lists a grant located in Poland or made to a Polish grantee",
+     "object": "Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Sort by: Newest Relevance",
+     "evidence_translation": "Sort by: Newest Relevance",
+     "evidence_location": "Results header above the first grant entry",
+     "label": "no_link",
+     "label_scope": "All ten grants on this page were checked. Their locations are Brasilia (Brazil), Washington, DC, Flint, MI, San Francisco, CA, Woodstock (South Africa) and Naguru (Uganda). Covers this page only; pages 1–19 and 21–877 were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T2-map",
+   "url": "https://www.mott.org/interactive-map-of-grants/",
+   "host": "mott.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200. HTML page (6,638 characters) linked from the T2 listing page. It holds a description and a link to a Candid-hosted map, but no grant records appear in the text. The text says: 'The Mott Foundation works with the New York-based Candid ... to provide mapping and charting tools'. Page metadata shows modified 2023-05-22.",
+   "page_title": "Interactive Map of Grants | Mott Foundation",
+   "page_date": "2023-05-22 (modified date in page metadata)",
+   "publisher": "Mott Foundation",
+   "capture_answer": "The interactive map page holds no grant records in its text. It says that the charts and maps reflect the location of grantee organisations, not necessarily where grant money was used, and that each grant's geographic focus is in the grants database. The map itself is an external Candid map that was not read.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:53.395Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 6638,
+    "sha256": "9976ee43fb222487294e2d1062d751dbb00b0a6b6bae962ed5d3932a2d32c7a5",
+    "url_read": "https://www.mott.org/interactive-map-of-grants/"
+   },
+   "followup_urls": [
+    {
+     "url": "https://www.mott.org/grants/",
+     "why": "Grants database. The map page says per-grant geographic focus is recorded there."
+    }
+   ],
+   "claims": []
+  },
   {
    "ref": "C1_eu_money-P1",
    "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
@@ -176,7 +843,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0001",
+     "id": "B03-C0022",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 (5 Nov 2025) approved 40 large thematic grants totalling PLN 4,958,807.00 in its Equal Rights Programme (Program Równych Praw), its CERV-funded re-granting scheme",
@@ -201,7 +868,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0002",
+     "id": "B03-C0023",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 approved 40 small thematic grants totalling PLN 2,514,278.00 in the Equal Rights Programme",
@@ -223,7 +890,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0003",
+     "id": "B03-C0024",
      "subject": "Free Courts Foundation / Fundacja Wolne Sądy (free_courts)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0458, project 'Europa zaczyna się w sołectwie - wolności i prawa podstawowe UE w...', PLN 121,293.00 requested, score 31.50; status 'nieprzyznana dotacja' (not granted)",
@@ -247,7 +914,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0004",
+     "id": "B03-C0025",
      "subject": "Helsinki Foundation for Human Rights (hfhr)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0102, project 'Prawo i Karta: Monitoring Procesu Legislacyjnego', PLN 124,976.00 requested, score 32.50; not granted",
@@ -271,7 +938,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0005",
+     "id": "B03-C0026",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0190, project 'Dezinformacja wobec imigracji - działania lokalne', PLN 124,904.00 requested, score 32.00; not granted",
@@ -299,7 +966,7 @@
      ]
     },
     {
-     "id": "B03-C0006",
+     "id": "B03-C0027",
      "subject": "Institute of Public Affairs / Fundacja Instytut Spraw Publicznych (isp)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0098, project 'Społeczne granice akceptacji: wpływ dyskursu publi[cznego]...', PLN 124,874.00 requested, score 29.50; not granted",
@@ -323,7 +990,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0007",
+     "id": "B03-C0028",
      "subject": "Kultura Liberalna Foundation (kultura_liberalna)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0412, project 'Głosy Wykluczonych', PLN 125,000.00 requested, score 31.00; not granted",
@@ -347,7 +1014,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0008",
+     "id": "B03-C0029",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Watchdog Polska (application PRP-KTD/0352, project 'Instytucje do podziału', score 33.00)",
@@ -371,7 +1038,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0009",
+     "id": "B03-C0030",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 124,976.00 from the CERV-funded Equal Rights Programme to Amnesty International Poland (application PRP-KTD/0101, project 'Algorytmy bez uprzedzeń - wzmacnianie ochrony pra[w]...', score 33.50)",
@@ -398,7 +1065,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0010",
+     "id": "B03-C0031",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Fundacja Panoptykon (application PRP-KTD/0276, project 'Razem dla dobrego wdrożenia dyrektywy policyjnej', score 34.00)",
@@ -425,7 +1092,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0011",
+     "id": "B03-C0032",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Stowarzyszenie Nowoczesnej Edukacji Prawnej, Wrocław (application PRP-KTD/0313, project 'Karta Praw Podstawowych lokalnie...', score 33.00)",
@@ -450,7 +1117,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0012",
+     "id": "B03-C0033",
      "subject": "Joanna Pietruszka",
      "subject_type": "person",
      "relation": "chair of the grant committee (Komisja Konkursowa) for the Equal Rights Programme thematic-grants competition; listed among those present at the 5 Nov 2025 board meeting",
@@ -473,7 +1140,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0013",
+     "id": "B03-C0034",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "approved the grant committee's recommendation not to create reserve lists in the Equal Rights Programme thematic round",
@@ -493,7 +1160,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0014",
+     "id": "B03-C0035",
      "subject": "Iustitia, Themis, OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO), KOD, Osiatyński Archive, Fundacja Moje Państwo, Hołda Association, INPRIS",
      "subject_type": "org",
      "relation": "no thematic grant from Batory's CERV-funded Equal Rights Programme in the round approved by Decision 1856",
@@ -552,7 +1219,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0015",
+     "id": "B03-C0036",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds Batory's Equal Rights Program; 2025-2027 budget EUR 6.7m, of which EUR 0.67m comes from Batory's own resources",
@@ -582,7 +1249,7 @@
      ]
     },
     {
-     "id": "B03-C0016",
+     "id": "B03-C0037",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "runs the CERV-funded Equal Rights Program in cooperation with the Federation of Local Funds",
@@ -605,7 +1272,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0017",
+     "id": "B03-C0038",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "re-grants the Equal Rights Program money to Polish civil society organisations as institutional, thematic, experience-exchange and rapid-response grants",
@@ -653,7 +1320,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0018",
+     "id": "B03-C0039",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme, which re-grants to civil society in Czechia, Slovakia, Hungary and Poland",
@@ -676,7 +1343,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0019",
+     "id": "B03-C0040",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Polish implementing partner of the Stronger Roots consortium",
@@ -696,7 +1363,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0020",
+     "id": "B03-C0041",
      "subject": "Open Society Fund Prague",
      "subject_type": "org",
      "relation": "first-named joint implementer of Stronger Roots (with Glopolis, Open Society Foundation Bratislava, NIOK Foundation and Batory)",
@@ -722,7 +1389,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0021",
+     "id": "B03-C0042",
      "subject": "Stronger Roots programme",
      "subject_type": "other",
      "relation": "2025 call: will support 84 organisations and networks with EUR 2.9 million (all four countries)",
@@ -772,7 +1439,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0022",
+     "id": "B03-C0043",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots competition in Poland (results 10 Nov 2025): 25 organisations to receive grants totalling EUR 906,357",
@@ -794,7 +1461,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0023",
+     "id": "B03-C0044",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme whose Polish grants Batory awards (as Batory states)",
@@ -868,7 +1535,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0024",
+     "id": "B03-C0045",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 (5 Nov 2025) approved 17 Stronger Roots Area 1 grants (building organisations' social base) totalling EUR 631,566",
@@ -890,7 +1557,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0025",
+     "id": "B03-C0046",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 approved 8 Stronger Roots Area 2 grants (cross-cutting cooperation of civil society networks) totalling EUR 274,791",
@@ -912,7 +1579,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0026",
+     "id": "B03-C0047",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots Area 2 (network cooperation) grant to the Association for Legal Intervention, application SR-PW/0042, Warsaw; per-grant amount not stated",
@@ -935,7 +1602,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0027",
+     "id": "B03-C0048",
      "subject": "HFHR, Free Courts, Iustitia, Themis, OKO.press, Akcja Demokracja, KOD, Osiatyński Archive, Fundacja Moje Państwo, ISP, Watchdog Polska",
      "subject_type": "org",
      "relation": "no Stronger Roots grant in the Polish 2025 round (Decision 1857)",
@@ -992,7 +1659,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0028",
+     "id": "B03-C0049",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 May 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -1016,7 +1683,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0029",
+     "id": "B03-C0050",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant, to enhance its products and results",
@@ -1040,7 +1707,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0030",
+     "id": "B03-C0051",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "planned use of the EEA-funded organisational grant: refresh the Osiatyński Archive and the English-language Rule of Law in Poland service; the Archive to become a networked think tank publishing quarterly reports",
@@ -1069,7 +1736,7 @@
      ]
     },
     {
-     "id": "B03-C0031",
+     "id": "B03-C0052",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "runs the websites OKO.press, Osiatyński Archive and Rule of Law in Poland",
@@ -1097,7 +1764,7 @@
      ]
     },
     {
-     "id": "B03-C0032",
+     "id": "B03-C0053",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of OKO's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -1129,7 +1796,7 @@
      ]
     },
     {
-     "id": "B03-C0033",
+     "id": "B03-C0054",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "INDIRECT: the 2022-24 grant to OKO (EUR 100,000 + EUR 8,000) was to refresh the Osiatyński Archive, on whose programme council he sits",
@@ -1180,7 +1847,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0034",
+     "id": "B03-C0055",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 Jul 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -1204,7 +1871,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0035",
+     "id": "B03-C0056",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant",
@@ -1228,7 +1895,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0036",
+     "id": "B03-C0057",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of HFHR's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -1288,7 +1955,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0037",
+     "id": "B03-C0058",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme 2021-2028 (4th edition): approx. PLN 300 million, of which EUR 71.24 million from the EEA and Norway Grants plus national contribution; components: court access (digitalisation), prison service modernisation, domestic and gender-based violence",
@@ -1312,7 +1979,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0038",
+     "id": "B03-C0059",
      "subject": "Ministry of Justice (Poland)",
      "subject_type": "public_body",
      "relation": "Programme Operator of the EEA and Norway Grants Justice programme (2021-2028 edition)",
@@ -1334,7 +2001,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0039",
+     "id": "B03-C0060",
      "subject": "Jan Szyszko (Deputy Minister of Development Funds and Regional Policy)",
      "subject_type": "person",
      "relation": "signed the Green Transition and Justice programme agreements for Poland, with Norway's ambassador Øystein Bø",
@@ -1358,7 +2025,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0040",
+     "id": "B03-C0061",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme: 5 calls for proposals planned (Green Transition: 9), calls starting in 2026",
@@ -1380,7 +2047,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0041",
+     "id": "B03-C0062",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "4th edition (2021-2028) for Poland: almost PLN 4 billion / almost EUR 925 million across eight programmes",
@@ -1402,7 +2069,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0042",
+     "id": "B03-C0063",
      "subject": "EEA and Norway Grants (Justice programme 2021-2028)",
      "subject_type": "org",
      "relation": "INDIRECT: the Ministry of Justice he heads is Programme Operator of the EUR 71.24m Justice programme signed in April 2026",
@@ -1454,7 +2121,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0043",
+     "id": "B03-C0064",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "Donor Programme Partner for programme area Access to Justice (PA11) in Poland's EEA and Norway Grants Justice Programme, under the Programme Agreement",
@@ -1477,7 +2144,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0044",
+     "id": "B03-C0065",
      "subject": "EEA and Norway Grants (donor states incl. Norway)",
      "subject_type": "org",
      "relation": "Memorandum of Understanding for the new funding period (Norway Grants 4.0) signed in Warsaw on 23 Apr 2025",
@@ -1497,7 +2164,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0045",
+     "id": "B03-C0066",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Programme Agreement for the Justice Programme signed on 20 Apr 2026; Programme Operator: Ministry of Justice (Poland)",
@@ -1519,7 +2186,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0046",
+     "id": "B03-C0067",
      "subject": "Council of Europe",
      "subject_type": "org",
      "relation": "International Partner Organisation of Poland's EEA and Norway Grants Justice Programme",
@@ -1544,7 +2211,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0047",
+     "id": "B03-C0068",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "donor project partner in the MoJ predefined project 'Courts closer to people' (courts' relations with society, role of lay judges); also in 'Competent Staff – Efficient Justice System' and free legal aid and mediation",
@@ -1564,7 +2231,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0048",
+     "id": "B03-C0069",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "no cooperation with Polish judges' associations or individual judges named; the only Polish partner named is the Ministry of Justice",
@@ -1605,7 +2272,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0049",
+     "id": "B03-C0070",
      "subject": "Jette F. Christensen (Norwegian MP, Labour Party)",
      "subject_type": "person",
      "relation": "nominated the Polish judges' association Iustitia for the Nobel Peace Prize",
@@ -1628,7 +2295,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0050",
+     "id": "B03-C0071",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Labour Party (Partia Pracy; Norwegian Arbeiderpartiet)",
@@ -1649,7 +2316,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0051",
+     "id": "B03-C0072",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Norwegian parliament (Storting) since 2010",
@@ -1670,7 +2337,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0052",
+     "id": "B03-C0073",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "sits on the Storting's Foreign Affairs and Defence Committee",
@@ -1688,7 +2355,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0053",
+     "id": "B03-C0074",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "delegate to the Parliamentary Assembly of the Council of Europe",
@@ -1708,7 +2375,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0054",
+     "id": "B03-C0075",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "nominated it for the Nobel Peace Prize together with Iustitia",
@@ -1729,7 +2396,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0055",
+     "id": "B03-C0076",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "stated reason for nominating Iustitia: to give an impulse for further work for democracy in Europe",
@@ -1749,7 +2416,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0056",
+     "id": "B03-C0077",
      "subject": "Rafto Foundation (Bergen)",
      "subject_type": "org",
      "relation": "awarded the Rafto Prize (2018) to Ombudsman Adam Bodnar",
@@ -1774,7 +2441,7 @@
      ]
     },
     {
-     "id": "B03-C0057",
+     "id": "B03-C0078",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "2014-2021 period: total EUR 2.8 billion, of which about EUR 800 million for Poland; a large part goes to civil-society organisations",
@@ -1796,6 +2463,676 @@
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
+  },
+  {
+   "ref": "C3_us_money-P1",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "host": "judicialwatch.org",
+   "theme": "C3_us_money",
+   "fetch_status": "ok",
+   "fetch_note": "Complaint, Judicial Watch, Inc. v. U.S. Department of State, U.S. District Court for the District of Columbia, No. 1:26-cv-00346. Dated 4 Feb 2026; the court stamp shows 5 Feb 2026. Counsel: James F. Peterson. It has one FOIA count. The FOIA request of 12 Nov 2025 (ref. F-2026-02738) covers 1 Jan 2016 to the present. Items A-D seek State Department contracts and grant agreements with Free Courts ('Wolne Sady'), Civil Liberties Union for Europe, DemoCrisis and Ökotárs Alapítvány (Hungary). Item E seeks all State emails and cables mentioning these four groups. The complaint says no determination was made and no records were produced. It names no grant or amount and does not mention NED, OSF, Batory, HFHR, Iustitia or OKO.press. It references no exhibits.",
+   "page_title": "JW v. State Dept Europe complaint 00346",
+   "page_date": "2026-02-04",
+   "publisher": "Judicial Watch (court filing, U.S. District Court for the District of Columbia)",
+   "capture_answer": "Judicial Watch's Free Courts FOIA: request F-2026-02738 (12 Nov 2025) for all State Department contracts and grants with Free Courts and DemoCrisis since 2016. State made no determination, and Judicial Watch filed suit 1:26-cv-00346 in Feb 2026. No records and no grant are shown.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Free Courts (Wolne Sady)",
+    "Civil Liberties Union for Europe",
+    "DemoCrisis",
+    "Ökotárs Alapítvány (Hungarian Environmental Partnership Foundation, HEPF)",
+    "James F. Peterson (counsel for Judicial Watch)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "claims": [
+    {
+     "id": "B03-C0079",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "FOIA request (12 Nov 2025, State Dept ref. F-2026-02738) for all State Department contracts, grant agreements or similar records with Free Courts (Wolne Sądy), 1 Jan 2016 to present",
+     "object": "free_courts",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "2025-11-12",
+     "evidence_text": "All contracts, grant agreements, or similar records between the Department of State and the organization Free Courts.",
+     "evidence_translation": "All contracts, grant agreements, or similar records between the Department of State and the organization Free Courts.",
+     "evidence_location": "Complaint ¶ 5(A). The next sentence gives the Polish name as \"Wolne Sady\"; ¶ 5 sets the period 1 Jan 2016 to present; ¶ 6 gives ref. F-2026-02738",
+     "label": "fact",
+     "label_scope": "That Judicial Watch made this request, as its complaint states. The filing shows no State Department grant to Free Courts and does not say one exists.",
+     "new_entities": [
+      "Judicial Watch"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0080",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "same FOIA request, item C: all State Department contracts, grant agreements or similar records with DemoCrisis (1 Jan 2016 to present)",
+     "object": "democrisis",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "2025-11-12",
+     "evidence_text": "C. All contracts, grant agreements, or similar records between the Department of State and the organization DemoCrisis.",
+     "evidence_translation": "C. All contracts, grant agreements, or similar records between the Department of State and the organization DemoCrisis.",
+     "evidence_location": "Complaint ¶ 5(C)",
+     "label": "fact",
+     "label_scope": "That the request named DemoCrisis. No State Department grant to DemoCrisis is shown or asserted.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "democrisis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0081",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "same FOIA request, item B: State Department contracts and grant agreements with Civil Liberties Union for Europe",
+     "object": "Civil Liberties Union for Europe (Liberties)",
+     "object_type": "org",
+     "kind": "legal_action",
+     "date": "2025-11-12",
+     "evidence_text": "similar records between the Department of State and the organization Civil Liberties Union for Europe.",
+     "evidence_translation": "similar records between the Department of State and the organization Civil Liberties Union for Europe.",
+     "evidence_location": "Complaint ¶ 5(B) (item text runs over two lines)",
+     "label": "fact",
+     "label_scope": "That the request named this group. No grant is shown.",
+     "new_entities": [
+      "Civil Liberties Union for Europe (Liberties)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "not_found_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0082",
+     "subject": "Judicial Watch",
+     "subject_type": "org",
+     "relation": "filed FOIA suit Judicial Watch, Inc. v. U.S. Department of State, D.D.C. No. 1:26-cv-00346 (dated 4 Feb 2026), seeking the Free Courts, DemoCrisis, Liberties and Ökotárs records and all State emails and cables mentioning them",
+     "object": "us_state_dept",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "2026-02-04",
+     "evidence_text": "order Defendant to produce, by a date certain, any and all nonexempt records responsive to Plaintiff's FOIA request",
+     "evidence_translation": "order Defendant to produce, by a date certain, any and all nonexempt records responsive to Plaintiff's FOIA request",
+     "evidence_location": "Prayer for relief (WHEREFORE clause); signature block 'Dated: February 4, 2026', /s/ James F. Peterson",
+     "label": "fact",
+     "label_scope": "That the suit was filed with this request for relief. The outcome is not covered.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "us_state_dept",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0083",
+     "subject": "us_state_dept",
+     "subject_type": "public_body",
+     "relation": "as of the complaint, had made no determination on the Free Courts request and produced no records (per Judicial Watch)",
+     "object": "free_courts",
+     "object_type": "org",
+     "kind": "other",
+     "date": "2026-02-04",
+     "evidence_text": "As of the date of this Complaint, the State Department has failed to: (i) determine whether to comply with the request;",
+     "evidence_translation": "As of the date of this Complaint, the State Department has failed to: (i) determine whether to comply with the request;",
+     "evidence_location": "Complaint ¶ 8 (¶ 7: no further communication from the agency)",
+     "label": "alleged",
+     "label_scope": "Judicial Watch's statement in its complaint about how the agency handled the request. It says nothing either way on whether State funded Free Courts.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "us_state_dept",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C3_us_money-P2",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "host": "archiwum.hfhr.pl",
+   "theme": "C3_us_money",
+   "fetch_status": "ok",
+   "fetch_note": "HFHR annual report for 2020. It has no donor list and no revenue-by-donor table. Funders are named only for single activities: Media Legal Defense Initiative (media freedom, p. 15), an EU programme (LGBTI equal treatment, p. 20), the Polish MFA (aid to human rights defenders, p. 21) and the EU (SIENNA project, p. 26). No US funder (NED, PAFW, US Embassy, State Dept, USAID, GMF, MacArthur, OSF, Fulbright) is named. US-based groups appear only as partners: the American Bar Association (p. 29) and Freedom House (p. 21). No board or council names are printed.",
+   "page_title": "raport2020 (Helsińska Fundacja Praw Człowieka, report for 2020)",
+   "page_date": "2021-10 (upload); covers 2020",
+   "publisher": "Helsińska Fundacja Praw Człowieka (HFHR)",
+   "capture_answer": "The 2020 report names no US funder. The ABA was HFHR's partner in monitoring disciplinary proceedings against judges, and Freedom House is in an informal network with HFHR.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "American Bar Association",
+    "Freedom House",
+    "Norweski Komitet Helsiński",
+    "Frontline Defenders",
+    "Media Legal Defense Initiative",
+    "Ministerstwo Spraw Zagranicznych",
+    "Komitety Helsińskie na Węgrzech i w Rumunii",
+    "Clifford Chance",
+    "OKO.press",
+    "Demagog",
+    "AFP Check",
+    "Konkret24",
+    "Amnesty International Polska",
+    "Kampania Przeciw Homofobii",
+    "UNICEF",
+    "Wydział Prawa, Administracji i Ekonomii Uniwersytetu Wrocławskiego"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "claims": [
+    {
+     "id": "B03-C0084",
+     "subject": "aba",
+     "subject_type": "org",
+     "relation": "project partner: HFHR's project monitoring disciplinary proceedings against judges was carried out with the ABA (2020)",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "other",
+     "date": "2020",
+     "evidence_text": "realizowany przez HFPC we współpracy z American Bar Association",
+     "evidence_translation": "carried out by HFHR in cooperation with the American Bar Association",
+     "evidence_location": "p. 29, section III.3 'HFPC jako aktywny partner innych organizacji…' (part III: actions against the dismantling of the rule of law in the region)",
+     "label": "fact",
+     "label_scope": "That the project was run with the ABA. The report does not say who funded it or whether the ABA paid HFHR.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "aba",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0085",
+     "subject": "hfhr",
+     "subject_type": "org",
+     "relation": "monitored disciplinary proceedings against Polish judges (project run with the ABA, 2020)",
+     "object": "Disciplinary proceedings against Polish judges",
+     "object_type": "other",
+     "kind": "other",
+     "date": "2020",
+     "evidence_text": "Projekt ten polega na monitorowaniu postępowań dyscyplinarnych wobec sędziów.",
+     "evidence_translation": "This project consists of monitoring disciplinary proceedings against judges.",
+     "evidence_location": "p. 29, section III.3",
+     "label": "fact",
+     "label_scope": "HFHR's description of its own project.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0086",
+     "subject": "freedom_house",
+     "subject_type": "org",
+     "relation": "fellow participant, with the Norwegian Helsinki Committee and Front Line Defenders, in an informal rapid-response network for human rights defenders",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2020",
+     "evidence_text": "Norweski Komitet Helsiński, Frontline Defenders czy Freedom House.",
+     "evidence_translation": "the Norwegian Helsinki Committee, Frontline Defenders or Freedom House.",
+     "evidence_location": "p. 21, section 7",
+     "label": "fact",
+     "label_scope": "Cooperation in an informal network, as HFHR describes it. No money flow is stated.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "freedom_house",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0087",
+     "subject": "Polish Ministry of Foreign Affairs (MSZ)",
+     "subject_type": "public_body",
+     "relation": "supports HFHR's urgent aid (incl. relocation) for human rights defenders; form and amount not stated",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "other",
+     "date": "2020",
+     "evidence_text": "wspiera polskie Ministerstwo Spraw Zagranicznych",
+     "evidence_translation": "is supported by the Polish Ministry of Foreign Affairs",
+     "evidence_location": "p. 21",
+     "label": "fact",
+     "label_scope": "Polish public support in 2020, stated without amount or form. Not US money.",
+     "new_entities": [
+      "Polish Ministry of Foreign Affairs (MSZ)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "nl_gov",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0088",
+     "subject": "ned",
+     "subject_type": "org",
+     "relation": "named as a funder in HFHR's 2020 annual report: not found (funders named only for single projects: Media Legal Defense Initiative, EU programmes, Polish MFA)",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "date": "2020",
+     "evidence_text": "finansowany przez Media Legal Defense Initiative",
+     "evidence_translation": "financed by the Media Legal Defense Initiative",
+     "evidence_location": "p. 15 (media freedom project)",
+     "label": "no_link",
+     "label_scope": "Covers this 2020 report only. The report has no donor list and names no US funder (NED, PAFW, US Embassy, State Department, USAID, GMF). It neither confirms nor rules out US funding in 2020.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "FY2022 NED-funded revenue lines totalling about PLN 4.41 million, incl. PLN 2,278,917.20 'Strengthening and Protecting Civil Society in Eura",
+      "PLN 11.5 million via NED in 2021-2023 (of PLN 13.35m grants), per advocacy group Grupa Proelio citing HFHR reports",
+      "FY2022 NED-funded revenue lines totalling about PLN 4.41 million, incl. PLN 2,278,917.20 'Strengthening and Protecting Civil Society in Eura",
+      "PLN 11.5 million via NED in 2021-2023 (of PLN 13.35m grants), per advocacy group Grupa Proelio citing HFHR reports"
+     ]
+    },
+    {
+     "id": "B03-C0089",
+     "subject": "us_state_dept",
+     "subject_type": "public_body",
+     "relation": "US Embassy Warsaw or State Department (incl. DRL) named as a funder in HFHR's 2020 annual report: not found",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "date": "2020",
+     "evidence_text": "finansowany przez Media Legal Defense Initiative",
+     "evidence_translation": "financed by the Media Legal Defense Initiative",
+     "evidence_location": "p. 15 (media freedom project); no donor list anywhere in the report",
+     "label": "no_link",
+     "label_scope": "Covers this 2020 report only. It neither confirms nor rules out embassy or DRL money in 2020.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "us_state_dept",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C3_us_money-P3",
+   "url": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf",
+   "host": "pafw.pl",
+   "theme": "C3_us_money",
+   "fetch_status": "ok",
+   "fetch_note": "PAFW annual report for 2020. It states the endowment's origin as capital from the Polish-American Enterprise Fund. Programme boxes give PAFW grant totals in USD, for example: SUS 13,858,857, incl. 833,847 in 2020; Wspieramy Organizacje Pozarządowe 14,637,000, incl. 685,225; Działaj Lokalnie 17,582,792, incl. 695,203; Fundusz Pomocowy 2020 844,807, while the text says 'milion dolarów'. Of the network groups, only Centrum Edukacji Obywatelskiej appears, as SUS operator. Not named: Batory, HFHR, Watchdog Polska, ISP, Free Courts, Iustitia, the Osiatyński Archive, OKO.press, Akcja Demokracja, KOD, Kultura Liberalna, Fundacja Aktywna Demokracja. The full board list is not in the extracted text. Andrew Nagorski (chair of the Board of Directors) and Jerzy Koźmiński (president) appear. Katarzyna Kieli and John Kasnicki joined the board; Dawid Niemiec left it in March 2020.",
+   "page_title": "RAPORT ROCZNY 2020",
+   "page_date": "2021-11 (upload); covers 2020",
+   "publisher": "Polsko-Amerykańska Fundacja Wolności (PAFW)",
+   "capture_answer": "PAFW in 2020: no grant to Batory, HFHR or other TK-network groups. CEO is the only network-adjacent grantee, as SUS operator.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Andrew Nagorski (Przewodniczący Rady Dyrektorów)",
+    "Jerzy Koźmiński (Prezes Fundacji)",
+    "Katarzyna Kieli (joined Board of Directors)",
+    "John Kasnicki (joined Board of Directors)",
+    "Dawid Niemiec (left Board of Directors, March 2020)",
+    "Centrum Edukacji Obywatelskiej (operator, SUS)",
+    "Stowarzyszenie Klon/Jawor (operator, NGO support)",
+    "Fundacja Rozwoju Społeczeństwa Obywatelskiego FIMANGO (operator, NGO support)",
+    "Fundacja Akademia Organizacji Obywatelskich PROMENGO (operator, NGO support)",
+    "Fundacja Edukacja dla Demokracji (operator, Fundusz Pomocowy 2020)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "claims": [
+    {
+     "id": "B03-C0090",
+     "subject": "Polish-American Enterprise Fund (PAFP)",
+     "subject_type": "org",
+     "relation": "PAFW's endowment was created from capital transferred to it by the Polish-American Enterprise Fund",
+     "object": "Polish-American Freedom Foundation (PAFW)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "funduszu wieczystego, który powstał z kapitału przekazanego Fundacji przez Polsko-Amerykański Fundusz Przedsiębiorczości",
+     "evidence_translation": "the endowment fund, which was created from capital transferred to the Foundation by the Polish-American Enterprise Fund",
+     "evidence_location": "p. 5",
+     "label": "fact",
+     "label_scope": "PAFW's own statement of where its endowment came from. This excerpt does not name the US government; see P4 for the SEED Act link.",
+     "new_entities": [
+      "Polish-American Freedom Foundation (PAFW)",
+      "Polish-American Enterprise Fund (PAFP)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0091",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "PAFW grants for the 'Szkoła Ucząca Się' (Learning School) programme, which CEO operates: USD 13,858,857 in total, incl. USD 833,847 in 2020",
+     "object": "ceo_poland",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "13,858,857 (total); 833,847 (2020)",
+     "currency": "USD",
+     "date": "2020",
+     "evidence_text": "DOTACJE PAFW WYNIOSŁY 13.858.857 USD w tym 833.847 USD w 2020 roku.",
+     "evidence_translation": "PAFW GRANTS AMOUNTED TO 13,858,857 USD, including 833,847 USD in 2020.",
+     "evidence_location": "SUS programme page (pp. 12-13), figures box (box lines joined); operator line '› Centrum Edukacji Obywatelskiej'",
+     "label": "fact",
+     "label_scope": "Programme grants for school-education work run by CEO. Nothing on courts or the TK.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "not_found_in_reader_extract",
+     "object_map_id": "ceo_poland",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0092",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "grant or programme role for Batory: none in PAFW's 2020 annual report (NGO support, USD 14,637,000 in total and USD 685,225 in 2020, ran through Klon/Jawor, FIMANGO and PROMENGO)",
+     "object": "batory",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "date": "2020",
+     "evidence_text": "Celem programu jest udzielanie wsparcia organizacjom pozarządowym i liderom społecznym w Polsce",
+     "evidence_translation": "The aim of the programme is to provide support to non-governmental organisations and social leaders in Poland",
+     "evidence_location": "p. 21, 'Wspieramy Organizacje Pozarządowe'",
+     "label": "no_link",
+     "label_scope": "Covers the 2020 annual report only. Batory is not named, nor are HFHR, Watchdog Polska, ISP, Free Courts, Iustitia, the Osiatyński Archive, OKO.press, Akcja Demokracja, KOD, Kultura Liberalna or Fundacja Aktywna Demokracja. Other years were not checked here.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0093",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "grant or programme role for HFHR: none in PAFW's 2020 annual report",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "date": "2020",
+     "evidence_text": "Celem programu jest udzielanie wsparcia organizacjom pozarządowym i liderom społecznym w Polsce",
+     "evidence_translation": "The aim of the programme is to provide support to non-governmental organisations and social leaders in Poland",
+     "evidence_location": "p. 21, 'Wspieramy Organizacje Pozarządowe' (operators listed: Klon/Jawor, FIMANGO, PROMENGO)",
+     "label": "no_link",
+     "label_scope": "Covers the 2020 annual report only. HFHR is not named. Other years were not checked here.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C3_us_money-P4",
+   "url": "https://pafw.pl/wp-content/uploads/2020/05/20_LAT_PAFW.pdf",
+   "host": "pafw.pl",
+   "theme": "C3_us_money",
+   "fetch_status": "partial",
+   "fetch_note": "PAFW 20-year publication (2000-2020). The extracted text (80,574 characters stated) stops mid-word at 'najbardziej wartościow' in the Pro Publico Bono section, so the final pages were not available. The text covers: SEED Act origin (US Congress, 1989); PAFP initial capital of USD 240m; USD 120m returned; USD 255m including surplus to the PAFW endowment; the founding board (2000). It also gives programme operators with PAFW grant totals in USD: CEO for SUS, 12,975,166; Akademia Rozwoju Filantropii for Działaj Lokalnie, 16,887,589; Klon/Jawor, FRSO and Akademia Organizacji Obywatelskich for NGO support; SPLOT for NGO support 2003-2006. The Gates Foundation co-funded the library programme (about USD 31m). The 'Obywatel i Prawo' civic/legal-advice programme was launched in 2000; no operator is named. Batory, HFHR, Watchdog Polska, ISP and anti-corruption programmes do not appear in the extracted text.",
+   "page_title": "WA R S Z AWA 2020",
+   "page_date": "2020-05",
+   "publisher": "Polsko-Amerykańska Fundacja Wolności (PAFW)",
+   "capture_answer": "The publication confirms the US public origin of PAFW's money (SEED Act; PAFP capital). The extracted text shows no PAFW grant to Batory or HFHR.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Marek Belka (founding Board of Directors)",
+    "Joseph C. Bell (founding Board of Directors)",
+    "John P. Birkelund (founding Board chair, to 2012)",
+    "Michał Boni (founding Board of Directors)",
+    "Zbigniew Brzeziński (founding Board of Directors)",
+    "John D'Arms (founding Board of Directors)",
+    "Robert G. Faris (founding Board of Directors; Prezes of PAFP)",
+    "Aleksander Koj (founding Board of Directors)",
+    "Krzysztof Pawłowski (founding Board of Directors)",
+    "Nicholas A. Rey (founding Board of Directors)",
+    "Andrew Nagorski (Board chair after 2012)",
+    "Jerzy Koźmiński (Prezes of PAFW)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "claims": [
+    {
+     "id": "B03-C0094",
+     "subject": "us_congress",
+     "subject_type": "public_body",
+     "relation": "passed the 1989 SEED Act ('Support for East European Democracy'), under which the Polish-American Enterprise Fund was set up",
+     "object": "Polish-American Enterprise Fund (PAFP)",
+     "object_type": "org",
+     "kind": "other",
+     "date": "1989",
+     "evidence_text": "Kongres USA uchwala ustawę „O popieraniu demokracji w Europie Wschodniej” (SEED ACT)",
+     "evidence_translation": "The US Congress passes the act 'On supporting democracy in Eastern Europe' (SEED ACT)",
+     "evidence_location": "calendar spread, 1989 entry (pp. 12-13)",
+     "label": "fact",
+     "label_scope": "PAFW's own account of its origin.",
+     "new_entities": [
+      "Polish-American Enterprise Fund (PAFP)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "us_congress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0095",
+     "subject": "us_congress",
+     "subject_type": "public_body",
+     "relation": "PAFP's initial capital: USD 240 million (fund set up under the SEED Act)",
+     "object": "Polish-American Enterprise Fund (PAFP)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "240,000,000",
+     "currency": "USD",
+     "evidence_text": "Początkowy kapitał PAFP w wysokości 240 milionów USD,",
+     "evidence_translation": "PAFP's initial capital of 240 million USD,",
+     "evidence_location": "calendar spread (pp. 12-13)",
+     "label": "fact",
+     "label_scope": "The page gives the amount and the SEED Act origin. The appropriation itself is not itemised.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "us_congress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0096",
+     "subject": "Polish-American Enterprise Fund (PAFP)",
+     "subject_type": "org",
+     "relation": "returned half of its founding capital, USD 120 million, to the US budget (2001)",
+     "object": "US federal budget",
+     "object_type": "public_body",
+     "kind": "other",
+     "amount": "120,000,000",
+     "currency": "USD",
+     "date": "2001",
+     "evidence_text": "Kwota stanowiąca połowę kapitału założycielskiego Funduszu – 120 milionów",
+     "evidence_translation": "The amount constituting half of the Fund's founding capital – 120 million",
+     "evidence_location": "calendar spread, 2001 entry (pp. 12-13). The rest of the sentence, beyond this excerpt, names the US budget as the destination",
+     "label": "fact",
+     "label_scope": "PAFW's account. The excerpt shows the amount; the destination is in the rest of the same sentence.",
+     "new_entities": [
+      "US federal budget"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0097",
+     "subject": "Polish-American Enterprise Fund (PAFP)",
+     "subject_type": "org",
+     "relation": "transferred the rest of its capital with the surplus earned, USD 255 million in total, to PAFW's endowment",
+     "object": "Polish-American Freedom Foundation (PAFW)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "255,000,000",
+     "currency": "USD",
+     "evidence_text": "wraz z wypracowaną nadwyżką – łącznie 255 milionów dolarów",
+     "evidence_translation": "together with the surplus generated – a total of 255 million dollars",
+     "evidence_location": "calendar spread and President's letter (pp. 8-9, 12-13)",
+     "label": "fact",
+     "label_scope": "PAFW's account of its endowment. The excerpt gives the amount; the surrounding text names the endowment.",
+     "new_entities": [
+      "Polish-American Freedom Foundation (PAFW)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0098",
+     "subject": "Michał Boni",
+     "subject_type": "person",
+     "relation": "member of PAFW's founding Board of Directors (2000)",
+     "object": "Polish-American Freedom Foundation (PAFW)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2000",
+     "evidence_text": "Michał Boni, Zbigniew Brzeziński, John D’Arms, Robert G. Faris, Aleksander Koj, Krzysztof Pawłowski i Nicholas A. Rey.",
+     "evidence_translation": "Michał Boni, Zbigniew Brzeziński, John D'Arms, Robert G. Faris, Aleksander Koj, Krzysztof Pawłowski and Nicholas A. Rey.",
+     "evidence_location": "calendar spread, 2000 entry (pp. 12-13), second half of the founding Board list",
+     "label": "fact",
+     "label_scope": "Board seat at PAFW's founding in 2000, as printed. The page gives no party role and no later term dates.",
+     "new_entities": [
+      "Michał Boni"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0099",
+     "subject": "Marek Belka",
+     "subject_type": "person",
+     "relation": "member of PAFW's founding Board of Directors (2000)",
+     "object": "Polish-American Freedom Foundation (PAFW)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2000",
+     "evidence_text": "W skład Założycielskiej Rady Dyrektorów wchodzą: Marek Belka, Joseph C. Bell, John P. Birkelund (Przewodniczący),",
+     "evidence_translation": "The founding Board of Directors comprises: Marek Belka, Joseph C. Bell, John P. Birkelund (Chairman),",
+     "evidence_location": "calendar spread, 2000 entry (pp. 12-13), first half of the founding Board list",
+     "label": "fact",
+     "label_scope": "Board seat at PAFW's founding in 2000, as printed. The page gives no party role and no later term dates.",
+     "new_entities": [
+      "Marek Belka"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0100",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "launched in 2000 the 'Obywatel i Prawo' programme to develop community civic and legal advice; no operator named on this page",
+     "object": "'Obywatel i Prawo' (PAFW programme, 2000)",
+     "object_type": "other",
+     "kind": "other",
+     "date": "2000",
+     "evidence_text": "Uruchomienie programu „Obywatel i Prawo” mającego na celu rozwój społecznych form poradnictwa",
+     "evidence_translation": "Launch of the programme 'Citizen and Law', aimed at developing community forms of advice",
+     "evidence_location": "calendar spread, 2000 entry (pp. 12-13); the entry continues 'obywatelskiego i prawnego.'",
+     "label": "fact",
+     "label_scope": "That PAFW launched the programme. The operator and amounts are not given here.",
+     "new_entities": [
+      "'Obywatel i Prawo' (PAFW programme, 2000)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0101",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "Batory as operator or grantee of any PAFW programme: not named in the publication's extracted text (the 'Obywatel i Prawo' entry names no operator)",
+     "object": "batory",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Uruchomienie programu „Obywatel i Prawo” mającego na celu rozwój społecznych form poradnictwa",
+     "evidence_translation": "Launch of the programme 'Citizen and Law', aimed at developing community forms of advice",
+     "evidence_location": "whole extracted text; it ends mid-word in the Pro Publico Bono section",
+     "label": "no_link",
+     "label_scope": "Covers only the extracted text of this 20-year publication, which ends before the final pages. PAFW's early annual reports (2000-2005), which may name the 'Obywatel i Prawo' operator, were not checked.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0102",
+     "subject": "Polish-American Freedom Foundation (PAFW)",
+     "subject_type": "org",
+     "relation": "HFHR as operator or grantee of any PAFW programme: not named in the publication's extracted text",
+     "object": "hfhr",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Uruchomienie programu „Obywatel i Prawo” mającego na celu rozwój społecznych form poradnictwa",
+     "evidence_translation": "Launch of the programme 'Citizen and Law', aimed at developing community forms of advice",
+     "evidence_location": "whole extracted text; the only law-related programme entry is this 2000 one",
+     "label": "no_link",
+     "label_scope": "Covers only the extracted text of this publication, which ends before the final pages. Early annual reports were not checked.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C3_us_money-P5",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2022/11/sprawozdanie_merytoryczne.pdf",
+   "host": "archiwum.hfhr.pl",
+   "theme": "C3_us_money",
+   "fetch_status": "partial",
+   "fetch_note": "HFHR statutory activity report for 2021 (cover 'za rok 2021'; posted 2022-10-17). The PDF's text layer uses a broken font encoding, so no verbatim Polish excerpt could be taken and no claim is recorded. Decoded content (approximate): revenue is given only by category, with no donor named. Total is about PLN 9,613,272.82; private sources about PLN 7,699,031.66; 1% tax about PLN 1,808,438.67; financial revenue about PLN 114,836.62; other about PLN 105,802.49. No US funder appears (NED, US Embassy, State Dept/DRL, USAID, PAFW, GMF, MacArthur, ABA, Freedom House, Dexis). The only named public funder is the Polish MFA, for Uzbekistan-related work (p. 4). The board names below were decoded from the garbled text (section 7, p. 2). The signatory could not be read.",
+   "page_title": "sprawozdanie merytoryczne",
+   "page_date": "2022-10-17 (posted); covers 2021",
+   "publisher": "Helsińska Fundacja Praw Człowieka (HFHR)",
+   "capture_answer": "No donor is named and revenue is aggregated by category, so no US funder is visible in the 2021 statutory report.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Maciej Nowicki (Prezes)",
+    "Piotr Kładoczny (Wiceprezes)",
+    "Lenur Kerymov (Skarbnik)",
+    "Małgorzata Szulęka (Sekretarz)",
+    "Aleksandra Iwanowska (członkini)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "claims": []
   },
   {
    "ref": "C4_private_foundations-P1",
@@ -1828,7 +3165,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0058",
+     "id": "B03-C0103",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "current grant to HFHR of GBP 1,050,000, starting March 2024, under the trust's 'Human Rights and Rule of Law' programme",
@@ -1853,7 +3190,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0059",
+     "id": "B03-C0104",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "earlier grants to HFHR totalling GBP 2,245,000 (before the current grant; no breakdown)",
@@ -1878,7 +3215,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0060",
+     "id": "B03-C0105",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "additional gift of GBP 75,000 to HFHR in 2025",
@@ -1903,7 +3240,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0061",
+     "id": "B03-C0106",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "HFHR has been a Sigrid Rausing Trust grantee since 2011",
@@ -1943,7 +3280,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0062",
+     "id": "B03-C0107",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 100,000 (2006; term 1 year 3 months; Human Rights programme) for the 'International Advanced Course on Human Rights Protection'",
@@ -1967,7 +3304,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0063",
+     "id": "B03-C0108",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 750,000 (2001; term 3 years 6 months; Human Rights programme) for a training programme for a network of human rights activists in Russia",
@@ -1991,7 +3328,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0064",
+     "id": "B03-C0109",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "no MacArthur grant to HFHR after 2006: the grantee page lists 2 grants, USD 850,000 in total, years 2001-2006",
@@ -2039,7 +3376,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0065",
+     "id": "B03-C0110",
      "subject": "osf",
      "subject_type": "org",
      "relation": "award of USD 150,000 (2023-2024, 16 months) 'to decrease the risk of anti-climate backlash by building support for Just Transition in key demographics (working class & smaller cities)'; grantee not shown",
@@ -2080,7 +3417,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0066",
+     "id": "B03-C0111",
      "subject": "osf",
      "subject_type": "org",
      "relation": "no grant to Akcja Demokracja shown: this Open Society Action Fund award (pro-democracy research and strategic communications, USD 270,000, 2023-2024, 17 months) came up in a search for OSF grants to Akcja Demokracja, but it is listed for Spain",
@@ -2128,7 +3465,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0067",
+     "id": "B03-C0112",
      "subject": "emif",
      "subject_type": "org",
      "relation": "grant of EUR 50,032.85 to the Foundation Centre for Civic Monitoring OKO (OKO.press), 1st Funding Round – Scale-up Projects, years 2022-2023",
@@ -2153,7 +3490,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0068",
+     "id": "B03-C0113",
      "subject": "emif",
      "subject_type": "org",
      "relation": "funded project 'Scale-up of fact-checking activity of OKO.Press online portal' (priority area 'Boosting Fact-checking Activities in Europe'; fact-checking taught through gamification tools)",
@@ -3321,6 +4658,276 @@
      "title": "viktigheten av grunnleggende verdier i eos samarbeidet",
      "url": "https://www.stortinget.no/no/Hva-skjer-pa-Stortinget/Nyhetsarkiv/Hva-skjer-nyheter/2021-2022/viktigheten-av-grunnleggende-verdier-i-eos-samarbeidet/",
      "why": "Storting news on fundamental values in EEA cooperation"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"Polsko-Amerykańska Fundacja Wolności\" \"Fundacja im. Stefana Batorego\" dotacja sprawozdanie program",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2005.pdf",
+     "why": "Batory 2005 annual report, not yet read; matched the PAFW query; may list PAFW-funded programmes"
+    },
+    {
+     "rank": 10,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2010.pdf",
+     "why": "Batory 2010 annual report, not yet read; may carry PAFW donor lines"
+    },
+    {
+     "rank": 14,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2013.pdf",
+     "why": "Batory 2013 annual report, not yet read"
+    },
+    {
+     "rank": 15,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2009.pdf",
+     "why": "Batory 2009 annual report, not yet read"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"Polish-American Freedom Foundation\" grant \"Helsinki Foundation for Human Rights\"",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "grey slant background",
+     "url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
+     "why": "MacArthur Foundation (US funder on the map) grantee page for HFHR"
+    },
+    {
+     "rank": 12,
+     "title": "Polish Helsinki Foundation for Human Rights",
+     "url": "https://www.liberties.eu/hu/organisation/polish-helsinki-foundation-for-human-rights",
+     "why": "Liberties (named in Judicial Watch's FOIA request) page on HFHR"
+    },
+    {
+     "rank": 14,
+     "title": "Endowment / Foundation",
+     "url": "https://altss.com/profile/polish-american-freedom-foundation",
+     "why": "PAFW profile (secondary)"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "U.S. Embassy Warsaw public diplomacy small grants awardees Poland rule of law NGO grant",
+   "useful_results": [
+    {
+     "rank": 9,
+     "title": "31809,onet grant from the us embassy in poland to the open dialogue foundation",
+     "url": "https://en.odfoundation.eu/a/31809,onet-grant-from-the-us-embassy-in-poland-to-the-open-dialogue-foundation/",
+     "why": "US Embassy grant to the Open Dialogue Foundation (press repost)"
+    },
+    {
+     "rank": 14,
+     "title": "Deadline: 27-Jun-22",
+     "url": "https://www2.fundsforngos.org/latest-funds-for-ngos/grants-to-support-in-person-programs-that-promote-rule-of-law-in-poland/amp/",
+     "why": "2022 US Embassy call for rule-of-law programmes in Poland"
+    },
+    {
+     "rank": 15,
+     "title": "31783,odf receives a grant from the american embassy dziennik pl usa supports the biggest enemy of the law and justice party",
+     "url": "https://en.odfoundation.eu/a/31783,odf-receives-a-grant-from-the-american-embassy-dziennik-pl-usa-supports-the-biggest-enemy-of-the-law-and-justice-party/",
+     "why": "Same ODF grant, Dziennik.pl framing"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "pafw.pl raport roczny Polsko-Amerykańska Fundacja Wolności partnerzy programów Fundacja Batorego Helsińska",
+   "useful_results": [
+    {
+     "rank": 9,
+     "title": "RAPORT ROCZNY 2020",
+     "url": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf",
+     "why": "PAFW 2020 annual report (read, P3)"
+    },
+    {
+     "rank": 17,
+     "title": "WA R S Z AWA 2020",
+     "url": "https://pafw.pl/wp-content/uploads/2020/05/20_LAT_PAFW.pdf",
+     "why": "PAFW 20-year publication (read, P4)"
+    },
+    {
+     "rank": 13,
+     "title": "hfhr.pl",
+     "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+     "why": "HFHR 2020 report (read, P2)"
+    },
+    {
+     "rank": 16,
+     "title": "sprawozdanie merytoryczne",
+     "url": "https://archiwum.hfhr.pl/wp-content/uploads/2022/11/sprawozdanie_merytoryczne.pdf",
+     "why": "HFHR 2021 statutory report (read, P5)"
+    },
+    {
+     "rank": 6,
+     "title": "PAFW Raport Roczny 2002",
+     "url": "https://pafw.pl/wp-content/uploads/2017/10/PAFW_Raport_Roczny_2002.pdf",
+     "why": "Early PAFW report; may name the operator of 'Obywatel i Prawo'"
+    },
+    {
+     "rank": 3,
+     "title": "Raport Roczny 2019",
+     "url": "https://pafw.pl/wp-content/uploads/2020/09/PAFW_Raport_Roczny_2019.pdf",
+     "why": "PAFW 2019 report, within the 2016-2025 window"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"Grants to support in-person programs that promote rule of law in Poland\" U.S. Embassy",
+   "useful_results": [
+    {
+     "rank": 3,
+     "title": "Notice of Funding Opportunity for Grants to Support Programs that Promote Rule of Law in Poland",
+     "url": "https://11academianetworks.com/scholarship/notice-of-funding-opportunity-for-grants-to-support-programs-that-promote-rule-of-law-in-poland-1525760",
+     "why": "Repost of the US Embassy rule-of-law funding call"
+    },
+    {
+     "rank": 14,
+     "title": "grants.gov",
+     "url": "https://apply07.grants.gov/grantsws/rest/opportunity/att/download/335251",
+     "why": "grants.gov attachment returned for this call; likely the primary call document"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"Ambasada USA\" dotacja \"Stowarzyszenie Sędziów Polskich Iustitia\" OR \"Themis\" OR \"Wolne Sądy\" projekt sfinansowany przez Ambasadę Stanów Zjednoczonych",
+   "useful_results": [
+    {
+     "rank": 3,
+     "title": "sedziowie z europy centralnej lacza sie beda bronic sadow przed atakami populistow",
+     "url": "https://oko.press/sedziowie-z-europy-centralnej-lacza-sie-beda-bronic-sadow-przed-atakami-populistow",
+     "why": "Central European judges' network; funders unknown"
+    },
+    {
+     "rank": 4,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/swiat/usa/artykuly/8349035,ambasada-usa-wyraza-uznanie-dla-prezydenta-dudy-za-projekt-ws-sadu-najwyzszego.html",
+     "why": "US Embassy statement on Duda's Supreme Court bill (per URL)"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "USAspending recipient \"Helsinska Fundacja Praw Czlowieka\" OR \"Helsinki Foundation for Human Rights\" Department of State award Poland",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "grey slant background",
+     "url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
+     "why": "MacArthur grantee page for HFHR; no USAspending record came back"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"Judicial Watch\" records State Department Poland \"rule of law\" grants Biden 2025 FOIA documents Polish NGOs",
+   "useful_results": [
+    {
+     "rank": 5,
+     "title": "JW v. State Dept Europe complaint 00346",
+     "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+     "why": "US court filing naming Free Courts (read, P1)"
+    },
+    {
+     "rank": 19,
+     "title": "jw v state exhibits 02034",
+     "url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+     "why": "Judicial Watch FOIA exhibits; subject unclear"
+    },
+    {
+     "rank": 10,
+     "title": "JW v. State Department Hungarian media complaint 00836 1",
+     "url": "https://judicialwatch.org/wp-content/uploads/2025/03/JW-v.-State-Department-Hungarian-media-complaint-00836-1.pdf",
+     "why": "Parallel Judicial Watch FOIA suit on State funding in Hungary"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "ned.org Poland grants 2023 \"Poland\" \"To strengthen\" judicial independence rule of law NED awarded",
+   "useful_results": [
+    {
+     "rank": 3,
+     "title": "justice under attack lessons from poland bratislava 11 04 2024",
+     "url": "https://wolnesady.org/en/justice-under-attack-lessons-from-poland-bratislava-11-04-2024/",
+     "why": "Free Courts event series; the Amsterdam event in it is on the map as NED-funded"
+    },
+    {
+     "rank": 5,
+     "title": "Action For Democracy logo",
+     "url": "https://grantable.co/grants/strengthening-democratic-resilience-and-civil-society-in-poland-6298be21a270",
+     "why": "Action for Democracy grant programme for Polish civil society"
+    },
+    {
+     "rank": 7,
+     "title": "Restoring Judicial Independence in Poland: The Progress So Far",
+     "url": "https://www.gmfus.org/event/restoring-judicial-independence-poland-progress-so-far",
+     "why": "GMF event on Polish judicial independence"
+    },
+    {
+     "rank": 14,
+     "title": "Letter to Congressional Leaders on Judicial Independence, Separation of Powers and the Rule of Law in Poland",
+     "url": "https://www.nycbar.org/reports/letter-to-congressional-leaders-on-judicial-independence-separation-of-powers-and-the-rule-of-law-in-poland/    ?back=1",
+     "why": "NYC Bar letter to Congress on Poland"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "Judicial Watch lawsuit State Department Europe records February 2026 complaint grants European NGOs Poland",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "JW v. State Dept Europe complaint 00346",
+     "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+     "why": "Same complaint (read, P1)"
+    },
+    {
+     "rank": 6,
+     "title": "jw v state exhibits 02034",
+     "url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+     "why": "Possible released records"
+    },
+    {
+     "rank": 14,
+     "title": "Judicial Watch sues State Department, USAID for Soros records",
+     "url": "https://www.foxnews.com/politics/judicial-watch-sues-state-department-usaid-for-soros-records.amp",
+     "why": "Earlier Judicial Watch FOIA suit on OSF-linked funding"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "FARA registration foreign principal Poland \"Helsinki Foundation\" OR \"Batory Foundation\" OR \"Free Courts\" OR \"Wolne Sady\" efile.fara.gov",
+   "useful_results": [
+    {
+     "rank": 19,
+     "title": "The Polish National Foundation to launch its “Fair Courts” campaign abroad",
+     "url": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-ls2474113",
+     "why": "Counterpart-side campaign abroad (balance); FARA hits showed no link to the network groups"
+    }
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "query": "\"German Marshall Fund\" grant Poland \"Fundacja im. Stefana Batorego\" OR \"Helsińska Fundacja Praw Człowieka\" OR \"OKO.press\" OR \"Wolne Sądy\" finansowanie GMF",
+   "useful_results": [
+    {
+     "rank": 13,
+     "title": "hfhr.pl",
+     "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+     "why": "HFHR 2020 report (read, P2); no GMF grant found"
     }
    ]
   },
@@ -4597,6 +6204,161 @@
    "title_check": "exact"
   },
   {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "31809,onet grant from the us embassy in poland to the open dialogue foundation",
+   "url": "https://en.odfoundation.eu/a/31809,onet-grant-from-the-us-embassy-in-poland-to-the-open-dialogue-foundation/",
+   "gist": "Open Dialogue Foundation repost of an Onet report that the US Embassy in Poland gave ODF a grant (amount and year not in title).",
+   "entities": [
+    "Open Dialogue Foundation",
+    "us_state_dept"
+   ],
+   "query": "U.S. Embassy Warsaw public diplomacy small grants awardees Poland rule of law NGO grant",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "31783,odf receives a grant from the american embassy dziennik pl usa supports the biggest enemy of the law and justice party",
+   "url": "https://en.odfoundation.eu/a/31783,odf-receives-a-grant-from-the-american-embassy-dziennik-pl-usa-supports-the-biggest-enemy-of-the-law-and-justice-party/",
+   "gist": "ODF repost of a Dziennik.pl report: ODF received a US Embassy grant, framed as US support for PiS's 'biggest enemy'.",
+   "entities": [
+    "Open Dialogue Foundation",
+    "us_state_dept",
+    "pis"
+   ],
+   "query": "U.S. Embassy Warsaw public diplomacy small grants awardees Poland rule of law NGO grant",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Notice of Funding Opportunity for Grants to Support Programs that Promote Rule of Law in Poland",
+   "url": "https://11academianetworks.com/scholarship/notice-of-funding-opportunity-for-grants-to-support-programs-that-promote-rule-of-law-in-poland-1525760",
+   "gist": "Repost of a US government funding notice for grants supporting rule-of-law programmes in Poland (a fundsforngos listing gives a 27 Jun 2022 deadline).",
+   "entities": [
+    "us_state_dept"
+   ],
+   "query": "\"Grants to support in-person programs that promote rule of law in Poland\" U.S. Embassy",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "sedziowie z europy centralnej lacza sie beda bronic sadow przed atakami populistow",
+   "url": "https://oko.press/sedziowie-z-europy-centralnej-lacza-sie-beda-bronic-sadow-przed-atakami-populistow",
+   "gist": "OKO.press: judges from Central Europe are joining forces to defend courts against populist attacks (funders not in title).",
+   "entities": [
+    "okopress"
+   ],
+   "query": "\"Ambasada USA\" dotacja \"Stowarzyszenie Sędziów Polskich Iustitia\" OR \"Themis\" OR \"Wolne Sądy\" projekt sfinansowany przez Ambasadę Stanów Zjednoczonych",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Forsal logo",
+   "url": "https://forsal.pl/swiat/usa/artykuly/8349035,ambasada-usa-wyraza-uznanie-dla-prezydenta-dudy-za-projekt-ws-sadu-najwyzszego.html",
+   "gist": "Per the URL: the US Embassy expressed appreciation to President Duda for his Supreme Court bill.",
+   "entities": [
+    "us_state_dept",
+    "duda",
+    "supreme_court"
+   ],
+   "query": "\"Ambasada USA\" dotacja \"Stowarzyszenie Sędziów Polskich Iustitia\" OR \"Themis\" OR \"Wolne Sądy\" projekt sfinansowany przez Ambasadę Stanów Zjednoczonych",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Polish Helsinki Foundation for Human Rights",
+   "url": "https://www.liberties.eu/hu/organisation/polish-helsinki-foundation-for-human-rights",
+   "gist": "Civil Liberties Union for Europe (Liberties) organisation page on HFHR; HFHR is apparently listed among Liberties' organisations.",
+   "entities": [
+    "hfhr",
+    "Civil Liberties Union for Europe (Liberties)"
+   ],
+   "query": "\"Polish-American Freedom Foundation\" grant \"Helsinki Foundation for Human Rights\"",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Restoring Judicial Independence in Poland: The Progress So Far",
+   "url": "https://www.gmfus.org/event/restoring-judicial-independence-poland-progress-so-far",
+   "gist": "German Marshall Fund event on restoring judicial independence in Poland (speakers and date not in title).",
+   "entities": [
+    "gmf"
+   ],
+   "query": "ned.org Poland grants 2023 \"Poland\" \"To strengthen\" judicial independence rule of law NED awarded",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "justice under attack lessons from poland bratislava 11 04 2024",
+   "url": "https://wolnesady.org/en/justice-under-attack-lessons-from-poland-bratislava-11-04-2024/",
+   "gist": "Free Courts event 'Justice under attack: lessons from Poland', Bratislava, 11 Apr 2024. Same series as the Amsterdam meeting already on the map.",
+   "entities": [
+    "free_courts"
+   ],
+   "query": "ned.org Poland grants 2023 \"Poland\" \"To strengthen\" judicial independence rule of law NED awarded",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Letter to Congressional Leaders on Judicial Independence, Separation of Powers and the Rule of Law in Poland",
+   "url": "https://www.nycbar.org/reports/letter-to-congressional-leaders-on-judicial-independence-separation-of-powers-and-the-rule-of-law-in-poland/    ?back=1",
+   "gist": "New York City Bar Association letter to US congressional leaders on judicial independence and the rule of law in Poland.",
+   "entities": [
+    "New York City Bar Association",
+    "us_congress"
+   ],
+   "query": "ned.org Poland grants 2023 \"Poland\" \"To strengthen\" judicial independence rule of law NED awarded",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "JW v. State Department Hungarian media complaint 00836 1",
+   "url": "https://judicialwatch.org/wp-content/uploads/2025/03/JW-v.-State-Department-Hungarian-media-complaint-00836-1.pdf",
+   "gist": "Judicial Watch FOIA complaint (2025) against the State Department over records on Hungarian media; a parallel case to the 2026 Free Courts suit.",
+   "entities": [
+    "Judicial Watch",
+    "us_state_dept"
+   ],
+   "query": "\"Judicial Watch\" records State Department Poland \"rule of law\" grants Biden 2025 FOIA documents Polish NGOs",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "Judicial Watch sues State Department, USAID for Soros records",
+   "url": "https://www.foxnews.com/politics/judicial-watch-sues-state-department-usaid-for-soros-records.amp",
+   "gist": "Fox News: Judicial Watch sued the State Department and USAID for records on Soros-linked funding.",
+   "entities": [
+    "Judicial Watch",
+    "us_state_dept",
+    "usaid",
+    "osf"
+   ],
+   "query": "Judicial Watch lawsuit State Department Europe records February 2026 complaint grants European NGOs Poland",
+   "title_check": "exact"
+  },
+  {
+   "theme": "C3_us_money",
+   "access": "search_result_title_only",
+   "title": "The Polish National Foundation to launch its “Fair Courts” campaign abroad",
+   "url": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-ls2474113",
+   "gist": "TVN24: the Polish National Foundation planned to take its 'Fair Courts' (Sprawiedliwe Sądy) campaign abroad. Counterpart side, kept for balance.",
+   "entities": [
+    "pfn"
+   ],
+   "query": "FARA registration foreign principal Poland \"Helsinki Foundation\" OR \"Batory Foundation\" OR \"Free Courts\" OR \"Wolne Sady\" efile.fara.gov",
+   "title_check": "normalized"
+  },
+  {
    "theme": "C4_private_foundations",
    "access": "search_result_title_only",
    "title": "Sprawozdanie merytoryczne z działalności Fundacji 2016",
@@ -4958,25 +6720,60 @@
    "capture": "Names of the operator foundations and partners; fund size; regional split"
   },
   {
-   "theme": "C4_private_foundations",
-   "url": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf",
-   "title": "SRT Activity Report 2024 25 V5",
-   "why": "The Sigrid Rausing Trust's latest report; should itemise HFHR's GBP 1,050,000 grant (from March 2024) and the GBP 75,000 gift of 2025, and show any other Polish grantees",
-   "capture": "Every Polish grantee with amount, grant term and purpose; check for Free Courts, Iustitia, Themis, OKO.press, Akcja Demokracja, Batory, Watchdog Polska"
+   "theme": "C3_us_money",
+   "url": "https://apply07.grants.gov/grantsws/rest/opportunity/att/download/335251",
+   "title": "grants.gov",
+   "why": "grants.gov attachment returned for the US Embassy call 'Grants to Support Programs that Promote Rule of Law in Poland' (2022). It is the primary record of US public money offered for Polish rule-of-law programmes.",
+   "capture": "Funding office (US Embassy Warsaw public affairs section or DRL), notice number, total funding and award size, priorities (judicial independence, judges' associations, legal education), eligible applicants and period. Then use the notice number to find the awardees on USAspending: recipient names, award IDs, amounts."
   },
   {
-   "theme": "C4_private_foundations",
-   "url": "https://www.mott.org/grants/200701771/",
-   "title": "Back to Listing",
-   "why": "Charles Stewart Mott Foundation grant record that came up for Batory/HFHR queries",
-   "capture": "Grantee, amount, approval date, duration, purpose; then page through https://www.mott.org/grants/?pg=20 for 2016-2025 Polish grants"
+   "theme": "C3_us_money",
+   "url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+   "title": "jw v state exhibits 02034",
+   "why": "Exhibits from a Judicial Watch v. State case. They may contain released State or OSF records on European NGOs, including Free Courts.",
+   "capture": "Case number and subject; any released record on State Department or embassy money to Free Courts, Batory, HFHR, Iustitia, Themis or DemoCrisis; officials' names; amounts and dates."
   },
   {
-   "theme": "C4_private_foundations",
-   "url": "https://www.mott.org/?p=97494",
-   "title": "Back to Listing",
-   "why": "Second Mott grant record that came up for Batory/HFHR queries",
-   "capture": "Grantee, amount, approval date, duration, purpose"
+   "theme": "C3_us_money",
+   "url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
+   "title": "grey slant background",
+   "why": "MacArthur Foundation (US private funder already on the map) grantee page for HFHR. HFHR's own 2020 and 2021 reports name no donors.",
+   "capture": "Each grant: amount in USD, year, duration and purpose (rule of law, judicial independence, strategic litigation)."
+  },
+  {
+   "theme": "C3_us_money",
+   "url": "https://wolnesady.org/en/justice-under-attack-lessons-from-poland-bratislava-11-04-2024/",
+   "title": "justice under attack lessons from poland bratislava 11 04 2024",
+   "why": "Free Courts 'Justice under attack' series. The Amsterdam meeting in this series is on the map as NED-funded.",
+   "capture": "Funder credit (NED or other), co-hosts, speakers and their capacities (Wawrykiewicz, Gregorczyk-Abram, Kieszkowska, judges), date and venue."
+  },
+  {
+   "theme": "C3_us_money",
+   "url": "https://www.gmfus.org/event/restoring-judicial-independence-poland-progress-so-far",
+   "title": "Restoring Judicial Independence in Poland: The Progress So Far",
+   "why": "Event of the German Marshall Fund (US-founded; runs the USAID-funded CEBRICS) on judicial independence in Poland.",
+   "capture": "Date, speakers and their capacities (e.g. Bodnar, Markiewicz, Iustitia, Free Courts), moderator, co-organisers and funders."
+  },
+  {
+   "theme": "C3_us_money",
+   "url": "https://grantable.co/grants/strengthening-democratic-resilience-and-civil-society-in-poland-6298be21a270",
+   "title": "Action For Democracy logo",
+   "why": "Listing of an Action for Democracy grant programme for Poland. It may be US-origin private money for Polish civil society.",
+   "capture": "Funder's legal entity and country, programme amount, dates, eligible organisations and any named grantees. Then look for Action for Democracy's own grantee list."
+  },
+  {
+   "theme": "C3_us_money",
+   "url": "https://pafw.pl/wp-content/uploads/2017/10/PAFW_Raport_Roczny_2002.pdf",
+   "title": "PAFW Raport Roczny 2002",
+   "why": "Early PAFW annual report. The 20-year publication lists the 2000 'Obywatel i Prawo' civic/legal-advice programme without naming its operator.",
+   "capture": "Operators and grant amounts of 'Obywatel i Prawo' and of any anti-corruption or watchdog programme. Note whether Batory, HFHR, ISP or INPRIS received PAFW grants, and the board list."
+  },
+  {
+   "theme": "C3_us_money",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2019/09/spr2010.pdf",
+   "title": "batory.org.pl",
+   "why": "Batory 2010 annual report, not yet read (later reports are already read). It was returned for the PAFW-Batory query.",
+   "capture": "PAFW (Polsko-Amerykańska Fundacja Wolności) lines in the donor list and the Batory programmes PAFW funded, with amounts. Also any US Embassy, NED or GMF lines."
   },
   {
    "theme": "C4_private_foundations",
@@ -5124,6 +6921,63 @@
     "Domstoladministrasjonen Polen samarbeid polske dommere prosjekt",
     "Norway Grants justice programme Poland Ministry of Justice Norwegian Courts Administration donor programme partner correctional services",
     "Den norske dommerforening Polen Iustitia støtte polske dommere"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "US Embassy Warsaw (public diplomacy or small grants) and State Department DRL awards naming Iustitia, Themis, Free Courts or HFHR as recipient, 2016-2025, including USAspending award records. Only funding calls and the already-known US Embassy grant to the Open Dialogue Foundation came back. HFHR's 2020 report and 2021 statutory report name no US funder.",
+   "queries": [
+    "U.S. Embassy Warsaw public diplomacy small grants awardees Poland rule of law NGO grant",
+    "\"Grants to support in-person programs that promote rule of law in Poland\" U.S. Embassy",
+    "\"Ambasada USA\" dotacja \"Stowarzyszenie Sędziów Polskich Iustitia\" OR \"Themis\" OR \"Wolne Sądy\" projekt sfinansowany przez Ambasadę Stanów Zjednoczonych",
+    "USAspending recipient \"Helsinska Fundacja Praw Czlowieka\" OR \"Helsinki Foundation for Human Rights\" Department of State award Poland"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "NED grant amounts to Free Courts, and NED fellows from Poland other than Wawrykiewicz. Only already-known NED and Free Courts event pages came back.",
+   "queries": [
+    "ned.org Poland grants 2023 \"Poland\" \"To strengthen\" judicial independence rule of law NED awarded"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "Records released by the State Department in Judicial Watch's Free Courts FOIA (F-2026-02738; D.D.C. 1:26-cv-00346), or any docket entry after the complaint. Only the complaint itself was found.",
+   "queries": [
+    "\"Judicial Watch\" records State Department Poland \"rule of law\" grants Biden 2025 FOIA documents Polish NGOs",
+    "Judicial Watch lawsuit State Department Europe records February 2026 complaint grants European NGOs Poland"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "PAFW grants to Batory, HFHR or other TK-network groups. PAFW's 2020 annual report and its 20-year publication name neither. Older Batory reports matched the query but were not read.",
+   "queries": [
+    "\"Polsko-Amerykańska Fundacja Wolności\" \"Fundacja im. Stefana Batorego\" dotacja sprawozdanie program",
+    "\"Polish-American Freedom Foundation\" grant \"Helsinki Foundation for Human Rights\"",
+    "pafw.pl raport roczny Polsko-Amerykańska Fundacja Wolności partnerzy programów Fundacja Batorego Helsińska"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "German Marshall Fund grants to Batory, HFHR, OKO.press or Free Courts",
+   "queries": [
+    "\"German Marshall Fund\" grant Poland \"Fundacja im. Stefana Batorego\" OR \"Helsińska Fundacja Praw Człowieka\" OR \"OKO.press\" OR \"Wolne Sądy\" finansowanie GMF"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "FARA registrations naming Batory, HFHR, Free Courts (Wolne Sądy) or other network groups. The filings returned showed no visible link to them.",
+   "queries": [
+    "FARA registration foreign principal Poland \"Helsinki Foundation\" OR \"Batory Foundation\" OR \"Free Courts\" OR \"Wolne Sady\" efile.fara.gov"
+   ]
+  },
+  {
+   "theme": "C3_us_money",
+   "question": "Planned but NOT searched in this sweep (no results exist for these): the Judicial Watch press release on the Free Courts/DemoCrisis suit; Reagan-Fascell or other NED fellows from Poland; PAFW grants to Watchdog Polska, Akcja Demokracja, OKO.press or the Osiatyński Archive.",
+   "queries": [
+    "Judicial Watch sues State Department records \"Free Courts\" \"Civil Liberties Union for Europe\" DemoCrisis Ökotárs",
+    "\"Reagan-Fascell\" fellow Poland Polish judge OR lawyer OR journalist National Endowment for Democracy 2023 2024",
+    "\"Polsko-Amerykańska Fundacja Wolności\" dotacja \"Sieć Obywatelska Watchdog Polska\" OR \"Akcja Demokracja\" OR \"OKO.press\" OR \"Archiwum Osiatyńskiego\" program PAFW"
    ]
   },
   {

@@ -27,50 +27,51 @@
   ]
  },
  "stats": {
-  "agents": 3,
-  "agents_left_out_unfinished_or_other_batch": 8,
-  "searches": 82,
-  "search_results": 1266,
-  "unique_result_urls": 1058,
-  "page_fetches": 27,
-  "pages_reported": 17,
+  "agents": 4,
+  "agents_left_out_unfinished_or_other_batch": 10,
+  "searches": 108,
+  "search_results": 1689,
+  "unique_result_urls": 1444,
+  "page_fetches": 38,
+  "pages_reported": 23,
   "pages_with_page_text": 0,
   "fetch_status": {
-   "ok": 14,
-   "error": 2,
+   "ok": 19,
+   "error": 3,
    "blocked": 1
   },
-  "claims": 75,
+  "claims": 118,
   "labels": {
-   "no_link": 7,
-   "fact": 62,
+   "no_link": 8,
+   "fact": 104,
    "speculation": 3,
    "alleged": 3
   },
   "evidence_check": {
-   "exact_in_reader_extract": 73,
-   "not_found_in_reader_extract": 2
+   "exact_in_reader_extract": 113,
+   "not_found_in_reader_extract": 5
   },
   "map_status": {
-   "pair_already_linked": 15,
-   "new_tie_between_known_entities": 15,
-   "new_entity_or_unmatched_name": 43,
-   "both_names_unmatched": 2
+   "pair_already_linked": 19,
+   "new_tie_between_known_entities": 27,
+   "new_entity_or_unmatched_name": 65,
+   "both_names_unmatched": 7
   },
   "kinds": {
    "contract_or_fee": 19,
-   "statement": 3,
-   "role_or_job": 27,
+   "statement": 4,
+   "role_or_job": 36,
    "other": 6,
-   "membership_or_board": 9,
+   "membership_or_board": 21,
    "event_or_speech": 6,
-   "nomination_or_vote": 1,
+   "nomination_or_vote": 21,
+   "legal_action": 1,
    "ownership": 3,
    "grant_or_donation": 1
   },
-  "title_only_leads": 74,
-  "to_read_unread": 24,
-  "nothing_found": 24
+  "title_only_leads": 115,
+  "to_read_unread": 32,
+  "nothing_found": 33
  },
  "pages": [
   {
@@ -765,6 +766,1289 @@
    ]
   },
   {
+   "ref": "B2_appointments-P1",
+   "url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+   "host": "oko.press",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "Article read. Byline Mariusz Jałoszewski, dated 7 June 2024 (page metadata shows a later modification date). Pay for the KSSiP post is not mentioned. A photo caption says Bodnar acted on the request of the new KSSiP director Piotr Girdwoyń; that caption was not captured word for word, so it is not used as a claim.",
+   "page_title": "wazna decyzja bodnara sedzia zurek symbol wolnych sadow zostal wicedyrektorem kssip",
+   "page_date": "2024-06-07",
+   "publisher": "OKO.press",
+   "capture_answer": "Justice Minister Bodnar appointed Kraków Regional Court judge Waldemar Żurek deputy director of the National School of Judiciary and Public Prosecution (KSSiP) for organisational affairs on Friday 7 June 2024; he heads the Director's Office and permanently deputises for the Director. The same day Kraków judge Izabela Fountoukidis became second deputy director; further deputies were to come from the prosecution service. Piotr Girdwoyń is named as the new KSSiP director. Career note: first an Iustitia member, then Themis vice-president and board member; KRS member 2010-2018 (two terms); Kraków Regional Court spokesperson for over 14 years. Pay not stated.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Waldemar Żurek",
+    "Adam Bodnar",
+    "Piotr Girdwoyń",
+    "Izabela Fountoukidis"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "followup_urls": [
+    {
+     "url": "https://oko.press/jest-nowy-kandydat-na-dyrektora-kssip-prof-girdwoyn",
+     "why": "Selection of Piotr Girdwoyń as KSSiP director, the official who requested Żurek's appointment"
+    },
+    {
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10954669,piotr-girdwoyn-nowym-dyrektorem-krajowej-szkoly-sadownictwa-i-prokurat.html",
+     "why": "Date and background of Girdwoyń's appointment as KSSiP director"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0022",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "As Justice Minister, appointed him deputy director of the National School of Judiciary and Public Prosecution (KSSiP) for organisational affairs, on Friday 7 June 2024",
+     "object": "zurek",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "2024-06-07",
+     "evidence_text": "Minister sprawiedliwości Adam Bodnar powołał sędziego Waldemara Żurka z Sądu Okręgowego w Krakowie",
+     "evidence_translation": "Justice Minister Adam Bodnar appointed judge Waldemar Żurek of the Regional Court in Kraków",
+     "evidence_location": "first paragraph of the article body (date given in the same paragraph: 'w piątek 7 czerwca 2024 roku')",
+     "label": "fact",
+     "label_scope": "The appointment and its date as reported by OKO.press. Whether and how much the post is paid is not stated on the page.",
+     "new_entities": [
+      "kssip | National School of Judiciary and Public Prosecution (Krajowa Szkoła Sądownictwa i Prokuratury, KSSiP)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held"
+     ]
+    },
+    {
+     "id": "B02-C0023",
+     "subject": "zurek",
+     "subject_type": "person",
+     "relation": "Deputy director of KSSiP for organisational affairs from 7 June 2024: heads the Director's Office and is the Director's permanent deputy (end date not on this page)",
+     "object": "KSSiP (National School of Judiciary and Public Prosecution)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "2024-06-07",
+     "evidence_text": "Jako wicedyrektor KSSiP ds. organizacyjnych Żurek będzie kierował Biurem Dyrektora i sprawował stałe zastępstwo",
+     "evidence_translation": "As KSSiP deputy director for organisational affairs Żurek will head the Director's Office and act as permanent deputy",
+     "evidence_location": "section 'Za co będzie odpowiadać w KSSiP Żurek'",
+     "label": "fact",
+     "label_scope": "Role description as given by OKO.press. The end date of the post and any salary are not on the page.",
+     "new_entities": [
+      "kssip | National School of Judiciary and Public Prosecution (KSSiP)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0024",
+     "subject": "Izabela Fountoukidis (judge, Kraków Regional Court)",
+     "subject_type": "person",
+     "relation": "Appointed second deputy director of KSSiP on the same Friday as Żurek (7 June 2024)",
+     "object": "KSSiP (National School of Judiciary and Public Prosecution)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "2024-06-07",
+     "evidence_text": "W piątek na stanowisko drugiego wicedyrektora KSSiP została też powołana sędzia Izabela Fountoukidis",
+     "evidence_translation": "On Friday judge Izabela Fountoukidis was also appointed to the post of second deputy director of KSSiP",
+     "evidence_location": "paragraph after the lead photo caption",
+     "label": "fact",
+     "label_scope": "Appointment stated. The page names no association membership for her and does not state pay.",
+     "new_entities": [
+      "fountoukidis | Izabela Fountoukidis (Kraków judge; KSSiP deputy director from June 2024)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0025",
+     "subject": "zurek",
+     "subject_type": "person",
+     "relation": "Member of the National Council of the Judiciary (KRS) 2010-2018, two terms, while also serving as its spokesperson (the pre-2018 council, before the PiS-era 'neo-KRS')",
+     "object": "National Council of the Judiciary (KRS), terms ending 2018",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "date": "2010-2018",
+     "evidence_text": "W latach 2010-2018 był członkiem Krajowej Rady Sądownictwa (dwóch kadencji), sprawując równocześnie funkcję",
+     "evidence_translation": "In 2010-2018 he was a member of the National Council of the Judiciary (two terms), at the same time holding the function",
+     "evidence_location": "section 'Żurek wzorem, ale też ma spory dorobek zawodowy'",
+     "label": "fact",
+     "label_scope": "Membership and years as stated; the sentence continues with his KRS spokesperson role. Predates Dec 2023; included as background to the appointment.",
+     "new_entities": [
+      "krs_old | National Council of the Judiciary (KRS) before the 2018 PiS reform"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0026",
+     "subject": "Ministry of Justice (MS)",
+     "subject_type": "public_body",
+     "relation": "Ministry communiqué justified Żurek's appointment by his experience for the post of deputy director for organisational affairs",
+     "object": "zurek",
+     "object_type": "person",
+     "kind": "statement",
+     "date": "2024-06-07",
+     "evidence_text": "Sędzia Waldemar Żurek posiada niezbędne dla pełnienia funkcji zastępcy Dyrektora KSSiP ds. organizacyjnych doświadczenie",
+     "evidence_translation": "Judge Waldemar Żurek has the experience needed to perform the function of KSSiP Deputy Director for organisational affairs",
+     "evidence_location": "section 'Żurek wzorem...', quoted ministry communiqué",
+     "label": "fact",
+     "label_scope": "That the ministry said so, as quoted by OKO.press.",
+     "new_entities": [
+      "moj | Ministry of Justice (Ministerstwo Sprawiedliwości)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-P2",
+   "url": "https://oko.press/walczyli-o-praworzadnosc-teraz-prezesami-sadow",
+   "host": "oko.press",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "Article read. Byline Mariusz Jałoszewski, dated 18 May 2024 (page metadata shows a later modification date). The appointee bullet lists use the genitive case; names are given here in the nominative (e.g. 'Krzysztofa Piasecznego' as Krzysztof Piaseczny; 'Michała Gałka' kept as Michał Gałka). Associations are named only for Monika Frąckowiak (Iustitia), Rafał Jerka and Jerzy Nawrocki (Forum Współpracy Sędziów). No Themis, Free Courts or KOS tie is named for any appointee. Exact appointment dates and the functional allowance attached to court-president posts are not given.",
+   "page_title": "Sędzia Tyrała, Jerka i Nawrocki walczyli o praworządność. Teraz zostali prezesami sądów",
+   "page_date": "2024-05-18",
+   "publisher": "OKO.press",
+   "capture_answer": "Bodnar appointed about 50 court presidents and vice-presidents listed in the article (by 18 May 2024). Association ties stated: Monika Frąckowiak, new president of the Poznań-Nowe Miasto i Wilda District Court, is an Iustitia member; Rafał Jerka (Olsztyn Regional Court president) was a member, and Jerzy Nawrocki (Lublin Court of Appeal president) a Presidium member, of the Forum Współpracy Sędziów. Paweł Juszczyszyn became vice-president of the Olsztyn District Court (no association stated). Pay not stated.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Dorota Tyrała",
+    "Rafał Jerka",
+    "Marek Nawrocki",
+    "Marcin Korajczyk",
+    "Jerzy Nawrocki",
+    "Wiesława Kozikowska",
+    "Agnieszka Wojciechowska-Langda",
+    "Maciej Żelazowski",
+    "Dorota Stańczyk",
+    "Urszula Sipińska-Sęk",
+    "Paweł Oborski",
+    "Małgorzata Pirga",
+    "Dorota Markiewicz",
+    "Ryszard Sułtanowski",
+    "Agnieszka Bajor",
+    "Romuald Jankowski",
+    "Joanna Raducha-Modrzejewska",
+    "Agnieszka Niklas-Bibik",
+    "Marek Miłosz",
+    "Tomasz Bigoszewski",
+    "Michał Gałka",
+    "Paweł Rygla",
+    "Jarosław Poch",
+    "Adrianna Pokrywiecka",
+    "Magdalena Socha",
+    "Natasza Czarny",
+    "Łukasz Sajdak",
+    "Cezary Czech-Śmiałkowski",
+    "Włodzimierz Uchmanowicz",
+    "Szymon Kozłowski",
+    "Mariusz Sitko",
+    "Krzysztof Trojan",
+    "Janusz Kawałek",
+    "Katarzyna Serafin-Tabor",
+    "Marta Kowalska",
+    "Paweł Wicherek",
+    "Katarzyna Wierzbicka",
+    "Krzysztof Krygielski",
+    "Paweł Juszczyszyn",
+    "Katarzyna Zabuska",
+    "Marta Knotz",
+    "Maria Leszczyńska",
+    "Małgorzata Solecka",
+    "Marta Witoszyńska",
+    "Sławomir Forenc",
+    "Krzysztof Piaseczny",
+    "Karol Ratajczak",
+    "Piotr Marciniak",
+    "Monika Frąckowiak"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "followup_urls": [
+    {
+     "url": "https://oko.press/sedzia-frackowiak-walczyla-o-sady-teraz-zostala-prezeska-sadu-w-poznaniu-lista-nowych-prezesow",
+     "why": "Companion list of new presidents in Poznań, with Frąckowiak"
+    },
+    {
+     "url": "https://oko.press/bodnar-wszczal-procedure-odwolania-81-prezesow-i-wiceprezesow-a-powolal-ich-ponad-110",
+     "why": "Full tally of Bodnar's appointments (over 110)"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0027",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "As Justice Minister, appointed the judges listed in the article (names_listed) to court-president and vice-president posts (reported 18 May 2024)",
+     "object": "Court presidents and vice-presidents appointed in spring 2024 (list in names_listed)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "date": "2024-05 (article dated 2024-05-18)",
+     "evidence_text": "Sędziów na kierownicze stanowiska w sądach powołał minister sprawiedliwości Adam Bodnar.",
+     "evidence_translation": "The judges were appointed to leadership posts in the courts by Justice Minister Adam Bodnar.",
+     "evidence_location": "article body, introductory paragraphs",
+     "label": "fact",
+     "label_scope": "Appointing authority as stated. Individual appointment dates and pay are not on the page.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0028",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "Appointed her president of the District Court Poznań-Nowe Miasto i Wilda",
+     "object": "Monika Frąckowiak (judge, Poznań)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "2024-05 (article dated 2024-05-18)",
+     "evidence_text": "Prezeskę Sądu Rejonowego w Poznaniu-Nowe Miasto i Wilda Monikę Frąckowiak.",
+     "evidence_translation": "[He appointed as] President of the District Court in Poznań-Nowe Miasto i Wilda Monika Frąckowiak.",
+     "evidence_location": "bullet list under H2 'Kogo minister Bodnar powołał na prezesa sądu'",
+     "label": "fact",
+     "label_scope": "Appointment by Bodnar per the list heading and the article's statement; exact date and pay not on the page.",
+     "new_entities": [
+      "frackowiak | Monika Frąckowiak (Iustitia; president of SR Poznań-Nowe Miasto i Wilda from 2024; KRS member from May 2026)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0029",
+     "subject": "Monika Frąckowiak (judge, Poznań)",
+     "subject_type": "person",
+     "relation": "Member of Iustitia; the article says she was persecuted for defending the rule of law",
+     "object": "iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2024-05-18",
+     "evidence_text": "To członkini Iustitii, angażowała się w obronę praworządności, za co była represjonowana.",
+     "evidence_translation": "She is a member of Iustitia, was involved in defending the rule of law, for which she was subjected to repression.",
+     "evidence_location": "bullet on Monika Frąckowiak, end of the H2 list",
+     "label": "fact",
+     "label_scope": "Membership as stated by OKO.press; 'repression' is the article's characterisation.",
+     "new_entities": [
+      "frackowiak | Monika Frąckowiak"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0030",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "Appointed Rafał Jerka president of the Olsztyn Regional Court",
+     "object": "Rafał Jerka (judge, Olsztyn)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "2024-05 (article dated 2024-05-18)",
+     "evidence_text": "został prezesem Sądu Okręgowego w Olsztynie",
+     "evidence_translation": "became president of the Regional Court in Olsztyn",
+     "evidence_location": "unheaded article body, paragraph on Rafał Jerka",
+     "label": "fact",
+     "label_scope": "Appointment stated; Bodnar as appointing minister per the article's general statement. Pay not stated.",
+     "new_entities": [
+      "jerka | Rafał Jerka (president of SO Olsztyn from 2024)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0031",
+     "subject": "Rafał Jerka (judge, Olsztyn)",
+     "subject_type": "person",
+     "relation": "Member of the Forum Współpracy Sędziów (Judges' Cooperation Forum)",
+     "object": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Jerka był też członkiem Forum Współpracy Sędziów",
+     "evidence_translation": "Jerka was also a member of the Judges' Cooperation Forum",
+     "evidence_location": "unheaded article body, paragraph on Rafał Jerka",
+     "label": "fact",
+     "label_scope": "Membership as stated (past tense; dates not given).",
+     "new_entities": [
+      "forum_wspolpracy_sedziow | Forum Współpracy Sędziów (Judges' Cooperation Forum; published the Feb 2026 KRS candidate list)",
+      "jerka | Rafał Jerka"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0032",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "Appointed Jerzy Nawrocki president of the Lublin Court of Appeal",
+     "object": "Jerzy Nawrocki (judge, Lublin; not President Karol Nawrocki)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "2024-05 (article dated 2024-05-18)",
+     "evidence_text": "Prezesem Sądu Apelacyjnego w Lublinie został Jerzy Nawrocki",
+     "evidence_translation": "Jerzy Nawrocki became President of the Court of Appeal in Lublin",
+     "evidence_location": "unheaded article body",
+     "label": "fact",
+     "label_scope": "Appointment stated; Bodnar as appointing minister per the article. Pay not stated.",
+     "new_entities": [
+      "jerzy_nawrocki | Jerzy Nawrocki (president of SA Lublin from 2024; distinct from Karol Nawrocki)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0033",
+     "subject": "Jerzy Nawrocki (judge, Lublin; not President Karol Nawrocki)",
+     "subject_type": "person",
+     "relation": "Member of the Presidium of the Forum Współpracy Sędziów",
+     "object": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Był członkiem Prezydium Forum Współpracy Sędziów.",
+     "evidence_translation": "He was a member of the Presidium of the Judges' Cooperation Forum.",
+     "evidence_location": "unheaded article body, paragraph on Jerzy Nawrocki",
+     "label": "fact",
+     "label_scope": "Presidium membership as stated (past tense; dates not given).",
+     "new_entities": [
+      "forum_wspolpracy_sedziow | Forum Współpracy Sędziów",
+      "jerzy_nawrocki | Jerzy Nawrocki"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0034",
+     "subject": "bodnar",
+     "subject_type": "person",
+     "relation": "Appointed Paweł Juszczyszyn (and Katarzyna Zabuska) vice-presidents of the Olsztyn District Court, under president Krzysztof Krygielski",
+     "object": "Paweł Juszczyszyn (judge, Olsztyn)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "2024-05 (article dated 2024-05-18)",
+     "evidence_text": "A wiceprezesami tego sądu zostali Paweł Juszczyszyn i Katarzyna Zabuska.",
+     "evidence_translation": "And Paweł Juszczyszyn and Katarzyna Zabuska became vice-presidents of that court.",
+     "evidence_location": "unheaded article body (Olsztyn District Court paragraph)",
+     "label": "fact",
+     "label_scope": "Appointment stated. The page names no association for Juszczyszyn or Zabuska; pay not stated.",
+     "new_entities": [
+      "juszczyszyn | Paweł Juszczyszyn (vice-president of SR Olsztyn from 2024)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-P3",
+   "url": "https://gazetaprawna.pl/prawnik/zawody-prawnicze/artykuly/11247716,sedziowie-do-krs-wybrani-sejm-zdecydowal-lista-nazwisk.html",
+   "host": "gazetaprawna.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "error",
+   "fetch_note": "Fetch failed at the site with a client error; nothing of the page was retrieved. The list of judges the Sejm elected was taken from B2_appointments-P5 instead.",
+   "page_title": "Sędziowie do KRS wybrani. Sejm zdecydował. Lista nazwisk",
+   "publisher": "Dziennik Gazeta Prawna (gazetaprawna.pl)",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B2_appointments-P4",
+   "url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
+   "host": "oko.press",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "Article read. Byline Mariusz Jałoszewski; publication date 24 April 2026 (metadata shows a later modification date). Reports the opinion vote at judges' assemblies on 60 candidates for the renewed KRS; the article does not say who organised the assemblies. Association ties are stated only for Wojciech Buchajczuk (Iustitia vice-president) and Beata Donhoffner-Grodzicka (Themis board). Vote counts as published; the surname Bąk-Lasota is garbled in the page formatting. Turnout about 60% (73% Poznań, 47% Warsaw and Lublin).",
+   "page_title": "Zwycięstwo 15 sędziów z listy praworządnościowej w wyborach do KRS. Radzik dostał tylko 14 głosów!",
+   "page_date": "2026-04-24",
+   "publisher": "OKO.press",
+   "capture_answer": "Judges' assemblies across Poland gave opinions on 60 KRS candidates, each judge casting up to 15 votes; turnout about 60%. All 15 places went to the 'rule-of-law list': Zawistowski 4201, Jefimko 3587, Frąckowiak 3583, Bąk-Lasota 3537, Zawiślak 3536, Mierzejewska 3474, Kierszka 3405, Łuczaj 3394, Żołnierczuk-Dec 3386, Buchajczuk (Iustitia vice-president) 3382, Starosta 3363, Cilulko 3358, Wrzesińska-Nowacka 3355, Donhoffner-Grodzicka (Themis board) 3297, Kobylińska-Bortkiewicz 3289. Ziobro-era candidates: Radzik 14, Piebiak 39, Schab 34, Dudzicz 33, Zdun 54, Czubik 66, Dalkowska 86. The Sejm was to elect the judge-members soon, as the neo-KRS term ended in May 2026.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Dariusz Zawistowski (SN, 4201)",
+    "Edyta Jefimko (SA Warszawa, 3587)",
+    "Monika Frąckowiak (SR Poznań-Nowe Miasto i Wilda, 3583)",
+    "Karolina Bąk-Lasota (SR Katowice-Zachód, 3537)",
+    "Katarzyna Zawiślak (SO Wrocław, 3536)",
+    "Ewa Mierzejewska (SA Lublin, 3474)",
+    "Magdalena Kierszka (SO Gdańsk, 3405)",
+    "Jarosław Łuczaj (WSA Warszawa, 3394)",
+    "Ewa Żołnierczuk-Dec (SR Rzeszów, 3386)",
+    "Wojciech Buchajczuk (SR dla m.st. Warszawy, 3382)",
+    "Bartłomiej Starosta (SR Sulęcin, 3363)",
+    "Sławomir Cilulko (SO Białystok, 3358)",
+    "Aleksandra Wrzesińska-Nowacka (NSA, 3355)",
+    "Beata Donhoffner-Grodzicka (SR dla Krakowa-Śródmieścia, 3297)",
+    "Agnieszka Kobylińska-Bortkiewicz (WSO Warszawa, 3289)",
+    "Przemysław Radzik (14)",
+    "Łukasz Piebiak (39)",
+    "Piotr Schab (34)",
+    "Jarosław Dudzicz (33)",
+    "Stanisław Zdun (54)",
+    "Paweł Czubik (66)",
+    "Anna Dalkowska (86)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "followup_urls": [
+    {
+     "url": "https://oko.press/sedzia-piebiak-w-odnowionej-krs-koalicja-nie-ma-wyboru",
+     "why": "Why the coalition included PiS's candidate despite his 39 votes"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0035",
+     "subject": "Judges' assemblies (zgromadzenia sędziów) of the courts",
+     "subject_type": "public_body",
+     "relation": "Held an opinion vote on 60 candidates for the judge-members of the renewed KRS; each judge could cast 15 votes; turnout about 60%",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04 (article dated 2026-04-24)",
+     "evidence_text": "podczas nich każdy sędzia mógł oddać 15 głosów",
+     "evidence_translation": "during them each judge could cast 15 votes",
+     "evidence_location": "opening section",
+     "label": "fact",
+     "label_scope": "Procedure and turnout as reported; the article does not say who organised the assemblies.",
+     "new_entities": [
+      "krs_2026 | National Council of the Judiciary renewed in May 2026 (judge-members elected by the Sejm on 15 May 2026)",
+      "judges_assemblies | Judges' assemblies (zgromadzenia sędziów) of Polish courts"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0036",
+     "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
+     "subject_type": "person",
+     "relation": "Topped the judges' assemblies' opinion vote for the renewed KRS with 4201 votes",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04",
+     "evidence_text": "Najwięcej głosów – 4201 – dostał legalny sędzia SN z Izby Cywilnej",
+     "evidence_translation": "The most votes - 4201 - went to a legal Supreme Court judge from the Civil Chamber",
+     "evidence_location": "section with the list of 15 judges",
+     "label": "fact",
+     "label_scope": "Vote count as reported; 'legal' is OKO.press's wording (as opposed to judges appointed via the neo-KRS).",
+     "new_entities": [
+      "zawistowski | Dariusz Zawistowski (SN judge; last chair of the pre-2018 KRS; KRS member from May 2026)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "supreme_court",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0037",
+     "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
+     "subject_type": "person",
+     "relation": "Vice-president of Iustitia; won one of the 15 places (3382 votes) in the judges' assemblies' vote for the renewed KRS",
+     "object": "iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-04",
+     "evidence_text": "Wiceprezes Iustitii",
+     "evidence_translation": "Vice-president of Iustitia",
+     "evidence_location": "section with the list of 15 judges, entry on Buchajczuk",
+     "label": "fact",
+     "label_scope": "Office in Iustitia as stated; vote count as listed on the same page.",
+     "new_entities": [
+      "buchajczuk | Wojciech Buchajczuk (Iustitia vice-president for finance; KRS member from May 2026)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "synoradzki_bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0038",
+     "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
+     "subject_type": "person",
+     "relation": "Themis board member; won 14th place (3297 votes) in the judges' assemblies' vote for the renewed KRS",
+     "object": "themis",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-04",
+     "evidence_text": "Jest w zarządzie stowarzyszenia sędziów Themis",
+     "evidence_translation": "She is on the board of the Themis judges' association",
+     "evidence_location": "section with the list of 15 judges, entry on Donhoffner-Grodzicka",
+     "label": "fact",
+     "label_scope": "Board membership as stated; vote count as listed on the same page.",
+     "new_entities": [
+      "donhoffner_grodzicka | Beata Donhoffner-Grodzicka (Themis board; Kraków judge)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0039",
+     "subject": "piebiak_radzik",
+     "subject_type": "person",
+     "relation": "In the judges' assemblies' vote Przemysław Radzik got 14 votes nationwide and Łukasz Piebiak 39",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04",
+     "evidence_text": "Jego kandydaturę do odnowionej KRS poparło tylko 14 sędziów w całej Polsce",
+     "evidence_translation": "His candidacy for the renewed KRS was supported by only 14 judges in all of Poland",
+     "evidence_location": "section after the ranking discussion (on Radzik); Piebiak's 39 in the same section",
+     "label": "fact",
+     "label_scope": "Vote counts as reported by OKO.press (counterparty candidates, recorded for balance).",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "piebiak_radzik",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "members appear in hate network (Puchalski edited pamphlet)",
+      "members appear in hate network (Puchalski edited pamphlet)"
+     ]
+    },
+    {
+     "id": "B02-C0040",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "Was due to elect the judge-members soon after the assemblies' vote, because the neo-KRS term ended in May 2026",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04",
+     "evidence_text": "Sejm będzie ich wybierał wkrótce, bo kadencja obecnej nielegalnej neo-KRS kończy się w maju 2026 roku",
+     "evidence_translation": "The Sejm will elect them soon, because the term of the current illegal neo-KRS ends in May 2026",
+     "evidence_location": "opening section",
+     "label": "fact",
+     "label_scope": "Timing as stated; 'illegal' is OKO.press's characterisation of the PiS-era council.",
+     "new_entities": [
+      "sejm | Sejm of the Republic of Poland"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-P5",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
+   "host": "polsatnews.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "Article read. Dated 15.05.2026 11:51; reports the Friday vote. The 15 names are listed without courts. The article does not say which clubs voted for or against; it says PiS MPs did not take part, citing a TK injunction of 12 May 2026. MPs Maciej Tomczykiewicz (KO), Michał Wójcik (PiS) and Paweł Jabłoński (PiS) appear in the coverage of the debate. No senators are mentioned. Pay of KRS members is not mentioned.",
+   "page_title": "Nowi sędziowie KRS wybrani przez Sejm. Wśród nich współpracownik Ziobry",
+   "page_date": "2026-05-15",
+   "publisher": "Polsat News (polsatnews.pl)",
+   "capture_answer": "On Friday 15 May 2026 the Sejm elected 15 judge-members of the KRS (235 for, 18 against, 5 abstaining; 3/5 majority of 155; PiS MPs did not vote, citing a TK injunction of 12 May). 13 were named by the ruling coalition's clubs after the judges' assemblies' opinion vote, in which judges backed by associations including Iustitia and Themis won most support. The other two: Łukasz Piebiak (PiS pick, ex-deputy justice minister under Ziobro) and Łukasz Zawadzki (Konfederacja pick), both linked to Stowarzyszenie Prawnicy dla Polski. Of the assemblies' top 15, Sławomir Cilulko and Themis board member Beata Donhoffner-Grodzicka are not on the elected list.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Karolina Bąk-Lasota",
+    "Wojciech Buchajczuk",
+    "Monika Frąckowiak",
+    "Edyta Jefimko",
+    "Magdalena Kierszka",
+    "Agnieszka Kobylinska-Bortkiewicz",
+    "Jarosław Łuczaj",
+    "Ewa Mierzejewska",
+    "Bartłomiej Starosta",
+    "Aleksandra Wrzesińska-Nowacka",
+    "Dariusz Zawistowski",
+    "Katarzyna Zawiślak",
+    "Ewa Żołnierczuk-Dec",
+    "Łukasz Piebiak",
+    "Łukasz Zawadzki"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "followup_urls": [
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/57/2026-05-15/transcripts/038",
+     "why": "Sejm transcript of 15 May 2026: club positions and the vote"
+    },
+    {
+     "url": "https://www.pap.pl/aktualnosci/poslowie-klubow-koalicyjnych-wybor-kandydatow-pis-i-konfederacji-do-krs-jest",
+     "why": "Coalition MPs on the inclusion of the PiS and Konfederacja picks"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0041",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "Elected 15 judge-members of the National Council of the Judiciary on Friday 15 May 2026 (names in names_listed)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "first sentence of the article",
+     "label": "fact",
+     "label_scope": "Election and date as reported. Pay of KRS members is not stated on the page.",
+     "new_entities": [
+      "sejm | Sejm of the Republic of Poland",
+      "krs_2026 | National Council of the Judiciary renewed in May 2026"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0042",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "Vote on the KRS judge-members: 235 for, 18 against, 5 abstaining (3/5 majority required: 155)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "głosowało 235 posłów, przeciw było 18, zaś 5 posłów wstrzymało się od głosu.",
+     "evidence_translation": "235 MPs voted [for], 18 were against, and 5 MPs abstained.",
+     "evidence_location": "vote section, paragraph 2",
+     "label": "fact",
+     "label_scope": "Vote figures as reported; the article does not break the vote down by club.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0043",
+     "subject": "ko",
+     "subject_type": "party",
+     "relation": "The ruling coalition's clubs named 13 of the 15 judges elected, all of them picked earlier in the judges' assemblies' opinion vote",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Wśród wybranych w piątek do KRS sędziów znalazło się 13 wskazanych przez kluby rządzącej koalicji",
+     "evidence_translation": "Among the judges elected to the KRS on Friday were 13 indicated by the clubs of the ruling coalition",
+     "evidence_location": "section 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk'; the sentence continues that they were chosen at the judges' assemblies",
+     "label": "fact",
+     "label_scope": "The page says 'clubs of the ruling coalition' without naming KO, Lewica, Polska 2050 or PSL separately; the subject id 'ko' stands for the Sejm majority.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0044",
+     "subject": "iustitia",
+     "subject_type": "org",
+     "relation": "Judges backed by associations including Iustitia won the most support at the judges' assemblies that picked the coalition's KRS candidates",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04/05",
+     "evidence_text": "największe poparcie zdobyli sędziowie popierani przez niektóre sędziowskie stowarzyszenia, m.in. Iustitię i Themis.",
+     "evidence_translation": "the most support went to judges backed by some judges' associations, including Iustitia and Themis.",
+     "evidence_location": "section on how the list was formed",
+     "label": "fact",
+     "label_scope": "Association backing of the winning candidates as reported by Polsat News.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "not_found_in_reader_extract",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)"
+     ]
+    },
+    {
+     "id": "B02-C0045",
+     "subject": "themis",
+     "subject_type": "org",
+     "relation": "Judges backed by associations including Themis won the most support at the judges' assemblies that picked the coalition's KRS candidates",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-04/05",
+     "evidence_text": "największe poparcie zdobyli sędziowie popierani przez niektóre sędziowskie stowarzyszenia, m.in. Iustitię i Themis.",
+     "evidence_translation": "the most support went to judges backed by some judges' associations, including Iustitia and Themis.",
+     "evidence_location": "section on how the list was formed",
+     "label": "fact",
+     "label_scope": "Association backing of the winning candidates as reported by Polsat News.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "not_found_in_reader_extract",
+     "subject_map_id": "themis",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0046",
+     "subject": "pis",
+     "subject_type": "party",
+     "relation": "PiS nominated Łukasz Piebiak, ex-deputy justice minister under Ziobro; he was elected among the 15 under the rule that each club's candidate is included",
+     "object": "piebiak_radzik",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "wskazany przez PiS Łukasz Piebiak - były wiceminister sprawiedliwości z czasów kierowania resortem przez Zbigniewa Ziobrę",
+     "evidence_translation": "Łukasz Piebiak, indicated by PiS - former deputy justice minister from the time the ministry was run by Zbigniew Ziobro",
+     "evidence_location": "section 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk'",
+     "label": "fact",
+     "label_scope": "Nomination by PiS and his election as reported. The club-candidate rule is quoted elsewhere on the page.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "not_found_in_reader_extract",
+     "subject_map_id": "pis",
+     "subject_map_status": "on_map",
+     "object_map_id": "piebiak_radzik",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0047",
+     "subject": "Łukasz Zawadzki (judge, Opole)",
+     "subject_type": "person",
+     "relation": "Opole judge linked, like Piebiak, to the Stowarzyszenie Prawnicy dla Polski; elected to the KRS on 15 May 2026 as one of the two non-coalition picks",
+     "object": "Stowarzyszenie Prawnicy dla Polski (Lawyers for Poland association)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-05-15",
+     "evidence_text": "Zawadzki - opolski sędzia związany, podobnie jak Piebiak, ze Stowarzyszeniem Prawnicy dla Polski.",
+     "evidence_translation": "Zawadzki - an Opole judge linked, like Piebiak, with the Lawyers for Poland Association.",
+     "evidence_location": "section on the 15 members, sentence on Piebiak and Zawadzki",
+     "label": "fact",
+     "label_scope": "Association tie as stated. The article says Konfederacja recommended him; that part of the sentence is outside this excerpt.",
+     "new_entities": [
+      "zawadzki | Łukasz Zawadzki (Opole judge; KRS member from May 2026, Konfederacja pick)",
+      "prawnicy_dla_polski | Stowarzyszenie Prawnicy dla Polski"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0048",
+     "subject": "tk",
+     "subject_type": "public_body",
+     "relation": "Issued an injunction (zabezpieczenie) on 12 May 2026 telling the Sejm to refrain from electing KRS judges until it ruled on a PiS motion; the Sejm voted on 15 May regardless",
+     "object": "Sejm",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "2026-05-12",
+     "evidence_text": "Tego samego dnia Trybunał Konstytucyjny wydał zabezpieczenie, na mocy którego Sejm powinien wstrzymać się od wyboru",
+     "evidence_translation": "That same day the Constitutional Tribunal issued an injunction under which the Sejm should refrain from electing",
+     "evidence_location": "paragraph after the 'ZOBACZ' link",
+     "label": "fact",
+     "label_scope": "Injunction and its content as reported; 'that same day' refers to 12 May 2026 per the page.",
+     "new_entities": [
+      "sejm | Sejm of the Republic of Poland"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0049",
+     "subject": "pis",
+     "subject_type": "party",
+     "relation": "PiS MPs did not take part in the KRS vote",
+     "object": "Sejm",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "nie wzięli udziału posłowie Prawa i Sprawiedliwości.",
+     "evidence_translation": "Law and Justice MPs did not take part.",
+     "evidence_location": "paragraph after the 'ZOBACZ' link",
+     "label": "fact",
+     "label_scope": "Non-participation as reported; the page links it to the TK injunction.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "pis",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0050",
+     "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
+     "subject_type": "person",
+     "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia vice-president for finance per B2_appointments-P6)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk', item 'Wojciech Buchajczuk'",
+     "label": "fact",
+     "label_scope": "Election stated by the list on this page; the Iustitia office comes from P6. Pay not stated.",
+     "new_entities": [
+      "buchajczuk | Wojciech Buchajczuk"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "synoradzki_bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0051",
+     "subject": "Monika Frąckowiak (judge, Poznań)",
+     "subject_type": "person",
+     "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026, while president of a Poznań district court appointed by Bodnar (B2_appointments-P2); Iustitia member",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk', item 'Monika Frąckowiak'",
+     "label": "fact",
+     "label_scope": "Election stated by the list on this page; court presidency and Iustitia membership come from P2 and P6.",
+     "new_entities": [
+      "frackowiak | Monika Frąckowiak"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0052",
+     "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
+     "subject_type": "person",
+     "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia member per B2_appointments-P6)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk', item 'Bartłomiej Starosta'",
+     "label": "fact",
+     "label_scope": "Election stated by the list on this page; Iustitia membership comes from P6.",
+     "new_entities": [
+      "starosta | Bartłomiej Starosta (Iustitia member; KRS member from May 2026)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0053",
+     "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
+     "subject_type": "person",
+     "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (president of the administrative judges' association per B2_appointments-P6)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk', item 'Aleksandra Wrzesińska-Nowacka'",
+     "label": "fact",
+     "label_scope": "Election stated by the list on this page; association office comes from P6.",
+     "new_entities": [
+      "wrzesinska_nowacka | Aleksandra Wrzesińska-Nowacka (NSA judge; president of the National Association of Administrative Court Judges; KRS member from May 2026)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0054",
+     "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
+     "subject_type": "person",
+     "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (last chair of the pre-2018 KRS per B2_appointments-P6)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk', item 'Dariusz Zawistowski'",
+     "label": "fact",
+     "label_scope": "Election stated by the list on this page; prior KRS chair role comes from P6.",
+     "new_entities": [
+      "zawistowski | Dariusz Zawistowski"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "supreme_court",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0055",
+     "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
+     "subject_type": "person",
+     "relation": "Checked: not among the 15 judges the Sejm elected on 15 May 2026, although she (Themis board) placed 14th in the judges' assemblies' vote (B2_appointments-P4); Sławomir Cilulko (12th) is also absent; their places went to Piebiak (PiS) and Zawadzki (Konfederacja)",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-15",
+     "evidence_text": "Sejm wybrał 15 sędziów do Krajowej Rady Sądownictwa.",
+     "evidence_translation": "The Sejm elected 15 judges to the National Council of the Judiciary.",
+     "evidence_location": "list under heading 'Sejm wybrał nowych sędziów KRS. Na liście 15 nazwisk' (15 names; hers is not among them)",
+     "label": "no_link",
+     "label_scope": "Covers only her absence (and Cilulko's) from the elected list on this page, compared with the assemblies' ranking in P4. Which club dropped which candidate is not stated.",
+     "new_entities": [
+      "donhoffner_grodzicka | Beata Donhoffner-Grodzicka"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-P6",
+   "url": "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+   "host": "oko.press",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "Article read. Byline Mariusz Jałoszewski, 27 Feb 2026. The H1 says 'rekomendowanych przez niezależnych sędziów'; the page metadata title says 'rekomendowanych przez Iustitię'. The list was published on the Forum Współpracy Sędziów website after the Sejm resolution of 27 Feb 2026; the article gives no internal Iustitia selection procedure. 'Administarcyjnych' is a misspelling on the page, kept as written. Roles are stated for 8 of the 15; none is said to be delegated to the Justice Ministry.",
+   "page_title": "Lista 15 sędziów do KRS rekomendowanych przez niezależnych sędziów [NAZWISKA]",
+   "page_date": "2026-02-27",
+   "publisher": "OKO.press",
+   "capture_answer": "A 15-judge candidate list for the renewed KRS, published on the Forum Współpracy Sędziów site, backed by the Family Judges' Association, the National Association of Administrative Court Judges, Themis and Iustitia. Stated roles: Buchajczuk, Iustitia vice-president for finance; Starosta, Iustitia member; Frąckowiak, linked to Iustitia and MEDEL, court president after PiS lost power; Donhoffner-Grodzicka, Themis board; Wrzesińska-Nowacka, president of the administrative judges' association; Zawistowski, last chair of the pre-2018 KRS; Cilulko, vice-president of the Białystok Regional Court; Kierszka, disciplinary judge at the Gdańsk Court of Appeal. 13 of the 15 were elected by the Sejm on 15 May 2026 (P5).",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "names_listed": [
+    "Bartłomiej Starosta (SR Sulęcin)",
+    "Wojciech Buchajczuk (SR dla m.st. Warszawy)",
+    "Monika Frąckowiak (SR Poznań-Nowe Miasto i Wilda)",
+    "Beata Donhoffner-Grodzicka (SR dla Krakowa-Śródmieścia)",
+    "Karolina Bąk-Lasota (SR Katowice-Zachód)",
+    "Ewa Żołnierczuk-Dec (SR Rzeszów)",
+    "Magdalena Kierszka (SO Gdańsk)",
+    "Katarzyna Zawiślak (SO Wrocław)",
+    "Sławomir Cilulko (SO Białystok)",
+    "Edyta Jefimko (SA Warszawa)",
+    "Ewa Mierzejewska (SA Lublin)",
+    "Agnieszka Kobylińska-Bortkiewicz (WSO Warszawa)",
+    "Dariusz Zawistowski (SN)",
+    "Aleksandra Wrzesińska-Nowacka (NSA)",
+    "Jarosław Łuczaj (WSA Warszawa)"
+   ],
+   "names_found_in_page_text": "no page text captured",
+   "followup_urls": [
+    {
+     "url": "https://notesfrompoland.com/2026/02/27/polish-parliament-pledges-to-take-into-account-judiciarys-picks-for-council-at-heart-of-rule-of-law-dispute/",
+     "why": "The Sejm resolution of 27 Feb 2026 that set the selection method"
+    },
+    {
+     "url": "https://api.sejm.gov.pl/eli/acts/MP/2026/259/text.pdf",
+     "why": "Possibly the text of that resolution in Monitor Polski"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0056",
+     "subject": "themis",
+     "subject_type": "org",
+     "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Iustitia, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-02-27",
+     "evidence_text": "Sądów Administarcyjnych, Stowarzyszenie Sędziów Themis i Stowarzyszenie Sędziów Polskich Iustitia.",
+     "evidence_translation": "[...] of Administrative Courts, the Themis Judges' Association and the Polish Judges' Association Iustitia.",
+     "evidence_location": "lead section; end of the sentence that begins 'Popiera ją Stowarzyszenie Sędziów Rodzinnych w Polsce' ('It is supported by...')",
+     "label": "fact",
+     "label_scope": "Support for the list as stated by OKO.press; the full sentence names all four associations.",
+     "new_entities": [
+      "krs_2026 | National Council of the Judiciary renewed in May 2026",
+      "ssrp | Stowarzyszenie Sędziów Rodzinnych w Polsce (Family Judges' Association)",
+      "osssa | Ogólnopolskie Stowarzyszenie Sędziów Sądów Administracyjnych (National Association of Administrative Court Judges)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "themis",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0057",
+     "subject": "iustitia",
+     "subject_type": "org",
+     "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Themis, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-02-27",
+     "evidence_text": "Sądów Administarcyjnych, Stowarzyszenie Sędziów Themis i Stowarzyszenie Sędziów Polskich Iustitia.",
+     "evidence_translation": "[...] of Administrative Courts, the Themis Judges' Association and the Polish Judges' Association Iustitia.",
+     "evidence_location": "lead section; end of the sentence that begins 'Popiera ją Stowarzyszenie Sędziów Rodzinnych w Polsce'",
+     "label": "fact",
+     "label_scope": "Support for the list as stated by OKO.press; how Iustitia chose the names is not described.",
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
+      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)"
+     ]
+    },
+    {
+     "id": "B02-C0058",
+     "subject": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
+     "subject_type": "org",
+     "relation": "Published the 15-judge candidate list for the renewed KRS on its website",
+     "object": "Renewed National Council of the Judiciary (KRS, term from May 2026)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-02-27",
+     "evidence_text": "Listę kandydatów ujawniono na stronie Forum Współpracy Sędziów.",
+     "evidence_translation": "The list of candidates was disclosed on the website of the Judges' Cooperation Forum.",
+     "evidence_location": "section after the paragraph on the Sejm resolution",
+     "label": "fact",
+     "label_scope": "Place of publication as stated.",
+     "new_entities": [
+      "forum_wspolpracy_sedziow | Forum Współpracy Sędziów (Judges' Cooperation Forum)"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0059",
+     "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
+     "subject_type": "person",
+     "relation": "Vice-president of Iustitia for finance; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
+     "object": "iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-02-27",
+     "evidence_text": "Wojciech Buchajczuk z Sądu Rejonowego dla m.st. Warszawy. Jest wiceprezesem Iustitii do spraw finansowych.",
+     "evidence_translation": "Wojciech Buchajczuk of the District Court for the Capital City of Warsaw. He is Iustitia's vice-president for finance.",
+     "evidence_location": "section 'Kto jest na liście', entry on Buchajczuk",
+     "label": "fact",
+     "label_scope": "Office in Iustitia as stated; his election comes from P5.",
+     "new_entities": [
+      "buchajczuk | Wojciech Buchajczuk"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "synoradzki_bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0060",
+     "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
+     "subject_type": "person",
+     "relation": "Member of Iustitia; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
+     "object": "iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-02-27",
+     "evidence_text": "Bartłomiej Starosta z Sądu Rejonowego w Sulęcinie. Jest członkiem Iustitii.",
+     "evidence_translation": "Bartłomiej Starosta of the District Court in Sulęcin. He is a member of Iustitia.",
+     "evidence_location": "section 'Kto jest na liście', entry on Starosta",
+     "label": "fact",
+     "label_scope": "Membership as stated.",
+     "new_entities": [
+      "starosta | Bartłomiej Starosta"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0061",
+     "subject": "Monika Frąckowiak (judge, Poznań)",
+     "subject_type": "person",
+     "relation": "Linked to Iustitia and to the European judges' association MEDEL; became a district court president after PiS lost power",
+     "object": "medel",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-02-27",
+     "evidence_text": "Związana jest z Iustitią i z europejskim stowarzyszeniem sędziów MEDEL.",
+     "evidence_translation": "She is associated with Iustitia and with the European judges' association MEDEL.",
+     "evidence_location": "section 'Kto jest na liście', entry on Frąckowiak",
+     "label": "fact",
+     "label_scope": "Ties as stated ('związana' = associated; no office given). The same entry says: 'Po upadku władzy PiS została prezeską Sądu Rejonowego Poznań-Nowe Miasto i Wilda.'",
+     "new_entities": [
+      "frackowiak | Monika Frąckowiak"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "medel",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0062",
+     "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
+     "subject_type": "person",
+     "relation": "Themis board member; on the association-backed KRS list (not among those the Sejm elected, per P5)",
+     "object": "themis",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-02-27",
+     "evidence_text": "Beata Donhoffner-Grodzicka z Sądu Rejonowego dla Krakowa-Śródmieścia. Jest w zarządzie stowarzyszenia sędziów Themis.",
+     "evidence_translation": "Beata Donhoffner-Grodzicka of the District Court for Kraków-Śródmieście. She is on the board of the Themis judges' association.",
+     "evidence_location": "section 'Kto jest na liście', entry on Donhoffner-Grodzicka",
+     "label": "fact",
+     "label_scope": "Board membership as stated.",
+     "new_entities": [
+      "donhoffner_grodzicka | Beata Donhoffner-Grodzicka"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0063",
+     "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
+     "subject_type": "person",
+     "relation": "President of the National Association of Administrative Court Judges (one of the four associations backing the list); elected to the KRS 15 May 2026, per P5",
+     "object": "Ogólnopolskie Stowarzyszenie Sędziów Sądów Administracyjnych",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "2026-02-27",
+     "evidence_text": "Aleksandra Wrzesińska-Nowacka z Naczelnego Sądu Administracyjnego. Jest prezeską Ogólnopolskiego Stowarzyszenia Sędziów",
+     "evidence_translation": "Aleksandra Wrzesińska-Nowacka of the Supreme Administrative Court. She is president of the National Association of Judges [of Administrative Courts]",
+     "evidence_location": "section 'Kto jest na liście', entry on Wrzesińska-Nowacka (excerpt cut at 120 characters)",
+     "label": "fact",
+     "label_scope": "Association office as stated.",
+     "new_entities": [
+      "osssa | Ogólnopolskie Stowarzyszenie Sędziów Sądów Administracyjnych",
+      "wrzesinska_nowacka | Aleksandra Wrzesińska-Nowacka"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0064",
+     "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
+     "subject_type": "person",
+     "relation": "Last chair of the pre-2018 KRS, dissolved by PiS in 2018; on the association-backed list for the renewed KRS",
+     "object": "National Council of the Judiciary (KRS), terms ending 2018",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "To ostatni przewodniczący starej, legalnej KRS, którą w 2018 roku rozwiązał PiS.",
+     "evidence_translation": "He is the last chair of the old, legal KRS, which PiS dissolved in 2018.",
+     "evidence_location": "section 'Kto jest na liście', entry on Zawistowski",
+     "label": "fact",
+     "label_scope": "Past office as stated; 'legal' is OKO.press's wording. The same entry says he headed the SN Civil Chamber until 2022.",
+     "new_entities": [
+      "zawistowski | Dariusz Zawistowski",
+      "krs_old | National Council of the Judiciary (KRS) before the 2018 PiS reform"
+     ],
+     "access": "page_read_via_reader_extract",
+     "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "supreme_court",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
    "ref": "B3_state_boards-P1",
    "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/mikolaj-pietrzak",
    "host": "orlen.pl",
@@ -791,7 +2075,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0022",
+     "id": "B02-C0065",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Independent Member of the ORLEN Supervisory Board",
@@ -813,7 +2097,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0023",
+     "id": "B02-C0066",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "coordinated the HFHR programme 'Human Rights and Settlements with the Past'",
@@ -832,7 +2116,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0024",
+     "id": "B02-C0067",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Social Council of the Human Rights Ombudsman",
@@ -851,7 +2135,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0025",
+     "id": "B02-C0068",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Program Council of Amnesty International Poland",
@@ -870,7 +2154,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0026",
+     "id": "B02-C0069",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "co-founder of the Prof. Zbigniew Hołda Association",
@@ -889,7 +2173,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0027",
+     "id": "B02-C0070",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Dean of the District Bar Council in Warsaw since November 2016",
@@ -912,7 +2196,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0028",
+     "id": "B02-C0071",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "partner and co-founder of the law firm",
@@ -934,7 +2218,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0029",
+     "id": "B02-C0072",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "graduate of the Faculty of Law and Administration",
@@ -976,7 +2260,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0030",
+     "id": "B02-C0073",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "became president of Polskie Radio (chosen by the new supervisory board)",
@@ -1001,7 +2285,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0031",
+     "id": "B02-C0074",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "became president of Telewizja Polska",
@@ -1024,7 +2308,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0032",
+     "id": "B02-C0075",
      "subject": "Marek Błoński",
      "subject_type": "person",
      "relation": "became president of the Polish Press Agency (PAP)",
@@ -1047,7 +2331,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0033",
+     "id": "B02-C0076",
      "subject": "Bartłomiej Sienkiewicz",
      "subject_type": "person",
      "relation": "as Culture Minister appointed new supervisory boards of TVP, Polskie Radio and PAP, which then appointed the new management boards (after he dismissed the old boards on 19 Dec 2023)",
@@ -1114,7 +2398,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0034",
+     "id": "B02-C0077",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "described as a management board member of Miejskie Zakłady Autobusowe w Warszawie when picked as TVP president",
@@ -1135,7 +2419,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0035",
+     "id": "B02-C0078",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "worked in a city company under Warsaw Mayor Rafał Trzaskowski",
@@ -1200,7 +2484,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0036",
+     "id": "B02-C0079",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "liquidator of TVP SA w likwidacji",
@@ -1223,7 +2507,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0037",
+     "id": "B02-C0080",
      "subject": "Marek Suski (MP)",
      "subject_type": "person",
      "relation": "claims the liquidator was given the goal of liquidating the national broadcaster effectively",
@@ -1270,7 +2554,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0038",
+     "id": "B02-C0081",
      "subject": "kieszkowska",
      "subject_type": "person",
      "relation": "named as a State Treasury company board appointee",
@@ -1319,7 +2603,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0039",
+     "id": "B02-C0082",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the EP Delegation for relations with the United States (from 2024/09/19 per Parltrack)",
@@ -1342,7 +2626,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0040",
+     "id": "B02-C0083",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "shadow rapporteur for the responsible committee (LIBE) on the Article 7 file on Hungary",
@@ -1366,7 +2650,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0041",
+     "id": "B02-C0084",
      "subject": "Kamil KLOPOCKI",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape; not on the EP's current list (1 Nov 2026)",
@@ -1385,7 +2669,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0042",
+     "id": "B02-C0085",
      "subject": "Sylwia TYRA-WŁOSTOWSKA",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape (same slot also shows 'Sylwia TYRA'); not on the EP's current list",
@@ -1404,7 +2688,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0043",
+     "id": "B02-C0086",
      "subject": "Maciej Pawel JELENSKI",
      "subject_type": "person",
      "relation": "listed as accredited assistant (grouping) in Parltrack's scrape; not on the EP's current list",
@@ -1423,7 +2707,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0044",
+     "id": "B02-C0087",
      "subject": "Arkadiusz CHOROBIK",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -1442,7 +2726,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0045",
+     "id": "B02-C0088",
      "subject": "Andrzej PRENDKE",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -1461,7 +2745,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0046",
+     "id": "B02-C0089",
      "subject": "Jakub Shebani SEWEHLI",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -1508,7 +2792,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0047",
+     "id": "B02-C0090",
      "subject": "KATARZYNA IZABELA NIEDŹWIECKA",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -1527,7 +2811,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0048",
+     "id": "B02-C0091",
      "subject": "Dominika Julia OLASZEK",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -1546,7 +2830,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0049",
+     "id": "B02-C0092",
      "subject": "Piotr Aleksander PŁACHTA",
      "subject_type": "person",
      "relation": "accredited assistant (also on Parltrack's earlier snapshot, P1)",
@@ -1565,7 +2849,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0050",
+     "id": "B02-C0093",
      "subject": "Jakub KARWANSKI",
      "subject_type": "person",
      "relation": "accredited assistant (grouping)",
@@ -1584,7 +2868,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0051",
+     "id": "B02-C0094",
      "subject": "Wojciech CHUDY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -1603,7 +2887,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0052",
+     "id": "B02-C0095",
      "subject": "Jan JEZIORNY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -1622,7 +2906,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0053",
+     "id": "B02-C0096",
      "subject": "MICHALINA LYSIAK",
      "subject_type": "person",
      "relation": "local assistant",
@@ -1641,7 +2925,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0054",
+     "id": "B02-C0097",
      "subject": "Pawel JAROMIN",
      "subject_type": "person",
      "relation": "paying agent for his office",
@@ -1660,7 +2944,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0055",
+     "id": "B02-C0098",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no national party membership on the EP record: listed as 'Independent (Poland)'",
@@ -1726,7 +3010,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0056",
+     "id": "B02-C0099",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "filed his declaration of private interests three times: original 16-07-2024, revision no 1 on 29-01-2026, revision no 2 on 10-09-2026",
@@ -1746,7 +3030,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0057",
+     "id": "B02-C0100",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "rapporteur for the LIBE opinion on procedure 2025/2061(INI) (declared 07-04-2025)",
@@ -1766,7 +3050,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0058",
+     "id": "B02-C0101",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on the Hungary Article 7 file 2018/0902(NLE) (declared 10-09-2025)",
@@ -1786,7 +3070,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0059",
+     "id": "B02-C0102",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on legislative procedure 2025/0255(COD) (declared 09-02-2026)",
@@ -1806,7 +3090,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0060",
+     "id": "B02-C0103",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "JURI shadow rapporteur for the opinion on 2025/2263(INI) (declared 11-06-2026)",
@@ -1826,7 +3110,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0061",
+     "id": "B02-C0104",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE rapporteur on 2026/2144(INI), conflict-of-interest declaration dated 09-10-2026",
@@ -1846,7 +3130,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0062",
+     "id": "B02-C0105",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "took part in four official EUDS delegations (declarations 10-04-2025 twice, 14-07-2025, 22-03-2026)",
@@ -1869,7 +3153,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0063",
+     "id": "B02-C0106",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared official LIBE delegations (27-03-2025, 07-04-2025, 21-01-2026, 07-09-2026, 14-09-2026, 22-09-2026) and JURI delegations (07-04-2025, 29-01-2026, 09-02-2026, 30-09-2026)",
@@ -1897,7 +3181,7 @@
      ]
     },
     {
-     "id": "B02-C0064",
+     "id": "B02-C0107",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared attendance at six events organised by third parties: 04-12-2024, 27-01-2025, 04-11-2025, 24-02-2026, 24-06-2026, 25-06-2026",
@@ -1944,7 +3228,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0065",
+     "id": "B02-C0108",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the Bar Exam Committee until 2023, paid 1425 EUR once a year",
@@ -1969,7 +3253,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0066",
+     "id": "B02-C0109",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lecturer at SWPS University in 2022 only, one-off 220 EUR",
@@ -1994,7 +3278,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0067",
+     "id": "B02-C0110",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lawyer at Wawrykiewicz Law Firm: 151917 PLN income for 2024; 2025 income deferred until after 30 April 2026",
@@ -2024,7 +3308,7 @@
      ]
     },
     {
-     "id": "B02-C0068",
+     "id": "B02-C0111",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "partnership holding in Wawrykiewicz Law Firm: no income in 2024, 2025 income to follow",
@@ -2050,7 +3334,7 @@
      ]
     },
     {
-     "id": "B02-C0069",
+     "id": "B02-C0112",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Saag sp. z o.o. not declared in revision no 1",
@@ -2075,7 +3359,7 @@
      ]
     },
     {
-     "id": "B02-C0070",
+     "id": "B02-C0113",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "MW Estate Consulting sp. z o.o. not declared in revision no 1",
@@ -2100,7 +3384,7 @@
      ]
     },
     {
-     "id": "B02-C0071",
+     "id": "B02-C0114",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Energy Efficiency Engineering S.A. supervisory board seat not declared in revision no 1",
@@ -2127,7 +3411,7 @@
      ]
     },
     {
-     "id": "B02-C0072",
+     "id": "B02-C0115",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no declared financial, staff or material support from Free Courts or any other third party",
@@ -2172,7 +3456,7 @@
    },
    "claims": [
     {
-     "id": "B02-C0073",
+     "id": "B02-C0116",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "invited him to 'Presentation of the BSP Position on the EU Multiannual Financial Framework 2028–2034', Brussels, 24/02/2026",
@@ -2195,7 +3479,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0074",
+     "id": "B02-C0117",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "form marks travel, accommodation and subsistence as not covered",
@@ -2215,7 +3499,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0075",
+     "id": "B02-C0118",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration 21/07/2026, 147 days after the 24/02/2026 event, past the form's 60-day limit",
@@ -2937,6 +4221,651 @@
      "title": "Legal opinion on the responsibility of a minister for non-compliance with European Union law Cover Image",
      "url": "https://ceeol.com/search/article-detail?id=564290",
      "why": "Published legal opinion on EU-law liability; author not seen"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Sejm wybrał sędziów członków KRS 2026 lista nazwisk Iustitia Themis",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Nowi sędziowie KRS wybrani przez Sejm. Wśród nich współpracownik Ziobry",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
+     "why": "Sejm vote of 15 May 2026 electing 15 judge-members of the KRS; read as P5"
+    },
+    {
+     "rank": 2,
+     "title": "lista 15 sedziow do krs rekomendowanych przez iustitie nazwiska",
+     "url": "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+     "why": "candidate list backed by Iustitia, Themis and two other associations; read as P6"
+    },
+    {
+     "rank": 3,
+     "title": "Sędziowie do KRS wybrani. Sejm zdecydował. Lista nazwisk",
+     "url": "https://gazetaprawna.pl/prawnik/zawody-prawnicze/artykuly/11247716,sedziowie-do-krs-wybrani-sejm-zdecydowal-lista-nazwisk.html",
+     "why": "list of elected KRS judges; fetch failed (P3)"
+    },
+    {
+     "rank": 4,
+     "title": "zwyciestwo 15 sedziow z listy praworzadnosciowej w wyborach do krs radzik dostal tylko 14 glosow",
+     "url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
+     "why": "judges' assemblies opinion vote with vote counts; read as P4"
+    },
+    {
+     "rank": 9,
+     "title": "neo sedzia sn zaradkiewicz i byla zastepczyni ziobry startuja do odnowionej krs",
+     "url": "https://oko.press/neo-sedzia-sn-zaradkiewicz-i-byla-zastepczyni-ziobry-startuja-do-odnowionej-krs",
+     "why": "other candidates for the renewed KRS (balance)"
+    },
+    {
+     "rank": 12,
+     "title": "sedzia piebiak w odnowionej krs koalicja nie ma wyboru",
+     "url": "https://oko.press/sedzia-piebiak-w-odnowionej-krs-koalicja-nie-ma-wyboru",
+     "why": "why the coalition had to include PiS's candidate Piebiak"
+    },
+    {
+     "rank": 14,
+     "title": "Sejm zagłosował ws. nowych członków KRS. Jest decyzja",
+     "url": "https://wydarzenia.interia.pl/kraj/news-sejm-zaglosowal-ws-nowych-czlonkow-krs-jest-decyzja,nId,23478242",
+     "why": "second report of the KRS vote"
+    },
+    {
+     "rank": 15,
+     "title": "polish parliament pledges to take into account judiciarys picks for council at heart of rule of law dispute",
+     "url": "https://notesfrompoland.com/2026/02/27/polish-parliament-pledges-to-take-into-account-judiciarys-picks-for-council-at-heart-of-rule-of-law-dispute/",
+     "why": "Sejm resolution of 27 Feb 2026 on the selection method"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Krajowa Szkoła Sądownictwa i Prokuratury nowy dyrektor powołany Bodnar 2024",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "odnowa prokuratury wrzosek i korneluk startuja w konkursie na prokuratora krajowego",
+     "url": "https://oko.press/odnowa-prokuratury-wrzosek-i-korneluk-startuja-w-konkursie-na-prokuratora-krajowego",
+     "why": "prosecutors' posts (Wrzosek of Lex Super Omnia) in the National Prosecutor contest"
+    },
+    {
+     "rank": 2,
+     "title": "jest nowy kandydat na dyrektora kssip prof girdwoyn",
+     "url": "https://oko.press/jest-nowy-kandydat-na-dyrektora-kssip-prof-girdwoyn",
+     "why": "Bodnar's candidate for KSSiP director"
+    },
+    {
+     "rank": 3,
+     "title": "wazna decyzja bodnara sedzia zurek symbol wolnych sadow zostal wicedyrektorem kssip",
+     "url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+     "why": "Żurek appointed KSSiP deputy director by Bodnar; read as P1"
+    },
+    {
+     "rank": 6,
+     "title": "bodnar odwolal neo sedziego zaradkiewicza i prezesa od ziobry powolal tez nowych szefow prokuratur",
+     "url": "https://oko.press/bodnar-odwolal-neo-sedziego-zaradkiewicza-i-prezesa-od-ziobry-powolal-tez-nowych-szefow-prokuratur",
+     "why": "removal of the previous KSSiP director and new prosecution heads"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Rada Legislacyjna przy Prezesie Rady Ministrów skład członkowie powołani 2024 przewodniczący",
+   "useful_results": [
+    {
+     "rank": 3,
+     "title": "Prof. Marek Zubik nowym przewodniczącym Rady Legislacyjnej",
+     "url": "https://www.prawo.pl/prawnicy-sady/prof-marek-zubik-nowym-przewodniczacym-rady-legislacyjnej,171133.html",
+     "why": "chair of the Legislative Council (date not shown in the title)"
+    },
+    {
+     "rank": 4,
+     "title": "DZU.2024.249.0001329,rozporzadzenie prezesa rady ministrow w sprawie rady legislacyjnej",
+     "url": "https://www.infor.pl/akt-prawny/DZU.2024.249.0001329,rozporzadzenie-prezesa-rady-ministrow-w-sprawie-rady-legislacyjnej.html",
+     "why": "new 2024 PM regulation on the Legislative Council"
+    },
+    {
+     "rank": 16,
+     "title": "HISTORIA RADY LEGISLACYJNEJ",
+     "url": "https://www.gov.pl/web/radalegislacyjna/historia-rady-legislacyjnej",
+     "why": "official history page, likely with chairs and terms"
+    },
+    {
+     "rank": 17,
+     "title": "Skład Rady",
+     "url": "https://www.gov.pl/web/premier/sklad-rady",
+     "why": "official membership page"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej powołany 2024 premier Tusk nowy prezes",
+   "useful_results": [
+    {
+     "rank": 4,
+     "title": "prokurator jacek bilewicz zastepca prokuratora generalnego,528219",
+     "url": "https://www.prawo.pl/prawnicy-sady/prokurator-jacek-bilewicz-zastepca-prokuratora-generalnego,528219.html",
+     "why": "Deputy Prosecutor General appointment (2024); no Prokuratoria Generalna result"
+    },
+    {
+     "rank": 5,
+     "title": "premier powolal jacka bilewicza na zastepce prokuratora generalnego",
+     "url": "https://radio.lublin.pl/2024/07/premier-powolal-jacka-bilewicza-na-zastepce-prokuratora-generalnego",
+     "why": "PM appointed Bilewicz Deputy Prosecutor General (July 2024 per URL path)"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "zastępca Rzecznika Praw Obywatelskich powołany 2026 Gregorczyk-Abram zastępcy RPO Krzywoń",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "ujawniamy kulisy odwolania zastepcy rpo partyjny deal w instytucji ktora powinna byc niezalezna",
+     "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
+     "why": "alleged party deal over a deputy Ombudsman"
+    },
+    {
+     "rank": 3,
+     "title": "w tyl zwrot rpo wycofuje sie z zastepcy z politycznego nadania",
+     "url": "https://oko.press/w-tyl-zwrot-rpo-wycofuje-sie-z-zastepcy-z-politycznego-nadania",
+     "why": "Ombudsman withdraws a politically nominated deputy"
+    },
+    {
+     "rank": 8,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich",
+     "why": "primary record of Adam Krzywoń's appointment as deputy Ombudsman (URL slug)"
+    },
+    {
+     "rank": 9,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/content/zastepcy-rpo",
+     "why": "official list of deputy Ombudsmen"
+    },
+    {
+     "rank": 10,
+     "title": "Kontrowersyjna kandydatka na RPO. Szykuje się spór w koalicji?",
+     "url": "https://www.wprost.pl/12296646",
+     "why": "coalition dispute over an Ombudsman candidate (party ties)"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Bodnar powołał nowych prezesów sądów 2024 członkowie Iustitii prezes sądu apelacyjnego okręgowego nazwiska",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "bodnar powolal trzech wiceprezesow najwiekszego sadu w polsce sa tez nowe dymisje nominatow ziobry",
+     "url": "https://oko.press/bodnar-powolal-trzech-wiceprezesow-najwiekszego-sadu-w-polsce-sa-tez-nowe-dymisje-nominatow-ziobry",
+     "why": "vice-presidents of the largest court appointed by Bodnar"
+    },
+    {
+     "rank": 2,
+     "title": "bodnar powolal prezesow sadow",
+     "url": "https://oko.press/bodnar-powolal-prezesow-sadow",
+     "why": "list of court presidents appointed by Bodnar"
+    },
+    {
+     "rank": 3,
+     "title": "walczyli o praworzadnosc teraz prezesami sadow",
+     "url": "https://oko.press/walczyli-o-praworzadnosc-teraz-prezesami-sadow",
+     "why": "court presidents with association ties; read as P2"
+    },
+    {
+     "rank": 5,
+     "title": "najwiekszy sad w polsce ma nowego prezesa bodnar ma tez zgode na odwolanie 5 prezesow z przemysla",
+     "url": "https://oko.press/najwiekszy-sad-w-polsce-ma-nowego-prezesa-bodnar-ma-tez-zgode-na-odwolanie-5-prezesow-z-przemysla",
+     "why": "new president of the largest court"
+    },
+    {
+     "rank": 6,
+     "title": "sedzia frackowiak walczyla o sady teraz zostala prezeska sadu w poznaniu lista nowych prezesow",
+     "url": "https://oko.press/sedzia-frackowiak-walczyla-o-sady-teraz-zostala-prezeska-sadu-w-poznaniu-lista-nowych-prezesow",
+     "why": "Frąckowiak (Iustitia) as court president, list of new presidents"
+    },
+    {
+     "rank": 14,
+     "title": "bodnar wszczal procedure odwolania 81 prezesow i wiceprezesow a powolal ich ponad 110",
+     "url": "https://oko.press/bodnar-wszczal-procedure-odwolania-81-prezesow-i-wiceprezesow-a-powolal-ich-ponad-110",
+     "why": "scale: 81 dismissal procedures, over 110 appointments"
+    },
+    {
+     "rank": 16,
+     "title": "bodnar konczy wymiane prezesow sadow apelacyjnych i okregowych neo sedziowie rzadza tylko 4 sadami",
+     "url": "https://oko.press/bodnar-konczy-wymiane-prezesow-sadow-apelacyjnych-i-okregowych-neo-sedziowie-rzadza-tylko-4-sadami",
+     "why": "completion of the replacement of appellate and regional court presidents"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Żurek nowy wiceminister sprawiedliwości sekretarz stanu powołany 2025 2026 sędzia",
+   "useful_results": [
+    {
+     "rank": 2,
+     "title": "Sedzia Slawomir Palka nowym wiceministrem sprawiedliwosci 9023109",
+     "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
+     "why": "judge appointed deputy justice minister (Żurek era judging by the article id)"
+    },
+    {
+     "rank": 5,
+     "title": "zurek odwolal prezesow warszawa elblag",
+     "url": "https://oko.press/zurek-odwolal-prezesow-warszawa-elblag",
+     "why": "Żurek's court-president changes"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "PACE elects judge in respect of Poland European Court of Human Rights candidates list 2024 2025",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Election of judges to the European Court of Human Rights",
+     "url": "https://pace.coe.int/files/33717/html",
+     "why": "PACE document on the judges' election (likely with candidates' CVs)"
+    },
+    {
+     "rank": 4,
+     "title": "Logo Assembly Logo Hemicycle",
+     "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+     "why": "PACE news item on the election of Anna Adamska-Gallant (URL slug)"
+    },
+    {
+     "rank": 15,
+     "title": "MFA: Prof. Adam Wiśniewski is Poland's official candidate for judge of the European Court of Human Rights",
+     "url": "https://en.prawo.ug.edu.pl/node/112844",
+     "why": "another candidate on Poland's list"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Komisja Kodyfikacyjna Prawa Karnego powołanie członków 2024 Bodnar przewodniczący skład",
+   "useful_results": [
+    {
+     "rank": 2,
+     "title": "minister bodnar powolal komisje kodyfikacyjna ktora ma zreformowac sady i prokurature",
+     "url": "https://oko.press/minister-bodnar-powolal-komisje-kodyfikacyjna-ktora-ma-zreformowac-sady-i-prokurature",
+     "why": "KKUSiP appointment (already on map via gov.pl)"
+    },
+    {
+     "rank": 3,
+     "title": "prof safjan i jego komisja zreformuja prawo cywilne",
+     "url": "https://oko.press/prof-safjan-i-jego-komisja-zreformuja-prawo-cywilne",
+     "why": "civil-law codification commission chaired by Prof. Safjan"
+    },
+    {
+     "rank": 4,
+     "title": "DZU.2025.002.0000003,rozporzadzenie rady ministrow w sprawie utworzenia organizacji i trybu dzialania komisji kodyfikacyjnej prawa karnego",
+     "url": "https://www.infor.pl/akt-prawny/DZU.2025.002.0000003,rozporzadzenie-rady-ministrow-w-sprawie-utworzenia-organizacji-i-trybu-dzialania-komisji-kodyfikacyjnej-prawa-karnego.html",
+     "why": "2025 regulation creating the criminal-law codification commission"
+    },
+    {
+     "rank": 12,
+     "title": "powolanie czlonkow komisji kodyfikacyjnej prawa rodzinnego",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-prawa-rodzinnego",
+     "why": "official list of family-law codification commission members"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Rudzińska-Bluszcz odchodzi z Ministerstwa Sprawiedliwości 2025 nowa funkcja",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Rudzińska-Bluszcz odchodzi z Ministerstwa Sprawiedliwości",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10970054,rudzinskabluszcz-odchodzi-z-ministerstwa-sprawiedliwosci.html",
+     "why": "her exit from the ministry (no new post in the titles)"
+    },
+    {
+     "rank": 3,
+     "title": "Nagła dymisja w resorcie sprawiedliwości. \"Dziś złożyłam rezygnację\"",
+     "url": "https://www.polsatnews.pl/wiadomosc/2025-08-04/nagla-dymisja-w-resorcie-dzis-zlozylam-rezygnacje/",
+     "why": "resignation dated 4 Aug 2025"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Venice Commission member in respect of Poland appointed 2024 new member substitute",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Professor Wojciech Sadurski Appointed Member of the Venice Commission",
+     "url": "https://www.isp.org.pl/en/news/professor-wojciech-sadurski-appointed-member-of-the-venice-commission",
+     "why": "ISP (on map) announces Sadurski's Venice Commission appointment"
+    },
+    {
+     "rank": 2,
+     "title": "www.coe.int",
+     "url": "https://www.coe.int/en/web/venice-commission/poland",
+     "why": "Venice Commission's Poland page (members)"
+    },
+    {
+     "rank": 7,
+     "title": "Announcement: Prof Wojciech Sadurski Nominated to Venice Commission",
+     "url": "https://blog-iacl-aidc.org/announcements/2026/3/10/announcement-prof-wojciech-sadurski-nominated-to-venice-commission",
+     "why": "date of the nomination (March 2026 per URL)"
+    },
+    {
+     "rank": 8,
+     "title": "new members of venice commission appointed",
+     "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
+     "why": "primary MFA notice"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "sędzia z Iustitii dyrektorem departamentu Ministerstwa Sprawiedliwości 2024 delegowany Bodnar powołał dyrektora",
+   "useful_results": []
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Sławomir Pałka sędzia wiceminister sprawiedliwości Iustitia Themis stowarzyszenie życiorys",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Sedzia Slawomir Palka nowym wiceministrem sprawiedliwosci 9023109",
+     "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
+     "why": "only hit on Pałka; no association shown in titles"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "sejm wybral czterech poslow do krs nie zatwierdzono kandydatow przedstawionych przez",
+     "url": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez",
+     "why": "MP-members of the KRS and their clubs"
+    },
+    {
+     "rank": 3,
+     "title": "Sejm wybral 15 sedziow do Krajowej Rady Sadownictwa Poslowie PiS wyszli z sali 9133785",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-15-sedziow-do-Krajowej-Rady-Sadownictwa-Poslowie-PiS-wyszli-z-sali-9133785.html",
+     "why": "PAP-based report of the 15 May 2026 vote"
+    },
+    {
+     "rank": 7,
+     "title": "Zaskakujaca zgoda KO i PiS Sedziowskie prawybory sposobem na nowa KRS 9089633",
+     "url": "https://www.bankier.pl/wiadomosc/Zaskakujaca-zgoda-KO-i-PiS-Sedziowskie-prawybory-sposobem-na-nowa-KRS-9089633.html",
+     "why": "KO and PiS agreement on judges' primaries"
+    },
+    {
+     "rank": 9,
+     "title": "Senat wybrał swoich przedstawicieli do KRS. Znamy ich nazwiska",
+     "url": "https://www.wprost.pl/11494537",
+     "why": "senator-members of the KRS"
+    },
+    {
+     "rank": 10,
+     "title": "poslowie klubow koalicyjnych wybor kandydatow pis i konfederacji do krs jest",
+     "url": "https://www.pap.pl/aktualnosci/poslowie-klubow-koalicyjnych-wybor-kandydatow-pis-i-konfederacji-do-krs-jest",
+     "why": "coalition MPs on including PiS and Konfederacja picks"
+    },
+    {
+     "rank": 11,
+     "title": "sejm wybral 15 sedziow do krajowej rady sadownictwa",
+     "url": "https://www.pap.pl/aktualnosci/sejm-wybral-15-sedziow-do-krajowej-rady-sadownictwa",
+     "why": "PAP wire on the 15 May 2026 vote"
+    },
+    {
+     "rank": 12,
+     "title": "Jarosław Urbaniak nowym członkiem KRS",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10970904,jaroslaw-urbaniak-nowym-czlonkiem-krs.html",
+     "why": "MP-member change in the KRS"
+    },
+    {
+     "rank": 13,
+     "title": "Senatorowie rozmawiają o kandydaturach do KRS. Jest lista nazwisk",
+     "url": "https://www.gazetaprawna.pl/twoje-prawo/artykuly/10874688,kandydatura-do-krs-lista-nazwisk.html",
+     "why": "Senate candidates for the KRS"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Kieszkowska-Knapik OR Bychawska-Siniarska powołana członkini rada komisja 2024 2025 Wolne Sądy Helsińska",
+   "useful_results": [
+    {
+     "rank": 10,
+     "title": "zurek is preparing plan b possible liquidation of the current national council of the judiciary by a resolution of the sejm",
+     "url": "https://groundnews.lakegeneva.lib.wi.us/article/zurek-is-preparing-plan-b-possible-liquidation-of-the-current-national-council-of-the-judiciary-by-a-resolution-of-the-sejm",
+     "why": "Żurek plan to end the neo-KRS by Sejm resolution (incidental)"
+    },
+    {
+     "rank": 15,
+     "title": "Komisja Kodyfikacyjna Ustroju Sądownictwa i Prokuratury",
+     "url": "https://www.gov.pl/web/sprawiedliwosc/komisja-kodyfikacyjna-ustroju-sadownictwa-i-prokuratury",
+     "why": "KKUSiP main page (current members); nothing on Kieszkowska-Knapik or Bychawska-Siniarska"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "uchwała Sejmu wybór członków Krajowej Rady Sądownictwa sędziów maj 2026 Monitor Polski",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/eli/acts/MP/2026/259/text.pdf",
+     "why": "Monitor Polski 2026 item 259, possibly the 27 Feb 2026 Sejm resolution on KRS selection"
+    },
+    {
+     "rank": 5,
+     "title": "Wybór członków KRS planowany 13-15 maja",
+     "url": "https://xyz.pl/?p=189155",
+     "why": "timing of the KRS election"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 57. posiedzenie, 4. dzień (15-05-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/57/2026-05-15/transcripts/038",
+     "why": "Sejm transcript of the day of the KRS vote"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 52. posiedzenie, 2. dzień (26-02-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/52/2026-02-26/transcripts/155",
+     "why": "Sejm debate on the resolution on KRS selection"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 57. posiedzenie, 4. dzień (15-05-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/57/2026-05-15/transcripts/036",
+     "why": "second transcript segment of 15 May 2026"
+    },
+    {
+     "rank": 10,
+     "title": "eli.gov.pl",
+     "url": "https://eli.gov.pl/api/acts/MP/2026/513/text/I/M20260513.pdf",
+     "why": "Monitor Polski 2026 item 513, possibly the KRS election resolution"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Haładyj odwołany prezes Prokuratorii Generalnej następca powołany 2024",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Sejm niemal jednogłośnie powołał Mariusza Haładyja na prezesa NIK",
+     "url": "https://xyz.pl/dzieje-sie/sejm-powolal-mariusza-haladyja-na-prezesa-nik-1293",
+     "why": "Prokuratoria head Haładyj elected NIK president"
+    },
+    {
+     "rank": 8,
+     "title": "Hołownia proponuje, Tusk się zgadza. To on ma zastąpić Banasia",
+     "url": "https://www.wprost.pl/12083773",
+     "why": "Hołownia proposed, Tusk agreed (party tie)"
+    },
+    {
+     "rank": 10,
+     "title": "art42771011 to kandydat koalicji na nowego szefa nik minister podal nazwisko lewica ma zastrzezenia",
+     "url": "https://www.rp.pl/polityka/art42771011-to-kandydat-koalicji-na-nowego-szefa-nik-minister-podal-nazwisko-lewica-ma-zastrzezenia",
+     "why": "Lewica reservations (party tie)"
+    },
+    {
+     "rank": 12,
+     "title": "Minister o \"uzgodnionej kandydaturze\". Posłanka Lewicy: nie z nami",
+     "url": "https://tvn24.pl/polska/minister-podal-nazwisko-wspolnego-kandydata-koalicji-rzadzacej-na-szefa-nik-poslanka-lewicy-anna-maria-zukowska-komentuje-st8576828",
+     "why": "Lewica MP Anna Maria Żukowska (per URL) says the candidate was not agreed with Lewica"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "rząd Tuska kandydat na sędziego Trybunału Sprawiedliwości UE 2024 2025 Polska nominacja TSUE sędzia rzecznik generalny",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Adam Bodnar upomina się o wybór przez Polskę sędziego do TSUE. Rząd planuje konkurs, ale harmonogramu brak",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10968622,adam-bodnar-upomina-sie-o-wybor-przez-polske-sedziego-do-tsue-rzad-pl.html",
+     "why": "CJEU judge selection still open while Bodnar was minister"
+    },
+    {
+     "rank": 8,
+     "title": "MINISTER DO SPRAW UNII EUROPEJSKIEJ",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/03/tresc_ogloszenia_o_konkursie_-_TSUE.docx",
+     "why": "CJEU competition notice hosted on the Osiatyński Archive site (March 2024 path)"
+    },
+    {
+     "rank": 12,
+     "title": "wybory tsue",
+     "url": "https://hfhr.pl/upload/2024/03/wybory-tsue.pdf",
+     "why": "HFHR document on the CJEU selection (March 2024 path)"
+    },
+    {
+     "rank": 16,
+     "title": "wybor kandydatow z polski na sedziego tsue znamy 6 nazwisk",
+     "url": "https://oko.press/wybor-kandydatow-z-polski-na-sedziego-tsue-znamy-6-nazwisk",
+     "why": "six names in the CJEU candidate contest"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "nowy ambasador RP 2024 2025 wcześniej Helsińska Fundacja Praw Człowieka OR Fundacja Batorego OR Komitet Obrony Demokracji",
+   "useful_results": []
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Polish judge appointed General Court OR Court of Justice EU 2025 Poland nominee rule of law association Iustitia member",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "The Polish Government is looking for candidates to the office of judge of Court of Justice of the EU",
+     "url": "https://ruleoflaw.pl/the-polish-government-is-looking-for-candidates-to-the-office-of-judge-of-court-of-justice-of-the-eu",
+     "why": "CJEU contest announcement"
+    },
+    {
+     "rank": 4,
+     "title": "The government approved a Polish candidate to the office of judge of the CJEU",
+     "url": "https://ruleoflaw.pl/the-government-approved-a-polish-candidate-to-the-office-of-judge-of-the-cjeu/",
+     "why": "names the approved CJEU candidate"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Akcja Demokracja OR KOD działacz OR działaczka powołany doradca premiera OR wiceminister OR pełnomocnik rządu 2024 2025",
+   "useful_results": []
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Adam Krzywoń zastępca RPO Helsińska Fundacja OR Wolne Sądy OR Bodnar biuro RPO prof. konstytucjonalista",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich",
+     "why": "appointment notice (URL slug)"
+    },
+    {
+     "rank": 3,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/osoba/dr-hab-adam-krzywon",
+     "why": "official biography"
+    },
+    {
+     "rank": 5,
+     "title": "zrpo adam krzywon",
+     "url": "https://www.gov.pl/web/sygnalisci/zrpo-adam-krzywon",
+     "why": "government page naming him as deputy Ombudsman"
+    },
+    {
+     "rank": 12,
+     "title": "Dr hab. Adam Krzywoń",
+     "url": "https://zpc.wpia.uw.edu.pl/en/section-of-human-rights/collaborators-of-the-centre-for-human-rights/dr-hab-adam-krzywon/",
+     "why": "UW Human Rights Centre collaborator profile"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "Anna Adamska-Gallant sędzia ETPC Iustitia członek stowarzyszenia EULEX wybrana Strasburg",
+   "useful_results": [
+    {
+     "rank": 3,
+     "title": "anna adamska gallant sedzia europejskiego trybunalu praw czlowieka",
+     "url": "https://oko.press/anna-adamska-gallant-sedzia-europejskiego-trybunalu-praw-czlowieka",
+     "why": "her election as ECtHR judge for Poland"
+    },
+    {
+     "rank": 4,
+     "title": "trojka polskich kandydatow na sedziego europejskiego trybunalu praw czlowieka",
+     "url": "https://oko.press/trojka-polskich-kandydatow-na-sedziego-europejskiego-trybunalu-praw-czlowieka",
+     "why": "the government's three-name list"
+    },
+    {
+     "rank": 6,
+     "title": "polska prawniczka zostala sedzia w strasburgu kim jest anna adamska gallant",
+     "url": "https://www.pap.pl/aktualnosci/polska-prawniczka-zostala-sedzia-w-strasburgu-kim-jest-anna-adamska-gallant",
+     "why": "biography"
+    },
+    {
+     "rank": 8,
+     "title": "Dr. Anna Adamska-Gallant appointed judge of the ECtHR",
+     "url": "https://en.prawo.ug.edu.pl/node/112854",
+     "why": "university announcement"
+    },
+    {
+     "rank": 9,
+     "title": "Anna Adamska-Gallant",
+     "url": "https://www.echr.coe.int/w/anna-adamska-gallant",
+     "why": "official ECtHR CV"
+    },
+    {
+     "rank": 16,
+     "title": "art40852211 kto polskim sedzia w strasburgu kandydaci wysluchani w senacie",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art40852211-kto-polskim-sedzia-w-strasburgu-kandydaci-wysluchani-w-senacie",
+     "why": "Senate hearing of the candidates"
+    }
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "query": "dyrektor Krajowej Szkoły Sądownictwa i Prokuratury 2025 powołany Girdwoyn Żurek wicedyrektor",
+   "useful_results": [
+    {
+     "rank": 1,
+     "title": "wazna decyzja bodnara sedzia zurek symbol wolnych sadow zostal wicedyrektorem kssip",
+     "url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+     "why": "read as P1"
+    },
+    {
+     "rank": 6,
+     "title": "Piotr Girdwoyń nowym dyrektorem Krajowej Szkoły Sądownictwa i Prokuratury",
+     "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10954669,piotr-girdwoyn-nowym-dyrektorem-krajowej-szkoly-sadownictwa-i-prokurat.html",
+     "why": "appointment of the KSSiP director"
     }
    ]
   },
@@ -3706,6 +5635,543 @@
    "title_check": "exact"
   },
   {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Sędziowie do KRS wybrani. Sejm zdecydował. Lista nazwisk",
+   "url": "https://gazetaprawna.pl/prawnik/zawody-prawnicze/artykuly/11247716,sedziowie-do-krs-wybrani-sejm-zdecydowal-lista-nazwisk.html",
+   "gist": "The Sejm elected the judge-members of the KRS; the page carries the list of names (fetch failed)",
+   "query": "Sejm wybrał sędziów członków KRS 2026 lista nazwisk Iustitia Themis",
+   "entities": [
+    "Sejm",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Sejm wybral 15 sedziow do Krajowej Rady Sadownictwa Poslowie PiS wyszli z sali 9133785",
+   "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-15-sedziow-do-Krajowej-Rady-Sadownictwa-Poslowie-PiS-wyszli-z-sali-9133785.html",
+   "gist": "The Sejm elected 15 judges to the KRS; PiS MPs left the chamber",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "Sejm",
+    "KRS",
+    "PiS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Zaskakujaca zgoda KO i PiS Sedziowskie prawybory sposobem na nowa KRS 9089633",
+   "url": "https://www.bankier.pl/wiadomosc/Zaskakujaca-zgoda-KO-i-PiS-Sedziowskie-prawybory-sposobem-na-nowa-KRS-9089633.html",
+   "gist": "KO and PiS agreed that judges' primaries should be the way to choose the new KRS",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "KO",
+    "PiS",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "sedzia piebiak w odnowionej krs koalicja nie ma wyboru",
+   "url": "https://oko.press/sedzia-piebiak-w-odnowionej-krs-koalicja-nie-ma-wyboru",
+   "gist": "Piebiak would sit in the renewed KRS because the coalition 'has no choice' (club-candidate rule)",
+   "query": "Sejm wybrał sędziów członków KRS 2026 lista nazwisk Iustitia Themis",
+   "entities": [
+    "Łukasz Piebiak",
+    "KRS",
+    "ruling coalition"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "poslowie klubow koalicyjnych wybor kandydatow pis i konfederacji do krs jest",
+   "url": "https://www.pap.pl/aktualnosci/poslowie-klubow-koalicyjnych-wybor-kandydatow-pis-i-konfederacji-do-krs-jest",
+   "gist": "Coalition club MPs on the choice of PiS and Konfederacja candidates for the KRS",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "ruling coalition",
+    "PiS",
+    "Konfederacja",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "polish parliament pledges to take into account judiciarys picks for council at heart of rule of law dispute",
+   "url": "https://notesfrompoland.com/2026/02/27/polish-parliament-pledges-to-take-into-account-judiciarys-picks-for-council-at-heart-of-rule-of-law-dispute/",
+   "gist": "Sejm resolution (27 Feb 2026) pledging to take judges' picks into account when electing the KRS",
+   "query": "Sejm wybrał sędziów członków KRS 2026 lista nazwisk Iustitia Themis",
+   "entities": [
+    "Sejm",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "neo sedzia sn zaradkiewicz i byla zastepczyni ziobry startuja do odnowionej krs",
+   "url": "https://oko.press/neo-sedzia-sn-zaradkiewicz-i-byla-zastepczyni-ziobry-startuja-do-odnowionej-krs",
+   "gist": "Neo-judge Kamil Zaradkiewicz and a former Ziobro deputy ran for the renewed KRS",
+   "query": "Sejm wybrał sędziów członków KRS 2026 lista nazwisk Iustitia Themis",
+   "entities": [
+    "Kamil Zaradkiewicz",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "sejm wybral czterech poslow do krs nie zatwierdzono kandydatow przedstawionych przez",
+   "url": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez",
+   "gist": "The Sejm elected four MPs to the KRS; candidates put forward by some club were not approved (date and parties not in the title)",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "Sejm",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Senat wybrał swoich przedstawicieli do KRS. Znamy ich nazwiska",
+   "url": "https://www.wprost.pl/11494537",
+   "gist": "The Senate chose its representatives to the KRS (names not in the title)",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "Senate",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Jarosław Urbaniak nowym członkiem KRS",
+   "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10970904,jaroslaw-urbaniak-nowym-czlonkiem-krs.html",
+   "gist": "Jarosław Urbaniak became a KRS member (his party and date are not in the title)",
+   "query": "posłowie wybrani do Krajowej Rady Sądownictwa 2024 Sejm uchwała KO Lewica Polska 2050 PSL senatorowie KRS",
+   "entities": [
+    "Jarosław Urbaniak",
+    "KRS"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Piotr Girdwoyń nowym dyrektorem Krajowej Szkoły Sądownictwa i Prokuratury",
+   "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10954669,piotr-girdwoyn-nowym-dyrektorem-krajowej-szkoly-sadownictwa-i-prokurat.html",
+   "gist": "Piotr Girdwoyń became director of the National School of Judiciary and Public Prosecution",
+   "query": "dyrektor Krajowej Szkoły Sądownictwa i Prokuratury 2025 powołany Girdwoyn Żurek wicedyrektor",
+   "entities": [
+    "Piotr Girdwoyń",
+    "KSSiP"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "jest nowy kandydat na dyrektora kssip prof girdwoyn",
+   "url": "https://oko.press/jest-nowy-kandydat-na-dyrektora-kssip-prof-girdwoyn",
+   "gist": "Prof. Girdwoyń named as the new candidate for KSSiP director",
+   "query": "Krajowa Szkoła Sądownictwa i Prokuratury nowy dyrektor powołany Bodnar 2024",
+   "entities": [
+    "Piotr Girdwoyń",
+    "KSSiP"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "bodnar odwolal neo sedziego zaradkiewicza i prezesa od ziobry powolal tez nowych szefow prokuratur",
+   "url": "https://oko.press/bodnar-odwolal-neo-sedziego-zaradkiewicza-i-prezesa-od-ziobry-powolal-tez-nowych-szefow-prokuratur",
+   "gist": "Bodnar removed neo-judge Zaradkiewicz and a Ziobro-appointed court president, and appointed new heads of prosecution offices",
+   "query": "Krajowa Szkoła Sądownictwa i Prokuratury nowy dyrektor powołany Bodnar 2024",
+   "entities": [
+    "Adam Bodnar",
+    "Kamil Zaradkiewicz",
+    "KSSiP"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Sedzia Slawomir Palka nowym wiceministrem sprawiedliwosci 9023109",
+   "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
+   "gist": "Judge Sławomir Pałka became a deputy justice minister (date, appointer and association not in the title)",
+   "query": "Żurek nowy wiceminister sprawiedliwości sekretarz stanu powołany 2025 2026 sędzia",
+   "entities": [
+    "Sławomir Pałka",
+    "Ministry of Justice"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "zurek odwolal prezesow warszawa elblag",
+   "url": "https://oko.press/zurek-odwolal-prezesow-warszawa-elblag",
+   "gist": "Żurek dismissed court presidents in Warsaw and Elbląg",
+   "query": "Żurek nowy wiceminister sprawiedliwości sekretarz stanu powołany 2025 2026 sędzia",
+   "entities": [
+    "zurek"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "sedzia frackowiak walczyla o sady teraz zostala prezeska sadu w poznaniu lista nowych prezesow",
+   "url": "https://oko.press/sedzia-frackowiak-walczyla-o-sady-teraz-zostala-prezeska-sadu-w-poznaniu-lista-nowych-prezesow",
+   "gist": "Judge Frąckowiak, who 'fought for the courts', became a Poznań court president; list of new presidents",
+   "query": "Bodnar powołał nowych prezesów sądów 2024 członkowie Iustitii prezes sądu apelacyjnego okręgowego nazwiska",
+   "entities": [
+    "Monika Frąckowiak",
+    "bodnar"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "bodnar wszczal procedure odwolania 81 prezesow i wiceprezesow a powolal ich ponad 110",
+   "url": "https://oko.press/bodnar-wszczal-procedure-odwolania-81-prezesow-i-wiceprezesow-a-powolal-ich-ponad-110",
+   "gist": "Bodnar began dismissal procedures for 81 court presidents and vice-presidents and appointed more than 110",
+   "query": "Bodnar powołał nowych prezesów sądów 2024 członkowie Iustitii prezes sądu apelacyjnego okręgowego nazwiska",
+   "entities": [
+    "bodnar"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "bodnar konczy wymiane prezesow sadow apelacyjnych i okregowych neo sedziowie rzadza tylko 4 sadami",
+   "url": "https://oko.press/bodnar-konczy-wymiane-prezesow-sadow-apelacyjnych-i-okregowych-neo-sedziowie-rzadza-tylko-4-sadami",
+   "gist": "Bodnar completing the replacement of appellate and regional court presidents; neo-judges head only 4 courts",
+   "query": "Bodnar powołał nowych prezesów sądów 2024 członkowie Iustitii prezes sądu apelacyjnego okręgowego nazwiska",
+   "entities": [
+    "bodnar"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "bodnar powolal trzech wiceprezesow najwiekszego sadu w polsce sa tez nowe dymisje nominatow ziobry",
+   "url": "https://oko.press/bodnar-powolal-trzech-wiceprezesow-najwiekszego-sadu-w-polsce-sa-tez-nowe-dymisje-nominatow-ziobry",
+   "gist": "Bodnar appointed three vice-presidents of Poland's largest court",
+   "query": "Bodnar powołał nowych prezesów sądów 2024 członkowie Iustitii prezes sądu apelacyjnego okręgowego nazwiska",
+   "entities": [
+    "bodnar"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "ujawniamy kulisy odwolania zastepcy rpo partyjny deal w instytucji ktora powinna byc niezalezna",
+   "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
+   "gist": "OKO.press alleges a party deal behind the dismissal of a deputy Ombudsman (deputy, party and date not in the title)",
+   "query": "zastępca Rzecznika Praw Obywatelskich powołany 2026 Gregorczyk-Abram zastępcy RPO Krzywoń",
+   "entities": [
+    "rpo_office"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "w tyl zwrot rpo wycofuje sie z zastepcy z politycznego nadania",
+   "url": "https://oko.press/w-tyl-zwrot-rpo-wycofuje-sie-z-zastepcy-z-politycznego-nadania",
+   "gist": "The Ombudsman backs away from a politically nominated deputy",
+   "query": "zastępca Rzecznika Praw Obywatelskich powołany 2026 Gregorczyk-Abram zastępcy RPO Krzywoń",
+   "entities": [
+    "rpo_office"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Kontrowersyjna kandydatka na RPO. Szykuje się spór w koalicji?",
+   "url": "https://www.wprost.pl/12296646",
+   "gist": "A controversial woman candidate for Ombudsman (unnamed in the title); possible dispute inside the coalition",
+   "query": "zastępca Rzecznika Praw Obywatelskich powołany 2026 Gregorczyk-Abram zastępcy RPO Krzywoń",
+   "entities": [
+    "rpo_office",
+    "ruling coalition"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Dr hab. Adam Krzywoń",
+   "url": "https://zpc.wpia.uw.edu.pl/en/section-of-human-rights/collaborators-of-the-centre-for-human-rights/dr-hab-adam-krzywon/",
+   "gist": "Adam Krzywoń listed as a collaborator of the University of Warsaw Centre for Human Rights",
+   "query": "Adam Krzywoń zastępca RPO Helsińska Fundacja OR Wolne Sądy OR Bodnar biuro RPO prof. konstytucjonalista",
+   "entities": [
+    "Adam Krzywoń",
+    "uw"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "zrpo adam krzywon",
+   "url": "https://www.gov.pl/web/sygnalisci/zrpo-adam-krzywon",
+   "gist": "Government whistleblower-portal page on deputy Ombudsman (ZRPO) Adam Krzywoń",
+   "query": "Adam Krzywoń zastępca RPO Helsińska Fundacja OR Wolne Sądy OR Bodnar biuro RPO prof. konstytucjonalista",
+   "entities": [
+    "Adam Krzywoń",
+    "rpo_office"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "anna adamska gallant sedzia europejskiego trybunalu praw czlowieka",
+   "url": "https://oko.press/anna-adamska-gallant-sedzia-europejskiego-trybunalu-praw-czlowieka",
+   "gist": "Anna Adamska-Gallant became the ECtHR judge in respect of Poland",
+   "query": "Anna Adamska-Gallant sędzia ETPC Iustitia członek stowarzyszenia EULEX wybrana Strasburg",
+   "entities": [
+    "Anna Adamska-Gallant",
+    "echr"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "trojka polskich kandydatow na sedziego europejskiego trybunalu praw czlowieka",
+   "url": "https://oko.press/trojka-polskich-kandydatow-na-sedziego-europejskiego-trybunalu-praw-czlowieka",
+   "gist": "Poland's three candidates for ECtHR judge",
+   "query": "Anna Adamska-Gallant sędzia ETPC Iustitia członek stowarzyszenia EULEX wybrana Strasburg",
+   "entities": [
+    "echr"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "MFA: Prof. Adam Wiśniewski is Poland's official candidate for judge of the European Court of Human Rights",
+   "url": "https://en.prawo.ug.edu.pl/node/112844",
+   "gist": "Prof. Adam Wiśniewski (University of Gdańsk) named an official Polish ECtHR candidate",
+   "query": "PACE elects judge in respect of Poland European Court of Human Rights candidates list 2024 2025",
+   "entities": [
+    "Adam Wiśniewski",
+    "echr"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Professor Wojciech Sadurski Appointed Member of the Venice Commission",
+   "url": "https://www.isp.org.pl/en/news/professor-wojciech-sadurski-appointed-member-of-the-venice-commission",
+   "gist": "ISP (Institute of Public Affairs) announces that Wojciech Sadurski was appointed a Venice Commission member",
+   "query": "Venice Commission member in respect of Poland appointed 2024 new member substitute",
+   "entities": [
+    "Wojciech Sadurski",
+    "isp",
+    "venice"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Announcement: Prof Wojciech Sadurski Nominated to Venice Commission",
+   "url": "https://blog-iacl-aidc.org/announcements/2026/3/10/announcement-prof-wojciech-sadurski-nominated-to-venice-commission",
+   "gist": "IACL announcement (March 2026 per URL) of Sadurski's nomination to the Venice Commission",
+   "query": "Venice Commission member in respect of Poland appointed 2024 new member substitute",
+   "entities": [
+    "Wojciech Sadurski",
+    "venice"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "prof safjan i jego komisja zreformuja prawo cywilne",
+   "url": "https://oko.press/prof-safjan-i-jego-komisja-zreformuja-prawo-cywilne",
+   "gist": "Prof. Marek Safjan and 'his commission' (civil-law codification commission) to reform civil law",
+   "query": "Komisja Kodyfikacyjna Prawa Karnego powołanie członków 2024 Bodnar przewodniczący skład",
+   "entities": [
+    "Marek Safjan",
+    "codification_commission"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "powolanie czlonkow komisji kodyfikacyjnej prawa rodzinnego",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/powolanie-czlonkow-komisji-kodyfikacyjnej-prawa-rodzinnego",
+   "gist": "Justice Ministry notice on appointing the members of the family-law codification commission",
+   "query": "Komisja Kodyfikacyjna Prawa Karnego powołanie członków 2024 Bodnar przewodniczący skład",
+   "entities": [
+    "Ministry of Justice",
+    "codification_commission"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Prof. Marek Zubik nowym przewodniczącym Rady Legislacyjnej",
+   "url": "https://www.prawo.pl/prawnicy-sady/prof-marek-zubik-nowym-przewodniczacym-rady-legislacyjnej,171133.html",
+   "gist": "Prof. Marek Zubik became chair of the Legislative Council (date not in the title; may predate Dec 2023)",
+   "query": "Rada Legislacyjna przy Prezesie Rady Ministrów skład członkowie powołani 2024 przewodniczący",
+   "entities": [
+    "Marek Zubik",
+    "Rada Legislacyjna"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "premier powolal jacka bilewicza na zastepce prokuratora generalnego",
+   "url": "https://radio.lublin.pl/2024/07/premier-powolal-jacka-bilewicza-na-zastepce-prokuratora-generalnego",
+   "gist": "The PM appointed prosecutor Jacek Bilewicz Deputy Prosecutor General (July 2024 per URL path)",
+   "query": "Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej powołany 2024 premier Tusk nowy prezes",
+   "entities": [
+    "Jacek Bilewicz",
+    "tusk"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "odnowa prokuratury wrzosek i korneluk startuja w konkursie na prokuratora krajowego",
+   "url": "https://oko.press/odnowa-prokuratury-wrzosek-i-korneluk-startuja-w-konkursie-na-prokuratora-krajowego",
+   "gist": "Prosecutors Ewa Wrzosek and Dariusz Korneluk ran in the contest for National Prosecutor",
+   "query": "Krajowa Szkoła Sądownictwa i Prokuratury nowy dyrektor powołany Bodnar 2024",
+   "entities": [
+    "Ewa Wrzosek",
+    "Dariusz Korneluk",
+    "lex_super_omnia"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "wybor kandydatow z polski na sedziego tsue znamy 6 nazwisk",
+   "url": "https://oko.press/wybor-kandydatow-z-polski-na-sedziego-tsue-znamy-6-nazwisk",
+   "gist": "Six names known in the selection of Poland's candidate for CJEU judge",
+   "query": "rząd Tuska kandydat na sędziego Trybunału Sprawiedliwości UE 2024 2025 Polska nominacja TSUE sędzia rzecznik generalny",
+   "entities": [
+    "cjeu"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "The government approved a Polish candidate to the office of judge of the CJEU",
+   "url": "https://ruleoflaw.pl/the-government-approved-a-polish-candidate-to-the-office-of-judge-of-the-cjeu/",
+   "gist": "The government approved Poland's candidate for CJEU judge (name not in the title)",
+   "query": "Polish judge appointed General Court OR Court of Justice EU 2025 Poland nominee rule of law association Iustitia member",
+   "entities": [
+    "cjeu",
+    "tusk"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "MINISTER DO SPRAW UNII EUROPEJSKIEJ",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/03/tresc_ogloszenia_o_konkursie_-_TSUE.docx",
+   "gist": "The EU-affairs minister's notice of the CJEU candidate competition, hosted on the Osiatyński Archive site (March 2024 path)",
+   "query": "rząd Tuska kandydat na sędziego Trybunału Sprawiedliwości UE 2024 2025 Polska nominacja TSUE sędzia rzecznik generalny",
+   "entities": [
+    "osiatynski",
+    "cjeu"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "wybory tsue",
+   "url": "https://hfhr.pl/upload/2024/03/wybory-tsue.pdf",
+   "gist": "HFHR document on the selection of the CJEU judge (March 2024 path)",
+   "query": "rząd Tuska kandydat na sędziego Trybunału Sprawiedliwości UE 2024 2025 Polska nominacja TSUE sędzia rzecznik generalny",
+   "entities": [
+    "hfhr",
+    "cjeu"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Hołownia proponuje, Tusk się zgadza. To on ma zastąpić Banasia",
+   "url": "https://www.wprost.pl/12083773",
+   "gist": "Hołownia proposed and Tusk agreed on the candidate to replace Banaś as NIK president; related titles in the same search name Mariusz Haładyj, earlier head of the Prokuratoria Generalna",
+   "query": "Haładyj odwołany prezes Prokuratorii Generalnej następca powołany 2024",
+   "entities": [
+    "Hołownia",
+    "tusk",
+    "nik",
+    "prokuratoria",
+    "Mariusz Haładyj"
+   ],
+   "title_check": "exact"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "Minister o \"uzgodnionej kandydaturze\". Posłanka Lewicy: nie z nami",
+   "url": "https://tvn24.pl/polska/minister-podal-nazwisko-wspolnego-kandydata-koalicji-rzadzacej-na-szefa-nik-poslanka-lewicy-anna-maria-zukowska-komentuje-st8576828",
+   "gist": "A minister spoke of an 'agreed candidacy' for NIK head; a Lewica MP (Anna Maria Żukowska per URL) said it was not agreed with Lewica",
+   "query": "Haładyj odwołany prezes Prokuratorii Generalnej następca powołany 2024",
+   "entities": [
+    "Lewica",
+    "nik"
+   ],
+   "title_check": "normalized"
+  },
+  {
+   "theme": "B2_appointments",
+   "access": "search_result_title_only",
+   "title": "zurek is preparing plan b possible liquidation of the current national council of the judiciary by a resolution of the sejm",
+   "url": "https://groundnews.lakegeneva.lib.wi.us/article/zurek-is-preparing-plan-b-possible-liquidation-of-the-current-national-council-of-the-judiciary-by-a-resolution-of-the-sejm",
+   "gist": "Żurek prepared a 'plan B': possibly ending the neo-KRS by a Sejm resolution",
+   "query": "Kieszkowska-Knapik OR Bychawska-Siniarska powołana członkini rada komisja 2024 2025 Wolne Sądy Helsińska",
+   "entities": [
+    "zurek",
+    "neo_krs",
+    "Sejm"
+   ],
+   "title_check": "exact"
+  },
+  {
    "theme": "B3_state_boards",
    "access": "search_result_title_only",
    "title": "Sąd uchylił decyzję Świrskiego. Chodzi o karę dla likwidatora TVP",
@@ -4402,6 +6868,62 @@
    "capture": "Full 6th-term member list, the appointing minister and the date; whether Szostek is listed; any remuneration."
   },
   {
+   "theme": "B2_appointments",
+   "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
+   "title": "Sedzia Slawomir Palka nowym wiceministrem sprawiedliwosci 9023109",
+   "why": "A judge became deputy justice minister (Żurek era judging by the article id); his association ties and who requested him are unknown",
+   "capture": "Appointment date; who requested (Żurek?) and who appointed (PM Tusk); portfolio; his court; any Iustitia, Themis, KOS or Free Courts role; whom he replaced (e.g. Rudzińska-Bluszcz); secretary or undersecretary of state"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich",
+   "title": "Biuletyn Informacji Publicznej RPO",
+   "why": "Primary record of a deputy Ombudsman appointment; Krzywoń already appears on the map as Gregorczyk-Abram's deputy in Sept 2026",
+   "capture": "Date; appointing Ombudsman (Wiącek or Gregorczyk-Abram); Sejm consent date; prior roles (UW Human Rights Centre, HFHR, Osiatyński Archive, Free Courts, RPO under Bodnar); portfolio"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
+   "title": "ujawniamy kulisy odwolania zastepcy rpo partyjny deal w instytucji ktora powinna byc niezalezna",
+   "why": "Alleged party deal over a deputy Ombudsman: direct party-tie evidence",
+   "capture": "Which deputy and which Ombudsman; which party (KO, Lewica, Polska 2050, PSL or PiS) was in the deal; dates; who alleges it; the Ombudsman's response"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez",
+   "title": "sejm wybral czterech poslow do krs nie zatwierdzono kandydatow przedstawionych przez",
+   "why": "MP-members of the KRS are political appointees whose party ties the theme asks for",
+   "capture": "Date; the four MPs' names and clubs (KO, Lewica, Polska 2050, PSL, PiS); vote; whose candidates were rejected"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://www.gov.pl/web/premier/sklad-rady",
+   "title": "Skład Rady",
+   "why": "Current membership of the Legislative Council at the PM (new 2024 regulation Dz.U. 2024 poz. 1329)",
+   "capture": "Chair, deputy chairs, members and appointment dates; any member of the Batory Legal Experts Team, HFHR, Iustitia, Themis or the Osiatyński Archive council; whether members are paid"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
+   "title": "new members of venice commission appointed",
+   "why": "Primary MFA notice on Poland's Venice Commission members (ISP and IACL titles say Wojciech Sadurski was appointed or nominated; the IACL item is dated March 2026 per its URL)",
+   "capture": "Names, member or substitute, date, appointing authority, stated affiliations (ISP, Batory, Osiatyński Archive, KOD)"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "title": "Logo Assembly Logo Hemicycle",
+   "why": "Primary record of Poland's ECtHR judge election under the Tusk government",
+   "capture": "Date, votes, the other candidates on Poland's list; then her CV (PACE doc 33717 or echr.coe.int) for Iustitia or other association membership"
+  },
+  {
+   "theme": "B2_appointments",
+   "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10954669,piotr-girdwoyn-nowym-dyrektorem-krajowej-szkoly-sadownictwa-i-prokurat.html",
+   "title": "Piotr Girdwoyń nowym dyrektorem Krajowej Szkoły Sądownictwa i Prokuratury",
+   "why": "Head of the National School of Judiciary appointed by Bodnar; he requested Żurek as his deputy",
+   "capture": "Appointment date and appointing minister; KRS opinion (negative per prawo.pl); prior roles; any tie to HFHR, Batory, Iustitia or the Osiatyński Archive"
+  },
+  {
    "theme": "B3_state_boards",
    "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board",
    "title": "ORLEN Supervisory Board (parent page of the Pietrzak bio; not itself a search result)",
@@ -4619,6 +7141,69 @@
     "komisja kodyfikacyjna Bodnara ile zarabiają członkowie Markiewicz wynagrodzenie zł miesięcznie posiedzenie",
     "członkowie komisji kodyfikacyjnej Żurek Bodnar wynagrodzenie ujawnione kwoty Markiewicz Taborowski Ejchart komisja reformy sądów koszty 2024 2025"
    ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Ambassadors appointed since Dec 2023 who came from HFHR, the Batory Foundation, KOD or the other listed organisations",
+   "queries": [
+    "nowy ambasador RP 2024 2025 wcześniej Helsińska Fundacja Praw Człowieka OR Fundacja Batorego OR Komitet Obrony Demokracji"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "KOD or Akcja Demokracja activists appointed deputy minister, government plenipotentiary or PM adviser since Dec 2023",
+   "queries": [
+    "Akcja Demokracja OR KOD działacz OR działaczka powołany doradca premiera OR wiceminister OR pełnomocnik rządu 2024 2025"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Iustitia or Themis judges appointed directors of Justice Ministry departments by Bodnar or Żurek",
+   "queries": [
+    "sędzia z Iustitii dyrektorem departamentu Ministerstwa Sprawiedliwości 2024 delegowany Bodnar powołał dyrektora"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Who has headed the Prokuratoria Generalna since Dec 2023, and whether any head came from the listed organisations (only PiS-era head Mariusz Haładyj's 2025 move to NIK surfaced)",
+   "queries": [
+    "Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej powołany 2024 premier Tusk nowy prezes",
+    "Haładyj odwołany prezes Prokuratorii Generalnej następca powołany 2024"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Public posts taken since Dec 2023 by Free Courts co-founder Paulina Kieszkowska-Knapik or HFHR's Dominika Bychawska-Siniarska",
+   "queries": [
+    "Kieszkowska-Knapik OR Bychawska-Siniarska powołana członkini rada komisja 2024 2025 Wolne Sądy Helsińska"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "A new post for Zuzanna Rudzińska-Bluszcz after she resigned as deputy justice minister (4 Aug 2025)",
+   "queries": [
+    "Rudzińska-Bluszcz odchodzi z Ministerstwa Sprawiedliwości 2025 nowa funkcja"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Association membership (Iustitia, Themis) of deputy justice minister Sławomir Pałka",
+   "queries": [
+    "Sławomir Pałka sędzia wiceminister sprawiedliwości Iustitia Themis stowarzyszenie życiorys"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "A CJEU judge or advocate-general appointed since Dec 2023 from the listed organisations (only contest notices and candidate lists surfaced; no appointee named in titles)",
+   "queries": [
+    "rząd Tuska kandydat na sędziego Trybunału Sprawiedliwości UE 2024 2025 Polska nominacja TSUE sędzia rzecznik generalny",
+    "Polish judge appointed General Court OR Court of Justice EU 2025 Poland nominee rule of law association Iustitia member"
+   ]
+  },
+  {
+   "theme": "B2_appointments",
+   "question": "Justice Ministry leadership list under Żurek (2026) and party ties of the political deputy justice ministers: not searched in this sweep",
+   "queries": []
   },
   {
    "theme": "B3_state_boards",
