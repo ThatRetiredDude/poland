@@ -691,7 +691,7 @@
    ],
    "date": "2025-02",
    "lead_origin": "Mike Benz",
-   "verified": "Not supported by the documents read: the USAID Poland rule-of-law programme is $5k-25k civic-education grants that bar partisan work (Dexis APS 2023-001); no USAID or NED document on arrests found. See held_claims."
+   "verified": "Partly supported for NED: its own journal published a Dec 2023 essay urging that PiS leaders be held responsible and the 2015 TK appointments tried (see the journal_of_democracy edge). Not supported for USAID: its Poland rule-of-law programme is $5k-25k civic-education grants that bar partisan work (Dexis APS 2023-001); no document on advising arrests found. See held_claims."
   },
   {
    "source": "ned",
@@ -711,7 +711,7 @@
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
    ],
    "date": "2023-12",
-   "verified": "This is the likely source of Benz's 'stamp out populism' quote. It is the authors' opinion in a NED journal, not a NED grant or instruction, and it does not call for arrests"
+   "verified": "Source of Benz's 'stamp out populism' quote. NED's own journal is a reliable record of what NED chose to publish: a call to prosecute those behind the 2015 TK appointments. It is signed by two Polish academics; no NED grant or instruction to the government was found"
   },
   {
    "source": "kuisz_wigura",
@@ -1003,8 +1003,8 @@
   },
   {
    "claim": "NED pressured for the arrest of PiS members to 'stamp out populism' (Benz)",
-   "status": "misleading",
-   "what_was_checked": "The phrase comes from a Dec 2023 opinion essay by two Warsaw academics in NED's Journal of Democracy. It says Kaczyński 'should be held responsible' and lists cases to try, but notes PiS leaders' immunity and does not call for arrests. It is not a NED grant, statement or instruction.",
+   "status": "partly_supported",
+   "what_was_checked": "NED's own Journal of Democracy (copyright NED) published a Dec 2023 essay by Kuisz and Wigura: Poland is taking 'first steps in stamping out populism and holding accountable those responsible'; 'Kaczyński, should be held responsible'; the 2015 Constitutional Tribunal appointments are among cases that 'should be tried immediately'. So the quote and the call for accountability are real and come from NED's flagship journal. Not found: any NED grant, statement or contact pushing the Polish government to arrest anyone; the essay itself does not use the word arrest and notes PiS leaders' immunity.",
    "sources": [
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
    ]
