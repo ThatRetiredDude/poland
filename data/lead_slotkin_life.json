@@ -2,7 +2,7 @@
  "meta": {
   "title": "Elissa Slotkin: life timeline and every point where it touches the map",
   "as_of": "2026-11-01",
-  "notes": "Companion to lead_slotkin_sikorski.json. Not merged into poland_tk_graph.json. The main new tie: on 9 Sep 2026 Slotkin and Tillis met Justice Minister Żurek and deputy ministers Ejchart and Mazur, and the Justice Ministry says the Constitutional Tribunal crisis was discussed. No money, job or board tie between Slotkin and any judge, Tusk, Wawrykiewicz, NED, OSF or USAID was found. Campaign-finance checks are incomplete (FEC/OpenSecrets blocked)."
+  "notes": "Companion to lead_slotkin_sikorski.json. Not merged into poland_tk_graph.json. Main new ties: on 10 Sep 2026 the delegation Slotkin co-chaired met Ombudsman Gregorczyk-Abram (Free Courts co-founder) on the rule of law in Poland (edge in lead_curtis.json). And on 9 Sep 2026 Slotkin and Tillis met Justice Minister Żurek and deputy ministers Ejchart and Mazur, and the Justice Ministry says the Constitutional Tribunal crisis was discussed. No money, job or board tie between Slotkin and any judge, Tusk, Wawrykiewicz, NED, OSF or USAID was found. Campaign-finance checks are incomplete (FEC/OpenSecrets blocked)."
  },
  "timeline": [
   {
@@ -376,12 +376,19 @@
   {
    "date": "2026-09-10",
    "kind": "meeting",
-   "event": "Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked).",
+   "event": "Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked). Same day: the delegation, 'chaired by senators Elissa Slotkin, Thom Tillis and John Curtis', met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder; Korwin-Piotrowska's ECHR lawyer) and deputy Adam Krzywoń on 'the rule of law in Poland'.",
    "sources": [
     "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
-    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
    ],
-   "map_touch": "sikorski"
+   "map_touch": "sikorski, gregorczyk_abram, rpo_office",
+   "quote": {
+    "original": "Delegacji amerykańskiej przewodniczyli senatorowie Elissa Slotkin, Thom Tillis oraz John Curtis, którym towarzyszyli współpracownicy oraz przedstawicielka Ambasady USA w Polsce. ... Rozmowa dotyczyła aktualnej sytuacji i wyzwań w obszarze praworządności w Polsce.",
+    "translation_literal": "The American delegation was chaired by senators Elissa Slotkin, Thom Tillis and John Curtis, who were accompanied by co-workers and a [female] representative of the US Embassy in Poland. ... The conversation concerned the current situation and challenges in the area of the rule of law in Poland.",
+    "language": "pl",
+    "where": "Ombudsman (RPO) release, 10 Sep 2026"
+   }
   },
   {
    "date": "2026-09 (early)",
@@ -570,7 +577,7 @@
     "2025-11: One of six Democratic lawmakers in the 'illegal orders' video telling service members they can refuse illegal orders. Trump called them 'traitors'. In Jan 2026 she said she was under federal investigation; reports in Feb 2026 say a grand jury declined to indict.",
     "2026-02-13/15: Munich Security Conference, in the Graham-Whitehouse Senate delegation; Bloomberg interview on US-Europe ties. Sikorski and Tusk also attended; no Slotkin meeting with either found.",
     "2026-09-09: Warsaw: with Sen. Thom Tillis, met Justice Minister Waldemar Żurek and deputy ministers Maria Ejchart and Dariusz Mazur. Topics per the ministry: restoring the rule of law, justice reform, and 'the crisis surrounding the Constitutional Tribunal'. Same day: defence ministry visit. Quote: \"Omówiono ponadto kryzys wokół Trybunału Konstytucyjnego.\" (literal translation: \"Discussed moreover [was] the crisis around the Constitutional Tribunal.\") [Polish Justice Ministry release, published 10.09.2026]",
-    "2026-09-10: Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked).",
+    "2026-09-10: Warsaw: Senate delegation (Slotkin, Tillis, Curtis) met Deputy PM / Foreign Minister Sikorski (security, Russia/Ukraine, bilateral ties; no courts item in the MFA readout); also Przydacz at the Presidential Palace. A Sejm notice announced a Marshal meeting with a US Senate delegation (page blocked). Same day: the delegation, 'chaired by senators Elissa Slotkin, Thom Tillis and John Curtis', met Ombudsman Sylwia Gregorczyk-Abram (Free Courts co-founder; Korwin-Piotrowska's ECHR lawyer) and deputy Adam Krzywoń on 'the rule of law in Poland'. Quote: \"Delegacji amerykańskiej przewodniczyli senatorowie Elissa Slotkin, Thom Tillis oraz John Curtis, którym towarzyszyli współpracownicy oraz przedstawicielka Ambasady USA w Polsce. ... Rozmowa dotyczyła aktualnej sytuacji i wyzwań w obszarze praworządności w Polsce.\" (literal translation: \"The American delegation was chaired by senators Elissa Slotkin, Thom Tillis and John Curtis, who were accompanied by co-workers and a [female] representative of the US Embassy in Poland. ... The conversation concerned the current situation and challenges in the area of the rule of law in Poland.\") [Ombudsman (RPO) release, 10 Sep 2026]",
     "2026-09 (early): Hungary (Budapest), early Sep 2026, same trip as Poland. No named Hungarian contact in any source found: her speech refers only to 'everyone I talked to' and 'the people I talked to'. No press release from her office or the US Embassy Budapest. The separate 9 Jul 2026 Shaheen/Durbin/Turner delegation did not include her.",
     "2026-09-30: Carnegie Endowment speech on lessons from Poland and Hungary, then Q&A with Anne Applebaum (Sikorski's wife). Carnegie's event page: 'Both Poland and Hungary, which previously experienced substantial democratic erosion, are forging more encouraging paths.' Quote: \"In Poland, they called this plan the Iron Broom – cleaning the place up.\" [Speech as prepared, Carnegie, 30 Sep 2026]",
     "2026-10-13: University of Chicago Institute of Politics, live recording of Vox's 'America, Actually!' podcast: wants 'signature cases' against Trump officials as a 'deterrence message' to young people. Two outlets transcribe the ending slightly differently; not checked against the audio. Quote: \"I want to look at these signature cases and not just focus on the president, but on the people who enabled him.\" [as printed by Breitbart, 17 Oct 2026 (from an X clip)]"
@@ -914,6 +921,26 @@
     "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/"
    ],
    "lead_origin": "NGO Monitor"
+  },
+  {
+   "source": "slotkin",
+   "target": "rpo_office",
+   "relation": "Co-chaired the US Senate delegation received at the Ombudsman's Office, Warsaw, 10 Sep 2026 (topic: rule of law in Poland)",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
+  },
+  {
+   "source": "slotkin",
+   "target": "gregorczyk_abram",
+   "relation": "Co-chaired the US Senate delegation that met Ombudsman Gregorczyk-Abram (Free Courts co-founder; Korwin-Piotrowska's ECHR lawyer) and deputy Adam Krzywoń, Warsaw, 10 Sep 2026. Original (pl): 'Delegacji amerykańskiej przewodniczyli senatorowie Elissa Slotkin, Thom Tillis oraz John Curtis' ... 'Rozmowa dotyczyła aktualnej sytuacji i wyzwań w obszarze praworządności w Polsce.' Literal translation: 'The American delegation was chaired by senators Elissa Slotkin, Thom Tillis and John Curtis' ... 'The conversation concerned the current situation and challenges in the area of the rule of law in Poland.' The release does not say what Slotkin said.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ]
   }
  ],
  "checked_no_link": [
@@ -929,11 +956,12 @@
   {
    "subject": "slotkin",
    "searched_for": "any meeting with Tusk, Bodnar, Wawrykiewicz or any of the 8 TK judges",
-   "result": "none found. Her Polish counterparts on record are Żurek, Ejchart and Mazur (Justice Ministry, 9 Sep 2026), Zalewski (defence ministry, 9 Sep 2026), Sikorski (10 Sep 2026) and Przydacz (Presidential Palace, 10 Sep 2026). Tusk and Sikorski were at the Feb 2026 Munich conference with her; no meeting found.",
+   "result": "none found. Her Polish counterparts on record are Żurek, Ejchart and Mazur (Justice Ministry, 9 Sep 2026), Zalewski (defence ministry, 9 Sep 2026), Sikorski and Ombudsman Gregorczyk-Abram (10 Sep 2026) and Przydacz (Presidential Palace, 10 Sep 2026). Tusk and Sikorski were at the Feb 2026 Munich conference with her; no meeting found.",
    "sources": [
     "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa",
     "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
-    "https://capitolreleases.com/releases/082303a6-52e4-4de4-9a54-e22a895a2d70"
+    "https://capitolreleases.com/releases/082303a6-52e4-4de4-9a54-e22a895a2d70",
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
    ]
   },
   {
