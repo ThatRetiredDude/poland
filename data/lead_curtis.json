@@ -1,0 +1,309 @@
+{
+ "meta": {
+  "title": "Sen. John Curtis (R-Utah): should he be on the map, and with which ties",
+  "as_of": "2026-11-01",
+  "notes": "Companion to lead_slotkin_sikorski.json (which already has the curtis node). Recommendation: keep Curtis on the map. New fact: on 10 Sep 2026 Curtis, Slotkin and Tillis jointly led a delegation that met Ombudsman (RPO) Sylwia Gregorczyk-Abram, Free Courts co-founder, about the rule of law in Poland. Curtis is NOT named in the Justice Ministry (Żurek/Ejchart/Mazur, 9 Sep) release or the Defence Ministry release. No Budapest leg found for Curtis: his office says the trip was Poland then Ukraine. No money, job or board tie to NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz found. Campaign-finance check not done (FEC/OpenSecrets blocked). The slotkin/tillis/curtis->gregorczyk_abram edges are live in lead_slotkin_life.json, so they are not repeated here.",
+  "recommendation": "Keep. He has fact edges to two existing nodes (Gregorczyk-Abram, Sikorski) plus Przydacz, and an indirect fact path to OSF via the YES conference partner IRF. He is a minor actor: there is no record of him at the Żurek meeting or of him saying anything about the Tribunal."
+ },
+ "nodes": [
+  {
+   "id": "yes_forum",
+   "type": "event_org",
+   "group": "ukraine",
+   "label": "Yalta European Strategy (YES), Kyiv annual meeting",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yalta_European_Strategy",
+    "https://www.kyivpost.com/post/84397"
+   ]
+  },
+  {
+   "id": "pinchuk_foundation",
+   "type": "org",
+   "group": "ukraine",
+   "label": "Victor Pinchuk Foundation (organiser of YES)",
+   "sources": [
+    "https://www.kyivpost.com/post/84397",
+    "https://en.wikipedia.org/wiki/Yalta_European_Strategy"
+   ]
+  },
+  {
+   "id": "irf_ukraine",
+   "type": "org",
+   "group": "funders",
+   "label": "International Renaissance Foundation (Ukraine; Open Society network)",
+   "sources": [
+    "https://www.irf.ua/en/about/"
+   ]
+  },
+  {
+   "id": "kwasniewski",
+   "type": "person",
+   "group": "poland_politics",
+   "label": "Aleksander Kwaśniewski (President of Poland 1995-2005; YES Board chairman)",
+   "sources": [
+    "https://www.kyivpost.com/post/84397"
+   ]
+  }
+ ],
+ "node_updates": [
+  {
+   "id": "curtis",
+   "label": "John Curtis (US Senator, R-Utah; Senate Foreign Relations)",
+   "add_sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa",
+    "https://www.curtis.senate.gov/press-releases/senator-curtis-announces-subcommittee-chairmanships-on-foreign-relations-and-environment-public-works-committees"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "source": "curtis",
+   "target": "rpo_office",
+   "relation": "Visited the Ombudsman's Office (Biuro RPO) with the Senate delegation, 10 Sep 2026.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "curtis",
+   "target": "sikorski",
+   "relation": "Member of the Senate delegation that met Deputy PM / Foreign Minister Sikorski, 10 Sep 2026. MFA (en): 'a United States Senate delegation composed of Senator Elissa Slotkin, Senator Thom Tillis and Senator John Curtis.' and 'Senator John Curtis is a member of the Senate Foreign Relations Committee.' Topics: European and transatlantic security, Russia's war on Ukraine, bilateral relations. No courts or Tribunal item in the readout.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "curtis",
+   "target": "przydacz",
+   "relation": "Took part in talks at the Presidential Palace with Marcin Przydacz, 10 Sep 2026. Original (pl): 'Wspólnie z Slotkin, podczas rozmów z przedstawicielami MSZ i Pałacu Prezydenckiego uczestniczyli też dwaj senatorzy republikańscy: John Curtis oraz Thom Tillis.' Literal translation: 'Together with Slotkin, during the talks with representatives of the MFA and the Presidential Palace, also took part two Republican senators: John Curtis and Thom Tillis.' His office called Przydacz's role 'the Polish president's national security adviser'.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
+    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "curtis",
+   "target": "tillis",
+   "relation": "Travelled together on the Sep 2026 CODEL (Poland, then Ukraine); both on the YES 2026 Senate panel in Kyiv, 11 Sep.",
+   "confidence": "fact",
+   "date": "2026-09-10",
+   "sources": [
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa",
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "curtis",
+   "target": "yes_forum",
+   "relation": "Speaker, YES 22nd Annual Meeting, Kyiv, Fri 11 Sep 2026, 15:00 session 'The US Senate’s Ukraine Policy - A Tribute to Lindsey Graham' with Oleksandra Ustinova (Verkhovna Rada), 'Alan Armstrong' (listed as Senator) and Thom Tillis. Capacity: US Senator on an official CODEL (his office told Deseret he 'spoke on a YES Conference panel').",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa",
+    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "tillis",
+   "target": "yes_forum",
+   "relation": "Speaker on the same YES 2026 Senate panel, 11 Sep 2026.",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "pinchuk_foundation",
+   "target": "yes_forum",
+   "relation": "Organiser. Kyiv Post (organisers' press release): 'Organized by the Victor Pinchuk Foundation.' Wikipedia: YES 'was founded, funded and chaired by the Ukrainian businessman Victor Pinchuk'.",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.kyivpost.com/post/84397",
+    "https://en.wikipedia.org/wiki/Yalta_European_Strategy"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "irf_ukraine",
+   "target": "yes_forum",
+   "relation": "Listed partner of YES 2026. Kyiv Post: 'Partners of the YES Annual Meeting 2026: General Cherry, With Honor, UFORCE, The International Renaissance Foundation'. YES partners page also lists Google as a special partner. Amount, if any, not published.",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/partneri",
+    "https://www.kyivpost.com/post/84397"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "irf_ukraine",
+   "target": "osf",
+   "relation": "Part of the OSF network. IRF (en): 'The foundation was founded by the philanthropist George Soros and is part of the Open Society Foundations international network.'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.irf.ua/en/about/"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "kwasniewski",
+   "target": "yes_forum",
+   "relation": "Chairman of the YES Board. Kyiv Post: 'Aleksander Kwaśniewski, President of Poland (1995-2005), Chairman of the YES Board'. No record found that he met Curtis.",
+   "confidence": "fact",
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.kyivpost.com/post/84397"
+   ],
+   "added_by": "lead_curtis"
+  },
+  {
+   "source": "curtis",
+   "target": "osf",
+   "relation": "Indirect only: Curtis spoke at YES 2026, a Pinchuk event whose listed partners include the OSF-network International Renaissance Foundation. No money, grant or meeting between Curtis and OSF found.",
+   "confidence": "fact",
+   "indirect": true,
+   "via": [
+    "yes_forum",
+    "irf_ukraine"
+   ],
+   "date": "2026-09-11",
+   "sources": [
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa",
+    "https://www.kyivpost.com/post/84397",
+    "https://www.irf.ua/en/about/"
+   ],
+   "added_by": "lead_curtis"
+  }
+ ],
+ "checked_no_link": [
+  {
+   "subject": "curtis",
+   "searched_for": "attendance at the 9 Sep 2026 Justice Ministry meeting with Żurek, Ejchart and Mazur",
+   "result": "no link found. The release names only 'senator Elissa Slotkin oraz senator Thom Tillis' plus advisers and embassy staff. The Defence Ministry release (9 Sep) also names only Slotkin and Tillis. Curtis may have arrived on 10 Sep; not proven either way.",
+   "sources": [
+    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa",
+    "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej"
+   ]
+  },
+  {
+   "subject": "curtis",
+   "searched_for": "a Budapest / Hungary leg of the Sep 2026 trip",
+   "result": "no link found. His office told Deseret the CODEL went 'to Ukraine' 'with a pit stop in Poland first'; no Hungary stop mentioned. No Curtis statement on Orbán found (the 'puppet to Putin' line was Tillis; the Oct 2024 Hungary CODEL was Moran, Boozman, Collins, Cornyn, Hoeven).",
+   "sources": [
+    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/",
+    "https://www.kyivpost.com/amp/post/69756",
+    "https://kyivindependent.com/us-republican-delegation-visits-hungary-questions-orbans-relations-with-russia-and-china"
+   ]
+  },
+  {
+   "subject": "curtis",
+   "searched_for": "job, grant, board seat or paid speech at NED, IRI, NDI, OSF, Batory, Free Courts, Iustitia, Themis or USAID; any Poland/Tribunal statement",
+   "result": "none found. Career: OC Tanner, Citizen Watch, Action Target COO, Provo mayor 2010-17, House 2017-25, Senate 2025-. Congressional Record 2026 index has Ukraine/Russia sanctions items but nothing on Poland, Hungary or rule of law.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)",
+    "https://www.govinfo.gov/content/pkg/CRI-2026/html/CRI-2026-CURTIS-JOHN-R-D194C8.htm"
+   ]
+  },
+  {
+   "subject": "curtis",
+   "searched_for": "campaign donors (Soros family, Democracy PAC, Polish-linked PACs)",
+   "result": "not checked: FEC and OpenSecrets blocked from here; queued for manual capture.",
+   "sources": []
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2000",
+   "event": "Ran for Utah State Senate as a Democrat (lost); Utah County Democratic Party vice-chair then chair 2002-03; later Republican.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)"
+   ]
+  },
+  {
+   "date": "2010-2017",
+   "event": "Mayor of Provo.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)"
+   ]
+  },
+  {
+   "date": "2017-11-13",
+   "event": "Sworn in to the House (UT-3); later House Foreign Affairs; founded the Conservative Climate Caucus (June 2021).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)"
+   ]
+  },
+  {
+   "date": "2025-01-03",
+   "event": "Senator (succeeded Romney). Jan 2025: chairs SFRC Subcommittee on the Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights, and Global Women's Issues (replacing Rubio); member of SFRC Europe subcommittee (chair Daines, ranking Murphy).",
+   "sources": [
+    "https://www.curtis.senate.gov/press-releases/senator-curtis-announces-subcommittee-chairmanships-on-foreign-relations-and-environment-public-works-committees",
+    "https://www.foreign.senate.gov/download/119th-subcommittees"
+   ]
+  },
+  {
+   "date": "2025-04-25",
+   "event": "Salt Lake City, US Global Leadership Coalition event: 'If for no other reason than China and Taiwan, we need to stay with Ukraine.'",
+   "sources": [
+    "https://www.deseret.com/politics/2025/04/25/utah-senator-john-curtis-says-us-should-support-ukraine-to-prevent-chinese-invasion-of-taiwan"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "event": "Warsaw: RPO Gregorczyk-Abram (rule of law), FM Sikorski, Przydacz at the Palace; US embassy briefing.",
+   "sources": [
+    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa",
+    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
+    "https://defence24.pl/przemysl/amerykanie-w-polsce-ogladali-zaklady-i-potencjalne-lokalizacje-bazy",
+    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "event": "Kyiv: YES 2026 Senate panel; met Ukraine's defence minister, intelligence briefing; then Kharkiv. Quote (en, Deseret): 'We want to be very clear who our friends are and who our enemy is. And Putin is not our friend, and Russia is not our friend.'",
+   "sources": [
+    "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa",
+    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
+   ]
+  }
+ ],
+ "leads": [
+  {
+   "lead": "Who paid for the CODEL (Q3 2026 Congressional Record foreign-travel report; also lists the delegation leader)",
+   "result": "open (queue item 22)",
+   "label": "speculation"
+  },
+  {
+   "lead": "Curtis campaign donors 2017-2026 for Soros-family or Democracy PAC money",
+   "result": "open; OpenSecrets/FEC blocked",
+   "label": "speculation"
+  },
+  {
+   "lead": "Whether Curtis was in Warsaw on 9 Sep (Justice Ministry) or only from 10 Sep",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Did the Sejm Marshal meeting (queue item 17) include Curtis",
+   "result": "open",
+   "label": "speculation"
+  }
+ ]
+}
