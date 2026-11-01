@@ -267,6 +267,77 @@
    "sources": [
     "https://pinchukfund.org/en/about_fund/partners/"
    ]
+  },
+  {
+   "source": "tillis",
+   "target": "gop",
+   "relation": "Republican. Speaker of the North Carolina House of Representatives, 26 Jan 2011 to 3 Jan 2015; US Senator from 2015. FEC lists him as REP (Senate ID S4NC00162). The NC GOP convention censured him on 10 Jun 2023 by 799-361 'for his blatant violations of our party platform', 'primarily over' his 'support for gay marriage and immigration reform' (Carolina Journal, 12 Jun 2023).",
+   "confidence": "fact",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Thom_Tillis",
+    "https://www.carolinajournal.com/ncgop-convention-delegates-vote-to-censure-tillis/",
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
+   ],
+   "added_by": "lead_party_ties"
+  },
+  {
+   "source": "nrsc",
+   "target": "tillis",
+   "relation": "FEC bulk data: NRSC coordinated party expenditures for Tillis of $476,549 (2014 cycle) and $1,100,353 (2020 cycle), plus $44,600 in direct contributions and $36,545 in independent expenditures (2020). The RNC added $2,939 coordinated (2014) and the NC Republican Party $2,550 (2020).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00027466/"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2014"
+  },
+  {
+   "source": "trump",
+   "target": "tillis",
+   "relation": "Endorsed him for 2020. Trump tweet (25 Jun 2019): 'Senator Thom Tillis of North Carolina has really stepped up to the plate... I give Thom my Full and Total Endorsement!'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.foxnews.com/politics/trump-endorses-mcsally-arizona-senate-tillis-north-carolina"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2019-06-25"
+  },
+  {
+   "source": "tillis",
+   "target": "trump",
+   "relation": "Voted to acquit Trump on both articles of impeachment, 5 Feb 2020 (ABC11: 'They made a mistake, and that's why the president gets acquitted.'). Voted to confirm Hegseth (Jan 2025). Broke with Trump in 2025: his opposition sank Ed Martin's nomination as DC US Attorney (May 2025), and he was one of three Republican senators to oppose the One Big Beautiful Bill Act (June 2025).",
+   "confidence": "fact",
+   "sources": [
+    "https://abc11.com/impeachment-richard-burr-thom-tillis-vote/5906177/",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Thom_Tillis"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2020-02-05"
+  },
+  {
+   "source": "trump",
+   "target": "tillis",
+   "relation": "Attacked him over the June 2025 megabill vote and threatened to back primary challengers; on 29 Jun 2025 Tillis announced he would not seek reelection in 2026. Tillis's statement: 'In Washington over the last few years, it's become increasingly evident that leaders who are willing to embrace bipartisanship, compromise, and demonstrate independent thinking are becoming an endangered species.'",
+   "confidence": "fact",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Thom_Tillis",
+    "https://www.wfae.org/2025-06-29/republican-sen-thom-tillis-will-not-seek-reelection-next-year-after-trump-attacks"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2025-06-29"
+  },
+  {
+   "source": "dscc",
+   "target": "tillis",
+   "relation": "Opponent: FEC bulk data shows DSCC independent expenditures against Tillis of $10,327,084 (2014 cycle) and $24,222,053 (2020 cycle).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00042366/"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2014"
   }
  ],
  "checked_no_link": [
@@ -348,6 +419,14 @@
    "sources": [
     "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ]
+  },
+  {
+   "subject": "tillis",
+   "searched_for": "money from Trump's own committees (Save America C00762591, MAGA Inc., Trump Make America Great Again Committee)",
+   "result": "no link found in the FEC PAC-to-candidate files for 2014-2026. A $10,000 gift in the 2020 file is from an unrelated Boise, Idaho committee also named 'Save America PAC' (C00461723), not Trump's.",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
+   ]
   }
  ],
  "leads": [
@@ -376,5 +455,6 @@
    "result": "open",
    "label": "speculation"
   }
- ]
+ ],
+ "notes_party": "Party ties added 2026-11-01 under the rule that a politician's own-party ties must show at least as clearly as ties to the other side."
 }

@@ -272,6 +272,69 @@
    "sources": [
     "https://www.fec.gov/data/committee/C00855064/"
    ]
+  },
+  {
+   "id": "gop",
+   "type": "party",
+   "group": "us_politics",
+   "label": "Republican Party (RNC and state parties)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00003418/"
+   ]
+  },
+  {
+   "id": "nrsc",
+   "type": "party",
+   "group": "us_politics",
+   "label": "NRSC (National Republican Senatorial Committee)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00027466/"
+   ]
+  },
+  {
+   "id": "nrcc",
+   "type": "party",
+   "group": "us_politics",
+   "label": "NRCC (National Republican Congressional Committee)",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00075820/"
+   ]
+  },
+  {
+   "id": "thune",
+   "type": "person",
+   "group": "us_politics",
+   "label": "John Thune (Senate Majority Leader 2025-)",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
+   ]
+  },
+  {
+   "id": "cornyn",
+   "type": "person",
+   "group": "us_politics",
+   "label": "John Cornyn (US Senator, R-Texas)",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
+   ]
+  },
+  {
+   "id": "romney",
+   "type": "person",
+   "group": "us_politics",
+   "label": "Mitt Romney (US Senator, R-Utah, 2019-2025)",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
+   ]
+  },
+  {
+   "id": "rgg_pac",
+   "type": "org",
+   "group": "us_politics",
+   "label": "Republican Governance Group / Tuesday Group PAC",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00433060/"
+   ]
   }
  ],
  "node_updates": [
@@ -888,6 +951,125 @@
    ],
    "date": "2024",
    "added_by": "lead_curtis_fec"
+  },
+  {
+   "source": "curtis",
+   "target": "gop",
+   "relation": "Republican: FEC lists him as REP in every race (House UT-3 2017-2022, ID H8UT03238; Senate 2024, ID S4UT00282). Earlier a Democrat: ran for Utah State Senate as a Democrat in 2000 and was vice-chair then chair of the Utah County Democratic Party 2002-03 (Wikipedia infobox: 'Democratic (2000–2006)', 'Republican (before 2000, 2006–present)'). Member of the House Republican Governance Group and Republican Main Street Partnership.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00647339/",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/John_Curtis",
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)"
+   ],
+   "added_by": "lead_party_ties"
+  },
+  {
+   "source": "curtis",
+   "target": "dem_party",
+   "relation": "Former Democrat, 2000-2006: 2000 Utah State Senate candidate as a Democrat; Utah County Democratic Party vice-chair and chair 2002-03. Switched back to the Republican Party (2006, per the Wikipedia infobox).",
+   "confidence": "fact",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/John_Curtis",
+    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2000"
+  },
+  {
+   "source": "nrcc",
+   "target": "curtis",
+   "relation": "Joint fundraising: Curtis's 2024 Senate campaign shared a joint fundraising committee with the Conservative Climate PAC and the NRCC. SL Tribune (15 Jun 2024): 'More than $351,000 came from the joint fundraising committee he shares with the Conservative Climate PAC and the NRCC.'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.sltrib.com/news/politics/2024/06/15/john-curtis-outpacing-rivals"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2024"
+  },
+  {
+   "source": "cornyn",
+   "target": "curtis",
+   "relation": "FEC: the Cornyn Victory Committee transferred $197,793 to John Curtis for Utah in the 2024 cycle.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00647339/"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2024"
+  },
+  {
+   "source": "thune",
+   "target": "curtis",
+   "relation": "FEC: '2024 Thune Republican Senate Victory' transferred $59,260 to John Curtis for Utah in the 2024 cycle. Thune endorsed Curtis after the June 2024 primary.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2024"
+  },
+  {
+   "source": "romney",
+   "target": "curtis",
+   "relation": "FEC, 2024 cycle: the Friends of Mitt JFC transferred $19,814 to the Curtis campaign and $19,990 to his leadership PAC; Mitt Romney and Ann Romney each gave the campaign $6,600. Curtis won Romney's open seat.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00647339/",
+    "https://www.fec.gov/data/committee/C00654186/"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2024"
+  },
+  {
+   "source": "rgg_pac",
+   "target": "curtis",
+   "relation": "FEC: Republican Governance Group/Tuesday Group PAC gave $15,000 (2018), $10,000 (2020), $10,000 (2022) and $12,000 (2024 cycle).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://www.fec.gov/data/committee/C00433060/"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2018"
+  },
+  {
+   "source": "rmsp",
+   "target": "curtis",
+   "relation": "FEC: Republican Main Street Partnership PAC gave $9,000 (2018), $4,000 (2020), $8,000 (2022) and $5,000 (2024 cycle); its endorsement is listed for 2024.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2018"
+  },
+  {
+   "source": "trump",
+   "target": "curtis",
+   "relation": "Opponent in the 2024 Senate primary: Trump endorsed Curtis's rival Trent Staggs. KUER (28 Apr 2024): 'Trump endorsed Riverton Mayor Trent Staggs for U.S. Senate on Truth Social', calling him '100% MAGA'. Curtis won the primary anyway.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.kuer.org/politics-government/2024-04-28/riding-trumps-endorsement-trent-staggs-is-the-utah-gop-convention-pick-for-senate"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2024-04"
+  },
+  {
+   "source": "curtis",
+   "target": "trump",
+   "relation": "Record on Trump: 'I didn't vote for President Trump,' Curtis said in a video on 10 Dec 2019 (BYU Daily Universe). Voted against both 2019 impeachment articles ('I'm being asked to help remove a duly elected president and I do not feel that his actions have met that high standard.') and against the 2021 impeachment, though he called 6 Jan 'an act of domestic terrorism inspired and encouraged by our president'. Voted to certify the 2020 results. Did not back Trump in the 2024 primaries.",
+   "confidence": "fact",
+   "sources": [
+    "https://universe.byu.edu/2021/01/11/john-curtis-on-trump",
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/John_Curtis"
+   ],
+   "added_by": "lead_party_ties",
+   "date": "2019-12-10"
   }
  ],
  "checked_no_link": [
@@ -1094,5 +1276,6 @@
     "https://www.fec.gov/data/committee/C00855064/"
    ]
   }
- ]
+ ],
+ "notes_party": "Party ties added 2026-11-01 under the rule that a politician's own-party ties must show at least as clearly as ties to the other side."
 }
