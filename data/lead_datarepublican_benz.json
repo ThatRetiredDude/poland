@@ -328,6 +328,17 @@
     "https://threadreaderapp.com/user/DataRepublican"
    ],
    "us_layer": true
+  },
+  {
+   "id": "obama_foundation",
+   "type": "org",
+   "group": "ngo",
+   "label": "Obama Foundation (Leadership Network)",
+   "sources": [
+    "https://www.obama.org/stories/president-obama-explores-ways-to-combat-the-rise-of-authoritarianism-with-eastern-european-alumni/",
+    "https://dailycaller.com/2025/10/16/obama-foundation-autocracy-poland-hungary-viktor-orban/"
+   ],
+   "us_layer": true
   }
  ],
  "edges": [
@@ -628,6 +639,7 @@
    "relation": "Benz (Rogan, Feb 2025): USAID funds OCCRP, which adjusts work plans 'to impose political changes'. Mediapart/Drop Site (Dec 2024): the US gave about half OCCRP's budget and could veto key hires",
    "confidence": "alleged",
    "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz",
     "https://www.aa.com.tr/en/americas/us-funding-shapes-occrps-priorities-including-russia-and-venezuela/3412082"
    ],
@@ -687,6 +699,7 @@
    "relation": "Benz claim (Rogan #2272, Feb 2025): 'USAID advises the Polish government on which citizens to arrest to maintain power'",
    "confidence": "alleged",
    "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
    ],
    "date": "2025-02",
@@ -699,6 +712,7 @@
    "relation": "Benz claim (Rogan #2272, Feb 2025): USAID and NED backed Donald Tusk against PiS",
    "confidence": "alleged",
    "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
    ],
    "date": "2025-02",
@@ -711,6 +725,7 @@
    "relation": "Benz claim (Rogan #2272, Feb 2025): NED pressed for the arrest of PiS members to 'stamp out populism'",
    "confidence": "alleged",
    "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
    ],
    "date": "2025-02",
@@ -973,6 +988,28 @@
    "date": "2026-09-03",
    "lead_origin": "DataRepublican",
    "verified": "screenshots only; 990 not checked here"
+  },
+  {
+   "source": "obama_foundation",
+   "target": "rudzinska_bluszcz",
+   "relation": "Alumna of the Obama Foundation leadership programme; Obama held a published conversation with her and two Hungarian alumni on fighting 'the rising wave of authoritarianism' (Oct 2025). She was Poland's deputy justice minister 2023-25",
+   "confidence": "fact",
+   "sources": [
+    "https://www.obama.org/stories/president-obama-explores-ways-to-combat-the-rise-of-authoritarianism-with-eastern-european-alumni/",
+    "https://dailycaller.com/2025/10/16/obama-foundation-autocracy-poland-hungary-viktor-orban/"
+   ],
+   "date": "2025-10"
+  },
+  {
+   "source": "benz",
+   "target": "ned",
+   "relation": "Benz on Bannon's War Room (30 Jul 2025): the 'global rise of populist parties' became the 'new global menace' and NED 'descended like a pack of vultures' on populist movements",
+   "confidence": "alleged",
+   "sources": [
+    "https://dailycallernewsfoundation.org/2025/07/30/mike-benz-explains-why-cia-considers-populist-movements-a-global-menace-and-how-house-republicans-dont-help-matters/"
+   ],
+   "date": "2025-07-30",
+   "lead_origin": "Mike Benz"
   }
  ],
  "checked_no_link": [
@@ -982,7 +1019,7 @@
    "result": "none found",
    "sources": [
     "https://threadreaderapp.com/scrolly/1889172190282821690",
-    "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2"
    ]
   },
   {
@@ -990,6 +1027,7 @@
    "searched_for": "US government money to Tusk (Benz says USAID/NED 'backed' him)",
    "result": "no payment found; the claim is political support, not money. Earlier sweeps of NED/OSF/USAID records also found nothing to Tusk",
    "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2",
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
    ]
   },
@@ -1020,9 +1058,11 @@
   },
   {
    "subject": "benz",
-   "searched_for": "Obama/Soros visits to Poland before the Oct 2023 election (AOL headline 'Stamp Out Populism: Mike Benz Explains Soros' And Obama's Visit To Poland Before Election')",
-   "result": "article could not be read; Obama's documented visit was Impact'25 in Poznań, 14-15 May 2025 (before the presidential election), with no politicians named as meeting him",
+   "searched_for": "Obama and Soros visits to Poland to 'stamp out populism' before an election (story carried by Slay News, 20 May 2025, and AOL)",
+   "result": "no visit by Obama or Soros timed to a Polish election found. Obama's documented visit was the Impact'25 congress in Poznań, 14-15 May 2025, with no politicians named as meeting him. The Obama Foundation tie that is documented is a leadership-programme link to former deputy justice minister Rudzińska-Bluszcz (fact edge)",
    "sources": [
+    "https://slaynews.com/news/obama-george-soros-trying-stamp-out-populism-poland/",
+    "https://www.aol.com/news/stamp-populism-mike-benz-explains-001135822.html",
     "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
    ]
   },
