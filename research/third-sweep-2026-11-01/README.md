@@ -9,7 +9,7 @@ Goal: find more people, money, contract jobs and organisations (NGOs, foundation
 | Batch | What | Status |
 |---|---|---|
 | 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | partial: 17 of 113 pages so far |
-| 02 | New searches and page reads: people, appointments and contract jobs | running |
+| 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | partial: judges' paid roles, state boards and Wawrykiewicz themes in, four more running |
 | 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | partial: EU and Norway themes in, five more running |
 | 04 | Cross-check of every quoted string against the raw tool output | to do |
 
