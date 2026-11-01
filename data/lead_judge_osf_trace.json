@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Judge-to-OSF trace: which judges reach OSF in one step",
+    "as_of": "2026-11-01",
+    "added_by": "lead_judge_osf_trace",
+    "method": "Merged every published data file and computed the shortest path from each judge node to OSF. Checked the repo history for removed judge-OSF edges: the only removals were 'none found' entries taken off the public site on 31 Oct 2026, no fact edge was lost. Searched Batory annual reports (2005-07, 2010-11, 2013, 2021-22, 2025, readable parts), Batory's Legal Experts Team biographies, an HFHR Watch Docs discussion pack and press for Berek, Dziurda, Szostek, Bentkowska and Korwin-Piotrowska.",
+    "summary": "One step to OSF on fact edges: Markiewicz, Taborowski, Patyra (indirect ties via Batory), now also Korwin-Piotrowska (indirect, via Themis's Batory grants). Dziurda, Szostek, Berek: 3 steps; Bentkowska: 2 steps (via Markiewicz). No sourced personal or organisational OSF/Batory tie found for those four."
+  },
+  "nodes": [],
+  "edges": [
+    {
+      "source": "osf",
+      "target": "korwin_piotrowska",
+      "relation": "INDIRECT: Themis, which she now presides, got about PLN 155,000 in 2014-16 from a programme run by OSF-founded and OSF-funded Batory; that money was EEA/Norway Grants, not OSF's own. No payment to her personally",
+      "confidence": "fact",
+      "indirect": true,
+      "sources": [
+        "https://www.batory.org.pl/upload/images/Sprawozdanie_2014_PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2015PL.pdf",
+        "https://www.batory.org.pl/wp-content/uploads/2019/09/Sprawozdanie_2016_PL-skompresowany.pdf",
+        "https://en.wikipedia.org/wiki/Stefan_Batory_Foundation"
+      ],
+      "added_by": "lead_judge_osf_trace"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Bentkowska reaches OSF in one step",
+      "result": "Shortest fact chain is 2 steps: Bentkowska > Markiewicz (brought him into the TK judges' section, 22 Oct 2026) > OSF (indirect). Also Bentkowska > Obywatele RP (pro bono defender 2016-23) > Batory (PLN 30,000 to Fundacja Wolni Obywatele RP, 2020) > OSF. Her name is absent from the Batory reports and expert lists read.",
+      "label": "speculation"
+    },
+    {
+      "lead": "Berek reaches OSF in one step",
+      "result": "Shortest fact chains are 3 steps, through the TK, KO, other judges, the Ombudsman's Office (director general under Wiącek from 2021) or the legal-advisers' chamber. His name is absent from the Batory reports and expert lists read.",
+      "label": "speculation"
+    },
+    {
+      "lead": "Dziurda reaches OSF in one step",
+      "result": "Shortest fact chains are 3 steps, through the TK, KO, the Codification Commission (with Markiewicz), the legal-advisers' chamber or Korwin-Piotrowska. His name is absent from the Batory reports and expert lists read.",
+      "label": "speculation"
+    },
+    {
+      "lead": "Szostek reaches OSF in one step",
+      "result": "Shortest fact chains are 3 steps, through the TK, KO or the European Law Institute (with Taborowski). His name is absent from the Batory reports and expert lists read.",
+      "label": "speculation"
+    }
+  ]
+}
