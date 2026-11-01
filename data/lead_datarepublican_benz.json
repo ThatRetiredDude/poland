@@ -392,6 +392,43 @@
     "https://www.isp.org.pl/en/employers/dr-jacek-kucharczyk",
     "https://github.com/twinforces/datarepublican/tree/main/ned"
    ]
+  },
+  {
+   "id": "impact25_poznan",
+   "type": "event",
+   "group": "event",
+   "label": "Impact 2025 congress, Poznań (14-15 May 2025)",
+   "sources": [
+    "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
+   ]
+  },
+  {
+   "id": "obama",
+   "type": "person",
+   "group": "us_politics",
+   "label": "Barack Obama",
+   "sources": [
+    "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
+   ]
+  },
+  {
+   "id": "eisen",
+   "type": "person",
+   "group": "us_politics",
+   "label": "Norm Eisen (ex-US ambassador to the Czech Republic; democracy litigator)",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/",
+    "https://x.com/DataRepublican/status/2113256798878916775"
+   ]
+  },
+  {
+   "id": "alex_soros",
+   "type": "person",
+   "group": "donor",
+   "label": "Alex Soros (OSF chair)",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ]
   }
  ],
  "edges": [
@@ -1083,7 +1120,7 @@
   {
    "source": "usaid",
    "target": "usaid_cep",
-   "relation": "USAID award 'Rule of Law Activity' for Poland: $4,856,989, award 7200AA22CA00024, to 30 Sep 2026 (recipient shown as 'Miscellaneous Foreign Awardees'); Dexis says it runs the Central Europe Program Rule of Law Activity",
+   "relation": "USAID award 'Rule of Law Activity' for Poland: $4,856,989 obligated (new award $1.29m Sep 2022, +$2.57m Sep 2024), 1 Oct 2022 - 30 Sep 2026, funded $4.36m from Assistance for Europe, Eurasia and Central Asia plus $500k from the State Dept Democracy Fund; recipient shown as 'Miscellaneous Foreign Awardees' (1275 First St NE, Washington), 0 sub-awards reported; Dexis says it runs the Central Europe Program Rule of Law Activity",
    "confidence": "fact",
    "sources": [
     "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00024_7200",
@@ -1098,7 +1135,7 @@
   {
    "source": "usaid",
    "target": "cebrics",
-   "relation": "USAID funds GMF's CEBRICS ('USAID-funded single-donor'). A USAspending award with the same title, 'Building Resilience in Civil Society' (Poland), is $6,389,705, award 7200AA22CA00025, to 30 Sep 2027; that this award is CEBRICS is our inference from the matching title and dates",
+   "relation": "USAID funds GMF's CEBRICS ('USAID-funded single-donor'). A USAspending award with the same title, 'Building Resilience in Civil Society' (Poland), is $6,389,705, award 7200AA22CA00025, 1 Oct 2022 - 30 Sep 2027; its objectives: civil society resilience, independent media sustainability, watchdog and anti-corruption skills, and 'increase engagement of civil society in political processes'; that this award is CEBRICS is our inference from the matching title and dates",
    "confidence": "fact",
    "sources": [
     "https://www.gmfus.org/cebrics",
@@ -1149,7 +1186,7 @@
   {
    "source": "usaid",
    "target": "usaid_pol_political",
-   "relation": "USAID award 'Promoting Citizen Engagement in Political Processes' in Poland: $4,238,641 (7200AA22CA00026), started 2022, before the Oct 2023 election; implementer not named in USAspending",
+   "relation": "USAID award 'Promoting Citizen Engagement in Political Processes' in Poland: $4,238,641 (7200AA22CA00026; reported raised from about $1.5m), Oct 2022 - Sep 2027, started a year before the Oct 2023 election; recipient masked as 'Miscellaneous Foreign Awardees', 0 sub-awards reported",
    "confidence": "fact",
    "sources": [
     "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00026_7200",
@@ -1260,6 +1297,98 @@
    "date": "2016-2023",
    "lead_origin": "Niezależna.pl / social media list",
    "verified": "no ISP award in the active USAspending awards read (Jan 2025 snapshot)"
+  },
+  {
+   "source": "obama",
+   "target": "impact25_poznan",
+   "relation": "Keynote conversation with Timothy Snyder at the Impact'25 congress in Poznań, 14-15 May 2025, days before the 18 May presidential first round; no meetings with politicians reported",
+   "confidence": "fact",
+   "sources": [
+    "https://polskieradio.pl/395/7784/Artykul/3477195,update-former-us-president-barack-obama-to-visit-poland",
+    "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
+   ],
+   "date": "2025-05-15"
+  },
+  {
+   "source": "benz",
+   "target": "obama",
+   "relation": "Benz (May 2025): Obama, Alex Soros and 'globalist operatives' came to Poland days before the election to 'stamp out populism'; the same 'rule of law' model USAID used in Romania (via the ABA) was used against Poland's populists",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "lead_origin": "Mike Benz",
+   "verified": "the Obama visit is fact (Impact'25, Poznań); its purpose as stated by Benz is his claim"
+  },
+  {
+   "source": "benz",
+   "target": "alex_soros",
+   "relation": "Benz claim: Alex Soros was in Poland days before the May 2025 election",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "lead_origin": "Mike Benz",
+   "verified": "no source for the visit found"
+  },
+  {
+   "source": "alex_soros",
+   "target": "osf",
+   "relation": "Chair of the Open Society Foundations",
+   "confidence": "fact",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Alexander_Soros"
+   ]
+  },
+  {
+   "source": "benz",
+   "target": "eisen",
+   "relation": "Benz: Eisen is 'on tape bragging about him pursuing legal action inside of Poland against the Law and Justice Party'",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "lead_origin": "Mike Benz",
+   "verified": "tape not seen"
+  },
+  {
+   "source": "eisen",
+   "target": "rad_drg",
+   "relation": "DataRepublican's primer places ESRN / Norm Eisen above the Democracy Renewal Group as possible 'shot-callers'",
+   "confidence": "alleged",
+   "sources": [
+    "https://x.com/DataRepublican/status/2113256798878916775"
+   ],
+   "date": "2026-10-22",
+   "lead_origin": "DataRepublican",
+   "verified": "her inference; no document shown in the text read"
+  },
+  {
+   "source": "benz",
+   "target": "ned",
+   "relation": "Benz: NED is a CIA creation, set up to fund groups the CIA used to fund directly, and 'the CIA gets a copy of every grant'",
+   "confidence": "unproven_conspiracy",
+   "sources": [
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/"
+   ],
+   "date": "2025-05-16",
+   "lead_origin": "Mike Benz",
+   "verified": "the founding history is public (co-founder Weinstein, 1991: 'A lot of what we do today was done covertly 25 years ago by the CIA'); no evidence shown that the CIA receives every grant"
+  },
+  {
+   "source": "benz",
+   "target": "pis",
+   "relation": "Benz on Rogan #2272 (about 3:15:00, machine transcript): 'it's the same thing with Poland. They want to achieve stability, democratic stability, so that he can't rise... It was a razor close election. And remember... we pull a lot of tricks'; points to NED and the Solidarity Center",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.audioscrape.com/podcast/the-joe-rogan-experience/episode/2272---mike-benz-2"
+   ],
+   "date": "2025-02-12",
+   "lead_origin": "Mike Benz",
+   "verified": "quote from an automatic transcript; check against the audio"
   }
  ],
  "checked_no_link": [
@@ -1307,12 +1436,11 @@
    ]
   },
   {
-   "subject": "benz",
-   "searched_for": "Obama and Soros visits to Poland to 'stamp out populism' before an election (story carried by Slay News, 20 May 2025, and AOL)",
-   "result": "no visit by Obama or Soros timed to a Polish election found. Obama's documented visit was the Impact'25 congress in Poznań, 14-15 May 2025, with no politicians named as meeting him. The Obama Foundation tie that is documented is a leadership-programme link to former deputy justice minister Rudzińska-Bluszcz (fact edge)",
+   "subject": "alex_soros",
+   "searched_for": "Alex Soros visit to Poland before the May 2025 election (Benz)",
+   "result": "no source for the visit found. Obama's visit is documented (Impact'25, Poznań, 14-15 May 2025, fact edge)",
    "sources": [
-    "https://slaynews.com/news/obama-george-soros-trying-stamp-out-populism-poland/",
-    "https://www.aol.com/news/stamp-populism-mike-benz-explains-001135822.html",
+    "https://www.bizpacreview.com/2025/05/16/stamp-out-populism-mike-benz-explains-soros-and-obamas-visit-to-poland-before-election-1544162/",
     "https://polskieradio.pl/395/7786/Artykul/3523267,barack-obama-headlines-poland%E2%80%99s-impact-congress"
    ]
   },
