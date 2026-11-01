@@ -228,6 +228,8 @@ dd { margin: 0; overflow-wrap: anywhere; }
     </div>
     <div class="section toggles">
       <h2>View</h2>
+      <label class="row"><input type="checkbox" id="t-dr" checked><span class="name">DataRepublican's claims</span></label>
+      <label class="row"><input type="checkbox" id="t-benz" checked><span class="name">Mike Benz's claims</span></label>
       <label class="row"><input type="checkbox" id="t-isolated" checked><span class="name">Hide nodes with no visible links</span></label>
             <label class="row"><input type="checkbox" id="t-anchor" checked><span class="name">Judges in a row, Tusk above, Nawrocki below (when shown)</span></label>
       <p class="meta-line" id="hidden-note"></p>
@@ -403,7 +405,7 @@ async function loadAll() {
 const state = {
   labels: new Set(LABELS.map(l => l.key).filter(k => k !== "no_link").concat("unlabelled")),
   types: new Set(), group: "", hideIsolated: true, judgesOnly: false, allNames: false,
-  anchor: true, usLayer: true,
+  anchor: true, usLayer: true, showDR: true, showBenz: true,
   hidden: new Set(["nawrocki"]),
   selected: null, // {kind:'node'|'edge', id}
   search: "", tab: "detail", hops: 1,
@@ -440,9 +442,14 @@ function visibleSets() {
   const all = [...store.edges.values()];
   const typeOk = n => !state.hidden.has(n.id) && state.types.has(n.type || "unknown") && (!state.group || n.group === state.group || isJudge(n));
   let edges = all.filter(e => e.label !== "no_link" && state.labels.has(e.label) && typeOk(store.nodes.get(e.s)) && typeOk(store.nodes.get(e.t)));
+  // Claims credited to DataRepublican or Mike Benz (their lead_origin) can be switched off; Benz's own node goes with his.
+  const origin = e => String(e.lead_origin || "");
+  if (!state.showDR) edges = edges.filter(e => !origin(e).startsWith("DataRepublican"));
+  if (!state.showBenz) edges = edges.filter(e => !origin(e).startsWith("Mike Benz") && e.s !== "benz" && e.t !== "benz");
   if (state.judgesOnly) edges = edges.filter(e => isJudge(store.nodes.get(e.s)) || isJudge(store.nodes.get(e.t)));
   if (state.group) edges = edges.filter(e => store.nodes.get(e.s).group === state.group || store.nodes.get(e.t).group === state.group);
   let nodes = [...store.nodes.values()].filter(typeOk);
+  if (!state.showBenz) nodes = nodes.filter(n => n.id !== "benz");
   // Hiding cascades: anything whose only route to the judges or Tusk ran through a hidden node is hidden too.
   if (state.hidden.size) {
     const adj = new Map(); edges.forEach(e => { (adj.get(e.s) || adj.set(e.s, []).get(e.s)).push(e.t); (adj.get(e.t) || adj.set(e.t, []).get(e.t)).push(e.s); });
@@ -919,6 +926,8 @@ document.getElementById("f-group").onchange = ev => { state.group = ev.target.va
 document.getElementById("t-isolated").onchange = ev => { state.hideIsolated = ev.target.checked; render(); };
 document.getElementById("t-anchor").onchange = ev => { state.anchor = ev.target.checked; render(); setTimeout(fit, 1200); };
 document.getElementById("t-us").onchange = ev => { state.usLayer = ev.target.checked; render(); };
+document.getElementById("t-dr").onchange = ev => { state.showDR = ev.target.checked; render(); };
+document.getElementById("t-benz").onchange = ev => { state.showBenz = ev.target.checked; render(); };
 document.getElementById("t-names").onchange = ev => { state.allNames = ev.target.checked; updateLabelVis(curK); };
 document.getElementById("btn-fit").onclick = fit;
 document.getElementById("btn-pdf").onclick = exportPDF;
@@ -954,6 +963,8 @@ function viewToHash() {
   if (!state.anchor) p.set("free", "1");
   if (state.allNames) p.set("names", "all");
   if (!state.usLayer) p.set("us", "0");
+  if (!state.showDR) p.set("dr", "0");
+  if (!state.showBenz) p.set("benz", "0");
   return p.toString();
 }
 function hashToView() {
@@ -969,6 +980,8 @@ function hashToView() {
   if (p.get("free") === "1") { state.anchor = false; document.getElementById("t-anchor").checked = false; }
   if (p.get("names") === "all") { state.allNames = true; document.getElementById("t-names").checked = true; }
   if (p.get("us") === "0") { state.usLayer = false; document.getElementById("t-us").checked = false; }
+  if (p.get("dr") === "0") { state.showDR = false; document.getElementById("t-dr").checked = false; }
+  if (p.get("benz") === "0") { state.showBenz = false; document.getElementById("t-benz").checked = false; }
   return { typesOff: list("types_off"), focus: p.get("focus") };
 }
 async function shareView() {
