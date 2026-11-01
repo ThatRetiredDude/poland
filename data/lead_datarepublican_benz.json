@@ -668,7 +668,7 @@
    ],
    "date": "2024-12",
    "lead_origin": "Project Veritas (not Benz or DataRepublican)",
-   "verified": "the video is on the record; the blog that reports it is partisan"
+   "verified": "quote from the Project Veritas video, as transcribed by Legal Insurrection"
   },
   {
    "source": "dc_circuit",
@@ -684,14 +684,60 @@
   {
    "source": "benz",
    "target": "pis",
-   "relation": "Benz (Rogan #2272, Feb 2025): USAID/NED tactics targeted PiS; 'USAID advises the Polish government on which citizens to arrest to maintain power'; NED 'pressured for the arrest of members of the Law and Justice Party' to 'stamp out populism'; they backed Tusk",
+   "relation": "Benz claim (Rogan #2272, Feb 2025): 'USAID advises the Polish government on which citizens to arrest to maintain power'",
    "confidence": "alleged",
    "sources": [
     "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
    ],
    "date": "2025-02",
    "lead_origin": "Mike Benz",
-   "verified": "Partly supported for NED: its own journal published a Dec 2023 essay urging that PiS leaders be held responsible and the 2015 TK appointments tried (see the journal_of_democracy edge). Not supported for USAID: its Poland rule-of-law programme is $5k-25k civic-education grants that bar partisan work (Dexis APS 2023-001); no document on advising arrests found. See held_claims."
+   "verified": "no USAID document on this found; the USAID Poland rule-of-law programme found is $5k-25k civic-education grants (Dexis APS 2023-001)"
+  },
+  {
+   "source": "benz",
+   "target": "tusk",
+   "relation": "Benz claim (Rogan #2272, Feb 2025): USAID and NED backed Donald Tusk against PiS",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
+   ],
+   "date": "2025-02",
+   "lead_origin": "Mike Benz",
+   "verified": "no payment from USAID or NED to Tusk found"
+  },
+  {
+   "source": "benz",
+   "target": "ned",
+   "relation": "Benz claim (Rogan #2272, Feb 2025): NED pressed for the arrest of PiS members to 'stamp out populism'",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.shortform.com/podcast/episode/the-joe-rogan-experience-2025-02-12-episode-summary-2272-mike-benz"
+   ],
+   "date": "2025-02",
+   "lead_origin": "Mike Benz",
+   "verified": "the 'stamp out populism' wording and the call to hold PiS leaders responsible are in NED's own journal (fact edges journal_of_democracy -> pis and -> tk); a NED call for arrests specifically was not found"
+  },
+  {
+   "source": "journal_of_democracy",
+   "target": "pis",
+   "relation": "NED's Journal of Democracy published (Dec 2023): Poland is taking 'first steps in stamping out populism and holding accountable those responsible for the worst violations of the rule of law'; 'the leader of the Law and Justice party, Jaroslaw Kaczyński, should be held responsible'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ],
+   "date": "2023-12",
+   "lead_origin": "Mike Benz"
+  },
+  {
+   "source": "journal_of_democracy",
+   "target": "tk",
+   "relation": "NED's Journal of Democracy published (Dec 2023) that the 2015 'appointment of judges to the Constitutional Tribunal in contravention of the law' is among cases that 'should be tried immediately'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
+   ],
+   "date": "2023-12",
+   "lead_origin": "Mike Benz"
   },
   {
    "source": "ned",
@@ -711,7 +757,7 @@
     "https://www.journalofdemocracy.org/online-exclusive/how-to-dismantle-an-illiberal-democracy/"
    ],
    "date": "2023-12",
-   "verified": "Source of Benz's 'stamp out populism' quote. NED's own journal is a reliable record of what NED chose to publish: a call to prosecute those behind the 2015 TK appointments. It is signed by two Polish academics; no NED grant or instruction to the government was found"
+   "verified": "Source of Benz's 'stamp out populism' quote"
   },
   {
    "source": "kuisz_wigura",
@@ -757,7 +803,7 @@
     "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
    ],
    "date": "2016-2023",
-   "lead_origin": "Gazeta Polska / Niezależna.pl, amplified alongside Benz",
+   "lead_origin": "Gazeta Polska / Niezależna.pl",
    "verified": "unsourced list; Tichys Einblick notes the list was 'repeatedly' overstated; the same list's $1.5m OKO.press figure was false (OKO got $88k)"
   },
   {
@@ -781,7 +827,7 @@
     "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
    ],
    "date": "2025-02",
-   "lead_origin": "Gazeta Polska (cited by Benz-adjacent US outlets)",
+   "lead_origin": "Gazeta Polska",
    "verified": "no documents shown; the Polish government says it kept no full record of US grants"
   },
   {
