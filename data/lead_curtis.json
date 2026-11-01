@@ -2,7 +2,7 @@
  "meta": {
   "title": "Sen. John Curtis (R-Utah): should he be on the map, and with which ties",
   "as_of": "2026-11-01",
-  "notes": "Companion to lead_slotkin_sikorski.json (which already has the curtis node). Recommendation: keep Curtis on the map. New fact: on 10 Sep 2026 Curtis, Slotkin and Tillis jointly led a delegation that met Ombudsman (RPO) Sylwia Gregorczyk-Abram, Free Courts co-founder, about the rule of law in Poland. Curtis is NOT named in the Justice Ministry (Żurek/Ejchart/Mazur, 9 Sep) release or the Defence Ministry release. No Budapest leg found for Curtis: his office says the trip was Poland then Ukraine. No money, job or board tie to NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz found. Campaign-finance check not done (FEC/OpenSecrets blocked). The slotkin/tillis/curtis->gregorczyk_abram edges are live in lead_slotkin_life.json, so they are not repeated here.",
+  "notes": "Companion to lead_slotkin_sikorski.json (which already has the curtis node). Recommendation: keep Curtis on the map. New fact: on 10 Sep 2026 Curtis, Slotkin and Tillis jointly led a delegation that met Ombudsman (RPO) Sylwia Gregorczyk-Abram, Free Courts co-founder, about the rule of law in Poland. Curtis is NOT named in the Justice Ministry (Żurek/Ejchart/Mazur, 9 Sep) release or the Defence Ministry release. No Budapest leg found for Curtis: his office says the trip was Poland then Ukraine. No money, job or board tie to NED, OSF, Batory, Free Courts, USAID, the 8 judges, Tusk or Wawrykiewicz found. Campaign-finance check not done (FEC/OpenSecrets blocked). The slotkin/tillis/curtis->gregorczyk_abram edges are live in lead_slotkin_life.json, so they are not repeated here. Money/trips update 2026-11-01: 52 sponsored House-office trips, 2024 Senate donors and super PACs added. Map touch: Democracy Fund and Rockefeller Brothers Fund (already map nodes with grants to the same orgs as OSF) co-paid two Aspen trips each; Heritage paid one staff trip. No OSF/Soros money found.",
   "recommendation": "Keep. He has fact edges to two existing nodes (Gregorczyk-Abram, Sikorski) plus Przydacz, and an indirect fact path to OSF via the YES conference partner IRF. He is a minor actor: there is no record of him at the Żurek meeting or of him saying anything about the Tribunal."
  },
  "nodes": [
@@ -42,6 +42,199 @@
    "label": "Aleksander Kwaśniewski (President of Poland 1995-2005; YES Board chairman)",
    "sources": [
     "https://www.kyivpost.com/post/84397"
+   ]
+  },
+  {
+   "id": "aspen_institute",
+   "type": "org",
+   "group": "us_money",
+   "label": "Aspen Institute (incl. its Congressional Program trips)",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "carnegie_corp_ny",
+   "type": "org",
+   "group": "us_money",
+   "label": "Carnegie Corporation of New York (foundation; not the Carnegie Endowment)",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "gates_foundation",
+   "type": "org",
+   "group": "us_money",
+   "label": "Bill & Melinda Gates Foundation",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "aief",
+   "type": "org",
+   "group": "us_money",
+   "label": "American Israel Education Foundation (AIPAC-affiliated trip sponsor)",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "aipac",
+   "type": "org",
+   "group": "us_money",
+   "label": "AIPAC (American Israel Public Affairs Committee)",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
+   ]
+  },
+  {
+   "id": "sasakawa_usa",
+   "type": "org",
+   "group": "us_money",
+   "label": "Sasakawa Peace Foundation USA",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "usafmc",
+   "type": "org",
+   "group": "us_money",
+   "label": "U.S. Association of Former Members of Congress",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "conservative_climate_fdn",
+   "type": "org",
+   "group": "us_money",
+   "label": "Conservative Climate Foundation",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "cta",
+   "type": "org",
+   "group": "us_money",
+   "label": "Consumer Technology Association",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "rmsp",
+   "type": "org",
+   "group": "us_money",
+   "label": "Republican Main Street Partnership",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "id": "clearpath",
+   "type": "org",
+   "group": "us_money",
+   "label": "ClearPath / ClearPath Action Fund (Jay Faison)",
+   "sources": [
+    "https://clearpathactionfund.org/wp-content/uploads/sites/36/2024/02/CPAF-2024-clean-energy-champions-.pdf",
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/"
+   ]
+  },
+  {
+   "id": "faison",
+   "type": "person",
+   "group": "us_money",
+   "label": "Jay Faison (North Carolina donor; ClearPath founder)",
+   "sources": [
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
+    "https://www.deseret.com/politics/2026/10/07/republican-megadonor-jay-faison-created-doers-network-in-utah-to-elect-moderate-conservative-candidates-like-john-curtis/"
+   ]
+  },
+  {
+   "id": "cv_utah",
+   "type": "org",
+   "group": "us_money",
+   "label": "Conservative Values for Utah (pro-Curtis super PAC, FEC C00855064)",
+   "sources": [
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/",
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/"
+   ]
+  },
+  {
+   "id": "defend_american_jobs",
+   "type": "org",
+   "group": "us_money",
+   "label": "Defend American Jobs (crypto-industry super PAC, FEC C00836221)",
+   "sources": [
+    "https://influence.citationneeded.news/2024/elections/UT-S",
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/"
+   ]
+  },
+  {
+   "id": "acc_pac",
+   "type": "org",
+   "group": "us_money",
+   "label": "American Conservation Coalition PAC",
+   "sources": [
+    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
+   ]
+  },
+  {
+   "id": "edf_action",
+   "type": "org",
+   "group": "us_money",
+   "label": "EDF Action Votes (Environmental Defense Fund political arm)",
+   "sources": [
+    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
+   ]
+  },
+  {
+   "id": "griffin",
+   "type": "person",
+   "group": "us_money",
+   "label": "Ken Griffin (Citadel)",
+   "sources": [
+    "https://www.bizpacreview.com/2024/04/25/gop-rep-running-for-mitt-romneys-seat-rakes-in-thousands-from-nikki-haley-donors-in-first-quarter-as-candidate-1455213/"
+   ]
+  },
+  {
+   "id": "singer",
+   "type": "person",
+   "group": "us_money",
+   "label": "Paul Singer (Elliott Management)",
+   "sources": [
+    "https://www.bizpacreview.com/2024/04/25/gop-rep-running-for-mitt-romneys-seat-rakes-in-thousands-from-nikki-haley-donors-in-first-quarter-as-candidate-1455213/"
+   ]
+  },
+  {
+   "id": "crypto_donors",
+   "type": "org",
+   "group": "us_money",
+   "label": "Crypto executives: Marc Andreessen, Ben Horowitz, Brian Armstrong, Chris Dixon, Kyle Samani, Tushar Jain",
+   "sources": [
+    "https://influence.citationneeded.news/2024/elections/UT-S"
+   ]
+  },
+  {
+   "id": "doers_network",
+   "type": "org",
+   "group": "us_money",
+   "label": "Doers Network (Faison-funded Utah political network, 2025)",
+   "sources": [
+    "https://www.deseret.com/politics/2026/10/07/republican-megadonor-jay-faison-created-doers-network-in-utah-to-elect-moderate-conservative-candidates-like-john-curtis/"
+   ]
+  },
+  {
+   "id": "csis",
+   "type": "org",
+   "group": "us_money",
+   "label": "Center for Strategic and International Studies (CSIS)",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
    ]
   }
  ],
@@ -190,6 +383,415 @@
     "https://www.irf.ua/en/about/"
    ],
    "added_by": "lead_curtis"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Boston, MA (3 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2019-05-10"
+  },
+  {
+   "source": "aief",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Tel Aviv, Jerusalem, Tiberias, Israel (8 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2019-08-09"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Aspen, CO (4 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2019-10-12"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Gettysburg, PA (3 days), co-paid by Democracy Fund and Rockefeller Brothers Fund. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2021-10-22"
+  },
+  {
+   "source": "conservative_climate_fdn",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Glasgow, UK, COP26 period (7 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2021-11-05"
+  },
+  {
+   "source": "cta",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Las Vegas, NV (2 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-01-06"
+  },
+  {
+   "source": "rmsp",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: San Antonio, TX (3 days). Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-03-03"
+  },
+  {
+   "source": "sasakawa_usa",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Tokyo and Kyoto, Japan (8 days), co-paid by U.S. Association of Former Members of Congress. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-05-28"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Reykjavik, Iceland (5 days), co-paid by Democracy Fund and Rockefeller Brothers Fund. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-08-29"
+  },
+  {
+   "source": "conservative_climate_fdn",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Egypt, COP27 period (6 days), with two staff. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-11-09"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Colombia (8 days), co-paid by Rockefeller Brothers Fund and Carnegie Corporation of New York. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2023-02-19"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Miami, FL (2 days); Aspen Ideas: Climate 2023 lists him as a speaker. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2023-03-06"
+  },
+  {
+   "source": "aspen_institute",
+   "target": "curtis",
+   "relation": "Paid for a privately sponsored trip by Rep. Curtis: Kenya (8 days), co-paid by the Gates Foundation. Source: House gift-travel filings as compiled by the Congressional Travel Explorer (dates, destination, sponsor only; no cost shown).",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2023-08-12"
+  },
+  {
+   "source": "democracy_fund",
+   "target": "curtis",
+   "relation": "Co-sponsor of privately paid trip(s) by Rep. Curtis: Gettysburg 2021 and Reykjavik 2022 (with Aspen Institute and Rockefeller Brothers Fund). Dates: 2021-10-22; 2022-08-29. Cost not shown.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2021-10-22"
+  },
+  {
+   "source": "rbf",
+   "target": "curtis",
+   "relation": "Co-sponsor of privately paid trip(s) by Rep. Curtis: Gettysburg 2021, Reykjavik 2022, Colombia 2023 (with Aspen Institute). Dates: 2021-10-22; 2022-08-29; 2023-02-19. Cost not shown.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2021-10-22"
+  },
+  {
+   "source": "carnegie_corp_ny",
+   "target": "curtis",
+   "relation": "Co-sponsor of privately paid trip(s) by Rep. Curtis: Colombia 2023 (with Aspen and RBF). Dates: 2023-02-19. Cost not shown.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2023-02-19"
+  },
+  {
+   "source": "gates_foundation",
+   "target": "curtis",
+   "relation": "Co-sponsor of privately paid trip(s) by Rep. Curtis: Kenya 2023 (with Aspen). Dates: 2023-08-12. Cost not shown.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2023-08-12"
+  },
+  {
+   "source": "usafmc",
+   "target": "curtis",
+   "relation": "Co-sponsor of privately paid trip(s) by Rep. Curtis: Japan 2022 (with Sasakawa Peace Foundation USA). Dates: 2022-05-28. Cost not shown.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114/filer/John%20Curtis.html",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-05-28"
+  },
+  {
+   "source": "aief",
+   "target": "aipac",
+   "relation": "AIEF is AIPAC's affiliated educational foundation that sponsors congressional trips to Israel.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money"
+  },
+  {
+   "source": "aipac",
+   "target": "curtis",
+   "relation": "Endorsed Curtis in the 2024 Senate race (listed as having 'switched endorsement to Curtis' from Romney).",
+   "confidence": "fact",
+   "sources": [
+    "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/2024_United_States_Senate_election_in_Utah"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "heritage",
+   "target": "curtis",
+   "relation": "Paid a 2018 trip by a Curtis House staffer (Bedford, PA, 24-26 Oct 2018). Staff trip, not Curtis himself.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2018-10-24"
+  },
+  {
+   "source": "csis",
+   "target": "curtis",
+   "relation": "CSIS with Carnegie Corporation of New York paid a Curtis staffer's trip to Singapore, 16-23 Apr 2022. Staff trip.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-04-16"
+  },
+  {
+   "source": "carnegie_corp_ny",
+   "target": "csis",
+   "relation": "Co-sponsored the Apr 2022 Singapore staff trip with CSIS.",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2022-04-16"
+  },
+  {
+   "source": "clearpath",
+   "target": "curtis",
+   "relation": "Paid Curtis staff trips (2019 Cambridge MD with MIT; Aug 2022 Chicago). In 2024 ClearPath Action Fund announced 'a $500,000 effort to support John Curtis for Senate' (CPAF release, 13 Feb 2024); E&E: it 'has spent nearly $500,000 backing Curtis'.",
+   "confidence": "fact",
+   "sources": [
+    "https://clearpathactionfund.org/wp-content/uploads/sites/36/2024/02/CPAF-2024-clean-energy-champions-.pdf",
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "faison",
+   "target": "cv_utah",
+   "relation": "E&E (25 Jun 2024): 'Faison has also given $2 million, the largest single contribution, to Conservative Values for Utah, a super PAC that has spent more than $5.3 million supporting Curtis.'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "faison",
+   "target": "clearpath",
+   "relation": "Founder of ClearPath.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/"
+   ],
+   "added_by": "lead_curtis_money"
+  },
+  {
+   "source": "faison",
+   "target": "doers_network",
+   "relation": "Founded and seed-funded the Doers Network in 2025. Deseret (7 Oct 2026): 'After blasting nearly $2.5 million into Utah's 2024 Senate race on behalf of John Curtis...'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.deseret.com/politics/2026/10/07/republican-megadonor-jay-faison-created-doers-network-in-utah-to-elect-moderate-conservative-candidates-like-john-curtis/"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2025"
+  },
+  {
+   "source": "cv_utah",
+   "target": "curtis",
+   "relation": "Super PAC created Oct 2023 to back Curtis; 'more than $5.3 million' spent for him in the 2024 cycle (E&E/Deseret; KSL 8 Jun 2024 cites $4.6M support), plus ~$550,000 against rival Trent Staggs.",
+   "confidence": "fact",
+   "sources": [
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/",
+    "https://www.ksl.com/article/51036214"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "defend_american_jobs",
+   "target": "curtis",
+   "relation": "Crypto-industry super PAC: $1,685,684 to support Curtis and $283,338 against Staggs in the 2024 primary (Follow the Crypto); Deseret puts its pro-Curtis total at 'roughly $3.5 million'. KSL: 'funded by venture capital firms which concentrate on infrastructure, cryptocurrency and technology.' Figures conflict between sources.",
+   "confidence": "fact",
+   "sources": [
+    "https://influence.citationneeded.news/2024/elections/UT-S",
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/",
+    "https://www.ksl.com/article/51036214"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "crypto_donors",
+   "target": "curtis",
+   "relation": "Direct 2024 contributions: Horowitz $3,300, Andreessen $3,300, Armstrong (Coinbase) $3,300, Dixon $1,650, Samani $1,000, Jain $1,000 (Follow the Crypto: '$13,550 in total').",
+   "confidence": "fact",
+   "sources": [
+    "https://influence.citationneeded.news/2024/elections/UT-S"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "acc_pac",
+   "target": "curtis",
+   "relation": "Spent 'over $250,000' for Curtis in the 2024 race (KSL/Deseret, Aug 2024).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "edf_action",
+   "target": "curtis",
+   "relation": "'spent over $100,000 to support Curtis in the primary' (KSL/Deseret, Aug 2024).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024"
+  },
+  {
+   "source": "griffin",
+   "target": "curtis",
+   "relation": "Gave Curtis $6,600 on 29 Feb 2024 (Daily Caller News Foundation via BizPac Review; reported as a Haley donor).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bizpacreview.com/2024/04/25/gop-rep-running-for-mitt-romneys-seat-rakes-in-thousands-from-nikki-haley-donors-in-first-quarter-as-candidate-1455213/"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024-02-29"
+  },
+  {
+   "source": "singer",
+   "target": "curtis",
+   "relation": "Gave Curtis $6,600 on 25 Feb 2024 (Daily Caller News Foundation via BizPac Review; reported as a Haley donor).",
+   "confidence": "fact",
+   "sources": [
+    "https://www.bizpacreview.com/2024/04/25/gop-rep-running-for-mitt-romneys-seat-rakes-in-thousands-from-nikki-haley-donors-in-first-quarter-as-candidate-1455213/"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2024-02-25"
+  },
+  {
+   "source": "conservative_climate_fdn",
+   "target": "curtis",
+   "relation": "Paid 12 trips by Curtis's office 2021-23 (2 by Curtis: Glasgow 2021, Egypt 2022). Curtis founded and chairs the Conservative Climate Caucus; his Senate campaign shared a joint fundraising committee with the Conservative Climate PAC and the NRCC (SL Tribune: 'More than $351,000 came from the joint fundraising committee').",
+   "confidence": "fact",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html",
+    "https://www.sltrib.com/news/politics/2024/06/15/john-curtis-outpacing-rivals"
+   ],
+   "added_by": "lead_curtis_money",
+   "date": "2021-11-05"
   }
  ],
  "checked_no_link": [
@@ -223,9 +825,23 @@
   },
   {
    "subject": "curtis",
-   "searched_for": "campaign donors (Soros family, Democracy PAC, Polish-linked PACs)",
-   "result": "not checked: FEC and OpenSecrets blocked from here; queued for manual capture.",
-   "sources": []
+   "searched_for": "Soros family, Open Society, Democracy PAC, Reid Hoffman, Bloomberg, Pinchuk, NED-linked, Polish or Ukrainian donors (2017-2026)",
+   "result": "no link found in reported coverage of his donors and super PACs (Deseret, KSL, SL Tribune, E&E, Follow the Crypto, Legilist FEC summary). Not checked against itemised FEC records (FEC/OpenSecrets blocked here); queued for manual capture.",
+   "sources": [
+    "https://legilist.com/campaign-finance/C001114/2024",
+    "https://influence.citationneeded.news/2024/elections/UT-S",
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/",
+    "https://www.deseret.com/utah/2024/06/21/john-curtis-pacs-spend-millions-opposing-trent-staggs-in-utah-senate-primary/",
+    "https://www.ksl.com/article/51094181/in-senate-race-curtis-and-gleich-clash-over-climate-solutions-as-environmental-groups-pick-sides"
+   ]
+  },
+  {
+   "subject": "curtis",
+   "searched_for": "privately funded trips paid by NED, IRI, NDI, OSF, GMF, Carnegie Endowment or any Poland/Ukraine group",
+   "result": "none among the 52 sponsored House-office trips 2018-2023. Senate-era (2025-) gift travel not checked (efdsearch requires a browser).",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
   }
  ],
  "timeline": [
@@ -282,6 +898,44 @@
     "https://www.yes-ukraine.org/en/yes-annual-meetings/2026/programa",
     "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/"
    ]
+  },
+  {
+   "date": "2017-2023",
+   "event": "House office took 52 privately sponsored trips (13 by Curtis himself). Top sponsors: Conservative Climate Foundation 12, Aspen Institute 7, Congressional Institute 4, Center Forward 3, Rockefeller Brothers Fund 3.",
+   "sources": [
+    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
+   ]
+  },
+  {
+   "date": "2022-12",
+   "event": "Led a House CODEL to Taiwan (Miller-Meeks, Burgess Owens, Steel); met President Tsai, VP Lai and ministers. Payer not stated (likely official).",
+   "sources": [
+    "https://utahpolicy.com/news-release/66033-u-s-delegation-returns-from-taiwan-bolstering-partnership-with-critical-american-ally"
+   ]
+  },
+  {
+   "date": "2024-08",
+   "event": "House CODEL (with Sen. Ernst, Reps. Banks, Miller-Meeks), 8 days: Israel (Netanyahu, hostage families), Jordan (King Abdullah II), Egypt (al-Sisi), Qatar. Payer not stated.",
+   "sources": [
+    "https://www.deseret.com/politics/2024/08/30/john-curtis-congressional-visit-israel-egypt-jordan-qatar",
+    "https://www.ksl.com/article/51119883/why-john-curtis-thinks-politicians-need-to-get-out-of-their-comfort-zone-more"
+   ]
+  },
+  {
+   "date": "2024",
+   "event": "Senate race money: campaign raised $5,748,064 in the 2024 cycle (individuals $2.32M, PACs $2.05M, transfers $1.37M). Top PAC donors: Bipartisan Climate Fund $20,000; 1-800 Contacts, Charter, Constellation Energy, CTA, Delta, Dirigo PACs $15,000 each. Outside spending for him $6.6-8.4M.",
+   "sources": [
+    "https://legilist.com/campaign-finance/C001114/2024",
+    "https://www.ksl.com/article/51036214",
+    "https://www.sltrib.com/news/politics/2024/06/15/john-curtis-outpacing-rivals"
+   ]
+  },
+  {
+   "date": "2026-03-31",
+   "event": "Led a Senate delegation to Taiwan with Shaheen, Tillis and Rosen; met President Lai, VP Hsiao, FM Lin, NSC head Joseph Wu.",
+   "sources": [
+    "https://www.standard.net/news/2026/mar/31/utah-sen-john-curtis-leads-delegation-to-taiwan-to-affirm-american-support/"
+   ]
   }
  ],
  "leads": [
@@ -304,6 +958,34 @@
    "lead": "Did the Sejm Marshal meeting (queue item 17) include Curtis",
    "result": "open",
    "label": "speculation"
+  },
+  {
+   "lead": "Itemised FEC donors for John Curtis for Utah (C00647339), Team Curtis JFC and Sock It To 'Em PAC (C00654186), 2017-2026",
+   "result": "open; FEC blocked",
+   "label": "speculation"
+  },
+  {
+   "lead": "Senate gift travel 2025-26 on efdsearch.senate.gov, and House foreign-travel (CODEL) cost reports for Taiwan 2022 and Middle East 2024",
+   "result": "open",
+   "label": "speculation"
+  },
+  {
+   "lead": "Who funds Defend American Jobs (named VC/crypto firms)",
+   "result": "open",
+   "label": "speculation"
+  }
+ ],
+ "reported_claims": [
+  {
+   "about": "curtis",
+   "reported_by": "Trent Staggs (2024 rival), via E&E News",
+   "relation": "'John Curtis' campaign has been funded by almost $10 million PAC money.'",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.eenews.net/articles/utah-senate-primary-a-test-for-gop-climate-candidate/"
+   ],
+   "date": "2024-06-25",
+   "verified": "Partly. Super PAC spending for Curtis is reported at about $6.6-8.4M from various outlets, which is outside spending, not campaign money."
   }
  ]
 }
