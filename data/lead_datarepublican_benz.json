@@ -49,7 +49,8 @@
    "label": "CEPPS (IRI + NDI + IFES consortium)",
    "role": "Consortium for Elections and Political Process Strengthening (EIN 52-1943638); members IRI, NDI, IFES",
    "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
+    "https://threadreaderapp.com/scrolly/1889172190282821690",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
    ],
    "us_layer": true
   },
@@ -339,6 +340,58 @@
     "https://dailycaller.com/2025/10/16/obama-foundation-autocracy-poland-hungary-viktor-orban/"
    ],
    "us_layer": true
+  },
+  {
+   "id": "cebrics",
+   "type": "program",
+   "group": "program",
+   "label": "CEBRICS: Central Europe - Building Resilience in Civil Society (GMF, USAID-funded)",
+   "role": "USAID-funded single-donor regional grantmaking project 2022-2026, initial focus Bulgaria, Hungary, Poland; about 230 grants planned; 2023: 44 projects, $1,286,587, grants $10,000-24,975",
+   "sources": [
+    "https://www.gmfus.org/cebrics",
+    "https://www.gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ]
+  },
+  {
+   "id": "usaid_pol_political",
+   "type": "program",
+   "group": "us_gov",
+   "label": "USAID award 'Promoting Citizen Engagement in Political Processes' (Poland, 2022-27)",
+   "role": "$4,238,641, award 7200AA22CA00026, recipient shown only as 'Miscellaneous Foreign Awardees', end date 30 Sep 2027",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00026_7200",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
+   ]
+  },
+  {
+   "id": "zinc_network",
+   "type": "org",
+   "group": "company",
+   "label": "Zinc Network (UK communications firm, USAID implementer)",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_72011420CA00002_7200",
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ]
+  },
+  {
+   "id": "smolar",
+   "type": "person",
+   "group": "ngo_leader",
+   "label": "Aleksander Smolar (Batory Foundation president; NED forum member)",
+   "sources": [
+    "https://www.ned.org/experts/aleksander-smolar/",
+    "https://github.com/twinforces/datarepublican/tree/main/ned"
+   ]
+  },
+  {
+   "id": "isp",
+   "type": "org",
+   "group": "ngo",
+   "label": "Institute of Public Affairs (ISP, Warsaw; Jacek Kucharczyk)",
+   "sources": [
+    "https://www.isp.org.pl/en/employers/dr-jacek-kucharczyk",
+    "https://github.com/twinforces/datarepublican/tree/main/ned"
+   ]
   }
  ],
  "edges": [
@@ -399,25 +452,28 @@
    "source": "datarepublican",
    "target": "cepps",
    "relation": "Thread claim: CEPPS has 'over half a billion dollars in active spending grants and $160+ million in annual contributions, mostly USAID'",
-   "confidence": "alleged",
+   "confidence": "fact",
    "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
+    "https://threadreaderapp.com/scrolly/1889172190282821690",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://www.usaspending.gov/award/ASST_NON_7200AA21LE00008_7200"
    ],
    "date": "2025-02-11",
    "lead_origin": "DataRepublican",
-   "verified": "Thread cites IRS 990s and her own database but links none; no 990 or USAspending record read here"
+   "verified": "USAspending: 48 active USAID awards to CEPPS totalling $528,658,494 (Jan 2025 snapshot), matching 'over half a billion'; the $160m/yr figure is from its 990, not checked"
   },
   {
    "source": "usaid",
    "target": "cepps",
-   "relation": "USAID is the main funder of CEPPS (per DataRepublican's reading of its 990)",
-   "confidence": "alleged",
+   "relation": "48 active USAID awards to CEPPS, $528,658,494 (largest: Democratic Elections and Political Processes LWA, $29.5m)",
+   "confidence": "fact",
    "sources": [
-    "https://threadreaderapp.com/scrolly/1889172190282821690"
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://www.usaspending.gov/award/ASST_NON_7200AA21LE00008_7200"
    ],
    "lead_origin": "DataRepublican",
-   "verified": "not independently checked; 990 not read",
-   "indirect": true
+   "verified": "USAspending, Jan 2025 snapshot",
+   "amount": "USD 528,658,494"
   },
   {
    "source": "ndi_iri",
@@ -466,26 +522,39 @@
    "source": "datarepublican",
    "target": "internews",
    "relation": "Thread claim: Internews has '$94.5 million in active grants from USAID and the Department of State'; its 990 shows '$93.9 million in taxpayer funding, out of a $124 million total budget'",
-   "confidence": "alleged",
+   "confidence": "fact",
    "sources": [
     "https://threadreaderapp.com/scrolly/1889172190282821690",
-    "https://www.internews.org/financials"
+    "https://www.internews.org/financials",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
    ],
    "date": "2025-02-11",
    "lead_origin": "DataRepublican",
-   "verified": "partly: Internews's own 2023 990 shows $123.9m total revenue, matching the $124m budget; the government-grant line was not confirmed from the 990 text"
+   "verified": "USAspending: 13 active awards (12 USAID, 1 State) totalling $94,501,096 (Jan 2025 snapshot), matching '$94.5 million'; Internews's 2023 990 shows $123.9m revenue, matching the $124m budget"
   },
   {
    "source": "usaid",
    "target": "internews",
-   "relation": "USAID funding of Internews: FFO says 'roughly $400 million' since the early 2000s; a Bush-era estimate put government sources at about 80% of its funding",
+   "relation": "Active USAID/State awards to Internews: $94,501,096 across 13 awards (largest: Jordan civil society $19.5m, Moldova media $11.1m, Liberia $10.8m)",
+   "confidence": "fact",
+   "sources": [
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://www.usaspending.gov/award/ASST_NON_72027822CA00001_7200"
+   ],
+   "lead_origin": "DataRepublican (dataset)",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 94,501,096"
+  },
+  {
+   "source": "benz",
+   "target": "internews",
+   "relation": "FFO claim: Internews received 'roughly $400 million' from USAID since the early 2000s; a Bush-era estimate put government sources at about 80% of its funding",
    "confidence": "alleged",
    "sources": [
-    "https://foundationforfreedomonline.com/internews-backed-by-400m-usaid-war-chest-pushes-ad-blacklists/",
-    "https://www.internews.org/financials"
+    "https://foundationforfreedomonline.com/internews-backed-by-400m-usaid-war-chest-pushes-ad-blacklists/"
    ],
    "lead_origin": "Mike Benz (FFO)",
-   "verified": "not verified: FFO cites Asia Times and a 2006 JHU magazine piece, not award records; USAspending not readable here"
+   "verified": "cumulative total not checked; active awards alone are $94.5m (USAspending)"
   },
   {
    "source": "benz",
@@ -1010,6 +1079,187 @@
    ],
    "date": "2025-07-30",
    "lead_origin": "Mike Benz"
+  },
+  {
+   "source": "usaid",
+   "target": "usaid_cep",
+   "relation": "USAID award 'Rule of Law Activity' for Poland: $4,856,989, award 7200AA22CA00024, to 30 Sep 2026 (recipient shown as 'Miscellaneous Foreign Awardees'); Dexis says it runs the Central Europe Program Rule of Law Activity",
+   "confidence": "fact",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00024_7200",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://dexisonline.com/project/usaid-central-europe-program/"
+   ],
+   "date": "2022-2026",
+   "lead_origin": "DataRepublican (dataset)",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 4,856,989"
+  },
+  {
+   "source": "usaid",
+   "target": "cebrics",
+   "relation": "USAID funds GMF's CEBRICS ('USAID-funded single-donor'). A USAspending award with the same title, 'Building Resilience in Civil Society' (Poland), is $6,389,705, award 7200AA22CA00025, to 30 Sep 2027; that this award is CEBRICS is our inference from the matching title and dates",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/cebrics",
+    "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00025_7200",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
+   ],
+   "date": "2022-2027",
+   "lead_origin": "DataRepublican (dataset)",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 6,389,705"
+  },
+  {
+   "source": "gmf",
+   "target": "cebrics",
+   "relation": "GMF runs CEBRICS; partners in Poland: Helsinki Foundation for Human Rights and Shipyard Foundation",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/cebrics",
+    "https://www.gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "date": "2022-2026"
+  },
+  {
+   "source": "cebrics",
+   "target": "hfhr",
+   "relation": "Helsinki Foundation for Human Rights is a CEBRICS implementation partner in Poland",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf"
+   ],
+   "date": "2023"
+  },
+  {
+   "source": "cebrics",
+   "target": "ceo_poland",
+   "relation": "CEBRICS 2023 grants included Center for Citizenship Education's 'Electoral Lighthouse' (Latarnik Wyborczy) voter-advice app; CEBRICS gave four grants totalling $79,910 for the Poland 2023 election",
+   "confidence": "fact",
+   "sources": [
+    "https://www.gmfus.org/sites/default/files/2024-08/Year%20in%20Review%20-%20CEBRICS%20Factsheet_0.pdf",
+    "https://www.dailysignal.com/2025/02/28/how-biden-admin-interfered-polands-elections-shift-ally-leftward/"
+   ],
+   "date": "2023",
+   "lead_origin": "Daily Signal (claim: Latarnik 'funded by USAID and the German Marshall Fund')",
+   "verified": "GMF's own factsheet; the PDF text was partly garbled, so check exact per-grant amounts in the PDF",
+   "indirect": true,
+   "amount": "USD 79,910"
+  },
+  {
+   "source": "usaid",
+   "target": "usaid_pol_political",
+   "relation": "USAID award 'Promoting Citizen Engagement in Political Processes' in Poland: $4,238,641 (7200AA22CA00026), started 2022, before the Oct 2023 election; implementer not named in USAspending",
+   "confidence": "fact",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_7200AA22CA00026_7200",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://xpatloop.com/channels/2022/12/usaid-launches-extensive-new-programmes-in-hungary-and-region.html"
+   ],
+   "date": "2022-2027",
+   "lead_origin": "DataRepublican (dataset)",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 4,238,641"
+  },
+  {
+   "source": "us_state_dept",
+   "target": "ned",
+   "relation": "State Dept core grants to NED of about $300-315m a year (FY2020-FY2024 awards SAQMIP22GR0005, SAQMIP23GR0002, SAQMIP24GR0005 etc.); $1,617.6m across 7 active awards, matching DataRepublican's '$1,618 million'",
+   "confidence": "fact",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_SAQMIP24GR0005_1900",
+    "https://www.usaspending.gov/award/ASST_NON_SAQMIP23GR0002_1900",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search",
+    "https://threadreaderapp.com/scrolly/1889172190282821690"
+   ],
+   "date": "2020-2028",
+   "lead_origin": "DataRepublican",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 1,617,566,570"
+  },
+  {
+   "source": "usaid",
+   "target": "zinc_network",
+   "relation": "USAID 'Georgia Information Integrity Program' award to Zinc Network: $7,539,267 (72011420CA00002); OKO.press says part of its $88k US money came through Zinc Network as an operator",
+   "confidence": "fact",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_72011420CA00002_7200",
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
+   ],
+   "date": "2020-2025",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 7,539,267"
+  },
+  {
+   "source": "zinc_network",
+   "target": "okopress",
+   "relation": "Operator through which OKO.press received part of its USAID-origin grants (2024-25)",
+   "confidence": "fact",
+   "sources": [
+    "https://oko.press/usaid-dalo-okopress-15-mln-dolarow-sprawdzamy"
+   ],
+   "date": "2024-2025",
+   "indirect": true
+  },
+  {
+   "source": "us_state_dept",
+   "target": "occrp",
+   "relation": "Active US awards to Journalism Development Network (OCCRP's US entity): $4,299,778 (State INL $2.30m for Malta/Cyprus journalism; USAID $2.0m Paraguay)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.usaspending.gov/award/ASST_NON_SINLEC22GR0342_1900",
+    "https://www.usaspending.gov/award/ASST_NON_72052624CA00002_7200",
+    "https://github.com/twinforces/datarepublican/tree/main/award_search"
+   ],
+   "date": "2022-2029",
+   "verified": "USAspending active awards as of about 31 Jan 2025, read from DataRepublican's open dataset (award_search files)",
+   "amount": "USD 4,299,778"
+  },
+  {
+   "source": "smolar",
+   "target": "batory",
+   "relation": "President of the Stefan Batory Foundation (per his NED expert profile)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.ned.org/experts/aleksander-smolar/",
+    "https://github.com/twinforces/datarepublican/tree/main/ned"
+   ]
+  },
+  {
+   "source": "smolar",
+   "target": "ned",
+   "relation": "Member of NED's International Forum for Democratic Studies network (NED expert profile); Journal of Democracy author",
+   "confidence": "fact",
+   "sources": [
+    "https://www.ned.org/experts/aleksander-smolar/",
+    "https://github.com/twinforces/datarepublican/tree/main/ned"
+   ],
+   "lead_origin": "DataRepublican (NED index)"
+  },
+  {
+   "source": "journal_of_democracy",
+   "target": "isp",
+   "relation": "Published 'Populism and Protest in Poland' (Oct 2016) by Joanna Fomina and ISP president Jacek Kucharczyk",
+   "confidence": "fact",
+   "sources": [
+    "https://www.journalofdemocracy.org/articles/the-specter-haunting-europe-populism-and-protest-in-poland/",
+    "https://github.com/twinforces/datarepublican/tree/main/ned"
+   ],
+   "date": "2016-10",
+   "lead_origin": "DataRepublican (NED index)"
+  },
+  {
+   "source": "usaid",
+   "target": "isp",
+   "relation": "Claim: ISP got $3m from USAID (online list)",
+   "confidence": "alleged",
+   "sources": [
+    "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/polen-pis-regierung-tusk-usaid-washington/"
+   ],
+   "date": "2016-2023",
+   "lead_origin": "Niezależna.pl / social media list",
+   "verified": "no ISP award in the active USAspending awards read (Jan 2025 snapshot)"
   }
  ],
  "checked_no_link": [
@@ -1166,7 +1416,7 @@
     "https://www.sltrib.com/news/2025/03/09/utah-software-engineer-is-giving"
    ],
    "us_layer": true,
-   "site_tools": "datarepublican.com: 15 free tools (USAspending grant search, nonprofit officer search, charity Sankey/graph, NED Journal of Democracy explorer that its own page says uses AI summaries that may be wrong, EA explorer). The tools are browser apps and could not be queried from here."
+   "site_tools": "datarepublican.com: 15 free tools (USAspending grant search, nonprofit officer search, charity Sankey/graph, NED Journal of Democracy explorer that its own page says uses AI summaries that may be wrong, EA explorer). Her code and data are open on GitHub (github.com/twinforces/datarepublican); the award_search and ned data files were read directly for this layer."
   }
  }
 }
