@@ -1,0 +1,694 @@
+{
+  "meta": {
+    "title": "Open leads: search log and source candidates",
+    "as_of": "2026-11-01",
+    "status": "search results only. No page was read in this run, so no edge in this file is a verified fact.",
+    "tool": "WebSearch (standard mode throughout; search returns titles and URLs, not page text)",
+    "access_note": "Working container egress policy denied CONNECT (HTTP 403) to research hosts (sejm.gov.pl API, judicialwatch.org, wolnesady.org, en.wikipedia.org, ned.org, eeagrants.org, oko.press, wyborcza.pl, gov.pl, eecpoland.eu and others). No page in this log was read. Every candidate is a search hit (title and URL only) and stays unverified until the page is read and captured.",
+    "labels": "fact | alleged | speculation | unproven_conspiracy | no_link. Nothing in this file has a label yet, because no source was read.",
+    "next_step": "Read and capture the blocked and high-priority URLs (see the collection thread). Only then add edges, each with its quote and provenance."
+  },
+  "leads": [
+    {
+      "lead_id": "free_courts_us_funding",
+      "question": "Does any US government money reach Free Courts (Fundacja Wolne Sądy) or its co-founders, and what capacity did the NED fellowship (Wawrykiewicz) involve?",
+      "existing_map_coverage": "lead_free_courts_osf.json: OSF USD 130,000 grant (2023-24) cited via Judicial Watch; lead_funders_ned_osf_usaid.json: NED partner; NED USD 26,000 fellowship to Wawrykiewicz; Judicial Watch FOIA suit listed as pending.",
+      "queries": [
+        {
+          "q": "Wawrykiewicz National Endowment for Democracy fellowship Free Courts",
+          "mode": "standard"
+        },
+        {
+          "q": "Judicial Watch FOIA National Endowment for Democracy Poland judges Free Courts",
+          "mode": "standard"
+        },
+        {
+          "q": "Fundacja Wolne Sądy finansowanie grant NED fundusze zagraniczne",
+          "mode": "standard"
+        },
+        {
+          "q": "Judicial Watch Free Courts Foundation Poland State Department grant",
+          "mode": "standard"
+        },
+        {
+          "q": "Judicial Watch Poland NED grants left-wing European NGOs list Free Courts Iustitia",
+          "mode": "standard"
+        },
+        {
+          "q": "Gregorczyk-Abram Free Courts co-founder grant funder annual report",
+          "mode": "standard"
+        },
+        {
+          "q": "Free Courts Foundation Wolne Sądy annual report funding sources 2024 2025 donors",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
+          "title": "grants left wing european ngos",
+          "publisher_type": "advocacy group (Judicial Watch)",
+          "priority": "high",
+          "why": "Likely source of the grant list behind the OSF and NED entries on the map"
+        },
+        {
+          "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+          "title": "JW v. State Dept Europe complaint 00346",
+          "publisher_type": "court filing (Judicial Watch complaint)",
+          "priority": "high",
+          "why": "FOIA complaint against State Dept on Europe grants; may name recipients"
+        },
+        {
+          "url": "https://www.judicialwatch.org/?p=152386",
+          "title": "www.judicialwatch.org (untitled)",
+          "publisher_type": "advocacy group (Judicial Watch)",
+          "priority": "high",
+          "why": "Surfaced in 3 queries on the Free Courts / NED topic; content unknown"
+        },
+        {
+          "url": "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/",
+          "title": "Statement of the board of the Free Courts Foundation regarding the resignation of Michał Wawrykiewicz from the position of the board member",
+          "publisher_type": "organisation's own site",
+          "priority": "high",
+          "why": "Organisation's own statement on Wawrykiewicz's board role (capacity)"
+        },
+        {
+          "url": "https://wolnesady.org/en/support-free-courts-foundation-on-patronite-polish-crowdfunding-site/",
+          "title": "Support Free Courts Foundation on Patronite (Polish crowdfunding site)",
+          "publisher_type": "organisation's own site",
+          "priority": "medium",
+          "why": "Public crowdfunding is a funding channel to record if confirmed"
+        },
+        {
+          "url": "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady",
+          "title": "FUNDACJA WOLNE SĄDY (KRS 0000829554)",
+          "publisher_type": "company-data aggregator (KRS-based)",
+          "priority": "medium",
+          "why": "Registry-based board and financial data, if the page shows them"
+        },
+        {
+          "url": "https://www.emis.cn/php/company-profile/PL/Fundacja_Wolne_Sady_en_16576786.html",
+          "title": "Fundacja Wolne Sady company profile",
+          "publisher_type": "company-data aggregator",
+          "priority": "low",
+          "why": "Secondary registry profile; check against KRS"
+        },
+        {
+          "url": "https://worldjusticeproject.org/world-justice-challenge/free-courts-foundation-defending-rule-law-poland",
+          "title": "Free Courts Foundation - defending rule of law in Poland (World Justice Challenge)",
+          "publisher_type": "NGO prize programme",
+          "priority": "medium",
+          "why": "Award listing; check the awarding body and any funder named"
+        },
+        {
+          "url": "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2",
+          "title": "Open Society Foundations: Europe and Central Asia to support Free Courts work on rule of law around the electoral process of 2023",
+          "publisher_type": "grants aggregator",
+          "priority": "high",
+          "why": "Would corroborate the OSF grant already on the map (currently cited via Judicial Watch only)"
+        },
+        {
+          "url": "https://wbj.pl/lawyers-from-free-courts-win-european-citizens-prize/post/129811",
+          "title": "Lawyers from Free Courts win European Citizens' Prize",
+          "publisher_type": "news outlet",
+          "priority": "medium",
+          "why": "Prize is an EU-linked recognition; check the awarding body and any money attached"
+        },
+        {
+          "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+          "title": "Country Report - Poland (INPRIS)",
+          "publisher_type": "think tank report",
+          "priority": "low",
+          "why": "Context on foreign-funded NGOs; check for Free Courts or NED entries"
+        },
+        {
+          "url": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-2474113",
+          "title": "The Polish national foundation to launch its fair courts campaign abroad",
+          "publisher_type": "news outlet",
+          "priority": "medium",
+          "why": "Identify the foundation (Free Courts or other) and its campaign funding"
+        },
+        {
+          "url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/",
+          "title": "Forsal: Lyudmyla Kozlovska's foundation received a grant from the Department of State (tag page)",
+          "publisher_type": "organisation's own site",
+          "priority": "low",
+          "why": "Adjacent: a State Dept grant to a different Polish rule-of-law organisation, not Free Courts. Recorded as a pattern, not a Free Courts lead"
+        },
+        {
+          "url": "https://ned.org/events/democratic-deconsolidation-and-declining-rule-of-law-in-poland-restoration-resilience-and-resolve",
+          "title": "Democratic Deconsolidation and Declining Rule of Law in Poland: Restoration, Resilience, and Resolve (NED event)",
+          "publisher_type": "funder's own site (NED)",
+          "priority": "medium",
+          "why": "NED event page; check host, speakers and whether Free Courts is a partner"
+        },
+        {
+          "url": "https://impactcee.com/impact/2023/speaker-2/?spk=3627",
+          "title": "Michał Wawrykiewicz (speaker profile, IMPACT CEE 2023)",
+          "publisher_type": "conference organiser",
+          "priority": "medium",
+          "why": "Event host and speaker capacity; also 2024, 2025 and 2026 pages with the same speaker id"
+        },
+        {
+          "url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627",
+          "title": "speaker 2 (IMPACT CEE 2026, speaker id 3627)",
+          "publisher_type": "conference organiser",
+          "priority": "low",
+          "why": "Same speaker, later year"
+        },
+        {
+          "url": "https://parltrack.eu/mep/Michał WAWRYKIEWICZ",
+          "title": "Michał WAWRYKIEWICZ (MEP profile, parltrack)",
+          "publisher_type": "data aggregator (EP data)",
+          "priority": "medium",
+          "why": "MEP record for group and committee roles; URL contains a raw space and should be percent-encoded"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+          "title": "Michał Wawrykiewicz (Wikipedia)",
+          "publisher_type": "encyclopaedia",
+          "priority": "low",
+          "why": "Pointer only; use its citations"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
+        "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+        "https://wolnesady.org/en/statement-of-the-board-of-the-free-courts-foundation-regarding-the-resignation-of-michal-wawrykiewicz-from-the-position-of-the-board-member/",
+        "https://www.developmentaid.org/organizations/awards/view/604051/europe-and-central-asia-to-support-free-courts-work-on-rule-of-law-around-the-electoral-process-of-2"
+      ],
+      "search_result": "Candidates found. No page read. No fact established by search alone."
+    },
+    {
+      "lead_id": "eu_replacement_money",
+      "question": "Did EU money (CERV, AgoraEU, EEA/Norway grants, EU prizes) fund Free Courts, OKO.press, Batory, Iustitia, Themis, KOS or HFHR in 2024-26, and was any of it described as replacing US money?",
+      "existing_map_coverage": "lead_taborowski_patyra.json: EU CERV funds Batory's Equal Rights Programme (EUR 6.7m for 2025-27) with a 2025 report as its source. No EU money link to Free Courts or OKO.press is on the map.",
+      "queries": [
+        {
+          "q": "EU CERV grant Iustitia OR Themis OR Free Courts OR OKO.press OR Batory 2025 funding Poland rule of law",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/justice-and-consumers/justice-and-consumers-funding-tenders_pl",
+          "title": "Justice and consumers funding and tenders (Polish page)",
+          "publisher_type": "EU institution",
+          "priority": "high",
+          "why": "Entry point for checking CERV and Justice programme awards by beneficiary"
+        },
+        {
+          "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494",
+          "title": "PL ACTIVECITIZENS NATIONAL 0494 (EEA Grants project page)",
+          "publisher_type": "funder's own site (EEA Grants)",
+          "priority": "medium",
+          "why": "Beneficiary not shown in the title; check whether it is a judicial NGO"
+        },
+        {
+          "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0482",
+          "title": "PL ACTIVECITIZENS NATIONAL 0482 (EEA Grants project page)",
+          "publisher_type": "funder's own site (EEA Grants)",
+          "priority": "medium",
+          "why": "Surfaced in the Free Courts query; check beneficiary"
+        },
+        {
+          "url": "https://eeagrants.org/node/23959",
+          "title": "More information (EEA Grants node)",
+          "publisher_type": "funder's own site (EEA Grants)",
+          "priority": "medium",
+          "why": "Surfaced in the Free Courts State Dept query; content unknown"
+        },
+        {
+          "url": "https://aktywniobywatele.org.pl/?p=5668",
+          "title": "aktywniobywatele.org.pl (Active Citizens Fund Poland)",
+          "publisher_type": "programme operator site",
+          "priority": "low",
+          "why": "Operator site for the Active Citizens Fund; check whether it lists Free Courts"
+        },
+        {
+          "url": "https://www.pap.pl/en/news/polish-ngos-count-govt-funding-after-us-aid-cuts",
+          "title": "Polish NGOs count on gov't funding after US aid cuts",
+          "publisher_type": "news agency (PAP)",
+          "priority": "high",
+          "why": "Directly relevant to the replacement hypothesis; check named NGOs and amounts"
+        },
+        {
+          "url": "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation",
+          "title": "Liberal and left-leaning groups appeal to Polish government for USAID cuts compensation",
+          "publisher_type": "news outlet (reporter, a source and not a node)",
+          "priority": "high",
+          "why": "Names groups that asked for replacement money; check whether any is on the map"
+        },
+        {
+          "url": "https://www.liberties.eu/en/stories/controversial-poland-ngo-funding-bill-becomes-law-sn-20400/39041",
+          "title": "Controversial Poland NGO funding bill becomes law",
+          "publisher_type": "NGO (Liberties)",
+          "priority": "low",
+          "why": "Context on Polish NGO funding rules"
+        },
+        {
+          "url": "https://pulaski.pl/?p=21870",
+          "title": "pulaski.pl (Pulaski Foundation)",
+          "publisher_type": "think tank",
+          "priority": "low",
+          "why": "Unknown content; check for funding analysis"
+        },
+        {
+          "url": "https://ctphilanthropy.org/node/87726",
+          "title": "ctphilanthropy.org (untitled)",
+          "publisher_type": "philanthropy network",
+          "priority": "low",
+          "why": "Unknown content; surfaced in the Free Courts query"
+        },
+        {
+          "url": "https://en.protothema.gr/european-commission-admits-to-handing-millions-in-tax-cash-to-far-left-ngos/",
+          "title": "European commission admits to handing millions in tax cash to far left NGOs",
+          "publisher_type": "news outlet (partisan framing)",
+          "priority": "low",
+          "why": "Partisan headline; claim not verified; use only if the Commission document it cites is found"
+        },
+        {
+          "url": "https://www.devex.com/news/trump-team-overrides-congress-in-last-minute-foreign-aid-push-98896",
+          "title": "Trump team overrides Congress in last minute foreign aid push",
+          "publisher_type": "news outlet",
+          "priority": "medium",
+          "why": "US-side timing of late-term obligations; bears on the speculation that Biden-era money was rushed out"
+        },
+        {
+          "url": "https://www.washingtonexaminer.com/?p=3109445",
+          "title": "Biden's 'Trump-proofing' foreign policy revolves around Ukraine and NATO",
+          "publisher_type": "news outlet",
+          "priority": "medium",
+          "why": "Source for the 'Trump-proofing' framing; does not itself name Polish recipients"
+        },
+        {
+          "url": "https://www.osw.waw.pl/en/publikacja/32980/pdf",
+          "title": "OSW publication 32980 (PDF)",
+          "publisher_type": "think tank (Polish Centre for Eastern Studies)",
+          "priority": "low",
+          "why": "Unknown content; check for US funding flows to Poland"
+        },
+        {
+          "url": "https://ukrinform.net/rubric-society/3959723-polands-largest-aid-hub-for-ukrainians-loses-funding-following-trumps-usaid-decision.html",
+          "title": "Poland's largest aid hub for Ukrainians loses funding following Trump's USAID decision",
+          "publisher_type": "news outlet",
+          "priority": "low",
+          "why": "Shows US funding cuts reached Polish NGOs; not a judicial NGO"
+        },
+        {
+          "url": "https://wbj.pl/lawyers-from-free-courts-win-european-citizens-prize/post/129811",
+          "title": "Lawyers from Free Courts win European Citizens' Prize",
+          "publisher_type": "news outlet",
+          "priority": "medium",
+          "why": "Duplicate of the Free Courts entry; listed here for the EU link"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://www.pap.pl/en/news/polish-ngos-count-govt-funding-after-us-aid-cuts",
+        "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
+      ],
+      "search_result": "No EU grant to a named judicial NGO surfaced in the search. The replacement hypothesis stays speculation."
+    },
+    {
+      "lead_id": "judges_wyborcza_bylines",
+      "question": "Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+      "existing_map_coverage": "Not checked in an earlier pass. Agora ownership is on the map (agora_sa, gazeta_wyborcza); no judge-to-Wyborcza link is on the map.",
+      "queries": [
+        {
+          "q": "Krystian Markiewicz Gazeta Wyborcza wyborcza.pl artykuł sędzia",
+          "mode": "standard"
+        },
+        {
+          "q": "Korwin-Piotrowska sędzia wywiad Gazeta Wyborcza",
+          "mode": "standard"
+        },
+        {
+          "q": "Taborowski Gazeta Wyborcza wyborcza.pl wypowiedź sędzia TK",
+          "mode": "standard"
+        },
+        {
+          "q": "Szostek Dziurda Bentkowska Patyra Berek sędzia Trybunału Konstytucyjnego Gazeta Wyborcza autor",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+          "title": "Sędzia Korwin-Piotrowska walczyła o wolne sądy, teraz została prezeską sądu okręgowego w Opolu",
+          "publisher_type": "news outlet (OKO.press)",
+          "priority": "medium",
+          "why": "Profile of the judge; names her Free Courts involvement (already in the map as Korwin-Piotrowska profile)"
+        },
+        {
+          "url": "https://www.prawo.pl/prawnicy-sady/krystian-markiewicz-nowym-szefem-iustitii,182635.html",
+          "title": "Krystian Markiewicz nowym szefem Iustitii",
+          "publisher_type": "news outlet (prawo.pl)",
+          "priority": "low",
+          "why": "Iustitia leadership; no Wyborcza link"
+        },
+        {
+          "url": "https://www.bankier.pl/wiadomosc/Markiewicz-Zrzeklem-sie-funkcji-sedziego-Sadu-Okregowego-w-Katowicach-9114871.html",
+          "title": "Markiewicz: I resigned from the post of judge of the Katowice District Court",
+          "publisher_type": "news outlet (Bankier)",
+          "priority": "low",
+          "why": "Post-TK-election resignation; check the date and wording"
+        },
+        {
+          "url": "https://tvn24.pl/najnowsze/sedzia-korwin-piotrowska-o-rozmowie-z-prezesem-tk-vd9142791",
+          "title": "Judge Korwin-Piotrowska on her conversation with the TK president",
+          "publisher_type": "news outlet (TVN24)",
+          "priority": "medium",
+          "why": "Interview on a rival broadcaster; capture the verbatim quotes and date. Check the name matches Anna Korwin-Piotrowska"
+        },
+        {
+          "url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+          "title": "Sędzia Trybunału Konstytucyjnego: praworządność można przywracać praworządnymi metodami",
+          "publisher_type": "news outlet (TVP Info)",
+          "priority": "medium",
+          "why": "Interview with an unnamed TK judge in the title; identify the judge before use"
+        },
+        {
+          "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+          "title": "Maciej Berek and the Constitutional Tribunal",
+          "publisher_type": "news outlet (prawo.pl)",
+          "priority": "medium",
+          "why": "Berek's background and TK link"
+        },
+        {
+          "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+          "title": "Polish PM confirms he wants his right hand man to be made constitutional court judge",
+          "publisher_type": "news outlet (Notes from Poland)",
+          "priority": "high",
+          "why": "Possible Tusk-to-judge tie. Check whether the 'right hand man' is Berek, and capture the PM's words verbatim in Polish with the source"
+        },
+        {
+          "url": "https://www.rp.pl/sady-i-trybunaly/art44898061-slawomir-patyra-zaprzysiezony-przez-prezydenta-na-sedziego-tk-nie-bedzie-jednak-orzekal",
+          "title": "Sławomir Patyra sworn in by the president as TK judge, will not sit",
+          "publisher_type": "news outlet (Rzeczpospolita)",
+          "priority": "medium",
+          "why": "Patyra's status after the oath"
+        },
+        {
+          "url": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk",
+          "title": "Judge Szostek will certainly take up the TK post just after Christmas",
+          "publisher_type": "news agency (PAP)",
+          "priority": "low",
+          "why": "Szostek timing"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/19",
+          "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+          "publisher_type": "official (Sejm transcript)",
+          "priority": "high",
+          "why": "Sejm sitting of 4 Sep 2026, when TK judges were elected. Check for Taborowski, Berek and Patyra speech and any firm or client mention, with the timestamp"
+        },
+        {
+          "url": "https://trybunal.gov.pl/fileadmin/content/omowienia/Ts_55_04_PL.pdf",
+          "title": "Ts 55/04 (TK opinion, PL)",
+          "publisher_type": "official (Constitutional Tribunal)",
+          "priority": "low",
+          "why": "Context for the bar-register question"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/19",
+        "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+        "https://tvn24.pl/najnowsze/sedzia-korwin-piotrowska-o-rozmowie-z-prezesem-tk-vd9142791"
+      ],
+      "search_result": "No wyborcza.pl URL surfaced for any of the eight judges. Search gave no hits for a Wyborcza byline. Do not record this as no_link: no page was searched."
+    },
+    {
+      "lead_id": "taborowski_firm_clients",
+      "question": "Does Hoffman, Taborowski i Wspólnicy (KRS 0000901486) have state or foreign clients, or fees from public bodies?",
+      "existing_map_coverage": "lead_taborowski_patyra.json: firm node (KRS 0000901486, partner Piotr Hoffman, 1 employee in 2025, revenue not public). Sejm written question 3200 is cited as mentioning the firm; its text was not retrieved.",
+      "queries": [
+        {
+          "q": "Maciej Taborowski radca prawny kancelaria wspólnik",
+          "mode": "standard"
+        },
+        {
+          "q": "Taborowski kancelaria radcy prawnego klienci zapytanie poselskie 3200",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+          "title": "Zapytanie nr 3200 (Sejm written question 3200)",
+          "publisher_type": "official (Sejm)",
+          "priority": "high",
+          "why": "Source of the firm mention; capture text, date and author verbatim"
+        },
+        {
+          "url": "https://compabase.com/companies/krs/0000901486",
+          "title": "Hoffman Taborowski I Wspólnicy Adwokacka sp. p. (status: active)",
+          "publisher_type": "company-data aggregator (KRS)",
+          "priority": "medium",
+          "why": "Partners and status from the KRS record"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/3328/body",
+          "title": "Interpelacja nr 3328",
+          "publisher_type": "official (Sejm)",
+          "priority": "medium",
+          "why": "Surfaced for the firm-clients query; the topic is not shown. Check whether it names the firm"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTD8HHWS/i03328-o1.pdf",
+          "title": "i03328 o1 (attachment to interpelacja 3328)",
+          "publisher_type": "official (Sejm)",
+          "priority": "medium",
+          "why": "Attachment to the same interpellation"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4234/body",
+          "title": "Interpelacja nr 4234",
+          "publisher_type": "official (Sejm)",
+          "priority": "low",
+          "why": "Surfaced for the firm-clients query; topic unknown"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
+          "title": "z03182 o1 (interpellation attachment)",
+          "publisher_type": "official (Sejm)",
+          "priority": "low",
+          "why": "Unknown; surfaced for the firm-clients query"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTD7VEK6/z00729-o1.pdf",
+          "title": "z00729 o1 (interpellation attachment)",
+          "publisher_type": "official (Sejm)",
+          "priority": "low",
+          "why": "Unknown; surfaced for the firm-clients query"
+        },
+        {
+          "url": "https://api.sejm.gov.pl/sejm/term10/committees/PET/sittings/136/pdf",
+          "title": "Committee PET sitting 136 (PDF)",
+          "publisher_type": "official (Sejm committee)",
+          "priority": "low",
+          "why": "Unknown; surfaced for the firm-clients query"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body"
+      ],
+      "search_result": "The Sejm written question is the only official lead, and its text is blocked. Candidate interpellations need reading before any link is recorded."
+    },
+    {
+      "lead_id": "taborowski_bar_register_and_incompatibility",
+      "question": "Is Maciej Taborowski still listed as an active advocate or legal adviser while serving as a TK judge, and do the TK Act's rules on other activity apply?",
+      "existing_map_coverage": "lead_taborowski_patyra.json: bar register entry cited (rejestradwokatow.pl, adwokat no. 87304); status not yet read in this log. Earlier note: 'Advocate (Warsaw bar 2020)'.",
+      "queries": [
+        {
+          "q": "Maciej Taborowski Trybunał Konstytucyjny sędzia zakaz wykonywania zawodu radcy prawnego rejestr",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://rejestradwokatow.pl/adwokat/pdf/taborowski-maciej-87304",
+          "title": "taborowski maciej 87304 (national advocates register entry)",
+          "publisher_type": "official register",
+          "priority": "high",
+          "why": "Current register status and dates; capture the entry as it reads"
+        },
+        {
+          "url": "https://pro.rp.pl/sady-i-prokuratura/art45051151-wpis-na-liste-to-nie-jest-wykonywanie-zawodu",
+          "title": "Wpis na listę to nie jest wykonywanie zawodu (registration on the list is not practising)",
+          "publisher_type": "news outlet (Rzeczpospolita)",
+          "priority": "medium",
+          "why": "Legal commentary on what a register entry means. Context only"
+        },
+        {
+          "url": "https://www.rpo.gov.pl/sites/default/files/2023-10/Do_TK_RPO_adwokaci_radcowie_izby_uzasadnienie_4.10.2023.pdf",
+          "title": "Do TK RPO adwokaci radcowie izby uzasadnienie 4.10.2023 (PDF)",
+          "publisher_type": "official (RPO submission to the TK)",
+          "priority": "medium",
+          "why": "Ombudsman submission on advocates and legal advisers in 2023. Check whether the office's then-deputy (Taborowski) is named"
+        },
+        {
+          "url": "https://e-prawnik.pl/temat/ulatwienia-dla-radcow-prawnych-zgodne-z-konstytucja.html",
+          "title": "Ułatwienia dla radców prawnych. Zgodne z konstytucją?",
+          "publisher_type": "legal commentary",
+          "priority": "low",
+          "why": "Context on legal-adviser access rules"
+        },
+        {
+          "url": "https://eli.gov.pl/api/acts/DU/1992/159/text/T/D19920159L.pdf",
+          "title": "Dz.U. 1992 nr 159 (ELI text)",
+          "publisher_type": "official (legislation)",
+          "priority": "low",
+          "why": "Identify the act before citing it. It may not be the TK Act"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://rejestradwokatow.pl/adwokat/pdf/taborowski-maciej-87304",
+        "https://www.rpo.gov.pl/sites/default/files/2023-10/Do_TK_RPO_adwokaci_radcowie_izby_uzasadnienie_4.10.2023.pdf"
+      ],
+      "search_result": "Register entry exists under the name. Its status, and whether it is the TK judge, need reading. Incompatibility text not yet retrieved."
+    },
+    {
+      "lead_id": "eec2025_government_speakers_party_ties",
+      "question": "What party ties do the EEC 2025 government speakers on the map have (Budka, Baranowski, Duszczyk, Sikora, Sobkowiak-Czarnecka)? Party-balance rule: show party ties as clearly as cross-party ties.",
+      "existing_map_coverage": "lead_eec_2025.json (data only, not drawn): 16 fact ties speaker -> eec_2025. Government speakers have no party edges on the map yet.",
+      "queries": [
+        {
+          "q": "Borys Budka partia Koalicja Obywatelska minister aktywów państwowych biografia",
+          "mode": "standard"
+        },
+        {
+          "q": "Maciej Duszczyk Michał Baranowski Monika Sikora Magdalena Sobkowiak-Czarnecka partia członek lista wyborcza 2023",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+          "title": "Three KO ministers run for Brussels; Budka: we placed ourselves at the PM's disposal",
+          "publisher_type": "news outlet (TVN24)",
+          "priority": "high",
+          "why": "Budka's KO list role, with a verbatim quote to capture"
+        },
+        {
+          "url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+          "title": "Borys Budka new minister of state assets",
+          "publisher_type": "news outlet (money.pl)",
+          "priority": "medium",
+          "why": "Ministerial appointment date and party framing"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Borys_Budka",
+          "title": "Borys Budka (Wikipedia)",
+          "publisher_type": "encyclopaedia",
+          "priority": "low",
+          "why": "Pointer only; use its party infobox and citations"
+        },
+        {
+          "url": "https://www.gov.pl/web/primeminister/borys-budka2",
+          "title": "Borys Budka (gov.pl profile)",
+          "publisher_type": "official (government)",
+          "priority": "medium",
+          "why": "Official biography with the party line if given"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Sejm_members_(2023%E2%80%932027)",
+          "title": "List of Sejm members (2023-2027)",
+          "publisher_type": "encyclopaedia",
+          "priority": "low",
+          "why": "Pointer for party lists. Use the official Sejm list for citations"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://en.wikipedia.org/wiki/Borys_Budka",
+        "https://www.gov.pl/web/primeminister/borys-budka2"
+      ],
+      "search_result": "Budka has sources. No party source surfaced for Baranowski, Duszczyk, Sikora or Sobkowiak-Czarnecka. The query returned electoral-committee PDFs that did not match these names."
+    },
+    {
+      "lead_id": "eec2025_host_organisers_partners",
+      "question": "Who hosted and organised the 2025 European Economic Congress (17th edition, Katowice, 23-25 Apr 2025), who were its partners and sponsors, and who invited the panellists to panel 7204?",
+      "existing_map_coverage": "eec_2025 node (17th EEC) in lead_eec_2025.json (data only). Dominika Sikora is recorded as editor of PTWP Group and EEC panel host. No organiser or sponsor edges are on the map.",
+      "queries": [
+        {
+          "q": "Europejski Kongres Gospodarczy 2025 Katowice organizator partnerzy PTWP",
+          "mode": "standard"
+        },
+        {
+          "q": "European Economic Congress 2025 Katowice panel rule of law and justice system 7204 moderator",
+          "mode": "standard"
+        }
+      ],
+      "candidates": [
+        {
+          "url": "https://strefainwestorow.pl/wiadomosci/20250416/grupa-ptwp-spodziewa-sie-rekordowej-frekwencji-i-silnej-reprezentacji",
+          "title": "Grupa PTWP spodziewa się rekordowej frekwencji i silnej reprezentacji",
+          "publisher_type": "news outlet (PTWP group statement, 16 Apr 2025)",
+          "priority": "high",
+          "why": "Organiser's own statement on the 2025 edition. Capture who the group says hosts it"
+        },
+        {
+          "url": "https://www.spodekkatowice.pl/en/events/17th-european-economic-congress,3508.html",
+          "title": "17th European Economic Congress (Spodek event page)",
+          "publisher_type": "venue's own site",
+          "priority": "high",
+          "why": "2025 edition event page; check organisers and partners"
+        },
+        {
+          "url": "https://pliki.eecpoland.eu/i/00/07/28/000728.pdf",
+          "title": "EEC PDF (pliki.eecpoland.eu)",
+          "publisher_type": "organiser's own site",
+          "priority": "high",
+          "why": "Organiser document; check the year, partner list and sponsors"
+        },
+        {
+          "url": "https://files.ptwp.pl/i/00/15/08/001508.pdf",
+          "title": "PTWP PDF (files.ptwp.pl)",
+          "publisher_type": "organiser's own site",
+          "priority": "medium",
+          "why": "Organiser document; check its year and link to the Congress"
+        },
+        {
+          "url": "https://us.edu.pl/event/xvii-europejski-kongres-gospodarczy",
+          "title": "XVII Europejski Kongres Gospodarczy (university event page)",
+          "publisher_type": "university site",
+          "priority": "medium",
+          "why": "Names the 17th edition; check partner list"
+        },
+        {
+          "url": "https://slaskie.travel/event/1028608/europejski-kongres-gospodarczy",
+          "title": "Europejski Kongres Gospodarczy (Silesia tourism event page)",
+          "publisher_type": "regional tourism site",
+          "priority": "low",
+          "why": "Event listing; check the year and organiser"
+        },
+        {
+          "url": "https://www.rp.pl/finanse/art13737311-ekg-pulsu-gospodarki",
+          "title": "EKG pulsu gospodarki (Rzeczpospolita)",
+          "publisher_type": "news outlet",
+          "priority": "low",
+          "why": "Coverage; check year (2025 or other)"
+        },
+        {
+          "url": "https://bank.pl/europejski-kongres-gospodarczy-rozpoczty/",
+          "title": "Europejski Kongres Gospodarczy rozpoczyna się (bank.pl)",
+          "publisher_type": "news outlet (bank.pl)",
+          "priority": "low",
+          "why": "Check year and whether a bank is a sponsor"
+        },
+        {
+          "url": "https://www.eecpoland.eu/2025/en/panel/7204.html",
+          "title": "Panel 7204 (eecpoland.eu, 2025)",
+          "publisher_type": "organiser's own site",
+          "priority": "high",
+          "why": "The panel page itself: moderator, organiser and speakers. Source of the map's panel-speaker edges"
+        }
+      ],
+      "blocked_or_unread": [
+        "https://www.eecpoland.eu/2025/en/panel/7204.html",
+        "https://pliki.eecpoland.eu/i/00/07/28/000728.pdf",
+        "https://files.ptwp.pl/i/00/15/08/001508.pdf"
+      ],
+      "search_result": "Organiser candidates found. Check the year on each: several results are for the 2022, 2024 and 2026 editions."
+    }
+  ]
+}
