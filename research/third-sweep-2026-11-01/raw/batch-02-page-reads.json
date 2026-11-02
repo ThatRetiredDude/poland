@@ -179,10 +179,12 @@
    "fetched_at": "2026-11-02T00:23:59.211Z",
    "http": null,
    "content_type": null,
-   "chars": 40342,
-   "sha256": "de605a0f46d30231903f6b028eee75403c486d245e3a6463ddaf3385334bd702",
+   "chars": 39385,
+   "sha256": "df2969df1544b23730a3eceab9b821a34710b927a232da7130298c63acaa74d8",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39385 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 954
   },
   {
    "agent": "read:B3_state_boards:1",
@@ -727,6 +729,84 @@
    "content_type": "application/pdf",
    "chars": 9207,
    "sha256": "8da91e49afc9acc8fe845f60e3634557e75fbc088dba22b9add9e8b56c5ba44a",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://bip.brpo.gov.pl/pl/content/brpo-wizyta-komisja-monitoringowa-2026",
+   "final_url": "https://bip.brpo.gov.pl/pl/content/brpo-wizyta-komisja-monitoringowa-2026",
+   "fetched_at": "2026-11-02T00:40:46.209Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 10712,
+   "sha256": "d922b88e2bd4911c197ee4395e0d94defc4e41c6cf34834829e373dd318ca639",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://www.tvp.info/89416249/oczekiwania-komisji-europejskiej-wobec-polskiego-rzadu-komisarz-ue-ds-sprawiedliwosci-michael-mcgrath-o-praworzadnosci-w-polsce",
+   "final_url": "https://www.tvp.info/89416249/oczekiwania-komisji-europejskiej-wobec-polskiego-rzadu-komisarz-ue-ds-sprawiedliwosci-michael-mcgrath-o-praworzadnosci-w-polsce",
+   "fetched_at": "2026-11-02T00:40:47.127Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2312,
+   "sha256": "c5d94427eb6bb6e7303778b528e1ce3a7fb4e490de4cf5ee89ad7c04a9f414b9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:44:46.884Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39371,
+   "sha256": "5b49d91b094df7bb20a019b473271bbf6e4ced143b208f44958102bac6ca5b8c",
+   "error": null,
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3579
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:52:18.916Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39371,
+   "sha256": "79c710e9b291a0968f157554fdd52595673b3ba120f0f08b6b8ea119529d5494",
+   "error": null,
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3215
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:58:28.494Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39372,
+   "sha256": "b2b6e54363ec9d1e9bf9bd15824fa9be1ae69ba269a64958fa571ba981162ecc",
+   "error": null,
+   "note": "The page reader returned the page text verbatim for the first 39372 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 4439
+  },
+  {
+   "agent": "read:B7_international:2",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:58:53.325Z",
+   "http": null,
+   "content_type": null,
+   "chars": 15977,
+   "sha256": "367b8a29a82fa8823fa4cffeab2074ac66b59c03c4418eb2e8d2a43ed7c071a8",
    "error": null,
    "note": null
   },
@@ -1979,10 +2059,12 @@
    "fetched_at": "2026-11-02T00:57:37.746Z",
    "http": null,
    "content_type": null,
-   "chars": 45136,
-   "sha256": "6f53ef8bdb9e793ce56777f05a01a89c5b3461a8b5f0ac2487cdb5d439b04320",
+   "chars": 39378,
+   "sha256": "1a356f80c0c55ba4834884366dc149e805a7bbb8713b1253878d93802dd48f1b",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39378 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 5755
   },
   {
    "agent": "recheck:1",
@@ -2027,10 +2109,12 @@
    "fetched_at": "2026-11-02T00:56:20.842Z",
    "http": null,
    "content_type": null,
-   "chars": 42379,
-   "sha256": "87ed54f2d921c04d7385dc655972d3e3878781f06064c668fc07dcd4bcc97204",
+   "chars": 39398,
+   "sha256": "5acb938caae5d2c16d32df7b1519d3bec2e00fabbc05afae517c5e6d77e36a9f",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39398 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 2979
   },
   {
    "agent": "recheck:1",
@@ -2039,10 +2123,12 @@
    "fetched_at": "2026-11-02T00:56:43.587Z",
    "http": null,
    "content_type": null,
-   "chars": 42939,
-   "sha256": "f95f1c68cda8d9cee0f9c3ccd1793854be66a3b12c6bf5903e73b8fecdb9e6c6",
+   "chars": 39398,
+   "sha256": "0525cce54f0950b9a16cb996acdba4974a60bb2159e207599c911f8309a171d7",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39398 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3539
   }
  ],
  "fetches_by_stopped_agents": [

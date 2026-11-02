@@ -230,10 +230,12 @@
    "fetched_at": "2026-11-02T00:17:12.142Z",
    "http": null,
    "content_type": null,
-   "chars": 40619,
-   "sha256": "f3a6caa831d4ce2afcaf4ef31e832cb16840456f613e4d2399bfa55cec6d4226",
+   "chars": 39408,
+   "sha256": "8db3f2f8f9de320e45e13f2e9ce90af133e3e24cf5b0c7cb4471a33568c49acb",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39408 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1209
   },
   {
    "agent": "read:R015-R017",
@@ -242,10 +244,12 @@
    "fetched_at": "2026-11-02T00:19:31.176Z",
    "http": null,
    "content_type": null,
-   "chars": 45152,
-   "sha256": "d5c5a4a054d445c87b7bc34c9af3a69bcad40e12912070bb9e9e0bf1a426daf4",
+   "chars": 39415,
+   "sha256": "33677f9b95c3b6cb6c45b5771437318cbf8f868bb37b49e8d6d032b0a0d1a552",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39415 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 5735
   },
   {
    "agent": "read:R015-R017",
@@ -290,10 +294,12 @@
    "fetched_at": "2026-11-02T00:23:08.286Z",
    "http": null,
    "content_type": null,
-   "chars": 42530,
-   "sha256": "261e21427ed6f34e195d5ff715ec88a660dd3ea3810af7232240b9327af9dc2d",
+   "chars": 39415,
+   "sha256": "9cae1b1e590cdfcbbaf2b10938d7b3b7d181264edc217d28e468f7add45e4834",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39415 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3113
   },
   {
    "agent": "read:R015-R017",
@@ -377,10 +383,12 @@
    "fetched_at": "2026-11-02T00:23:46.026Z",
    "http": null,
    "content_type": null,
-   "chars": 44387,
-   "sha256": "1c57c82d83197466b8be1d4ae75c9b34b592169a52ddb24ab1003d09ea9dd17e",
+   "chars": 39385,
+   "sha256": "4d8610a144be1b99722d55bc482f32288484ad5866a520d4b7259d5614120be1",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39385 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 5000
   },
   {
    "agent": "read:R021-R023",
@@ -461,10 +469,12 @@
    "fetched_at": "2026-11-02T00:40:10.217Z",
    "http": null,
    "content_type": null,
-   "chars": 43242,
-   "sha256": "ef9458a2eb95579c3785a7c470d18918d49f014d7b8442495ef972630e7adc72",
+   "chars": 39379,
+   "sha256": "60cd138bca74f211e01dd0c5c5fb1cf68c24d6dcf674e3903de4fd703c8952f1",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39379 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3861
   },
   {
    "agent": "read:R027-R029",
@@ -497,10 +507,12 @@
    "fetched_at": "2026-11-01T19:23:45.842Z",
    "http": null,
    "content_type": null,
-   "chars": 43512,
-   "sha256": "fb7e621f8e0b698608e3364da5484f3348947a6d375f6480c15c7ae1df78a74e",
+   "chars": 39399,
+   "sha256": "ace4a5f42a1900bcd734041902b2d41c86ec245ad0df69c536d15101c77dd39c",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39399 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 4111
   },
   {
    "agent": "read:R027-R029",
@@ -680,10 +692,12 @@
    "fetched_at": "2026-11-02T00:16:33.825Z",
    "http": null,
    "content_type": null,
-   "chars": 42351,
-   "sha256": "a7b52960f9f2ad5d3427afa87713b99a7987150b7df142bad8a952e99c8ed1d9",
+   "chars": 39382,
+   "sha256": "0c106b8a92b34a6de745df059929bc0ffb6231c263348db7dc950d8fea6991bc",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39382 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 2967
   },
   {
    "agent": "read:R039-R041",
@@ -848,10 +862,12 @@
    "fetched_at": "2026-11-02T00:16:11.556Z",
    "http": null,
    "content_type": null,
-   "chars": 41536,
-   "sha256": "af4243b07f3778bf13a051bc17e4eacc09dddb54f0edb9a8cd22f67a32f43f86",
+   "chars": 39330,
+   "sha256": "06d9dd402212903d7a71f6db24e434e9fd27772fdd14d846874dbf0d844d937c",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39330 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 2204
   },
   {
    "agent": "read:R053-R055",
@@ -860,10 +876,12 @@
    "fetched_at": "2026-11-02T00:20:47.952Z",
    "http": null,
    "content_type": null,
-   "chars": 45058,
-   "sha256": "dc11bd1b5230c5c63cca26dd6d73c710c7df9943767082064d1172348f5088a9",
+   "chars": 39371,
+   "sha256": "e0a377515123203417a4e6f5d370d641ef87f320b304b8c42300e4322d09a6be",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 5685
   },
   {
    "agent": "read:R053-R055",
@@ -872,10 +890,12 @@
    "fetched_at": "2026-11-02T00:30:00.448Z",
    "http": null,
    "content_type": null,
-   "chars": 47738,
-   "sha256": "75fd5d21dda72c64071e37d2817d72a461ea498880deb1edb587b11f593f63cf",
+   "chars": 39371,
+   "sha256": "96ee33f0093497547a64fc883404f48750b5b554b8c53b9bd6df033717d4a536",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 8365
   },
   {
    "agent": "read:R053-R055",
@@ -884,10 +904,12 @@
    "fetched_at": "2026-11-02T00:34:09.806Z",
    "http": null,
    "content_type": null,
-   "chars": 43619,
-   "sha256": "eb41c9a9e62b9e2f2760ee7fa3169490d46b0d2af2730e35f6e2d7fc2b09399e",
+   "chars": 39371,
+   "sha256": "d11d5f971e3d2b1f52b50dc270d212e6bca5b4059508b210be8607a21979b0df",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 4246
   },
   {
    "agent": "read:R053-R055",
@@ -1043,10 +1065,12 @@
    "fetched_at": "2026-11-02T00:44:27.530Z",
    "http": null,
    "content_type": null,
-   "chars": 41876,
-   "sha256": "8833f06f42ce26b71301e8dcd4be40d014e6c35852fb956c4bc974ea77f0347a",
+   "chars": 39396,
+   "sha256": "6b8fd254aa3e9ec41b8a462944dcd6ac06aa1e893fdb69ebf19230eae19653af",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39396 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 2478
   },
   {
    "agent": "read:R062-R064",
@@ -1346,10 +1370,12 @@
    "fetched_at": "2026-11-02T00:17:44.692Z",
    "http": null,
    "content_type": null,
-   "chars": 41219,
-   "sha256": "7132909c6e34216a41e9cfaf9d210343eb3bd29a86132d4b5f91d565b6ac225b",
+   "chars": 39382,
+   "sha256": "e5e92be1f8ef2e977e759b72208d9445822c0116fe12a7ba60a5113bc12e2597",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39382 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1834
   },
   {
    "agent": "read:R083-R085",
@@ -1526,10 +1552,12 @@
    "fetched_at": "2026-11-01T19:30:35.639Z",
    "http": null,
    "content_type": null,
-   "chars": 45764,
-   "sha256": "5f73146d5b848b4ce5ff40e5fe3c7bac3d580bf2c8cbe2036c90c4bb620bc00a",
+   "chars": 39385,
+   "sha256": "823c4bf540c7765aa40e0201e4bb4fd90b9ef1984313a6bc8199942e5517d0cc",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39385 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 6377
   },
   {
    "agent": "read:R094-R096",
@@ -1685,10 +1713,12 @@
    "fetched_at": "2026-11-01T19:42:17.869Z",
    "http": null,
    "content_type": null,
-   "chars": 40976,
-   "sha256": "0a587ef014c87b8032b2e73527287cc52e17bc078f608c4cb82727e18cd8dc49",
+   "chars": 39388,
+   "sha256": "ce7bc89120ac518a845965f9ec738db4c6a2d3cb44a104800d48d164419c1194",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39388 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1586
   },
   {
    "agent": "read:R106-R108",
@@ -1757,10 +1787,12 @@
    "fetched_at": "2026-11-02T00:34:02.908Z",
    "http": null,
    "content_type": null,
-   "chars": 43564,
-   "sha256": "80de1b7c843a475cc0173810bfc69e5c0a1458996be7abf25561d2a7e4b3d147",
+   "chars": 39391,
+   "sha256": "5d80abdd33936fdb576dde2f242fd64aba54b62295ef96054e811c78a783310f",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39391 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 4171
   },
   {
    "agent": "read:R112-R113",
@@ -1811,10 +1843,12 @@
    "fetched_at": "2026-11-02T00:48:32.272Z",
    "http": null,
    "content_type": null,
-   "chars": 39748,
-   "sha256": "8eeb799e836ec095173be4fb8ea9ec57c3dc8c3c3bc2c22f9616198df1d9d219",
+   "chars": 39398,
+   "sha256": "f8c685682e82fcfaca5b003ab4070030625b496e4fb7c5b9d3419641d01eb45c",
    "error": null,
-   "note": null
+   "note": "The page reader returned the page text verbatim for the first 39398 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 347
   },
   {
    "agent": "read:R112-R113",
@@ -1925,10 +1959,12 @@
    "fetched_at": "2026-11-01T19:36:49.005Z",
    "http": null,
    "content_type": null,
-   "chars": 40747,
-   "sha256": "91f36e1c49bdbf9dde002a2d1ba179d6d172a831f08fd9f3eb2f27c6b2e9f8b3",
+   "chars": 39415,
+   "sha256": "9cae1b1e590cdfcbbaf2b10938d7b3b7d181264edc217d28e468f7add45e4834",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39415 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1330,
    "agent_rerun_later": true
   },
   {
@@ -1938,10 +1974,12 @@
    "fetched_at": "2026-11-01T19:39:01.675Z",
    "http": null,
    "content_type": null,
-   "chars": 46311,
-   "sha256": "1713cf4a75684fdd482974970be219a8a5ffacb7d0376f1681d50ba713029456",
+   "chars": 39415,
+   "sha256": "b753b3b87b5b2e46a01238922293aba53ba1b29d6d68a512035a4b4a1b0868d1",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39415 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 6894,
    "agent_rerun_later": true
   },
   {
@@ -1951,10 +1989,12 @@
    "fetched_at": "2026-11-01T19:40:43.529Z",
    "http": null,
    "content_type": null,
-   "chars": 40312,
-   "sha256": "149296d677cef59d749294758e6f973515605789eab678bff1a441809140c19c",
+   "chars": 39408,
+   "sha256": "8db3f2f8f9de320e45e13f2e9ce90af133e3e24cf5b0c7cb4471a33568c49acb",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39408 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 902,
    "agent_rerun_later": true
   },
   {
@@ -1990,10 +2030,12 @@
    "fetched_at": "2026-11-01T19:45:04.268Z",
    "http": null,
    "content_type": null,
-   "chars": 45048,
-   "sha256": "e465d4d84f509f1d8b4cd46a273bcdc0ccb3c34361fc543596269a6ba2169461",
+   "chars": 39385,
+   "sha256": "4d8610a144be1b99722d55bc482f32288484ad5866a520d4b7259d5614120be1",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39385 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 5661,
    "agent_rerun_later": true
   },
   {
@@ -2055,10 +2097,12 @@
    "fetched_at": "2026-11-01T19:30:31.324Z",
    "http": null,
    "content_type": null,
-   "chars": 41264,
-   "sha256": "eba04dcfe57a5e9c184e03036beb019b97359c1a04811b46fa66f7aedebe1182",
+   "chars": 39330,
+   "sha256": "06d9dd402212903d7a71f6db24e434e9fd27772fdd14d846874dbf0d844d937c",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39330 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1932,
    "agent_rerun_later": true
   },
   {
@@ -2068,10 +2112,12 @@
    "fetched_at": "2026-11-01T19:36:54.697Z",
    "http": null,
    "content_type": null,
-   "chars": 39721,
-   "sha256": "f5d6b1789aa3508450caa7a19e3dd7c9f267e2ed715ce271b7689986e7219248",
+   "chars": 39371,
+   "sha256": "e0a377515123203417a4e6f5d370d641ef87f320b304b8c42300e4322d09a6be",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 348,
    "agent_rerun_later": true
   },
   {
@@ -2081,10 +2127,12 @@
    "fetched_at": "2026-11-01T19:45:12.386Z",
    "http": null,
    "content_type": null,
-   "chars": 45981,
-   "sha256": "734c85700c39f19f15d3a269bb02dbee879348724a1e370b256ab5ab35f1a9b4",
+   "chars": 39371,
+   "sha256": "96ee33f0093497547a64fc883404f48750b5b554b8c53b9bd6df033717d4a536",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 6608,
    "agent_rerun_later": true
   },
   {
@@ -2094,10 +2142,12 @@
    "fetched_at": "2026-11-01T19:48:44.519Z",
    "http": null,
    "content_type": null,
-   "chars": 43303,
-   "sha256": "ccf2d8edee06c44b931193874a0f58ba31e345bd01017ec550bf13ee8ca4f270",
+   "chars": 39371,
+   "sha256": "d11d5f971e3d2b1f52b50dc270d212e6bca5b4059508b210be8607a21979b0df",
    "error": null,
-   "note": null,
+   "note": "The page reader returned the page text verbatim for the first 39371 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3930,
    "agent_rerun_later": true
   },
   {

@@ -52,11 +52,12 @@
    "no_link": 252
   },
   "evidence_check": {
-   "exact": 884,
-   "normalized": 244,
+   "exact": 874,
+   "normalized": 251,
    "not_found": 37,
    "found_on_linked_page": 32,
-   "empty": 21
+   "empty": 21,
+   "found_in_reader_extract_only": 3
   },
   "map_status": {
    "pair_already_linked": 196,
@@ -4137,8 +4138,8 @@
     "fetched_at": "2026-11-02T00:23:08.286Z",
     "http": null,
     "content_type": null,
-    "chars": 42530,
-    "sha256": "261e21427ed6f34e195d5ff715ec88a660dd3ea3810af7232240b9327af9dc2d",
+    "chars": 39415,
+    "sha256": "9cae1b1e590cdfcbbaf2b10938d7b3b7d181264edc217d28e468f7add45e4834",
     "url_read": "https://impactcee.com/impact/2024/speakers/"
    },
    "names_listed": [
@@ -4252,8 +4253,8 @@
     "fetched_at": "2026-11-02T00:19:31.176Z",
     "http": null,
     "content_type": null,
-    "chars": 45152,
-    "sha256": "d5c5a4a054d445c87b7bc34c9af3a69bcad40e12912070bb9e9e0bf1a426daf4",
+    "chars": 39415,
+    "sha256": "33677f9b95c3b6cb6c45b5771437318cbf8f868bb37b49e8d6d032b0a0d1a552",
     "url_read": "https://impactcee.com/impact/2024/partners/"
    },
    "claims": [
@@ -4389,8 +4390,8 @@
     "fetched_at": "2026-11-02T00:17:12.142Z",
     "http": null,
     "content_type": null,
-    "chars": 40619,
-    "sha256": "f3a6caa831d4ce2afcaf4ef31e832cb16840456f613e4d2399bfa55cec6d4226",
+    "chars": 39408,
+    "sha256": "8db3f2f8f9de320e45e13f2e9ce90af133e3e24cf5b0c7cb4471a33568c49acb",
     "url_read": "https://impactcee.com/impact/2024/thematic-tracks/"
    },
    "claims": [
@@ -5917,8 +5918,8 @@
     "fetched_at": "2026-11-02T00:23:46.026Z",
     "http": null,
     "content_type": null,
-    "chars": 44387,
-    "sha256": "1c57c82d83197466b8be1d4ae75c9b34b592169a52ddb24ab1003d09ea9dd17e",
+    "chars": 39385,
+    "sha256": "4d8610a144be1b99722d55bc482f32288484ad5866a520d4b7259d5614120be1",
     "url_read": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
    },
    "names_listed": [
@@ -8632,8 +8633,8 @@
     "fetched_at": "2026-11-01T19:23:45.842Z",
     "http": null,
     "content_type": null,
-    "chars": 43512,
-    "sha256": "fb7e621f8e0b698608e3364da5484f3348947a6d375f6480c15c7ae1df78a74e",
+    "chars": 39399,
+    "sha256": "ace4a5f42a1900bcd734041902b2d41c86ec245ad0df69c536d15101c77dd39c",
     "url_read": "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady"
    },
    "names_listed": [
@@ -11485,8 +11486,8 @@
     "fetched_at": "2026-11-02T00:16:33.825Z",
     "http": null,
     "content_type": null,
-    "chars": 42351,
-    "sha256": "a7b52960f9f2ad5d3427afa87713b99a7987150b7df142bad8a952e99c8ed1d9",
+    "chars": 39382,
+    "sha256": "0c106b8a92b34a6de745df059929bc0ffb6231c263348db7dc950d8fea6991bc",
     "url_read": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf"
    },
    "claims": [
@@ -11580,7 +11581,7 @@
      "label_scope": "The opinion's closing funding line. The page's words are 'Funduszy Norweskich' and 'w ramach Programu Aktywni Obywatele – Fundusz Krajowy'. Line breaks in the PDF are joined here.",
      "evidence_location": "Closing paragraph, last page, just before footnote 41.",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14540,11 +14541,11 @@
    "publisher": "Not stated; hosted on inpris.pl. Authors Łukasz Bojarski (INPRIS) and Natalia Mileszyk (footnote 2: Centrum Cyfrowe).",
    "capture_answer": "No. The full extracted text has no Free Courts (Fundacja Wolne Sądy), no National Endowment for Democracy, no US government or embassy funding, no Wawrykiewicz, and none of the other listed people or NGOs (KOS, OKO.press, Akcja Demokracja, KOD, or the eight 2026 judges). The report is a 2015 NGO study funded by the Visegrad Fund and Korea's foreign ministry, and it also names Norwegian and EEA grants and European Commission ISEC grants. Actor-relevant content: Iustitia and Themis are judges' associations that worked with INPRIS and HFHR; HFHR ran a 2004 strategic litigation programme and a 'Reform of the judiciary' project; Batory Foundation ran a 2008-2011 legislative monitoring project; INPRIS, in a coalition, monitored Constitutional Court justice nominations from 2006; and in 2014 a Ministry of Justice social council was headed by INPRIS co-founder Grzegorz Wiaderek. The report gives no contract fees or amounts for any named organisation.",
    "raw": {
-    "fetched_at": "2026-11-02T00:30:00.448Z",
+    "fetched_at": "2026-11-02T00:20:47.952Z",
     "http": null,
     "content_type": null,
-    "chars": 47738,
-    "sha256": "75fd5d21dda72c64071e37d2817d72a461ea498880deb1edb587b11f593f63cf",
+    "chars": 39371,
+    "sha256": "e0a377515123203417a4e6f5d370d641ef87f320b304b8c42300e4322d09a6be",
     "url_read": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf"
    },
    "names_listed": [
@@ -14719,7 +14720,7 @@
      "object_type": "other",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14737,7 +14738,7 @@
      "object_type": "other",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "map_status": "both_names_unmatched"
     },
     {
@@ -14773,7 +14774,7 @@
      "object_type": "other",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14791,7 +14792,7 @@
      "object_type": "other",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14863,7 +14864,7 @@
      "object_type": "other",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "object_map_id": "eea",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14881,7 +14882,7 @@
      "object_type": "public_body",
      "subject_type": "org",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "normalized",
      "map_status": "both_names_unmatched"
     },
     {
@@ -15018,8 +15019,8 @@
     "fetched_at": "2026-11-02T00:16:11.556Z",
     "http": null,
     "content_type": null,
-    "chars": 41536,
-    "sha256": "af4243b07f3778bf13a051bc17e4eacc09dddb54f0edb9a8cd22f67a32f43f86",
+    "chars": 39330,
+    "sha256": "06d9dd402212903d7a71f6db24e434e9fd27772fdd14d846874dbf0d844d937c",
     "url_read": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-2474113"
    },
    "names_listed": [
@@ -17952,8 +17953,8 @@
     "fetched_at": "2026-11-02T00:44:27.530Z",
     "http": null,
     "content_type": null,
-    "chars": 41876,
-    "sha256": "8833f06f42ce26b71301e8dcd4be40d014e6c35852fb956c4bc974ea77f0347a",
+    "chars": 39396,
+    "sha256": "6b8fd254aa3e9ec41b8a462944dcd6ac06aa1e893fdb69ebf19230eae19653af",
     "url_read": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy"
    },
    "claims": [
@@ -25713,11 +25714,11 @@
    "publisher": "Kancelaria Sejmu, Biuro Komisji Sejmowych",
    "capture_answer": "Not relevant to the firm. The verbatim text returned (through the Ministry of Health item) never mentions Hoffman, Taborowski i Wspólnicy, Maciej Taborowski, clients, fees, public-body contracts or foreign clients. 'Umowa' appears only for employment contracts and a cinema agreement; 'klient', 'honorarium', 'wynagrodzenie' and 'zlecenie' do not appear. The sitting is a Sejm Petitions Committee record (no. 136, 16 July 2026). Foreign studios (Disney, Paramount Pictures, Warner Bros, Sony Pictures) appear only in a cinema-accessibility agreement with no link to the firm. None of the core actors in the requested list is named in the verbatim text; the Ministry of Justice and the Ombudsman's office send officials, not the minister or the Ombudsman. The final part of the PDF rests on the summary alone.",
    "raw": {
-    "fetched_at": "2026-11-01T19:30:35.639Z",
+    "fetched_at": "2026-11-01T19:33:05.983Z",
     "http": null,
     "content_type": null,
-    "chars": 45764,
-    "sha256": "5f73146d5b848b4ce5ff40e5fe3c7bac3d580bf2c8cbe2036c90c4bb620bc00a",
+    "chars": 44143,
+    "sha256": "933717d3bb48cef4946e5204a0bf897ea27c7fd827c049f3c09f791b57cfde20",
     "url_read": "https://api.sejm.gov.pl/sejm/term10/committees/PET/sittings/136/pdf"
    },
    "names_listed": [
@@ -27554,8 +27555,8 @@
     "fetched_at": "2026-11-01T19:42:17.869Z",
     "http": null,
     "content_type": null,
-    "chars": 40976,
-    "sha256": "0a587ef014c87b8032b2e73527287cc52e17bc078f608c4cb82727e18cd8dc49",
+    "chars": 39388,
+    "sha256": "ce7bc89120ac518a845965f9ec738db4c6a2d3cb44a104800d48d164419c1194",
     "url_read": "https://en.wikipedia.org/wiki/List_of_Sejm_members_(2023%E2%80%932027)"
    },
    "followup_urls": [
@@ -27666,7 +27667,7 @@
      "label": "fact",
      "label_scope": "Unverified: this footnote appears only in the condensed extract, not in verbatim text. Confirm against the footnote before use.",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "budka",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -28787,8 +28788,8 @@
     "fetched_at": "2026-11-02T00:34:02.908Z",
     "http": null,
     "content_type": null,
-    "chars": 43564,
-    "sha256": "80de1b7c843a475cc0173810bfc69e5c0a1458996be7abf25561d2a7e4b3d147",
+    "chars": 39391,
+    "sha256": "5d80abdd33936fdb576dde2f242fd64aba54b62295ef96054e811c78a783310f",
     "url_read": "https://slaskie.travel/event/1028608/europejski-kongres-gospodarczy"
    },
    "followup_urls": [
@@ -28816,7 +28817,7 @@
       "Grupa PTWP"
      ],
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "found_in_reader_extract_only",
      "map_status": "both_names_unmatched"
     },
     {
@@ -28834,7 +28835,7 @@
      "date": "2012 and 2025 editions",
      "evidence_location": "'Organizator' block of the listing (secondary summary)",
      "access": "page_read",
-     "evidence_check": "exact",
+     "evidence_check": "found_in_reader_extract_only",
      "map_status": "both_names_unmatched"
     },
     {
@@ -29351,8 +29352,8 @@
     "fetched_at": "2026-11-02T00:48:32.272Z",
     "http": null,
     "content_type": null,
-    "chars": 39748,
-    "sha256": "8eeb799e836ec095173be4fb8ea9ec57c3dc8c3c3bc2c22f9616198df1d9d219",
+    "chars": 39398,
+    "sha256": "f8c685682e82fcfaca5b003ab4070030625b496e4fb7c5b9d3419641d01eb45c",
     "url_read": "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/"
    },
    "claims": [
