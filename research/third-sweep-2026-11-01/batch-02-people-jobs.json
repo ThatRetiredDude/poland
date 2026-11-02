@@ -3,7 +3,8 @@
   "title": "Third sweep, batch 02: New searches and page reads: people, appointments and contract jobs",
   "as_of": "2026-11-01",
   "status": "collection only; nothing in this file is on the map or in data/",
-  "access_note": "Pages were read with a page-reader tool that returned the page text. The working container cannot reach these hosts directly. Each claim's evidence_text was checked by script against the page text the reader returned for that URL.",
+  "access_note": "Pages were read with a page-reader tool, because the working container cannot reach these hosts directly. Most reads returned the page text; some returned the reader's own extract of the page instead (claims from those carry access = page_read_via_reader_extract). Each claim's evidence_text was checked by script against what the reader returned for that URL.",
+  "stopped_agents_note": "Some searches and reads in this batch were stopped by the account usage limit before they reported. Their searches and page-reader calls are logged in raw/ as returned, but they produced no claims; they are listed in stats.agents_stopped_at_usage_limit.",
   "evidence_check_values": {
    "exact": "excerpt found character for character",
    "normalized": "found after normalising spaces, quote marks and dashes",
@@ -27,53 +28,2911 @@
   ]
  },
  "stats": {
-  "agents": 4,
+  "agents": 8,
   "agents_left_out_unfinished_or_other_batch": 10,
   "searches": 108,
   "search_results": 1689,
   "unique_result_urls": 1444,
-  "page_fetches": 38,
-  "pages_reported": 23,
-  "pages_with_page_text": 0,
+  "page_fetches": 56,
+  "pages_reported": 40,
+  "pages_with_page_text": 15,
   "fetch_status": {
-   "ok": 19,
-   "error": 3,
+   "error": 5,
+   "ok": 32,
+   "partial": 2,
    "blocked": 1
   },
-  "claims": 118,
+  "claims": 235,
   "labels": {
-   "no_link": 8,
-   "fact": 104,
-   "speculation": 3,
-   "alleged": 3
+   "fact": 192,
+   "no_link": 34,
+   "alleged": 4,
+   "speculation": 5
   },
   "evidence_check": {
+   "exact": 78,
+   "not_found": 22,
+   "normalized": 17,
    "exact_in_reader_extract": 113,
    "not_found_in_reader_extract": 5
   },
   "map_status": {
-   "pair_already_linked": 19,
-   "new_tie_between_known_entities": 27,
-   "new_entity_or_unmatched_name": 65,
-   "both_names_unmatched": 7
+   "new_entity_or_unmatched_name": 133,
+   "pair_already_linked": 28,
+   "new_tie_between_known_entities": 31,
+   "both_names_unmatched": 43
   },
   "kinds": {
-   "contract_or_fee": 19,
-   "statement": 4,
-   "role_or_job": 36,
-   "other": 6,
-   "membership_or_board": 21,
-   "event_or_speech": 6,
-   "nomination_or_vote": 21,
-   "legal_action": 1,
-   "ownership": 3,
-   "grant_or_donation": 1
+   "nomination_or_vote": 25,
+   "other": 27,
+   "statement": 11,
+   "contract_or_fee": 28,
+   "membership_or_board": 54,
+   "role_or_job": 70,
+   "ownership": 4,
+   "grant_or_donation": 2,
+   "event_or_speech": 13,
+   "legal_action": 1
   },
   "title_only_leads": 115,
-  "to_read_unread": 32,
-  "nothing_found": 33
+  "to_read_unread": 20,
+  "nothing_found": 33,
+  "agents_stopped_at_usage_limit": [
+   "read:B1_judges_income:2",
+   "read:B2_appointments:1",
+   "read:B2_appointments:2",
+   "read:B4_wawrykiewicz:2",
+   "search:B5_nominations",
+   "search:B6_prosecutors_police",
+   "search:B7_international"
+  ],
+  "searches_by_stopped_agents": 91,
+  "page_fetches_by_stopped_agents": 23
  },
  "pages": [
+  {
+   "ref": "B1_judges_income-T1",
+   "url": "https://www.bankier.pl/wiadomosc/PGE-POLSKA-GRUPA-ENERGETYCZNA-S-A-Wyniki-finansowe-RR-2025-9114672.html",
+   "host": "bankier.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "error",
+   "fetch_note": "Not fetched: https://www.bankier.pl/wiadomosc/PGE-POLSKA-GRUPA-ENERGETYCZNA-S-A-Wyniki-finansowe-RR-2025-9114672.html failed at its site (client_error), and nothing of the page was retrieved. This is a permanent client error, so the URL was not retried or varied; sending it again would fail the same way.",
+   "capture_answer": "Not answered. The 2025 results article could not be retrieved, so this page yields no Patyra supervisory-board pay rows for 2024 or 2025, no committee-fee figures, and no link to a separate remuneration report.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B1_judges_income-T2",
+   "url": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy",
+   "host": "gkpge.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "ok",
+   "fetch_note": "Read: HTTP 200 OK, text/plain, 3716 characters, English. The text ends with the 'Files to download' list and shows no date, so the snapshot date is unknown. Link targets are not in the returned text: the PDFs appear as names and sizes only, so no PDF URLs are available. The PDFs were not read.",
+   "page_title": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE Polska Grupa Energetyczna S.A.",
+   "publisher": "Not named on the page; the content is the policy page of PGE Polska Grupa Energetyczna S.A.",
+   "capture_answer": "The page gives the policy's general-meeting history: the policy was adopted by resolution no. 9 on June 26, 2020; the meetings gave positive opinions on pay reports for 2019-2020 through 2024 (June 29, 2021 to June 27, 2025); resolution no. 35 amended the policy on June 27, 2025. It gives no monthly fee multiple or base for supervisory-board members or the vice-chair, no Patyra totals, and no PDF URLs (names and sizes only). The file list includes a 2024 remuneration report (551 kB) and a 2025 policy (153 kB), but no 2025 remuneration report. Auditor assurance reports for 2023 and 2024 are also listed, with no auditor named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:43:43.676Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 3716,
+    "sha256": "81ad61efb49fdc7e5e42397cf5eda0b98ab555d155cd267b157391fd04a934de",
+    "url_read": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy"
+   },
+   "followup_urls": [
+    {
+     "url": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy",
+     "why": "Link targets are needed for the 'Files to download' PDFs: the 2024 report (551 kB), the 2025 policy (153 kB) and the 2023 report (377 kB). The returned text had names and sizes only; no new URL was constructed."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0001",
+     "subject": "Ordinary General Meeting of PGE Polska Grupa Energetyczna S.A. (OGM)",
+     "subject_type": "org",
+     "relation": "gave a positive opinion on the remuneration report for year 2024 (resolution no. 9)",
+     "object": "The report on the remuneration of the Members of the Management Board and the Supervisory Board of PGE Polska Grupa Energetyczna S.A. for year 2024",
+     "object_type": "document",
+     "kind": "nomination_or_vote",
+     "date": "June 27, 2025",
+     "evidence_location": "Body text, paragraph beginning 'On June 27, 2025' (OGM resolution history, 2025 entry)",
+     "evidence_text": "On June 27, 2025 the OGM provided a positive opinion on The report on the remuneration of the Members of the",
+     "evidence_translation": "On June 27, 2025 the OGM provided a positive opinion on The report on the remuneration of the Members of the",
+     "label": "fact",
+     "label_scope": "PGE's own web page states that the OGM gave this opinion. The resolution and voting results were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0002",
+     "subject": "Ordinary General Meeting of PGE Polska Grupa Energetyczna S.A. (OGM)",
+     "subject_type": "org",
+     "relation": "adopted resolution no. 35 amending the Remuneration Policy",
+     "object": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE Polska Grupa Energetyczna S.A.",
+     "object_type": "document",
+     "kind": "nomination_or_vote",
+     "date": "June 27, 2025",
+     "evidence_location": "Body text, same 2025 paragraph, second sentence",
+     "evidence_text": "On the same day the OGM adopted resolution no. 35 on amendments to the Remuneration Policy.",
+     "evidence_translation": "On the same day the OGM adopted resolution no. 35 on amendments to the Remuneration Policy.",
+     "label": "fact",
+     "label_scope": "PGE's own web page states this. The amended policy text was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0003",
+     "subject": "Ordinary General Meeting of PGE Polska Grupa Energetyczna S.A. (OGM)",
+     "subject_type": "org",
+     "relation": "adopted by resolution no. 9 the Remuneration Policy for the Members of the Management Board and Supervisory Board",
+     "object": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE Polska Grupa Energetyczna S.A.",
+     "object_type": "document",
+     "kind": "nomination_or_vote",
+     "date": "June 26, 2020",
+     "evidence_location": "Body text, first paragraph after the repeated title",
+     "evidence_text": "was adopted by the resolution no. 9 of the Ordinary General Meeting of the company on June 26, 2020.",
+     "evidence_translation": "was adopted by the resolution no. 9 of the Ordinary General Meeting of the company on June 26, 2020.",
+     "label": "fact",
+     "label_scope": "PGE's own web page states this. The 2020 policy PDF was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0004",
+     "subject": "PGE Polska Grupa Energetyczna S.A.",
+     "subject_type": "company",
+     "relation": "lists for download, under 'Files to download'",
+     "object": "Report on remuneration of the members of the Management Board nad Supervisory Board of PGE for 2024",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_location": "'Files to download' list, item 10 of 12",
+     "evidence_text": "Report on remuneration of the members of the Management Board nad Supervisory Board of PGE for 2024 [pdf 551 kB]",
+     "evidence_translation": "Report on remuneration of the members of the Management Board nad Supervisory Board of PGE for 2024 [pdf 551 kB]",
+     "label": "fact",
+     "label_scope": "The page lists this file by name and size. Its link is not in the returned text, and the PDF was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0005",
+     "subject": "PGE Polska Grupa Energetyczna S.A.",
+     "subject_type": "company",
+     "relation": "states that the full content of the policies and reports is in the files published below the text",
+     "object": "Remuneration Policies and the reports for 2019-2020, 2021, 2022, 2023 and 2024 (PDF files)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_location": "Body text, paragraph before 'Files to download'",
+     "evidence_text": "The full content of the Remuneration Policies and the above mentioned reports along with the Independent auditor's reports",
+     "evidence_translation": "The full content of the Remuneration Policies and the above mentioned reports along with the Independent auditor's reports",
+     "label": "fact",
+     "label_scope": "PGE's own web page states this. The listed PDF files were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0006",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "is named, with pay figures, on",
+     "object": "PGE remuneration policy web page (gkpge.pl)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_location": "Body text, paragraph before 'Files to download' (scope statement)",
+     "evidence_text": "The full content of the Remuneration Policies and the above mentioned reports along with the Independent auditor's reports",
+     "evidence_translation": "The full content of the Remuneration Policies and the above mentioned reports along with the Independent auditor's reports",
+     "label": "no_link",
+     "label_scope": "Checked the page text: Sławomir Patyra is not named and no individual pay figure or fee appears. The page says the full reports are in the files below; those PDFs were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)",
+      "board role shaped his TK conduct",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)"
+     ]
+    },
+    {
+     "id": "B02-C0007",
+     "subject": "PGE Polska Grupa Energetyczna S.A.",
+     "subject_type": "company",
+     "relation": "lists a remuneration report for 2025 on this page",
+     "object": "Report on remuneration for 2025",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_location": "'Files to download' list, item 12 of 12 (last item)",
+     "evidence_text": "Remuneration policy adopted in 2025 [pdf 153 kB]",
+     "evidence_translation": "Remuneration policy adopted in 2025 [pdf 153 kB]",
+     "label": "no_link",
+     "label_scope": "Checked the file list: no report for 2025 is listed. The latest report listed is for 2024, and the last item is the 2025 policy. The latest OGM entry on the page is June 27, 2025.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B1_judges_income-T3",
+   "url": "https://eli.gov.pl/api/acts/DU/2024/350/text.html",
+   "host": "eli.gov.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "error",
+   "fetch_note": "Not fetched. The site returned {\"error_type\":\"SERVER_ERROR\",\"source\":\"target\",\"message\":\"There was an error while fetching.\"}. A server error with no timeout, dropped connection or Retry-After is permanent, so the URL was not retried. The date (5 Mar 2024) and issuing body named in the request are unverified.",
+   "capture_answer": "Not answered. The 2024 regulation text could not be retrieved, so the §12 wording and amounts, any per-meeting fee or expense rules, the issue date and the signatory are unverified. The 2026 act named in the request was not fetched, because that would substitute for the failed page; it is listed in followup_urls.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "followup_urls": [
+    {
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/5/text.pdf",
+     "why": "Named in the request as possibly amending the 2024 regulation (§12 pay). Not fetched, because the 2024 act failed permanently and this would be a substitute for it. Fetch only if asked."
+    }
+   ],
+   "claims": []
+  },
+  {
+   "ref": "B3_state_boards-T1",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 29730 characters. Lists 10 members with role lines only. No appointment dates, appointing body or bio text on this page. Each name links to its own bio page. Footer: Copyright 1996-2025. Five bios were read as separate entries. Sewerski, Sowińska, Wielowieyski, Siudy and Paszkiewicz bios were not read in this run.",
+   "page_title": "Supervisory Board | ORLEN",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Role lines only. Ciszak is Chairman (not marked independent). Kappes is Vice-Chairman and independent. Łobos is Secretary and independent. Zieliński and Paszkiewicz are plain members. Gąsiorek, Sewerski, Sowińska, Wielowieyski and Siudy are independent members. No appointment dates or appointing bodies appear on the list. Ciszak chairs the Committee for Sponsorship. Gąsiorek chairs the Audit Committee. No NGO, Ombudsman office, party or task-listed organisation appears in the list or the five bios read. None of the ten names matches a core actor.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:34:04.959Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 29730,
+    "sha256": "cd7e11612f2964f39397a8c89e39c04cffb5850731721d108ae31aefe6c0ba78",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board"
+   },
+   "names_listed": [
+    "Przemysław Ciszak",
+    "Aleksander Kappes",
+    "Katarzyna Łobos",
+    "Tomasz Zieliński",
+    "Ewa Gąsiorek",
+    "Marian Sewerski",
+    "Ewa Sowińska",
+    "Piotr Wielowieyski",
+    "Marcin Siudy",
+    "Remigiusz Paszkiewicz"
+   ],
+   "names_found_in_page_text": "10/10",
+   "followup_urls": [
+    {
+     "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/marian-sewerski",
+     "why": "Bio of Marian Sewerski (independent member). Not read in this run."
+    },
+    {
+     "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/ewa-sowinska",
+     "why": "Bio of Ewa Sowińska (independent member). Not read in this run."
+    },
+    {
+     "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/piotr-wielowieyski",
+     "why": "Bio of Piotr Wielowieyski (independent member). Not read in this run."
+    },
+    {
+     "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/marcin-siudy",
+     "why": "Bio of Marcin Siudy (independent member). Not read in this run."
+    },
+    {
+     "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/remigiusz-paszkiewicz",
+     "why": "Bio of Remigiusz Paszkiewicz (member). Not read in this run."
+    },
+    {
+     "url": "https://www.orlen.pl/content/dam/internet/orlen/pl/en/about-company/company/bodies-and-structure/supervisory-board/documents/6.%20Report_Supervisory_Board_2025.pdf.coredownload.pdf",
+     "why": "Supervisory Board report 2025, linked from the page. Not read; may cover board composition."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0008",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "is Chairman of the Supervisory Board of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Chairman / Member of Supervisory Board",
+     "evidence_translation": "Chairman / Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Ciszak card (role lines)",
+     "label": "fact",
+     "label_scope": "ORLEN's site lists him as Chairman and Member. No appointment date or appointing body on the list.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0009",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "is Vice-Chairman and independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Vice - Chairman / Independent Member of Supervisory Board",
+     "evidence_translation": "Vice - Chairman / Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Kappes card",
+     "label": "fact",
+     "label_scope": "List only. No appointment date or appointing body.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0010",
+     "subject": "Katarzyna Łobos",
+     "subject_type": "person",
+     "relation": "is Secretary and independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Secretary / Independent Member of Supervisory Board",
+     "evidence_translation": "Secretary / Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Łobos card",
+     "label": "fact",
+     "label_scope": "List only. No appointment date or appointing body.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0011",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "is a member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Member of Supervisory Board",
+     "evidence_translation": "Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Zieliński card",
+     "label": "fact",
+     "label_scope": "Not marked independent. List only.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0012",
+     "subject": "Ewa Gąsiorek",
+     "subject_type": "person",
+     "relation": "is an independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Gąsiorek card",
+     "label": "fact",
+     "label_scope": "List only. No appointment date or appointing body.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0013",
+     "subject": "Marian Sewerski",
+     "subject_type": "person",
+     "relation": "is an independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Sewerski card",
+     "label": "fact",
+     "label_scope": "List only. Bio not read in this run.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0014",
+     "subject": "Ewa Sowińska",
+     "subject_type": "person",
+     "relation": "is an independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Sowińska card",
+     "label": "fact",
+     "label_scope": "List only. Bio not read in this run.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0015",
+     "subject": "Piotr Wielowieyski",
+     "subject_type": "person",
+     "relation": "is an independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Wielowieyski card",
+     "label": "fact",
+     "label_scope": "List only. Bio not read in this run.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0016",
+     "subject": "Marcin Siudy",
+     "subject_type": "person",
+     "relation": "is an independent member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Siudy card",
+     "label": "fact",
+     "label_scope": "List only. Bio not read in this run.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0017",
+     "subject": "Remigiusz Paszkiewicz",
+     "subject_type": "person",
+     "relation": "is a member of",
+     "object": "ORLEN",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "Member of Supervisory Board",
+     "evidence_translation": "Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list, Paszkiewicz card",
+     "label": "fact",
+     "label_scope": "Not marked independent. List only. Bio not read in this run.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0018",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "chairs the Committee for Sponsorship of",
+     "object": "ORLEN Committee for Sponsorship",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Przemysław Ciszak - Chairman of the Committee",
+     "evidence_translation": "Przemysław Ciszak - Chairman of the Committee",
+     "evidence_location": "Supervisory Board Committees list",
+     "label": "fact",
+     "label_scope": "Committee members listed as Aleksander Kappes and Tomasz Zieliński.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0019",
+     "subject": "ORLEN Supervisory Board (five bios read)",
+     "subject_type": "org",
+     "relation": "names a tie to",
+     "object": "HFHR, Free Courts (Wolne Sądy), Batory Foundation, KOD, Ombudsman's office, Iustitia, Themis, KOS, OKO.press, Akcja Demokracja, or a political party",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Independent Member of Supervisory Board",
+     "evidence_translation": "Independent Member of Supervisory Board",
+     "evidence_location": "Supervisory Board list (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "List and five bios read (Ciszak, Kappes, Łobos, Zieliński, Gąsiorek) name none of these organisations or a party. Other five bios not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "orlen",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T1-bio-ciszak",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/przemyslaw-ciszak",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 25888 characters. Full bio read. No appointment date or appointing body for the ORLEN board on this page.",
+   "page_title": "Supervisory Board - Przemysław Ciszak",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Chancellery of the Prime Minister and Government Legislation Centre, 2002-2007. Headed the legal and ownership supervision department at PKP CARGO S.A., PKP S.A. and Polska Grupa Zbrojeniowa S.A., 2008-2018. Independent legal adviser from 2018. Managing Director for Corporate Affairs at the Industrial Development Agency S.A. since April 2025. Currently General Director at the Ministry of the State Assets. Former member of the Higher Disciplinary Court of the National Chamber of Legal Advisors. Bio names no Prime Minister, no party and no NGO.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:34.302Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 25888,
+    "sha256": "864eb3b121681ab6aafe2b5f00218226c38670d394deb3962a98dba34ebf5ebb",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/przemyslaw-ciszak"
+   },
+   "names_listed": [
+    "Przemysław Ciszak"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-C0020",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "worked at (2002-2007)",
+     "object": "Chancellery of the Prime Minister",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Between 2002 and 2007, he worked at the Chancellery of the Prime Minister and then at the Government Legislation Centre",
+     "evidence_translation": "Between 2002 and 2007, he worked at the Chancellery of the Prime Minister and then at the Government Legislation Centre",
+     "evidence_location": "bio, paragraph 2",
+     "date": "2002-2007",
+     "label": "fact",
+     "label_scope": "Bio states this. It names no Prime Minister and makes no link to Donald Tusk.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0021",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "headed the legal and ownership supervision department (2008-2018) of",
+     "object": "PKP CARGO S.A., PKP S.A., Polska Grupa Zbrojeniowa S.A.",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "evidence_text": "headed the legal and ownership supervision department of PKP CARGO S.A., PKP S.A. and Polska Grupa Zbrojeniowa S.A.",
+     "evidence_translation": "headed the legal and ownership supervision department of PKP CARGO S.A., PKP S.A. and Polska Grupa Zbrojeniowa S.A.",
+     "evidence_location": "bio, paragraph 2",
+     "date": "2008-2018",
+     "label": "fact",
+     "label_scope": "Bio states it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0022",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "is Managing Director for Corporate Affairs at",
+     "object": "Industrial Development Agency S.A.",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "evidence_text": "since April 2025, he has served as Managing Director for Corporate Affairs at the Industrial Development Agency S.A.",
+     "evidence_translation": "since April 2025, he has served as Managing Director for Corporate Affairs at the Industrial Development Agency S.A.",
+     "evidence_location": "bio, paragraph 3",
+     "date": "since April 2025",
+     "label": "fact",
+     "label_scope": "Bio states it. No end date given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0023",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "is General Director at (current)",
+     "object": "Ministry of the State Assets",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Currently he holds the position of the General Director at the Ministry of the State Assets.",
+     "evidence_translation": "Currently he holds the position of the General Director at the Ministry of the State Assets.",
+     "evidence_location": "bio, paragraph 3",
+     "label": "fact",
+     "label_scope": "Bio says 'Currently'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0024",
+     "subject": "Przemysław Ciszak",
+     "subject_type": "person",
+     "relation": "served as a member of",
+     "object": "Higher Disciplinary Court of the National Chamber of Legal Advisors",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "He served as a member of the Higher Disciplinary Court of the National Chamber of Legal Advisors.",
+     "evidence_translation": "He served as a member of the Higher Disciplinary Court of the National Chamber of Legal Advisors.",
+     "evidence_location": "bio, paragraph 4",
+     "label": "fact",
+     "label_scope": "Past tense. No dates given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T1-bio-kappes",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/aleksander-kappes",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 26769 characters. Full bio read. No appointment date or appointing body for the ORLEN board on this page.",
+   "page_title": "Supervisory Board - Aleksander Kappes",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Professor at the University of Łódź and attorney with his own office. Vice-Chairman and independent member. Ministry of Justice: Company Law Team of the Civil Law Codification Commission, 2011-2015. Expert for the Polish Parliament (2019) and Polish Senate (2022) on Commercial Companies Code amendments. Author or co-author of over 150 opinions and reports for public institutions and entrepreneurs, including the Sejm and Senate; fees and contract terms not stated. Arbitrator at the Chamber of Commerce arbitration court in Warsaw. Has sat on supervisory boards, including companies with State Treasury participation. No NGO, Ombudsman or party tie named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:34.281Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 26769,
+    "sha256": "c3b57f778a716bb475a68392f32a3a15b1ec21d17673d3979af1195b0c888625",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/aleksander-kappes"
+   },
+   "names_listed": [
+    "Aleksander Kappes"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-C0025",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "was a member of the Company Law Team of (2011-2015)",
+     "object": "Civil Law Codification Commission at the Minister of Justice of the Republic of Poland",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Company Law Team of the Civil Law Codification Commission at the Minister of Justice of the Republic of Poland",
+     "evidence_translation": "Company Law Team of the Civil Law Codification Commission at the Minister of Justice of the Republic of Poland",
+     "evidence_location": "bio, paragraph 3",
+     "date": "2011-2015",
+     "label": "fact",
+     "label_scope": "Bio states it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "codification_commission",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0026",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "served as an expert for (2019)",
+     "object": "Polish Parliament",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "he served as an expert for the Polish Parliament on the draft amendment to the Commercial Companies Code",
+     "evidence_translation": "he served as an expert for the Polish Parliament on the draft amendment to the Commercial Companies Code",
+     "evidence_location": "bio, paragraph 3",
+     "date": "2019",
+     "label": "fact",
+     "label_scope": "Bio states it. Fee and contract terms not stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0027",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "served as an expert for (2022)",
+     "object": "Polish Senate",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "as well as for the Polish Senate on the amendment to the Commercial Companies Code",
+     "evidence_translation": "as well as for the Polish Senate on the amendment to the Commercial Companies Code",
+     "evidence_location": "bio, paragraph 3",
+     "date": "2022",
+     "label": "fact",
+     "label_scope": "Bio states it. Fee and contract terms not stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0028",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "is author or co-author of over 150 opinions and reports for",
+     "object": "public institutions and entrepreneurs, including the Sejm and Senate",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "over 150 legal opinions and expert reports for public institutions and entrepreneurs, including for the Sejm, Senate",
+     "evidence_translation": "over 150 legal opinions and expert reports for public institutions and entrepreneurs, including for the Sejm, Senate",
+     "evidence_location": "bio, paragraph 4",
+     "label": "fact",
+     "label_scope": "Bio states the authorship count. Whether the work was paid, and on what contract, is not stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0029",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "is an arbitrator at",
+     "object": "Arbitration Court at the Polish Chamber of Commerce in Warsaw",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "an arbitrator at the Arbitration Court at the Polish Chamber of Commerce in Warsaw",
+     "evidence_translation": "an arbitrator at the Arbitration Court at the Polish Chamber of Commerce in Warsaw",
+     "evidence_location": "bio, paragraph 5",
+     "label": "fact",
+     "label_scope": "Bio states it. No dates given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "synoradzki_bentkowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0030",
+     "subject": "Aleksander Kappes",
+     "subject_type": "person",
+     "relation": "has participated in the supervisory boards of",
+     "object": "several companies, including those with State Treasury participation",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "He has participated in the supervisory boards of several companies, including those with State Treasury",
+     "evidence_translation": "He has participated in the supervisory boards of several companies, including those with State Treasury",
+     "evidence_location": "bio, paragraph 5",
+     "label": "fact",
+     "label_scope": "Bio names no companies or dates.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T1-bio-lobos",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/katarzyna-lobos",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 21618 characters. Full bio read. No appointment date or appointing body for the ORLEN board on this page.",
+   "page_title": "Supervisory Board - Katarzyna Łobos",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Doctorate in legal sciences and legal adviser. Formerly employed as a Legal Adviser in the supreme state control body, which the bio does not name, and Deputy Director of its Legal Department and Audit Jurisprudence. Earlier headed the Business Law Department at a law office (unnamed). Secretary and independent member. No appointment date, appointing body, NGO, Ombudsman, party or ministry tie named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:35.322Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 21618,
+    "sha256": "c6504b42b97d2e1db01db47a01f1b554764884ab24c36495865558bae0d35912",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/katarzyna-lobos"
+   },
+   "names_listed": [
+    "Katarzyna Łobos"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-C0031",
+     "subject": "Katarzyna Łobos",
+     "subject_type": "person",
+     "relation": "was employed as a Legal Adviser in",
+     "object": "the supreme state control body (not named)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "She was employed as a Legal Adviser in the supreme state control body",
+     "evidence_translation": "She was employed as a Legal Adviser in the supreme state control body",
+     "evidence_location": "bio, single paragraph",
+     "label": "fact",
+     "label_scope": "Bio does not name the body. Also says she served as Deputy Director of the Legal Department and Audit Jurisprudence.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T1-bio-zielinski",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/tomasz-zielinski",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 24716 characters. Full bio read. No appointment date or appointing body for the ORLEN board on this page.",
+   "page_title": "Supervisory Board - Tomasz Zieliński",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Non-independent member. President of the Board of the Polish Chamber of Chemical Industry since June 2013. Member of the CEFIC National Association Board since 2016. Presidium member of the Committee on Chemistry at the Polish Academy of Sciences. Bio also names the Coordinating Council for Hydrogen Management under the Minister of Climate and Environment; his capacity on it is not clear from the sentence. Sits on the Boards of Łukasiewicz Network Institutes. Past: expert in a Parliamentary Group on Chemical Industry (undated); consultancy projects at DGA S.A., AKJ Capital S.A. and Instytut Studiów Energetycznych (fees not stated); Supervisory Board chair at Kemipol sp. z o.o. (2010). No NGO, Ombudsman or party tie named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:35.634Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 24716,
+    "sha256": "bcd1f69ecc61139be5f7c87e183f10160b980c45bfacb8d42aa167da8a6dcc34",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/tomasz-zielinski"
+   },
+   "names_listed": [
+    "Tomasz Zieliński"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-C0032",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "has been President of the Board of (since June 2013)",
+     "object": "Polish Chamber of Chemical Industry",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Since June 2013, he has been President of the Board of the Polish Chamber of Chemical Industry",
+     "evidence_translation": "Since June 2013, he has been President of the Board of the Polish Chamber of Chemical Industry",
+     "evidence_location": "bio, paragraph 2",
+     "date": "since June 2013",
+     "label": "fact",
+     "label_scope": "Bio states it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0033",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "is a member of (since 2016)",
+     "object": "National Association Board (NAB) of the European Chemical Industry Council (CEFIC)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "member of the National Association Board (NAB) of the European Chemical Industry Council in Brussels (CEFIC)",
+     "evidence_translation": "member of the National Association Board (NAB) of the European Chemical Industry Council in Brussels (CEFIC)",
+     "evidence_location": "bio, paragraph 4",
+     "date": "since 2016",
+     "label": "fact",
+     "label_scope": "Bio states it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0034",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "is named in his bio as linked to",
+     "object": "Coordinating Council for Hydrogen Management subordinate to the Minister of Climate and Environment",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "the Coordinating Council for Hydrogen Management subordinate to the Minister of Climate and Environment",
+     "evidence_translation": "the Coordinating Council for Hydrogen Management subordinate to the Minister of Climate and Environment",
+     "evidence_location": "bio, paragraph 4",
+     "label": "fact",
+     "label_scope": "Named in the same sentence as presidium seats. His exact capacity on the council is not clearly stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0035",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "is a member of the Presidium of",
+     "object": "Committee on Chemistry at the Polish Academy of Sciences",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "he is a member of the Presidium of the Committee on Chemistry at the Polish Academy of Sciences",
+     "evidence_translation": "he is a member of the Presidium of the Committee on Chemistry at the Polish Academy of Sciences",
+     "evidence_location": "bio, paragraph 4",
+     "label": "fact",
+     "label_scope": "Bio states it. No dates.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0036",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "sits on the Boards of",
+     "object": "Łukasiewicz Network Institutes",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "he sits on the Boards of the Łukasiewicz Network Institutes",
+     "evidence_translation": "he sits on the Boards of the Łukasiewicz Network Institutes",
+     "evidence_location": "bio, paragraph 4",
+     "label": "fact",
+     "label_scope": "Bio names Prof. I. Mościcki Institute of Industrial Chemistry and Institute of New Chemical Syntheses in Puławy.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0037",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "was an expert in (in the past, undated)",
+     "object": "Parliamentary Group on Chemical Industry",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "an expert in the Parliamentary Group on Chemical Industry",
+     "evidence_translation": "an expert in the Parliamentary Group on Chemical Industry",
+     "evidence_location": "bio, paragraph 3",
+     "label": "fact",
+     "label_scope": "Bio says 'In the past'. The parliament is not named and no dates are given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0038",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "carried out strategic consultancy projects at",
+     "object": "DGA S.A., AKJ Capital S.A., Instytut Studiów Energetycznych sp. z o.o.",
+     "object_type": "company",
+     "kind": "contract_or_fee",
+     "evidence_text": "For several years, he carried out numerous projects in strategic consultancy, e.g. at DGA S.A., AKJ Capital S.A.",
+     "evidence_translation": "For several years, he carried out numerous projects in strategic consultancy, e.g. at DGA S.A., AKJ Capital S.A.",
+     "evidence_location": "bio, paragraph 3",
+     "label": "fact",
+     "label_scope": "Bio says 'e.g.' for these firms. Fees and contract terms not stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0039",
+     "subject": "Tomasz Zieliński",
+     "subject_type": "person",
+     "relation": "was Chairman of the Supervisory Board of (2010)",
+     "object": "Kemipol sp. z o.o.",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "2010: Kemipol sp. z o.o. - Chairman of the Supervisory Board",
+     "evidence_translation": "2010: Kemipol sp. z o.o. - Chairman of the Supervisory Board",
+     "evidence_location": "bio, paragraph 3 (career list)",
+     "date": "2010",
+     "label": "fact",
+     "label_scope": "Bio states it. Past.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T1-bio-gasiorek",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/ewa-gasiorek",
+   "host": "orlen.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 24046 characters. Full bio read. No appointment date or appointing body for the ORLEN board on this page.",
+   "page_title": "Supervisory Board - Ewa Gąsiorek",
+   "page_date": "not stated (footer: Copyright 1996-2025)",
+   "publisher": "ORLEN",
+   "capture_answer": "Independent member. Per the list page, chair of the Audit Committee. Current: Deputy Director for Implementation of the Provincial Budget at the Office of the Marshal of the Mazowieckie Voivodeship since 2011. Past: Supervisory Board member of Miejskie Przedsiębiorstwo Taksówkowe Sp. z o.o. (2015-2020). Appointed in 2020 as a member of the Audit Committee of the City of Warsaw; the bio does not name the appointing body. No NGO, Ombudsman, party or ministry tie named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:35:35.138Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 24046,
+    "sha256": "34885c200582ace3fa8796c3920a1ab13e5dade8979c2d07da153c16a8da7e1e",
+    "url_read": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/ewa-gasiorek"
+   },
+   "names_listed": [
+    "Ewa Gąsiorek"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-C0040",
+     "subject": "Ewa Gąsiorek",
+     "subject_type": "person",
+     "relation": "has served as Deputy Director for Implementation of the Provincial Budget (since 2011) at",
+     "object": "Office of the Marshal of the Mazowieckie Voivodeship",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Deputy Director for Implementation of the Provincial Budget at the Office of the Marshal of the Mazowieckie Voivodeship",
+     "evidence_translation": "Deputy Director for Implementation of the Provincial Budget at the Office of the Marshal of the Mazowieckie Voivodeship",
+     "evidence_location": "bio, paragraph 2",
+     "date": "since 2011",
+     "label": "fact",
+     "label_scope": "Bio states it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0041",
+     "subject": "Ewa Gąsiorek",
+     "subject_type": "person",
+     "relation": "was a member of the Supervisory Board of (2015-2020)",
+     "object": "Miejskie Przedsiębiorstwo Taksówkowe Sp. z o.o. in Warsaw",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "member of the Supervisory Board of Miejskie Przedsiębiorstwo Taksówkowe Sp. z o.o. in Warsaw",
+     "evidence_translation": "member of the Supervisory Board of Miejskie Przedsiębiorstwo Taksówkowe Sp. z o.o. in Warsaw",
+     "evidence_location": "bio, paragraph 5",
+     "date": "2015-2020",
+     "label": "fact",
+     "label_scope": "Bio states it. Past.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "synoradzki_bentkowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0042",
+     "subject": "Ewa Gąsiorek",
+     "subject_type": "person",
+     "relation": "was appointed as a Member of the Audit Committee of (2020)",
+     "object": "Audit Committee of the City of Warsaw",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "In 2020, Ewa Gąsiorek was appointed as a Member of the Audit Committee of the City of Warsaw",
+     "evidence_translation": "In 2020, Ewa Gąsiorek was appointed as a Member of the Audit Committee of the City of Warsaw",
+     "evidence_location": "bio, paragraph 6",
+     "date": "2020",
+     "label": "fact",
+     "label_scope": "Bio does not name the appointing body.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "synoradzki_bentkowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T2",
+   "url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",
+   "host": "oko.press",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 5635 characters. Live-blog article. The only visible entry is timestamped 12:04 20-12-2023. Page metadata shows modified 2026-11-01T19:34:04.686Z. The page does not say who appointed Piotr Zemła or when, and gives no prior jobs for him. Sienkiewicz and Maciej Taborowski are not named.",
+   "page_title": "Nowy szef Rady Nadzorczej TVP jest już w gmachu telewizji. Były prezes ustąpił?",
+   "page_date": "20-12-2023 12:04 (live entry)",
+   "publisher": "OKO.press",
+   "capture_answer": "Names mecenas Piotr Zemła as the new chair of the TVP supervisory board, who had arrived at the TVP building. The page gives no appointer, appointment date or prior job for him beyond the mecenas title; his name links to a zemla-szymanski.pl author profile, not read. Tomasz Sygut is due to take up the post of new TVP president. Current president Mateusz Matyszkowicz reportedly accepted his dismissal, per unofficial information not yet fully confirmed. PiS MPs (unnamed) and TVP staff disputed Zemła's powers. Sienkiewicz, Maciej Taborowski and the core actors do not appear. The footer shows KRS 0000620036 for an entity the page does not name.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:34:04.890Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 5635,
+    "sha256": "0d1c187812df814b1c8a18a23660c2c6b24755be02403013ba9086c5d29caa4d",
+    "url_read": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil"
+   },
+   "names_listed": [
+    "Piotr Zemła",
+    "Tomasz Sygut",
+    "Mateusz Matyszkowicz"
+   ],
+   "names_found_in_page_text": "3/3",
+   "followup_urls": [
+    {
+     "url": "https://www.wirtualnemedia.pl/artykul/tomasz-sygut-prezes-tvp-piotr-zemla-szef-rada-nadzorcza-zwolnienia-dziennikarze",
+     "why": "Linked from the Sygut mention. Another site, not read. May cover the TVP board changes."
+    },
+    {
+     "url": "https://zemla-szymanski.pl/author/pzemla/",
+     "why": "Profile linked from Zemła's name. Another site, not read. May give prior jobs."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0043",
+     "subject": "Piotr Zemła",
+     "subject_type": "person",
+     "relation": "is new chair of",
+     "object": "Rada Nadzorcza TVP",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Nowy szef Rady Nadzorczej TVP, mecenas Piotr Zemła, przybył do gmachu telewizji przy Woronicza.",
+     "evidence_translation": "The new chair of the TVP supervisory board, mecenas Piotr Zemła, arrived at the television building at Woronicza.",
+     "evidence_location": "live entry 12:04 20-12-2023, body paragraph 1",
+     "date": "20-12-2023 12:04",
+     "label": "fact",
+     "label_scope": "OKO.press states this in its live entry. The entry does not say who appointed him or when.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0044",
+     "subject": "Tomasz Sygut",
+     "subject_type": "person",
+     "relation": "is to take up the post of new president of",
+     "object": "TVP",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Tomasz Sygut, który ma objąć stanowisko nowego prezesa stacji",
+     "evidence_translation": "Tomasz Sygut, who is to take up the post of the station's new president",
+     "evidence_location": "live entry, body paragraph 2",
+     "label": "fact",
+     "label_scope": "Page states he is due to take the post. No appointing body or date given.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0045",
+     "subject": "Mateusz Matyszkowicz",
+     "subject_type": "person",
+     "relation": "is current president of",
+     "object": "TVP",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "dotychczasowy prezes TVP Mateusz Matyszkowicz",
+     "evidence_translation": "the until-now TVP president Mateusz Matyszkowicz",
+     "evidence_location": "live entry, body paragraph 3",
+     "label": "fact",
+     "label_scope": "Page describes him as the until-now (current) TVP president.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0046",
+     "subject": "Mateusz Matyszkowicz",
+     "subject_type": "person",
+     "relation": "reportedly accepted his dismissal from",
+     "object": "TVP",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "dotychczasowy prezes TVP Mateusz Matyszkowicz miał uznać swoje odwołanie",
+     "evidence_translation": "the until-now TVP president Mateusz Matyszkowicz reportedly accepted his dismissal",
+     "evidence_location": "live entry, body paragraph 3",
+     "label": "alleged",
+     "label_scope": "Unofficial information cited by OKO.press, which says it is not yet fully confirmed. No named source.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0047",
+     "subject": "posłowie PiS (unnamed MPs)",
+     "subject_type": "other",
+     "relation": "occupied the TVP building and questioned the powers of",
+     "object": "Piotr Zemła",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Został obstąpiony przez okupujących budynek posłów PiS i pracowników TVP",
+     "evidence_translation": "He was surrounded by PiS MPs occupying the building and by TVP staff",
+     "evidence_location": "live entry, body paragraph 1",
+     "date": "20-12-2023 12:04",
+     "label": "fact",
+     "label_scope": "MPs not named. Page says they questioned his powers and the legal force of the decision to change the station's management.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pis",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0048",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "sat on the TVP supervisory board alongside",
+     "object": "Rada Nadzorcza TVP",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Nowy szef Rady Nadzorczej TVP, mecenas Piotr Zemła, przybył do gmachu telewizji przy Woronicza.",
+     "evidence_translation": "The new chair of the TVP supervisory board, mecenas Piotr Zemła, arrived at the television building at Woronicza.",
+     "evidence_location": "live entry, body paragraph 1 (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "Taborowski is not named. Zemła is the only TVP supervisory board member the page names.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "vice-chair of TVP's supervisory board since Dec 2023",
+      "vice-chair of TVP's supervisory board since Dec 2023"
+     ]
+    },
+    {
+     "id": "B02-C0049",
+     "subject": "Sienkiewicz",
+     "subject_type": "person",
+     "relation": "appointed TVP supervisory board members, including",
+     "object": "Piotr Zemła",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Nowy szef Rady Nadzorczej TVP, mecenas Piotr Zemła, przybył do gmachu telewizji przy Woronicza.",
+     "evidence_translation": "The new chair of the TVP supervisory board, mecenas Piotr Zemła, arrived at the television building at Woronicza.",
+     "evidence_location": "live entry, body paragraph 1 (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "Sienkiewicz is not named on the page. The page does not say who appointed Zemła or any other board member.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048",
+   "host": "api.sejm.gov.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, application/json, 1230 characters. Metadata only, no question text. Title: Interpelacja w sprawie działań podjętych przez likwidatora TVP SA. receiptDate 2025-10-21. sentDate 2025-10-23 to minister kultury i dziedzictwa narodowego. Author listed as ID 360. Reply DNCK42 by Sekretarz stanu Maciej Wróbel, receiptDate 2025-11-07, onlyAttachment true. lastModified 2025-11-12T22:00:59. Reply PDF https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf (HTTP 200, application/pdf, 2346 characters) came back as text and supplies the reply claims. Question body not fetched.",
+   "page_title": "Interpelacja w sprawie działań podjętych przez likwidatora TVP SA",
+   "page_date": "2025-11-12 (record lastModified)",
+   "publisher": "Sejm of the Republic of Poland (api.sejm.gov.pl)",
+   "capture_answer": "Reply date: the reply PDF prints no date in the extracted text. The Sejm record gives reply receiptDate 2025-11-07. Signatory: Secretary of State Maciej Wróbel, signing on behalf of the Minister of Culture and National Heritage. The reply attributes the interpellation to MP Marek Suski; the Sejm record gives only author ID 360. The reply does not name Daniel Gorgosz or any liquidator, gives no pay figure for anyone, and names no law firm or legal adviser. It says staffing, pay and law-firm contracts fall to the liquidator's exclusive competence, and points to annual reports in the KRS. It also says the Minister exercises the State Treasury's voting rights in TELEWIZJA POLSKA SA w likwidacji as its General Meeting. The reply is not organised by question, so question 6 cannot be matched to it. The PDF text also shows the name Marta Cienkowska above the addressee block, with no title.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:34:05.078Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/json",
+    "chars": 1230,
+    "sha256": "b2b4ee3d9aca478ce96761b3b6559de030da35747c05d1f17951062ddd33672b",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048"
+   },
+   "names_listed": [
+    "Maciej Wróbel",
+    "Marek Suski"
+   ],
+   "names_found_in_page_text": "1/2",
+   "followup_urls": [
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048/body",
+     "why": "Question text. May show whether Daniel Gorgosz is named and what question 6 asks. Not fetched."
+    },
+    {
+     "url": "https://sejm.gov.pl/sejm10.nsf/interpelacjaTresc.xsp?key=DMQHNB",
+     "why": "Web view of the question text, linked from the record. Not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0050",
+     "subject": "Marek Suski",
+     "subject_type": "person",
+     "relation": "is MP and author of",
+     "object": "Interpelacja nr 13048",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "odpowiadając na interpelację nr 13048 posła Marka Suskiego z 23 października 2025 roku",
+     "evidence_translation": "replying to interpellation no. 13048 of MP Marek Suski of 23 October 2025",
+     "evidence_location": "reply PDF, opening paragraph",
+     "date": "2025-10-23",
+     "label": "fact",
+     "label_scope": "The reply names him as author. The Sejm record gives only author ID 360. His party is not stated on any page read.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0051",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "exercises voting rights of State Treasury shares in",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "ownership",
+     "evidence_text": "wykonuje prawo głosu z należących do Skarbu Państwa akcji spółki pod firmą: TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "evidence_translation": "exercises voting rights from the shares in the company named TELEWIZJA POLSKA Spółka Akcyjna w likwidacji that belong to the State Treasury",
+     "evidence_location": "reply PDF, body paragraph 2",
+     "label": "fact",
+     "label_scope": "Reply states the Minister acts as the company's General Meeting.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0052",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "says staffing, pay and law-firm contracts fall to",
+     "object": "liquidator of TVP SA w likwidacji (not named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "należą do wyłącznej kompetencji likwidatora zgodnie z art. 368 § 1 w związku z art. 466",
+     "evidence_translation": "fall within the liquidator's exclusive competence under Art. 368 §1 in conjunction with Art. 466",
+     "evidence_location": "reply PDF, body paragraph 3",
+     "label": "fact",
+     "label_scope": "Reply states this, citing the Commercial Companies Code of 15 September 2000. No liquidator is named.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0053",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "points to annual financial statements and activity reports published in",
+     "object": "KRS (National Court Register)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "Sprawozdania te są publikowane w KRS, do którego dostęp jest powszechny i bezpłatny",
+     "evidence_translation": "These reports are published in the KRS, to which access is general and free of charge",
+     "evidence_location": "reply PDF, body paragraph 4",
+     "label": "fact",
+     "label_scope": "Reply gives no figures.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0054",
+     "subject": "Maciej Wróbel",
+     "subject_type": "person",
+     "relation": "signs as Secretary of State on behalf of the Minister at",
+     "object": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "SEKRETARZ STANU / Maciej Wróbel",
+     "evidence_translation": "SECRETARY OF STATE / Maciej Wróbel",
+     "evidence_location": "reply PDF, signature block (lines broken in source)",
+     "date": "2025-11-07 (Sejm receiptDate)",
+     "label": "fact",
+     "label_scope": "Signed z up. MINISTRA KULTURY I DZIEDZICTWA NARODOWEGO. Party not stated on any page read.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0055",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "is named in",
+     "object": "Reply to interpellation 13048",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "należą do wyłącznej kompetencji likwidatora",
+     "evidence_translation": "fall within the liquidator's exclusive competence",
+     "evidence_location": "reply PDF, body paragraph 3 (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "Not named in the reply. The Sejm record names no liquidator.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0056",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "has monthly pay stated in",
+     "object": "Reply to interpellation 13048",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "określaniem zasad i wysokości wynagrodzeń",
+     "evidence_translation": "setting the rules and levels of remuneration",
+     "evidence_location": "reply PDF, body paragraph 3 (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "Reply says pay rules and levels are for the liquidator and gives no pay figure for anyone. Sejm record has no figure.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0057",
+     "subject": "Reply to interpellation 13048",
+     "subject_type": "document",
+     "relation": "names a law firm or legal adviser contracted by the company",
+     "object": "any law firm or lawyer",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "zawieraniem umów z kancelariami prawnymi",
+     "evidence_translation": "concluding contracts with law firms",
+     "evidence_location": "reply PDF, body paragraph 3 (nearest text checked)",
+     "label": "no_link",
+     "label_scope": "Law-firm contracts are mentioned in general terms only. No firm, lawyer or fee is named.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "linklaters",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T4",
+   "url": "https://archiwum.hfhr.pl/en/foundation/zarzad-i-rada-en",
+   "host": "archiwum.hfhr.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 8402 characters. This is the HFHR archive subdomain (archiwum.hfhr.pl). The page date shown is 14.06.2021, so the lists are that archived snapshot; current membership is not confirmed. Page is in English.",
+   "page_title": "Board and Council (Helsińska Fundacja Praw Człowieka)",
+   "page_date": "14.06.2021",
+   "publisher": "Helsinki Foundation for Human Rights (HFHR), archive site",
+   "capture_answer": "The archived page lists a five-person HFHR Board and an eight-person Council. Board: Maciej Nowicki (President), Piotr Kładoczny Ph.D. (Deputy President), Małgorzata Szuleka (Secretary), Lenur Kerymov (Treasurer), Aleksandra Iwanowska Ph.D. (member). Council: Danuta Przywara, Henryka Bochniarz, Janusz Grzelak, Ireneusz Cezary Kamiński, Witolda Ewa Osiatyńska, Andrzej Rzepliński, Wojciech Sadurski, Mirosław Wyrzykowski. The page gives no term dates for current members. The only Constitutional Tribunal tie is Wyrzykowski's former judgeship (2001-2010). Mikołaj Pietrzak is not listed. None of the eight 2026 judges, Tusk, Wawrykiewicz, Żurek or Bodnar appears, and no funder is named.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:37:05.022Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 8402,
+    "sha256": "8bf0f2a6830706d44635d23b59d38e1bcc7c9b16573666f94df4ead9c3b38b80",
+    "url_read": "https://archiwum.hfhr.pl/en/foundation/zarzad-i-rada-en"
+   },
+   "names_listed": [
+    "Maciej Nowicki",
+    "Piotr Kładoczny Ph.D.",
+    "Małgorzata Szuleka",
+    "Lenur Kerymov",
+    "Aleksandra Iwanowska Ph.D.",
+    "Danuta Przywara",
+    "Henryka Bochniarz",
+    "Janusz Grzelak",
+    "Ireneusz Cezary Kamiński",
+    "Witolda Ewa Osiatyńska",
+    "Andrzej Rzepliński",
+    "Wojciech Sadurski",
+    "Mirosław Wyrzykowski"
+   ],
+   "names_found_in_page_text": "13/13",
+   "followup_urls": [
+    {
+     "url": "https://archiwum.hfhr.pl/en/supporters/index.html",
+     "why": "Supporters page linked from the site menu; the likeliest place for named funders, which this board page does not give."
+    },
+    {
+     "url": "https://archiwum.hfhr.pl/fundacja/zarzad-i-rada/index.html",
+     "why": "Polish-language version of this same archived board and council page, linked in the page header; use to cross-check names and wording."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0058",
+     "subject": "HFHR",
+     "subject_type": "org",
+     "relation": "is managed by a Board of five persons and a Council of eight persons (page statement)",
+     "object": "HFHR Board and Council",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "HFHR is managed by the Board composed of five persons and the Council composed of eight persons.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "The organisation's own statement of its board and council sizes on the archived page dated 14.06.2021.",
+     "evidence_location": "Intro paragraph under the heading 'Board and Council'",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0059",
+     "subject": "Maciej Nowicki",
+     "subject_type": "person",
+     "relation": "President of the Board of HFHR",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "President of the Board – Expert in cause-related documentary film",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Role as listed on the archived page; no term dates given.",
+     "evidence_location": "Board section, Maciej Nowicki entry",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nowicki",
+     "subject_map_status": "haiku_branch_only",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "President of the Board; signed 31 Oct 2026 statement"
+     ]
+    },
+    {
+     "id": "B02-C0060",
+     "subject": "Piotr Kładoczny Ph.D.",
+     "subject_type": "person",
+     "relation": "Deputy President of the Board of HFHR",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Deputy President of the Board – Piotr Kładoczny has been cooperating with the HFHR since 1996.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Role as listed on the archived page; no term dates given for the role.",
+     "evidence_location": "Board section, Kładoczny entry",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0061",
+     "subject": "Małgorzata Szuleka",
+     "subject_type": "person",
+     "relation": "Secretary of the Board of HFHR",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Secretary of the Board.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Role as listed on the archived page.",
+     "evidence_location": "Board section, Szuleka entry",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0062",
+     "subject": "Małgorzata Szuleka",
+     "subject_type": "person",
+     "relation": "page describes her HFHR work as monitoring the rule of law and court independence",
+     "object": "rule of law and court independence monitoring",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "monitoring of the rule of law, the independence of courts and the situation of civil society",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "The page's description of her responsibilities at HFHR; not a separate appointment.",
+     "evidence_location": "Board section, Szuleka bio",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0063",
+     "subject": "Lenur Kerymov",
+     "subject_type": "person",
+     "relation": "Treasurer of the Board of HFHR",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Treasurer of the Board – lawyer.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Role as listed on the archived page.",
+     "evidence_location": "Board section, Kerymov entry",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0064",
+     "subject": "Aleksandra Iwanowska Ph.D.",
+     "subject_type": "person",
+     "relation": "Member of the Board of HFHR",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Member of the Board.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Role as listed on the archived page.",
+     "evidence_location": "Board section, Iwanowska entry",
+     "date": "14.06.2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0065",
+     "subject": "Danuta Przywara",
+     "subject_type": "person",
+     "relation": "Chair of the Board of HFHR (page: since 2008 to 2021); listed under Council",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Chair of the Board of the HFHR since 2008 to 2021.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Past role as stated in her bio; she is listed as a Council member.",
+     "evidence_location": "Council section, Przywara bio",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0066",
+     "subject": "Mirosław Wyrzykowski",
+     "subject_type": "person",
+     "relation": "former judge of the Constitutional Tribunal",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Judge of the Constitutional Tribunal (2001-2010).",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Bio text printed directly after his name in the Council list; the page gives only the dates 2001-2010.",
+     "evidence_location": "Council section, bio after Wyrzykowski's name",
+     "date": "2001-2010",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0067",
+     "subject": "Mirosław Wyrzykowski",
+     "subject_type": "person",
+     "relation": "member of the HFHR Council",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Mirosław Wyrzykowski",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Listed under the Council heading (eight names in total).",
+     "evidence_location": "Council section, name list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0068",
+     "subject": "Andrzej Rzepliński",
+     "subject_type": "person",
+     "relation": "member of the HFHR Council",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Andrzej Rzepliński",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "fact",
+     "label_scope": "Listed under the Council heading with no bio on the page; the page states no Constitutional Tribunal role for him.",
+     "evidence_location": "Council section, name list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0069",
+     "subject": "HFHR",
+     "subject_type": "org",
+     "relation": "receives funding or a grant from a named funder or donor",
+     "object": "any named funder, donor or grant",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "HFHR is managed by the Board composed of five persons and the Council composed of eight persons.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "no_link",
+     "label_scope": "Checked this board and council page for funders, donors or grants: none named. The linked Supporters page was not read.",
+     "evidence_location": "Whole page checked; intro paragraph given as scope",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0070",
+     "subject": "Mikołaj Pietrzak",
+     "subject_type": "person",
+     "relation": "member of the HFHR board or council",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "HFHR is managed by the Board composed of five persons and the Council composed of eight persons.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "no_link",
+     "label_scope": "Checked the archived list of thirteen names (five Board, eight Council): Pietrzak is not listed.",
+     "evidence_location": "Whole page checked; intro paragraph given as scope",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0071",
+     "subject": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
+     "subject_type": "person",
+     "relation": "named on the HFHR board or council list",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "HFHR is managed by the Board composed of five persons and the Council composed of eight persons.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "no_link",
+     "label_scope": "Checked the thirteen names on this page: none of the eight 2026 Sejm-elected TK judges appears.",
+     "evidence_location": "Whole page checked; intro paragraph given as scope",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "criticised 30 Oct order: 'legal basis ... is questionable'; 'We see no clear legal basis for such a decision to be issued by the longest-ser"
+     ]
+    },
+    {
+     "id": "B02-C0072",
+     "subject": "Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar",
+     "subject_type": "person",
+     "relation": "named on the HFHR board or council list",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "HFHR is managed by the Board composed of five persons and the Council composed of eight persons.",
+     "evidence_translation": "Identical to the original (English page).",
+     "label": "no_link",
+     "label_scope": "Checked the thirteen names on this page: none of these four appears.",
+     "evidence_location": "Whole page checked; intro paragraph given as scope",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T5",
+   "url": "https://superbiz.se.pl/wiadomosci/ujawnil-zarobki-dyrektorow-w-tvp-prawie-50-tys-zl-dla-likwidatora-aa-FXn1-bXdX-8Mto.html",
+   "host": "superbiz.se.pl",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 16107 characters. Article dated 2024-02-21 14:25, byline Daniel Orzechowski. The named primary source is an interview with Dziennik Gazeta Prawna. No official reply or interpellation is cited, and the interview is not linked on the page.",
+   "page_title": "Ujawnił zarobki dyrektorów w TVP. Prawie 50 tys. zł dla likwidatora",
+   "page_date": "2024-02-21",
+   "publisher": "Super Biznes (Grupa ZPR Media)",
+   "capture_answer": "The article dates from 21 Feb 2024, so these figures are from 2024, not 2026. Daniel Gorgosz, TVP liquidator, disclosed pay in a Dziennik Gazeta Prawna interview: Gorgosz 48,4 tys. zł brutto (he also holds the post of director of the Corporate Affairs Office); Tomasz Sygut, director general of TVP, 50 tys. zł; Grzegorz Sajór, director of the Telewizyjna Agencja Informacyjna, 35 tys. zł brutto miesięcznie. Only Sajór's figure states a monthly period. The primary source is the DGP interview; the article cites no interpellation or official reply and does not link the interview. The article names no prime minister or minister; the 220 mln zł request went to 'rząd' (government).",
+   "raw": {
+    "fetched_at": "2026-11-01T19:37:04.097Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16107,
+    "sha256": "04488375803e9062e0d2c29ad2d9713b3904281e42ca0fa5653d14bd187195e5",
+    "url_read": "https://superbiz.se.pl/wiadomosci/ujawnil-zarobki-dyrektorow-w-tvp-prawie-50-tys-zl-dla-likwidatora-aa-FXn1-bXdX-8Mto.html"
+   },
+   "names_listed": [
+    "Daniel Gorgosz",
+    "Tomasz Sygut",
+    "Grzegorz Sajór",
+    "Pawła Płuski"
+   ],
+   "names_found_in_page_text": "4/4",
+   "followup_urls": [
+    {
+     "url": "https://superbiz.se.pl/wiadomosci/koniec-abonamentu-rtv-w-polsce-nowa-oplata-bedzie-pobierana-prosto-z-konta-polakow-19-02-aa-91yT-RsDV-EHX4.html",
+     "why": "Linked where the article says the 220 mln zł request is insufficient; context on TVP funding."
+    },
+    {
+     "url": "https://superbiz.se.pl/wiadomosci/polacy-straca-dostep-do-tvp-zmiany-juz-pod-koniec-listopada-13-11-aa-JMgD-1gXA-Nhvd.html",
+     "why": "Linked for the halted payment of some invoices (wstrzymaniu zapłaty niektórych faktur); TVP contract payments context."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0073",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "liquidator of TVP",
+     "object": "TVP",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "evidence_text": "Likwidator TVP, Daniel Gorgosz",
+     "evidence_translation": "TVP liquidator, Daniel Gorgosz",
+     "label": "fact",
+     "label_scope": "Stated in the article's lead paragraph.",
+     "evidence_location": "Lead paragraph under the headline",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0074",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "gave the pay disclosure in an interview to Dziennik Gazeta Prawna",
+     "object": "Dziennik Gazeta Prawna",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "w wywiadzie udzielonym \"Dziennikowi Gazecie Prawnej\"",
+     "evidence_translation": "in an interview given to \"Dziennik Gazeta Prawna\"",
+     "label": "fact",
+     "label_scope": "The article states this interview is the source of the disclosed pay figures; the interview itself is not linked on the page.",
+     "evidence_location": "Lead paragraph",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0075",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "holds two functions: director of the Corporate Affairs Office and liquidator of the company",
+     "object": "Biuro Spraw Korporacyjnych (Corporate Affairs Office)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "dyrektora Biura Spraw Korporacyjnych oraz likwidatora spółki",
+     "evidence_translation": "director of the Corporate Affairs Office and liquidator of the company",
+     "label": "fact",
+     "label_scope": "The article's own statement; it does not say which company the office belongs to.",
+     "evidence_location": "'Gigantyczne zarobki' section, paragraph beginning 'Na pytanie o wynagrodzenia w TVP'",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0076",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "pay of 48,4 tys. zł brutto, as disclosed",
+     "object": "48,4 tys. zł brutto",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "amount": "48,4 tys.",
+     "currency": "zł",
+     "evidence_text": "Podano, że Gorgosz sam zarabia 48,4 tys. zł brutto",
+     "evidence_translation": "It was stated that Gorgosz himself earns 48.4 thousand zloty gross",
+     "label": "fact",
+     "label_scope": "Figure as disclosed by Gorgosz in the DGP interview, per the article. Gross, but the sentence gives no period. Not checked against any official record.",
+     "evidence_location": "'Gigantyczne zarobki' section, same paragraph",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0077",
+     "subject": "Tomasz Sygut",
+     "subject_type": "person",
+     "relation": "receives 50 tys. zł as dyrektor generalny TVP",
+     "object": "TVP",
+     "object_type": "company",
+     "kind": "contract_or_fee",
+     "amount": "50 tys.",
+     "currency": "zł",
+     "evidence_text": "dyrektor generalny TVP, Tomasz Sygut, otrzymuje 50 tys. zł",
+     "evidence_translation": "the director general of TVP, Tomasz Sygut, receives 50 thousand zloty",
+     "label": "fact",
+     "label_scope": "Figure attributed to Gorgosz's information; the sentence gives neither a gross/net basis nor a period.",
+     "evidence_location": "'Gigantyczne zarobki' section, same paragraph",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0078",
+     "subject": "Grzegorz Sajór",
+     "subject_type": "person",
+     "relation": "receives 35 tys. zł brutto miesięcznie as dyrektor of Telewizyjna Agencja Informacyjna",
+     "object": "Telewizyjna Agencja Informacyjna",
+     "object_type": "org",
+     "kind": "contract_or_fee",
+     "amount": "35 tys.",
+     "currency": "zł",
+     "evidence_text": "dyrektor Telewizyjnej Agencji Informacyjnej, Grzegorz Sajór, 35 tys. zł brutto miesięcznie",
+     "evidence_translation": "the director of the Telewizyjna Agencja Informacyjna, Grzegorz Sajór, 35 thousand zloty gross per month",
+     "label": "fact",
+     "label_scope": "Only figure in the article with an explicit monthly period ('miesięcznie'); attributed to Gorgosz's information.",
+     "evidence_location": "'Gigantyczne zarobki' section, same paragraph",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0079",
+     "subject": "Daniel Gorgosz",
+     "subject_type": "person",
+     "relation": "says he applied to the government for an additional 220 mln zł",
+     "object": "rząd (government, not named on the page)",
+     "object_type": "public_body",
+     "kind": "other",
+     "amount": "220 mln",
+     "currency": "zł",
+     "evidence_text": "wystąpił do rządu o dodatkowe 220 mln zł",
+     "evidence_translation": "he applied to the government for an additional 220 million zloty",
+     "label": "fact",
+     "label_scope": "Gorgosz's statement as reported in the article. The page names no prime minister or minister for this request.",
+     "evidence_location": "Paragraph after the lead photo, beginning 'Gorgosz zaznaczył'",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0080",
+     "subject": "TVP",
+     "subject_type": "company",
+     "relation": "is short of 2,6 mld zł, as stated by Daniel Gorgosz",
+     "object": "2,6 mld zł",
+     "object_type": "other",
+     "kind": "other",
+     "amount": "2,6 mld",
+     "currency": "zł",
+     "evidence_text": "Telewizji Polskiej brakuje w tej chwili 2,6 mld zł",
+     "evidence_translation": "Polish Television currently lacks 2.6 billion zloty",
+     "label": "fact",
+     "label_scope": "Gorgosz's statement as quoted in the lead paragraph.",
+     "evidence_location": "Lead paragraph (quote)",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tvp",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0081",
+     "subject": "TVP",
+     "subject_type": "company",
+     "relation": "received more than 9,5 mld zł since 2017 (funding source not named on the page)",
+     "object": "ponad 9,5 mld zł",
+     "object_type": "other",
+     "kind": "other",
+     "amount": "9,5 mld",
+     "currency": "zł",
+     "evidence_text": "od 2017 roku TVP otrzymała ponad 9,5 mld zł",
+     "evidence_translation": "since 2017 TVP has received over 9.5 billion zloty",
+     "label": "fact",
+     "label_scope": "Statement by Gorgosz as reported; the article does not name the funding source.",
+     "evidence_location": "Paragraph after the lead photo, beginning 'Zauważył także'",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tvp",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0082",
+     "subject": "Pawła Płuski",
+     "subject_type": "person",
+     "relation": "heads the editorial office of the news programme 19.30 (page says he is not a director)",
+     "object": "program informacyjny 19.30",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "kierującego redakcją programu informacyjnego \"19.30\"",
+     "evidence_translation": "heading the editorial office of the news programme \"19.30\"",
+     "label": "fact",
+     "label_scope": "Written in the genitive on the page; nominative Paweł Płuska. The page says his pay is 'znacznie niższe niż poprzednich szefów redakcji' with no figure given.",
+     "evidence_location": "'Gigantyczne zarobki' section, last paragraph",
+     "date": "2024-02-21",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0083",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "named in the article in connection with TVP pay, funding or management",
+     "object": "TVP",
+     "object_type": "company",
+     "kind": "other",
+     "evidence_text": "Donald Tusk w Wietnamie. Padły ważne słowa i nowe inicjatywy",
+     "evidence_translation": "Donald Tusk in Vietnam. Important words and new initiatives were voiced",
+     "label": "no_link",
+     "label_scope": "The only mention of Tusk is an unrelated 'Dzieje się' sidebar headline link; the article body names no prime minister.",
+     "evidence_location": "Right-hand sidebar 'Dzieje się' links, not the article body",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "government put public media into liquidation (Dec 2023)",
+      "government put public media into liquidation (Dec 2023)"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "B3_state_boards-T6",
+   "url": "https://www.eecpoland.eu/2026/en/speakers/pawel-majcher,26196.html",
+   "host": "eecpoland.eu",
+   "theme": "B3_state_boards",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 6147 characters. Archival version of the EEC 2026 site (banner: 'You watching archival version of European Economic Congress'). The speaker block gives title and company with no start date for the presidency.",
+   "page_title": "Paweł Majcher - European Economic Congress",
+   "page_date": "not shown (session dated 24.04.2026)",
+   "publisher": "European Economic Congress (EEC); organiser PTWP Group",
+   "capture_answer": "Current title on the page: Position 'President' at Company 'Polish Radio'. It is not a liquidator role. Earlier posts, of which only the Vice President post carries dates (2009 to 2012): Vice President of Polish Radio; press spokesman and head of the minister’s office at the Ministry of the Interior; managed Radio Wrocław and Radio RAM; began his career in the 1990s at Radio Eska. No party, NGO, foundation or funder is named. The page does not show when he became president, so the December 2023 date in the brief is not on this page. Event: 'Digital hygiene' session, 24.04.2026 11:30 - 13:00, at the European Economic Congress (22-24 April 2026, Katowice), organised by PTWP Group; his capacity is speaker.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:37:06.752Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 6147,
+    "sha256": "553e3c766fc45815fde04b5f3be9450f462bc1b4e9af47241f59fa1db94ae504",
+    "url_read": "https://www.eecpoland.eu/2026/en/speakers/pawel-majcher,26196.html"
+   },
+   "names_listed": [
+    "Paweł Majcher"
+   ],
+   "names_found_in_page_text": "1/1",
+   "followup_urls": [
+    {
+     "url": "https://www.eecpoland.eu/2026/en/panel/8312.html",
+     "why": "'Digital hygiene' session page; lists the other speakers (names appear only as images on the speaker page) and session details."
+    },
+    {
+     "url": "https://www.eecpoland.eu/2026/en/partners-and-sponsors/353/",
+     "why": "Partners and sponsors of EEC 2026; needed for the sponsor check, which the speaker page does not show."
+    },
+    {
+     "url": "https://www.eecpoland.eu/2026/en/organiser/446/",
+     "why": "Organiser page for EEC 2026, to confirm PTWP Group's role as host and organiser."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0084",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "Position 'President' at Company 'Polish Radio'",
+     "object": "Polish Radio",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Position: President",
+     "evidence_translation": "Position: President",
+     "label": "fact",
+     "label_scope": "Current title as listed on the archived EEC 2026 speaker page (Company: Polish Radio); no start date given.",
+     "evidence_location": "Speaker block under '## Paweł Majcher', Company and Position fields",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0085",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "Vice President of Polish Radio",
+     "object": "Polish Radio",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "As Vice President of Polish Radio from 2009 to 2012",
+     "evidence_translation": "As Vice President of Polish Radio from 2009 to 2012",
+     "label": "fact",
+     "label_scope": "Earlier post as stated in the bio.",
+     "evidence_location": "Bio paragraph under the speaker name",
+     "date": "2009 to 2012",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0086",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "held the roles of press spokesman and head of the minister’s office at the Ministry of the Interior (earlier posts)",
+     "object": "Ministry of the Interior",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "He also held the roles of press spokesman and head of the minister’s office at the Ministry of the Interior.",
+     "evidence_translation": "He also held the roles of press spokesman and head of the minister’s office at the Ministry of the Interior.",
+     "label": "fact",
+     "label_scope": "Earlier roles as stated in the bio; no dates given and the minister is not named.",
+     "evidence_location": "Bio paragraph under the speaker name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0087",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "managed Radio Wrocław and Radio RAM (earlier posts)",
+     "object": "Radio Wrocław; Radio RAM",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "He managed Radio Wrocław and Radio RAM.",
+     "evidence_translation": "He managed Radio Wrocław and Radio RAM.",
+     "label": "fact",
+     "label_scope": "Earlier roles as stated in the bio; no dates given.",
+     "evidence_location": "Bio paragraph under the speaker name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0088",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "began his career at Radio Eska",
+     "object": "Radio Eska",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "He began his career in the 1990s at Radio Eska",
+     "evidence_translation": "He began his career in the 1990s at Radio Eska",
+     "label": "fact",
+     "label_scope": "Start of career as stated in the bio; the page gives only 'in the 1990s'.",
+     "evidence_location": "Bio paragraph under the speaker name",
+     "date": "1990s",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0089",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "speaker in the session 'Digital hygiene' (MEDIA AND COMMUNICATION track)",
+     "object": "European Economic Congress 2026 (Katowice)",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Digital hygiene",
+     "evidence_translation": "Digital hygiene",
+     "label": "fact",
+     "label_scope": "Capacity: speaker. Host and organiser: PTWP Group (next claim). Sponsors and partners are not shown on this page.",
+     "evidence_location": "'Participates in the sessions' block",
+     "date": "24.04.2026 • 11:30 - 13:00",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "object_map_id": "uni_silesia",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0090",
+     "subject": "PTWP Group",
+     "subject_type": "org",
+     "relation": "organiser and initiator of the European Economic Congress",
+     "object": "European Economic Congress",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "The organiser and initiator of the European Economic Congress is the PTWP Group",
+     "evidence_translation": "The organiser and initiator of the European Economic Congress is the PTWP Group",
+     "label": "fact",
+     "label_scope": "The organiser's own statement about itself on the EEC page.",
+     "evidence_location": "'Dear User' archival notice block, below the speaker and session content",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0091",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "holds a liquidator role",
+     "object": "liquidator",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Position: President",
+     "evidence_translation": "Position: President",
+     "label": "no_link",
+     "label_scope": "Checked the title and bio: the only title given is 'Position: President'; no liquidator role appears.",
+     "evidence_location": "Speaker block and bio",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0092",
+     "subject": "Paweł Majcher",
+     "subject_type": "person",
+     "relation": "ties to a political party, political group, NGO, foundation or funder",
+     "object": "party or NGO",
+     "object_type": "other",
+     "kind": "membership_or_board",
+     "evidence_text": "Journalist, manager, and communications specialist.",
+     "evidence_translation": "Journalist, manager, and communications specialist.",
+     "label": "no_link",
+     "label_scope": "Checked the full bio: no party, political group, NGO, foundation or funder is named.",
+     "evidence_location": "Bio, first sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "majcher",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-T1",
+   "url": "https://data.europarl.europa.eu/distribution/doc/DCI-257045-2026-10-09-594239_en.pdf",
+   "host": "data.europarl.europa.eu",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, PDF, returned as text (1,785 characters); no binary file saved. Two-page declaration. The text layer prints both conflict-of-interest options, so the ticked one is not visible. No links on the page. The three sibling DCI documents (2025/2061(INI), 2025/0255(COD), 2025/2263(INI)) were not fetched: their URLs are not on this page and were not constructed from the IDs given in the task, so their titles are unverified. Send their URLs to have them read.",
+   "page_title": "DECLARATION ON AWARENESS OF CONFLICTS OF INTEREST PURSUANT TO ARTICLE 3 OF ANNEX I TO THE EUROPEAN PARLIAMENT’S RULES OF PROCEDURE",
+   "page_date": "09/10/2026",
+   "publisher": "European Parliament",
+   "capture_answer": "Report: 2026/2144(INI) - The Commission’s Rule of Law report – annual report 2026. Committee: LIBE - Committee on Civil Liberties, Justice and Home Affairs. He declares his capacity as Rapporteur. Declaration dated 09/10/2026. The page does not mention the Tribunal or any 30 October event. Sibling titles were not obtained (see fetch_note).",
+   "raw": {
+    "fetched_at": "2026-11-01T19:45:13.068Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 1785,
+    "sha256": "e955c8081d29de17c52bcbb50d0ffa06fa64e778911cb9e40267f2e96ef940da",
+    "url_read": "https://data.europarl.europa.eu/distribution/doc/DCI-257045-2026-10-09-594239_en.pdf"
+   },
+   "names_listed": [
+    "WAWRYKIEWICZ Michał"
+   ],
+   "names_found_in_page_text": "0/1",
+   "claims": [
+    {
+     "id": "B02-C0093",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "declares himself rapporteur for",
+     "object": "2026/2144(INI) - The Commission’s Rule of Law report – annual report 2026",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Capacity in which I make the declaration: Rapporteur",
+     "evidence_translation": "Capacity in which I make the declaration: Rapporteur",
+     "label": "fact",
+     "label_scope": "Capacity field reads Rapporteur; the procedure field on the same page names 2026/2144(INI). Dated 09/10/2026.",
+     "date": "09/10/2026",
+     "evidence_location": "Page 1 of 2, field 'Capacity in which I make the declaration'",
+     "new_entities": [
+      "2026/2144(INI) - The Commission’s Rule of Law report – annual report 2026"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0094",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "names as relevant committee for his rapporteur role",
+     "object": "LIBE - Committee on Civil Liberties, Justice and Home Affairs",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "relevant parliamentary committee or delegation: LIBE - Committee on Civil Liberties, Justice and Home Affairs",
+     "evidence_translation": "relevant parliamentary committee or delegation: LIBE - Committee on Civil Liberties, Justice and Home Affairs",
+     "label": "fact",
+     "label_scope": "Form names LIBE as the relevant committee for the procedure he declares as rapporteur. The page states no committee vote or adoption.",
+     "date": "09/10/2026",
+     "evidence_location": "Page 1 of 2, field 'If applicable, relevant parliamentary committee or delegation'",
+     "new_entities": [
+      "LIBE - Committee on Civil Liberties, Justice and Home Affairs"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0095",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "filed declaration on awareness of conflicts of interest dated",
+     "object": "Declaration on Awareness of Conflicts of Interest",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "date: 09/10/2026",
+     "evidence_translation": "date: 09/10/2026",
+     "label": "fact",
+     "label_scope": "Dated 09/10/2026 and transmitted 09/10/2026 12:54. The text layer prints both 'I am not aware' and 'I am aware' options with no visible tick, so his answer is not determined from the page.",
+     "date": "09/10/2026",
+     "evidence_location": "Page 1 of 2, date line below the conflict-of-interest options",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0096",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no party affiliation or party role stated",
+     "object": "political party or party group",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked; no political party, party group or party office is named for him.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0097",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "Trybunał Konstytucyjny (Constitutional Tribunal, TK)",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for the TK, its president Bogdan Święczkowski, the eight judges (Krystian Markiewicz, Maciej Taborowski, Anna Korwin-Piotrowska, Marcin Dziurda, Dariusz Szostek, Magdalena Bentkowska, Sławomir Patyra, Maciej Berek) and President Karol Nawrocki: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)"
+     ]
+    },
+    {
+     "id": "B02-C0098",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "NGOs, funders and office-holders named in the brief",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for Iustitia, Themis, Free Courts / Wolne Sądy, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja, KOD, Donald Tusk, Waldemar Żurek and Adam Bodnar: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-T2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/f994c0d9-5e56-4cc5-94c4-59fdb06eda09_1784814840695.pdf",
+   "host": "europarl.europa.eu",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, PDF, returned as text (2,231 characters); no binary file saved; no links on the page. Expense fields read 'Travel: No', 'Accommodation: No', 'Subsistence expenses: No' with no amount. The signature field has no text in the extract. No register number is printed; footnote 1 reads 'If the third party is registered in the Transparency Register, reference can be made hereto.' Spaces between some words are missing in the PDF text layer, so the title is shown with spaces restored.",
+   "page_title": "DECLARATION OF MEMBERS’ ATTENDANCE PURSUANT TO AN INVITATION AT EVENTS ORGANISED BY THIRD PARTIES",
+   "page_date": "21/07/2026",
+   "publisher": "European Parliament",
+   "capture_answer": "Event: All Hands on Deck against FIMI Conference, Belgium, Brussels, 25/06/2026 (given as '25/06/2026 - 25/06/2026 (1)'). Third party named: Permanent Representation of the Republic of Poland to the European Union, Rue Stevin 139 1000 Brussels Belgium; no register number printed. Costs: Travel 'No', Accommodation 'No', Subsistence expenses 'No'; no amounts. Signature date: 21/07/2026.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:45:12.239Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 2231,
+    "sha256": "5cd719676a71279cf4e2bb63a9fa837ace7336517505f8f2110a503f064052e9",
+    "url_read": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/f994c0d9-5e56-4cc5-94c4-59fdb06eda09_1784814840695.pdf"
+   },
+   "names_listed": [
+    "Wawrykiewicz Michał"
+   ],
+   "names_found_in_page_text": "0/1",
+   "claims": [
+    {
+     "id": "B02-C0099",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "attended, pursuant to an invitation, as MEP",
+     "object": "All Hands on Deck against FIMI Conference",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "All Hands on Deck against FIMI Conference",
+     "evidence_translation": "All Hands on Deck against FIMI Conference",
+     "label": "fact",
+     "label_scope": "Declaration states he attended this event on 25/06/2026 in Belgium, Brussels, 'in the performance of my duties as a Member of the European Parliament'. Inviter and organiser are not named separately; no speaking role is stated.",
+     "date": "25/06/2026",
+     "evidence_location": "Form field 'Type of event', under 'DETAILS OF THE EVENT ATTENDED'",
+     "new_entities": [
+      "All Hands on Deck against FIMI Conference"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0100",
+     "subject": "Permanent Representation of the Republic of Poland to the European Union",
+     "subject_type": "public_body",
+     "relation": "named as third party (expense field) for attendance at",
+     "object": "All Hands on Deck against FIMI Conference",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Permanent Representation of the Republic of Poland to the European Union, Rue Stevin 139 1000 Brussels Belgium",
+     "evidence_translation": "Permanent Representation of the Republic of Poland to the European Union, Rue Stevin 139 1000 Brussels Belgium",
+     "label": "fact",
+     "label_scope": "Named in the THIRD PARTY field, which asks for 'the third party who reimbursed or paid the expenses of the Member'. All expense types are marked No, so the page does not show any payment. The form preamble says the event was 'organised by a third party' but no organiser is named separately.",
+     "date": "25/06/2026",
+     "evidence_location": "Form field 'THIRD PARTY' under 'MANDATORY INFORMATION'",
+     "new_entities": [
+      "Permanent Representation of the Republic of Poland to the European Union",
+      "All Hands on Deck against FIMI Conference"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0101",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "declares no travel, accommodation or subsistence paid by third party for",
+     "object": "All Hands on Deck against FIMI Conference",
+     "object_type": "event",
+     "kind": "other",
+     "evidence_text": "Travel: No Accommodation: No",
+     "evidence_translation": "Travel: No Accommodation: No",
+     "label": "fact",
+     "label_scope": "Form marks Travel, Accommodation and Subsistence expenses each as 'No' in the text layer. No amount is stated on the page.",
+     "date": "25/06/2026",
+     "evidence_location": "Form block 'TYPE OF EXPENSES COVERED'",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0102",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "dated declaration of attendance for",
+     "object": "Declaration of Members’ Attendance (this form)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "Date: 21/07/2026 Signature:",
+     "evidence_translation": "Date: 21/07/2026 Signature:",
+     "label": "fact",
+     "label_scope": "Form date reads 21/07/2026 beside a 'Signature:' field. The text layer shows no signature, so the signature itself is not confirmed by the extract.",
+     "date": "21/07/2026",
+     "evidence_location": "Signature block below the attendance statement",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0103",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "Trybunał Konstytucyjny (Constitutional Tribunal, TK)",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for the TK, its president Bogdan Święczkowski, the eight judges (Krystian Markiewicz, Maciej Taborowski, Anna Korwin-Piotrowska, Marcin Dziurda, Dariusz Szostek, Magdalena Bentkowska, Sławomir Patyra, Maciej Berek) and President Karol Nawrocki: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)"
+     ]
+    },
+    {
+     "id": "B02-C0104",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "NGOs, funders and office-holders named in the brief",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for Iustitia, Themis, Free Courts / Wolne Sądy, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja, KOD, Donald Tusk, Waldemar Żurek and Adam Bodnar: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0105",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no party affiliation or party role stated",
+     "object": "political party or party group",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked; no political party, party group or party office is named for him.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0106",
+     "subject": "Permanent Representation of the Republic of Poland to the European Union",
+     "subject_type": "public_body",
+     "relation": "no tie stated to",
+     "object": "NGOs, funders and office-holders named in the brief",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked; the page names no NGO, funder or office-holder from the brief in connection with the third party.",
+     "new_entities": [
+      "Permanent Representation of the Republic of Poland to the European Union"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-T3",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/2b59d857-c2c6-4001-9194-7b9d519bd371_1784814961757.pdf",
+   "host": "europarl.europa.eu",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, PDF, returned as text (2,228 characters); no binary file saved; no links on the page. Expense fields read 'Travel: No', 'Accommodation: No', 'Subsistence expenses: No' with no amount. The signature field has no text in the extract. The number after the third party's address is not labelled on the page. Footnote 1 reads 'If the third party is registered in the Transparency Register, reference can be made hereto.' Spaces between some words are missing in the PDF text layer, so the title is shown with spaces restored.",
+   "page_title": "DECLARATION OF MEMBERS’ ATTENDANCE PURSUANT TO AN INVITATION AT EVENTS ORGANISED BY THIRD PARTIES",
+   "page_date": "21/07/2026",
+   "publisher": "European Parliament",
+   "capture_answer": "Event: EU Tech Sovereignty Package in Focus (conference), Belgium, Brussels, 24/06/2026 (given as '24/06/2026 - 24/06/2026 (1)'). Third party named: Związek Pracodawców Business & Science Poland, Rue Belliard 40 1040 Brussels Belgium, followed by the number 548212735276-89, which the page does not label as a register number. Costs: Travel 'No', Accommodation 'No', Subsistence expenses 'No'; no amounts. Signature date: 21/07/2026. Neither page says the two events were one trip.",
+   "raw": {
+    "fetched_at": "2026-11-01T19:45:12.203Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 2228,
+    "sha256": "596c0ebc5d57558b0b391a7a08ef32c94ea50695d6175df0fe64d0a700139e83",
+    "url_read": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/2b59d857-c2c6-4001-9194-7b9d519bd371_1784814961757.pdf"
+   },
+   "names_listed": [
+    "Wawrykiewicz Michał"
+   ],
+   "names_found_in_page_text": "0/1",
+   "claims": [
+    {
+     "id": "B02-C0107",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "attended, pursuant to an invitation, as MEP",
+     "object": "EU Tech Sovereignty Package in Focus (conference)",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "EU Tech Sovereignty Package in Focus (conference)",
+     "evidence_translation": "EU Tech Sovereignty Package in Focus (conference)",
+     "label": "fact",
+     "label_scope": "Declaration states he attended this conference on 24/06/2026 in Belgium, Brussels, 'in the performance of my duties as a Member of the European Parliament'. Inviter and organiser are not named separately; no speaking role is stated.",
+     "date": "24/06/2026",
+     "evidence_location": "Form field 'Type of event', under 'DETAILS OF THE EVENT ATTENDED'",
+     "new_entities": [
+      "EU Tech Sovereignty Package in Focus (conference)"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0108",
+     "subject": "Związek Pracodawców Business & Science Poland",
+     "subject_type": "org",
+     "relation": "named as third party (expense field) for attendance at",
+     "object": "EU Tech Sovereignty Package in Focus (conference)",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Związek Pracodawców Business & Science Poland, Rue Belliard 40 1040 Brussels Belgium, 548212735276-89",
+     "evidence_translation": "Związek Pracodawców Business & Science Poland, Rue Belliard 40 1040 Brussels Belgium, 548212735276-89",
+     "label": "fact",
+     "label_scope": "Named in the THIRD PARTY field, which asks for 'the third party who reimbursed or paid the expenses of the Member'. All expense types are marked No, so the page does not show any payment. No separate organiser is named.",
+     "date": "24/06/2026",
+     "evidence_location": "Form field 'THIRD PARTY' under 'MANDATORY INFORMATION'",
+     "new_entities": [
+      "Związek Pracodawców Business & Science Poland",
+      "EU Tech Sovereignty Package in Focus (conference)"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0109",
+     "subject": "Związek Pracodawców Business & Science Poland",
+     "subject_type": "org",
+     "relation": "is identified on the form by the number",
+     "object": "548212735276-89",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Związek Pracodawców Business & Science Poland, Rue Belliard 40 1040 Brussels Belgium, 548212735276-89",
+     "evidence_translation": "Związek Pracodawców Business & Science Poland, Rue Belliard 40 1040 Brussels Belgium, 548212735276-89",
+     "label": "fact",
+     "label_scope": "The number is printed after the address in the THIRD PARTY field. The page does not label it as a register number.",
+     "date": "24/06/2026",
+     "evidence_location": "Form field 'THIRD PARTY' under 'MANDATORY INFORMATION'",
+     "new_entities": [
+      "Związek Pracodawców Business & Science Poland"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0110",
+     "subject": "Związek Pracodawców Business & Science Poland",
+     "subject_type": "org",
+     "relation": "may be registered in the EU Transparency Register under",
+     "object": "548212735276-89",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "If the third party is registered in the Transparency Register, reference can be made hereto.",
+     "evidence_translation": "If the third party is registered in the Transparency Register, reference can be made hereto.",
+     "label": "speculation",
+     "label_scope": "Inference, not checked against the register. Basis: footnote 1 refers to Transparency Register references, and the number has 12 digits, a hyphen and 2 digits, a shape that resembles an EU Transparency Register ID. The page does not say this.",
+     "evidence_location": "Footnote 1, below the form's signature block",
+     "new_entities": [
+      "Związek Pracodawców Business & Science Poland"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0111",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "declares no travel, accommodation or subsistence paid by third party for",
+     "object": "EU Tech Sovereignty Package in Focus (conference)",
+     "object_type": "event",
+     "kind": "other",
+     "evidence_text": "Travel: No Accommodation: No",
+     "evidence_translation": "Travel: No Accommodation: No",
+     "label": "fact",
+     "label_scope": "Form marks Travel, Accommodation and Subsistence expenses each as 'No' in the text layer. No amount is stated on the page.",
+     "date": "24/06/2026",
+     "evidence_location": "Form block 'TYPE OF EXPENSES COVERED'",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0112",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "dated declaration of attendance for",
+     "object": "Declaration of Members’ Attendance (this form)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "Date: 21/07/2026 Signature:",
+     "evidence_translation": "Date: 21/07/2026 Signature:",
+     "label": "fact",
+     "label_scope": "Form date reads 21/07/2026 beside a 'Signature:' field. The text layer shows no signature, so the signature itself is not confirmed by the extract.",
+     "date": "21/07/2026",
+     "evidence_location": "Signature block below the attendance statement",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0113",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "may have attended both events on the same trip, with",
+     "object": "All Hands on Deck against FIMI Conference",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Dates (and duration) of the Member's attendance at the event: 24/06/2026 - 24/06/2026 (1)",
+     "evidence_translation": "Dates (and duration) of the Member's attendance at the event: 24/06/2026 - 24/06/2026 (1)",
+     "label": "speculation",
+     "label_scope": "Inference across the T2 and T3 declarations; neither page says the two events were on one trip. Basis: consecutive dates (24/06/2026 and 25/06/2026), the same venue (Belgium, Brussels), and the same signing date (21/07/2026) on both forms.",
+     "date": "24/06/2026 and 25/06/2026",
+     "evidence_location": "Form field 'Dates (and duration) of the Member's attendance at the event'",
+     "new_entities": [
+      "All Hands on Deck against FIMI Conference"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0114",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "Trybunał Konstytucyjny (Constitutional Tribunal, TK)",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for the TK, its president Bogdan Święczkowski, the eight judges (Krystian Markiewicz, Maciej Taborowski, Anna Korwin-Piotrowska, Marcin Dziurda, Dariusz Szostek, Magdalena Bentkowska, Sławomir Patyra, Maciej Berek) and President Karol Nawrocki: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "14 Sep: 'Istnieje bardzo precyzyjny plan działań' to make TK work 'zgodnie z prawem, konstytucją i standardami europejskimi' (only the summa",
+      "\"a very precise plan of action\" for the TK (14 Sep 2026)"
+     ]
+    },
+    {
+     "id": "B02-C0115",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no tie stated to",
+     "object": "NGOs, funders and office-holders named in the brief",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked for Iustitia, Themis, Free Courts / Wolne Sądy, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja, KOD, Donald Tusk, Waldemar Żurek and Adam Bodnar: none on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0116",
+     "subject": "Michał Wawrykiewicz",
+     "subject_type": "person",
+     "relation": "no party affiliation or party role stated",
+     "object": "political party or party group",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked; no political party, party group or party office is named for him.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0117",
+     "subject": "Związek Pracodawców Business & Science Poland",
+     "subject_type": "org",
+     "relation": "no tie stated to",
+     "object": "NGOs, funders and office-holders named in the brief",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "(no matching text on page)",
+     "evidence_translation": "(no matching text on page)",
+     "label": "no_link",
+     "label_scope": "Full page checked; the page names no NGO, funder or office-holder from the brief in connection with the third party.",
+     "new_entities": [
+      "Związek Pracodawców Business & Science Poland"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
   {
    "ref": "B1_judges_income-P1",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/909/body",
@@ -102,7 +2961,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0001",
+     "id": "B02-C0118",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "pay as vice-chair of TVP's supervisory board: not in this interpellation",
@@ -186,7 +3045,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0002",
+     "id": "B02-C0119",
      "subject": "mazur",
      "subject_type": "person",
      "relation": "as deputy justice minister signed the 26 Oct 2024 answer defending KKUSiP's legality, including the legal basis for paying its members",
@@ -211,7 +3070,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0003",
+     "id": "B02-C0120",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "pays its members for taking part in its work (§12 of the Council of Ministers regulation of 5 Mar 2024)",
@@ -281,7 +3140,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0004",
+     "id": "B02-C0121",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 10,000 for the chair of each codification commission, including KKUSiP",
@@ -308,7 +3167,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0005",
+     "id": "B02-C0122",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 3,500 for members of each codification commission, including KKUSiP",
@@ -335,7 +3194,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0006",
+     "id": "B02-C0123",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "cost PLN 437,062.26 in total in 2024 (row figures 409,684.13 and 27,378.13)",
@@ -359,7 +3218,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0007",
+     "id": "B02-C0124",
      "subject": "codification_commission",
      "subject_type": "public_body",
      "relation": "Civil Law Codification Commission cost PLN 530,074.77 in total in 2024 (row figures 493,549.95 and 36,524.82)",
@@ -386,7 +3245,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0008",
+     "id": "B02-C0125",
      "subject": "markiewicz",
      "subject_type": "person",
      "relation": "as KKUSiP chair (Apr 2024–Apr 2026) was entitled to the chair's fixed PLN 10,000 monthly lump sum",
@@ -414,7 +3273,7 @@
      ]
     },
     {
-     "id": "B02-C0009",
+     "id": "B02-C0126",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "as a KKUSiP member (appointed 12 Apr 2024) was entitled to the members' fixed PLN 3,500 monthly lump sum",
@@ -442,7 +3301,7 @@
      ]
     },
     {
-     "id": "B02-C0010",
+     "id": "B02-C0127",
      "subject": "dziurda",
      "subject_type": "person",
      "relation": "as a member of the Civil Law Codification Commission would have drawn the fixed PLN 3,500 monthly member pay, if he sat on it in 2024-2025",
@@ -469,7 +3328,7 @@
      ]
     },
     {
-     "id": "B02-C0011",
+     "id": "B02-C0128",
      "subject": "myrcha",
      "subject_type": "person",
      "relation": "as Secretary of State in the Justice Ministry signed the 4 Apr 2025 answer to MP Przemysław Wipler (interpellation 7111) that disclosed codification-commission pay rates and 2024 costs",
@@ -521,7 +3380,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0012",
+     "id": "B02-C0129",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "professor at UMCS, Department of Constitutional Law (staff list)",
@@ -542,7 +3401,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0013",
+     "id": "B02-C0130",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "represented the Batory Foundation in legislative work on the draft TK Act and its Introductory Provisions, adopted 13 Sep 2024",
@@ -570,7 +3429,7 @@
      ]
     },
     {
-     "id": "B02-C0014",
+     "id": "B02-C0131",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Batory Foundation's Legal Experts Group since 2020",
@@ -598,7 +3457,7 @@
      ]
     },
     {
-     "id": "B02-C0015",
+     "id": "B02-C0132",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Justice Ministry's delegation to the Venice Commission's 141st Plenary Session (4 Dec 2024)",
@@ -623,7 +3482,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0016",
+     "id": "B02-C0133",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "gave an expert statement during the Venice Commission's deliberations on the Act of 13 Sep 2024 on the TK and its Introductory Provisions",
@@ -651,7 +3510,7 @@
      ]
     },
     {
-     "id": "B02-C0017",
+     "id": "B02-C0134",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "expert of the Ministry of Justice since 2024",
@@ -676,7 +3535,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0018",
+     "id": "B02-C0135",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Sejm Chancellery's Bureau of Analysis (BAS)",
@@ -698,7 +3557,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0019",
+     "id": "B02-C0136",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Senate's Bureau of Analysis and Documentation",
@@ -722,7 +3581,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0020",
+     "id": "B02-C0137",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the judges' association Iustitia",
@@ -743,7 +3602,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0021",
+     "id": "B02-C0138",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the prosecutors' association Lex Super Omnia",
@@ -799,7 +3658,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0022",
+     "id": "B02-C0139",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed him deputy director of the National School of Judiciary and Public Prosecution (KSSiP) for organisational affairs, on Friday 7 June 2024",
@@ -830,7 +3689,7 @@
      ]
     },
     {
-     "id": "B02-C0023",
+     "id": "B02-C0140",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Deputy director of KSSiP for organisational affairs from 7 June 2024: heads the Director's Office and is the Director's permanent deputy (end date not on this page)",
@@ -853,7 +3712,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0024",
+     "id": "B02-C0141",
      "subject": "Izabela Fountoukidis (judge, Kraków Regional Court)",
      "subject_type": "person",
      "relation": "Appointed second deputy director of KSSiP on the same Friday as Żurek (7 June 2024)",
@@ -874,7 +3733,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0025",
+     "id": "B02-C0142",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Member of the National Council of the Judiciary (KRS) 2010-2018, two terms, while also serving as its spokesperson (the pre-2018 council, before the PiS-era 'neo-KRS')",
@@ -899,7 +3758,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0026",
+     "id": "B02-C0143",
      "subject": "Ministry of Justice (MS)",
      "subject_type": "public_body",
      "relation": "Ministry communiqué justified Żurek's appointment by his experience for the post of deputy director for organisational affairs",
@@ -1004,7 +3863,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0027",
+     "id": "B02-C0144",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed the judges listed in the article (names_listed) to court-president and vice-president posts (reported 18 May 2024)",
@@ -1024,7 +3883,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0028",
+     "id": "B02-C0145",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed her president of the District Court Poznań-Nowe Miasto i Wilda",
@@ -1047,7 +3906,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0029",
+     "id": "B02-C0146",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Member of Iustitia; the article says she was persecuted for defending the rule of law",
@@ -1070,7 +3929,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0030",
+     "id": "B02-C0147",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Rafał Jerka president of the Olsztyn Regional Court",
@@ -1093,7 +3952,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0031",
+     "id": "B02-C0148",
      "subject": "Rafał Jerka (judge, Olsztyn)",
      "subject_type": "person",
      "relation": "Member of the Forum Współpracy Sędziów (Judges' Cooperation Forum)",
@@ -1114,7 +3973,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0032",
+     "id": "B02-C0149",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Jerzy Nawrocki president of the Lublin Court of Appeal",
@@ -1139,7 +3998,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0033",
+     "id": "B02-C0150",
      "subject": "Jerzy Nawrocki (judge, Lublin; not President Karol Nawrocki)",
      "subject_type": "person",
      "relation": "Member of the Presidium of the Forum Współpracy Sędziów",
@@ -1162,7 +4021,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0034",
+     "id": "B02-C0151",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Paweł Juszczyszyn (and Katarzyna Zabuska) vice-presidents of the Olsztyn District Court, under president Krzysztof Krygielski",
@@ -1249,7 +4108,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0035",
+     "id": "B02-C0152",
      "subject": "Judges' assemblies (zgromadzenia sędziów) of the courts",
      "subject_type": "public_body",
      "relation": "Held an opinion vote on 60 candidates for the judge-members of the renewed KRS; each judge could cast 15 votes; turnout about 60%",
@@ -1273,7 +4132,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0036",
+     "id": "B02-C0153",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Topped the judges' assemblies' opinion vote for the renewed KRS with 4201 votes",
@@ -1298,7 +4157,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0037",
+     "id": "B02-C0154",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia; won one of the 15 places (3382 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -1323,7 +4182,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0038",
+     "id": "B02-C0155",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; won 14th place (3297 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -1346,7 +4205,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0039",
+     "id": "B02-C0156",
      "subject": "piebiak_radzik",
      "subject_type": "person",
      "relation": "In the judges' assemblies' vote Przemysław Radzik got 14 votes nationwide and Łukasz Piebiak 39",
@@ -1372,7 +4231,7 @@
      ]
     },
     {
-     "id": "B02-C0040",
+     "id": "B02-C0157",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Was due to elect the judge-members soon after the assemblies' vote, because the neo-KRS term ended in May 2026",
@@ -1441,7 +4300,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0041",
+     "id": "B02-C0158",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Elected 15 judge-members of the National Council of the Judiciary on Friday 15 May 2026 (names in names_listed)",
@@ -1465,7 +4324,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0042",
+     "id": "B02-C0159",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Vote on the KRS judge-members: 235 for, 18 against, 5 abstaining (3/5 majority required: 155)",
@@ -1485,7 +4344,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0043",
+     "id": "B02-C0160",
      "subject": "ko",
      "subject_type": "party",
      "relation": "The ruling coalition's clubs named 13 of the 15 judges elected, all of them picked earlier in the judges' assemblies' opinion vote",
@@ -1500,12 +4359,14 @@
      "label_scope": "The page says 'clubs of the ruling coalition' without naming KO, Lewica, Polska 2050 or PSL separately; the subject id 'ko' stands for the Sejm majority.",
      "access": "page_read_via_reader_extract",
      "evidence_check": "exact_in_reader_extract",
+     "subject_map_id": "ko",
+     "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0044",
+     "id": "B02-C0161",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Judges backed by associations including Iustitia won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -1533,7 +4394,7 @@
      ]
     },
     {
-     "id": "B02-C0045",
+     "id": "B02-C0162",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Judges backed by associations including Themis won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -1555,7 +4416,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0046",
+     "id": "B02-C0163",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS nominated Łukasz Piebiak, ex-deputy justice minister under Ziobro; he was elected among the 15 under the rule that each club's candidate is included",
@@ -1577,7 +4438,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0047",
+     "id": "B02-C0164",
      "subject": "Łukasz Zawadzki (judge, Opole)",
      "subject_type": "person",
      "relation": "Opole judge linked, like Piebiak, to the Stowarzyszenie Prawnicy dla Polski; elected to the KRS on 15 May 2026 as one of the two non-coalition picks",
@@ -1599,7 +4460,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0048",
+     "id": "B02-C0165",
      "subject": "tk",
      "subject_type": "public_body",
      "relation": "Issued an injunction (zabezpieczenie) on 12 May 2026 telling the Sejm to refrain from electing KRS judges until it ruled on a PiS motion; the Sejm voted on 15 May regardless",
@@ -1617,10 +4478,12 @@
      ],
      "access": "page_read_via_reader_extract",
      "evidence_check": "exact_in_reader_extract",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "tk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0049",
+     "id": "B02-C0166",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS MPs did not take part in the KRS vote",
@@ -1640,7 +4503,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0050",
+     "id": "B02-C0167",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia vice-president for finance per B2_appointments-P6)",
@@ -1665,7 +4528,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0051",
+     "id": "B02-C0168",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026, while president of a Poznań district court appointed by Bodnar (B2_appointments-P2); Iustitia member",
@@ -1688,7 +4551,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0052",
+     "id": "B02-C0169",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia member per B2_appointments-P6)",
@@ -1711,7 +4574,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0053",
+     "id": "B02-C0170",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (president of the administrative judges' association per B2_appointments-P6)",
@@ -1734,7 +4597,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0054",
+     "id": "B02-C0171",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (last chair of the pre-2018 KRS per B2_appointments-P6)",
@@ -1759,7 +4622,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0055",
+     "id": "B02-C0172",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Checked: not among the 15 judges the Sejm elected on 15 May 2026, although she (Themis board) placed 14th in the judges' assemblies' vote (B2_appointments-P4); Sławomir Cilulko (12th) is also absent; their places went to Piebiak (PiS) and Zawadzki (Konfederacja)",
@@ -1828,7 +4691,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0056",
+     "id": "B02-C0173",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Iustitia, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -1855,7 +4718,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0057",
+     "id": "B02-C0174",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Themis, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -1883,7 +4746,7 @@
      ]
     },
     {
-     "id": "B02-C0058",
+     "id": "B02-C0175",
      "subject": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
      "subject_type": "org",
      "relation": "Published the 15-judge candidate list for the renewed KRS on its website",
@@ -1906,7 +4769,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0059",
+     "id": "B02-C0176",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia for finance; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -1931,7 +4794,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0060",
+     "id": "B02-C0177",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Member of Iustitia; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -1954,7 +4817,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0061",
+     "id": "B02-C0178",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Linked to Iustitia and to the European judges' association MEDEL; became a district court president after PiS lost power",
@@ -1977,7 +4840,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0062",
+     "id": "B02-C0179",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; on the association-backed KRS list (not among those the Sejm elected, per P5)",
@@ -2000,7 +4863,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0063",
+     "id": "B02-C0180",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "President of the National Association of Administrative Court Judges (one of the four associations backing the list); elected to the KRS 15 May 2026, per P5",
@@ -2022,7 +4885,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0064",
+     "id": "B02-C0181",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Last chair of the pre-2018 KRS, dissolved by PiS in 2018; on the association-backed list for the renewed KRS",
@@ -2075,7 +4938,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0065",
+     "id": "B02-C0182",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Independent Member of the ORLEN Supervisory Board",
@@ -2097,7 +4960,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0066",
+     "id": "B02-C0183",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "coordinated the HFHR programme 'Human Rights and Settlements with the Past'",
@@ -2116,7 +4979,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0067",
+     "id": "B02-C0184",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Social Council of the Human Rights Ombudsman",
@@ -2135,7 +4998,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0068",
+     "id": "B02-C0185",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Program Council of Amnesty International Poland",
@@ -2154,7 +5017,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0069",
+     "id": "B02-C0186",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "co-founder of the Prof. Zbigniew Hołda Association",
@@ -2173,7 +5036,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0070",
+     "id": "B02-C0187",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Dean of the District Bar Council in Warsaw since November 2016",
@@ -2196,7 +5059,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0071",
+     "id": "B02-C0188",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "partner and co-founder of the law firm",
@@ -2218,7 +5081,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0072",
+     "id": "B02-C0189",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "graduate of the Faculty of Law and Administration",
@@ -2260,7 +5123,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0073",
+     "id": "B02-C0190",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "became president of Polskie Radio (chosen by the new supervisory board)",
@@ -2285,7 +5148,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0074",
+     "id": "B02-C0191",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "became president of Telewizja Polska",
@@ -2308,7 +5171,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0075",
+     "id": "B02-C0192",
      "subject": "Marek Błoński",
      "subject_type": "person",
      "relation": "became president of the Polish Press Agency (PAP)",
@@ -2331,7 +5194,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0076",
+     "id": "B02-C0193",
      "subject": "Bartłomiej Sienkiewicz",
      "subject_type": "person",
      "relation": "as Culture Minister appointed new supervisory boards of TVP, Polskie Radio and PAP, which then appointed the new management boards (after he dismissed the old boards on 19 Dec 2023)",
@@ -2398,7 +5261,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0077",
+     "id": "B02-C0194",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "described as a management board member of Miejskie Zakłady Autobusowe w Warszawie when picked as TVP president",
@@ -2419,7 +5282,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0078",
+     "id": "B02-C0195",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "worked in a city company under Warsaw Mayor Rafał Trzaskowski",
@@ -2484,7 +5347,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0079",
+     "id": "B02-C0196",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "liquidator of TVP SA w likwidacji",
@@ -2507,7 +5370,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0080",
+     "id": "B02-C0197",
      "subject": "Marek Suski (MP)",
      "subject_type": "person",
      "relation": "claims the liquidator was given the goal of liquidating the national broadcaster effectively",
@@ -2554,7 +5417,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0081",
+     "id": "B02-C0198",
      "subject": "kieszkowska",
      "subject_type": "person",
      "relation": "named as a State Treasury company board appointee",
@@ -2603,7 +5466,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0082",
+     "id": "B02-C0199",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the EP Delegation for relations with the United States (from 2024/09/19 per Parltrack)",
@@ -2626,7 +5489,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0083",
+     "id": "B02-C0200",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "shadow rapporteur for the responsible committee (LIBE) on the Article 7 file on Hungary",
@@ -2650,7 +5513,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0084",
+     "id": "B02-C0201",
      "subject": "Kamil KLOPOCKI",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape; not on the EP's current list (1 Nov 2026)",
@@ -2669,7 +5532,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0085",
+     "id": "B02-C0202",
      "subject": "Sylwia TYRA-WŁOSTOWSKA",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape (same slot also shows 'Sylwia TYRA'); not on the EP's current list",
@@ -2688,7 +5551,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0086",
+     "id": "B02-C0203",
      "subject": "Maciej Pawel JELENSKI",
      "subject_type": "person",
      "relation": "listed as accredited assistant (grouping) in Parltrack's scrape; not on the EP's current list",
@@ -2707,7 +5570,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0087",
+     "id": "B02-C0204",
      "subject": "Arkadiusz CHOROBIK",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -2726,7 +5589,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0088",
+     "id": "B02-C0205",
      "subject": "Andrzej PRENDKE",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -2745,7 +5608,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0089",
+     "id": "B02-C0206",
      "subject": "Jakub Shebani SEWEHLI",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -2792,7 +5655,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0090",
+     "id": "B02-C0207",
      "subject": "KATARZYNA IZABELA NIEDŹWIECKA",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -2811,7 +5674,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0091",
+     "id": "B02-C0208",
      "subject": "Dominika Julia OLASZEK",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -2830,7 +5693,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0092",
+     "id": "B02-C0209",
      "subject": "Piotr Aleksander PŁACHTA",
      "subject_type": "person",
      "relation": "accredited assistant (also on Parltrack's earlier snapshot, P1)",
@@ -2849,7 +5712,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0093",
+     "id": "B02-C0210",
      "subject": "Jakub KARWANSKI",
      "subject_type": "person",
      "relation": "accredited assistant (grouping)",
@@ -2868,7 +5731,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0094",
+     "id": "B02-C0211",
      "subject": "Wojciech CHUDY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -2887,7 +5750,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0095",
+     "id": "B02-C0212",
      "subject": "Jan JEZIORNY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -2906,7 +5769,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0096",
+     "id": "B02-C0213",
      "subject": "MICHALINA LYSIAK",
      "subject_type": "person",
      "relation": "local assistant",
@@ -2925,7 +5788,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0097",
+     "id": "B02-C0214",
      "subject": "Pawel JAROMIN",
      "subject_type": "person",
      "relation": "paying agent for his office",
@@ -2944,7 +5807,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0098",
+     "id": "B02-C0215",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no national party membership on the EP record: listed as 'Independent (Poland)'",
@@ -2960,7 +5823,16 @@
      "evidence_check": "exact_in_reader_extract",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected on KO list (2024)",
+      "2019: ran as independent on European Coalition list (PO-led), 35,750 votes, no seat",
+      "2024: #2 on KO list, Wielkopolska, behind Ewa Kopacz; 119,068 votes, elected; non-party ('bezpartyjny')",
+      "2019: ran as independent on European Coalition list (PO-led), 35,750 votes, no seat",
+      "2024: #2 on KO list, Wielkopolska, behind Ewa Kopacz; 119,068 votes, elected; non-party ('bezpartyjny')"
+     ]
     }
    ]
   },
@@ -3010,7 +5882,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0099",
+     "id": "B02-C0216",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "filed his declaration of private interests three times: original 16-07-2024, revision no 1 on 29-01-2026, revision no 2 on 10-09-2026",
@@ -3030,7 +5902,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0100",
+     "id": "B02-C0217",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "rapporteur for the LIBE opinion on procedure 2025/2061(INI) (declared 07-04-2025)",
@@ -3050,7 +5922,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0101",
+     "id": "B02-C0218",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on the Hungary Article 7 file 2018/0902(NLE) (declared 10-09-2025)",
@@ -3070,7 +5942,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0102",
+     "id": "B02-C0219",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on legislative procedure 2025/0255(COD) (declared 09-02-2026)",
@@ -3090,7 +5962,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0103",
+     "id": "B02-C0220",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "JURI shadow rapporteur for the opinion on 2025/2263(INI) (declared 11-06-2026)",
@@ -3110,7 +5982,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0104",
+     "id": "B02-C0221",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE rapporteur on 2026/2144(INI), conflict-of-interest declaration dated 09-10-2026",
@@ -3130,7 +6002,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0105",
+     "id": "B02-C0222",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "took part in four official EUDS delegations (declarations 10-04-2025 twice, 14-07-2025, 22-03-2026)",
@@ -3153,7 +6025,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0106",
+     "id": "B02-C0223",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared official LIBE delegations (27-03-2025, 07-04-2025, 21-01-2026, 07-09-2026, 14-09-2026, 22-09-2026) and JURI delegations (07-04-2025, 29-01-2026, 09-02-2026, 30-09-2026)",
@@ -3181,7 +6053,7 @@
      ]
     },
     {
-     "id": "B02-C0107",
+     "id": "B02-C0224",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared attendance at six events organised by third parties: 04-12-2024, 27-01-2025, 04-11-2025, 24-02-2026, 24-06-2026, 25-06-2026",
@@ -3228,7 +6100,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0108",
+     "id": "B02-C0225",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the Bar Exam Committee until 2023, paid 1425 EUR once a year",
@@ -3253,7 +6125,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0109",
+     "id": "B02-C0226",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lecturer at SWPS University in 2022 only, one-off 220 EUR",
@@ -3278,7 +6150,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0110",
+     "id": "B02-C0227",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lawyer at Wawrykiewicz Law Firm: 151917 PLN income for 2024; 2025 income deferred until after 30 April 2026",
@@ -3308,7 +6180,7 @@
      ]
     },
     {
-     "id": "B02-C0111",
+     "id": "B02-C0228",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "partnership holding in Wawrykiewicz Law Firm: no income in 2024, 2025 income to follow",
@@ -3334,7 +6206,7 @@
      ]
     },
     {
-     "id": "B02-C0112",
+     "id": "B02-C0229",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Saag sp. z o.o. not declared in revision no 1",
@@ -3359,7 +6231,7 @@
      ]
     },
     {
-     "id": "B02-C0113",
+     "id": "B02-C0230",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "MW Estate Consulting sp. z o.o. not declared in revision no 1",
@@ -3384,7 +6256,7 @@
      ]
     },
     {
-     "id": "B02-C0114",
+     "id": "B02-C0231",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Energy Efficiency Engineering S.A. supervisory board seat not declared in revision no 1",
@@ -3411,7 +6283,7 @@
      ]
     },
     {
-     "id": "B02-C0115",
+     "id": "B02-C0232",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no declared financial, staff or material support from Free Courts or any other third party",
@@ -3456,7 +6328,7 @@
    },
    "claims": [
     {
-     "id": "B02-C0116",
+     "id": "B02-C0233",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "invited him to 'Presentation of the BSP Position on the EU Multiannual Financial Framework 2028–2034', Brussels, 24/02/2026",
@@ -3479,7 +6351,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0117",
+     "id": "B02-C0234",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "form marks travel, accommodation and subsistence as not covered",
@@ -3499,7 +6371,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0118",
+     "id": "B02-C0235",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration 21/07/2026, 147 days after the 24/02/2026 event, past the form's 60-day limit",
@@ -6813,27 +9685,6 @@
  "to_read_unread": [
   {
    "theme": "B1_judges_income",
-   "url": "https://www.bankier.pl/wiadomosc/PGE-POLSKA-GRUPA-ENERGETYCZNA-S-A-Wyniki-finansowe-RR-2025-9114672.html",
-   "title": "PGE POLSKA GRUPA ENERGETYCZNA S A Wyniki finansowe RR 2025 9114672",
-   "why": "The map edge patyra -> pge says pay is not reported. The 2025 annual report (and its 2024 comparatives) should list each supervisory-board member's pay.",
-   "capture": "Supervisory-board pay table rows for Sławomir Patyra (2024 full year; 2025 to 4 Dec), units and committee fees; the link to the separate remuneration report."
-  },
-  {
-   "theme": "B1_judges_income",
-   "url": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy",
-   "title": "remuneration policy",
-   "why": "PGE's remuneration policy page should link the board 'Report on remuneration' for 2024 and 2025 and state the fixed monthly fee formula.",
-   "capture": "Monthly fee multiple or base for supervisory-board members and the vice-chair; Patyra's annual totals; the remuneration report PDF URLs."
-  },
-  {
-   "theme": "B1_judges_income",
-   "url": "https://eli.gov.pl/api/acts/DU/2024/350/text.html",
-   "title": "eli.gov.pl",
-   "why": "Probable text of the Council of Ministers regulation of 5 Mar 2024 on KKUSiP. §12 sets members' pay (Markiewicz chair, Taborowski member). The 2026 act https://api.sejm.gov.pl/eli/acts/DU/2026/5/text.pdf may amend it.",
-   "capture": "Exact §12 wording and amounts for chair, deputy chair and members; any per-meeting fees or expense rules; the date and signatory of the regulation."
-  },
-  {
-   "theme": "B1_judges_income",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDM2HTN/i11127-o1.pdf",
    "title": "i11127 o1",
    "why": "A later ministry answer that surfaced for commission-pay queries. It may give 2025 costs or per-person payments for KKUSiP or the Civil Law commission.",
@@ -6925,20 +9776,6 @@
   },
   {
    "theme": "B3_state_boards",
-   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board",
-   "title": "ORLEN Supervisory Board (parent page of the Pietrzak bio; not itself a search result)",
-   "why": "Lists all ORLEN supervisory board members with bios. More of them may be tied to HFHR, Free Courts, Batory, KOD, Bodnar's Ombudsman office or the PM's office.",
-   "capture": "For each member: name, role (independent or not), appointment date, appointing body, and any NGO, Ombudsman, ministry or party ties stated in the bio"
-  },
-  {
-   "theme": "B3_state_boards",
-   "url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",
-   "title": "nowy szef rady nadzorczej tvp jest juz w gmachu telewizji byly prezes ustapil",
-   "why": "Names the TVP supervisory board chair appointed in Dec 2023, a board colleague of Taborowski's",
-   "capture": "Names and functions of the TVP supervisory board members Sienkiewicz appointed, with their prior jobs and ties"
-  },
-  {
-   "theme": "B3_state_boards",
    "url": "https://www.wprost.pl/11570557",
    "title": "Prawnicy popierają działania Sienkiewicza. Opublikowano dwie opinie",
    "why": "Authors of the two legal opinions backing the public media changes. The fetch failed with a client error; retry or find another copy.",
@@ -6946,59 +9783,10 @@
   },
   {
    "theme": "B3_state_boards",
-   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048",
-   "title": "Interpelacja nr 13048 (record and reply)",
-   "why": "The Culture Ministry's reply may state TVP liquidator Daniel Gorgosz's monthly pay (question 6)",
-   "capture": "Reply date and signatory, Gorgosz's pay and contract terms, any legal advisers named"
-  },
-  {
-   "theme": "B3_state_boards",
-   "url": "https://archiwum.hfhr.pl/en/foundation/zarzad-i-rada-en",
-   "title": "Board and Council",
-   "why": "HFHR board and council names, to check against state company boards (e.g. Mikołaj Pietrzak at ORLEN)",
-   "capture": "Full names of HFHR board and council members, with dates"
-  },
-  {
-   "theme": "B3_state_boards",
-   "url": "https://superbiz.se.pl/wiadomosci/ujawnil-zarobki-dyrektorow-w-tvp-prawie-50-tys-zl-dla-likwidatora-aa-FXn1-bXdX-8Mto.html",
-   "title": "Ujawnił zarobki dyrektorów w TVP. Prawie 50 tys. zł dla likwidatora",
-   "why": "Pay of the TVP liquidator and directors; probably cites an official reply",
-   "capture": "Exact monthly pay figures, period, people named, and the primary source quoted (e.g. an interpellation reply)"
-  },
-  {
-   "theme": "B3_state_boards",
-   "url": "https://www.eecpoland.eu/2026/en/speakers/pawel-majcher,26196.html",
-   "title": "pawel majcher,26196",
-   "why": "Speaker bio of the man who became Polskie Radio's president in Dec 2023",
-   "capture": "His current title (president or liquidator), earlier posts, and any ties to the network or a party"
-  },
-  {
-   "theme": "B3_state_boards",
    "url": "https://tvn24.pl/biznes/z-kraju/otwarcie-likwidacji-pap-wpisano-do-krs-likwidatorem-pap-marek-blonski-st7746744",
    "title": "PAP wpisany do Krajowego Rejestru Sądowego jako spółka w likwidacji",
    "why": "PAP liquidator Marek Błoński's KRS entry and background. pap.pl itself refuses fetches, so a non-PAP source is needed.",
    "capture": "Date of the KRS entry, the liquidator's name and earlier career, and the PAP supervisory board members if named"
-  },
-  {
-   "theme": "B4_wawrykiewicz",
-   "url": "https://data.europarl.europa.eu/distribution/doc/DCI-257045-2026-10-09-594239_en.pdf",
-   "title": "Declaration - Rapporteur LIBE - 2026/2144(INI) - 09-10-2026",
-   "why": "Names the report on which he is LIBE rapporteur, declared three weeks before the 30 Oct TK events; the map has the procedure number but no title.",
-   "capture": "Report title and committee. Then the sibling DCI PDFs for 2025/2061(INI) (DCI-257045-2025-04-07-454041), 2025/0255(COD) (DCI-257045-2026-02-09-533022) and 2025/2263(INI) (DCI-257045-2026-06-11-565753) for their titles."
-  },
-  {
-   "theme": "B4_wawrykiewicz",
-   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/f994c0d9-5e56-4cc5-94c4-59fdb06eda09_1784814840695.pdf",
-   "title": "Event - 25-06-2026 (third-party event declaration)",
-   "why": "Names the host or payer of a June 2026 event he attended.",
-   "capture": "Event name, dates, venue, third party with its register number, costs covered (travel, accommodation, subsistence), signature date."
-  },
-  {
-   "theme": "B4_wawrykiewicz",
-   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/2b59d857-c2c6-4001-9194-7b9d519bd371_1784814961757.pdf",
-   "title": "Event - 24-06-2026 (third-party event declaration)",
-   "why": "Second June 2026 third-party event, possibly the same trip.",
-   "capture": "Event name, dates, venue, third party, costs covered, signature date."
   },
   {
    "theme": "B4_wawrykiewicz",

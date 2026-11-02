@@ -1,6 +1,7 @@
 {
  "meta": {
-  "what": "every page-reader call in this batch: URL, time, HTTP line, length and SHA-256 of the text returned. The page text itself is not republished here."
+  "what": "every page-reader call in this batch: URL, time, HTTP line, length and SHA-256 of the text returned. The page text itself is not republished here.",
+  "fetches_by_stopped_agents": "calls made by agents that were stopped by the account usage limit before reporting; no claims came from them"
  },
  "fetches": [
   {
@@ -61,7 +62,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/pl/content/wyniki-konkursu-grantowego-funduszu-obywatelskiego-ze-%C5%9Brodk%C3%B3w-norweskiej-nagrody-rafto-dla-polskiego\n    Redirect URL (from the server's Location head"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1474,
+   "extract_sha256": "c71020009f5c88453e463b29f8b02238e7970747cf8f711c3eeeb16328d48546"
   },
   {
    "agent": "read:R005-R008",
@@ -193,7 +197,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "Not fetched: https://www.coe.int/documents/268333607/300678634/CDL-AD(2026)031-e.pdf failed at its site (client_error), and nothing of the page was retrieved."
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 158,
+   "extract_sha256": "f00023dcd06672634403ecdc50f864a9afe4b5629db2ab31f0d11e991b638827"
   },
   {
    "agent": "read:R018-R020",
@@ -313,7 +320,46 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/pl/node/8672/revisions/8723/view\n    Redirect URL (from the server's Location header — server-supplied, not verified): https://bip.brpo.gov.pl/pl/node/8672/revisions/8723/"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1077,
+   "extract_sha256": "2b0c198280477078f022dfd1e66a5a2d0cf9c0e2bd828ae1d6a2065726633154"
+  },
+  {
+   "agent": "read:R033-R035",
+   "url": "https://www.rferl.org/a/poland-donald-tusk-prosecutors-charge-coup-attempt/33305456.html",
+   "final_url": "https://www.rferl.org/a/poland-donald-tusk-prosecutors-charge-coup-attempt/33305456.html",
+   "fetched_at": "2026-11-01T19:26:48.232Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16085,
+   "sha256": "19b4c13ffa2469ed799ebc96f00dfe6aad0124aade3bec8acbf649f182e789ab",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R033-R035",
+   "url": "https://oko.press/prawnicy-z-inicjatywy-wolne-sady-laureatami-nagrody-parlamentu-europejskiego",
+   "final_url": "https://oko.press/prawnicy-z-inicjatywy-wolne-sady-laureatami-nagrody-parlamentu-europejskiego",
+   "fetched_at": "2026-11-01T19:26:48.359Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 13416,
+   "sha256": "2afcb6c8e4095c65e134887f4079cd3a4b777dd0b705ca57318bb0723fa51744",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R033-R035",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDJ6JAN/z02453-o1_1.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDJ6JAN/z02453-o1_1.pdf",
+   "fetched_at": "2026-11-01T19:26:50.182Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 7715,
+   "sha256": "110f331163c08da2a655372488d156619d06c99401ee7129f86e9a8fcb09424c",
+   "error": null,
+   "note": null
   },
   {
    "agent": "read:R044-R046",
@@ -424,6 +470,102 @@
    "note": null
   },
   {
+   "agent": "read:R056-R058",
+   "url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627",
+   "final_url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627",
+   "fetched_at": "2026-11-01T19:33:37.757Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 9384,
+   "sha256": "7f59a8aeeaf2eac91e567fddff2725c5cd5fc0667e64ca3971a20d43b9dd1496",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://ned.org/events/democratic-deconsolidation-and-declining-rule-of-law-in-poland-restoration-resilience-and-resolve",
+   "final_url": "https://ned.org/events/democratic-deconsolidation-and-declining-rule-of-law-in-poland-restoration-resilience-and-resolve",
+   "fetched_at": "2026-11-01T19:33:38.461Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 17419,
+   "sha256": "3c67541fc490e7480172658f6a50c9a7a5547f644cf1825f1806b99d1edf4fd0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://impactcee.com/impact/2023/speaker-2/?spk=3627",
+   "final_url": "https://impactcee.com/impact/2023/speaker-2/?spk=3627",
+   "fetched_at": "2026-11-01T19:33:39.737Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 6004,
+   "sha256": "ad28508f248a65ab9229eac43ad8294f6fb420599dacdbb37b04790957deaaba",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://impactcee.com/impact/2026/",
+   "final_url": "https://impactcee.com/impact/2026/",
+   "fetched_at": "2026-11-01T19:36:14.924Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 18932,
+   "sha256": "934d6a86ad2bddd908add8ffd5f3fa9b3b2df8082c06908fdd7bb673ad4bf9f1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://www.ned.org/financials/",
+   "final_url": "https://www.ned.org/financials/",
+   "fetched_at": "2026-11-01T19:36:14.965Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 11738,
+   "sha256": "58da7ba5c0f30974594c813dcba9906c2a7545a590756720ec4b8c4fcd9b94c7",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://impactcee.com/impact/2025/",
+   "final_url": "https://impactcee.com/impact/2025/",
+   "fetched_at": "2026-11-01T19:36:15.066Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 17107,
+   "sha256": "86b7545a1a255ad472a1e9d35b6ede6856108faf2a045e7a361cff716efc88bd",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://www.ned.org/active-grant-listing/",
+   "final_url": "https://www.ned.org/active-grant-listing/",
+   "fetched_at": "2026-11-01T19:36:15.357Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 21199,
+   "sha256": "c91fe18c1942e3e6d07b3976f16873f6731b6365af2ff3843198a9c78da65fc6",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R056-R058",
+   "url": "https://impactcee.com/impact/2024/en/start-english/",
+   "final_url": "https://impactcee.com/impact/2024/en/start-english/",
+   "fetched_at": "2026-11-01T19:36:20.487Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20789,
+   "sha256": "6bc5d430cc852b2fc3a7b2eebdc23bbcceaee1cc11ae10be896a744c20f5f77b",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R068-R070",
    "url": "https://ctphilanthropy.org/node/87726",
    "final_url": "https://ctphilanthropy.org/node/87726",
@@ -496,6 +638,42 @@
    "note": null
   },
   {
+   "agent": "read:R074-R076",
+   "url": "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+   "final_url": "https://oko.press/sedzia-korwin-piotrowska-walczyla-o-wolne-sady-teraz-zostala-prezeska-sadu-okregowego-w-opolu",
+   "fetched_at": "2026-11-01T19:32:07.384Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 28814,
+   "sha256": "dd6bae24303ac3c3c855208344388e87e41ebd21f2a6ab0e54dfa111ef262bae",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R074-R076",
+   "url": "https://www.osw.waw.pl/en/publikacja/32980/pdf",
+   "final_url": "https://www.osw.waw.pl/en/publikacja/32980/pdf",
+   "fetched_at": "2026-11-01T19:32:07.667Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 366,
+   "sha256": "9b83b3b68ced41554d4d4c01b0df72ddc5a9c81f6c654b0ae56e2095bbbc2196",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R074-R076",
+   "url": "https://ukrinform.net/rubric-society/3959723-polands-largest-aid-hub-for-ukrainians-loses-funding-following-trumps-usaid-decision.html",
+   "final_url": "https://ukrinform.net/rubric-society/3959723-polands-largest-aid-hub-for-ukrainians-loses-funding-following-trumps-usaid-decision.html",
+   "fetched_at": "2026-11-01T19:32:09.190Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20509,
+   "sha256": "0a65075de8f5874372d1ede2e21bcf0ac293c9bd284d2fa41fb4b10a04e014b2",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R077-R079",
    "url": "https://www.bankier.pl/wiadomosc/Markiewicz-Zrzeklem-sie-funkcji-sedziego-Sadu-Okregowego-w-Katowicach-9114871.html",
    "final_url": null,
@@ -505,7 +683,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "Not fetched: https://www.bankier.pl/wiadomosc/Markiewicz-Zrzeklem-sie-funkcji-sedziego-Sadu-Okregowego-w-Katowicach-9114871.html failed at its site (client_error), and nothing of the page was retrieved."
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 202,
+   "extract_sha256": "d6419e27aec90f540edcf598d5eb2bd464d0e14e8da1ab3b6e95213b66fa2d3f"
   },
   {
    "agent": "read:R077-R079",
@@ -673,7 +854,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "REDIRECT DETECTED: The URL redirects to a location that was not fetched automatically.\n\n    Original URL: https://www.rpo.gov.pl/sites/default/files/2023-10/Do_TK_RPO_adwokaci_radcowie_izby_uzasadnienie_4.10.2023.pdf\n    Redirect URL (from the server's Location header — server-supplied, not verified"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1463,
+   "extract_sha256": "1d9771936a913aae75a2d33e8498cf2c25eb256a976b6cd7a7a248943bc24a01"
   },
   {
    "agent": "read:R097-R099",
@@ -684,6 +868,410 @@
    "content_type": "text/html",
    "chars": 107,
    "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R103-R105",
+   "url": "https://www.gov.pl/web/primeminister/borys-budka2",
+   "final_url": "https://www.gov.pl/web/primeminister/borys-budka2",
+   "fetched_at": "2026-11-01T19:40:49.628Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19767,
+   "sha256": "a994408614de3c840be85ea7aebd103cb765a1ebecb696445c85a7465e338bb5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R103-R105",
+   "url": "https://strefainwestorow.pl/wiadomosci/20250416/grupa-ptwp-spodziewa-sie-rekordowej-frekwencji-i-silnej-reprezentacji",
+   "final_url": "https://strefainwestorow.pl/wiadomosci/20250416/grupa-ptwp-spodziewa-sie-rekordowej-frekwencji-i-silnej-reprezentacji",
+   "fetched_at": "2026-11-01T19:40:49.974Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 14647,
+   "sha256": "a9bac53603b844d29cee21e9838d312cd342b5b4571d85181e01e1a6e3928f2e",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R103-R105",
+   "url": "https://en.wikipedia.org/wiki/List_of_Sejm_members_(2023%E2%80%932027)",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:42:17.869Z",
+   "http": null,
+   "content_type": null,
+   "chars": 40976,
+   "sha256": "0a587ef014c87b8032b2e73527287cc52e17bc078f608c4cb82727e18cd8dc49",
+   "error": null,
+   "note": null
+  }
+ ],
+ "fetches_by_stopped_agents": [
+  {
+   "agent": "read:R015-R017",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13973/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13973/body",
+   "fetched_at": "2026-11-01T19:34:09.646Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 8416,
+   "sha256": "7c4361d65b8da31f1419f3986218c154bd778ed61782eb2493046cc5cd9f4df6",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://impactcee.com/impact/2024/speaker-2/?spk=3627",
+   "final_url": "https://impactcee.com/impact/2024/speaker-2/?spk=3627",
+   "fetched_at": "2026-11-01T19:34:09.649Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 5043,
+   "sha256": "8f6e0d044f5645005d23c3909764b9a1358861dab693f8959ab157cc4ed3e1e8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu",
+   "final_url": "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu",
+   "fetched_at": "2026-11-01T19:34:10.908Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 18881,
+   "sha256": "1add9c784a14dfc08862905176ecf2af90ee58e9579c28c254132bfaca71baa4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://impactcee.com/impact/2024/curators/",
+   "final_url": "https://impactcee.com/impact/2024/curators/",
+   "fetched_at": "2026-11-01T19:36:02.407Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12758,
+   "sha256": "b46a5b484da98ee7965570745315f233ef25fbe8ab4216fb67ad4e3f350d911c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://impactcee.com/impact/2024/speakers/",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:36:49.005Z",
+   "http": null,
+   "content_type": null,
+   "chars": 40747,
+   "sha256": "91f36e1c49bdbf9dde002a2d1ba179d6d172a831f08fd9f3eb2f27c6b2e9f8b3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://impactcee.com/impact/2024/partners/",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:39:01.675Z",
+   "http": null,
+   "content_type": null,
+   "chars": 46311,
+   "sha256": "1713cf4a75684fdd482974970be219a8a5ffacb7d0376f1681d50ba713029456",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R015-R017",
+   "url": "https://impactcee.com/impact/2024/thematic-tracks/",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:40:43.529Z",
+   "http": null,
+   "content_type": null,
+   "chars": 40312,
+   "sha256": "149296d677cef59d749294758e6f973515605789eab678bff1a441809140c19c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334/2334.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2334/2334.pdf",
+   "fetched_at": "2026-11-01T19:39:15.225Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 3779,
+   "sha256": "95da66c7d6b71cf3d144f9de39db5c3f3f0e886be715402ee4c9899b5e05ff29",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "fetched_at": "2026-11-01T19:39:15.238Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/json",
+   "chars": 266,
+   "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:45:04.268Z",
+   "http": null,
+   "content_type": null,
+   "chars": 45048,
+   "sha256": "e465d4d84f509f1d8b4cd46a273bcdc0ccb3c34361fc543596269a6ba2169461",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf",
+   "final_url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf",
+   "fetched_at": "2026-11-01T19:39:52.910Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 11225,
+   "sha256": "8c3afabfb26bec3377428327f5ebfd7b1c238a3650df28de2fc32a9836462deb",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body",
+   "fetched_at": "2026-11-01T19:39:53.191Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2762,
+   "sha256": "e416fe97178f4a08e3df5665fbf0a1e4aa6b1de9d30ab284ab89d4c6b5e43cb3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "final_url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "fetched_at": "2026-11-01T19:39:53.968Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 45790,
+   "sha256": "26bf48a18cedde83c2f8c4b49e863dd59620978ad26e177c3b60c6ad34a46875",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/",
+   "final_url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/",
+   "fetched_at": "2026-11-01T19:29:01.716Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 23102,
+   "sha256": "8f12c4401e79b9a1ac8165fada85d9b0d44a15f923df862622162fe67457f11b",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-2474113",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:30:31.324Z",
+   "http": null,
+   "content_type": null,
+   "chars": 41264,
+   "sha256": "eba04dcfe57a5e9c184e03036beb019b97359c1a04811b46fa66f7aedebe1182",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:36:54.697Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39721,
+   "sha256": "f5d6b1789aa3508450caa7a19e3dd7c9f267e2ed715ce271b7689986e7219248",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:45:12.386Z",
+   "http": null,
+   "content_type": null,
+   "chars": 45981,
+   "sha256": "734c85700c39f19f15d3a269bb02dbee879348724a1e370b256ab5ab35f1a9b4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:48:44.519Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43303,
+   "sha256": "ccf2d8edee06c44b931193874a0f58ba31e345bd01017ec550bf13ee8ca4f270",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+   "final_url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+   "fetched_at": "2026-11-01T19:45:50.966Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20502,
+   "sha256": "72d36548b5a4844f1d94cafb986d204f46337a15eb24b905a9276b91a56912ff",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/justice-and-consumers/justice-and-consumers-funding-tenders_pl",
+   "final_url": "https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/justice-and-consumers/justice-and-consumers-funding-tenders_pl",
+   "fetched_at": "2026-11-01T19:45:52.244Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 655,
+   "sha256": "7e09b6317c5a76b602830218198bee602c601071c5ef3505ddd9314587a7f41d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://parltrack.eu/mep/Micha%C5%82%20WAWRYKIEWICZ",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:45:52.710Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 94,
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+  },
+  {
+   "agent": "read:R080-R082",
+   "url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+   "final_url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+   "fetched_at": "2026-11-01T19:41:05.420Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2134,
+   "sha256": "90cd71757345984421f530890dcb89bae458b499e4b3b40ffb897d6e1e79fd2d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R080-R082",
+   "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+   "final_url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+   "fetched_at": "2026-11-01T19:41:05.449Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 33551,
+   "sha256": "275bc67eec8e70eeb2e1d3c4524a15a6a9e3bfc834e355bd7a008d2466c6fe4d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R080-R082",
+   "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+   "final_url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+   "fetched_at": "2026-11-01T19:41:05.558Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 25577,
+   "sha256": "83f8592eff19ec1d6505c52763a717a33ffc0efb1292c4d51c4f4965d6697c8d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R083-R085",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art44898061-slawomir-patyra-zaprzysiezony-przez-prezydenta-na-sedziego-tk-nie-bedzie-jednak-orzekal",
+   "final_url": "https://www.rp.pl/sady-i-trybunaly/art44898061-slawomir-patyra-zaprzysiezony-przez-prezydenta-na-sedziego-tk-nie-bedzie-jednak-orzekal",
+   "fetched_at": "2026-11-01T19:46:03.224Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19111,
+   "sha256": "f26b3405919c5733b0c5fd6e909a79b3cc67a452d0d111591746d11c50db229e",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R083-R085",
+   "url": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk",
+   "final_url": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk",
+   "fetched_at": "2026-11-01T19:46:03.976Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16521,
+   "sha256": "5230b64772feebed5fa36b6201dd9723c0cee37be1e30120cc4dc8ae2968895c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R083-R085",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/19",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:46:13.637Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 94,
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://en.wikipedia.org/wiki/Borys_Budka",
+   "final_url": "https://en.wikipedia.org/wiki/Borys_Budka",
+   "fetched_at": "2026-11-01T19:39:35.351Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 15105,
+   "sha256": "df262511b004d767e50fed3bb5fc2a39e654c2a4edb12925b40e30669db1aa09",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+   "final_url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+   "fetched_at": "2026-11-01T19:39:35.977Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 25623,
+   "sha256": "a6d5850b196c623e4161f057591a53ab4fcc8d40668a13914efa4f967304c2f0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+   "final_url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+   "fetched_at": "2026-11-01T19:39:37.226Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 44567,
+   "sha256": "fae2cb77ebc011f17012a0008490022f686461dc13a73ff62078b22c56adf160",
    "error": null,
    "note": null
   }

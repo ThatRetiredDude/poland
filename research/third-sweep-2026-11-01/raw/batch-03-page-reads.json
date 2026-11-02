@@ -1,8 +1,177 @@
 {
  "meta": {
-  "what": "every page-reader call in this batch: URL, time, HTTP line, length and SHA-256 of the text returned. The page text itself is not republished here."
+  "what": "every page-reader call in this batch: URL, time, HTTP line, length and SHA-256 of the text returned. The page text itself is not republished here.",
+  "fetches_by_stopped_agents": "calls made by agents that were stopped by the account usage limit before reporting; no claims came from them"
  },
  "fetches": [
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://oko.press/kto-finansuje",
+   "final_url": "https://oko.press/kto-finansuje",
+   "fetched_at": "2026-11-01T19:36:46.911Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12530,
+   "sha256": "1c8cf3cc9ddef370a88c064cef2efc891235ff50200c90d925e753d36743e8c0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://www.liberties.eu/en/stories/cerv-strive-2023-awarded-projects-charter-of-fundamental-rights/44815",
+   "final_url": "https://www.liberties.eu/en/stories/cerv-strive-2023-awarded-projects-charter-of-fundamental-rights/44815",
+   "fetched_at": "2026-11-01T19:36:47.147Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16012,
+   "sha256": "03ca6b54815567afe36fc39eef7f93f486a9858114844f0f625ca2138e1be0ad",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://www.liberties.eu/en/stories/cerv-strive-2026-grantees/45713",
+   "final_url": "https://www.liberties.eu/en/stories/cerv-strive-2026-grantees/45713",
+   "fetched_at": "2026-11-01T19:36:47.323Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16281,
+   "sha256": "8f371f0f89c6c4bf53257a39755d93288e8a43ae083fbc95dfc43908be8125ff",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://programrownychpraw.batory.org.pl/",
+   "final_url": "https://programrownychpraw.batory.org.pl/",
+   "fetched_at": "2026-11-01T19:36:47.876Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 9434,
+   "sha256": "dfb2fc120ca6e79e6a20566c0656d05c17658e8941d0a530ecf6c0e8b3af8574",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://liberties.eu/en/stories/cerv-strive-2024-awarded-projects/45090",
+   "final_url": "https://liberties.eu/en/stories/cerv-strive-2024-awarded-projects/45090",
+   "fetched_at": "2026-11-01T19:36:48.041Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 18355,
+   "sha256": "0c1340168ee31e632c94ab6f28b17f9cbc59207d2b718032f9dfe8667d1044f9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://oko.press/o-nas",
+   "final_url": "https://oko.press/o-nas",
+   "fetched_at": "2026-11-01T19:37:59.727Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 15629,
+   "sha256": "26536f9234bafae980b920024cd43784520e28cf4fef2c16a5ad424a8639fe21",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://programrownychpraw.batory.org.pl/konkursy/",
+   "final_url": "https://programrownychpraw.batory.org.pl/konkursy/",
+   "fetched_at": "2026-11-01T19:38:00.130Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 6491,
+   "sha256": "ecc4bc1e8ae85499ee76513d3675edd43365a45e47b3d80a37b2c6ab8eba046c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://programrownychpraw.batory.org.pl/projekty/",
+   "final_url": "https://programrownychpraw.batory.org.pl/projekty/",
+   "fetched_at": "2026-11-01T19:38:01.903Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12560,
+   "sha256": "d60605a0f2b97a4b87ffec5dcdbc84dfc0c4df6f45e7a4a86fa5adef88b38cc6",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://programrownychpraw.batory.org.pl/o-programie/",
+   "final_url": "https://programrownychpraw.batory.org.pl/o-programie/",
+   "fetched_at": "2026-11-01T19:38:02.058Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 8326,
+   "sha256": "1f35f196e10a03e5a378f8f01214541d583274b052dfd463092fc4a98605e31b",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:1",
+   "url": "https://programrownychpraw.batory.org.pl/rozwoj-instytucjonalny/",
+   "final_url": "https://programrownychpraw.batory.org.pl/rozwoj-instytucjonalny/",
+   "fetched_at": "2026-11-01T19:38:02.062Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 28749,
+   "sha256": "0ae1dce83dcb0512a2c085a4d9abd1140b2b5eef2288c04e9917b2fd699a8324",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:1",
+   "url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
+   "final_url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
+   "fetched_at": "2026-11-01T19:40:38.741Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 17010,
+   "sha256": "17c3d9761b83965c2f86f9f910de482aa6b0fd8966019a2e6c0607eae2307ac7",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:1",
+   "url": "https://apply07.grants.gov/grantsws/rest/opportunity/att/download/335251",
+   "final_url": "https://apply07.grants.gov/grantsws/rest/opportunity/att/download/335251",
+   "fetched_at": "2026-11-01T19:40:39.241Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 29888,
+   "sha256": "c73ef00a07e352a9b5f25c5ec3d1aa71fa06ce596b3e7b47badd4086ae8c74d4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:1",
+   "url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+   "final_url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+   "fetched_at": "2026-11-01T19:40:43.488Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 36238,
+   "sha256": "70a076a5945d441e3e073bd3751f9b2fee268056c212667ba68db8755046c7f8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:1",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2015/09/JW-v.-State-exhibits-02034.pdf",
+   "final_url": "https://www.judicialwatch.org/wp-content/uploads/2015/09/JW-v.-State-exhibits-02034.pdf",
+   "fetched_at": "2026-11-01T19:41:47.194Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 28947,
+   "sha256": "8536581cd13ae126a984eff9ddb968857aa5dafb2dccece24981b1489f528d4c",
+   "error": null,
+   "note": null
+  },
   {
    "agent": "read:C4_private_foundations:1",
    "url": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf",
@@ -73,7 +242,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Decision metadata**\n- **Decision number:** \"Decyzja nr 1856\"\n- **Date:** 5 listopada 2025 r. (the Board meeting date)\n- **Total:** The decision gives two subtotals, not a combined figure: \"40 dużych dotacji na łączną kwotę 4 958 807,00 zł\" and \"40 małych dotacji na łączną kwotę 2 514 278,00 zł\". C"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1901,
+   "extract_sha256": "d16b3d2f114fc1a22df74a3bd5732658594cf22f845e9aa47ead9d13ecd68889"
   },
   {
    "agent": "search:C1_eu_money",
@@ -85,7 +257,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**1. Title and decision sentence**\n\n- Opening title: \"Decyzja nr 1856 w sprawie zatwierdzenia wyników konkursu na dotacje tematycznych\", followed by \"w Programie Równych Praw podjęta podczas posiedzenia Zarządu Fundacji im. Stefana Batorego dnia 5 listopada 2025 r.\"\n- Decision sentence: \"Zarząd Fund"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2493,
+   "extract_sha256": "620d41cdbd9cd4d5e6e55c665bb83e545453e18ed4590398cfdb6f6801f02207"
   },
   {
    "agent": "search:C1_eu_money",
@@ -97,7 +272,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Duże dotacje (konkurs tematyczny)**\nPRP-KTD/0515 | Stowarzyszenie Pracownia Różnorodności | Toruń | 124 655,00\nPRP-KTD/0325 | FUNDACJA EMIC | Toruń | 124 402,00\nPRP-KTD/0369 | FUNDACJA OTWARTA PRZESTRZEŃ | Warszawa | 124 997,00\nPRP-KTD/0323 | Polskie Stowarzyszenie Pedagogów i Animatorów KLANZA Lu"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 5968,
+   "extract_sha256": "147ad3385fc8cd223b12b62da5024061589c01e32bc4171fd8dd31ea22708de8"
   },
   {
    "agent": "search:C1_eu_money",
@@ -109,7 +287,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Funder, period and budget**\n- **Funder:** The page says the programme is \"funded by the EU’s Citizens, Equality, Rights and Values programme,\" which links to the European Commission's CERV programme overview. The European Commission is not named as a funder in the text itself.\n- **Period:** Planne"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1251,
+   "extract_sha256": "bb589954212de195b9d5f427ed63decfeedd16c050957565a68c6397aa7918be"
   },
   {
    "agent": "search:C1_eu_money",
@@ -121,7 +302,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Funding:** The page says the program is \"funded by the European Union from the Citizens, Equality, Rights and Values (CERV) programme.\" It does not name the European Commission directly. Its disclaimer refers to the \"European Education and Culture Executive Agency.\" No amount of EU funding is stat"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1501,
+   "extract_sha256": "52691ca10ed9f4186f94c0c3709350845f88b407be5db5ca4e486332fecf002a"
   },
   {
    "agent": "search:C1_eu_money",
@@ -133,7 +317,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Links to grantee/result lists (text and href):**\n\n- **Czechia:** [Czechia,](https://osf.cz/wp-content/uploads/2025/11/CZ_Tabulky-vysledky-V4-2025-_Listopad.docx-1-1-1.pdf) → `https://osf.cz/wp-content/uploads/2025/11/CZ_Tabulky-vysledky-V4-2025-_Listopad.docx-1-1-1.pdf`\n- **Slovakia:** [Slovakia]("
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1887,
+   "extract_sha256": "7a889a3f19a793d761a6c86d5025dde0a64912a07c3feb1b9842f3c1ca15bb2a"
   },
   {
    "agent": "search:C1_eu_money",
@@ -145,7 +332,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Title:** \"Konkurs na dotacje w programie Stronger Roots – ogłaszamy wyniki\" (Grant competition in the Stronger Roots programme – we announce the results)\n\n**Date:** 10.11.2025 (published 10 November 2025)\n\n**Number of organisations and total amount:** The page says the grants total \"906 357 EUR,\" "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2464,
+   "extract_sha256": "e6b9f30623936e68e96f5f2f30716bfe00dddd34672fac32f6772d32f11eae27"
   },
   {
    "agent": "search:C1_eu_money",
@@ -157,7 +347,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Title (quoted in segments, each under 125 characters):**\n\n- \"Decyzja Zarządu Fundacji im. Stefana Batorego nr 1857 z dnia 5 listopada 2025 r.\"\n- \"w sprawie zatwierdzenia wyników konkursu na dotacje w programie Stronger Roots\"\n- \"w obszarze 1: Budowanie bazy społecznej organizacji oraz w obszarze 2"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3504,
+   "extract_sha256": "0f9ee095acb66f0145f1615fcde82b168b51b9e71e58e5bd264ccab10a0badc7"
   },
   {
    "agent": "search:C1_eu_money",
@@ -169,7 +362,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Note:** The source splits each row across several lines. I joined those lines with spaces, so the strings below are not character-identical to the layout of the page.\n\n**Row text (first 120 characters, then last 60 characters of the row)**\n\n**PRP-KTD/0458**\n- First 120: \"PRP-KTD/0458 Fundacja Woln"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3078,
+   "extract_sha256": "b130fe1806d88efbecadb59c89b7b79e4eb94552cd61e3ab3fc858fc657ff930"
   },
   {
    "agent": "search:C1_eu_money",
@@ -181,7 +377,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "1. **Funder (CERV):** \"funded by the EU’s Citizens, Equality, Rights and Values programme\" *(The full sentence exceeds 120 characters, so this is a fragment.)*\n\n2. **Federation of Local Funds partner:** \"The program is run by the Stefan Batory Foundation in cooperation with the Federation of Local F"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 917,
+   "extract_sha256": "cf25c6eca64acd599cde09f1d57bfa9eb2dc8f0d94d93f74430d75e7420a8a69"
   },
   {
    "agent": "search:C1_eu_money",
@@ -193,7 +392,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "1. **Sum for 25 organizations:** \"dotacje na łączną kwotę 906 357 EUR otrzyma 25 organizacji\" *(fragment; the full sentence exceeds the 125-character limit)*\n\n2. **Area breakdown:**\n   - \"Obszar 1: Budowanie bazy społecznej – 17 organizacji otrzyma dotacje na łączną kwotę 631 566 EUR\"\n   - \"Obszar 2"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 668,
+   "extract_sha256": "7fc60181a9dd94aab853e4565be72930f04d6257a66c7ae0208da9bdb00d84fb"
   },
   {
    "agent": "search:C1_eu_money",
@@ -205,7 +407,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**1. Completeness:** The text is cut off. It ends mid-word on the large-grant table, page 10 of 20, with no closing, signatures, or remaining entries. The last line is: \"spełnia wa\"\n\n**2. Joanna Pietruszka:** The attendee list names her: \"Joanna Pietruszka, przewodnicząca Komisji Konkursowej w konku"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1820,
+   "extract_sha256": "53c014533ddbfee3f46de35ece96a80f77d583fbb9562d9910caae94cf817089"
   },
   {
    "agent": "search:C1_eu_money",
@@ -217,7 +422,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**(1) Row PRP-KTD/0412**\n\nFirst 120 characters:\n\"PRP-KTD/0412 Fundacja Kultura Liberalna Warszawa mazowieckie „Głosy Wykluczonych” spełnia warunki formalne 31,00 125 000\"\n\nLast 60 characters:\n\"nia warunki formalne 31,00 125 000,00 - nieprzyznana dotacja\"\n\n**(2) Ordering and scores**\n\nThe large-grant"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 858,
+   "extract_sha256": "19cdb6db74c3e44c7e75eceab4ca3def37b34b4ec4a109c585d9d89e4ae0fba3"
   },
   {
    "agent": "search:C2_eea_norway",
@@ -229,7 +437,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Helsinki Foundation for Human Rights** (page heading)\n\n- **Grantee (Organization:)**: \"Helsinki Foundation for Human Rights\"\n- **Grant type (Outcome:)**: \"organisational grant\" (organisational, not thematic)\n- **Project title**: None given. The page heading is the organisation's name.\n- **Project "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1920,
+   "extract_sha256": "4d41a5ed6bfe18fc283b495a02808501eadcf627103d913625cc37e7ed755d02"
   },
   {
    "agent": "search:C2_eea_norway",
@@ -241,7 +452,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Note:** Quotes are limited to 125 characters, so the long description is split into segments. The page does not contain a separate project title, project number, partners, or personal names.\n\n**Heading: \"Foundation for Civic Monitoring OKO\"** (page title, no separate project title)\n\n**Heading: \"Ou"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3418,
+   "extract_sha256": "75567c7ce04d88bf5133d567765583bda8bd0a8e7104b191bb8cc18697e68a84"
   },
   {
    "agent": "search:C2_eea_norway",
@@ -253,7 +467,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "The page covers the NCA's role in Poland but omits several items you asked about. Where a fact appears, I quote a short excerpt under 125 characters.\n\n**Introduction (opening paragraph)**\n- Cooperation is described as: \"cooperates with Poland under the EEA and Norway Grants 4.0\"\n\n**Framework for coo"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2655,
+   "extract_sha256": "2a69fb10975a03bf997a4177abba0f536db2b036d6d336f35c9a0dce9e35cf80"
   },
   {
    "agent": "search:C2_eea_norway",
@@ -265,7 +482,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Publication date**\n- Article header: \"20/04/2026\". The article doesn't state a separate signing date, but Szyszko says \"We are meeting today,\" so the signing appears to be on the publication date.\n\n**Signing: date, place, signatories**\n- Place: The Polish image alt text places the event at the \"w "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3337,
+   "extract_sha256": "35167ac6b9856624d49c6f004ddcb7d6046203bf2aa8c63ed4612b7772ac7799"
   },
   {
    "agent": "search:C2_eea_norway",
@@ -277,7 +497,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Data artykułu i autorka**\n- Data: \"03 lutego 2021\" (artykuł z 3 lutego 2021 r.).\n- Autorka: Anna Wójcik, OKO.press. Strona podaje ją jako autorkę wywiadu.\n\n**Osoba zgłaszająca**\n- Nominującą jest Jette F. Christensen: \"norweska posłanka Partii Pracy Jette F. Christensen, która zgłosiła\" Stowarzysz"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2891,
+   "extract_sha256": "f533a21e1f735d018e2f42c5bfffa9eea08ca23268a6bef46723ed8156aa075d"
   },
   {
    "agent": "search:C3_us_money",
@@ -289,7 +512,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Case Information**\n- **Caption:** *Judicial Watch, Inc. v. U.S. Department of State*\n- **Court:** U.S. District Court for the District of Columbia\n- **Case Number:** 1:26-cv-00346\n- **Filing Date:** February 5, 2026 (per the court's filing stamp; the complaint is dated February 4, 2026)\n- **Plaint"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2011,
+   "extract_sha256": "0f2e1cf8f61dd194ef5cfab8683d042ffa8c1bd12afef45bce8fdbd235b58660"
   },
   {
    "agent": "search:C3_us_money",
@@ -301,7 +527,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**(1) Date and scope of the FOIA request (¶ 5):**\n- ¶ 5: \"On November 12, 2025, Plaintiff sent a FOIA request to the State Department,\"\n- ¶ 5: \"via the agency's online portal, seeking access to the following:\"\n- ¶ 5(A): \"All contracts, grant agreements, or similar records between the Department of S"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1517,
+   "extract_sha256": "764f10a885b095f6bbe01a51681d27f6d847d09d42868a0a11307e9e4a2f3d55"
   },
   {
    "agent": "search:C3_us_money",
@@ -313,7 +542,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**No US funders or US-origin funds are named as donors in this report.** I searched for all the listed names (NED, PAFW, US Embassy, State Department, USAID, GMF, MacArthur, Open Society, Fulbright) and found none. The text also contains no donor list, no table of grants or revenue by donor, and no "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2114,
+   "extract_sha256": "66373e4a0a6c04da5cdfa17cd1123f0302a99eae6593c749ddc5e01cba5a89b8"
   },
   {
    "agent": "search:C3_us_money",
@@ -325,7 +557,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**ABA project (p. 29):**\n\nSection heading (III.3): \"HFPC jako aktywny partner innych organizacji\" (the full heading continues and is truncated here to respect the 125-character limit; it refers to defending the rule of law and constitutional democracy in Poland and Europe). The parent section is \"II"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1413,
+   "extract_sha256": "dcf682e839225e08a30b556213bc7f4d3478a8e9f37eda0e7413449244e51826"
   },
   {
    "agent": "search:C3_us_money",
@@ -337,7 +572,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**1. Origin of the endowment (p. 5)**\nThe report says: \"funduszu wieczystego, który powstał z kapitału przekazanego Fundacji przez Polsko-Amerykański Fundusz Przedsiębiorczości.\" In English, the endowment's income comes from a fund created from capital transferred by the Polish-American Enterprise F"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3019,
+   "extract_sha256": "91d21cb10b189a8ad11e50ccd3627e082fd6cb5c0582484ae27fb999e8afff8d"
   },
   {
    "agent": "search:C3_us_money",
@@ -349,7 +587,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**(a) SUS / Szkoła Ucząca Się (p. 12)**\n- Operator: \"› Centrum Edukacji Obywatelskiej\"\n- \"DOTACJE PAFW WYNIOSŁY\"\n- \"13.858.857 USD\"\n- \"w tym 833.847 USD w 2020 roku.\"\n\n**(b) Wspieramy Organizacje Pozarządowe (p. 21)**\n- Description (shortened to fit the 125-character limit): \"Celem programu jest udz"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2002,
+   "extract_sha256": "28c31a89593185f38f7d2dd98ec02fb42e69bc4ceb769275c204c5152637ebd7"
   },
   {
    "agent": "search:C3_us_money",
@@ -361,7 +602,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Note:** The excerpt ends mid-sentence in the \"Pro Publico Bono\" section (pp. 54–55). It does not mention Batory, HFHR, Watchdog Polska, ISP, the anti-corruption programme, Obywatelskie Forum Legislacji, or Edukacja dla Demokracji. Page numbers below are the printed spread numbers.\n\n**1. Origin of "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3290,
+   "extract_sha256": "1dfbc35b98ce5c46e2460909ec2b5c7d945aef30629771d574ad66612725f25a"
   },
   {
    "agent": "search:C3_us_money",
@@ -373,7 +617,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**1) SEED Act, Kongres USA and capital figures** (pages 12–13, calendar spread; the letter figures are on page 9. Exact page numbers are uncertain because the text extraction doesn't preserve page breaks.)\n\n- \"Kongres USA uchwala ustawę „O popieraniu demokracji w Europie Wschodniej” (SEED ACT)\"\n- \"P"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1498,
+   "extract_sha256": "bd1025c0406d5ac6f41462df451aed205cf176092aa9c27e2013f7fa625ab7cd"
   },
   {
    "agent": "search:C3_us_money",
@@ -385,7 +632,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Mentions in this section**\n\n- **Batory, Helsińska Fundacja Praw Człowieka, Watchdog, Instytut Spraw Publicznych, Obywatel i Prawo, Przeciw Korupcji, Kirkland:** None appear in this text.\n- **Law, courts, judges, rule of law:** No courts, judges, or rule-of-law references appear. Two references to "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1841,
+   "extract_sha256": "ef082c96a89876d7f6fd37134229bb47a564a7cde0dc45d1089be83dbc6c764b"
   },
   {
    "agent": "search:C3_us_money",
@@ -397,7 +647,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "I found no matches for the categories you listed in this final part of the text.\n\n- **Named organisations** (Batory, HFPC, Watchdog, Instytut Spraw Publicznych, Obywatel i Prawo, Przeciw Korupcji, Kirkland, Fulbright): none appear.\n- **Courts, judges, or rule of law:** none appear.\n- **List of compl"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 856,
+   "extract_sha256": "d01117276c65be37acf96a9a048743755c38c34eb80aee255e561fc04348bfb8"
   },
   {
    "agent": "search:C3_us_money",
@@ -409,7 +662,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Year covered:** 2021. The cover reads \"za rok 2021,\" and the report was posted on 2022-10-17. The organization is Helsińska Fundacja Praw Człowieka (HFPC).\n\n**Signatory:** The text doesn't show who signed the report. The signature block is not legible in the page content.\n\n**US-origin funding:** I"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1705,
+   "extract_sha256": "b823ce39030424ab3482f0ac113f44e6b46824a59072d273445e65794bd215fb"
   },
   {
    "agent": "search:C3_us_money",
@@ -421,7 +677,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Item B:**\n- \"B. All contracts, grant agreements, or similar records between the Department of State and the organization\"\n- \"Civil Liberties Union for Europe.\"\n\n**Item C:**\n- \"C. All contracts, grant agreements, or similar records between the Department of State and the organization DemoCrisis.\"\n\n"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1178,
+   "extract_sha256": "73dba097330628700635d6d45a78a9e4b9f57b884df29a4627b8e1161e7462a5"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -433,7 +692,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "- **Award title:** \"Europe and Central Asia: to support the grantee's work on pro-democracy research and strategic communications\"\n- **Full purpose text:** \"to support the grantee's work on pro-democracy research and strategic communications\"\n- **Grantee/recipient organisation:** Not named on the pa"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 539,
+   "extract_sha256": "7f68767d06b2bbdae8e4f777a9681a5c3d9886b33038b888a4b7c1a72de6b9e1"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -445,7 +707,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Helsinki Foundation for Human Rights: grants on this page**\n\n**Grant 1**\n- **Amount:** $100,000\n- **Year/date approved:** 2006\n- **Term/duration:** \"1 year 3 months\"\n- **Programme:** Human Rights\n- **Purpose (verbatim):** \"In support of a project titled International Advanced Course on Human Right"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 933,
+   "extract_sha256": "41197c90295d8c06e2f626023bfaba008aa2039c43112db054d5c9d174d55481"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -457,7 +722,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Award title** (split into two quotes to stay within the 125-character limit):\n- \"Europe and Central Asia: to decrease the risk of anti-climate backlash by building support for Just Transition\"\n- \"in key demographics (working class & smaller cities)\"\n\n**Purpose text:** The page's Description field "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1102,
+   "extract_sha256": "1975dd5e763e7316f14c64a91123be6231e1e5f19b2328894564c9a8663b994b"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -469,7 +737,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "- **Project title:** \"Scale-up of fact-checking activity of OKO.Press online portal\"\n- **Grantee:** \"Foundation Centre for Civic Monitoring OKO\"\n- **Country:** \"Poland\"\n- **Grant amount and currency:** \"€50,032.85\" (the page uses the € symbol, so the currency is euro)\n- **Funding call/round:** \"1st "
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 803,
+   "extract_sha256": "39d94e18b0bcd4b7cfe7feae9bece0f1f47a2ff3ff72e4fe20118d93dd3a8d8e"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -481,7 +752,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "**Grant details for Helsinki Foundation for Human Rights**\n\n**Grants**\n- **Current grant:** \"£1,050,000\" (currency: GBP). Start: \"March 2024.\" No end date or duration is listed.\n- **Previous grants (total):** \"£2,245,000.\" The page gives no breakdown by year, amount, or purpose.\n- **Additional gift:"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1115,
+   "extract_sha256": "99903e917d17a6b0db17c71726500b82c36dd1e8801ec490924f77e6978dc82c"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -493,7 +767,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "Here is a summary of the grantee profile, paraphrased, since the page's text can't be reproduced verbatim:\n\n**Grantee details**\n- **Programme:** Human Rights and Rule of Law\n- **Location:** Poland, with work across multiple countries\n- **Website:** hfhr.pl\n\n**Grantee history**\n- **Supported since:**"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 864,
+   "extract_sha256": "326ce45b0e6cc3d29b3017e64054fa035efff91a56471537162f470a40644f36"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -505,7 +782,10 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "I can't reproduce the full description verbatim, because the paragraph is longer than the 125-character limit for quotes. Here are the labelled fields, with the title quoted as it appears:\n\n- **Project title:** \"Scale-up of fact-checking activity of OKO.Press online portal\"\n- **Organisation (labelle"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1073,
+   "extract_sha256": "6738486f53fbcc109d1b72001855bb3c2887f414cfc19649abe97ca8611049f2"
   },
   {
    "agent": "search:C4_private_foundations",
@@ -517,7 +797,378 @@
    "chars": null,
    "sha256": null,
    "error": null,
-   "note": "Here are the fields from the page, summarized rather than reproduced word for word:\n\n- **Title:** A grant to reduce the risk of anti-climate backlash by building support for a Just Transition among working-class people and in smaller cities.\n- **Funder shown in header:** Open Society Foundations\n- *"
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 995,
+   "extract_sha256": "5ab05d0dc1676baaad6af5b1430faabd234230f4187a958744d130af7c31f8eb"
+  }
+ ],
+ "fetches_by_stopped_agents": [
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://en.wikipedia.org/wiki/European_Citizen%27s_Prize",
+   "final_url": "https://en.wikipedia.org/wiki/European_Citizen%27s_Prize",
+   "fetched_at": "2026-11-01T19:36:47.085Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 24624,
+   "sha256": "635523c2f5738f2a22fb369685997474a541a68df233fad5edcdc78fa577b8ec",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://www.liberties.eu/en/stories/cervstrive2025-grantees/45405",
+   "final_url": "https://www.liberties.eu/en/stories/cervstrive2025-grantees/45405",
+   "fetched_at": "2026-11-01T19:36:47.144Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20364,
+   "sha256": "9ad0e115e41b7c5dc8920590fc49ef921ac4b3aaabb51ecad6f0c5e3a6a6b057",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://gmfus.org/proteus-0",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:44:27.895Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39781,
+   "sha256": "372b3d54d5447b7ef89de79046213bc2787c2a570f63e0fc80fdd78c23eb6232",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://gmfus.org/proteus-0",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:48:12.526Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39781,
+   "sha256": "b2b8799d460722d343b0e32ca3a7cfa0088dcbcd6958366c23f4042760af793c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.C_.2016.239.01.0001.01.FRA&toc=OJ:C:2016:239:TOC",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:48:12.554Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 203,
+   "extract_sha256": "4f1919d4c4eb2880e90179244c6d397b0a1c914233583b5aa23b4ca4ba1e15a9"
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "http://www.europarl.europa.eu/news/en/headlines/content/20120426STO44158/html/European-Citizen's-Prize-honouring-exceptional-Europeans",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:48:13.286Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 221,
+   "extract_sha256": "75a8aa2c4a27f982465a0e88caf6d36c21950f970418e0d7f2b2edb66172c3ae"
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://gulbenkian.pt/emifund/",
+   "final_url": "https://gulbenkian.pt/emifund/",
+   "fetched_at": "2026-11-01T19:39:16.784Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1495,
+   "sha256": "0548041e7b1ff177b0b561587149a012de2f994da4f9e1d8e2147a6bce57f07c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "final_url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "fetched_at": "2026-11-01T19:39:17.929Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 11348,
+   "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:41:50.359Z",
+   "http": null,
+   "content_type": null,
+   "chars": 40694,
+   "sha256": "2083249e7c147c4bf697dabe90fdc2e48194c174c609db2c371711b612493aac",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:44:04.573Z",
+   "http": null,
+   "content_type": null,
+   "chars": 15379,
+   "sha256": "25d435b64bc91c86f8794a2c350cfb084fc2f715d870538fdadc96a6f361e6cf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTD2VJHZ/i01303-o1.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:42:06.583Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1365,
+   "extract_sha256": "7665eeee553439c5a07a56e4dcbbe7220c77e89de8f894ce2e1b50271e362ecd"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:42:55.651Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1324,
+   "extract_sha256": "9e73241b49343bdb901d0a2c89cf85c7025b2cb873a0adc349a8ec3d1df65527"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:43:49.544Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1176,
+   "extract_sha256": "96801c2ebb52bf632fed5870c652b03c8fa7df29436628ae2007aa1db000d46d"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:45:34.120Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3502,
+   "extract_sha256": "c14a4f901f26982d2007a33ffbffd27a72fc66b3dc0f029cb1fc89215b582993"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:46:23.342Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 48,
+   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:41:38.012Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2115,
+   "extract_sha256": "60467de46a52b2cfe9357871a187b2b397e9fdf18c16c9d56a0bc7f01431f49c"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:41:49.543Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 82,
+   "extract_sha256": "dd508c1a65bec54bdb33a70d67b471828a745062e088ed06154c39c5a220034f"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:42:25.032Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1022,
+   "extract_sha256": "fcd459de3c7d4a0b52a0adc4775b3406619928c4ee6d138392eb5f614044b22d"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2026/06/Sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:43:07.563Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2905,
+   "extract_sha256": "75396d4c34ef20d0dfcd13418a323fedc8160c0f8d5ee24cc907f8016f8f91cb"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2026/06/Sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:43:59.823Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3171,
+   "extract_sha256": "16843582a9301861b8047154de0d92936a00cb6f7a2fcdf3d8a211f0ac00c240"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://oko.press/kto-finansuje",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:44:48.812Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1629,
+   "extract_sha256": "90b45cbee8b0e8f1bd21e33a0ee0773209ef66277f652a8d6edf87a6b898c148"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.podatki.gov.pl/media/pfapy5nw/informacja-dotycząca-15-kwot-należnego-podatku-pit-przekazanych-opp-w-2026-roku.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:45:20.351Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1714,
+   "extract_sha256": "52a2d823dd5c7ad75f5e30daed2d6b61e3142636519f4e9c16e0542086d782e1"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000829554?rejestr=S&format=json",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:46:04.765Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 4182,
+   "extract_sha256": "376941cc5ebff7a0e69a76f73d7da72e3ea8f8475012a2beb96bcd81392affaa"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://api-krs.ms.gov.pl/api/krs/OdpisPelny/0000829554?rejestr=S&format=json",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:46:48.990Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 48,
+   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://sejm.gov.pl/lobbing/informacja_roczna_2024.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:39:48.758Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 912,
+   "extract_sha256": "c2ea691fae0d169bcf491978e5faf57dd2cc62a5ee938ad846177e54d0709167"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+   "final_url": null,
+   "fetched_at": "2026-11-01T19:46:05.837Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1600,
+   "extract_sha256": "c2e1abc844afb40ac47b8180af2a465bbe6be1821c18a0b0cfedce9f893e71f0"
   }
  ]
 }
