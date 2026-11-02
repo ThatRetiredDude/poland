@@ -13,7 +13,7 @@ The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly us
 | 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 113 of 113 leads read: 125 pages, 1218 claims. |
 | 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 7 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz, nominations, prosecutors and police, international bodies). 109 pages, 816 claims, 272 title-only leads. Follow-up reads: 24 groups done. |
 | 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 7 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations, domestic public money, NGO finances, firms and contracts). 94 pages, 712 claims, 192 title-only leads. Follow-up reads: 21 groups done. |
-| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 2069 claims checked: 1705 supported, 320 partly supported, 30 not supported, 14 cannot tell. Label disagreements: 87; translation problems: 47. Not checked: 592 no_link findings and 85 claims with no matching page text or added later. |
+| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 2116 claims checked: 1742 supported, 329 partly supported, 31 not supported, 14 cannot tell. Label disagreements: 90; translation problems: 50. Not checked: 592 no_link findings and 38 claims with no matching page text or added later. |
 
 Agents stopped by the usage limit had already run 200 searches and 79 page reads. Those are logged in `raw/` under `searches_by_stopped_agents` and `fetches_by_stopped_agents`, as returned, with `agent_rerun_later` saying whether that part was run again. No claims came from the stopped agents.
 
@@ -21,10 +21,10 @@ Agents stopped by the usage limit had already run 200 searches and 79 page reads
 
 The claims from batches 01 to 03, merged into candidate graph data with every piece of evidence attached (none of it is on the map):
 
-- 1244 candidate ties. 164 of them link two entities already on the map that the map does not yet link; 166 repeat or add to a pair the map already links.
+- 1243 candidate ties. 163 of them link two entities already on the map that the map does not yet link; 166 repeat or add to a pair the map already links.
 - 748 candidate new people, organisations, bodies, firms and documents, 463 of them tied to at least one map entity.
 - 592 no_link findings (a page checked for a link that it does not show), grouped into 441 entries by page and subject.
-- Left out of the ties and kept under `leads_to_check`: 56 claims whose excerpt was not found in the page text, 29 claims the cross-check found not supported, and the title-only leads, unread pages and pages that could not be read.
+- Left out of the ties and kept under `leads_to_check`: 56 claims whose excerpt was not found in the page text, 30 claims the cross-check found not supported, and the title-only leads, unread pages and pages that could not be read.
 - Each tie has `map_status`, its `relations`, `dates`, `amounts`, `label` and `label_scopes`, and `evidence` (one item per claim, with URL, excerpt, translation, excerpt check and cross-check verdict).
 
 ## How to read a data point

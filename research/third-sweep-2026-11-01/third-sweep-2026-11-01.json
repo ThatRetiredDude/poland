@@ -9,7 +9,7 @@
    "batch-03-money-orgs.json"
   ],
   "how_built": "Every claim from the three batch files whose excerpt was found by script in the page text (or the reader's extract), and whose two sides are a map entity or a named person, organisation, public body, company, party or event, becomes evidence on a candidate tie. Claims with the same two sides, kind and label are merged into one tie with all their evidence. no_link findings are listed separately, one entry per page and subject with every object checked. A claim whose subject or object is a list of map entities (for example two judges who filed one notification) gives one tie per entity, each noting this. Claims whose excerpt was not found, or that the cross-check found not supported, are kept under leads_to_check.unverified_claims.",
-  "node_ids": "Map entities keep their map id. New entities get \"new:\" plus a slug of the name, with notes in brackets, titles (dr, prof, judge, minister and the like) and company-form endings (sp. z o.o., S.A., Inc. and the like) left out. Other spelling variants of one name are not merged, so check names_seen.",
+  "node_ids": "Map entities keep their map id. New entities get \"new:\" plus a slug of the name, with notes in brackets, personal titles of people (dr, prof, judge, minister and the like) and company-form endings (sp. z o.o., S.A., Inc. and the like) left out. Other spelling variants of one name are not merged, so check names_seen.",
   "documents": "An appeal, open letter, petition or joint statement signed by several people or organisations is kept as a node of type document, so its signers are linked through it.",
   "labels": "fact | alleged | speculation | unproven_conspiracy | no_link, as in the batch files.",
   "cross_check": "Batch 04: a skeptical checker read each claim against the page text around its excerpt and gave a verdict: supported, partly_supported or not_supported, plus whether the label fits. Present on evidence items as cross_check."
@@ -21,10 +21,10 @@
   "no_link_findings_by_page_and_subject": 441,
   "claims_naming_several_map_entities": 30,
   "claims_with_unverified_excerpt": 56,
-  "claims_not_supported_on_cross_check": 29,
+  "claims_not_supported_on_cross_check": 30,
   "claims_not_a_graph_tie": 633,
-  "candidate_ties": 1244,
-  "candidate_ties_between_map_entities_not_yet_linked": 164,
+  "candidate_ties": 1243,
+  "candidate_ties_between_map_entities_not_yet_linked": 163,
   "candidate_ties_already_on_map": 166,
   "candidate_new_entities": 748,
   "candidate_new_entities_tied_to_map": 463,
@@ -35,7 +35,7 @@
    "legal_action": 68,
    "membership_or_board": 139,
    "nomination_or_vote": 121,
-   "other": 146,
+   "other": 145,
    "role_or_job": 288,
    "statement": 178,
    "ownership": 4
@@ -43,7 +43,7 @@
   "ties_by_label": {
    "fact": 1126,
    "alleged": 101,
-   "speculation": 17
+   "speculation": 16
   }
  },
  "candidate_nodes": [
@@ -1675,7 +1675,7 @@
    "n_claims": 4
   },
   {
-   "id": "new:kultury_i_dziedzictwa_narodowego",
+   "id": "new:minister_kultury_i_dziedzictwa_narodowego",
    "label": "Minister Kultury i Dziedzictwa Narodowego",
    "type": "public_body",
    "names_seen": [
@@ -4046,21 +4046,6 @@
    "n_claims": 1
   },
   {
-   "id": "new:edukacji_narodowej_prezydent_m_st_warszawy",
-   "label": "MINISTER EDUKACJI NARODOWEJ, PREZYDENT M.ST. WARSZAWY",
-   "type": "public_body",
-   "names_seen": [
-    "MINISTER EDUKACJI NARODOWEJ, PREZYDENT M.ST. WARSZAWY"
-   ],
-   "claim_ids": [
-    "B01-42c9a88e"
-   ],
-   "tied_to_map_entities": [
-    "free_courts"
-   ],
-   "n_claims": 1
-  },
-  {
    "id": "new:egzekutywa",
    "label": "egzekutywa",
    "type": "public_body",
@@ -5381,6 +5366,51 @@
    "n_claims": 1
   },
   {
+   "id": "new:minister_edukacji_narodowej_prezydent_m_st_warszawy",
+   "label": "MINISTER EDUKACJI NARODOWEJ, PREZYDENT M.ST. WARSZAWY",
+   "type": "public_body",
+   "names_seen": [
+    "MINISTER EDUKACJI NARODOWEJ, PREZYDENT M.ST. WARSZAWY"
+   ],
+   "claim_ids": [
+    "B01-42c9a88e"
+   ],
+   "tied_to_map_entities": [
+    "free_courts"
+   ],
+   "n_claims": 1
+  },
+  {
+   "id": "new:minister_of_state_assets_post_of_borys_budka",
+   "label": "Minister of State Assets post of Borys Budka",
+   "type": "public_body",
+   "names_seen": [
+    "Minister of State Assets post of Borys Budka"
+   ],
+   "claim_ids": [
+    "B01-5734e475"
+   ],
+   "tied_to_map_entities": [
+    "tusk"
+   ],
+   "n_claims": 1
+  },
+  {
+   "id": "new:minister_rodziny_pracy_i_polityki_spolecznej",
+   "label": "Minister Rodziny, Pracy i Polityki Społecznej",
+   "type": "public_body",
+   "names_seen": [
+    "Minister Rodziny, Pracy i Polityki Społecznej"
+   ],
+   "claim_ids": [
+    "B03-bd9bcaf2"
+   ],
+   "tied_to_map_entities": [
+    "akcja_demokracja"
+   ],
+   "n_claims": 1
+  },
+  {
    "id": "new:ministers_dismissals_in_the_government_reshuffle",
    "label": "Ministers' dismissals in the government reshuffle",
    "type": "event",
@@ -5557,36 +5587,6 @@
    ],
    "tied_to_map_entities": [
     "markiewicz"
-   ],
-   "n_claims": 1
-  },
-  {
-   "id": "new:of_state_assets_post_of_borys_budka",
-   "label": "Minister of State Assets post of Borys Budka",
-   "type": "public_body",
-   "names_seen": [
-    "Minister of State Assets post of Borys Budka"
-   ],
-   "claim_ids": [
-    "B01-5734e475"
-   ],
-   "tied_to_map_entities": [
-    "tusk"
-   ],
-   "n_claims": 1
-  },
-  {
-   "id": "new:of_the_republic_of_poland",
-   "label": "Senator of the Republic of Poland",
-   "type": "public_body",
-   "names_seen": [
-    "Senator of the Republic of Poland"
-   ],
-   "claim_ids": [
-    "B01-d9494d9e"
-   ],
-   "tied_to_map_entities": [
-    "bodnar"
    ],
    "n_claims": 1
   },
@@ -6341,21 +6341,6 @@
    "n_claims": 1
   },
   {
-   "id": "new:rodziny_pracy_i_polityki_spolecznej",
-   "label": "Minister Rodziny, Pracy i Polityki Społecznej",
-   "type": "public_body",
-   "names_seen": [
-    "Minister Rodziny, Pracy i Polityki Społecznej"
-   ],
-   "claim_ids": [
-    "B03-bd9bcaf2"
-   ],
-   "tied_to_map_entities": [
-    "akcja_demokracja"
-   ],
-   "n_claims": 1
-  },
-  {
    "id": "new:roland_berger",
    "label": "Roland Berger",
    "type": "company",
@@ -6532,6 +6517,21 @@
    ],
    "tied_to_map_entities": [
     "berek"
+   ],
+   "n_claims": 1
+  },
+  {
+   "id": "new:senator_of_the_republic_of_poland",
+   "label": "Senator of the Republic of Poland",
+   "type": "public_body",
+   "names_seen": [
+    "Senator of the Republic of Poland"
+   ],
+   "claim_ids": [
+    "B01-d9494d9e"
+   ],
+   "tied_to_map_entities": [
+    "bodnar"
    ],
    "n_claims": 1
   },
@@ -10023,6 +10023,19 @@
    "n_claims": 1
   },
   {
+   "id": "new:minister_of_foreign_affairs",
+   "label": "Minister of Foreign Affairs",
+   "type": "public_body",
+   "names_seen": [
+    "Minister of Foreign Affairs"
+   ],
+   "claim_ids": [
+    "B03-91e16cf3"
+   ],
+   "tied_to_map_entities": [],
+   "n_claims": 1
+  },
+  {
    "id": "new:ministry_of_foreign_affairs",
    "label": "Ministry of Foreign Affairs",
    "type": "public_body",
@@ -10252,19 +10265,6 @@
    ],
    "claim_ids": [
     "B03-0978e44b"
-   ],
-   "tied_to_map_entities": [],
-   "n_claims": 1
-  },
-  {
-   "id": "new:of_foreign_affairs",
-   "label": "Minister of Foreign Affairs",
-   "type": "public_body",
-   "names_seen": [
-    "Minister of Foreign Affairs"
-   ],
-   "claim_ids": [
-    "B03-91e16cf3"
    ],
    "tied_to_map_entities": [],
    "n_claims": 1
@@ -12821,10 +12821,20 @@
      "evidence_translation": "project supported by the Henryk Wujec Civic Fund",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report lists the Polska Press regional media project as supported by Fundusz Obywatelski im. Henryka Wujca and run jointly with another HFPC department.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-5a294099",
@@ -13133,10 +13143,20 @@
      "evidence_translation": "funded by Iceland, Liechtenstein and Norway from the EEA and Norway Grants funds",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report lists the project 'Równe prawa osób z niepełnosprawnościami' (from September 2022) as funded by Iceland, Liechtenstein and Norway from the EEA and Norway Grants under Aktywni Obywatele - Fundusz Regionalny; no amount is given.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-b34ccdc5",
@@ -14305,10 +14325,24 @@
      "evidence_location": "'Czytaj więcej' teaser",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "other"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "Żurek's lawsuit names, among others, the Minister of Justice – Prosecutor General, the Chancellery of the Sejm, the Chancellery of the President, the Supreme Court and the judges' disciplinary officers (rzecznicy dyscyplinarni sędziów).",
+      "note": "The page lists these institutions after 'm.in.'; 'rzecznicy dyscyplinarni sędziów' means judges' disciplinary officers (prosecutors), not 'disciplinary spokespersons' as the relation text puts it.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 2 made from it"
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-4859319f",
@@ -14339,10 +14373,24 @@
      "evidence_location": "'Czytaj więcej' teaser",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "other"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "Żurek's lawsuit names, among others, the Minister of Justice – Prosecutor General, the Chancellery of the Sejm, the Chancellery of the President, the Supreme Court and the judges' disciplinary officers (rzecznicy dyscyplinarni sędziów).",
+      "note": "The page lists these institutions after 'm.in.'; 'rzecznicy dyscyplinarni sędziów' means judges' disciplinary officers (prosecutors), not 'disciplinary spokespersons' as the relation text puts it.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 2 made from it"
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-1d62b986",
@@ -15288,41 +15336,6 @@
    }
   },
   {
-   "id": "E3-f6990779",
-   "source": "bodnar",
-   "target": "akcja_demokracja",
-   "source_label": "Adam Bodnar",
-   "target_label": "Fundacja Akcja Demokracja",
-   "kind": "other",
-   "label": "speculation",
-   "relations": [
-    "may be the person named in campaign expense line 'kampanie Bodnar' of"
-   ],
-   "label_scopes": [
-    "Rests only on the surname in the expense line. The page does not name Adam Bodnar."
-   ],
-   "dates": [
-    "2017"
-   ],
-   "amounts": [],
-   "map_status": "new_tie_between_known_entities",
-   "existing_relations": [],
-   "evidence": [
-    {
-     "claim_id": "B03-5d8060be",
-     "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
-     "page_title": "Sprawozdanie finansowe za rok 2017 Fundacja Akcja Demokracja",
-     "page_date": "2018-03-30",
-     "evidence_text": "kampanie Bodnar 14.139,80 zł",
-     "evidence_translation": "campaigns Bodnar 14.139,80 zł",
-     "evidence_location": null,
-     "access": "page_read",
-     "evidence_check": "exact"
-    }
-   ],
-   "cross_check_summary": "not cross-checked"
-  },
-  {
    "id": "E3-15fe24c9",
    "source": "bodnar",
    "target": "rpo_office",
@@ -15496,10 +15509,20 @@
      "evidence_translation": "As part of KOS work she represented judges before the European Court of Human Rights in Strasbourg",
      "evidence_location": "section 'W resorcie...', first entry",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page's description of Ejchart-Dubois says that as part of KOS work she represented judges before the ECtHR in key cases on court independence.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-a4b861d3",
@@ -16501,7 +16524,15 @@
      "evidence_translation": "Adam Bodnar, new Minister of Justice – Prosecutor General, announced at his first press conference",
      "evidence_location": "lead paragraph",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": false,
+      "note": "The page calls Bodnar 'nowy Minister Sprawiedliwości Prokurator Generalny', speaking at his first conference on 13.12.2023; the translation adds 'press', which is not in the Polish ('pierwszej konferencji' means 'first conference').",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     },
     {
      "claim_id": "B03-14fccf99",
@@ -16529,7 +16560,7 @@
     }
    ],
    "cross_check_summary": {
-    "supported": 4,
+    "supported": 5,
     "partly_supported": 1
    }
   },
@@ -16586,7 +16617,15 @@
      "evidence_translation": "in 2015–2021 Ombudsman (Commissioner for Human Rights)",
      "evidence_location": "body, same paragraph as the HFHR entry",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page says Bodnar was Rzecznik Praw Obywatelskich in 2015-2021 and vice-president of HFPC in 2010-2015.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     },
     {
      "claim_id": "B03-b417d6ac",
@@ -16609,7 +16648,7 @@
     }
    ],
    "cross_check_summary": {
-    "supported": 2
+    "supported": 3
    }
   },
   {
@@ -16845,7 +16884,15 @@
      "evidence_translation": "Deputy minister Ejchart announced (page spells it 'Wiceminster')",
      "evidence_location": "section 'Wiceministrowie o swoich planach'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "Under the heading 'Wiceministrowie o swoich planach' the page says 'Wiceminster Ejchart zapowiedziała...'; this passage gives only the surname, and the same page names Maria Ejchart - Dubois elsewhere as entering MoJ management.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     },
     {
      "claim_id": "B03-84b14678",
@@ -16868,7 +16915,7 @@
     }
    ],
    "cross_check_summary": {
-    "supported": 2
+    "supported": 3
    }
   },
   {
@@ -17075,10 +17122,24 @@
      "evidence_translation": "According to information that appeared on 8 December on judges' and lawyers' social media",
      "evidence_location": "section 'W resorcie - prawnicy, sędziowie, obrońcy praw człowieka', first sentence",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "Prawo.pl (12.12.2023) reports that Kraków judge Dariusz Mazur of the Themis judges' association is to enter MoJ management. The quoted excerpt introduces the 8 December social-media list, and the visible part of that list stops before Mazur; he is named in the page's earlier summary.",
+      "note": "The excerpt and its context introduce the 8 December social-media list but cut off after Ejchart - Dubois and Rudzińska-Bluszcz; Mazur is named only in the page's earlier summary line ('krakowski sędzia Dariusz Mazur ze Stowarzyszenia Sędziów Themis').",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-df162464",
@@ -17154,10 +17215,20 @@
      "evidence_location": "body, paragraph after the lead, before the list",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page says earlier reports were confirmed that Ejchart - Dubois, Rudzińska-Bluszcz, Śmiszek and Myrcha will enter MoJ management, with background descriptions but no posts.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 3 made from it"
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-87469b51",
@@ -17190,10 +17261,20 @@
      "evidence_location": "body, paragraph after the lead, before the list",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page says earlier reports were confirmed that Ejchart - Dubois, Rudzińska-Bluszcz, Śmiszek and Myrcha will enter MoJ management, with background descriptions but no posts.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 3 made from it"
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-e3c8a744",
@@ -17226,10 +17307,20 @@
      "evidence_location": "body, paragraph after the lead, before the list",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page says earlier reports were confirmed that Ejchart - Dubois, Rudzińska-Bluszcz, Śmiszek and Myrcha will enter MoJ management, with background descriptions but no posts.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 3 made from it"
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-bcce3c13",
@@ -17259,10 +17350,20 @@
      "evidence_translation": "KO politician, local government official, doctor of legal sciences, Sejm deputy in the 8th, 9th and 10th terms",
      "evidence_location": "closing paragraph of the management list",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page describes Myrcha as a legal adviser, KO politician, local government official, doctor of law and MP of the 8th, 9th and 10th Sejm terms.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-12048e58",
@@ -18088,11 +18189,23 @@
      "evidence_translation": "As Minister of Justice I feel obliged to do this",
      "evidence_location": "lead paragraph",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "wrong_object"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "Adam Bodnar, as Minister of Justice, wrote on social media that independent judges and prosecutors who were victims of repression deserve redress and that he feels obliged to provide it (reported by rp.pl, 06.05.2025).",
+      "note": "rp.pl quotes Bodnar's post saying repressed independent judges and prosecutors deserve redress and that as Minister of Justice he feels obliged to do this; the Ministry is the office he speaks from, not the object of the statement.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "partly_supported": 1
+    "partly_supported": 2
    }
   },
   {
@@ -19774,10 +19887,20 @@
      "evidence_translation": "The main aim of the lawsuit is to mobilise state institutions to seek recourse against those officials of the authoritarian power",
      "evidence_location": "quotation in section 'Sędzia Waldemar Żurek: zmobilizowanie instytucji państwa...'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "rp.pl quotes Żurek telling OKO.press that the lawsuit's main aim is to mobilise state institutions to seek recourse against officials of the authoritarian power who think people can be destroyed with impunity.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-5b2800ac",
@@ -29659,11 +29782,19 @@
      "evidence_translation": "Campact 147,421.20 zł grant awarded in 2017 under an agreement between Akcja Demokracja and Campact e.V.",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The 2017 income note lists Campact at 147,421.20 zł, a grant awarded in 2017 under an agreement with Campact e.V. dated 02.03.2017.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -29795,10 +29926,20 @@
      "evidence_translation": "the project was financed by CC Poland sp. z o.o.",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report says the report on pre-trial detention published in September 2023 was a project financed by CC Poland sp. z o.o.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-b92dc1f9",
@@ -30356,11 +30497,19 @@
      "evidence_translation": "Grant awarded by the European Climate Foundation under an agreement dated 06.03.2017",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The 2017 income note lists 76,624.40 zł from the European Climate Foundation under an agreement dated 06.03.2017, grant number 1602-56039.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -30764,11 +30913,19 @@
      "evidence_translation": "from Global Greengrants Fund 122,317.04 zł",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "In the 2017 cost section, under 'Poniesione w ramach grantów' (incurred under grants), the report lists 'od Global Greengrants Fund 122.317,04 zł'.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -30914,96 +31071,6 @@
    ],
    "cross_check_summary": {
     "partly_supported": 1
-   }
-  },
-  {
-   "id": "E3-a7b547bb",
-   "source": "new:kultury_i_dziedzictwa_narodowego",
-   "target": "tvp",
-   "source_label": "Minister Kultury i Dziedzictwa Narodowego",
-   "target_label": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
-   "kind": "grant_or_donation",
-   "label": "fact",
-   "relations": [
-    "granted subsidy (dotacja) to"
-   ],
-   "label_scopes": [
-    "Ministry's own figure. The letter says these are mainly targeted subsidies for statutory public-mission tasks (art. 21 ust. 1 uortv).",
-    "Ministry's own figure, stated as of 28 February 2026 in the letter. Not a full-year figure."
-   ],
-   "dates": [
-    "2024",
-    "2025",
-    "2026 (figure stated as of 28 luty 2026 r.)"
-   ],
-   "amounts": [
-    "1 850 617 240,00 zł",
-    "1 633 033 904,00 zł",
-    "900 000 000,00 zł"
-   ],
-   "map_status": "new_entity_or_unmatched_name",
-   "existing_relations": [],
-   "evidence": [
-    {
-     "claim_id": "B02-2b42ca88",
-     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
-     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
-     "page_date": null,
-     "evidence_text": "w 2024 r. przyznano dotacje w kwocie 1 850 617 240,00 zł",
-     "evidence_translation": "in 2024 subsidies were granted in the amount of 1 850 617 240,00 zł",
-     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
-     "access": "page_read",
-     "evidence_check": "exact",
-     "cross_check": {
-      "verdict": "supported",
-      "label_ok": true,
-      "translation_ok": true,
-      "note": "The letter says the Minister has passed funds to TVP since 2024, with subsidies of 1 850 617 240,00 zł granted in 2024.",
-      "checked_by": "verify:b001",
-      "context_source": "page_text"
-     }
-    },
-    {
-     "claim_id": "B02-1bd1da13",
-     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
-     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
-     "page_date": null,
-     "evidence_text": "w 2025 r. przyznano dotacje w kwocie 1 633 033 904,00 zł",
-     "evidence_translation": "in 2025 subsidies were granted in the amount of 1 633 033 904,00 zł",
-     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
-     "access": "page_read",
-     "evidence_check": "exact",
-     "cross_check": {
-      "verdict": "supported",
-      "label_ok": true,
-      "translation_ok": true,
-      "note": "The letter lists subsidies to TVP of 1 633 033 904,00 zł granted in 2025.",
-      "checked_by": "verify:b001",
-      "context_source": "page_text"
-     }
-    },
-    {
-     "claim_id": "B02-9054f8b8",
-     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
-     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
-     "page_date": null,
-     "evidence_text": "w 2026 r. przyznano dotacje w kwocie 900 000 000,00 zł",
-     "evidence_translation": "in 2026 subsidies were granted in the amount of 900 000 000,00 zł",
-     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
-     "access": "page_read",
-     "evidence_check": "exact",
-     "cross_check": {
-      "verdict": "supported",
-      "label_ok": true,
-      "translation_ok": true,
-      "note": "The letter lists subsidies to TVP of 900 000 000,00 zł in 2026, as of 28 February 2026.",
-      "checked_by": "verify:b001",
-      "context_source": "page_text"
-     }
-    }
-   ],
-   "cross_check_summary": {
-    "supported": 3
    }
   },
   {
@@ -31339,10 +31406,110 @@
      "evidence_translation": "project supported for another year by the organisation Media Defence (Media Legal Defence Initiative)",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report lists the project 'Odpowiedź na wyzwania wobec wolności mediów w Polsce' as supported for another year by Media Defence (Media Legal Defence Initiative).",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
+  },
+  {
+   "id": "E3-1e6e733f",
+   "source": "new:minister_kultury_i_dziedzictwa_narodowego",
+   "target": "tvp",
+   "source_label": "Minister Kultury i Dziedzictwa Narodowego",
+   "target_label": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+   "kind": "grant_or_donation",
+   "label": "fact",
+   "relations": [
+    "granted subsidy (dotacja) to"
+   ],
+   "label_scopes": [
+    "Ministry's own figure. The letter says these are mainly targeted subsidies for statutory public-mission tasks (art. 21 ust. 1 uortv).",
+    "Ministry's own figure, stated as of 28 February 2026 in the letter. Not a full-year figure."
+   ],
+   "dates": [
+    "2024",
+    "2025",
+    "2026 (figure stated as of 28 luty 2026 r.)"
+   ],
+   "amounts": [
+    "1 850 617 240,00 zł",
+    "1 633 033 904,00 zł",
+    "900 000 000,00 zł"
+   ],
+   "map_status": "new_entity_or_unmatched_name",
+   "existing_relations": [],
+   "evidence": [
+    {
+     "claim_id": "B02-2b42ca88",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
+     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
+     "page_date": null,
+     "evidence_text": "w 2024 r. przyznano dotacje w kwocie 1 850 617 240,00 zł",
+     "evidence_translation": "in 2024 subsidies were granted in the amount of 1 850 617 240,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The letter says the Minister has passed funds to TVP since 2024, with subsidies of 1 850 617 240,00 zł granted in 2024.",
+      "checked_by": "verify:b001",
+      "context_source": "page_text"
+     }
+    },
+    {
+     "claim_id": "B02-1bd1da13",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
+     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
+     "page_date": null,
+     "evidence_text": "w 2025 r. przyznano dotacje w kwocie 1 633 033 904,00 zł",
+     "evidence_translation": "in 2025 subsidies were granted in the amount of 1 633 033 904,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The letter lists subsidies to TVP of 1 633 033 904,00 zł granted in 2025.",
+      "checked_by": "verify:b001",
+      "context_source": "page_text"
+     }
+    },
+    {
+     "claim_id": "B02-9054f8b8",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
+     "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
+     "page_date": null,
+     "evidence_text": "w 2026 r. przyznano dotacje w kwocie 900 000 000,00 zł",
+     "evidence_translation": "in 2026 subsidies were granted in the amount of 900 000 000,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The letter lists subsidies to TVP of 900 000 000,00 zł in 2026, as of 28 February 2026.",
+      "checked_by": "verify:b001",
+      "context_source": "page_text"
+     }
+    }
+   ],
+   "cross_check_summary": {
+    "supported": 3
+   }
   },
   {
    "id": "E3-607c76df",
@@ -31995,11 +32162,19 @@
      "evidence_translation": "Grant awarded by Share E.V. under an agreement dated 18.01.2017",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The 2017 income note lists 'We Move 196.461,00 zł', a grant awarded by Share E.V. under an agreement dated 18.01.2017.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -32706,10 +32881,24 @@
      "evidence_translation": "'One for All, All for One', continuation of a project carried out with funds from Open Society Initiative for Europe",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "HFPC listed 'One for All, All for One' among its 2023 Migration Department projects as a continuation of a project carried out with Open Society Initiative for Europe funds.",
+      "note": "The report calls 'One for All, All for One' a continuation of a project carried out with OSIFE funds; it does not say outright that OSIFE funds the continuation, and the text that follows mentions Norwegian Funds money in a run-on passage.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-0cb7ca08",
@@ -35243,7 +35432,15 @@
      "evidence_translation": "Judge Waldemar Żurek of the Kraków Regional Court is suing the State Treasury",
      "evidence_location": "'Czytaj więcej' teaser",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "Both the teaser and the article body say Judge Żurek of the Kraków Regional Court sued the State Treasury over repression under PiS; the body says he filed in April, in an article published 06.05.2025.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     },
     {
      "claim_id": "B02-7fe84fae",
@@ -35254,10 +35451,20 @@
      "evidence_translation": "He also asks for an award of 1 million złoty in compensation",
      "evidence_location": "'Czytaj więcej' teaser, section 'Sędzia Waldemar Żurek: zmobilizowanie instytucji państwa...'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The article body says Żurek asks for 1 million złoty in compensation for 8 years of harassment and also wants public apologies; the figure is in the body text, not only in the teaser.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 2
+   }
   },
   {
    "id": "E3-506ce2de",
@@ -35947,12 +36154,20 @@
      "evidence_translation": "co-founder of the Wolne Sądy initiative and of the Committee for the Defence of Justice (KOS)",
      "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page describes Maria Ejchart-Dubois as co-founder of the Wolne Sądy initiative and of KOS.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
     "partly_supported": 1,
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -36709,10 +36924,20 @@
      "evidence_translation": "Board Member, Dr Aleksandra Iwanowska",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report names Dr Aleksandra Iwanowska as a Board Member who co-heads the Eurasia Department.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-0fe19308",
@@ -39626,10 +39851,20 @@
      "evidence_translation": "by the founders: Piotr Trzaskowski, Aleksandra Szymczyk, Marcin Antoni Kozieja, Weronika Paszewska",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": false,
+      "note": "The report says the foundation was set up by notarial deed of 30.01.2015 by founders including Piotr Trzaskowski, with no further detail about him; the translation leaves 'Kozieja' in the declined form, when the nominative would be Marcin Antoni Koziej.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-8b311244",
@@ -43557,10 +43792,20 @@
      "evidence_translation": "English original, no translation needed",
      "evidence_location": "lead paragraph",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "PACE's news item says PACE today elected Adamska-Gallant as ECtHR judge in respect of Poland for a nine-year term; the page gives no date.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-35c8abb7",
@@ -43636,10 +43881,20 @@
      "evidence_translation": "English original, no translation needed",
      "evidence_location": "lead paragraph, second sentence",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page says she was elected after obtaining an absolute majority of votes cast, and gives no vote numbers.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-be2fa852",
@@ -48012,10 +48267,20 @@
      "evidence_translation": "associated with the Helsinki Foundation for Human Rights for over 20 years",
      "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The same paragraph says she has been associated with the Helsinki Foundation for Human Rights for over 20 years.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-0b74a7a3",
@@ -48208,9 +48473,9 @@
    }
   },
   {
-   "id": "E3-38250b0e",
+   "id": "E3-9070ae72",
    "source": "free_courts",
-   "target": "new:edukacji_narodowej_prezydent_m_st_warszawy",
+   "target": "new:minister_edukacji_narodowej_prezydent_m_st_warszawy",
    "source_label": "Fundacja Wolne Sądy",
    "target_label": "MINISTER EDUKACJI NARODOWEJ, PREZYDENT M.ST. WARSZAWY",
    "kind": "other",
@@ -53574,8 +53839,8 @@
    }
   },
   {
-   "id": "E3-54343428",
-   "source": "new:kultury_i_dziedzictwa_narodowego",
+   "id": "E3-ef68b64f",
+   "source": "new:minister_kultury_i_dziedzictwa_narodowego",
    "target": "tvp",
    "source_label": "Minister Kultury i Dziedzictwa Narodowego",
    "target_label": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
@@ -55379,51 +55644,6 @@
    }
   },
   {
-   "id": "E3-14983f1b",
-   "source": "bodnar",
-   "target": "new:of_the_republic_of_poland",
-   "source_label": "Adam Bodnar",
-   "target_label": "Senator of the Republic of Poland",
-   "kind": "role_or_job",
-   "label": "fact",
-   "relations": [
-    "holds role"
-   ],
-   "label_scopes": [
-    "Biography states he is a Senator of the Republic of Poland, elected in October 2023. The page title also gives this role."
-   ],
-   "dates": [
-    "October 2023"
-   ],
-   "amounts": [],
-   "map_status": "new_entity_or_unmatched_name",
-   "existing_relations": [],
-   "evidence": [
-    {
-     "claim_id": "B01-d9494d9e",
-     "url": "https://spia.princeton.edu/events/deans-leadership-series-adam-bodnar-senator-republic-poland-member-parliamentary-assembly",
-     "page_title": "Dean's Leadership Series: Adam Bodnar, Senator of the Republic of Poland, Member of the Parliamentary Assembly of the Council of Europe, and former Ombudsman and Minister of Justice of Poland | Princeton School of Public and International Affairs",
-     "page_date": "Monday, March 30, 2026",
-     "evidence_text": "He is also a Senator of the Republic of Poland, elected in October 2023",
-     "evidence_translation": "Same as original (English text)",
-     "evidence_location": "'Biography' section",
-     "access": "page_read",
-     "evidence_check": "exact",
-     "cross_check": {
-      "verdict": "supported",
-      "label_ok": true,
-      "translation_ok": true,
-      "note": "The biography says Bodnar is a Senator of the Republic of Poland, elected in October 2023.",
-      "checked_by": "verify:a003",
-      "context_source": "page_text"
-     }
-    }
-   ],
-   "cross_check_summary": {
-    "supported": 1
-   }
-  },
-  {
    "id": "E3-99c1c125",
    "source": "bodnar",
    "target": "new:prokurator_generalny",
@@ -55550,6 +55770,51 @@
       "translation_ok": true,
       "note": "The page's meta description says Rafał Jerka became president of the Regional Court in Olsztyn; elsewhere the article names Bodnar as the appointing minister.",
       "checked_by": "verify:a018",
+      "context_source": "page_text"
+     }
+    }
+   ],
+   "cross_check_summary": {
+    "supported": 1
+   }
+  },
+  {
+   "id": "E3-80ba9420",
+   "source": "bodnar",
+   "target": "new:senator_of_the_republic_of_poland",
+   "source_label": "Adam Bodnar",
+   "target_label": "Senator of the Republic of Poland",
+   "kind": "role_or_job",
+   "label": "fact",
+   "relations": [
+    "holds role"
+   ],
+   "label_scopes": [
+    "Biography states he is a Senator of the Republic of Poland, elected in October 2023. The page title also gives this role."
+   ],
+   "dates": [
+    "October 2023"
+   ],
+   "amounts": [],
+   "map_status": "new_entity_or_unmatched_name",
+   "existing_relations": [],
+   "evidence": [
+    {
+     "claim_id": "B01-d9494d9e",
+     "url": "https://spia.princeton.edu/events/deans-leadership-series-adam-bodnar-senator-republic-poland-member-parliamentary-assembly",
+     "page_title": "Dean's Leadership Series: Adam Bodnar, Senator of the Republic of Poland, Member of the Parliamentary Assembly of the Council of Europe, and former Ombudsman and Minister of Justice of Poland | Princeton School of Public and International Affairs",
+     "page_date": "Monday, March 30, 2026",
+     "evidence_text": "He is also a Senator of the Republic of Poland, elected in October 2023",
+     "evidence_translation": "Same as original (English text)",
+     "evidence_location": "'Biography' section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The biography says Bodnar is a Senator of the Republic of Poland, elected in October 2023.",
+      "checked_by": "verify:a003",
       "context_source": "page_text"
      }
     }
@@ -60310,10 +60575,20 @@
      "evidence_translation": "deputy minister Śmiszek said",
      "evidence_location": "section 'Wiceministrowie o swoich planach'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page writes 'wiceminister Śmiszek mówił' under the deputy ministers heading in the report of the Minister of Justice's conference.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-a18f60c9",
@@ -60343,10 +60618,20 @@
      "evidence_translation": "Krzysztof Śmiszek - deputy chair of Nowa Lewica",
      "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The page lists Krzysztof Śmiszek as 'wiceprzewodniczący Nowej Lewicy' among the incoming Ministry of Justice leadership.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-f05e5cc2",
@@ -60400,11 +60685,19 @@
      "evidence_translation": "headed by the Board Treasurer, Lenur Kerymov, and the Board Member, Dr Aleksandra Iwanowska",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report says the Eurasia Department is headed by the Board Treasurer, Lenur Kerymov, together with Board Member Dr Aleksandra Iwanowska.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 2
    }
   },
   {
@@ -60922,10 +61215,24 @@
      "evidence_translation": "headed by the Board Secretary, attorney Małgorzata Szulek (page wording in accusative case)",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "normalized"
+     "evidence_check": "normalized",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "wrong_subject"
+      ],
+      "label_ok": true,
+      "translation_ok": false,
+      "corrected_claim": "Attorney Małgorzata Szuleka is Board Secretary of HFPC and heads its Legislative Monitoring, Research and Advocacy Department (2023).",
+      "note": "The report names 'adwokat Małgorzatę Szulekę', the accusative of Małgorzata Szuleka, not 'Szulek'; both the subject and the translation give the wrong nominative form.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-6c661249",
@@ -61815,6 +62122,49 @@
    }
   },
   {
+   "id": "E3-82100f2d",
+   "source": "new:minister_rodziny_pracy_i_polityki_spolecznej",
+   "target": "akcja_demokracja",
+   "source_label": "Minister Rodziny, Pracy i Polityki Społecznej",
+   "target_label": "Fundacja Akcja Demokracja",
+   "kind": "role_or_job",
+   "label": "fact",
+   "relations": [
+    "supervises (nadzór nad Fundacją sprawuje)"
+   ],
+   "label_scopes": [
+    "the document's own statement of supervisory authority"
+   ],
+   "dates": [],
+   "amounts": [],
+   "map_status": "new_entity_or_unmatched_name",
+   "existing_relations": [],
+   "evidence": [
+    {
+     "claim_id": "B03-bd9bcaf2",
+     "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+     "page_title": "Sprawozdanie finansowe za rok 2017 - Fundacja Akcja Demokracja",
+     "page_date": "Data sporządzenia: 30.03.2018 r. (per document)",
+     "evidence_text": "Nadzór nad Fundacją sprawuje Minister Rodziny, Pracy i Polityki Społecznej.",
+     "evidence_translation": "Supervision over the Foundation is exercised by the Minister of Family, Labour and Social Policy.",
+     "evidence_location": "Wprowadzenie, paragraph after legal basis",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The statement says supervision over the Foundation is exercised by the Minister of Family, Labour and Social Policy.",
+      "checked_by": "verify:a024",
+      "context_source": "page_text"
+     }
+    }
+   ],
+   "cross_check_summary": {
+    "supported": 1
+   }
+  },
+  {
    "id": "E3-5921fa85",
    "source": "new:miroslaw_wyrzykowski",
    "target": "tk",
@@ -62624,10 +62974,20 @@
      "evidence_translation": "Legal Department (headed by the Vice-President of the Board, Dr Piotr Kładoczny)",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "HFPC's 2023 report says the Legal Department is headed by the Vice-President of the Board, Dr Piotr Kładoczny.",
+      "checked_by": "verify:c001",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-e047bdcf",
@@ -62977,49 +63337,6 @@
       "translation_ok": true,
       "note": "The page attributes the news to 'prezydencki rzecznik Rafał Leśkiewicz' speaking to PAP.",
       "checked_by": "verify:a011",
-      "context_source": "page_text"
-     }
-    }
-   ],
-   "cross_check_summary": {
-    "supported": 1
-   }
-  },
-  {
-   "id": "E3-8e13618f",
-   "source": "new:rodziny_pracy_i_polityki_spolecznej",
-   "target": "akcja_demokracja",
-   "source_label": "Minister Rodziny, Pracy i Polityki Społecznej",
-   "target_label": "Fundacja Akcja Demokracja",
-   "kind": "role_or_job",
-   "label": "fact",
-   "relations": [
-    "supervises (nadzór nad Fundacją sprawuje)"
-   ],
-   "label_scopes": [
-    "the document's own statement of supervisory authority"
-   ],
-   "dates": [],
-   "amounts": [],
-   "map_status": "new_entity_or_unmatched_name",
-   "existing_relations": [],
-   "evidence": [
-    {
-     "claim_id": "B03-bd9bcaf2",
-     "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
-     "page_title": "Sprawozdanie finansowe za rok 2017 - Fundacja Akcja Demokracja",
-     "page_date": "Data sporządzenia: 30.03.2018 r. (per document)",
-     "evidence_text": "Nadzór nad Fundacją sprawuje Minister Rodziny, Pracy i Polityki Społecznej.",
-     "evidence_translation": "Supervision over the Foundation is exercised by the Minister of Family, Labour and Social Policy.",
-     "evidence_location": "Wprowadzenie, paragraph after legal basis",
-     "access": "page_read",
-     "evidence_check": "exact",
-     "cross_check": {
-      "verdict": "supported",
-      "label_ok": true,
-      "translation_ok": true,
-      "note": "The statement says supervision over the Foundation is exercised by the Minister of Family, Labour and Social Policy.",
-      "checked_by": "verify:a024",
       "context_source": "page_text"
      }
     }
@@ -64365,11 +64682,19 @@
      "evidence_translation": "under the portfolio of the Board President, Maciej Nowicki",
      "evidence_location": null,
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "The report says the Migration, Communication and WATCH DOCS departments were in the portfolio of the Board President, Maciej Nowicki, in 2023.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 3
+    "supported": 4
    }
   },
   {
@@ -65184,9 +65509,9 @@
    }
   },
   {
-   "id": "E3-e35116f7",
+   "id": "E3-49f46ce1",
    "source": "tusk",
-   "target": "new:of_state_assets_post_of_borys_budka",
+   "target": "new:minister_of_state_assets_post_of_borys_budka",
    "source_label": "Donald Tusk",
    "target_label": "Minister of State Assets post of Borys Budka",
    "kind": "role_or_job",
@@ -66924,10 +67249,20 @@
      "evidence_translation": "Włodzimierz Chróścik on Maciej Berek: he is a legal adviser and may become a TK judge",
      "evidence_location": "sidebar 'Powiązane/Polecane/Najnowsze' (headline only)",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "An undated related-links headline on rp.pl reads 'Włodzimierz Chróścik o Macieju Berku: jest radcą prawnym i może zostać sędzią TK'.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "supported": 1
+   }
   },
   {
    "id": "E3-99728812",
@@ -67569,11 +67904,19 @@
      "evidence_translation": "Iustitia expresses support for the 'new' judges of the Constitutional Tribunal",
      "evidence_location": "sidebar 'Ostatnio dodane', item 4 (headline only)",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "supported",
+      "label_ok": true,
+      "translation_ok": true,
+      "note": "A sidebar item dated 31.10.2026 22:18 is headlined 'Iustitia wyraża wsparcie dla \"nowych\" sędziów Trybunału Konstytucyjnego'.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 2
+    "supported": 3
    }
   },
   {
@@ -67700,10 +68043,25 @@
      "evidence_translation": "Korwin-Piotrowska gives an account of Nawrocki's entry into the TK",
      "evidence_location": "sidebar 'Najnowsze' (headline only)",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": false,
+      "suggested_label": "fact",
+      "translation_ok": true,
+      "corrected_claim": "Korwin-Piotrowska gave an account of Nawrocki's entry into the TK (rp.pl related-links headline, undated).",
+      "note": "The headline reads '\"Idzie prezydent\". Korwin-Piotrowska relacjonuje wejście Nawrockiego do TK'; 'night' comes from a separate adjacent headline, and neither the first name Karol nor the URL slug appears in the context.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
-   "cross_check_summary": "not cross-checked"
+   "cross_check_summary": {
+    "partly_supported": 1
+   }
   },
   {
    "id": "E3-8bf4ffbd",
@@ -68000,11 +68358,25 @@
      "evidence_location": "sidebar 'Ostatnio dodane', item 5 (headline only)",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": false,
+      "suggested_label": "fact",
+      "translation_ok": true,
+      "corrected_claim": "Judge Korwin-Piotrowska said that Święczkowski and Sochański have no entry to the Tribunal (prawo.pl sidebar headline, 31.10.2026 21:50).",
+      "note": "The sidebar headline attributes the statement to judge Korwin-Piotrowska; no URL mentioning an order (zarządzenie) appears in the context, and a claim framed as 'she says' fits fact.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 2 made from it"
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 1,
+    "partly_supported": 1
    }
   },
   {
@@ -68140,11 +68512,25 @@
      "evidence_location": "sidebar 'Ostatnio dodane', item 5 (headline only)",
      "access": "page_read",
      "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": false,
+      "suggested_label": "fact",
+      "translation_ok": true,
+      "corrected_claim": "Judge Korwin-Piotrowska said that Święczkowski and Sochański have no entry to the Tribunal (prawo.pl sidebar headline, 31.10.2026 21:50).",
+      "note": "The sidebar headline attributes the statement to judge Korwin-Piotrowska; no URL mentioning an order (zarządzenie) appears in the context, and a claim framed as 'she says' fits fact.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     },
      "note": "the claim names several map entities on one side; this tie is one of 2 made from it"
     }
    ],
    "cross_check_summary": {
-    "supported": 1
+    "supported": 1,
+    "partly_supported": 1
    }
   },
   {
@@ -70937,9 +71323,9 @@
    }
   },
   {
-   "id": "E3-abc69e38",
+   "id": "E3-51e3dd90",
    "source": "new:six_signatory_organisations",
-   "target": "new:of_foreign_affairs",
+   "target": "new:minister_of_foreign_affairs",
    "source_label": "six signatory organisations (see names_listed)",
    "target_label": "Minister of Foreign Affairs",
    "kind": "statement",
@@ -72832,11 +73218,24 @@
      "evidence_translation": "The prime minister on an attack on the Tribunal and judges",
      "evidence_location": "sidebar 'Ostatnio dodane', item 6 (headline only)",
      "access": "page_read",
-     "evidence_check": "exact"
+     "evidence_check": "exact",
+     "cross_check": {
+      "verdict": "partly_supported",
+      "problems": [
+       "claim_goes_beyond_excerpt"
+      ],
+      "label_ok": true,
+      "translation_ok": true,
+      "corrected_claim": "The prime minister (the item's image is labelled 'Donald Tusk 2026') spoke about an attack on the Tribunal and judges (prawo.pl sidebar headline, 31.10.2026 21:41).",
+      "note": "The sidebar headline reads 'O kompromis w sprawie TK będzie trudno? Premier o ataku na Trybunał i sędziów' with an image labelled 'Donald Tusk 2026'; no URL slug or address format appears in the context.",
+      "checked_by": "verify:c002",
+      "context_source": "page_text"
+     }
     }
    ],
    "cross_check_summary": {
-    "supported": 2
+    "supported": 2,
+    "partly_supported": 1
    }
   },
   {
@@ -81292,6 +81691,24 @@
     "label": "fact",
     "evidence_text": "prawie tyle, ile w roku 2023 (2 369 417 zł)",
     "evidence_check": "not_found"
+   },
+   {
+    "claim_id": "B03-5d8060be",
+    "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+    "subject": "Adam Bodnar",
+    "relation": "may be the person named in campaign expense line 'kampanie Bodnar' of",
+    "object": "Fundacja Akcja Demokracja",
+    "label": "speculation",
+    "evidence_text": "kampanie Bodnar 14.139,80 zł",
+    "evidence_check": "exact",
+    "cross_check": {
+     "verdict": "not_supported",
+     "label_ok": true,
+     "translation_ok": true,
+     "note": "The expense line reads only 'kampanie Bodnar 14.139,80 zł'; the page does not name Adam Bodnar or say who or what 'Bodnar' refers to.",
+     "checked_by": "verify:c002",
+     "context_source": "page_text"
+    }
    },
    {
     "claim_id": "B03-703066b5",

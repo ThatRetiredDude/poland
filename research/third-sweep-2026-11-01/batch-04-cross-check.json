@@ -15,39 +15,39 @@
   "not_checked": "no_link findings, claims whose excerpt was not found in any captured text, and claims added after the check ran."
  },
  "summary": {
-  "claims_checked": 2069,
+  "claims_checked": 2116,
   "verdicts": {
    "cannot_tell": 14,
-   "not_supported": 30,
-   "partly_supported": 320,
-   "supported": 1705
+   "not_supported": 31,
+   "partly_supported": 329,
+   "supported": 1742
   },
-  "label_disagreements": 87,
+  "label_disagreements": 90,
   "label_disagreements_by_pair": {
-   "alleged -> fact": 67,
+   "alleged -> fact": 70,
    "fact -> speculation": 8,
    "fact -> alleged": 6,
    "fact -> fact": 3,
    "speculation -> fact": 3
   },
-  "translation_problems": 47,
+  "translation_problems": 50,
   "problems": {
-   "claim_goes_beyond_excerpt": 191,
-   "wrong_object": 52,
-   "other": 47,
+   "claim_goes_beyond_excerpt": 197,
+   "wrong_object": 53,
+   "other": 48,
    "wrong_relation": 39,
    "wrong_date": 29,
    "claimant_not_named": 25,
-   "wrong_subject": 16,
+   "wrong_subject": 17,
    "excerpt_out_of_context": 8,
    "wrong_amount": 4
   },
   "checker_groups": {
-   "done": 84
+   "done": 86
   },
-  "claims_sent_without_verdict_yet": 0,
+  "claims_sent_without_verdict_yet": 2,
   "no_link_findings_not_checked": 592,
-  "claims_not_sent": 85
+  "claims_not_sent": 36
  },
  "verdicts": [
   {
@@ -674,6 +674,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page excerpt only says the MoJ presents legal opinions on the TK interim order Ts 9/24 and its legality; it names no authors or contracts, and the Zaleśny contract is dated 24 Jan, a day after this 23 Jan page.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-5d8060be",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Adam Bodnar",
+   "relation": "may be the person named in campaign expense line 'kampanie Bodnar' of",
+   "object": "Fundacja Akcja Demokracja",
+   "label": "speculation",
+   "verdict": "not_supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The expense line reads only 'kampanie Bodnar 14.139,80 zł'; the page does not name Adam Bodnar or say who or what 'Bodnar' refers to.",
    "context_source": "page_text"
   },
   {
@@ -3432,6 +3446,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-25c53f3f",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "subject": "Dariusz Mazur",
+   "relation": "reported as set to enter MoJ management, per 8 December social-media information",
+   "object": "Ministry of Justice management (kierownictwo MS)",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Prawo.pl (12.12.2023) reports that Kraków judge Dariusz Mazur of the Themis judges' association is to enter MoJ management. The quoted excerpt introduces the 8 December social-media list, and the visible part of that list stops before Mazur; he is named in the page's earlier summary.",
+   "note": "The excerpt and its context introduce the 8 December social-media list but cut off after Ejchart - Dubois and Rudzińska-Bluszcz; Mazur is named only in the page's earlier summary line ('krakowski sędzia Dariusz Mazur ze Stowarzyszenia Sędziów Themis').",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-2b65ea8f",
    "batch": "02",
    "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1203",
@@ -3663,6 +3695,24 @@
    "translation_ok": true,
    "corrected_claim": "The MoJ's answer states that, under the Council of Ministers regulations that set up each codification commission, the chair of a commission (KKUSiP included) gets a fixed monthly lump-sum pay of PLN 10,000.",
    "note": "The answer says the pay is fixed by Council of Ministers regulations, not by the MoJ, and gives PLN 10,000 a month for the chair; it says the rates were cut sharply compared with earlier pay.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-5a40a2d0",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Donald Tusk",
+   "relation": "speaks on an attack on the Tribunal and its judges (address, per the URL slug)",
+   "object": "Trybunał Konstytucyjny",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The prime minister (the item's image is labelled 'Donald Tusk 2026') spoke about an attack on the Tribunal and judges (prawo.pl sidebar headline, 31.10.2026 21:41).",
+   "note": "The sidebar headline reads 'O kompromis w sprawie TK będzie trudno? Premier o ataku na Trybunał i sędziów' with an image labelled 'Donald Tusk 2026'; no URL slug or address format appears in the context.",
    "context_source": "page_text"
   },
   {
@@ -3976,6 +4026,25 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-a4b263bf",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Korwin-Piotrowska",
+   "relation": "says that Święczkowski and Sochański have no entry to the Tribunal (sidebar headline; URL names an order, zarządzenie, by her)",
+   "object": "Święczkowski; Sochański",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "corrected_claim": "Judge Korwin-Piotrowska said that Święczkowski and Sochański have no entry to the Tribunal (prawo.pl sidebar headline, 31.10.2026 21:50).",
+   "note": "The sidebar headline attributes the statement to judge Korwin-Piotrowska; no URL mentioning an order (zarządzenie) appears in the context, and a claim framed as 'she says' fits fact.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-a58f6daf",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
@@ -4121,6 +4190,43 @@
    "translation_ok": true,
    "corrected_claim": "Artur Kotowski (UKSW) was the second candidate backed by PiS. The justice committee assessed him negatively, and he was the only candidate who did not attend the committee hearing.",
    "note": "The article calls Kotowski the second PiS-backed candidate, negatively assessed by the committee and absent from its sitting. It does not explicitly say he was not elected.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-bde38602",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Waldemar Żurek",
+   "relation": "lawsuit names among the institutions: Minister Sprawiedliwości – Prokurator Generalny; Kancelaria Sejmu; Kancelaria Prezydenta; Sąd Najwyższy; disciplinary spokespersons",
+   "object": "Minister Sprawiedliwości – Prokurator Generalny; Kancelaria Sejmu; Kancelaria Prezydenta; Sąd Najwyższy; rzecznicy dyscyplinarni sędziów",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "other"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Żurek's lawsuit names, among others, the Minister of Justice – Prosecutor General, the Chancellery of the Sejm, the Chancellery of the President, the Supreme Court and the judges' disciplinary officers (rzecznicy dyscyplinarni sędziów).",
+   "note": "The page lists these institutions after 'm.in.'; 'rzecznicy dyscyplinarni sędziów' means judges' disciplinary officers (prosecutors), not 'disciplinary spokespersons' as the relation text puts it.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-bfefc621",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Korwin-Piotrowska",
+   "relation": "gives her account of Karol Nawrocki's night entry into the TK (headline; URL says 'przedstawia swoją wersję')",
+   "object": "Nawrocki",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "corrected_claim": "Korwin-Piotrowska gave an account of Nawrocki's entry into the TK (rp.pl related-links headline, undated).",
+   "note": "The headline reads '\"Idzie prezydent\". Korwin-Piotrowska relacjonuje wejście Nawrockiego do TK'; 'night' comes from a separate adjacent headline, and neither the first name Karol nor the URL slug appears in the context.",
    "context_source": "page_text"
   },
   {
@@ -4362,6 +4468,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-de2dcf12",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Adam Bodnar",
+   "relation": "wrote on social media, as Minister of Justice, that he feels obliged to remedy the wrongs done to judges and prosecutors",
+   "object": "Ministry of Justice",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_object"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Adam Bodnar, as Minister of Justice, wrote on social media that independent judges and prosecutors who were victims of repression deserve redress and that he feels obliged to provide it (reported by rp.pl, 06.05.2025).",
+   "note": "rp.pl quotes Bodnar's post saying repressed independent judges and prosecutors deserve redress and that as Minister of Justice he feels obliged to do this; the Ministry is the office he speaks from, not the object of the statement.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-e3faae0f",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf",
@@ -4577,6 +4701,24 @@
    "translation_ok": true,
    "corrected_claim": "According to the coalition, Constitutional Tribunal case law (judgments of 3 December 2016, case no. K 13/16) holds that the complete exclusion of 'the Council' (a media council, not named in the passage) from shaping the composition of public broadcaster companies, as happened in 2015, is unconstitutional.",
    "note": "The text, in a section on media councils, says 'the Council' only; naming it the National Broadcasting Council (KRRiT) is an inference, while the date and case number match the page.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-08c620e0",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Małgorzata Szulek (as written: adwokat Małgorzatę Szulekę)",
+   "relation": "is Sekretarz Zarządu (board secretary) of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_subject"
+   ],
+   "label_ok": true,
+   "translation_ok": false,
+   "corrected_claim": "Attorney Małgorzata Szuleka is Board Secretary of HFPC and heads its Legislative Monitoring, Research and Advocacy Department (2023).",
+   "note": "The report names 'adwokat Małgorzatę Szulekę', the accusative of Małgorzata Szuleka, not 'Szulek'; both the subject and the translation give the wrong nominative form.",
    "context_source": "page_text"
   },
   {
@@ -6262,6 +6404,42 @@
    "translation_ok": true,
    "corrected_claim": "Dariusz Matecki filed written question no. 3180 to the Minister of Justice (received 19 Feb 2026) about the 4 March 2024 contract MS/4890/BF/2024 (4 000 zł) with Prof. Ryszard Piotrowski for an opinion on TK interim orders. It asks for the full contract, the full opinion, and its scope, including which TK interim orders it analysed.",
    "note": "The context shows the filing, the date, the contract details and questions 1-3. It then breaks off, so the questions on use, acceptance and payment dates and approver are not visible.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-d3956e87",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Fundacja Akcja Demokracja",
+   "relation": "holds Organizacja Pożytku Publicznego (OPP) status since",
+   "object": "Ministry-recognised public benefit status",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Fundacja Akcja Demokracja gained Organizacja Pożytku Publicznego (public benefit organisation) status on 07.12.2017.",
+   "note": "The report says the foundation gained OPP status on 07.12.2017; it does not say any ministry recognised it.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-d5744b15",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Open Society Initiative for Europe",
+   "relation": "funds project 'One for All, All for One' run by",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "HFPC listed 'One for All, All for One' among its 2023 Migration Department projects as a continuation of a project carried out with Open Society Initiative for Europe funds.",
+   "note": "The report calls 'One for All, All for One' a continuation of a project carried out with OSIFE funds; it does not say outright that OSIFE funds the continuation, and the text that follows mentions Norwegian Funds money in a run-on passage.",
    "context_source": "page_text"
   },
   {
@@ -18071,6 +18249,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-08a79c75",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "roboczy zespół negocjacyjny",
+   "relation": "headline: will deal with, among others, the case of judge Waldemar Żurek",
+   "object": "Waldemar Żurek",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The rp.pl headline and twitter title say the team set up at the MoJ will deal with, among others, judge Waldemar Żurek's case; the og:title calls it 'specjalny zespół'.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-08e267e9",
    "batch": "02",
    "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
@@ -18096,6 +18288,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article says she announced her decision on Friday evening in an interview with TVP Info, that the assembly is meant to adopt the 2027 TK budget among other things, and it calls her 'sędzia kierująca TK'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-0958be87",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Krzysztof Śmiszek",
+   "relation": "deputy chair (wiceprzewodniczący) of Nowa Lewica (party role)",
+   "object": "Nowa Lewica",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page lists Krzysztof Śmiszek as 'wiceprzewodniczący Nowej Lewicy' among the incoming Ministry of Justice leadership.",
    "context_source": "page_text"
   },
   {
@@ -18349,6 +18555,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article lists Krystian Markiewicz among the new TK judges with 236 for, 187 against and 4 abstentions, and the photo caption dates the vote to the third day of the 53rd sitting, 13.03.2026.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-0f542b45",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Donald Tusk",
+   "relation": "reported by Bodnar to have signed an order setting up an interdepartmental rule-of-law team",
+   "object": "międzyresortowy zespół ds. przywracania praworządności",
+   "label": "alleged",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says Adam Bodnar announced at his first press conference that PM Donald Tusk had signed an order setting up an interdepartmental rule-of-law team; it gives no signing date.",
    "context_source": "page_text"
   },
   {
@@ -18831,6 +19051,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-22674f43",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Waldemar Żurek",
+   "relation": "told OKO.press that the lawsuit's main aim is to mobilise state institutions to seek recourse against officials",
+   "object": "OKO.press",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "rp.pl quotes Żurek telling OKO.press that the lawsuit's main aim is to mobilise state institutions to seek recourse against officials of the authoritarian power who think people can be destroyed with impunity.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-226a4e1f",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/29c7a310-60d5-4121-b5b2-8bbf918b1708_1739802000661.pdf",
@@ -18856,6 +19090,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Parltrack's Rapporteur table lists him as 'Responsible Committee Shadow' on 2018/0902(NLE) in LIBE, titled 'Existence of a clear risk of a serious breach by Hungary of the values on which the Union is founded'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-22d46a0d",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Iustitia",
+   "relation": "says it supports the 'new' judges of the Constitutional Tribunal (sidebar headline)",
+   "object": "nowych sędziów Trybunału Konstytucyjnego",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "A sidebar item dated 31.10.2026 22:18 is headlined 'Iustitia wyraża wsparcie dla \"nowych\" sędziów Trybunału Konstytucyjnego'.",
    "context_source": "page_text"
   },
   {
@@ -18912,6 +19160,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The coalition says the resolution on the validity of the presidential election was issued by the Extraordinary Control and Public Affairs Chamber, whose status it calls contested; no date or candidate is given.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-249d3369",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "subject": "Adam Bodnar",
+   "relation": "won a Senate mandate in the 2023 parliamentary election on behalf of the Senate pact (Paktu senackiego)",
+   "object": "Paktu senackiego",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says that in this year's (2023) parliamentary election Bodnar won a Senate seat for the Pakt senacki, with 628,442 votes.",
    "context_source": "page_text"
   },
   {
@@ -20120,6 +20382,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-50f56747",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Arkadiusz Myrcha",
+   "relation": "KO politician and MP for the 8th, 9th and 10th Sejm terms",
+   "object": "KO",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page describes Myrcha as a legal adviser, KO politician, local government official, doctor of law and MP of the 8th, 9th and 10th Sejm terms.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-538757a3",
    "batch": "02",
    "url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
@@ -20935,6 +21211,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-71150928",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Maria Ejchart - Dubois",
+   "relation": "co-founder of the Wolne Sądy initiative and of the Committee for the Defence of Justice (KOS)",
+   "object": "Wolne Sądy; Komitet Obrony Sprawiedliwości (KOS)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page describes Maria Ejchart-Dubois as co-founder of the Wolne Sądy initiative and of KOS.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-7129c61b",
    "batch": "02",
    "url": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf",
@@ -21229,6 +21519,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-7b38c776",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "subject": "Maria Ejchart - Dubois",
+   "relation": "represented judges before the European Court of Human Rights in Strasbourg as part of KOS work",
+   "object": "Europejski Trybunał Praw Człowieka w Strasburgu",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page's description of Ejchart-Dubois says that as part of KOS work she represented judges before the ECtHR in key cases on court independence.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-7b7680a1",
    "batch": "02",
    "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
@@ -21240,6 +21544,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "On Wednesday 31 July 2024 the Senate backed two TK bills, the new law on the TK and the implementing law, with amendments.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-7b7dfa16",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Maciej Berek",
+   "relation": "headline attributes to Włodzimierz Chróścik the statement that Berek is a legal adviser (radca prawny) who may become a TK judge",
+   "object": "Trybunał Konstytucyjny",
+   "label": "alleged",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "An undated related-links headline on rp.pl reads 'Włodzimierz Chróścik o Macieju Berku: jest radcą prawnym i może zostać sędzią TK'.",
    "context_source": "page_text"
   },
   {
@@ -21380,6 +21698,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The EP list shows a meeting titled 'European Sentiment Compass', ECFR project on 30-06-2026 in Brussels, capacity Member Staff meeting, with the European Council on Foreign Relations.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-7fe84fae",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Waldemar Żurek",
+   "relation": "lawsuit asks for compensation (zadośćuczynienie) against the State",
+   "object": "Skarb Państwa",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article body says Żurek asks for 1 million złoty in compensation for 8 years of harassment and also wants public apologies; the figure is in the body text, not only in the teaser.",
    "context_source": "page_text"
   },
   {
@@ -22195,6 +22527,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-9c7dd0c3",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Maria Ejchart - Dubois",
+   "relation": "associated with the Helsinki Foundation for Human Rights (HFHR) for over 20 years",
+   "object": "Helsińska Fundacja Praw Człowieka (HFHR)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The same paragraph says she has been associated with the Helsinki Foundation for Human Rights for over 20 years.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-9c918531",
    "batch": "02",
    "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11241416,urzednicy-prezydenta-wezwani-przez-prokurature-sledztwo-w-sprawie-sed.html",
@@ -22360,6 +22706,21 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page lists Opinion 1203/2024, on the draft constitutional amendments and two draft laws on the Constitutional Tribunal, as 'Requested by: Poland, Minister of Justice', dated 12/2024.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-a32ae36a",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Ludzie Nawrockiego",
+   "relation": "headline: going to the prosecutor's office after a night clash at the TK",
+   "object": "prokuratura",
+   "label": "alleged",
+   "verdict": "supported",
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "note": "The rp.pl related-links headline reads 'Nocne starcie w Trybunale Konstytucyjnym. Ludzie Nawrockiego idą do prokuratury' and states this in rp.pl's own voice, not as anyone's claim.",
    "context_source": "page_text"
   },
   {
@@ -22657,6 +23018,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-ad1ac61b",
+   "batch": "02",
+   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "subject": "Anna Adamska-Gallant",
+   "relation": "elected by PACE as judge of the European Court of Human Rights in respect of Poland for a nine-year term",
+   "object": "European Court of Human Rights",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "PACE's news item says PACE today elected Adamska-Gallant as ECtHR judge in respect of Poland for a nine-year term; the page gives no date.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-ad640e8e",
    "batch": "02",
    "url": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy",
@@ -22948,6 +23323,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article states 'PiS wnioskował o odrzucenie uchwały' about the TK resolution adopted the day before the judges' election.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-b5d62340",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "subject": "Adam Bodnar",
+   "relation": "Rzecznik Praw Obywatelskich (Ombudsman / Commissioner for Human Rights), 2015–2021",
+   "object": "Rzecznik Praw Obywatelskich",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says Bodnar was Rzecznik Praw Obywatelskich in 2015-2021 and vice-president of HFPC in 2010-2015.",
    "context_source": "page_text"
   },
   {
@@ -23326,6 +23715,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The opinion says art. 54 ust. 1 pkt 4 and ust. 2 pkt 2 of the bill make it a ground for excluding a judge that, within the last 10 years, the TK judge was a 'doradca' of a participant, and it asks what that term means.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-c33e8506",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Maria Ejchart - Dubois",
+   "relation": "deputy minister of justice (wiceminister), per the page's wording",
+   "object": "Ministry of Justice",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Under the heading 'Wiceministrowie o swoich planach' the page says 'Wiceminster Ejchart zapowiedziała...'; this passage gives only the surname, and the same page names Maria Ejchart - Dubois elsewhere as entering MoJ management.",
    "context_source": "page_text"
   },
   {
@@ -23819,6 +24222,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-d2209207",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Ministerstwo Sprawiedliwości",
+   "relation": "set up a working negotiation team (roboczy zespół negocjacyjny) to work out settlements for people harmed under PiS rule",
+   "object": "roboczy zespół negocjacyjny",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Bodnar is quoted saying a working negotiation team was set up at the MoJ to work out settlements for people harmed under PiS; no set-up date is given beyond the article's 06.05.2025 publication.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-d22ee64e",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/assistants",
@@ -24083,6 +24500,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Rapporteur Patryk Jaskulski, reporting on the TK judge election item, refers to 'pan prof. Kotowski, wskazany przez Prawo i Sprawiedliwość' and says the committee gave his candidacy a negative opinion.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-da320bdf",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Ministry of Justice management (kierownictwo MS)",
+   "relation": "to include Maria Ejchart - Dubois, Zuzanna Rudzińska-Bluszcz, Krzysztof Śmiszek and Arkadiusz Myrcha",
+   "object": "Maria Ejchart - Dubois; Zuzanna Rudzińska-Bluszcz; Krzysztof Śmiszek; Arkadiusz Myrcha",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says earlier reports were confirmed that Ejchart - Dubois, Rudzińska-Bluszcz, Śmiszek and Myrcha will enter MoJ management, with background descriptions but no posts.",
    "context_source": "page_text"
   },
   {
@@ -24591,6 +25022,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-eb3e08eb",
+   "batch": "02",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "subject": "Waldemar Żurek",
+   "relation": "judge of Sąd Okręgowy w Krakowie suing the State Treasury over PiS-era repression (teaser)",
+   "object": "Skarb Państwa",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Both the teaser and the article body say Judge Żurek of the Kraków Regional Court sued the State Treasury over repression under PiS; the body says he filed in April, in an article published 06.05.2025.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-eb51a761",
    "batch": "02",
    "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
@@ -24826,6 +25271,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page refers to 'Minister of Justice Waldemar Żurek' and quotes him on the candidates.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-f125196d",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Krzysztof Śmiszek",
+   "relation": "described as deputy minister (wiceminister) in the day's press report",
+   "object": "Ministry of Justice",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page writes 'wiceminister Śmiszek mówił' under the deputy ministers heading in the report of the Minister of Justice's conference.",
    "context_source": "page_text"
   },
   {
@@ -25219,6 +25678,34 @@
    "translation_ok": true,
    "note": "The title of print 2345 (documentDate 2026-03-12, process print 2332) is the committee's opinion on electing Marcin Dziurda.",
    "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/prints/2345"
+  },
+  {
+   "claim_id": "B02-ff199210",
+   "batch": "02",
+   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "subject": "Anna Adamska-Gallant",
+   "relation": "obtained an absolute majority of votes cast in the PACE election",
+   "object": "PACE election vote",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says she was elected after obtaining an absolute majority of votes cast, and gives no vote numbers.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-ff5aba1b",
+   "batch": "02",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "subject": "Adam Bodnar",
+   "relation": "role: new Minister Sprawiedliwości Prokurator Generalny (Minister of Justice – Prosecutor General)",
+   "object": "Ministry of Justice",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": false,
+   "note": "The page calls Bodnar 'nowy Minister Sprawiedliwości Prokurator Generalny', speaking at his first conference on 13.12.2023; the translation adds 'press', which is not in the Polish ('pierwszej konferencji' means 'first conference').",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-012c51f3",
@@ -25740,6 +26227,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-1904fcd2",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "CC Poland sp. z o.o.",
+   "relation": "funded the report 'O standardzie, który się nie przyjął (w Polsce)' by",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report says the report on pre-trial detention published in September 2023 was a project financed by CC Poland sp. z o.o.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-19b548f3",
    "batch": "03",
    "url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
@@ -26203,6 +26704,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-319a4e04",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Fundusz Obywatelski im. Henryka Wujca",
+   "relation": "supported project 'Sytuacja w mediach regionalnych i lokalnych wydawanych przez Polska Press' of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report lists the Polska Press regional media project as supported by Fundusz Obywatelski im. Henryka Wujca and run jointly with another HFPC department.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-31c63bbb",
    "batch": "03",
    "url": "https://frittord.no/en/news/civitates-grant-boosting-civil-society-in-poland",
@@ -26256,6 +26771,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The record lists 'Project cost: 100 000,00 EUR' and 'Funding: 100 000,00 EUR' for Democracy Action.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-343d6c8d",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Campact e.V.",
+   "relation": "granted to",
+   "object": "Fundacja Akcja Demokracja",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The 2017 income note lists Campact at 147,421.20 zł, a grant awarded in 2017 under an agreement with Campact e.V. dated 02.03.2017.",
    "context_source": "page_text"
   },
   {
@@ -26469,6 +26998,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-3cee4058",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Fundacja Akcja Demokracja",
+   "relation": "2017 expense line 'kampanie Bodnar' of 14.139,80 zł",
+   "object": "unidentified campaign named 'Bodnar'",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Under 'darowizny na dedykowane kampanie' (donations for dedicated campaigns), the 2017 cost list has a sub-line 'kampanie Bodnar 14.139,80 zł' and does not explain what it refers to.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-3ea28331",
    "batch": "03",
    "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
@@ -26536,6 +27079,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The event background text says that in February Minister of Justice Adam Bodnar presented the Action Plan for Rule of Law Repair; no year is given.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-454d01d3",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "dr Aleksandra Iwanowska (as written: dr. Aleksandrę Iwanowską)",
+   "relation": "is Członkini Zarządu (board member) of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report names Dr Aleksandra Iwanowska as a Board Member who co-heads the Eurasia Department.",
    "context_source": "page_text"
   },
   {
@@ -27297,6 +27854,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-6ef24191",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Share E.V.",
+   "relation": "granted to",
+   "object": "Fundacja Akcja Demokracja (grant line 'We Move')",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The 2017 income note lists 'We Move 196.461,00 zł', a grant awarded by Share E.V. under an agreement dated 18.01.2017.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-703066b5",
    "batch": "03",
    "url": "https://www.batory.org.pl/en/grants/the_equal_rights_program/",
@@ -27588,6 +28159,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Question 3178 by Dariusz Matecki (received 19-02-2026) describes contract MS/4765/BF/2024 of 6 March 2024 with Marcin Dąbrowski for an opinion on presidential consent to deputies of the Prosecutor General, for PLN 5,000.00.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-7b8030c3",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Media Defence (Media Legal Defence Initiative)",
+   "relation": "supported project 'Odpowiedź na wyzwania wobec wolności mediów w Polsce' of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report lists the project 'Odpowiedź na wyzwania wobec wolności mediów w Polsce' as supported for another year by Media Defence (Media Legal Defence Initiative).",
    "context_source": "page_text"
   },
   {
@@ -27896,6 +28481,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page lists 'Szafrański Jakub rada fundacji' under Reprezentacja.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-89aeb3ac",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "European Climate Foundation (Europejska Fundacja Klimatyczna)",
+   "relation": "granted to",
+   "object": "Fundacja Akcja Demokracja",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The 2017 income note lists 76,624.40 zł from the European Climate Foundation under an agreement dated 06.03.2017, grant number 1602-56039.",
    "context_source": "page_text"
   },
   {
@@ -28628,6 +29227,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-a8a46bd6",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Piotra Trzaskowskiego (as written; founder)",
+   "relation": "is a founder (fundator) of",
+   "object": "Fundacja Akcja Demokracja",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": false,
+   "note": "The report says the foundation was set up by notarial deed of 30.01.2015 by founders including Piotr Trzaskowski, with no further detail about him; the translation leaves 'Kozieja' in the declined form, when the nominative would be Marcin Antoni Koziej.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-a8be1ed4",
    "batch": "03",
    "url": "https://niw.gov.pl/wp-content/uploads/2025/03/Protokol-z-panelu-ekspertow-PROO-2024-4.pdf",
@@ -28709,6 +29322,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Batory announces that by board decision 25 organisations will receive grants totalling EUR 906,357: EUR 631,566 to 17 in Area 1 and EUR 274,791 to 8 in Area 2.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-ab827302",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "dr Piotr Kładoczny",
+   "relation": "is Wiceprezes Zarządu (vice-president of the board) of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "HFPC's 2023 report says the Legal Department is headed by the Vice-President of the Board, Dr Piotr Kładoczny.",
    "context_source": "page_text"
   },
   {
@@ -29174,6 +29801,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-bc430dce",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Helsińska Fundacja Praw Człowieka",
+   "relation": "submitted opinion to the Council of Europe Committee of Ministers on non-execution of the judgment in",
+   "object": "Xero Flor w Polsce sp. z o.o. przeciwko Polsce (defective composition of the Constitutional Tribunal)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The 2023 report says HFPC submitted opinions to the CoE Committee of Ministers on the non-execution of three judgments, including Xero Flor v. Poland (defective composition of the Constitutional Tribunal).",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-bc74de75",
    "batch": "03",
    "url": "https://www.mott.org/grants/200701771/",
@@ -29426,6 +30067,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-c751e453",
+   "batch": "03",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "subject": "Global Greengrants Fund",
+   "relation": "funded costs of grant activity of",
+   "object": "Fundacja Akcja Demokracja",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "In the 2017 cost section, under 'Poniesione w ramach grantów' (incurred under grants), the report lists 'od Global Greengrants Fund 122.317,04 zł'.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-c7c9d5ff",
    "batch": "03",
    "url": "https://tvn24.pl/polska/finansowanie-komitetu-obrony-demokracji-ra704820-ls2458599",
@@ -29493,6 +30148,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The listing shows Deadline 'Rolling (quarterly review)', Cycle 'Rolling - applications accepted year-round', 'Tracked since April 2026', and quotes 'Applications evaluated on rolling basis'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-cd2c20bc",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Helsińska Fundacja Praw Człowieka",
+   "relation": "received EEA and Norway Grants (Programme Aktywni Obywatele – Fundusz Regionalny) for project 'Równe prawa osób z niepełnosprawnościami'",
+   "object": "Islandia, Liechtenstein i Norwegia (Fundusze EOG i Fundusze Norweskie)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report lists the project 'Równe prawa osób z niepełnosprawnościami' (from September 2022) as funded by Iceland, Liechtenstein and Norway from the EEA and Norway Grants under Aktywni Obywatele - Fundusz Regionalny; no amount is given.",
    "context_source": "page_text"
   },
   {
@@ -30462,6 +31131,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-fd16804d",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Maciej Nowicki (as written: Macieja Nowickiego)",
+   "relation": "is Prezes Zarządu (board president) of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report says the Migration, Communication and WATCH DOCS departments were in the portfolio of the Board President, Maciej Nowicki, in 2023.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-fd7c59ed",
    "batch": "03",
    "url": "https://www.kbw.gov.pl/uploaded_files/1786084295_ewp-131-koalicja-obywatelska.pdf",
@@ -30515,6 +31198,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "In the 2025 OPP report's council table, 'Henryka Bochniarz' is listed with the mis-encoded function that decodes to 'Członek Rady Fundacji', and the KRS column says TAK.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-ffdd5da5",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "subject": "Lenur Kerymov (as written: Lenura Kerymova)",
+   "relation": "is Skarbnik Zarządu (board treasurer) of",
+   "object": "Helsińska Fundacja Praw Człowieka",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report says the Eurasia Department is headed by the Board Treasurer, Lenur Kerymov, together with Board Member Dr Aleksandra Iwanowska.",
    "context_source": "page_text"
   }
  ]
