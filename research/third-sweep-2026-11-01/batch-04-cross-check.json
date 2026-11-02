@@ -15,38 +15,37 @@
   "not_checked": "no_link findings, claims whose excerpt was not found in any captured text, and claims added after the check ran."
  },
  "summary": {
-  "claims_checked": 1946,
+  "claims_checked": 2069,
   "verdicts": {
    "cannot_tell": 14,
-   "not_supported": 26,
-   "partly_supported": 293,
-   "supported": 1613
+   "not_supported": 30,
+   "partly_supported": 320,
+   "supported": 1705
   },
-  "label_disagreements": 84,
+  "label_disagreements": 87,
   "label_disagreements_by_pair": {
-   "alleged -> fact": 64,
+   "alleged -> fact": 67,
    "fact -> speculation": 8,
    "fact -> alleged": 6,
    "fact -> fact": 3,
    "speculation -> fact": 3
   },
-  "translation_problems": 45,
+  "translation_problems": 47,
   "problems": {
-   "claim_goes_beyond_excerpt": 169,
-   "wrong_object": 51,
-   "other": 45,
-   "wrong_relation": 36,
-   "wrong_date": 28,
-   "claimant_not_named": 23,
+   "claim_goes_beyond_excerpt": 191,
+   "wrong_object": 52,
+   "other": 47,
+   "wrong_relation": 39,
+   "wrong_date": 29,
+   "claimant_not_named": 25,
    "wrong_subject": 16,
    "excerpt_out_of_context": 8,
    "wrong_amount": 4
   },
   "checker_groups": {
-   "done": 79,
-   "running": 2
+   "done": 84
   },
-  "claims_sent_without_verdict_yet": 123,
+  "claims_sent_without_verdict_yet": 0,
   "no_link_findings_not_checked": 571,
   "claims_not_sent": 85
  },
@@ -457,6 +456,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-1a3a643b",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "operated by (inferred, not stated)",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "speculation",
+   "verdict": "not_supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice names the foundation at the bottom and sends readers to OKO.press, but it does not say who operates the archive.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-6b16d131",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/2b59d857-c2c6-4001-9194-7b9d519bd371_1784814961757.pdf",
@@ -529,6 +542,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-a6f3a083",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "operated by (inferred, not stated)",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "speculation",
+   "verdict": "not_supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice names the foundation at the bottom and sends readers to OKO.press, but it does not say who operates the archive.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-d9ceffe8",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "operated by (inferred, not stated)",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "speculation",
+   "verdict": "not_supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice names the foundation at the bottom and sends readers to OKO.press, but it does not say who operates the archive.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-e3d98f57",
    "batch": "02",
    "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego",
@@ -574,6 +615,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article says Civitates, a consortium of 16 foundations including Batory, has funded civil society support projects, but it never says Batory funded any particular project or any Polish project.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-1ef477b9",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/aktywa-panstwowe/rejestr-umow-w-2025-r",
+   "subject": "Rejestr umów w 2025 r. (HTML page, attachment categories)",
+   "relation": "may leave out contracts with natural persons who are not entrepreneurs",
+   "object": "contracts with natural persons who are not entrepreneurs",
+   "label": "speculation",
+   "verdict": "not_supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page lists quarterly attachment categories (entrepreneurs, legal persons and organisational units; KPO; grants/shares-investments) and says nothing either way about contracts with natural persons.",
    "context_source": "page_text"
   },
   {
@@ -1545,6 +1600,42 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-5abe56e1",
+   "batch": "01",
+   "url": "https://www.eecpoland.eu/2025/en/partners-and-sponsors/353/",
+   "subject": "Ślązak, Zapiór i Partnerzy (inferred from logo domain)",
+   "relation": "is listed as a partner logo of",
+   "object": "European Economic Congress 2025",
+   "label": "speculation",
+   "verdict": "partly_supported",
+   "problems": [
+    "other"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The EEC 2025 partners and sponsors page lists a logo that links to kancelaria-szip.pl, with a download labelled 'SZiP broszura'; the identification as Ślązak, Zapiór i Partnerzy is an inference.",
+   "note": "The context shows a partner entry linking to kancelaria-szip.pl with 'SZiP broszura' under downloads; the pliki.wnp.pl image URL in the excerpt does not appear in the context, and no firm name is given.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-5e7a5af0",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Donald Tusk",
+   "relation": "was, per Berek, the deputy Marshal of the Senate whom Berek advised as a legislator at the Senate (first professional contact)",
+   "object": "Maciej Berek",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_relation"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Per Berek, his first professional contact with Donald Tusk, then deputy Marshal of the Senate, came when Berek, as the Senate Chancellery legislator serving the Legislative Committee, stated that Senate rules let Tusk table an amendment against the chairman's objection.",
+   "note": "Berek describes serving the committee as its legislator and telling the chair, Piotr Andrzejewski, that any senator could table an amendment; he does not say he advised Tusk.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-626bc9c1",
    "batch": "01",
    "url": "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu",
@@ -1871,6 +1962,26 @@
    "translation_ok": true,
    "corrected_claim": "By decision of the Minister of Justice (not named), a further register covering contracts concluded in 2024 was published; the letter of 3 April 2026 gives no date for the decision or the publication (2024 is the year the register covers).",
    "note": "The letter says that, by decision of the Minister of Justice, a further register covering contracts concluded in 2024 was published; it gives no date for that decision or publication.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-840c8a80",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Maciej Berek",
+   "relation": "is called by Warchoł (PiS) the 'prawa ręka premiera' (PM's right hand) coming from the government benches to the TK",
+   "object": "Prime Minister (Donald Tusk not named in the sentence)",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "claimant_not_named",
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "corrected_claim": "An MP addressing a minister who is a TK candidate (names not visible in the context) says that for the first time the PM's right hand, a politician, is going straight from the government benches to the TK.",
+   "note": "The sentence is in the transcript, but the context shows neither the speaker's label (Warchoł) nor Berek's name. The speaker is addressing 'Panie ministrze', a former cabinet member and TK candidate.",
    "context_source": "page_text"
   },
   {
@@ -2423,6 +2534,26 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-b93cc65c",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Paweł Śliz (Polska2050)",
+   "relation": "says Święczkowski is one of the politicians directly linked to PiS (with Pawłowicz and Piotrowicz)",
+   "object": "Prawo i Sprawiedliwość (PiS)",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "claimant_not_named",
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "corrected_claim": "A speaker (not named in the context) tells the MPs he addresses that Pawłowicz, Piotrowicz and Święczkowski are politicians directly linked to 'your party'.",
+   "note": "The passage says 'Pawłowicz, Piotrowicz, Święczkowski - politicians directly linked to your party', but the context names neither the speaker (Śliz) nor PiS.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-ba5be6fe",
    "batch": "01",
    "url": "https://strefainwestorow.pl/wiadomosci/20250416/grupa-ptwp-spodziewa-sie-rekordowej-frekwencji-i-silnej-reprezentacji",
@@ -2918,6 +3049,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-eb3ad125",
+   "batch": "01",
+   "url": "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady",
+   "subject": "Fundacja Wolne Sądy",
+   "relation": "general administration costs 2025 (koszty ogólnego zarządu, income statement line G)",
+   "object": "634 621,77 zł",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The income statement shown on the page for Fundacja Wolne Sądy lists G. general administration costs of PLN 634,621.77 (the year is not visible in the context; 2025 is the latest statement noted).",
+   "note": "Line G shows 634 621,77, but the excerpted income statement does not state its year. Elsewhere the page says the latest available statement is for 2025.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-ec38156c",
    "batch": "01",
    "url": "https://us.edu.pl/event/xvii-europejski-kongres-gospodarczy",
@@ -3154,6 +3303,24 @@
    "corrected_claim": "Aleksandra Wrzesińska-Nowacka (NSA judge) is president of the Ogólnopolskie Stowarzyszenie Sędziów Sądów Administracyjnych and is a KRS candidate on the list.",
    "note": "The article says Wrzesińska-Nowacka of the NSA heads the Ogólnopolskie Stowarzyszenie Sędziów Sądów Administracyjnych, but this context does not mention 'four associations backing the list' or her election to the KRS on 15 May 2026.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-1a151822",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Szymon Hołownia (presiding Marshal of the Sejm per sitting header)",
+   "relation": "announced that a group of MPs filed the draft (druk nr 226)",
+   "object": "druk nr 226",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The presiding Marshal announced that a group of MPs had submitted the draft resolution on removing the effects of the 2015-2023 constitutional crisis regarding the Constitutional Tribunal (druk nr 226), and added its first reading to the agenda.",
+   "note": "The context shows the presiding officer's announcement in the first person but does not include a header or name identifying Szymon Hołownia.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
   },
   {
    "claim_id": "B02-1d735d63",
@@ -3681,6 +3848,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-90e0721e",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/MP",
+   "subject": "Paweł Śliz",
+   "relation": "club as stated when called to speak (item 2 debate, druk nr 219)",
+   "object": "Polska 2050 - Trzecia Droga",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Deputy Marshal Krzysztof Bosak called Paweł Śliz to speak as 'Polska 2050 - Trzecia Droga' during the 6 March 2024 sitting; the excerpt does not show which agenda item or print this was.",
+   "note": "Bosak invites 'pana posła Pawła Śliza, Polska 2050 - Trzecia Droga'; the context shown does not name item 2 or druk nr 219.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
    "claim_id": "B02-99095bb0",
    "batch": "02",
    "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1203",
@@ -3716,6 +3901,24 @@
    "translation_ok": true,
    "corrected_claim": "An EP attendance declaration lists attendance at the All Hands on Deck against FIMI Conference, Brussels, 25/06/2026; the third party named is the Permanent Representation of the Republic of Poland to the EU, with no travel, accommodation or subsistence expenses covered.",
    "note": "The context shows the event name, the date 25/06/2026, Brussels as venue, and the Permanent Representation of Poland as the named third party with no expenses covered; the declarant's name and the 'performance of my duties' wording do not appear in it. Fact is still the right label, but label_scope wrongly says no inviter or organiser is named.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-9cb67561",
+   "batch": "02",
+   "url": "https://www.tvp.info/89416249/oczekiwania-komisji-europejskiej-wobec-polskiego-rzadu-komisarz-ue-ds-sprawiedliwosci-michael-mcgrath-o-praworzadnosci-w-polsce",
+   "subject": "Michael McGrath",
+   "relation": "gave an interview to",
+   "object": "DW (as written; not expanded on page)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_date"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Michael McGrath gave an interview to DW, as reported by TVP.info in an article published 2025-10-11; the page does not give the date of the interview.",
+   "note": "The page metadata says McGrath stressed the rule of law in an interview given to DW; 2025-10-11 is the article's publication date, not a stated interview date.",
    "context_source": "page_text"
   },
   {
@@ -3828,6 +4031,24 @@
    "corrected_claim": "OKO.press reports that PiS MP Marcin Warchoł accused Donald Tusk of an assault (zamach) on the Constitutional Tribunal.",
    "note": "The line is a heading-like sentence placed after a 'Przeczytaj także' link block. The context does not contain the 'Tribunal on the phone' quote, and that he made the accusation is a reported fact.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-b4f72c74",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Sejm (plenary vote)",
+   "relation": "vote on the chair's proposal to shorten the art. 37 ust. 4 deadline for the druk nr 226 first reading",
+   "object": "233 for, 176 against, 1 abstention",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The Sejm voted 233 for, 176 against, 1 abstaining (410 voting) to accept a proposal to shorten the deadline in art. 37 ust. 4 of the Sejm rules; the excerpt does not show which draft the proposal concerned.",
+   "note": "The context shows the vote on shortening the art. 37 ust. 4 deadline and its result, but the text before the vote does not name druk nr 226; the next proposal concerns druk nr 227.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
   },
   {
    "claim_id": "B02-b9808526",
@@ -4469,6 +4690,25 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-144b168f",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "subject": "moj",
+   "relation": "paid Prof. Marcin Dziurda PLN 8,000 under a work contract to analyse, and possibly propose changes to, a draft act (MS/4887/BF/2024)",
+   "object": "dziurda",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_relation",
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The MoJ concluded work contract MS/4887/BF/2024 with Prof. Marcin Dziurda on 2 Apr 2024 (term 2-22 Apr 2024), valued at PLN 8,000, to analyse and possibly propose changes to the draft transposition of Directive 2020/1828 on representative actions.",
+   "note": "The register lists the contract and its value of PLN 8,000.00 but does not show a payment. His 2026 TK election, mentioned in the scope, is not on the page.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-14fccf99",
    "batch": "03",
    "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/289/body",
@@ -4504,6 +4744,24 @@
    "corrected_claim": "Jacek Zaleśny is listed among those who prepared the MoJ-presented opinions on TK order Ts 9/24.",
    "note": "The context names Zaleśny as a preparer, but the excerpt ends before his bio, so the University of Warsaw and Łazarski affiliations cannot be seen.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-1d0c85f5",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Anna Tomaszewska",
+   "relation": "Vice-President of the Management Board (Wiceprezeska Zarządu), entered in KRS",
+   "object": "Akcja Demokracja (akcja_demokracja)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Anna Tomaszewska is listed on Akcja Demokracja's management board in the 2024 report as Wiceprezeska Zarządu (Vice-President of the Board), with 'TAK' in the row.",
+   "note": "The row decodes to 'Anna Tomaszewska / Wiceprezeska Zarządu / TAK'. The meaning of the TAK/NIE column is not stated in the extract.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-1f4690b5",
@@ -4543,6 +4801,24 @@
    "corrected_claim": "ResPublica Foundation (Fundacja ResPublica, Poland) received a PROTEUS grant of €23,428 for 6 months for 'Democracy on Edge'. The context does not name the grantor or the call.",
    "note": "The context lists ResPublica's 'Democracy on Edge' with €23,428 over 6 months. It does not name the Transatlantic Foundation or the call.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-20df8360",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "subject": "Małgorzata Szuleka",
+   "relation": "Secretary of the Management Board (Sekretarz Zarządu), entered in KRS",
+   "object": "Helsinki Foundation for Human Rights (hfhr)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Małgorzata Szuleka is listed on HFHR's management board for 2025 as Sekretarz Zarządu (Secretary of the Board), with 'TAK' in the row.",
+   "note": "The row decodes to 'Małgorzata Szuleka / Sekretarz Zarządu / TAK'. The extract does not label what the TAK column means.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-223f5f5c",
@@ -4690,6 +4966,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-2ff53784",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
+   "subject": "Prezydent Rzeczypospolitej Polskiej (not named in OE–468)",
+   "relation": "knew the situation in the Tribunal when the law was sent to it (author's assertion)",
+   "object": "Trybunał Konstytucyjny",
+   "label": "alleged",
+   "verdict": "partly_supported",
+   "problems": [
+    "other"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The OE-468 author asserts that the President knew the situation in the Tribunal, and says he referred the law to a body he knew was not functioning ('nie działa').",
+   "note": "The author writes that the President knew the situation in the Tribunal and referred the law to a body 'he knew does not function'. This contradicts the label_scope's statement that the page does not say what the situation was.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-30e64b08",
    "batch": "03",
    "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
@@ -4800,6 +5094,24 @@
    "corrected_claim": "The Childbirth with Dignity Foundation (Fundacja Rodzić Po Ludzku, Poland) received a PROTEUS grant of €25,000 for 10 months for 'Citizens safeguarding dignified childbirth'. The context does not name the grantor or the call.",
    "note": "The context lists the project with a €25,000 grant over 10 months. It does not name the Transatlantic Foundation or the call heading.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-3f349614",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "subject": "Marcin Wolny",
+   "relation": "Treasurer of the Management Board (Skarbnik Zarządu), entered in KRS",
+   "object": "Helsinki Foundation for Human Rights (hfhr)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Marcin Wolny is listed on HFHR's management board for 2025 as Skarbnik Zarządu (Treasurer of the Board), with 'TAK' in the row.",
+   "note": "The row decodes to 'Marcin Wolny / Skarbnik Zarządu / TAK'. The TAK column's header (KRS entry) is not shown in the extract.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-3f458b3b",
@@ -5003,6 +5315,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-5bcc4a8d",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "Freedom Foundation (legal name: Fundacja Wolności, Poland)",
+   "relation": "awarded PROTEUS grant (transparency call), 12 months",
+   "object": "Transatlantic Foundation (PROTEUS)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Freedom Foundation (Fundacja Wolności) was listed for a €25,000, 12-month PROTEUS grant for 'Monitoring of EU funds in the Lubelskie voivodeship'.",
+   "note": "The context lists the applicant, project title, €25,000 grant and 12-month duration. The given context does not show the grantor's name, the call heading or the selection date.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-5d92ff1a",
    "batch": "03",
    "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
@@ -5057,6 +5387,42 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-61d21727",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Jakub Kocjan",
+   "relation": "President of the Management Board (Prezes Zarządu), entered in KRS",
+   "object": "Akcja Demokracja (akcja_demokracja)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Jakub Kocjan is listed on Akcja Demokracja's management board in the 2024 report as Prezes Zarządu (President of the Board), with 'TAK' in the row.",
+   "note": "The row decodes to 'Jakub Kocjan / Prezes Zarządu / TAK'. The extract mentions a TAK/NIE column but does not say it records KRS entry.",
+   "context_source": "reader_extract"
+  },
+  {
+   "claim_id": "B03-665b44c5",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "Masovia Federation (legal name: Federacja Mazowia, Poland)",
+   "relation": "awarded PROTEUS grant (EU rights awareness call), 6 months",
+   "object": "Transatlantic Foundation (PROTEUS)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Masovia Federation (Federacja Mazowia, Poland) is listed on the GMF PROTEUS page as the applicant for 'Mazovian Civic Academy', with a grant of €15,000 and a duration of 6 months; the context does not name the granting entity.",
+   "note": "The context lists Masovia Federation as the applicant for 'Mazovian Civic Academy' (40 youth, workshops in Żyrardów) with Grant: €15,000 and Duration: 6 months. It does not name the Transatlantic Foundation, the call or a date, and the excerpt is only the project title.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-6750f283",
    "batch": "03",
    "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
@@ -5094,6 +5460,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-75b709f5",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Marcin Zielonka",
+   "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
+   "object": "Akcja Demokracja (akcja_demokracja)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Marcin Zielonka is listed on Akcja Demokracja's management board in the 2024 report as Członek Zarządu (Board Member), with 'TAK' in the row.",
+   "note": "The row decodes to 'Marcin Zielonka / Członek Zarządu / TAK'. The extract does not label the TAK/NIE column as KRS entry.",
+   "context_source": "reader_extract"
+  },
+  {
    "claim_id": "B03-79643a3c",
    "batch": "03",
    "url": "https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach",
@@ -5127,6 +5511,24 @@
    "translation_ok": true,
    "corrected_claim": "The Mott Foundation grants database record 200600165 ('Endowment Fund') describes a grant to support an endowment fund for the Stefan Batory Foundation; the amount and grant period are not visible in the context provided.",
    "note": "The context shows only the page metadata: the title 'Stefan Batory Foundation, Endowment Fund, 200600165' and the description 'This grant will provide support to an endowment fund for the Stefan Batory Foundation'; no amount, dates or location appear.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-7e4077d5",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "Citizen Network Watchdog Poland (legal name: Sieć Obywatelska Watchdog Polska, Poland)",
+   "relation": "awarded PROTEUS grant (transparency call), 10 months",
+   "object": "Transatlantic Foundation (PROTEUS)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Citizen Network Watchdog Poland (Sieć Obywatelska Watchdog Polska) was listed for a €25,000, 10-month PROTEUS grant for 'Local influence, joint control: monitoring lobbying in local government'.",
+   "note": "The context lists the applicant, project title, €25,000 grant and 10-month duration. The given context does not show the grantor's name, the call heading or the selection date.",
    "context_source": "page_text"
   },
   {
@@ -5278,6 +5680,25 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-9615f02e",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "subject": "moj",
+   "relation": "paid DemoCrisis PLN 31,500 to co-organise the 'DemoCrisis - Civic Action Network Summit from Democratic Backsliding to Re-Democratisation: Learning from Poland's Success Story' (16-17 Apr 2024)",
+   "object": "democrisis",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_relation",
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The MoJ concluded contract MS/4857/BK/2024 on 12 Apr 2024 with DemoCrisis civic action network, valued at PLN 31,500, to co-organise the 'DemoCrisis - Civic Action Network Summit from Democratic Backsliding to Re-Democratisation: Learning from Poland's Success Story' (16-17 Apr 2024).",
+   "note": "The row lists a co-organisation contract worth PLN 31,500.00, not a confirmed payment. The scope's details on Wawrykiewicz and undisclosed funders are not on the page.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-9b9ea2db",
    "batch": "03",
    "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3234/body",
@@ -5348,6 +5769,42 @@
    "translation_ok": true,
    "corrected_claim": "HFHR's 2025 report lists Maciej Nowicki on the management board as Prezes Zarządu (decoded from a mis-encoded font), with 'TAK' in the following column.",
    "note": "The extract shows the row 'Maciej Nowicki WƌĞǌĞƐĂƌǌČĚƵ TAK', which decodes the same way as the other board rows to 'Prezes Zarządu'; the column header that would show 'TAK' means entered in KRS is not in the extract.",
+   "context_source": "reader_extract"
+  },
+  {
+   "claim_id": "B03-a434bf93",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Bogumił Kolmasiak",
+   "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
+   "object": "Akcja Demokracja (akcja_demokracja)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "A board member whose name decodes to '[B]ogumił Kolmasiak' (first letter missing) is listed on Akcja Demokracja's management board in the 2024 report as Członek Zarządu, with 'TAK' in the row.",
+   "note": "The row decodes to '(B)ogumił Kolmasiak / Członek Zarządu / TAK' with the first letter lost. The TAK column's meaning is not given in the extract.",
+   "context_source": "reader_extract"
+  },
+  {
+   "claim_id": "B03-a48251f5",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "subject": "Piotr Kładoczny",
+   "relation": "Vice-President of the Management Board (Wiceprezes Zarządu), entered in KRS",
+   "object": "Helsinki Foundation for Human Rights (hfhr)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Piotr Kładoczny is listed on HFHR's management board for 2025 as Wiceprezes Zarządu (Vice-President of the Board), with 'TAK' in the row.",
+   "note": "The mis-encoded row decodes to 'Piotr Kładoczny / Wiceprezes Zarządu / TAK'. The extract does not name the TAK column, so the 'entered in KRS' meaning is not shown.",
    "context_source": "reader_extract"
   },
   {
@@ -5571,6 +6028,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-b491d33f",
+   "batch": "03",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "subject": "Polish Ministry of Foreign Affairs (MSZ)",
+   "relation": "supports HFHR's urgent aid (incl. relocation) for human rights defenders; form and amount not stated",
+   "object": "hfhr",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "wrong_object"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "The Polish MFA supports HFHR's strategy for providing urgent aid to human rights defenders, and introduced its own special procedure to help relocate at-risk defenders and their families to Poland; the form and amount of support are not stated.",
+   "note": "The report says the MFA supports the Foundation's strategy for urgent aid to defenders and that the MFA introduced a special relocation procedure. It does not say the MFA funds HFHR's aid, including relocation.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-b4ecd7a7",
    "batch": "03",
    "url": "https://aktywniobywatele.org.pl/en/projekty/helsinki-foundation-for-human-rights/",
@@ -5625,6 +6100,24 @@
    "corrected_claim": "Casimir Pulaski Foundation (Fundacja im. Kazimierza Pułaskiego, Poland) received a PROTEUS grant of €24,980 for 6 months for 'Empowering Young Women Experts in Regional Security and Foreign Policy'. The context does not name the grantor or the call.",
    "note": "The context lists the project with a €24,980 grant over 6 months and a description about women's participation. It does not name the Transatlantic Foundation or the call heading.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-c23e69b4",
+   "batch": "03",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "subject": "Aleksandra Iwanowska",
+   "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
+   "object": "Helsinki Foundation for Human Rights (hfhr)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Aleksandra Iwanowska is listed on HFHR's management board for 2025 as Członek Zarządu (Board Member), with 'TAK' in the row.",
+   "note": "The row decodes to 'Aleksandra Iwanowska / (C)złonek (Z)arządu / TAK', with the capital letters dropped. The TAK column header is not in the extract.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-c2f5fcdd",
@@ -5700,6 +6193,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-ce70b7b9",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Aneta Korpikiewicz",
+   "relation": "Member of the Management Board (Członkini Zarządu), not entered in KRS",
+   "object": "Akcja Demokracja (akcja_demokracja)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Aneta Korpikiewicz is listed on Akcja Demokracja's management board in the 2024 report as Członkini Zarządu (Board Member), with 'NIE' in the row.",
+   "note": "The row decodes to 'Aneta Korpikiewicz / Członkini Zarządu / NIE'. The extract does not say that the NIE column means not entered in KRS.",
+   "context_source": "reader_extract"
+  },
+  {
    "claim_id": "B03-cef02f78",
    "batch": "03",
    "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
@@ -5772,6 +6283,24 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-dd48d093",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "Campaign Against Homophobia (legal name: Kampania Przeciw Homofobii, Poland)",
+   "relation": "awarded PROTEUS grant (EU rights awareness call), 7 months",
+   "object": "Transatlantic Foundation (PROTEUS)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Campaign Against Homophobia (Kampania Przeciw Homofobii) was listed for a €15,000, 7-month PROTEUS grant for 'Rainbow families and the everyday meaning of dignity, equality, and non-discrimination'.",
+   "note": "The context lists the applicant, project title, €15,000 grant and 7-month duration. The given context does not show the grantor's name, the call heading or the selection date.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-ddf6b54c",
    "batch": "03",
    "url": "https://www.domstol.no/en/norwegian-courts-administration/international-cooperation/poland/",
@@ -5803,10 +6332,9 @@
    ],
    "label_ok": true,
    "translation_ok": true,
-   "corrected_claim": "The Ministry of Justice concluded a contract (MS/4896/BK/2024, 2024-05-06) worth PLN 26,545.86 with Brand 24 S.A. of Wrocław for monitoring the MoJ brand and related profiles on social media.",
-   "note": "The reader extract lists this row with value 26 545,86; it records a contract, not a payment.",
-   "context_source": "reader_extract",
-   "context_note": "judged on the reader's extract; a re-check on the page text is pending"
+   "corrected_claim": "The MoJ concluded contract MS/4896/BK/2024 on 6 May 2024 with Brand 24 S.A. (Wrocław), valued at PLN 26,545.86, for monitoring the MoJ brand and related profiles on social media, term 01.05.2024-31.10.2025.",
+   "note": "The row gives a contract value of PLN 26,545.86 and a term of 01.05.2024-31.10.2025. It does not show that the amount was paid.",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-ee000f08",
@@ -6027,6 +6555,24 @@
    "translation_ok": true,
    "corrected_claim": "FOSa (Federacja Organizacji Socjalnych Województwa Warmińsko-Mazurskiego FOSa, Poland) received a PROTEUS grant of €24,910 for 7 months for 'THE GAP - Networking without gaps in Warmia and Mazury'. The context does not name the grantor or the call.",
    "note": "The context lists 'THE GAP' with €24,910 over 7 months. It does not name the Transatlantic Foundation or the call heading.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-ffb3e80b",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "Demagog Association (legal name: Stowarzyszenie Demagog, Poland)",
+   "relation": "awarded PROTEUS grant (EU rights awareness call), 10 months",
+   "object": "Transatlantic Foundation (PROTEUS)",
+   "label": "fact",
+   "verdict": "partly_supported",
+   "problems": [
+    "claim_goes_beyond_excerpt"
+   ],
+   "label_ok": true,
+   "translation_ok": true,
+   "corrected_claim": "Demagog Association (Stowarzyszenie Demagog, Poland) is listed on the GMF PROTEUS page as the applicant for 'Facts, not fiction!', with a grant of €15,000 and a duration of 10 months; the context does not name the granting entity.",
+   "note": "The context lists Demagog Association as the applicant for 'Facts, not fiction!' with Grant: €15,000 and Duration: 10 months. It does not name the Transatlantic Foundation, the call name or a date, and the excerpt itself is only the project title.",
    "context_source": "page_text"
   },
   {
@@ -7690,6 +8236,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-27b9c450",
+   "batch": "01",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "subject": "Helsinki Foundation for Human Rights (HFHR)",
+   "relation": "ran research projects with",
+   "object": "Iustitia (printed as IUSTITIA)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report gives research as an example of NGO collaboration with judges' associations: several HFHR research projects done with IUSTITIA, including 'Efficient Court. Collection of Best Practises'.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-27d673a0",
    "batch": "01",
    "url": "https://www.rafto.no/en/news/freeze-poland-grants",
@@ -8066,6 +8626,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The release says Judicial Watch sued after the State Department failed to respond to a November 2025 FOIA request; November 2025 is the request date.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-2f6a887b",
+   "batch": "01",
+   "url": "https://www.bizraport.pl/krs/0000829554/fundacja-wolne-sady",
+   "subject": "Fundacja Wolne Sądy",
+   "relation": "filed 2025 financial statements",
+   "object": "20-05-2026",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The filing-history table lists 2025 as filed 20-05-2026, 1 month 26 days before the deadline, and the text says the 2025 statement was filed 56 days early.",
    "context_source": "page_text"
   },
   {
@@ -9034,6 +9608,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article calls Katarzyna Batko-Tołuć the chair of the NGO network Watchdog Polska and reports her remarks to PAP on February 12.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-4915902c",
+   "batch": "01",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "subject": "NGOs and the judiciary - watch dog activities, interactions, collaboration, communication (project)",
+   "relation": "is supported by",
+   "object": "Visegrad Fund",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The cover text says the project is supported by the Visegrad Fund and the Ministry of Foreign Affairs of the Republic of Korea.",
    "context_source": "page_text"
   },
   {
@@ -11645,6 +12233,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-837d7af1",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Maciej Berek",
+   "relation": "says the same legal conditions that apply to Przyłębska's TK presidency now apply to Święczkowski, who now leads the TK",
+   "object": "Bogdan Święczkowski (surname only in the transcript)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Berek cites the CJEU ruling on legal defects in the selection of Przyłębska, who led the Tribunal, and says exactly the same legal conditions apply to Judge Święczkowski, who leads it today; only the surname appears.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-84329c4c",
    "batch": "01",
    "url": "https://xyz.pl/dzieje-sie/szef-ms-polecilem-szefowi-pk-podjecie-czynnosci-w-zwiazku-z-proba-sparalizowania-pracy-tk-4264",
@@ -11900,6 +12502,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-8bf8ea29",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Donald Tusk",
+   "relation": "offered Maciej Berek, per Berek, in 2007 the job of coordinating government legislation as president of the Government Legislation Centre",
+   "object": "Maciej Berek",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Berek says that in 2007 Prime Minister Tusk, who was forming his cabinet, offered him the job of coordinating government legislative work as president of the Government Legislation Centre.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-8c36aaf5",
    "batch": "01",
    "url": "https://files.ptwp.pl/i/00/15/08/001508.pdf",
@@ -12135,6 +12751,35 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The presenter says Berek also ran a one-person legal adviser's office and gives no dates.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-90fba4b3",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Maciej Berek",
+   "relation": "says the MPs' bill he was asked about was prepared in cooperation with the Ministry of Justice and minister Bodnar",
+   "object": "Bodnar (minister; first name not given on the page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The candidate (labelled Maciej Berek when he resumes after an interruption) says it was an MPs' bill prepared in cooperation with the Ministry of Justice and Minister Bodnar, which he knew and supported.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-91408896",
+   "batch": "01",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "subject": "Paweł Jabłoński (RozwojPlus)",
+   "relation": "says the nomination states that Berek worked as a legal adviser under civil-law contracts outside his 2022-2023 one-person office",
+   "object": "civil-law contracts (clients not named)",
+   "label": "alleged",
+   "verdict": "supported",
+   "label_ok": false,
+   "suggested_label": "fact",
+   "translation_ok": true,
+   "note": "Jabłoński says the motion's justification states a one-person firm in 2022-2023 and civil-law legal adviser contracts in the rest of the period, and he calls these statements objectively untrue. The page reports him saying this.",
    "context_source": "page_text"
   },
   {
@@ -15901,6 +16546,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-e4d195a2",
+   "batch": "01",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "subject": "Nobody's Children Foundation",
+   "relation": "organises conferences in cooperation with",
+   "object": "Ministry of Justice and Warsaw Municipality",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Item 5 of the FDN list says Nobody's Children Foundation, with the Ministry of Justice and Warsaw Municipality, has organised the conferences 'Helping children - victims of crime' since 2004.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B01-e4d2486f",
    "batch": "01",
    "url": "https://worldjusticeproject.org/world-justice-challenge/free-courts-foundation-defending-rule-law-poland",
@@ -15968,6 +16627,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Żurek's X post blames Robert Bąkiewicz and his people for the attempt to paralyse the TK. The parenthetical 'lidera ROP' was added by PAP and is not in Żurek's post.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-e5d6c18d",
+   "batch": "01",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "subject": "Association of Polish Judges IUSTITIA (Iustitia)",
+   "relation": "is described as",
+   "object": "oldest and biggest private judges' association in Poland",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report says there are no public judges' associations but several private ones, and that IUSTITIA is the oldest and biggest.",
    "context_source": "page_text"
   },
   {
@@ -16056,6 +16729,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Under 'Zobacz także' the page lists an item dated 2019-10-18 with this headline about the RPO refraining from accepting the Roland Berger Foundation prize.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B01-ea0f7c6c",
+   "batch": "01",
+   "url": "https://impactcee.com/impact/2024/thematic-tracks/",
+   "subject": "Impact'24 operator (not named on page)",
+   "relation": "shows address and KRS number",
+   "object": "ul. Stawki 3a/47 00-193 Warsaw POLAND KRS:0000611651",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page footer shows 'Address ul. Stawki 3a/47 00-193 Warsaw POLAND KRS:0000611651' and does not name the operating company.",
    "context_source": "page_text"
   },
   {
@@ -17103,6 +17790,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B01-fffa358b",
+   "batch": "01",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "subject": "NGOs and the judiciary - watch dog activities, interactions, collaboration, communication (project)",
+   "relation": "is supported by",
+   "object": "Ministry of Foreign Affairs of the Republic of Korea",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The cover text names the Ministry of Foreign Affairs of the Republic of Korea as a supporter of the project, alongside the Visegrad Fund.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-00b0a7ee",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "gave speech presenting the draft resolution (druk nr 226)",
+   "object": "poselski projekt uchwały (druk nr 226)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "In her speech under item 3, Gasiuk-Pihowicz says that, together within the democratic coalition of 15 October, 'we present' the resolution.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-013c94d8",
    "batch": "02",
    "url": "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/",
@@ -17342,6 +18057,20 @@
    "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
   },
   {
+   "claim_id": "B02-082b6415",
+   "batch": "02",
+   "url": "https://bip.brpo.gov.pl/pl/content/brpo-wizyta-komisja-monitoringowa-2026",
+   "subject": "PACE monitoring procedure",
+   "relation": "was opened against Poland in 2020 in reaction to changes in justice-system law",
+   "object": "Poland",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The RPO page says the delegation is in Poland under the monitoring procedure opened against Poland in 2020 in reaction to changes in justice-system law, when PACE adopted a resolution.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-08e267e9",
    "batch": "02",
    "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
@@ -17454,6 +18183,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-0b48aebb",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat",
+   "relation": "backed full disclosure of judges' asset declarations",
+   "object": "pełna jawność oświadczeń majątkowych sędziów TK",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says the Senate also backed full disclosure of judges' asset declarations, in the context of the TK bills.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-0b7e7b31",
    "batch": "02",
    "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/tomasz-zielinski",
@@ -17539,6 +18282,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-0d5f5e53",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "Citizen Network - Watchdog Poland",
+   "relation": "is one of the seven organisations that led and composed the coalition",
+   "object": "rule-of-law monitoring coalition of CSOs (unnamed on page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The organisation name field and the description list Citizen Network - Watchdog Poland among the seven organisations that lead and make up the coalition.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-0ddcf684",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+   "object": "OKO.press",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The placeholder notice says the site is temporarily unavailable and that the archive's materials on the rule of law, democracy and human rights can be found on OKO.press.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-0e455f40",
    "batch": "02",
    "url": "https://archiwum.hfhr.pl/en/foundation/zarzad-i-rada-en",
@@ -17550,6 +18321,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The archived HFHR 'Board and Council' page lists Maciej Nowicki as President of the Board and describes him as an expert in cause-related documentary film and director of WATCH DOCS.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-0ed33bc6",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "batory",
+   "relation": "co-author (listed first) of the joint 'Written input to the 2026 Rule of Law Report'",
+   "object": "Joint NGO written input to the 2026 Rule of Law Report",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I lists the Stefan Batory Foundation first among the seven authors of the 2026 written input.",
    "context_source": "page_text"
   },
   {
@@ -17976,6 +18761,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-1e83bd19",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "page footer names",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice ends with the line 'Fundacja Ośrodek Kontroli Obywatelskiej OKO' and does not state any relationship in words.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-1e86c7ad",
    "batch": "02",
    "url": "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
@@ -18172,6 +18971,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-274a518c",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "free_courts",
+   "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report' (seven Polish NGOs), cited by the Commission",
+   "object": "Joint NGO written input to the 2026 Rule of Law Report",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I lists the 2026 'Written input to the 2026 Rule of Law Report' by seven NGOs, including the Free Courts Foundation.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-27be741f",
    "batch": "02",
    "url": "https://www.eecpoland.eu/2026/en/speakers/pawel-majcher,26196.html",
@@ -18326,6 +19139,48 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-3107f597",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "the TK reform",
+   "relation": "intended repeal of three existing TK acts",
+   "object": "three acts on TK status, procedure and implementing provisions",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says that, as intended, the reform will repeal three acts: on the status of TK judges, on TK organisation and procedure, and the provisions implementing the latter; 'governing' renders 'odnoszące się do funkcjonowania' ('relating to the functioning of') loosely.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-31278a87",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "President of the Constitutional Tribunal (holder not named on page)",
+   "relation": "assigns panels in (no random allocation at the Tribunal)",
+   "object": "Constitutional Tribunal",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": false,
+   "note": "The submission says there is no random case allocation at the Constitutional Tribunal and that panels are assigned by specific individuals, including the TK President. The translation adds an explanatory gloss in parentheses that is not in the excerpt.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-32039ac2",
+   "batch": "02",
+   "url": "https://www.telepolis.pl/wiadomosci/ministerstwo-cyfryzacji-rada-do-spraw-cyfryzacji-vi-kadencja",
+   "subject": "Krzysztof Gawkowski",
+   "relation": "officially appointed the new composition of",
+   "object": "Rada do spraw Cyfryzacji (6th term)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The meta description says Deputy PM Krzysztof Gawkowski officially appointed the new Rada do spraw Cyfryzacji and that its first meeting is planned for mid-January 2026; no appointment date is given.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-320a7546",
    "batch": "02",
    "url": "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/",
@@ -18351,6 +19206,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The THIRD PARTY field names the Permanent Representation of Poland to the EU at Rue Stevin 139 for the All Hands on Deck against FIMI Conference, Brussels, 25/06/2026. Travel, accommodation and subsistence are all marked No.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-324d6f04",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "watchdog_polska",
+   "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
+   "object": "Joint NGO written input to the 2026 Rule of Law Report",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I lists Citizen Network - Watchdog Poland among the seven authors of the 2026 written input.",
    "context_source": "page_text"
   },
   {
@@ -18452,6 +19321,20 @@
    "context_source": "page_text of the linked page https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf"
   },
   {
+   "claim_id": "B02-387384b9",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "poselski projekt uchwały w sprawie usunięcia skutków kryzysu konstytucyjnego lat 2015-2023 w kontekście działalności Trybunału Konstytucyjnego",
+   "relation": "print number",
+   "object": "druk nr 226",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The item 3 heading names the deputies' draft resolution on removing the effects of the 2015-2023 constitutional crisis as druk nr 226.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-38cdd0cb",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf",
@@ -18519,6 +19402,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The same ICBWS bio calls Markiewicz editor-in-chief of Kwartalnik Sędziów Polskich \"Iustitia\". That is a journal, although the claim types it as an org.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-3982289d",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "batory",
+   "relation": "its 16th Civic Legislation Forum report (15 Dec 2025) is cited as a source in the 2026 Poland chapter",
+   "object": "European Commission services (2026 Rule of Law Report)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I (list of sources) includes the Batory Foundation's 'Mały krok do przodu. XVI raport Obywatelskiego Forum Legislacji' of 15 December 2025.",
    "context_source": "page_text"
   },
   {
@@ -18702,6 +19599,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Point 4 of the opinion accepts in principle that a nominated candidate is subject to a KRS opinion. It asks art. 19 ust. 2 to set a deadline and the effect of a missing or late KRS opinion.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-419362d3",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "statement in speech on druk nr 226",
+   "object": "Trybunał Konstytucyjny",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Near the end of her speech she says 'Dziś Trybunału Konstytucyjnego nie ma' and adds that the courts now protect the law through diffuse constitutional review.",
    "context_source": "page_text"
   },
   {
@@ -19111,6 +20022,48 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-4efb4c1e",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Sławomir Ćwik",
+   "relation": "called to present the justification of druk nr 226",
+   "object": "poselski projekt uchwały (druk nr 226)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "After Gasiuk-Pihowicz, Bosak asks Sławomir Ćwik to present the justification of the draft resolution under item 3.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
+   "claim_id": "B02-4efda796",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+   "relation": "would give the Chairman of the Council of Ministers (Prezes RM) participant status in every case before the TK (art. 57 pkt 12)",
+   "object": "Prezes Rady Ministrów (office; holder not named on the page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion says art. 57 pkt 12 gives participant status in every TK case to the Sejm Marshal, Senate Marshal, First President of the SN and Prezes RM, and calls this too far-reaching and unjustified.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-4f09b0e9",
+   "batch": "02",
+   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
+   "subject": "Wawrykiewicz Michał",
+   "relation": "is liquidator and partner (wspólnik) of",
+   "object": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji (KRS 0000989203)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Under 'Reprezentacja' the page lists 'Wawrykiewicz Michał likwidatorwspólnik' and 'Janczara Sandra wspólnik'.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-4fd7ae80",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/d1bbf36a-910a-4c59-89e3-60c69b0dc407_1739802001380.pdf",
@@ -19178,6 +20131,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The list of 15 top candidates includes Wojciech Buchajczuk, Warsaw District Court judge and vice-president of Iustitia, with 3382 votes.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-54fa323d",
+   "batch": "02",
+   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
+   "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+   "relation": "has registered address (changed by KRS entry of 28.08.2024)",
+   "object": "UL. JESIONOWA, 3, 02-073 Warszawa (previously UL. WIEJSKA 12, 00-490 Warszawa)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "KRS entry no. 5 of 28.08.2024 removes the UL. WIEJSKA 12, 00-490 address and enters UL. JESIONOWA 3, 02-073 Warszawa, which matches the basic-data address.",
    "context_source": "page_text"
   },
   {
@@ -19403,6 +20370,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "OKO.press's live entry of 20-12-2023 calls Piotr Zemła the new head of the TVP supervisory board arriving at Woronicza, and adds that PiS MPs and TVP staff disputed his authority and the legal force of the decision changing the station's management.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-5c31c94b",
+   "batch": "02",
+   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
+   "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+   "relation": "is in liquidation (Postępowanie likwidacyjne)",
+   "object": "Tak; no liquidation start date or liquidator appointment date shown",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The basic-data table lists 'Postępowanie likwidacyjne Tak' for the entity, with no date for the start of liquidation.",
    "context_source": "page_text"
   },
   {
@@ -19646,6 +20627,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-6604c0ac",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "stated plan for further legislation",
+   "object": "two acts and a constitutional amendment",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Gasiuk-Pihowicz calls the resolution a first step to be followed by others: 'Two acts and a constitutional amendment. We will restore the Constitutional Tribunal to the Poles.'",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-668ae595",
    "batch": "02",
    "url": "https://pace.coe.int/en/news/10299",
@@ -19811,6 +20806,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "His bio lists him as 'członek Towarzystwa Naukowego Procesualistów Cywilnych'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-6c929baf",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "Donald Tusk",
+   "relation": "stated publicly that the government relied on opinions of leading legal experts",
+   "object": "legal opinions on 2023 dismissals of heads of Polish Public Television, Polish Radio and Polish Press Agency (by Minister of Culture, unnamed)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The submission says that at the time of the 2023 public-media dismissals, Prime Minister Tusk stated publicly that the government relied on opinions of leading legal experts, and that those opinions were not disclosed.",
    "context_source": "page_text"
   },
   {
@@ -20038,6 +21047,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-743c193a",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat",
+   "relation": "vote tally on both TK bills",
+   "object": "51 for, 30 against, 0 abstentions",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "51 senators voted to adopt both bills, 30 voted against and none abstained.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-74a10e02",
    "batch": "02",
    "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
@@ -20206,6 +21229,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-7b7680a1",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat",
+   "relation": "passed two bills reforming the Constitutional Tribunal",
+   "object": "nowa ustawa o TK; ustawa z przepisami wprowadzającymi zmiany",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "On Wednesday 31 July 2024 the Senate backed two TK bills, the new law on the TK and the implementing law, with amendments.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-7bb9450f",
    "batch": "02",
    "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11241416,urzednicy-prezydenta-wezwani-przez-prokurature-sledztwo-w-sprawie-sed.html",
@@ -20231,6 +21268,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The authorities page lists 'SSR dr hab. Katarzyna Gajda-Roszczynialska, prof. UŚ' as 'zastępca dyrektora ICBWS'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-7e154892",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "Responsible Politics Foundation",
+   "relation": "is one of the seven organisations that led and composed the coalition",
+   "object": "rule-of-law monitoring coalition of CSOs (unnamed on page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The organisation name field and the description list the Responsible Politics Foundation among the seven organisations that lead and make up the coalition.",
    "context_source": "page_text"
   },
   {
@@ -20332,6 +21383,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-8053c4e1",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+   "relation": "authorises the Krajowa Izba Radców Prawnych to nominate a candidate for Constitutional Tribunal judge (art. 18 ust. 1 of the bill)",
+   "object": "Krajowa Izba Radców Prawnych",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion criticises art. 18 ust. 1 of the bill, which it says authorises the Krajowa Izba Radców Prawnych to nominate a TK judge candidate.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-808e6255",
    "batch": "02",
    "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
@@ -20399,6 +21464,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The prosecutor's statement says that the team of prosecutors appointed in the Prokuratura Krajowa on the effects of rulings by judges appointed with the post-2017 KRS will make the criminal-law assessment of the notification.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-8378ea0a",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat amendment on written oath",
+   "relation": "purpose as described in the article",
+   "object": "limiting the President's influence on TK composition",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says, without naming a speaker, that the amendment relates to the President swearing in TK judges and aims to limit his possible influence on the Tribunal's composition by refusing oaths.",
    "context_source": "page_text"
   },
   {
@@ -20623,6 +21702,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The form, filed under Surname Wawrykiewicz and Forename Michał, carries 'Date: 21/07/2026' followed by an empty 'Signature:' field.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-8b06ba8d",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Both TK bills",
+   "relation": "next procedural stage after the Senate",
+   "object": "Sejm",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says that, because of the amendments, both TK bills will now return to the Sejm for further work.",
    "context_source": "page_text"
   },
   {
@@ -21032,6 +22125,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-998ab4d9",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/MP",
+   "subject": "Sławomir Ćwik",
+   "relation": "Sejm club membership (club field)",
+   "object": "Centrum",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Record id 63 for Sławomir Ćwik shows club 'Centrum', districtName 'Chełm', districtNum 7, active:true.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-9abee334",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "2025 budget (Poland)",
+   "relation": "did not include funds for",
+   "object": "remuneration of judges of the Constitutional Tribunal",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The submission says the 2025 budget did not include funds for the pay of TK judges or for allowances of NCJ members.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-9b09cef3",
    "batch": "02",
    "url": "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
@@ -21312,6 +22433,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-a5875278",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Anna Maria Żukowska",
+   "relation": "called to present the justification of druk nr 226",
+   "object": "poselski projekt uchwały (druk nr 226)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Bosak asks Anna Żukowska to present the justification under item 3, and the speaker heading reads 'Poseł Anna Maria Żukowska'.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
    "claim_id": "B02-a5abb7b4",
    "batch": "02",
    "url": "https://www.echr.coe.int/w/anna-adamska-gallant",
@@ -21323,6 +22458,34 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The CV lists 'Member of the National Board of the Polish Judges Association \"Iustitia\", 2009-2011'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-a5b360b8",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "parliamentary majority (unnamed)",
+   "relation": "challenged the legality of the composition of",
+   "object": "Constitutional Tribunal and National Council of the Judiciary",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The submission links the funding gap to the position of the parliamentary majority, which challenged the legality of the composition of the TK and the NCJ and questioned their independence.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-a6bfc8d8",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "hfhr",
+   "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
+   "object": "Joint NGO written input to the 2026 Rule of Law Report",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I lists the Helsinki Foundation for Human Rights among the seven authors of the 2026 written input.",
    "context_source": "page_text"
   },
   {
@@ -21380,6 +22543,20 @@
    "translation_ok": true,
    "note": "The Sejm API record for print 3006 (documentDate 2026-08-14, delivered 2026-08-17) is titled as the candidacy of Maciej Berek for Constitutional Tribunal judge.",
    "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/prints/3006"
+  },
+  {
+   "claim_id": "B02-aac97679",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat",
+   "relation": "extended the four-year cooling-off list for TK candidates",
+   "object": "prezydent RP; wiceministrowie",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": false,
+   "note": "The Senate extended the 4-year cooling-off period for TK candidates by adding the President of Poland and vice-ministers to the list (which already includes deputies, senators and ministers). The translation adds 'as well as vice-ministers', which is not in the quoted excerpt, and leaves out 'among others' (m.in.).",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B02-aaeeeed0",
@@ -21536,6 +22713,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-af04f30e",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "Polish government",
+   "relation": "has not published",
+   "object": "Constitutional Tribunal judgment of 20 November 2025 on the NCJ amendment",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The submission says that on 20 November 2025 the Tribunal found the NCJ amendment partly unconstitutional and that the government has not published this judgment.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-af1d7680",
    "batch": "02",
    "url": "https://www.eecpoland.eu/2026/en/speakers/pawel-majcher,26196.html",
@@ -21603,6 +22794,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article says it was stated that Gorgosz earns 48.4 thousand zł gross. The sentence gives no period. The figure comes from his interview with Dziennik Gazeta Prawna.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-b185faac",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat",
+   "relation": "adopted most amendments, mainly editorial and legislative-drafting",
+   "object": "poprawki",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says the Senate rejected PiS senators' motion to reject the bills and backed most of the amendments, mainly editorial and legislative-drafting ones.",
    "context_source": "page_text"
   },
   {
@@ -21674,6 +22879,34 @@
    "translation_ok": true,
    "note": "The declarations list includes 'Declaration - Shadow rapporteur for report - LIBE - 2018/0902(NLE) - 10-09-2025'.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-b343c1ab",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/MP",
+   "subject": "Katarzyna Ueberhan",
+   "relation": "club as stated when called to speak (item 3 debate, druk nr 226)",
+   "object": "klub parlamentarny Lewicy",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "In the item-3 discussion that follows the club statements, Deputy Marshal Dorota Niedziela invites 'panią poseł Katarzynę Ueberhan, klub parlamentarny Lewicy'.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
+   "claim_id": "B02-b4149635",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Krzysztof Bosak",
+   "relation": "presiding deputy marshal opening item 3 (druk nr 226)",
+   "object": "punkt 3. porządku dziennego",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "In a turn attributed to Wicemarszałek Krzysztof Bosak, he says the Sejm now proceeds to item 3, the first reading of the draft resolution (druk nr 226).",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
   },
   {
    "claim_id": "B02-b4ab93c2",
@@ -21774,6 +23007,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-b8e141ce",
+   "batch": "02",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
+   "subject": "National Federation of Polish NGOs",
+   "relation": "is one of the seven organisations that led and composed the coalition",
+   "object": "rule-of-law monitoring coalition of CSOs (unnamed on page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The organisation name field and the description list the National Federation of Polish NGOs among the seven organisations that lead and make up the coalition.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-b8e17bde",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf",
@@ -21841,6 +23088,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Parltrack's History section lists 'assistants/service providers/1 Andrzej PRENDKE' and gives no service type or value.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-ba820d05",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+   "relation": "routes a motion to start disciplinary proceedings against a TK judge to the TK President (art. 34 ust. 1-3)",
+   "object": "Prezes Trybunału (office; holder not named on the page)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion says that under art. 34 ust. 1-3 a motion to start disciplinary proceedings is filed with the TK President, who in effect becomes the disciplinary body.",
    "context_source": "page_text"
   },
   {
@@ -22012,6 +23273,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-c1b1d433",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/MP",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "reason for mandate waiver (waiverDesc)",
+   "object": "Wybrana na posła do Parlamentu Europejskiego",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Record id 89 has waiverDesc 'Wybrana na posła do Parlamentu Europejskiego'.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-c24f411a",
    "batch": "02",
    "url": "https://us.edu.pl/centra-badawcze/icbws/centrum/wladze-i-czlonkowie",
@@ -22037,6 +23312,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Satterthwaite is quoted listing 'an unexplained veto' among the obstacles. The issuer is not named.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-c323ef0d",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+   "relation": "lists as a ground for excluding a TK judge from a case that the judge was a 'doradca' of a participant within the last 10 years (art. 54 ust. 1 pkt 4 and ust. 2 pkt 2)",
+   "object": "TK judge's past advisory role to a participant in proceedings",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion says art. 54 ust. 1 pkt 4 and ust. 2 pkt 2 of the bill make it a ground for excluding a judge that, within the last 10 years, the TK judge was a 'doradca' of a participant, and it asks what that term means.",
    "context_source": "page_text"
   },
   {
@@ -22317,6 +23606,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The notice text says the Archive's materials on the rule of law, democracy and human rights are in OKO.press.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-cc74d121",
+   "batch": "02",
+   "url": "https://www.tvp.info/89416249/oczekiwania-komisji-europejskiej-wobec-polskiego-rzadu-komisarz-ue-ds-sprawiedliwosci-michael-mcgrath-o-praworzadnosci-w-polsce",
+   "subject": "Michael McGrath",
+   "relation": "holds the post of",
+   "object": "EU Commissioner for Justice, Rule of Law and Democracy (as written: Komisarz UE ds. sprawiedliwości, praworządności i demokracji)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page metadata calls Michael McGrath the EU Commissioner for justice, rule of law and democracy.",
    "context_source": "page_text"
   },
   {
@@ -22685,6 +23988,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-d68fef08",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+   "object": "OKO.press",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The placeholder notice says the site is temporarily unavailable and that the archive's materials on the rule of law, democracy and human rights can be found on OKO.press.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-d798ce74",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
@@ -22710,6 +24027,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The article lists Magdalena Bentkowska as a new TK judge with 236 for, 186 against and 4 abstentions.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-d851726c",
+   "batch": "02",
+   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
+   "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+   "relation": "entered in the KRS register on",
+   "object": "26.08.2022 (KRS 0000989203; basic data also gives 'Rejestracja' 2022-08-26)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The MSiG notice headers for KRS 0000989203 give 'wpis do rejestru: 26.08.2022'; the 'Rejestracja 2022-08-26' line in the basic-data table appears elsewhere on the same page.",
    "context_source": "page_text"
   },
   {
@@ -22906,6 +24237,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The CV lists 'Judicial assessor, District Court, misdemeanour division, Biała Podlaska, Poland, 2002-2004'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-dfb85ed6",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Grzegorz Koksanowicz",
+   "relation": "prepared (Opracował) the opinion; title printed as 'r. pr. dr hab.'",
+   "object": "opinion on the Poselskiego projektu ustawy o Trybunale Konstytucyjnym (dated 5 April 2024)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion ends with 'Opracował: r. pr. dr hab. Grzegorz Koksanowicz', and no other author is named.",
    "context_source": "page_text"
   },
   {
@@ -23106,6 +24451,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-e6b0a155",
+   "batch": "02",
+   "url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+   "subject": "Ministry of Justice (MS)",
+   "relation": "Ministry communiqué justified Żurek's appointment by his experience for the post of deputy director for organisational affairs",
+   "object": "zurek",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The reader extract labels this quote as the ministry communiqué: it says Judge Żurek has the experience needed for the post of KSSiP deputy director for organisational affairs.",
+   "context_source": "reader_extract"
+  },
+  {
+   "claim_id": "B02-e7734f90",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "page footer names",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice ends with the line 'Fundacja Ośrodek Kontroli Obywatelskiej OKO' and does not state any relationship in words.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-e899ca20",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/386/body",
@@ -23148,6 +24521,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-e952516f",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+   "object": "OKO.press",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The placeholder notice says the site is temporarily unavailable and that the archive's materials on the rule of law, democracy and human rights can be found on OKO.press.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-e9f374a8",
    "batch": "02",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf",
@@ -23162,6 +24549,34 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B02-eacaf1b1",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "called by the presiding Deputy Marshal to present the justification of druk nr 226",
+   "object": "poselski projekt uchwały (druk nr 226)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "After opening item 3 (druk nr 226), Wicemarszałek Bosak asks Gasiuk-Pihowicz to present the justification of the draft resolution.",
+   "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
+   "claim_id": "B02-eafe0b89",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/MP",
+   "subject": "Kamila Gasiuk-Pihowicz",
+   "relation": "Sejm mandate ended (inactiveCause, active:false)",
+   "object": "Zrzeczenie",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Record id 89 for Kamila Gasiuk-Pihowicz shows active:false, inactiveCause 'Zrzeczenie' and mandateExpiryDate 2024-06-10.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B02-eb2255d3",
    "batch": "02",
    "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/d1bbf36a-910a-4c59-89e3-60c69b0dc407_1739802001380.pdf",
@@ -23173,6 +24588,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The comments field says 'I was a speaker at the Conference'. Attendance is 04/12/2024 - 05/12/2024 in Paris, and KAS France covered train travel and 3 hotel nights.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-eb51a761",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "Senat amendment",
+   "relation": "allows TK judges to take the oath in writing",
+   "object": "written oath certified by a notary",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says the Senate amendment lets an elected TK judge take the oath in writing, with a notarised signature, and pass it to the Marshal of the Sejm.",
    "context_source": "page_text"
   },
   {
@@ -23229,6 +24658,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page names Maciej Kruk as director of the BRPO Presidium and International Cooperation Team and says he accompanied the (deputy) Ombudsman.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-eb759d4b",
+   "batch": "02",
+   "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207",
+   "subject": "the TK bills",
+   "relation": "intended effect on rulings issued with improperly seated judges",
+   "object": "nieważne i niewywierające skutków",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article says that, as planned, TK rulings issued in recent years with 'persons not entitled to adjudicate' are to be 'void and without effect'.",
    "context_source": "page_text"
   },
   {
@@ -23300,6 +24743,20 @@
    "translation_ok": true,
    "note": "Under item 2 (first reading of the government NCJ bill, druk nr 219), the Minister of Justice Adam Bodnar is asked to present and justify the bill, and a 'Minister Sprawiedliwości Adam Bodnar' speech heading follows.",
    "context_source": "page_text of the linked page https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/0#087"
+  },
+  {
+   "claim_id": "B02-ed2d1d93",
+   "batch": "02",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "subject": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+   "relation": "recommends that the right to nominate Constitutional Tribunal judge candidates go to the national-level body of the legal advisers' self-government (KRRP), not to a unit (KIRP)",
+   "object": "Krajowa Rada Radców Prawnych",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion's author argues that the right to nominate a TK judge candidate should go to the national body, Krajowa Rada Radców Prawnych, not to the organisational unit Krajowa Izba Radców Prawnych.",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B02-ed87f006",
@@ -23412,6 +24869,20 @@
    "translation_ok": true,
    "note": "The agenda header names Georgetown University, Washington DC, and the agenda mentions a shuttle to Georgetown.",
    "context_source": "page_text of the linked page https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf"
+  },
+  {
+   "claim_id": "B02-f24a742d",
+   "batch": "02",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
+   "subject": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+   "relation": "states that the planned amendment of the broadcasting act (uortv) provides for",
+   "object": "a new method of selecting the bodies (organy) of the public radio and television companies",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The ministry writes that the planned amendment provides for reorganising the public media companies by introducing a new way of selecting their bodies, giving them guarantees of independence and changing their funding.",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B02-f25a4b49",
@@ -23593,6 +25064,34 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The coalition states that the President of Poland subsequently referred the NCJ amendment to the Constitutional Tribunal; no name or date is given.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-fa30eeb6",
+   "batch": "02",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf",
+   "subject": "Archiwum im. Wiktora Osiatyńskiego",
+   "relation": "page footer names",
+   "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The notice ends with the line 'Fundacja Ośrodek Kontroli Obywatelskiej OKO' and does not state any relationship in words.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B02-fa734275",
+   "batch": "02",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "subject": "isp",
+   "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
+   "object": "Joint NGO written input to the 2026 Rule of Law Report",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Annex I lists the Institute of Public Affairs among the seven authors of the 2026 written input.",
    "context_source": "page_text"
   },
   {
@@ -24213,6 +25712,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-16ee6897",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "subject": "Małgorzatę Kidawa-Błońską (printed form; nominative Małgorzata Kidawa-Błońska)",
+   "relation": "held the office of deputy speaker (wicemarszałek) of the Sejm",
+   "object": "Sejm (deputy speaker, wicemarszałek Sejmu)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion calls her 'Pani wicemarszałek Sejmu Małgorzata Kidawa-Błońska' and says she commissioned two external opinions before 28 July 2023.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-184af8e3",
    "batch": "03",
    "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
@@ -24322,6 +25835,34 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The page lists Dariusz Matecki and Zbigniew Ziobro as the authors of the question to the Minister of Justice (received 20-02-2026), which asks first for the full text of contract MS/5286/DKO/2024 with Hoffman Taborowski.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-1ee03e15",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "subject": "moj",
+   "relation": "expert-work contract MS/4866/BF/2024 (24 Apr 2024; term 24 Apr-24 Jun 2024) to prepare a concept of legislative changes on lay judges (ławnicy); value PLN 20,333.23",
+   "object": "Jarosław Gwizdak (new)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Row MS/4866/BF/2024 of 2024-04-24: expert tasks for Jarosław Gwizdak on a concept of legislative changes on lay judges and a strategy to strengthen their position, term 24.04-24.06.2024, PLN 20,333.23.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-1f0a977b",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
+   "subject": "Dr hab. Teresa Gardocka",
+   "relation": "is the named author of",
+   "object": "OE–468 legal opinion (druk senacki nr 1022)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The author line on page 3 reads 'Dr hab. Teresa Gardocka, profesor Uniwersytetu SWPS Wydział Prawa / Instytut Prawa', directly above the title of the OE-468 opinion on druk senacki nr 1022.",
    "context_source": "page_text"
   },
   {
@@ -24662,6 +26203,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-31c63bbb",
+   "batch": "03",
+   "url": "https://frittord.no/en/news/civitates-grant-boosting-civil-society-in-poland",
+   "subject": "Dorota Setniewska",
+   "relation": "is from (affiliated with)",
+   "object": "Klon/Jawor Association",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The article calls her 'Dorota Setniewska from the NGO Klon/Jawor Association' and quotes her on building an NGO coalition in early 2017. No job title is given.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-3204acf7",
    "batch": "03",
    "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
@@ -24730,6 +26285,34 @@
    "translation_ok": true,
    "note": "The title says 84 organisations and networks get 2,9 million euro. The description says 63 CSOs and 21 networks in Czechia, Slovakia, Hungary and Poland get 'more than 2,9 million euro' from January 2026.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-3561f7a1",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+   "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–476",
+   "object": "OE–476 legal opinion on the bill passed 28 July 2023 (druk senacki nr 1081)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The OE-476 front matter carries the same series statement about the Bureau commissioning specialist opinions. No contract or fee is shown. The druk number 1081 does not appear in this excerpt, but it appears elsewhere in the same document.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-35acc2da",
+   "batch": "03",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "subject": "Akcja Demokracja (akcja_demokracja)",
+   "relation": "obtained public-benefit organisation (OPP) status on 2017-12-07; entered in KRS on 2015-04-08",
+   "object": "public-benefit organisation (OPP) status",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The reader extract pairs garbled label 3, which decodes as the KRS registration date, with 2015-04-08, and label 4, which decodes as the date OPP status was obtained, with 2017-12-07. The pairing rests on layout order.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-35fa4ce3",
@@ -24872,6 +26455,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-3c21f58d",
+   "batch": "03",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "subject": "Helsinki Foundation for Human Rights",
+   "relation": "will produce reports on the work of institutions in the system",
+   "object": "courts, public prosecution offices, advocacy institutions and CSOs",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The record says the HFHR monitoring will include reports on courts, public prosecution offices, advocacy institutions and CSOs, plus legal opinions on changes to law.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-3ea28331",
    "batch": "03",
    "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
@@ -24967,6 +26564,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The statement says the Foundation gained public benefit organisation status on 07.12.2017.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-46ac25aa",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6962/plik/oe-477.pdf",
+   "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+   "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–477",
+   "object": "OE–477 legal opinion (druk senacki nr 1081)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The OE-477 front matter, on druk senacki nr 1081, carries the series statement about the Bureau commissioning specialist opinions. No fee or contract is shown.",
    "context_source": "page_text"
   },
   {
@@ -25350,6 +26961,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-5de475e0",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "subject": "moj",
+   "relation": "contract MS/4741/BF/2024 with annex MS/4741-1/BF/2024 (19 Mar 2024; term to 31 Mar, extended by annex to 7 Apr 2024) for a written analysis, value PLN 142,950.60. The row's subject concerns three Justice Fund agreements and their compliance with public-spending rules.",
+   "object": "Audit4You Barbara Ciemała (new)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Row MS/4741/BF/2024 and annex MS/4741-1 of 2024-03-19 with Audit4You Barbara Ciemała: a written analysis of three Justice Fund agreements against public-spending rules, term 19-31.03.2024 (extended by annex to 07.04.2024), PLN 142,950.60.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-5dfad4b0",
    "batch": "03",
    "url": "https://gmfus.org/proteus-0",
@@ -25504,6 +27129,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-661074f4",
+   "batch": "03",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "subject": "freedom_house",
+   "relation": "fellow participant, with the Norwegian Helsinki Committee and Front Line Defenders, in an informal rapid-response network for human rights defenders",
+   "object": "hfhr",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "HFPC says it ran rapid-response mechanisms in an informal network with organisations such as the Norwegian Helsinki Committee, Frontline Defenders or Freedom House; no money is mentioned.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-6622e1af",
    "batch": "03",
    "url": "https://eeagrants.org/en/fmo/news/fund-operator-selected-poland",
@@ -25557,6 +27196,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The record describes HFHR carrying out the project with Human Rights House Foundation; the 'Project promoter Helsinki Foundation for Human Rights' line appears in the same page's project details, which are shown in the sibling excerpts rather than in this one.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-6751af00",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "subject": "Ryszarda Balickiego (printed form; nominative Ryszard Balicki)",
+   "relation": "wrote an external opinion on the draft bill (druk nr 3335); the page describes it as one of two external opinions commissioned by the Deputy Marshal of the Sejm",
+   "object": "external legal opinion on the draft bill (druk nr 3335)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion says two external opinions on the draft were commissioned by Deputy Marshal Kidawa-Błońska, the second by Ryszard Balicki (University of Wrocław), dated 6 July 2023, with 8 conclusions. Druk nr 3335 is named in the footnote to the Skotnicki opinion on the same draft.",
    "context_source": "page_text"
   },
   {
@@ -25642,6 +27295,20 @@
    "translation_ok": true,
    "note": "The page says the event takes place on Thursday, April 11, 2024 at 17:00 in Goethe Institute, with Bratislava as the city.",
    "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-703066b5",
+   "batch": "03",
+   "url": "https://www.batory.org.pl/en/grants/the_equal_rights_program/",
+   "subject": "Stefan Batory Foundation (batory)",
+   "relation": "runs the CERV-funded Equal Rights Program in cooperation with the Federation of Local Funds",
+   "object": "Federation of Local Funds (Federacja Funduszy Lokalnych w Polsce, ffl.org.pl)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The extract quotes Batory saying the program is CERV-funded, is run in cooperation with the Federation of Local Funds and has a 2025-2027 budget of €6.7 million. The Polish legal name and URL are not in the extract.",
+   "context_source": "reader_extract"
   },
   {
    "claim_id": "B03-706e043d",
@@ -25966,6 +27633,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-7db63f80",
+   "batch": "03",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "subject": "Human Rights House Foundation",
+   "relation": "organised (congress of its member organisations)",
+   "object": "congress of Human Rights House Foundation member organisations, Warsaw",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The record says HRHF organised a congress of its member organisations in Warsaw in November 2023, and that HFHR helped prepare the programme and chaired sessions.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-7e16c6bb",
    "batch": "03",
    "url": "https://oko.press/kto-finansuje",
@@ -26148,6 +27829,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-85d540d7",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
+   "subject": "Dr hab. Teresa Gardocka",
+   "relation": "holds the post of professor at",
+   "object": "Uniwersytet SWPS (Wydział Prawa / Instytut Prawa)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The opinion's author line gives Gardocka as professor of SWPS University, Faculty of Law / Institute of Law.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-861e3b4b",
    "batch": "03",
    "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
@@ -26173,6 +27868,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "BizRaport lists revenue of 5 729 678 zł and profit of 594 799 zł for 2023.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-87e5d8cd",
+   "batch": "03",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "subject": "hfhr",
+   "relation": "monitored disciplinary proceedings against Polish judges (project run with the ABA, 2020)",
+   "object": "Disciplinary proceedings against Polish judges",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The report says the ABA-cooperation project consists of monitoring disciplinary proceedings against judges, and that the number of observed trials fell after March 2020.",
    "context_source": "page_text"
   },
   {
@@ -26372,6 +28081,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-926c4ce5",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
+   "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+   "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–468",
+   "object": "OE–468 legal opinion (druk senacki nr 1022)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The front matter of OE-468 carries the series statement that the Bureau commissions opinions from specialists with differing views. No contract or fee is shown for this opinion.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-9384b5fa",
    "batch": "03",
    "url": "https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach",
@@ -26397,6 +28120,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The form carries the stamp 'Received by NSD/FARA Registration Unit 08/26/2026 6:40:23 PM' on the registration statement numbered 7762.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-93f95ae8",
+   "batch": "03",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "subject": "moj",
+   "relation": "contract for specific work MS/4887/BF/2024 of 2 Apr 2024 (term 2-22 Apr 2024), value PLN 8,000.00, for an analysis (and possible amendments) of the draft law transposing the EU directive on representative actions for the protection of collective consumer interests",
+   "object": "dziurda",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "Register row MS/4887/BF/2024 of 2024-04-02: a work contract with Prof. Marcin Dziurda to analyse, and possibly propose changes to, the draft transposition of Directive 2020/1828, term 02-22.04.2024, PLN 8,000.00. The scope's mention of Bodnar's term is not on the page.",
    "context_source": "page_text"
   },
   {
@@ -26807,6 +28544,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-a25b1425",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6962/plik/oe-477.pdf",
+   "subject": "dr hab. prof. UW Ryszard Piotrowski",
+   "relation": "is the named author of",
+   "object": "OE–477 legal opinion (druk senacki nr 1081)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The author line reads 'dr hab. prof. UW Ryszard Piotrowski, Wydział Prawa i Administracji Uniwersytetu Warszawskiego', above the OE-477 opinion on druk senacki nr 1081.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-a26479b8",
    "batch": "03",
    "url": "https://tvn24.pl/polska/finansowanie-komitetu-obrony-demokracji-ra704820-ls2458599",
@@ -26860,6 +28611,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Question 2 asks whether any expert had worked with minister Adam Bodnar before, as an NGO activist or during the period when he held the RPO function. No dates are given.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-a87028f7",
+   "batch": "03",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "subject": "Helsinki Foundation for Human Rights",
+   "relation": "will produce (planned project outputs)",
+   "object": "Eight reports, four assessments of the consequences of legislation, and 20 legal opinions in this field",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "In the description of the HFHR project, the record says in the passive voice that eight reports, four assessments of legislation and 20 legal opinions will be produced.",
    "context_source": "page_text"
   },
   {
@@ -26958,6 +28723,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The GMF event page lists Małgorzata Szuleka as a speaker, 'Member of the Board, Helsinki Foundation for Human Rights'; the date comes from page metadata.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-abb7fdb5",
+   "batch": "03",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "subject": "The system of defense of human rights in Poland (per project record)",
+   "relation": "is named as a constitutional body comprising the system",
+   "object": "Constitutional Tribunal",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The project description lists the Constitutional Tribunal among the constitutional bodies in Poland's system of defense of human rights, with the Supreme Court, common courts and the prosecution service.",
    "context_source": "page_text"
   },
   {
@@ -27097,9 +28876,8 @@
    "verdict": "supported",
    "label_ok": true,
    "translation_ok": true,
-   "note": "The reader extract quotes section III.3 (p. 29): a project monitoring disciplinary proceedings against judges carried out by HFHR in cooperation with the ABA. No ABA funding is stated.",
-   "context_source": "reader_extract",
-   "context_note": "judged on the reader's extract; a re-check on the page text is pending"
+   "note": "The 2020 report mentions a project carried out by HFPC (HFHR) in cooperation with the American Bar Association, monitoring disciplinary proceedings against judges. No funding is stated.",
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-b3dcb2c6",
@@ -27519,6 +29297,34 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "Question no. 3237 to the minister of justice on contract MS/5384/DZP/2024 lists 'Zgłaszający: Dariusz Matecki' and 'Data wpływu: 23-02-2026'.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-c097caf2",
+   "batch": "03",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "subject": "Helsinki Foundation for Human Rights",
+   "relation": "cooperated with (partner)",
+   "object": "Human Rights House Foundation",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The bilateral results summary says HFHR cooperated with the Norwegian HRHF and its Brussels and Geneva offices, and calls HRHF the Norway-based partner.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-c0b84737",
+   "batch": "03",
+   "url": "https://gmfus.org/proteus-0",
+   "subject": "PROTEUS",
+   "relation": "is co-funded by",
+   "object": "European Commission",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The page says PROTEUS, as a CERV project, is co-funded by the European Commission and runs from January 2023 to September 2026.",
    "context_source": "page_text"
   },
   {
@@ -28306,6 +30112,20 @@
    "context_source": "page_text"
   },
   {
+   "claim_id": "B03-ed5feb1d",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "subject": "Dr hab. Teresa Gardocka",
+   "relation": "holds the post of professor at",
+   "object": "Uniwersytet SWPS w Warszawie (Instytut Prawa)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The OE-476 author line gives Gardocka as professor of SWPS University in Warsaw, Institute of Law.",
+   "context_source": "page_text"
+  },
+  {
    "claim_id": "B03-edacca1e",
    "batch": "03",
    "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
@@ -28667,6 +30487,20 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The minutes list Joanna Pietruszka, chair of the Competition Committee for the Equal Rights Programme thematic grants, among the non-voting attendees of the 5 Nov 2025 board meeting at Batory's seat.",
+   "context_source": "page_text"
+  },
+  {
+   "claim_id": "B03-fe04302a",
+   "batch": "03",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "subject": "Dr hab. Teresa Gardocka",
+   "relation": "is the named author of",
+   "object": "OE–476 legal opinion (druk senacki nr 1081)",
+   "label": "fact",
+   "verdict": "supported",
+   "label_ok": true,
+   "translation_ok": true,
+   "note": "The author line reads 'Dr hab. Teresa Gardocka profesor Uniwersytetu SWPS w Warszawie Instytut Prawa', above the opinion on the bill passed 28 July 2023 (druk senacki nr 1081).",
    "context_source": "page_text"
   },
   {
