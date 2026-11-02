@@ -1677,6 +1677,90 @@
    "sha256": "123b045ee8f4f018bcccda557e7eff6f750b3b9d4a6af2397e99186df7ea76a0",
    "error": null,
    "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
+   "final_url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
+   "fetched_at": "2026-11-02T00:54:15.691Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 15252,
+   "sha256": "26bc5259e6bbd5f9437724416c34beaf906bef232da73303d54fde9addb95219",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/097",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/097",
+   "fetched_at": "2026-11-02T00:54:15.694Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2242,
+   "sha256": "b73c752b43fd62b27c0af2dd6b755e32cc0f1090c7a17e5729293be97c2260a4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://www.tvp.info/85296362/prezes-tk-bogdan-swieczkowski-wybiera-sobie-prokuratora-do-prowadzenia-sprawy-zamachu-stanu-kim-jest-beata-marczak",
+   "final_url": "https://www.tvp.info/85296362/prezes-tk-bogdan-swieczkowski-wybiera-sobie-prokuratora-do-prowadzenia-sprawy-zamachu-stanu-kim-jest-beata-marczak",
+   "fetched_at": "2026-11-02T00:54:15.710Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2393,
+   "sha256": "c3772054d16767bea701be08094781a94b58c724343aa1a1dcd740a1932e7186",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://www.iaj-uim.org/iuw/?p=128146",
+   "final_url": "https://www.iaj-uim.org/iuw/?p=128146",
+   "fetched_at": "2026-11-02T00:54:25.285Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 13146,
+   "sha256": "9946269aa01755b6ae9897bc2810829b5d12173d84fb75911960ababd21345ef",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016",
+   "fetched_at": "2026-11-02T00:54:13.973Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 1260,
+   "sha256": "4f1d790d713506e0e75903654cb929e428560106f86bc0b1d915d17c847f02dc",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego",
+   "final_url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego",
+   "fetched_at": "2026-11-02T00:54:13.984Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19611,
+   "sha256": "46841937eb8c29532db981a783abcc10b7485096bf5495ca3b93d57f16bb4e07",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98",
+   "fetched_at": "2026-11-02T00:54:14.024Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2026,
+   "sha256": "51ec0d93b7df111054fe33d47ebb147ab1029592e57fc9fd4616b6fc60cf06ea",
+   "error": null,
+   "note": null
   }
  ],
  "fetches_by_stopped_agents": [
