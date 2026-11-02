@@ -1,19 +1,19 @@
-# Third search sweep (2026-11-01): work in progress
+# Third search sweep (2026-11-01)
 
 Collection only. Nothing in `data/` or `data/manifest.json` changes on this branch, and it is not for merging until approved.
 
-Goal: find more people, money, contract jobs and organisations (NGOs, foundations, firms, public bodies) tied to the 2026 Constitutional Tribunal takeover, with provenance for every data point.
+Goal: find more people, money, contract jobs and organisations (NGOs, foundations, firms, public bodies) tied to the suspected 2026 coup around Poland's Constitutional Tribunal, with provenance for every data point.
 
 ## Status
 
-The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 2746 claims.
+The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. All resumed parts have finished. In all: 2746 claims.
 
 | Batch | What | Status |
 |---|---|---|
 | 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 113 of 113 leads read: 125 pages, 1218 claims. |
 | 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 7 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz, nominations, prosecutors and police, international bodies). 109 pages, 816 claims, 272 title-only leads. Follow-up reads: 24 groups done. |
 | 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 7 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations, domestic public money, NGO finances, firms and contracts). 94 pages, 712 claims, 192 title-only leads. Follow-up reads: 21 groups done. |
-| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 2116 claims checked: 1742 supported, 329 partly supported, 31 not supported, 14 cannot tell. Label disagreements: 90; translation problems: 50. Not checked: 592 no_link findings and 38 claims with no matching page text or added later. |
+| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 2116 claims checked: 1742 supported, 329 partly supported, 31 not supported, 14 cannot tell. Label disagreements: 90; translation problems: 50. Not checked: 592 no_link findings and 36 claims with no matching page text, and 2 claims the checker returned no verdict for. |
 
 Agents stopped by the usage limit had already run 200 searches and 79 page reads. Those are logged in `raw/` under `searches_by_stopped_agents` and `fetches_by_stopped_agents`, as returned, with `agent_rerun_later` saying whether that part was run again. No claims came from the stopped agents.
 
