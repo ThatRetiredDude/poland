@@ -4406,31 +4406,31 @@
         "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
       ],
       "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked",
+      "verified": "checked against the Brussels Signal article (13 Feb 2025) on 2026-11-02",
       "date": "2025-02-13"
     },
     {
       "source": "tusk",
       "target": "watchdog_polska",
-      "relation": "chancellery pointed to extra €17m for civil society in 2025 budget (not a USAID replacement grant to named groups)",
+      "relation": "Chancellery reply to the NGO appeal: issue sent to the Public Benefit Council; 2025 state budget 'includes an additional' seventeen million euros 'for the government's programme of backing civil society' (no sum named for Watchdog Polska or any other group)",
       "confidence": "fact",
       "sources": [
         "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
       ],
       "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked",
+      "verified": "checked against the Brussels Signal article (13 Feb 2025) on 2026-11-02",
       "date": "2025-02"
     },
     {
       "source": "usaid",
       "target": "watchdog_polska",
-      "relation": "USAID-funded until 2025 cuts (per its appeal)",
+      "relation": "Watchdog Polska chair Batko-Tołuć said 'some organisations' face layoffs 'as a result of the USAIDS cuts' (source does not say Watchdog Polska itself received USAID money)",
       "confidence": "fact",
       "sources": [
         "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation"
       ],
       "added_by": "lead_oped_handover",
-      "verified": "source cited in op-ed; not independently re-checked"
+      "verified": "checked against the Brussels Signal article (13 Feb 2025) on 2026-11-02"
     },
     {
       "source": "vdl",
