@@ -1085,6 +1085,42 @@
    "note": null
   },
   {
+   "agent": "read:R065-R067",
+   "url": "https://www.pap.pl/en/news/polish-ngos-count-govt-funding-after-us-aid-cuts",
+   "final_url": "https://www.pap.pl/en/news/polish-ngos-count-govt-funding-after-us-aid-cuts",
+   "fetched_at": "2026-11-02T00:47:43.423Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1604,
+   "sha256": "666ec06f5dfe387a5ce43f4a24f39450db411252ca6c9102ded90e1161249a65",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R065-R067",
+   "url": "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation",
+   "final_url": "https://brusselssignal.eu/2025/02/liberal-and-left-leaning-groups-appeal-to-polish-government-for-usaid-cuts-compensation",
+   "fetched_at": "2026-11-02T00:47:44.412Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 27925,
+   "sha256": "67b1a03df5c0e47294efd6b12f4dc39ab7f9bce50597b2aedb51a1044d8317b0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R065-R067",
+   "url": "https://aktywniobywatele.org.pl/?p=5668",
+   "final_url": "https://aktywniobywatele.org.pl/?p=5668",
+   "fetched_at": "2026-11-02T00:47:47.121Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12913,
+   "sha256": "f5145124e429fdbfb75832ded0dd0650df2b9530a3955bbbce0735f8b43a0f57",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R068-R070",
    "url": "https://ctphilanthropy.org/node/87726",
    "final_url": "https://ctphilanthropy.org/node/87726",

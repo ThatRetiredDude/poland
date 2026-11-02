@@ -6,11 +6,11 @@ Goal: find more people, money, contract jobs and organisations (NGOs, foundation
 
 ## Status
 
-The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 2412 claims.
+The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 2440 claims.
 
 | Batch | What | Status |
 |---|---|---|
-| 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 110 of 113 leads read: 122 pages, 1190 claims. Not yet read: R065-R067 (reads running). |
+| 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 113 of 113 leads read: 125 pages, 1218 claims. |
 | 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 7 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz, nominations, prosecutors and police, international bodies). 80 pages, 602 claims, 272 title-only leads. Follow-up reads: 14 groups done, 2 running. |
 | 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 7 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations, domestic public money, NGO finances, firms and contracts). 82 pages, 620 claims, 192 title-only leads. Follow-up reads: 15 groups done, 1 running. |
 | 04 | Cross-check of every quoted excerpt against its page context | to do |
