@@ -950,6 +950,336 @@
    "extract_sha256": "5ab05d0dc1676baaad6af5b1430faabd234230f4187a958744d130af7c31f8eb"
   },
   {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3180/body",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:16:57.972Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1975,
+   "extract_sha256": "bdab3909b6dc031b5228e31d7ab8d343e9cae216a3f9bffc8869eadd4ff8761f"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:17:18.337Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 4158,
+   "extract_sha256": "5062aed039c47acf8d7f6bc4867fffc6a666a4e8d6b32aef2c1f3b2e402d9a0f"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:02.600Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3471,
+   "extract_sha256": "f606b2d477dd7ab3477471ac405e4220be738bf46c0c6fc1e96fd925066e4e85"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:48.666Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3010,
+   "extract_sha256": "0cb3aafe7067c3bc1a5c427662a9566ef7f8da191976eb5e33d58154f41c2450"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:11.273Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1918,
+   "extract_sha256": "3057fb0fe8b18dae305e29ec9dddd096e5ae1037eed305ef0a8ee815b35a9029"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://niw.gov.pl/wp-content/uploads/2025/03/PROO-2025-lista-wnioskow-ocenionych-pozytywnie-formalnie.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:09.474Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1421,
+   "extract_sha256": "e8a05033f2a77385107e9b42b30609db56eb2e0a831b54f24c60046836d6b0ac"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-prawnych-i-faktycznych-podstaw-wydania-przez-tk-postanowienia-o-sygnaturze-ts-924-oraz-jego-legalnosci",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:52.403Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1901,
+   "extract_sha256": "d23a0cb68df9041869b1de69ef34077366fd412655de83adc8703de5bd6746fd"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3178/body",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:04.503Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1040,
+   "extract_sha256": "d6f9c24c627b3848071a0fdfdc90a0577954a51e3ee84a5b39371d57c6bb2db3"
+  },
+  {
+   "agent": "search:C5_domestic_public_money",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:25:30.055Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2622,
+   "extract_sha256": "b5ebbf0f4196e8ff37172fd5e2833834c4f8e598195591208cf529652e14046d"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.podatki.gov.pl/media/pfapy5nw/informacja-dotycząca-15-kwot-należnego-podatku-pit-przekazanych-opp-w-2026-roku.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:17:57.660Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1505,
+   "extract_sha256": "cf4984345be20f47bef0cb2f00f4c4335a78da34005841f08d61e8f6728ecd64"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:40.623Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2123,
+   "extract_sha256": "a9dcd46caf40cd915deacc8bf2029b99eb93ef236a7e52da7370463db430728b"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:32.206Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1158,
+   "extract_sha256": "a0ac02ddff7610caf4c8f94e26de7c064965e9fa566a51fcdd1db0ff898abfb9"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://oko.press/kto-finansuje",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:08.847Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1368,
+   "extract_sha256": "560262d8904fc3781bb7dc776faf2513bd8d9c4aee4791e0f25f2d3504c18967"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:54.841Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3166,
+   "extract_sha256": "0e1fc270b76aa004265afb92791d919073e6cf513b8d45fc1a9b0526f6c0d31b"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:21:38.541Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2321,
+   "extract_sha256": "699d846b27ea2d05bb67e7cbf579fd624d66214598048f24f7ef6c9c8e6171bd"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:22.160Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 872,
+   "extract_sha256": "b9d1237259b88dacfed2b229383869c7e170dac968307cf81da226a1ba35c7c0"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:04.770Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 565,
+   "extract_sha256": "c61e5ece35af153a7b3530bfcbfa7966f3f75cfc4b9f6203b5c430c8c0afaaab"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.bizraport.pl/krs/0000604562/komitet-obrony-demokracji",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:36.988Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1971,
+   "extract_sha256": "5f7752718e34d30b7dcd1d19e36e6d75a93d594dfe6db754d31099580f393478"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.bizraport.pl/krs/0000604562/komitet-obrony-demokracji",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:53.206Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1531,
+   "extract_sha256": "0beb6c9244945c8789691c9aca3e19b823e5abcb3c5bd25a565c75dae1e96fc3"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:20.009Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 462,
+   "extract_sha256": "46eb0b04768994c4703dde9a04e9388e60f9e20a723269cfa50cfa69e41ed8b1"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:36.299Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 488,
+   "extract_sha256": "2a5316ebc1681e8d277d710ea7dbcf827e176491e6058960036878f108032753"
+  },
+  {
+   "agent": "search:C6_org_finances",
+   "url": "https://www.podatki.gov.pl/media/pfapy5nw/informacja-dotycząca-15-kwot-należnego-podatku-pit-przekazanych-opp-w-2026-roku.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:58.619Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1123,
+   "extract_sha256": "127017056800de26b92ad7bb43997510c229ee4abd7839d00ca4177da489f9cf"
+  },
+  {
    "agent": "recheck:6",
    "url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
    "final_url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
@@ -1317,7 +1647,7 @@
    "returned": "reader_extract",
    "extract_chars": 1365,
    "extract_sha256": "7665eeee553439c5a07a56e4dcbbe7220c77e89de8f894ce2e1b50271e362ecd",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -1333,7 +1663,7 @@
    "returned": "reader_extract",
    "extract_chars": 1324,
    "extract_sha256": "9e73241b49343bdb901d0a2c89cf85c7025b2cb873a0adc349a8ec3d1df65527",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -1349,7 +1679,7 @@
    "returned": "reader_extract",
    "extract_chars": 1176,
    "extract_sha256": "96801c2ebb52bf632fed5870c652b03c8fa7df29436628ae2007aa1db000d46d",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -1365,7 +1695,7 @@
    "returned": "reader_extract",
    "extract_chars": 3502,
    "extract_sha256": "c14a4f901f26982d2007a33ffbffd27a72fc66b3dc0f029cb1fc89215b582993",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -1381,7 +1711,7 @@
    "returned": "reader_extract",
    "extract_chars": 48,
    "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1397,7 +1727,7 @@
    "returned": "reader_extract",
    "extract_chars": 2115,
    "extract_sha256": "60467de46a52b2cfe9357871a187b2b397e9fdf18c16c9d56a0bc7f01431f49c",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1413,7 +1743,7 @@
    "returned": "reader_extract",
    "extract_chars": 82,
    "extract_sha256": "dd508c1a65bec54bdb33a70d67b471828a745062e088ed06154c39c5a220034f",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1429,7 +1759,7 @@
    "returned": "reader_extract",
    "extract_chars": 1022,
    "extract_sha256": "fcd459de3c7d4a0b52a0adc4775b3406619928c4ee6d138392eb5f614044b22d",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1445,7 +1775,7 @@
    "returned": "reader_extract",
    "extract_chars": 2905,
    "extract_sha256": "75396d4c34ef20d0dfcd13418a323fedc8160c0f8d5ee24cc907f8016f8f91cb",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1461,7 +1791,7 @@
    "returned": "reader_extract",
    "extract_chars": 3171,
    "extract_sha256": "16843582a9301861b8047154de0d92936a00cb6f7a2fcdf3d8a211f0ac00c240",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1477,7 +1807,7 @@
    "returned": "reader_extract",
    "extract_chars": 1629,
    "extract_sha256": "90b45cbee8b0e8f1bd21e33a0ee0773209ef66277f652a8d6edf87a6b898c148",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1493,7 +1823,7 @@
    "returned": "reader_extract",
    "extract_chars": 1714,
    "extract_sha256": "52a2d823dd5c7ad75f5e30daed2d6b61e3142636519f4e9c16e0542086d782e1",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1509,7 +1839,7 @@
    "returned": "reader_extract",
    "extract_chars": 4182,
    "extract_sha256": "376941cc5ebff7a0e69a76f73d7da72e3ea8f8475012a2beb96bcd81392affaa",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C6_org_finances",
@@ -1525,7 +1855,7 @@
    "returned": "reader_extract",
    "extract_chars": 48,
    "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C7_firms_contracts",

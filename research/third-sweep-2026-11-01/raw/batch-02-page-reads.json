@@ -995,6 +995,276 @@
    "extract_sha256": "ffdb2e5298e18d46349178615f8f6761514896682ab2d3130363e06cb51c47fd"
   },
   {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:15.063Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1709,
+   "extract_sha256": "bd6b35843f434ac0db25eab7ce309cd25f2abd39009cfa4d4ffcd7e6ec988a67"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:28.068Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1531,
+   "extract_sha256": "b6eb5c9dda6f42d125391a458c98a32f26c56e8d91e1fc7016e50e5055449b53"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/12548/body",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:54.294Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2264,
+   "extract_sha256": "6e9f2a5b74f1488575e2acf403273afa349076ede822c46fb49f08a06de30917"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/097",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:22.751Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2973,
+   "extract_sha256": "6572c63d89f884489e4457a74134c749532cb942cc3f8217dc063e4c03c624c5"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/097",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:37.730Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 969,
+   "extract_sha256": "39397d6da81d76ebf2e8464a3357fb62bc17d587e6062506edf4916fc9cbf28a"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.tvp.info/85296362/prezes-tk-bogdan-swieczkowski-wybiera-sobie-prokuratora-do-prowadzenia-sprawy-zamachu-stanu-kim-jest-beata-marczak",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:55.344Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1075,
+   "extract_sha256": "cebebece2fffa4a6003117aab8b402ce10ac75c3975a22c1b6734c976c1fc2fe"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.tvp.info/85296362/prezes-tk-bogdan-swieczkowski-wybiera-sobie-prokuratora-do-prowadzenia-sprawy-zamachu-stanu-kim-jest-beata-marczak",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:14.689Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1789,
+   "extract_sha256": "e996a8009a6399ef231288d917241b137f403cddebeaa46e193dd37e00b6df3b"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.pap.pl/aktualnosci/wiadomo-kto-zajmie-sie-zawiadomieniem-prezesa-tk-ws-zamachu-stanu",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:21:04.909Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 512,
+   "extract_sha256": "e308a1bbdb6a8db385e0507057623d9f50d39f4ed444db293741401c448d16c6"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:20.436Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 590,
+   "extract_sha256": "c0d7b72c54b42d1e8c90f45f12243abdf52280a3ac9ef3b71cd23f54fe8388e0"
+  },
+  {
+   "agent": "search:B6_prosecutors_police",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/097",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:30.065Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 717,
+   "extract_sha256": "e221070e76982c8f517e8ef67fa83d2d59fd120e49687bcda2177e87e2f3a091"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:51.517Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3826,
+   "extract_sha256": "a547878ac98d2107ead091e82361f48843ec262ab6bec1b39dfc4431cb435a5a"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:04.457Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2040,
+   "extract_sha256": "53256968e13073377f559f635d0bbf7412be2d25886583c43de4bbba25f6956b"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:30.473Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1624,
+   "extract_sha256": "51c09299529df65c2178708bbc476d357384dcfa21a742bb26f93386637a5dfb"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://www.iaj-uim.org/iuw/?p=128146",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:19:54.732Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1255,
+   "extract_sha256": "64ce142fb96634be1713f04cc722f568b5623bc681810609ac1dc96d60e74586"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-035-e",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:07.309Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1069,
+   "extract_sha256": "ebcb6e61e3704769bf19660a8c0c14840a09b44069bf7d0c914a871e3f27b835"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1203",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:25.534Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 730,
+   "extract_sha256": "2a4ce526c724612223474da519be443c72b8d9c085147081b59349b7677fb317"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://pace.coe.int/en/news/10299",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:53.311Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1180,
+   "extract_sha256": "3a9c52821e2d6c5d99a162113ce6aef4b04c514c424f92b2eb5c49da5fadb99b"
+  },
+  {
+   "agent": "search:B7_international",
+   "url": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-035-e",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:58.129Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 637,
+   "extract_sha256": "337a9864e82d86df100d57b4ba30bc2ad75ea147c15923957d5977a92a1e0417"
+  },
+  {
    "agent": "recheck:2",
    "url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
    "final_url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
@@ -1341,7 +1611,7 @@
    "returned": "reader_extract",
    "extract_chars": 2147,
    "extract_sha256": "4ce1440c37bae87bc96873ae361ed5fb0af42a5a855b311bc5e0cf0b96efe055",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1357,7 +1627,7 @@
    "returned": "reader_extract",
    "extract_chars": 827,
    "extract_sha256": "ce570ec020054c536890dd889900858c1fcf02f4c19a190eb7be6fa69fa2fd9c",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1373,7 +1643,7 @@
    "returned": "reader_extract",
    "extract_chars": 440,
    "extract_sha256": "45578fb4bc0098f5cf95b267e1eca3d9f35b82d9731b16a818a2755931e8706f",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1389,7 +1659,7 @@
    "returned": "reader_extract",
    "extract_chars": 171,
    "extract_sha256": "1cd3f22fa830527cc0d60e59fabb585ecaae5137df22e26fcd0f044b4e2fbc98",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1405,7 +1675,7 @@
    "returned": "reader_extract",
    "extract_chars": 2280,
    "extract_sha256": "ee2a1a49a2ce9f32950f246576449c34883da1bda5cc8d0034f0e6970b72b633",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1421,7 +1691,7 @@
    "returned": "reader_extract",
    "extract_chars": 2185,
    "extract_sha256": "499a5dba17aff4612e89377a6bd9211232e42959685a66fc3ab2062ee061fb2f",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1437,7 +1707,7 @@
    "returned": "reader_extract",
    "extract_chars": 200,
    "extract_sha256": "35d416e14b21aaee9d32a557cf7cf033b07c23dc1fa3af99d6318c89f88f4650",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1453,7 +1723,7 @@
    "returned": "reader_extract",
    "extract_chars": 3229,
    "extract_sha256": "cbcad5a30128e54e1412ce140098b65baaa84ebad71e7717495dc5fbf7446d1b",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1469,7 +1739,7 @@
    "returned": "reader_extract",
    "extract_chars": 566,
    "extract_sha256": "ecad646c27f1c718a5c90c9e441fc0014109cb8c19d423008c5b097cc28c9a24",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1485,7 +1755,7 @@
    "returned": "reader_extract",
    "extract_chars": 932,
    "extract_sha256": "cf19241c615d963616447649e9ecb3b0782d9959400d2a5b7ac9a42349acc5ca",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1501,7 +1771,7 @@
    "returned": "reader_extract",
    "extract_chars": 664,
    "extract_sha256": "ea9f23705f6421d8ec578ac1c977d1a3e88ff56ebd93a66f40fa2046b6cf3dac",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1517,7 +1787,7 @@
    "returned": "reader_extract",
    "extract_chars": 2479,
    "extract_sha256": "4b0ef8b5d31fcd2d9399aa22e13e0db36c07a09e7edfd5a2fd2af7ff28ef71d6",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1533,7 +1803,7 @@
    "returned": "reader_extract",
    "extract_chars": 703,
    "extract_sha256": "f2c3da05093c38a89ffe59869304e92144cbd4c118ba1347c8daa1290dc2d5a7",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1549,7 +1819,7 @@
    "returned": "reader_extract",
    "extract_chars": 176,
    "extract_sha256": "6059a97b8a3ae87ff7b28e7ae4b0a0e90f62179dc8a491352ebaa38f9ada044b",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1565,7 +1835,7 @@
    "returned": "reader_extract",
    "extract_chars": 546,
    "extract_sha256": "cb64c589c186b55421ad6c232f587e016e3b78e676cbd75963a91f5b9d15be7c",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B7_international",
@@ -1581,7 +1851,7 @@
    "returned": "reader_extract",
    "extract_chars": 3060,
    "extract_sha256": "fc2ac5da7c2368ea3a5909462a5b8269ae7c7017a72cc7f6f4ce99a4129af170",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   }
  ]
 }
