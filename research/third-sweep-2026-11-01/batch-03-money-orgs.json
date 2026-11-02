@@ -30,55 +30,55 @@
   ]
  },
  "stats": {
-  "agents": 15,
+  "agents": 18,
   "agents_left_out_unfinished_or_other_batch": 17,
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
-  "page_fetches": 132,
-  "pages_reported": 63,
-  "pages_with_page_text": 48,
+  "page_fetches": 145,
+  "pages_reported": 73,
+  "pages_with_page_text": 58,
   "fetch_status": {
-   "ok": 49,
-   "partial": 14
+   "ok": 58,
+   "partial": 15
   },
-  "claims": 454,
+  "claims": 559,
   "labels": {
-   "fact": 341,
-   "no_link": 94,
-   "speculation": 11,
+   "fact": 412,
+   "no_link": 125,
+   "speculation": 14,
    "alleged": 8
   },
   "evidence_check": {
-   "exact": 262,
+   "exact": 355,
    "found_on_linked_page": 13,
-   "not_found": 5,
-   "normalized": 58,
+   "not_found": 7,
+   "normalized": 68,
    "normalized_ci": 2,
    "found_in_reader_extract_only": 16,
    "exact_in_reader_extract": 96,
    "not_found_in_reader_extract": 2
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 249,
-   "both_names_unmatched": 109,
-   "pair_already_linked": 22,
-   "new_tie_between_known_entities": 74
+   "new_entity_or_unmatched_name": 327,
+   "both_names_unmatched": 115,
+   "pair_already_linked": 30,
+   "new_tie_between_known_entities": 87
   },
   "kinds": {
-   "other": 86,
-   "grant_or_donation": 175,
-   "statement": 21,
-   "membership_or_board": 53,
-   "role_or_job": 26,
-   "event_or_speech": 29,
-   "contract_or_fee": 54,
+   "other": 119,
+   "grant_or_donation": 207,
+   "statement": 33,
+   "membership_or_board": 56,
+   "role_or_job": 43,
+   "event_or_speech": 30,
+   "contract_or_fee": 61,
    "legal_action": 6,
    "ownership": 2,
    "nomination_or_vote": 2
   },
   "title_only_leads": 192,
-  "to_read_unread": 33,
+  "to_read_unread": 24,
   "nothing_found": 53,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -6361,6 +6361,2431 @@
    ]
   },
   {
+   "ref": "C6_org_finances-T1",
+   "url": "https://podatki.gov.pl/aktualnosci/kolejny-rekord-ponad-2-6-miliarda-zlotych-dla-organizacji-pozytku-publicznego",
+   "host": "podatki.gov.pl",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "Full article returned (HTTP 200, text/html, 32,644 characters). Dates on page: 'Data publikacji: 29.09.2026', 'Data aktualizacji: 29.09.2026'. The article contains no Załącznik nr 1 or nr 2 link and no per-organisation 1.5% rows. Site-navigation links (not article content) include 'Wyszukiwarka OPP 1,5%' (https://niw.gov.pl/opp/wykaz-opp/).",
+   "page_title": "Kolejny rekord - ponad 2,6 miliarda złotych dla organizacji pożytku publicznego",
+   "page_date": "29.09.2026 (publikacji and aktualizacji)",
+   "publisher": "podatki.gov.pl (Ministry of Finance portal)",
+   "capture_answer": "The page has no Załącznik nr 1 or nr 2 link. Its detail links are the Ministry of Finance 1.5% page (https://www.gov.pl/web/finanse/1-5-procent-podatku-dla-opp, named for 'Szczegółowe informacje na temat 1,5% dla OPP') and the OPP committee page (https://www.gov.pl/web/pozytek/organizacje-pozytku-publicznego-opis). The Ministry of Finance summary PDF cited for this batch is not linked from this article and its URL was not among those supplied. Totals on the page for 2026 transfers (for the 2025 tax year): 'Ponad 2,6 mld złotych'; 'ponad 17,2 mln podatników'; average 151 zł; 'blisko 329 mln zł' more than a year earlier and almost 1 million more taxpayers. No per-organisation 2026 amounts or taxpayer counts appear. The only named recipients are three non-actor foundations (names_listed). None of the requested names or KRS numbers (HFHR 0000035831, Fundacja OKO 0000620036, Akcja Demokracja 0000552033, KOD 0000604562, Free Courts 0000829554, Iustitia, Themis, Batory, Dom Sędziego Seniora) appears. The only other person named is 'wiceminister finansów Szef Krajowej Administracji Skarbowej Marcin Łoboda', quoted in the article; he has no tie to the actor list on this page.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:36:57.513Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 32644,
+    "sha256": "50737155a7c4bf54008e0972b38c32064fe9227f8919ca37a108f2a519c83b15",
+    "url_read": "https://podatki.gov.pl/aktualnosci/kolejny-rekord-ponad-2-6-miliarda-zlotych-dla-organizacji-pozytku-publicznego"
+   },
+   "names_listed": [
+    "Fundacja Dzieciom „Zdążyć z Pomocą”",
+    "Fundacja Siepomaga",
+    "Fundacja Avalon"
+   ],
+   "names_found_in_page_text": "3/3",
+   "followup_urls": [
+    {
+     "url": "https://www.gov.pl/web/finanse/1-5-procent-podatku-dla-opp",
+     "why": "Ministry of Finance 1.5% page that this article names for 'Szczegółowe informacje'; the per-organisation annex may be linked from there. Different host from podatki.gov.pl; not fetched."
+    },
+    {
+     "url": "https://www.gov.pl/web/pozytek/organizacje-pozytku-publicznego-opis",
+     "why": "OPP committee page linked in the article as 'Więcej o OPP'. Different host; not fetched."
+    },
+    {
+     "url": "https://niw.gov.pl/opp/wykaz-opp/",
+     "why": "'Wyszukiwarka OPP 1,5%' in the site navigation; not checked. Different host; not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0260",
+     "subject": "HFHR",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "KRS 0000035831 and the name HFHR are not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0261",
+     "subject": "Fundacja OKO",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "KRS 0000620036 is not in the news item text. Full name as shown on oko.press pages: Fundacja Ośrodek Kontroli Obywatelskiej OKO. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0262",
+     "subject": "Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "KRS 0000552033 and the name Akcja Demokracja are not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0263",
+     "subject": "KOD",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "KRS 0000604562 and the name KOD are not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0264",
+     "subject": "Free Courts (Wolne Sądy)",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "KRS 0000829554, 'Free Courts' and 'Wolne Sądy' are not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0265",
+     "subject": "Iustitia",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "The name Iustitia is not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0266",
+     "subject": "Themis",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "The name Themis is not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "themis",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0267",
+     "subject": "Batory Foundation",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "The name Batory Foundation (and Fundacja Batorego) is not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0268",
+     "subject": "Dom Sędziego Seniora",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% (PIT) transfers reported in",
+     "object": "news item dated 29.09.2026 (podatki.gov.pl)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_text": "Z rozliczeń podatkowych za 2025 rok największe kwoty z tytułu 1,5% podatku trafiły na rachunki bankowe organizacji:",
+     "evidence_translation": "From the 2025 tax settlements, the largest amounts of the 1.5% tax went to the bank accounts of these organisations:",
+     "label": "no_link",
+     "label_scope": "The name Dom Sędziego Seniora is not in the news item text. The item names only three recipients (see names_listed).",
+     "date": "2026 (news item dated 29.09.2026)",
+     "evidence_location": "article body, paragraph before the list of the three largest recipients",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "repressed_judges_fund",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T2",
+   "url": "https://www.ned.org/wp-content/uploads/2026/02/2025-Annual-Report.pdf",
+   "host": "ned.org",
+   "theme": "C6_org_finances",
+   "fetch_status": "partial",
+   "fetch_note": "Fetched https://www.ned.org/wp-content/uploads/2026/02/2025-Annual-Report.pdf (HTTP 200, application/pdf, 139,967 characters). Returned as extracted text, not saved to a file, so no file path. Read in consecutive ranges from character 0. The text returned ends mid-list in the 2025 donor list ('Friends of NED', pp. 69-70). The report's contents list places Board of Directors (p. 70), Finances (p. 71) and Appendix B, 'Grant Listings' (p. 83) after the donor list; none of these is in the text returned. Some ranges beyond their verbatim window came back as condensed text; no claim here rests on that text.",
+   "page_title": "2025 Annual Report (National Endowment for Democracy)",
+   "page_date": "2026 (copyright line '© 2026 National Endowment for Democracy'; upload path /2026/02/)",
+   "publisher": "National Endowment for Democracy",
+   "capture_answer": "The report's region tables give country totals; per-grant listings would be in Appendix B, which is not in the text returned. The Europe program-spending table (pp. 35-37) has nine country lines (Belarus, Moldova, Ukraine, Albania, Bosnia and Herzegovina, Kosovo, Montenegro, North Macedonia, Serbia), two regional lines (Southeast Europe Regional; Europe Regional) and a total of $31,880,583. Poland is not a line. The only Poland mention in the text read is a historical passage about the American Revolution on p. 1. None of HFHR, OKO.press, Free Courts / Wolne Sądy, Akcja Demokracja, KOD, Iustitia, Themis or Batory appears in the text read. Gap: the text stops in the 2025 donor list (pp. 69-70); the Board (p. 70), Finances (p. 71) and Appendix B 'Grant Listings' (p. 83) are not in it, so Poland per-grant entries could not be checked there. Inference, not on the page: a Polish grant could sit inside 'Southeast Europe Regional' or 'Europe Regional', which are not split by country. The donor list read so far names no organisation on the actor list.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:42:31.753Z",
+    "http": null,
+    "content_type": null,
+    "chars": 42396,
+    "sha256": "c978f064f127e4a054f48bc2183dd10e607ad116e039c84966c11c88466b3a6e",
+    "url_read": "https://www.ned.org/wp-content/uploads/2026/02/2025-Annual-Report.pdf"
+   },
+   "claims": [
+    {
+     "id": "B03-C0269",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "FY2022 NED-funded revenue lines totalling about PLN 4.41 million, incl. PLN 2,278,917.20 'Strengthening and Protecting Civil Society in Eura",
+      "PLN 11.5 million via NED in 2021-2023 (of PLN 13.35m grants), per advocacy group Grupa Proelio citing HFHR reports",
+      "FY2022 NED-funded revenue lines totalling about PLN 4.41 million, incl. PLN 2,278,917.20 'Strengthening and Protecting Civil Society in Eura",
+      "PLN 11.5 million via NED in 2021-2023 (of PLN 13.35m grants), per advocacy group Grupa Proelio citing HFHR reports"
+     ]
+    },
+    {
+     "id": "B03-C0270",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "grant $100k",
+      "$100k (2022-23), per OKO.press disclosure",
+      "$100k (2022-23), per OKO.press disclosure",
+      "grant $100k",
+      "$100k (2022-23), per OKO.press disclosure"
+     ]
+    },
+    {
+     "id": "B03-C0271",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "Free Courts (Wolne Sądy)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Names 'Free Courts' and 'Wolne Sądy' not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)",
+      "listed as a partner (logo only, no amount or year)"
+     ]
+    },
+    {
+     "id": "B03-C0272",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0273",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "KOD",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0274",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "Iustitia",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0275",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "Themis",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0276",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made a FY2025 grant to",
+     "object": "Batory Foundation",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "Name 'Batory' not found in the text read (report pp. 1 to the start of the donor list, pp. 69-70). Appendix B grant listings (p. 83) and Finances (p. 71) are not in the text returned, so grants listed only there are not covered.",
+     "date": "FY2025 (2025 Annual Report)",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37 (the country-level Europe grant table)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0277",
+     "subject": "National Endowment for Democracy",
+     "subject_type": "org",
+     "relation": "made FY2025 grants in",
+     "object": "Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Europe | Program Spending Overview",
+     "evidence_translation": "Europe | Program Spending Overview",
+     "label": "no_link",
+     "label_scope": "The Europe table has nine country lines and two regional lines (Southeast Europe Regional, Europe Regional) and no Poland line. No Polish grant appears in the text read. The only Poland mention read is a historical passage about the American Revolution on p. 1. Appendix B (p. 83) is not in the text returned.",
+     "date": "FY2025",
+     "evidence_location": "Europe Program Spending table, report pp. 35-37",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ned",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T3",
+   "url": "https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach",
+   "host": "oko.press",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "Fetched https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach (HTTP 200, text/html, 16,266 characters). The article is dated 18 grudnia 2017 and its finance figures are for 2017, not 2026. The sidebar shows 2026 headlines, but the article body is from 2017. A top banner ('Dzisiaj Dzień Bez Oka...') is undated. The endorser sentence is cut off after 'Iwona' in the fetched text. Page metadata shows modified 2026-11-02.",
+   "page_title": "Kto stoi za OKO.press? Szczera do bólu informacja o naszych finansach",
+   "page_date": "18 grudnia 2017 (article date; page metadata modified 2026-11-02)",
+   "publisher": "OKO.press (Redakcja OKO.press)",
+   "capture_answer": "Year: the article is dated 18 grudnia 2017 and its figures are for 2017, not 2026. Income: average monthly income in 2017 was 104, 8 tys. zł (page spacing), of which reader payments 92 tys. a month (average January to November 2017) and grants 12,8 tys. a month. Shares computed from these figures (not stated on the page): readers about 88%, grants about 12%. The article gives no 1.5% share. The follow-up 1.5% page gives a statement that 1.5% equals 24% of the annual budget, and one-off reader payments averaging 50 000 zł a month; neither has a year. Named grant-makers with amounts (2017): Fundacji Batorego 40 tys. zł and the British Sigrid Rausing Trust 113 360 zł. The page says the Batory grant ends 'Od stycznia' and the Sigrid Rausing Trust grant 'od maja 2018'. Start-up money (2016, no amounts) came from Polityka Sp. z o.o. S.K.A., Agora Holding Sp. z o.o. and one unnamed private person. Other figures stated: monthly budget 132,5 tys. zł; monthly shortfall 27,7 tys.; 7613 people who have paid at least once, 2010 regularly; 2017 income did not cover costs. Arithmetic, not on the page: 40 000 + 113 360 = 153 360 zł, close to 12 x 12,8 thousand = 153 600 zł, which may mean the two grant figures are annual totals; the page does not say so. The seven names in names_listed are people the page says urge readers to support OKO.press; the sentence is cut off after 'Iwona'.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:36:57.417Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16266,
+    "sha256": "22a88877e47c55ee71ac6846cd821cf9aa072eb635b4b6cb76dd7fa36e8b76a4",
+    "url_read": "https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach"
+   },
+   "names_listed": [
+    "Agnieszka Holland",
+    "Robert Biedroń",
+    "Adam Wajrak",
+    "Kinga Karp",
+    "Maja Ostaszewska",
+    "Krystyna Kacpura",
+    "Paweł Kasprzak"
+   ],
+   "names_found_in_page_text": "7/7",
+   "followup_urls": [
+    {
+     "url": "https://oko.press/o-nas",
+     "why": "'O nas' page linked in the footer; not fetched or checked for financial statements."
+    },
+    {
+     "url": "https://archiwumosiatynskiego.pl",
+     "why": "Archiwum Osiatyńskiego site linked from the page; the article says the Archive will publish its own reports. Not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0278",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "reported average monthly income in 2017 of",
+     "object": "104, 8 tys. zł",
+     "object_type": "other",
+     "kind": "other",
+     "amount": "104, 8 tys.",
+     "currency": "zł",
+     "evidence_text": "Średnie miesięczne przychody OKO.press wyniosły w 2017 roku 104, 8 tys. zł w tym:",
+     "evidence_translation": "OKO.press's average monthly income in 2017 was 104.8 thousand zł, of which:",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in an article dated 18 Dec 2017.",
+     "date": "2017",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?' (Where do we get the money?), first sentence",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0279",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received monthly payments from readers averaging",
+     "object": "Czytelników i Czytelniczek (readers, unnamed)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "92 tys.",
+     "currency": "zł (implied; not written on this line)",
+     "evidence_text": "wpłaty od Czytelników i Czytelniczek: 92 tys. miesięcznie (średnia od stycznia do listopada 2017);",
+     "evidence_translation": "payments from readers: 92 thousand a month (average from January to November 2017);",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the 18 Dec 2017 article; the average covers January to November 2017 per the page.",
+     "date": "Jan-Nov 2017 (average)",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', income bullet list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0280",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received grant income averaging per month of",
+     "object": "grants",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "12,8 tys.",
+     "currency": "zł (implied; not written on this line)",
+     "evidence_text": "granty 12,8 tys.",
+     "evidence_translation": "grants: 12.8 thousand (a month)",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement; monthly average within its 2017 income breakdown.",
+     "date": "2017",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', income bullet list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0281",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received a grant from",
+     "object": "Fundacji Batorego",
+     "object_type": "org",
+     "new_entities": [
+      "Fundacja Batorego (Batory Foundation)"
+     ],
+     "kind": "grant_or_donation",
+     "amount": "40 tys.",
+     "currency": "zł",
+     "evidence_text": "z Fundacji Batorego - 40 tys. zł oraz z brytyjskiego Sigrid Rausing Trust - 113 360 zł.",
+     "evidence_translation": "from the Batory Foundation (Fundacji Batorego) - 40 thousand zł, and from the British Sigrid Rausing Trust - 113,360 zł.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement that it used two grants in 2017. The page says the Batory grant ends 'Od stycznia' (from January). The period the amount covers is not stated.",
+     "date": "2017",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph after the income bullet list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)",
+      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)"
+     ]
+    },
+    {
+     "id": "B03-C0282",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received a grant from",
+     "object": "Sigrid Rausing Trust",
+     "object_type": "org",
+     "new_entities": [
+      "Sigrid Rausing Trust"
+     ],
+     "kind": "grant_or_donation",
+     "amount": "113 360",
+     "currency": "zł",
+     "evidence_text": "z Fundacji Batorego - 40 tys. zł oraz z brytyjskiego Sigrid Rausing Trust - 113 360 zł.",
+     "evidence_translation": "from the Batory Foundation (Fundacji Batorego) - 40 thousand zł, and from the British Sigrid Rausing Trust - 113,360 zł.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement that it used two grants in 2017. The page says this grant ends 'od maja 2018' (from May 2018). The period the amount covers is not stated.",
+     "date": "2017",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph after the income bullet list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0283",
+     "subject": "Polityka Sp. z o.o. S.K.A.",
+     "subject_type": "company",
+     "relation": "gave start-up funds to",
+     "object": "OKO.press",
+     "object_type": "org",
+     "new_entities": [
+      "Polityka Sp. z o.o. S.K.A."
+     ],
+     "kind": "grant_or_donation",
+     "evidence_text": "Fundusze na start dostaliśmy od Polityki Sp. z o.o. S.K.A. i Agory Holding Sp. z o.o. oraz od osoby prywatnej.",
+     "evidence_translation": "For the start, funds came from Polityka Sp. z o.o. S.K.A. and Agora Holding Sp. z o.o. and from a private person.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement. No amount given. The page says OKO.press was founded on 15 June 2016. A private individual (unnamed) is also mentioned.",
+     "date": "2016 (start-up)",
+     "evidence_location": "section 'OKO.press ma już półtora roczku' (OKO.press is already a year and a half old), first paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0284",
+     "subject": "Agora Holding Sp. z o.o.",
+     "subject_type": "company",
+     "relation": "gave start-up funds to",
+     "object": "OKO.press",
+     "object_type": "org",
+     "new_entities": [
+      "Agora Holding Sp. z o.o."
+     ],
+     "kind": "grant_or_donation",
+     "evidence_text": "Fundusze na start dostaliśmy od Polityki Sp. z o.o. S.K.A. i Agory Holding Sp. z o.o. oraz od osoby prywatnej.",
+     "evidence_translation": "For the start, funds came from Polityka Sp. z o.o. S.K.A. and Agora Holding Sp. z o.o. and from a private person.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement. The page writes 'Agory Holding Sp. z o.o.' (genitive form). No amount given.",
+     "date": "2016 (start-up)",
+     "evidence_location": "section 'OKO.press ma już półtora roczku' (OKO.press is already a year and a half old), first paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "agora_holding",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0285",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "co-financed the preparation of",
+     "object": "Archiwum Osiatyńskiego",
+     "object_type": "org",
+     "new_entities": [
+      "Archiwum Osiatyńskiego"
+     ],
+     "kind": "grant_or_donation",
+     "evidence_text": "Zwłaszcza że OKO.press współfinansowało przygotowanie Archiwum Osiatyńskiego",
+     "evidence_translation": "Especially since OKO.press co-financed the preparation of the Archiwum Osiatyński (Osiatyński Archive).",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the 2017 article.",
+     "date": "not stated",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph after the grants text",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
+    },
+    {
+     "id": "B03-C0286",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "spent on the start of",
+     "object": "Archiwum Osiatyńskiego",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "52,5 tys.",
+     "currency": "zł",
+     "evidence_text": "Na jego start wydaliśmy 52,5 tys. zł.",
+     "evidence_translation": "For its start we spent 52.5 thousand zł.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement. 'jego' (its) refers to the Archive in the preceding sentence.",
+     "date": "not stated",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph on the Archive",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
+    },
+    {
+     "id": "B03-C0287",
+     "subject": "Archiwum Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "is described as the second child of its publisher (a project of)",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Archiwum jest drugim dzieckiem naszego wydawcy, Fundacji Ośrodek Kontroli Obywatelskiej OKO.",
+     "evidence_translation": "The Archive is the second child of our publisher, the Fundacja Ośrodek Kontroli Obywatelskiej OKO.",
+     "label": "fact",
+     "label_scope": "OKO.press's own description in the 2017 article; 'drugim dzieckiem' is the page's figurative wording.",
+     "date": "not stated",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph on the Archive",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
+    },
+    {
+     "id": "B03-C0288",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "is the publisher ('wydawca') of",
+     "object": "OKO.press",
+     "object_type": "org",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO (Fundacja OKO)"
+     ],
+     "kind": "other",
+     "evidence_text": "Archiwum jest drugim dzieckiem naszego wydawcy, Fundacji Ośrodek Kontroli Obywatelskiej OKO.",
+     "evidence_translation": "The Archive is the second child of our publisher, the Fundacja Ośrodek Kontroli Obywatelskiej OKO.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the 18 Dec 2017 article ('naszego wydawcy' = 'our publisher'). The page gives the name in genitive form.",
+     "date": "not stated (present tense in the 18 Dec 2017 article)",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', paragraph on the Archive",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0289",
+     "subject": "Archiwum Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "is stated to be financially and organisationally independent of",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Dziś Archiwum jest finansowo i organizacyjnie niezależne od OKO.press i będzie ogłaszało własne sprawozdania.",
+     "evidence_translation": "Today the Archive is financially and organisationally independent of OKO.press and will publish its own reports.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement; 'Dziś' (today) means as of the 18 Dec 2017 article.",
+     "date": "18 Dec 2017 (as stated)",
+     "evidence_location": "section 'Skąd bierzemy pieniądze?', last paragraph on the Archive",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
+    },
+    {
+     "id": "B03-C0290",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "states it is suspending activity to raise funds (Dzień Bez Oka)",
+     "object": "fundraising",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Zawieszamy działalność, aby zbierać fundusze na dalszą pracę redakcji.",
+     "evidence_translation": "We are suspending activity to raise funds for the editorial team's further work.",
+     "label": "fact",
+     "label_scope": "OKO.press's own banner at the top of the article page. The banner is undated; the article says Dzień Bez Oka is on 19 grudnia.",
+     "date": "undated banner (Dzień Bez Oka is 19 grudnia per article)",
+     "evidence_location": "banner above the article heading",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0291",
+     "subject": "Bianka Mikołajewska",
+     "subject_type": "person",
+     "new_entities": [
+      "Bianka Mikołajewska"
+     ],
+     "relation": "was deputy editor-in-chief (wicenaczelna) of",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "W 2016 nasza wicenaczelna Bianka Mikołajewska została Dziennikarką Roku w konkursie Grand Press.",
+     "evidence_translation": "In 2016 our deputy editor-in-chief Bianka Mikołajewska became Journalist of the Year in the Grand Press contest.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement that she held this post in 2016. The same sentence reports her Grand Press award.",
+     "date": "2016",
+     "evidence_location": "section 'OKO.press ma już półtora roczku', paragraph after the article count",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0292",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "publishes KRS number",
+     "object": "0000620036",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "KRS 0000620036",
+     "evidence_translation": "KRS 0000620036",
+     "label": "fact",
+     "label_scope": "Shown in the page footer next to a copy button. The 2017 article does not name the entity beside the number; the follow-up 1.5% page entry does.",
+     "date": "undated footer",
+     "evidence_location": "page footer ('Kliknij aby skopiować numer KRS')",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0293",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received a 1.5% (PIT) share in 2017 as shown in",
+     "object": "1,5% podatku",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Przekaż 1,5% podatku",
+     "evidence_translation": "Transfer 1.5% of tax",
+     "label": "no_link",
+     "label_scope": "The 2017 article's income breakdown (total, readers, grants) has no 1.5% line. The only 1.5% reference is a footer link. The follow-up 1.5% page gives a 24% budget share with no year and no zł amount.",
+     "date": "2017 article only",
+     "evidence_location": "page footer navigation ('Na skróty')",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T3-followup",
+   "url": "https://oko.press/15procent",
+   "host": "oko.press",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "Fetched https://oko.press/15procent (HTTP 200, text/html, 13,606 characters). Same-host page linked from the 2017 article, fetched because the article has no 1.5% figure. Undated text. Its PIT form links are named '...za-2025' and sit under an upload path dated 2026/01; those files were not read.",
+   "page_title": "Przekaż 1,5% podatku na niezależne dziennikarstwo OKO.press",
+   "page_date": "undated (page metadata modified 2026-11-02)",
+   "publisher": "OKO.press",
+   "capture_answer": "Same-host page linked from the 2017 article, read because the article has no 1.5% figure. It gives OKO.press's KRS number (0000620036) and shows 'Fundacja Ośrodek Kontroli Obywatelskiej OKO' directly above the KRS copy box. The page is undated. Its figures: one-off payments from readers averaging 50 000 zł a month ('Wpływy: 50 000 zł'), and 'Twój 1,5% to aż 24% naszego rocznego budżetu' (your 1.5% is as much as 24% of the annual budget). It gives no zł total, no taxpayer count and no 2026 figure for the 1.5% transfers, and it names no grant-makers. It describes OKO.press as 'utrzymywane przez Czytelniczki i Czytelników' (maintained by its readers).",
+   "raw": {
+    "fetched_at": "2026-11-02T00:45:55.234Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 13606,
+    "sha256": "359bd2cb093297da3974765382f0bcfe727a3b50e08097acb0a7e9fe316489c6",
+    "url_read": "https://oko.press/15procent"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/o-nas",
+     "why": "'O nas' page linked in the footer; not fetched or checked for financial statements."
+    },
+    {
+     "url": "https://archiwumosiatynskiego.pl",
+     "why": "Archiwum Osiatyńskiego site linked from the page; not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0294",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "states its KRS number is",
+     "object": "0000620036",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Nasz nr KRS to 0000620036.",
+     "evidence_translation": "Our KRS number is 0000620036.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the page metadata description (the visible copy box also shows KRS 0000620036). The page is undated.",
+     "date": "undated",
+     "evidence_location": "page metadata description (og:description)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0295",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO (Fundacja OKO)"
+     ],
+     "relation": "is displayed directly above the copy box for KRS 0000620036 on the 1.5% page",
+     "object": "KRS 0000620036",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "label": "fact",
+     "label_scope": "The name appears directly above the KRS copy box in the 'Skopiuj i wklej' block. The page sets no separate sentence linking the two. Undated.",
+     "date": "undated",
+     "evidence_location": "section 'Jak przekazać 1,5%?' (How to transfer 1.5%), 'Skopiuj i wklej' block",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0296",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "receives on average per month in one-off payments from readers",
+     "object": "wpłaty jednorazowe (one-off payments)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "50 000",
+     "currency": "zł",
+     "evidence_text": "Tyle średnio miesięcznie otrzymujemy wpłat jednorazowych od naszych czytelników i czytelniczek.",
+     "evidence_translation": "This is what we receive on average per month in one-off payments from our readers.",
+     "label": "fact",
+     "label_scope": "OKO.press's own chart label ('Wpływy: 50 000 zł') and text. No year is given.",
+     "date": "undated",
+     "evidence_location": "chart block under the heading 'Zobacz, jak Twoje 1,5% tworzy 24% naszego budżetu'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0297",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "states that its 1.5% transfers equal about 24% of its annual budget",
+     "object": "rocznego budżetu (annual budget)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "24%",
+     "evidence_text": "Twój 1,5% to aż 24% naszego rocznego budżetu.",
+     "evidence_translation": "Your 1.5% is as much as 24% of our annual budget.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement. No year is given. The chart the text refers to is not in the extracted text.",
+     "date": "undated",
+     "evidence_location": "paragraph under the heading 'Zobacz, jak Twoje 1,5% tworzy 24% naszego budżetu'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0298",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "received 2026 1.5% transfers of",
+     "object": "zł amount or taxpayer count (any year)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Zobacz, jak Twoje 1,5% tworzy 24% naszego budżetu",
+     "evidence_translation": "See how your 1.5% makes up 24% of our budget",
+     "label": "no_link",
+     "label_scope": "No zł amount, taxpayer count or 2026 total from 1.5% transfers appears on this page. Its 1.5%-related figures are the 24% budget share and the 50 000 zł monthly one-off reader payments, both undated. No grant-maker is named.",
+     "date": "undated",
+     "evidence_location": "heading 'Zobacz, jak Twoje 1,5% tworzy 24% naszego budżetu'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T4",
+   "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
+   "host": "bizraport.pl",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 33,789 characters. The 'Sprawozdania finansowe' section reads 'Brak danych o treści sprawozdań finansowych.', so the figures are BizRaport's own and the filings themselves were not shown. Footer: 'Ostatnia aktualizacja danych: 30 października 2026'.",
+   "page_title": "AKCJA DEMOKRACJA | KRS: 0000552033 | BizRaport",
+   "page_date": "30 października 2026 (last data update)",
+   "publisher": "BizRaport.pl",
+   "capture_answer": "Akcja Demokracja (fundacja, KRS 0000552033, Warsaw, registered 2015-04-08). Revenue (przychody): 2025 3 854 045 zł; 2024 2 403 840 zł; 2023 4 350 025 zł. Net result: 2025 -152 505 zł; 2024 -817 261 zł; 2023 profit 179 892 zł. Zarząd fundacji: Kocjan Jakub (prezes zarządu), Tomaszewska Anna (wiceprezeska zarządu), Kolmasiak Bogumił and Zielonka Marcin (członek zarządu). Rada fundacji: Łozińska Czaja Kinga, Szafrański Jakub, Świetlik Maria. The page shows no shareholder data.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:37:58.192Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 33789,
+    "sha256": "8a623557dc81eef0285227d7c2d59a3324da5e1814c3cdf11effb43268f985a1",
+    "url_read": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja"
+   },
+   "names_listed": [
+    "Kocjan Jakub",
+    "Kolmasiak Bogumił",
+    "Łozińska Czaja Kinga",
+    "Szafrański Jakub",
+    "Świetlik Maria",
+    "Tomaszewska Anna",
+    "Zielonka Marcin"
+   ],
+   "names_found_in_page_text": "7/7",
+   "followup_urls": [
+    {
+     "url": "https://www.bizraport.pl/osoba/ba72f7ba03a5e63d88e890d7685c7722/kocjan_jakub",
+     "why": "Person profile for Kocjan Jakub (prezes zarządu); may list his other KRS roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/980410ff5ec51cd842ba82ca141f511a/tomaszewska_anna",
+     "why": "Person profile for Tomaszewska Anna (wiceprezeska zarządu); may list other roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/8b73388b880941906bd30d5bec84dbcc/kolmasiak_bogumil",
+     "why": "Person profile for Kolmasiak Bogumił; may list other roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/aba338a033b2b4d8c4e10af5a9dccbcf/zielonka_marcin",
+     "why": "Person profile for Zielonka Marcin; may list other roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/0f49515648476b8d03f0280e481d52f7/lozinska_czaja_kinga",
+     "why": "Person profile for Łozińska Czaja Kinga (rada fundacji); may list other roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/416e58e4c498b921560f430ddfa51fe0/szafranski_jakub",
+     "why": "Person profile for Szafrański Jakub (rada fundacji); may list other roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/5e697f132fbaf0dca2882065afeac244/swietlik_maria",
+     "why": "Person profile for Świetlik Maria (rada fundacji); may list other roles."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0299",
+     "subject": "Kocjan Jakub",
+     "relation": "is prezes zarządu (board president) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "role_or_job",
+     "evidence_text": "Funkcja: prezes zarządu",
+     "evidence_translation": "Function: board president (prezes zarządu)",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0300",
+     "subject": "Kolmasiak Bogumił",
+     "relation": "is członek zarządu (board member) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "role_or_job",
+     "evidence_text": "Funkcja: członek zarządu",
+     "evidence_translation": "Function: board member",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0301",
+     "subject": "Tomaszewska Anna",
+     "relation": "is wiceprezeska zarządu (deputy board president) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "role_or_job",
+     "evidence_text": "Funkcja: wiceprezeska zarządu",
+     "evidence_translation": "Function: deputy board president",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0302",
+     "subject": "Zielonka Marcin",
+     "relation": "is członek zarządu (board member) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "role_or_job",
+     "evidence_text": "Funkcja: członek zarządu",
+     "evidence_translation": "Function: board member",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0303",
+     "subject": "Łozińska Czaja Kinga",
+     "relation": "sits on the rada fundacji (foundation council) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "membership_or_board",
+     "evidence_text": "rada fundacji",
+     "evidence_translation": "foundation council",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport profile. The page gives 'Organ nadzoru: RADA FUNDACJI'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0304",
+     "subject": "Szafrański Jakub",
+     "relation": "sits on the rada fundacji (foundation council) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "membership_or_board",
+     "evidence_text": "rada fundacji",
+     "evidence_translation": "foundation council",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0305",
+     "subject": "Świetlik Maria",
+     "relation": "sits on the rada fundacji (foundation council) of",
+     "object": "Akcja Demokracja (fundacja, KRS 0000552033)",
+     "kind": "membership_or_board",
+     "evidence_text": "rada fundacji",
+     "evidence_translation": "foundation council",
+     "label": "fact",
+     "label_scope": "As listed under 'Reprezentacja' on the BizRaport KRS profile (data updated 30 Oct 2026).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0306",
+     "subject": "Akcja Demokracja",
+     "relation": "reported revenue of, for 2025",
+     "object": "3 854 045 zł",
+     "kind": "other",
+     "amount": "3 854 045",
+     "currency": "zł",
+     "date": "2025 (01-01-2025 to 31-12-2025)",
+     "evidence_text": "Organizacja Akcja Demokracja osiągnęła 3 854 045 zł przychodów.",
+     "evidence_translation": "The organisation Akcja Demokracja achieved 3,854,045 zł in revenue.",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; the page shows no filing contents, so it was not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0307",
+     "subject": "Akcja Demokracja",
+     "relation": "reported revenue of, for 2024",
+     "object": "2 403 840 zł",
+     "kind": "other",
+     "amount": "2 403 840",
+     "currency": "zł",
+     "date": "2024",
+     "evidence_text": "2 403 840 zł w 2024 roku.",
+     "evidence_translation": "2,403,840 zł in 2024.",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0308",
+     "subject": "Akcja Demokracja",
+     "relation": "reported revenue of, for 2023",
+     "object": "4 350 025 zł",
+     "kind": "other",
+     "amount": "4 350 025",
+     "currency": "zł",
+     "date": "2023",
+     "evidence_text": "4 350 025 zł w 2023 roku.",
+     "evidence_translation": "4,350,025 zł in 2023.",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0309",
+     "subject": "Akcja Demokracja",
+     "relation": "reported net result of, for 2025 (net loss)",
+     "object": "-152 505 zł",
+     "kind": "other",
+     "amount": "-152 505",
+     "currency": "zł",
+     "date": "2025",
+     "evidence_text": "Strata netto wyniosła 152 505 zł.",
+     "evidence_translation": "The net loss amounted to 152,505 zł.",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0310",
+     "subject": "Akcja Demokracja",
+     "relation": "reported net result of, for 2024 (net loss)",
+     "object": "-817 261 zł",
+     "kind": "other",
+     "amount": "-817 261",
+     "currency": "zł",
+     "date": "2024",
+     "evidence_text": "-817 261 zł w 2024 roku.",
+     "evidence_translation": "-817,261 zł in 2024.",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0311",
+     "subject": "Akcja Demokracja",
+     "relation": "reported net result of, for 2023 (profit)",
+     "object": "179 892 zł",
+     "kind": "other",
+     "amount": "179 892",
+     "currency": "zł",
+     "date": "2023",
+     "evidence_text": "179 892 zł w 2023 roku.",
+     "evidence_translation": "179,892 zł in 2023 (profit).",
+     "label": "fact",
+     "label_scope": "Figure as stated on BizRaport's KRS profile; not checked against the filing.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0312",
+     "subject": "Akcja Demokracja",
+     "relation": "has a listed shareholder or affiliated-entity tie to",
+     "object": "eight TK judges elected 2026; Donald Tusk; Wawrykiewicz; Żurek; Bodnar; Święczkowski; Nawrocki",
+     "kind": "other",
+     "evidence_text": "Brak danych o udziałowcach.",
+     "evidence_translation": "No shareholder data.",
+     "label": "no_link",
+     "label_scope": "Checked the 'Powiązania' (links) heading, which has no entries, and 'Udziałowcy' (shareholders). No tie to the listed 2026 actors appears on this page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T5",
+   "url": "https://oko.press/juz-wiemy-ile-dostalismy-od-was-z-odpisu-podatkowego-15-proc-bardzo-dziekujemy",
+   "host": "oko.press",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 18,837 characters. Article dated 25 lipca 2025; page metadata shows a later modified timestamp (2026-11-02). The article does not state the tax year of the 1.5% allocations, so no tax year is given.",
+   "page_title": "Już wiemy, ile dostaliśmy od Was z odpisu podatkowego (1,5 proc.). Bardzo dziękujemy! - OKO.press",
+   "page_date": "25 lipca 2025",
+   "publisher": "OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO)",
+   "capture_answer": "1.5% income: 2 365 138 zł received by Tuesday 22 July (2025), per the article dated 25 July 2025. Tax year not stated on the page. Final 1.5% totals cited: 2 185 052 zł (2024) and 2 369 417 zł (2023). Taxpayers: 9,100 donors in 2024 and 9,600 in 2023; OKO.press expects more than 10,000 this year, but gives no current count. Named staff: Piotr Pacewicz (board president of the foundation), Magdalena Chrzczonowicz (editor-in-chief), Toko Okazaki-Pindur (finances), Jarosław Głasek (operations), Agnieszka Hejne (his deputy).",
+   "raw": {
+    "fetched_at": "2026-11-02T00:37:59.020Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 18837,
+    "sha256": "875e18172c579c1c0467d583279168625a09e9b796483c6d1954038d43626dd9",
+    "url_read": "https://oko.press/juz-wiemy-ile-dostalismy-od-was-z-odpisu-podatkowego-15-proc-bardzo-dziekujemy"
+   },
+   "names_listed": [
+    "Piotr Pacewicz",
+    "Magdalena Chrzczonowicz",
+    "Toko Okazaki-Pindur",
+    "Jarosław Głasek",
+    "Agnieszka Hejne",
+    "Anna Mierzyńska"
+   ],
+   "names_found_in_page_text": "6/6",
+   "followup_urls": [
+    {
+     "url": "https://oko.press/o-nas",
+     "why": "Linked 'O nas' page; may describe the foundation's board and funding."
+    },
+    {
+     "url": "https://oko.press/15procent",
+     "why": "Linked 'Przekaż 1,5% podatku' page; may state the tax year or annual 1.5% totals."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-C0313",
+     "subject": "OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO)",
+     "relation": "received from the 1.5% tax allocation by Tuesday 22 July",
+     "object": "2 365 138 zł",
+     "kind": "other",
+     "amount": "2 365 138",
+     "currency": "zł",
+     "date": "do wtorku 22 lipca (2025)",
+     "evidence_text": "Do wtorku 22 lipca na nasze konto 1,5 proc. wpłynęło 2 365 138 zł",
+     "evidence_translation": "By Tuesday 22 July, 2,365,138 zł from the 1.5% allocation had reached our account.",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement (article of 25 Jul 2025). Tax year not stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0314",
+     "subject": "OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO)",
+     "relation": "final 1.5% total for 2024",
+     "object": "2 185 052 zł",
+     "kind": "other",
+     "amount": "2 185 052",
+     "currency": "zł",
+     "date": "2024",
+     "evidence_text": "ostatecznie w 2024 roku (2 185 052 zł)",
+     "evidence_translation": "finally in 2024 (2,185,052 zł)",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the article.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0315",
+     "subject": "OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO)",
+     "relation": "1.5% total for 2023",
+     "object": "2 369 417 zł",
+     "kind": "other",
+     "amount": "2 369 417",
+     "currency": "zł",
+     "date": "2023",
+     "evidence_text": "prawie tyle, ile w roku 2023 (2 369 417 zł)",
+     "evidence_translation": "almost as much as in 2023 (2,369,417 zł)",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement in the article.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0316",
+     "subject": "OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO)",
+     "relation": "reported donor counts for 2024 and 2023, and expects more than 10,000 donors this year",
+     "object": "9,100 donors (2024); 9,600 donors (2023)",
+     "kind": "statement",
+     "evidence_text": "liczba darczyńców przekroczy 10 tysięcy (w 2024 – 9100, 2023 – 9600)",
+     "evidence_translation": "the number of donors will exceed 10 thousand (in 2024 – 9100, 2023 – 9600)",
+     "label": "fact",
+     "label_scope": "OKO.press's own statement; the 10,000 is an expectation ('Spodziewamy się'), not a count.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0317",
+     "subject": "Piotr Pacewicz",
+     "relation": "is prezes zarządu (board president) of",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "kind": "role_or_job",
+     "evidence_text": "od czerwca 2024 redaktor i prezes zarządu Fundacji Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "since June 2024 editor and board president of the Ośrodek Kontroli Obywatelskiej OKO Foundation",
+     "label": "fact",
+     "label_scope": "Author bio on the page. He also signs as 'prezes*'; the footnote calls the foundation the publisher of OKO.press.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0318",
+     "subject": "Magdalena Chrzczonowicz",
+     "relation": "is redaktorka naczelna (editor-in-chief) of",
+     "object": "OKO.press",
+     "kind": "role_or_job",
+     "evidence_text": "Jako redaktorka naczelna (Magdalena Chrzczonowicz)",
+     "evidence_translation": "As editor-in-chief (Magdalena Chrzczonowicz)",
+     "label": "fact",
+     "label_scope": "Signing line of the article; her bio reads 'Naczelna OKO.press'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0319",
+     "subject": "Toko Okazaki-Pindur",
+     "relation": "is responsible for the finances of",
+     "object": "OKO.press",
+     "kind": "role_or_job",
+     "evidence_text": "która odpowiada za finanse OKO.press",
+     "evidence_translation": "who is responsible for OKO.press finances",
+     "label": "fact",
+     "label_scope": "Article's description of her role.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0320",
+     "subject": "Jarosław Głasek",
+     "relation": "heads the operations department ('dział operacyjny': marketing, multimedia, IT) of",
+     "object": "OKO.press",
+     "kind": "role_or_job",
+     "evidence_text": "którym kieruje Jarosław Głasek",
+     "evidence_translation": "which Jarosław Głasek heads",
+     "label": "fact",
+     "label_scope": "Article's description of his role.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0321",
+     "subject": "Agnieszka Hejne",
+     "relation": "is deputy to Jarosław Głasek in",
+     "object": "OKO.press operations department",
+     "kind": "role_or_job",
+     "evidence_text": "jego zastępczyni",
+     "evidence_translation": "his deputy",
+     "label": "fact",
+     "label_scope": "Article's description of her role.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0322",
+     "subject": "Anna Mierzyńska",
+     "relation": "led a training on recognising disinformation for",
+     "object": "OKO.press 1.5% campaign",
+     "kind": "event_or_speech",
+     "evidence_text": "dziennikarka Anna Mierzyńska poprowadziła szkolenie z rozpoznawania dezinformacji",
+     "evidence_translation": "journalist Anna Mierzyńska led a training on recognising disinformation",
+     "label": "fact",
+     "label_scope": "Stated in a quote from Agnieszka Hejne. Capacity: journalist. Organiser: OKO.press campaign. No fee, funder or other host is named.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0323",
+     "subject": "OKO.press",
+     "relation": "states it praised the role of political elites led by",
+     "object": "Donald Tusk",
+     "kind": "statement",
+     "evidence_text": "Doceniliśmy rolę politycznych elit (na czele z Donaldem Tuskiem)",
+     "evidence_translation": "We praised the role of the political elites (led by Donald Tusk)",
+     "label": "fact",
+     "label_scope": "OKO.press's own opinion. The same paragraph says it kept a 'krytyczne podejście' (critical approach) to specific policies.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0324",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "relation": "is the publisher ('wydawca') of",
+     "object": "OKO.press",
+     "kind": "other",
+     "evidence_text": "wydawcy portalu OKO.press",
+     "evidence_translation": "publisher of the OKO.press portal",
+     "label": "fact",
+     "label_scope": "Footnote on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0325",
+     "subject": "OKO.press",
+     "relation": "names a grant, foreign or institutional funder",
+     "object": "none named",
+     "kind": "other",
+     "evidence_text": "Dostaliśmy od Was prawie 2,4 mln zł!",
+     "evidence_translation": "We received almost 2.4 million zł from you!",
+     "label": "no_link",
+     "label_scope": "The article attributes the income to readers' 1.5% allocations and names no grant, foreign or institutional funder.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C6_org_finances-T6",
+   "url": "https://tvn24.pl/polska/finansowanie-komitetu-obrony-demokracji-ra704820-ls2458599",
+   "host": "tvn24.pl",
+   "theme": "C6_org_finances",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 46,395 characters. The article is dated 5.01.2017, 21:45 and covers KOD's 2016 finances; it is not a current document. Most sums are TVN24 estimates or KOD and Kijowski statements; the article says the last full fund data dates from June 2016. Sidebar teasers show 2026 Trybunał headlines; these are site chrome and are not recorded as claims. A family member's ownership role in MKM Studio is omitted per the rules. The article's three components (about 1.1 mln boxes, 1.08 mln fees, about 505 tys. donations) add to about 2.69 mln against its 'ok. 2,5 mln'; the article gives no reconciliation, and the boxes figure covers 5.12.2015-30.09.2016 only.",
+   "page_title": "Wszystkie pieniądze KOD-u. Ile zebrali, na co wydali?",
+   "page_date": "5.01.2017, 21:45",
+   "publisher": "TVN24 (tvn24.pl)",
+   "capture_answer": "Article dated 5 Jan 2017 (not 2026). TVN24 estimates that up to 2.5 mln zł may have reached KOD in 2016. Income as stated: public box collections 'prawie 1,1 mln złotych' (data for 5.12.2015-30.09.2016); membership fees about 1.08 mln (TVN24 arithmetic: about 9,000 members x 120 zł); private donations about 505 tys. zł (estimate). Spending: board declaration that funds went, among other things, to organising demonstrations. Payments: about 90 tys. zł to Kijowski's company MKM Studio, six invoices of about 15 tys. zł each, services March-August 2016. Named KOD people: Mateusz Kijowski (led KOD; company president), Radomir Szumełda (KOD board), Andrzej Blikle (financial-transparency adviser). No treasurer or finance officer, named donor, or foreign money is named. No further links on the page point to documents.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:37:58.600Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 46395,
+    "sha256": "9ad44da1da05b28e969d9b9468f947ef6bacb7f2c5135d1195ffe0745726a295",
+    "url_read": "https://tvn24.pl/polska/finansowanie-komitetu-obrony-demokracji-ra704820-ls2458599"
+   },
+   "names_listed": [
+    "Mateusz Kijowski",
+    "Radomir Szumełda",
+    "Andrzej Blikle"
+   ],
+   "names_found_in_page_text": "3/3",
+   "claims": [
+    {
+     "id": "B03-C0326",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "may have received in 2016 an estimated",
+     "object": "up to 2.5 mln zł (TVN24 estimate)",
+     "kind": "other",
+     "amount": "2,5 mln",
+     "currency": "zł",
+     "date": "2016",
+     "evidence_text": "Nawet 2,5 mln złotych mogło trafić w 2016 r. na konto Komitetu Obrony Demokracji",
+     "evidence_translation": "Even 2.5 million zł could have reached the Committee's account in 2016",
+     "label": "speculation",
+     "label_scope": "TVN24's own estimate from public data ('mogło trafić', could have reached); rests on the box, fee and donation figures the article lists.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0327",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "paid for IT services (invoices) to",
+     "object": "MKM Studio sp. z o.o.",
+     "kind": "contract_or_fee",
+     "amount": "90 000",
+     "currency": "zł",
+     "date": "2016 (services March-August 2016)",
+     "evidence_text": "90 tys. złotych trafiło na konto spółki Mateusza Kijowskiego, jako wynagrodzenie za usługi informatyczne",
+     "evidence_translation": "90 thousand zł went to Mateusz Kijowski's company as payment for IT services",
+     "label": "fact",
+     "label_scope": "TVN24's 2017 reporting from invoices and KOD payments; six invoices of about 15 tys. zł each, per the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0328",
+     "subject": "Mateusz Kijowski",
+     "relation": "was prezes (president) of",
+     "object": "MKM Studio sp. z o.o.",
+     "kind": "role_or_job",
+     "evidence_text": "On sam był natomiast prezesem spółki.",
+     "evidence_translation": "He himself was the company's president.",
+     "label": "fact",
+     "label_scope": "As stated by TVN24 (2017). Kijowski said the company had been suspended; the article says KRS data shows no such suspension.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0329",
+     "subject": "Mateusz Kijowski",
+     "relation": "led",
+     "object": "Komitet Obrony Demokracji (KOD)",
+     "kind": "role_or_job",
+     "evidence_text": "kierowanego przez Mateusza Kijowskiego",
+     "evidence_translation": "led by Mateusz Kijowski",
+     "label": "fact",
+     "label_scope": "TVN24's description (2017).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0330",
+     "subject": "Mateusz Kijowski",
+     "relation": "said he never took KOD money (denial)",
+     "object": "KOD",
+     "kind": "statement",
+     "evidence_text": "Nigdy nie tknąłem pieniędzy KOD-u.",
+     "evidence_translation": "I never touched KOD's money.",
+     "label": "fact",
+     "label_scope": "That Kijowski said this at a morning briefing (TVN24, 2017); the denial is his own claim.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0331",
+     "subject": "Mateusz Kijowski",
+     "relation": "admitted he personally did many of the works commissioned by KOD",
+     "object": "MKM Studio sp. z o.o.",
+     "kind": "statement",
+     "evidence_text": "wiele spośród prac zleconych przez Komitet wykonał w firmie osobiście",
+     "evidence_translation": "he personally carried out many of the works commissioned by the committee in the company",
+     "label": "fact",
+     "label_scope": "Reported by TVN24 as Kijowski's admission at the briefing (2017).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0332",
+     "subject": "Mateusz Kijowski",
+     "relation": "named the KOD body or official who approved the MKM Studio contract",
+     "object": "none named",
+     "kind": "other",
+     "evidence_text": "nie wskazując jednak nikogo z nazwiska",
+     "evidence_translation": "without naming anyone",
+     "label": "no_link",
+     "label_scope": "Kijowski spoke only of 'gremia kierownicze' (governing bodies) and named no one; the page names no approving official.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0333",
+     "subject": "Radomir Szumełda",
+     "relation": "is on the board (zarząd) of",
+     "object": "Komitet Obrony Demokracji (KOD)",
+     "kind": "role_or_job",
+     "evidence_text": "Radomir Szumełda z zarządu KOD-u",
+     "evidence_translation": "Radomir Szumełda of the KOD board",
+     "label": "fact",
+     "label_scope": "As described by TVN24 (2017), at a press conference that afternoon.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0334",
+     "subject": "Radomir Szumełda",
+     "relation": "said the association certainly did not pay Kijowski's company",
+     "object": "MKM Studio sp. z o.o.",
+     "kind": "statement",
+     "evidence_text": "stowarzyszenie na pewno nie płaciło firmie Kijowskiego",
+     "evidence_translation": "the association certainly did not pay Kijowski's company",
+     "label": "fact",
+     "label_scope": "That Szumełda said this at the afternoon press conference (TVN24, 2017); his claim.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0335",
+     "subject": "Radomir Szumełda",
+     "relation": "said any such payment would have come from the Komitet Społeczny KOD",
+     "object": "Komitet Społeczny KOD",
+     "kind": "statement",
+     "evidence_text": "Komitet Społeczny KOD, który jest ciałem niezależnym od Stowarzyszenia KOD",
+     "evidence_translation": "Komitet Społeczny KOD, which is a body independent of the Stowarzyszenie KOD",
+     "label": "fact",
+     "label_scope": "Szumełda's statement as reported by TVN24 (2017), phrased 'Jeżeli już, to zdaniem Szumełdy'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0336",
+     "subject": "Andrzej Blikle",
+     "relation": "was KOD's adviser for financial transparency",
+     "object": "Komitet Obrony Demokracji (KOD)",
+     "kind": "role_or_job",
+     "evidence_text": "doradcę do spraw przejrzystości finansowej",
+     "evidence_translation": "adviser for financial transparency",
+     "label": "fact",
+     "label_scope": "Per TVN24 (2017), which says the association's website still lists it. Blikle says he never performed the role (next claim).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0337",
+     "subject": "Andrzej Blikle",
+     "relation": "said he accepted the adviser function but never performed it",
+     "object": "Komitet Obrony Demokracji (KOD)",
+     "kind": "statement",
+     "evidence_text": "Przyjąłem tę funkcję, ale w rzeczywistości jej nie skonsumowałem.",
+     "evidence_translation": "I accepted this function, but in reality I did not perform it.",
+     "label": "fact",
+     "label_scope": "That Blikle told TVN24 this (2017).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0338",
+     "subject": "Andrzej Blikle",
+     "relation": "said the MKM Studio contract should have been open and transparent from the start",
+     "object": "MKM Studio sp. z o.o. contract",
+     "kind": "statement",
+     "evidence_text": "kontrakt ten powinien był być jawny i transparentny",
+     "evidence_translation": "this contract should have been open and transparent",
+     "label": "fact",
+     "label_scope": "Blikle's view as reported by TVN24 (2017).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0339",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "requires prior consent by resolution of the Zarząd Główny for commitments above 10,000 zł",
+     "object": "Zarząd Główny (KOD)",
+     "kind": "other",
+     "evidence_text": "wymaga uprzedniej zgody wyrażonej w uchwale przez Zarząd Główny",
+     "evidence_translation": "requires prior consent expressed in a resolution by the Zarząd Główny",
+     "label": "fact",
+     "label_scope": "Quoted by TVN24 from KOD's KRS extract (2017); the quote begins 'zaciągnięcie zobowiązania ... przekraczającej kwotę 10.000 zł'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0340",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "is funded from",
+     "object": "member fees and donations; public collections",
+     "kind": "other",
+     "evidence_text": "KOD utrzymuje się z dwóch źródeł",
+     "evidence_translation": "KOD is sustained from two sources",
+     "label": "fact",
+     "label_scope": "TVN24's description (2017) of KOD's two income sources.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0341",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "reported fee-paying members for the previous year",
+     "object": "about 9,000 members of 20,000 registered; annual fee 120 zł",
+     "kind": "other",
+     "date": "2016 (article: 'ubiegły rok')",
+     "evidence_text": "otrzymało składki od ok. 9 tys. członków (na 20 tys. zarejestrowanych)",
+     "evidence_translation": "it received fees from about 9 thousand members (of 20 thousand registered)",
+     "label": "fact",
+     "label_scope": "The association's own statement as reported by TVN24 (2017); the 120 zł annual fee is also stated in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0342",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "membership fees, calculated by TVN24 as",
+     "object": "membership fee total (about 9,000 x 120 zł)",
+     "kind": "other",
+     "amount": "1,08 mln",
+     "currency": "zł",
+     "date": "2016",
+     "evidence_text": "Daje to zatem kwotę 1,08 mln złotych.",
+     "evidence_translation": "This therefore gives an amount of 1.08 million zł.",
+     "label": "speculation",
+     "label_scope": "TVN24's arithmetic: about 9,000 members x 120 zł annual fee; an estimate built from the member count and fee in the previous claim.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0343",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "public box collections (per KOD website) yielded",
+     "object": "public collections (zbiórki do puszek)",
+     "kind": "other",
+     "amount": "prawie 1,1 mln",
+     "currency": "zł",
+     "date": "5.12.2015-30.09.2016 (figure published 9 Nov 2016)",
+     "evidence_text": "zbiórki do puszek przyniosły organizacji prawie 1,1 mln złotych",
+     "evidence_translation": "box collections brought the organisation almost 1.1 million zł",
+     "label": "fact",
+     "label_scope": "KOD website statement as reported by TVN24 (2017).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0344",
+     "subject": "Mateusz Kijowski",
+     "relation": "said the cash in collection boxes was",
+     "object": "KOD collection boxes",
+     "kind": "statement",
+     "amount": "ponad półtora miliona",
+     "currency": "zł",
+     "date": "2016 (said 5 Jan 2017)",
+     "evidence_text": "ponad półtora miliona złotych",
+     "evidence_translation": "over one and a half million zł",
+     "label": "fact",
+     "label_scope": "That Kijowski said this at a morning briefing (TVN24, 2017). He put member fees plus donations at 'kwota zbliżająca się do miliona'. Differs from the KOD website figure above.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0345",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "received private donations; end-2016 estimate",
+     "object": "private individuals (unnamed)",
+     "kind": "grant_or_donation",
+     "amount": "ok. 505 tys.",
+     "currency": "zł",
+     "date": "end of 2016",
+     "evidence_text": "Wpływy z tego źródła mogły na koniec 2016 r. wynieść ok. 505 tys. złotych.",
+     "evidence_translation": "Income from this source could have reached about 505 thousand zł by the end of 2016.",
+     "label": "speculation",
+     "label_scope": "TVN24's estimate ('mogły', could have). The article gives no basis beyond saying KOD received donations from private persons.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0346",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "board declared that the money was used, among other things, for",
+     "object": "organising demonstrations (manifestacje)",
+     "kind": "statement",
+     "evidence_text": "przeznaczane były m.in. na organizację manifestacji",
+     "evidence_translation": "were used, among other things, to organise demonstrations",
+     "label": "fact",
+     "label_scope": "The association's board declaration as reported by TVN24 (2017); the article gives no amounts for this use.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0347",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "names an officer responsible for finances (e.g. skarbnik)",
+     "object": "none named",
+     "kind": "other",
+     "evidence_text": "Radomir Szumełda z zarządu KOD-u zapewnił",
+     "evidence_translation": "Radomir Szumełda of the KOD board assured",
+     "label": "no_link",
+     "label_scope": "No treasurer or finance officer is named. The only KOD board member named is Szumełda, who speaks at a press conference; no finance role is given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0348",
+     "subject": "Komitet Obrony Demokracji (KOD)",
+     "relation": "has a listed tie to",
+     "object": "eight TK judges (2026); Donald Tusk; Wawrykiewicz; Żurek; Bodnar; Święczkowski; Nawrocki",
+     "kind": "other",
+     "evidence_text": "Adam Bodnar",
+     "evidence_translation": "Adam Bodnar (site tag list)",
+     "label": "no_link",
+     "label_scope": "No listed 2026 actor appears in the article body. Donald Tusk and Adam Bodnar appear only in the site tag list; Anna Korwin-Piotrowska and Karol Nawrocki only in sidebar teasers.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kod",
+     "subject_map_status": "on_map",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C7_firms_contracts-T1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3234/body",
+   "host": "api.sejm.gov.pl",
+   "theme": "C7_firms_contracts",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 1519 characters; full question text returned. Read URL is the requested URL. page_date is the 'Data wpływu' (receipt) date. The firm name appears in inflected form on the page ('Kancelarią Radców Prawnych ...'); the nominative form is used in name fields.",
+   "page_title": "Zapytanie w sprawie umów nr MS/5215/BKW/2024 oraz MS/5215-1/BKW/2024 zawartych z Kancelarią Radców Prawnych Kwaterska i Partnerzy spółka partnerska",
+   "page_date": "23-02-2026",
+   "publisher": "Sejm (api.sejm.gov.pl)",
+   "capture_answer": "Written question 3234 by Dariusz Matecki (received 23-02-2026), addressed to the minister of justice. Contractor: Kancelaria Radców Prawnych Kwaterska i Partnerzy spółka partnerska, Warsaw. Contracts MS/5215/BKW/2024 and MS/5215-1/BKW/2024, both concluded on 24 października 2024 r. (24 October 2024), for legal services (świadczenie usług prawnych), combined value 190 000,00 zł; the page gives no split between the two. The cases are not identified and the contracting unit and the minister in office are not named. Flags: none. No listed judge, organisation or core actor appears on the page. The page gives no party affiliation for the submitter.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:43:50.568Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1519,
+    "sha256": "0a6bffaf772c3e1c3cf5b543f2239bfdf44889d4779df26776a54bda4593931b",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3234/body"
+   },
+   "names_listed": [
+    "Dariusz Matecki",
+    "Kancelaria Radców Prawnych Kwaterska i Partnerzy spółka partnerska"
+   ],
+   "names_found_in_page_text": "1/2",
+   "claims": [
+    {
+     "id": "B03-C0349",
+     "subject": "Kancelaria Radców Prawnych Kwaterska i Partnerzy spółka partnerska",
+     "subject_type": "company",
+     "relation": "concluded legal-services contracts MS/5215/BKW/2024 and MS/5215-1/BKW/2024 (question addressed to the minister of justice)",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "date": "24 października 2024 r.",
+     "evidence_text": "umów nr MS/5215/BKW/2024 oraz MS/5215-1/BKW/2024 z Kancelarią Radców Prawnych Kwaterska i Partnerzy spółka partnerska",
+     "evidence_translation": "of contracts no. MS/5215/BKW/2024 and MS/5215-1/BKW/2024 with the law office of legal advisers Kwaterska i Partnerzy, a partnership company",
+     "label": "fact",
+     "label_scope": "The question states that these two contracts were concluded on this date with this firm. The page does not name the contracting unit; the object is the addressee of the question. Contract text is not on the page.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0350",
+     "subject": "Kancelaria Radców Prawnych Kwaterska i Partnerzy spółka partnerska",
+     "subject_type": "company",
+     "relation": "combined value of contracts MS/5215/BKW/2024 and MS/5215-1/BKW/2024 for legal services",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "amount": "190 000,00",
+     "currency": "zł",
+     "date": "24 października 2024 r.",
+     "evidence_text": "na świadczenie usług prawnych na łączną kwotę 190 000,00 zł",
+     "evidence_translation": "for the provision of legal services, in a total amount of 190 000,00 zł (190,000.00 zloty)",
+     "label": "fact",
+     "label_scope": "The question states the combined value of the two contracts as 190 000,00 zł. No per-contract split, invoices or payment dates are on the page.",
+     "evidence_location": "Body, opening sentence (same sentence as the contract claim)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0351",
+     "subject": "Dariusz Matecki",
+     "subject_type": "person",
+     "relation": "submitted (Zgłaszający) the written question on contracts MS/5215/BKW/2024 and MS/5215-1/BKW/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "other",
+     "date": "23-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki",
+     "evidence_translation": "Submitter: Dariusz Matecki",
+     "label": "fact",
+     "label_scope": "The page names him as submitter. The date is the 'Data wpływu' (receipt) date. No party affiliation or parliamentary role is stated on the page.",
+     "evidence_location": "Header block under the title",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0352",
+     "subject": "Kancelaria Radców Prawnych Kwaterska i Partnerzy spółka partnerska",
+     "subject_type": "company",
+     "relation": "no tie to any listed judge, organisation or core actor appears on the page",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; DemoCrisis; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Kancelarią Radców Prawnych Kwaterska i Partnerzy spółka partnerska z siedzibą w Warszawie",
+     "evidence_translation": "with the law office of legal advisers Kwaterska i Partnerzy, a partnership company, seated in Warsaw",
+     "label": "no_link",
+     "label_scope": "Checked the full page text for every name in object. None appears; the firm is named only as contractor. Covers this page only.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0353",
+     "subject": "ministra sprawiedliwości",
+     "subject_type": "public_body",
+     "relation": "office-holder named on the page as",
+     "object": "Waldemar Żurek; Adam Bodnar",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "do ministra sprawiedliwości",
+     "evidence_translation": "to the minister of justice",
+     "label": "no_link",
+     "label_scope": "Checked the page for the name of the minister in office when these contracts were concluded. The page gives only 'ministra sprawiedliwości'; neither Waldemar Żurek nor Adam Bodnar is named.",
+     "evidence_location": "Heading line under '# Zapytanie nr 3234'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C7_firms_contracts-T2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3237/body",
+   "host": "api.sejm.gov.pl",
+   "theme": "C7_firms_contracts",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 1354 characters; full question text returned. Read URL is the requested URL. page_date is the 'Data wpływu' (receipt) date. The firm name appears in inflected form on the page ('Kancelarią Radcy Prawnego Barbara Boniecka'); the nominative form is used in name fields.",
+   "page_title": "Zapytanie w sprawie umowy nr MS/5384/DZP/2024 zawartej z Kancelarią Radcy Prawnego Barbara Boniecka",
+   "page_date": "23-02-2026",
+   "publisher": "Sejm (api.sejm.gov.pl)",
+   "capture_answer": "Written question 3237 by Dariusz Matecki (received 23-02-2026), addressed to the minister of justice. Contractor: Kancelaria Radcy Prawnego Barbara Boniecka (a legal adviser's office under the name of Barbara Boniecka). Contract MS/5384/DZP/2024, concluded 31 grudnia 2024 r. (31 December 2024), for litigation representation (zastępstwo procesowe), value 99 180,00 zł. The cases are not identified on the page. Question 5 asks whether a fee tied to the case outcome was agreed and who at the ministry supervised; the page gives no answer. Flags: none. No listed judge, organisation or core actor appears on the page. The page gives no party affiliation for the submitter.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:43:50.218Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1354,
+    "sha256": "105a2ac6b415b54b5a1e0101f6c3b03bfc036af3202157f8272e2f10ddd0f10a",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3237/body"
+   },
+   "names_listed": [
+    "Dariusz Matecki",
+    "Kancelaria Radcy Prawnego Barbara Boniecka",
+    "Barbara Boniecka"
+   ],
+   "names_found_in_page_text": "2/3",
+   "claims": [
+    {
+     "id": "B03-C0354",
+     "subject": "Kancelaria Radcy Prawnego Barbara Boniecka",
+     "subject_type": "org",
+     "relation": "concluded litigation-representation contract MS/5384/DZP/2024 (question addressed to the minister of justice)",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "date": "31 grudnia 2024 r.",
+     "evidence_text": "W związku z zawarciem w dniu 31 grudnia 2024 r. umowy nr MS/5384/DZP/2024 z Kancelarią Radcy Prawnego Barbara Boniecka",
+     "evidence_translation": "In connection with the conclusion on 31 December 2024 of contract no. MS/5384/DZP/2024 with the law office of legal adviser Barbara Boniecka",
+     "label": "fact",
+     "label_scope": "The question states that the contract was concluded on this date with this office. The page does not name the contracting unit; the object is the addressee of the question. Contract text is not on the page.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0355",
+     "subject": "Kancelaria Radcy Prawnego Barbara Boniecka",
+     "subject_type": "org",
+     "relation": "value of litigation-representation contract MS/5384/DZP/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "amount": "99 180,00",
+     "currency": "zł",
+     "date": "31 grudnia 2024 r.",
+     "evidence_text": "na zastępstwo procesowe, na kwotę 99 180,00 zł",
+     "evidence_translation": "for litigation representation, in the amount of 99 180,00 zł (99,180.00 zloty)",
+     "label": "fact",
+     "label_scope": "The question states the contract amount as 99 180,00 zł. No invoices, payment dates or hours breakdown are on the page.",
+     "evidence_location": "Body, opening sentence (same sentence as the contract claim)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0356",
+     "subject": "Dariusz Matecki",
+     "subject_type": "person",
+     "relation": "submitted (Zgłaszający) the written question on contract MS/5384/DZP/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "other",
+     "date": "23-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki",
+     "evidence_translation": "Submitter: Dariusz Matecki",
+     "label": "fact",
+     "label_scope": "The page names him as submitter. The date is the 'Data wpływu' (receipt) date. No party affiliation or parliamentary role is stated on the page.",
+     "evidence_location": "Header block under the title",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0357",
+     "subject": "Kancelaria Radcy Prawnego Barbara Boniecka",
+     "subject_type": "org",
+     "relation": "no tie to any listed judge, organisation or core actor appears on the page",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; DemoCrisis; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "z Kancelarią Radcy Prawnego Barbara Boniecka na zastępstwo procesowe",
+     "evidence_translation": "with the law office of legal adviser Barbara Boniecka for litigation representation",
+     "label": "no_link",
+     "label_scope": "Checked the full page text for every name in object. None appears; the office is named only as contractor. Covers this page only.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0358",
+     "subject": "ministra sprawiedliwości",
+     "subject_type": "public_body",
+     "relation": "office-holder named on the page as",
+     "object": "Waldemar Żurek; Adam Bodnar",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "do ministra sprawiedliwości",
+     "evidence_translation": "to the minister of justice",
+     "label": "no_link",
+     "label_scope": "Checked the page for the name of the minister in office when this contract was concluded. The page gives only 'ministra sprawiedliwości'; neither Waldemar Żurek nor Adam Bodnar is named.",
+     "evidence_location": "Heading line under '# Zapytanie nr 3237'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "C7_firms_contracts-T3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3188/body",
+   "host": "api.sejm.gov.pl",
+   "theme": "C7_firms_contracts",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 1351 characters; full question text returned. Read URL is the requested URL. page_date is the 'Data wpływu' (receipt) date, 20-02-2026. The firm name appears in inflected form on the page ('Kancelarią Prawną Piotr Waś'); the nominative form is used in name fields.",
+   "page_title": "Zapytanie w sprawie umowy nr MS/5383/DZP/2024 zawartej z Kancelarią Prawną Piotr Waś",
+   "page_date": "20-02-2026",
+   "publisher": "Sejm (api.sejm.gov.pl)",
+   "capture_answer": "Written question 3188 by Dariusz Matecki and Zbigniew Ziobro (received 20-02-2026), addressed to the minister of justice. Contractor: Kancelaria Prawna Piotr Waś. Contract MS/5383/DZP/2024, concluded 30 grudnia 2024 r. (30 December 2024), for litigation representation (zastępstwo procesowe), value 99 180,00 zł, the same value as contract MS/5384/DZP/2024 in question 3237. The cases are not identified on the page. Question 5 asks about a fee tied to the case outcome and about ministry supervision; the page gives no answer. Flags: none. No listed judge, organisation or core actor appears on the page. The page gives no party affiliation for either submitter.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:43:51.137Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1351,
+    "sha256": "dbde6b84805d3870d8c5fbf40bfe8655cbaf048190899c30883718e56e8142ef",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3188/body"
+   },
+   "names_listed": [
+    "Dariusz Matecki",
+    "Zbigniew Ziobro",
+    "Kancelaria Prawna Piotr Waś",
+    "Piotr Waś"
+   ],
+   "names_found_in_page_text": "3/4",
+   "claims": [
+    {
+     "id": "B03-C0359",
+     "subject": "Kancelaria Prawna Piotr Waś",
+     "subject_type": "org",
+     "relation": "concluded litigation-representation contract MS/5383/DZP/2024 (question addressed to the minister of justice)",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "date": "30 grudnia 2024 r.",
+     "evidence_text": "W związku z zawarciem w dniu 30 grudnia 2024 r. umowy nr MS/5383/DZP/2024 z Kancelarią Prawną Piotr Waś",
+     "evidence_translation": "In connection with the conclusion on 30 December 2024 of contract no. MS/5383/DZP/2024 with the law firm Piotr Waś",
+     "label": "fact",
+     "label_scope": "The question states that the contract was concluded on this date with this firm. The page does not name the contracting unit; the object is the addressee of the question. Contract text is not on the page.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0360",
+     "subject": "Kancelaria Prawna Piotr Waś",
+     "subject_type": "org",
+     "relation": "value of litigation-representation contract MS/5383/DZP/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "amount": "99 180,00",
+     "currency": "zł",
+     "date": "30 grudnia 2024 r.",
+     "evidence_text": "na zastępstwo procesowe na kwotę 99 180,00 zł",
+     "evidence_translation": "for litigation representation in the amount of 99 180,00 zł (99,180.00 zloty)",
+     "label": "fact",
+     "label_scope": "The question states the contract amount as 99 180,00 zł. No invoices, payment dates or hours breakdown are on the page.",
+     "evidence_location": "Body, opening sentence (same sentence as the contract claim)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0361",
+     "subject": "Dariusz Matecki",
+     "subject_type": "person",
+     "relation": "submitted (Zgłaszający), together with Zbigniew Ziobro, the written question on contract MS/5383/DZP/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "other",
+     "date": "20-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_translation": "Submitters: Dariusz Matecki, Zbigniew Ziobro",
+     "label": "fact",
+     "label_scope": "The page names him as one of two submitters. The date is the 'Data wpływu' (receipt) date. No party affiliation or parliamentary role is stated on the page.",
+     "evidence_location": "Header block under the title",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0362",
+     "subject": "Zbigniew Ziobro",
+     "subject_type": "person",
+     "relation": "submitted (Zgłaszający), together with Dariusz Matecki, the written question on contract MS/5383/DZP/2024",
+     "object": "ministra sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "other",
+     "date": "20-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_translation": "Submitters: Dariusz Matecki, Zbigniew Ziobro",
+     "label": "fact",
+     "label_scope": "The page names him as one of two submitters. The date is the 'Data wpływu' (receipt) date. No party affiliation or parliamentary role is stated on the page.",
+     "evidence_location": "Header block under the title",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ziobro",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0363",
+     "subject": "Kancelaria Prawna Piotr Waś",
+     "subject_type": "org",
+     "relation": "no tie to any listed judge, organisation or core actor appears on the page",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; DemoCrisis; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "z Kancelarią Prawną Piotr Waś na zastępstwo procesowe",
+     "evidence_translation": "with the law firm Piotr Waś for litigation representation",
+     "label": "no_link",
+     "label_scope": "Checked the full page text for every name in object. None appears; the firm is named only as contractor. Covers this page only.",
+     "evidence_location": "Body, opening sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0364",
+     "subject": "ministra sprawiedliwości",
+     "subject_type": "public_body",
+     "relation": "office-holder named on the page as",
+     "object": "Waldemar Żurek; Adam Bodnar",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "do ministra sprawiedliwości",
+     "evidence_translation": "to the minister of justice",
+     "label": "no_link",
+     "label_scope": "Checked the page for the name of the minister in office when this contract was concluded. The page gives only 'ministra sprawiedliwości'; neither Waldemar Żurek nor Adam Bodnar is named.",
+     "evidence_location": "Heading line under '# Zapytanie nr 3188'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
    "ref": "C1_eu_money-P1",
    "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
    "host": "programrownychpraw.batory.org.pl",
@@ -6471,7 +8896,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0260",
+     "id": "B03-C0365",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 (5 Nov 2025) approved 40 large thematic grants totalling PLN 4,958,807.00 in its Equal Rights Programme (Program Równych Praw), its CERV-funded re-granting scheme",
@@ -6496,7 +8921,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0261",
+     "id": "B03-C0366",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 approved 40 small thematic grants totalling PLN 2,514,278.00 in the Equal Rights Programme",
@@ -6518,7 +8943,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0262",
+     "id": "B03-C0367",
      "subject": "Free Courts Foundation / Fundacja Wolne Sądy (free_courts)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0458, project 'Europa zaczyna się w sołectwie - wolności i prawa podstawowe UE w...', PLN 121,293.00 requested, score 31.50; status 'nieprzyznana dotacja' (not granted)",
@@ -6542,7 +8967,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0263",
+     "id": "B03-C0368",
      "subject": "Helsinki Foundation for Human Rights (hfhr)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0102, project 'Prawo i Karta: Monitoring Procesu Legislacyjnego', PLN 124,976.00 requested, score 32.50; not granted",
@@ -6566,7 +8991,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0264",
+     "id": "B03-C0369",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0190, project 'Dezinformacja wobec imigracji - działania lokalne', PLN 124,904.00 requested, score 32.00; not granted",
@@ -6594,7 +9019,7 @@
      ]
     },
     {
-     "id": "B03-C0265",
+     "id": "B03-C0370",
      "subject": "Institute of Public Affairs / Fundacja Instytut Spraw Publicznych (isp)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0098, project 'Społeczne granice akceptacji: wpływ dyskursu publi[cznego]...', PLN 124,874.00 requested, score 29.50; not granted",
@@ -6618,7 +9043,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0266",
+     "id": "B03-C0371",
      "subject": "Kultura Liberalna Foundation (kultura_liberalna)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0412, project 'Głosy Wykluczonych', PLN 125,000.00 requested, score 31.00; not granted",
@@ -6642,7 +9067,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0267",
+     "id": "B03-C0372",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Watchdog Polska (application PRP-KTD/0352, project 'Instytucje do podziału', score 33.00)",
@@ -6666,7 +9091,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0268",
+     "id": "B03-C0373",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 124,976.00 from the CERV-funded Equal Rights Programme to Amnesty International Poland (application PRP-KTD/0101, project 'Algorytmy bez uprzedzeń - wzmacnianie ochrony pra[w]...', score 33.50)",
@@ -6693,7 +9118,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0269",
+     "id": "B03-C0374",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Fundacja Panoptykon (application PRP-KTD/0276, project 'Razem dla dobrego wdrożenia dyrektywy policyjnej', score 34.00)",
@@ -6720,7 +9145,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0270",
+     "id": "B03-C0375",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Stowarzyszenie Nowoczesnej Edukacji Prawnej, Wrocław (application PRP-KTD/0313, project 'Karta Praw Podstawowych lokalnie...', score 33.00)",
@@ -6745,7 +9170,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0271",
+     "id": "B03-C0376",
      "subject": "Joanna Pietruszka",
      "subject_type": "person",
      "relation": "chair of the grant committee (Komisja Konkursowa) for the Equal Rights Programme thematic-grants competition; listed among those present at the 5 Nov 2025 board meeting",
@@ -6768,7 +9193,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0272",
+     "id": "B03-C0377",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "approved the grant committee's recommendation not to create reserve lists in the Equal Rights Programme thematic round",
@@ -6788,7 +9213,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0273",
+     "id": "B03-C0378",
      "subject": "Iustitia, Themis, OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO), KOD, Osiatyński Archive, Fundacja Moje Państwo, Hołda Association, INPRIS",
      "subject_type": "org",
      "relation": "no thematic grant from Batory's CERV-funded Equal Rights Programme in the round approved by Decision 1856",
@@ -6849,7 +9274,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0274",
+     "id": "B03-C0379",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds Batory's Equal Rights Program; 2025-2027 budget EUR 6.7m, of which EUR 0.67m comes from Batory's own resources",
@@ -6879,7 +9304,7 @@
      ]
     },
     {
-     "id": "B03-C0275",
+     "id": "B03-C0380",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "runs the CERV-funded Equal Rights Program in cooperation with the Federation of Local Funds",
@@ -6902,7 +9327,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0276",
+     "id": "B03-C0381",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "re-grants the Equal Rights Program money to Polish civil society organisations as institutional, thematic, experience-exchange and rapid-response grants",
@@ -6954,7 +9379,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0277",
+     "id": "B03-C0382",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme, which re-grants to civil society in Czechia, Slovakia, Hungary and Poland",
@@ -6977,7 +9402,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0278",
+     "id": "B03-C0383",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Polish implementing partner of the Stronger Roots consortium",
@@ -6997,7 +9422,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0279",
+     "id": "B03-C0384",
      "subject": "Open Society Fund Prague",
      "subject_type": "org",
      "relation": "first-named joint implementer of Stronger Roots (with Glopolis, Open Society Foundation Bratislava, NIOK Foundation and Batory)",
@@ -7023,7 +9448,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0280",
+     "id": "B03-C0385",
      "subject": "Stronger Roots programme",
      "subject_type": "other",
      "relation": "2025 call: will support 84 organisations and networks with EUR 2.9 million (all four countries)",
@@ -7077,7 +9502,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0281",
+     "id": "B03-C0386",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots competition in Poland (results 10 Nov 2025): 25 organisations to receive grants totalling EUR 906,357",
@@ -7099,7 +9524,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0282",
+     "id": "B03-C0387",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme whose Polish grants Batory awards (as Batory states)",
@@ -7177,7 +9602,7 @@
    "names_found_in_page_text": "0/25",
    "claims": [
     {
-     "id": "B03-C0283",
+     "id": "B03-C0388",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 (5 Nov 2025) approved 17 Stronger Roots Area 1 grants (building organisations' social base) totalling EUR 631,566",
@@ -7199,7 +9624,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0284",
+     "id": "B03-C0389",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 approved 8 Stronger Roots Area 2 grants (cross-cutting cooperation of civil society networks) totalling EUR 274,791",
@@ -7221,7 +9646,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0285",
+     "id": "B03-C0390",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots Area 2 (network cooperation) grant to the Association for Legal Intervention, application SR-PW/0042, Warsaw; per-grant amount not stated",
@@ -7244,7 +9669,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0286",
+     "id": "B03-C0391",
      "subject": "HFHR, Free Courts, Iustitia, Themis, OKO.press, Akcja Demokracja, KOD, Osiatyński Archive, Fundacja Moje Państwo, ISP, Watchdog Polska",
      "subject_type": "org",
      "relation": "no Stronger Roots grant in the Polish 2025 round (Decision 1857)",
@@ -7305,7 +9730,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0287",
+     "id": "B03-C0392",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 May 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -7329,7 +9754,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0288",
+     "id": "B03-C0393",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant, to enhance its products and results",
@@ -7353,7 +9778,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0289",
+     "id": "B03-C0394",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "planned use of the EEA-funded organisational grant: refresh the Osiatyński Archive and the English-language Rule of Law in Poland service; the Archive to become a networked think tank publishing quarterly reports",
@@ -7382,7 +9807,7 @@
      ]
     },
     {
-     "id": "B03-C0290",
+     "id": "B03-C0395",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "runs the websites OKO.press, Osiatyński Archive and Rule of Law in Poland",
@@ -7410,7 +9835,7 @@
      ]
     },
     {
-     "id": "B03-C0291",
+     "id": "B03-C0396",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of OKO's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -7442,7 +9867,7 @@
      ]
     },
     {
-     "id": "B03-C0292",
+     "id": "B03-C0397",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "INDIRECT: the 2022-24 grant to OKO (EUR 100,000 + EUR 8,000) was to refresh the Osiatyński Archive, on whose programme council he sits",
@@ -7497,7 +9922,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0293",
+     "id": "B03-C0398",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 Jul 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -7521,7 +9946,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0294",
+     "id": "B03-C0399",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant",
@@ -7545,7 +9970,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0295",
+     "id": "B03-C0400",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of HFHR's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -7609,7 +10034,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0296",
+     "id": "B03-C0401",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme 2021-2028 (4th edition): approx. PLN 300 million, of which EUR 71.24 million from the EEA and Norway Grants plus national contribution; components: court access (digitalisation), prison service modernisation, domestic and gender-based violence",
@@ -7633,7 +10058,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0297",
+     "id": "B03-C0402",
      "subject": "Ministry of Justice (Poland)",
      "subject_type": "public_body",
      "relation": "Programme Operator of the EEA and Norway Grants Justice programme (2021-2028 edition)",
@@ -7655,7 +10080,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0298",
+     "id": "B03-C0403",
      "subject": "Jan Szyszko (Deputy Minister of Development Funds and Regional Policy)",
      "subject_type": "person",
      "relation": "signed the Green Transition and Justice programme agreements for Poland, with Norway's ambassador Øystein Bø",
@@ -7679,7 +10104,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0299",
+     "id": "B03-C0404",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme: 5 calls for proposals planned (Green Transition: 9), calls starting in 2026",
@@ -7701,7 +10126,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0300",
+     "id": "B03-C0405",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "4th edition (2021-2028) for Poland: almost PLN 4 billion / almost EUR 925 million across eight programmes",
@@ -7723,7 +10148,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0301",
+     "id": "B03-C0406",
      "subject": "EEA and Norway Grants (Justice programme 2021-2028)",
      "subject_type": "org",
      "relation": "INDIRECT: the Ministry of Justice he heads is Programme Operator of the EUR 71.24m Justice programme signed in April 2026",
@@ -7779,7 +10204,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0302",
+     "id": "B03-C0407",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "Donor Programme Partner for programme area Access to Justice (PA11) in Poland's EEA and Norway Grants Justice Programme, under the Programme Agreement",
@@ -7802,7 +10227,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0303",
+     "id": "B03-C0408",
      "subject": "EEA and Norway Grants (donor states incl. Norway)",
      "subject_type": "org",
      "relation": "Memorandum of Understanding for the new funding period (Norway Grants 4.0) signed in Warsaw on 23 Apr 2025",
@@ -7822,7 +10247,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0304",
+     "id": "B03-C0409",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Programme Agreement for the Justice Programme signed on 20 Apr 2026; Programme Operator: Ministry of Justice (Poland)",
@@ -7844,7 +10269,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0305",
+     "id": "B03-C0410",
      "subject": "Council of Europe",
      "subject_type": "org",
      "relation": "International Partner Organisation of Poland's EEA and Norway Grants Justice Programme",
@@ -7869,7 +10294,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0306",
+     "id": "B03-C0411",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "donor project partner in the MoJ predefined project 'Courts closer to people' (courts' relations with society, role of lay judges); also in 'Competent Staff – Efficient Justice System' and free legal aid and mediation",
@@ -7889,7 +10314,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0307",
+     "id": "B03-C0412",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "no cooperation with Polish judges' associations or individual judges named; the only Polish partner named is the Ministry of Justice",
@@ -7934,7 +10359,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B03-C0308",
+     "id": "B03-C0413",
      "subject": "Jette F. Christensen (Norwegian MP, Labour Party)",
      "subject_type": "person",
      "relation": "nominated the Polish judges' association Iustitia for the Nobel Peace Prize",
@@ -7957,7 +10382,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0309",
+     "id": "B03-C0414",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Labour Party (Partia Pracy; Norwegian Arbeiderpartiet)",
@@ -7978,7 +10403,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0310",
+     "id": "B03-C0415",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Norwegian parliament (Storting) since 2010",
@@ -7999,7 +10424,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0311",
+     "id": "B03-C0416",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "sits on the Storting's Foreign Affairs and Defence Committee",
@@ -8017,7 +10442,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0312",
+     "id": "B03-C0417",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "delegate to the Parliamentary Assembly of the Council of Europe",
@@ -8037,7 +10462,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0313",
+     "id": "B03-C0418",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "nominated it for the Nobel Peace Prize together with Iustitia",
@@ -8058,7 +10483,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0314",
+     "id": "B03-C0419",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "stated reason for nominating Iustitia: to give an impulse for further work for democracy in Europe",
@@ -8078,7 +10503,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0315",
+     "id": "B03-C0420",
      "subject": "Rafto Foundation (Bergen)",
      "subject_type": "org",
      "relation": "awarded the Rafto Prize (2018) to Ombudsman Adam Bodnar",
@@ -8103,7 +10528,7 @@
      ]
     },
     {
-     "id": "B03-C0316",
+     "id": "B03-C0421",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "2014-2021 period: total EUR 2.8 billion, of which about EUR 800 million for Poland; a large part goes to civil-society organisations",
@@ -8155,7 +10580,7 @@
    "names_found_in_page_text": "2/5",
    "claims": [
     {
-     "id": "B03-C0317",
+     "id": "B03-C0422",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "FOIA request (12 Nov 2025, State Dept ref. F-2026-02738) for all State Department contracts, grant agreements or similar records with Free Courts (Wolne Sądy), 1 Jan 2016 to present",
@@ -8178,7 +10603,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0318",
+     "id": "B03-C0423",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item C: all State Department contracts, grant agreements or similar records with DemoCrisis (1 Jan 2016 to present)",
@@ -8198,7 +10623,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0319",
+     "id": "B03-C0424",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item B: State Department contracts and grant agreements with Civil Liberties Union for Europe",
@@ -8219,7 +10644,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0320",
+     "id": "B03-C0425",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "filed FOIA suit Judicial Watch, Inc. v. U.S. Department of State, D.D.C. No. 1:26-cv-00346 (dated 4 Feb 2026), seeking the Free Courts, DemoCrisis, Liberties and Ökotárs records and all State emails and cables mentioning them",
@@ -8239,7 +10664,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0321",
+     "id": "B03-C0426",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "as of the complaint, had made no determination on the Free Courts request and produced no records (per Judicial Watch)",
@@ -8302,7 +10727,7 @@
    "names_found_in_page_text": "3/16",
    "claims": [
     {
-     "id": "B03-C0322",
+     "id": "B03-C0427",
      "subject": "aba",
      "subject_type": "org",
      "relation": "project partner: HFHR's project monitoring disciplinary proceedings against judges was carried out with the ABA (2020)",
@@ -8324,7 +10749,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0323",
+     "id": "B03-C0428",
      "subject": "hfhr",
      "subject_type": "org",
      "relation": "monitored disciplinary proceedings against Polish judges (project run with the ABA, 2020)",
@@ -8344,7 +10769,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0324",
+     "id": "B03-C0429",
      "subject": "freedom_house",
      "subject_type": "org",
      "relation": "fellow participant, with the Norwegian Helsinki Committee and Front Line Defenders, in an informal rapid-response network for human rights defenders",
@@ -8366,7 +10791,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0325",
+     "id": "B03-C0430",
      "subject": "Polish Ministry of Foreign Affairs (MSZ)",
      "subject_type": "public_body",
      "relation": "supports HFHR's urgent aid (incl. relocation) for human rights defenders; form and amount not stated",
@@ -8391,7 +10816,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0326",
+     "id": "B03-C0431",
      "subject": "ned",
      "subject_type": "org",
      "relation": "named as a funder in HFHR's 2020 annual report: not found (funders named only for single projects: Media Legal Defense Initiative, EU programmes, Polish MFA)",
@@ -8419,7 +10844,7 @@
      ]
     },
     {
-     "id": "B03-C0327",
+     "id": "B03-C0432",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "US Embassy Warsaw or State Department (incl. DRL) named as a funder in HFHR's 2020 annual report: not found",
@@ -8476,7 +10901,7 @@
    "names_found_in_page_text": "0/10",
    "claims": [
     {
-     "id": "B03-C0328",
+     "id": "B03-C0433",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "PAFW's endowment was created from capital transferred to it by the Polish-American Enterprise Fund",
@@ -8497,7 +10922,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0329",
+     "id": "B03-C0434",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "PAFW grants for the 'Szkoła Ucząca Się' (Learning School) programme, which CEO operates: USD 13,858,857 in total, incl. USD 833,847 in 2020",
@@ -8519,7 +10944,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0330",
+     "id": "B03-C0435",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for Batory: none in PAFW's 2020 annual report (NGO support, USD 14,637,000 in total and USD 685,225 in 2020, ran through Klon/Jawor, FIMANGO and PROMENGO)",
@@ -8539,7 +10964,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0331",
+     "id": "B03-C0436",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for HFHR: none in PAFW's 2020 annual report",
@@ -8596,7 +11021,7 @@
    "names_found_in_page_text": "0/12",
    "claims": [
     {
-     "id": "B03-C0332",
+     "id": "B03-C0437",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "passed the 1989 SEED Act ('Support for East European Democracy'), under which the Polish-American Enterprise Fund was set up",
@@ -8619,7 +11044,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0333",
+     "id": "B03-C0438",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "PAFP's initial capital: USD 240 million (fund set up under the SEED Act)",
@@ -8640,7 +11065,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0334",
+     "id": "B03-C0439",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "returned half of its founding capital, USD 120 million, to the US budget (2001)",
@@ -8663,7 +11088,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0335",
+     "id": "B03-C0440",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "transferred the rest of its capital with the surplus earned, USD 255 million in total, to PAFW's endowment",
@@ -8685,7 +11110,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0336",
+     "id": "B03-C0441",
      "subject": "Michał Boni",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -8706,7 +11131,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0337",
+     "id": "B03-C0442",
      "subject": "Marek Belka",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -8727,7 +11152,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0338",
+     "id": "B03-C0443",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "launched in 2000 the 'Obywatel i Prawo' programme to develop community civic and legal advice; no operator named on this page",
@@ -8748,7 +11173,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0339",
+     "id": "B03-C0444",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "Batory as operator or grantee of any PAFW programme: not named in the publication's extracted text (the 'Obywatel i Prawo' entry names no operator)",
@@ -8767,7 +11192,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0340",
+     "id": "B03-C0445",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "HFHR as operator or grantee of any PAFW programme: not named in the publication's extracted text",
@@ -8847,7 +11272,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0341",
+     "id": "B03-C0446",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "current grant to HFHR of GBP 1,050,000, starting March 2024, under the trust's 'Human Rights and Rule of Law' programme",
@@ -8872,7 +11297,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0342",
+     "id": "B03-C0447",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "earlier grants to HFHR totalling GBP 2,245,000 (before the current grant; no breakdown)",
@@ -8897,7 +11322,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0343",
+     "id": "B03-C0448",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "additional gift of GBP 75,000 to HFHR in 2025",
@@ -8922,7 +11347,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0344",
+     "id": "B03-C0449",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "HFHR has been a Sigrid Rausing Trust grantee since 2011",
@@ -8966,7 +11391,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0345",
+     "id": "B03-C0450",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 100,000 (2006; term 1 year 3 months; Human Rights programme) for the 'International Advanced Course on Human Rights Protection'",
@@ -8990,7 +11415,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0346",
+     "id": "B03-C0451",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 750,000 (2001; term 3 years 6 months; Human Rights programme) for a training programme for a network of human rights activists in Russia",
@@ -9014,7 +11439,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0347",
+     "id": "B03-C0452",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "no MacArthur grant to HFHR after 2006: the grantee page lists 2 grants, USD 850,000 in total, years 2001-2006",
@@ -9066,7 +11491,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0348",
+     "id": "B03-C0453",
      "subject": "osf",
      "subject_type": "org",
      "relation": "award of USD 150,000 (2023-2024, 16 months) 'to decrease the risk of anti-climate backlash by building support for Just Transition in key demographics (working class & smaller cities)'; grantee not shown",
@@ -9111,7 +11536,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0349",
+     "id": "B03-C0454",
      "subject": "osf",
      "subject_type": "org",
      "relation": "no grant to Akcja Demokracja shown: this Open Society Action Fund award (pro-democracy research and strategic communications, USD 270,000, 2023-2024, 17 months) came up in a search for OSF grants to Akcja Demokracja, but it is listed for Spain",
@@ -9163,7 +11588,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0350",
+     "id": "B03-C0455",
      "subject": "emif",
      "subject_type": "org",
      "relation": "grant of EUR 50,032.85 to the Foundation Centre for Civic Monitoring OKO (OKO.press), 1st Funding Round – Scale-up Projects, years 2022-2023",
@@ -9188,7 +11613,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0351",
+     "id": "B03-C0456",
      "subject": "emif",
      "subject_type": "org",
      "relation": "funded project 'Scale-up of fact-checking activity of OKO.Press online portal' (priority area 'Boosting Fact-checking Activities in Europe'; fact-checking taught through gamification tools)",
@@ -9266,7 +11691,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0352",
+     "id": "B03-C0457",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted him (contract MS/4645/BF/2024, 5 Jan 2024) for a legal opinion on the legality of applying the provisions on the prosecution service; due by 7 Jan 2024; value PLN 3,000.00",
@@ -9293,7 +11718,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0353",
+     "id": "B03-C0458",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "his PLN 3,000 MoJ contract of 5 Jan 2024 is the paid commission for his published opinion on the National Prosecutor change. Rakowska's (PLN 3,001.20) and Kuca's (PLN 3,000.00) contracts of the same day fit the same pattern, about PLN 9,001.20 for the three opinions.",
@@ -9323,7 +11748,7 @@
      ]
     },
     {
-     "id": "B03-C0354",
+     "id": "B03-C0459",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted her law office (Kancelaria Adwokacka Anna Rakowska; contract MS/4613/BF/2024, 5 Jan 2024) for a written legal opinion on the temporal scope of art. 47 of the act on the Prosecution Law; due 7 Jan 2024; value PLN 3,001.20",
@@ -9347,7 +11772,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0355",
+     "id": "B03-C0460",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted him (MS/4660/BF/2024, 5 Jan 2024) for a legal opinion on the temporal scope of art. 47 of the 2016 act (Dz.U. 2016 poz. 178); due 7 Jan 2024; value PLN 3,000.00",
@@ -9372,7 +11797,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0356",
+     "id": "B03-C0461",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract for specific work MS/4887/BF/2024 of 2 Apr 2024 (term 2-22 Apr 2024), value PLN 8,000.00, for an analysis (and possible amendments) of the draft law transposing the EU directive on representative actions for the protection of collective consumer interests",
@@ -9396,7 +11821,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0357",
+     "id": "B03-C0462",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted him (MS/4608/BF/2024, 17 Jan 2024) for a written legal opinion on the material and temporal scope of interim measures ('zabezpieczenie tymczasowe') issued by the Constitutional Tribunal under the act on TK procedure; due 19 Jan 2024; value PLN 4,000.00",
@@ -9420,7 +11845,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0358",
+     "id": "B03-C0463",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted him (MS/4618/BF/2024, 17 Jan 2024) for a written legal opinion on the same TK interim-measures question; due 19 Jan 2024; value PLN 4,000.00",
@@ -9445,7 +11870,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0359",
+     "id": "B03-C0464",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contracted him (MS/4626/BF/2024, dated 24 Jan 2024) for a written legal opinion on the same TK interim-measures question; term 'do 21.01.2024'; value PLN 4,000.00",
@@ -9470,7 +11895,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0360",
+     "id": "B03-C0465",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "two opinion contracts with him dated 26 Feb 2024 (MS/4743/BF/2024 and MS/4744/BF/2024), PLN 3,723.00 each, term 26 Feb-12 Mar 2024. MS/4744 concerns the legal effects of the TK interim orders of 1 Feb 2024 and whether they bind the Minister of Justice.",
@@ -9495,7 +11920,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0361",
+     "id": "B03-C0466",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract for specific work MS/4890/BF/2024 of 4 Mar 2024 for an opinion on the legal effects of TK interim orders issued while the Tribunal examined complaints (concerning acts of the Minister of Justice); term 18 Mar 2024; value PLN 4,000.00",
@@ -9520,7 +11945,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0362",
+     "id": "B03-C0467",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4651/BF/2024 (31 Jan 2024) on the rules for seconding judges to the Ministry of Justice; value PLN 8,856.00",
@@ -9542,7 +11967,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0363",
+     "id": "B03-C0468",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4745/BF/2024 (1 Mar 2024; term 1-7 Mar 2024) on whether competitions for judicial posts can be cancelled; value PLN 6,150.00",
@@ -9564,7 +11989,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0364",
+     "id": "B03-C0469",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "expert-work contract MS/4866/BF/2024 (24 Apr 2024; term 24 Apr-24 Jun 2024) to prepare a concept of legislative changes on lay judges (ławnicy); value PLN 20,333.23",
@@ -9586,7 +12011,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0365",
+     "id": "B03-C0470",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4765/BF/2024 (6 Mar 2024) on the President's opinion and written consent to the appointment and dismissal of deputies (of the Prosecutor General); value PLN 5,000.00",
@@ -9608,7 +12033,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0366",
+     "id": "B03-C0471",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4740/BF/2024 (8 Mar 2024; term 8-12 Mar 2024) on the same question of presidential consent to appointments of deputies; value PLN 5,000.00",
@@ -9630,7 +12055,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0367",
+     "id": "B03-C0472",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4589/BF/2024 (17 Jan 2024; term 'do 16.01.2024') on whether the current Minister of Justice may lawfully dismiss or suspend [object of the sentence cut off in the excerpt]; value PLN 4,787.00",
@@ -9652,7 +12077,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0368",
+     "id": "B03-C0473",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "opinion contract MS/4585/BF/2024 (12 Jan 2024; term 'do 15.01.2024') on whether the Minister of Justice may withdraw [object cut off in the excerpt]; value PLN 6,150.00",
@@ -9674,7 +12099,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0369",
+     "id": "B03-C0474",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract MS/4741/BF/2024 with annex MS/4741-1/BF/2024 (19 Mar 2024; term to 31 Mar, extended by annex to 7 Apr 2024) for a written analysis, value PLN 142,950.60. The row's subject concerns three Justice Fund agreements and their compliance with public-spending rules.",
@@ -9699,7 +12124,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0370",
+     "id": "B03-C0475",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "no contract with Taborowski, Markiewicz, Szostek, Bentkowska, Korwin-Piotrowska or Berek appears in the visible rows of the 2024 register",
@@ -9721,7 +12146,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0371",
+     "id": "B03-C0476",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "no contract with the Batory Foundation, HFHR, Iustitia, Themis or Free Courts appears in the visible rows of the 2024 register",
@@ -9766,7 +12191,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0372",
+     "id": "B03-C0477",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "filed written question no. 3180 to the Minister of Justice (received 19 Feb 2026). It seeks the full contract MS/4890/BF/2024 with Prof. Ryszard Piotrowski, the opinion text, which TK interim orders it analysed, how the ministry used it, the acceptance and payment dates, and who approved it.",
@@ -9789,7 +12214,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0373",
+     "id": "B03-C0478",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract with Piotrowski for the opinion on the legal effects of TK interim orders: PLN 4,000.00 (amount as stated in the question)",
@@ -9842,7 +12267,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0374",
+     "id": "B03-C0479",
      "subject": "NIW-CRSO (National Freedom Institute)",
      "subject_type": "public_body",
      "relation": "rated formally positive the PROO Priority 1B (2025 edition) application no. 77143 of Fundacja Kultura Liberalna, Warsaw",
@@ -9865,7 +12290,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0375",
+     "id": "B03-C0480",
      "subject": "NIW-CRSO (National Freedom Institute)",
      "subject_type": "public_body",
      "relation": "none of the core network organisations is among the applicants on this list: HFHR, Batory, Iustitia (association or foundation), Themis, Free Courts, Akcja Demokracja, KOD, OKO.press's foundation, INPRIS, Hołda Association, Lex Super Omnia, Watchdog Polska, CEO, ISP, Aktywna Demokracja, Dom Sędziego Seniora, Obywatele RP, Krytyka Polityczna",
@@ -9923,7 +12348,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0376",
+     "id": "B03-C0481",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "published (23 Jan 2024) his legal opinion on the legal and factual basis and the legality of the TK interim order Ts 9/24. The page describes him as a constitutional lawyer of over 20 years' standing.",
@@ -9945,7 +12370,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0377",
+     "id": "B03-C0482",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "published (23 Jan 2024) his legal opinion on the TK interim order Ts 9/24; described as a constitutional lawyer, professor at Adam Mickiewicz University in Poznań and legal adviser",
@@ -9965,7 +12390,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0378",
+     "id": "B03-C0483",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "published (23 Jan 2024) his legal opinion on the TK interim order Ts 9/24; described as a constitutional lawyer and lecturer at the University of Warsaw and Łazarski University",
@@ -9985,7 +12410,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0379",
+     "id": "B03-C0484",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "the three opinions published here are the work paid under register contracts MS/4608 (Zalasiński), MS/4618 (Urbaniak) and MS/4626/BF/2024 (Zaleśny), PLN 4,000.00 each (PLN 12,000 in total), dated 17-24 Jan 2024",
@@ -10038,7 +12463,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0380",
+     "id": "B03-C0485",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "filed written question no. 3178 to the Minister of Justice (received 19 Feb 2026) on contract MS/4765/BF/2024 of 6 Mar 2024 with Marcin Dąbrowski. The contract was for an opinion on the President's opinion and written consent; the question asks for the contract, the opinion, its scope, its use, and the acceptance and payment dates.",
@@ -10058,7 +12483,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0381",
+     "id": "B03-C0486",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract with Dąbrowski for this opinion: PLN 5,000.00 (amount as stated in the question)",
@@ -10108,7 +12533,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0382",
+     "id": "B03-C0487",
      "subject": "HFHR, Fundacja OKO (OKO.press), Akcja Demokracja, KOD, Free Courts, Iustitia, Themis, Batory Foundation, Dom Sędziego Seniora",
      "subject_type": "org",
      "relation": "not among the 30 public-benefit organisations that received the largest 1.5% PIT amounts in 2026 (2025 tax year); the 30th received PLN 10,801,810.40",
@@ -10178,7 +12603,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0383",
+     "id": "B03-C0488",
      "subject": "Helsinki Foundation for Human Rights (hfhr)",
      "subject_type": "org",
      "relation": "registered in KRS under number 0000035831 (REGON 00621174900000); OPP activity report for 2025 published 2026-07-15",
@@ -10198,7 +12623,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0384",
+     "id": "B03-C0489",
      "subject": "Maciej Nowicki",
      "subject_type": "person",
      "relation": "President of the Management Board (Prezes Zarządu), entered in KRS",
@@ -10226,7 +12651,7 @@
      ]
     },
     {
-     "id": "B03-C0385",
+     "id": "B03-C0490",
      "subject": "Piotr Kładoczny",
      "subject_type": "person",
      "relation": "Vice-President of the Management Board (Wiceprezes Zarządu), entered in KRS",
@@ -10249,7 +12674,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0386",
+     "id": "B03-C0491",
      "subject": "Marcin Wolny",
      "subject_type": "person",
      "relation": "Treasurer of the Management Board (Skarbnik Zarządu), entered in KRS",
@@ -10272,7 +12697,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0387",
+     "id": "B03-C0492",
      "subject": "Małgorzata Szuleka",
      "subject_type": "person",
      "relation": "Secretary of the Management Board (Sekretarz Zarządu), entered in KRS",
@@ -10295,7 +12720,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0388",
+     "id": "B03-C0493",
      "subject": "Aleksandra Iwanowska",
      "subject_type": "person",
      "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
@@ -10318,7 +12743,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0389",
+     "id": "B03-C0494",
      "subject": "Danuta Przywara",
      "subject_type": "person",
      "relation": "Chair of the Foundation Council (Przewodnicząca Rady Fundacji), entered in KRS",
@@ -10341,7 +12766,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0390",
+     "id": "B03-C0495",
      "subject": "Ireneusz Kamiński",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10366,7 +12791,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0391",
+     "id": "B03-C0496",
      "subject": "Mirosław Wyrzykowski",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10389,7 +12814,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0392",
+     "id": "B03-C0497",
      "subject": "Andrzej Rzepliński (printed 'Rzeplinski')",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10412,7 +12837,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0393",
+     "id": "B03-C0498",
      "subject": "Wojciech Sadurski",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10435,7 +12860,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0394",
+     "id": "B03-C0499",
      "subject": "Henryka Bochniarz",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10458,7 +12883,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0395",
+     "id": "B03-C0500",
      "subject": "Witolda Osiatyńska",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10481,7 +12906,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0396",
+     "id": "B03-C0501",
      "subject": "Hanna Machińska (machinska)",
      "subject_type": "person",
      "relation": "Member of the Foundation Council (Członek Rady Fundacji), entered in KRS",
@@ -10535,7 +12960,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0397",
+     "id": "B03-C0502",
      "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
      "subject_type": "org",
      "relation": "legal entity behind OKO.press (KRS 0000620036)",
@@ -10556,7 +12981,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0398",
+     "id": "B03-C0503",
      "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO (publisher of OKO.press)",
      "subject_type": "org",
      "relation": "has had public-benefit organisation (OPP) status since 2019",
@@ -10576,7 +13001,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0399",
+     "id": "B03-C0504",
      "subject": "OKO.press readers (individual donors)",
      "subject_type": "other",
      "relation": "main source of OKO.press's funding, per OKO.press",
@@ -10597,7 +13022,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0400",
+     "id": "B03-C0505",
      "subject": "Taxpayers' 1.5% PIT allocations",
      "subject_type": "other",
      "relation": "a significant part of OKO.press's annual budget, per OKO.press",
@@ -10616,7 +13041,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0401",
+     "id": "B03-C0506",
      "subject": "OKO.press (okopress)",
      "subject_type": "org",
      "relation": "says it undergoes an annual financial audit, always with a positive result, though not legally required to",
@@ -10679,7 +13104,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0402",
+     "id": "B03-C0507",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "registered in KRS under number 0000552033 (REGON 36125524600000); OPP activity report for 2024 published 2025-07-01",
@@ -10699,7 +13124,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0403",
+     "id": "B03-C0508",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "obtained public-benefit organisation (OPP) status on 2017-12-07; entered in KRS on 2015-04-08",
@@ -10719,7 +13144,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0404",
+     "id": "B03-C0509",
      "subject": "Jakub Kocjan",
      "subject_type": "person",
      "relation": "President of the Management Board (Prezes Zarządu), entered in KRS",
@@ -10742,7 +13167,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0405",
+     "id": "B03-C0510",
      "subject": "Anna Tomaszewska",
      "subject_type": "person",
      "relation": "Vice-President of the Management Board (Wiceprezeska Zarządu), entered in KRS",
@@ -10765,7 +13190,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0406",
+     "id": "B03-C0511",
      "subject": "Bogumił Kolmasiak",
      "subject_type": "person",
      "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
@@ -10788,7 +13213,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0407",
+     "id": "B03-C0512",
      "subject": "Marcin Zielonka",
      "subject_type": "person",
      "relation": "Member of the Management Board (Członek Zarządu), entered in KRS",
@@ -10811,7 +13236,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0408",
+     "id": "B03-C0513",
      "subject": "Aneta Korpikiewicz",
      "subject_type": "person",
      "relation": "Member of the Management Board (Członkini Zarządu), not entered in KRS",
@@ -10834,7 +13259,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0409",
+     "id": "B03-C0514",
      "subject": "Krystyna Zowczak-Jastrzębska",
      "subject_type": "person",
      "relation": "Member of the council (Członkini Rady), entered in KRS",
@@ -10857,7 +13282,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0410",
+     "id": "B03-C0515",
      "subject": "Marcin Koziej",
      "subject_type": "person",
      "relation": "Member of the council (Członek Rady), entered in KRS",
@@ -10880,7 +13305,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0411",
+     "id": "B03-C0516",
      "subject": "Maria Świetlik",
      "subject_type": "person",
      "relation": "Member of the council (Członkini Rady), entered in KRS",
@@ -10903,7 +13328,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0412",
+     "id": "B03-C0517",
      "subject": "Kinga Łozińska",
      "subject_type": "person",
      "relation": "Member of the council (Członkini Rady), entered in KRS",
@@ -10975,7 +13400,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0413",
+     "id": "B03-C0518",
      "subject": "KOD (kod)",
      "subject_type": "org",
      "relation": "association entered in KRS on 2016-03-01 under KRS 0000604562 (NIP 5252649748, REGON 363863027)",
@@ -10995,7 +13420,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0414",
+     "id": "B03-C0519",
      "subject": "KOD (kod)",
      "subject_type": "org",
      "relation": "revenue (przychody) PLN 5,729,678 in 2023; net profit PLN 594,799",
@@ -11019,7 +13444,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0415",
+     "id": "B03-C0520",
      "subject": "KOD (kod)",
      "subject_type": "org",
      "relation": "revenue (przychody) PLN 1,266,495 in 2024; net loss PLN 556,012",
@@ -11043,7 +13468,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0416",
+     "id": "B03-C0521",
      "subject": "KOD (kod)",
      "subject_type": "org",
      "relation": "revenue (przychody) PLN 3,033,040 in 2025; net profit PLN 157,203",
@@ -11067,7 +13492,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0417",
+     "id": "B03-C0522",
      "subject": "Jakub Karyś",
      "subject_type": "person",
      "relation": "chairman of the board (przewodniczący zarządu)",
@@ -11089,7 +13514,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0418",
+     "id": "B03-C0523",
      "subject": "Joanna Lasko",
      "subject_type": "person",
      "relation": "deputy chair of the board (wiceprzewodnicząca zarządu)",
@@ -11111,7 +13536,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0419",
+     "id": "B03-C0524",
      "subject": "Piotr Szafraniec",
      "subject_type": "person",
      "relation": "deputy chair of the board and treasurer (wiceprzewodniczący zarządu, skarbnik)",
@@ -11133,7 +13558,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0420",
+     "id": "B03-C0525",
      "subject": "Bartłomiej Kowalczyk",
      "subject_type": "person",
      "relation": "secretary of the board (sekretarz zarządu)",
@@ -11155,7 +13580,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0421",
+     "id": "B03-C0526",
      "subject": "Marlena Lesiak",
      "subject_type": "person",
      "relation": "board member (członek zarządu)",
@@ -11177,7 +13602,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0422",
+     "id": "B03-C0527",
      "subject": "Olimpia Mainka",
      "subject_type": "person",
      "relation": "board member (członek zarządu)",
@@ -11199,7 +13624,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0423",
+     "id": "B03-C0528",
      "subject": "Sławomir Majdański",
      "subject_type": "person",
      "relation": "board member (członek zarządu)",
@@ -11221,7 +13646,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0424",
+     "id": "B03-C0529",
      "subject": "Ewa Topór Nawarecka",
      "subject_type": "person",
      "relation": "board member (członek zarządu)",
@@ -11243,7 +13668,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0425",
+     "id": "B03-C0530",
      "subject": "Jacek Wiśniewski",
      "subject_type": "person",
      "relation": "board member (członek zarządu)",
@@ -11265,7 +13690,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0426",
+     "id": "B03-C0531",
      "subject": "Stanisław Adamski, Paweł Bień, Zygmunt Czapluk, Andrzej Jędrzejczyk, Ilona Oleksiuk",
      "subject_type": "person",
      "relation": "members of the audit committee (komisja rewizyjna)",
@@ -11310,7 +13735,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0427",
+     "id": "B03-C0532",
      "subject": "tk_bills_2024",
      "subject_type": "event",
      "relation": "Sejm public hearing on the MPs' bills on the Constitutional Tribunal held on 24 May 2024 (druk nr 253, with druk nr 254 listed in the same passage)",
@@ -11330,7 +13755,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0428",
+     "id": "B03-C0533",
      "subject": "tk_bills_2024",
      "subject_type": "event",
      "relation": "no registered professional lobbyist took part in the Sejm's 2024 public hearings, including the 24 May 2024 hearing on these bills",
@@ -11349,7 +13774,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0429",
+     "id": "B03-C0534",
      "subject": "batory",
      "subject_type": "org",
      "relation": "not named anywhere in the Sejm Chancellery's 2024 report on professional lobbying towards the Sejm",
@@ -11406,7 +13831,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0430",
+     "id": "B03-C0535",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "published three legal opinions on the legal and factual grounds and the legality of the TK's interim order Ts 9/24",
@@ -11428,7 +13853,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0431",
+     "id": "B03-C0536",
      "subject": "zalasinski",
      "subject_type": "person",
      "relation": "author of one of the three MoJ-published legal opinions on the TK interim order Ts 9/24",
@@ -11450,7 +13875,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0432",
+     "id": "B03-C0537",
      "subject": "Krzysztof Urbaniak",
      "subject_type": "person",
      "relation": "author of one of the three MoJ-published opinions on TK order Ts 9/24; listed as UAM professor, legal adviser and deputy dean of the Poznań District Council of Legal Advisers",
@@ -11473,7 +13898,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0433",
+     "id": "B03-C0538",
      "subject": "Jacek Zaleśny",
      "subject_type": "person",
      "relation": "author of one of the three MoJ-published opinions on TK order Ts 9/24; listed as lecturer at the University of Warsaw and Łazarski University",
@@ -11520,7 +13945,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0434",
+     "id": "B03-C0539",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "contract MS/5286/DKO/2024 of 25 Nov 2024 for PLN 4,920.00 with Hoffman Taborowski i Wspólnicy, for a work analysing documentation and court case law",
@@ -11544,7 +13969,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0435",
+     "id": "B03-C0540",
      "subject": "hoffman_taborowski",
      "subject_type": "company",
      "relation": "topic of its MoJ work contract: judges' declarations, submitted to the KRS, of their will to continue in office",
@@ -11566,7 +13991,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0436",
+     "id": "B03-C0541",
      "subject": "ziobro",
      "subject_type": "person",
      "relation": "co-authored, with MP Dariusz Matecki, written question 3200 asking the Justice Minister for the full text of the MoJ contract with Hoffman Taborowski i Wspólnicy",
@@ -11638,7 +14063,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0437",
+     "id": "B03-C0542",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Sławomir Patyra PLN 3,000 for an opinion on the legality of applying the provisions on the prosecution service (contract MS/4645/ BF/2024)",
@@ -11662,7 +14087,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0438",
+     "id": "B03-C0543",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Anna Rakowska's law office PLN 3,001.20 for a written legal opinion on the temporal scope of Art. 47 of the prosecution-law implementing provisions (MS/4613/BF/2024)",
@@ -11686,7 +14111,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0439",
+     "id": "B03-C0544",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Grzegorz Kuca PLN 3,000 for a legal opinion on the temporal scope of Art. 47 of the prosecution-law implementing provisions (MS/4660/BF/2024)",
@@ -11711,7 +14136,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0440",
+     "id": "B03-C0545",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Tomasz Zalasiński PLN 4,000 for a written legal opinion on the scope of TK interim measures (MS/4608/BF/2024)",
@@ -11735,7 +14160,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0441",
+     "id": "B03-C0546",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Krzysztof Urbaniak PLN 4,000 for a written legal opinion on the scope of TK interim measures (MS/4618/BF/2024)",
@@ -11760,7 +14185,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0442",
+     "id": "B03-C0547",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Jacek Zaleśny PLN 4,000 for a written legal opinion on the scope of TK interim measures (MS/4626/BF/2024)",
@@ -11785,7 +14210,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0443",
+     "id": "B03-C0548",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Zbigniew Kmieciak PLN 3,723 for an opinion assessing the legal effects of the TK's interim orders of 1 Feb 2024 (MS/4744/BF/2024)",
@@ -11810,7 +14235,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0444",
+     "id": "B03-C0549",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Prof. Ryszard Piotrowski PLN 4,000 for a legal opinion on the legal effects of TK interim orders (MS/4890/BF/2024)",
@@ -11835,7 +14260,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0445",
+     "id": "B03-C0550",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Prof. Marcin Dziurda PLN 8,000 under a work contract to analyse, and possibly propose changes to, a draft act (MS/4887/BF/2024)",
@@ -11859,7 +14284,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0446",
+     "id": "B03-C0551",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid DemoCrisis PLN 31,500 to co-organise the 'DemoCrisis - Civic Action Network Summit from Democratic Backsliding to Re-Democratisation: Learning from Poland's Success Story' (16-17 Apr 2024)",
@@ -11883,7 +14308,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0447",
+     "id": "B03-C0552",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Adam Ploszka PLN 7,979 for a legal opinion on whether Poland should ratify Protocol No. 16 to the European Convention on Human Rights (MS/4669/BF/2024)",
@@ -11908,7 +14333,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0448",
+     "id": "B03-C0553",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "hired Dorota Pudzianowska's law office for expert services (PLN 11,070, 19 Jan 2024) and an opinion (PLN 3,690, 26 Feb 2024)",
@@ -11935,7 +14360,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0449",
+     "id": "B03-C0554",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "paid Brand 24 S.A. (Wrocław) PLN 26,545.86 to monitor the MoJ brand and related profiles on social media (MS/4896/BK/2024)",
@@ -11960,7 +14385,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0450",
+     "id": "B03-C0555",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "no contract for a rule-of-law or Tribunal information campaign appears among the communications-office (BK) contracts in the visible part of the 2024 register",
@@ -12003,7 +14428,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B03-C0451",
+     "id": "B03-C0556",
      "subject": "myrcha",
      "subject_type": "person",
      "relation": "signed, as MoJ Secretary of State, the collective reply of 3 Apr 2026 to Matecki's questions on 2024 MoJ contracts; the range covered includes no. 3200 on the Hoffman Taborowski contract",
@@ -12025,7 +14450,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0452",
+     "id": "B03-C0557",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "sent the MoJ 67 written questions on 86 civil-law contracts the ministry concluded in 2024",
@@ -12047,7 +14472,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0453",
+     "id": "B03-C0558",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "the reply gives no details of the Hoffman Taborowski contract (no contractor, contract number or amount; no mention of Taborowski, Hoffman, the TK, the KRS or any judge) and asks for one collective answer to be accepted",
@@ -12068,7 +14493,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0454",
+     "id": "B03-C0559",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "published a register of its 2024 civil-law contracts (contractor, subject, value) by decision of the Justice Minister",
@@ -17929,48 +20354,6 @@
   },
   {
    "theme": "C6_org_finances",
-   "url": "https://podatki.gov.pl/aktualnosci/kolejny-rekord-ponad-2-6-miliarda-zlotych-dla-organizacji-pozytku-publicznego",
-   "title": "Serwis o podatkach - Kolejny rekord - ponad 2,6 miliarda złotych dla organizacji pożytku publicznego",
-   "why": "The Ministry of Finance summary PDF says per-organisation 1.5% amounts are in Załącznik nr 2; this news item should link it",
-   "capture": "Link to Załącznik nr 2 (and Nr 1), then the 2026 1.5% amounts and taxpayer counts for KRS 0000035831 (HFHR), 0000620036 (Fundacja OKO), 0000552033 (Akcja Demokracja), 0000604562 (KOD), and any rows for Free Courts (0000829554), Iustitia, Themis, Batory and Dom Sędziego Seniora"
-  },
-  {
-   "theme": "C6_org_finances",
-   "url": "https://www.ned.org/wp-content/uploads/2026/02/2025-Annual-Report.pdf",
-   "title": "2025 Annual Report",
-   "why": "NED's own annual report lists grants by country",
-   "capture": "Poland grant entries for 2025: grantee names (HFHR, OKO.press, Free Courts, Akcja Demokracja, KOD or others), amounts and project purposes"
-  },
-  {
-   "theme": "C6_org_finances",
-   "url": "https://oko.press/stoi-oko-press-szczera-bolu-informacja-o-naszych-finansach",
-   "title": "stoi oko press szczera bolu informacja o naszych finansach",
-   "why": "OKO.press's own account of its finances",
-   "capture": "Year; total income; shares from readers, 1.5% and grants; named grant-makers with amounts"
-  },
-  {
-   "theme": "C6_org_finances",
-   "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
-   "title": "AKCJA DEMOKRACJA",
-   "why": "KRS-based profile; the finance pages of Akcja Demokracja's OPP report could not be extracted",
-   "capture": "Revenue and net result 2023-2025; board and council names and functions as entered in KRS"
-  },
-  {
-   "theme": "C6_org_finances",
-   "url": "https://oko.press/juz-wiemy-ile-dostalismy-od-was-z-odpisu-podatkowego-15-proc-bardzo-dziekujemy",
-   "title": "juz wiemy ile dostalismy od was z odpisu podatkowego 15 proc bardzo dziekujemy",
-   "why": "OKO.press states its 1.5% income",
-   "capture": "1.5% amount, tax year, number of taxpayers"
-  },
-  {
-   "theme": "C6_org_finances",
-   "url": "https://tvn24.pl/polska/finansowanie-komitetu-obrony-demokracji-ra704820-ls2458599",
-   "title": "Wszystkie pieniądze KOD-u. Ile zebrali, na co wydali?",
-   "why": "Report on KOD's fundraising and spending",
-   "capture": "Date; income by source; any named donors or foreign money; amounts; named KOD officials responsible for finances"
-  },
-  {
-   "theme": "C6_org_finances",
    "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
    "title": "sprawozdanie merytoryczne 2023",
    "why": "HFHR's 2023 OPP report; its finance section may be legible, unlike the 2025 one",
@@ -17982,27 +20365,6 @@
    "title": "Sprawozdanie finansowe Fundacja Akcja Demokracja",
    "why": "Akcja Demokracja financial statement; notes may name grant-makers",
    "capture": "Year; income lines (donations, grants and their sources); board signatories"
-  },
-  {
-   "theme": "C7_firms_contracts",
-   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3234/body",
-   "title": "Zapytanie nr 3234",
-   "why": "One of Matecki's ~70 questions on 86 MoJ contracts of 2024. The MoJ refused individual answers, so the questions are the only place each contract is named.",
-   "capture": "Contractor, contract number, date, amount and subject. Flag any contract with Markiewicz, Taborowski, Korwin-Piotrowska, Dziurda, Patyra, Szostek, Bentkowska, Berek, Iustitia, Themis, Free Courts, HFHR, Batory or DemoCrisis."
-  },
-  {
-   "theme": "C7_firms_contracts",
-   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3237/body",
-   "title": "Zapytanie nr 3237",
-   "why": "Same Matecki series on 2024 MoJ contracts",
-   "capture": "Contractor, contract number, date, amount, subject; ties to TK judges or the NGOs on the map"
-  },
-  {
-   "theme": "C7_firms_contracts",
-   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3188/body",
-   "title": "Zapytanie nr 3188",
-   "why": "Same series; falls in the 3188-3200 block, next to the Hoffman Taborowski question",
-   "capture": "Contractor, contract number, date, amount, subject; ties to TK judges or the NGOs on the map"
   },
   {
    "theme": "C7_firms_contracts",

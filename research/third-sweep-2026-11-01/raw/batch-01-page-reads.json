@@ -407,6 +407,66 @@
    "note": null
   },
   {
+   "agent": "read:R024-R026",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164",
+   "fetched_at": "2026-11-02T00:35:17.528Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 840,
+   "sha256": "51b87d25a30268303d7e3574108516d33bbcb0d66d39a0940648227006c363a6",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R024-R026",
+   "url": "https://www.rafto.no/en/news/freeze-poland-grants",
+   "final_url": "https://www.rafto.no/en/news/freeze-poland-grants",
+   "fetched_at": "2026-11-02T00:35:17.815Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 6790,
+   "sha256": "9e50de1ebeba5d978e5027ff892d92d7f7a8f1b518ad29eaa3a92f11d6268b7f",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R024-R026",
+   "url": "https://wydarzenia.interia.pl/kraj/news-sylwia-gregorczyk-abram-i-adam-borowski-to-oni-zmierza-sie-o,nId,23514094",
+   "final_url": "https://wydarzenia.interia.pl/kraj/news-sylwia-gregorczyk-abram-i-adam-borowski-to-oni-zmierza-sie-o,nId,23514094",
+   "fetched_at": "2026-11-02T00:35:18.134Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16050,
+   "sha256": "ff660c9c4b0506373c2695d809823f0b88b0e264f714cbf453098416b4176714",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R024-R026",
+   "url": "https://www.rafto.no/assets/documents/Letters-and-appeals/Full-letter-to-MFA-Norway.pdf",
+   "final_url": "https://www.rafto.no/assets/documents/Letters-and-appeals/Full-letter-to-MFA-Norway.pdf",
+   "fetched_at": "2026-11-02T00:36:49.323Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 13701,
+   "sha256": "4b9938491c25027a99d860c3d85e9583005febd8375645c0bc2e34245bb48913",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R024-R026",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0#164",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:40:10.217Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43242,
+   "sha256": "ef9458a2eb95579c3785a7c470d18918d49f014d7b8442495ef972630e7adc72",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R027-R029",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
    "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
@@ -770,6 +830,78 @@
    "note": null
   },
   {
+   "agent": "read:R053-R055",
+   "url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/",
+   "final_url": "https://en.odfoundation.eu/tag/rule-of-law-in-poland/page/14/",
+   "fetched_at": "2026-11-02T00:14:47.742Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 23102,
+   "sha256": "8f12c4401e79b9a1ac8165fada85d9b0d44a15f923df862622162fe67457f11b",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://tvn24.pl/tvn24-news-in-english/the-polish-national-foundation-to-launch-its-fair-courts-campaign-abroad-ra786067-2474113",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:16:11.556Z",
+   "http": null,
+   "content_type": null,
+   "chars": 41536,
+   "sha256": "af4243b07f3778bf13a051bc17e4eacc09dddb54f0edb9a8cd22f67a32f43f86",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:47.952Z",
+   "http": null,
+   "content_type": null,
+   "chars": 45058,
+   "sha256": "dc11bd1b5230c5c63cca26dd6d73c710c7df9943767082064d1172348f5088a9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:30:00.448Z",
+   "http": null,
+   "content_type": null,
+   "chars": 47738,
+   "sha256": "75fd5d21dda72c64071e37d2817d72a461ea498880deb1edb587b11f593f63cf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:34:09.806Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43619,
+   "sha256": "eb41c9a9e62b9e2f2760ee7fa3169490d46b0d2af2730e35f6e2d7fc2b09399e",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R053-R055",
+   "url": "https://www.inpris.pl/fileadmin/user_upload/documents/Country_Report_-_POLAND.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:34:16.348Z",
+   "http": null,
+   "content_type": null,
+   "chars": 13839,
+   "sha256": "314f2f7160fa48011e69ff6c5eb1218184cc9a96f11125c72afa9a580171fd5c",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R056-R058",
    "url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627",
    "final_url": "https://impactcee.com/impact/2026/speaker-2/?spk=3627",
@@ -862,6 +994,93 @@
    "content_type": "text/html",
    "chars": 20789,
    "sha256": "6bc5d430cc852b2fc3a7b2eebdc23bbcceaee1cc11ae10be896a744c20f5f77b",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://parltrack.eu/mep/Micha%C5%82%20WAWRYKIEWICZ",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:32:00.085Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 94,
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+   "final_url": "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz",
+   "fetched_at": "2026-11-02T00:32:00.110Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20502,
+   "sha256": "72d36548b5a4844f1d94cafb986d204f46337a15eb24b905a9276b91a56912ff",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/justice-and-consumers/justice-and-consumers-funding-tenders_pl",
+   "final_url": "https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/justice-and-consumers/justice-and-consumers-funding-tenders_pl",
+   "fetched_at": "2026-11-02T00:32:00.189Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 655,
+   "sha256": "7e09b6317c5a76b602830218198bee602c601071c5ef3505ddd9314587a7f41d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R059-R061",
+   "url": "https://en.wikipedia.org/wiki/National_Endowment_for_Democracy",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:44:27.530Z",
+   "http": null,
+   "content_type": null,
+   "chars": 41876,
+   "sha256": "8833f06f42ce26b71301e8dcd4be40d014e6c35852fb956c4bc974ea77f0347a",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R062-R064",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494",
+   "final_url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0494",
+   "fetched_at": "2026-11-02T00:44:46.947Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 8698,
+   "sha256": "d30f046603649d7ac67c74d0670deba933183136a2769078eddb5c080d2f4097",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R062-R064",
+   "url": "https://eeagrants.org/node/23959",
+   "final_url": "https://eeagrants.org/node/23959",
+   "fetched_at": "2026-11-02T00:44:47.706Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 2032,
+   "sha256": "8a6d306149f8360fa35175bccb10b01cc4d76d500a43c003c9b52df157287f2b",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R062-R064",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0482",
+   "final_url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0482",
+   "fetched_at": "2026-11-02T00:44:48.404Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 8706,
+   "sha256": "9dd34670d5b350f04efea296f03e25d5a66db4b7ee378070e1af78f2ccd7fec4",
    "error": null,
    "note": null
   },
@@ -1701,7 +1920,7 @@
    "sha256": "8f12c4401e79b9a1ac8165fada85d9b0d44a15f923df862622162fe67457f11b",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R053-R055",
@@ -1714,7 +1933,7 @@
    "sha256": "eba04dcfe57a5e9c184e03036beb019b97359c1a04811b46fa66f7aedebe1182",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R053-R055",
@@ -1727,7 +1946,7 @@
    "sha256": "f5d6b1789aa3508450caa7a19e3dd7c9f267e2ed715ce271b7689986e7219248",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R053-R055",
@@ -1740,7 +1959,7 @@
    "sha256": "734c85700c39f19f15d3a269bb02dbee879348724a1e370b256ab5ab35f1a9b4",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R053-R055",
@@ -1753,7 +1972,7 @@
    "sha256": "ccf2d8edee06c44b931193874a0f58ba31e345bd01017ec550bf13ee8ca4f270",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R059-R061",
@@ -1766,7 +1985,7 @@
    "sha256": "72d36548b5a4844f1d94cafb986d204f46337a15eb24b905a9276b91a56912ff",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R059-R061",
@@ -1779,7 +1998,7 @@
    "sha256": "7e09b6317c5a76b602830218198bee602c601071c5ef3505ddd9314587a7f41d",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R059-R061",
@@ -1795,7 +2014,7 @@
    "returned": "reader_extract",
    "extract_chars": 94,
    "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R080-R082",

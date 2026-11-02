@@ -9314,6 +9314,3643 @@
    "note": "Web search results for query: \"\"Jakub Karwański\" OR \"Paweł Jaromin\" OR \"Maciej Jeleński\" EPP Parlament Europejski asystent\"\n\nWeb search was not performed: this turn's web search budget is used up (lim"
   },
   {
+   "agent": "search:B5_nominations",
+   "query": "Komisja Ustawodawcza zaopiniowała kandydatów na sędziów Trybunału Konstytucyjnego 2026",
+   "searched_at": "2026-11-02T00:16:20.316Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/UST/sittings/62/pdf"
+    },
+    {
+     "rank": 2,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/wybor"
+    },
+    {
+     "rank": 3,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-kandydaci-do-trybunalu-konstytucyjnego-sejmowa-komisja-zdecy,nId,8071913"
+    },
+    {
+     "rank": 4,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 6,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/UST/sittings/51/pdf"
+    },
+    {
+     "rank": 7,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 8,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 9,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 10,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 11,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/pawlowicz-i-piotrowicz-kandydaci-na-sedziow-tk-z-pozytywnymi,496050.html"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98"
+    },
+    {
+     "rank": 13,
+     "title": "716989,Sedziowie Trybunalu Konstytucyjnego apolityczni",
+     "url": "https://www.infor.pl/prawo/nowosci-prawne/716989,Sedziowie-Trybunalu-Konstytucyjnego-apolityczni.html"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016"
+    },
+    {
+     "rank": 15,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/prawnik,24"
+    },
+    {
+     "rank": 16,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/tuleja-rymar-i-zubik-sedziami-trybunalu-konstytucyjnego,171478.html"
+    },
+    {
+     "rank": 17,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 18,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 19,
+     "title": "koalicja 15 pazdziernika chce do trybunalu konstytucyjnego ekspertow co zrobi nawrocki",
+     "url": "https://oko.press/koalicja-15-pazdziernika-chce-do-trybunalu-konstytucyjnego-ekspertow-co-zrobi-nawrocki"
+    },
+    {
+     "rank": 20,
+     "title": "sejm w lutym koalicja rzadzaca zglosi kandydatow na sedziow tk",
+     "url": "https://www.tvp.info/91045763/sejm-w-lutym-koalicja-rzadzaca-zglosi-kandydatow-na-sedziow-tk"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Sejm wybrał sześciu sędziów Trybunału Konstytucyjnego marzec 2026 wynik głosowania posłów",
+   "searched_at": "2026-11-02T00:16:20.319Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Strona główna Wypowiedzi Nowi sędziowie Trybunału Konstytucyjnego. Czy przy ich wyborze naruszono regulamin?",
+     "url": "https://demagog.org.pl/wypowiedzi/nowi-sedziowie-trybunalu-konstytucyjnego-czy-naruszono-regulamin-przy-ich-wyborze/"
+    },
+    {
+     "rank": 2,
+     "title": "news sedziowie pisza do nawrockiego slubowanie w innej formie,nId,8073989",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sedziowie-pisza-do-nawrockiego-slubowanie-w-innej-formie,nId,8073989"
+    },
+    {
+     "rank": 3,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 4,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 5,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-kandydaci-do-trybunalu-konstytucyjnego-sejmowa-komisja-zdecy,nId,8071913"
+    },
+    {
+     "rank": 6,
+     "title": "Sejm wybral nowych sedziow Trybunalu Konstytucyjnego 9098023",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html"
+    },
+    {
+     "rank": 7,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/sejm,8"
+    },
+    {
+     "rank": 8,
+     "title": "Wazna decyzja ws sedziow TK Koalicja przeglosowala uchwale 9097929",
+     "url": "https://www.bankier.pl/wiadomosc/Wazna-decyzja-ws-sedziow-TK-Koalicja-przeglosowala-uchwale-9097929.html"
+    },
+    {
+     "rank": 9,
+     "title": "Sejm tłumaczy wybór sędziów TK. Możliwe problemy proceduralne",
+     "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11215845,sejm-tlumaczy-wybor-sedziow-tk-mozliwe-problemy-proceduralne.html"
+    },
+    {
+     "rank": 10,
+     "title": "swieczkowski idzie na zwarcie w tk chce silowo zablokowac nowym sedziom wejscie na zgromadzenie",
+     "url": "https://oko.press/swieczkowski-idzie-na-zwarcie-w-tk-chce-silowo-zablokowac-nowym-sedziom-wejscie-na-zgromadzenie"
+    },
+    {
+     "rank": 11,
+     "title": "sedziowie tk,3",
+     "url": "https://www.gazetaprawna.pl/tagi/sedziowie-tk,3"
+    },
+    {
+     "rank": 12,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 13,
+     "title": "Sejm wybrał nowych sędziów Trybunału Konstytucyjnego",
+     "url": "https://tvn24.pl/polska/sejm-wybral-nowych-sedziow-trybunalu-konstytucyjnego-st8946410"
+    },
+    {
+     "rank": 14,
+     "title": "263046,Sejm wybral nowych sedziow Trybunalu Konstytucyjnego",
+     "url": "https://www.infor.pl/prawo/konstytucja/trybunal-konstytucyjny/263046,Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego.html"
+    },
+    {
+     "rank": 15,
+     "title": "LEX dostarcza wiedzę. Libra pomaga zamienić ją w działanie",
+     "url": "https://www.prawo.pl/prawnicy-sady/szesciu-kandydatow-do-tk,33922.html"
+    },
+    {
+     "rank": 16,
+     "title": "Sejm wybiera nowych sędziów TK: Lista potencjalnych kandydatów",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11204168,kto-trafi-do-trybunalu-konstytucyjnego-lista-potencjalnych-kandydatow.html"
+    },
+    {
+     "rank": 17,
+     "title": "sejm rusza z wyborem sedziow do tk a wyroki nadal niepublikowane,1540424",
+     "url": "https://www.prawo.pl/prawnicy-sady/sejm-rusza-z-wyborem-sedziow-do-tk-a-wyroki-nadal-niepublikowane,1540424.html"
+    },
+    {
+     "rank": 18,
+     "title": "Sejm nocą unieważnił wybór sędziów Trybunału Konstytucyjnego",
+     "url": "https://www.wprost.pl/525976"
+    },
+    {
+     "rank": 19,
+     "title": "Sejm wybrał tylko jednego sędziego TK",
+     "url": "https://www.wprost.pl/96934"
+    },
+    {
+     "rank": 20,
+     "title": "Sejm wybrał trzech sędziów Trybunału Konstytucyjnego",
+     "url": "https://www.wprost.pl/219660"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "uchwała Sejmu 6 marca 2024 Trybunał Konstytucyjny projekt uchwały druk wnioskodawcy posłowie",
+   "searched_at": "2026-11-02T00:16:20.453Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Sejm przyjął uchwałę w sprawie Trybunału Konstytucyjnego",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/9449800,sejm-przyjal-uchwale-w-sprawie-trybunalu-konstytucyjnego.html"
+    },
+    {
+     "rank": 2,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/gospodarka/polityka/artykuly/9449787,sejm-przyjal-uchwale-wstrybunalu-konstytucyjnego.html"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/91"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/138"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-uchwala-sejmu-ws-trybunalu-konstytucyjnego-znamy-tekst-proje,nId,7369212"
+    },
+    {
+     "rank": 7,
+     "title": "przeglad sejmowy 2024 nr5 zajadlo COklkex",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-zajadlo_COklkex.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/90"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/87"
+    },
+    {
+     "rank": 10,
+     "title": "trybunal konstytucyjny uchwala konsekwencje",
+     "url": "https://oko.press/trybunal-konstytucyjny-uchwala-konsekwencje"
+    },
+    {
+     "rank": 11,
+     "title": "przeglad sejmowy 2024 nr5 koncewicz ptZVKoj",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-koncewicz_ptZVKoj.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/192/192.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "6504990,trybunal konstytucyjny uchwala ustawa",
+     "url": "https://ksiegowosc.infor.pl/wiadomosci/6504990,trybunal-konstytucyjny-uchwala-ustawa.html"
+    },
+    {
+     "rank": 14,
+     "title": "Do TK resjestr sprawcow przestepstw seksualnych wycofanie udzialu 24.09.2024 0",
+     "url": "https://bip.brpo.gov.pl/sites/default/files/2024-10/Do_TK_resjestr_sprawcow_przestepstw_seksualnych_wycofanie_udzialu_24.09.2024_0.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Wycofanie RPO TK 20 01 2026",
+     "url": "https://bip.brpo.gov.pl/sites/default/files/2026-02/Wycofanie_RPO_TK_20_01_2026.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "Trybunał Konstytucyjny wydał orzeczenie. Poseł opuścił salę",
+     "url": "https://tvn24.pl/polska/trybunal-konstytucyjny-wydal-orzeczenie-posel-opuscil-sale-st7937808"
+    },
+    {
+     "rank": 17,
+     "title": "article detail",
+     "url": "https://www.ceeol.com/search/article-detail?id=1318177"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Patyra kandydat Trybunał Konstytucyjny zgłoszony przez posłów lipiec 2026 Sejm głosowanie wynik",
+   "searched_at": "2026-11-02T00:16:27.987Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Nowy kandydat na sędziego TK. Zgłosi go klub KO",
+     "url": "https://www.wprost.pl/12340596"
+    },
+    {
+     "rank": 2,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 3,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-prof-slawomir-patyra-bedzie-kolejnym-sedzia-trybunalu-konsty,nId,8087850"
+    },
+    {
+     "rank": 4,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 5,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego wybrany. Jest decyzja Sejmu",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-wybrany-jest-decyzja-s,nId,23494799"
+    },
+    {
+     "rank": 6,
+     "title": "zgloszono dwie kandydatury na nowego sedziego tk kto zostal zgloszony jak wybierani sa sedziowie tk",
+     "url": "https://www.tvp.info/93584019/zgloszono-dwie-kandydatury-na-nowego-sedziego-tk-kto-zostal-zgloszony-jak-wybierani-sa-sedziowie-tk"
+    },
+    {
+     "rank": 7,
+     "title": "spor o trybunal konstytucyjny trwa komisja za kandydatem do tk zgloszonym przez koalicje rzadzaca negatywnie o zgloszonym przez pis kto kandyduje",
+     "url": "https://www.tvp.info/93719504/spor-o-trybunal-konstytucyjny-trwa-komisja-za-kandydatem-do-tk-zgloszonym-przez-koalicje-rzadzaca-negatywnie-o-zgloszonym-przez-pis-kto-kandyduje"
+    },
+    {
+     "rank": 8,
+     "title": "Sejm wybrał Sławomira Patyrę na sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=215679"
+    },
+    {
+     "rank": 9,
+     "title": "Znamy dwójkę kandydatów na nowego sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=212038"
+    },
+    {
+     "rank": 10,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/wybor"
+    },
+    {
+     "rank": 11,
+     "title": "To on trafi do Trybunału Konstytucyjnego. Sejm podjął decyzję",
+     "url": "https://www.wprost.pl/12354630"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98"
+    },
+    {
+     "rank": 13,
+     "title": "xyz.pl",
+     "url": "https://xyz.pl/?p=245677"
+    },
+    {
+     "rank": 14,
+     "title": "568 autopoprawka",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/568-autopoprawka.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/6.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "LEX dostarcza wiedzę. Libra pomaga zamienić ją w działanie",
+     "url": "https://www.prawo.pl/prawnicy-sady/szesciu-kandydatow-do-tk,33922.html"
+    },
+    {
+     "rank": 17,
+     "title": "news wybor na sedziow trybunalu konstytucyjnego jest decyzja sejm,nId,7917948",
+     "url": "https://wydarzenia.interia.pl/kraj/news-wybor-na-sedziow-trybunalu-konstytucyjnego-jest-decyzja-sejm,nId,7917948"
+    },
+    {
+     "rank": 18,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/news-balagan-ze-zglaszaniem-kandydatow-do-tk,nId,3322329"
+    },
+    {
+     "rank": 19,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164"
+    },
+    {
+     "rank": 20,
+     "title": "slawomir patyra nowym sedzia trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/93753628/slawomir-patyra-nowym-sedzia-trybunalu-konstytucyjnego"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "druk kandydat na sędziego Trybunału Konstytucyjnego wniosek grupy posłów Koalicja Obywatelska Lewica Polska 2050 PSL 2026 Markiewicz Korwin-Piotrowska",
+   "searched_at": "2026-11-02T00:16:28.073Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=178870"
+    },
+    {
+     "rank": 2,
+     "title": "Znamy dwójkę kandydatów na nowego sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=212038"
+    },
+    {
+     "rank": 3,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 4,
+     "title": "7496517,kandydaci na sedziow tk kiedy zostana podani",
+     "url": "https://www.infor.pl/prawo/nowosci-prawne/7496517,kandydaci-na-sedziow-tk-kiedy-zostana-podani.html"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 6,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 7,
+     "title": "Rządząca koalicja ma zgłosić własnych sędziów do Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=156526"
+    },
+    {
+     "rank": 8,
+     "title": "karolina opolska komentuje felieton nawrocki wybiera sedziow pis zawiesza szczuckiego",
+     "url": "https://www.tvp.info/92455289/karolina-opolska-komentuje-felieton-nawrocki-wybiera-sedziow-pis-zawiesza-szczuckiego"
+    },
+    {
+     "rank": 9,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 10,
+     "title": "sejm w lutym koalicja rzadzaca zglosi kandydatow na sedziow tk",
+     "url": "https://www.tvp.info/91045763/sejm-w-lutym-koalicja-rzadzaca-zglosi-kandydatow-na-sedziow-tk"
+    },
+    {
+     "rank": 11,
+     "title": "Komunikat w sprawie wyboru sedziow  nowelizacji ustawy oraz OTK",
+     "url": "https://trybunal.gov.pl/fileadmin/content/nie-tylko-dla-mediow/Komunikat_w_sprawie_wyboru_sedziow__nowelizacji_ustawy_oraz_OTK.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 13,
+     "title": "sejm rozpoczyna trzydniowe posiedzenie w planie wniosek o odwolanie kierwinskiego i wybor sedziego tk",
+     "url": "https://www.tvp.info/93712739/sejm-rozpoczyna-trzydniowe-posiedzenie-w-planie-wniosek-o-odwolanie-kierwinskiego-i-wybor-sedziego-tk"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/028"
+    },
+    {
+     "rank": 15,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/pawlowicz-i-piotrowicz-kandydaci-na-sedziow-tk-z-pozytywnymi,496050.html"
+    },
+    {
+     "rank": 16,
+     "title": "koalicja 15 pazdziernika chce do trybunalu konstytucyjnego ekspertow co zrobi nawrocki",
+     "url": "https://oko.press/koalicja-15-pazdziernika-chce-do-trybunalu-konstytucyjnego-ekspertow-co-zrobi-nawrocki"
+    },
+    {
+     "rank": 17,
+     "title": "Lewica: Nie zgłosimy kandydatów. Nie będziemy legalizowali tego, co się w TK stało",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/1438168,lewica-o-kandydatach-do-tk.html"
+    },
+    {
+     "rank": 18,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1944/1944.pdf"
+    },
+    {
+     "rank": 19,
+     "title": "news wybor na sedziow trybunalu konstytucyjnego jest decyzja sejm,nId,7917948",
+     "url": "https://wydarzenia.interia.pl/kraj/news-wybor-na-sedziow-trybunalu-konstytucyjnego-jest-decyzja-sejm,nId,7917948"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Berek Kotowski Komisja Ustawodawcza opinia kandydatura sędzia TK głosowanie komisji",
+   "searched_at": "2026-11-02T00:16:28.120Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 2,
+     "title": "news spiecie wicepremiera z prezydenckim ministrem to mnie sprowo,nId,23538742",
+     "url": "https://wydarzenia.interia.pl/kraj/news-spiecie-wicepremiera-z-prezydenckim-ministrem-to-mnie-sprowo,nId,23538742"
+    },
+    {
+     "rank": 3,
+     "title": "Sejm dokonał wyboru sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=245708"
+    },
+    {
+     "rank": 4,
+     "title": "Berek i Kotowski w grze o fotel sędziego Trybunału Konstytucyjnego. Zdecyduje Sejm",
+     "url": "https://www.eska.pl/news/polityka/berek-i-kotowski-w-grze-o-fotel-sedziego-trybunalu-konstytucyjnego-zdecyduje-sejm-aa-LvBk-UGsV-9hvJ.html"
+    },
+    {
+     "rank": 5,
+     "title": "maciej berek sedzia tk poslowie wybrali nowego sedziego trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/95213532/maciej-berek-sedzia-tk-poslowie-wybrali-nowego-sedziego-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 6,
+     "title": "trybunal konstytucyjny sejmowa komisja pozytywnie zaopiniowala kandydature macieja berka na sedziego tk",
+     "url": "https://www.tvp.info/95192785/trybunal-konstytucyjny-sejmowa-komisja-pozytywnie-zaopiniowala-kandydature-macieja-berka-na-sedziego-tk"
+    },
+    {
+     "rank": 7,
+     "title": "Zignorowani przez Sejm, skazani na odrzucenie. Parlament nie poprze kandydatów PiS do TK",
+     "url": "https://www.wprost.pl/11938227"
+    },
+    {
+     "rank": 8,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 9,
+     "title": "Sejm coraz bliżej wyboru nowego sędziego TK. Komisja wskazała faworyta",
+     "url": "https://www.wprost.pl/12352959"
+    },
+    {
+     "rank": 10,
+     "title": "Maciej Berek kandydatem na sędziego TK",
+     "url": "https://xyz.pl/?p=239293"
+    },
+    {
+     "rank": 11,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/113/pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Sejmowa komisja pozytywnie zaopiniowała kandydaturę Macieja Berka na sędziego TK",
+     "url": "https://xyz.pl/?p=245203"
+    },
+    {
+     "rank": 13,
+     "title": "spor o trybunal konstytucyjny trwa komisja za kandydatem do tk zgloszonym przez koalicje rzadzaca negatywnie o zgloszonym przez pis kto kandyduje",
+     "url": "https://www.tvp.info/93719504/spor-o-trybunal-konstytucyjny-trwa-komisja-za-kandydatem-do-tk-zgloszonym-przez-koalicje-rzadzaca-negatywnie-o-zgloszonym-przez-pis-kto-kandyduje"
+    },
+    {
+     "rank": 14,
+     "title": "wlodzimierz czarzasty klub lewicy podjal decyzje ws kandydatury macieja berka do tk",
+     "url": "https://www.tvp.info/95174411/wlodzimierz-czarzasty-klub-lewicy-podjal-decyzje-ws-kandydatury-macieja-berka-do-tk"
+    },
+    {
+     "rank": 15,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 16,
+     "title": "news spor o sedziego tk bosak wspomnial o prezydencie powinien pr,nId,23544415",
+     "url": "https://wydarzenia.interia.pl/kraj/news-spor-o-sedziego-tk-bosak-wspomnial-o-prezydencie-powinien-pr,nId,23544415"
+    },
+    {
+     "rank": 17,
+     "title": "czy lewica poprze kandydature macieja berka do trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/95176779/czy-lewica-poprze-kandydature-macieja-berka-do-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 18,
+     "title": "sejmowa komisja po raz trzeci odrzucila kandydatow pis do tk",
+     "url": "https://www.tvp.info/88868727/sejmowa-komisja-po-raz-trzeci-odrzucila-kandydatow-pis-do-tk"
+    },
+    {
+     "rank": 19,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Koalicja przegłosowała uchwałę sędziowie TK 2026 uchwała Sejmu ślubowanie sędziów Trybunału projekt autorzy",
+   "searched_at": "2026-11-02T00:16:57.606Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-proba-storpedowania-wyboru-przez-koalicje-sedziow-tk-z-uzyci,nId,8064992"
+    },
+    {
+     "rank": 2,
+     "title": "jesienna rewolucja w tk wladza prezesa swieczkowskiego bedzie zalezala od sedziow",
+     "url": "https://oko.press/jesienna-rewolucja-w-tk-wladza-prezesa-swieczkowskiego-bedzie-zalezala-od-sedziow"
+    },
+    {
+     "rank": 3,
+     "title": "Wazna decyzja ws sedziow TK Koalicja przeglosowala uchwale 9097929",
+     "url": "https://www.bankier.pl/wiadomosc/Wazna-decyzja-ws-sedziow-TK-Koalicja-przeglosowala-uchwale-9097929.html"
+    },
+    {
+     "rank": 4,
+     "title": "Koalicja rządząca chce uchwały w sprawie Trybunału Konstytucyjnego. Głosowanie w piątek",
+     "url": "https://xyz.pl/?p=179481"
+    },
+    {
+     "rank": 5,
+     "title": "Spór o Trybunał Konstytucyjny w Sejmie. Projekt uchwały wraca do komisji",
+     "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11213741,spor-o-trybunal-konstytucyjny-w-sejmie-projekt-uchwaly-wraca-do-komis.html"
+    },
+    {
+     "rank": 6,
+     "title": "tk legalizuje bezprawne dzialania nawrockiego otwiera drzwi do anarchii",
+     "url": "https://oko.press/tk-legalizuje-bezprawne-dzialania-nawrockiego-otwiera-drzwi-do-anarchii"
+    },
+    {
+     "rank": 7,
+     "title": "news sedziowie pisza do nawrockiego slubowanie w innej formie,nId,8073989",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sedziowie-pisza-do-nawrockiego-slubowanie-w-innej-formie,nId,8073989"
+    },
+    {
+     "rank": 8,
+     "title": "15 lat - konkursu dla młodych talentów prawniczych Rising Stars Prawnicy - liderzy jutra 2026",
+     "url": "https://www.prawo.pl/prawnicy-sady/uchwala-sejmu-o-nieprawidlowosciach-w-tk,525771.html"
+    },
+    {
+     "rank": 9,
+     "title": "efekt domina spor o trybunal konstytucyjny trwa juz ponad 10 lat",
+     "url": "https://demagog.org.pl/na-biezaco/efekt-domina-spor-o-trybunal-konstytucyjny-trwa-juz-ponad-10-lat/"
+    },
+    {
+     "rank": 10,
+     "title": "trump zwalnia pam bondi prokuratorke generalna za akta epsteina",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/trump-zwalnia-pam-bondi-prokuratorke-generalna-za-akta-epsteina"
+    },
+    {
+     "rank": 11,
+     "title": "swieczkowski idzie na zwarcie w tk chce silowo zablokowac nowym sedziom wejscie na zgromadzenie",
+     "url": "https://oko.press/swieczkowski-idzie-na-zwarcie-w-tk-chce-silowo-zablokowac-nowym-sedziom-wejscie-na-zgromadzenie"
+    },
+    {
+     "rank": 12,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 13,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-zwrot-w-sprawie-tk-prezydent-przyjmie-slubowanie-sedziow,nId,8074974"
+    },
+    {
+     "rank": 14,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-zurek-skomentowal-decyzje-tk-polityczna-ustawka-z-udzialem-d,nId,8081649"
+    },
+    {
+     "rank": 15,
+     "title": "sedziowie z krs dali wsparcie 6 sedziom tk",
+     "url": "https://oko.press/sedziowie-z-krs-dali-wsparcie-6-sedziom-tk"
+    },
+    {
+     "rank": 16,
+     "title": "15 lat - konkursu dla młodych talentów prawniczych Rising Stars Prawnicy - liderzy jutra 2026",
+     "url": "https://www.prawo.pl/prawnicy-sady/sejm-podkresla-uchwala-koniecznosc-zmian-w-trybunale-konstytucyjnym,1540692.html"
+    },
+    {
+     "rank": 17,
+     "title": "czy wobec oznacza w obecnosci politycy zapowiadaja zarzuty wobec wszystkich aktorow gry o tk",
+     "url": "https://oko.press/czy-wobec-oznacza-w-obecnosci-politycy-zapowiadaja-zarzuty-wobec-wszystkich-aktorow-gry-o-tk"
+    },
+    {
+     "rank": 18,
+     "title": "Wygląda na to, że rządząca koalicja właśnie straciła możliwość obsadzenia wolnych miejsc w Trybunale Konstytucyjnym",
+     "url": "https://oko.press/mialas-koalicjo-miejsca-w-trybunale-konstytucyjnym-siedlecka"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Senat ustawa o Trybunale Konstytucyjnym przepisy wprowadzające senator sprawozdawca 2024 Komisja Ustawodawcza Senatu",
+   "searched_at": "2026-11-02T00:16:57.664Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "10. kadencja, 17. posiedzenie, 3. dzień (13-09-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/17/2024-09-13/transcripts/086"
+    },
+    {
+     "rank": 2,
+     "title": "Senat poparl wraz z poprawkami ustawy reformujace Trybunal Konstytucyjny 8791161",
+     "url": "https://www.bankier.pl/wiadomosc/Senat-poparl-wraz-z-poprawkami-ustawy-reformujace-Trybunal-Konstytucyjny-8791161.html"
+    },
+    {
+     "rank": 3,
+     "title": "news reforma tk komisja sprawiedliwosci za poprawkami senatu,nId,7777887",
+     "url": "https://wydarzenia.interia.pl/kraj/news-reforma-tk-komisja-sprawiedliwosci-za-poprawkami-senatu,nId,7777887"
+    },
+    {
+     "rank": 4,
+     "title": "news senat poparl ustawe reformujaca trybunal konstytucyjny,nId,7748207",
+     "url": "https://www.rmf24.pl/polityka/news-senat-poparl-ustawe-reformujaca-trybunal-konstytucyjny,nId,7748207"
+    },
+    {
+     "rank": 5,
+     "title": "Senat przyjął nową ustawę o Trybunale Konstytucyjnym",
+     "url": "https://www.wprost.pl/10015978"
+    },
+    {
+     "rank": 6,
+     "title": "Umów prezentację LEX Kompas Orzeczniczy 2.0",
+     "url": "https://www.prawo.pl/prawnicy-sady/gwarancje-dla-obywateli-i-wybranych-sedziow-tk-w-senacie,528344.html"
+    },
+    {
+     "rank": 7,
+     "title": "news ustawy dotyczace trybunalu konstytucyjnego jest ruch prezyde,nId,7830836",
+     "url": "https://wydarzenia.interia.pl/kraj/news-ustawy-dotyczace-trybunalu-konstytucyjnego-jest-ruch-prezyde,nId,7830836"
+    },
+    {
+     "rank": 8,
+     "title": "www.senat.gov.pl",
+     "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatdruki/13161/druk/055.pdf?r13161"
+    },
+    {
+     "rank": 9,
+     "title": "254 u3",
+     "url": "https://api.sejm.gov.pl/sejm/term10/processes/254/attachment/254_u3.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/12"
+    },
+    {
+     "rank": 11,
+     "title": "www.senat.gov.pl",
+     "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatdruki/9391/druk/782z.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/635/635.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "591 uchwała",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/591/591-uchwała.docx"
+    },
+    {
+     "rank": 14,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/254/254.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Liczba stron :  8     Data :   2024-07-19      Nazwa pliku :   V6_2516-0.PK  1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/544/V6_2516-0.PK.docx"
+    },
+    {
+     "rank": 16,
+     "title": "ustawy o trybunale konstytucyjnym w sejmie pis odkrywa ze przygotowali je eksperci fundacji batorego",
+     "url": "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+    },
+    {
+     "rank": 17,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/9"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "projekt ustawy o Trybunale Konstytucyjnym 2024 druk poseł sprawozdawca Komisja Ustawodawcza Komisja Sprawiedliwości przedstawiciel wnioskodawców",
+   "searched_at": "2026-11-02T00:16:57.705Z",
+   "n_results": 14,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/154"
+    },
+    {
+     "rank": 3,
+     "title": "batory.org.pl",
+     "url": "https://www.batory.org.pl/upload/files/Programy%20operacyjne/Odpowiedzialne%20Panstwo/ustawa%20o%20tk.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "543 A%20",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543-A/543-A%20.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/9"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/10"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/12"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/012"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/45"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/14"
+    },
+    {
+     "rank": 11,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/018"
+    },
+    {
+     "rank": 12,
+     "title": "Ocena procesu tworzenia projektu ustawy  o TK",
+     "url": "https://www.batory.org.pl/upload/files/Programy operacyjne/Odpowiedzialne Panstwo/Ocena procesu tworzenia projektu ustawy _o_TK.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/17"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/54"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"w sprawie usunięcia skutków kryzysu konstytucyjnego\" uchwała Sejmu 2024 projekt poselski sprawozdawca",
+   "searched_at": "2026-11-02T00:17:08.642Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "przeglad sejmowy 2024 nr5 zajadlo COklkex",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-zajadlo_COklkex.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "Sejm przyjął uchwałę w sprawie Trybunału Konstytucyjnego",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/artykuly/9449800,sejm-przyjal-uchwale-w-sprawie-trybunalu-konstytucyjnego.html"
+    },
+    {
+     "rank": 3,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/gospodarka/polityka/artykuly/9449787,sejm-przyjal-uchwale-wstrybunalu-konstytucyjnego.html"
+    },
+    {
+     "rank": 4,
+     "title": "rzadowe projekty o trybunale konstytucyjnym sa umiarkowane potrzeba debaty o zmianie konstytucji",
+     "url": "https://oko.press/rzadowe-projekty-o-trybunale-konstytucyjnym-sa-umiarkowane-potrzeba-debaty-o-zmianie-konstytucji"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/91"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/138"
+    },
+    {
+     "rank": 7,
+     "title": "trybunal konstytucyjny,2",
+     "url": "https://www.infor.pl/tematy/trybunal-konstytucyjny,2/"
+    },
+    {
+     "rank": 8,
+     "title": "ipo.trybunal.gov.pl",
+     "url": "https://ipo.trybunal.gov.pl/ipo/downloadOrzeczenieDoc?dok=119713"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/120"
+    },
+    {
+     "rank": 10,
+     "title": "bwmeta1.element.desklight d754b6f7 fda7 4e4a b357 36f014094a08",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-d754b6f7-fda7-4e4a-b357-36f014094a08"
+    },
+    {
+     "rank": 11,
+     "title": "art39947191 reforma tk z pakietem bodnara plan niezbyt realny ale ambitny",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art39947191-reforma-tk-z-pakietem-bodnara-plan-niezbyt-realny-ale-ambitny"
+    },
+    {
+     "rank": 12,
+     "title": "trybunal konstytucyjny uchwala konsekwencje",
+     "url": "https://oko.press/trybunal-konstytucyjny-uchwala-konsekwencje"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/88"
+    },
+    {
+     "rank": 14,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/news-sejm-przyjal-uchwale-o-krs-adam-bodnar-to-poczatek-procesu,nId,7221484"
+    },
+    {
+     "rank": 15,
+     "title": "Wycofanie RPO TK 20 01 2026",
+     "url": "https://bip.brpo.gov.pl/sites/default/files/2026-02/Wycofanie_RPO_TK_20_01_2026.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/news-duda-napisal-list-do-holowni-chodzi-o-krs,nId,7219315"
+    },
+    {
+     "rank": 17,
+     "title": "Uchwała Sejmu RP dotycząca kryzysu konstytucyjnego niekontytucyjna",
+     "url": "https://e-prawnik.pl/informacje/uchwala-sejmu-rp-dotyczaca-kryzysu-konstytucyjnego-niekontytucyjna.html"
+    },
+    {
+     "rank": 18,
+     "title": "Biuletyn Informacji Publicznej RPO",
+     "url": "https://bip.brpo.gov.pl/pl/content/rpo-wycofanie-wniosku-tk-wyrok-uchwala-sejmu"
+    },
+    {
+     "rank": 19,
+     "title": "i07135 o1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDDCGKT/i07135-o1.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Poland Sejm resolution March 2026 Constitutional Tribunal six judges elected Markiewicz Taborowski Dziurda vote 13 March",
+   "searched_at": "2026-11-02T00:17:08.644Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3660074,polish-parliament-elects-six-constitutional-tribunal-judges-as-dispute-shifts-to-president"
+    },
+    {
+     "rank": 2,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3658781,polish-parliament-to-vote-friday-on-constitutional-tribunal-judges-speaker-says"
+    },
+    {
+     "rank": 3,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3683292,european-court-orders-poland-to-allow-constitutional-judges-to-take-office"
+    },
+    {
+     "rank": 4,
+     "title": "wyjasniamy o co chodzi ze slubowaniem sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/wyjasniamy-o-co-chodzi-ze-slubowaniem-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 5,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 6,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3671257,four-new-constitutional-judges-invite-president-to-parliament-for-oathtaking-ceremony"
+    },
+    {
+     "rank": 7,
+     "title": "the european court has decided to end the blocking of constitutional tribunal judges",
+     "url": "https://ground.news/article/the-european-court-has-decided-to-end-the-blocking-of-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 8,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3668562,polish-president-swears-in-two-new-constitutional-tribunal-judges-leaves-four-appointments-unresolved"
+    },
+    {
+     "rank": 9,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 10,
+     "title": "Sejm wybral nowych sedziow Trybunalu Konstytucyjnego 9098023",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html"
+    },
+    {
+     "rank": 11,
+     "title": "news sedziowie tk napisali list do polskich wladz pierwszy krok d,nId,23536040",
+     "url": "https://wydarzenia.interia.pl/kraj/news-sedziowie-tk-napisali-list-do-polskich-wladz-pierwszy-krok-d,nId,23536040"
+    },
+    {
+     "rank": 12,
+     "title": "the decision of the polish constitutional tribunal about the principles and procedure for electing constitutional judges less an exchange of blows and more of an exchange of weapons analysis of ruling",
+     "url": "https://www.iconnectblog.com/the-decision-of-the-polish-constitutional-tribunal-about-the-principles-and-procedure-for-electing-constitutional-judges-less-an-exchange-of-blows-and-more-of-an-exchange-of-weapons-analysis-of-ruling/"
+    },
+    {
+     "rank": 13,
+     "title": "aa.com.tr",
+     "url": "https://aa.com.tr/en/europe/poland-s-constitutional-court-rejects-4-new-judges-deepening-rule-of-law-crisis/3901200"
+    },
+    {
+     "rank": 14,
+     "title": "ECHR orders admission of Sejm-elected judges to Poland’s Constitutional Tribunal",
+     "url": "https://www.europeaninterest.eu/?p=474078"
+    },
+    {
+     "rank": 15,
+     "title": "Constitutional Tribunal at a crossroads: New judges, lingering controversy",
+     "url": "https://xyz.pl/?p=183056"
+    },
+    {
+     "rank": 16,
+     "title": "sejm rusza z wyborem sedziow do tk a wyroki nadal niepublikowane,1540424",
+     "url": "https://www.prawo.pl/prawnicy-sady/sejm-rusza-z-wyborem-sedziow-do-tk-a-wyroki-nadal-niepublikowane,1540424.html"
+    },
+    {
+     "rank": 17,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    },
+    {
+     "rank": 18,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rqp5uz/snapshots/2026-03-13T20%3A24%3A26.298162Z"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Szostek Bentkowska kandydatura zgłoszona przez klub Polska 2050 PSL Lewica sędzia TK 2026 kto zgłosił",
+   "searched_at": "2026-11-02T00:17:08.659Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "constitutional tribunal judges invited to take the oath before the president",
+     "url": "https://ground.news/article/constitutional-tribunal-judges-invited-to-take-the-oath-before-the-president"
+    },
+    {
+     "rank": 2,
+     "title": "karolina opolska komentuje felieton nawrocki wybiera sedziow pis zawiesza szczuckiego",
+     "url": "https://www.tvp.info/92455289/karolina-opolska-komentuje-felieton-nawrocki-wybiera-sedziow-pis-zawiesza-szczuckiego"
+    },
+    {
+     "rank": 3,
+     "title": "constitutional tribunal judges invited to take the oath before the president",
+     "url": "https://groundnews.lakegeneva.lib.wi.us/article/constitutional-tribunal-judges-invited-to-take-the-oath-before-the-president"
+    },
+    {
+     "rank": 4,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    },
+    {
+     "rank": 5,
+     "title": "Polska 2050 podzielona w sprawie Berka. Różne stanowiska przed głosowaniem w TK",
+     "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11290776,polska-2050-podzielona-w-sprawie-berka-rozne-stanowiska-przed-glosowa.html"
+    },
+    {
+     "rank": 6,
+     "title": "300polityka.pl",
+     "url": "https://300polityka.pl/en/live/2026-04-01"
+    },
+    {
+     "rank": 7,
+     "title": "tk bogda swieczkowski napisal do premiera donalda tuska chodzi o publikacje orzeczen",
+     "url": "https://www.tvp.info/92738943/tk-bogda-swieczkowski-napisal-do-premiera-donalda-tuska-chodzi-o-publikacje-orzeczen"
+    },
+    {
+     "rank": 8,
+     "title": "dlaczego prezydent przyjal slubowania tylko od 2 sedziow tk",
+     "url": "https://300polityka.pl/en/live/2026-04-01/dlaczego-prezydent-przyjal-slubowania-tylko-od-2-sedziow-tk"
+    },
+    {
+     "rank": 9,
+     "title": "LEX dostarcza wiedzę. Libra pomaga zamienić ją w działanie",
+     "url": "https://www.prawo.pl/prawnicy-sady/szesciu-kandydatow-do-tk,33922.html"
+    },
+    {
+     "rank": 10,
+     "title": "daria gosek popiolek lewica to hipokryzja premiera wszystkie wyroki europejskiego trybunalu trzeba wykonywac",
+     "url": "https://www.radiokrakow.pl/audycje/daria-gosek-popiolek-lewica-to-hipokryzja-premiera-wszystkie-wyroki-europejskiego-trybunalu-trzeba-wykonywac/"
+    },
+    {
+     "rank": 11,
+     "title": "zlozylismy pismo do prezesa czworka sedziow ponownie w tk",
+     "url": "https://300polityka.pl/en/live/2026-04-10/zlozylismy-pismo-do-prezesa-czworka-sedziow-ponownie-w-tk"
+    },
+    {
+     "rank": 12,
+     "title": "pawel sliz jesli ustalenia nik sie potwierdza zarzuty powinny uslyszec nawet byli premierzy i ministrowie",
+     "url": "https://www.radiokrakow.pl/audycje/pawel-sliz-jesli-ustalenia-nik-sie-potwierdza-zarzuty-powinny-uslyszec-nawet-byli-premierzy-i-ministrowie"
+    },
+    {
+     "rank": 13,
+     "title": "art39400951 szef klubu polska 2050 po porazce elzbiety witek miejsce dla pis w prezydium sejmu bedzie czekac",
+     "url": "https://www.rp.pl/polityka/art39400951-szef-klubu-polska-2050-po-porazce-elzbiety-witek-miejsce-dla-pis-w-prezydium-sejmu-bedzie-czekac"
+    },
+    {
+     "rank": 14,
+     "title": "Zgrzyt w koalicji rządzącej, „To nie jest nasza kandydatka”",
+     "url": "https://www.wprost.pl/kraj/12353421/zgrzyt-w-koalicji-tuska-krakow-znow-dzieli-rzadzacych.html"
+    },
+    {
+     "rank": 15,
+     "title": "Pełczyńska-Nałęcz zdecydowała się na start w wyborach na przewodniczącą Polski 2050",
+     "url": "https://xyz.pl/?p=139797"
+    },
+    {
+     "rank": 16,
+     "title": "art44595421 ko i psl oglosily kandydatke na prezydenta krakowa pelczynska nalecz niefortunne nie nasz kandydat",
+     "url": "https://www.rp.pl/polityka/art44595421-ko-i-psl-oglosily-kandydatke-na-prezydenta-krakowa-pelczynska-nalecz-niefortunne-nie-nasz-kandydat"
+    },
+    {
+     "rank": 17,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2526/2526.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Zgrzyt w koalicji. \"To jest niefortunne, to nie jest nasza kandydatka\"",
+     "url": "https://www.polsatnews.pl/graffiti/2026-06-10/zgrzyt-w-koalicji-to-jest-niefortunne-to-nie-jest-nasza-kandydatka/"
+    },
+    {
+     "rank": 19,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/11354/artykul/3477927"
+    },
+    {
+     "rank": 20,
+     "title": "Senate Pact 2023",
+     "url": "https://wiki.krisyotam.com/content/wikipedia_en_all_nopic_2026-03/Senate_Pact_2023"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Sejm wybrał sześcioro sędziów TK 13 marca 2026 Markiewicz głosowało posłów przeciw wstrzymało się Korwin-Piotrowska Bentkowska Szostek",
+   "searched_at": "2026-11-02T00:17:41.680Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "news sedziowie pisza do nawrockiego slubowanie w innej formie,nId,8073989",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sedziowie-pisza-do-nawrockiego-slubowanie-w-innej-formie,nId,8073989"
+    },
+    {
+     "rank": 2,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 3,
+     "title": "Markiewicz Zrzeklem sie funkcji sedziego Sadu Okregowego w Katowicach 9114871",
+     "url": "https://www.bankier.pl/wiadomosc/Markiewicz-Zrzeklem-sie-funkcji-sedziego-Sadu-Okregowego-w-Katowicach-9114871.html"
+    },
+    {
+     "rank": 4,
+     "title": "wyjasniamy o co chodzi ze slubowaniem sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/wyjasniamy-o-co-chodzi-ze-slubowaniem-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 5,
+     "title": "Wybór sędziów przez Sejm. Trybunał Konstytucyjny podjął decyzję",
+     "url": "https://wydarzenia.interia.pl/kraj/news-wybor-sedziow-przez-sejm-trybunal-konstytucyjny-podjal-decyz,nId,23476435"
+    },
+    {
+     "rank": 6,
+     "title": "nowo wybrani sedziowie trybunalu konstytucyjnego zlozyli slubowanie w sejmie",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/nowo-wybrani-sedziowie-trybunalu-konstytucyjnego-zlozyli-slubowanie-w-sejmie"
+    },
+    {
+     "rank": 7,
+     "title": "prezydium sejmu wybralo kandydatow na sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/prezydium-sejmu-wybralo-kandydatow-na-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 8,
+     "title": "Sejm wybral nowych sedziow Trybunalu Konstytucyjnego 9098023",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html"
+    },
+    {
+     "rank": 9,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 10,
+     "title": "Sędzia Markiewicz: pójdziemy do TK, żądając dopuszczenia do pracy",
+     "url": "https://xyz.pl/?p=190361"
+    },
+    {
+     "rank": 11,
+     "title": "porazka prezydenta nie podzielil 6 sedziow tk bentkowska i szostek nie beda orzekac z dublerami",
+     "url": "https://oko.press/porazka-prezydenta-nie-podzielil-6-sedziow-tk-bentkowska-i-szostek-nie-beda-orzekac-z-dublerami"
+    },
+    {
+     "rank": 12,
+     "title": "Sejm tłumaczy wybór sędziów TK. Możliwe problemy proceduralne",
+     "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11215845,sejm-tlumaczy-wybor-sedziow-tk-mozliwe-problemy-proceduralne.html"
+    },
+    {
+     "rank": 13,
+     "title": "Wazna decyzja ws sedziow TK Koalicja przeglosowala uchwale 9097929",
+     "url": "https://www.bankier.pl/wiadomosc/Wazna-decyzja-ws-sedziow-TK-Koalicja-przeglosowala-uchwale-9097929.html"
+    },
+    {
+     "rank": 14,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=91268"
+    },
+    {
+     "rank": 15,
+     "title": "sejm rusza z wyborem sedziow do tk a wyroki nadal niepublikowane,1540424",
+     "url": "https://www.prawo.pl/prawnicy-sady/sejm-rusza-z-wyborem-sedziow-do-tk-a-wyroki-nadal-niepublikowane,1540424.html"
+    },
+    {
+     "rank": 16,
+     "title": "sejm wybral nowych sedziow trybunalu konstytucyjnego",
+     "url": "https://www.tvp.info/92072747/sejm-wybral-nowych-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 17,
+     "title": "Sejm wybrał nowych sędziów Trybunału Konstytucyjnego",
+     "url": "https://tvn24.pl/polska/sejm-wybral-nowych-sedziow-trybunalu-konstytucyjnego-st8946410"
+    },
+    {
+     "rank": 18,
+     "title": "Sędziowie TK złożyli ślubowanie w Sejmie",
+     "url": "https://xyz.pl/?p=189828"
+    },
+    {
+     "rank": 19,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"druk nr 2333\" OR \"druk nr 2334\" OR \"druk nr 2335\" OR \"druk nr 2336\" Trybunał Konstytucyjny kandydat",
+   "searched_at": "2026-11-02T00:17:41.715Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2346/2346.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334"
+    },
+    {
+     "rank": 4,
+     "title": "Zmiany w TK. Julia Przyłębska: Wyłoniono dwóch kandydatów na prezesa",
+     "url": "https://wydarzenia.interia.pl/kraj/news-zmiany-w-tk-julia-przylebska-wyloniono-dwoch-kandydatow-na-p,nId,7871238"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331"
+    },
+    {
+     "rank": 6,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1944"
+    },
+    {
+     "rank": 7,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 8,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1944/1944.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/tuleja-rymar-i-zubik-sedziami-trybunalu-konstytucyjnego,171478.html"
+    },
+    {
+     "rank": 10,
+     "title": "Trybunał Konstytucyjny",
+     "url": "https://trybunal.gov.pl/en/hearings/judgments/art/12086-gorna-granica-wieku-dla-kandydatow-ubiegajacych-sie-o-przyjecie-na-aplikacje-sedziowska-i-prokuratorska-prowadzona-przez-krajowa-szkole-sadownictwa-i-prokuratury"
+    },
+    {
+     "rank": 11,
+     "title": "LEX dostarcza wiedzę. Libra pomaga zamienić ją w działanie",
+     "url": "https://www.prawo.pl/prawnicy-sady/szesciu-kandydatow-do-tk,33922.html"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016"
+    },
+    {
+     "rank": 13,
+     "title": "568 autopoprawka",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/568-autopoprawka.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "opinia hfpc do projektu ustawy o tk",
+     "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "news awantura na wiejskiej kandydaci pis na sedziow trybunalu z r,nId,1930983",
+     "url": "https://www.rmf24.pl/fakty/polska/news-awantura-na-wiejskiej-kandydaci-pis-na-sedziow-trybunalu-z-r,nId,1930983"
+    },
+    {
+     "rank": 16,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 17,
+     "title": "260214,Nowi sedziowie Trybunalu Konstytucyjnego",
+     "url": "https://www.infor.pl/prawo/konstytucja/trybunal-konstytucyjny/260214,Nowi-sedziowie-Trybunalu-Konstytucyjnego.html"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "api.sejm.gov.pl prints term10 wniosek w sprawie wyboru sędziego Trybunału Konstytucyjnego Maciej Berek druk sierpień 2026",
+   "searched_at": "2026-11-02T00:17:41.737Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2346/2346.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/022"
+    },
+    {
+     "rank": 4,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2345/2345.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2351/2351.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "polish pm confirms he wants his right hand man to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 7,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/880.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "maciej berek z poparciem sejmowej komisji sprawiedliwosci",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-z-poparciem-sejmowej-komisji-sprawiedliwosci"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/029"
+    },
+    {
+     "rank": 10,
+     "title": "news spor o sedziego tk bosak wspomnial o prezydencie powinien pr,nId,23544415",
+     "url": "https://wydarzenia.interia.pl/kraj/news-spor-o-sedziego-tk-bosak-wspomnial-o-prezydencie-powinien-pr,nId,23544415"
+    },
+    {
+     "rank": 11,
+     "title": "maciej berek wybrany na sedziego tk",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-wybrany-na-sedziego-tk"
+    },
+    {
+     "rank": 12,
+     "title": "news jaki plan dla macieja berka donald tusk potwierdza,nId,23528708",
+     "url": "https://wydarzenia.interia.pl/kraj/news-jaki-plan-dla-macieja-berka-donald-tusk-potwierdza,nId,23528708"
+    },
+    {
+     "rank": 13,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 14,
+     "title": "w obronie macieja berka jest potrzebny w tk nie bedzie tam partyjnym sedzia widze to tak",
+     "url": "https://oko.press/w-obronie-macieja-berka-jest-potrzebny-w-tk-nie-bedzie-tam-partyjnym-sedzia-widze-to-tak"
+    },
+    {
+     "rank": 15,
+     "title": "Kancelaria Sejmu odpowiedziała prezydentowi. Oczekuje niezwłocznego przyjęcia ślubowania od nowego sędziego TK",
+     "url": "https://xyz.pl/?p=248418"
+    },
+    {
+     "rank": 16,
+     "title": "maciej berek ma byc nowym sedzia tk to dlatego zrezygnowal z teki ministra w rzadzie tuska",
+     "url": "https://oko.press/maciej-berek-ma-byc-nowym-sedzia-tk-to-dlatego-zrezygnowal-z-teki-ministra-w-rzadzie-tuska"
+    },
+    {
+     "rank": 17,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/026"
+    },
+    {
+     "rank": 18,
+     "title": "news berek odpowiada leskiewiczowi prezydent nie ma uprawnienia,nId,23544772",
+     "url": "https://wydarzenia.interia.pl/kraj/news-berek-odpowiada-leskiewiczowi-prezydent-nie-ma-uprawnienia,nId,23544772"
+    },
+    {
+     "rank": 19,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/014"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Komisja Sprawiedliwości i Praw Człowieka pozytywnie zaopiniowała kandydatów TK marzec 2026 głosami Kotowski Skwarzyński negatywnie",
+   "searched_at": "2026-11-02T00:17:53.753Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-kandydaci-do-trybunalu-konstytucyjnego-sejmowa-komisja-zdecy,nId,8071913"
+    },
+    {
+     "rank": 2,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 3,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/141/html"
+    },
+    {
+     "rank": 6,
+     "title": "news kandydatury pawlowicz i piotrowicza do tk pozytywnie zaopini,nId,3345350",
+     "url": "https://www.rmf24.pl/fakty/news-kandydatury-pawlowicz-i-piotrowicza-do-tk-pozytywnie-zaopini,nId,3345350"
+    },
+    {
+     "rank": 7,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 8,
+     "title": "Sejmowa komisja pozytywnie zaopiniowała kandydaturę Macieja Berka na sędziego TK",
+     "url": "https://xyz.pl/?p=245203"
+    },
+    {
+     "rank": 9,
+     "title": "Sejmowa komisja pozytywnie zaopiniowała kandydaturę Macieja Berka na sędziego TK",
+     "url": "https://xyz.pl/dzieje-sie/sejmowa-komisja-pozytywnie-zaopiniowala-kandydature-macieja-berka-na-sedziego-tk-1913"
+    },
+    {
+     "rank": 10,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/pawlowicz-i-piotrowicz-kandydaci-na-sedziow-tk-z-pozytywnymi,496050.html"
+    },
+    {
+     "rank": 11,
+     "title": "morda to nie jest slowo wulgarne mowi przyszla sedzia tk pawlowicz pis poparl tez piotrowicza",
+     "url": "https://oko.press/morda-to-nie-jest-slowo-wulgarne-mowi-przyszla-sedzia-tk-pawlowicz-pis-poparl-tez-piotrowicza"
+    },
+    {
+     "rank": 12,
+     "title": "trybunal konstytucyjny sejmowa komisja pozytywnie zaopiniowala kandydature macieja berka na sedziego tk",
+     "url": "https://www.tvp.info/95192785/trybunal-konstytucyjny-sejmowa-komisja-pozytywnie-zaopiniowala-kandydature-macieja-berka-na-sedziego-tk"
+    },
+    {
+     "rank": 13,
+     "title": "news awantura na wiejskiej kandydaci pis na sedziow trybunalu z r,nId,1930983",
+     "url": "https://www.rmf24.pl/fakty/polska/news-awantura-na-wiejskiej-kandydaci-pis-na-sedziow-trybunalu-z-r,nId,1930983"
+    },
+    {
+     "rank": 14,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    },
+    {
+     "rank": 15,
+     "title": "\"Pani tu nie ma prawa swoich frustracji lewackich wylewać\"",
+     "url": "https://tvn24.pl/polska/pani-tu-nie-ma-prawa-swoich-frustracji-lewackich-wylewac-ra634902-ls3177941"
+    },
+    {
+     "rank": 16,
+     "title": "Michał Warciński nowym sędzią TK? Sejmowa komisja popiera kandydaturę",
+     "url": "https://www.gazetaprawna.pl/twoje-prawo/artykuly/10876443,michal-warcinski-sedzia-tk.html"
+    },
+    {
+     "rank": 17,
+     "title": "sejm powolal piotra wawrzyka na stanowisko rzecznika praw obywatelskich",
+     "url": "https://www.radiokrakow.pl/aktualnosci/sejm-powolal-piotra-wawrzyka-na-stanowisko-rzecznika-praw-obywatelskich/"
+    },
+    {
+     "rank": 18,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/113/pdf"
+    },
+    {
+     "rank": 19,
+     "title": "sejmowa komisja po raz trzeci odrzucila kandydatow pis do tk",
+     "url": "https://www.tvp.info/88868727/sejmowa-komisja-po-raz-trzeci-odrzucila-kandydatow-pis-do-tk"
+    },
+    {
+     "rank": 20,
+     "title": "komisja sprawiedliwosci",
+     "url": "https://www.gazetaprawna.pl/tagi/komisja-sprawiedliwosci"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Prezydium Sejmu zgłosiło kandydatów na sędziów Trybunału Konstytucyjnego marzec 2026 Hołownia Czarzasty wniosek Prezydium",
+   "searched_at": "2026-11-02T00:17:53.781Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0"
+    },
+    {
+     "rank": 2,
+     "title": "Marszałek Sejmu wskazał kandydatów, którzy mogą zostać sędziami TK",
+     "url": "https://xyz.pl/?p=178785"
+    },
+    {
+     "rank": 3,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-czarzasty-pisze-do-nawrockiego-niech-pan-sie-nie-boi,nId,8072827"
+    },
+    {
+     "rank": 4,
+     "title": "Sejm wybiera nowych sędziów TK: Lista potencjalnych kandydatów",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11204168,kto-trafi-do-trybunalu-konstytucyjnego-lista-potencjalnych-kandydatow.html"
+    },
+    {
+     "rank": 5,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-nowi-sedziowie-w-tk-wybrani-juz-w-tym-tygodniu-jest-decyzja-,nId,8070672"
+    },
+    {
+     "rank": 6,
+     "title": "Czarzasty: na przełomie lutego i marca przedstawimy kandydatów do TK",
+     "url": "https://xyz.pl/?p=159659"
+    },
+    {
+     "rank": 7,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 8,
+     "title": "Strona główna Wypowiedzi Nowi sędziowie Trybunału Konstytucyjnego. Czy przy ich wyborze naruszono regulamin?",
+     "url": "https://demagog.org.pl/wypowiedzi/nowi-sedziowie-trybunalu-konstytucyjnego-czy-naruszono-regulamin-przy-ich-wyborze/"
+    },
+    {
+     "rank": 9,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 10,
+     "title": "W tym tygodniu sejm wybierze kandydatów na sędziów TK",
+     "url": "https://xyz.pl/?p=178122"
+    },
+    {
+     "rank": 11,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-kandydaci-do-trybunalu-konstytucyjnego-sejmowa-komisja-zdecy,nId,8071913"
+    },
+    {
+     "rank": 12,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/6.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "kogo koalicja rzadzaca chce wprowadzic do trybunalu konstytucyjnego",
+     "url": "https://oko.press/kogo-koalicja-rzadzaca-chce-wprowadzic-do-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 14,
+     "title": "prezydium sejmu wybralo kandydatow na sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/prezydium-sejmu-wybralo-kandydatow-na-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 15,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+    },
+    {
+     "rank": 16,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=178870"
+    },
+    {
+     "rank": 17,
+     "title": "Troje sędziów odchodzi z TK. Hołownia zdradził, co zrobi koalicja",
+     "url": "https://wydarzenia.interia.pl/kraj/news-troje-sedziow-odchodzi-z-tk-holownia-zdradzil-co-zrobi-koali,nId,7864419"
+    },
+    {
+     "rank": 18,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/rusza-procedura-wyboru-szesciu-sedziow-tk-markiewicz-taborowski-dziurda,1540326.html"
+    },
+    {
+     "rank": 19,
+     "title": "news awantura na wiejskiej kandydaci pis na sedziow trybunalu z r,nId,1930983",
+     "url": "https://www.rmf24.pl/fakty/polska/news-awantura-na-wiejskiej-kandydaci-pis-na-sedziow-trybunalu-z-r,nId,1930983"
+    },
+    {
+     "rank": 20,
+     "title": "do 11 marca mozna skladac w sejmie wnioski ws wyboru 6 sedziow do trybunalu konstytucyjnego decyzja marszalka wlodzimierza czarzastego",
+     "url": "https://www.tvp.info/91994416/do-11-marca-mozna-skladac-w-sejmie-wnioski-ws-wyboru-6-sedziow-do-trybunalu-konstytucyjnego-decyzja-marszalka-wlodzimierza-czarzastego"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "ustawa o Trybunale Konstytucyjnym 2024 posłowie Polska 2050 złożyli projekt Fundacja Batorego przedstawiciel wnioskodawców poseł Kropiwnicki OR Trela OR Gramatyka OR Hennig-Kloska",
+   "searched_at": "2026-11-02T00:17:53.797Z",
+   "n_results": 20,
+   "results": [
+    {
+     "rank": 1,
+     "title": "ustawy o trybunale konstytucyjnym w sejmie pis odkrywa ze przygotowali je eksperci fundacji batorego",
+     "url": "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+    },
+    {
+     "rank": 2,
+     "title": "draft laws on the constitutional tribunal in the sejm pis discovers they were prepared by batory foundation experts",
+     "url": "https://ruleoflaw.pl/draft-laws-on-the-constitutional-tribunal-in-the-sejm-pis-discovers-they-were-prepared-by-batory-foundation-experts/"
+    },
+    {
+     "rank": 3,
+     "title": "komisja o ustawach o tk drugie posiedzenie",
+     "url": "https://oko.press/komisja-o-ustawach-o-tk-drugie-posiedzenie"
+    },
+    {
+     "rank": 4,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/254/254.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/11"
+    },
+    {
+     "rank": 7,
+     "title": "pierwsze szczegoly projektu ustawy ws tk",
+     "url": "https://www.pap.pl/aktualnosci/pierwsze-szczegoly-projektu-ustawy-ws-tk"
+    },
+    {
+     "rank": 8,
+     "title": "www.batory.org.pl",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/07/sprostowanie.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "argumenty 49",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/03/argumenty_49.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "LEX Kancelaria Prawna - oferta promocyjna",
+     "url": "https://www.prawo.pl/prawnicy-sady/ustawy-o-tk-prace-w-sejmie,525765.html"
+    },
+    {
+     "rank": 11,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/jakie-propozycje-w-sprawie-trybunalu-konstytucyjnego,525764.html"
+    },
+    {
+     "rank": 12,
+     "title": "argumenty 51",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/04/argumenty_51.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/14"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/137"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/123"
+    },
+    {
+     "rank": 16,
+     "title": "Apel do prezydenta o podpisanie ustaw o TK",
+     "url": "https://amnesty.org.pl/wp-content/uploads/2024/09/Apel-do-prezydenta-o-podpisanie-ustaw-o-TK.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "i681 24A AB K",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/121"
+    },
+    {
+     "rank": 19,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/016"
+    },
+    {
+     "rank": 20,
+     "title": "Back to Search",
+     "url": "https://searchworks.jioinstitute.edu.in/articles/edb__183445549"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Sędziowie Trybunału Konstytucyjnego w Polsce lista wikipedia 2026 Berek Patyra wybrany głosami",
+   "searched_at": "2026-11-02T00:18:49.076Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "maciej berek a trybunal konstytucyjny,1550691",
+     "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html"
+    },
+    {
+     "rank": 2,
+     "title": "maciej berek ma byc nowym sedzia tk to dlatego zrezygnowal z teki ministra w rzadzie tuska",
+     "url": "https://oko.press/maciej-berek-ma-byc-nowym-sedzia-tk-to-dlatego-zrezygnowal-z-teki-ministra-w-rzadzie-tuska"
+    },
+    {
+     "rank": 3,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-prof-slawomir-patyra-bedzie-kolejnym-sedzia-trybunalu-konsty,nId,8087850"
+    },
+    {
+     "rank": 4,
+     "title": "president to swear in new judge to polands disputed constitutional court",
+     "url": "https://notesfrompoland.com/2026/07/23/president-to-swear-in-new-judge-to-polands-disputed-constitutional-court/"
+    },
+    {
+     "rank": 5,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95282"
+    },
+    {
+     "rank": 6,
+     "title": "czy berek jest juz sedzia ciag dalszy sporu o trybunal konstytucyjny",
+     "url": "https://demagog.org.pl/na-biezaco/czy-berek-jest-juz-sedzia-ciag-dalszy-sporu-o-trybunal-konstytucyjny/"
+    },
+    {
+     "rank": 7,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf"
+    },
+    {
+     "rank": 8,
+     "title": "prof slawomir patyra wybrany na sedziego trybunalu,1545525",
+     "url": "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+    },
+    {
+     "rank": 9,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95498"
+    },
+    {
+     "rank": 10,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 11,
+     "title": "polish pm confirms he wants his right hand man to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 12,
+     "title": "nawrocki blokuje piatego sedziego tk nie przyjal slubowania od prof patyry",
+     "url": "https://oko.press/nawrocki-blokuje-piatego-sedziego-tk-nie-przyjal-slubowania-od-prof-patyry"
+    },
+    {
+     "rank": 13,
+     "title": "Nowy kandydat na sędziego TK. Zgłosi go klub KO",
+     "url": "https://www.wprost.pl/12340596"
+    },
+    {
+     "rank": 14,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/018"
+    },
+    {
+     "rank": 16,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego wybrany. Jest decyzja Sejmu",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-wybrany-jest-decyzja-s,nId,23494799"
+    },
+    {
+     "rank": 17,
+     "title": "maciej berek pisze do prezydenta w sprawie slubowania",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-pisze-do-prezydenta-w-sprawie-slubowania"
+    },
+    {
+     "rank": 18,
+     "title": "berek wybrany sedzia tk koalicja jest przekonana ze nie bedzie czekal w kolejce na laske prezydenta",
+     "url": "https://oko.press/berek-wybrany-sedzia-tk-koalicja-jest-przekonana-ze-nie-bedzie-czekal-w-kolejce-na-laske-prezydenta"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "opinia Biura Ekspertyz Sejmu projekt ustawy o Trybunale Konstytucyjnym 2024 druk 253 ekspert zlecona opinia prawna",
+   "searched_at": "2026-11-02T00:18:49.192Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "i659 24A MS 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A_.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "i681 24A AB K",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/15"
+    },
+    {
+     "rank": 6,
+     "title": "i681 24A KE",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_KE.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "i579 24A 3",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "d6.web.osce.org",
+     "url": "https://d6.web.osce.org/pl/odihr/576883"
+    },
+    {
+     "rank": 9,
+     "title": "www.osce.org",
+     "url": "https://www.osce.org/files/f/documents/3/e/576883.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "odihr.osce.org",
+     "url": "https://odihr.osce.org/pl/node/575707"
+    },
+    {
+     "rank": 11,
+     "title": "opinia hfpc do projektu ustawy o tk",
+     "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "i659 24A TK 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/132"
+    },
+    {
+     "rank": 14,
+     "title": "i659 24A JZ 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "przeglad sejmowy 2024 t32 n6 dabrowski opinia",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-dabrowski-opinia.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/123"
+    },
+    {
+     "rank": 17,
+     "title": "i733 24A  2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i733-24A_-2.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Maciej Berek wybrany sędzią TK 4 września 2026 głosowało za przeciw wstrzymało się posłów Lewica",
+   "searched_at": "2026-11-02T00:18:49.241Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "news berek odpowiada leskiewiczowi prezydent nie ma uprawnienia,nId,23544772",
+     "url": "https://wydarzenia.interia.pl/kraj/news-berek-odpowiada-leskiewiczowi-prezydent-nie-ma-uprawnienia,nId,23544772"
+    },
+    {
+     "rank": 2,
+     "title": "maciej berek z poparciem sejmowej komisji sprawiedliwosci",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-z-poparciem-sejmowej-komisji-sprawiedliwosci"
+    },
+    {
+     "rank": 3,
+     "title": "Berek zwrócił się do prezydenta o niezwłoczne wskazanie miejsca i daty złożenia ślubowania na sędziego TK",
+     "url": "https://xyz.pl/?p=252104"
+    },
+    {
+     "rank": 4,
+     "title": "berek przekonuje ze jest urzednikiem a pis szuka formalnych argumentow przeciwko niemu",
+     "url": "https://oko.press/berek-przekonuje-ze-jest-urzednikiem-a-pis-szuka-formalnych-argumentow-przeciwko-niemu"
+    },
+    {
+     "rank": 5,
+     "title": "jesienna rewolucja w tk wladza prezesa swieczkowskiego bedzie zalezala od sedziow",
+     "url": "https://oko.press/jesienna-rewolucja-w-tk-wladza-prezesa-swieczkowskiego-bedzie-zalezala-od-sedziow"
+    },
+    {
+     "rank": 6,
+     "title": "berek wybrany sedzia tk koalicja jest przekonana ze nie bedzie czekal w kolejce na laske prezydenta",
+     "url": "https://oko.press/berek-wybrany-sedzia-tk-koalicja-jest-przekonana-ze-nie-bedzie-czekal-w-kolejce-na-laske-prezydenta"
+    },
+    {
+     "rank": 7,
+     "title": "maciej berek zlozyl slubowanie sedziego tk",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-zlozyl-slubowanie-sedziego-tk"
+    },
+    {
+     "rank": 8,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=99555"
+    },
+    {
+     "rank": 9,
+     "title": "prime ministers right hand man elected as polish constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+    },
+    {
+     "rank": 10,
+     "title": "Strona główna Alerty Maciej Berek nowym sędzią Trybunału Konstytucyjnego",
+     "url": "https://demagog.org.pl/na-biezaco/maciej-berek-w-trybunale-konstytucyjnym/"
+    },
+    {
+     "rank": 11,
+     "title": "berek zlozyl slubowanieale pat w trybunale konstytucyjnym trwa",
+     "url": "https://oko.press/berek-zlozyl-slubowanieale-pat-w-trybunale-konstytucyjnym-trwa"
+    },
+    {
+     "rank": 12,
+     "title": "maciej berek pisze do prezydenta w sprawie slubowania",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-pisze-do-prezydenta-w-sprawie-slubowania"
+    },
+    {
+     "rank": 13,
+     "title": "polish pm confirms he wants his right hand man to be made constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+    },
+    {
+     "rank": 14,
+     "title": "czy berek jest juz sedzia ciag dalszy sporu o trybunal konstytucyjny",
+     "url": "https://demagog.org.pl/na-biezaco/czy-berek-jest-juz-sedzia-ciag-dalszy-sporu-o-trybunal-konstytucyjny/"
+    },
+    {
+     "rank": 15,
+     "title": "news spor o sedziego tk bosak wspomnial o prezydencie powinien pr,nId,23544415",
+     "url": "https://wydarzenia.interia.pl/kraj/news-spor-o-sedziego-tk-bosak-wspomnial-o-prezydencie-powinien-pr,nId,23544415"
+    },
+    {
+     "rank": 16,
+     "title": "maciej berek wybrany na sedziego tk",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/maciej-berek-wybrany-na-sedziego-tk"
+    },
+    {
+     "rank": 17,
+     "title": "Maciej Berek złożył w Sejmie ślubowanie sędziego Trybunału Konstytucyjnego z formułą „wobec prezydenta”",
+     "url": "https://xyz.pl/?p=261926"
+    },
+    {
+     "rank": 18,
+     "title": "news z rzadu wprost na sedziego tk nieoficjalne doniesienia o min,nId,23527779",
+     "url": "https://wydarzenia.interia.pl/kraj/news-z-rzadu-wprost-na-sedziego-tk-nieoficjalne-doniesienia-o-min,nId,23527779"
+    },
+    {
+     "rank": 19,
+     "title": "MACIEJ BEREK",
+     "url": "https://www.se.pl/temat/maciej-berek,tg-S91y-U7FU-WhW2/"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Sejm resolution 6 March 2024 Constitutional Tribunal \"draft resolution\" submitted by MPs Civic Coalition Third Way Left rapporteur",
+   "searched_at": "2026-11-02T00:19:22.905Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/artykul/3345908,polish-mps-vote-to-address-effects-of-constitutional-crisis"
+    },
+    {
+     "rank": 2,
+     "title": "22 March 2024",
+     "url": "https://verfassungsblog.de/?p=79321"
+    },
+    {
+     "rank": 3,
+     "title": "cadmus.eui.eu",
+     "url": "https://cadmus.eui.eu/server/api/core/bitstreams/bbe429a8-b887-5bfe-ba85-566bf3d8b15a/content"
+    },
+    {
+     "rank": 4,
+     "title": "22 March 2024",
+     "url": "https://verfassungsblog.de/polishing-broken-tribunal/"
+    },
+    {
+     "rank": 5,
+     "title": "Resolution to 'repair' top court gets support of parliament",
+     "url": "https://pap.pl/en/news/resolution-repair-top-court-gets-support-parliament"
+    },
+    {
+     "rank": 6,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3369680,parliamentary-works-began-on-changing-polands-constitutional-tribunal-act"
+    },
+    {
+     "rank": 7,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/artykul/3406416,constitutional-tribunal-reform-intense-debate-in-the-sejm"
+    },
+    {
+     "rank": 8,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3406416,constitutional-tribunal-reform-intense-debate-in-the-sejm"
+    },
+    {
+     "rank": 9,
+     "title": "trybunal konstytucyjny uchwala konsekwencje",
+     "url": "https://oko.press/trybunal-konstytucyjny-uchwala-konsekwencje"
+    },
+    {
+     "rank": 10,
+     "title": "12771 uchwala sejmu rp w sprawie usuniecia skutkow kryzysu konstytucyjnego",
+     "url": "https://trybunal.gov.pl/en/hearings/judgments/art/12771-uchwala-sejmu-rp-w-sprawie-usuniecia-skutkow-kryzysu-konstytucyjnego"
+    },
+    {
+     "rank": 11,
+     "title": "Parliament adopts a resolution meant to fix Poland's judiciary council",
+     "url": "https://tvn24.pl/tvn24-news-in-english/polish-lawmakers-adopt-a-resolution-meant-to-fix-countrys-contested-judiciary-council-7618963"
+    },
+    {
+     "rank": 12,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 13,
+     "title": "przeglad sejmowy 2024 t32 n6 piotrowski",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-piotrowski.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "przeglad sejmowy 2024 t32 n6 dabrowski opinia",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-dabrowski-opinia.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "przeglad sejmowy 2024 nr5 zajadlo COklkex",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-zajadlo_COklkex.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3406990,polish-mps-back-plans-to-reform-constitutional-tribunal"
+    },
+    {
+     "rank": 17,
+     "title": "przeglad sejmowy 2024 t32 n6 szwed",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-szwed.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Lower house seeks to 'heal' Constitutional Tribunal",
+     "url": "https://www.pap.pl/en/news/lower-house-seeks-heal-constitutional-tribunal"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "senat.gov.pl ustawa o Trybunale Konstytucyjnym 2024 sprawozdawca komisji senator Bury OR Kwiatkowski OR Libicki OR Bodnar posiedzenie Senatu",
+   "searched_at": "2026-11-02T00:19:22.946Z",
+   "n_results": 16,
+   "results": [
+    {
+     "rank": 1,
+     "title": "308u 2 egz",
+     "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatkomisjeposiedzenia/10090/stenogram/308u_2_egz.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/635/635.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 17. posiedzenie, 3. dzień (13-09-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/17/2024-09-13/transcripts/086"
+    },
+    {
+     "rank": 4,
+     "title": "www.senat.gov.pl",
+     "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatdruki/13161/druk/055.pdf?r13161"
+    },
+    {
+     "rank": 5,
+     "title": "006u 2 egz",
+     "url": "https://senat.gov.pl/download/gfx/senat/pl/senatkomisjeposiedzenia/10470/stenogram/006u_2_egz.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/9"
+    },
+    {
+     "rank": 7,
+     "title": "253 u3",
+     "url": "https://api.sejm.gov.pl/sejm/term10/processes/253/attachment/253_u3.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/kraj/aktualnosci/artykuly/9500341,senat-rozpoczal-prace-nad-zmiana-konstytucji-chodzi-o-trybunal-konsty.html"
+    },
+    {
+     "rank": 9,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-uchwala-sejmu-ws-trybunalu-konstytucyjnego-znamy-tekst-proje,nId,7369212"
+    },
+    {
+     "rank": 10,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/10"
+    },
+    {
+     "rank": 12,
+     "title": "543 A%20",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543-A/543-A%20.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "senat.gov.pl",
+     "url": "https://senat.gov.pl/download/gfx/senat/pl/senatkomisjeposiedzenia/10519/not/013.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "Forsal logo",
+     "url": "https://forsal.pl/artykuly/958455,karczewski-ustawa-o-tk-na-posiedzeniu-senatu-ktore-rozpoczyna-sie-20-lipca.html"
+    },
+    {
+     "rank": 15,
+     "title": "Senat przyjął nową ustawę o Trybunale Konstytucyjnym",
+     "url": "https://www.wprost.pl/10015978"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/012"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "archiwumosiatynskiego.pl opinie ekspertów projekty ustaw o Trybunale Konstytucyjnym 2024 Biuro Ekspertyz Kancelarii Sejmu",
+   "searched_at": "2026-11-02T00:19:22.949Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "i733 24A  2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i733-24A_-2.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "i681 24A AB K",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/11"
+    },
+    {
+     "rank": 4,
+     "title": "i579 24A 3",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A_.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "i659 24A MS 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "i659 24A JZ 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "i659 24A TK 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "ustawy o trybunale konstytucyjnym w sejmie pis odkrywa ze przygotowali je eksperci fundacji batorego",
+     "url": "https://oko.press/ustawy-o-trybunale-konstytucyjnym-w-sejmie-pis-odkrywa-ze-przygotowali-je-eksperci-fundacji-batorego"
+    },
+    {
+     "rank": 10,
+     "title": "i681 24A KE",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_KE.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "Do Sejmu TK projekt opinia 22 04 2024",
+     "url": "https://bip.brpo.gov.pl/sites/default/files/2024-04/Do_Sejmu_TK_projekt_opinia_22_04_2024.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "do sejmu wplynely dwa projekty nowych ustaw o trybunale konstytucyjnym",
+     "url": "https://www.pap.pl/aktualnosci/do-sejmu-wplynely-dwa-projekty-nowych-ustaw-o-trybunale-konstytucyjnym"
+    },
+    {
+     "rank": 13,
+     "title": "d6.web.osce.org",
+     "url": "https://d6.web.osce.org/pl/odihr/576883"
+    },
+    {
+     "rank": 14,
+     "title": "argumenty 65",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/11/argumenty_65.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "Ocena procesu tworzenia projektu ustawy  o TK",
+     "url": "https://www.batory.org.pl/upload/files/Programy operacyjne/Odpowiedzialne Panstwo/Ocena procesu tworzenia projektu ustawy _o_TK.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "komisja o ustawach o tk drugie posiedzenie",
+     "url": "https://oko.press/komisja-o-ustawach-o-tk-drugie-posiedzenie"
+    },
+    {
+     "rank": 17,
+     "title": "opinia hfpc do projektu ustawy o tk",
+     "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "Back to Search",
+     "url": "https://searchworks.jioinstitute.edu.in/articles/edb__183445549"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Sejm wybrał Patyrę na sędziego TK 11 czerwca 2026 głosowało posłów kandydat PiS przepadł",
+   "searched_at": "2026-11-02T00:20:09.642Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "sa zarzuty dla kobiety z legnicy ktora zaatakowala nastolatki",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/sa-zarzuty-dla-kobiety-z-legnicy-ktora-zaatakowala-nastolatki"
+    },
+    {
+     "rank": 2,
+     "title": "To on trafi do Trybunału Konstytucyjnego. Sejm podjął decyzję",
+     "url": "https://www.wprost.pl/12354630"
+    },
+    {
+     "rank": 3,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/wybor"
+    },
+    {
+     "rank": 4,
+     "title": "newly sworn in judge of polands constitutional court stages boycott over blocked colleagues",
+     "url": "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues/"
+    },
+    {
+     "rank": 5,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=95498"
+    },
+    {
+     "rank": 6,
+     "title": "japonia trzesienie ziemi centrum handlowe",
+     "url": "https://oko.press/na-zywo/na-zywo-relacja/japonia-trzesienie-ziemi-centrum-handlowe"
+    },
+    {
+     "rank": 7,
+     "title": "nawrocki blokuje piatego sedziego tk nie przyjal slubowania od prof patyry",
+     "url": "https://oko.press/nawrocki-blokuje-piatego-sedziego-tk-nie-przyjal-slubowania-od-prof-patyry"
+    },
+    {
+     "rank": 8,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 9,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 10,
+     "title": "Sejm wybrał Sławomira Patyrę na sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=215679"
+    },
+    {
+     "rank": 11,
+     "title": "prof slawomir patyra wybrany na sedziego trybunalu,1545525",
+     "url": "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
+    },
+    {
+     "rank": 12,
+     "title": "Sejm coraz bliżej wyboru nowego sędziego TK. Komisja wskazała faworyta",
+     "url": "https://www.wprost.pl/12352959"
+    },
+    {
+     "rank": 13,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego wybrany. Jest decyzja Sejmu",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-wybrany-jest-decyzja-s,nId,23494799"
+    },
+    {
+     "rank": 14,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/tk"
+    },
+    {
+     "rank": 15,
+     "title": "www.prawo.pl",
+     "url": "https://www.prawo.pl/prawnicy-sady/13,strona.html"
+    },
+    {
+     "rank": 16,
+     "title": "Trybunał Konstytucyjny",
+     "url": "https://www.rmf24.pl/tagi-trybunal-konstytucyjny,tId,97280"
+    },
+    {
+     "rank": 17,
+     "title": "spor o trybunal konstytucyjny trwa komisja za kandydatem do tk zgloszonym przez koalicje rzadzaca negatywnie o zgloszonym przez pis kto kandyduje",
+     "url": "https://www.tvp.info/93719504/spor-o-trybunal-konstytucyjny-trwa-komisja-za-kandydatem-do-tk-zgloszonym-przez-koalicje-rzadzaca-negatywnie-o-zgloszonym-przez-pis-kto-kandyduje"
+    },
+    {
+     "rank": 18,
+     "title": "Znamy dwójkę kandydatów na nowego sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=212038"
+    },
+    {
+     "rank": 19,
+     "title": "czarzasty do nawrockiego czas na dzialania ws slawomira patyry",
+     "url": "https://www.tvp.info/94350862/czarzasty-do-nawrockiego-czas-na-dzialania-ws-slawomira-patyry"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Przegląd Sejmowy 2024 opinia o poselskim projekcie ustawy o Trybunale Konstytucyjnym druk nr 253 Szwed Zajadło Koncewicz",
+   "searched_at": "2026-11-02T00:20:09.682Z",
+   "n_results": 16,
+   "results": [
+    {
+     "rank": 1,
+     "title": "przeglad sejmowy 2024 nr5 koncewicz ptZVKoj",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-koncewicz_ptZVKoj.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "przeglad sejmowy 2024 t32 n6 dabrowski opinia",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-dabrowski-opinia.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "przeglad sejmowy 2024 t32 n6 piotrowski",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-piotrowski.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "Deputies’ Bill on the Constitutional Tribunal, Sejm’s paper no. 253 Cover Image",
+     "url": "https://www.ceeol.com/search/article-detail?id=1368330"
+    },
+    {
+     "rank": 5,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 59",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_59"
+    },
+    {
+     "rank": 6,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A_.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 56",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_56"
+    },
+    {
+     "rank": 8,
+     "title": "projects.osce.org",
+     "url": "https://projects.osce.org/pl/node/575707"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/018"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/45"
+    },
+    {
+     "rank": 11,
+     "title": "przeglad sejmowy 2024 t32 n6 szwed",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-szwed.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "Do Sejmu TK ustawa projekt opinia 25 04 2024",
+     "url": "https://WWW.RPO.GOV.PL/sites/default/files/2024-04/Do_Sejmu_TK_ustawa_projekt_opinia_25_04_2024.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "bwmeta1.element.desklight d754b6f7 fda7 4e4a b357 36f014094a08",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-d754b6f7-fda7-4e4a-b357-36f014094a08"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/154"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/121"
+    },
+    {
+     "rank": 16,
+     "title": "Back to Search",
+     "url": "https://searchworks.jioinstitute.edu.in/articles/edb__183445549"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "2026 Polish Constitutional Tribunal crisis Wikipedia judges elected Sejm votes in favour against nominated by Presidium",
+   "searched_at": "2026-11-02T00:20:09.722Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 2,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/artykul/3659090,polish-parliament-prepares-to-vote-on-constitutional-tribunal-judges"
+    },
+    {
+     "rank": 3,
+     "title": "aa.com.tr",
+     "url": "https://aa.com.tr/en/europe/poland-s-constitutional-court-rejects-4-new-judges-deepening-rule-of-law-crisis/3901200"
+    },
+    {
+     "rank": 4,
+     "title": "the decision of the polish constitutional tribunal about the principles and procedure for electing constitutional judges less an exchange of blows and more of an exchange of weapons analysis of ruling",
+     "url": "https://www.iconnectblog.com/the-decision-of-the-polish-constitutional-tribunal-about-the-principles-and-procedure-for-electing-constitutional-judges-less-an-exchange-of-blows-and-more-of-an-exchange-of-weapons-analysis-of-ruling/"
+    },
+    {
+     "rank": 5,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3697529,polish-parliament-elects-new-constitutional-tribunal-judge-amid-oath-dispute"
+    },
+    {
+     "rank": 6,
+     "title": "How Poland opened a new \"front\" in the war between president and government",
+     "url": "https://www.eurointegration.com.ua/eng/news/2026/04/6/7234848/"
+    },
+    {
+     "rank": 7,
+     "title": "Poland's parliament plans to swear in judges after president's delay, escalating constitutional standoff",
+     "url": "https://constitutionnet.org/ar/node/20095"
+    },
+    {
+     "rank": 8,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3660074,polish-parliament-elects-six-constitutional-tribunal-judges-as-dispute-shifts-to-president"
+    },
+    {
+     "rank": 9,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=90435"
+    },
+    {
+     "rank": 10,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=92838"
+    },
+    {
+     "rank": 11,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3634038,poland’s-ruling-coalition-to-nominate-judges-for-constitutional-court-vacancies"
+    },
+    {
+     "rank": 12,
+     "title": "prime ministers right hand man elected as polish constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+    },
+    {
+     "rank": 13,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3727626,polands-parliament-elects-new-constitutional-court-judge-after-stormy-debate"
+    },
+    {
+     "rank": 14,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3658781,polish-parliament-to-vote-friday-on-constitutional-tribunal-judges-speaker-says"
+    },
+    {
+     "rank": 15,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1t71bx5/snapshots/2026-05-08T17%3A55%3A50.033955Z"
+    },
+    {
+     "rank": 16,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1rtlrrk/snapshots/2026-03-16T17%3A42%3A02.648488Z"
+    },
+    {
+     "rank": 17,
+     "title": "Back to Subreddit Snapshot",
+     "url": "https://reddit.sentinel-team.org/posts/1tbz201/snapshots/2026-05-15T16%3A50%3A04.879972Z"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Polish parliament elects new constitutional court judge after stormy debate Berek votes Kotowski",
+   "searched_at": "2026-11-02T00:20:45.849Z",
+   "n_results": 16,
+   "results": [
+    {
+     "rank": 1,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3727626,polands-parliament-elects-new-constitutional-court-judge-after-stormy-debate"
+    },
+    {
+     "rank": 2,
+     "title": "Poland's lawmakers to choose special court's new judges amid rising constitutional row",
+     "url": "https://www.foxnews.com/world/polands-lawmakers-to-choose-special-courts-new-judges-amid-rising-constitutional-row.amp"
+    },
+    {
+     "rank": 3,
+     "title": "tusk gets his minister and right hand man elected to polish top court",
+     "url": "https://brusselssignal.eu/2026/09/tusk-gets-his-minister-and-right-hand-man-elected-to-polish-top-court/"
+    },
+    {
+     "rank": 4,
+     "title": "FrontPages.EU logo",
+     "url": "https://buttondown.com/frontpageseu/archive/poland-sejm-elects-new-constitutional-judge/"
+    },
+    {
+     "rank": 5,
+     "title": "prime ministers right hand man elected as polish constitutional court judge",
+     "url": "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+    },
+    {
+     "rank": 6,
+     "title": "Poland's parliament appoints new constitutional court judges, claims that process is against the constitution",
+     "url": "https://constitutionnet.org/news/polands-parliament-appoints-new-constitutional-court-judges-claims-process-against"
+    },
+    {
+     "rank": 7,
+     "title": "maciej berek before the parliamentary committee",
+     "url": "https://ground.news/article/maciej-berek-before-the-parliamentary-committee"
+    },
+    {
+     "rank": 8,
+     "title": "Poland's parliament appoints new constitutional court judges, claims that process is against the constitution",
+     "url": "https://constitutionnet.org/ar/news/polands-parliament-appoints-new-constitutional-court-judges-claims-process-against"
+    },
+    {
+     "rank": 9,
+     "title": "English Section",
+     "url": "https://polskieradio.pl/395/7784/Artykul/3697529,polish-parliament-elects-new-constitutional-tribunal-judge-amid-oath-dispute"
+    },
+    {
+     "rank": 10,
+     "title": "a disputed parliament vote adds to polands political chaos",
+     "url": "https://www.foxnews.com/world/a-disputed-parliament-vote-adds-to-polands-political-chaos"
+    },
+    {
+     "rank": 11,
+     "title": "polish constitutional court rejects four new judges amid standoff between government and president",
+     "url": "https://notesfrompoland.com/2026/04/09/polish-constitutional-court-rejects-four-new-judges-amid-standoff-between-government-and-president/"
+    },
+    {
+     "rank": 12,
+     "title": "Polish parliament approves controversial constitutional court appointments",
+     "url": "https://constitutionnet.org/ar/news/polish-parliament-approves-controversial-constitutional-court-appointments"
+    },
+    {
+     "rank": 13,
+     "title": "notesfrompoland.com",
+     "url": "https://notesfrompoland.com/?p=105505"
+    },
+    {
+     "rank": 14,
+     "title": "English Section",
+     "url": "https://www.polskieradio.pl/395/7784/Artykul/3660074,polish-parliament-elects-six-constitutional-tribunal-judges-as-dispute-shifts-to-president"
+    },
+    {
+     "rank": 15,
+     "title": "Current dispute on the Constitutional Court in Poland fi",
+     "url": "https://kirp.pl/wp-content/uploads/2016/09/Current_dispute_on_the_Constitutional_Court_in_Poland_fi.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "Polish PM's 'right-hand man' gets nod from parliament for top court job",
+     "url": "https://www.devdiscourse.com/article/international/3972548-polish-pms-right-hand-man-gets-nod-from-parliament-for-top-court-job"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Zeszyty Prawnicze BAS 2024 opinia poselski projekt ustawy o Trybunale Konstytucyjnym druk 253 autor",
+   "searched_at": "2026-11-02T00:20:45.881Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "i659 24A MS 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A_.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "Do Sejmu TK ustawa projekt opinia 25 04 2024",
+     "url": "https://WWW.RPO.GOV.PL/sites/default/files/2024-04/Do_Sejmu_TK_ustawa_projekt_opinia_25_04_2024.pdf"
+    },
+    {
+     "rank": 4,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 59",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_59"
+    },
+    {
+     "rank": 5,
+     "title": "projects.osce.org",
+     "url": "https://projects.osce.org/pl/node/575707"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/13"
+    },
+    {
+     "rank": 7,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 56",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_56"
+    },
+    {
+     "rank": 8,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "i681 24A KE",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_KE.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "i681 24A AB K",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/154"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/120"
+    },
+    {
+     "rank": 13,
+     "title": "16 24 253 PDF Opinia OBSiL KRRP w sprawie projektu ustawy o Trybunale Konstytucyjnym",
+     "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/14"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/012"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/130"
+    },
+    {
+     "rank": 17,
+     "title": "przeglad sejmowy 2024 t32 n6 dabrowski opinia",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-dabrowski-opinia.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "sejm.gov.pl Sejm10.nsf PrzebiegProc nr=253 projekt ustawy o Trybunale Konstytucyjnym opinie",
+   "searched_at": "2026-11-02T00:20:46.003Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/130"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/133"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/132"
+    },
+    {
+     "rank": 5,
+     "title": "Do Sejmu TK ustawa projekt opinia 25 04 2024",
+     "url": "https://WWW.RPO.GOV.PL/sites/default/files/2024-04/Do_Sejmu_TK_ustawa_projekt_opinia_25_04_2024.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "przeglad sejmowy 2024 t32 n6 dabrowski opinia",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-dabrowski-opinia.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/123"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/54"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/14"
+    },
+    {
+     "rank": 11,
+     "title": "Liczba stron :  1     Data :   2024-07-19      Nazwa pliku :   V16_2515-0.PK  1",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/V16_2515-0.PK.docx"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/154"
+    },
+    {
+     "rank": 13,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 56",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_56"
+    },
+    {
+     "rank": 14,
+     "title": "bwmeta1.element.ojs doi 10 31268 ZPBAS 2024 59",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_31268_ZPBAS_2024_59"
+    },
+    {
+     "rank": 15,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/126"
+    },
+    {
+     "rank": 17,
+     "title": "projects.osce.org",
+     "url": "https://projects.osce.org/pl/node/575707"
+    },
+    {
+     "rank": 18,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/121"
+    },
+    {
+     "rank": 19,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/012"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"kandydata na sędziego Trybunału Konstytucyjnego\" Patyra \"druk nr\" czerwiec 2026 Komisja Sprawiedliwości opinia",
+   "searched_at": "2026-11-02T00:21:04.189Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98"
+    },
+    {
+     "rank": 2,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego wybrany. Jest decyzja Sejmu",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-wybrany-jest-decyzja-s,nId,23494799"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016"
+    },
+    {
+     "rank": 4,
+     "title": "Znamy dwójkę kandydatów na nowego sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=212038"
+    },
+    {
+     "rank": 5,
+     "title": "Sejm coraz bliżej wyboru nowego sędziego TK. Komisja wskazała faworyta",
+     "url": "https://www.wprost.pl/12352959"
+    },
+    {
+     "rank": 6,
+     "title": "spor o trybunal konstytucyjny trwa komisja za kandydatem do tk zgloszonym przez koalicje rzadzaca negatywnie o zgloszonym przez pis kto kandyduje",
+     "url": "https://www.tvp.info/93719504/spor-o-trybunal-konstytucyjny-trwa-komisja-za-kandydatem-do-tk-zgloszonym-przez-koalicje-rzadzaca-negatywnie-o-zgloszonym-przez-pis-kto-kandyduje"
+    },
+    {
+     "rank": 7,
+     "title": "Nowy sędzia Trybunału Konstytucyjnego? Sejmowa komisja zdecydowała",
+     "url": "https://wydarzenia.interia.pl/kraj/news-nowy-sedzia-trybunalu-konstytucyjnego-sejmowa-komisja-zdecyd,nId,23493990"
+    },
+    {
+     "rank": 8,
+     "title": "Nowy kandydat na sędziego TK. Zgłosi go klub KO",
+     "url": "https://www.wprost.pl/12340596"
+    },
+    {
+     "rank": 9,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    },
+    {
+     "rank": 10,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-prof-slawomir-patyra-bedzie-kolejnym-sedzia-trybunalu-konsty,nId,8087850"
+    },
+    {
+     "rank": 11,
+     "title": "www.gazetaprawna.pl",
+     "url": "https://www.gazetaprawna.pl/tagi/wybor"
+    },
+    {
+     "rank": 12,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/1944/1944.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "Sejm wybrał Sławomira Patyrę na sędziego Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=215679"
+    },
+    {
+     "rank": 14,
+     "title": "Jak usprawnić zarządzanie kancelarią prawną w kilku krokach?",
+     "url": "https://www.prawo.pl/prawnicy-sady/pawlowicz-i-piotrowicz-kandydaci-na-sedziow-tk-z-pozytywnymi,496050.html"
+    },
+    {
+     "rank": 15,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331"
+    },
+    {
+     "rank": 16,
+     "title": "Sędzia TK Sławomir Patyra zaprzysiężony przez prezydenta",
+     "url": "https://www.rp.pl/prawnicy/sedziowie_i_sady"
+    },
+    {
+     "rank": 17,
+     "title": "16 24 253 PDF Opinia OBSiL KRRP w sprawie projektu ustawy o Trybunale Konstytucyjnym",
+     "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/693/693.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "10. kadencja posiedzenie (13-03-2026) wybór sędziów Trybunału Konstytucyjnego sprawozdawca komisji druki",
+   "searched_at": "2026-11-02T00:21:04.424Z",
+   "n_results": 16,
+   "results": [
+    {
+     "rank": 1,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/920.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "sejm wybral szescioro sedziow trybunalu konstytucyjnego",
+     "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016"
+    },
+    {
+     "rank": 4,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/6.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0"
+    },
+    {
+     "rank": 6,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2330/2330.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/018"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/025"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 57. posiedzenie, 4. dzień (15-05-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/57/2026-05-15/transcripts/040"
+    },
+    {
+     "rank": 10,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/20/20.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/027"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/030"
+    },
+    {
+     "rank": 14,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/149/pdf"
+    },
+    {
+     "rank": 15,
+     "title": "920 A",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/920-A/920-A.pdf"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/54"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"Wniosek Prezydium Sejmu w sprawie wyboru sędziego Trybunału Konstytucyjnego\" 2026",
+   "searched_at": "2026-11-02T00:21:04.435Z",
+   "n_results": 18,
+   "results": [
+    {
+     "rank": 1,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0"
+    },
+    {
+     "rank": 2,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/558.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polska/news-czarzasty-pisze-do-nawrockiego-niech-pan-sie-nie-boi,nId,8072827"
+    },
+    {
+     "rank": 4,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-wybor-sedziow-trybunalu-konstytucyjnego-przez-sejm-jest-decy,nId,8081629"
+    },
+    {
+     "rank": 5,
+     "title": "263046,Sejm wybral nowych sedziow Trybunalu Konstytucyjnego",
+     "url": "https://www.infor.pl/prawo/konstytucja/trybunal-konstytucyjny/263046,Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego.html"
+    },
+    {
+     "rank": 6,
+     "title": "trybunal.gov.pl",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/880.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "art43975631 trybunal konstytucyjny pyta karola nawrockiego o slubowanie nowych sedziow tk jest konkretna data",
+     "url": "https://www.rp.pl/sady-i-trybunaly/art43975631-trybunal-konstytucyjny-pyta-karola-nawrockiego-o-slubowanie-nowych-sedziow-tk-jest-konkretna-data"
+    },
+    {
+     "rank": 8,
+     "title": "news sedziowie pisza do nawrockiego slubowanie w innej formie,nId,8073989",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sedziowie-pisza-do-nawrockiego-slubowanie-w-innej-formie,nId,8073989"
+    },
+    {
+     "rank": 9,
+     "title": "Projekt ustawy o Trybunale Konstytucyjnym wraz z uzasadnieniem",
+     "url": "https://www.batory.org.pl/wp-content/uploads/2024/03/Projekt-ustawy-o-Trybunale-Konstytucyjnym-wraz-z-uzasadnieniem.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "RMF24 RMF FM RMF MAXX RMF CLASSIC RMF ON",
+     "url": "https://www.rmf24.pl/fakty/polityka/news-nowi-sedziowie-w-tk-wybrani-juz-w-tym-tygodniu-jest-decyzja-,nId,8070672"
+    },
+    {
+     "rank": 11,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term8/prints/20/20.pdf"
+    },
+    {
+     "rank": 12,
+     "title": "122 u",
+     "url": "https://trybunal.gov.pl/fileadmin/news_files/122_u.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "Sędzia Sławomira Wronkowska-Jaśkiewicz ogłasza wyrok Trybunału Konstytucyjnego w Warszawie. Fot. PaP/Paweł Supernak",
+     "url": "https://www.radiokrakow.pl/aktualnosci/jest-wyrok-trybunalu-konstytucyjnego-ws-czerwcowej-ustawy-o-trybunale/"
+    },
+    {
+     "rank": 14,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 15,
+     "title": "Sejm wybral nowych sedziow Trybunalu Konstytucyjnego 9098023",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html"
+    },
+    {
+     "rank": 16,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2346/2346.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "test-brpo.brpo.gov.pl",
+     "url": "https://test-brpo.brpo.gov.pl/sites/default/files/TK.pdf"
+    },
+    {
+     "rank": 18,
+     "title": "16 24 253 PDF Opinia OBSiL KRRP w sprawie projektu ustawy o Trybunale Konstytucyjnym",
+     "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "api.sejm.gov.pl term10 proceedings 2026-03-13 transcripts wybór sędziów Trybunału Konstytucyjnego Kotowski Skwarzyński",
+   "searched_at": "2026-11-02T00:21:13.945Z",
+   "n_results": 16,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Sejm wybral nowych sedziow Trybunalu Konstytucyjnego 9098023",
+     "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html"
+    },
+    {
+     "rank": 2,
+     "title": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego",
+     "url": "https://xyz.pl/?p=179853"
+    },
+    {
+     "rank": 3,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/015"
+    },
+    {
+     "rank": 5,
+     "title": "Wazna decyzja ws sedziow TK Koalicja przeglosowala uchwale 9097929",
+     "url": "https://www.bankier.pl/wiadomosc/Wazna-decyzja-ws-sedziow-TK-Koalicja-przeglosowala-uchwale-9097929.html"
+    },
+    {
+     "rank": 6,
+     "title": "Kategoria artykułu: Polityka",
+     "url": "https://xyz.pl/?p=180425"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/026"
+    },
+    {
+     "rank": 8,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0"
+    },
+    {
+     "rank": 10,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/113/pdf"
+    },
+    {
+     "rank": 11,
+     "title": "10. kadencja, 34. posiedzenie, 3. dzień (09-05-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/34/2025-05-09/transcripts/30"
+    },
+    {
+     "rank": 12,
+     "title": "news sedziowie pisza do nawrockiego slubowanie w innej formie,nId,8073989",
+     "url": "https://www.rmf24.pl/fakty/polska/news-sedziowie-pisza-do-nawrockiego-slubowanie-w-innej-formie,nId,8073989"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 29. posiedzenie, 2. dzień (21-02-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/29/2025-02-21/transcripts/215"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 34. posiedzenie, 3. dzień (09-05-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/34/2025-05-09/transcripts/31"
+    },
+    {
+     "rank": 15,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/149/pdf"
+    },
+    {
+     "rank": 16,
+     "title": "Kandydaci do Trybunału Konstytucyjnego. Komisja Sejmu wskazała Patyrę",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11260299,patyra-kandydat-tk-komisja-sejmowa-opinia.html"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"10. kadencja\" \"(13-03-2026)\" posiedzenie transcripts Trybunału Konstytucyjnego",
+   "searched_at": "2026-11-02T00:21:13.970Z",
+   "n_results": 19,
+   "results": [
+    {
+     "rank": 1,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/0"
+    },
+    {
+     "rank": 2,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/021"
+    },
+    {
+     "rank": 3,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/030"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 59. posiedzenie, 3. dzień (11-06-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/100"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 65. posiedzenie, 1. dzień (15-09-2026)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/65/2026-09-15/transcripts/265"
+    },
+    {
+     "rank": 8,
+     "title": "arslege.pl",
+     "url": "https://arslege.pl/ustawa-o-organizacji-i-trybie-postepowania-przed-trybunalem-konstytucyjnym/k1551/s11329/"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/154"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 30. posiedzenie, 2. dzień (06-03-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/30/2025-03-06/transcripts/167"
+    },
+    {
+     "rank": 11,
+     "title": "arslege.pl",
+     "url": "https://arslege.pl/ustawa-o-organizacji-i-trybie-postepowania-przed-trybunalem-konstytucyjnym/k1551"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 30. posiedzenie, 2. dzień (06-03-2025)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/30/2025-03-06/transcripts/166"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 10. posiedzenie, 1. dzień (24-04-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/10/2024-04-24/transcripts/123"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/134"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/14"
+    },
+    {
+     "rank": 16,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/12"
+    },
+    {
+     "rank": 17,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/24"
+    },
+    {
+     "rank": 18,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/10"
+    },
+    {
+     "rank": 19,
+     "title": "10. kadencja, 7. posiedzenie, 1. dzień (06-03-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/7/2024-03-06/transcripts/165"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "\"o Trybunale Konstytucyjnym\" 2024 \"poseł sprawozdawca\" Sejm uchwalił ustawę 13 września 2024 Komisja Ustawodawcza Komisja Sprawiedliwości",
+   "searched_at": "2026-11-02T00:21:36.903Z",
+   "n_results": 17,
+   "results": [
+    {
+     "rank": 1,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/UST/sittings/51/html"
+    },
+    {
+     "rank": 2,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/committees/UST/sittings/51/pdf"
+    },
+    {
+     "rank": 3,
+     "title": "ipo.trybunal.gov.pl",
+     "url": "https://ipo.trybunal.gov.pl/ipo/downloadOrzeczenieDoc?dok=121273"
+    },
+    {
+     "rank": 4,
+     "title": "10. kadencja, 17. posiedzenie, 3. dzień (13-09-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/17/2024-09-13/transcripts/086"
+    },
+    {
+     "rank": 5,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/9"
+    },
+    {
+     "rank": 6,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/18"
+    },
+    {
+     "rank": 7,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/018"
+    },
+    {
+     "rank": 8,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/635/635.pdf"
+    },
+    {
+     "rank": 9,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/54"
+    },
+    {
+     "rank": 10,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/12"
+    },
+    {
+     "rank": 11,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/016"
+    },
+    {
+     "rank": 12,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/10"
+    },
+    {
+     "rank": 13,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/31"
+    },
+    {
+     "rank": 14,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/17"
+    },
+    {
+     "rank": 15,
+     "title": "10. kadencja, 16. posiedzenie, 1. dzień (23-07-2024)",
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/16/2024-07-23/transcripts/50"
+    },
+    {
+     "rank": 16,
+     "title": "543 A%20",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543-A/543-A%20.pdf"
+    },
+    {
+     "rank": 17,
+     "title": "api.sejm.gov.pl",
+     "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Archiwum Osiatyńskiego opinie prawne zamówione przez Sejm projekt ustawy o Trybunale Konstytucyjnym kwiecień 2024 Bień-Kacała Szwed Koncewicz Zajadło",
+   "searched_at": "2026-11-02T00:21:36.950Z",
+   "n_results": 15,
+   "results": [
+    {
+     "rank": 1,
+     "title": "i659 24A JZ 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf"
+    },
+    {
+     "rank": 2,
+     "title": "i659 24A TK 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf"
+    },
+    {
+     "rank": 3,
+     "title": "rzadowe projekty o trybunale konstytucyjnym sa umiarkowane potrzeba debaty o zmianie konstytucji",
+     "url": "https://oko.press/rzadowe-projekty-o-trybunale-konstytucyjnym-sa-umiarkowane-potrzeba-debaty-o-zmianie-konstytucji"
+    },
+    {
+     "rank": 4,
+     "title": "i659 24A MS 2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf"
+    },
+    {
+     "rank": 5,
+     "title": "i733 24A  2",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i733-24A_-2.pdf"
+    },
+    {
+     "rank": 6,
+     "title": "i579 24A 3",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf"
+    },
+    {
+     "rank": 7,
+     "title": "i681 24A AB K",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+    },
+    {
+     "rank": 8,
+     "title": "bwmeta1.element.desklight 6d457e38 c6f4 48b4 b716 df0e0d8c4570",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-6d457e38-c6f4-48b4-b716-df0e0d8c4570"
+    },
+    {
+     "rank": 9,
+     "title": "przeglad sejmowy 2024 nr5 zajadlo COklkex",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-zajadlo_COklkex.pdf"
+    },
+    {
+     "rank": 10,
+     "title": "i829 24A",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A_.pdf"
+    },
+    {
+     "rank": 11,
+     "title": "bwmeta1.element.desklight d754b6f7 fda7 4e4a b357 36f014094a08",
+     "url": "https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-d754b6f7-fda7-4e4a-b357-36f014094a08"
+    },
+    {
+     "rank": 12,
+     "title": "i572 24 3",
+     "url": "https://archiwumosiatynskiego.pl/images/2024/04/i572-24-3.pdf"
+    },
+    {
+     "rank": 13,
+     "title": "przeglad sejmowy 2024 t32 n6 szwed",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-6-185/przeglad-sejmowy-2024-t32-n6-szwed.pdf"
+    },
+    {
+     "rank": 14,
+     "title": "przeglad sejmowy 2024 nr5 radziewicz l9UxATk",
+     "url": "https://bazhum.muzhp.pl/media/texts/przeglad-sejmowy/2024-tom-32-numer-5-184/przeglad-sejmowy-2024-nr5-radziewicz_l9UxATk.pdf"
+    },
+    {
+     "rank": 15,
+     "title": "opinia hfpc do przepisow wprowadzajacych ustawe o tk",
+     "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-przepisow-wprowadzajacych-ustawe-o-tk.pdf"
+    }
+   ]
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "Poselski wniosek w sprawie wyboru sędziego Trybunału Konstytucyjnego Sławomir Patyra Koalicja Obywatelska druk 2526",
+   "searched_at": "2026-11-02T00:23:29.708Z",
+   "n_results": 0,
+   "results": [],
+   "note": "Web search results for query: \"Poselski wniosek w sprawie wyboru sędziego Trybunału Konstytucyjnego Sławomir Patyra Koalicja Obywatelska druk 2526\"\n\nWeb search was not performed: this turn's web searc"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "query": "kandydatura Macieja Berka zgłoszona przez posłów KO wniosek złożony w Sejmie sierpień 2026 Kotowski PiS zgłosił",
+   "searched_at": "2026-11-02T00:23:29.710Z",
+   "n_results": 0,
+   "results": [],
+   "note": "Web search results for query: \"kandydatura Macieja Berka zgłoszona przez posłów KO wniosek złożony w Sejmie sierpień 2026 Kotowski PiS zgłosił\"\n\nWeb search was not performed: this turn's web search bu"
+  },
+  {
    "agent": "search:B6_prosecutors_police",
    "query": "Straż Marszałkowska Trybunał Konstytucyjny lipiec 2026",
    "searched_at": "2026-11-02T00:16:06.859Z",
@@ -15121,7 +18758,7 @@
  "searches_by_stopped_agents": [
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "druk sejmowy wniosek w sprawie wyboru sędziego Trybunału Konstytucyjnego 2026 grupa posłów Koalicja Obywatelska kandydat",
    "searched_at": "2026-11-01T19:39:24.768Z",
    "n_results": 20,
@@ -15230,7 +18867,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "kandydaci na sędziów TK 2026 zgłoszeni przez kluby Markiewicz Taborowski Korwin-Piotrowska Dziurda Szostek Bentkowska który klub zgłosił",
    "searched_at": "2026-11-01T19:39:43.745Z",
    "n_results": 20,
@@ -15339,7 +18976,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Prezydium Sejmu zgłosiło kandydatów na sędziów Trybunału Konstytucyjnego marzec 2026 Czarzasty sześciu kandydatów druk",
    "searched_at": "2026-11-01T19:40:02.629Z",
    "n_results": 18,
@@ -15438,7 +19075,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Sławomir Patyra kandydat na sędziego Trybunału Konstytucyjnego zgłosił klub posłowie Sejm wybrał głosowało za przeciw",
    "searched_at": "2026-11-01T19:40:15.751Z",
    "n_results": 18,
@@ -15537,7 +19174,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "uchwała Sejmu 6 marca 2024 usunięcie skutków kryzysu konstytucyjnego Trybunał Konstytucyjny poselski projekt druk przedstawiciel wnioskodawców",
    "searched_at": "2026-11-01T19:40:24.982Z",
    "n_results": 18,
@@ -15636,7 +19273,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "\"w sprawie usunięcia skutków kryzysu konstytucyjnego\" uchwała Sejm 2024 poseł sprawozdawca uzasadnienie projektu uchwały druk nr",
    "searched_at": "2026-11-01T19:40:31.357Z",
    "n_results": 18,
@@ -15735,7 +19372,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "poselski projekt ustawy o Trybunale Konstytucyjnym 2024 druk nr przedstawiciel wnioskodawców poseł sprawozdawca komisji Sejm uchwalił",
    "searched_at": "2026-11-01T19:40:40.047Z",
    "n_results": 17,
@@ -15829,7 +19466,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Sejm wybrał sześcioro sędziów Trybunału Konstytucyjnego 13 marca 2026 głosowało za przeciw wstrzymało się Markiewicz Dziurda Korwin-Piotrowska wynik",
    "searched_at": "2026-11-01T19:40:57.880Z",
    "n_results": 18,
@@ -15928,7 +19565,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "api.sejm.gov.pl term10 votings \"wybór sędziego Trybunału Konstytucyjnego\" 2026",
    "searched_at": "2026-11-01T19:41:02.351Z",
    "n_results": 19,
@@ -16032,7 +19669,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "sejmowa Komisja Sprawiedliwości i Praw Człowieka pozytywnie zaopiniowała kandydatów do Trybunału Konstytucyjnego głosami posłów marzec 2026 Bentkowska Szostek",
    "searched_at": "2026-11-01T19:41:15.450Z",
    "n_results": 17,
@@ -16126,7 +19763,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Senat ustawa o Trybunale Konstytucyjnym 2024 senator sprawozdawca Komisji Ustawodawczej oraz Komisji Praw Człowieka i Praworządności druk senacki",
    "searched_at": "2026-11-01T19:41:42.902Z",
    "n_results": 19,
@@ -16230,7 +19867,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Venice Commission opinion Poland draft law Constitutional Tribunal 2024 submitted by group of deputies Batory Foundation experts draft prepared CDL-AD",
    "searched_at": "2026-11-01T19:41:49.829Z",
    "n_results": 19,
@@ -16334,7 +19971,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "projekt ustawy Trybunał Konstytucyjny 2026 ślubowanie sędziów nowelizacja Sejm uchwalił projekt poselski KO Polska 2050 Lewica PSL sprawozdawca",
    "searched_at": "2026-11-01T19:41:59.768Z",
    "n_results": 18,
@@ -16433,7 +20070,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "uchwała Sejmu marzec 2026 w sprawie Trybunału Konstytucyjnego koalicja przegłosowała projekt uchwały złożyli posłowie głosowanie",
    "searched_at": "2026-11-01T19:42:06.921Z",
    "n_results": 20,
@@ -16542,7 +20179,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "sejm.gov.pl Sejm10.nsf wybór sędziów Trybunału Konstytucyjnego kandydaci wnioskodawca druk opinia komisji wynik głosowania",
    "searched_at": "2026-11-01T19:42:21.219Z",
    "n_results": 20,
@@ -16651,7 +20288,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Polish parliament elects six Constitutional Tribunal judges March 2026 votes in favour Markiewicz Taborowski Korwin-Piotrowska Dziurda Szostek Bentkowska nominated by Sejm presidium",
    "searched_at": "2026-11-01T19:42:29.790Z",
    "n_results": 20,
@@ -16760,7 +20397,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Berek wybrany na sędziego TK 4 września 2026 głosowało posłów za 2xx przeciw wniosek grupy posłów KO druk nr kandydatura Berka",
    "searched_at": "2026-11-01T19:42:48.094Z",
    "n_results": 18,
@@ -16859,7 +20496,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "\"Maciej Berek\" wniosek w sprawie wyboru sędziego Trybunału Konstytucyjnego api.sejm.gov.pl prints",
    "searched_at": "2026-11-01T19:43:01.254Z",
    "n_results": 17,
@@ -16953,7 +20590,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "\"druk nr 2345\" Sejm 2026 opinia Komisji Trybunał Konstytucyjny kandydat",
    "searched_at": "2026-11-01T19:43:17.263Z",
    "n_results": 18,
@@ -17052,7 +20689,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Komisja Sprawiedliwości i Praw Człowieka opinia kandydatury na stanowisko sędziego Trybunału Konstytucyjnego 12 marca 2026 posiedzenie głosowanie komisji wynik Markiewicz Korwin-Piotrowska",
    "searched_at": "2026-11-01T19:43:36.993Z",
    "n_results": 19,
@@ -17156,7 +20793,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "ekspertyza Biuro Ekspertyz i Oceny Skutków Regulacji opinia prawna poselski projekt ustawy o Trybunale Konstytucyjnym 2024 prof. autor opinii druk",
    "searched_at": "2026-11-01T19:44:00.048Z",
    "n_results": 15,
@@ -17240,7 +20877,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "Archiwum Osiatyńskiego opinie zamówione przez Sejm projekt ustawy o Trybunale Konstytucyjnym kwiecień 2024 Koncewicz Zajadło Radziewicz opinia",
    "searched_at": "2026-11-01T19:44:17.414Z",
    "n_results": 17,
@@ -17334,7 +20971,7 @@
   },
   {
    "agent": "search:B5_nominations",
-   "agent_rerun_later": false,
+   "agent_rerun_later": true,
    "query": "\"druk nr 192\" projekt uchwały Trybunał Konstytucyjny Sejm 2024",
    "searched_at": "2026-11-01T19:44:30.299Z",
    "n_results": 17,

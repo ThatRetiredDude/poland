@@ -425,6 +425,42 @@
    "note": null
   },
   {
+   "agent": "read:B6_prosecutors_police:1",
+   "url": "https://www.gazetaprawna.pl/prawnik/artykuly/11241416,urzednicy-prezydenta-wezwani-przez-prokurature-sledztwo-w-sprawie-sed.html",
+   "final_url": "https://www.gazetaprawna.pl/prawnik/artykuly/11241416,urzednicy-prezydenta-wezwani-przez-prokurature-sledztwo-w-sprawie-sed.html",
+   "fetched_at": "2026-11-02T00:37:28.880Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 4143,
+   "sha256": "7e772f203b26ce23cebb49227eba7b419f8391ddc49477c4d48de243b5a90bfb",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B6_prosecutors_police:1",
+   "url": "https://www.gov.pl/web/prokuratura-krajowa/informacja-w-sprawie-zawiadomienia-zlozonego-przez-sedziow-trybunalu-konstytucyjnego",
+   "final_url": "https://www.gov.pl/web/prokuratura-krajowa/informacja-w-sprawie-zawiadomienia-zlozonego-przez-sedziow-trybunalu-konstytucyjnego",
+   "fetched_at": "2026-11-02T00:37:29.261Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 14832,
+   "sha256": "c678537a064a8f61780732aed364e9e2f7219581201f731b332c1471cc856650",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B6_prosecutors_police:1",
+   "url": "https://www.tvp.info/96008571/stanowisko-komendanta-glownego-policji-na-wydarzenia-przed-tk-krytyka-przemocy-wobec-policji",
+   "final_url": "https://www.tvp.info/96008571/stanowisko-komendanta-glownego-policji-na-wydarzenia-przed-tk-krytyka-przemocy-wobec-policji",
+   "fetched_at": "2026-11-02T00:37:29.756Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2142,
+   "sha256": "4bbefcd1a3e096942bd45460bed575204a4bd3a800d5dc108c1484b93c590164",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:B7_international:1",
    "url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
    "final_url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
@@ -1055,6 +1091,96 @@
    "extract_sha256": "ffdb2e5298e18d46349178615f8f6761514896682ab2d3130363e06cb51c47fd"
   },
   {
+   "agent": "search:B5_nominations",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:21:58.810Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1218,
+   "extract_sha256": "222d82011a32eb7763e031ca8ebca7b40c8d05f18949c466f4accfa4a71049c3"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:54.498Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 4326,
+   "extract_sha256": "449a857fdc2492279f10ac807c93087405726e2029091e7e7531a1b80183de01"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "url": "https://www.bankier.pl/wiadomosc/Sejm-wybral-nowych-sedziow-Trybunalu-Konstytucyjnego-9098023.html",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:41.339Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 185,
+   "extract_sha256": "519fdf9dee144a16c40b172f9edb905a7112b734c234153ef47796a68dd4f34d"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "url": "https://oko.press/sejm-wybral-szescioro-sedziow-trybunalu-konstytucyjnego",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:05.106Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3573,
+   "extract_sha256": "57b0261d7faebd7fd8062e084a353c7a6810ee1bf18e0b4cb7d433288ea011e6"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/016",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:18.921Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1289,
+   "extract_sha256": "46908ae8436e6308282683e4413249365a2cfb4be535f9e3dcce4e91d2425469"
+  },
+  {
+   "agent": "search:B5_nominations",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/59/2026-06-11/transcripts/98",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:45.807Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1918,
+   "extract_sha256": "3a4aa545282214ed99e5f380592b725ac37bd510669d7104c59afe14f350182f"
+  },
+  {
    "agent": "search:B6_prosecutors_police",
    "url": "https://www.gov.pl/web/prokuratura-krajowa/sledztwo-w-sprawie-naruszen-prawa-dotyczacych-sedziow-trybunalu-konstytucyjnego",
    "final_url": null,
@@ -1607,7 +1733,7 @@
    "returned": "reader_extract",
    "extract_chars": 1541,
    "extract_sha256": "739e03d96dfbf5ceaa96c2ff5cdd97024c28554512239e112ff50dabaaecc6c8",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B5_nominations",
@@ -1623,7 +1749,7 @@
    "returned": "reader_extract",
    "extract_chars": 1475,
    "extract_sha256": "88f5811a70267c95ef0cf9ef63fe513148de17648c87601bd3cf727adf54338f",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B5_nominations",
@@ -1639,7 +1765,7 @@
    "returned": "reader_extract",
    "extract_chars": 2141,
    "extract_sha256": "217c14553fbde1edbe955ef3d8dd23c140642bf15f7410cb14f6e227abd3ef42",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B5_nominations",
@@ -1655,7 +1781,7 @@
    "returned": "reader_extract",
    "extract_chars": 1777,
    "extract_sha256": "08b147d5cdd2188798e921917a9a5682c4f0e532ac1703d3b4270f32e7477b9e",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B6_prosecutors_police",
