@@ -30,56 +30,57 @@
   ]
  },
  "stats": {
-  "agents": 19,
-  "agents_left_out_unfinished_or_other_batch": 16,
+  "agents": 21,
+  "agents_left_out_unfinished_or_other_batch": 14,
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
-  "page_fetches": 148,
-  "pages_reported": 76,
-  "pages_with_page_text": 60,
+  "page_fetches": 167,
+  "pages_reported": 82,
+  "pages_with_page_text": 77,
   "fetch_status": {
-   "ok": 60,
+   "ok": 63,
    "partial": 15,
-   "error": 1
+   "empty": 1,
+   "blocked": 1,
+   "error": 2
   },
-  "claims": 577,
+  "claims": 620,
   "labels": {
-   "fact": 424,
-   "no_link": 131,
-   "speculation": 14,
-   "alleged": 8
+   "fact": 446,
+   "no_link": 144,
+   "speculation": 15,
+   "alleged": 15
   },
   "evidence_check": {
-   "exact": 370,
+   "exact": 453,
    "found_on_linked_page": 13,
-   "not_found": 7,
-   "normalized": 71,
+   "not_found": 8,
+   "normalized": 100,
    "normalized_ci": 2,
-   "found_in_reader_extract_only": 16,
-   "exact_in_reader_extract": 96,
-   "not_found_in_reader_extract": 2
+   "empty": 9,
+   "found_in_reader_extract_only": 35
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 335,
-   "both_names_unmatched": 125,
-   "pair_already_linked": 30,
-   "new_tie_between_known_entities": 87
+   "new_entity_or_unmatched_name": 359,
+   "both_names_unmatched": 162,
+   "pair_already_linked": 26,
+   "new_tie_between_known_entities": 73
   },
   "kinds": {
-   "other": 133,
-   "grant_or_donation": 207,
-   "statement": 34,
+   "other": 141,
+   "grant_or_donation": 216,
+   "statement": 35,
    "membership_or_board": 56,
-   "role_or_job": 44,
+   "role_or_job": 52,
    "event_or_speech": 30,
-   "contract_or_fee": 63,
+   "contract_or_fee": 71,
    "legal_action": 6,
-   "ownership": 2,
-   "nomination_or_vote": 2
+   "nomination_or_vote": 11,
+   "ownership": 2
   },
   "title_only_leads": 192,
-  "to_read_unread": 21,
+  "to_read_unread": 15,
   "nothing_found": 53,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -97,7 +98,7 @@
   ],
   "searches_by_stopped_agents": 109,
   "page_fetches_by_stopped_agents": 26,
-  "agent_notes_cleaned": 2
+  "agent_notes_cleaned": 7
  },
  "pages": [
   {
@@ -252,7 +253,7 @@
      "access": "page_read",
      "evidence_found_at": "https://programrownychpraw.batory.org.pl/projekty/",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "free_courts",
+     "object_map_id": "osiatynski",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     }
@@ -1164,9 +1165,7 @@
      "label_scope": "Result line for this applicant in the anti-corruption call",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "watchdog_polska",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-5bcc4a8d",
@@ -1261,9 +1260,7 @@
      "label_scope": "Result line in the strategic litigation block",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "watchdog_polska",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-9df4be2b",
@@ -2513,9 +2510,7 @@
      "evidence_location": "p.3",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "ziobro",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-5165873e",
@@ -2551,9 +2546,7 @@
      "evidence_location": "p.3",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "eea",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-918fc400",
@@ -2688,7 +2681,7 @@
      "evidence_location": "p.4, Signed block",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "free_courts",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -3095,8 +3088,6 @@
      "evidence_location": "footer, Fund Operators logo markup",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "batory",
-     "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -3207,9 +3198,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "synoradzki_bentkowska",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-02e3485b",
@@ -3229,9 +3218,7 @@
      "label_scope": "Award size limits stated in the NOFO. It does not say that any award was made.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "synoradzki_bentkowska",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-690d6d5f",
@@ -3334,7 +3321,7 @@
      "label_scope": "The 13 pages name no awardee, partner or sub-awardee and give no award ID. None of the listed organisations or individuals appears.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "free_courts",
+     "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     }
@@ -3395,11 +3382,9 @@
      "label_scope": "Checked all 21 pages: no mention of Free Courts or Wolne Sądy, and no State Department or embassy money to them.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "free_courts",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-ea2c3ed8",
@@ -3416,11 +3401,9 @@
      "label_scope": "Checked all 21 pages: no mention of the Batory Foundation, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-0188f1e3",
@@ -3437,11 +3420,9 @@
      "label_scope": "Checked all 21 pages: no mention of HFHR or the Helsinki Foundation for Human Rights, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-4bd41c78",
@@ -3458,11 +3439,9 @@
      "label_scope": "Checked all 21 pages: no mention of Iustitia, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-85260a39",
@@ -3479,11 +3458,9 @@
      "label_scope": "Checked all 21 pages: no mention of Themis, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "themis",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-96b9fdab",
@@ -3500,11 +3477,9 @@
      "label_scope": "Checked all 21 pages: no mention of DemoCrisis, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "democrisis",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-6c9930e8",
@@ -3521,11 +3496,9 @@
      "label_scope": "Checked all 21 pages: no mention of Open Society or OSF, and no State Department or embassy money to it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
      "object_map_id": "osf",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-955a5fe6",
@@ -3542,11 +3515,7 @@
      "label_scope": "Checked all 21 pages: no mention of Poland, Warsaw, Krakow, a US embassy or consulate, or any Polish body.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "orlen",
-     "subject_map_status": "on_map",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -4362,9 +4331,7 @@
      "access": "page_read",
      "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "sixteen_thirty",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-e7cf37e6",
@@ -4382,9 +4349,7 @@
      "access": "page_read",
      "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "depaul",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-fdb31baf",
@@ -5347,16 +5312,7 @@
      "evidence_check": "exact",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
-     "object_map_id": "osf",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "founder (Soros, 1988); grants e.g. $340k 2014; donor 2023 and 2025",
-      "\"Soros interfered in Poland 2023 election\" (Magyar Nemzet)",
-      "named donor in 2023 annual report (no amount)",
-      "named donor 2023, 2024, 2025 (amounts not given); 2006-09 reports: most programmes OSI-funded",
-      "named donor in 2023 annual report (no amount)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-9848bb60",
@@ -5973,9 +5929,7 @@
      "evidence_check": "exact",
      "subject_map_id": "akcja_demokracja",
      "subject_map_status": "on_map",
-     "object_map_id": "bodnar",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-a5c57c6d",
@@ -6360,6 +6314,977 @@
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
+  },
+  {
+   "ref": "C5_domestic_public_money-T1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/289/body",
+   "host": "api.sejm.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 3342 characters. Question body only. No answer, attachment, or link to a Ministry of Justice reply appears in the fetched text, and no links were returned, so no follow-up URLs are listed. Submitters' party and parliamentary role are not stated. this sweep's brief spells the third expert 'Kuca'; the page has only 'Grzegorzowi Kule' (dative), so the nominative is not given on the page.",
+   "page_title": "Zapytanie w sprawie Prokuratury Krajowej",
+   "page_date": "06-02-2024 (Data wpływu on the page)",
+   "publisher": "Sejm (api.sejm.gov.pl)",
+   "capture_answer": "Written question no. 289 was submitted by Ewa Leniart and Fryderyk Sylwester Kapinos, received 06-02-2024, to the Minister of Justice about the Prokuratura Krajowa. It names three opinion authors, dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej and dr hab. Grzegorzowi Kule, for opinions on restoring prosecutor Dariusz Barski to active service, and asks when and on what terms they were commissioned, including the 'wysokość wynagrodzenia' (amount of remuneration). The page gives no fee amount, contract number or payment date. Question 2 asks whether any expert had earlier worked with Adam Bodnar as an NGO activist or during his RPO tenure; questions 3 and 5 concern agreements between Bodnar and Donald Tusk and the appointment of Jacek Bilewicz. The page has no Ministry reply, so the requested MoJ answer attachment with amounts and payment dates is not captured. Of the listed judges, Tusk, Bodnar and NGOs, only Patyra (as expert), Bodnar and Tusk appear, and no NGO is named.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:49:44.546Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 3342,
+    "sha256": "a3dce385617736a2b4456a53b706d0eb0a11db4275ca76df582f54e9ac91f881",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/289/body"
+   },
+   "names_listed": [
+    "Ewa Leniart",
+    "Fryderyk Sylwester Kapinos",
+    "dr hab. Sławomirowi Patyrze",
+    "dr Hannie Rakowskiej",
+    "dr hab. Grzegorzowi Kule",
+    "Dariusza Barskiego",
+    "Adam Bodnar",
+    "Adamem Bodnarem",
+    "Adama Bodnara",
+    "Donaldem Tuskiem",
+    "Jacka Bilewicza"
+   ],
+   "names_found_in_page_text": "11/11",
+   "claims": [
+    {
+     "id": "B03-faf5fceb",
+     "subject": "Ewa Leniart",
+     "subject_type": "person",
+     "relation": "is one of the two submitters (Zgłaszający) of written question no. 289 to the Minister of Justice",
+     "object": "Zapytanie nr 289 (written question no. 289, Prokuratura Krajowa)",
+     "object_type": "document",
+     "kind": "other",
+     "date": "06-02-2024",
+     "evidence_text": "Zgłaszający: Ewa Leniart, Fryderyk Sylwester Kapinos",
+     "evidence_translation": "Submitters: Ewa Leniart, Fryderyk Sylwester Kapinos",
+     "evidence_location": "Header block under the title 'Zapytanie nr 289'; receipt date in the 'Data wpływu' line",
+     "label": "fact",
+     "label_scope": "The page states the submitters and the receipt date. Party affiliation and parliamentary role are not on the page.",
+     "new_entities": [
+      "Fryderyk Sylwester Kapinos"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-95fb1e62",
+     "subject": "Fryderyk Sylwester Kapinos",
+     "subject_type": "person",
+     "relation": "is one of the two submitters (Zgłaszający) of written question no. 289 to the Minister of Justice",
+     "object": "Zapytanie nr 289 (written question no. 289, Prokuratura Krajowa)",
+     "object_type": "document",
+     "kind": "other",
+     "date": "06-02-2024",
+     "evidence_text": "Zgłaszający: Ewa Leniart, Fryderyk Sylwester Kapinos",
+     "evidence_translation": "Submitters: Ewa Leniart, Fryderyk Sylwester Kapinos",
+     "evidence_location": "Header block under the title 'Zapytanie nr 289'; receipt date in the 'Data wpływu' line",
+     "label": "fact",
+     "label_scope": "The page states the submitters and the receipt date. Party affiliation and parliamentary role are not on the page.",
+     "new_entities": [
+      "Ewa Leniart"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-ce1b7def",
+     "subject": "dr hab. Sławomirowi Patyrze",
+     "subject_type": "person",
+     "relation": "was commissioned (zlecono, impersonal form) to give opinions on the effectiveness of restoring prosecutor Dariusz Barski to active service; the question asks for terms and fee, none stated",
+     "object": "opinie w sprawie skuteczności przywrócenia ze stanu spoczynku do stanu czynnego prokuratora Dariusza Barskiego",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "zlecono dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej, dr hab. Grzegorzowi Kule opinie w sprawie skuteczności",
+     "evidence_translation": "commissioned, for dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej and dr hab. Grzegorzowi Kule (dative forms as on the page), opinions on effectiveness",
+     "evidence_location": "Question 1 (pytanie 1), first paragraph after the list of questions",
+     "label": "alleged",
+     "label_scope": "Alleged by the submitters Ewa Leniart and Fryderyk Sylwester Kapinos, whose question 1 presupposes the commission. The page names no commissioning body, fee, date or contract number. The page form is the dative of Sławomir Patyra; no title or affiliation on the page confirms it is the same person as the judge Sławomir Patyra.",
+     "new_entities": [
+      "dr Hannie Rakowskiej",
+      "dr hab. Grzegorzowi Kule",
+      "Dariusza Barskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-ae40e1ca",
+     "subject": "dr Hannie Rakowskiej",
+     "subject_type": "person",
+     "relation": "was commissioned (zlecono, impersonal form) to give opinions on the effectiveness of restoring prosecutor Dariusz Barski to active service; the question asks for terms and fee, none stated",
+     "object": "opinie w sprawie skuteczności przywrócenia ze stanu spoczynku do stanu czynnego prokuratora Dariusza Barskiego",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "zlecono dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej, dr hab. Grzegorzowi Kule opinie w sprawie skuteczności",
+     "evidence_translation": "commissioned, for dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej and dr hab. Grzegorzowi Kule (dative forms as on the page), opinions on effectiveness",
+     "evidence_location": "Question 1 (pytanie 1), first paragraph after the list of questions",
+     "label": "alleged",
+     "label_scope": "Alleged by the submitters Ewa Leniart and Fryderyk Sylwester Kapinos, whose question 1 presupposes the commission. The page names no commissioning body, fee, date or contract number. The page form is the dative of Hanna Rakowska; the page gives no affiliation.",
+     "new_entities": [
+      "dr hab. Sławomirowi Patyrze",
+      "dr hab. Grzegorzowi Kule"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-38db8333",
+     "subject": "dr hab. Grzegorzowi Kule",
+     "subject_type": "person",
+     "relation": "was commissioned (zlecono, impersonal form) to give opinions on the effectiveness of restoring prosecutor Dariusz Barski to active service; the question asks for terms and fee, none stated",
+     "object": "opinie w sprawie skuteczności przywrócenia ze stanu spoczynku do stanu czynnego prokuratora Dariusza Barskiego",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "zlecono dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej, dr hab. Grzegorzowi Kule opinie w sprawie skuteczności",
+     "evidence_translation": "commissioned, for dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej and dr hab. Grzegorzowi Kule (dative forms as on the page), opinions on effectiveness",
+     "evidence_location": "Question 1 (pytanie 1), first paragraph after the list of questions",
+     "label": "alleged",
+     "label_scope": "Alleged by the submitters Ewa Leniart and Fryderyk Sylwester Kapinos, whose question 1 presupposes the commission. The page names no commissioning body, fee, date or contract number. this sweep's brief spells this author 'Kuca'; the page has only the dative 'Kule', so the nominative is not established from the page.",
+     "new_entities": [
+      "dr hab. Sławomirowi Patyrze",
+      "dr Hannie Rakowskiej"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-a7815ba7",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "held the function of RPO (the question refers to the period in which he held it)",
+     "object": "funkcja RPO",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "w okresie pełnienia przez niego funkcji RPO",
+     "evidence_translation": "during the period of his holding the RPO function",
+     "evidence_location": "Question 2 (pytanie 2), final clause",
+     "label": "fact",
+     "label_scope": "Stated in question 2 by the submitters. RPO is not expanded on the page, and no dates are given.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-e617986b",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "is described as Prosecutor General (Prokurator Generalny)",
+     "object": "Prokurator Generalny",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Prokurator Generalny Adam Bodnar",
+     "evidence_translation": "Prosecutor General Adam Bodnar",
+     "evidence_location": "Question 4 (pytanie 4)",
+     "label": "fact",
+     "label_scope": "Stated in question 4 by the submitters. The page gives no appointment date; questions 2, 3 and 5 call him minister.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-14fccf99",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "is referred to as 'ministrem' and, in the same matter, as the minister of justice (ministra sprawiedliwości)",
+     "object": "minister sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "przez ministra sprawiedliwości w tej sprawie",
+     "evidence_translation": "by the minister of justice in this matter",
+     "evidence_location": "Question 3 (pytanie 3), last sentence",
+     "label": "fact",
+     "label_scope": "Question 3 links 'ministrem Adamem Bodnarem' with letters sent by 'ministra sprawiedliwości' on the same matter, and the page is addressed 'do ministra sprawiedliwości'. The page does not put both titles in one phrase.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-aae95169",
+     "subject": "Donaldem Tuskiem",
+     "subject_type": "person",
+     "relation": "is prime minister (premier) in the page's wording",
+     "object": "premier",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "premierem Donaldem Tuskiem",
+     "evidence_translation": "prime minister Donald Tusk",
+     "evidence_location": "Question 3 (pytanie 3), first sentence",
+     "label": "fact",
+     "label_scope": "Stated in question 3. The page form is instrumental 'Donaldem Tuskiem'; the nominative is not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-a8c26d4d",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "reached agreements (uzgodnienia) with the prime minister on the appointment of Jacek Bilewicz as acting National Prosecutor; question 3 presupposes this",
+     "object": "Donaldem Tuskiem",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "evidence_text": "uzgodnień miedzy ministrem Adamem Bodnarem a premierem Donaldem Tuskiem odnośnie do powołania Jacka Bilewicza",
+     "evidence_translation": "agreements between minister Adam Bodnar and prime minister Donald Tusk regarding the appointment of Jacek Bilewicz ('miedzy' as written)",
+     "evidence_location": "Question 3 (pytanie 3), first sentence",
+     "label": "alleged",
+     "label_scope": "Presupposed by the submitters Ewa Leniart and Fryderyk Sylwester Kapinos in question 3, which asks when the agreements took place and whether they were oral or written. The page gives no date and no document.",
+     "new_entities": [
+      "Jacka Bilewicza"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-16ba991f",
+     "subject": "Jacka Bilewicza",
+     "subject_type": "person",
+     "relation": "appointment to the post of acting National Prosecutor (pełniący obowiązki Prokuratora Krajowego), presupposed by question 3",
+     "object": "pełniący obowiązki Prokuratora Krajowego",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "evidence_text": "powołania Jacka Bilewicza na stanowisko pełniącego obowiązki Prokuratora Krajowego",
+     "evidence_translation": "the appointment of Jacek Bilewicz to the post of acting National Prosecutor",
+     "evidence_location": "Question 3 (pytanie 3), first sentence",
+     "label": "alleged",
+     "label_scope": "Presupposed by the submitters in question 3. The page does not confirm that the appointment was made and gives no date.",
+     "new_entities": [
+      "Adam Bodnar",
+      "Donaldem Tuskiem"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-6c1cf373",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "granted (uwzględnił) the motion of Dariusz Barski for the appointment of Jacek Bilewicz as a prosecutor of the National Prosecutor's Office",
+     "object": "Jacka Bilewicza",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "12 stycznia 2024 r.",
+     "evidence_text": "uwzględnił wniosek Prokuratora Krajowego I zastępcy Prokuratora Generalnego Dariusza Barskiego o powołanie na prokuratora",
+     "evidence_translation": "granted the motion of Dariusz Barski, titled 'Prokuratora Krajowego I zastępcy Prokuratora Generalnego' (title as written), for appointment as a prosecutor",
+     "evidence_location": "Question 5 (pytanie 5), first sentence",
+     "label": "alleged",
+     "label_scope": "Alleged by the submitters in question 5, who ask why Bodnar did this on the same day (12 January 2024) as his letter which, as quoted in the question, says Barski's restoration lacked legal basis. The page gives no order number or appointment document.",
+     "new_entities": [
+      "Dariusza Barskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-b87bd24d",
+     "subject": "dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej, dr hab. Grzegorzowi Kule (experts named in question 1)",
+     "subject_type": "person",
+     "relation": "may have worked earlier with Adam Bodnar as an NGO activist or during his RPO tenure (asked as a question; not stated)",
+     "object": "Adam Bodnar",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "czy któryś z ww. współpracował już wcześniej z panem ministrem Adamem Bodnarem jako działaczem organizacji pozarządowych",
+     "evidence_translation": "whether any of the aforementioned had already earlier worked with Mr Minister Adam Bodnar as an activist of non-governmental organisations",
+     "evidence_location": "Question 2 (pytanie 2), first sentence",
+     "label": "speculation",
+     "label_scope": "A hypothesis raised as a question by the submitters Ewa Leniart and Fryderyk Sylwester Kapinos; they do not state that any collaboration occurred. Basis: the experts were engaged for opinions in the Barski matter (question 1), and question 2 asks how they were selected. The page names no organisation for this possible tie.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-543e7b77",
+     "subject": "dr hab. Sławomirowi Patyrze, dr Hannie Rakowskiej, dr hab. Grzegorzowi Kule (experts named in question 1)",
+     "subject_type": "person",
+     "relation": "checked for any named NGO, foundation or funder tie to the experts or to Adam Bodnar; none found",
+     "object": "Iustitia; Themis; Free Courts (Wolne Sądy); HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "jako działaczem organizacji pozarządowych",
+     "evidence_translation": "as an activist of non-governmental organisations",
+     "evidence_location": "Question 2 (pytanie 2), first sentence",
+     "label": "no_link",
+     "label_scope": "Checked the full text of the page: the only NGO reference is the generic 'organizacji pozarządowych'. None of the listed organisations is named, for the experts or for Bodnar.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-T2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3195/body",
+   "host": "api.sejm.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 1121 characters. Question body only. No ministry reply, attachment, payment record or link appears in the fetched text, and no links were returned, so no follow-up URLs are listed. Submitters' party and parliamentary role are not stated. The contractor is named 'prof. dr. hab. Januszem Gajdą' in the title and 'dr hab. prof. Januszem Gajdą' in the body.",
+   "page_title": "Zapytanie w sprawie umowy nr MS/5287/DSRIN/2024 zawartej z prof. dr. hab. Januszem Gajdą",
+   "page_date": "20-02-2026 (Data wpływu on the page)",
+   "publisher": "Sejm (api.sejm.gov.pl)",
+   "capture_answer": "Written question no. 3195, submitted by Dariusz Matecki and Zbigniew Ziobro (received 20-02-2026) to the Minister of Justice about contract no. MS/5287/DSRIN/2024. The question says the contract was concluded on 25 October 2024 with dr hab. prof. Janusz Gajda to prepare a legal opinion, for 10 000,00 zł. It asks for the full contract and annexes, the scope and text of the opinion, whether the fee was lump-sum or hourly, the payment date and amount, and who approved the work. The page contains no ministry reply, attachment or payment record. This contract is the only one on the page. Patyra, Dziurda and Zalasiński are not mentioned, and contract numbers MS/4645/BF/2024, MS/4887/BF/2024 and MS/4608/BF/2024 do not appear (checked, no_link).",
+   "raw": {
+    "fetched_at": "2026-11-02T00:49:44.522Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1121,
+    "sha256": "6113aaecc6a0ef4b485cda26fdce233b4ef93b3e66c063ce4cf289f8feb3c1a2",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3195/body"
+   },
+   "names_listed": [
+    "Dariusz Matecki",
+    "Zbigniew Ziobro",
+    "prof. dr. hab. Januszem Gajdą",
+    "dr hab. prof. Januszem Gajdą"
+   ],
+   "names_found_in_page_text": "4/4",
+   "claims": [
+    {
+     "id": "B03-0db09856",
+     "subject": "dr hab. prof. Januszem Gajdą",
+     "subject_type": "person",
+     "relation": "is the contractor under contract no. MS/5287/DSRIN/2024 for a legal opinion (na sporządzenie opinii prawnej), stated as concluded on 25 October 2024",
+     "object": "umowa nr MS/5287/DSRIN/2024",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "amount": "10 000,00",
+     "currency": "zł",
+     "date": "25 października 2024 r.",
+     "evidence_text": "umowy nr MS/5287/DSRIN/2024 z dr hab. prof. Januszem Gajdą na sporządzenie opinii prawnej, na kwotę 10 000,00 zł",
+     "evidence_translation": "of contract no. MS/5287/DSRIN/2024 with dr hab. prof. Janusz Gajda for the preparation of a legal opinion, in the amount of 10 000,00 zł (PLN 10,000.00)",
+     "evidence_location": "Opening paragraph, after the 'Data wpływu' line",
+     "label": "alleged",
+     "label_scope": "Stated by the submitters Dariusz Matecki and Zbigniew Ziobro as the basis of question no. 3195. The page holds no contract text, payment record or ministry reply. The title spells the name 'prof. dr. hab. Januszem Gajdą'. The contracting body is not named in words; the question is addressed to the Minister of Justice.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-14b2bc81",
+     "subject": "Dariusz Matecki",
+     "subject_type": "person",
+     "relation": "is a submitter (Zgłaszający) of written question no. 3195 to the Minister of Justice",
+     "object": "Zapytanie nr 3195 (written question no. 3195)",
+     "object_type": "document",
+     "kind": "other",
+     "date": "20-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_translation": "Submitters: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_location": "Header block under the title 'Zapytanie nr 3195'; receipt date in the 'Data wpływu' line",
+     "label": "fact",
+     "label_scope": "The page names the submitters and the receipt date (Data wpływu 20-02-2026). Party affiliation and parliamentary role are not on the page.",
+     "new_entities": [
+      "Zbigniew Ziobro"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-965a2817",
+     "subject": "Zbigniew Ziobro",
+     "subject_type": "person",
+     "relation": "is a submitter (Zgłaszający) of written question no. 3195 to the Minister of Justice",
+     "object": "Zapytanie nr 3195 (written question no. 3195)",
+     "object_type": "document",
+     "kind": "other",
+     "date": "20-02-2026",
+     "evidence_text": "Zgłaszający: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_translation": "Submitters: Dariusz Matecki, Zbigniew Ziobro",
+     "evidence_location": "Header block under the title 'Zapytanie nr 3195'; receipt date in the 'Data wpływu' line",
+     "label": "fact",
+     "label_scope": "The page names the submitters and the receipt date (Data wpływu 20-02-2026). Party affiliation and parliamentary role are not on the page.",
+     "new_entities": [
+      "Dariusz Matecki"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ziobro",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-60159d9c",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "checked for a contract tie: contract no. MS/4645/BF/2024 is not on the page",
+     "object": "umowa nr MS/4645/BF/2024",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "umowy nr MS/5287/DSRIN/2024 z dr hab. prof. Januszem Gajdą na sporządzenie opinii prawnej, na kwotę 10 000,00 zł",
+     "evidence_translation": "of contract no. MS/5287/DSRIN/2024 with dr hab. prof. Janusz Gajda for the preparation of a legal opinion, in the amount of 10 000,00 zł (the only contract on the page)",
+     "evidence_location": "Opening paragraph, after the 'Data wpływu' line",
+     "label": "no_link",
+     "label_scope": "Checked the whole page: neither the name Sławomir Patyra (name taken from this sweep's brief, not from the page) nor contract MS/4645/BF/2024 appears. The page's only contract is MS/5287/DSRIN/2024.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-6133a155",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "checked for a contract tie: contract no. MS/4887/BF/2024 is not on the page",
+     "object": "umowa nr MS/4887/BF/2024",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "umowy nr MS/5287/DSRIN/2024 z dr hab. prof. Januszem Gajdą na sporządzenie opinii prawnej, na kwotę 10 000,00 zł",
+     "evidence_translation": "of contract no. MS/5287/DSRIN/2024 with dr hab. prof. Janusz Gajda for the preparation of a legal opinion, in the amount of 10 000,00 zł (the only contract on the page)",
+     "evidence_location": "Opening paragraph, after the 'Data wpływu' line",
+     "label": "no_link",
+     "label_scope": "Checked the whole page: neither the name Dziurda (name taken from this sweep's brief, not from the page) nor contract MS/4887/BF/2024 appears. The page's only contract is MS/5287/DSRIN/2024.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-4f55c0c9",
+     "subject": "Zalasiński",
+     "subject_type": "person",
+     "relation": "checked for a contract tie: contract no. MS/4608/BF/2024 is not on the page",
+     "object": "umowa nr MS/4608/BF/2024",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "evidence_text": "umowy nr MS/5287/DSRIN/2024 z dr hab. prof. Januszem Gajdą na sporządzenie opinii prawnej, na kwotę 10 000,00 zł",
+     "evidence_translation": "of contract no. MS/5287/DSRIN/2024 with dr hab. prof. Janusz Gajda for the preparation of a legal opinion, in the amount of 10 000,00 zł (the only contract on the page)",
+     "evidence_location": "Opening paragraph, after the 'Data wpływu' line",
+     "label": "no_link",
+     "label_scope": "Checked the whole page: neither the surname Zalasiński (as supplied in this sweep's brief, no first name given) nor contract MS/4608/BF/2024 appears. The page's only contract is MS/5287/DSRIN/2024.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zalasinski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-T3",
+   "url": "https://bip.brpo.gov.pl/pl/rejestr-umow",
+   "host": "bip.brpo.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "empty",
+   "fetch_note": "The fetch of https://bip.brpo.gov.pl/pl/rejestr-umow returned HTTP 200 OK, text/html, 107 characters, and only metadata: meta-ROBOTS: NOINDEX, NOFOLLOW; meta-format-detection: telephone=no; meta-viewport: initial-scale=1.0. Per the fallback rule, https://www.rpo.gov.pl/pl/rejestr-umow was tried once; it returned 302 Found redirecting to https://bip.brpo.gov.pl/pl/rejestr-umow, the page already read, so the redirect was not followed again. No register entries, contractor names, amounts, dates, links or PDFs were returned.",
+   "capture_answer": "Not answered. The register page returned only metadata, so no 2024-2026 contracts for expert opinions or legal services could be read. Nothing could be checked for Free Courts, HFHR, Batory, INPRIS, Taborowski, Patyra, Szostek or Dziurda.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:49:43.084Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 107,
+    "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+    "url_read": "https://bip.brpo.gov.pl/pl/rejestr-umow"
+   },
+   "claims": []
+  },
+  {
+   "ref": "C5_domestic_public_money-T4",
+   "url": "https://niw.gov.pl/wp-content/uploads/2025/03/Protokol-z-panelu-ekspertow-PROO-2024-4.pdf",
+   "host": "niw.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "Fetched (HTTP 200 OK, application/pdf, 10576 characters); text returned directly, no file saved. The file name says PROO-2024-4, but the protocol is dated 12 marca 2025 r. and covers Priorytet 4 Edycja 2025. The text ends with the criterion-1 justification for 75290. Attachments 1-3 (ranking, reserve and negative lists) are listed but not included; attachment 4 appears only for 70376 and 75290; the text contains no grant amounts and no links.",
+   "page_title": "Protokół z posiedzenia Panelu Ekspertów w celu przeprowadzenia dyskusji nad wynikami oceny merytorycznej wniosków w ramach Programu Rozwoju Organizacji Obywatelskich na lata 2018-2030 PROO w Priorytecie 4 Edycja 2025",
+   "page_date": "12 marca 2025 r.",
+   "publisher": "Narodowy Instytut Wolności (niw.gov.pl)",
+   "capture_answer": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel, Warsaw, 12 marca 2025 r.; NIW-CRSO supervised it. The page says 97 experts took part in the assessment and that 20 were drawn by lottery on 19 lutego 2025 r., with 10 reserves. names_listed holds the 20 drawn experts; 18 of them appear in the attendance and signature lists, while Paweł Tokarczyk and Wioletta Gawrońska appear only in the draw table. The reserves are Wojciech Ziętara, Agnieszka Grzesiak, Bartosz Kordala, Anna Janczyk-Zabrocka, Jakub Drożdż, Ewelina Wojciechowska, Arkadiusz Banaś, Piotr Nowacki, Danuta Bień and Damian Ziółek. Three NIW-CRSO staff attended without a vote: Adela Gąsiorowska, Stefan Kołucki and Katarzyna Asińska-Paluch. Four applications were voted on: 70376 Fundacja Instrat (score 189), 74453 Fundacja imienia Braci Sołuńskich - Cyryla i Metodego, 75290 Fundacja Instytut Polityk Publicznych (score 189) and 76158 Fundacja PRO POSNANIA. The page does not say which applications were funded or how much any applicant received. It says 20 applications were recommended down to the 189-point threshold but does not name them; the protocol says the ranked lists were presented with proposed grant amounts, but those lists are not in the page text. No expert fees are stated. Kultura Liberalna, application 77143, Watchdog Polska, ISP, INPRIS, CEO, HFHR and Akcja Demokracja do not appear. A scan of the page text found none of the eight judges, nor Iustitia, Themis, Wolne Sądy, Batory, KOS, OKO.press, Akcja Demokracja or KOD. Declared conflicts of interest: Dorota Głażewska-Ziemilska (74684, 70622) and Katarzyna Lipka-Szostak (73599); the applicants behind these numbers are not named.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:52:48.982Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 10576,
+    "sha256": "d4f7de14088af67a4f648c706c434a9483d89bc47f1f188ab19acad0580cc648",
+    "url_read": "https://niw.gov.pl/wp-content/uploads/2025/03/Protokol-z-panelu-ekspertow-PROO-2024-4.pdf"
+   },
+   "names_listed": [
+    "Aleksandra Podkońska",
+    "Karol Szylko",
+    "Dorota Głażewska-Ziemilska",
+    "Norbert Budzisz",
+    "Ewa Kluczniok",
+    "Katarzyna Lipka-Szostak",
+    "Karolina Krawczuk",
+    "Natalia Szymanowska",
+    "Jolanta Podwysocka",
+    "Angelika Felska",
+    "Marcin Klejno",
+    "Grzegorz Wiaderek",
+    "Maciej Krzywicki",
+    "Adrian Grzywiński",
+    "Joanna Rybacka Barisic",
+    "Maciej Kunysz",
+    "Małgorzata Szlagowska",
+    "Marta Jaskulska",
+    "Paweł Tokarczyk",
+    "Wioletta Gawrońska"
+   ],
+   "names_found_in_page_text": "20/20",
+   "claims": [
+    {
+     "id": "B03-bde5a7b5",
+     "subject": "Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego",
+     "subject_type": "public_body",
+     "relation": "supervised the work of the expert panel for PROO Priorytet 4 Edycja 2025",
+     "object": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "object_type": "event",
+     "kind": "role_or_job",
+     "evidence_text": "Prace Panelu Ekspertów nadzorował Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego.",
+     "evidence_translation": "The work of the Expert Panel was supervised by the National Freedom Institute - Centre for the Development of Civil Society.",
+     "evidence_location": "Opening paragraph of the protocol",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The protocol states that NIW-CRSO supervised the panel's work.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-72c09717",
+     "subject": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "subject_type": "event",
+     "relation": "experts were selected for the panel by lottery; the protocol gives 20 drawn experts and 10 reserves as required numbers",
+     "object": "20 drawn experts and 10 reserve experts (names in names_listed and in the capture answer)",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "wybrani zostali eksperci w drodze losowania, przeprowadzonego w dniu 19 lutego 2025 r.",
+     "evidence_translation": "experts were selected by lottery, held on 19 February 2025.",
+     "evidence_location": "Paragraph introducing the drawn-expert tables, after the 18-name list",
+     "date": "19 lutego 2025 r.",
+     "label": "fact",
+     "label_scope": "The protocol's account of how the experts were chosen. The protocol also states that 97 experts took part in the assessment.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-a8be1ed4",
+     "subject": "Adela Gąsiorowska",
+     "subject_type": "person",
+     "relation": "deputy director (Zastępczyni Dyrektora) of NIW-CRSO; attended the panel without voting rights",
+     "object": "Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Adela Gąsiorowska, Zastępczyni Dyrektora NIW-CRSO, bez prawa głosu;",
+     "evidence_translation": "Adela Gąsiorowska, Deputy Director of NIW-CRSO, without voting rights;",
+     "evidence_location": "Attendance list, opening section",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "Title and attendance status as stated in the protocol.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-8cc55658",
+     "subject": "Stefan Kołucki",
+     "subject_type": "person",
+     "relation": "head (Kierownik) of the Biuro Programów Horyzontalnych at NIW-CRSO; attended the panel without voting rights",
+     "object": "Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Stefan Kołucki, Kierownik Biura Programów Horyzontalnych NIW-CRSO, bez prawa głosu;",
+     "evidence_translation": "Stefan Kołucki, Head of the Horizontal Programmes Office of NIW-CRSO, without voting rights;",
+     "evidence_location": "Attendance list, opening section",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "Title and attendance status as stated in the protocol.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-7ab55032",
+     "subject": "Katarzyna Asińska-Paluch",
+     "subject_type": "person",
+     "relation": "deputy head (Zastępczyni Kierownika) of the Biuro Programów Horyzontalnych at NIW-CRSO; attended the panel without voting rights",
+     "object": "Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Katarzyna Asińska-Paluch, Zastępczyni Kierownika Biura Programów Horyzontalnych NIW-CRSO, bez prawa",
+     "evidence_translation": "Katarzyna Asińska-Paluch, Deputy Head of the Horizontal Programmes Office of NIW-CRSO, without voting rights",
+     "evidence_location": "Attendance list, opening section; the excerpt breaks before the word 'głosu;' which is on the next line",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "Title and attendance status as stated in the protocol.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-388693c8",
+     "subject": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "subject_type": "event",
+     "relation": "presented ranked lists recommending 20 applications for funding down to the 189-point threshold",
+     "object": "PROO Priorytet 4 Edycja 2025 applications (not named in the page text)",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Przedstawiono listy rekomendując 20 wniosków do dofinansowania do progu 189 pkt.",
+     "evidence_translation": "Lists were presented recommending 20 applications for funding down to the 189-point threshold.",
+     "evidence_location": "Paragraph after the four-application vote table, before the vote on the lists",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The count and threshold as stated. The 20 applications and any amounts are not named or shown in the page text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-5fc6da71",
+     "subject": "Panel experts of PROO Priorytet 4 Edycja 2025",
+     "subject_type": "other",
+     "relation": "signed a declaration of impartiality before the panel meeting, after receiving access to all applications in the call",
+     "object": "PROO Priorytet 4 Edycja 2025 call applications",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "podpisali oświadczenie o bezstronności.",
+     "evidence_translation": "they signed a declaration of impartiality.",
+     "evidence_location": "Paragraph before the agenda items and the conflicts-of-interest table",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The protocol says the members signed the declaration; the declaration itself is not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-f3691826",
+     "subject": "Dorota Głażewska-Ziemilska",
+     "subject_type": "person",
+     "relation": "reported a conflict of interest with ranking-list entries 74684 and 70622 at the panel",
+     "object": "PROO Priorytet 4 Edycja 2025 applications 74684 and 70622",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Dorota Głażewska-Ziemilska 74684 70622",
+     "evidence_translation": "Same as the original: the expert's name followed by two ranking-list numbers.",
+     "evidence_location": "Table under 'Eksperci zgłosili następujące konflikty interesów:' (before the discussion of projects); 70622 is on the next line",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The protocol records the declaration. The applicants behind numbers 74684 and 70622 are not named in the page text.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-9aa09501",
+     "subject": "Katarzyna Lipka-Szostak",
+     "subject_type": "person",
+     "relation": "reported a conflict of interest with ranking-list entry 73599 at the panel",
+     "object": "PROO Priorytet 4 Edycja 2025 application 73599",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Katarzyna Lipka-Szostak 73599",
+     "evidence_translation": "Same as the original: the expert's name followed by one ranking-list number.",
+     "evidence_location": "Same conflicts-of-interest table, second row",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The protocol records the declaration. The applicant behind number 73599 is not named in the page text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-7b1aa239",
+     "subject": "Fundacja Instrat",
+     "subject_type": "org",
+     "relation": "application 70376 was voted on by the panel at a score of 189 points",
+     "object": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "70376 Fundacja Instrat 189 Za: 13 Przeciw: 2 Wstrzymało się: 2 Wykluczonych: 0",
+     "evidence_translation": "70376 Fundacja Instrat 189 For: 13 Against: 2 Abstained: 2 Excluded: 0",
+     "evidence_location": "Table of applications voted on, after 'W wyniku dyskusji ustalono ocenę następujących wniosków:' (line breaks joined with spaces)",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The score and vote tally as recorded. The page does not say whether this application was funded or for how much.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-b76af425",
+     "subject": "Fundacja Instytut Polityk Publicznych",
+     "subject_type": "org",
+     "relation": "application 75290 was voted on by the panel at a score of 189 points",
+     "object": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "75290 Fundacja Instytut Polityk Publicznych 189 Za: 11 Przeciw: 5 Wstrzymało się: 1 Wykluczonych: 0",
+     "evidence_translation": "75290 Fundacja Instytut Polityk Publicznych 189 For: 11 Against: 5 Abstained: 1 Excluded: 0",
+     "evidence_location": "Table of applications voted on (line breaks joined with spaces)",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "The score and vote tally as recorded. The page does not say whether this application was funded or for how much.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-9ebe80da",
+     "subject": "Fundacja imienia Braci Sołuńskich - Cyryla i Metodego",
+     "subject_type": "org",
+     "relation": "application 74453 was the subject of a panel vote on a motion to set the score at 189 points (For 0, Against 15, Abstained 3, Excluded 0)",
+     "object": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Głosowanie za ustaleniem punktacji na 189 punktów. Panel zdecydował o pozostawieniu punktacji zgodnej z oceną ekspertów.",
+     "evidence_translation": "Vote on setting the scoring at 189 points. The panel decided to leave the scoring in line with the experts' assessment.",
+     "evidence_location": "Table row for application 74453, after its name; the tally follows the excerpt",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "As recorded in the protocol table. The protocol says the score was left in line with the experts' assessment. The page does not state a funding decision or amount for this application.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-dd062a50",
+     "subject": "Fundacja PRO POSNANIA",
+     "subject_type": "org",
+     "relation": "application 76158 was the subject of a panel vote on a motion to set the score at 189 points (For 0, Against 14, Abstained 3, Excluded 0)",
+     "object": "Panel Ekspertów PROO Priorytet 4 Edycja 2025",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Głosowanie za ustaleniem punktacji na 189 punktów. Panel zdecydował o pozostawieniu punktacji zgodnej z oceną ekspertów.",
+     "evidence_translation": "Vote on setting the scoring at 189 points. The panel decided to leave the scoring in line with the experts' assessment.",
+     "evidence_location": "Table row for application 76158, after its name; the tally follows the excerpt",
+     "date": "12 marca 2025 r.",
+     "label": "fact",
+     "label_scope": "As recorded in the protocol table. The protocol says the score was left in line with the experts' assessment. The page does not state a funding decision or amount for this application.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-4b7b4768",
+     "subject": "Rozporządzenie Przewodniczącego Komitetu do Spraw Pożytku Publicznego z dnia 8 listopada 2018 r.",
+     "subject_type": "document",
+     "relation": "cited in the protocol; its title refers to transferring funds from the Fund for Supporting the Development of Civil Society",
+     "object": "Fundusz Wspierania Rozwoju Społeczeństwa Obywatelskiego",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "przekazywania środków z Funduszu Wspierania Rozwoju Społeczeństwa Obywatelskiego",
+     "evidence_translation": "transfer of funds from the Fund for Supporting the Development of Civil Society",
+     "evidence_location": "Opening section, paragraph citing § 14 ust. 3 of the regulation",
+     "date": "8 listopada 2018 r.",
+     "label": "fact",
+     "label_scope": "Regulation title as cited in the protocol. The page does not give the amount drawn from this Fund for the call.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-1230f7e4",
+     "subject": "Panel experts of PROO Priorytet 4 Edycja 2025",
+     "subject_type": "other",
+     "relation": "paid fee, remuneration or contract with NIW-CRSO for expert work",
+     "object": "Narodowy Instytut Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_translation": "No occurrence in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol for any fee, remuneration or contract amount for the panel experts; none is stated.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-997746dd",
+     "subject": "Kultura Liberalna",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for this name; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "kultura_liberalna",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-9354f044",
+     "subject": "Application 77143 (PROO 1B 2025, as named in the request)",
+     "subject_type": "other",
+     "relation": "appears as an application in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this number in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Number not present in the page text. This protocol covers Priorytet 4 Edycja 2025, not PROO 1B 2025, so it neither confirms nor rules out that application.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-de113146",
+     "subject": "Watchdog Polska",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for this name; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "watchdog_polska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-b208b9a9",
+     "subject": "ISP",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for the name as written in the request; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "isp",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-4976b406",
+     "subject": "INPRIS",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for the name as written in the request; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "inpris",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-619aa202",
+     "subject": "CEO",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for the name as written in the request; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-f93a0920",
+     "subject": "HFHR",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for this name; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-793c92ec",
+     "subject": "Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "appears as a grantee or applicant in the panel results or votes",
+     "object": "Protocol of the PROO Priorytet 4 Edycja 2025 expert panel (12 marca 2025 r.)",
+     "object_type": "document",
+     "kind": "grant_or_donation",
+     "evidence_translation": "No occurrence of this name in the page text.",
+     "evidence_location": "Whole protocol text",
+     "label": "no_link",
+     "label_scope": "Checked the protocol text for this name; not present. The protocol covers PROO Priorytet 4 Edycja 2025 only.",
+     "access": "page_read",
+     "evidence_check": "empty",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-T5",
+   "url": "https://www.infor.pl/akt-prawny/U06.2025.349.0000209,zarzadzenie-ministra-sprawiedliwosci-zmieniajace-zarzadzenie-w-sprawie-powolania-komisji-konkursowej-do-spraw-wyboru-ofert-w-otwartym-konkursie-ofert-nr-12025-na-powierzenie-realizacji-zadan-ze-srodko.html",
+   "host": "infor.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "blocked",
+   "fetch_note": "The fetch proxy rejected the request: HTTP 403, error_type PROXY_REJECTED, source proxy, message 'url exceeds the maximum fetchable length'. No page text was retrieved. This is a permanent rejection for this URL: sending it again would fail the same way, so it was not retried and no shorter variant was tried.",
+   "capture_answer": "Not read. The page could not be retrieved, so the order's date, signatory, committee members and their roles, and the call budget are not known from this fetch.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "C5_domestic_public_money-T6",
+   "url": "https://www.sn.pl/pl/centralny-rejestr-umow-sadu-najwyzszego?rok=2026",
+   "host": "sn.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "error",
+   "fetch_note": "Not fetched: https://www.sn.pl/pl/centralny-rejestr-umow-sadu-najwyzszego?rok=2026 failed at its site (client_error), and nothing of the page was retrieved. This is a permanent failure for this URL: sending it again would fail the same way, so it was not retried and no variant was tried.",
+   "capture_answer": "Not read. The 2026 contract register could not be retrieved, so no 2024-2026 contract entries, names, amounts or dates are reported, and the eight Sejm-elected judges and the network organisations were not checked against it.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
   },
   {
    "ref": "C6_org_finances-T1",
@@ -7697,7 +8622,7 @@
      "evidence_check": "exact",
      "subject_map_id": "akcja_demokracja",
      "subject_map_status": "on_map",
-     "object_map_id": "swieczkowski",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     }
@@ -8368,7 +9293,7 @@
      "evidence_check": "exact",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
-     "object_map_id": "swieczkowski",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     }
@@ -9557,9 +10482,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-2397d6db",
@@ -9645,14 +10568,16 @@
      "label_scope": "None of these names is among the 80 granted rows, all of which are readable, and none appears in the 227 readable large-grant rows. Whether any of them applied with a large-grant score below 27.00 cannot be checked, because those rows are cut off in the extracted text. Other Equal Rights Programme rounds were not checked.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "okopress",
+     "subject_map_id": "osiatynski",
      "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "pair_already_linked",
      "existing_relations": [
-      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)",
-      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)"
+      "2017 grant paid for the Archive website",
+      "2017 grant paid for the Archive website",
+      "2017 grant paid for the Archive website",
+      "2017 grant paid for the Archive website"
      ]
     }
    ]
@@ -9882,9 +10807,7 @@
      "label_scope": "Covers the total for all four countries. The Polish share is in C1_eu_money-P4.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "danube_cfr",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -10166,9 +11089,7 @@
      "evidence_check": "exact",
      "subject_map_id": "eea",
      "subject_map_status": "on_map",
-     "object_map_id": "okopress",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-ae907e33",
@@ -10190,9 +11111,7 @@
      "evidence_check": "exact",
      "subject_map_id": "eea",
      "subject_map_status": "on_map",
-     "object_map_id": "okopress",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-7968068b",
@@ -10210,18 +11129,9 @@
      "label_scope": "Stated plan for the grant at award time; the page does not report what was actually delivered.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "okopress",
-     "subject_map_status": "on_map",
      "object_map_id": "osiatynski",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "founded the archive (2017)",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
-      "founded the archive (2017)",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-654e4f6b",
@@ -10238,18 +11148,9 @@
      "label_scope": "The organisation's own description in its grant record; it adds the English-language Rule of Law in Poland service to the existing map tie.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "okopress",
-     "subject_map_status": "on_map",
      "object_map_id": "osiatynski",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "founded the archive (2017)",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
-      "founded the archive (2017)",
-      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-372fc5e8",
@@ -10275,13 +11176,7 @@
      "evidence_check": "exact",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
-     "object_map_id": "okopress",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)",
-      "2017: PLN 100,000 for the Wiktor Osiatyński Archive (documenting breaches of law by public authorities)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-ab92b710",
@@ -10745,9 +11640,7 @@
      "label_scope": "Checked on this page only: no Iustitia, Themis, National School of Judiciary or named judges appear. Calls on judicial independence are listed, but no grantees are named.",
      "access": "page_read",
      "evidence_check": "found_in_reader_extract_only",
-     "object_map_id": "iustitia",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -11927,8 +12820,6 @@
      "evidence_check": "exact",
      "subject_map_id": "osf",
      "subject_map_status": "on_map",
-     "object_map_id": "osf",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -12066,8 +12957,12 @@
    "publisher": "Ministerstwo Sprawiedliwości (gov.pl)",
    "capture_answer": "The MoJ register for 2024 (visible rows January to mid-June 2024, Bodnar's term as minister) lists paid opinion contracts. Patyra: PLN 3,000 (5 Jan, prosecution law). Rakowska's law office: PLN 3,001.20 and Kuca: PLN 3,000 (5 Jan, art. 47 of the 2016 introductory act to the Prosecution Law). Zalasiński, Urbaniak and Zaleśny: PLN 4,000 each (17-24 Jan, scope of TK interim measures). Kmieciak: two rows of PLN 3,723 (26 Feb, effects of the TK interim orders of 1 Feb 2024). Piotrowski: PLN 4,000 (4 Mar, effects of TK interim orders). Future TK judge Dziurda: PLN 8,000 (2-22 Apr, analysis of the draft law transposing the EU representative-actions directive). Other rows cover seconding judges to the MoJ, cancelling judicial competitions, presidential consent to deputy prosecutor appointments, lay judges (Gwizdak, PLN 20,333.23) and an audit firm's Justice Fund analysis (PLN 142,950.60). The visible rows contain no contract with the other six Sejm-elected TK judges, nor with Batory, HFHR, Iustitia, Themis or Free Courts.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:59:38.085Z",
+    "http": null,
+    "content_type": null,
+    "chars": 41178,
+    "sha256": "db895e7f4bef16b8edd049bb520c76e712ac87f4065372dbcc411097c8623d69",
+    "url_read": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku"
    },
    "names_listed": [
     "Patyra Sławomir",
@@ -12099,7 +12994,7 @@
     "Fundacja Medycyny Prenatalnej im. Ernesta Wójcickiego",
     "KAMA MAŚLANKIEWICZ sp. j."
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "13/28",
    "followup_urls": [
     {
      "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3195/body",
@@ -12126,8 +13021,8 @@
      "new_entities": [
       "moj: Ministry of Justice (Ministerstwo Sprawiedliwości), candidate id from sweep 2, not yet on map"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "patyra",
@@ -12150,8 +13045,8 @@
      "evidence_location": "register table, end of the subject field of row MS/4660/BF/2024 (Grzegorz Kuca), on the temporal scope of art. 47 of that act. Rakowska's row MS/4613/BF/2024 ends 'Prawo o prokuraturze”'.",
      "label": "speculation",
      "label_scope": "Rests on three opinion contracts, all dated 5 Jan 2024 and due 7 Jan 2024. They went to the three authors the map lists for the Barski opinions published 12 Jan 2024 (Patyra, Rakowska, Kuca), and their subjects are prosecution law and art. 47 of the act cited as Dz.U. 2016 poz. 178. The register does not name Barski or the published opinions.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "patyra",
      "subject_map_status": "on_map",
      "object_map_id": "barski_opinions",
@@ -12180,8 +13075,8 @@
      "evidence_location": "register table, row MS/4613/BF/2024 (subject 'Zakres czasowego stosowania art. 47 ustawy ... Prawo o prokuraturze”', term '07.01.2024', value '3 001,20')",
      "label": "fact",
      "label_scope": "contract as entered in the register. The contractor is her law office; the map entity is Anna Rakowska (Univ. of Łódź).",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "rakowska",
@@ -12207,8 +13102,8 @@
      "new_entities": [
       "Grzegorz Kuca (co-author of the Barski opinions per map edge barski_opinions)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12229,8 +13124,8 @@
      "evidence_location": "register table, row MS/4887/BF/2024 (subject ends 'w celu ochrony zbiorowych interesów konsumentów .', term '02-22.04.2024 r.', value '8 000,00')",
      "label": "fact",
      "label_scope": "Contract, date, term and value are verbatim. The directive (2020/1828) is identified from the rest of the same row, which was not captured verbatim. The contract falls in Bodnar's term as minister; it is a consumer-law job, not a TK opinion.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "dziurda",
@@ -12253,8 +13148,8 @@
      "evidence_location": "register table, row MS/4608/BF/2024 (subject 'Jaki jest zakres przedmiotowy i temporalny formułowania zabezpieczenia tymczasowego przez Trybunał Konstytucyjny ... przed Trybunałem Konstytucyjnym?.', term '19.01.2024', value '4 000,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register. Zalasiński is on the map as a Batory Legal Experts Team member and named co-author of the coalition TK bills.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zalasinski",
@@ -12280,8 +13175,8 @@
      "new_entities": [
       "Krzysztof Urbaniak (constitutional lawyer, Adam Mickiewicz University Poznań)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12305,8 +13200,8 @@
      "new_entities": [
       "Jacek Zaleśny (constitutional lawyer, UW and Łazarski University)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12330,8 +13225,8 @@
      "new_entities": [
       "Zbigniew Kmieciak"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12355,8 +13250,8 @@
      "new_entities": [
       "Ryszard Piotrowski (constitutional law professor)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "not_found_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "not_found",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12377,8 +13272,8 @@
      "evidence_location": "register table, row MS/4651/BF/2024 (term '31.01.2024', value '8 856,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12399,8 +13294,8 @@
      "evidence_location": "register table, row MS/4745/BF/2024 (value '6 150,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12421,8 +13316,8 @@
      "evidence_location": "register table, row MS/4866/BF/2024 (row ends 'kim wymiarze sprawiedliwości;24.04-24.06.2024 r.; 20 333,23')",
      "label": "fact",
      "label_scope": "contract as entered in the register; no tie of Gwizdak to the network organisations is shown on the page",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12443,8 +13338,8 @@
      "evidence_location": "register table, row MS/4765/BF/2024 (term 'do 12.03.2024', value '5 000,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register; corroborated by written question 3178 (C5_domestic_public_money-P5)",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12465,8 +13360,8 @@
      "evidence_location": "register table, row MS/4740/BF/2024 (value '5 000,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12487,8 +13382,8 @@
      "evidence_location": "register table, row MS/4589/BF/2024 (value '4 787,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register; who is to be dismissed or suspended was not captured",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12509,8 +13404,8 @@
      "evidence_location": "register table, row MS/4585/BF/2024 (value '6 150,00')",
      "label": "fact",
      "label_scope": "contract as entered in the register; the opinion's author within the university is not named",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12534,8 +13429,8 @@
      "new_entities": [
       "Audit4You Barbara Ciemała (audit firm; Justice Fund review 2024)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12554,8 +13449,8 @@
      "evidence_location": "register header row; contractor column checked for these names",
      "label": "no_link",
      "label_scope": "Only the rows visible on the page were checked (contracts concluded January to about mid-June 2024). Rows after MS/4930/BDG/2024 (17 Jun 2024) and the 2025-2026 registers were not seen.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "korwin_piotrowska",
@@ -12576,8 +13471,8 @@
      "evidence_location": "register header row; contractor and subject columns checked for Batorego, Helsińsk, Iustitia, Themis, Wolne Sądy, KRS",
      "label": "no_link",
      "label_scope": "Only the visible rows (January to about mid-June 2024) were checked. The register covers contracts, not grants (dotacje).",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "free_courts",
@@ -12598,14 +13493,18 @@
    "publisher": "Sejm RP (api.sejm.gov.pl)",
    "capture_answer": "Dariusz Matecki asks the Minister of Justice for the full contract MS/4890/BF/2024 of 4 Mar 2024 with Prof. Ryszard Piotrowski (PLN 4,000) for an opinion on the legal effects of TK interim orders. He also asks for the opinion itself, which TK orders it analysed (by case number), whether and how the ministry used it, the acceptance and payment dates, and who approved it.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:57:41.203Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1436,
+    "sha256": "81b21c182e29665159a8aa72376f479d82c7140eecc4637c128c576d7a69cfd9",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3180/body"
    },
    "names_listed": [
     "Dariusz Matecki",
     "Ryszard Piotrowski"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "1/2",
    "claims": [
     {
      "id": "B03-cfe06c53",
@@ -12624,8 +13523,8 @@
      "new_entities": [
       "Dariusz Matecki (MP; author of written questions 3178 and 3180 on MoJ 2024 opinion contracts)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12646,8 +13545,8 @@
      "evidence_location": "question text, contract description",
      "label": "fact",
      "label_scope": "amount and contract as described in the MP's question; matches register row MS/4890/BF/2024 (C5_domestic_public_money-P1)",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12666,8 +13565,12 @@
    "publisher": "Hosted on niw.gov.pl (National Freedom Institute - Centre for Civil Society Development, NIW-CRSO); the document itself names no publisher",
    "capture_answer": "Fundacja Kultura Liberalna (Warsaw, application 77143) passed formal evaluation in PROO Priority 1B, 2025 edition. None of the core network organisations is on this 4-entry list.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.124Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 607,
+    "sha256": "40e16ce6440f83698894da7ef88e5e8fe225d5bcade4df0973d7537b3f093a41",
+    "url_read": "https://niw.gov.pl/wp-content/uploads/2025/03/PROO-2025-lista-wnioskow-ocenionych-pozytywnie-formalnie.pdf"
    },
    "names_listed": [
     "Polska Fundacja im. Roberta Schumana",
@@ -12675,7 +13578,7 @@
     "Fundacja Ochrony Dziedzictwa Przemysłowego Śląska",
     "Fundacja Kultura Liberalna"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "4/4",
    "followup_urls": [
     {
      "url": "https://niw.gov.pl/wp-content/uploads/2025/03/Protokol-z-panelu-ekspertow-PROO-2024-4.pdf",
@@ -12700,8 +13603,8 @@
      "new_entities": [
       "niw: National Freedom Institute - Centre for Civil Society Development (NIW-CRSO), state grant-maker for NGOs (PROO, NOWEFIO)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kultura_liberalna",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12720,8 +13623,8 @@
      "evidence_location": "document heading; all 4 rows checked",
      "label": "no_link",
      "label_scope": "Only this 4-entry PROO Priority 1B 2025 formal-evaluation list was checked. Other PROO priorities and editions, NOWEFIO and other NIW programmes were not.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "repressed_judges_fund",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12740,15 +13643,19 @@
    "publisher": "Ministerstwo Sprawiedliwości (gov.pl)",
    "capture_answer": "On 23 Jan 2024 the MoJ published three legal opinions, by Krzysztof Urbaniak, Tomasz Zalasiński and Jacek Zaleśny, on the legal and factual basis and the legality of the TK's interim order Ts 9/24. The same three names appear in the 2024 register with PLN 4,000 contracts on TK interim measures.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.669Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 18248,
+    "sha256": "5c5cd760f7fab60f38ae1da8968e1a741d40b11725c06bacd720ff4238c69ba3",
+    "url_read": "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-prawnych-i-faktycznych-podstaw-wydania-przez-tk-postanowienia-o-sygnaturze-ts-924-oraz-jego-legalnosci"
    },
    "names_listed": [
     "dr hab. Krzysztof Urbaniak",
     "dr Tomasz Zalasińki (byline spelling; bio spells Zalasiński)",
     "dr hab. Jacek Zaleśny"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "2/3",
    "followup_urls": [
     {
      "url": "https://www.gov.pl/attachment/652b2667-e216-498f-bfcf-4e938ce3ebb0",
@@ -12778,8 +13685,8 @@
      "evidence_location": "attachment list, item 2 (0.27MB), https://www.gov.pl/attachment/652b2667-e216-498f-bfcf-4e938ce3ebb0",
      "label": "fact",
      "label_scope": "publication of the opinion by the ministry; the page does not say who commissioned it or whether it was paid",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zalasinski",
@@ -12800,8 +13707,8 @@
      "evidence_location": "opinion list, item 1 (attachment OPINIA_PRAWNA_URBANIAK_KRZYSZTOF.pdf)",
      "label": "fact",
      "label_scope": "publication and the description given on the page",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12820,8 +13727,8 @@
      "evidence_location": "opinion list, item 3 (attachment OPINIA_PRAWNA_ZALEŚNY_JACEK.pdf)",
      "label": "fact",
      "label_scope": "publication and the description given on the page",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12842,13 +13749,11 @@
      "evidence_location": "page title",
      "label": "speculation",
      "label_scope": "Rests on the same three authors and the same subject (TK interim measures) in the 2024 register (C5_domestic_public_money-P1) and on this page, within one week. Neither page states that these contracts paid for these opinions.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "zalasinski",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -12864,14 +13769,18 @@
    "publisher": "Sejm RP (api.sejm.gov.pl)",
    "capture_answer": "Dariusz Matecki asks the MoJ about contract MS/4765/BF/2024 of 6 Mar 2024 with Marcin Dąbrowski (PLN 5,000) for an opinion on the President's opinion and written consent. He asks for the contract, the opinion, its scope and use, and the acceptance and payment dates.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.096Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1333,
+    "sha256": "02c54d44c795655b6746f4fef0eca51c0d47bbf5a77689c64dde1613200fad71",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3178/body"
    },
    "names_listed": [
     "Dariusz Matecki",
     "Marcin Dąbrowski"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "1/2",
    "followup_urls": [
     {
      "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3179/body",
@@ -12893,8 +13802,8 @@
      "evidence_location": "question title",
      "label": "fact",
      "label_scope": "that the question was filed and what it asks; no answer is on the page",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12915,8 +13824,8 @@
      "evidence_location": "question text",
      "label": "fact",
      "label_scope": "amount and date as stated in the MP's question; matches register row MS/4765/BF/2024 (C5_domestic_public_money-P1)",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -12935,8 +13844,12 @@
    "publisher": "Ministerstwo Finansów, Departament Podatków Dochodowych (podatki.gov.pl)",
    "capture_answer": "None of the nine organisations is among the 30 largest 1.5% recipients in 2026 (30th place: PLN 10,801,810.40). In all, OPPs received PLN 2,607.4m from about 17.2m taxpayers (2025 tax year). Per-organisation amounts are only in Załącznik nr 2, which was not found.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.115Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 7492,
+    "sha256": "cf88f067c49a6372613480ac1e807e2ee5b896278f114655063dea9969297b1c",
+    "url_read": "https://www.podatki.gov.pl/media/pfapy5nw/informacja-dotycząca-15-kwot-należnego-podatku-pit-przekazanych-opp-w-2026-roku.pdf"
    },
    "followup_urls": [
     {
@@ -12965,8 +13878,8 @@
      "evidence_location": "Section 4 'Wykaz 30 organizacji, które otrzymały najwyższe kwoty', last row (columns Numer KRS / Nazwa organizacji pożytku publicznego / Kwota w zł)",
      "label": "no_link",
      "label_scope": "Only the top-30 table was checked. None of the nine organisations appears in it, so each received less than PLN 10,801,810.40 in 2026. Their exact amounts are in Załącznik nr 2, which this PDF does not contain.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "repressed_judges_fund",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12985,8 +13898,12 @@
    "publisher": "Helsińska Fundacja Praw Człowieka (HFHR)",
    "capture_answer": "HFHR KRS 0000035831. Board for 2025: Maciej Nowicki (Prezes), Piotr Kładoczny (Wiceprezes), Marcin Wolny (Skarbnik), Małgorzata Szuleka (Sekretarz), Aleksandra Iwanowska (Członek). Foundation Council, chaired by Danuta Przywara: Ireneusz Kamiński, Mirosław Wyrzykowski, Andrzej Rzepliński, Wojciech Sadurski, Henryka Bochniarz, Witolda Osiatyńska, Hanna Machińska. No appointment dates are given. Income, 1.5% and pay figures were not obtained.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.167Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 19944,
+    "sha256": "5dd4f88403338f5f8bed3a7bfb56b64d7fdb6c6ff9912b3cc35c73095ee4bd64",
+    "url_read": "https://hfhr.pl/upload/2026/07/hfpc-sprawozdanie-merytoryczne-za-2025.pdf"
    },
    "names_listed": [
     "Maciej Nowicki (Prezes Zarządu)",
@@ -13003,7 +13920,7 @@
     "Witolda Osiatyńska (Członek Rady Fundacji)",
     "Hanna Machińska (Członek Rady Fundacji)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/13",
    "followup_urls": [
     {
      "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
@@ -13033,8 +13950,8 @@
      "evidence_location": "Part I (basic data), items 5-6; header line 'Data zamieszczenia sprawozdania 2026-07-15'",
      "label": "fact",
      "label_scope": "Registry numbers as stated in HFHR's own OPP report for 2025.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13056,8 +13973,8 @@
      "new_entities": [
       "Maciej Nowicki (HFHR Prezes Zarządu)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "nowicki",
      "subject_map_status": "haiku_branch_only",
      "object_map_id": "hfhr",
@@ -13084,8 +14001,8 @@
      "new_entities": [
       "Piotr Kładoczny (HFHR Wiceprezes Zarządu)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13107,8 +14024,8 @@
      "new_entities": [
       "Marcin Wolny (HFHR Skarbnik Zarządu)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13130,8 +14047,8 @@
      "new_entities": [
       "Małgorzata Szuleka (HFHR Sekretarz Zarządu)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13153,8 +14070,8 @@
      "new_entities": [
       "Aleksandra Iwanowska (HFHR board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13176,8 +14093,8 @@
      "new_entities": [
       "Danuta Przywara (chair, HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13199,13 +14116,11 @@
      "new_entities": [
       "Ireneusz Kamiński (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
-     "subject_map_id": "kaminski_piotr",
-     "subject_map_status": "haiku_branch_only",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-184af8e3",
@@ -13224,8 +14139,8 @@
      "new_entities": [
       "Mirosław Wyrzykowski (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13247,8 +14162,8 @@
      "new_entities": [
       "Andrzej Rzepliński (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13270,8 +14185,8 @@
      "new_entities": [
       "Wojciech Sadurski (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13293,8 +14208,8 @@
      "new_entities": [
       "Henryka Bochniarz (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13316,8 +14231,8 @@
      "new_entities": [
       "Witolda Osiatyńska (HFHR Foundation Council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13336,8 +14251,8 @@
      "evidence_location": "Part I, Rada Fundacji table",
      "label": "fact",
      "label_scope": "Council as listed in HFHR's OPP report for 2025. Name decoded from a mis-encoded font. No dates given.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "machinska",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -13490,8 +14405,12 @@
    "publisher": "Fundacja Akcja Demokracja",
    "capture_answer": "Akcja Demokracja: KRS 0000552033, in KRS since 2015-04-08, OPP since 2017-12-07. Board for 2024: Jakub Kocjan (Prezes), Anna Tomaszewska (Wiceprezeska), Bogumił Kolmasiak, Marcin Zielonka, and Aneta Korpikiewicz (not entered in KRS). Council: Krystyna Zowczak-Jastrzębska, Marcin Koziej, Maria Świetlik, Kinga Łozińska. No income or donor data was obtained.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T01:00:15.369Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 20358,
+    "sha256": "0b69b610c314c7d8c9cdafd734eac2892df84745e60f134c459ca40ef58f7ed5",
+    "url_read": "https://www.akcjademokracja.pl/wp-content/uploads/2025/07/Sprawozdanie-merytoryczne-za-2024-rok.pdf"
    },
    "names_listed": [
     "Jakub Kocjan (Prezes Zarządu)",
@@ -13504,7 +14423,7 @@
     "Maria Świetlik (Członkini Rady; decoded)",
     "Kinga Łozińska (Członkini Rady; decoded)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/9",
    "followup_urls": [
     {
      "url": "https://www.bizraport.pl/krs/0000552033/akcja-demokracja",
@@ -13534,8 +14453,8 @@
      "evidence_location": "Part I (basic data), items 5-6; header 'Data zamieszczenia sprawozdania 2025-07-01'",
      "label": "fact",
      "label_scope": "As stated in Akcja Demokracja's own OPP report for 2024.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "akcja_demokracja",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13554,8 +14473,8 @@
      "evidence_location": "Part I item 4; its value '2017-12-07' is on its own line below. Item 3 ('Data rejestracji w Krajowym Rejestrze Sądowym', mis-encoded) has '2015-04-08'",
      "label": "fact",
      "label_scope": "Dates matched to labels by the order of items 3 and 4 in the form. Labels decoded from a mis-encoded font.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "akcja_demokracja",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13577,8 +14496,8 @@
      "new_entities": [
       "Jakub Kocjan (Akcja Demokracja board president)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13600,8 +14519,8 @@
      "new_entities": [
       "Anna Tomaszewska (Akcja Demokracja vice-president)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13623,8 +14542,8 @@
      "new_entities": [
       "Bogumił Kolmasiak (Akcja Demokracja board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13646,8 +14565,8 @@
      "new_entities": [
       "Marcin Zielonka (Akcja Demokracja board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13669,8 +14588,8 @@
      "new_entities": [
       "Aneta Korpikiewicz (Akcja Demokracja board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13692,8 +14611,8 @@
      "new_entities": [
       "Krystyna Zowczak-Jastrzębska (Akcja Demokracja council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "not_found_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13715,8 +14634,8 @@
      "new_entities": [
       "Marcin Koziej (Akcja Demokracja council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13738,8 +14657,8 @@
      "new_entities": [
       "Maria Świetlik (Akcja Demokracja council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13761,8 +14680,8 @@
      "new_entities": [
       "Kinga Łozińska (Akcja Demokracja council)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "akcja_demokracja",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13781,8 +14700,12 @@
    "publisher": "BizRaport (KRS data aggregator)",
    "capture_answer": "KOD (KRS 0000604562, registered 2016-03-01): revenue PLN 5,729,678 (2023), PLN 1,266,495 (2024), PLN 3,033,040 (2025). Net result PLN 594,799 / -556,012 / 157,203. Nine-member board led by Jakub Karyś; five-member audit committee. No income breakdown, donors, 1.5% figure or dates.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T01:00:15.228Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 37281,
+    "sha256": "94e7c8b255ad047d788173149c81b2bbad9fedb15de0dbd0f45bfb9662a3d9af",
+    "url_read": "https://www.bizraport.pl/krs/0000604562/komitet-obrony-demokracji"
    },
    "names_listed": [
     "Jakub Karyś (przewodniczący zarządu)",
@@ -13800,7 +14723,7 @@
     "Andrzej Jędrzejczyk (komisja rewizyjna)",
     "Ilona Oleksiuk (komisja rewizyjna)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/14",
    "followup_urls": [
     {
      "url": "https://krs-pobierz.pl/komitet-obrony-demokracji-i6220920",
@@ -13830,8 +14753,8 @@
      "evidence_location": "Registry data, field labelled 'Rejestracja'",
      "label": "fact",
      "label_scope": "Registry data as displayed by BizRaport, a KRS-based aggregator.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13852,8 +14775,8 @@
      "evidence_location": "Financial data, revenue (przychody) list",
      "label": "fact",
      "label_scope": "Figure as displayed by BizRaport from filed statements; not checked against the filed document; income sources not broken down.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
      "object_map_id": "kod",
@@ -13876,8 +14799,8 @@
      "evidence_location": "Financial data, revenue (przychody) list",
      "label": "fact",
      "label_scope": "Figure as displayed by BizRaport from filed statements; not checked against the filed document; income sources not broken down.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
      "object_map_id": "kod",
@@ -13900,8 +14823,8 @@
      "evidence_location": "Financial data, revenue (przychody) list",
      "label": "fact",
      "label_scope": "Figure as displayed by BizRaport from filed statements; not checked against the filed document; income sources not broken down.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
      "object_map_id": "kod",
@@ -13924,8 +14847,8 @@
      "new_entities": [
       "Jakub Karyś (KOD board chairman)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13946,8 +14869,8 @@
      "new_entities": [
       "Joanna Lasko (KOD deputy chair)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13968,8 +14891,8 @@
      "new_entities": [
       "Piotr Szafraniec (KOD deputy chair and treasurer)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13990,8 +14913,8 @@
      "new_entities": [
       "Bartłomiej Kowalczyk (KOD board secretary)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14012,8 +14935,8 @@
      "new_entities": [
       "Marlena Lesiak (KOD board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14034,8 +14957,8 @@
      "new_entities": [
       "Olimpia Mainka (KOD board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14056,8 +14979,8 @@
      "new_entities": [
       "Sławomir Majdański (KOD board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14078,8 +15001,8 @@
      "new_entities": [
       "Ewa Topór Nawarecka (KOD board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14100,8 +15023,8 @@
      "new_entities": [
       "Jacek Wiśniewski (KOD board member)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14122,8 +15045,8 @@
      "new_entities": [
       "KOD audit committee: Stanisław Adamski, Paweł Bień, Zygmunt Czapluk, Andrzej Jędrzejczyk, Ilona Oleksiuk"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "kod",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14142,14 +15065,18 @@
    "publisher": "Kancelaria Sejmu (signed by Jacek Cichocki, Szef Kancelarii Sejmu)",
    "capture_answer": "The Sejm Chancellery's report on professional lobbying in 2024. 26 of about 574 registered entities declared activity towards the Sejm, and they sent 3 written submissions. None concerned the TK, the KRS, the courts or the prosecution service. A public hearing on the MPs' TK bills (druk 253 and 254) took place on 24 May 2024, and no lobbyists took part in any 2024 hearing. The Batory Foundation does not appear in the report.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T01:00:15.250Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 30623,
+    "sha256": "6866e201de53fa3d940b52a8b22591549e76a91d2da7775ab814ba2ceba84ad1",
+    "url_read": "https://sejm.gov.pl/lobbing/informacja_roczna_2024.pdf"
    },
    "names_listed": [
     "Jacek Cichocki (Szef Kancelarii Sejmu, signatory)",
     "Franciszek Robert Skawiński (registered lobbyist no. 00508; declared interest in the law on the ordinary and administrative court system; no reported Sejm activity)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/2",
    "claims": [
     {
      "id": "B03-0a03994f",
@@ -14165,8 +15092,8 @@
      "evidence_location": "Section on public hearings (wysłuchania publiczne) held in 2024, around p. 9",
      "label": "fact",
      "label_scope": "The report states that the hearing took place and gives its date and print number.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "tk_bills_2024",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14184,8 +15111,8 @@
      "evidence_location": "Section on public hearings, around p. 8",
      "label": "no_link",
      "label_scope": "Covers only registered professional lobbying reported to the Sejm Chancellery for 2024. The report lists 3 written submissions in 2024, none on the TK, the KRS, the courts or the prosecution service. It says nothing about unregistered advocacy or about who drafted the bills.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "tk_bills_2024",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14203,8 +15130,8 @@
      "evidence_location": "Summary of registered entities declaring Sejm activity",
      "label": "no_link",
      "label_scope": "Checks only whether the Batory Foundation appears as a registered professional lobbyist or in reported lobbying of the Sejm in 2024; it does not. The PiS MPs' allegation already on the map (that the TK bills drafted by Batory experts were illegal lobbying) concerns unregistered drafting work. This report neither confirms nor refutes it.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -14223,15 +15150,19 @@
    "publisher": "Ministerstwo Sprawiedliwości (gov.pl)",
    "capture_answer": "On 23 Jan 2024 the MoJ published three legal opinions on the legal basis and legality of the TK's interim order Ts 9/24. The authors are dr hab. Krzysztof Urbaniak (prof. UAM, legal adviser), dr Tomasz Zalasiński (legal adviser, State Tribunal member 2019-2023) and dr hab. Jacek Zaleśny (University of Warsaw and Łazarski University). The page does not say who commissioned the opinions or whether they were paid. The MoJ's 2024 contract register (P4) shows PLN 4,000 contracts with each of the three authors.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:58:35.669Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 18248,
+    "sha256": "5c5cd760f7fab60f38ae1da8968e1a741d40b11725c06bacd720ff4238c69ba3",
+    "url_read": "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-prawnych-i-faktycznych-podstaw-wydania-przez-tk-postanowienia-o-sygnaturze-ts-924-oraz-jego-legalnosci"
    },
    "names_listed": [
     "dr hab. Krzysztof Urbaniak (prof. UAM w Poznaniu; radca prawny; deputy dean, Okręgowa Rada Izby Radców Prawnych w Poznaniu; Polish Association of Constitutional Law)",
     "dr Tomasz Zalasiński (radca prawny; member of the State Tribunal 2019-2023; Polish Association of Constitutional Law)",
     "dr hab. Jacek Zaleśny (University of Warsaw and Łazarski University; Polish Association of Constitutional Law; board of the Polish Association of Political Science)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/3",
    "followup_urls": [
     {
      "url": "https://www.gov.pl/attachment/652b2667-e216-498f-bfcf-4e938ce3ebb0",
@@ -14261,8 +15192,8 @@
      "evidence_location": "Opening paragraph",
      "label": "fact",
      "label_scope": "The page says the ministry 'presents' the opinions. It does not say who commissioned them or whether they were paid. The MoJ 2024 contract register (C7_firms_contracts-P4) lists PLN 4,000 work contracts with each author.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "tk",
@@ -14283,8 +15214,8 @@
      "evidence_location": "Author byline; author bios below",
      "label": "fact",
      "label_scope": "Authorship as listed. The byline spells the name 'Zalasińki'; the bio and the attachment name read Zalasiński. His bio there: legal adviser and State Tribunal member 2019-2023.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "zalasinski",
      "subject_map_status": "on_map",
      "object_map_id": "moj",
@@ -14308,8 +15239,8 @@
      "new_entities": [
       "Krzysztof Urbaniak"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14331,8 +15262,8 @@
      "new_entities": [
       "Jacek Zaleśny"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14351,15 +15282,19 @@
    "publisher": "Sejm RP (api.sejm.gov.pl)",
    "capture_answer": "Written question by MPs Dariusz Matecki and Zbigniew Ziobro to the Justice Minister, received 20 Feb 2026. It concerns MoJ contract MS/5286/DKO/2024 of 25 Nov 2024 with Hoffman Taborowski i Wspólnicy for PLN 4,920.00. The contract covered a work analysing documentation and court case law on judges' declarations to the KRS of their will to remain in office. The MPs ask for the full contract. The question does not name Maciej Taborowski or the TK.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T01:00:15.172Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1515,
+    "sha256": "1a252f68d0a737865d4f3f08f005b1ca470f16f4b2612619bc11765a0eeb606b",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body"
    },
    "names_listed": [
     "Dariusz Matecki (MP, co-author)",
     "Zbigniew Ziobro (MP, co-author)",
     "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska (contractor)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/3",
    "claims": [
     {
      "id": "B03-b8f58f92",
@@ -14377,8 +15312,8 @@
      "evidence_location": "Question text, first paragraph (amount in the same paragraph: 'na kwotę 4920,00 zł')",
      "label": "alleged",
      "label_scope": "The contract number, date and amount are as stated by MPs Dariusz Matecki and Zbigniew Ziobro in written question 3200. The MoJ's collective reply of 3 Apr 2026 (P5) neither confirms nor describes the contract, and the visible part of the MoJ's online 2024 register (P4) ends at 17 Jun 2024. The question does not name Maciej Taborowski; his partnership in the firm is already on the map.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "hoffman_taborowski",
@@ -14399,8 +15334,8 @@
      "evidence_location": "Question text, description of the contract's subject",
      "label": "alleged",
      "label_scope": "The contract's subject as described by the question's authors (Matecki, Ziobro). The contract itself was not seen.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "hoffman_taborowski",
      "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
@@ -14424,8 +15359,8 @@
      "new_entities": [
       "Dariusz Matecki"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "ziobro",
      "subject_map_status": "on_map",
      "object_map_id": "moj",
@@ -14445,8 +15380,12 @@
    "publisher": "Ministerstwo Sprawiedliwości (gov.pl)",
    "capture_answer": "In January-March 2024 the MoJ paid small fees (PLN 3,000-8,000) for legal opinions on the TK interim orders and on the National Prosecutor dispute. The TK-order opinions came from Zalasiński, Urbaniak, Zaleśny, Kmieciak and R. Piotrowski. The National Prosecutor opinions came from Patyra, Rakowska's law office and Kuca. Patyra and Dziurda became TK judges in 2026; Patyra was paid PLN 3,000 and Dziurda PLN 8,000 for an April 2024 analysis on a different subject. The MoJ also paid DemoCrisis PLN 31,500 to co-organise its April 2024 summit. The communications office (BK) bought media monitoring, social-media content and event services. No rule-of-law or TK information campaign appears in the visible rows.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:59:38.085Z",
+    "http": null,
+    "content_type": null,
+    "chars": 41178,
+    "sha256": "db895e7f4bef16b8edd049bb520c76e712ac87f4065372dbcc411097c8623d69",
+    "url_read": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku"
    },
    "names_listed": [
     "Kancelaria Radców Prawnych i Adwokatów „Lech Obara i Współpracownicy” (MS/4564/DPE/2023, 2024-01-03, legal services, 80 000,00)",
@@ -14477,7 +15416,7 @@
     "REWOLE Marcin Opęchowski (MS/4647/BK/2024, audio-video services for events, 273 800,00; MS/4596/BF/2024, 5 589,74)",
     "Polska Agencja Prasowa S.A. w likwidacji (MS/4806/BK/2024, PAP services, 67 342,50)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/27",
    "claims": [
     {
      "id": "B03-2c1ac953",
@@ -14495,8 +15434,8 @@
      "evidence_location": "Register row MS/4645/ BF/2024 (term to 07.01.2024; Wartosc umowy 3 000,00)",
      "label": "fact",
      "label_scope": "The register row states the contract, date, contractor, subject and value. That this is the paid version of the MoJ National Prosecutor opinions already on the map (barski_opinions) is an inference from the subject, the author and the timing; the row does not name Barski.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "patyra",
@@ -14519,8 +15458,8 @@
      "evidence_location": "Register row MS/4613/BF/2024 (subject on the temporal scope of Art. 47; term to 07.01.2024; value 3 001,20)",
      "label": "fact",
      "label_scope": "The register row states the contract. Linking this contractor to the map's Anna Rakowska (co-author of the Barski opinions) rests on the name and the matching subject and date.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "rakowska",
@@ -14546,8 +15485,8 @@
      "new_entities": [
       "Grzegorz Kuca"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14568,8 +15507,8 @@
      "evidence_location": "Register row MS/4608/BF/2024 (subject continues 'Jaki jest zakres przedmiotowy i temporalny form...' on TK interim measures; term to 19 Jan 2024; value 4 000,00)",
      "label": "fact",
      "label_scope": "The register row states the contract and fee. Matching it to the Ts 9/24 opinion published on 23 Jan 2024 (P2) rests on the same author, subject and dates.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zalasinski",
@@ -14595,8 +15534,8 @@
      "new_entities": [
       "Krzysztof Urbaniak"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14620,8 +15559,8 @@
      "new_entities": [
       "Jacek Zaleśny"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14645,8 +15584,8 @@
      "new_entities": [
       "Zbigniew Kmieciak"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14670,8 +15609,8 @@
      "new_entities": [
       "Ryszard Piotrowski"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14692,8 +15631,8 @@
      "evidence_location": "Register row MS/4887/BF/2024 (subject concerns the draft act transposing Directive (EU) 2020/1828 on representative actions; term 2-22 Apr 2024; value 8 000,00)",
      "label": "fact",
      "label_scope": "The register row states the contract and fee. The subject is the draft on representative actions, not the TK or the rule of law. The contract was signed two years before his 2026 election to the TK.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "dziurda",
@@ -14716,8 +15655,8 @@
      "evidence_location": "Register row MS/4857/BK/2024 (subject: 'Współorganizacja wydarzenia pn. DemoCrisis - Civic Action Network Summit...'; period 16-17.04.2024; value 31 500,00; REGON and NIP blank)",
      "label": "fact",
      "label_scope": "Shows a MoJ payment to DemoCrisis, a network the map lists as co-founded by Wawrykiewicz with undisclosed funders, under a communications-office (BK) contract. The row does not name Wawrykiewicz and does not show who else funded the summit.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "democrisis",
@@ -14743,8 +15682,8 @@
      "new_entities": [
       "Adam Ploszka"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14768,13 +15707,11 @@
      "new_entities": [
       "Dorota Pudzianowska Kancelaria Adwokacka"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "wawrykiewicz_law",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-e6cb5eda",
@@ -14795,8 +15732,8 @@
      "new_entities": [
       "Brand 24 S.A."
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14814,8 +15751,8 @@
      "evidence_location": "Column headings of the register; communications-office (BK) rows up to 17 Jun 2024",
      "label": "no_link",
      "label_scope": "Checked only the visible rows (2024 contracts up to 17 Jun 2024). The communications rows cover media monitoring, image and social-media analysis, video content, events and PAP services; none is described as an information campaign. Rows after 17 Jun 2024 were not visible.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14834,15 +15771,19 @@
    "publisher": "Ministerstwo Sprawiedliwości (via api.sejm.gov.pl)",
    "capture_answer": "A single reply dated 3 Apr 2026, signed by Secretary of State Arkadiusz Myrcha and addressed to Marshal Czarzasty. It answers MP Dariusz Matecki's 67 written questions on 86 MoJ civil-law contracts of 2024, including no. 3200 on the Hoffman Taborowski contract. The reply points to the published 2024 contract register, argues the questions do not meet the requirements for parliamentary questions, and asks the Marshal to accept one collective answer. It names no contractor, contract number or amount, and does not mention Taborowski, Hoffman, the TK, the KRS or any judge.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T01:00:15.253Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 5387,
+    "sha256": "2d9399759d01170f7f8109e9121b3b3a2eefcd279e63eb468504e9c9260f50ff",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf"
    },
    "names_listed": [
     "Arkadiusz Myrcha (Sekretarz Stanu, Ministerstwo Sprawiedliwości; signatory)",
     "Włodzimierz Czarzasty (Marshal of the Sejm; addressee)",
     "Dariusz Matecki (MP; author of the questions)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/3",
    "claims": [
     {
      "id": "B03-15f8932f",
@@ -14858,8 +15799,8 @@
      "evidence_location": "Opening paragraph; signature 'Arkadiusz Myrcha, Sekretarz Stanu'",
      "label": "fact",
      "label_scope": "The reply covers question 3200 by number only; it names no contractor.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "myrcha",
      "subject_map_status": "on_map",
      "object_map_id": "moj",
@@ -14882,8 +15823,8 @@
      "new_entities": [
       "Dariusz Matecki"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14901,8 +15842,8 @@
      "evidence_location": "Closing paragraph",
      "label": "no_link",
      "label_scope": "Checked whether the MoJ's reply confirms or describes contract MS/5286/DKO/2024 with Hoffman Taborowski i Wspólnicy. It does neither; it only points to the published register.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "hoffman_taborowski",
@@ -14922,8 +15863,8 @@
      "evidence_location": "Body of the reply (footnote 3 links to the register)",
      "label": "fact",
      "label_scope": "The MoJ's own statement. The online register is C7_firms_contracts-P4, whose visible text ends at 17 Jun 2024.",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "moj",
@@ -20720,42 +21661,6 @@
    "title": "Action For Democracy logo",
    "why": "Grant programme for Polish civil society run by Action for Democracy",
    "capture": "Funder identity and backers, size of the fund, dates, eligible or named Polish grantees and partner organisations"
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/289/body",
-   "why": "Early-2024 written question that surfaced in two searches on what the MoJ paid for its Barski opinions; content not verified.",
-   "capture": "Who asked and when; which opinions and authors are named (Patyra, Rakowska, Kuca); fees asked about; the link to the MoJ answer attachment with amounts and payment dates."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3195/body",
-   "why": "Part of Dariusz Matecki's Feb 2026 series of questions on MoJ 2024 opinion contracts (3178 and 3180 confirmed; 3158, 3163, 3167, 3179, 3182, 3188, 3189, 3192, 3196, 3200, 3217, 3220, 3223, 3228, 3238 surfaced alongside).",
-   "capture": "Contract number, contractor, amount and date in each question. Check whether any concern Patyra (MS/4645/BF/2024), Dziurda (MS/4887/BF/2024) or Zalasiński (MS/4608/BF/2024), and capture any MoJ reply on how the opinions were used and paid."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://bip.brpo.gov.pl/pl/rejestr-umow",
-   "why": "The Ombudsman's office contract register. Berek was its director general from 2021, Taborowski a deputy Ombudsman 2019-2021/22, and Free Courts co-founder Gregorczyk-Abram Ombudsman from Jul 2026.",
-   "capture": "2024-2026 contracts for expert opinions or legal services: contractor names, amounts, dates. Look for Free Courts, HFHR, Batory, INPRIS, Taborowski, Patyra, Szostek and Dziurda."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://niw.gov.pl/wp-content/uploads/2025/03/Protokol-z-panelu-ekspertow-PROO-2024-4.pdf",
-   "why": "NIW expert-panel minutes for PROO; may list the organisations awarded money and the amounts.",
-   "capture": "Grantee names and amounts; whether Kultura Liberalna (application 77143 in PROO 1B 2025), Watchdog Polska, ISP, INPRIS, CEO, HFHR or Akcja Demokracja were funded; the names of expert-panel members."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://www.infor.pl/akt-prawny/U06.2025.349.0000209,zarzadzenie-ministra-sprawiedliwosci-zmieniajace-zarzadzenie-w-sprawie-powolania-komisji-konkursowej-do-spraw-wyboru-ofert-w-otwartym-konkursie-ofert-nr-12025-na-powierzenie-realizacji-zadan-ze-srodko.html",
-   "why": "Minister of Justice order on the selection committee for Justice Fund call 1/2025.",
-   "capture": "Names and roles of committee members (possible network ties), the date and signatory (Bodnar or Żurek), and the call budget."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://www.sn.pl/pl/centralny-rejestr-umow-sadu-najwyzszego?rok=2026",
-   "why": "The Supreme Court's 2026 contract register; Dziurda worked in the SN Office of Studies and Analyses 2017-2023.",
-   "capture": "Expert-opinion or legal contracts in 2024-2026 with any of the eight Sejm-elected TK judges or network organisations: names, amounts, dates."
   },
   {
    "theme": "C5_domestic_public_money",

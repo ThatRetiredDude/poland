@@ -30,57 +30,55 @@
   ]
  },
  "stats": {
-  "agents": 17,
-  "agents_left_out_unfinished_or_other_batch": 16,
+  "agents": 19,
+  "agents_left_out_unfinished_or_other_batch": 15,
   "searches": 210,
   "search_results": 3414,
   "unique_result_urls": 2482,
-  "page_fetches": 130,
-  "pages_reported": 74,
-  "pages_with_page_text": 56,
+  "page_fetches": 153,
+  "pages_reported": 80,
+  "pages_with_page_text": 66,
   "fetch_status": {
-   "error": 7,
-   "ok": 54,
-   "partial": 9,
+   "error": 9,
+   "ok": 55,
+   "partial": 12,
    "empty": 3,
    "blocked": 1
   },
-  "claims": 546,
+  "claims": 602,
   "labels": {
-   "fact": 411,
-   "no_link": 107,
-   "alleged": 17,
-   "speculation": 11
+   "fact": 456,
+   "no_link": 113,
+   "alleged": 21,
+   "speculation": 12
   },
   "evidence_check": {
-   "exact": 391,
-   "normalized": 53,
-   "found_on_linked_page": 32,
-   "not_found": 16,
-   "found_in_reader_extract_only": 4,
-   "exact_in_reader_extract": 48,
-   "not_found_in_reader_extract": 2
+   "exact": 439,
+   "normalized": 74,
+   "found_on_linked_page": 46,
+   "not_found": 20,
+   "found_in_reader_extract_only": 23
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 315,
-   "pair_already_linked": 45,
-   "new_tie_between_known_entities": 68,
-   "both_names_unmatched": 118
+   "new_entity_or_unmatched_name": 330,
+   "pair_already_linked": 57,
+   "new_tie_between_known_entities": 60,
+   "both_names_unmatched": 155
   },
   "kinds": {
-   "nomination_or_vote": 64,
-   "other": 94,
-   "statement": 55,
+   "nomination_or_vote": 83,
+   "other": 106,
+   "statement": 68,
    "contract_or_fee": 36,
-   "role_or_job": 119,
+   "role_or_job": 121,
    "membership_or_board": 87,
    "grant_or_donation": 4,
-   "event_or_speech": 64,
+   "event_or_speech": 65,
    "ownership": 4,
-   "legal_action": 19
+   "legal_action": 28
   },
   "title_only_leads": 272,
-  "to_read_unread": 26,
+  "to_read_unread": 20,
   "nothing_found": 58,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -565,9 +563,7 @@
      "label_scope": "The Ministry's statement of the current legal position. It adds that the regulation does not, as a rule, give the Minister of Justice power to verify on whose behalf members provide their services.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "codification_commission",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-dc918541",
@@ -1417,9 +1413,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "rpo_office",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-e28e9fb3",
@@ -1439,9 +1433,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "rpo_office",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-74a10e02",
@@ -1775,9 +1767,7 @@
      "access": "page_read",
      "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
      "evidence_check": "found_on_linked_page",
-     "subject_map_id": "pis_meps",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-eb576532",
@@ -2183,9 +2173,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "uw",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-08e267e9",
@@ -2838,7 +2826,7 @@
      "evidence_check": "exact",
      "subject_map_id": "orlen",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
+     "object_map_id": "rpo_office",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     }
@@ -2937,9 +2925,7 @@
      "label_scope": "Bio says 'Currently'.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "orlen",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-50688338",
@@ -3072,9 +3058,7 @@
      "label_scope": "Bio states it. No dates given.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-8d4cbca5",
@@ -3091,9 +3075,7 @@
      "label_scope": "Bio names no companies or dates.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "orlen",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -3136,9 +3118,7 @@
      "label_scope": "Bio does not name the body. Also says she served as Deputy Director of the Legal Department and Audit Jurisprudence.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "orlen",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -3365,9 +3345,7 @@
      "label_scope": "Bio states it. Past.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-8ffcb4ee",
@@ -3385,9 +3363,7 @@
      "label_scope": "Bio does not name the appointing body.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -3748,9 +3724,7 @@
      "access": "page_read",
      "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "linklaters",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -4423,9 +4397,7 @@
      "evidence_location": "Speaker block under '## Paweł Majcher', Company and Position fields",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-eb575d6d",
@@ -4443,9 +4415,7 @@
      "date": "2009 to 2012",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-af1d7680",
@@ -4462,9 +4432,7 @@
      "evidence_location": "Bio paragraph under the speaker name",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-27be741f",
@@ -4481,9 +4449,7 @@
      "evidence_location": "Bio paragraph under the speaker name",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-d0b83e6f",
@@ -4501,9 +4467,7 @@
      "date": "1990s",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-86e5e847",
@@ -4521,11 +4485,7 @@
      "date": "24.04.2026 • 11:30 - 13:00",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "object_map_id": "uni_silesia",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-8dd95fc3",
@@ -4559,9 +4519,7 @@
      "evidence_location": "Speaker block and bio",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-472176cc",
@@ -4578,9 +4536,7 @@
      "evidence_location": "Bio, first sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -5881,9 +5837,7 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "carnegie_endowment",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-3712b73b",
@@ -5902,9 +5856,7 @@
      "access": "page_read",
      "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "carnegie_endowment",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-f20227ad",
@@ -6023,11 +5975,7 @@
      "date": "27/01/2025 - 28/01/2025",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "carnegie_endowment",
-     "subject_map_status": "on_map",
-     "object_map_id": "carnegie_endowment",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-803a8dda",
@@ -6068,6 +6016,511 @@
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-T1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/3005",
+   "host": "api.sejm.gov.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, application/json. Metadata only: the response has no filer, signatory list, movers' representative, club, opinion text or vote count. Print 3005 fields: attachments [3005.pdf]; changeDate 2026-08-19T10:32:22; deliveryDate 2026-08-17; documentDate 2026-08-12; number 3005; processPrint [3005]; term 10; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.” The PDF 3005.pdf is named but no URL is given, so it was not fetched. Also read, same host, metadata only: print 3006 (attachments [3006.pdf]; changeDate 2026-08-19T10:35:29; deliveryDate 2026-08-17; documentDate 2026-08-14; processPrint [3006]; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Maciej Berek.”); print 3057 (attachments [3057.pdf]; changeDate 2026-09-07T08:19:39; deliveryDate 2026-09-03; documentDate 2026-09-03; processPrint [3005]; title is an opinion heading on the motion to elect Pana Artura Kotowskiego); print 3058 (attachments [3058.pdf]; changeDate 2026-09-07T08:19:39; deliveryDate 2026-09-03; documentDate 2026-09-03; processPrint [3006]; title is an opinion heading on the motion to elect Pana Macieja Berka). URLs read: https://api.sejm.gov.pl/sejm/term10/prints/3005, https://api.sejm.gov.pl/sejm/term10/prints/3006, https://api.sejm.gov.pl/sejm/term10/prints/3057, https://api.sejm.gov.pl/sejm/term10/prints/3058. The PDFs 3006.pdf, 3057.pdf and 3058.pdf are named without URLs and were not fetched.",
+   "page_title": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.",
+   "page_date": "2026-08-12",
+   "publisher": "api.sejm.gov.pl (Sejm API host; the response names no publisher)",
+   "capture_answer": "Print 3005 is the candidacy print for Artur Kotowski and print 3006 the one for Maciej Berek. The titles use the candidacy form, not the “Poselski wniosek” or “Wniosek Prezydium Sejmu” forms named in the request. Documents are dated documentDate 2026-08-12 (3005) and 2026-08-14 (3006), and both have deliveryDate 2026-08-17. No field is labelled filing date, so deliveryDate is the nearest field. Neither record names the filer, signatories, movers' representative or club. Those would sit in 3005.pdf and 3006.pdf, which are named but not linked, so the signatory list and representative are unavailable. Committee opinions 3057 (Kotowski, processPrint 3005) and 3058 (Berek, processPrint 3006) both have documentDate and deliveryDate 2026-09-03. Only their headings are available. The opinion texts (3057.pdf, 3058.pdf) are not linked, and neither record contains vote counts. The 4 Sep 2026 vote date is not on these pages. No party or club affiliation for either candidate appears. Kotowski also has a May 2026 candidacy print (2618), covered under the next entry.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:50:09.572Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/json",
+    "chars": 259,
+    "sha256": "3f0f1eb89c3b8193b394b235f4bb32abd32a8ecc98e4c5a2e226013deb825d15",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/prints/3005"
+   },
+   "names_listed": [
+    "Pan Artur Kotowski",
+    "Pan Maciej Berek",
+    "Pana Artura Kotowskiego",
+    "Pana Macieja Berka"
+   ],
+   "names_found_in_page_text": "1/4",
+   "claims": [
+    {
+     "id": "B02-411e8330",
+     "subject": "Artur Kotowski",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 3005)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-08-12",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Mr Artur Kotowski.",
+     "label": "fact",
+     "label_scope": "The title of print 3005 names him as a candidate (documentDate 2026-08-12). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 3005 (https://api.sejm.gov.pl/sejm/term10/prints/3005)",
+     "new_entities": [
+      "Artur Kotowski"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kotowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-62378b27",
+     "subject": "Artur Kotowski",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 3057)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-09-03",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Artura Kotowskiego.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Artur Kotowski.",
+     "label": "fact",
+     "label_scope": "Title of print 3057, the opinion heading. The committee is named at the start of that title, outside this excerpt. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 3057 (https://api.sejm.gov.pl/sejm/term10/prints/3057)",
+     "new_entities": [
+      "Komisja Sprawiedliwości i Praw Człowieka"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2634",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "kotowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-a9cf5aa1",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 3006)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-08-14",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Maciej Berek.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Mr Maciej Berek.",
+     "label": "fact",
+     "label_scope": "The title of print 3006 names him as a candidate (documentDate 2026-08-14). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 3006 (https://api.sejm.gov.pl/sejm/term10/prints/3006)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/3006",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of",
+      "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate"
+     ]
+    },
+    {
+     "id": "B02-76dfe00f",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 3058)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-09-03",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Macieja Berka.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Maciej Berek.",
+     "label": "fact",
+     "label_scope": "Title of print 3058, the opinion heading. The committee is named at the start of that title, outside this excerpt. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 3058 (https://api.sejm.gov.pl/sejm/term10/prints/3058)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/3058",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-T2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2618",
+   "host": "api.sejm.gov.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, application/json. Metadata only: the response has no filer (KO club or group of at least 50 MPs), signatory list, representative, opinion text or vote count. Print 2618 fields: attachments [2618.pdf]; changeDate 2026-05-29T11:30:47; deliveryDate 2026-05-29; documentDate 2026-05-27; number 2618; processPrint [2618]; term 10; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.” The PDF 2618.pdf is named without a URL and was not fetched. Also read, same host, metadata only: print 2619 (attachments [2619.pdf]; changeDate 2026-05-29T11:30:11; deliveryDate 2026-05-29; documentDate 2026-05-27; processPrint [2619]; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Sławomir Patyra.”; additionalPrints lists 2619-001 with attachment 2619-001.pdf, title “Do druku nr 2619 - poparcie dla kandydatury”, changeDate 2026-05-29T14:23:10, deliveryDate 2026-05-29, documentDate 2026-05-29, numberAssociated [2619]); print 2634 (attachments [2634.pdf]; changeDate 2026-06-10T08:17:01; deliveryDate 2026-06-09; documentDate 2026-06-09; processPrint [2618]; opinion heading on the motion to elect Pana Artura Kotowskiego); print 2635 (attachments [2635.pdf]; changeDate 2026-06-10T08:17:01; deliveryDate 2026-06-09; documentDate 2026-06-09; processPrint [2619]; opinion heading on the motion to elect Pana Sławomira Patyry). URLs read: https://api.sejm.gov.pl/sejm/term10/prints/2618, https://api.sejm.gov.pl/sejm/term10/prints/2619, https://api.sejm.gov.pl/sejm/term10/prints/2634, https://api.sejm.gov.pl/sejm/term10/prints/2635. Print 2619-001 has no URL in the response and was not fetched; its PDF 2619-001.pdf is not fetched. PDFs 2619.pdf, 2634.pdf and 2635.pdf are named without URLs and were not fetched.",
+   "page_title": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.",
+   "page_date": "2026-05-27",
+   "publisher": "api.sejm.gov.pl (Sejm API host; the response names no publisher)",
+   "capture_answer": "Prints 2618 (Artur Kotowski) and 2619 (Sławomir Patyra) are the candidacy prints. Each has documentDate 2026-05-27 and deliveryDate 2026-05-29. Neither record names a filer (KO club or group of at least 50 MPs), signatory list or representative, so the filing question cannot be answered from these pages. Print 2619 lists an additional print, 2619-001, titled “Do druku nr 2619 - poparcie dla kandydatury” (support for the candidacy), dated 2026-05-29, with attachment 2619-001.pdf. Its contents were not read. Inference only: it is the likeliest place to look for a supporter list, but its title alone does not show one. Committee opinions 2634 (Kotowski, processPrint 2618) and 2635 (Patyra, processPrint 2619) both have documentDate and deliveryDate 2026-06-09. Only their headings are available. The opinion texts (2634.pdf, 2635.pdf) are not linked, and neither record contains vote counts. The 11 Jun 2026 vote date is not on these pages. Nothing here confirms or contradicts the reported KO club filing.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:50:09.288Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/json",
+    "chars": 259,
+    "sha256": "b845743cdd346fb144a800958bb76e20f106eb4c7f5aacf928dc3d4b2e364cf8",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/prints/2618"
+   },
+   "names_listed": [
+    "Pan Artur Kotowski",
+    "Pan Sławomir Patyra",
+    "Pana Artura Kotowskiego",
+    "Pana Sławomira Patyry"
+   ],
+   "names_found_in_page_text": "1/4",
+   "claims": [
+    {
+     "id": "B02-c63c99bc",
+     "subject": "Artur Kotowski",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 2618)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-27",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Artur Kotowski.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Mr Artur Kotowski.",
+     "label": "fact",
+     "label_scope": "The title of print 2618 names him as a candidate (documentDate 2026-05-27). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 2618 (https://api.sejm.gov.pl/sejm/term10/prints/2618)",
+     "new_entities": [
+      "Artur Kotowski"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "kotowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-e3d1fa2d",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 2619)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-27",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Sławomir Patyra.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Mr Sławomir Patyra.",
+     "label": "fact",
+     "label_scope": "The title of print 2619 names him as a candidate (documentDate 2026-05-27). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 2619 (https://api.sejm.gov.pl/sejm/term10/prints/2619)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2619",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B02-e0803330",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "candidacy print 2619 has an additional print, 2619-001, titled as support for the candidacy",
+     "object": "Sejm print 2619-001",
+     "object_type": "document",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-29",
+     "evidence_text": "Do druku nr 2619 - poparcie dla kandydatury",
+     "evidence_translation": "To print no. 2619 - support for the candidacy.",
+     "label": "fact",
+     "label_scope": "Title of additional print 2619-001, listed in the JSON of print 2619 (documentDate 2026-05-29). The title only; the page does not show who signed or supported it.",
+     "evidence_location": "JSON field additionalPrints[0].title, print 2619 (https://api.sejm.gov.pl/sejm/term10/prints/2619)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2619",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-17fc1fd0",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "candidacy may be backed by a list of supporting MPs in print 2619-001",
+     "object": "MPs who may have supported the candidacy",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-29",
+     "evidence_text": "Do druku nr 2619 - poparcie dla kandydatury",
+     "evidence_translation": "To print no. 2619 - support for the candidacy.",
+     "label": "speculation",
+     "label_scope": "Inference from the title alone, since 'poparcie dla kandydatury' reads as support for the candidacy. Print 2619-001 was not read, so any signatories and their number are unknown.",
+     "evidence_location": "JSON field additionalPrints[0].title, print 2619 (https://api.sejm.gov.pl/sejm/term10/prints/2619)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2619",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-8a90a07f",
+     "subject": "Artur Kotowski",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 2634)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-06-09",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Artura Kotowskiego.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Artur Kotowski.",
+     "label": "fact",
+     "label_scope": "Title of print 2634, the opinion heading. The committee is named at the start of that title, outside this excerpt. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 2634 (https://api.sejm.gov.pl/sejm/term10/prints/2634)",
+     "new_entities": [
+      "Komisja Sprawiedliwości i Praw Człowieka"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2634",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "kotowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-dee63736",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 2635)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-06-09",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Sławomira Patyry.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Sławomir Patyra.",
+     "label": "fact",
+     "label_scope": "Title of print 2635, the opinion heading. The committee is named at the start of that title, outside this excerpt. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 2635 (https://api.sejm.gov.pl/sejm/term10/prints/2635)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2635",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-c7228934",
+     "subject": "Prints 2618 and 2619 (candidacy motions)",
+     "subject_type": "document",
+     "relation": "filed by the KO club or by a group of at least 50 MPs",
+     "object": "KO club",
+     "object_type": "org",
+     "kind": "nomination_or_vote",
+     "date": "2026-05-27",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pan Sławomir Patyra.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Mr Sławomir Patyra.",
+     "label": "no_link",
+     "label_scope": "Checked the full JSON of prints 2618 and 2619, including the additionalPrints entry of 2619. No filer, club or signatory field appears on either, so this tie is not on the pages.",
+     "evidence_location": "JSON field title, print 2619 (https://api.sejm.gov.pl/sejm/term10/prints/2619)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2619",
+     "evidence_check": "found_on_linked_page",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-T3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
+   "host": "api.sejm.gov.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, text/plain, body in the same JSON form. Metadata only: the response has no filer, Prezydium or MP signatories, signatures or vote counts. Print 2333 fields: attachments [2333.pdf]; changeDate 2026-03-11T14:34:15; deliveryDate 2026-03-11; documentDate 2026-03-11; number 2333; processPrint [2333]; term 10; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Anna Korwin-Piotrowska.” The PDF 2333.pdf is named without a URL and was not fetched. Also read, same host, metadata only: print 2330 (attachments [2330.pdf]; changeDate 2026-03-11T20:22:49; deliveryDate 2026-03-11; documentDate 2026-03-11; processPrint [2316]; a report of the Justice and Human Rights Committee on an MPs' draft resolution on the Constitutional Tribunal); print 2331 (attachments [2331.pdf]; changeDate 2026-03-11T14:34:45; deliveryDate 2026-03-11; documentDate 2026-03-11; processPrint [2331]; title “Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Magdalena Bentkowska.”); print 2345 (attachments [2345.pdf]; changeDate 2026-03-17T15:46:23; deliveryDate 2026-03-12; documentDate 2026-03-12; processPrint [2332]; opinion heading on the motion to elect Pana Marcina Dziurdy); print 2346 (attachments [2346.pdf]; changeDate 2026-03-17T15:46:23; deliveryDate 2026-03-12; documentDate 2026-03-12; processPrint [2333]; opinion heading on the motion to elect Pani Anny Korwin-Piotrowskiej); print 2351 (attachments [2351.pdf]; changeDate 2026-03-17T15:46:23; deliveryDate 2026-03-12; documentDate 2026-03-12; processPrint [2338]; opinion heading on the motion to elect Pana Macieja Taborowskiego). URLs read: https://api.sejm.gov.pl/sejm/term10/prints/2333, https://api.sejm.gov.pl/sejm/term10/prints/2330, https://api.sejm.gov.pl/sejm/term10/prints/2331, https://api.sejm.gov.pl/sejm/term10/prints/2345, https://api.sejm.gov.pl/sejm/term10/prints/2346, https://api.sejm.gov.pl/sejm/term10/prints/2351. Attachments 2330.pdf, 2331.pdf, 2345.pdf, 2346.pdf and 2351.pdf are named without URLs and were not fetched. Prints 2332 and 2338 were not fetched.",
+   "page_title": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Anna Korwin-Piotrowska.",
+   "page_date": "2026-03-11",
+   "publisher": "api.sejm.gov.pl (Sejm API host; the response names no publisher)",
+   "capture_answer": "Candidacy prints in this set: 2331 is for Magdalena Bentkowska and 2333 for Anna Korwin-Piotrowska, both with documentDate and deliveryDate 2026-03-11. Committee opinions in this set: 2346 on Korwin-Piotrowska (processPrint 2333), 2345 on Marcin Dziurda (processPrint 2332) and 2351 on Maciej Taborowski (processPrint 2338), all dated 2026-03-12 (documentDate and deliveryDate). Print 2330 is a Justice and Human Rights Committee report on an MPs' draft resolution about the Constitutional Tribunal (processPrint 2316), not a candidacy. Filer: none of these records names the Prezydium Sejmu or any MPs, so the Prezydium-or-MPs question is not answered by these pages. Signatures and MP lists: none present. Committee vote counts: none present in any record. Inference only, not confirmed: processPrint 2332 and 2338 suggest those are the candidacy prints for Dziurda and Taborowski. Neither print was read. Attachments (2330.pdf, 2331.pdf, 2333.pdf, 2345.pdf, 2346.pdf, 2351.pdf) are named without URLs. No party or club affiliation of any candidate appears on these pages.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:50:09.114Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 268,
+    "sha256": "cb5ed4a0a818257aa0306a511d79d59d9428720df0d8a9901c7ecd70753835b8",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/prints/2333"
+   },
+   "names_listed": [
+    "Pani Anna Korwin-Piotrowska",
+    "Pani Magdalena Bentkowska",
+    "Pana Marcina Dziurdy",
+    "Pani Anny Korwin-Piotrowskiej",
+    "Pana Macieja Taborowskiego"
+   ],
+   "names_found_in_page_text": "1/5",
+   "claims": [
+    {
+     "id": "B02-421d531e",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 2333)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-11",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Anna Korwin-Piotrowska.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Ms Anna Korwin-Piotrowska.",
+     "label": "fact",
+     "label_scope": "The title of print 2333 names her as a candidate (documentDate 2026-03-11). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 2333 (https://api.sejm.gov.pl/sejm/term10/prints/2333)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr",
+      "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr",
+      "elected judge of",
+      "took oath in the Sejm before a notary 9 Apr 2026; filed papers at TK 10 Apr; says she 'skutecznie' took office by 10 Apr"
+     ]
+    },
+    {
+     "id": "B02-d798ce74",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "candidate for judge of the Constitutional Tribunal (Sejm print 2331)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-11",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Magdalena Bentkowska.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Ms Magdalena Bentkowska.",
+     "label": "fact",
+     "label_scope": "The title of print 2331 names her as a candidate (documentDate 2026-03-11). The page does not show the filer, signatories or any vote.",
+     "evidence_location": "JSON field title, print 2331 (https://api.sejm.gov.pl/sejm/term10/prints/2331)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B02-5b754a9e",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect her as TK judge (print 2346)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-12",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pani Anny Korwin-Piotrowskiej.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Ms Anna Korwin-Piotrowska.",
+     "label": "fact",
+     "label_scope": "Title of print 2346, the opinion heading. The committee is named at the start of that title, outside this excerpt. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 2346 (https://api.sejm.gov.pl/sejm/term10/prints/2346)",
+     "new_entities": [
+      "Komisja Sprawiedliwości i Praw Człowieka"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2346",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-fe9bb1c5",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 2345)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-12",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Marcina Dziurdy.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Marcin Dziurda.",
+     "label": "fact",
+     "label_scope": "Title of print 2345, the opinion heading. The committee is named at the start of that title, outside this excerpt. The candidacy print for him was not read. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 2345 (https://api.sejm.gov.pl/sejm/term10/prints/2345)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2345",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-13c4cdf4",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "named as subject of the Sejm committee's opinion on the motion to elect him as TK judge (print 2351)",
+     "object": "Komisja Sprawiedliwości i Praw Człowieka",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-12",
+     "evidence_text": "wyboru na stanowisko sędziego Trybunału Konstytucyjnego - Pana Macieja Taborowskiego.",
+     "evidence_translation": "election to the post of judge of the Constitutional Tribunal - of Mr Maciej Taborowski.",
+     "label": "fact",
+     "label_scope": "Title of print 2351, the opinion heading. The committee is named at the start of that title, outside this excerpt. The candidacy print for him was not read. Opinion text and vote count are not on the page.",
+     "evidence_location": "JSON field title, print 2351 (https://api.sejm.gov.pl/sejm/term10/prints/2351)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2351",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-94623b0c",
+     "subject": "Komisja Sprawiedliwości i Praw Człowieka",
+     "subject_type": "public_body",
+     "relation": "issued a report on an MPs' draft resolution (poselski projekt uchwały) about the Constitutional Tribunal (print 2330; processPrint 2316)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "other",
+     "date": "2026-03-11",
+     "evidence_text": "w sprawie działań niezbędnych do zapewnienia spełniania przez Trybunał Konstytucyjny wymogów sądu ustanowionego",
+     "evidence_translation": "on measures necessary to ensure that the Constitutional Tribunal meets the requirements of a court established by law",
+     "label": "fact",
+     "label_scope": "Title of print 2330 only. The title does not name the filer of the draft resolution (processPrint 2316), which was not read.",
+     "evidence_location": "JSON field title, print 2330 (https://api.sejm.gov.pl/sejm/term10/prints/2330)",
+     "access": "page_read",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/prints/2330",
+     "evidence_check": "found_on_linked_page",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-d944ace4",
+     "subject": "Prints 2331 and 2333 (candidacy motions)",
+     "subject_type": "document",
+     "relation": "filed by the Prezydium Sejmu",
+     "object": "Prezydium Sejmu",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "2026-03-11",
+     "evidence_text": "Kandydat na stanowisko sędziego Trybunału Konstytucyjnego - Pani Anna Korwin-Piotrowska.",
+     "evidence_translation": "Candidate for the post of judge of the Constitutional Tribunal - Ms Anna Korwin-Piotrowska.",
+     "label": "no_link",
+     "label_scope": "Checked the full JSON of prints 2331 and 2333 and of opinions 2345, 2346 and 2351. None names a filer or signatory, so a Prezydium Sejmu filing is not shown on these pages.",
+     "evidence_location": "JSON field title, print 2333 (https://api.sejm.gov.pl/sejm/term10/prints/2333)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -6635,6 +7088,891 @@
    ]
   },
   {
+   "ref": "B6_prosecutors_police-T4",
+   "url": "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/",
+   "host": "xyz.pl",
+   "theme": "B6_prosecutors_police",
+   "fetch_status": "ok",
+   "fetch_note": "Full article text read (published 30.10.2026, 20:35; modified 2026-10-30T20:35:03Z). Quotes are the article's own wording. Embedded X posts are quoted as the article reproduces them; the linked posts were not opened.",
+   "page_title": "Burza wokół Trybunału Konstytucyjnego. Co się stało w piątek wieczorem?",
+   "page_date": "2026-10-30",
+   "publisher": "XYZ (xyz.pl); author Martyna Maciuch",
+   "capture_answer": "Friday 30 Oct 2026, about 18:00: the TK website posted notice of a one-month break in the duties of TK president Bogdan Święczkowski and vice-president Bartłomiej Sochański. The order was issued by judge Anna Korwin-Piotrowska, who as the most senior judge by service took over running the TK. Earlier she asked the police to act at the TK seat, where demonstrators have gathered against Maciej Berek's swearing-in. Komenda Stołeczna Policji (KSP) said it took statutory actions; officers entered the TK grounds but not the building; KSP said it conducts no actions in the seat. No SOP (Służba Ochrony Państwa) or TK guard action is mentioned. No TK chancellery official, spokesperson or police commander is named, and no dismissals are reported. Same evening, Prosecutor General Waldemar Żurek announced five immunity motions (224 pages total per his post): four against Święczkowski, one against Sochański, all handed to the most senior judge. Not in this article: the Sejm transcript, the July police action, or any prosecutor closure decision.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:44:58.085Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 26919,
+    "sha256": "2b1bb5b20cd71ef0567d5d9f0880292546325b7ecfa588d6d20deb369373cbdf",
+    "url_read": "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/"
+   },
+   "names_listed": [
+    "Anna Korwin-Piotrowska",
+    "Bogdan Święczkowski",
+    "Bartłomiej Sochański",
+    "Maciej Taborowski",
+    "Magdalena Bentkowska",
+    "Maciej Berek",
+    "Waldemar Żurek",
+    "Jarosław Kaczyński",
+    "Karol Nawrocki",
+    "Andrzej Duda"
+   ],
+   "names_found_in_page_text": "9/10",
+   "followup_urls": [
+    {
+     "url": "https://x.com/w_zurek/status/2116224112624271680",
+     "why": "Żurek's X post on the five immunity motions (224 pages); embedded in the article, not opened."
+    },
+    {
+     "url": "https://x.com/Policja_KSP/status/2116234952568422614",
+     "why": "KSP post on X on the police action at the TK; embedded in the article, not opened."
+    },
+    {
+     "url": "https://xyz.pl/trybunal-konstytucyjny-w-impasie-spor-trwa-ale-polityczne-zyski-maleja/",
+     "why": "Article linked from this page; background on the TK impasse. Not opened."
+    },
+    {
+     "url": "https://xyz.pl/maciej-berek-nie-bylby-pierwszym-politykiem-w-trybunale-jak-przez-lata-upolityczniano-tk/",
+     "why": "Article linked from this page on Berek and past politicisation of the TK. Not opened."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-5bb6d2e4",
+     "subject": "Trybunał Konstytucyjny (strona internetowa TK)",
+     "subject_type": "public_body",
+     "relation": "published notice on a one-month break in the duties of",
+     "object": "Bogdan Święczkowski and Bartłomiej Sochański",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r., około godz. 18",
+     "evidence_text": "przerwy w czynnościach prezesa TK Bogdana Święczkowskiego oraz wiceprezesa TK Bartłomieja Sochańskiego",
+     "evidence_translation": "break in the duties of TK president Bogdan Święczkowski and TK vice-president Bartłomiej Sochański",
+     "evidence_location": "Body, first paragraph after the audio note (begins 'W piątek, 30 października 2026 r.')",
+     "label": "fact",
+     "label_scope": "That the TK website carried this notice, as reported by the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tk",
+     "subject_map_status": "on_map",
+     "object_map_id": "sochanski",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-91a4f8ad",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "issued the order for the break, as the judge with the longest service who took over running the TK",
+     "object": "Bogdan Święczkowski and Bartłomiej Sochański (break in duties)",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Zarządzenie wydała sędzia TK Anna Korwin-Piotrowska, która została osobą kierującą Trybunałem,",
+     "evidence_translation": "The order was issued by TK judge Anna Korwin-Piotrowska, who became the person directing the Tribunal,",
+     "evidence_location": "Body, first paragraph after the audio note",
+     "label": "fact",
+     "label_scope": "The article's account of who issued the order, reported via the statements of three judges to PAP.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "sochanski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
+      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
+      "ordered a one-month break in his duties as TK vice-president on 30 Oct 2026, alongside the order on President Święczkowski (disputed: the pr",
+      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
+      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'"
+     ]
+    },
+    {
+     "id": "B02-3917a32c",
+     "subject": "Maciej Taborowski; Magdalena Bentkowska; Maciej Berek",
+     "subject_type": "person",
+     "relation": "told PAP that the order was issued by Anna Korwin-Piotrowska; they are described as TK judges elected by the current-term Sejm",
+     "object": "Polska Agencja Prasowa (PAP)",
+     "object_type": "org",
+     "kind": "statement",
+     "date": "30 października 2026 r.",
+     "evidence_text": "przekazali Polskiej Agencji Prasowej (PAP) wybrani przez Sejm obecnej kadencji sędziowie TK Maciej Taborowski,",
+     "evidence_translation": "told the Polish Press Agency (PAP): the TK judges elected by the current-term Sejm, Maciej Taborowski, (and Magdalena Bentkowska and Maciej Berek, per the same sentence)",
+     "evidence_location": "Body, first paragraph after the audio note",
+     "label": "fact",
+     "label_scope": "Article reports that these three judges told PAP; not independently verified.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-9cecba85",
+     "subject": "Trybunał Konstytucyjny (strona internetowa TK)",
+     "subject_type": "public_body",
+     "relation": "stated that the break decision was taken under art. 130 of the Act on the System of Common Courts",
+     "object": "art. 130 ustawy o ustroju sądów powszechnych",
+     "object_type": "document",
+     "kind": "legal_action",
+     "evidence_text": "została podjęta na podstawie art. 130 ustawy o ustroju sądów powszechnych.",
+     "evidence_translation": "was adopted on the basis of art. 130 of the Act on the System of Common Courts.",
+     "evidence_location": "Subheading 'Na jakiej podstawie Anna Korwin-Piotrowska objęła stery w TK?', first paragraph",
+     "label": "fact",
+     "label_scope": "The legal basis stated on the TK website, as reported by the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-320a7546",
+     "subject": "Trybunał Konstytucyjny (strona internetowa TK)",
+     "subject_type": "public_body",
+     "relation": "gave as reasons for the break that Święczkowski and Sochański obstructed the TK General Assembly and assigned benches contrary to the law",
+     "object": "Bogdan Święczkowski and Bartłomiej Sochański",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "uniemożliwienie przez obie te osoby zwołania Zgromadzenia Ogólnego TK",
+     "evidence_translation": "the obstruction by both of these persons of convening the TK General Assembly",
+     "evidence_location": "Subheading 'Na jakiej podstawie Anna Korwin-Piotrowska objęła stery w TK?', third paragraph",
+     "label": "fact",
+     "label_scope": "The reasons as stated on the TK website; the article does not verify them.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tk",
+     "subject_map_status": "on_map",
+     "object_map_id": "sochanski",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-f6c668fe",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "sent the police information about possible threats to life or health of TK judges and staff, and about risks to public order",
+     "object": "Komenda Stołeczna Policji (KSP)",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "evidence_text": "możliwości wystąpienia zagrożeń dla życia lub zdrowia sędziów i pracowników Trybunału Konstytucyjnego",
+     "evidence_translation": "possibility of threats to the life or health of judges and staff of the Constitutional Tribunal",
+     "evidence_location": "Subheading 'Policja pod Trybunałem Konstytucyjnym', first paragraph",
+     "label": "fact",
+     "label_scope": "The article's account that she sent this information to the police.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-254e7b18",
+     "subject": "Komenda Stołeczna Policji (KSP)",
+     "subject_type": "public_body",
+     "relation": "took 'statutory actions' after the judge's request; officers entered the TK grounds but not the building",
+     "object": "teren TK (TK grounds), not the building",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Policjanci weszli na teren TK, chociaż nie do samego budynku.",
+     "evidence_translation": "Police officers entered the TK grounds, although not the building itself.",
+     "evidence_location": "Subheading 'Policja pod Trybunałem Konstytucyjnym', second paragraph",
+     "label": "fact",
+     "label_scope": "The article's account; KSP's own X post, quoted below, says it conducts no actions in the seat.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-59eb57b5",
+     "subject": "Komenda Stołeczna Policji (KSP)",
+     "subject_type": "public_body",
+     "relation": "stated on X that it conducts no actions in the seat of the Tribunal",
+     "object": "siedziba Trybunału (seat of the Tribunal)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Policja nie prowadzi żadnych działań w siedzibie Trybunału",
+     "evidence_translation": "The police are conducting no actions in the seat of the Tribunal.",
+     "evidence_location": "Subheading 'Policja pod Trybunałem Konstytucyjnym', KSP post quoted from X",
+     "label": "fact",
+     "label_scope": "KSP's own statement on X, as quoted in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-4b199ecf",
+     "subject": "Waldemar Żurek (described as minister sprawiedliwości)",
+     "subject_type": "person",
+     "relation": "said that Anna Korwin-Piotrowska also acted under the Supreme Court Act provisions that apply accordingly to TK judges",
+     "object": "ustawa o Sądzie Najwyższym (as applied to TK judges)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "wskazał, że sędzia TK Anna Korwin-Piotrowska działała także na podstawie przepisów o Sądzie Najwyższym",
+     "evidence_translation": "indicated that TK judge Anna Korwin-Piotrowska also acted on the basis of the provisions on the Supreme Court",
+     "evidence_location": "End of subheading 'Na jakiej podstawie Anna Korwin-Piotrowska objęła stery w TK?'",
+     "label": "fact",
+     "label_scope": "That he said this at the Friday evening press conference. The article calls him minister sprawiedliwości and later names him as Waldemar Żurek.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-16ec303f",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "filed five motions with the TK to lift the immunity of TK judges",
+     "object": "Bogdan Święczkowski (four motions) and Bartłomiej Sochański (one motion)",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r. (piątek wieczorem)",
+     "evidence_text": "złożył do TK pięć wniosków o uchylenie immunitetu sędziów Trybunału",
+     "evidence_translation": "filed with the TK five motions to lift the immunity of the Tribunal's judges",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje o uchylenie immunitetu prezesa i wiceprezesa TK', first paragraph",
+     "label": "fact",
+     "label_scope": "That he said he filed them, on X and at the Friday evening press conference, as reported by the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "sochanski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)"
+     ]
+    },
+    {
+     "id": "B02-725a44f1",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "filed four immunity motions concerning the acting TK president Bogdan Święczkowski",
+     "object": "Bogdan Święczkowski",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Cztery wnioski dotyczą wyrażenia zgody na pociągnięcie do odpowiedzialności karnej pełniącego obowiązki Prezesa TK",
+     "evidence_translation": "Four motions concern consent to criminal liability for the acting TK President",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', Żurek's X post as quoted",
+     "label": "fact",
+     "label_scope": "Żurek's stated filing, as quoted in the article; the motions themselves were not seen.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "filed 5 immunity motions (224 pages) before 30 Oct",
+      "suspended his wife as Sosnowiec court president (Jul 2025)",
+      "30 Sep 2025: asked the TK to allow his prosecution (Pegasus team No. 3); prosecutors allege that as National Prosecutor (Jul 2020 to Jun 202",
+      "filed 5 immunity motions (224 pages) before 30 Oct",
+      "suspended his wife as Sosnowiec court president (Jul 2025)"
+     ]
+    },
+    {
+     "id": "B02-6def1fa7",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "filed one immunity motion concerning vice-president Bartłomiej Sochański",
+     "object": "Bartłomiej Sochański",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Piąty wniosek dotyczy uchylenia immunitetu wiceprezesa TK Bartłomieja Sochańskiego",
+     "evidence_translation": "The fifth motion concerns lifting the immunity of TK vice-president Bartłomiej Sochański",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', Żurek's X post as quoted",
+     "label": "fact",
+     "label_scope": "Żurek's stated filing, as quoted in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "sochanski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
+      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)"
+     ]
+    },
+    {
+     "id": "B02-7e9f8dd1",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "handed all the motions to the TK judge most senior by service",
+     "object": "najstarsza stażem sędzia TK (identified in the article as Anna Korwin-Piotrowska)",
+     "object_type": "person",
+     "kind": "legal_action",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Wszystkie dokumenty zostały przekazane sędzi Trybunału Konstytucyjnego najstarszej stażem",
+     "evidence_translation": "All the documents were handed over to the judge of the Constitutional Tribunal who is most senior by service",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', quoted statement of Żurek",
+     "label": "fact",
+     "label_scope": "Żurek's statement as reported. The identification with Korwin-Piotrowska rests on the article's earlier text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-413ed46e",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "stated that the prosecution is running several proceedings on manipulation of benches and blocking judges from normal work",
+     "object": "prokuratura (proceedings concerning the TK; no case numbers given)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "prokuratura toczy kilka postępowań, które dotyczą manipulacji składami, niedopuszczania sędziów do normalnej pracy",
+     "evidence_translation": "the prosecutor's office is conducting several proceedings concerning manipulation of benches and preventing judges from normal work",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', Żurek's answer at the press conference",
+     "label": "alleged",
+     "label_scope": "Żurek's own assertion as reported; the article gives no case numbers and does not verify the proceedings.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-78f07895",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "said that a 'coup' (zamach) against the TK was carried out years ago, when three stand-in ('dublers') judges were sworn in at night",
+     "object": "Trybunał Konstytucyjny (swearing-in dated to December 2015 by the article's editor's note)",
+     "object_type": "org",
+     "kind": "statement",
+     "date": "w grudniu 2015 r. (przyp. red., editor's note in the article)",
+     "evidence_text": "zamach na TK został dokonany wiele lat temu, kiedy pod osłoną nocy zaprzysiężono trzech dublerów sędziów",
+     "evidence_translation": "a coup against the TK was carried out many years ago, when three 'dubler' judges were sworn in under cover of night",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', paragraph answering Kaczyński's accusation",
+     "label": "alleged",
+     "label_scope": "Żurek's claim, given in reply to Kaczyński's 'zamach' accusation; the article does not verify it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "rejected the request to lift the TK president's immunity"
+     ]
+    },
+    {
+     "id": "B02-5bd93ee7",
+     "subject": "Jarosław Kaczyński",
+     "subject_type": "person",
+     "relation": "posted on X that the TK was subject to a 'zamach' (coup)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "org",
+     "kind": "statement",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Zamach na Trybunał Konstytucyjny",
+     "evidence_translation": "Coup against the Constitutional Tribunal",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', embedded X post by Jarosław Kaczyński",
+     "label": "alleged",
+     "label_scope": "Kaczyński's allegation on X, as quoted in the article; the article does not verify it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-02390c84",
+     "subject": "Tusk ('Służby Tuska' in Kaczyński's post; first name not on the page)",
+     "subject_type": "person",
+     "relation": "named, in Kaczyński's post, as the principal of 'services' that forced their way into the TK",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "org",
+     "kind": "statement",
+     "date": "30 października 2026 r.",
+     "evidence_text": "Służby Tuska wchodzą siłowo do Trybunału",
+     "evidence_translation": "Tusk's services are forcing their way into the Tribunal",
+     "evidence_location": "Subheading 'Prokurator generalny wnioskuje...', same embedded X post by Kaczyński",
+     "label": "alleged",
+     "label_scope": "Kaczyński's claim only. The article names Tusk in no other role and gives no evidence that he ordered the police action.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "\"our judges will enter that building\" (Campus Polska)",
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "\"our judges will enter that building\" (Campus Polska)"
+     ]
+    },
+    {
+     "id": "B02-0a36aeb2",
+     "subject": "Jarosław Kaczyński",
+     "subject_type": "person",
+     "relation": "party role: chairman (prezes)",
+     "object": "Prawo i Sprawiedliwość (PiS)",
+     "object_type": "party",
+     "kind": "role_or_job",
+     "evidence_text": "prezes PiS Jarosław Kaczyński",
+     "evidence_translation": "PiS chairman Jarosław Kaczyński",
+     "evidence_location": "Subheading 'Prezydent zdecydował o przerwaniu podróży do Senegalu', paragraph 3",
+     "label": "fact",
+     "label_scope": "Party role as stated in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "pis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-91aa7b2d",
+     "subject": "Jarosław Kaczyński",
+     "subject_type": "person",
+     "relation": "attended the gathering at the TK seat and appealed to the president to stop the crisis",
+     "object": "Karol Nawrocki (the president)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "zaapelował prezes PiS Jarosław Kaczyński, uczestniczący w zgromadzeniu pod siedzibą TK.",
+     "evidence_translation": "PiS chairman Jarosław Kaczyński, who attended the gathering at the TK seat, made an appeal",
+     "evidence_location": "Subheading 'Prezydent zdecydował o przerwaniu podróży do Senegalu', paragraph 3",
+     "label": "fact",
+     "label_scope": "Attendance and appeal as stated in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-f8a1cff2",
+     "subject": "Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "interrupted a working trip to Senegal and returned to Poland, citing the TK events",
+     "object": "wizyta robocza w Senegalu w związku z IV Letnimi Igrzyskami Olimpijskimi Młodzieży w Dakarze",
+     "object_type": "event",
+     "kind": "statement",
+     "date": "30 października 2026 r., piątek po godz. 18",
+     "evidence_text": "W takim momencie prezydent musi być w Polsce",
+     "evidence_translation": "At such a moment the president must be in Poland.",
+     "evidence_location": "Subheading 'Prezydent zdecydował o przerwaniu podróży do Senegalu', paragraph 1 (quoted X post)",
+     "label": "fact",
+     "label_scope": "Nawrocki's X post as quoted; the article reports the plane turned back over Spain after 18:00.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-6af1d7a4",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "convened the General Assembly of TK judges for 3 November 2026",
+     "object": "Zgromadzenie Ogólne TK (General Assembly of TK judges)",
+     "object_type": "event",
+     "kind": "legal_action",
+     "date": "3 listopada 2026 r.",
+     "evidence_text": "na 3 listopada 2026 r. zwołała je sędzia Anna Korwin-Piotrowska.",
+     "evidence_translation": "for 3 November 2026 it was convened by judge Anna Korwin-Piotrowska",
+     "evidence_location": "Subheading '„Przerwa w czynnościach” prezesa TK i co dalej?', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-06247a00",
+     "subject": "Bogdan Święczkowski",
+     "subject_type": "person",
+     "relation": "did not want to convene the TK General Assembly",
+     "object": "Zgromadzenie Ogólne TK (General Assembly of TK judges)",
+     "object_type": "event",
+     "kind": "other",
+     "evidence_text": "Nie chciał go zwołać Bogdan Święczkowski.",
+     "evidence_translation": "Bogdan Święczkowski did not want to convene it.",
+     "evidence_location": "Subheading '„Przerwa w czynnościach” prezesa TK i co dalej?', paragraph 1",
+     "label": "fact",
+     "label_scope": "The article's characterisation of Święczkowski's position.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-090a650d",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "as person directing the TK, gave an interview to TVP Info announcing her decision; she said the assembly's purpose includes adopting the TK budget for 2027",
+     "object": "TVP Info",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "date": "piątek wieczorem (30 października 2026 r.)",
+     "evidence_text": "O swojej decyzji poinformowała w piątek wieczorek w rozmowie z TVP Info.",
+     "evidence_translation": "She announced her decision on Friday evening ('wieczorek' as printed) in an interview with TVP Info.",
+     "evidence_location": "Subheading '„Przerwa w czynnościach” prezesa TK i co dalej?', paragraph 3",
+     "label": "fact",
+     "label_scope": "Host TVP Info. The article does not name the interviewer, organiser or funders. Capacity: person directing the TK (osoba kierująca Trybunałem).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-c8aec265",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "appealed to politicians, including President Karol Nawrocki, to calm the escalation around the TK",
+     "object": "Karol Nawrocki",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "zaapelowała do polityków, w tym prezydenta Karola Nawrockiego, by „wyciszyć eskalację”",
+     "evidence_translation": "she appealed to politicians, including President Karol Nawrocki, to 'calm the escalation'",
+     "evidence_location": "Subheading '„Przerwa w czynnościach” prezesa TK i co dalej?', paragraph after the TVP Info intro",
+     "label": "fact",
+     "label_scope": "Article's account of her appeal.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+     ]
+    },
+    {
+     "id": "B02-e93dc482",
+     "subject": "Sejm obecnej kadencji",
+     "subject_type": "public_body",
+     "relation": "elected eight new TK judges",
+     "object": "eight new TK judges",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Ostatecznie jednak Sejm obecnej kadencji wybrał ośmioro nowych sędziów TK.",
+     "evidence_translation": "In the end, however, the Sejm of the current term elected eight new TK judges.",
+     "evidence_location": "Subheading 'Impas wokół TK w końcu będzie przełamany?', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-a80166e9",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "was the eighth person elected by the current-term Sejm as a TK judge; joined the TK in mid-October",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "org",
+     "kind": "nomination_or_vote",
+     "date": "wrzesień 2026 r. (wybór); w połowie października (dołączenie)",
+     "evidence_text": "Berek jest ósmą osobą wybraną przez Sejm obecnej kadencji na sędziego TK.",
+     "evidence_translation": "Berek is the eighth person elected by the Sejm of the current term as a TK judge.",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of",
+      "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate"
+     ]
+    },
+    {
+     "id": "B02-ef2c347b",
+     "subject": "Karol Nawrocki (grammatical subject not named in the sentence; read as the president)",
+     "subject_type": "person",
+     "relation": "did not invite Maciej Berek to take the oath after his election, and claimed he would assess the quality of the candidacy",
+     "object": "Maciej Berek (oath as TK judge)",
+     "object_type": "person",
+     "kind": "other",
+     "date": "we wrześniu 2026 r.",
+     "evidence_text": "nie zaprosił go do złożenia ślubowania i twierdził, że będzie oceniał jakość kandydatury sędziego.",
+     "evidence_translation": "he did not invite him to take the oath and claimed that he would assess the quality of the judge's candidacy",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "The article reports the conduct and the claim. The sentence does not name its subject; it is read as the president, consistent with the article's surrounding text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "refused / does not recognise oath",
+      "refused / does not recognise oath"
+     ]
+    },
+    {
+     "id": "B02-013c94d8",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "took the oath as TK judge in the Sejm with the formula 'wobec prezydenta' (before the president)",
+     "object": "Sejm (oath ceremony)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Maciej Berek złożył w Sejmie ślubowanie sędziego Trybunału Konstytucyjnego z formułą „wobec prezydenta”",
+     "evidence_translation": "Maciej Berek took the oath as a Constitutional Tribunal judge in the Sejm with the formula 'before the president'",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-3acf8734",
+     "subject": "Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "was not present at Maciej Berek's oath",
+     "object": "ślubowanie Macieja Berka (oath ceremony)",
+     "object_type": "event",
+     "kind": "other",
+     "evidence_text": "Karol Nawrocki nie był obecny podczas ślubowania.",
+     "evidence_translation": "Karol Nawrocki was not present during the oath.",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-04d227a5",
+     "subject": "Bogdan Święczkowski",
+     "subject_type": "person",
+     "relation": "did not admit four Sejm-elected judges, who took the oath 'wobec prezydenta', to adjudicate",
+     "object": "four judges (not named in the article)",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "prezes TK Bogdan Święczkowski nie dopuścił tych czworga sędziów do orzekania.",
+     "evidence_translation": "TK president Bogdan Święczkowski did not admit these four judges to adjudicate.",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account. The four judges are not named in the article.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-2a0c90ac",
+     "subject": "Kancelaria Prezydenta",
+     "subject_type": "public_body",
+     "relation": "did not recognise the 'wobec prezydenta' oaths of four judges",
+     "object": "oaths 'wobec prezydenta' (four judges)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Kancelaria Prezydenta nie uznała tego faktu",
+     "evidence_translation": "The Chancellery of the President did not recognise this fact.",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-97c033c6",
+     "subject": "Komisja Wenecka (Venice Commission)",
+     "subject_type": "org",
+     "relation": "in its October opinion, permitted an oath without the president's physical participation, provided its essential elements are kept",
+     "object": "opinion on oath of Sejm-elected TK judges without the president's physical participation",
+     "object_type": "document",
+     "kind": "statement",
+     "date": "w październiku",
+     "evidence_text": "Dopuszczenie aktu ślubowania bez fizycznego udziału prezydenta dopuściła w październiku w swojej opinii Komisja Wenecka",
+     "evidence_translation": "In October, in its opinion, the Venice Commission permitted an oath to be taken without the president's physical participation.",
+     "evidence_location": "Subheading 'Wydarzenia wokół TK nabierają tempa', paragraph 3",
+     "label": "fact",
+     "label_scope": "The article's report of the Commission's opinion; the opinion itself was not opened.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-1d512541",
+     "subject": "Zjednoczona Prawica",
+     "subject_type": "party",
+     "relation": "lost power after the 2023 elections to a coalition of KO, Trzecia Droga and Lewica",
+     "object": "koalicja KO, Trzeciej Drogi i Lewicy",
+     "object_type": "party",
+     "kind": "other",
+     "date": "w 2023 r.",
+     "evidence_text": "kiedy Zjednoczona Prawica straciła władzę na rzecz koalicji KO, Trzeciej Drogi i Lewicy.",
+     "evidence_translation": "when the United Right lost power to a coalition of KO, Third Way and the Left.",
+     "evidence_location": "Subheading 'Impas wokół TK w końcu będzie przełamany?', paragraph 2",
+     "label": "fact",
+     "label_scope": "Article's account. The page does not state PM Tusk's role in this coalition.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-d90ee193",
+     "subject": "manifestanci (demonstrators) at the TK seat",
+     "subject_type": "other",
+     "relation": "have been gathering for some dozen days in front of the TK, protesting against the swearing-in of Maciej Berek",
+     "object": "Maciej Berek (swearing-in as TK judge)",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "gdzie od kilkunastu dni zbierają się manifestanci, protestujący przeciwko zaprzysiężeniu Macieja Berka na sędziego TK.",
+     "evidence_translation": "where demonstrators have been gathering for some dozen days, protesting the swearing-in of Maciej Berek as a TK judge",
+     "evidence_location": "Lead, under the photo caption",
+     "label": "fact",
+     "label_scope": "Article's account. No organiser, funder or sponsor of the demonstration is named.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-94963f1d",
+     "subject": "Iustitia; Themis; Free Courts (Wolne Sądy); HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD",
+     "subject_type": "org",
+     "relation": "checked for any tie (organiser, funder, participant, contract, board or membership) to the 30 Oct 2026 TK events, the protest at the TK seat, or the TK actors",
+     "object": "events and actors named in the article",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "none (no matching text in the article)",
+     "evidence_translation": "No matching text: none of these organisations is named anywhere in the article.",
+     "evidence_location": "Whole article text, including subheadings, embedded posts and page ticker",
+     "label": "no_link",
+     "label_scope": "The article names none of these organisations, so it shows no such tie.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-58c9200a",
+     "subject": "Michał Wawrykiewicz; Adam Bodnar; Krystian Markiewicz; Marcin Dziurda; Dariusz Szostek; Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "checked for naming in any role in the 30 Oct 2026 TK events, the protest at the TK seat, or as Sejm-elected TK judges",
+     "object": "events and actors named in the article",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "none (no matching text in the article)",
+     "evidence_translation": "No matching text: none of these people is named anywhere in the article.",
+     "evidence_location": "Whole article text",
+     "label": "no_link",
+     "label_scope": "The article does not name these people, so it shows no tie to the events it covers. Maciej Taborowski, Magdalena Bentkowska and Maciej Berek are named elsewhere in the article.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-b2e1f0dd",
+     "subject": "Służba Ochrony Państwa (SOP)",
+     "subject_type": "public_body",
+     "relation": "checked for any action at the TK on 30 Oct 2026; no TK guard or security service action is described either",
+     "object": "TK premises on 30 Oct 2026",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "none (no matching text in the article)",
+     "evidence_translation": "No matching text: the SOP and any TK guard service are not mentioned anywhere in the article.",
+     "evidence_location": "Whole article text",
+     "label": "no_link",
+     "label_scope": "The article does not mention SOP or a TK guard service at all.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "sop",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-4ae7d0ef",
+     "subject": "Waldemar Żurek; Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "checked for a party affiliation or party role",
+     "object": "political party (none named)",
+     "object_type": "party",
+     "kind": "other",
+     "evidence_text": "none (no matching text in the article)",
+     "evidence_translation": "No matching text: no party is named for either person in the article.",
+     "evidence_location": "Whole article text",
+     "label": "no_link",
+     "label_scope": "The article gives Żurek's titles (minister sprawiedliwości, prokurator generalny) and Nawrocki's title (prezydent) only, with no party affiliation or role.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B6_prosecutors_police-T5",
+   "url": "https://www.bankier.pl/wiadomosc/Koniec-sledztwa-o-zamach-stanu-Prokuratura-uderza-w-argumentacje-TK-9113189.html",
+   "host": "bankier.pl",
+   "theme": "B6_prosecutors_police",
+   "fetch_status": "error",
+   "fetch_note": "Permanent failure: client_error at the site; nothing of the page was retrieved. Sending this URL again would fail the same way.",
+   "capture_answer": "Not available. The page could not be retrieved, so the closure date, prosecutor's office, prosecutor, decision type, people questioned (e.g. Berek, Morawiecki) and spokesperson are unknown from this source.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B6_prosecutors_police-T6",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/096",
+   "host": "api.sejm.gov.pl",
+   "theme": "B6_prosecutors_police",
+   "fetch_status": "error",
+   "fetch_note": "Server error from the target (error_type SERVER_ERROR, source \"target\", message \"There was an error while fetching.\"). Treated as permanent: sending this URL again would fail the same way.",
+   "capture_answer": "Not available. The transcript could not be retrieved, so the MP who asked, that MP's club, the July police action and any TK names are unknown from this source.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
    "ref": "B7_international-T1",
    "url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
    "host": "coe.int",
@@ -6675,9 +8013,7 @@
      "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-56c5d2b7",
@@ -7709,7 +9045,7 @@
      "evidence_location": "CV list, membership entry",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "free_courts",
+     "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -7896,13 +9232,9 @@
      "evidence_check": "exact",
      "subject_map_id": "kkusip",
      "subject_map_status": "on_map",
-     "object_map_id": "markiewicz",
+     "object_map_id": "kkusip",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "chair (appointment act received 3 Apr 2024); gave up the post after his TK election",
-      "chair (appointment act received 3 Apr 2024); gave up the post after his TK election"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -8818,9 +10150,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "object_map_id": "nawrocki",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-1454e50f",
@@ -8841,9 +10171,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "nawrocki",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-019a01d9",
@@ -8979,11 +10307,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "supreme_court",
-     "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-538757a3",
@@ -9004,11 +10330,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "synoradzki_bentkowska",
-     "subject_map_status": "on_map",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-053d0cbb",
@@ -9354,11 +10678,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "synoradzki_bentkowska",
-     "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-3b2827fb",
@@ -9448,11 +10770,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "supreme_court",
-     "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-aefed0ef",
@@ -9624,11 +10944,9 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "synoradzki_bentkowska",
-     "subject_map_status": "on_map",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-ce2432cf",
@@ -9740,11 +11058,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "supreme_court",
-     "subject_map_status": "on_map",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -9895,9 +11211,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-e09a8171",
@@ -9917,9 +11231,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "linklaters",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-b1ed2ba3",
@@ -9986,11 +11298,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "majcher",
-     "subject_map_status": "on_map",
      "object_map_id": "tvp",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-658ec435",
@@ -10149,9 +11459,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "synoradzki_bentkowska",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -10241,9 +11549,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tvp",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -10290,9 +11596,7 @@
      "evidence_check": "exact",
      "subject_map_id": "kieszkowska",
      "subject_map_status": "on_map",
-     "object_map_id": "orlen",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -10369,9 +11673,7 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "danube_cfr",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-c12c42a3",
@@ -11281,14 +12583,18 @@
    "publisher": "Sejm RP (api.sejm.gov.pl)",
    "capture_answer": "The 2024 deputies' TK bill (print 253) was reported by the Justice and Human Rights Committee alone, after sittings on 26 Apr, 24 May, 9 and 16 Jul 2024. Rapporteur: Patryk Jaskulski. Signed by committee chair Paweł Śliz. Report dated 16 Jul 2024. The Legislative Committee (Komisja Ustawodawcza) does not appear on the report.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:56:43.587Z",
+    "http": null,
+    "content_type": null,
+    "chars": 42939,
+    "sha256": "f95f1c68cda8d9cee0f9c3ccd1793854be66a3b12c6bf5903e73b8fecdb9e6c6",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/prints/543/543.pdf"
    },
    "names_listed": [
     "Patryk Jaskulski",
     "Paweł Śliz"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "2/2",
    "followup_urls": [
     {
      "url": "https://api.sejm.gov.pl/sejm/term10/prints/543-A/543-A%20.pdf",
@@ -11321,8 +12627,8 @@
      "new_entities": [
       "Komisja Sprawiedliwości i Praw Człowieka (Sejm Justice and Human Rights Committee)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11344,8 +12650,8 @@
      "new_entities": [
       "Patryk Jaskulski (MP; Justice committee rapporteur)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "not_found_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11367,8 +12673,8 @@
      "new_entities": [
       "Paweł Śliz (MP; Justice committee chair)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "not_found_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "map_status": "both_names_unmatched"
     },
     {
@@ -11385,8 +12691,8 @@
      "label": "fact",
      "label_scope": "Sitting dates only. The cover does not list the expert opinions the committee received.",
      "date": "2024-07-16",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11405,8 +12711,8 @@
      "label": "fact",
      "label_scope": "Referral as stated in the report. The text retrieved does not mention the plenary first reading.",
      "date": "2024-04-26",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11428,8 +12734,8 @@
      "new_entities": [
       "Komisja Ustawodawcza (Sejm Legislative Committee)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11448,8 +12754,12 @@
    "publisher": "Sejm RP (api.sejm.gov.pl)",
    "capture_answer": "Print 253 (the 2024 deputies' TK bill) was filed with a cover letter dated 6 Mar 2024, the day of the Sejm's TK resolution. It had 136 MP signatures. Four MPs were authorised to represent the movers: Kamila Gasiuk-Pihowicz, Sławomir Ćwik, Michał Pyrzyk and Katarzyna Ueberhan. Signatories already on the map: Czarzasty, Myrcha, Paszyk, Hennig-Kloska. Committee chair Śliz also signed. Rapporteur Jaskulski did not sign, and neither did Tusk, Giertych, Budka or Adam Bodnar. No drafting credit (e.g. Batory) appears in the parts read. The page states no clubs.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:56:20.842Z",
+    "http": null,
+    "content_type": null,
+    "chars": 42379,
+    "sha256": "87ed54f2d921c04d7385dc655972d3e3878781f06064c668fc07dcd4bcc97204",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/prints/253/253.pdf"
    },
    "names_listed": [
     "Piotr Adamowicz",
@@ -11589,7 +12899,7 @@
     "Tomasz Zimoch",
     "Anna Maria Żukowska"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "131/136",
    "followup_urls": [
     {
      "url": "https://api.sejm.gov.pl/sejm/term10/prints/254/254.pdf",
@@ -11615,8 +12925,8 @@
      "label": "fact",
      "label_scope": "Filing and date only. The page gives no club for any signatory; clubs need the Sejm MP registry.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11638,8 +12948,8 @@
      "new_entities": [
       "Kamila Gasiuk-Pihowicz (MP)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11661,8 +12971,8 @@
      "new_entities": [
       "Sławomir Ćwik (MP)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11684,8 +12994,8 @@
      "new_entities": [
       "Michał Pyrzyk (MP)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11707,8 +13017,8 @@
      "new_entities": [
       "Katarzyna Ueberhan (MP)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11727,8 +13037,8 @@
      "label": "fact",
      "label_scope": "Signature only. The page states no office or club for him.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "czarzasty",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11749,8 +13059,8 @@
      "label": "fact",
      "label_scope": "Signature only. The page states no office or club for him.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "myrcha",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11771,8 +13081,8 @@
      "label": "fact",
      "label_scope": "Signature only. The page states no office or club for him.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "paszyk",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11793,8 +13103,8 @@
      "label": "fact",
      "label_scope": "Signature only. The text layer shows 'HennigKloska' because the hyphen was lost at a line break. The page states no office or club for her.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "hennig_kloska",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11818,8 +13128,8 @@
      "new_entities": [
       "Paweł Śliz (MP; Justice committee chair)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11841,8 +13151,8 @@
      "new_entities": [
       "Zbigniew Konwiński (MP)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11861,8 +13171,8 @@
      "label": "no_link",
      "label_scope": "Checked the alphabetical list: 'Jaskulski' would come between Jachira and Józefaciuk and is not there.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -11881,8 +13191,8 @@
      "label": "no_link",
      "label_scope": "Checked the alphabetical list: 'Tusk' would come between Trela and Ueberhan and is not there. This says nothing about any government role in drafting.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "tusk",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11910,8 +13220,8 @@
      "label": "no_link",
      "label_scope": "Checked the alphabetical list: 'Giertych' would come between Gawkowski and Głowski and is not there.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "giertych",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11932,8 +13242,8 @@
      "label": "no_link",
      "label_scope": "Checked the alphabetical list: 'Budka' would come between Buczyńska and Burkiewicz and is not there.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "budka",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11954,8 +13264,8 @@
      "label": "no_link",
      "label_scope": "Checked to avoid confusing the two: the only Bodnar on the list is Izabela Bodnar. Adam Bodnar's name does not appear.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -11976,8 +13286,8 @@
      "label": "no_link",
      "label_scope": "Only the cover letter and articles up to Art. 116 were seen, and the justification may name drafters. This does not contradict the map's Batory-drafting tie, which rests on other sources.",
      "date": "2024-03-06",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "zep_batory",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -12471,7 +13781,9 @@
      "evidence_check": "exact",
      "subject_map_id": "zurek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
     }
    ]
   },
@@ -12562,9 +13874,7 @@
      "date": "2026-09-04",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "kotowski",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-d49fb208",
@@ -13016,9 +14326,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "zurek",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-f94222aa",
@@ -13161,7 +14469,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -13184,7 +14492,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -13265,7 +14573,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "tk",
+     "subject_map_id": "swieczkowski",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     }
@@ -13338,9 +14646,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "swieczkowski",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -13372,8 +14678,12 @@
    "publisher": "Council of the European Union document register (European Commission report)",
    "capture_answer": "Annex II lists 22 bodies the Commission services met virtually in Feb-Mar 2026, including Iustitia, Batory, HFHR, Lex Super Omnia, Amnesty International Poland, the Justice Ministry, the KRS and the Ombudsman's Office. Themis, Free Courts and the Osiatyński Archive are not on that list. Annex I has one joint written input from seven Polish NGOs: Batory, HFHR, Free Courts, the National Federation of Polish NGOs, Watchdog Poland, ISP and the Responsible Politics Foundation. It has no entries from judges' or prosecutors' associations. The TK appears only inside the Action Plan recommendation. Footnote 47 records the President's oath refusals, and the TK budget rose for 2026.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:57:37.746Z",
+    "http": null,
+    "content_type": null,
+    "chars": 45136,
+    "sha256": "6f53ef8bdb9e793ce56777f05a01a89c5b3461a8b5f0ac2487cdb5d439b04320",
+    "url_read": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf"
    },
    "names_listed": [
     "Country visit: Amnesty International Poland",
@@ -13416,7 +14726,7 @@
     "Joint written input: Institute of Public Affairs",
     "Joint written input: Responsible Politics Foundation"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "0/39",
    "followup_urls": [
     {
      "url": "https://www.batory.org.pl/wp-content/uploads/2026/07/Rule-of-law-poland-2026.pdf",
@@ -13445,8 +14755,8 @@
      "new_entities": [
       "European Commission services (2026 Rule of Law Report)"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13465,8 +14775,8 @@
      "label": "fact",
      "label_scope": "Listed as met; footnote 173 also cites meetings with Batory, HFHR and Amnesty; no content given",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13485,8 +14795,8 @@
      "label": "fact",
      "label_scope": "Listed as met; no meeting date or content given",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13505,8 +14815,8 @@
      "label": "fact",
      "label_scope": "Listed as met; no content given",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "lex_super_omnia",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13525,8 +14835,8 @@
      "label": "fact",
      "label_scope": "Listed as met; no content given",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "amnesty_pl",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -13545,8 +14855,8 @@
      "label": "fact",
      "label_scope": "The ministry is listed as met; no official is named",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -13565,8 +14875,8 @@
      "label": "fact",
      "label_scope": "The office is listed as met; no official is named",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "rpo_office",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13585,8 +14895,8 @@
      "label": "fact",
      "label_scope": "The KRS is listed as met in Feb-Mar 2026; the page does not say which members took part",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13605,8 +14915,8 @@
      "label": "no_link",
      "label_scope": "Checked the full 22-entry Annex II list: Themis, Free Courts and the Osiatyński Archive do not appear. Annex I has no Themis entry. Free Courts appears in Annex I only, as co-author of the joint written input.",
      "date": "2026-02/2026-03",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "themis",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13628,8 +14938,8 @@
      "new_entities": [
       "Joint NGO written input to the 2026 Rule of Law Report"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13648,8 +14958,8 @@
      "label": "fact",
      "label_scope": "Joint authorship as listed by the Commission; content not read",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13668,8 +14978,8 @@
      "label": "fact",
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13688,8 +14998,8 @@
      "label": "fact",
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "watchdog_polska",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13708,8 +15018,8 @@
      "label": "fact",
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "isp",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13731,8 +15041,8 @@
      "new_entities": [
       "National Federation of Polish NGOs"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "map_status": "both_names_unmatched"
     },
     {
@@ -13752,8 +15062,8 @@
      "new_entities": [
       "Responsible Politics Foundation"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "map_status": "both_names_unmatched"
     },
     {
@@ -13770,8 +15080,8 @@
      "label": "fact",
      "label_scope": "Cited as a source; the page does not show which passage relies on it",
      "date": "2025-12-15",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13790,8 +15100,8 @@
      "label": "fact",
      "label_scope": "The Commission's recommendation as written; the TK is mentioned only within the Action Plan bullet",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13810,8 +15120,8 @@
      "label": "fact",
      "label_scope": "The report's account as of drafting in 2026. The same section says Parliament elected 'seven judges to vacant posts in the Tribunal' on 13 Mar and 11 Jun 2026.",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "normalized",
      "object_map_id": "nawrocki",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13830,8 +15140,8 @@
      "label": "fact",
      "label_scope": "The report states the rise; no amount is given",
      "date": "2026",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "found_in_reader_extract_only",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -13955,8 +15265,12 @@
    "publisher": "Venice Commission (Council of Europe)",
    "capture_answer": "CDL-AD(2024)035, on Poland's draft constitutional amendments on the TK and two draft TK laws, was adopted at the 141st Plenary Session (Venice, 6-7 Dec 2024). The landing page shows no rapporteurs.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:57:41.153Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 410,
+    "sha256": "46ee58fcfc2a5f37920cbc03136656ac08003401b9ee2d7f7da268857dac06c0",
+    "url_read": "https://www.coe.int/en/web/venice-commission/-/cdl-ad-2024-035-e"
    },
    "followup_urls": [
     {
@@ -13983,8 +15297,8 @@
      "label": "fact",
      "label_scope": "Adoption, code and subject only; content, rapporteurs and requester are not on this page",
      "date": "2024-12-06/2024-12-07",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
      "object_map_id": "tk",
@@ -14009,8 +15323,12 @@
    "publisher": "Venice Commission (Council of Europe)",
    "capture_answer": "Opinion 1203/2024, on the draft constitutional amendments concerning the TK and two draft TK laws, was requested by 'Poland, Minister of Justice'. No rapporteurs are listed.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:57:41.163Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 315,
+    "sha256": "d8fc825d2e7a29939175f1f1c071dbebfc65ff99c9eba78441e5525ccae22e01",
+    "url_read": "https://www.coe.int/en/web/venice-commission/-/opinion-1203"
    },
    "followup_urls": [
     {
@@ -14037,8 +15355,8 @@
      "label": "fact",
      "label_scope": "The page names the office of Minister of Justice as requester; no person, date or rapporteur is named",
      "date": "2024",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "venice",
@@ -14059,8 +15377,8 @@
      "label": "speculation",
      "label_scope": "The page names only the office and the opinion number 1203/2024. That the minister was Adam Bodnar rests on the map's sourced edge that he acted as Justice Minister in April 2024 (bodnar -> kkusip).",
      "date": "2024",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
      "object_map_id": "venice",
@@ -14081,8 +15399,8 @@
      "label": "speculation",
      "label_scope": "The page describes the drafts only generically (constitutional amendments and 'two draft laws on the Constitutional Tribunal'). Identity with the map's tk_bills_2024 rests on the matching subject and year.",
      "date": "2024",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
      "object_map_id": "tk_bills_2024",
@@ -14103,14 +15421,18 @@
    "publisher": "Parliamentary Assembly of the Council of Europe (PACE)",
    "capture_answer": "The PACE co-rapporteurs for Poland are Christophe Brico (Monaco, EPP/CD) and Didier Marie (France, SOC). After a three-day Warsaw visit they said the TK and the KRS are politicised. The page names no interlocutors.",
    "raw": {
-    "kind": "reader_extract",
-    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+    "fetched_at": "2026-11-02T00:57:41.180Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 1692,
+    "sha256": "d3959bc6fdeee953f33f55a22449934e97df8edaf74b063c64fa38292b2880a8",
+    "url_read": "https://pace.coe.int/en/news/10299"
    },
    "names_listed": [
     "Christophe Brico (Monaco, EPP/CD)",
     "Didier Marie (France, SOC)"
    ],
-   "names_found_in_page_text": "no page text captured",
+   "names_found_in_page_text": "2/2",
    "followup_urls": [
     {
      "url": "https://bip.brpo.gov.pl/pl/content/brpo-wizyta-komisja-monitoringowa-2026",
@@ -14138,8 +15460,8 @@
      "new_entities": [
       "Christophe Brico"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "pace",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14160,8 +15482,8 @@
      "new_entities": [
       "Didier Marie"
      ],
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "pace",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -14179,13 +15501,11 @@
      "evidence_location": "body text; headline 'Poland: PACE monitors concerned at persisting politicisation of the highest judicial functions'",
      "label": "fact",
      "label_scope": "Their statement as published by PACE; undated; the page says nothing about the President or the judges' oath and lists no meetings",
-     "access": "page_read_via_reader_extract",
-     "evidence_check": "exact_in_reader_extract",
-     "subject_map_id": "pace",
-     "subject_map_status": "sweep2_candidate",
+     "access": "page_read",
+     "evidence_check": "exact",
      "object_map_id": "tk",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   }
@@ -22455,27 +23775,6 @@
   },
   {
    "theme": "B5_nominations",
-   "url": "https://api.sejm.gov.pl/sejm/term10/prints/3005",
-   "title": "Sejm print 3005 (Sept 2026 TK candidacy; read 3006 alongside)",
-   "why": "Berek's and Kotowski's candidacy motions for the 4 Sep 2026 vote. The transcript gives the numbers but not who filed them.",
-   "capture": "For 3005 and 3006: title (e.g. 'Poselski wniosek' or 'Wniosek Prezydium Sejmu'), filing date, full signatory list, movers' representative, club. Then 3057 and 3058: committee opinion text and vote counts."
-  },
-  {
-   "theme": "B5_nominations",
-   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2618",
-   "title": "Sejm print 2618 (June 2026 TK candidacy; read 2619 alongside)",
-   "why": "Patyra's and Kotowski's candidacy motions for the 11 Jun 2026 vote. A Wprost headline says the KO club filed the new candidate.",
-   "capture": "For 2618 and 2619: who filed (KO club or a group of at least 50 MPs), full signatory list, representative, date. Then 2634 and 2635: committee opinions and vote counts."
-  },
-  {
-   "theme": "B5_nominations",
-   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
-   "title": "Sejm print 2333 (March 2026 TK candidacy range 2330-2351)",
-   "why": "Shows whether the six March 2026 candidates were formally filed by the Presidium of the Sejm or by MPs. Prints 2334 and 2338 are already read; 2330, 2331, 2345, 2346 and 2351 also surfaced.",
-   "capture": "Which candidate each print belongs to; filer (Prezydium Sejmu or MPs), signatures (Marshal/Presidium members or MP list), date; which print in the range is the committee opinion and its vote count."
-  },
-  {
-   "theme": "B5_nominations",
    "url": "https://api.sejm.gov.pl/sejm/term10/MP",
    "title": "Sejm API list of 10th-term MPs with club",
    "why": "No page read so far gives clubs for the MPs named (question 3).",
@@ -22508,27 +23807,6 @@
    "title": "Opinia OBSiL KRRP 16/24 on the TK bill (print 253)",
    "why": "The legal advisers' chamber research centre gave an opinion on the 2024 TK bill. Berek (paid OBSiL expert per the map) and Dziurda (KRRP member) are linked to this body.",
    "capture": "Named authors or reviewers of the opinion, date, addressee, conclusions; whether Berek or Dziurda took part (record a no_link if not)."
-  },
-  {
-   "theme": "B6_prosecutors_police",
-   "url": "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/",
-   "title": "Kategorie artykułu: Newsy Polityka",
-   "why": "Timeline of Friday evening (30 Oct 2026) at the TK.",
-   "capture": "Sequence of police, SOP and TK guard actions; who gave the orders; names of TK chancellery officials, spokespeople and commanders quoted; any dismissals."
-  },
-  {
-   "theme": "B6_prosecutors_police",
-   "url": "https://www.bankier.pl/wiadomosc/Koniec-sledztwa-o-zamach-stanu-Prokuratura-uderza-w-argumentacje-TK-9113189.html",
-   "title": "Koniec sledztwa o zamach stanu Prokuratura uderza w argumentacje TK 9113189",
-   "why": "Outcome of the probe started on Święczkowski's 2025 coup notification.",
-   "capture": "Date; which prosecutor's office and prosecutor closed it; type of decision; people questioned (e.g. Berek, Morawiecki); spokesperson quoted."
-  },
-  {
-   "theme": "B6_prosecutors_police",
-   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/096",
-   "title": "10. kadencja, 63. posiedzenie, 3. dzień (31-07-2026)",
-   "why": "The question that Mroczek's answer (P3) responded to.",
-   "capture": "Name and club of the MP who asked; the date and details of the July police action they cite; any names of TK officials, judges or the prosecutor."
   },
   {
    "theme": "B6_prosecutors_police",
