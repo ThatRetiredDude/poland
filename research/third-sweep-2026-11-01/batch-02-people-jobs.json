@@ -29,63 +29,64 @@
   ]
  },
  "stats": {
-  "agents": 10,
-  "agents_left_out_unfinished_or_other_batch": 16,
+  "agents": 12,
+  "agents_left_out_unfinished_or_other_batch": 14,
   "searches": 108,
   "search_results": 1689,
   "unique_result_urls": 1444,
-  "page_fetches": 83,
-  "pages_reported": 46,
-  "pages_with_page_text": 40,
+  "page_fetches": 91,
+  "pages_reported": 52,
+  "pages_with_page_text": 43,
   "fetch_status": {
-   "error": 5,
-   "ok": 37,
-   "partial": 3,
+   "error": 6,
+   "ok": 38,
+   "partial": 5,
+   "empty": 2,
    "blocked": 1
   },
-  "claims": 309,
+  "claims": 368,
   "labels": {
-   "fact": 243,
-   "no_link": 55,
-   "alleged": 4,
+   "fact": 271,
+   "no_link": 80,
+   "alleged": 10,
    "speculation": 7
   },
   "evidence_check": {
-   "exact": 220,
+   "exact": 271,
    "normalized": 52,
-   "not_found": 34,
+   "not_found": 42,
    "found_in_reader_extract_only": 3
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 176,
-   "pair_already_linked": 33,
-   "new_tie_between_known_entities": 33,
-   "both_names_unmatched": 67
+   "new_entity_or_unmatched_name": 220,
+   "pair_already_linked": 34,
+   "new_tie_between_known_entities": 37,
+   "both_names_unmatched": 77
   },
   "kinds": {
-   "nomination_or_vote": 30,
-   "other": 49,
-   "statement": 16,
-   "contract_or_fee": 34,
-   "role_or_job": 77,
-   "membership_or_board": 65,
+   "nomination_or_vote": 35,
+   "other": 60,
+   "statement": 24,
+   "contract_or_fee": 36,
+   "role_or_job": 89,
+   "membership_or_board": 85,
    "grant_or_donation": 3,
+   "event_or_speech": 31,
    "ownership": 4,
-   "event_or_speech": 30,
    "legal_action": 1
   },
   "title_only_leads": 115,
-  "to_read_unread": 14,
+  "to_read_unread": 8,
   "nothing_found": 33,
   "agents_stopped_at_usage_limit": [
-   "read:B2_appointments:1",
-   "read:B2_appointments:2",
    "search:B5_nominations",
    "search:B6_prosecutors_police",
    "search:B7_international"
   ],
   "agents_rerun_after_usage_limit": [
    "read:B1_judges_income:2",
+   "read:B2_appointments:1",
+   "read:B2_appointments:2",
    "read:B4_wawrykiewicz:2"
   ],
   "duplicate_reads_left_out": [],
@@ -1142,6 +1143,1405 @@
    ]
   },
   {
+   "ref": "B2_appointments-T1",
+   "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
+   "host": "bankier.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "error",
+   "fetch_note": "Site returned client_error; nothing of the page was retrieved, and no HTTP status code beyond client_error was reported. Permanent failure: sending the same URL again would fail the same way, so it was not retried.",
+   "capture_answer": "Not answered. The Bankier article could not be read, so the appointment date, who requested and who appointed him, the portfolio, his court, any association role and the post he replaced are all unknown from this source.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B2_appointments-T2",
+   "url": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich",
+   "host": "bip.brpo.gov.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "empty",
+   "fetch_note": "HTTP 200 OK, text/html, 107 characters. Only metadata came back, no article text: meta-ROBOTS: NOINDEX, NOFOLLOW; meta-format-detection: telephone=no; meta-viewport: initial-scale=1.0. Fallback required for an empty bip.brpo.gov.pl page: the same path on https://www.rpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich was tried once. It returned 302 Found, redirecting to https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich, the same page that came back empty; that target was not fetched a second time.",
+   "capture_answer": "Not answered from the retrieved material. The RPO page returned no body text, and the rpo.gov.pl fallback redirected to the same empty page. The appointment date, appointing Ombudsman, Sejm consent date, prior roles and portfolio are not in anything retrieved. The OKO.press article cited on B2_appointments-T3 links an RPO notice about Adam Krzywoń's last working day; see that entry's followup_urls.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:58.049Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 107,
+    "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+    "url_read": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B2_appointments-T3",
+   "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
+   "host": "oko.press",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "Partly paywalled. Visible text covers the headline, the standfirst, and the body up to the OKO.press sentence 'To jednak kłóci się z naszymi ustaleniami.' The rest sits behind the notice 'Ten artykuł dostępny jest tylko dla wspierających OKO.press.' Page metadata: modified 2026-11-02T00:14:58.074Z. HTTP 200 OK, text/html, 13061 characters.",
+   "page_title": "Ujawniamy kulisy odwołania zastępcy RPO. Partyjny deal w instytucji, która powinna być niezależna",
+   "page_date": "11 października 2026",
+   "publisher": "OKO.press",
+   "capture_answer": "Deputy removed: dr hab. Adam Krzywoń, deputy Ombudsman. The new Ombudsman is Sylwia Gregorczyk-Abram. The only party named in the visible text is Lewica. The standfirst says Anna Maria Żukowska of Lewica confirms that dr Michał Peno will take the post on the club's recommendation, and the body has the line 'Lewica musi mieć swojego rzecznika'. KO, Polska 2050, PSL and PiS are not named in the visible text. Peno is described as a former Unia Pracy politician who has so far worked in the justice ministry; no appointment date is given for him. Dates: the RPO office announced on 9 października that Friday was Krzywoń's last working day, and the article is dated 11 października 2026. The 'party deal' is alleged by unnamed RPO office staff, who also say Gregorczyk-Abram was to tell Krzywoń she was dismissing him. The office says it did not dismiss him and that they parted by mutual agreement, and that personnel decisions rest on merit. Gregorczyk-Abram denies the nomination is political. OKO.press says the office's reply conflicts with its findings. The rest of the article is paywalled.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:58.240Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 13061,
+    "sha256": "eb16fadfa43093ef340d851d8e37be82daa295570518365400c01488749a638f",
+    "url_read": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna"
+   },
+   "names_listed": [
+    "Sylwia Gregorczyk-Abram",
+    "dr hab. Adama Krzywonia",
+    "prof. Krzywonia",
+    "dr Michał Peno",
+    "dr. Michała Peno",
+    "Anna Maria Żukowska"
+   ],
+   "names_found_in_page_text": "6/6",
+   "followup_urls": [
+    {
+     "url": "https://bip.brpo.gov.pl/pl/content/zrpo-adam-krzywon-koniec-pracy",
+     "why": "RPO office's own notice on Krzywoń's last working day (9 października), linked from the article. It may give dates or reasons. Not fetched."
+    },
+    {
+     "url": "https://oko.press/ludzie/anna-maria-zukowska",
+     "why": "OKO.press tag page for Anna Maria Żukowska, linked in the article's tags. It may show her party or parliamentary role, which the article gives only as 'z Lewicy'. Not fetched."
+    },
+    {
+     "url": "https://oko.press/ludzie/sylwia-gregorczyk-abram",
+     "why": "OKO.press tag page for Sylwia Gregorczyk-Abram, linked in the article's tags. It may list related coverage. Not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0045",
+     "subject": "OKO.press",
+     "subject_type": "org",
+     "relation": "published the investigation headlined 'Ujawniamy kulisy odwołania zastępcy RPO. Partyjny deal w instytucji, która powinna być niezależna'",
+     "object": "Ujawniamy kulisy odwołania zastępcy RPO. Partyjny deal w instytucji, która powinna być niezależna",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "Ujawniamy kulisy odwołania zastępcy RPO. Partyjny deal w instytucji, która powinna być niezależna",
+     "evidence_translation": "We reveal the behind-the-scenes of the removal of the deputy Ombudsman. A party deal in an institution that should be independent.",
+     "label": "fact",
+     "label_scope": "OKO.press is the publisher shown on the page. Byline: Anton Ambroziak. Dated 11 października 2026.",
+     "evidence_location": "Headline (H1) at top of article",
+     "date": "11 października 2026",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0046",
+     "subject": "Sylwia Gregorczyk-Abram",
+     "subject_type": "person",
+     "relation": "is the new Ombudsman (rzecznik), described in the article as 'nowa rzecznika'",
+     "object": "Rzecznik Praw Obywatelskich (RPO)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "nowa rzecznika Sylwia Gregorczyk-Abram",
+     "evidence_translation": "the new Ombudsman (feminine form), Sylwia Gregorczyk-Abram",
+     "label": "fact",
+     "label_scope": "The article's description of her post. The page gives no appointment date and no Sejm vote.",
+     "evidence_location": "Body, first paragraph after the photo credits (beginning '9 października biuro Rzecznika Praw Obywatelskich')",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "gregorczyk_abram",
+     "subject_map_status": "on_map",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0047",
+     "subject": "Sylwia Gregorczyk-Abram",
+     "subject_type": "person",
+     "relation": "stated that the dismissal of the constitutionalist and the appointment to the deputy Ombudsman post of a former Unia Pracy politician is not a political decision",
+     "object": "dismissal of dr hab. Adam Krzywoń and appointment of dr Michał Peno as deputy Ombudsman",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "twierdzi, że odwołanie uznanego konstytucjonalisty i powołanie na stanowisko zastępcy RPO",
+     "evidence_translation": "claims that the dismissal of the recognised constitutionalist and the appointment to the deputy Ombudsman post of a former Unia Pracy politician is not a political decision",
+     "label": "fact",
+     "label_scope": "Her stated position, as given in the standfirst. The article says the office's written reply conflicts with its own findings.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "gregorczyk_abram",
+     "subject_map_status": "on_map",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0048",
+     "subject": "Biuro Rzecznika Praw Obywatelskich",
+     "subject_type": "public_body",
+     "relation": "announced that Friday was the last working day of Adam Krzywoń as deputy Ombudsman; the official notice gave no reason",
+     "object": "dr hab. Adam Krzywoń (zastępca RPO)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "że piątek był ostatnim dniem pracy konstytucjonalisty dr hab. Adama Krzywonia na stanowisku zastępcy RPO",
+     "evidence_translation": "that Friday was the last working day of the constitutionalist dr hab. Adam Krzywoń in the post of deputy Ombudsman",
+     "label": "fact",
+     "label_scope": "The office's own announcement, as reported in the article. The sentence gives '9 października' without a year; the article is dated 11 października 2026. The article says the official notice did not state the reason for the end of cooperation.",
+     "date": "9 października",
+     "evidence_location": "Body, first paragraph after the photo credits (beginning '9 października biuro Rzecznika Praw Obywatelskich')",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rpo_office",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0049",
+     "subject": "Biuro Rzecznika Praw Obywatelskich",
+     "subject_type": "public_body",
+     "relation": "told OKO.press, in reply to its questions, that it did not dismiss dr hab. Adam Krzywoń and that it parted with him by mutual agreement",
+     "object": "dr hab. Adam Krzywoń",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "nie zwolniło dr hab. Adama Krzywonia, a rozstało się z nim za porozumieniem stron",
+     "evidence_translation": "it did not dismiss dr hab. Adam Krzywoń, and it parted with him by mutual agreement",
+     "label": "fact",
+     "label_scope": "The office's written reply to OKO.press, as reported in the article. The article says the reply conflicts with its findings.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rpo_office",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0050",
+     "subject": "Sylwia Gregorczyk-Abram",
+     "subject_type": "person",
+     "relation": "firmly denied that the nomination of dr Peno has a political character",
+     "object": "nomination of dr Michał Peno",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "stanowczo zaprzeczała też, że nominacja dr Peno ma charakter polityczny",
+     "evidence_translation": "she also firmly denied that the nomination of Dr Peno has a political character",
+     "label": "fact",
+     "label_scope": "Reported by OKO.press as her denial. The article says the office's reply conflicts with its findings.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "gregorczyk_abram",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0051",
+     "subject": "Biuro Rzecznika Praw Obywatelskich",
+     "subject_type": "public_body",
+     "relation": "stated in its written reply that the Office is and will remain an independent, apolitical body",
+     "object": "independence and apolitical status of the RPO (self-description)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Urząd Rzecznika Praw Obywatelskich jest i pozostanie organem w pełni niezależnym, apolitycznym",
+     "evidence_translation": "The Office of the Ombudsman is and will remain a fully independent, apolitical body",
+     "label": "fact",
+     "label_scope": "The office's own statement, quoted in the article. OKO.press writes directly after it: 'To jednak kłóci się z naszymi ustaleniami' (that, however, conflicts with our findings).",
+     "evidence_location": "Body, quoted RPO reply paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rpo_office",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0052",
+     "subject": "unnamed RPO office staff ('pracownicy biura RPO')",
+     "subject_type": "other",
+     "relation": "say that the change is a 'party deal' ('dealu partyjnym')",
+     "object": "removal of dr hab. Adam Krzywoń and appointment of dr Michał Peno",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Pracownicy mówią nam o „dealu partyjnym”",
+     "evidence_translation": "Employees tell us about a 'party deal'.",
+     "label": "alleged",
+     "label_scope": "Claim by unnamed RPO office staff, as reported by OKO.press in the standfirst. The staff are not named on the page.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rpo_office",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0053",
+     "subject": "Sylwia Gregorczyk-Abram",
+     "subject_type": "person",
+     "relation": "was to tell dr hab. Adam Krzywoń that she was dismissing him from the deputy post, because she had no other option (account of unnamed RPO office staff)",
+     "object": "dr hab. Adam Krzywoń (zastępca RPO)",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "miała poinformować prof. Krzywonia, że odwołuje go z funkcji zastępcy, bo nie ma innego wyjścia",
+     "evidence_translation": "she was to inform prof. Krzywoń that she is dismissing him from the post of deputy, because she has no other way out",
+     "label": "alleged",
+     "label_scope": "Account by unnamed RPO office staff, as relayed by OKO.press. The office says the parting was by mutual agreement (see the claim on its reply).",
+     "date": "zaledwie kilka dni wcześniej (a few days before the 9 października announcement)",
+     "evidence_location": "Body, first paragraph after the photo credits (beginning '9 października biuro Rzecznika Praw Obywatelskich')",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "gregorczyk_abram",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0054",
+     "subject": "dr Michał Peno",
+     "subject_type": "person",
+     "relation": "is to take up the deputy Ombudsman post on the recommendation of the club",
+     "object": "zastępca RPO (deputy Ombudsman post)",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "dr Michał Peno obejmie funkcję z rekomendacji klubu",
+     "evidence_translation": "dr Michał Peno will take up the post on the recommendation of the club",
+     "label": "alleged",
+     "label_scope": "Stated in the standfirst as confirmed by Anna Maria Żukowska of Lewica. The page does not name the club and gives no appointment date. Sylwia Gregorczyk-Abram denies that the nomination is political.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "new_entities": [
+      "dr Michał Peno"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0055",
+     "subject": "Anna Maria Żukowska",
+     "subject_type": "person",
+     "relation": "confirms (per the standfirst) that dr Michał Peno will take up the post on the recommendation of the club",
+     "object": "dr Michał Peno (deputy Ombudsman nomination)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "a Anna Maria Żukowska z Lewicy potwierdza: dr Michał Peno obejmie funkcję z rekomendacji klubu",
+     "evidence_translation": "and Anna Maria Żukowska of Lewica confirms: dr Michał Peno will take up the post on the recommendation of the club",
+     "label": "fact",
+     "label_scope": "The article states that she confirms this. Her words are not quoted on the page, and the club is not named.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "new_entities": [
+      "Anna Maria Żukowska"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0056",
+     "subject": "Anna Maria Żukowska",
+     "subject_type": "person",
+     "relation": "is described as being from Lewica ('z Lewicy')",
+     "object": "Lewica",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Anna Maria Żukowska z Lewicy",
+     "evidence_translation": "Anna Maria Żukowska of Lewica",
+     "label": "fact",
+     "label_scope": "The article's description of her party affiliation. Her office (for example MP or any party role) is not given on the page.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "new_entities": [
+      "Lewica"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0057",
+     "subject": "dr Michał Peno",
+     "subject_type": "person",
+     "relation": "is described as a former politician of Unia Pracy",
+     "object": "Unia Pracy",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "byłego polityka Unii Pracy",
+     "evidence_translation": "former politician of Unia Pracy",
+     "label": "fact",
+     "label_scope": "The article's description. The page gives no dates and no party role for him.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "new_entities": [
+      "Unia Pracy"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0058",
+     "subject": "dr Michał Peno",
+     "subject_type": "person",
+     "relation": "has so far worked in the justice ministry (resort sprawiedliwości)",
+     "object": "Ministry of Justice (resort sprawiedliwości)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "dotychczas pracującego w resorcie sprawiedliwości",
+     "evidence_translation": "who has so far worked in the justice ministry (resort sprawiedliwości)",
+     "label": "fact",
+     "label_scope": "The page gives no name for the minister, department or post.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0059",
+     "subject": "unattributed sentence closing the staff account (speaker not identified)",
+     "subject_type": "other",
+     "relation": "says that Lewica must have its own rzecznik (ombudsman or spokesperson)",
+     "object": "Lewica",
+     "object_type": "party",
+     "kind": "other",
+     "evidence_text": "Lewica musi mieć swojego rzecznika",
+     "evidence_translation": "Lewica must have its own rzecznik (ombudsman or spokesperson)",
+     "label": "alleged",
+     "label_scope": "The page does not attribute the sentence to a named speaker. It follows OKO.press's account of what RPO office staff told it.",
+     "evidence_location": "Body, first paragraph after the photo credits (final sentence)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0060",
+     "subject": "OKO.press (article tags)",
+     "subject_type": "org",
+     "relation": "tags the article with 'Nowa Lewica'",
+     "object": "Nowa Lewica",
+     "object_type": "party",
+     "kind": "other",
+     "evidence_text": "Nowa Lewica",
+     "evidence_translation": "New Left (party name as tagged)",
+     "label": "fact",
+     "label_scope": "A topic tag on the article page. It is not a statement about who was in the deal; the body text says 'Lewica'.",
+     "evidence_location": "Tag list at the end of the article",
+     "new_entities": [
+      "Nowa Lewica"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0061",
+     "subject": "dr Michał Peno",
+     "subject_type": "person",
+     "relation": "checked for a named institutional tie to Justice Minister Waldemar Żurek (none stated)",
+     "object": "Waldemar Żurek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "dotychczas pracującego w resorcie sprawiedliwości",
+     "evidence_translation": "who has so far worked in the justice ministry (resort sprawiedliwości)",
+     "label": "no_link",
+     "label_scope": "Visible text only (the paywall starts after 'To jednak kłóci się z naszymi ustaleniami.'): Żurek is not named. Peno's ministry link is given only as 'resorcie sprawiedliwości'.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0062",
+     "subject": "RPO deputy-post change (removal of dr hab. Adam Krzywoń; appointment of dr Michał Peno)",
+     "subject_type": "event",
+     "relation": "checked for a named tie to Prime Minister Donald Tusk (none stated)",
+     "object": "Donald Tusk",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "dr Michał Peno obejmie funkcję z rekomendacji klubu",
+     "evidence_translation": "dr Michał Peno will take up the post on the recommendation of the club",
+     "label": "no_link",
+     "label_scope": "Visible text only: Donald Tusk is not named. The recommending body is named only as 'klubu' (the club).",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0063",
+     "subject": "RPO deputy-post change (removal of dr hab. Adam Krzywoń; appointment of dr Michał Peno)",
+     "subject_type": "event",
+     "relation": "checked for a named tie to Adam Bodnar (none stated)",
+     "object": "Adam Bodnar",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Urząd Rzecznika Praw Obywatelskich jest i pozostanie organem w pełni niezależnym, apolitycznym",
+     "evidence_translation": "The Office of the Ombudsman is and will remain a fully independent, apolitical body",
+     "label": "no_link",
+     "label_scope": "Visible text only: Adam Bodnar is not named.",
+     "evidence_location": "Body, quoted RPO reply paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0064",
+     "subject": "'dealu partyjnym' (party deal) described in the article",
+     "subject_type": "other",
+     "relation": "checked for named party participants in the deal other than Lewica (none stated)",
+     "object": "KO, Polska 2050, PSL, PiS",
+     "object_type": "party",
+     "kind": "other",
+     "evidence_text": "a Anna Maria Żukowska z Lewicy potwierdza",
+     "evidence_translation": "and Anna Maria Żukowska of Lewica confirms",
+     "label": "no_link",
+     "label_scope": "Visible text only: the only party named in connection with the deal is Lewica, plus Unia Pracy as Peno's former party. KO, Polska 2050, PSL and PiS do not appear.",
+     "evidence_location": "Standfirst (lead paragraph under the headline)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "pis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0065",
+     "subject": "dr hab. Adam Krzywoń",
+     "subject_type": "person",
+     "relation": "checked for a named tie to Archiwum Osiatyńskiego (none stated)",
+     "object": "Archiwum Osiatyńskiego",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Archiwum Osiatyńskiego - Alfabet Buntu",
+     "evidence_translation": "Osiatyński Archive - Alphabet of Revolt",
+     "label": "no_link",
+     "label_scope": "The article text names no tie between Krzywoń and the archive. The only mention is a link block near the page foot, titled 'Archiwum Osiatyńskiego - Alfabet Buntu', with no connection to the article.",
+     "evidence_location": "Page foot, link title attribute",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0066",
+     "subject": "RPO office, Sylwia Gregorczyk-Abram, dr hab. Adam Krzywoń, dr Michał Peno",
+     "subject_type": "other",
+     "relation": "checked for named ties to Iustitia, Themis, Free Courts / Wolne Sądy, HFHR, Batory Foundation, KOS, Akcja Demokracja or KOD (none stated)",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; KOS; Akcja Demokracja; KOD",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Biuro Rzecznika w odpowiedzi na nasze pytania przekazało, że nie zwolniło dr hab. Adama Krzywonia",
+     "evidence_translation": "The Office of the Ombudsman, in reply to our questions, said that it did not dismiss dr hab. Adam Krzywoń",
+     "label": "no_link",
+     "label_scope": "Visible text only: none of these organisations is named in the article.",
+     "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "gregorczyk_abram",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "co-leads the foundation now",
+      "co-founder; elected Ombudsman 17 Jul 2026",
+      "still listed in founders' assembly while Ombudsman",
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-T4",
+   "url": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez",
+   "host": "pap.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "empty",
+   "fetch_note": "HTTP 200 OK, text/html, 107 characters. Only metadata came back: meta-ROBOTS: NOINDEX, NOFOLLOW; meta-format-detection: telephone=no; meta-viewport: initial-scale=1.0. No article text, date, names, clubs, vote or rejected-candidate details. No second attempt was made.",
+   "capture_answer": "Not answered. With only metadata returned, the sitting date, the four MPs and their clubs (KO, Lewica, Polska 2050, PSL, PiS), the vote, and the reasons for rejecting candidates are all unknown from this fetch. The URL slug alone reads roughly as 'Sejm elected four MPs to the KRS; candidates presented by [cut off] were not approved'. That is URL text, not page content.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:22:43.003Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 107,
+    "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+    "url_read": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B2_appointments-T5",
+   "url": "https://www.gov.pl/web/premier/sklad-rady",
+   "host": "gov.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200 OK, text/html, 15128 characters, read in full. This is the 'Skład Rady' page of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (created by the Act of 16 December 2016), not the Legislative Council. Members named: under 'Prezes Rady Ministrów powołał do składu Rady następujące osoby': Grzegorz Karpiński ('Przewodniczący Rady'), Monika Julia Aksamit-Zienkiewicz, Monika Saracyn; under 'Minister właściwy do spraw aktywów państwowych powołał do składu Rady następujące osoby': Michał Małdziński, Elżbieta Osmólska, Eliza Zeidler, Paweł Zieliński. No appointment dates, no deputy chair, no pay statement, and none of the five named organisations appears. Version history: latest version 18.0, 14.10.2026 16:00. The Legislative Council data came from https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2 (same site, linked from this page's menu; HTTP 200, 64953 characters; verbatim text only up to character 39386). Its 'Rada Legislacyjna' section lies inside the verbatim part and is the source of names_listed and the Legislative Council claims. A summary of the text after character 39386 said that page has no Legislative Council entry; that conflicts with the verbatim section and was set aside. names_listed holds only the Legislative Council names, not the seven names above.",
+   "page_title": "Skład Rady - Kancelaria Prezesa Rady Ministrów - Portal Gov.pl",
+   "page_date": "14.10.2026",
+   "publisher": "Kancelaria Prezesa Rady Ministrów",
+   "capture_answer": "The sklad-rady URL is not the Legislative Council. It is the composition page of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (State Treasury companies council): chair Grzegorz Karpiński, seven named members, no deputy chair, no appointment dates, no pay statement, and no mention of Batory Legal Experts Team, HFHR, Iustitia, Themis or the Osiatyński Archive council. Those no_link results apply only to that council. The Legislative Council is on the organy-pomocnicze page, section 'Rada Legislacyjna': chair Prof. dr hab. Marek Szydło; deputy chair Prof. dr hab. Elżbieta Karska; 13 further members (names_listed). That section gives no appointment dates or appointing authority, no pay, and no mention of the five organisations. Its legal basis cites a PM regulation of 26 August 2022; a PM regulation of 29 March 2024 amending it (dziennikustaw.gov.pl/DU/2024/481); and a PM notice of 4 September 2024 on the consolidated text (monitorpolski.gov.pl/DU/rok/2024/pozycja/1329). The request's 'new 2024 regulation Dz.U. 2024 poz. 1329' matches the last link, but the page calls that item a consolidated-text notice, not a new regulation. Section version 9.0, dated 24.03.2026 19:24.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:22:42.235Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 15128,
+    "sha256": "5f46b053c67f9ccd95ee55bd729dfc7c150cb7ae8aa1b88fd787cdc4c882d347",
+    "url_read": "https://www.gov.pl/web/premier/sklad-rady"
+   },
+   "names_listed": [
+    "Prof. dr hab. Marek Szydło",
+    "Prof. dr hab. Elżbieta Karska",
+    "Dr hab. Jarosław Dobkowski, prof. UWM",
+    "Prof. dr hab. Antoni Hanusz",
+    "Dr hab. Anna Hrycaj, prof. UŁa",
+    "Dr hab. Beata Kozłowska-Chyła",
+    "Dr hab. Czesław Kłak, prof. UP im. KEN w Krakowie",
+    "Prof. dr hab. Anna Łabno",
+    "Dr Marcin Olszówka",
+    "Dr hab. Jadwiga Potrzeszcz, prof. KUL",
+    "Dr Przemysław Sobolewski",
+    "Dr hab. Bogumił Szmulik, prof. UKSW",
+    "Dr hab. Piotr Szymaniec, prof. PUAS w Wałbrzychu",
+    "Dr hab. Krzysztof Wiak, prof. KUL",
+    "Dr hab. Piotr Marcin Wiórek, LL.M., prof. UWr"
+   ],
+   "names_found_in_page_text": "0/15",
+   "followup_urls": [
+    {
+     "url": "https://www.monitorpolski.gov.pl/DU/rok/2024/pozycja/1329",
+     "why": "Consolidated-text notice (4 Sep 2024) for the Legislative Council regulation, linked from the Rada Legislacyjna section and matching the request's 'Dz.U. 2024 poz. 1329'. It may state how members are appointed and paid, which the organy page does not."
+    },
+    {
+     "url": "https://monitorpolski.gov.pl/DU/rok/2022/pozycja/1818",
+     "why": "Linked from the Rada Legislacyjna section: PM regulation of 26 Aug 2022 on the Legislative Council (original text). Check appointment, term and remuneration rules."
+    },
+    {
+     "url": "https://dziennikustaw.gov.pl/DU/2024/481",
+     "why": "Linked from the Rada Legislacyjna section: PM regulation of 29 Mar 2024 amending the Legislative Council regulation."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0067",
+     "subject": "Rada Legislacyjna",
+     "subject_type": "public_body",
+     "relation": "is listed under the heading of auxiliary bodies of the Prime Minister",
+     "object": "Prezes Rady Ministrów",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "Organy pomocnicze Prezesa Rady Ministrów",
+     "evidence_translation": "Auxiliary bodies of the Prime Minister (Prezes Rady Ministrów)",
+     "evidence_location": "Page heading '## Organy pomocnicze Prezesa Rady Ministrów' on https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2, above the Rada Legislacyjna section",
+     "label": "fact",
+     "label_scope": "The page's own classification of the Rada Legislacyjna as a body under the Prime Minister's auxiliary bodies. It does not name an officeholder.",
+     "new_entities": [
+      "Rada Legislacyjna"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0068",
+     "subject": "Prof. dr hab. Marek Szydło",
+     "subject_type": "person",
+     "relation": "is chair (Przewodniczący Rady Legislacyjnej) of the Legislative Council, XIV kadencji",
+     "object": "Rada Legislacyjna",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Prof. dr hab. Marek Szydło",
+     "evidence_translation": "Same (personal name with academic title)",
+     "evidence_location": "Rada Legislacyjna section of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2, under the label 'Przewodniczący Rady Legislacyjnej:'",
+     "label": "fact",
+     "label_scope": "Named as chair on the page. No appointment date or appointing authority is given.",
+     "new_entities": [
+      "Marek Szydło"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "pis_meps",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0069",
+     "subject": "Prof. dr hab. Elżbieta Karska",
+     "subject_type": "person",
+     "relation": "is deputy chair (Wiceprzewodnicząca Rady Legislacyjnej) of the Legislative Council, XIV kadencji",
+     "object": "Rada Legislacyjna",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Prof. dr hab. Elżbieta Karska",
+     "evidence_translation": "Same (personal name with academic title)",
+     "evidence_location": "Rada Legislacyjna section of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2, under the label 'Wiceprzewodnicząca Rady Legislacyjnej:'",
+     "label": "fact",
+     "label_scope": "Named as deputy chair on the page. No appointment date or appointing authority is given.",
+     "new_entities": [
+      "Elżbieta Karska"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0070",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Batory Legal Experts Team",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Batory Legal Experts Team, and the organisation is not mentioned on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "zep_batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0071",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to HFHR, and HFHR is not mentioned on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0072",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Iustitia, and Iustitia is not mentioned on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0073",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Themis",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Themis, and Themis is not mentioned on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0074",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Osiatyński Archive council",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to the Osiatyński Archive council, and that council is not mentioned on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0075",
+     "subject": "Rada Legislacyjna XIV kadencji members (15 names on page)",
+     "subject_type": "other",
+     "relation": "receives remuneration, a fee or other payment for membership of",
+     "object": "Rada Legislacyjna",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_text": "Rada Legislacyjna",
+     "evidence_translation": "Legislative Council",
+     "evidence_location": "Whole Rada Legislacyjna section (verbatim part of https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2)",
+     "label": "no_link",
+     "label_scope": "Checked the Rada Legislacyjna section: no pay, fee or remuneration for members is stated. The linked regulations were not read.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0076",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Batory Legal Experts Team",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page, which covers the State Treasury companies council and not the Legislative Council: no named member or the council is tied to Batory Legal Experts Team, and the organisation is not mentioned.",
+     "new_entities": [
+      "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "zep_batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0077",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page, which covers the State Treasury companies council and not the Legislative Council: no named member or the council is tied to HFHR, and HFHR is not mentioned.",
+     "new_entities": [
+      "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0078",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Iustitia",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page, which covers the State Treasury companies council and not the Legislative Council: no named member or the council is tied to Iustitia, and Iustitia is not mentioned.",
+     "new_entities": [
+      "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0079",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Themis",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page, which covers the State Treasury companies council and not the Legislative Council: no named member or the council is tied to Themis, and Themis is not mentioned.",
+     "new_entities": [
+      "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0080",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "is a member of, or linked to",
+     "object": "Osiatyński Archive council",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page, which covers the State Treasury companies council and not the Legislative Council: no named member or the council is tied to the Osiatyński Archive council, and that council is not mentioned.",
+     "new_entities": [
+      "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0081",
+     "subject": "Members of the Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych (7 named on this page)",
+     "subject_type": "other",
+     "relation": "receives remuneration, a fee or other payment for membership of",
+     "object": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "evidence_text": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
+     "evidence_translation": "Council for matters of companies with State Treasury participation and of state legal persons",
+     "evidence_location": "Opening paragraph of https://www.gov.pl/web/premier/sklad-rady (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked this page (State Treasury companies council, not the Legislative Council): no pay, fee or remuneration for members is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-T6",
+   "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
+   "host": "gov.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 15205 characters, read in full. Dated 02.03.2026; English-language page. The page names the nominees Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor and says the newly appointed experts 'will serve as members' of the Commission representing Poland. No mention of ISP, Batory Foundation, Osiatyński Archive, KOD, or of the other listed core actors and NGOs (Donald Tusk, Michał Wawrykiewicz, Adam Bodnar, Iustitia, Themis, HFHR, Free Courts, KOS, OKO.press, Akcja Demokracja). No fee or payment is stated. The ISP and IACL items named in the request are not linked from this page and were not read.",
+   "page_title": "New members of Venice Commission appointed - Ministry of Foreign Affairs Republic of Poland - Gov.pl website",
+   "page_date": "02.03.2026",
+   "publisher": "Ministry of Foreign Affairs Republic of Poland",
+   "capture_answer": "Answered from the page. Dated 02.03.2026, the Ministry of Foreign Affairs page says the government announced the nomination of Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor as new Polish representatives to the Venice Commission, and that the newly appointed experts 'will serve as members', so neither is described as a substitute. The steps it gives are national government nomination and approval by the Committee of Ministers of the Council of Europe for a four-year term; the page does not say that approval was given to these two. Deputy Prime Minister and Foreign Minister Radosław Sikorski said the decision was taken 'together with the Ministry of Justice'. Justice Minister Waldemar Żurek is quoted on the candidates' standards and independence. The page gives no party for Sikorski or Żurek. Sadurski is a professor of law at the University of Sydney and at the Centre for Europe at the University of Warsaw. Florczak-Wątor is a professor at the Jagiellonian University, and her work 'focuses on' the functioning of the Constitutional Tribunal, but the page names no Tribunal post, contract or fee for her. The page names no ISP, Batory Foundation, Osiatyński Archive or KOD tie for either nominee, and no fee or payment. Prof. Hanna Suchocka is named as a previous Polish representative. The ISP and IACL items were not linked from this page and were not read.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:22:43.005Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 15205,
+    "sha256": "eeebb0c5b27a47dbd43e963d6a707b848808d457d9abec07406c58579f47edba",
+    "url_read": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed"
+   },
+   "names_listed": [
+    "Prof. Wojciech Sadurski",
+    "Prof. Monika Florczak-Wątor",
+    "Radosław Sikorski",
+    "Waldemar Żurek",
+    "Prof. Hanna Suchocka"
+   ],
+   "names_found_in_page_text": "5/5",
+   "claims": [
+    {
+     "id": "B02-C0082",
+     "subject": "Government of the Republic of Poland",
+     "subject_type": "public_body",
+     "relation": "announced the nomination of new Polish representatives to the Venice Commission",
+     "object": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "02.03.2026",
+     "evidence_text": "has announced the nomination of new Polish representatives to the Venice Commission",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Lead paragraph under the date 02.03.2026",
+     "label": "fact",
+     "label_scope": "The Ministry of Foreign Affairs page states that the government announced this nomination. This is the page's statement, not independently verified.",
+     "new_entities": [
+      "Wojciech Sadurski",
+      "Monika Florczak-Wątor",
+      "Venice Commission"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0083",
+     "subject": "Prof. Wojciech Sadurski",
+     "subject_type": "person",
+     "relation": "will serve as member of the Venice Commission representing Poland",
+     "object": "Venice Commission",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "The newly appointed experts will serve as members of the Venice Commission representing Poland",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Final paragraph of the 'About the Venice Commission' section",
+     "label": "fact",
+     "label_scope": "The page says the newly appointed experts, which include this nominee, will serve as members. The page does not describe him as a substitute.",
+     "new_entities": [
+      "Wojciech Sadurski",
+      "Venice Commission"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0084",
+     "subject": "Prof. Monika Florczak-Wątor",
+     "subject_type": "person",
+     "relation": "will serve as member of the Venice Commission representing Poland",
+     "object": "Venice Commission",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "The newly appointed experts will serve as members of the Venice Commission representing Poland",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Final paragraph of the 'About the Venice Commission' section",
+     "label": "fact",
+     "label_scope": "The page says the newly appointed experts, which include this nominee, will serve as members. The page does not describe her as a substitute.",
+     "new_entities": [
+      "Monika Florczak-Wątor",
+      "Venice Commission"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0085",
+     "subject": "Prof. Wojciech Sadurski",
+     "subject_type": "person",
+     "relation": "is professor of law at",
+     "object": "University of Sydney",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "professor of law at the University of Sydney and at the Centre for Europe at the University of Warsaw",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Biography paragraph beginning 'Prof. Wojciech Sadurski is a constitutional lawyer'",
+     "label": "fact",
+     "label_scope": "Academic post as stated on the MFA page.",
+     "new_entities": [
+      "Wojciech Sadurski",
+      "University of Sydney"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0086",
+     "subject": "Prof. Wojciech Sadurski",
+     "subject_type": "person",
+     "relation": "is professor of law at",
+     "object": "Centre for Europe at the University of Warsaw",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "professor of law at the University of Sydney and at the Centre for Europe at the University of Warsaw",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Biography paragraph beginning 'Prof. Wojciech Sadurski is a constitutional lawyer'",
+     "label": "fact",
+     "label_scope": "Academic post as stated on the MFA page.",
+     "new_entities": [
+      "Centre for Europe at the University of Warsaw"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0087",
+     "subject": "Prof. Monika Florczak-Wątor",
+     "subject_type": "person",
+     "relation": "is a professor at",
+     "object": "Jagiellonian University",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Prof. Monika Florczak-Wątor, a professor at the Jagiellonian University.",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Biography paragraph for Prof. Monika Florczak-Wątor",
+     "label": "fact",
+     "label_scope": "Academic post as stated on the MFA page.",
+     "new_entities": [
+      "Jagiellonian University"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0088",
+     "subject": "Prof. Monika Florczak-Wątor",
+     "subject_type": "person",
+     "relation": "has a work focus that includes the functioning of",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "Her work focuses on individual rights and freedoms, the functioning of the Constitutional Tribunal",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Biography paragraph for Prof. Monika Florczak-Wątor",
+     "label": "fact",
+     "label_scope": "The page's description of her work focus. The page does not describe any post, contract or fee at the Tribunal (see the no_link claim for that).",
+     "new_entities": [
+      "Constitutional Tribunal"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0089",
+     "subject": "Prof. Monika Florczak-Wątor",
+     "subject_type": "person",
+     "relation": "holds a post, appointment, contract or fee at",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Her work focuses on individual rights and freedoms, the functioning of the Constitutional Tribunal",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Biography paragraph for Prof. Monika Florczak-Wątor",
+     "label": "no_link",
+     "label_scope": "Checked the page for any Tribunal post, appointment, contract or fee for her: none is stated. The only Tribunal mention is the research-focus sentence.",
+     "new_entities": [
+      "Constitutional Tribunal"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0090",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "is Minister of Justice",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Minister of Justice Waldemar Żurek",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Paragraph beginning 'Minister of Justice Waldemar Żurek emphasised'",
+     "label": "fact",
+     "label_scope": "Title as stated on the MFA page.",
+     "new_entities": [
+      "Ministry of Justice"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0091",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "claimed that the candidates guarantee the highest professional and ethical standards",
+     "object": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the candidates)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "Minister of Justice Waldemar Żurek emphasised that the candidates guarantee the highest professional and ethical standards.",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Paragraph beginning 'Minister of Justice Waldemar Żurek emphasised'",
+     "label": "alleged",
+     "label_scope": "Claim by Justice Minister Waldemar Żurek, quoted on the MFA page. The page reports it; the claim itself is not checked.",
+     "new_entities": [
+      "Wojciech Sadurski",
+      "Monika Florczak-Wątor"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0092",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "claimed that the nominees are absolutely independent",
+     "object": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the candidates)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "absolutely independent. Independence is the foundation of rebuilding trust in the state and its institutions",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Block quote following the Żurek paragraph, closing with 'he highlighted'",
+     "label": "alleged",
+     "label_scope": "Claim by Justice Minister Waldemar Żurek, attributed by layout ('he highlighted' after the Żurek paragraph). The page reports it; the claim is not checked.",
+     "new_entities": [
+      "Wojciech Sadurski",
+      "Monika Florczak-Wątor"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0093",
+     "subject": "Ministry of Justice",
+     "subject_type": "public_body",
+     "relation": "decided together with the Ministry of Foreign Affairs to entrust the role to",
+     "object": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "evidence_text": "together with the Ministry of Justice, we have decided to entrust this important role to eminent Polish experts",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "First block quote (opening 'According to the Commission's Statute'), attributed to Deputy Prime Minister Radosław Sikorski",
+     "label": "fact",
+     "label_scope": "The MFA page quotes Deputy Prime Minister and Foreign Minister Radosław Sikorski as saying this. It is the government's own statement, not independently checked.",
+     "new_entities": [
+      "Ministry of Justice",
+      "Wojciech Sadurski",
+      "Monika Florczak-Wątor"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0094",
+     "subject": "Radosław Sikorski",
+     "subject_type": "person",
+     "relation": "is Deputy Prime Minister and Foreign Minister",
+     "object": "Government of the Republic of Poland",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Deputy Prime Minister and Foreign Minister Radosław Sikorski",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Attribution after the first block quote",
+     "label": "fact",
+     "label_scope": "Title as stated on the MFA page.",
+     "new_entities": [
+      "Radosław Sikorski"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "sikorski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0095",
+     "subject": "Radosław Sikorski",
+     "subject_type": "person",
+     "relation": "spoke at the ceremony announcing the new Polish Venice Commission representatives",
+     "object": "Ceremony announcing the new Polish Venice Commission representatives (host, organiser and funders not named)",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "said Deputy Prime Minister and Foreign Minister Radosław Sikorski during the ceremony.",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Attribution after the first block quote",
+     "label": "fact",
+     "label_scope": "The page states Sikorski spoke 'during the ceremony'. The page names no host, organiser, funder or sponsor for the ceremony.",
+     "new_entities": [
+      "Radosław Sikorski"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "sikorski",
+     "subject_map_status": "on_map",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0096",
+     "subject": "Radosław Sikorski",
+     "subject_type": "person",
+     "relation": "is a member of, or holds a party role in",
+     "object": "political party (none named on page)",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Deputy Prime Minister and Foreign Minister Radosław Sikorski",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Attribution after the first block quote",
+     "label": "no_link",
+     "label_scope": "Checked the page for a party membership or party role for Sikorski: none is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "sikorski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0097",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "is a member of, or holds a party role in",
+     "object": "political party (none named on page)",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Minister of Justice Waldemar Żurek",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Paragraph beginning 'Minister of Justice Waldemar Żurek emphasised'",
+     "label": "no_link",
+     "label_scope": "Checked the page for a party membership or party role for Żurek: none is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0098",
+     "subject": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the two nominees)",
+     "subject_type": "person",
+     "relation": "has a stated affiliation with",
+     "object": "ISP",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "New members of Venice Commission appointed",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Page title and main heading (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked the whole page for any affiliation between the two nominees and ISP: none is mentioned.",
+     "new_entities": [
+      "ISP"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "isp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0099",
+     "subject": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the two nominees)",
+     "subject_type": "person",
+     "relation": "has a stated affiliation with",
+     "object": "Batory Foundation",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "New members of Venice Commission appointed",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Page title and main heading (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked the whole page for any affiliation between the two nominees and the Batory Foundation: none is mentioned.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0100",
+     "subject": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the two nominees)",
+     "subject_type": "person",
+     "relation": "has a stated affiliation with",
+     "object": "Osiatyński Archive",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "New members of Venice Commission appointed",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Page title and main heading (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked the whole page for any affiliation between the two nominees and the Osiatyński Archive: none is mentioned.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "osiatynski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0101",
+     "subject": "Prof. Wojciech Sadurski and Prof. Monika Florczak-Wątor (the two nominees)",
+     "subject_type": "person",
+     "relation": "has a stated affiliation with",
+     "object": "KOD",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "New members of Venice Commission appointed",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "Page title and main heading (whole page checked)",
+     "label": "no_link",
+     "label_scope": "Checked the whole page for any affiliation between the two nominees and KOD: none is mentioned.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "kod",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0102",
+     "subject": "Venice Commission candidates (general process)",
+     "subject_type": "other",
+     "relation": "appointment is approved by the Committee of Ministers of the Council of Europe, for a four-year term",
+     "object": "Committee of Ministers of the Council of Europe",
+     "object_type": "org",
+     "kind": "nomination_or_vote",
+     "evidence_text": "their appointment is approved by the Committee of Ministers of the Council of Europe for a four year term",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "'About the Venice Commission' section, paragraph beginning 'Each state that is a member'",
+     "label": "fact",
+     "label_scope": "General description of the Commission's procedure as written on the MFA page. The page does not record a Committee of Ministers approval for these two nominees.",
+     "new_entities": [
+      "Committee of Ministers of the Council of Europe"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0103",
+     "subject": "Venice Commission candidates (general process)",
+     "subject_type": "other",
+     "relation": "are nominated by",
+     "object": "national governments",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Candidates are nominated by national governments",
+     "evidence_translation": "Same wording (English original)",
+     "evidence_location": "'About the Venice Commission' section, paragraph beginning 'Each state that is a member'",
+     "label": "fact",
+     "label_scope": "General description of the Commission's procedure as written on the MFA page; not specific to these two nominees.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
    "ref": "B3_state_boards-T1",
    "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board",
    "host": "orlen.pl",
@@ -1201,7 +2601,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0045",
+     "id": "B02-C0104",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "is Chairman of the Supervisory Board of",
@@ -1220,7 +2620,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0046",
+     "id": "B02-C0105",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "is Vice-Chairman and independent member of",
@@ -1239,7 +2639,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0047",
+     "id": "B02-C0106",
      "subject": "Katarzyna Łobos",
      "subject_type": "person",
      "relation": "is Secretary and independent member of",
@@ -1258,7 +2658,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0048",
+     "id": "B02-C0107",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "is a member of",
@@ -1277,7 +2677,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0049",
+     "id": "B02-C0108",
      "subject": "Ewa Gąsiorek",
      "subject_type": "person",
      "relation": "is an independent member of",
@@ -1296,7 +2696,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0050",
+     "id": "B02-C0109",
      "subject": "Marian Sewerski",
      "subject_type": "person",
      "relation": "is an independent member of",
@@ -1315,7 +2715,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0051",
+     "id": "B02-C0110",
      "subject": "Ewa Sowińska",
      "subject_type": "person",
      "relation": "is an independent member of",
@@ -1334,7 +2734,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0052",
+     "id": "B02-C0111",
      "subject": "Piotr Wielowieyski",
      "subject_type": "person",
      "relation": "is an independent member of",
@@ -1353,7 +2753,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0053",
+     "id": "B02-C0112",
      "subject": "Marcin Siudy",
      "subject_type": "person",
      "relation": "is an independent member of",
@@ -1372,7 +2772,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0054",
+     "id": "B02-C0113",
      "subject": "Remigiusz Paszkiewicz",
      "subject_type": "person",
      "relation": "is a member of",
@@ -1391,7 +2791,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0055",
+     "id": "B02-C0114",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "chairs the Committee for Sponsorship of",
@@ -1410,7 +2810,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0056",
+     "id": "B02-C0115",
      "subject": "ORLEN Supervisory Board (five bios read)",
      "subject_type": "org",
      "relation": "names a tie to",
@@ -1457,7 +2857,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B02-C0057",
+     "id": "B02-C0116",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "worked at (2002-2007)",
@@ -1475,7 +2875,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0058",
+     "id": "B02-C0117",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "headed the legal and ownership supervision department (2008-2018) of",
@@ -1493,7 +2893,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0059",
+     "id": "B02-C0118",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "is Managing Director for Corporate Affairs at",
@@ -1511,7 +2911,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0060",
+     "id": "B02-C0119",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "is General Director at (current)",
@@ -1530,7 +2930,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0061",
+     "id": "B02-C0120",
      "subject": "Przemysław Ciszak",
      "subject_type": "person",
      "relation": "served as a member of",
@@ -1573,7 +2973,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B02-C0062",
+     "id": "B02-C0121",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "was a member of the Company Law Team of (2011-2015)",
@@ -1593,7 +2993,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0063",
+     "id": "B02-C0122",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "served as an expert for (2019)",
@@ -1611,7 +3011,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0064",
+     "id": "B02-C0123",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "served as an expert for (2022)",
@@ -1629,7 +3029,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0065",
+     "id": "B02-C0124",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "is author or co-author of over 150 opinions and reports for",
@@ -1646,7 +3046,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0066",
+     "id": "B02-C0125",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "is an arbitrator at",
@@ -1665,7 +3065,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0067",
+     "id": "B02-C0126",
      "subject": "Aleksander Kappes",
      "subject_type": "person",
      "relation": "has participated in the supervisory boards of",
@@ -1710,7 +3110,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B02-C0068",
+     "id": "B02-C0127",
      "subject": "Katarzyna Łobos",
      "subject_type": "person",
      "relation": "was employed as a Legal Adviser in",
@@ -1755,7 +3155,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B02-C0069",
+     "id": "B02-C0128",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "has been President of the Board of (since June 2013)",
@@ -1773,7 +3173,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0070",
+     "id": "B02-C0129",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "is a member of (since 2016)",
@@ -1791,7 +3191,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0071",
+     "id": "B02-C0130",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "is named in his bio as linked to",
@@ -1808,7 +3208,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0072",
+     "id": "B02-C0131",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "is a member of the Presidium of",
@@ -1825,7 +3225,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0073",
+     "id": "B02-C0132",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "sits on the Boards of",
@@ -1842,7 +3242,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0074",
+     "id": "B02-C0133",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "was an expert in (in the past, undated)",
@@ -1859,7 +3259,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0075",
+     "id": "B02-C0134",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "carried out strategic consultancy projects at",
@@ -1876,7 +3276,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0076",
+     "id": "B02-C0135",
      "subject": "Tomasz Zieliński",
      "subject_type": "person",
      "relation": "was Chairman of the Supervisory Board of (2010)",
@@ -1920,7 +3320,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B02-C0077",
+     "id": "B02-C0136",
      "subject": "Ewa Gąsiorek",
      "subject_type": "person",
      "relation": "has served as Deputy Director for Implementation of the Provincial Budget (since 2011) at",
@@ -1938,7 +3338,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0078",
+     "id": "B02-C0137",
      "subject": "Ewa Gąsiorek",
      "subject_type": "person",
      "relation": "was a member of the Supervisory Board of (2015-2020)",
@@ -1958,7 +3358,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0079",
+     "id": "B02-C0138",
      "subject": "Ewa Gąsiorek",
      "subject_type": "person",
      "relation": "was appointed as a Member of the Audit Committee of (2020)",
@@ -2016,7 +3416,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0080",
+     "id": "B02-C0139",
      "subject": "Piotr Zemła",
      "subject_type": "person",
      "relation": "is new chair of",
@@ -2036,7 +3436,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0081",
+     "id": "B02-C0140",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "is to take up the post of new president of",
@@ -2055,7 +3455,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0082",
+     "id": "B02-C0141",
      "subject": "Mateusz Matyszkowicz",
      "subject_type": "person",
      "relation": "is current president of",
@@ -2074,7 +3474,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0083",
+     "id": "B02-C0142",
      "subject": "Mateusz Matyszkowicz",
      "subject_type": "person",
      "relation": "reportedly accepted his dismissal from",
@@ -2093,7 +3493,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0084",
+     "id": "B02-C0143",
      "subject": "posłowie PiS (unnamed MPs)",
      "subject_type": "other",
      "relation": "occupied the TVP building and questioned the powers of",
@@ -2113,7 +3513,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0085",
+     "id": "B02-C0144",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "sat on the TVP supervisory board alongside",
@@ -2138,7 +3538,7 @@
      ]
     },
     {
-     "id": "B02-C0086",
+     "id": "B02-C0145",
      "subject": "Sienkiewicz",
      "subject_type": "person",
      "relation": "appointed TVP supervisory board members, including",
@@ -2192,7 +3592,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0087",
+     "id": "B02-C0146",
      "subject": "Marek Suski",
      "subject_type": "person",
      "relation": "is MP and author of",
@@ -2210,7 +3610,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0088",
+     "id": "B02-C0147",
      "subject": "Minister Kultury i Dziedzictwa Narodowego",
      "subject_type": "public_body",
      "relation": "exercises voting rights of State Treasury shares in",
@@ -2227,7 +3627,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0089",
+     "id": "B02-C0148",
      "subject": "Minister Kultury i Dziedzictwa Narodowego",
      "subject_type": "public_body",
      "relation": "says staffing, pay and law-firm contracts fall to",
@@ -2246,7 +3646,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0090",
+     "id": "B02-C0149",
      "subject": "Minister Kultury i Dziedzictwa Narodowego",
      "subject_type": "public_body",
      "relation": "points to annual financial statements and activity reports published in",
@@ -2263,7 +3663,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0091",
+     "id": "B02-C0150",
      "subject": "Maciej Wróbel",
      "subject_type": "person",
      "relation": "signs as Secretary of State on behalf of the Minister at",
@@ -2281,7 +3681,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0092",
+     "id": "B02-C0151",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "is named in",
@@ -2298,7 +3698,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0093",
+     "id": "B02-C0152",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "has monthly pay stated in",
@@ -2315,7 +3715,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0094",
+     "id": "B02-C0153",
      "subject": "Reply to interpellation 13048",
      "subject_type": "document",
      "relation": "names a law firm or legal adviser contracted by the company",
@@ -2382,7 +3782,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0095",
+     "id": "B02-C0154",
      "subject": "HFHR",
      "subject_type": "org",
      "relation": "is managed by a Board of five persons and a Council of eight persons (page statement)",
@@ -2404,7 +3804,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0096",
+     "id": "B02-C0155",
      "subject": "Maciej Nowicki",
      "subject_type": "person",
      "relation": "President of the Board of HFHR",
@@ -2429,7 +3829,7 @@
      ]
     },
     {
-     "id": "B02-C0097",
+     "id": "B02-C0156",
      "subject": "Piotr Kładoczny Ph.D.",
      "subject_type": "person",
      "relation": "Deputy President of the Board of HFHR",
@@ -2449,7 +3849,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0098",
+     "id": "B02-C0157",
      "subject": "Małgorzata Szuleka",
      "subject_type": "person",
      "relation": "Secretary of the Board of HFHR",
@@ -2469,7 +3869,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0099",
+     "id": "B02-C0158",
      "subject": "Małgorzata Szuleka",
      "subject_type": "person",
      "relation": "page describes her HFHR work as monitoring the rule of law and court independence",
@@ -2486,7 +3886,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0100",
+     "id": "B02-C0159",
      "subject": "Lenur Kerymov",
      "subject_type": "person",
      "relation": "Treasurer of the Board of HFHR",
@@ -2506,7 +3906,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0101",
+     "id": "B02-C0160",
      "subject": "Aleksandra Iwanowska Ph.D.",
      "subject_type": "person",
      "relation": "Member of the Board of HFHR",
@@ -2526,7 +3926,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0102",
+     "id": "B02-C0161",
      "subject": "Danuta Przywara",
      "subject_type": "person",
      "relation": "Chair of the Board of HFHR (page: since 2008 to 2021); listed under Council",
@@ -2545,7 +3945,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0103",
+     "id": "B02-C0162",
      "subject": "Mirosław Wyrzykowski",
      "subject_type": "person",
      "relation": "former judge of the Constitutional Tribunal",
@@ -2565,7 +3965,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0104",
+     "id": "B02-C0163",
      "subject": "Mirosław Wyrzykowski",
      "subject_type": "person",
      "relation": "member of the HFHR Council",
@@ -2584,7 +3984,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0105",
+     "id": "B02-C0164",
      "subject": "Andrzej Rzepliński",
      "subject_type": "person",
      "relation": "member of the HFHR Council",
@@ -2603,7 +4003,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0106",
+     "id": "B02-C0165",
      "subject": "HFHR",
      "subject_type": "org",
      "relation": "receives funding or a grant from a named funder or donor",
@@ -2622,7 +4022,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0107",
+     "id": "B02-C0166",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the HFHR board or council",
@@ -2641,7 +4041,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0108",
+     "id": "B02-C0167",
      "subject": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
      "subject_type": "person",
      "relation": "named on the HFHR board or council list",
@@ -2665,7 +4065,7 @@
      ]
     },
     {
-     "id": "B02-C0109",
+     "id": "B02-C0168",
      "subject": "Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar",
      "subject_type": "person",
      "relation": "named on the HFHR board or council list",
@@ -2725,7 +4125,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0110",
+     "id": "B02-C0169",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "liquidator of TVP",
@@ -2745,7 +4145,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0111",
+     "id": "B02-C0170",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "gave the pay disclosure in an interview to Dziennik Gazeta Prawna",
@@ -2763,7 +4163,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0112",
+     "id": "B02-C0171",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "holds two functions: director of the Corporate Affairs Office and liquidator of the company",
@@ -2781,7 +4181,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0113",
+     "id": "B02-C0172",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "pay of 48,4 tys. zł brutto, as disclosed",
@@ -2801,7 +4201,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0114",
+     "id": "B02-C0173",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "receives 50 tys. zł as dyrektor generalny TVP",
@@ -2823,7 +4223,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0115",
+     "id": "B02-C0174",
      "subject": "Grzegorz Sajór",
      "subject_type": "person",
      "relation": "receives 35 tys. zł brutto miesięcznie as dyrektor of Telewizyjna Agencja Informacyjna",
@@ -2843,7 +4243,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0116",
+     "id": "B02-C0175",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "says he applied to the government for an additional 220 mln zł",
@@ -2863,7 +4263,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0117",
+     "id": "B02-C0176",
      "subject": "TVP",
      "subject_type": "company",
      "relation": "is short of 2,6 mld zł, as stated by Daniel Gorgosz",
@@ -2885,7 +4285,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0118",
+     "id": "B02-C0177",
      "subject": "TVP",
      "subject_type": "company",
      "relation": "received more than 9,5 mld zł since 2017 (funding source not named on the page)",
@@ -2907,7 +4307,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0119",
+     "id": "B02-C0178",
      "subject": "Pawła Płuski",
      "subject_type": "person",
      "relation": "heads the editorial office of the news programme 19.30 (page says he is not a director)",
@@ -2925,7 +4325,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0120",
+     "id": "B02-C0179",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "named in the article in connection with TVP pay, funding or management",
@@ -2990,7 +4390,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0121",
+     "id": "B02-C0180",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "Position 'President' at Company 'Polish Radio'",
@@ -3009,7 +4409,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0122",
+     "id": "B02-C0181",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "Vice President of Polish Radio",
@@ -3029,7 +4429,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0123",
+     "id": "B02-C0182",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "held the roles of press spokesman and head of the minister’s office at the Ministry of the Interior (earlier posts)",
@@ -3048,7 +4448,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0124",
+     "id": "B02-C0183",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "managed Radio Wrocław and Radio RAM (earlier posts)",
@@ -3067,7 +4467,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0125",
+     "id": "B02-C0184",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "began his career at Radio Eska",
@@ -3087,7 +4487,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0126",
+     "id": "B02-C0185",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "speaker in the session 'Digital hygiene' (MEDIA AND COMMUNICATION track)",
@@ -3109,7 +4509,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0127",
+     "id": "B02-C0186",
      "subject": "PTWP Group",
      "subject_type": "org",
      "relation": "organiser and initiator of the European Economic Congress",
@@ -3126,7 +4526,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0128",
+     "id": "B02-C0187",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "holds a liquidator role",
@@ -3145,7 +4545,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0129",
+     "id": "B02-C0188",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "ties to a political party, political group, NGO, foundation or funder",
@@ -3190,7 +4590,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B02-C0130",
+     "id": "B02-C0189",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "declares himself rapporteur for",
@@ -3213,7 +4613,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0131",
+     "id": "B02-C0190",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "names as relevant committee for his rapporteur role",
@@ -3236,7 +4636,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0132",
+     "id": "B02-C0191",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "filed declaration on awareness of conflicts of interest dated",
@@ -3256,7 +4656,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0133",
+     "id": "B02-C0192",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no party affiliation or party role stated",
@@ -3274,7 +4674,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0134",
+     "id": "B02-C0193",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3301,7 +4701,7 @@
      ]
     },
     {
-     "id": "B02-C0135",
+     "id": "B02-C0194",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3345,7 +4745,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B02-C0136",
+     "id": "B02-C0195",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "attended, pursuant to an invitation, as MEP",
@@ -3368,7 +4768,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0137",
+     "id": "B02-C0196",
      "subject": "Permanent Representation of the Republic of Poland to the European Union",
      "subject_type": "public_body",
      "relation": "named as third party (expense field) for attendance at",
@@ -3390,7 +4790,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0138",
+     "id": "B02-C0197",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "declares no travel, accommodation or subsistence paid by third party for",
@@ -3410,7 +4810,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0139",
+     "id": "B02-C0198",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "dated declaration of attendance for",
@@ -3430,7 +4830,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0140",
+     "id": "B02-C0199",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3457,7 +4857,7 @@
      ]
     },
     {
-     "id": "B02-C0141",
+     "id": "B02-C0200",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3475,7 +4875,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0142",
+     "id": "B02-C0201",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no party affiliation or party role stated",
@@ -3493,7 +4893,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0143",
+     "id": "B02-C0202",
      "subject": "Permanent Representation of the Republic of Poland to the European Union",
      "subject_type": "public_body",
      "relation": "no tie stated to",
@@ -3538,7 +4938,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B02-C0144",
+     "id": "B02-C0203",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "attended, pursuant to an invitation, as MEP",
@@ -3561,7 +4961,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0145",
+     "id": "B02-C0204",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "named as third party (expense field) for attendance at",
@@ -3583,7 +4983,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0146",
+     "id": "B02-C0205",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "is identified on the form by the number",
@@ -3604,7 +5004,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0147",
+     "id": "B02-C0206",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "may be registered in the EU Transparency Register under",
@@ -3624,7 +5024,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0148",
+     "id": "B02-C0207",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "declares no travel, accommodation or subsistence paid by third party for",
@@ -3644,7 +5044,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0149",
+     "id": "B02-C0208",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "dated declaration of attendance for",
@@ -3664,7 +5064,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0150",
+     "id": "B02-C0209",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "may have attended both events on the same trip, with",
@@ -3687,7 +5087,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0151",
+     "id": "B02-C0210",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3714,7 +5114,7 @@
      ]
     },
     {
-     "id": "B02-C0152",
+     "id": "B02-C0211",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no tie stated to",
@@ -3732,7 +5132,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0153",
+     "id": "B02-C0212",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "no party affiliation or party role stated",
@@ -3750,7 +5150,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0154",
+     "id": "B02-C0213",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "no tie stated to",
@@ -3791,7 +5191,7 @@
    },
    "claims": [
     {
-     "id": "B02-C0155",
+     "id": "B02-C0214",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "declared attendance at a third-party event dated 04/11/2025 - 04/11/2025 (1 day)",
@@ -3811,7 +5211,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0156",
+     "id": "B02-C0215",
      "subject": "Event attended by Michał Wawrykiewicz on 04/11/2025",
      "subject_type": "event",
      "relation": "took place in",
@@ -3831,7 +5231,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0157",
+     "id": "B02-C0216",
      "subject": "Event attended by Michał Wawrykiewicz on 04/11/2025",
      "subject_type": "event",
      "relation": "event type recorded as",
@@ -3851,7 +5251,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0158",
+     "id": "B02-C0217",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "is named in the form's third-party field, which asks for the party who reimbursed or paid the expenses of the Member, for the 04/11/2025 event",
@@ -3874,7 +5274,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0159",
+     "id": "B02-C0218",
      "subject": "Związek Pracodawców Business & Science Poland",
      "subject_type": "org",
      "relation": "paid or reimbursed travel, accommodation or subsistence expenses of",
@@ -3894,7 +5294,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0160",
+     "id": "B02-C0219",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration of attendance",
@@ -3914,7 +5314,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0161",
+     "id": "B02-C0220",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "party or party-group affiliation shown",
@@ -3934,7 +5334,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0162",
+     "id": "B02-C0221",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is linked on this page to a core actor or NGO from the actor list",
@@ -4011,7 +5411,7 @@
    "names_found_in_page_text": "0/32",
    "claims": [
     {
-     "id": "B02-C0163",
+     "id": "B02-C0222",
      "subject": "Konrad-Adenauer-Stiftung Représentation en France",
      "subject_type": "org",
      "relation": "is named in the form's third-party field, which asks for the party who reimbursed or paid the expenses of the Member, for the 04/12/2024 - 05/12/2024 event",
@@ -4035,7 +5435,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0164",
+     "id": "B02-C0223",
      "subject": "Konrad-Adenauer-Stiftung Représentation en France",
      "subject_type": "org",
      "relation": "paid or reimbursed train travel of",
@@ -4055,7 +5455,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0165",
+     "id": "B02-C0224",
      "subject": "Konrad-Adenauer-Stiftung Représentation en France",
      "subject_type": "org",
      "relation": "paid or reimbursed accommodation of Michał Wawrykiewicz at",
@@ -4073,7 +5473,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0166",
+     "id": "B02-C0225",
      "subject": "Konrad-Adenauer-Stiftung Représentation en France",
      "subject_type": "org",
      "relation": "paid or reimbursed subsistence expenses of",
@@ -4093,7 +5493,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0167",
+     "id": "B02-C0226",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "stated that he was a speaker at the conference",
@@ -4113,7 +5513,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0168",
+     "id": "B02-C0227",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "has a speaking session in the programme",
@@ -4133,7 +5533,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0169",
+     "id": "B02-C0228",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is listed as participant 6 of 7 in the programme",
@@ -4153,7 +5553,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0170",
+     "id": "B02-C0229",
      "subject": "Konrad-Adenauer-Stiftung Frankreich",
      "subject_type": "org",
      "relation": "appears as the letterhead office of the programme 'Dialogue program for MEPs'",
@@ -4171,7 +5571,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0171",
+     "id": "B02-C0230",
      "subject": "Dialogue program for MEPs France between elections and government crisis",
      "subject_type": "event",
      "relation": "names a co-organiser, sponsor or funder other than the KAS France office",
@@ -4189,7 +5589,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0172",
+     "id": "B02-C0231",
      "subject": "Dialogue program for MEPs France between elections and government crisis",
      "subject_type": "event",
      "relation": "runs in Paris over",
@@ -4207,7 +5607,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0173",
+     "id": "B02-C0232",
      "subject": "Declared conference on the form (Paris, 04/12/2024 - 05/12/2024)",
      "subject_type": "event",
      "relation": "is the same event as",
@@ -4225,7 +5625,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0174",
+     "id": "B02-C0233",
      "subject": "KAS France",
      "subject_type": "org",
      "relation": "provided pick-up at Gare du Nord and transfer to the hotel for",
@@ -4245,7 +5645,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0175",
+     "id": "B02-C0234",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration of attendance",
@@ -4265,7 +5665,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0176",
+     "id": "B02-C0235",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "party or party-group affiliation shown",
@@ -4285,7 +5685,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0177",
+     "id": "B02-C0236",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is linked on these pages to a core actor or NGO from the actor list",
@@ -4354,7 +5754,7 @@
    "names_found_in_page_text": "0/24",
    "claims": [
     {
-     "id": "B02-C0178",
+     "id": "B02-C0237",
      "subject": "D-HUB",
      "subject_type": "org",
      "relation": "is named in the form's third-party field, which asks for the party who reimbursed or paid the expenses of the Member, for the 27/01/2025 - 28/01/2025 event",
@@ -4377,7 +5777,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0179",
+     "id": "B02-C0238",
      "subject": "D-HUB",
      "subject_type": "org",
      "relation": "paid or reimbursed flight travel (category Economy) of",
@@ -4397,7 +5797,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0180",
+     "id": "B02-C0239",
      "subject": "D-HUB",
      "subject_type": "org",
      "relation": "paid or reimbursed accommodation of Michał Wawrykiewicz at",
@@ -4418,7 +5818,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0181",
+     "id": "B02-C0240",
      "subject": "D-HUB",
      "subject_type": "org",
      "relation": "paid or reimbursed subsistence expenses of",
@@ -4438,7 +5838,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0182",
+     "id": "B02-C0241",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "stated that he was a speaker at the conference",
@@ -4460,7 +5860,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0183",
+     "id": "B02-C0242",
      "subject": "2024 Elections: Lessons, Hopes, and the Road Ahead",
      "subject_type": "event",
      "relation": "is the title of the agenda for the event",
@@ -4480,7 +5880,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0184",
+     "id": "B02-C0243",
      "subject": "2024 Elections: Lessons, Hopes, and the Road Ahead",
      "subject_type": "event",
      "relation": "is held at",
@@ -4498,7 +5898,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0185",
+     "id": "B02-C0244",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is listed as a speaker in the session 'Poland (surprisingly) Beats Backsliding!' (12:00 - 12:40)",
@@ -4518,7 +5918,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0186",
+     "id": "B02-C0245",
      "subject": "Ewa Kulik-Bielińska",
      "subject_type": "person",
      "relation": "is listed as co-speaker with Michał Wawrykiewicz in the same session",
@@ -4539,7 +5939,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0187",
+     "id": "B02-C0246",
      "subject": "2024 Elections: Lessons, Hopes, and the Road Ahead",
      "subject_type": "event",
      "relation": "names an organiser, host, inviter or sponsor, including D-HUB",
@@ -4557,7 +5957,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0188",
+     "id": "B02-C0247",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration of attendance",
@@ -4577,7 +5977,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0189",
+     "id": "B02-C0248",
      "subject": "Declared event on the form (Washington, 27/01/2025 - 28/01/2025, speaker role)",
      "subject_type": "event",
      "relation": "is the same event as",
@@ -4599,7 +5999,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0190",
+     "id": "B02-C0249",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "party or party-group affiliation shown",
@@ -4619,7 +6019,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0191",
+     "id": "B02-C0250",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is linked on this page to a core actor or NGO from the actor list",
@@ -4672,7 +6072,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0192",
+     "id": "B02-C0251",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "pay as vice-chair of TVP's supervisory board: not in this interpellation",
@@ -4760,7 +6160,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0193",
+     "id": "B02-C0252",
      "subject": "mazur",
      "subject_type": "person",
      "relation": "as deputy justice minister signed the 26 Oct 2024 answer defending KKUSiP's legality, including the legal basis for paying its members",
@@ -4785,7 +6185,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0194",
+     "id": "B02-C0253",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "pays its members for taking part in its work (§12 of the Council of Ministers regulation of 5 Mar 2024)",
@@ -4859,7 +6259,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0195",
+     "id": "B02-C0254",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 10,000 for the chair of each codification commission, including KKUSiP",
@@ -4886,7 +6286,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0196",
+     "id": "B02-C0255",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 3,500 for members of each codification commission, including KKUSiP",
@@ -4913,7 +6313,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0197",
+     "id": "B02-C0256",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "cost PLN 437,062.26 in total in 2024 (row figures 409,684.13 and 27,378.13)",
@@ -4937,7 +6337,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0198",
+     "id": "B02-C0257",
      "subject": "codification_commission",
      "subject_type": "public_body",
      "relation": "Civil Law Codification Commission cost PLN 530,074.77 in total in 2024 (row figures 493,549.95 and 36,524.82)",
@@ -4964,7 +6364,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0199",
+     "id": "B02-C0258",
      "subject": "markiewicz",
      "subject_type": "person",
      "relation": "as KKUSiP chair (Apr 2024–Apr 2026) was entitled to the chair's fixed PLN 10,000 monthly lump sum",
@@ -4992,7 +6392,7 @@
      ]
     },
     {
-     "id": "B02-C0200",
+     "id": "B02-C0259",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "as a KKUSiP member (appointed 12 Apr 2024) was entitled to the members' fixed PLN 3,500 monthly lump sum",
@@ -5020,7 +6420,7 @@
      ]
     },
     {
-     "id": "B02-C0201",
+     "id": "B02-C0260",
      "subject": "dziurda",
      "subject_type": "person",
      "relation": "as a member of the Civil Law Codification Commission would have drawn the fixed PLN 3,500 monthly member pay, if he sat on it in 2024-2025",
@@ -5047,7 +6447,7 @@
      ]
     },
     {
-     "id": "B02-C0202",
+     "id": "B02-C0261",
      "subject": "myrcha",
      "subject_type": "person",
      "relation": "as Secretary of State in the Justice Ministry signed the 4 Apr 2025 answer to MP Przemysław Wipler (interpellation 7111) that disclosed codification-commission pay rates and 2024 costs",
@@ -5103,7 +6503,7 @@
    "names_found_in_page_text": "7/9",
    "claims": [
     {
-     "id": "B02-C0203",
+     "id": "B02-C0262",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "professor at UMCS, Department of Constitutional Law (staff list)",
@@ -5124,7 +6524,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0204",
+     "id": "B02-C0263",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "represented the Batory Foundation in legislative work on the draft TK Act and its Introductory Provisions, adopted 13 Sep 2024",
@@ -5152,7 +6552,7 @@
      ]
     },
     {
-     "id": "B02-C0205",
+     "id": "B02-C0264",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Batory Foundation's Legal Experts Group since 2020",
@@ -5180,7 +6580,7 @@
      ]
     },
     {
-     "id": "B02-C0206",
+     "id": "B02-C0265",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Justice Ministry's delegation to the Venice Commission's 141st Plenary Session (4 Dec 2024)",
@@ -5205,7 +6605,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0207",
+     "id": "B02-C0266",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "gave an expert statement during the Venice Commission's deliberations on the Act of 13 Sep 2024 on the TK and its Introductory Provisions",
@@ -5233,7 +6633,7 @@
      ]
     },
     {
-     "id": "B02-C0208",
+     "id": "B02-C0267",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "expert of the Ministry of Justice since 2024",
@@ -5258,7 +6658,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0209",
+     "id": "B02-C0268",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Sejm Chancellery's Bureau of Analysis (BAS)",
@@ -5280,7 +6680,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0210",
+     "id": "B02-C0269",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Senate's Bureau of Analysis and Documentation",
@@ -5304,7 +6704,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0211",
+     "id": "B02-C0270",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the judges' association Iustitia",
@@ -5325,7 +6725,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0212",
+     "id": "B02-C0271",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the prosecutors' association Lex Super Omnia",
@@ -5385,7 +6785,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0213",
+     "id": "B02-C0272",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed him deputy director of the National School of Judiciary and Public Prosecution (KSSiP) for organisational affairs, on Friday 7 June 2024",
@@ -5416,7 +6816,7 @@
      ]
     },
     {
-     "id": "B02-C0214",
+     "id": "B02-C0273",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Deputy director of KSSiP for organisational affairs from 7 June 2024: heads the Director's Office and is the Director's permanent deputy (end date not on this page)",
@@ -5439,7 +6839,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0215",
+     "id": "B02-C0274",
      "subject": "Izabela Fountoukidis (judge, Kraków Regional Court)",
      "subject_type": "person",
      "relation": "Appointed second deputy director of KSSiP on the same Friday as Żurek (7 June 2024)",
@@ -5460,7 +6860,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0216",
+     "id": "B02-C0275",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Member of the National Council of the Judiciary (KRS) 2010-2018, two terms, while also serving as its spokesperson (the pre-2018 council, before the PiS-era 'neo-KRS')",
@@ -5485,7 +6885,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0217",
+     "id": "B02-C0276",
      "subject": "Ministry of Justice (MS)",
      "subject_type": "public_body",
      "relation": "Ministry communiqué justified Żurek's appointment by his experience for the post of deputy director for organisational affairs",
@@ -5594,7 +6994,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0218",
+     "id": "B02-C0277",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed the judges listed in the article (names_listed) to court-president and vice-president posts (reported 18 May 2024)",
@@ -5614,7 +7014,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0219",
+     "id": "B02-C0278",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed her president of the District Court Poznań-Nowe Miasto i Wilda",
@@ -5637,7 +7037,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0220",
+     "id": "B02-C0279",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Member of Iustitia; the article says she was persecuted for defending the rule of law",
@@ -5660,7 +7060,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0221",
+     "id": "B02-C0280",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Rafał Jerka president of the Olsztyn Regional Court",
@@ -5683,7 +7083,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0222",
+     "id": "B02-C0281",
      "subject": "Rafał Jerka (judge, Olsztyn)",
      "subject_type": "person",
      "relation": "Member of the Forum Współpracy Sędziów (Judges' Cooperation Forum)",
@@ -5704,7 +7104,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0223",
+     "id": "B02-C0282",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Jerzy Nawrocki president of the Lublin Court of Appeal",
@@ -5729,7 +7129,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0224",
+     "id": "B02-C0283",
      "subject": "Jerzy Nawrocki (judge, Lublin; not President Karol Nawrocki)",
      "subject_type": "person",
      "relation": "Member of the Presidium of the Forum Współpracy Sędziów",
@@ -5752,7 +7152,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0225",
+     "id": "B02-C0284",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Paweł Juszczyszyn (and Katarzyna Zabuska) vice-presidents of the Olsztyn District Court, under president Krzysztof Krygielski",
@@ -5843,7 +7243,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0226",
+     "id": "B02-C0285",
      "subject": "Judges' assemblies (zgromadzenia sędziów) of the courts",
      "subject_type": "public_body",
      "relation": "Held an opinion vote on 60 candidates for the judge-members of the renewed KRS; each judge could cast 15 votes; turnout about 60%",
@@ -5867,7 +7267,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0227",
+     "id": "B02-C0286",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Topped the judges' assemblies' opinion vote for the renewed KRS with 4201 votes",
@@ -5892,7 +7292,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0228",
+     "id": "B02-C0287",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia; won one of the 15 places (3382 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -5917,7 +7317,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0229",
+     "id": "B02-C0288",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; won 14th place (3297 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -5940,7 +7340,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0230",
+     "id": "B02-C0289",
      "subject": "piebiak_radzik",
      "subject_type": "person",
      "relation": "In the judges' assemblies' vote Przemysław Radzik got 14 votes nationwide and Łukasz Piebiak 39",
@@ -5966,7 +7366,7 @@
      ]
     },
     {
-     "id": "B02-C0231",
+     "id": "B02-C0290",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Was due to elect the judge-members soon after the assemblies' vote, because the neo-KRS term ended in May 2026",
@@ -6039,7 +7439,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0232",
+     "id": "B02-C0291",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Elected 15 judge-members of the National Council of the Judiciary on Friday 15 May 2026 (names in names_listed)",
@@ -6063,7 +7463,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0233",
+     "id": "B02-C0292",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Vote on the KRS judge-members: 235 for, 18 against, 5 abstaining (3/5 majority required: 155)",
@@ -6083,7 +7483,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0234",
+     "id": "B02-C0293",
      "subject": "ko",
      "subject_type": "party",
      "relation": "The ruling coalition's clubs named 13 of the 15 judges elected, all of them picked earlier in the judges' assemblies' opinion vote",
@@ -6105,7 +7505,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0235",
+     "id": "B02-C0294",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Judges backed by associations including Iustitia won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -6133,7 +7533,7 @@
      ]
     },
     {
-     "id": "B02-C0236",
+     "id": "B02-C0295",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Judges backed by associations including Themis won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -6155,7 +7555,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0237",
+     "id": "B02-C0296",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS nominated Łukasz Piebiak, ex-deputy justice minister under Ziobro; he was elected among the 15 under the rule that each club's candidate is included",
@@ -6177,7 +7577,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0238",
+     "id": "B02-C0297",
      "subject": "Łukasz Zawadzki (judge, Opole)",
      "subject_type": "person",
      "relation": "Opole judge linked, like Piebiak, to the Stowarzyszenie Prawnicy dla Polski; elected to the KRS on 15 May 2026 as one of the two non-coalition picks",
@@ -6199,7 +7599,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0239",
+     "id": "B02-C0298",
      "subject": "tk",
      "subject_type": "public_body",
      "relation": "Issued an injunction (zabezpieczenie) on 12 May 2026 telling the Sejm to refrain from electing KRS judges until it ruled on a PiS motion; the Sejm voted on 15 May regardless",
@@ -6222,7 +7622,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0240",
+     "id": "B02-C0299",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS MPs did not take part in the KRS vote",
@@ -6242,7 +7642,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0241",
+     "id": "B02-C0300",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia vice-president for finance per B2_appointments-P6)",
@@ -6267,7 +7667,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0242",
+     "id": "B02-C0301",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026, while president of a Poznań district court appointed by Bodnar (B2_appointments-P2); Iustitia member",
@@ -6290,7 +7690,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0243",
+     "id": "B02-C0302",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia member per B2_appointments-P6)",
@@ -6313,7 +7713,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0244",
+     "id": "B02-C0303",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (president of the administrative judges' association per B2_appointments-P6)",
@@ -6336,7 +7736,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0245",
+     "id": "B02-C0304",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (last chair of the pre-2018 KRS per B2_appointments-P6)",
@@ -6361,7 +7761,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0246",
+     "id": "B02-C0305",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Checked: not among the 15 judges the Sejm elected on 15 May 2026, although she (Themis board) placed 14th in the judges' assemblies' vote (B2_appointments-P4); Sławomir Cilulko (12th) is also absent; their places went to Piebiak (PiS) and Zawadzki (Konfederacja)",
@@ -6434,7 +7834,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0247",
+     "id": "B02-C0306",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Iustitia, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -6461,7 +7861,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0248",
+     "id": "B02-C0307",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Themis, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -6489,7 +7889,7 @@
      ]
     },
     {
-     "id": "B02-C0249",
+     "id": "B02-C0308",
      "subject": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
      "subject_type": "org",
      "relation": "Published the 15-judge candidate list for the renewed KRS on its website",
@@ -6512,7 +7912,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0250",
+     "id": "B02-C0309",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia for finance; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -6537,7 +7937,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0251",
+     "id": "B02-C0310",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Member of Iustitia; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -6560,7 +7960,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0252",
+     "id": "B02-C0311",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Linked to Iustitia and to the European judges' association MEDEL; became a district court president after PiS lost power",
@@ -6583,7 +7983,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0253",
+     "id": "B02-C0312",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; on the association-backed KRS list (not among those the Sejm elected, per P5)",
@@ -6606,7 +8006,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0254",
+     "id": "B02-C0313",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "President of the National Association of Administrative Court Judges (one of the four associations backing the list); elected to the KRS 15 May 2026, per P5",
@@ -6628,7 +8028,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0255",
+     "id": "B02-C0314",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Last chair of the pre-2018 KRS, dissolved by PiS in 2018; on the association-backed list for the renewed KRS",
@@ -6685,7 +8085,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0256",
+     "id": "B02-C0315",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Independent Member of the ORLEN Supervisory Board",
@@ -6707,7 +8107,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0257",
+     "id": "B02-C0316",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "coordinated the HFHR programme 'Human Rights and Settlements with the Past'",
@@ -6726,7 +8126,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0258",
+     "id": "B02-C0317",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Social Council of the Human Rights Ombudsman",
@@ -6745,7 +8145,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0259",
+     "id": "B02-C0318",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Program Council of Amnesty International Poland",
@@ -6764,7 +8164,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0260",
+     "id": "B02-C0319",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "co-founder of the Prof. Zbigniew Hołda Association",
@@ -6783,7 +8183,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0261",
+     "id": "B02-C0320",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Dean of the District Bar Council in Warsaw since November 2016",
@@ -6806,7 +8206,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0262",
+     "id": "B02-C0321",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "partner and co-founder of the law firm",
@@ -6828,7 +8228,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0263",
+     "id": "B02-C0322",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "graduate of the Faculty of Law and Administration",
@@ -6874,7 +8274,7 @@
    "names_found_in_page_text": "4/4",
    "claims": [
     {
-     "id": "B02-C0264",
+     "id": "B02-C0323",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "became president of Polskie Radio (chosen by the new supervisory board)",
@@ -6899,7 +8299,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0265",
+     "id": "B02-C0324",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "became president of Telewizja Polska",
@@ -6922,7 +8322,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0266",
+     "id": "B02-C0325",
      "subject": "Marek Błoński",
      "subject_type": "person",
      "relation": "became president of the Polish Press Agency (PAP)",
@@ -6945,7 +8345,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0267",
+     "id": "B02-C0326",
      "subject": "Bartłomiej Sienkiewicz",
      "subject_type": "person",
      "relation": "as Culture Minister appointed new supervisory boards of TVP, Polskie Radio and PAP, which then appointed the new management boards (after he dismissed the old boards on 19 Dec 2023)",
@@ -7016,7 +8416,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0268",
+     "id": "B02-C0327",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "described as a management board member of Miejskie Zakłady Autobusowe w Warszawie when picked as TVP president",
@@ -7037,7 +8437,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0269",
+     "id": "B02-C0328",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "worked in a city company under Warsaw Mayor Rafał Trzaskowski",
@@ -7106,7 +8506,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0270",
+     "id": "B02-C0329",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "liquidator of TVP SA w likwidacji",
@@ -7129,7 +8529,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0271",
+     "id": "B02-C0330",
      "subject": "Marek Suski (MP)",
      "subject_type": "person",
      "relation": "claims the liquidator was given the goal of liquidating the national broadcaster effectively",
@@ -7180,7 +8580,7 @@
    "names_found_in_page_text": "2/3",
    "claims": [
     {
-     "id": "B02-C0272",
+     "id": "B02-C0331",
      "subject": "kieszkowska",
      "subject_type": "person",
      "relation": "named as a State Treasury company board appointee",
@@ -7233,7 +8633,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0273",
+     "id": "B02-C0332",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the EP Delegation for relations with the United States (from 2024/09/19 per Parltrack)",
@@ -7256,7 +8656,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0274",
+     "id": "B02-C0333",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "shadow rapporteur for the responsible committee (LIBE) on the Article 7 file on Hungary",
@@ -7280,7 +8680,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0275",
+     "id": "B02-C0334",
      "subject": "Kamil KLOPOCKI",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape; not on the EP's current list (1 Nov 2026)",
@@ -7299,7 +8699,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0276",
+     "id": "B02-C0335",
      "subject": "Sylwia TYRA-WŁOSTOWSKA",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape (same slot also shows 'Sylwia TYRA'); not on the EP's current list",
@@ -7318,7 +8718,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0277",
+     "id": "B02-C0336",
      "subject": "Maciej Pawel JELENSKI",
      "subject_type": "person",
      "relation": "listed as accredited assistant (grouping) in Parltrack's scrape; not on the EP's current list",
@@ -7337,7 +8737,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0278",
+     "id": "B02-C0337",
      "subject": "Arkadiusz CHOROBIK",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -7356,7 +8756,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0279",
+     "id": "B02-C0338",
      "subject": "Andrzej PRENDKE",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -7375,7 +8775,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0280",
+     "id": "B02-C0339",
      "subject": "Jakub Shebani SEWEHLI",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -7426,7 +8826,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0281",
+     "id": "B02-C0340",
      "subject": "KATARZYNA IZABELA NIEDŹWIECKA",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -7445,7 +8845,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0282",
+     "id": "B02-C0341",
      "subject": "Dominika Julia OLASZEK",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -7464,7 +8864,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0283",
+     "id": "B02-C0342",
      "subject": "Piotr Aleksander PŁACHTA",
      "subject_type": "person",
      "relation": "accredited assistant (also on Parltrack's earlier snapshot, P1)",
@@ -7483,7 +8883,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0284",
+     "id": "B02-C0343",
      "subject": "Jakub KARWANSKI",
      "subject_type": "person",
      "relation": "accredited assistant (grouping)",
@@ -7502,7 +8902,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0285",
+     "id": "B02-C0344",
      "subject": "Wojciech CHUDY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -7521,7 +8921,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0286",
+     "id": "B02-C0345",
      "subject": "Jan JEZIORNY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -7540,7 +8940,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0287",
+     "id": "B02-C0346",
      "subject": "MICHALINA LYSIAK",
      "subject_type": "person",
      "relation": "local assistant",
@@ -7559,7 +8959,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0288",
+     "id": "B02-C0347",
      "subject": "Pawel JAROMIN",
      "subject_type": "person",
      "relation": "paying agent for his office",
@@ -7578,7 +8978,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0289",
+     "id": "B02-C0348",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no national party membership on the EP record: listed as 'Independent (Poland)'",
@@ -7657,7 +9057,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0290",
+     "id": "B02-C0349",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "filed his declaration of private interests three times: original 16-07-2024, revision no 1 on 29-01-2026, revision no 2 on 10-09-2026",
@@ -7677,7 +9077,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0291",
+     "id": "B02-C0350",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "rapporteur for the LIBE opinion on procedure 2025/2061(INI) (declared 07-04-2025)",
@@ -7697,7 +9097,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0292",
+     "id": "B02-C0351",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on the Hungary Article 7 file 2018/0902(NLE) (declared 10-09-2025)",
@@ -7717,7 +9117,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0293",
+     "id": "B02-C0352",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on legislative procedure 2025/0255(COD) (declared 09-02-2026)",
@@ -7737,7 +9137,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0294",
+     "id": "B02-C0353",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "JURI shadow rapporteur for the opinion on 2025/2263(INI) (declared 11-06-2026)",
@@ -7757,7 +9157,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0295",
+     "id": "B02-C0354",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE rapporteur on 2026/2144(INI), conflict-of-interest declaration dated 09-10-2026",
@@ -7777,7 +9177,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0296",
+     "id": "B02-C0355",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "took part in four official EUDS delegations (declarations 10-04-2025 twice, 14-07-2025, 22-03-2026)",
@@ -7800,7 +9200,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0297",
+     "id": "B02-C0356",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared official LIBE delegations (27-03-2025, 07-04-2025, 21-01-2026, 07-09-2026, 14-09-2026, 22-09-2026) and JURI delegations (07-04-2025, 29-01-2026, 09-02-2026, 30-09-2026)",
@@ -7828,7 +9228,7 @@
      ]
     },
     {
-     "id": "B02-C0298",
+     "id": "B02-C0357",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared attendance at six events organised by third parties: 04-12-2024, 27-01-2025, 04-11-2025, 24-02-2026, 24-06-2026, 25-06-2026",
@@ -7879,7 +9279,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0299",
+     "id": "B02-C0358",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the Bar Exam Committee until 2023, paid 1425 EUR once a year",
@@ -7904,7 +9304,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0300",
+     "id": "B02-C0359",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lecturer at SWPS University in 2022 only, one-off 220 EUR",
@@ -7929,7 +9329,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0301",
+     "id": "B02-C0360",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lawyer at Wawrykiewicz Law Firm: 151917 PLN income for 2024; 2025 income deferred until after 30 April 2026",
@@ -7959,7 +9359,7 @@
      ]
     },
     {
-     "id": "B02-C0302",
+     "id": "B02-C0361",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "partnership holding in Wawrykiewicz Law Firm: no income in 2024, 2025 income to follow",
@@ -7985,7 +9385,7 @@
      ]
     },
     {
-     "id": "B02-C0303",
+     "id": "B02-C0362",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Saag sp. z o.o. not declared in revision no 1",
@@ -8010,7 +9410,7 @@
      ]
     },
     {
-     "id": "B02-C0304",
+     "id": "B02-C0363",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "MW Estate Consulting sp. z o.o. not declared in revision no 1",
@@ -8035,7 +9435,7 @@
      ]
     },
     {
-     "id": "B02-C0305",
+     "id": "B02-C0364",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Energy Efficiency Engineering S.A. supervisory board seat not declared in revision no 1",
@@ -8062,7 +9462,7 @@
      ]
     },
     {
-     "id": "B02-C0306",
+     "id": "B02-C0365",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no declared financial, staff or material support from Free Courts or any other third party",
@@ -8111,7 +9511,7 @@
    },
    "claims": [
     {
-     "id": "B02-C0307",
+     "id": "B02-C0366",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "invited him to 'Presentation of the BSP Position on the EU Multiannual Financial Framework 2028–2034', Brussels, 24/02/2026",
@@ -8134,7 +9534,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0308",
+     "id": "B02-C0367",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "form marks travel, accommodation and subsistence as not covered",
@@ -8154,7 +9554,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0309",
+     "id": "B02-C0368",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration 21/07/2026, 147 days after the 24/02/2026 event, past the form's 60-day limit",
@@ -11479,48 +12879,6 @@
    "title": "Oni zaprojektują cyfrową Polskę. Ministerstwo ujawnia nazwiska",
    "why": "Szostek is a cybersecurity and digital-law expert advising the Tusk government. The Digitisation Council may be a further advisory seat.",
    "capture": "Full 6th-term member list, the appointing minister and the date; whether Szostek is listed; any remuneration."
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
-   "title": "Sedzia Slawomir Palka nowym wiceministrem sprawiedliwosci 9023109",
-   "why": "A judge became deputy justice minister (Żurek era judging by the article id); his association ties and who requested him are unknown",
-   "capture": "Appointment date; who requested (Żurek?) and who appointed (PM Tusk); portfolio; his court; any Iustitia, Themis, KOS or Free Courts role; whom he replaced (e.g. Rudzińska-Bluszcz); secretary or undersecretary of state"
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://bip.brpo.gov.pl/pl/content/adam-krzywon-nowy-zastepca-rzecznika-praw-obywatelskich",
-   "title": "Biuletyn Informacji Publicznej RPO",
-   "why": "Primary record of a deputy Ombudsman appointment; Krzywoń already appears on the map as Gregorczyk-Abram's deputy in Sept 2026",
-   "capture": "Date; appointing Ombudsman (Wiącek or Gregorczyk-Abram); Sejm consent date; prior roles (UW Human Rights Centre, HFHR, Osiatyński Archive, Free Courts, RPO under Bodnar); portfolio"
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna",
-   "title": "ujawniamy kulisy odwolania zastepcy rpo partyjny deal w instytucji ktora powinna byc niezalezna",
-   "why": "Alleged party deal over a deputy Ombudsman: direct party-tie evidence",
-   "capture": "Which deputy and which Ombudsman; which party (KO, Lewica, Polska 2050, PSL or PiS) was in the deal; dates; who alleges it; the Ombudsman's response"
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://www.pap.pl/aktualnosci/sejm-wybral-czterech-poslow-do-krs-nie-zatwierdzono-kandydatow-przedstawionych-przez",
-   "title": "sejm wybral czterech poslow do krs nie zatwierdzono kandydatow przedstawionych przez",
-   "why": "MP-members of the KRS are political appointees whose party ties the theme asks for",
-   "capture": "Date; the four MPs' names and clubs (KO, Lewica, Polska 2050, PSL, PiS); vote; whose candidates were rejected"
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://www.gov.pl/web/premier/sklad-rady",
-   "title": "Skład Rady",
-   "why": "Current membership of the Legislative Council at the PM (new 2024 regulation Dz.U. 2024 poz. 1329)",
-   "capture": "Chair, deputy chairs, members and appointment dates; any member of the Batory Legal Experts Team, HFHR, Iustitia, Themis or the Osiatyński Archive council; whether members are paid"
-  },
-  {
-   "theme": "B2_appointments",
-   "url": "https://www.gov.pl/web/diplomacy/new-members-of-venice-commission-appointed",
-   "title": "new members of venice commission appointed",
-   "why": "Primary MFA notice on Poland's Venice Commission members (ISP and IACL titles say Wojciech Sadurski was appointed or nominated; the IACL item is dated March 2026 per its URL)",
-   "capture": "Names, member or substitute, date, appointing authority, stated affiliations (ISP, Batory, Osiatyński Archive, KOD)"
   },
   {
    "theme": "B2_appointments",

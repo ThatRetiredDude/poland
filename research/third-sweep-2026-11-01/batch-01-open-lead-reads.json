@@ -28,49 +28,49 @@
   ]
  },
  "stats": {
-  "agents": 22,
+  "agents": 24,
   "agents_left_out_unfinished_or_other_batch": 29,
   "searches": 0,
   "search_results": 0,
   "unique_result_urls": 0,
-  "page_fetches": 83,
-  "pages_reported": 73,
-  "pages_with_page_text": 68,
+  "page_fetches": 89,
+  "pages_reported": 79,
+  "pages_with_page_text": 74,
   "fetch_status": {
-   "partial": 15,
-   "ok": 50,
+   "partial": 16,
+   "ok": 55,
    "empty": 5,
    "error": 2,
    "blocked": 1
   },
-  "claims": 625,
+  "claims": 709,
   "labels": {
-   "fact": 414,
-   "alleged": 46,
-   "speculation": 12,
-   "no_link": 153
+   "fact": 485,
+   "alleged": 51,
+   "speculation": 13,
+   "no_link": 160
   },
   "evidence_check": {
-   "exact": 466,
-   "normalized": 122,
-   "not_found": 28,
+   "exact": 537,
+   "normalized": 134,
+   "not_found": 29,
    "empty": 9
   },
   "map_status": {
-   "pair_already_linked": 112,
-   "new_tie_between_known_entities": 92,
-   "new_entity_or_unmatched_name": 328,
-   "both_names_unmatched": 93
+   "pair_already_linked": 131,
+   "new_tie_between_known_entities": 113,
+   "new_entity_or_unmatched_name": 368,
+   "both_names_unmatched": 97
   },
   "kinds": {
-   "membership_or_board": 39,
-   "event_or_speech": 47,
-   "statement": 121,
-   "nomination_or_vote": 31,
-   "role_or_job": 114,
-   "other": 146,
+   "membership_or_board": 48,
+   "event_or_speech": 50,
+   "statement": 145,
+   "nomination_or_vote": 38,
+   "role_or_job": 136,
+   "other": 163,
    "grant_or_donation": 73,
-   "legal_action": 36,
+   "legal_action": 38,
    "contract_or_fee": 16,
    "ownership": 2
   },
@@ -86,18 +86,18 @@
    "read:R059-R061",
    "read:R062-R064",
    "read:R065-R067",
-   "read:R080-R082",
    "read:R083-R085",
    "read:R086-R088",
    "read:R089-R090",
-   "read:R100-R102",
    "read:R106-R108",
    "read:R109-R111",
    "read:R112-R113"
   ],
   "agents_rerun_after_usage_limit": [
    "read:R036-R038",
-   "read:R039-R041"
+   "read:R039-R041",
+   "read:R080-R082",
+   "read:R100-R102"
   ],
   "duplicate_reads_left_out": [
    "read:R018-R020"
@@ -13588,6 +13588,1105 @@
    ]
   },
   {
+   "ref": "R080",
+   "url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+   "host": "tvp.info",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Interview with an unnamed TK judge in the title; identify the judge before use | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "partial",
+   "fetch_note": "Only page metadata came back: title, meta description (cut off at 'w...'), og:title, og:image file name, published 2026-08-12 18:31 +00:00. The interview body was not returned, so no judge is named in any fetched text. Not retried.",
+   "page_title": "Sędzia Trybunału Konstytucyjnego: Praworządność można przywracać praworządnymi metodami | TVP INFO",
+   "page_date": "2026-08-12",
+   "publisher": "TVP Info (tvp.info)",
+   "capture_answer": "Judge not identified from the fetched text. The og:image file name names Anna Korwin-Piotrowska, which is an inference only. The interview was conducted by Dorotą Wysocką-Schnepf. No Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference appears in the fetched metadata; the body was not available, so the lead question is unanswered for this page.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:45.369Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 2134,
+    "sha256": "90cd71757345984421f530890dcb89bae458b499e4b3b40ffb897d6e1e79fd2d",
+    "url_read": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami"
+   },
+   "claims": [
+    {
+     "id": "B01-C0536",
+     "subject": "Dorotą Wysocką-Schnepf",
+     "relation": "interviewed the TK judge for this TVP Info article",
+     "object": "TVP Info interview",
+     "kind": "event_or_speech",
+     "evidence_text": "powiedziała w rozmowie z Dorotą Wysocką-Schnepf",
+     "evidence_translation": "said in an interview with Dorotą Wysocką-Schnepf",
+     "label": "fact",
+     "label_scope": "Meta description states the interview; interviewer's employer not stated on the page",
+     "date": "2026-08-12",
+     "evidence_location": "meta description",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0537",
+     "subject": "unnamed TK judge (not named in fetched text)",
+     "relation": "states that the rule of law can be restored by lawful means",
+     "object": "Trybunał Konstytucyjny",
+     "kind": "statement",
+     "evidence_text": "Żyjemy w praworządnym państwie i praworządnymi metodami możemy przywrócić funkcjonowanie Trybunału Konstytucyjnego",
+     "evidence_translation": "We live in a state governed by the rule of law, and by lawful methods we can restore the functioning of the Constitutional Tribunal",
+     "label": "fact",
+     "label_scope": "Page metadata reports the statement; speaker unnamed in fetched text",
+     "date": "2026-08-12",
+     "evidence_location": "meta description (og:description)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0538",
+     "subject": "unnamed TK judge (interviewee, per headline)",
+     "relation": "says that Bogdan Święczkowski breaks the law",
+     "object": "Bogdan Święczkowski",
+     "kind": "statement",
+     "evidence_text": "„Prezes Święczkowski łamie prawo”",
+     "evidence_translation": "“Chairman Święczkowski breaks the law”",
+     "label": "alleged",
+     "label_scope": "Claim in the interview headline (og:title); attribution to the unnamed judge is implied by the headline; body not retrieved",
+     "date": "2026-08-12",
+     "evidence_location": "og:title headline",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0539",
+     "subject": "Anna Korwin-Piotrowska",
+     "relation": "may be the judge interviewed (identity inferred)",
+     "object": "TVP Info interview",
+     "kind": "other",
+     "evidence_text": "sedzia-trybunalu-konstytucyjnego-anna-korwin-piotrowska-w-tvp-info-fot-tvp.jpg",
+     "evidence_translation": "judge-of-the-constitutional-tribunal-anna-korwin-piotrowska-in-tvp-info-photo-tvp.jpg (image file name)",
+     "label": "speculation",
+     "label_scope": "Rests only on the og:image file name; no caption or name of the judge in the fetched text",
+     "evidence_location": "og:image meta tag",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0540",
+     "subject": "TVP Info interview page",
+     "relation": "contains no reference to writing for or being interviewed by Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl",
+     "object": "Gazeta Wyborcza; Agora; TOK FM; wyborcza.pl",
+     "kind": "other",
+     "evidence_text": "Chaos w Trybunale Konstytucyjnym. „Prezes Święczkowski łamie prawo”",
+     "evidence_translation": "Chaos in the Constitutional Tribunal. “Chairman Święczkowski breaks the law”",
+     "label": "no_link",
+     "label_scope": "Checked fetched metadata only (title, description, headline); article body not available",
+     "evidence_location": "og:title",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tvp",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R081",
+   "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+   "host": "prawo.pl",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Berek's background and TK link | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "ok",
+   "fetch_note": "Full article text returned. Byline Agnieszka Matłacz; published 13.08.2026 17:25, modified 14.08.2026 10:25. Tusk's quotes are credited 'Źródło: www.gov.pl' (no deep link). Sidebars list headlines to 31.10.2026; those are not article text. Dates differ from R082: this page gives RCL president 2007-2015, R082 gives 2007 to 2014.",
+   "page_title": "Maciej Berek kandydatem do Trybunału Konstytucyjnego",
+   "page_date": "2026-08-13",
+   "publisher": "Prawo.pl (Wolters Kluwer)",
+   "capture_answer": "Berek's background per this article: RCL president 2007-2015; secretary of the Council of Ministers 2008-2015; director general of the Ombudsman's office and NIK/Senate posts 1997-2022; UW assistant professor; minister roles from 2023 and July 2025. Tusk's Polish statements on Berek are quoted and credited to gov.pl. Six judges (four named in the text) were sworn in at the Sejm on 9 April 2026. Lead question: no reference to Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl in the article or sidebars.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:45.631Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 25577,
+    "sha256": "83f8592eff19ec1d6505c52763a717a33ffc0efb1292c4d51c4f4965d6697c8d",
+    "url_read": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html"
+   },
+   "names_listed": [
+    "prof. Krystian Markiewicz",
+    "prof. Marcin Dziurda",
+    "prof. Maciej Taborowski",
+    "sędzia Anna Korwin-Piotrowska",
+    "Dr Magdalena Bentkowska",
+    "prof. Dariusz Szostek"
+   ],
+   "names_found_in_page_text": "6/6",
+   "followup_urls": [
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/iustitia-wyraza-wsparcie-dla-nowych-sedziow-trybunalu-konstytucyjnego,1556259.html",
+     "why": "Iustitia statement of support for the new TK judges (sidebar headline, 31.10.2026)"
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/oredzie-premiera-donalda-tuska-w-sprawie-trybunalu-konstytucyjnego,1556251.html",
+     "why": "Tusk address on the TK dispute (sidebar headline, 31.10.2026)"
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html",
+     "why": "Election of prof. Sławomir Patyra as TK judge"
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/niedopuszczenie-do-orzekania-czworki-sedziow-tk-etpcz-oficjalnie-komunikuje-rzadowi-skarge,1550379.html",
+     "why": "ECHR communication to the government on the four judges"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0541",
+     "subject": "Donald Tusk",
+     "relation": "gave conditional consent to Maciej Berek leaving government and standing for the Constitutional Tribunal",
+     "object": "Maciej Berek",
+     "kind": "nomination_or_vote",
+     "evidence_text": "wyraził warunkową zgodę na odejście z rządu Ministra ds. Nadzoru nad Wdrażaniem Polityki Rządu, Macieja Berka",
+     "evidence_translation": "he gave conditional consent to the departure from government of the Minister for Supervision of the Implementation of Government Policy, Maciej Berek",
+     "label": "fact",
+     "label_scope": "Page reports Tusk's Thursday statement; page credits the quote to gov.pl",
+     "date": "2026-08-13",
+     "evidence_location": "lead paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0542",
+     "subject": "Donald Tusk",
+     "relation": "says no one is better prepared to help fix the flawed Constitutional Tribunal",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "Nie znam osoby lepiej przygotowanej, która może pomóc naprawić sytuację w wadliwym Trybunale Konstytucyjnym",
+     "evidence_translation": "I do not know anyone better prepared who can help fix the situation in the flawed Constitutional Tribunal",
+     "label": "fact",
+     "label_scope": "Page reports the words as Tusk's; quote credited to gov.pl",
+     "date": "2026-08-13",
+     "evidence_location": "Tusk quote block",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0543",
+     "subject": "Donald Tusk",
+     "relation": "describes Berek as a distinguished practitioner-lawyer whose apolitical and non-party stance is his hallmark",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "To jeden z najwybitniejszych polskich prawników praktyków, który ze swojej apolityczności i niepartyjności",
+     "evidence_translation": "He is one of the most distinguished Polish legal practitioners, who made his apolitical and non-party stance his hallmark",
+     "label": "fact",
+     "label_scope": "Page reports the words as Tusk's",
+     "date": "2026-08-13",
+     "evidence_location": "Tusk quote block",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0544",
+     "subject": "Donald Tusk (account of what Maciej Berek said to him)",
+     "relation": "reports that Berek urged him to do everything to heal the TK situation",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "Jak relacjonował, Berek zwrócił się do niego, mówiąc, że trzeba „zrobić wszystko, żeby uzdrowić tę sytuację",
+     "evidence_translation": "As he related it, Berek turned to him, saying that one must “do everything to heal this situation”",
+     "label": "alleged",
+     "label_scope": "Tusk's own account as reported on the page; Berek's words are not quoted from Berek",
+     "date": "2026-08-13",
+     "evidence_location": "Tusk quote block",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0545",
+     "subject": "Joanna Knapińska",
+     "relation": "takes over Maciej Berek's duties; she is President of the Government Legislation Centre",
+     "object": "Rządowe Centrum Legislacji",
+     "kind": "role_or_job",
+     "evidence_text": "Obowiązki Macieja Berka przejmie Joanna Knapińska, Prezes Rządowego Centrum Legislacji.",
+     "evidence_translation": "Joanna Knapińska, President of the Government Legislation Centre, will take over the duties of Maciej Berek.",
+     "label": "fact",
+     "label_scope": "Page states the handover",
+     "evidence_location": "article body after Tusk quotes",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "knapinska",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0546",
+     "subject": "Maciej Berek",
+     "relation": "was president of the Government Legislation Centre and secretary of the Council of Ministers",
+     "object": "Rządowe Centrum Legislacji; Rada Ministrów",
+     "kind": "role_or_job",
+     "evidence_text": "W latach 2007-2015 był prezesem Rządowego Centrum Legislacji, w latach 2008-2015 sekretarzem Rady Ministrów.",
+     "evidence_translation": "In 2007-2015 he was president of the Government Legislation Centre; in 2008-2015 he was secretary of the Council of Ministers.",
+     "label": "fact",
+     "label_scope": "Page biography section; R082 gives 2007 to 2014 for the RCL post",
+     "date": "2007-2015",
+     "evidence_location": "Maciej Berek - kim jest? section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0547",
+     "subject": "Maciej Berek",
+     "relation": "worked for the Office of the Ombudsman as director general, among other posts",
+     "object": "Biuro Rzecznika Praw Obywatelskich",
+     "kind": "role_or_job",
+     "evidence_text": "jako dyrektor generalny Biura Rzecznika Praw Obywatelskich",
+     "evidence_translation": "as director general of the Office of the Ombudsman",
+     "label": "fact",
+     "label_scope": "Page says these posts were held 'w latach 1997-2022'; exact dates per post not given",
+     "date": "1997-2022",
+     "evidence_location": "Maciej Berek - kim jest? section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "director general of the Ombudsman's Office from 13 Sep (2021, inferred from Wiącek's term)",
+      "director general of the Ombudsman's Office from 13 Sep (2021, inferred from Wiącek's term)"
+     ]
+    },
+    {
+     "id": "B01-C0548",
+     "subject": "Maciej Berek",
+     "relation": "assistant professor, Department of Constitutional Law, Faculty of Law and Administration",
+     "object": "Uniwersytet Warszawski",
+     "kind": "role_or_job",
+     "evidence_text": "adiunkt w Katedrze Prawa Konstytucyjnego na Wydziale Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "assistant professor in the Department of Constitutional Law of the Faculty of Law and Administration of the University of Warsaw",
+     "label": "fact",
+     "label_scope": "Page's current-role description",
+     "evidence_location": "Maciej Berek - kim jest? section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0549",
+     "subject": "Maciej Berek",
+     "relation": "member of the Main Adjudicating Commission in public-finance discipline cases (two terms)",
+     "object": "Główna Komisja Orzekająca w Sprawach o Naruszenie Dyscypliny Finansów Publicznych",
+     "kind": "membership_or_board",
+     "evidence_text": "był członkiem Głównej Komisji Orzekającej w Sprawach o Naruszenie Dyscypliny Finansów Publicznych",
+     "evidence_translation": "he was a member of the Main Adjudicating Commission in Public Finance Discipline Cases",
+     "label": "fact",
+     "label_scope": "Page states 'Przez dwie kadencje (w latach 2009-2017)'",
+     "date": "2009-2017",
+     "evidence_location": "Maciej Berek - kim jest? section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0550",
+     "subject": "Maciej Berek",
+     "relation": "minister for supervising the implementation of government policy and head of KSRM; earlier minister-member of the Council of Ministers and KSRM head",
+     "object": "Rada Ministrów; KSRM",
+     "kind": "role_or_job",
+     "evidence_text": "Od lipca 2025 roku pełnił funkcję ministra nadzoru nad wdrażaniem polityki rządu oraz szefa KSRM.",
+     "evidence_translation": "From July 2025 he held the post of minister for supervising the implementation of government policy and head of KSRM.",
+     "label": "fact",
+     "label_scope": "Page also states 'Od 2023 roku' he was Minister-Member of the Council of Ministers and KSRM head",
+     "date": "2025-07",
+     "evidence_location": "Maciej Berek - kim jest? section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "ksrm",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "head of KSRM from Dec 2023; minister for government policy implementation Jul 2025-Aug 2026; deregulation team Mar 2025",
+      "head of KSRM from Dec 2023; minister for government policy implementation Jul 2025-Aug 2026; deregulation team Mar 2025"
+     ]
+    },
+    {
+     "id": "B01-C0551",
+     "subject": "Marcin Dziurda",
+     "relation": "co-author with Henryk Pietrzkowski of a civil-procedure judge's work methodology book",
+     "object": "Metodyka pracy sędziego w sprawach cywilnych",
+     "kind": "other",
+     "evidence_text": "Metodyka pracy sędziego w sprawach cywilnych, Henryk Pietrzkowski, Marcin Dziurda",
+     "evidence_translation": "Methodology of the judge's work in civil cases, Henryk Pietrzkowski, Marcin Dziurda",
+     "label": "fact",
+     "label_scope": "Bookseller advert in the 'Polecamy książki prawnicze' sidebar lists the co-author; the page does not say this is the TK judge of the same name",
+     "evidence_location": "sidebar advert",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0552",
+     "subject": "Waldemar Żurek",
+     "relation": "said the eighth judge chosen by the Sejm this term will probably be elected at the September Sejm sitting",
+     "object": "Sejm",
+     "kind": "statement",
+     "evidence_text": "minister sprawiedliwości Waldemar Żurek powiedział, że prawdopodobnie na wrześniowym posiedzeniu Sejmu zostanie wybrany",
+     "evidence_translation": "Justice Minister Waldemar Żurek said that probably at the September Sejm sitting a new judge will be elected",
+     "label": "fact",
+     "label_scope": "Page reports a statement made the week before 13 Aug 2026",
+     "evidence_location": "article body, paragraph after Berek's bio",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0553",
+     "subject": "Krystian Markiewicz; Marcin Dziurda; Maciej Taborowski; Anna Korwin-Piotrowska",
+     "relation": "were among six judges elected by the Sejm on 13 March 2026; four of them took their first oath at the Sejm on 9 April 2026",
+     "object": "Sejm",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Czworo z nich: prof. Krystian Markiewicz, prof. Marcin Dziurda, prof. Maciej Taborowski oraz sędzia Anna Korwin-Piotrowska",
+     "evidence_translation": "Four of them: prof. Krystian Markiewicz, prof. Marcin Dziurda, prof. Maciej Taborowski and judge Anna Korwin-Piotrowska",
+     "label": "fact",
+     "label_scope": "Page section 'W tle spór o czwórkę sędziów TK'",
+     "date": "2026-03-13",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0554",
+     "subject": "Magdalena Bentkowska; Dariusz Szostek",
+     "relation": "took their oath before the President at the Palace on 1 April 2026 (their second oath)",
+     "object": "Prezydent Karol Nawrocki",
+     "kind": "event_or_speech",
+     "evidence_text": "1 kwietnia br. złożyli ślubowanie podczas uroczystości z udziałem prezydenta w Pałacu",
+     "evidence_translation": "on 1 April this year they took the oath during a ceremony with the President in the Palace",
+     "label": "fact",
+     "label_scope": "Page section 'W tle spór o czwórkę sędziów TK'",
+     "date": "2026-04-01",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "took oath",
+      "took oath"
+     ]
+    },
+    {
+     "id": "B01-C0555",
+     "subject": "Prof. Sławomir Patyra",
+     "relation": "elected by the Sejm; took oath at the Presidential Palace",
+     "object": "Sejm",
+     "kind": "nomination_or_vote",
+     "evidence_text": "11 czerwca br. Sejm wybrał kolejnego sędziego TK, prof. Sławomira Patyrę, 28 lipca br.",
+     "evidence_translation": "On 11 June this year the Sejm elected another TK judge, prof. Sławomir Patyra; on 28 July this year",
+     "label": "fact",
+     "label_scope": "Page section 'W tle spór o czwórkę sędziów TK'; page says oath followed on 28 July at the Presidential Palace",
+     "date": "2026-06-11",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0556",
+     "subject": "Prezydent Karol Nawrocki",
+     "relation": "had not invited the four judges elected on 13 March to swear in at the Presidential Palace",
+     "object": "Krystian Markiewicz; Marcin Dziurda; Maciej Taborowski; Anna Korwin-Piotrowska",
+     "kind": "other",
+     "evidence_text": "Prezydent Karol Nawrocki nie zaprosił ich bowiem dotąd na ślubowanie do Pałacu Prezydenckiego.",
+     "evidence_translation": "President Karol Nawrocki had not invited them to swear in at the Presidential Palace.",
+     "label": "fact",
+     "label_scope": "Page states this as of its date",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+     ]
+    },
+    {
+     "id": "B01-C0557",
+     "subject": "Iustitia",
+     "relation": "expresses support for the 'new' TK judges",
+     "object": "nowi sędziowie TK",
+     "kind": "statement",
+     "evidence_text": "Iustitia wyraża wsparcie dla „nowych” sędziów Trybunału Konstytucyjnego",
+     "evidence_translation": "Iustitia expresses support for the “new” judges of the Constitutional Tribunal",
+     "label": "fact",
+     "label_scope": "Headline in the 'Ostatnio dodane' sidebar dated 31.10.2026; article itself not fetched",
+     "date": "2026-10-31",
+     "evidence_location": "sidebar 'Ostatnio dodane'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0558",
+     "subject": "Bogdan Święczkowski",
+     "relation": "later assessed the 14 July 2026 incident as an attempt at an attack on the constitutional organ",
+     "object": "Trybunał Konstytucyjny",
+     "kind": "statement",
+     "evidence_text": "ocenił później, że zdarzenie było próbą „zamachu na konstytucyjny organ państwa",
+     "evidence_translation": "later assessed that the event was an attempt at an attack on the constitutional organ of the state",
+     "label": "fact",
+     "label_scope": "Page reports Święczkowski's statement",
+     "date": "2026-07-14",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file",
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file"
+     ]
+    },
+    {
+     "id": "B01-C0559",
+     "subject": "Bogdan Święczkowski",
+     "relation": "notified the prosecutor's office about the incident",
+     "object": "prokuratura",
+     "kind": "legal_action",
+     "evidence_text": "Zawiadomił też prokuraturę.",
+     "evidence_translation": "He also notified the prosecutor's office.",
+     "label": "fact",
+     "label_scope": "Page does not say against whom the notification was made",
+     "date": "2026-07-14",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0560",
+     "subject": "Krystian Markiewicz; Marcin Dziurda",
+     "relation": "were not let into the TK building for the 14 July 2026 general assembly; they then called police",
+     "object": "Zgromadzenie Ogólne Sędziów TK",
+     "kind": "event_or_speech",
+     "evidence_text": "Do budynku nie wpuszczono Krystiana Markiewicza i Marcina Dziurdy.",
+     "evidence_translation": "Krystian Markiewicz and Marcin Dziurda were not let into the building.",
+     "label": "fact",
+     "label_scope": "Page section 'W tle spór o czwórkę sędziów TK'",
+     "date": "2026-07-14",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0561",
+     "subject": "Bogdan Święczkowski",
+     "relation": "is reported to have said that the judges entered the hall unlawfully at the 24 June 2026 general assembly",
+     "object": "Zgromadzenie Ogólne Sędziów TK",
+     "kind": "statement",
+     "evidence_text": "Prezes Bogdan Święczkowski miał stwierdzić jednak, że do sali wtargnęli bezprawnie.",
+     "evidence_translation": "However, Chairman Bogdan Święczkowski was reported to have said that they had forced their way into the hall unlawfully.",
+     "label": "alleged",
+     "label_scope": "Reported by the page ('miał stwierdzić'); no direct quote from Święczkowski",
+     "date": "2026-06-24",
+     "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0562",
+     "subject": "Maciej Berek; judges named on this page",
+     "relation": "no reference to writing for or being interviewed by Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl",
+     "object": "Gazeta Wyborcza; Agora; TOK FM; wyborcza.pl",
+     "kind": "other",
+     "evidence_text": "Maciej Berek kandydatem do Trybunału Konstytucyjnego",
+     "evidence_translation": "Maciej Berek is a candidate for the Constitutional Tribunal",
+     "label": "no_link",
+     "label_scope": "Checked article text and sidebars of this page; no such reference found",
+     "evidence_location": "page title (H1)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R082",
+   "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+   "host": "notesfrompoland.com",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Possible Tusk-to-judge tie. Check whether the 'right hand man' is Berek, and capture the PM's words verbatim in Polish with the source | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "ok",
+   "fetch_note": "Full article text returned. Byline Daniel Tilles; published 14 Aug 2026, modified 17 Aug 2026. The 'right-hand man' is identified as Maciej Berek. The Polish original of 'right-hand man' is not on the page; Polish PM words appear only in embedded posts (Kancelaria Premiera and PolsatNews.pl, both dated 13 Aug 2026). Sidebars list headlines to 30 Oct 2026, not article text. Dates differ from R081 (RCL post 2007 to 2014 here, 2007-2015 there).",
+   "page_title": "Polish PM confirms he wants his “right-hand man” to be made constitutional court judge",
+   "page_date": "2026-08-14",
+   "publisher": "Notes From Poland (Fundacja Notes from Poland)",
+   "capture_answer": "Yes: the 'right-hand man' is Maciej Berek, per the article ('whom Tusk calls his “right-hand man”'). The Polish original of that phrase is not on the page. Tusk's Polish words on the page are the Kancelaria Premiera post of 13 Aug 2026 ('Nie mamy żadnych innych interesów w tej sprawie...') and the PolsatNews.pl post quoting him ('potwierdził, że @MaciejBerek'). R081 gives further Polish quotes. Lead question: no TK judge is linked to Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl; Notes from Poland staff bios mention Gazeta Wyborcza and TOK FM for staff only, not for the eight judges.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:45.465Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 33551,
+    "sha256": "275bc67eec8e70eeb2e1d3c4524a15a6a9e3bfc834e355bd7a008d2466c6fe4d",
+    "url_read": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/"
+   },
+   "names_listed": [
+    "Paweł Kowal",
+    "Shana Penn",
+    "Agata Gostyńska-Jakubowska",
+    "Andrzej Nowak",
+    "Timothy Garton Ash",
+    "Olga Tokarczuk",
+    "Norman Davies"
+   ],
+   "names_found_in_page_text": "7/7",
+   "followup_urls": [
+    {
+     "url": "https://notesfrompoland.com/2026/07/29/newly-sworn-in-judge-of-polands-constitutional-court-stages-boycott-over-blocked-colleagues/",
+     "why": "Newly sworn-in TK judge's boycott over four blocked colleagues (judge not named in this article)"
+    },
+    {
+     "url": "https://notesfrompoland.com/2026/04/01/president-swears-in-polands-first-new-constitutional-court-judges-for-four-years-but-standoff-remains/",
+     "why": "April 2026 oath standoff with the President"
+    },
+    {
+     "url": "https://notesfrompoland.com/2026/07/23/president-to-swear-in-new-judge-to-polands-disputed-constitutional-court/",
+     "why": "President's swearing-in of three of the Sejm-chosen judges"
+    },
+    {
+     "url": "https://notesfrompoland.com/2026/10/30/chaos-at-polands-constitutional-court-as-government-backed-judges-seek-to-oust-chief-justice/",
+     "why": "Latest on the chief justice dispute (30 Oct 2026)"
+    },
+    {
+     "url": "https://x.com/PremierRP/status/2087894444443832610",
+     "why": "Kancelaria Premiera post with Tusk's Polish words; the text is already in the page embed, so use only if needed"
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0563",
+     "subject": "Donald Tusk",
+     "relation": "confirmed he will seek to have Maciej Berek appointed as a TK judge",
+     "object": "Maciej Berek",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Prime Minister Donald Tusk has confirmed that he will seek to have Maciej Berek",
+     "evidence_translation": "Same as original (English): Prime Minister Donald Tusk has confirmed that he will seek to have Maciej Berek",
+     "label": "fact",
+     "label_scope": "Page reports Tusk's press-conference confirmation (Thursday, 13 Aug 2026); no vote had taken place",
+     "date": "2026-08-13",
+     "evidence_location": "lead paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0564",
+     "subject": "Donald Tusk",
+     "relation": "calls Maciej Berek his 'right-hand man' (identifies the 'right-hand man' as Berek)",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "whom Tusk calls his “right-hand man”",
+     "evidence_translation": "Same as original (English): whom Tusk calls his “right-hand man”",
+     "label": "fact",
+     "label_scope": "Page reports the phrase; the Polish original is not on the page",
+     "date": "2026-08-11",
+     "evidence_location": "lead paragraph",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0565",
+     "subject": "Maciej Berek",
+     "relation": "is a longstanding associate of Donald Tusk",
+     "object": "Donald Tusk",
+     "kind": "other",
+     "evidence_text": "Berek is a longstanding associate of Tusk.",
+     "evidence_translation": "Same as original (English): Berek is a longstanding associate of Tusk.",
+     "label": "fact",
+     "label_scope": "Page's own characterisation",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0566",
+     "subject": "Maciej Berek",
+     "relation": "was head of the Government Legislation Centre (RCL) while also secretary of the cabinet during Tusk's first premiership",
+     "object": "Government Legislation Centre (RCL)",
+     "kind": "role_or_job",
+     "evidence_text": "During Tusk’s first period as prime minister, from 2007 to 2014, Berek was head of the Government Legislation Centre (RCL)",
+     "evidence_translation": "Same as original (English): During Tusk’s first period as prime minister, from 2007 to 2014, Berek was head of the Government Legislation Centre (RCL)",
+     "label": "fact",
+     "label_scope": "Page's own statement; R081 gives 2007-2015",
+     "date": "2007-2014",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "rcl",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "president 2007/08-2015; also Secretary of the Council of Ministers 2008-2015",
+      "president 2007/08-2015; also Secretary of the Council of Ministers 2008-2015"
+     ]
+    },
+    {
+     "id": "B01-C0567",
+     "subject": "Maciej Berek",
+     "relation": "was appointed minister without portfolio (2023), then minister overseeing implementation of government policy (2025)",
+     "object": "Rada Ministrów",
+     "kind": "role_or_job",
+     "evidence_text": "Berek was appointed as a minister without portfolio and then, in 2025, was made minister in charge of overseeing",
+     "evidence_translation": "Same as original (English): Berek was appointed as a minister without portfolio and then, in 2025, was made minister in charge of overseeing",
+     "label": "fact",
+     "label_scope": "Page's own statement; 2023 date from the paragraph before",
+     "date": "2025",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0568",
+     "subject": "Maciej Berek",
+     "relation": "is not a member of parliament and not a member of any political party",
+     "object": "political party",
+     "kind": "other",
+     "evidence_text": "Berek is also not a member of parliament, and indeed not even a member of any political party.",
+     "evidence_translation": "Same as original (English): Berek is also not a member of parliament, and indeed not even a member of any political party.",
+     "label": "fact",
+     "label_scope": "Page's own statement on party membership",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0569",
+     "subject": "Maciej Berek",
+     "relation": "assistant professor, Department of Constitutional Law, University of Warsaw",
+     "object": "University of Warsaw",
+     "kind": "role_or_job",
+     "evidence_text": "worked as an assistant professor in the department of constitutional law at the University of Warsaw",
+     "evidence_translation": "Same as original (English): worked as an assistant professor in the department of constitutional law at the University of Warsaw",
+     "label": "fact",
+     "label_scope": "Page says this was between his government stints",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
+    },
+    {
+     "id": "B01-C0570",
+     "subject": "Donald Tusk",
+     "relation": "said that he confirmed Berek's candidacy and that Berek is 'apolitical and nonpartisan'",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "Nie mamy żadnych innych interesów w tej sprawie. Zależy nam na naprawieniu Trybunału Konstytucyjnego,",
+     "evidence_translation": "We have no other interests in this matter. We want to fix the Constitutional Tribunal,",
+     "label": "fact",
+     "label_scope": "Kancelaria Premiera (@PremierRP) X post of 13 Aug 2026, quoting Tusk in Warsaw; page reports it",
+     "date": "2026-08-13",
+     "evidence_location": "embedded X post (Kancelaria Premiera)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0571",
+     "subject": "PolsatNews.pl (quoting Donald Tusk)",
+     "relation": "reports that Tusk confirmed Berek will be a TK judge candidate",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "Premier @donaldtusk potwierdził, że @MaciejBerek – do tej pory minister ds. nadzoru nad wdrażaniem polityki rządu –",
+     "evidence_translation": "Prime Minister @donaldtusk confirmed that @MaciejBerek – until now minister for supervising implementation of government policy –",
+     "label": "fact",
+     "label_scope": "Embedded PolsatNews.pl X post of 13 Aug 2026; page reports it",
+     "date": "2026-08-13",
+     "evidence_location": "embedded X post (PolsatNews.pl)",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0572",
+     "subject": "Donald Tusk (account of what Maciej Berek said to him)",
+     "relation": "reports that Berek said everything must be done to remedy the TK situation",
+     "object": "Maciej Berek",
+     "kind": "statement",
+     "evidence_text": "Berek himself had recently told him that, “under the current political circumstances, we must do everything",
+     "evidence_translation": "Same as original (English): Berek himself had recently told him that, “under the current political circumstances, we must do everything",
+     "label": "alleged",
+     "label_scope": "Tusk's own account as reported on the page; Berek's words are not quoted from Berek",
+     "evidence_location": "article body, Tusk press conference section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0573",
+     "subject": "Donald Tusk",
+     "relation": "announced before a cabinet meeting that Berek was leaving government to take on other tasks",
+     "object": "Rada Ministrów",
+     "kind": "role_or_job",
+     "evidence_text": "Tusk unexpectedly announced before a cabinet meeting that Berek",
+     "evidence_translation": "Same as original (English): Tusk unexpectedly announced before a cabinet meeting that Berek",
+     "label": "fact",
+     "label_scope": "Page says this was on Tuesday (11 Aug 2026)",
+     "date": "2026-08-11",
+     "evidence_location": "article body, second section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0574",
+     "subject": "Anna Maria Żukowska",
+     "relation": "is head of The Left's (Lewica) parliamentary caucus",
+     "object": "Lewica (The Left) parliamentary caucus",
+     "kind": "role_or_job",
+     "evidence_text": "Anna Maria Żukowska, the head of The Left’s (Lewica) parliamentary caucus",
+     "evidence_translation": "Same as original (English): Anna Maria Żukowska, the head of The Left’s (Lewica) parliamentary caucus",
+     "label": "fact",
+     "label_scope": "Page's own description",
+     "evidence_location": "article body, Sejm section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0575",
+     "subject": "Anna Maria Żukowska",
+     "relation": "said Lewica will not back Berek because it promised voters politicians would not end up on the TK",
+     "object": "Lewica",
+     "kind": "statement",
+     "evidence_text": "do niedawna czynny polityk nie dostanie głosów klubu @__Lewica, gdyż obiecaliśmy naszym wyborcom,",
+     "evidence_translation": "a recently active politician will not get the votes of the @__Lewica club, because we promised our voters,",
+     "label": "fact",
+     "label_scope": "Embedded X post by Żukowska (11 Aug 2026); page reports it",
+     "date": "2026-08-11",
+     "evidence_location": "embedded X post (Anna-Maria Żukowska)",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0576",
+     "subject": "Notes From Poland (page's own statement)",
+     "relation": "states the government has a majority of just nine in the 460-seat Sejm",
+     "object": "Sejm",
+     "kind": "other",
+     "evidence_text": "the government has a majority of just nine in the 460-seat Sejm",
+     "evidence_translation": "Same as original (English): the government has a majority of just nine in the 460-seat Sejm",
+     "label": "fact",
+     "label_scope": "Page's statement; the inference that a few MPs could block Berek is the page's own analysis",
+     "evidence_location": "article body, Sejm section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0577",
+     "subject": "Justyn Piskorski",
+     "relation": "nine-year term ends, opening the next TK vacancy on 18 September",
+     "object": "Trybunał Konstytucyjny",
+     "kind": "other",
+     "evidence_text": "The next vacancy on the TK’s 15-judge bench is due to open on 18 September, when the nine-year term of Justyn Piskorski",
+     "evidence_translation": "Same as original (English): The next vacancy on the TK’s 15-judge bench is due to open on 18 September, when the nine-year term of Justyn Piskorski",
+     "label": "fact",
+     "label_scope": "Page's own statement",
+     "date": "2026-09-18",
+     "evidence_location": "article body, Sejm section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0578",
+     "subject": "Zbigniew Bogucki",
+     "relation": "chief of staff to President Karol Nawrocki; told Radio Zet that Nawrocki would accept the oath if procedures are followed",
+     "object": "Karol Nawrocki",
+     "kind": "statement",
+     "evidence_text": "his chief of staff, Zbigniew Bogucki, told Radio Zet that Nawrocki would “accept the oath if procedures are followed”",
+     "evidence_translation": "Same as original (English): his chief of staff, Zbigniew Bogucki, told Radio Zet that Nawrocki would “accept the oath if procedures are followed”",
+     "label": "fact",
+     "label_scope": "Page reports the statement ('his' refers to President Nawrocki); Polish original not on the page",
+     "date": "2026-08-11",
+     "evidence_location": "final section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0579",
+     "subject": "Karol Nawrocki",
+     "relation": "has used the oath requirement to refuse to swear in four of the judges chosen by the Sejm this year",
+     "object": "four judges chosen by the Sejm",
+     "kind": "other",
+     "evidence_text": "Nawrocki has used this requirement to refuse to swear in four of the judges chosen by the Sejm this year.",
+     "evidence_translation": "Same as original (English): Nawrocki has used this requirement to refuse to swear in four of the judges chosen by the Sejm this year.",
+     "label": "fact",
+     "label_scope": "Page's own statement",
+     "evidence_location": "final section",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0580",
+     "subject": "Donald Tusk",
+     "relation": "called Bogdan Święczkowski's leadership of the TK 'embarrassing'",
+     "object": "Bogdan Święczkowski",
+     "kind": "statement",
+     "evidence_text": "in which Tusk also called Święczkowski’s leadership of the TK “embarrassing”",
+     "evidence_translation": "Same as original (English): in which Tusk also called Święczkowski’s leadership of the TK “embarrassing”",
+     "label": "fact",
+     "label_scope": "Page reports Tusk's remark",
+     "evidence_location": "article body, Tusk press conference section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0581",
+     "subject": "Karol Nawrocki and Bogdan Święczkowski",
+     "relation": "have refused to accept four new TK judges chosen by parliament",
+     "object": "four new TK judges chosen by parliament",
+     "kind": "other",
+     "evidence_text": "the current PiS-aligned president, Karol Nawrocki, and Święczkowski have refused to accept four new TK judges",
+     "evidence_translation": "Same as original (English): the current PiS-aligned president, Karol Nawrocki, and Święczkowski have refused to accept four new TK judges",
+     "label": "fact",
+     "label_scope": "Page's own statement; Nawrocki described as PiS-aligned by the page",
+     "evidence_location": "article body, Tusk press conference section",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0582",
+     "subject": "Bogdan Święczkowski",
+     "relation": "previously served as a deputy justice minister in the PiS government; page says he was never a PiS party member",
+     "object": "PiS government (deputy justice minister)",
+     "kind": "role_or_job",
+     "evidence_text": "previously served as a deputy justice minister in the PiS government (though he was never a member of the PiS party)",
+     "evidence_translation": "Same as original (English): previously served as a deputy justice minister in the PiS government (though he was never a member of the PiS party)",
+     "label": "fact",
+     "label_scope": "Page's own statement",
+     "evidence_location": "article body, background section",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "swieczkowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "mazur",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0583",
+     "subject": "Notes From Poland (page's own statement)",
+     "relation": "no reference to writing for or being interviewed by Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl by any of the eight TK judges",
+     "object": "Gazeta Wyborcza; Agora; TOK FM; wyborcza.pl",
+     "kind": "other",
+     "evidence_text": "Polish PM confirms he wants his “right-hand man” to be made constitutional court judge",
+     "evidence_translation": "Same as original (English): Polish PM confirms he wants his “right-hand man” to be made constitutional court judge",
+     "label": "no_link",
+     "label_scope": "Checked article text, byline and staff bios; NfP staff bios mention Gazeta Wyborcza and TOK FM for staff, not for the eight judges",
+     "evidence_location": "page title (H1)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
    "ref": "R091",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4234/body",
    "host": "api.sejm.gov.pl",
@@ -13628,7 +14727,7 @@
    "names_found_in_page_text": "16/16",
    "claims": [
     {
-     "id": "B01-C0536",
+     "id": "B01-C0584",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "submitted (Zgłaszający) interpellation no. 4234 to the prime minister",
@@ -13649,7 +14748,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0537",
+     "id": "B01-C0585",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "signs as Member of the Sejm",
@@ -13666,7 +14765,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0538",
+     "id": "B01-C0586",
      "subject": "Krzysztofa Szczuckiego",
      "subject_type": "person",
      "relation": "submitted query no. 456 to the KPRM about a session of the Council for matters of companies with State Treasury participation",
@@ -13687,7 +14786,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0539",
+     "id": "B01-C0587",
      "subject": "Macieja Berka",
      "subject_type": "person",
      "relation": "sent a request for an extension of the time to reply; the page gives only the title 'minister'",
@@ -13705,7 +14804,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0540",
+     "id": "B01-C0588",
      "subject": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
      "subject_type": "public_body",
      "relation": "reportedly gave a positive opinion to 15 named persons (see names_listed)",
@@ -13726,7 +14825,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0541",
+     "id": "B01-C0589",
      "subject": "Maciej Henryk Taborowski",
      "subject_type": "person",
      "relation": "is named (as one of 15 persons) as having received a positive opinion of the Council for matters of companies with State Treasury participation",
@@ -13746,7 +14845,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0542",
+     "id": "B01-C0590",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a state or foreign client, or as a fee recipient from a public body, in",
@@ -13765,7 +14864,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0543",
+     "id": "B01-C0591",
      "subject": "Interpelacja nr 4234",
      "subject_type": "document",
      "relation": "is addressed to the prime minister, who is named",
@@ -13825,7 +14924,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0544",
+     "id": "B01-C0592",
      "subject": "Arkadiusz Myrcha",
      "subject_type": "person",
      "relation": "signs the reply as Sekretarz Stanu (Secretary of State) of the Ministry of Justice",
@@ -13850,7 +14949,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0545",
+     "id": "B01-C0593",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "submitted 67 parliamentary queries to the Ministry of Justice concerning 86 civil-law contracts (with annexes) concluded by the ministry in 2024",
@@ -13873,7 +14972,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0546",
+     "id": "B01-C0594",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided to publish a register of civil-law contracts concluded in the justice department for 2019–2023",
@@ -13893,7 +14992,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0547",
+     "id": "B01-C0595",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided that a further register was published, covering contracts concluded in 2024",
@@ -13913,7 +15012,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0548",
+     "id": "B01-C0596",
      "subject": "Ministerstwo Sprawiedliwości",
      "subject_type": "public_body",
      "relation": "published information on contracts concluded within the Justice Fund",
@@ -13937,7 +15036,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0549",
+     "id": "B01-C0597",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "is",
@@ -13958,7 +15057,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0550",
+     "id": "B01-C0598",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a contractor, client or fee recipient in",
@@ -14004,7 +15103,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0551",
+     "id": "B01-C0599",
      "subject": "Jerzego Polaczka",
      "subject_type": "person",
      "relation": "submitted, with a group of MPs, query K10ZAP729 raising an alleged conflict of interest of a minister (not named)",
@@ -14024,7 +15123,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0552",
+     "id": "B01-C0600",
      "subject": "Minister (not named on the page)",
      "subject_type": "person",
      "relation": "is described as chair of the Standing Committee of the Council of Ministers",
@@ -14041,7 +15140,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0553",
+     "id": "B01-C0601",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "states that there is no legal bar on combining membership of the Council of Ministers, or the presidency of the Government Legislation Centre, with radca prawny status",
@@ -14066,7 +15165,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0554",
+     "id": "B01-C0602",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "signed the reply (DSP.INT.4611.160.2024) addressed to Marshal of the Sejm Szymon Hołownia",
@@ -14089,7 +15188,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0555",
+     "id": "B01-C0603",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as client, contractor or fee recipient in",
@@ -14160,7 +15259,7 @@
    "names_found_in_page_text": "26/26",
    "claims": [
     {
-     "id": "B01-C0556",
+     "id": "B01-C0604",
      "subject": "Hoffman, Taborowski i Wspólnicy",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, as shown on this page",
@@ -14179,7 +15278,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0557",
+     "id": "B01-C0605",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in or linked to this sitting",
@@ -14198,7 +15297,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0558",
+     "id": "B01-C0606",
      "subject": "Waldemar Żurek",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -14217,7 +15316,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0559",
+     "id": "B01-C0607",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -14236,7 +15335,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0560",
+     "id": "B01-C0608",
      "subject": "Sylwia Kuźniar",
      "subject_type": "person",
      "relation": "spoke for the Ministry of Justice at the Sejm Petitions Committee sitting, invited by presiding member Urszula Augustyn (KO)",
@@ -14285,7 +15384,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0561",
+     "id": "B01-C0609",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is entered on the list of advocates (lista adwokatów) in the current chamber",
@@ -14305,7 +15404,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0562",
+     "id": "B01-C0610",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "has register status 'Wykonujący zawód' (practising the profession) on the advocates' register, number WAW/ADW/9259",
@@ -14324,7 +15423,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0563",
+     "id": "B01-C0611",
      "subject": "DR HAB Taborowski Maciej (WAW/ADW/9259)",
      "subject_type": "person",
      "relation": "is the same person as the TK judge Maciej Taborowski named in the requested list",
@@ -14345,7 +15444,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0564",
+     "id": "B01-C0612",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is recorded as practising at the firm named as his place of practice",
@@ -14372,7 +15471,7 @@
      ]
     },
     {
-     "id": "B01-C0565",
+     "id": "B01-C0613",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is listed under the heading 'PREFEROWANA PRAKTYKA' with the Izba Adwokacka w Warszawie",
@@ -14391,7 +15490,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0566",
+     "id": "B01-C0614",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "holds a Constitutional Tribunal post, or is subject to other-activity limits under the TK Act, per this entry",
@@ -14419,7 +15518,7 @@
      ]
     },
     {
-     "id": "B01-C0567",
+     "id": "B01-C0615",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is also listed as a legal adviser (radca prawny)",
@@ -14440,7 +15539,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0568",
+     "id": "B01-C0616",
      "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, per this entry",
@@ -14500,7 +15599,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0569",
+     "id": "B01-C0617",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a candidate for judge of the Constitutional Tribunal (TK)",
@@ -14527,7 +15626,7 @@
      ]
     },
     {
-     "id": "B01-C0570",
+     "id": "B01-C0618",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a former 'superminister', described as the minister responsible for supervising implementation of government policy, who came from government",
@@ -14546,7 +15645,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0571",
+     "id": "B01-C0619",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "moved from the centre of executive power to a constitutional-judge candidacy in an express transfer",
@@ -14572,7 +15671,7 @@
      ]
     },
     {
-     "id": "B01-C0572",
+     "id": "B01-C0620",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "does not meet key formal requirements for the TK post, per the author's analysis",
@@ -14591,7 +15690,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0573",
+     "id": "B01-C0621",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is said by the author not to meet the statutory minimum of 10 years of actual practice as a legal adviser",
@@ -14612,7 +15711,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0574",
+     "id": "B01-C0622",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "is described on the page as a former deputy minister of justice",
@@ -14629,7 +15728,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0575",
+     "id": "B01-C0623",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "argues in the headline that being entered on a list is not 'wykonywanie zawodu' (practising the profession)",
@@ -14646,7 +15745,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0576",
+     "id": "B01-C0624",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as calling for the Tribunal grounds to be left by coercive forces",
@@ -14671,7 +15770,7 @@
      ]
     },
     {
-     "id": "B01-C0577",
+     "id": "B01-C0625",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as having made a night visit to the TK",
@@ -14743,7 +15842,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0578",
+     "id": "B01-C0626",
      "subject": "Trybunał Konstytucyjny (case K 3/10)",
      "subject_type": "public_body",
      "relation": "found constitutional (as reported) the provision allowing entry to the legal-adviser profession without the legal-adviser exam for persons holding judge or prosecutor posts or practising as advocates or notaries",
@@ -14763,7 +15862,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0579",
+     "id": "B01-C0627",
      "subject": "resort sprawiedliwości (Ministry of Justice)",
      "subject_type": "public_body",
      "relation": "was working on rules to simplify access to the legal-adviser profession (2012 statement)",
@@ -14786,7 +15885,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0580",
+     "id": "B01-C0628",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named on the page in any role (advocate, legal adviser or TK judge)",
@@ -14806,7 +15905,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0581",
+     "id": "B01-C0629",
      "subject": "Constitutional Tribunal Act (ustawa o Trybunale Konstytucyjnym): rules on other activity or incompatibility of judges",
      "subject_type": "other",
      "relation": "are stated in the article",
@@ -14826,7 +15925,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0582",
+     "id": "B01-C0630",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named on the page",
@@ -14880,7 +15979,7 @@
    "names_found_in_page_text": "10/10",
    "claims": [
     {
-     "id": "B01-C0583",
+     "id": "B01-C0631",
      "subject": "Trybunał Konstytucyjny (full bench, case W. 2/92)",
      "subject_type": "public_body",
      "relation": "issued a resolution (uchwała) on the interpretation of arts 23(1), 26 and 28(1)(2) of the Act on Legal Advisers of 6 July 1982",
@@ -14900,7 +15999,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0584",
+     "id": "B01-C0632",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "held (ustalił) that entry on the list of legal advisers of a person practising as a judge or prosecutor is inadmissible",
@@ -14920,7 +16019,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0585",
+     "id": "B01-C0633",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "filed a separate opinion (zadanie odrębne) stating that he did not share the interpretation in resolution W. 2/92",
@@ -14943,7 +16042,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0586",
+     "id": "B01-C0634",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "reads art. 26 of the 1982 Act as banning only simultaneous practice of the listed professions with the legal-adviser profession",
@@ -14961,7 +16060,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0587",
+     "id": "B01-C0635",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "cites, as the procedural basis of the proceedings (w trybie art. 13 pkt 1 i 2), the Constitutional Tribunal Act of 29 April 1985",
@@ -14981,7 +16080,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0588",
+     "id": "B01-C0636",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in the document in any role",
@@ -15001,7 +16100,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0589",
+     "id": "B01-C0637",
      "subject": "Constitutional Tribunal Act of 29 April 1985: incompatibility or other-activity rules for judges",
      "subject_type": "other",
      "relation": "are reproduced or stated in the document",
@@ -15021,7 +16120,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0590",
+     "id": "B01-C0638",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named in the document",
@@ -15037,6 +16136,864 @@
      "access": "page_read",
      "evidence_check": "exact",
      "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "R100",
+   "url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+   "host": "tvn24.pl",
+   "lead_ref": "S1-eec2025_government_speakers_party_ties",
+   "capture_request": "Budka's KO list role, with a verbatim quote to capture | Lead question: What party ties do the EEC 2025 government speakers on the map have (Budka, Baranowski, Duszczyk, Sikora, Sobkowiak-Czarnecka)? Party-balance rule: show party ties as clearly as cross-party ties.",
+   "fetch_status": "ok",
+   "fetch_note": "Page text retrieved, HTTP 200, text/html, 44,567 characters. Article dated 26.04.2024, 10:47. Tag cloud (includes names such as Adam Bodnar and Donald Tusk) not recorded as ties. Sidebar teasers recorded only where they name an actor above. An image filename contains 'sobska'; no text or caption names Sobkowiak-Czarnecka, so no tie is recorded.",
+   "page_title": "Trzech ministrów KO wybiera się do Brukseli. Budka: oddaliśmy się do dyspozycji pana premiera",
+   "page_date": "26.04.2024",
+   "publisher": "TVN24",
+   "capture_answer": "Budka's KO list role: TVN24 (26.04.2024) reports that the PO National Council approved KO's European Parliament lists on a Wednesday, and that Budka 'został jedynką śląskiej listy' (first place on the Silesian list). Verbatim quote to capture: 'Oddaliśmy się do dyspozycji pana premiera' (Budka to TVP Info; the lead has 'premiera' without 'pana'). Party ties: the page gives Budka's KO tie only. It does not name Baranowski, Duszczyk, Sikora or Sobkowiak-Czarnecka, so no party tie is recorded for them (no_link). Date note: the article is dated 26.04.2024, so it concerns the 2024 EP lists, not 2025 as the brief's 'EEC 2025' label says. Other KO list leads named (not recorded as claims, outside the actor list): Marcin Kierwiński (first place, Warsaw district) and Bartłomiej Sienkiewicz (first place, świętokrzyskie and małopolskie). None of Iustitia, Themis, Free Courts, HFHR, Batory, KOS, OKO.press, Akcja Demokracja or KOD is named.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.232Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 44567,
+    "sha256": "fae2cb77ebc011f17012a0008490022f686461dc13a73ff62078b22c56adf160",
+    "url_read": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438"
+   },
+   "names_listed": [
+    "Borys Budka",
+    "Donald Tusk",
+    "Marcin Kierwiński",
+    "Bartłomiej Sienkiewicz",
+    "Daniel Obajtek",
+    "Anna Korwin-Piotrowska"
+   ],
+   "names_found_in_page_text": "6/6",
+   "followup_urls": [
+    {
+     "url": "https://tvn24.pl/polska/co-wydarzylo-sie-w-trybunale-konstytucyjnym-i-wokol-niego-najwazniejsze-informacje-st9317148",
+     "why": "Sidebar summary of the Constitutional Tribunal events on the same day. Not read."
+    },
+    {
+     "url": "https://tvn24.pl/polska/kryzys-w-trybunale-konstytucyjnym-oswiadczenie-bylych-prezesow-st9316506",
+     "why": "Sidebar headline: former TK presidents react, and a second letter follows. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0639",
+     "subject": "Rada Krajowa PO",
+     "subject_type": "party",
+     "relation": "approved the Koalicja Obywatelska lists for the European Parliament election",
+     "object": "KO European Parliament election lists",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Rada Krajowa PO zatwierdziła w środę listy Koalicji Obywatelskiej w wyborach do Parlamentu Europejskiego.",
+     "evidence_translation": "The PO National Council approved the Koalicja Obywatelska lists for the European Parliament election on Wednesday.",
+     "label": "fact",
+     "label_scope": "That TVN24 reports this. The page says only 'w środę' (Wednesday); the article is dated 26.04.2024.",
+     "date": "Wednesday before 26.04.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "european_parliament",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0640",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "placed first ('jedynka') on the KO Silesian list for the European Parliament election",
+     "object": "Koalicja Obywatelska Silesian EP list",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Minister aktywów państwowych Borys Budka został \"jedynką\" śląskiej listy.",
+     "evidence_translation": "Minister of State Assets Borys Budka became the \"number one\" of the Silesian list.",
+     "label": "fact",
+     "label_scope": "TVN24 report dated 26.04.2024; the list placement as stated on the page.",
+     "date": "26.04.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0641",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "is a minister in Donald Tusk's government and is among the three KO ministers standing for the European Parliament",
+     "object": "Government of Donald Tusk",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "On i dwóch innych ministrów w rządzie Donalda Tuska będą kandydować w wyborach do europarlamentu.",
+     "evidence_translation": "He and two other ministers in Donald Tusk's government will stand as candidates in the European Parliament elections.",
+     "label": "fact",
+     "label_scope": "Bold lead of the TVN24 article (26.04.2024).",
+     "date": "26.04.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "minister in his government",
+      "minister in his government"
+     ]
+    },
+    {
+     "id": "B01-C0642",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "said that the ministers had placed themselves at the disposal of Prime Minister Donald Tusk (quote to capture)",
+     "object": "Donald Tusk (Prime Minister)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "Oddaliśmy się do dyspozycji pana premiera",
+     "evidence_translation": "We have placed ourselves at the disposal of Mr. Prime Minister.",
+     "label": "fact",
+     "label_scope": "That Budka said this to TVP Info on a Friday, as reported by TVN24. The lead version reads 'premiera' without 'pana'.",
+     "date": "26.04.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "minister in his government",
+      "minister in his government"
+     ]
+    },
+    {
+     "id": "B01-C0643",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "said his current functions run until 10 May, when the government reconstruction is due",
+     "object": "Government reconstruction (rekonstrukcja rządu)",
+     "object_type": "event",
+     "kind": "statement",
+     "evidence_text": "swoje obecne funkcje będą pełnić do 10 maja, kiedy ma nastąpić rekonstrukcja rządu",
+     "evidence_translation": "He would carry out his current functions until 10 May, when the government reconstruction is to take place.",
+     "label": "fact",
+     "label_scope": "Bold lead of the TVN24 article; the body quotes Budka reporting the PM's date of 10 May.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0644",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "said the State Assets ministry would stay in the hands of KO",
+     "object": "Koalicja Obywatelska",
+     "object_type": "party",
+     "kind": "statement",
+     "evidence_text": "Zapewnił, że resort aktywów państwowych pozostanie w rękach Koalicji Obywatelskiej.",
+     "evidence_translation": "He assured that the State Assets ministry would remain in the hands of Koalicja Obywatelska (Civic Coalition).",
+     "label": "fact",
+     "label_scope": "Budka's statement, reported by TVN24 (26.04.2024).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0645",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "decides on dismissals of ministers (per Budka)",
+     "object": "Ministers' dismissals in the government reshuffle",
+     "object_type": "event",
+     "kind": "statement",
+     "evidence_text": "O dymisjach decyduje szef, czyli w tym przypadku Prezes Rady Ministrów",
+     "evidence_translation": "Dismissals are decided by the head, that is, in this case the Prime Minister.",
+     "label": "fact",
+     "label_scope": "Budka's statement in the TVN24 body, describing the process as he gave it; not verified.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0646",
+     "subject": "Donald Tusk (Prime Minister)",
+     "subject_type": "person",
+     "relation": "was spoken with before Marcin Kierwiński decided to run for the European Parliament (per video caption)",
+     "object": "Marcin Kierwiński's EP candidacy",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Kierwiński o starcie do europarlamentu: decyzja została podjęta po rozmowie z premierem",
+     "evidence_translation": "Kierwiński on running for the European Parliament: the decision was made after a conversation with the prime minister.",
+     "label": "fact",
+     "label_scope": "Video caption on the page (TVN24). The caption says 'premierem' (the PM) and does not name Tusk; the article names Tusk as PM.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0647",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "is quoted in a teaser headline saying the president has no right to go everywhere and always",
+     "object": "the President (not named in the headline)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "Sędzia Anna Korwin-Piotrowska: prezydent nie ma prawa wejść wszędzie i zawsze",
+     "evidence_translation": "Judge Anna Korwin-Piotrowska: the president has no right to enter everywhere and always.",
+     "label": "fact",
+     "label_scope": "Sidebar teaser headline (TVN24+ 'Fakty po Faktach' item); the interview itself was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0648",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "alleges the president charged at her",
+     "object": "the President (not named in the headline)",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "Korwin-Piotrowska: prezydent natarł na mnie i na ułamek sekundy się zatrzymał",
+     "evidence_translation": "Korwin-Piotrowska: the president charged at me and stopped for a fraction of a second.",
+     "label": "alleged",
+     "label_scope": "Claim by Anna Korwin-Piotrowska, as headlined in a sidebar teaser; not verified. The headline does not name the president.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0649",
+     "subject": "Kancelaria Prezydenta",
+     "subject_type": "public_body",
+     "relation": "wants to notify the prosecutor's office over a violation of inviolability",
+     "object": "Prokuratura (prosecutor's office)",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "evidence_text": "Kancelaria prezydenta chce zawiadomić prokuraturę. \"Naruszenie nietykalności\"",
+     "evidence_translation": "The president's chancellery wants to notify the prosecutor's office. \"Violation of inviolability\"",
+     "label": "fact",
+     "label_scope": "Sidebar teaser headline stating the intent. The teaser image alt text reads 'Karol Nawrocki' and the URL slug names him, but the visible headline does not.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0650",
+     "subject": "Baranowski",
+     "subject_type": "person",
+     "relation": "party tie or role checked on this page",
+     "object": "none stated on this page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Znaleźli się na nich także członkowie rządu Donalda Tuska.",
+     "evidence_translation": "Members of Donald Tusk's government also appeared on them.",
+     "label": "no_link",
+     "label_scope": "Name not on this page, so no party tie or role for Baranowski is stated here. Excerpt is the nearest sentence on government members of the KO lists.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "baranowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0651",
+     "subject": "Duszczyk",
+     "subject_type": "person",
+     "relation": "party tie or role checked on this page",
+     "object": "none stated on this page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Znaleźli się na nich także członkowie rządu Donalda Tuska.",
+     "evidence_translation": "Members of Donald Tusk's government also appeared on them.",
+     "label": "no_link",
+     "label_scope": "Name not on this page, so no party tie or role for Duszczyk is stated here. Excerpt is the nearest sentence on government members of the KO lists.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "duszczyk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0652",
+     "subject": "Sikora",
+     "subject_type": "person",
+     "relation": "party tie or role checked on this page",
+     "object": "none stated on this page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Znaleźli się na nich także członkowie rządu Donalda Tuska.",
+     "evidence_translation": "Members of Donald Tusk's government also appeared on them.",
+     "label": "no_link",
+     "label_scope": "Name not on this page, so no party tie or role for Sikora is stated here. Excerpt is the nearest sentence on government members of the KO lists.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "sikora",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0653",
+     "subject": "Sobkowiak-Czarnecka",
+     "subject_type": "person",
+     "relation": "party tie or role checked on this page",
+     "object": "none stated on this page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Znaleźli się na nich także członkowie rządu Donalda Tuska.",
+     "evidence_translation": "Members of Donald Tusk's government also appeared on them.",
+     "label": "no_link",
+     "label_scope": "Name not on this page, so no party tie or role for Sobkowiak-Czarnecka is stated here. Excerpt is the nearest sentence on government members of the KO lists.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "sobkowiak",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "R101",
+   "url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+   "host": "money.pl",
+   "lead_ref": "S1-eec2025_government_speakers_party_ties",
+   "capture_request": "Ministerial appointment date and party framing | Lead question: What party ties do the EEC 2025 government speakers on the map have (Budka, Baranowski, Duszczyk, Sikora, Sobkowiak-Czarnecka)? Party-balance rule: show party ties as clearly as cross-party ties.",
+   "fetch_status": "ok",
+   "fetch_note": "Page text retrieved, HTTP 200, 25,671 characters. Byline 13 grudnia 2023, 09:27 (author MWL). The printed '202-21' is kept as written. Rental income and MP pay figures from the asset declaration are not recorded (no tie to the actors above). Spouse and parents are not named in this article.",
+   "page_title": "Borys Budka nowym ministrem aktywów państwowych",
+   "page_date": "13 grudnia 2023",
+   "publisher": "Money.pl",
+   "capture_answer": "Ministerial appointment: money.pl (13 Dec 2023) says Budka 'został zaprzysiężony jako minister aktywów państwowych w rządzie Donalda Tuska'. The text gives no separate swearing-in day, only the article date. Party framing from the text: chairman of Platforma Obywatelska in 2020-2021 (printed '202-21'), and from 2021 chairman of the KO parliamentary club (Wikipedia gives 2019 for that club role; see R102). Ministry framing: PiS created the ministry in 2019. Baranowski, Duszczyk, Sikora and Sobkowiak-Czarnecka are not named, so no party tie is recorded for them.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.884Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 25671,
+    "sha256": "58262567db50a122b3228949aca4c514e29cfff827791ad8ab137cca7b0b84c5",
+    "url_read": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html"
+   },
+   "names_listed": [
+    "Borys Budka",
+    "Donalda Tuska",
+    "Ewy Kopacz",
+    "Waldemar Żurek"
+   ],
+   "names_found_in_page_text": "4/4",
+   "followup_urls": [
+    {
+     "url": "https://www.money.pl/gospodarka/w-rok-zarobil-44-tys-zl-na-wynajmie-co-posiada-nowy-minister-aktywow-panstwowych-6973014821591680a.html",
+     "why": "Full asset-declaration story linked from this article; may name the academic employer. Not read."
+    },
+    {
+     "url": "https://www.money.pl/gospodarka/tsunami-w-spolkach-skarbu-panstwa-opozycja-chwyci-za-miotle-6952828332395456a.html",
+     "why": "Linked article on the KO plan for a 'tsunami' of personnel changes in state companies. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0654",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "was sworn in as minister of state assets in Donald Tusk's government",
+     "object": "Ministerstwo Aktywów Państwowych (Ministry of State Assets)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Borys Budka został zaprzysiężony jako minister aktywów państwowych w rządzie Donalda Tuska.",
+     "evidence_translation": "Borys Budka was sworn in as minister of state assets in Donald Tusk's government.",
+     "label": "fact",
+     "label_scope": "Lead of the money.pl article; the text gives no separate swearing-in day, only the article date.",
+     "date": "13 grudnia 2023 (article date)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0655",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "is a Member of the Sejm",
+     "object": "Sejm",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Od 2011 r. jest posłem na Sejm.",
+     "evidence_translation": "Since 2011 he has been a Member of the Sejm.",
+     "label": "fact",
+     "label_scope": "Article body.",
+     "date": "since 2011",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0656",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "chaired Platforma Obywatelska (party chair), printed as 2020-2021",
+     "object": "Platforma Obywatelska",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "w latach 202-21 przewodniczącym Platformy Obywatelskiej",
+     "evidence_translation": "in the years 202-21 chairman of Platforma Obywatelska (Civic Platform).",
+     "label": "fact",
+     "label_scope": "Article body; it prints '202-21' (as written). Wikipedia gives 29 Jan 2020 to 3 Jul 2021 (R102).",
+     "date": "202-21 (printed)",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0657",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "has chaired the KO parliamentary club since 2021",
+     "object": "Koalicja Obywatelska parliamentary club",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Od 2021 r. jest przewodniczącym klubu parlamentarnego Koalicji Obywatelskiej.",
+     "evidence_translation": "Since 2021 he has been chairman of the Koalicja Obywatelska parliamentary club.",
+     "label": "fact",
+     "label_scope": "Money.pl's date. Wikipedia (R102) gives 12 Nov 2019 for leading this club, so the two dates conflict.",
+     "date": "2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0658",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "was minister of justice in Ewa Kopacz's government",
+     "object": "Ministerstwo Sprawiedliwości (Ministry of Justice)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "W rządzie Ewy Kopacz był ministrem sprawiedliwości",
+     "evidence_translation": "In Ewa Kopacz's government he was minister of justice.",
+     "label": "fact",
+     "label_scope": "Article body; the sentence gives no dates.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0659",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "said that all supervisory and management board members of state companies would be dismissed",
+     "object": "Companies with State Treasury shares (spółki Skarbu Państwa)",
+     "object_type": "company",
+     "kind": "statement",
+     "evidence_text": "w spółkach z udziałem Skarbu Państwa zwolnieni zostaną wszyscy członkowie rad nadzorczych i zarządów",
+     "evidence_translation": "In companies with State Treasury shares, all members of the supervisory and management boards will be dismissed.",
+     "label": "fact",
+     "label_scope": "Budka's statement, made 'tuż po wyborach' (just after the elections), as reported by money.pl; no exact date is given.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0660",
+     "subject": "Prawo i Sprawiedliwość",
+     "subject_type": "party",
+     "relation": "created the Ministry of State Assets",
+     "object": "Ministerstwo Aktywów Państwowych",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "Utworzyło je Prawo i Sprawiedliwość w 2019 r.",
+     "evidence_translation": "Law and Justice (PiS) created it in 2019.",
+     "label": "fact",
+     "label_scope": "Article's account of the ministry's origin; the sentence goes on to describe the ministry taking over tasks of a ministry abolished two years earlier.",
+     "date": "2019",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "pis",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0661",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "is headlined as having spoken on the Constitutional Tribunal (TK) budget",
+     "object": "Budget of the Constitutional Tribunal (TK)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Co z budżetem TK? Waldemar Żurek zabrał głos",
+     "evidence_translation": "What about the TK budget? Waldemar Żurek has spoken up.",
+     "label": "fact",
+     "label_scope": "Sidebar headline ('Popularne' / 'Wybrane dla Ciebie') only; the linked story body was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "rejected the request to lift the TK president's immunity"
+     ]
+    },
+    {
+     "id": "B01-C0662",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "received income for work as an academic teacher (asset declaration)",
+     "object": "Academic teaching job (employer not named on the page)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "amount": "około 60 tys.",
+     "currency": "PLN (zł)",
+     "evidence_text": "Za pracę nauczyciela akademickiego zainkasował około 60 tys. zł w ubiegłym roku.",
+     "evidence_translation": "For work as an academic teacher he collected about 60 thousand zloty last year.",
+     "label": "fact",
+     "label_scope": "As reported from his asset declaration; the employer is not named. 'Last year' is relative to the Dec 2023 article.",
+     "date": "'w ubiegłym roku' (last year, relative to 13 Dec 2023)",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "R102",
+   "url": "https://en.wikipedia.org/wiki/Borys_Budka",
+   "host": "en.wikipedia.org",
+   "lead_ref": "S1-eec2025_government_speakers_party_ties",
+   "capture_request": "Pointer only; use its party infobox and citations | Lead question: What party ties do the EEC 2025 government speakers on the map have (Budka, Baranowski, Duszczyk, Sikora, Sobkowiak-Czarnecka)? Party-balance rule: show party ties as clearly as cross-party ties.",
+   "fetch_status": "ok",
+   "fetch_note": "Page text retrieved, HTTP 200, 15,106 characters. Infobox entries had no citation markers in the retrieved text; the lead and body carry numbered citations. Spouse and parents named on the page are omitted (private family). No page date is shown in the retrieved text.",
+   "page_title": "Borys Budka (English Wikipedia)",
+   "page_date": "not shown in retrieved text",
+   "publisher": "Wikipedia (English)",
+   "capture_answer": "Party ties: the infobox gives 'Party: Civic Platform' and 'Other political affiliations: Civic Coalition'. No citation marker sits beside either infobox entry. The lead cites refs 6-8 for PO vice-chair, Civic Coalition club leadership (since 2019) and PO chair (2020-2021). Ministerial appointment: infobox only, 'In office 13 December 2023 – 13 May 2024' with 'Prime Minister: Donald Tusk'; no citation is shown and the body does not mention this post. tvn24 (April 2024) had planned the reconstruction for 10 May, so the two end dates differ. Other ties: MEP from 16 July 2024 (Silesia, constituency 11); chair of ITRE; appointed by the Sejm to the KRS (ref. 20, 25 Nov 2015); Minister of Justice 2015 under Ewa Kopacz. Family members are omitted. Baranowski, Duszczyk, Sikora and Sobkowiak-Czarnecka do not appear on this page.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.189Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 15105,
+    "sha256": "df262511b004d767e50fed3bb5fc2a39e654c2a4edb12925b40e30669db1aa09",
+    "url_read": "https://en.wikipedia.org/wiki/Borys_Budka"
+   },
+   "names_listed": [
+    "Donald Tusk",
+    "Ewa Kopacz",
+    "Grzegorz Schetyna",
+    "Bartosz Arłukowicz",
+    "Tomasz Siemoniak",
+    "Rafał Trzaskowski",
+    "Robert Tyszkiewicz",
+    "Marcin Kierwiński",
+    "Cezary Tomczyk",
+    "Marzena Małek",
+    "Jakub Jaworowski",
+    "Cezary Grabarczyk",
+    "Zbigniew Ziobro",
+    "Jerzy Buzek",
+    "Bogdan Zdrojewski",
+    "Bartłomiej Sienkiewicz",
+    "Małgorzata Kidawa-Błońska"
+   ],
+   "names_found_in_page_text": "17/17",
+   "followup_urls": [
+    {
+     "url": "https://web.archive.org/web/20191015180353/http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WMP20150001209",
+     "why": "Ref. 20 on the KRS appointment (Sejm resolution of 25 Nov 2015). Not read."
+    },
+    {
+     "url": "https://www.sejm.gov.pl/Sejm9.nsf/klubposlowie.xsp?klub=KO",
+     "why": "Ref. 7: Sejm page of the KO club, the source for the 2019 club leadership claim. Not read."
+    },
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/257047/BORYS_BUDKA/home",
+     "why": "Ref. 26: EP profile for the ITRE chair and MEP role. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0663",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "party affiliation",
+     "object": "Civic Platform",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Party: Civic Platform",
+     "evidence_translation": "Party: Civic Platform (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Personal details' field. No citation marker is shown beside it in the retrieved text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0664",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "other political affiliation",
+     "object": "Civic Coalition",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Other political affiliations: Civic Coalition",
+     "evidence_translation": "Other political affiliations: Civic Coalition (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Personal details' field. No citation marker is shown beside it in the retrieved text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0665",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "leader of the Civic Coalition parliamentary group since 2019",
+     "object": "Civic Coalition parliamentary group",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "leader of the parliamentary political group of Civic Coalition since 2019",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Lead paragraph, cited to ref. 7 (Sejm KO club page). Body: became leader of the club on 12 Nov 2019 (ref. 22).",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0666",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "chairman of Civic Platform, succeeding Grzegorz Schetyna",
+     "object": "Civic Platform",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "In office 29 January 2020 – 3 July 2021",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Chairman of Civic Platform' entry. Body: elected 25 Jan 2020, took office 29 Jan 2020 (refs 23-24).",
+     "date": "29 Jan 2020 – 3 Jul 2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0667",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "succeeded Borys Budka as chairman of Civic Platform",
+     "object": "Civic Platform chairmanship",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Succeeded by: Donald Tusk",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Chairman of Civic Platform' entry only.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0668",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "Prime Minister over Budka's post as Minister of State Assets",
+     "object": "Minister of State Assets post of Borys Budka",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Prime Minister: Donald Tusk",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Minister of State Assets' entry only.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "budka",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "minister in his government",
+      "minister in his government"
+     ]
+    },
+    {
+     "id": "B01-C0669",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "Minister of State Assets",
+     "object": "Ministry of State Assets (Ministerstwo Aktywów Państwowych)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "In office 13 December 2023 – 13 May 2024",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox only. No citation is shown and the body does not mention this post.",
+     "date": "13 Dec 2023 – 13 May 2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0670",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "Member of the European Parliament for Poland, Silesia (constituency 11)",
+     "object": "European Parliament",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Assumed office 16 July 2024",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Member of The European Parliament for Poland' entry; it reads 'Incumbent'.",
+     "date": "16 Jul 2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "european_parliament",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0671",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "chairs the Committee on Industry, Research and Energy (ITRE)",
+     "object": "ITRE committee, European Parliament",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "He is the Chair of the Committee on Industry, Research and Energy in the European Parliament.",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Article body, cited to ref. 26 (EP MEP profile).",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "european_parliament",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0672",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "appointed by the parliament (Sejm) to the National Council of the Judiciary",
+     "object": "Krajowa Rada Sądownictwa (National Council of the Judiciary)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "He was also appointed by the parliament to the National Council of the Judiciary.",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Article body. Date taken from the title of ref. 20: Sejm resolution of 25 November 2015 on electing a Sejm member to the KRS.",
+     "date": "25 Nov 2015 (ref. 20 title)",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "neo_krs",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0673",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "Minister of Justice in the government of Ewa Kopacz",
+     "object": "Ministry of Justice (Poland)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "In office 4 May 2015 – 16 November 2015",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Minister of Justice' entry (Prime Minister: Ewa Kopacz). Lead cites ref. 5, the President's decree of 4 May 2015.",
+     "date": "4 May 2015 – 16 Nov 2015",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0674",
+     "subject": "Borys Budka",
+     "subject_type": "person",
+     "relation": "Member of the Sejm",
+     "object": "Sejm",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Assumed office 8 November 2011",
+     "evidence_translation": "Same text (English original).",
+     "label": "fact",
+     "label_scope": "Infobox 'Member of the Sejm' entry; constituency 29 Gliwice (2011-2019), then 31 Katowice (2019-).",
+     "date": "8 Nov 2011",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "budka",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -15067,7 +17024,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0591",
+     "id": "B01-C0675",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "has a biography on this page stating party affiliation or government role",
@@ -15084,7 +17041,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0592",
+     "id": "B01-C0676",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is captioned as 'Premier' (prime minister) in news images on the gov.pl homepage",
@@ -15133,7 +17090,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0593",
+     "id": "B01-C0677",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 19",
@@ -15153,7 +17110,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0594",
+     "id": "B01-C0678",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Coalition' in the member table",
@@ -15178,7 +17135,7 @@
      ]
     },
     {
-     "id": "B01-C0595",
+     "id": "B01-C0679",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 31",
@@ -15198,7 +17155,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0596",
+     "id": "B01-C0680",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Platform'; parliamentary group as 'Civic Coalition'",
@@ -15219,7 +17176,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0597",
+     "id": "B01-C0681",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "was replaced as a Sejm member (footnote text 'Replaced Borys Budka')",
@@ -15239,7 +17196,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0598",
+     "id": "B01-C0682",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on The Left list in constituency 1",
@@ -15259,7 +17216,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0599",
+     "id": "B01-C0683",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "party is listed as 'New Left' (parliamentary group 'The Left')",
@@ -15278,7 +17235,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0600",
+     "id": "B01-C0684",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -15295,7 +17252,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0601",
+     "id": "B01-C0685",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -15312,7 +17269,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0602",
+     "id": "B01-C0686",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -15367,7 +17324,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0603",
+     "id": "B01-C0687",
      "subject": "Grupa PTWP",
      "subject_type": "org",
      "relation": "says the 2025 EEC is its own event ('autorskie wydarzenie Grupy PTWP') and that it is the organiser",
@@ -15387,7 +17344,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0604",
+     "id": "B01-C0688",
      "subject": "Polskie Towarzystwo Wspierania Przedsiębiorczości S.A.",
      "subject_type": "company",
      "relation": "is the parent company (spółka matka) of the PTWP capital group, called 'Grupa PTWP' in the release",
@@ -15405,7 +17362,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0605",
+     "id": "B01-C0689",
      "subject": "PTWP Event Center",
      "subject_type": "company",
      "relation": "manages the International Congress Centre and the Spodek hall in Katowice",
@@ -15423,7 +17380,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0606",
+     "id": "B01-C0690",
      "subject": "Międzynarodowe Centrum Kongresowe w Katowicach",
      "subject_type": "other",
      "relation": "is the venue of the 2025 EEC",
@@ -15443,7 +17400,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0607",
+     "id": "B01-C0691",
      "subject": "Województwo Śląskie",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -15463,7 +17420,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0608",
+     "id": "B01-C0692",
      "subject": "Miasto Katowice",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -15485,7 +17442,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0609",
+     "id": "B01-C0693",
      "subject": "Górnośląsko-Zagłębiowska Metropolia",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -15505,7 +17462,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0610",
+     "id": "B01-C0694",
      "subject": "Wojciech Kuśpik",
      "subject_type": "person",
      "relation": "is prezes zarządu (management board president) of PTWP SA",
@@ -15523,7 +17480,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0611",
+     "id": "B01-C0695",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -15541,7 +17498,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0612",
+     "id": "B01-C0696",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is named as a management board president of ING Bank Śląski",
@@ -15559,7 +17516,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0613",
+     "id": "B01-C0697",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -15577,7 +17534,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0614",
+     "id": "B01-C0698",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is named as a management board president of mBank",
@@ -15595,7 +17552,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0615",
+     "id": "B01-C0699",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -15613,7 +17570,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0616",
+     "id": "B01-C0700",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is named as a management board president of PKO BP",
@@ -15631,7 +17588,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0617",
+     "id": "B01-C0701",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -15649,7 +17606,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0618",
+     "id": "B01-C0702",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is named as a management board president of Bank Millennium",
@@ -15667,7 +17624,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0619",
+     "id": "B01-C0703",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is stated as invited to take part in the EEC 2025 capital-markets session as GPW president",
@@ -15685,7 +17642,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0620",
+     "id": "B01-C0704",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is prezes (president) of GPW",
@@ -15703,7 +17660,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0621",
+     "id": "B01-C0705",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -15721,7 +17678,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0622",
+     "id": "B01-C0706",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -15739,7 +17696,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0623",
+     "id": "B01-C0707",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -15757,7 +17714,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0624",
+     "id": "B01-C0708",
      "subject": "Sikora",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -15775,7 +17732,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0625",
+     "id": "B01-C0709",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",

@@ -29,56 +29,55 @@
   ]
  },
  "stats": {
-  "agents": 8,
+  "agents": 9,
   "agents_left_out_unfinished_or_other_batch": 18,
   "searches": 108,
   "search_results": 1688,
   "unique_result_urls": 1110,
-  "page_fetches": 80,
-  "pages_reported": 36,
-  "pages_with_page_text": 35,
+  "page_fetches": 83,
+  "pages_reported": 39,
+  "pages_with_page_text": 38,
   "fetch_status": {
-   "ok": 29,
+   "ok": 32,
    "partial": 7
   },
-  "claims": 214,
+  "claims": 243,
   "labels": {
-   "fact": 145,
-   "no_link": 64,
+   "fact": 167,
+   "no_link": 70,
    "speculation": 4,
-   "alleged": 1
+   "alleged": 2
   },
   "evidence_check": {
-   "exact": 142,
+   "exact": 171,
    "not_found": 18,
    "normalized": 35,
    "normalized_ci": 2,
    "found_in_reader_extract_only": 17
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 111,
-   "both_names_unmatched": 49,
-   "pair_already_linked": 14,
-   "new_tie_between_known_entities": 40
+   "new_entity_or_unmatched_name": 122,
+   "both_names_unmatched": 61,
+   "pair_already_linked": 16,
+   "new_tie_between_known_entities": 44
   },
   "kinds": {
-   "other": 34,
-   "grant_or_donation": 115,
-   "statement": 9,
-   "membership_or_board": 17,
-   "role_or_job": 8,
-   "event_or_speech": 17,
+   "other": 38,
+   "grant_or_donation": 118,
+   "statement": 14,
+   "membership_or_board": 19,
+   "role_or_job": 12,
+   "event_or_speech": 28,
    "ownership": 1,
    "contract_or_fee": 7,
    "nomination_or_vote": 2,
    "legal_action": 4
   },
   "title_only_leads": 104,
-  "to_read_unread": 21,
+  "to_read_unread": 18,
   "nothing_found": 30,
   "agents_stopped_at_usage_limit": [
    "read:C1_eu_money:2",
-   "read:C2_eea_norway:1",
    "read:C2_eea_norway:2",
    "read:C4_private_foundations:2",
    "search:C5_domestic_public_money",
@@ -86,6 +85,7 @@
    "search:C7_firms_contracts"
   ],
   "agents_rerun_after_usage_limit": [
+   "read:C2_eea_norway:1",
    "read:C3_us_money:2"
   ],
   "duplicate_reads_left_out": [
@@ -788,6 +788,665 @@
    ]
   },
   {
+   "ref": "C2_eea_norway-T1",
+   "url": "https://www.gov.pl/web/justice/iver-orstavik-honored",
+   "host": "gov.pl",
+   "theme": "C2_eea_norway",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 10273 characters; full page text returned. Dateline 12.06.2024. Body gives no names for the Polish NGOs present and no amounts. No further relevant links on the page.",
+   "page_title": "Iver Ørstavik honored with the Badge of Honor for Merits to the Administration of Justice - Ministry of Justice - Gov.pl website",
+   "page_date": "12.06.2024",
+   "publisher": "Ministry of Justice (Ministerstwo Sprawiedliwości), gov.pl",
+   "capture_answer": "Ministry of Justice news item dated 12.06.2024. The ceremony took place at the Ministry of Justice. Minister of Justice Adam Bodnar gave Iver Ørstavik the Badge of Honor for Merits to the Administration of Justice (body text also calls it the Badge of Honor for Merits in the Field of Justice). Stated reasons: contributions to strengthening democratic-state principles, legal culture and the justice system. Bodnar cited Ørstavik's work on Norwegian-Polish NGO collaboration for the rule of law. Attendees: Deputy Minister of Justice Zuzanna Rudzińska-Bluszcz, Norwegian Deputy Minister of Foreign Affairs Marta Varteressian, Norwegian Ambassador to Poland Øystein Bø, and unnamed Polish NGO and academic representatives. Ørstavik is called an activist with the Rafto Foundation for Human Rights, not a Rafto adviser. The page does not mention a Norway Grants freeze, Ziobro, support for Polish judges, or any amount. No funders, organiser details or party affiliations are stated.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:57.047Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 10273,
+    "sha256": "a2994a8af3aded39a78f76cb3b12b52809337e756f15c6b70a4dd3862adbacd7",
+    "url_read": "https://www.gov.pl/web/justice/iver-orstavik-honored"
+   },
+   "names_listed": [
+    "Iver Ørstavik",
+    "Adam Bodnar",
+    "Zuzanna Rudzińska-Bluszcz",
+    "Marta Varteressian",
+    "Øystein Bø"
+   ],
+   "names_found_in_page_text": "5/5",
+   "claims": [
+    {
+     "id": "B03-C0024",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "received the Badge of Honor for Merits to the Administration of Justice from",
+     "object": "Adam Bodnar",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "received the Badge of Honor for Merits to the Administration of Justice from Minister of Justice Adam Bodnar.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 1 (lead), under heading 'Iver Ørstavik honored with the Badge of Honor for Merits to the Administration of Justice'",
+     "label": "fact",
+     "label_scope": "Page states the badge was received from Adam Bodnar, Minister of Justice, at a ceremony at the Ministry of Justice on 12.06.2024. Organiser and funders not stated.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0025",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "is a well-known activist with",
+     "object": "Rafto Foundation for Human Rights",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Iver Ørstavik, a philosopher and university lecturer, is a well-known activist with the Rafto Foundation for Human Rights",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 4",
+     "label": "fact",
+     "label_scope": "Page's own description of Ørstavik. No office, employment or board seat is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "rafto_foundation",
+     "object_map_status": "haiku_branch_only",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0026",
+     "subject": "Rafto Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "has monitored issues related to the rule of law and human rights in",
+     "object": "Poland",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "In recent years, Rafto Foundation has also monitored issues related to the rule of law and human rights in Poland.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 4",
+     "label": "fact",
+     "label_scope": "Page states this about the Rafto Foundation. Not independently verified.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rafto_foundation",
+     "subject_map_status": "haiku_branch_only",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0027",
+     "subject": "Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "attended the Badge of Honor ceremony for Iver Ørstavik as Deputy Minister of Justice",
+     "object": "Badge of Honor ceremony for Iver Ørstavik",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "The ceremony was attended by Deputy Minister of Justice Zuzanna Rudzińska-Bluszcz,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 2",
+     "label": "fact",
+     "label_scope": "Page states her attendance and title. Party affiliation not stated.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0028",
+     "subject": "Marta Varteressian",
+     "subject_type": "person",
+     "relation": "attended the Badge of Honor ceremony for Iver Ørstavik as Norwegian Deputy Minister of Foreign Affairs",
+     "object": "Badge of Honor ceremony for Iver Ørstavik",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Norwegian Deputy Minister of Foreign Affairs Marta Varteressian,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 2",
+     "label": "fact",
+     "label_scope": "Page states this first name and title. The regjeringen.no speech page (C2_eea_norway-T2) gives 'Maria Varteressian' as 'State Secretary' at the Ministry of Foreign Affairs. Party not stated.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0029",
+     "subject": "Øystein Bø",
+     "subject_type": "person",
+     "relation": "attended the Badge of Honor ceremony for Iver Ørstavik as Norwegian Ambassador to Poland",
+     "object": "Badge of Honor ceremony for Iver Ørstavik",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "and Norwegian Ambassador to Poland Øystein Bø,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 2",
+     "label": "fact",
+     "label_scope": "Page states attendance and title.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0030",
+     "subject": "Polish NGO and academic representatives (unnamed)",
+     "subject_type": "other",
+     "relation": "attended the Badge of Honor ceremony for Iver Ørstavik alongside",
+     "object": "Badge of Honor ceremony for Iver Ørstavik",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "along with representatives from Polish NGOs and academia.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 2",
+     "label": "fact",
+     "label_scope": "Page states that representatives attended but names no organisation or person.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0031",
+     "subject": "Norwegian delegation and representatives of Polish NGOs (unnamed)",
+     "subject_type": "other",
+     "relation": "took part in a roundtable discussion held after the ceremony",
+     "object": "post-ceremony roundtable discussion",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "Following the ceremony, a roundtable discussion was held with the Norwegian delegation and representatives of Polish NGOs.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 6 (final paragraph)",
+     "label": "fact",
+     "label_scope": "Page states the roundtable took place and who attended. No Polish NGO is named.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0032",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "highlighted, in remarks at the ceremony, Iver Ørstavik's engagement in collaboration between Norwegian and Polish NGOs",
+     "object": "Iver Ørstavik",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "His active engagement in the collaboration between Norwegian and Polish NGOs to promote the rule of law",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 5",
+     "label": "fact",
+     "label_scope": "Page reports these remarks by Adam Bodnar. Page wording: 'deserves special recognition'.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0033",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "tie to the Norway Grants freeze campaign (checked for; not on page)",
+     "object": "Norway Grants freeze campaign",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "The main topic was the efforts of the Minister of Justice and Prosecutor General to rebuild the rule of law",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph 6",
+     "label": "no_link",
+     "label_scope": "Page does not mention Norway Grants, a funding freeze, Ziobro, or support for Polish judges. Its only stated roundtable topic is rebuilding the rule of law and constitutional order.",
+     "date": "12.06.2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "eea",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C2_eea_norway-T2",
+   "url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
+   "host": "regjeringen.no",
+   "theme": "C2_eea_norway",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/plain, 1883 characters; full text returned. Header line reads 'Speech/statement | Date: 12/06/2024 | Ministry of Foreign Affairs'. No further links on the page.",
+   "page_title": "Speech by State Secretary Maria Varteressian during the Badge of Honor ceremony to human rights advisor Iver Ørstavik, Polish Ministry of Justice",
+   "page_date": "12/06/2024",
+   "publisher": "Regjeringen.no (Norwegian government), Ministry of Foreign Affairs",
+   "capture_answer": "Norwegian government page dated 12/06/2024 with the text of State Secretary Maria Varteressian's remarks at the Badge of Honour ceremony for Iver Ørstavik. The header gives the Ministry of Foreign Affairs. The intro places the ceremony at the Polish Minister of Justice. Venue, organiser and funders are not stated. Only Adam Bodnar is named among Polish officials, as 'Minister Bodnar'. Remarks: Ørstavik is a 'human rights advisor' who has worked with Rafto laureates and, per the speaker, with Polish rule-of-law and civil-society figures including Bodnar (2018 Rafto Prize laureate). The page has no statement on the 2020 freeze, the 2026 Justice programme, resumed justice cooperation, or any amount. Varteressian's party is not stated. The page does not call Ørstavik a Rafto Foundation adviser. Her title and first name differ from the Polish page (Deputy Minister, 'Marta').",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:56.641Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 1883,
+    "sha256": "cc09bdbebac8026ddaadcb1517467c30e8dd60becf014071331d499e8111ca9d",
+    "url_read": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086"
+   },
+   "names_listed": [
+    "Maria Varteressian",
+    "Iver Ørstavik",
+    "Adam Bodnar"
+   ],
+   "names_found_in_page_text": "3/3",
+   "claims": [
+    {
+     "id": "B03-C0034",
+     "subject": "Maria Varteressian",
+     "subject_type": "person",
+     "relation": "delivered remarks during the Badge of Honour ceremony for Iver Ørstavik",
+     "object": "Iver Ørstavik",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "evidence_text": "State Secretary Maria Varteressian delivered remarks during the Polish Minister of Justice’s Badge of Honour ceremony",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Introductory paragraph below the header",
+     "label": "fact",
+     "label_scope": "Page states she gave the speech. Host per page: the Polish Minister of Justice. Venue, organiser and funders not stated.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0035",
+     "subject": "Maria Varteressian",
+     "subject_type": "person",
+     "relation": "holds the post of State Secretary at the Ministry of Foreign Affairs",
+     "object": "Ministry of Foreign Affairs",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Speech/statement | Date: 12/06/2024 | Ministry of Foreign Affairs",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Header line above the title",
+     "label": "fact",
+     "label_scope": "Page header gives the ministry and the introduction gives 'State Secretary'. The Polish page (C2_eea_norway-T1) calls her 'Deputy Minister of Foreign Affairs'.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "nl_gov",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0036",
+     "subject": "Maria Varteressian",
+     "subject_type": "person",
+     "relation": "political party affiliation or party role",
+     "object": "political party (none stated)",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Speech/statement | Date: 12/06/2024 | Ministry of Foreign Affairs",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Header line and introduction",
+     "label": "no_link",
+     "label_scope": "Checked the page for a party affiliation or party role for Maria Varteressian. None is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0037",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "is the Polish Minister of Justice who held the Badge of Honour ceremony for Iver Ørstavik (page names him only as 'Minister Bodnar')",
+     "object": "Iver Ørstavik",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "evidence_text": "Thank you so much, Minister Bodnar, for the opportunity to also say a few words.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, first line",
+     "label": "fact",
+     "label_scope": "Speech addresses 'Minister Bodnar'. The intro refers to 'the Polish Minister of Justice's Badge of Honour ceremony' without naming him.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0038",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "is the 2018 Rafto Prize laureate",
+     "object": "Rafto Prize (Rafto Foundation)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "not least with the 2018 Rafto Prize laureate, Professor Adam Bodnar.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 3",
+     "label": "fact",
+     "label_scope": "Page's statement within Maria Varteressian's speech.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "rafto_foundation",
+     "object_map_status": "haiku_branch_only",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "awarded Rafto Prize to RPO Bodnar and his office, Bergen 4 Nov 2018; RPO headlined it 'Lawina bieg od tego zmienia...' (Miłosz line)"
+     ]
+    },
+    {
+     "id": "B03-C0039",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "is described as a human rights advisor",
+     "object": "human rights advisor",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Iver Ørstavik is a passionate and relentless human rights advisor",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 1",
+     "label": "fact",
+     "label_scope": "Page's description. The page does not describe him as a Rafto Foundation adviser.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0040",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "was honoured with the Badge of Honour (Polish Minister of Justice) for his efforts for democratic values and the rule of law",
+     "object": "Badge of Honour (Polish Minister of Justice)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Ørstavik was honored for his tireless efforts for democratic values and the rule of law.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Introductory paragraph",
+     "label": "fact",
+     "label_scope": "Page's stated reason for the honour.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0041",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "worked closely with, per the speaker, Polish rule-of-law and civil-society representatives, including Adam Bodnar",
+     "object": "Polish rule-of-law and civil-society representatives",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "He did so working closely with Polish representatives of rule of law and civil society",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 3",
+     "label": "fact",
+     "label_scope": "Page states that Maria Varteressian said this in her speech. The underlying claim is not verified. No organisation is named.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0042",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "contributed to promoting and safeguarding rule of law and democratic values in Poland (second-hand account)",
+     "object": "Poland rule of law and democratic values",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "As I have been told, Iver actively contributed to promoting and safeguarding rule of law and democratic values in Poland.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 3",
+     "label": "alleged",
+     "label_scope": "Claim made by Maria Varteressian in her speech, prefaced 'As I have been told'. Not verified.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0043",
+     "subject": "Iver Ørstavik",
+     "subject_type": "person",
+     "relation": "kept various Norwegian actors aware and informed of the situation in Poland",
+     "object": "various Norwegian actors (unnamed)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "I can assure you that Iver has also gone to great lengths to keep various Norwegian actors aware and informed",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 4",
+     "label": "fact",
+     "label_scope": "Page states that Maria Varteressian said this in her speech. The underlying claim is not verified. No Norwegian actor is named.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0044",
+     "subject": "Maria Varteressian",
+     "subject_type": "person",
+     "relation": "statement on the 2020 freeze, resumed justice cooperation and the 2026 Justice programme (checked for; not on page)",
+     "object": "2020 freeze and 2026 Justice programme",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Rule of law is a central part of our European collaboration and community.",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Speech text, paragraph 5",
+     "label": "no_link",
+     "label_scope": "Page (dated 12/06/2024) does not mention a 2020 freeze, Norway Grants, resumed justice cooperation, a 2026 Justice programme, or any amount.",
+     "date": "12/06/2024",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "C2_eea_norway-T3",
+   "url": "https://www.gov.pl/web/norge/meeting-of-the-deputy-ministers-of-justice-of-the-republic-of-poland-maria-ejchart-and-zuzanna-rudzinska-bluszcz-with-norwegian-ngos-in-the-field-of-the-rule-of-law-and-judiciary-at-the-end-of-their-visit-in-norway",
+   "host": "gov.pl",
+   "theme": "C2_eea_norway",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 8494 characters; full page text returned. Posting dateline 22.02.2024. The body says 'February 21.' with no year, so the year comes from the posting date. The page names no NGO or NGO representative. No further relevant links on the page.",
+   "page_title": "Meeting of the Deputy Ministers of Justice of the Republic of Poland, Maria Ejchart and Zuzanna Rudzińska-Bluszcz, with Norwegian NGOs in the field of the rule of law and judiciary at the end of their visit in Norway - Polen i Norge - Portal Gov.pl",
+   "page_date": "22.02.2024",
+   "publisher": "gov.pl, site 'Polen i Norge'",
+   "capture_answer": "Polish gov.pl news item posted 22.02.2024 on a meeting on 'February 21.' (year taken from the posting date) between Deputy Ministers of Justice Maria Ejchart and Zuzanna Rudzińska-Bluszcz and 'representatives of Norwegian non-governmental organizations dealing with issues of the rule of law and the judiciary'. Venue: the Embassy of the Republic of Poland in Oslo. Organiser and funders are not stated. The page names no NGO and no NGO representative. The Rafto Foundation, Norwegian Helsinki Committee, ICJ Norway and the Judges' Association do not appear. No Norway Grants, justice funding or amounts are mentioned. A Free Courts co-founder role is not stated. The two-day visit also included a meeting with John-Erik Vika (Deputy Minister of Justice and Public Security of Norway) and representatives of the Ministry of Foreign Affairs and the Directorate for Prison Service. Topics: restoring the rule of law in Poland; Polish-Norwegian systemic cooperation in the field of the judiciary; coordination of activities regarding the prison system. Party affiliations are not stated.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:57.049Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 8494,
+    "sha256": "5aabac51d0e2e70573165ca19155728a538d98aa5e384b5bd2619fd5068effcd",
+    "url_read": "https://www.gov.pl/web/norge/meeting-of-the-deputy-ministers-of-justice-of-the-republic-of-poland-maria-ejchart-and-zuzanna-rudzinska-bluszcz-with-norwegian-ngos-in-the-field-of-the-rule-of-law-and-judiciary-at-the-end-of-their-visit-in-norway"
+   },
+   "names_listed": [
+    "Maria Ejchart",
+    "Zuzanna Rudzińska-Bluszcz",
+    "John-Erik Vika"
+   ],
+   "names_found_in_page_text": "3/3",
+   "claims": [
+    {
+     "id": "B03-C0045",
+     "subject": "Maria Ejchart and Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "met, at the Embassy of the Republic of Poland in Oslo (venue), with",
+     "object": "representatives of Norwegian non-governmental organizations (unnamed)",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "met at the Embassy of the Republic of Poland in Oslo with representatives of Norwegian non-governmental organizations",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Lead paragraph under the main heading",
+     "label": "fact",
+     "label_scope": "Page states the meeting, venue and type of participant. No NGO or person is named. Organiser and funders not stated.",
+     "date": "February 21. (year not in body; posted 22.02.2024)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0046",
+     "subject": "Maria Ejchart",
+     "subject_type": "person",
+     "relation": "is Deputy Minister of Justice of the Republic of Poland",
+     "object": "Ministry of Justice (Poland)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Deputy Ministers of Justice of the Republic of Poland, Maria Ejchart and Zuzanna Rudzińska-Bluszcz,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Lead paragraph",
+     "label": "fact",
+     "label_scope": "Page states this title. Party affiliation not stated.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0047",
+     "subject": "Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "is Deputy Minister of Justice of the Republic of Poland",
+     "object": "Ministry of Justice (Poland)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Deputy Ministers of Justice of the Republic of Poland, Maria Ejchart and Zuzanna Rudzińska-Bluszcz,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Lead paragraph",
+     "label": "fact",
+     "label_scope": "Page states this title. Party affiliation not stated.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0048",
+     "subject": "Maria Ejchart and Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "visit included a meeting with",
+     "object": "John-Erik Vika (Deputy Minister of Justice and Public Security of Norway)",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "evidence_text": "meeting with the Deputy Minister of Justice and Public Security of Norway, John-Erik Vika",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph after the lead (describing the two-day visit)",
+     "label": "fact",
+     "label_scope": "Page lists this among other meetings of the two-day visit. Visit end date given as February 21.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0049",
+     "subject": "Maria Ejchart and Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "discussed, during the two-day visit, Polish-Norwegian judicial cooperation (topics also included restoring the rule of law in Poland and prison-system coordination)",
+     "object": "Polish-Norwegian systemic cooperation in the field of the judiciary",
+     "object_type": "other",
+     "kind": "event_or_speech",
+     "evidence_text": "Polish-Norwegian systemic cooperation in the field of the judiciary",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph after the lead",
+     "label": "fact",
+     "label_scope": "Page lists these topics as discussed during the two-day visit, not specifically at the NGO meeting.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0050",
+     "subject": "Maria Ejchart and Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "tie to Norway Grants (justice funding) (checked for; not on page)",
+     "object": "Norway Grants",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Polish-Norwegian systemic cooperation in the field of the judiciary",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Paragraph after the lead",
+     "label": "no_link",
+     "label_scope": "Page does not mention Norway Grants, any funding, justice money or any amount.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "object_map_id": "eea",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0051",
+     "subject": "Maria Ejchart",
+     "subject_type": "person",
+     "relation": "co-founder of (checked for; not on page)",
+     "object": "Free Courts (Wolne Sądy)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Deputy Ministers of Justice of the Republic of Poland, Maria Ejchart and Zuzanna Rudzińska-Bluszcz,",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Lead paragraph",
+     "label": "no_link",
+     "label_scope": "Page does not mention Free Courts or Wolne Sądy, or any co-founder role for Maria Ejchart.",
+     "date": "February 21.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "co-founder; deputy justice minister from Dec 2023",
+      "still listed in founders' assembly while in office",
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)"
+     ]
+    },
+    {
+     "id": "B03-C0052",
+     "subject": "Maria Ejchart and Zuzanna Rudzińska-Bluszcz",
+     "subject_type": "person",
+     "relation": "met with (checked for named NGOs; not on page)",
+     "object": "Rafto Foundation; Norwegian Helsinki Committee; ICJ Norway; Judges' Association",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "met at the Embassy of the Republic of Poland in Oslo with representatives of Norwegian non-governmental organizations",
+     "evidence_translation": "Same as original (English).",
+     "evidence_location": "Lead paragraph",
+     "label": "no_link",
+     "label_scope": "None of these four organisations is named on the page. Participants are only 'representatives of Norwegian non-governmental organizations'.",
+     "date": "February 21. (posted 22.02.2024)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_status": "on_map",
+     "object_map_id": "rafto_foundation",
+     "object_map_status": "haiku_branch_only",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
    "ref": "C3_us_money-T1",
    "url": "https://apply07.grants.gov/grantsws/rest/opportunity/att/download/335251",
    "host": "apply07.grants.gov",
@@ -814,7 +1473,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0024",
+     "id": "B03-C0053",
      "subject": "U.S. Embassy Warsaw and U.S. Consulate General Krakow, Public Diplomacy Section (PD Poland)",
      "subject_type": "public_body",
      "relation": "offers total available funding of",
@@ -839,7 +1498,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0025",
+     "id": "B03-C0054",
      "subject": "U.S. Embassy Warsaw and U.S. Consulate General Krakow, Public Diplomacy Section (PD Poland)",
      "subject_type": "public_body",
      "relation": "offers awards with a minimum and maximum size of",
@@ -861,7 +1520,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0026",
+     "id": "B03-C0055",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "is funded from",
@@ -879,7 +1538,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0027",
+     "id": "B03-C0056",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "lists as eligible applicants",
@@ -896,7 +1555,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0028",
+     "id": "B03-C0057",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "excludes from eligibility",
@@ -913,7 +1572,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0029",
+     "id": "B03-C0058",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "lists as a priority programming area",
@@ -930,7 +1589,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0030",
+     "id": "B03-C0059",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "issued by",
@@ -947,7 +1606,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0031",
+     "id": "B03-C0060",
      "subject": "WAW-NOFO-FY24-03",
      "subject_type": "document",
      "relation": "names as awardee or partner",
@@ -1008,7 +1667,7 @@
    "names_found_in_page_text": "13/17",
    "claims": [
     {
-     "id": "B03-C0032",
+     "id": "B03-C0061",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1029,7 +1688,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0033",
+     "id": "B03-C0062",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1050,7 +1709,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0034",
+     "id": "B03-C0063",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1071,7 +1730,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0035",
+     "id": "B03-C0064",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1092,7 +1751,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0036",
+     "id": "B03-C0065",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1113,7 +1772,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0037",
+     "id": "B03-C0066",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1134,7 +1793,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0038",
+     "id": "B03-C0067",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1155,7 +1814,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0039",
+     "id": "B03-C0068",
      "subject": "JW v. State exhibits 02034 (21-page exhibit PDF)",
      "subject_type": "document",
      "relation": "released records show State Department or embassy money to",
@@ -1208,7 +1867,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0040",
+     "id": "B03-C0069",
      "subject": "John D. and Catherine T. MacArthur Foundation",
      "subject_type": "org",
      "relation": "granted (2001 grant) to",
@@ -1232,7 +1891,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0041",
+     "id": "B03-C0070",
      "subject": "John D. and Catherine T. MacArthur Foundation",
      "subject_type": "org",
      "relation": "granted (2006 grant) to",
@@ -1256,7 +1915,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0042",
+     "id": "B03-C0071",
      "subject": "Helsinki Foundation for Human Rights",
      "subject_type": "org",
      "relation": "grant purposes include",
@@ -1275,7 +1934,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0043",
+     "id": "B03-C0072",
      "subject": "John D. and Catherine T. MacArthur Foundation",
      "subject_type": "org",
      "relation": "total awarded to",
@@ -1339,7 +1998,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0044",
+     "id": "B03-C0073",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "runs project",
@@ -1360,7 +2019,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0045",
+     "id": "B03-C0074",
      "subject": "NED (National Endowment for Democracy)",
      "subject_type": "org",
      "relation": "supports (page wording: 'is supported by')",
@@ -1390,7 +2049,7 @@
      ]
     },
     {
-     "id": "B03-C0046",
+     "id": "B03-C0075",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "organises seminars under the title",
@@ -1409,7 +2068,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0047",
+     "id": "B03-C0076",
      "subject": "VIA IURIS",
      "subject_type": "org",
      "relation": "co-invites to the meeting with Free Courts Foundation",
@@ -1429,7 +2088,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0048",
+     "id": "B03-C0077",
      "subject": "“Justice under attack – Lessons from Poland” Bratislava 11.04.2024",
      "subject_type": "event",
      "relation": "takes place at (venue)",
@@ -1450,7 +2109,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0049",
+     "id": "B03-C0078",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "states meeting agenda (page wording: 'we will be discussing')",
@@ -1469,7 +2128,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0050",
+     "id": "B03-C0079",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "speaks at (speaker or panellist)",
@@ -1488,7 +2147,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0051",
+     "id": "B03-C0080",
      "subject": "Gregorczyk-Abram",
      "subject_type": "person",
      "relation": "speaks at (speaker or panellist)",
@@ -1507,7 +2166,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0052",
+     "id": "B03-C0081",
      "subject": "Kieszkowska",
      "subject_type": "person",
      "relation": "speaks at (speaker or panellist)",
@@ -1526,7 +2185,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0053",
+     "id": "B03-C0082",
      "subject": "Iustitia; Themis; HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD",
      "subject_type": "org",
      "relation": "co-hosts, co-organises, sponsors or funds the meeting (checked as a set)",
@@ -1591,7 +2250,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0054",
+     "id": "B03-C0083",
      "subject": "German Marshall Fund of the United States (GMF)",
      "subject_type": "org",
      "relation": "lists event on its events site (host per listing)",
@@ -1613,7 +2272,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0055",
+     "id": "B03-C0084",
      "subject": "Restoring Judicial Independence in Poland: The Progress So Far",
      "subject_type": "event",
      "relation": "scheduled for (date, time, format)",
@@ -1631,7 +2290,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0056",
+     "id": "B03-C0085",
      "subject": "Dariusz Mazur",
      "subject_type": "person",
      "relation": "speaks at (listed speaker)",
@@ -1654,7 +2313,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0057",
+     "id": "B03-C0086",
      "subject": "Dariusz Mazur",
      "subject_type": "person",
      "relation": "holds post (as listed): Undersecretary of State at",
@@ -1678,7 +2337,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0058",
+     "id": "B03-C0087",
      "subject": "Dariusz Mazur",
      "subject_type": "person",
      "relation": "party membership or party role",
@@ -1697,7 +2356,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0059",
+     "id": "B03-C0088",
      "subject": "Monika Frąckowiak",
      "subject_type": "person",
      "relation": "speaks at (listed speaker)",
@@ -1718,7 +2377,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0060",
+     "id": "B03-C0089",
      "subject": "Monika Frąckowiak",
      "subject_type": "person",
      "relation": "listed title and affiliation: Judge, with",
@@ -1737,7 +2396,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0061",
+     "id": "B03-C0090",
      "subject": "Małgorzata Szuleka",
      "subject_type": "person",
      "relation": "speaks at (listed speaker)",
@@ -1758,7 +2417,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0062",
+     "id": "B03-C0091",
      "subject": "Małgorzata Szuleka",
      "subject_type": "person",
      "relation": "member of the board of",
@@ -1777,7 +2436,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0063",
+     "id": "B03-C0092",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "presented (as Minister of Justice)",
@@ -1797,7 +2456,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0064",
+     "id": "B03-C0093",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "speaks at (listed speaker)",
@@ -1816,7 +2475,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0065",
+     "id": "B03-C0094",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "party membership or party role",
@@ -1835,7 +2494,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0066",
+     "id": "B03-C0095",
      "subject": "Krystian Markiewicz",
      "subject_type": "person",
      "relation": "speaks at or co-organises (listed speaker or organiser)",
@@ -1854,7 +2513,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0067",
+     "id": "B03-C0096",
      "subject": "Free Courts Foundation (Free Courts / Wolne Sądy)",
      "subject_type": "org",
      "relation": "speaker, co-organiser or host of",
@@ -1873,7 +2532,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0068",
+     "id": "B03-C0097",
      "subject": "Restoring Judicial Independence in Poland: The Progress So Far",
      "subject_type": "event",
      "relation": "has a co-organiser, sponsor, funder or moderator",
@@ -1890,7 +2549,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0069",
+     "id": "B03-C0098",
      "subject": "Themis; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD",
      "subject_type": "org",
      "relation": "co-hosts, co-organises, sponsors or funds the event (checked as a set)",
@@ -1953,7 +2612,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0070",
+     "id": "B03-C0099",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "lists grant programme",
@@ -1974,7 +2633,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0071",
+     "id": "B03-C0100",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "legal form and EIN (as listed on funder profile)",
@@ -1993,7 +2652,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0072",
+     "id": "B03-C0101",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "is based in",
@@ -2012,7 +2671,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0073",
+     "id": "B03-C0102",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "is located in country",
@@ -2029,7 +2688,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0074",
+     "id": "B03-C0103",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "lists website",
@@ -2046,7 +2705,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0075",
+     "id": "B03-C0104",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "reported 2024 grants (listing summary of IRS Form 990)",
@@ -2066,7 +2725,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0076",
+     "id": "B03-C0105",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "granted to (2024 990 example grant)",
@@ -2089,7 +2748,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0077",
+     "id": "B03-C0106",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "granted to a Polish organisation (2024 990 data)",
@@ -2106,7 +2765,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0078",
+     "id": "B03-C0107",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "awarded grants in",
@@ -2123,7 +2782,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0079",
+     "id": "B03-C0108",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "eligibility: applicants must be",
@@ -2140,7 +2799,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0080",
+     "id": "B03-C0109",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "eligibility: geography",
@@ -2157,7 +2816,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0081",
+     "id": "B03-C0110",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "applicant condition: compliance with rules",
@@ -2174,7 +2833,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0082",
+     "id": "B03-C0111",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "accepts applications on a rolling basis",
@@ -2192,7 +2851,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0083",
+     "id": "B03-C0112",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "first-round deadline (as listed)",
@@ -2210,7 +2869,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0084",
+     "id": "B03-C0113",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland (listing 'Background')",
      "subject_type": "other",
      "relation": "lists as an example of backsliding",
@@ -2227,7 +2886,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0085",
+     "id": "B03-C0114",
      "subject": "Strengthening Democratic Resilience and Civil Society in Poland",
      "subject_type": "other",
      "relation": "has judicial independence, courts or judges as a priority topic",
@@ -2244,7 +2903,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0086",
+     "id": "B03-C0115",
      "subject": "Action For Democracy",
      "subject_type": "org",
      "relation": "describes its mission as",
@@ -2263,7 +2922,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0087",
+     "id": "B03-C0116",
      "subject": "David Koranyi",
      "subject_type": "person",
      "relation": "is Board President of",
@@ -2283,7 +2942,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0088",
+     "id": "B03-C0117",
      "subject": "Christopher Maroshegyi",
      "subject_type": "person",
      "relation": "is Board Treasurer of",
@@ -2303,7 +2962,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0089",
+     "id": "B03-C0118",
      "subject": "Elisabeth Jennings",
      "subject_type": "person",
      "relation": "is Board Secretary of",
@@ -2323,7 +2982,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0090",
+     "id": "B03-C0119",
      "subject": "Roberto Patino",
      "subject_type": "person",
      "relation": "is Board Member of",
@@ -2343,7 +3002,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0091",
+     "id": "B03-C0120",
      "subject": "David Koranyi",
      "subject_type": "person",
      "relation": "reported compensation as Board President of",
@@ -2363,7 +3022,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0092",
+     "id": "B03-C0121",
      "subject": "Christopher Maroshegyi",
      "subject_type": "person",
      "relation": "reported compensation as Board Treasurer of",
@@ -2383,7 +3042,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0093",
+     "id": "B03-C0122",
      "subject": "Iustitia",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2402,7 +3061,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0094",
+     "id": "B03-C0123",
      "subject": "Themis",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2421,7 +3080,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0095",
+     "id": "B03-C0124",
      "subject": "Free Courts / Wolne Sądy",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2440,7 +3099,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0096",
+     "id": "B03-C0125",
      "subject": "HFHR",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2459,7 +3118,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0097",
+     "id": "B03-C0126",
      "subject": "Batory Foundation",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2478,7 +3137,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0098",
+     "id": "B03-C0127",
      "subject": "KOS",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2497,7 +3156,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0099",
+     "id": "B03-C0128",
      "subject": "OKO.press",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2516,7 +3175,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0100",
+     "id": "B03-C0129",
      "subject": "Akcja Demokracja",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2535,7 +3194,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0101",
+     "id": "B03-C0130",
      "subject": "KOD",
      "subject_type": "org",
      "relation": "named as grantee, recipient or partner of the programme or funder",
@@ -2626,7 +3285,7 @@
    "names_found_in_page_text": "47/47",
    "claims": [
     {
-     "id": "B03-C0102",
+     "id": "B03-C0131",
      "subject": "HFHR (Helsińska Fundacja Praw Człowieka)",
      "subject_type": "org",
      "relation": "received grant of GBP 1,050,000 (March 2024) from",
@@ -2648,7 +3307,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0103",
+     "id": "B03-C0132",
      "subject": "HFHR (Helsińska Fundacja Praw Człowieka)",
      "subject_type": "org",
      "relation": "received gift of GBP 75,000 (2025) from",
@@ -2670,7 +3329,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0104",
+     "id": "B03-C0133",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2692,7 +3351,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0105",
+     "id": "B03-C0134",
      "subject": "Free Courts / Wolne Sądy",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2714,7 +3373,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0106",
+     "id": "B03-C0135",
      "subject": "Iustitia",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2736,7 +3395,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0107",
+     "id": "B03-C0136",
      "subject": "Themis",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2758,7 +3417,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0108",
+     "id": "B03-C0137",
      "subject": "OKO.press",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2780,7 +3439,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0109",
+     "id": "B03-C0138",
      "subject": "Akcja Demokracja",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2802,7 +3461,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0110",
+     "id": "B03-C0139",
      "subject": "Watchdog Polska",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2824,7 +3483,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0111",
+     "id": "B03-C0140",
      "subject": "KOS",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2846,7 +3505,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0112",
+     "id": "B03-C0141",
      "subject": "KOD",
      "subject_type": "org",
      "relation": "received grant from",
@@ -2868,7 +3527,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0113",
+     "id": "B03-C0142",
      "subject": "Any Polish organisation or Poland-focused grant",
      "subject_type": "other",
      "relation": "received grant from",
@@ -2921,7 +3580,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0114",
+     "id": "B03-C0143",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "received grant of $1,200,000 ('Regional Advocacy Fund') from",
@@ -2946,7 +3605,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0115",
+     "id": "B03-C0144",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "was established in 1988 by",
@@ -2978,7 +3637,7 @@
      ]
     },
     {
-     "id": "B03-C0116",
+     "id": "B03-C0145",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "is described in the Mott record as the primary nongovernmental funder of",
@@ -2997,7 +3656,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0117",
+     "id": "B03-C0146",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "will provide under this grant",
@@ -3042,7 +3701,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B03-C0118",
+     "id": "B03-C0147",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "received grant of $1,000,000 ('Endowment Fund') from",
@@ -3067,7 +3726,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0119",
+     "id": "B03-C0148",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "endowment-building goal under the grant",
@@ -3087,7 +3746,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0120",
+     "id": "B03-C0149",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "is described in the Mott record as",
@@ -3106,7 +3765,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0121",
+     "id": "B03-C0150",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "committed to maintain",
@@ -3172,7 +3831,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0122",
+     "id": "B03-C0151",
      "subject": "Mott Foundation grants listing, page 20",
      "subject_type": "document",
      "relation": "lists a grant located in Poland or made to a Polish grantee",
@@ -3328,7 +3987,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0123",
+     "id": "B03-C0152",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 (5 Nov 2025) approved 40 large thematic grants totalling PLN 4,958,807.00 in its Equal Rights Programme (Program Równych Praw), its CERV-funded re-granting scheme",
@@ -3353,7 +4012,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0124",
+     "id": "B03-C0153",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 approved 40 small thematic grants totalling PLN 2,514,278.00 in the Equal Rights Programme",
@@ -3375,7 +4034,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0125",
+     "id": "B03-C0154",
      "subject": "Free Courts Foundation / Fundacja Wolne Sądy (free_courts)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0458, project 'Europa zaczyna się w sołectwie - wolności i prawa podstawowe UE w...', PLN 121,293.00 requested, score 31.50; status 'nieprzyznana dotacja' (not granted)",
@@ -3399,7 +4058,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0126",
+     "id": "B03-C0155",
      "subject": "Helsinki Foundation for Human Rights (hfhr)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0102, project 'Prawo i Karta: Monitoring Procesu Legislacyjnego', PLN 124,976.00 requested, score 32.50; not granted",
@@ -3423,7 +4082,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0127",
+     "id": "B03-C0156",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0190, project 'Dezinformacja wobec imigracji - działania lokalne', PLN 124,904.00 requested, score 32.00; not granted",
@@ -3451,7 +4110,7 @@
      ]
     },
     {
-     "id": "B03-C0128",
+     "id": "B03-C0157",
      "subject": "Institute of Public Affairs / Fundacja Instytut Spraw Publicznych (isp)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0098, project 'Społeczne granice akceptacji: wpływ dyskursu publi[cznego]...', PLN 124,874.00 requested, score 29.50; not granted",
@@ -3475,7 +4134,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0129",
+     "id": "B03-C0158",
      "subject": "Kultura Liberalna Foundation (kultura_liberalna)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0412, project 'Głosy Wykluczonych', PLN 125,000.00 requested, score 31.00; not granted",
@@ -3499,7 +4158,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0130",
+     "id": "B03-C0159",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Watchdog Polska (application PRP-KTD/0352, project 'Instytucje do podziału', score 33.00)",
@@ -3523,7 +4182,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0131",
+     "id": "B03-C0160",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 124,976.00 from the CERV-funded Equal Rights Programme to Amnesty International Poland (application PRP-KTD/0101, project 'Algorytmy bez uprzedzeń - wzmacnianie ochrony pra[w]...', score 33.50)",
@@ -3550,7 +4209,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0132",
+     "id": "B03-C0161",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Fundacja Panoptykon (application PRP-KTD/0276, project 'Razem dla dobrego wdrożenia dyrektywy policyjnej', score 34.00)",
@@ -3577,7 +4236,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0133",
+     "id": "B03-C0162",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Stowarzyszenie Nowoczesnej Edukacji Prawnej, Wrocław (application PRP-KTD/0313, project 'Karta Praw Podstawowych lokalnie...', score 33.00)",
@@ -3602,7 +4261,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0134",
+     "id": "B03-C0163",
      "subject": "Joanna Pietruszka",
      "subject_type": "person",
      "relation": "chair of the grant committee (Komisja Konkursowa) for the Equal Rights Programme thematic-grants competition; listed among those present at the 5 Nov 2025 board meeting",
@@ -3625,7 +4284,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0135",
+     "id": "B03-C0164",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "approved the grant committee's recommendation not to create reserve lists in the Equal Rights Programme thematic round",
@@ -3645,7 +4304,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0136",
+     "id": "B03-C0165",
      "subject": "Iustitia, Themis, OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO), KOD, Osiatyński Archive, Fundacja Moje Państwo, Hołda Association, INPRIS",
      "subject_type": "org",
      "relation": "no thematic grant from Batory's CERV-funded Equal Rights Programme in the round approved by Decision 1856",
@@ -3706,7 +4365,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0137",
+     "id": "B03-C0166",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds Batory's Equal Rights Program; 2025-2027 budget EUR 6.7m, of which EUR 0.67m comes from Batory's own resources",
@@ -3736,7 +4395,7 @@
      ]
     },
     {
-     "id": "B03-C0138",
+     "id": "B03-C0167",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "runs the CERV-funded Equal Rights Program in cooperation with the Federation of Local Funds",
@@ -3759,7 +4418,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0139",
+     "id": "B03-C0168",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "re-grants the Equal Rights Program money to Polish civil society organisations as institutional, thematic, experience-exchange and rapid-response grants",
@@ -3811,7 +4470,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0140",
+     "id": "B03-C0169",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme, which re-grants to civil society in Czechia, Slovakia, Hungary and Poland",
@@ -3834,7 +4493,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0141",
+     "id": "B03-C0170",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Polish implementing partner of the Stronger Roots consortium",
@@ -3854,7 +4513,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0142",
+     "id": "B03-C0171",
      "subject": "Open Society Fund Prague",
      "subject_type": "org",
      "relation": "first-named joint implementer of Stronger Roots (with Glopolis, Open Society Foundation Bratislava, NIOK Foundation and Batory)",
@@ -3880,7 +4539,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0143",
+     "id": "B03-C0172",
      "subject": "Stronger Roots programme",
      "subject_type": "other",
      "relation": "2025 call: will support 84 organisations and networks with EUR 2.9 million (all four countries)",
@@ -3934,7 +4593,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0144",
+     "id": "B03-C0173",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots competition in Poland (results 10 Nov 2025): 25 organisations to receive grants totalling EUR 906,357",
@@ -3956,7 +4615,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0145",
+     "id": "B03-C0174",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme whose Polish grants Batory awards (as Batory states)",
@@ -4034,7 +4693,7 @@
    "names_found_in_page_text": "0/25",
    "claims": [
     {
-     "id": "B03-C0146",
+     "id": "B03-C0175",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 (5 Nov 2025) approved 17 Stronger Roots Area 1 grants (building organisations' social base) totalling EUR 631,566",
@@ -4056,7 +4715,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0147",
+     "id": "B03-C0176",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 approved 8 Stronger Roots Area 2 grants (cross-cutting cooperation of civil society networks) totalling EUR 274,791",
@@ -4078,7 +4737,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0148",
+     "id": "B03-C0177",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots Area 2 (network cooperation) grant to the Association for Legal Intervention, application SR-PW/0042, Warsaw; per-grant amount not stated",
@@ -4101,7 +4760,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0149",
+     "id": "B03-C0178",
      "subject": "HFHR, Free Courts, Iustitia, Themis, OKO.press, Akcja Demokracja, KOD, Osiatyński Archive, Fundacja Moje Państwo, ISP, Watchdog Polska",
      "subject_type": "org",
      "relation": "no Stronger Roots grant in the Polish 2025 round (Decision 1857)",
@@ -4162,7 +4821,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0150",
+     "id": "B03-C0179",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 May 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -4186,7 +4845,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0151",
+     "id": "B03-C0180",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant, to enhance its products and results",
@@ -4210,7 +4869,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0152",
+     "id": "B03-C0181",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "planned use of the EEA-funded organisational grant: refresh the Osiatyński Archive and the English-language Rule of Law in Poland service; the Archive to become a networked think tank publishing quarterly reports",
@@ -4239,7 +4898,7 @@
      ]
     },
     {
-     "id": "B03-C0153",
+     "id": "B03-C0182",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "runs the websites OKO.press, Osiatyński Archive and Rule of Law in Poland",
@@ -4267,7 +4926,7 @@
      ]
     },
     {
-     "id": "B03-C0154",
+     "id": "B03-C0183",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of OKO's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -4299,7 +4958,7 @@
      ]
     },
     {
-     "id": "B03-C0155",
+     "id": "B03-C0184",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "INDIRECT: the 2022-24 grant to OKO (EUR 100,000 + EUR 8,000) was to refresh the Osiatyński Archive, on whose programme council he sits",
@@ -4354,7 +5013,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0156",
+     "id": "B03-C0185",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 Jul 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -4378,7 +5037,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0157",
+     "id": "B03-C0186",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant",
@@ -4402,7 +5061,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0158",
+     "id": "B03-C0187",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of HFHR's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -4466,7 +5125,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0159",
+     "id": "B03-C0188",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme 2021-2028 (4th edition): approx. PLN 300 million, of which EUR 71.24 million from the EEA and Norway Grants plus national contribution; components: court access (digitalisation), prison service modernisation, domestic and gender-based violence",
@@ -4490,7 +5149,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0160",
+     "id": "B03-C0189",
      "subject": "Ministry of Justice (Poland)",
      "subject_type": "public_body",
      "relation": "Programme Operator of the EEA and Norway Grants Justice programme (2021-2028 edition)",
@@ -4512,7 +5171,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0161",
+     "id": "B03-C0190",
      "subject": "Jan Szyszko (Deputy Minister of Development Funds and Regional Policy)",
      "subject_type": "person",
      "relation": "signed the Green Transition and Justice programme agreements for Poland, with Norway's ambassador Øystein Bø",
@@ -4536,7 +5195,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0162",
+     "id": "B03-C0191",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme: 5 calls for proposals planned (Green Transition: 9), calls starting in 2026",
@@ -4558,7 +5217,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0163",
+     "id": "B03-C0192",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "4th edition (2021-2028) for Poland: almost PLN 4 billion / almost EUR 925 million across eight programmes",
@@ -4580,7 +5239,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0164",
+     "id": "B03-C0193",
      "subject": "EEA and Norway Grants (Justice programme 2021-2028)",
      "subject_type": "org",
      "relation": "INDIRECT: the Ministry of Justice he heads is Programme Operator of the EUR 71.24m Justice programme signed in April 2026",
@@ -4636,7 +5295,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0165",
+     "id": "B03-C0194",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "Donor Programme Partner for programme area Access to Justice (PA11) in Poland's EEA and Norway Grants Justice Programme, under the Programme Agreement",
@@ -4659,7 +5318,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0166",
+     "id": "B03-C0195",
      "subject": "EEA and Norway Grants (donor states incl. Norway)",
      "subject_type": "org",
      "relation": "Memorandum of Understanding for the new funding period (Norway Grants 4.0) signed in Warsaw on 23 Apr 2025",
@@ -4679,7 +5338,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0167",
+     "id": "B03-C0196",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Programme Agreement for the Justice Programme signed on 20 Apr 2026; Programme Operator: Ministry of Justice (Poland)",
@@ -4701,7 +5360,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0168",
+     "id": "B03-C0197",
      "subject": "Council of Europe",
      "subject_type": "org",
      "relation": "International Partner Organisation of Poland's EEA and Norway Grants Justice Programme",
@@ -4726,7 +5385,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0169",
+     "id": "B03-C0198",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "donor project partner in the MoJ predefined project 'Courts closer to people' (courts' relations with society, role of lay judges); also in 'Competent Staff – Efficient Justice System' and free legal aid and mediation",
@@ -4746,7 +5405,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0170",
+     "id": "B03-C0199",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "no cooperation with Polish judges' associations or individual judges named; the only Polish partner named is the Ministry of Justice",
@@ -4791,7 +5450,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B03-C0171",
+     "id": "B03-C0200",
      "subject": "Jette F. Christensen (Norwegian MP, Labour Party)",
      "subject_type": "person",
      "relation": "nominated the Polish judges' association Iustitia for the Nobel Peace Prize",
@@ -4814,7 +5473,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0172",
+     "id": "B03-C0201",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Labour Party (Partia Pracy; Norwegian Arbeiderpartiet)",
@@ -4835,7 +5494,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0173",
+     "id": "B03-C0202",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Norwegian parliament (Storting) since 2010",
@@ -4856,7 +5515,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0174",
+     "id": "B03-C0203",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "sits on the Storting's Foreign Affairs and Defence Committee",
@@ -4874,7 +5533,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0175",
+     "id": "B03-C0204",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "delegate to the Parliamentary Assembly of the Council of Europe",
@@ -4894,7 +5553,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0176",
+     "id": "B03-C0205",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "nominated it for the Nobel Peace Prize together with Iustitia",
@@ -4915,7 +5574,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0177",
+     "id": "B03-C0206",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "stated reason for nominating Iustitia: to give an impulse for further work for democracy in Europe",
@@ -4935,7 +5594,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0178",
+     "id": "B03-C0207",
      "subject": "Rafto Foundation (Bergen)",
      "subject_type": "org",
      "relation": "awarded the Rafto Prize (2018) to Ombudsman Adam Bodnar",
@@ -4960,7 +5619,7 @@
      ]
     },
     {
-     "id": "B03-C0179",
+     "id": "B03-C0208",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "2014-2021 period: total EUR 2.8 billion, of which about EUR 800 million for Poland; a large part goes to civil-society organisations",
@@ -5012,7 +5671,7 @@
    "names_found_in_page_text": "2/5",
    "claims": [
     {
-     "id": "B03-C0180",
+     "id": "B03-C0209",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "FOIA request (12 Nov 2025, State Dept ref. F-2026-02738) for all State Department contracts, grant agreements or similar records with Free Courts (Wolne Sądy), 1 Jan 2016 to present",
@@ -5035,7 +5694,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0181",
+     "id": "B03-C0210",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item C: all State Department contracts, grant agreements or similar records with DemoCrisis (1 Jan 2016 to present)",
@@ -5055,7 +5714,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0182",
+     "id": "B03-C0211",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item B: State Department contracts and grant agreements with Civil Liberties Union for Europe",
@@ -5076,7 +5735,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0183",
+     "id": "B03-C0212",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "filed FOIA suit Judicial Watch, Inc. v. U.S. Department of State, D.D.C. No. 1:26-cv-00346 (dated 4 Feb 2026), seeking the Free Courts, DemoCrisis, Liberties and Ökotárs records and all State emails and cables mentioning them",
@@ -5096,7 +5755,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0184",
+     "id": "B03-C0213",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "as of the complaint, had made no determination on the Free Courts request and produced no records (per Judicial Watch)",
@@ -5159,7 +5818,7 @@
    "names_found_in_page_text": "3/16",
    "claims": [
     {
-     "id": "B03-C0185",
+     "id": "B03-C0214",
      "subject": "aba",
      "subject_type": "org",
      "relation": "project partner: HFHR's project monitoring disciplinary proceedings against judges was carried out with the ABA (2020)",
@@ -5181,7 +5840,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0186",
+     "id": "B03-C0215",
      "subject": "hfhr",
      "subject_type": "org",
      "relation": "monitored disciplinary proceedings against Polish judges (project run with the ABA, 2020)",
@@ -5201,7 +5860,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0187",
+     "id": "B03-C0216",
      "subject": "freedom_house",
      "subject_type": "org",
      "relation": "fellow participant, with the Norwegian Helsinki Committee and Front Line Defenders, in an informal rapid-response network for human rights defenders",
@@ -5223,7 +5882,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0188",
+     "id": "B03-C0217",
      "subject": "Polish Ministry of Foreign Affairs (MSZ)",
      "subject_type": "public_body",
      "relation": "supports HFHR's urgent aid (incl. relocation) for human rights defenders; form and amount not stated",
@@ -5248,7 +5907,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0189",
+     "id": "B03-C0218",
      "subject": "ned",
      "subject_type": "org",
      "relation": "named as a funder in HFHR's 2020 annual report: not found (funders named only for single projects: Media Legal Defense Initiative, EU programmes, Polish MFA)",
@@ -5276,7 +5935,7 @@
      ]
     },
     {
-     "id": "B03-C0190",
+     "id": "B03-C0219",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "US Embassy Warsaw or State Department (incl. DRL) named as a funder in HFHR's 2020 annual report: not found",
@@ -5333,7 +5992,7 @@
    "names_found_in_page_text": "0/10",
    "claims": [
     {
-     "id": "B03-C0191",
+     "id": "B03-C0220",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "PAFW's endowment was created from capital transferred to it by the Polish-American Enterprise Fund",
@@ -5354,7 +6013,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0192",
+     "id": "B03-C0221",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "PAFW grants for the 'Szkoła Ucząca Się' (Learning School) programme, which CEO operates: USD 13,858,857 in total, incl. USD 833,847 in 2020",
@@ -5376,7 +6035,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0193",
+     "id": "B03-C0222",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for Batory: none in PAFW's 2020 annual report (NGO support, USD 14,637,000 in total and USD 685,225 in 2020, ran through Klon/Jawor, FIMANGO and PROMENGO)",
@@ -5396,7 +6055,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0194",
+     "id": "B03-C0223",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for HFHR: none in PAFW's 2020 annual report",
@@ -5453,7 +6112,7 @@
    "names_found_in_page_text": "0/12",
    "claims": [
     {
-     "id": "B03-C0195",
+     "id": "B03-C0224",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "passed the 1989 SEED Act ('Support for East European Democracy'), under which the Polish-American Enterprise Fund was set up",
@@ -5476,7 +6135,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0196",
+     "id": "B03-C0225",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "PAFP's initial capital: USD 240 million (fund set up under the SEED Act)",
@@ -5497,7 +6156,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0197",
+     "id": "B03-C0226",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "returned half of its founding capital, USD 120 million, to the US budget (2001)",
@@ -5520,7 +6179,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0198",
+     "id": "B03-C0227",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "transferred the rest of its capital with the surplus earned, USD 255 million in total, to PAFW's endowment",
@@ -5542,7 +6201,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0199",
+     "id": "B03-C0228",
      "subject": "Michał Boni",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -5563,7 +6222,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0200",
+     "id": "B03-C0229",
      "subject": "Marek Belka",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -5584,7 +6243,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0201",
+     "id": "B03-C0230",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "launched in 2000 the 'Obywatel i Prawo' programme to develop community civic and legal advice; no operator named on this page",
@@ -5605,7 +6264,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0202",
+     "id": "B03-C0231",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "Batory as operator or grantee of any PAFW programme: not named in the publication's extracted text (the 'Obywatel i Prawo' entry names no operator)",
@@ -5624,7 +6283,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0203",
+     "id": "B03-C0232",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "HFHR as operator or grantee of any PAFW programme: not named in the publication's extracted text",
@@ -5704,7 +6363,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0204",
+     "id": "B03-C0233",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "current grant to HFHR of GBP 1,050,000, starting March 2024, under the trust's 'Human Rights and Rule of Law' programme",
@@ -5729,7 +6388,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0205",
+     "id": "B03-C0234",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "earlier grants to HFHR totalling GBP 2,245,000 (before the current grant; no breakdown)",
@@ -5754,7 +6413,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0206",
+     "id": "B03-C0235",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "additional gift of GBP 75,000 to HFHR in 2025",
@@ -5779,7 +6438,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0207",
+     "id": "B03-C0236",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "HFHR has been a Sigrid Rausing Trust grantee since 2011",
@@ -5823,7 +6482,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0208",
+     "id": "B03-C0237",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 100,000 (2006; term 1 year 3 months; Human Rights programme) for the 'International Advanced Course on Human Rights Protection'",
@@ -5847,7 +6506,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0209",
+     "id": "B03-C0238",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 750,000 (2001; term 3 years 6 months; Human Rights programme) for a training programme for a network of human rights activists in Russia",
@@ -5871,7 +6530,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0210",
+     "id": "B03-C0239",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "no MacArthur grant to HFHR after 2006: the grantee page lists 2 grants, USD 850,000 in total, years 2001-2006",
@@ -5923,7 +6582,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0211",
+     "id": "B03-C0240",
      "subject": "osf",
      "subject_type": "org",
      "relation": "award of USD 150,000 (2023-2024, 16 months) 'to decrease the risk of anti-climate backlash by building support for Just Transition in key demographics (working class & smaller cities)'; grantee not shown",
@@ -5968,7 +6627,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0212",
+     "id": "B03-C0241",
      "subject": "osf",
      "subject_type": "org",
      "relation": "no grant to Akcja Demokracja shown: this Open Society Action Fund award (pro-democracy research and strategic communications, USD 270,000, 2023-2024, 17 months) came up in a search for OSF grants to Akcja Demokracja, but it is listed for Spain",
@@ -6020,7 +6679,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0213",
+     "id": "B03-C0242",
      "subject": "emif",
      "subject_type": "org",
      "relation": "grant of EUR 50,032.85 to the Foundation Centre for Civic Monitoring OKO (OKO.press), 1st Funding Round – Scale-up Projects, years 2022-2023",
@@ -6045,7 +6704,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0214",
+     "id": "B03-C0243",
      "subject": "emif",
      "subject_type": "org",
      "relation": "funded project 'Scale-up of fact-checking activity of OKO.Press online portal' (priority area 'Boosting Fact-checking Activities in Europe'; fact-checking taught through gamification tools)",
@@ -9196,27 +9855,6 @@
    "title": "network of european foundations 149863",
    "why": "The Ford Foundation grant record for the Network of European Foundations, Civitates' host.",
    "capture": "Amount, dates and purpose (whether it is for Civitates)."
-  },
-  {
-   "theme": "C2_eea_norway",
-   "url": "https://www.gov.pl/web/justice/iver-orstavik-honored",
-   "title": "iver orstavik honored",
-   "why": "The Polish MoJ honoured Rafto Foundation adviser Iver Ørstavik, the Norwegian side of the campaign to freeze Norway Grants to Ziobro's ministry",
-   "capture": "Date; who presented it (Bodnar, Żurek, Ejchart or another official); exact name of the decoration; stated reasons (freeze campaign, support for Polish judges); others present"
-  },
-  {
-   "theme": "C2_eea_norway",
-   "url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
-   "title": "www.regjeringen.no",
-   "why": "Norwegian government's account of the same ceremony and of the freeze and resumption of justice cooperation",
-   "capture": "Date and venue; Polish officials named; Varteressian's ministry and party; statements on the 2020 freeze and the 2026 Justice programme; any amounts"
-  },
-  {
-   "theme": "C2_eea_norway",
-   "url": "https://www.gov.pl/web/norge/meeting-of-the-deputy-ministers-of-justice-of-the-republic-of-poland-maria-ejchart-and-zuzanna-rudzinska-bluszcz-with-norwegian-ngos-in-the-field-of-the-rule-of-law-and-judiciary-at-the-end-of-their-visit-in-norway",
-   "title": "meeting of the deputy ministers of justice of the republic of poland maria ejchart and zuzanna rudzinska bluszcz with norwegian ngos in the field of the rule of law and judiciary at the end of their visit in norway",
-   "why": "Ties Ejchart (Free Courts co-founder) and Rudzińska-Bluszcz to Norwegian rule-of-law NGOs",
-   "capture": "Date; names of the Norwegian NGOs and people met (Rafto, Norwegian Helsinki Committee, ICJ Norway, Judges' Association); topics, including Norway Grants justice money"
   },
   {
    "theme": "C2_eea_norway",

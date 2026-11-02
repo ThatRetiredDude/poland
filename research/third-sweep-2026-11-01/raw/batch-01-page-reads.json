@@ -809,6 +809,42 @@
    "note": null
   },
   {
+   "agent": "read:R080-R082",
+   "url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+   "final_url": "https://www.tvp.info/94825018/-sedzia-trybunalu-konstytucyjnego-praworzadnosc-mozna-przywracac-praworzadnymi-metodami",
+   "fetched_at": "2026-11-02T00:14:45.369Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2134,
+   "sha256": "90cd71757345984421f530890dcb89bae458b499e4b3b40ffb897d6e1e79fd2d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R080-R082",
+   "url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+   "final_url": "https://notesfrompoland.com/2026/08/14/polish-pm-confirms-he-wants-his-right-hand-man-to-be-made-constitutional-court-judge/",
+   "fetched_at": "2026-11-02T00:14:45.465Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 33551,
+   "sha256": "275bc67eec8e70eeb2e1d3c4524a15a6a9e3bfc834e355bd7a008d2466c6fe4d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R080-R082",
+   "url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+   "final_url": "https://www.prawo.pl/prawnicy-sady/maciej-berek-a-trybunal-konstytucyjny,1550691.html",
+   "fetched_at": "2026-11-02T00:14:45.631Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 25577,
+   "sha256": "83f8592eff19ec1d6505c52763a717a33ffc0efb1292c4d51c4f4965d6697c8d",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R091-R093",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
    "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
@@ -964,6 +1000,42 @@
    "content_type": "text/html",
    "chars": 107,
    "sha256": "5c62b00583eb7f0ef4973b4ff5a2ad261395a8f757fea9d16af8316b3118a1e1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://en.wikipedia.org/wiki/Borys_Budka",
+   "final_url": "https://en.wikipedia.org/wiki/Borys_Budka",
+   "fetched_at": "2026-11-02T00:14:42.189Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 15105,
+   "sha256": "df262511b004d767e50fed3bb5fc2a39e654c2a4edb12925b40e30669db1aa09",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+   "final_url": "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438",
+   "fetched_at": "2026-11-02T00:14:42.232Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 44567,
+   "sha256": "fae2cb77ebc011f17012a0008490022f686461dc13a73ff62078b22c56adf160",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R100-R102",
+   "url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+   "final_url": "https://www.money.pl/gospodarka/borys-budka-nowym-ministrem-aktywow-panstwowych-6973257329355296a.html",
+   "fetched_at": "2026-11-02T00:14:42.884Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 25671,
+   "sha256": "58262567db50a122b3228949aca4c514e29cfff827791ad8ab137cca7b0b84c5",
    "error": null,
    "note": null
   },
@@ -1304,7 +1376,7 @@
    "sha256": "90cd71757345984421f530890dcb89bae458b499e4b3b40ffb897d6e1e79fd2d",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R080-R082",
@@ -1317,7 +1389,7 @@
    "sha256": "275bc67eec8e70eeb2e1d3c4524a15a6a9e3bfc834e355bd7a008d2466c6fe4d",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R080-R082",
@@ -1330,7 +1402,7 @@
    "sha256": "83f8592eff19ec1d6505c52763a717a33ffc0efb1292c4d51c4f4965d6697c8d",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R083-R085",
@@ -1385,7 +1457,7 @@
    "sha256": "df262511b004d767e50fed3bb5fc2a39e654c2a4edb12925b40e30669db1aa09",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R100-R102",
@@ -1398,7 +1470,7 @@
    "sha256": "a6d5850b196c623e4161f057591a53ab4fcc8d40668a13914efa4f967304c2f0",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R100-R102",
@@ -1411,7 +1483,7 @@
    "sha256": "fae2cb77ebc011f17012a0008490022f686461dc13a73ff62078b22c56adf160",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   }
  ]
 }

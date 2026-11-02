@@ -125,6 +125,42 @@
    "note": null
   },
   {
+   "agent": "read:C2_eea_norway:1",
+   "url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
+   "final_url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
+   "fetched_at": "2026-11-02T00:14:56.641Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1883,
+   "sha256": "cc09bdbebac8026ddaadcb1517467c30e8dd60becf014071331d499e8111ca9d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C2_eea_norway:1",
+   "url": "https://www.gov.pl/web/justice/iver-orstavik-honored",
+   "final_url": "https://www.gov.pl/web/justice/iver-orstavik-honored",
+   "fetched_at": "2026-11-02T00:14:57.047Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 10273,
+   "sha256": "a2994a8af3aded39a78f76cb3b12b52809337e756f15c6b70a4dd3862adbacd7",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C2_eea_norway:1",
+   "url": "https://www.gov.pl/web/norge/meeting-of-the-deputy-ministers-of-justice-of-the-republic-of-poland-maria-ejchart-and-zuzanna-rudzinska-bluszcz-with-norwegian-ngos-in-the-field-of-the-rule-of-law-and-judiciary-at-the-end-of-their-visit-in-norway",
+   "final_url": "https://www.gov.pl/web/norge/meeting-of-the-deputy-ministers-of-justice-of-the-republic-of-poland-maria-ejchart-and-zuzanna-rudzinska-bluszcz-with-norwegian-ngos-in-the-field-of-the-rule-of-law-and-judiciary-at-the-end-of-their-visit-in-norway",
+   "fetched_at": "2026-11-02T00:14:57.049Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 8494,
+   "sha256": "5aabac51d0e2e70573165ca19155728a538d98aa5e384b5bd2619fd5068effcd",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:C3_us_money:1",
    "url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
    "final_url": "https://www.macfound.org/grantee/helsinki-foundation-for-human-rights-32201/",
