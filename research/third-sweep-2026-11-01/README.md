@@ -6,14 +6,14 @@ Goal: find more people, money, contract jobs and organisations (NGOs, foundation
 
 ## Status
 
-The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 2489 claims.
+The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 2524 claims.
 
 | Batch | What | Status |
 |---|---|---|
 | 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 113 of 113 leads read: 125 pages, 1218 claims. |
-| 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 7 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz, nominations, prosecutors and police, international bodies). 83 pages, 651 claims, 272 title-only leads. Follow-up reads: 15 groups done, 1 running. |
-| 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 7 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations, domestic public money, NGO finances, firms and contracts). 82 pages, 620 claims, 192 title-only leads. Follow-up reads: 16 groups done. |
-| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 1834 claims checked: 1512 supported, 284 partly supported, 24 not supported, 14 cannot tell. Label disagreements: 83; translation problems: 40. Not checked: 517 no_link findings and 138 claims with no matching page text or added later. |
+| 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 7 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz, nominations, prosecutors and police, international bodies). 86 pages, 686 claims, 272 title-only leads. Follow-up reads: 16 groups done, 6 running. |
+| 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 7 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations, domestic public money, NGO finances, firms and contracts). 82 pages, 620 claims, 192 title-only leads. Follow-up reads: 16 groups done, 3 running. |
+| 04 | Cross-check of every quoted excerpt against its page context (`batch-04-cross-check.json`) | 1834 claims checked: 1512 supported, 284 partly supported, 24 not supported, 14 cannot tell. Label disagreements: 83; translation problems: 40. Not checked: 520 no_link findings and 170 claims with no matching page text or added later. |
 
 Agents stopped by the usage limit had already run 200 searches and 79 page reads. Those are logged in `raw/` under `searches_by_stopped_agents` and `fetches_by_stopped_agents`, as returned, with `agent_rerun_later` saying whether that part was run again. No claims came from the stopped agents.
 

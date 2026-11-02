@@ -31,7 +31,7 @@
  },
  "stats": {
   "agents": 21,
-  "agents_left_out_unfinished_or_other_batch": 14,
+  "agents_left_out_unfinished_or_other_batch": 17,
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
