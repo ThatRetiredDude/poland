@@ -35,7 +35,7 @@
   "searches": 210,
   "search_results": 3414,
   "unique_result_urls": 2482,
-  "page_fetches": 159,
+  "page_fetches": 161,
   "pages_reported": 83,
   "pages_with_page_text": 69,
   "fetch_status": {
@@ -53,11 +53,11 @@
    "speculation": 13
   },
   "evidence_check": {
-   "exact": 465,
-   "normalized": 95,
+   "exact": 472,
+   "normalized": 105,
    "found_on_linked_page": 46,
    "not_found": 22,
-   "found_in_reader_extract_only": 23
+   "found_in_reader_extract_only": 6
   },
   "map_status": {
    "new_entity_or_unmatched_name": 357,
@@ -15714,11 +15714,11 @@
    "publisher": "Council of the European Union document register (European Commission report)",
    "capture_answer": "Annex II lists 22 bodies the Commission services met virtually in Feb-Mar 2026, including Iustitia, Batory, HFHR, Lex Super Omnia, Amnesty International Poland, the Justice Ministry, the KRS and the Ombudsman's Office. Themis, Free Courts and the Osiatyński Archive are not on that list. Annex I has one joint written input from seven Polish NGOs: Batory, HFHR, Free Courts, the National Federation of Polish NGOs, Watchdog Poland, ISP and the Responsible Politics Foundation. It has no entries from judges' or prosecutors' associations. The TK appears only inside the Action Plan recommendation. Footnote 47 records the President's oath refusals, and the TK budget rose for 2026.",
    "raw": {
-    "fetched_at": "2026-11-02T00:57:37.746Z",
+    "fetched_at": "2026-11-02T01:11:44.254Z",
     "http": null,
     "content_type": null,
-    "chars": 39378,
-    "sha256": "1a356f80c0c55ba4834884366dc149e805a7bbb8713b1253878d93802dd48f1b",
+    "chars": 39379,
+    "sha256": "90490bdce219dac884d1cb9ef06c4af3177046711f3289f327b8b722c60c3d49",
     "url_read": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf"
    },
    "names_listed": [
@@ -15792,7 +15792,7 @@
       "European Commission services (2026 Rule of Law Report)"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15812,7 +15812,7 @@
      "label_scope": "Listed as met; footnote 173 also cites meetings with Batory, HFHR and Amnesty; no content given",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15832,7 +15832,7 @@
      "label_scope": "Listed as met; no meeting date or content given",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15852,7 +15852,7 @@
      "label_scope": "Listed as met; no content given",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "object_map_id": "lex_super_omnia",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15872,7 +15872,7 @@
      "label_scope": "Listed as met; no content given",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "amnesty_pl",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -15892,7 +15892,7 @@
      "label_scope": "The ministry is listed as met; no official is named",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -15912,7 +15912,7 @@
      "label_scope": "The office is listed as met; no official is named",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "rpo_office",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15932,7 +15932,7 @@
      "label_scope": "The KRS is listed as met in Feb-Mar 2026; the page does not say which members took part",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "neo_krs",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15952,7 +15952,7 @@
      "label_scope": "Checked the full 22-entry Annex II list: Themis, Free Courts and the Osiatyński Archive do not appear. Annex I has no Themis entry. Free Courts appears in Annex I only, as co-author of the joint written input.",
      "date": "2026-02/2026-03",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "object_map_id": "themis",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15975,7 +15975,7 @@
       "Joint NGO written input to the 2026 Rule of Law Report"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -15995,7 +15995,7 @@
      "label_scope": "Joint authorship as listed by the Commission; content not read",
      "date": "2026",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -16015,7 +16015,7 @@
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -16035,7 +16035,7 @@
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "watchdog_polska",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -16055,7 +16055,7 @@
      "label_scope": "Joint authorship as listed; content not read",
      "date": "2026",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "isp",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -16078,7 +16078,7 @@
       "National Federation of Polish NGOs"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "map_status": "both_names_unmatched"
     },
     {
@@ -16099,7 +16099,7 @@
       "Responsible Politics Foundation"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "map_status": "both_names_unmatched"
     },
     {
@@ -16117,7 +16117,7 @@
      "label_scope": "Cited as a source; the page does not show which passage relies on it",
      "date": "2025-12-15",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"

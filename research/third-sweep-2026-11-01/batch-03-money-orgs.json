@@ -35,7 +35,7 @@
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
-  "page_fetches": 167,
+  "page_fetches": 174,
   "pages_reported": 82,
   "pages_with_page_text": 77,
   "fetch_status": {
@@ -53,13 +53,13 @@
    "alleged": 15
   },
   "evidence_check": {
-   "exact": 444,
+   "exact": 455,
    "found_on_linked_page": 13,
    "not_found": 8,
-   "normalized": 104,
-   "found_in_reader_extract_only": 40,
+   "normalized": 114,
    "normalized_ci": 2,
-   "empty": 9
+   "empty": 9,
+   "found_in_reader_extract_only": 19
   },
   "map_status": {
    "new_entity_or_unmatched_name": 359,
@@ -1104,7 +1104,7 @@
     "Ocalenie Foundation",
     "Shipyard Foundation-Poland"
    ],
-   "names_found_in_page_text": "22/26",
+   "names_found_in_page_text": "26/26",
    "followup_urls": [
     {
      "url": "https://www.gmfus.org/democracy-work/engaging-central-europe",
@@ -1566,7 +1566,7 @@
      "label": "fact",
      "label_scope": "Summary-only: from the summary of the final part of the page, not verbatim text",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -1584,7 +1584,7 @@
      "label": "fact",
      "label_scope": "Summary-only: from the summary of the final part of the page, not verbatim text",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -1602,7 +1602,7 @@
      "label": "fact",
      "label_scope": "Summary-only: title shortened in the summary; not verbatim text",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -1618,7 +1618,7 @@
      "label": "fact",
      "label_scope": "Summary-only: from the summary of the final part of the page",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -1636,7 +1636,7 @@
      "label": "fact",
      "label_scope": "Summary-only: quoted in the summary of the final part of the page, not verbatim",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -10377,7 +10377,7 @@
      "label": "fact",
      "label_scope": "Covers the application and the 'not granted' status in this thematic round only.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "isp",
      "subject_map_status": "on_map",
      "object_map_id": "batory",
@@ -10401,7 +10401,7 @@
      "label": "fact",
      "label_scope": "Covers the application and the 'not granted' status in this thematic round only.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "kultura_liberalna",
      "subject_map_status": "on_map",
      "object_map_id": "batory",
@@ -12009,11 +12009,11 @@
    "publisher": "Helsińska Fundacja Praw Człowieka (HFHR)",
    "capture_answer": "The 2020 report names no US funder. The ABA was HFHR's partner in monitoring disciplinary proceedings against judges, and Freedom House is in an informal network with HFHR.",
    "raw": {
-    "fetched_at": "2026-11-02T00:24:37.329Z",
+    "fetched_at": "2026-11-02T01:11:41.595Z",
     "http": null,
     "content_type": null,
-    "chars": 39386,
-    "sha256": "4cc7d836ae30fdd45dbda02ca7a2c935a1c0cd4459b26423615c4ff3179e9767",
+    "chars": 43749,
+    "sha256": "09c27e3d9bf0012ca9930fca4d96f603784bf5937ec67025f43af2b94b97bed5",
     "url_read": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf"
    },
    "names_listed": [
@@ -12034,7 +12034,7 @@
     "UNICEF",
     "Wydział Prawa, Administracji i Ekonomii Uniwersytetu Wrocławskiego"
    ],
-   "names_found_in_page_text": "3/16",
+   "names_found_in_page_text": "14/16",
    "claims": [
     {
      "id": "B03-b370cabb",
@@ -12051,7 +12051,7 @@
      "label": "fact",
      "label_scope": "That the project was run with the ABA. The report does not say who funded it or whether the ABA paid HFHR.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "aba",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -12073,7 +12073,7 @@
      "label": "fact",
      "label_scope": "HFHR's description of its own project.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12093,7 +12093,7 @@
      "label": "fact",
      "label_scope": "Cooperation in an informal network, as HFHR describes it. No money flow is stated.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "freedom_house",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -12118,7 +12118,7 @@
       "Polish Ministry of Foreign Affairs (MSZ)"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "nl_gov",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -12140,7 +12140,7 @@
      "label": "no_link",
      "label_scope": "Covers this 2020 report only. The report has no donor list and names no US funder (NED, PAFW, US Embassy, State Department, USAID, GMF). It neither confirms nor rules out US funding in 2020.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "ned",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -12168,7 +12168,7 @@
      "label": "no_link",
      "label_scope": "Covers this 2020 report only. It neither confirms nor rules out embassy or DRL money in 2020.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "subject_map_id": "us_state_dept",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
@@ -12189,11 +12189,11 @@
    "publisher": "Polsko-Amerykańska Fundacja Wolności (PAFW)",
    "capture_answer": "PAFW in 2020: no grant to Batory, HFHR or other TK-network groups. CEO is the only network-adjacent grantee, as SUS operator.",
    "raw": {
-    "fetched_at": "2026-11-02T00:24:13.955Z",
+    "fetched_at": "2026-11-02T01:11:41.575Z",
     "http": null,
     "content_type": null,
-    "chars": 39381,
-    "sha256": "fe2f875a8433ccad9668b4d6861d2b5c00f1747ac2a546db23abfa5e74936537",
+    "chars": 42759,
+    "sha256": "811ec41eadcbfca0e29661ed31a4812f935574f996cd679d34066ceb7ec661be",
     "url_read": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf"
    },
    "names_listed": [
@@ -12268,7 +12268,7 @@
      "label": "no_link",
      "label_scope": "Covers the 2020 annual report only. Batory is not named, nor are HFHR, Watchdog Polska, ISP, Free Courts, Iustitia, the Osiatyński Archive, OKO.press, Akcja Demokracja, KOD, Kultura Liberalna or Fundacja Aktywna Demokracja. Other years were not checked here.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "object_map_id": "batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12288,7 +12288,7 @@
      "label": "no_link",
      "label_scope": "Covers the 2020 annual report only. HFHR is not named. Other years were not checked here.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -12994,7 +12994,7 @@
     "Fundacja Medycyny Prenatalnej im. Ernesta Wójcickiego",
     "KAMA MAŚLANKIEWICZ sp. j."
    ],
-   "names_found_in_page_text": "13/28",
+   "names_found_in_page_text": "27/28",
    "followup_urls": [
     {
      "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3195/body",
@@ -13125,7 +13125,7 @@
      "label": "fact",
      "label_scope": "Contract, date, term and value are verbatim. The directive (2020/1828) is identified from the rest of the same row, which was not captured verbatim. The contract falls in Bodnar's term as minister; it is a consumer-law job, not a TK opinion.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "dziurda",
@@ -13317,7 +13317,7 @@
      "label": "fact",
      "label_scope": "contract as entered in the register; no tie of Gwizdak to the network organisations is shown on the page",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -13430,7 +13430,7 @@
       "Audit4You Barbara Ciemała (audit firm; Justice Fund review 2024)"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -15632,7 +15632,7 @@
      "label": "fact",
      "label_scope": "The register row states the contract and fee. The subject is the draft on representative actions, not the TK or the rule of law. The contract was signed two years before his 2026 election to the TK.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "dziurda",
@@ -15656,7 +15656,7 @@
      "label": "fact",
      "label_scope": "Shows a MoJ payment to DemoCrisis, a network the map lists as co-founded by Wawrykiewicz with undisclosed funders, under a communications-office (BK) contract. The row does not name Wawrykiewicz and does not show who else funded the summit.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "democrisis",
@@ -15733,7 +15733,7 @@
       "Brand 24 S.A."
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"

@@ -34,7 +34,7 @@
   "searches": 0,
   "search_results": 0,
   "unique_result_urls": 0,
-  "page_fetches": 153,
+  "page_fetches": 156,
   "pages_reported": 125,
   "pages_with_page_text": 117,
   "fetch_status": {
@@ -52,12 +52,11 @@
    "no_link": 252
   },
   "evidence_check": {
-   "exact": 874,
+   "exact": 877,
    "normalized": 251,
    "not_found": 37,
    "found_on_linked_page": 32,
-   "empty": 21,
-   "found_in_reader_extract_only": 3
+   "empty": 21
   },
   "map_status": {
    "pair_already_linked": 196,
@@ -27667,7 +27666,7 @@
      "label": "fact",
      "label_scope": "Unverified: this footnote appears only in the condensed extract, not in verbatim text. Confirm against the footnote before use.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "subject_map_id": "budka",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -28817,7 +28816,7 @@
       "Grupa PTWP"
      ],
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {
@@ -28835,7 +28834,7 @@
      "date": "2012 and 2025 editions",
      "evidence_location": "'Organizator' block of the listing (secondary summary)",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "exact",
      "map_status": "both_names_unmatched"
     },
     {

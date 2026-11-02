@@ -2129,6 +2129,32 @@
    "note": "The page reader returned the page text verbatim for the first 39398 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
    "returned": "page_text_then_reader_summary",
    "summary_chars": 3539
+  },
+  {
+   "agent": "recheck3:1",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:10:16.492Z",
+   "http": null,
+   "content_type": null,
+   "chars": 22952,
+   "sha256": "502de4f939d8bfabec89859912f53185aaf5f9e1d0237e64cdb4937bfc30c0aa",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:1",
+   "url": "https://data.consilium.europa.eu/doc/document/ST-11674-2026-ADD-22/en/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:11:44.254Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39379,
+   "sha256": "90490bdce219dac884d1cb9ef06c4af3177046711f3289f327b8b722c60c3d49",
+   "error": null,
+   "note": "The page reader returned the page text verbatim for the first 39379 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 1716
   }
  ],
  "fetches_by_stopped_agents": [

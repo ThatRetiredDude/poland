@@ -2272,6 +2272,90 @@
    "note": "The page reader returned the page text verbatim for the first 39395 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
    "returned": "page_text_then_reader_summary",
    "summary_chars": 1781
+  },
+  {
+   "agent": "recheck3:3",
+   "url": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:11:41.572Z",
+   "http": null,
+   "content_type": null,
+   "chars": 3378,
+   "sha256": "40712ea3a2a020c228002ae950db42f488346a9018f18397f4628b2b86f4609e",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:3",
+   "url": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:11:41.575Z",
+   "http": null,
+   "content_type": null,
+   "chars": 42759,
+   "sha256": "811ec41eadcbfca0e29661ed31a4812f935574f996cd679d34066ceb7ec661be",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:3",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:11:41.595Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43749,
+   "sha256": "09c27e3d9bf0012ca9930fca4d96f603784bf5937ec67025f43af2b94b97bed5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:3",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:11:41.597Z",
+   "http": null,
+   "content_type": null,
+   "chars": 4363,
+   "sha256": "11c37d50173992bf5d24aecafdbad6ad121466f8be85c297e8513bfa3de7dc71",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:2",
+   "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:10:16.908Z",
+   "http": null,
+   "content_type": null,
+   "chars": 27946,
+   "sha256": "c3c4aae8875251fe0a43d0956883571ef6873d2f9e164fecac6fdd1713882282",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:2",
+   "url": "https://gmfus.org/proteus-0",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:10:16.969Z",
+   "http": null,
+   "content_type": null,
+   "chars": 32751,
+   "sha256": "bc7d651f232379279b5e352a6d2f3b9bd0d172545374539a369b7c23b32e6b52",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck3:1",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:10:16.251Z",
+   "http": null,
+   "content_type": null,
+   "chars": 25434,
+   "sha256": "75e6478444e213bf240aa7d0579a3caf7a33b1c29260709380de5a6c61c7afeb",
+   "error": null,
+   "note": null
   }
  ],
  "fetches_by_stopped_agents": [

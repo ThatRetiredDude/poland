@@ -46,8 +46,8 @@
    "done": 74
   },
   "claims_sent_without_verdict_yet": 0,
-  "no_link_findings_not_checked": 509,
-  "claims_not_sent": 97
+  "no_link_findings_not_checked": 517,
+  "claims_not_sent": 138
  },
  "verdicts": [
   {
@@ -363,8 +363,7 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "This context does not mention a 2012 congress or 'Grupa PTWP SA'; any link to the 2012 organiser comes from a different page and from the matching name alone.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B01-9c68804c",
@@ -646,8 +645,7 @@
    "translation_ok": true,
    "corrected_claim": "According to a model-extracted summary of the slaskie.travel listing (not verbatim page text), the Europejski Kongres Gospodarczy listing for 23/04/2025-25/04/2025 names Grupa PTWP as organiser.",
    "note": "Only the model-extracted summary of the page's tail says the listing is 'organised by Grupa PTWP' for 23-25 April 2025; the verbatim text shown does not contain the 'Organizator' block.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B01-013f30f4",
@@ -2682,8 +2680,7 @@
    "translation_ok": true,
    "corrected_claim": "A footnote on the page reportedly reads 'Replaced Borys Budka. Sworn in on 26 June 2024.' It concerns another member who replaced Budka and was sworn in on 26 June 2024. This rests only on a model-extracted summary.",
    "note": "The verbatim text stops before the notes. Only the model-extracted summary quotes the footnote, and it does not say which member's row the footnote belongs to. 26 June 2024 is the date the replacement was sworn in, not a stated date for Budka's departure.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B01-d3220b60",
@@ -4255,8 +4252,7 @@
    "translation_ok": true,
    "corrected_claim": "Ocalenie Foundation (Fundacja Ocalenie, Poland) is listed for 'International network of organizations for a report on the death toll…' (Poland, Belarus, Latvia and Lithuania) with €40,000 over 8 months (from a model-extracted summary with a shortened title; grantor not named).",
    "note": "A model-extracted summary lists Ocalenie with a shortened title, the four countries, €40,000 and 8 months. It does not name the Transatlantic Foundation.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-0ab80a0c",
@@ -4367,8 +4363,7 @@
    "translation_ok": true,
    "corrected_claim": "Each of the two calls (D2.10/D14-CfP-INT5 and D4.4/D22-CfP-INT9) states 'The available overall call budget is EUR 300,000' (per a model-extracted summary).",
    "note": "The summary says both calls each state an overall call budget of EUR 300,000. It does not give a combined budget for the two, or call them 'later' calls.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-1fa87942",
@@ -4607,8 +4602,7 @@
    "translation_ok": true,
    "corrected_claim": "Forests and Citizens Foundation (Fundacja Lasy i Obywatele, Poland) is listed for 'Forests are ours...' with €24,633 over 12 months (from a model-extracted summary; grantor not named).",
    "note": "A model-extracted summary lists this foundation and project with €24,633 and 12 months. It does not name the Transatlantic Foundation.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-3aa8ded0",
@@ -5817,8 +5811,7 @@
    "translation_ok": true,
    "corrected_claim": "Bender Society (Towarzystwo Benderowskie, Poland) is listed for 'Climate watchdog for peripheries' with €24,866 over 20 months (from a model-extracted summary; grantor not named).",
    "note": "A model-extracted summary of the page lists Bender Society with this project, €24,866 and 20 months. It does not name the Transatlantic Foundation.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-fe8b1c94",
@@ -27019,8 +27012,7 @@
    "label_ok": true,
    "translation_ok": true,
    "note": "The summarised table lists 'Shipyard Foundation-Poland' as the partner for Poland under 'Our Implementation Partners' and says partners are not tied to specific awards.",
-   "context_source": "reader_extract",
-   "context_note": "the context given to the checker turned out to be the page reader's summary of the page, not page text"
+   "context_source": "page_text"
   },
   {
    "claim_id": "B03-fcf66371",
