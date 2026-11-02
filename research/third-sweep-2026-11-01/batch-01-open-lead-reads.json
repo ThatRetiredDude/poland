@@ -4,7 +4,7 @@
   "as_of": "2026-11-01",
   "status": "collection only; nothing in this file is on the map or in data/",
   "access_note": "Pages were read with a page-reader tool, because the working container cannot reach these hosts directly. Most reads returned the page text; some returned the reader's own extract of the page instead (claims from those carry access = page_read_via_reader_extract). Each claim's evidence_text was checked by script against what the reader returned for that URL.",
-  "stopped_agents_note": "Some searches and reads in this batch were stopped by the account usage limit before they reported. Their searches and page-reader calls are logged in raw/ as returned, but they produced no claims; they are listed in stats.agents_stopped_at_usage_limit.",
+  "stopped_agents_note": "Some searches and reads in this batch were stopped by the account usage limit before they reported. Their searches and page-reader calls are logged in raw/ as returned, but produced no claims. Agents that were run again after the limit reset are listed in stats.agents_rerun_after_usage_limit; any still missing are in stats.agents_stopped_at_usage_limit.",
   "evidence_check_values": {
    "exact": "excerpt found character for character",
    "normalized": "found after normalising spaces, quote marks and dashes",
@@ -12,7 +12,8 @@
    "segments": "excerpt contains an ellipsis; every part was found",
    "not_found": "not found in the captured page text: treat the claim as unverified",
    "no_raw": "no page text was captured for this URL",
-   "*_in_reader_extract": "the page reader returned an extract rather than the page text; the excerpt was found in that extract (a page-text re-check is pending)"
+   "*_in_reader_extract": "the page reader returned an extract rather than the page text; the excerpt was found in that extract (a page-text re-check is pending)",
+   "found_in_reader_extract_only": "the page text was captured later and the excerpt is not in it word for word; it is only in the page reader's own extract, so treat the wording as unverified"
   },
   "labels": "fact | alleged | speculation | unproven_conspiracy | no_link. fact = the source states it (or the organisation published it about itself). label_scope says what the label covers.",
   "map_status_values": {
@@ -27,47 +28,47 @@
   ]
  },
  "stats": {
-  "agents": 20,
-  "agents_left_out_unfinished_or_other_batch": 20,
+  "agents": 21,
+  "agents_left_out_unfinished_or_other_batch": 30,
   "searches": 0,
   "search_results": 0,
   "unique_result_urls": 0,
-  "page_fetches": 74,
-  "pages_reported": 67,
-  "pages_with_page_text": 62,
+  "page_fetches": 79,
+  "pages_reported": 70,
+  "pages_with_page_text": 65,
   "fetch_status": {
-   "partial": 14,
-   "ok": 45,
+   "partial": 15,
+   "ok": 47,
    "empty": 5,
    "error": 2,
    "blocked": 1
   },
-  "claims": 582,
+  "claims": 593,
   "labels": {
-   "fact": 384,
-   "alleged": 43,
+   "fact": 391,
+   "alleged": 45,
    "speculation": 11,
-   "no_link": 144
+   "no_link": 146
   },
   "evidence_check": {
-   "exact": 431,
-   "normalized": 115,
-   "not_found": 27,
+   "exact": 435,
+   "normalized": 121,
+   "not_found": 28,
    "empty": 9
   },
   "map_status": {
    "pair_already_linked": 108,
-   "new_tie_between_known_entities": 89,
-   "new_entity_or_unmatched_name": 300,
-   "both_names_unmatched": 85
+   "new_tie_between_known_entities": 91,
+   "new_entity_or_unmatched_name": 307,
+   "both_names_unmatched": 87
   },
   "kinds": {
    "membership_or_board": 35,
-   "event_or_speech": 45,
-   "statement": 112,
+   "event_or_speech": 46,
+   "statement": 118,
    "nomination_or_vote": 27,
-   "role_or_job": 103,
-   "other": 135,
+   "role_or_job": 105,
+   "other": 137,
    "grant_or_donation": 71,
    "legal_action": 36,
    "contract_or_fee": 16,
@@ -80,7 +81,6 @@
    "read:R015-R017",
    "read:R021-R023",
    "read:R024-R026",
-   "read:R036-R038",
    "read:R039-R041",
    "read:R042-R043",
    "read:R053-R055",
@@ -95,6 +95,12 @@
    "read:R106-R108",
    "read:R109-R111",
    "read:R112-R113"
+  ],
+  "agents_rerun_after_usage_limit": [
+   "read:R036-R038"
+  ],
+  "duplicate_reads_left_out": [
+   "read:R018-R020"
   ],
   "searches_by_stopped_agents": 0,
   "page_fetches_by_stopped_agents": 30
@@ -6824,6 +6830,281 @@
    ]
   },
   {
+   "ref": "R036",
+   "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "host": "kwartalnikiustitia.pl",
+   "lead_ref": "S2-Q07#10",
+   "capture_request": "Iustitia quarterly 2024 issue (conferences and training): sponsor and partner lines.",
+   "fetch_status": "partial",
+   "fetch_note": "PDF text, 45790 characters. Two reads returned pages 159 to 167 of the 3-4/2024 issue and both stop mid-word at 'w ni-'. The rest of the file was not returned. PDF extraction drops some word spaces. No sponsor, partner, patron or funder line appeared in the text returned.",
+   "page_title": "3-4/2024 IUSTITIA Przegląd wydarzeń (PDF, pages 159-167)",
+   "page_date": "2024 issue (file uploaded 2025/05)",
+   "publisher": "Iustitia",
+   "capture_answer": "No sponsor or partner lines appear in the text returned (pages 159-167). The section is a review of judicial reform proposals with a strategy document attached. It names the Prime Minister Donald Tusk at one meeting with legal circles, Minister of Justice bodies, the National School of Judiciary and Prosecution (KSSiP), and a Warsaw Court of Appeal item on neo-judges. It names none of the listed NGOs as sponsors. The remaining part of the file is unread.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:43.248Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 45790,
+    "sha256": "26bf48a18cedde83c2f8c4b49e863dd59620978ad26e177c3b60c6ad34a46875",
+    "url_read": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2"
+   },
+   "followup_urls": [
+    {
+     "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+     "why": "Re-read the final pages (168 onward) of this PDF to check for sponsor or partner lines, since the returned text ends mid-word."
+    }
+   ],
+   "claims": []
+  },
+  {
+   "ref": "R037",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body",
+   "host": "api.sejm.gov.pl",
+   "lead_ref": "S2-Q07#5",
+   "capture_request": "Sejm written question 92: question and answer.",
+   "fetch_status": "ok",
+   "fetch_note": "Page is the question body only. No answer text appears. The publisher is not named on the page; the host is api.sejm.gov.pl. Sebastian Kaleta's party is not stated on the page.",
+   "page_title": "Zapytanie w sprawie delegacji prokuratorów do Ministerstwa Sprawiedliwości",
+   "page_date": "08-01-2024",
+   "publisher": "Sejm RP (host api.sejm.gov.pl; not stated on page)",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:43.184Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 2762,
+    "sha256": "e416fe97178f4a08e3df5665fbf0a1e4aa6b1de9d30ab284ab89d4c6b5e43cb3",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body"
+   },
+   "claims": [
+    {
+     "id": "B01-C0281",
+     "subject": "Sebastian Kaleta",
+     "subject_type": "person",
+     "relation": "submitted written question no. 92 to the Minister of Justice on the delegation of prosecutors to the Ministry",
+     "object": "Ministerstwo Sprawiedliwości (written question on delegation of prosecutors)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "Zgłaszający: Sebastian Kaleta Data wpływu: 08-01-2024",
+     "evidence_translation": "Submitter: Sebastian Kaleta. Date received: 08-01-2024.",
+     "label": "fact",
+     "label_scope": "The page records the submission. The party of the submitter is not stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0282",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "held the posts of Minister of Justice and Prosecutor General (the question is addressed to him in both posts)",
+     "object": "Ministerstwo Sprawiedliwości",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Czy minister sprawiedliwości - Prokurator Generalny Adam Bodnar delegował do Ministerstwa Sprawiedliwości jakichkolwiek prokuratorów?",
+     "evidence_translation": "Did the Minister of Justice, Prosecutor General Adam Bodnar, delegate any prosecutors to the Ministry of Justice?",
+     "label": "fact",
+     "label_scope": "The page addresses the question to him in both posts. It gives no appointment date.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0283",
+     "subject": "delegated prosecutors (names not given on this page)",
+     "subject_type": "other",
+     "relation": "alleged to have been delegated to the Ministry of Justice by Adam Bodnar",
+     "object": "Adam Bodnar",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Czy minister sprawiedliwości - Prokurator Generalny Adam Bodnar delegował do Ministerstwa Sprawiedliwości jakichkolwiek prokuratorów?",
+     "evidence_translation": "Did the Minister of Justice, Prosecutor General Adam Bodnar, delegate any prosecutors to the Ministry of Justice?",
+     "label": "alleged",
+     "label_scope": "Stated as a presupposition by the submitter Sebastian Kaleta (question 8 refers to prosecutors delegated by Bodnar). The page names no prosecutors and gives no numbers.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0284",
+     "subject": "delegated prosecutors (names not given on this page)",
+     "subject_type": "other",
+     "relation": "asked whether they are members of the association",
+     "object": "Lex Super Omnia",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Czy delegowani są członkami stowarzyszenia Lex Super Omnia?",
+     "evidence_translation": "Are the delegated persons members of the association Lex Super Omnia?",
+     "label": "no_link",
+     "label_scope": "Membership is asked about in questions 9 to 11 and 13. The page gives no answer and states no membership.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "lex_super_omnia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "R038",
+   "url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf",
+   "host": "efile.fara.gov",
+   "lead_ref": "S2-Q20#16",
+   "capture_request": "Registrant and foreign principal of FARA registration 7246; whether Poland is mentioned.",
+   "fetch_status": "ok",
+   "fetch_note": "PDF filing, 11225 characters, dated 28 February 2024 and received by the NSD/FARA Registration Unit on 05/17/2024. The registration number 7246 does not appear in the extracted text, only in the file name. Some word spaces are dropped in extraction, for example 'ofJustice'. The page writes 'Waldemar Zurek' without the diacritic.",
+   "page_title": "ODF spearheads the review of cases of politically motivated prosecution in Poland",
+   "page_date": "28 February 2024",
+   "publisher": "Open Dialogue Foundation, Inc. (FARA filing)",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:43.181Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 11225,
+    "sha256": "8c3afabfb26bec3377428327f5ebfd7b1c238a3650df28de2fc32a9836462deb",
+    "url_read": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf"
+   },
+   "claims": [
+    {
+     "id": "B01-C0285",
+     "subject": "Open Dialogue Foundation, Inc.",
+     "subject_type": "org",
+     "relation": "is registered as an agent of",
+     "object": "Open Dialogue Foundation (Brussels, Belgium)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "The Open Dialogue Foundation, Inc. is registered as an agent of the Open Dialogue Foundation located in Brussels",
+     "evidence_translation": "Open Dialogue Foundation, Inc. is registered as an agent of the Open Dialogue Foundation based in Brussels, Belgium.",
+     "label": "fact",
+     "label_scope": "The filing states this about its registrant and foreign principal. The registration number 7246 is not in the text.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0286",
+     "subject": "Open Dialogue Foundation",
+     "subject_type": "org",
+     "relation": "initiated and co-organised, with Akcja Demokracja and Video-KOD, a public hearing to interview candidates for National Public Prosecutor on 21 February 2024",
+     "object": "Akcja Demokracja (Democracy Action)",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "On 21 February, ODF also initiated and co-organised, together with Democracy Action (Akcja Demokracja)",
+     "evidence_translation": "On 21 February, ODF also initiated and co-organised, together with Democracy Action (Akcja Demokracja), a hearing.",
+     "label": "fact",
+     "label_scope": "The filing states this about the hearing. It names Video-KOD and two other associations as co-organisers as well.",
+     "new_entities": [
+      "Video-KOD",
+      "Defensor Juris Bar Association",
+      "Skwer Association"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0287",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "published an open letter as Minister of Justice replying to the public appeal on 15 February 2024",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "the Ministry ofJustice published an open letter authored by Minister Bodnar6",
+     "evidence_translation": "The Ministry of Justice published an open letter written by Minister Bodnar.",
+     "label": "fact",
+     "label_scope": "Stated in the filing. The letter is not quoted in full.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0288",
+     "subject": "Open Dialogue Foundation",
+     "subject_type": "org",
+     "relation": "signatory and co-initiator of public appeal (Lech Walesa first signatory); appeal signed by 35 organisations including Themis Judges' Association",
+     "object": "Themis Judges' Association",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "including Action Democracy, Committee for the Defence of Democracy, Citizens of the Republic of Poland, Mobile Brigade",
+     "evidence_translation": "Signing organisations include Action Democracy, Committee for the Defence of Democracy, Citizens of the Republic of Poland and Mobile Brigade of the Opposition.",
+     "label": "fact",
+     "label_scope": "Listed in the filing as signatories of the public appeal. The full list is not on the page.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0289",
+     "subject": "Dariusz Korneluk",
+     "subject_type": "person",
+     "relation": "participated in the public hearing organised by ODF and is now National Public Prosecutor",
+     "object": "National Public Prosecutor's Office",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "The National Public Prosecutor’s Office is now headed by Dariusz Korneluk, who had participated in the public hearing",
+     "evidence_translation": "The National Public Prosecutor's Office is now headed by Dariusz Korneluk, who took part in the public hearing organised by ODF.",
+     "label": "fact",
+     "label_scope": "Stated in the filing. The page does not name the date of appointment.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0290",
+     "subject": "Waldemar Zurek",
+     "subject_type": "person",
+     "relation": "named by ODF as an independent judge persecuted by the previous government",
+     "object": "Open Dialogue Foundation",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "independent judges (e.g. Igor Tuleya, Waldemar Zurek)",
+     "evidence_translation": "Independent judges (for example Igor Tuleya and Waldemar Zurek) were named as persecuted.",
+     "label": "alleged",
+     "label_scope": "Claim made by Open Dialogue Foundation in this FARA filing. The page gives no independent evidence.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0291",
+     "subject": "Open Dialogue Foundation",
+     "subject_type": "org",
+     "relation": "no tie to Iustitia, Free Courts, HFHR, Batory Foundation, KOS, OKO.press, Donald Tusk, Michał Wawrykiewicz, Bogdan Święczkowski or Karol Nawrocki named on the page",
+     "object": "Iustitia; Free Courts (Wolne Sądy); HFHR; Batory Foundation; KOS; OKO.press",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Premier Donald Tusk",
+     "evidence_translation": "The filing names none of these organisations or persons.",
+     "label": "no_link",
+     "label_scope": "Checked the filing text for these names. None appears. The filing names Donald Tusk only in the R036 Iustitia text, not here.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
    "ref": "R044",
    "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
    "host": "judicialwatch.org",
@@ -6879,7 +7160,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0281",
+     "id": "B01-C0292",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "filed a Freedom of Information Act (FOIA) lawsuit against",
@@ -6899,7 +7180,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0282",
+     "id": "B01-C0293",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "requested State Department contracts and grant agreements connected to (FOIA request, November 2025)",
@@ -6919,7 +7200,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0283",
+     "id": "B01-C0294",
      "subject": "U.S. Department of State",
      "subject_type": "public_body",
      "relation": "failed to respond to the FOIA request from",
@@ -6939,7 +7220,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0284",
+     "id": "B01-C0295",
      "subject": "Open Society Foundations",
      "subject_type": "org",
      "relation": "made a grant to (according to the OSF website, as cited by Judicial Watch)",
@@ -6973,7 +7254,7 @@
      ]
     },
     {
-     "id": "B01-C0285",
+     "id": "B01-C0296",
      "subject": "Free Courts (Wolne Sądy)",
      "subject_type": "org",
      "relation": "lists as a partner organization on its website (per Judicial Watch)",
@@ -7003,7 +7284,7 @@
      ]
     },
     {
-     "id": "B01-C0286",
+     "id": "B01-C0297",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "co-founded",
@@ -7031,7 +7312,7 @@
      ]
     },
     {
-     "id": "B01-C0287",
+     "id": "B01-C0298",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is on the board of",
@@ -7062,7 +7343,7 @@
      ]
     },
     {
-     "id": "B01-C0288",
+     "id": "B01-C0299",
      "subject": "DemoCrisis",
      "subject_type": "org",
      "relation": "was founded as an umbrella organization of",
@@ -7084,7 +7365,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0289",
+     "id": "B01-C0300",
      "subject": "Civil Liberties Union for Europe (LibertiesEU)",
      "subject_type": "org",
      "relation": "was spun off from, and receives approximately 40% of its funding from (per Judicial Watch)",
@@ -7107,7 +7388,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0290",
+     "id": "B01-C0301",
      "subject": "Open Society Foundations",
      "subject_type": "org",
      "relation": "provided grant funding to (per Judicial Watch, citing a newsbusters.org post)",
@@ -7132,7 +7413,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0291",
+     "id": "B01-C0302",
      "subject": "U.S. Embassy Budapest’s Free Media Grant Program",
      "subject_type": "public_body",
      "relation": "supported one of the projects funded by",
@@ -7152,7 +7433,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0292",
+     "id": "B01-C0303",
      "subject": "Free Courts (Wolne Sądy)",
      "subject_type": "org",
      "relation": "holds a U.S. government contract, grant or payment (none stated)",
@@ -7171,7 +7452,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0293",
+     "id": "B01-C0304",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "holds a U.S. government contract, grant or payment (none stated)",
@@ -7190,7 +7471,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0294",
+     "id": "B01-C0305",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "held a National Endowment for Democracy fellowship (capacity not stated)",
@@ -7218,7 +7499,7 @@
      ]
     },
     {
-     "id": "B01-C0295",
+     "id": "B01-C0306",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a Member of the European Parliament (MEP)",
@@ -7239,7 +7520,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0296",
+     "id": "B01-C0307",
      "subject": "George Soros",
      "subject_type": "person",
      "relation": "personal or institutional tie to Free Courts or Michał Wawrykiewicz",
@@ -7267,7 +7548,7 @@
      ]
     },
     {
-     "id": "B01-C0297",
+     "id": "B01-C0308",
      "subject": "Judicial Watch press release (R044; duplicate R046)",
      "subject_type": "document",
      "relation": "names any of the other listed actors",
@@ -7317,7 +7598,7 @@
    "names_found_in_page_text": "5/5",
    "claims": [
     {
-     "id": "B01-C0298",
+     "id": "B01-C0309",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "filed a FOIA complaint against (Civil Action, U.S. District Court for the District of Columbia)",
@@ -7337,7 +7618,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0299",
+     "id": "B01-C0310",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "sent a FOIA request to, via the State Department's online portal",
@@ -7357,7 +7638,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0300",
+     "id": "B01-C0311",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "requested State Department contracts, grant agreements or similar records with",
@@ -7377,7 +7658,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0301",
+     "id": "B01-C0312",
      "subject": "U.S. Department of State",
      "subject_type": "public_body",
      "relation": "acknowledged receipt of the Judicial Watch request and assigned it a FOIA reference number",
@@ -7397,7 +7678,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0302",
+     "id": "B01-C0313",
      "subject": "U.S. Department of State",
      "subject_type": "public_body",
      "relation": "has not determined, notified or produced records for the Judicial Watch request",
@@ -7417,7 +7698,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0303",
+     "id": "B01-C0314",
      "subject": "Free Courts",
      "subject_type": "org",
      "relation": "holds a contract or grant agreement with (none identified)",
@@ -7438,7 +7719,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0304",
+     "id": "B01-C0315",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "held a National Endowment for Democracy fellowship (capacity not stated)",
@@ -7466,7 +7747,7 @@
      ]
     },
     {
-     "id": "B01-C0305",
+     "id": "B01-C0316",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "requested State Department contracts, grant agreements or similar records with",
@@ -7483,7 +7764,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0306",
+     "id": "B01-C0317",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "requested State Department contracts, grant agreements or similar records with",
@@ -7502,7 +7783,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0307",
+     "id": "B01-C0318",
      "subject": "Judicial Watch, Inc.",
      "subject_type": "org",
      "relation": "requested State Department contracts, grant agreements or similar records with",
@@ -7583,7 +7864,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0308",
+     "id": "B01-C0319",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "was Board Member of (resignation accepted)",
@@ -7612,7 +7893,7 @@
      ]
     },
     {
-     "id": "B01-C0309",
+     "id": "B01-C0320",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "decided to run as a 'candidate representing civil society' in, which the Foundation gives as the reason for leaving the board",
@@ -7634,7 +7915,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0310",
+     "id": "B01-C0321",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "will represent Poland in, after 'a great result' in the elections (per the Foundation)",
@@ -7659,7 +7940,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0311",
+     "id": "B01-C0322",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "party membership or party role",
@@ -7678,7 +7959,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0312",
+     "id": "B01-C0323",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "held a fellowship or grant from, or received funding through, the National Endowment for Democracy or the US government",
@@ -7706,7 +7987,7 @@
      ]
     },
     {
-     "id": "B01-C0313",
+     "id": "B01-C0324",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "received US government funding or NED grants",
@@ -7733,7 +8014,7 @@
      ]
     },
     {
-     "id": "B01-C0314",
+     "id": "B01-C0325",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "cites, as its concern in announcing the board change, the statutory independence requirement",
@@ -7753,7 +8034,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0315",
+     "id": "B01-C0326",
      "subject": "Sylwia Gregorczyk – Abram",
      "subject_type": "person",
      "relation": "is a board member directing the Foundation's statutory tasks (as of April 24, 2024)",
@@ -7785,7 +8066,7 @@
      ]
     },
     {
-     "id": "B01-C0316",
+     "id": "B01-C0327",
      "subject": "Paulina Kieszkowska",
      "subject_type": "person",
      "relation": "is a board member directing the Foundation's statutory tasks (as of April 24, 2024)",
@@ -7817,7 +8098,7 @@
      ]
     },
     {
-     "id": "B01-C0317",
+     "id": "B01-C0328",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "says its team has developed the Free Courts Initiative together over the years",
@@ -7839,7 +8120,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0318",
+     "id": "B01-C0329",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "submitted board-change amendments to",
@@ -7894,7 +8175,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0319",
+     "id": "B01-C0330",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "created an account on (crowdfunding for regular patron support)",
@@ -7917,7 +8198,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0320",
+     "id": "B01-C0331",
      "subject": "Patrons",
      "subject_type": "other",
      "relation": "give regular support to, as 'our Patrons'",
@@ -7937,7 +8218,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0321",
+     "id": "B01-C0332",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "represents judges, prosecutors and other lawyers as pro bono work",
@@ -7957,7 +8238,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0322",
+     "id": "B01-C0333",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "prepares reports, opinions and analyses of case law (fee status not stated)",
@@ -7977,7 +8258,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0323",
+     "id": "B01-C0334",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "supports and represents",
@@ -7997,7 +8278,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0324",
+     "id": "B01-C0335",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "is conducting over 50 proceedings before",
@@ -8023,7 +8304,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0325",
+     "id": "B01-C0336",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "says financial support for it and for other rule-of-law organisations can be treated as an investment",
@@ -8043,7 +8324,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0326",
+     "id": "B01-C0337",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "received US government funding or NED grants",
@@ -8094,7 +8375,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0327",
+     "id": "B01-C0338",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "established on (incorporation date)",
@@ -8114,7 +8395,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0328",
+     "id": "B01-C0339",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "main activity classified as",
@@ -8133,7 +8414,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0329",
+     "id": "B01-C0340",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "reported net sales revenue growth of",
@@ -8155,7 +8436,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0330",
+     "id": "B01-C0341",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "has key executives, management board members or financial auditors",
@@ -8174,7 +8455,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0331",
+     "id": "B01-C0342",
      "subject": "Fundacja Wolne Sady",
      "subject_type": "org",
      "relation": "received US government funding or NED grants, or any grant or donor funding",
@@ -8237,7 +8518,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0332",
+     "id": "B01-C0343",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "founded (emerged in Poland) in",
@@ -8257,7 +8538,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0333",
+     "id": "B01-C0344",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "co-initiated",
@@ -8283,7 +8564,7 @@
      ]
     },
     {
-     "id": "B01-C0334",
+     "id": "B01-C0345",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "provides pro bono legal representation to",
@@ -8302,7 +8583,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0335",
+     "id": "B01-C0346",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "legally represented",
@@ -8325,7 +8606,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0336",
+     "id": "B01-C0347",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "is listed as a finalist under the heading",
@@ -8344,7 +8625,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0337",
+     "id": "B01-C0348",
      "subject": "new government (not named on page)",
      "subject_type": "public_body",
      "relation": "adds responsibilities for (per page)",
@@ -8363,7 +8644,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0338",
+     "id": "B01-C0349",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "is linked to (via the case name)",
@@ -8384,7 +8665,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0339",
+     "id": "B01-C0350",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "receives funding or fellowship support from",
@@ -8411,7 +8692,7 @@
      ]
     },
     {
-     "id": "B01-C0340",
+     "id": "B01-C0351",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "holds a fellowship with",
@@ -8439,7 +8720,7 @@
      ]
     },
     {
-     "id": "B01-C0341",
+     "id": "B01-C0352",
      "subject": "World Justice Challenge (Free Courts finalist listing)",
      "subject_type": "event",
      "relation": "has a funder or sponsor named on the page",
@@ -8458,7 +8739,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0342",
+     "id": "B01-C0353",
      "subject": "Free Courts Foundation",
      "subject_type": "org",
      "relation": "is the same entity as",
@@ -8502,7 +8783,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0343",
+     "id": "B01-C0354",
      "subject": "Open Society Foundations",
      "subject_type": "org",
      "relation": "is named above the grant award for",
@@ -8531,7 +8812,7 @@
      ]
     },
     {
-     "id": "B01-C0344",
+     "id": "B01-C0355",
      "subject": "Open Society Foundations",
      "subject_type": "org",
      "relation": "award contract value (grant for Free Courts work)",
@@ -8562,7 +8843,7 @@
      ]
     },
     {
-     "id": "B01-C0345",
+     "id": "B01-C0356",
      "subject": "Free Courts",
      "subject_type": "org",
      "relation": "receives US government money through",
@@ -8581,7 +8862,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0346",
+     "id": "B01-C0357",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "holds a fellowship with",
@@ -8645,7 +8926,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0347",
+     "id": "B01-C0358",
      "subject": "Free Courts",
      "subject_type": "org",
      "relation": "founded in (described as an 'informal initiative')",
@@ -8665,7 +8946,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0348",
+     "id": "B01-C0359",
      "subject": "Maria Ejchart-Dubois",
      "subject_type": "person",
      "relation": "is named as a representative of (article: 'is represented by')",
@@ -8697,7 +8978,7 @@
      ]
     },
     {
-     "id": "B01-C0349",
+     "id": "B01-C0360",
      "subject": "Sylwia Gregorczyk-Abram",
      "subject_type": "person",
      "relation": "is named as a representative of (article: 'is represented by')",
@@ -8729,7 +9010,7 @@
      ]
     },
     {
-     "id": "B01-C0350",
+     "id": "B01-C0361",
      "subject": "Paulina Kieszkowska-Knapik",
      "subject_type": "person",
      "relation": "is named as a representative of (article: 'is represented by')",
@@ -8761,7 +9042,7 @@
      ]
     },
     {
-     "id": "B01-C0351",
+     "id": "B01-C0362",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is named as a representative of (article: 'is represented by')",
@@ -8790,7 +9071,7 @@
      ]
     },
     {
-     "id": "B01-C0352",
+     "id": "B01-C0363",
      "subject": "Lawyers from ‘Free Courts’ (not individually named in the article body)",
      "subject_type": "other",
      "relation": "were awarded",
@@ -8815,7 +9096,7 @@
      ]
     },
     {
-     "id": "B01-C0353",
+     "id": "B01-C0364",
      "subject": "European Parliament",
      "subject_type": "public_body",
      "relation": "awards (organiser of the prize)",
@@ -8840,7 +9121,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0354",
+     "id": "B01-C0365",
      "subject": "European Parliament Citizens' Prize (awarded to Free Courts lawyers)",
      "subject_type": "other",
      "relation": "carries prize money or a sponsor",
@@ -8859,7 +9140,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0355",
+     "id": "B01-C0366",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "holds a fellowship with",
@@ -8887,7 +9168,7 @@
      ]
     },
     {
-     "id": "B01-C0356",
+     "id": "B01-C0367",
      "subject": "Free Courts",
      "subject_type": "org",
      "relation": "receives US government money from",
@@ -8906,7 +9187,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0357",
+     "id": "B01-C0368",
      "subject": "Free Courts (informal initiative, 2021 article)",
      "subject_type": "org",
      "relation": "is the same body as",
@@ -8963,7 +9244,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0358",
+     "id": "B01-C0369",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "hosts (event page on NED's own site)",
@@ -8984,7 +9265,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0359",
+     "id": "B01-C0370",
      "subject": "Agnieszka Gmys-Wiktor",
      "subject_type": "person",
      "relation": "moderates",
@@ -9003,7 +9284,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0360",
+     "id": "B01-C0371",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is announced as panellist at",
@@ -9031,7 +9312,7 @@
      ]
     },
     {
-     "id": "B01-C0361",
+     "id": "B01-C0372",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "co-founded",
@@ -9063,7 +9344,7 @@
      ]
     },
     {
-     "id": "B01-C0362",
+     "id": "B01-C0373",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "co-founded",
@@ -9086,7 +9367,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0363",
+     "id": "B01-C0374",
      "subject": "International Association of Lawyers",
      "subject_type": "org",
      "relation": "awarded the 2022 Rule of Law Award to",
@@ -9106,7 +9387,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0364",
+     "id": "B01-C0375",
      "subject": "European Parliament",
      "subject_type": "public_body",
      "relation": "awarded the European Citizens’ Prize to",
@@ -9131,7 +9412,7 @@
      ]
     },
     {
-     "id": "B01-C0365",
+     "id": "B01-C0376",
      "subject": "Dr. Włodzimierz Wróbel",
      "subject_type": "person",
      "relation": "holds the title",
@@ -9150,7 +9431,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0366",
+     "id": "B01-C0377",
      "subject": "Dr. Włodzimierz Wróbel",
      "subject_type": "person",
      "relation": "served as judge assistant in",
@@ -9169,7 +9450,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0367",
+     "id": "B01-C0378",
      "subject": "Dr. Włodzimierz Wróbel",
      "subject_type": "person",
      "relation": "has worked in institutions associated with",
@@ -9188,7 +9469,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0368",
+     "id": "B01-C0379",
      "subject": "Dr. Włodzimierz Wróbel",
      "subject_type": "person",
      "relation": "is named to offer comments at",
@@ -9207,7 +9488,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0369",
+     "id": "B01-C0380",
      "subject": "Agnieszka Gmys-Wiktor",
      "subject_type": "person",
      "relation": "is Senior Program Officer for Central and Eastern Europe at",
@@ -9226,7 +9507,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0370",
+     "id": "B01-C0381",
      "subject": "Free Courts initiative",
      "subject_type": "org",
      "relation": "named as partner, co-host, sponsor or funder of",
@@ -9253,7 +9534,7 @@
      ]
     },
     {
-     "id": "B01-C0371",
+     "id": "B01-C0382",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "made a grant or sponsorship to (checked)",
@@ -9280,7 +9561,7 @@
      ]
     },
     {
-     "id": "B01-C0372",
+     "id": "B01-C0383",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "gave a fellowship or grant to (checked)",
@@ -9345,7 +9626,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0373",
+     "id": "B01-C0384",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is listed as a speaker at",
@@ -9364,7 +9645,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0374",
+     "id": "B01-C0385",
      "subject": "ImpactCEE",
      "subject_type": "org",
      "relation": "operates the Impact'23 event website",
@@ -9385,7 +9666,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0375",
+     "id": "B01-C0386",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is shown with affiliation",
@@ -9406,7 +9687,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0376",
+     "id": "B01-C0387",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "was elected to",
@@ -9428,7 +9709,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0377",
+     "id": "B01-C0388",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "stood on the electoral list of",
@@ -9457,7 +9738,7 @@
      ]
     },
     {
-     "id": "B01-C0378",
+     "id": "B01-C0389",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "joined",
@@ -9482,7 +9763,7 @@
      ]
     },
     {
-     "id": "B01-C0379",
+     "id": "B01-C0390",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "sits on",
@@ -9501,7 +9782,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0380",
+     "id": "B01-C0391",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "sits on",
@@ -9520,7 +9801,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0381",
+     "id": "B01-C0392",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a substitute member of",
@@ -9539,7 +9820,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0382",
+     "id": "B01-C0393",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a substitute member of, and deputy coordinator (per wording) at",
@@ -9558,7 +9839,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0383",
+     "id": "B01-C0394",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "co-founded",
@@ -9589,7 +9870,7 @@
      ]
     },
     {
-     "id": "B01-C0384",
+     "id": "B01-C0395",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "was one of the initiators of",
@@ -9616,7 +9897,7 @@
      ]
     },
     {
-     "id": "B01-C0385",
+     "id": "B01-C0396",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "represented, among others",
@@ -9637,7 +9918,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0386",
+     "id": "B01-C0397",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "contributed to the first ruling on the neo-KRS and the Disciplinary Chamber in",
@@ -9658,7 +9939,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0387",
+     "id": "B01-C0398",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a co-founder of",
@@ -9689,7 +9970,7 @@
      ]
     },
     {
-     "id": "B01-C0388",
+     "id": "B01-C0399",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is an active participant in the work of",
@@ -9708,7 +9989,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0389",
+     "id": "B01-C0400",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a recipient of a fellowship from",
@@ -9736,7 +10017,7 @@
      ]
     },
     {
-     "id": "B01-C0390",
+     "id": "B01-C0401",
      "subject": "Justice Defense Committee (named on the NED page, R056)",
      "subject_type": "org",
      "relation": "may be the same body as",
@@ -9757,7 +10038,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0391",
+     "id": "B01-C0402",
      "subject": "Wawrykiewicz's NED fellowship",
      "subject_type": "other",
      "relation": "may be paid from",
@@ -9785,7 +10066,7 @@
      ]
     },
     {
-     "id": "B01-C0392",
+     "id": "B01-C0403",
      "subject": "Free Courts initiative",
      "subject_type": "org",
      "relation": "received money from or was granted by",
@@ -9812,7 +10093,7 @@
      ]
     },
     {
-     "id": "B01-C0393",
+     "id": "B01-C0404",
      "subject": "Impact'23",
      "subject_type": "event",
      "relation": "names funders or sponsors on this speaker page",
@@ -9858,7 +10139,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0394",
+     "id": "B01-C0405",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a speaker at",
@@ -9877,7 +10158,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0395",
+     "id": "B01-C0406",
      "subject": "IMPACT FOUNDATION",
      "subject_type": "org",
      "relation": "is named in the footer of the ImpactCEE site with KRS 0000611651",
@@ -9923,7 +10204,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0396",
+     "id": "B01-C0407",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "describes itself as",
@@ -9942,7 +10223,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0397",
+     "id": "B01-C0408",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "resumed public listing of",
@@ -9961,7 +10242,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0398",
+     "id": "B01-C0409",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "states that some partners opt not to be named in",
@@ -9982,7 +10263,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0399",
+     "id": "B01-C0410",
      "subject": "Free Courts initiative",
      "subject_type": "org",
      "relation": "named as grantee on",
@@ -10035,7 +10316,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0400",
+     "id": "B01-C0411",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "is accountable to",
@@ -10054,7 +10335,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0401",
+     "id": "B01-C0412",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "says its funds are appropriated by",
@@ -10073,7 +10354,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0402",
+     "id": "B01-C0413",
      "subject": "National Endowment for Democracy",
      "subject_type": "org",
      "relation": "publishes",
@@ -10092,7 +10373,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0403",
+     "id": "B01-C0414",
      "subject": "Free Courts initiative",
      "subject_type": "org",
      "relation": "named in",
@@ -10145,7 +10426,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0404",
+     "id": "B01-C0415",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a speaker at",
@@ -10164,7 +10445,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0405",
+     "id": "B01-C0416",
      "subject": "ImpactCEE",
      "subject_type": "org",
      "relation": "operates the Impact'25 event website",
@@ -10181,7 +10462,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0406",
+     "id": "B01-C0417",
      "subject": "Impact'25",
      "subject_type": "event",
      "relation": "lists event partners (logos)",
@@ -10224,7 +10505,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0407",
+     "id": "B01-C0418",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a speaker at",
@@ -10243,7 +10524,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0408",
+     "id": "B01-C0419",
      "subject": "ImpactCEE",
      "subject_type": "org",
      "relation": "operates the Impact'24 event website",
@@ -10260,7 +10541,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0409",
+     "id": "B01-C0420",
      "subject": "Impact'24",
      "subject_type": "event",
      "relation": "held on",
@@ -10277,7 +10558,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0410",
+     "id": "B01-C0421",
      "subject": "Impact'25",
      "subject_type": "event",
      "relation": "dated (banner on the Impact'24 page)",
@@ -10294,7 +10575,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0411",
+     "id": "B01-C0422",
      "subject": "Impact'24",
      "subject_type": "event",
      "relation": "lists event partners (logos)",
@@ -10337,7 +10618,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0412",
+     "id": "B01-C0423",
      "subject": "Michał Wawrykiewicz",
      "subject_type": "person",
      "relation": "is a speaker at",
@@ -10356,7 +10637,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0413",
+     "id": "B01-C0424",
      "subject": "ImpactCEE",
      "subject_type": "org",
      "relation": "operates the Impact'26 event website",
@@ -10373,7 +10654,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0414",
+     "id": "B01-C0425",
      "subject": "Impact'26",
      "subject_type": "event",
      "relation": "lists event partners (logos)",
@@ -10413,7 +10694,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0415",
+     "id": "B01-C0426",
      "subject": "National Freedom Institute",
      "relation": "will control the distribution of public funds from the government and the European Union among",
      "object": "Poland's 100,000 NGOs",
@@ -10434,7 +10715,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0416",
+     "id": "B01-C0427",
      "subject": "Free Courts (Wolne Sądy)",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10456,7 +10737,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0417",
+     "id": "B01-C0428",
      "subject": "OKO.press",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10478,7 +10759,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0418",
+     "id": "B01-C0429",
      "subject": "Batory Foundation",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10507,7 +10788,7 @@
      ]
     },
     {
-     "id": "B01-C0419",
+     "id": "B01-C0430",
      "subject": "Iustitia",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10535,7 +10816,7 @@
      ]
     },
     {
-     "id": "B01-C0420",
+     "id": "B01-C0431",
      "subject": "Themis",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10563,7 +10844,7 @@
      ]
     },
     {
-     "id": "B01-C0421",
+     "id": "B01-C0432",
      "subject": "KOS",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10585,7 +10866,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0422",
+     "id": "B01-C0433",
      "subject": "HFHR",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10607,7 +10888,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0423",
+     "id": "B01-C0434",
      "subject": "Controversial Poland NGO Funding Bill Becomes Law",
      "relation": "describes EU money replacing US money for Polish NGOs",
      "object": "US funding",
@@ -10729,7 +11010,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0424",
+     "id": "B01-C0435",
      "subject": "Free Courts (Wolne Sądy)",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10751,7 +11032,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0425",
+     "id": "B01-C0436",
      "subject": "OKO.press",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10773,7 +11054,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0426",
+     "id": "B01-C0437",
      "subject": "Batory Foundation",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10802,7 +11083,7 @@
      ]
     },
     {
-     "id": "B01-C0427",
+     "id": "B01-C0438",
      "subject": "Iustitia",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10830,7 +11111,7 @@
      ]
     },
     {
-     "id": "B01-C0428",
+     "id": "B01-C0439",
      "subject": "Themis",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10858,7 +11139,7 @@
      ]
     },
     {
-     "id": "B01-C0429",
+     "id": "B01-C0440",
      "subject": "KOS",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10880,7 +11161,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0430",
+     "id": "B01-C0441",
      "subject": "HFHR",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -10902,7 +11183,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0431",
+     "id": "B01-C0442",
      "subject": "Casimir Pulaski Foundation funding page",
      "relation": "describes EU money replacing US money",
      "object": "US funding",
@@ -10941,7 +11222,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0432",
+     "id": "B01-C0443",
      "subject": "EXPLAINER: Free courts at stake as EU mulls Poland funding - CT Insider",
      "relation": "headline states that the EU is considering funding for Poland and that free courts are at stake",
      "object": "EU funding for Poland (no recipient named)",
@@ -10960,7 +11241,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0433",
+     "id": "B01-C0444",
      "subject": "Poland's prime minister (not named in the teaser)",
      "relation": "asserted, per the teaser, a claim about Polish judges under scrutiny",
      "object": "Polish judges under scrutiny (assertion text cut off in the teaser)",
@@ -10977,7 +11258,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0434",
+     "id": "B01-C0445",
      "subject": "Donald Tusk",
      "relation": "is the prime minister quoted in the teaser",
      "object": "the unnamed prime minister in the teaser",
@@ -10996,7 +11277,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0435",
+     "id": "B01-C0446",
      "subject": "Free Courts (Wolne Sądy)",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11017,7 +11298,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0436",
+     "id": "B01-C0447",
      "subject": "OKO.press",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11038,7 +11319,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0437",
+     "id": "B01-C0448",
      "subject": "Batory Foundation",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11066,7 +11347,7 @@
      ]
     },
     {
-     "id": "B01-C0438",
+     "id": "B01-C0449",
      "subject": "Iustitia",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11093,7 +11374,7 @@
      ]
     },
     {
-     "id": "B01-C0439",
+     "id": "B01-C0450",
      "subject": "Themis",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11120,7 +11401,7 @@
      ]
     },
     {
-     "id": "B01-C0440",
+     "id": "B01-C0451",
      "subject": "KOS",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11141,7 +11422,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0441",
+     "id": "B01-C0452",
      "subject": "HFHR",
      "relation": "received EU money in 2024-26 (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
      "object": "EU funding (CERV, AgoraEU, EEA/Norway grants, EU prizes)",
@@ -11162,7 +11443,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0442",
+     "id": "B01-C0453",
      "subject": "EXPLAINER: Free courts at stake as EU mulls Poland funding - CT Insider",
      "relation": "describes EU money replacing US money",
      "object": "US funding",
@@ -11220,7 +11501,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0443",
+     "id": "B01-C0454",
      "subject": "ProtoThema article (R071)",
      "subject_type": "document",
      "relation": "received EU money (CERV, AgoraEU, EEA/Norway grants, EU prizes) in 2024-26, per page",
@@ -11239,7 +11520,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0444",
+     "id": "B01-C0455",
      "subject": "ProtoThema article (R071)",
      "subject_type": "document",
      "relation": "describes EU money as replacing US money",
@@ -11256,7 +11537,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0445",
+     "id": "B01-C0456",
      "subject": "ProtoThema article (R071)",
      "subject_type": "document",
      "relation": "names as a party tied to the TK actors in the brief (judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs)",
@@ -11308,7 +11589,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0446",
+     "id": "B01-C0457",
      "subject": "Devex article (R072)",
      "subject_type": "document",
      "relation": "received EU money (CERV, AgoraEU, EEA/Norway grants, EU prizes) in 2024-26, per page",
@@ -11327,7 +11608,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0447",
+     "id": "B01-C0458",
      "subject": "Devex article (R072)",
      "subject_type": "document",
      "relation": "describes EU money as replacing US money, or Biden-era money as rushed out before leaving office",
@@ -11346,7 +11627,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0448",
+     "id": "B01-C0459",
      "subject": "Devex article (R072)",
      "subject_type": "document",
      "relation": "names as a party tied to the TK actors in the brief (judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs)",
@@ -11388,7 +11669,7 @@
    },
    "claims": [
     {
-     "id": "B01-C0449",
+     "id": "B01-C0460",
      "subject": "Washington Examiner article (R073)",
      "subject_type": "document",
      "relation": "received EU money (CERV, AgoraEU, EEA/Norway grants, EU prizes) in 2024-26, per page",
@@ -11409,7 +11690,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0450",
+     "id": "B01-C0461",
      "subject": "Washington Examiner article (R073)",
      "subject_type": "document",
      "relation": "describes EU money as replacing US money",
@@ -11428,7 +11709,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0451",
+     "id": "B01-C0462",
      "subject": "Washington Examiner article (R073)",
      "subject_type": "document",
      "relation": "names as a party tied to the TK actors in the brief (judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs)",
@@ -11497,7 +11778,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0452",
+     "id": "B01-C0463",
      "subject": "Mapuj Pomoc",
      "subject_type": "org",
      "relation": "lost its funding after Donald Trump's decision to halt foreign aid under USAID",
@@ -11517,7 +11798,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0453",
+     "id": "B01-C0464",
      "subject": "numerous civil society organizations in Poland (unnamed)",
      "subject_type": "other",
      "relation": "received funding for many years from",
@@ -11537,7 +11818,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0454",
+     "id": "B01-C0465",
      "subject": "Mapuj Pomoc",
      "subject_type": "org",
      "relation": "is searching for alternative funding and is in talks with (said Iwona Górka)",
@@ -11555,7 +11836,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0455",
+     "id": "B01-C0466",
      "subject": "Iwona Górka",
      "subject_type": "person",
      "relation": "representative of",
@@ -11573,7 +11854,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0456",
+     "id": "B01-C0467",
      "subject": "Free Courts / Wolne Sądy; OKO.press; Batory Foundation; Iustitia; Themis; KOS; HFHR",
      "subject_type": "org",
      "relation": "received EU money (CERV, AgoraEU, EEA/Norway grants or EU prizes) in 2024-26, or EU money was described as replacing US money",
@@ -11624,7 +11905,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0457",
+     "id": "B01-C0468",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "appointed president of, by Justice Minister Adam Bodnar",
@@ -11652,7 +11933,7 @@
      ]
     },
     {
-     "id": "B01-C0458",
+     "id": "B01-C0469",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "is president of, the judges' association",
@@ -11681,7 +11962,7 @@
      ]
     },
     {
-     "id": "B01-C0459",
+     "id": "B01-C0470",
      "subject": "Themis",
      "subject_type": "org",
      "relation": "defended court independence under PiS rule alongside the larger Iustitia",
@@ -11703,7 +11984,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0460",
+     "id": "B01-C0471",
      "subject": "Beata Morawiec",
      "subject_type": "person",
      "relation": "former president of",
@@ -11731,7 +12012,7 @@
      ]
     },
     {
-     "id": "B01-C0461",
+     "id": "B01-C0472",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "acted in defence of, in the Disciplinary Chamber",
@@ -11759,7 +12040,7 @@
      ]
     },
     {
-     "id": "B01-C0462",
+     "id": "B01-C0473",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "was president of, before PiS rule",
@@ -11779,7 +12060,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0463",
+     "id": "B01-C0474",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "was vice-president of, 2012-2017",
@@ -11807,7 +12088,7 @@
      ]
     },
     {
-     "id": "B01-C0464",
+     "id": "B01-C0475",
      "subject": "Olimpia Barańska-Małuszek",
      "subject_type": "person",
      "relation": "associated with (Jest związana z)",
@@ -11827,7 +12108,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0465",
+     "id": "B01-C0476",
      "subject": "Monika Frąckowiak",
      "subject_type": "person",
      "relation": "is a member of",
@@ -11847,7 +12128,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0466",
+     "id": "B01-C0477",
      "subject": "Jędrzej Czerwiński",
      "subject_type": "person",
      "relation": "associated with",
@@ -11867,7 +12148,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0467",
+     "id": "B01-C0478",
      "subject": "Mariusz Jałoszewski",
      "subject_type": "person",
      "relation": "journalist of (author bio)",
@@ -11887,7 +12168,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0468",
+     "id": "B01-C0479",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "fought for free courts (headline wording)",
@@ -11909,7 +12190,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0469",
+     "id": "B01-C0480",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "sits on or is linked to the Constitutional Tribunal (Trybunał Konstytucyjny)",
@@ -11938,7 +12219,7 @@
      ]
     },
     {
-     "id": "B01-C0470",
+     "id": "B01-C0481",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "writes for or is interviewed by Gazeta Wyborcza, TOK FM or wyborcza.pl (Agora outlets)",
@@ -11960,7 +12241,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0471",
+     "id": "B01-C0482",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "is a member of or involved with Wolne Sądy / Free Courts",
@@ -12031,7 +12312,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0472",
+     "id": "B01-C0483",
      "subject": "Krystian Markiewicz",
      "relation": "won election as prezes (president) of",
      "object": "Stowarzyszenie Sędziów Polskich Iustitia",
@@ -12060,7 +12341,7 @@
      ]
     },
     {
-     "id": "B01-C0473",
+     "id": "B01-C0484",
      "subject": "Krystian Markiewicz",
      "relation": "received votes in the Iustitia presidential election: 124 for, 24 against, 3 abstentions",
      "object": "Stowarzyszenie Sędziów Polskich Iustitia",
@@ -12092,7 +12373,7 @@
      ]
     },
     {
-     "id": "B01-C0474",
+     "id": "B01-C0485",
      "subject": "Krystian Markiewicz",
      "relation": "is a judge of",
      "object": "Sąd Okręgowy w Katowicach",
@@ -12112,7 +12393,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0475",
+     "id": "B01-C0486",
      "subject": "Krystian Markiewicz",
      "relation": "holds an academic post (adiunkt, civil procedure chair, Faculty of Law and Administration) at",
      "object": "Uniwersytet Śląski",
@@ -12132,7 +12413,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0476",
+     "id": "B01-C0487",
      "subject": "Krystian Markiewicz",
      "relation": "headed the Silesian branch (śląski oddział) of, for several years",
      "object": "Stowarzyszenie Sędziów Polskich Iustitia",
@@ -12161,7 +12442,7 @@
      ]
     },
     {
-     "id": "B01-C0477",
+     "id": "B01-C0488",
      "subject": "Krystian Markiewicz",
      "relation": "is co-author of the legal publication",
      "object": "\"Lex bez łez\"",
@@ -12181,7 +12462,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0478",
+     "id": "B01-C0489",
      "subject": "Krystian Markiewicz",
      "relation": "received a distinction (wyróżnienie) in the competition for",
      "object": "Obywatelski Sędzia Roku",
@@ -12201,7 +12482,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0479",
+     "id": "B01-C0490",
      "subject": "Krystian Markiewicz",
      "relation": "said before the Iustitia presidential election that the judiciary must cooperate with the Supreme Court, the National Council of the Judiciary and the Ombudsman",
      "object": "Sąd Najwyższy; Krajowa Rada Sądownictwa; Rzecznik Praw Obywatelskich",
@@ -12228,7 +12509,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0480",
+     "id": "B01-C0491",
      "subject": "Iustitia",
      "relation": "is described in the article as the largest Polish association of judges, with 3504 members in 33 branches",
      "object": "3504 członków zrzeszonych w 33 oddziałach",
@@ -12248,7 +12529,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0481",
+     "id": "B01-C0492",
      "subject": "Krystian Markiewicz",
      "relation": "writes for, or is interviewed by (no such tie found on this page)",
      "object": "Gazeta Wyborcza, TOK FM, wyborcza.pl (Agora)",
@@ -12269,7 +12550,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0482",
+     "id": "B01-C0493",
      "subject": "Marcin Dziurda",
      "relation": "is listed as an author (with Henryk Pietrzkowski) of the book",
      "object": "Metodyka pracy sędziego w sprawach cywilnych",
@@ -12291,7 +12572,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0483",
+     "id": "B01-C0494",
      "subject": "Iustitia",
      "relation": "expresses support for the 'new' judges of the Constitutional Tribunal (headline)",
      "object": "„nowych” sędziów Trybunału Konstytucyjnego",
@@ -12319,7 +12600,7 @@
      ]
     },
     {
-     "id": "B01-C0484",
+     "id": "B01-C0495",
      "subject": "Sędzia Korwin-Piotrowska",
      "relation": "headline attributes to her the claim that Święczkowski and Sochański have no entry to the Tribunal",
      "object": "Święczkowski; Sochański",
@@ -12351,7 +12632,7 @@
      ]
     },
     {
-     "id": "B01-C0485",
+     "id": "B01-C0496",
      "subject": "Donald Tusk",
      "relation": "PM characterises an attack on the Tribunal and judges, per headline (headline is phrased as a question about a compromise)",
      "object": "Trybunał i sędziów",
@@ -12371,7 +12652,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0486",
+     "id": "B01-C0497",
      "subject": "Zgromadzenie Ogólne Sędziów TK",
      "relation": "headline (question form) says it will deal on 3 November with the immunity of Święczkowski",
      "object": "immunitet Święczkowskiego",
@@ -12389,7 +12670,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0487",
+     "id": "B01-C0498",
      "subject": "Byli prezesi TK",
      "relation": "headline reports former TK presidents saying the actions of the 'new' TK judges are necessary to get out of the crisis",
      "object": "nowych sędziów TK",
@@ -12455,7 +12736,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0488",
+     "id": "B01-C0499",
      "subject": "Sędzia Korwin-Piotrowska",
      "relation": "speaks about a conversation with the TK president (headline)",
      "object": "prezes TK",
@@ -12475,7 +12756,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0489",
+     "id": "B01-C0500",
      "subject": "Sędzia Korwin-Piotrowska",
      "relation": "writes for, or is interviewed by (no such tie found in the returned text)",
      "object": "Gazeta Wyborcza, TOK FM, wyborcza.pl (Agora)",
@@ -12496,7 +12777,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0490",
+     "id": "B01-C0501",
      "subject": "Sędzia Szostek i Markiewicz",
      "relation": "speak about the summoning of police before the TK building (related-item headline)",
      "object": "wezwaniu policji przed budynek TK",
@@ -12516,7 +12797,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0491",
+     "id": "B01-C0502",
      "subject": "Waldemar Żurek",
      "relation": "comments on the presence of police and a prosecutor in front of the TK (related-item headline)",
      "object": "obecności policji i prokuratora przed TK",
@@ -12536,7 +12817,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0492",
+     "id": "B01-C0503",
      "subject": "Żurek",
      "relation": "says he sent a request to ICE about the stay of Ziobry in the USA (related-item headline)",
      "object": "ICE",
@@ -12601,7 +12882,7 @@
    "names_found_in_page_text": "16/16",
    "claims": [
     {
-     "id": "B01-C0493",
+     "id": "B01-C0504",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "submitted (Zgłaszający) interpellation no. 4234 to the prime minister",
@@ -12622,7 +12903,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0494",
+     "id": "B01-C0505",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "signs as Member of the Sejm",
@@ -12639,7 +12920,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0495",
+     "id": "B01-C0506",
      "subject": "Krzysztofa Szczuckiego",
      "subject_type": "person",
      "relation": "submitted query no. 456 to the KPRM about a session of the Council for matters of companies with State Treasury participation",
@@ -12660,7 +12941,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0496",
+     "id": "B01-C0507",
      "subject": "Macieja Berka",
      "subject_type": "person",
      "relation": "sent a request for an extension of the time to reply; the page gives only the title 'minister'",
@@ -12678,7 +12959,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0497",
+     "id": "B01-C0508",
      "subject": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
      "subject_type": "public_body",
      "relation": "reportedly gave a positive opinion to 15 named persons (see names_listed)",
@@ -12699,7 +12980,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0498",
+     "id": "B01-C0509",
      "subject": "Maciej Henryk Taborowski",
      "subject_type": "person",
      "relation": "is named (as one of 15 persons) as having received a positive opinion of the Council for matters of companies with State Treasury participation",
@@ -12719,7 +13000,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0499",
+     "id": "B01-C0510",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a state or foreign client, or as a fee recipient from a public body, in",
@@ -12738,7 +13019,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0500",
+     "id": "B01-C0511",
      "subject": "Interpelacja nr 4234",
      "subject_type": "document",
      "relation": "is addressed to the prime minister, who is named",
@@ -12798,7 +13079,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0501",
+     "id": "B01-C0512",
      "subject": "Arkadiusz Myrcha",
      "subject_type": "person",
      "relation": "signs the reply as Sekretarz Stanu (Secretary of State) of the Ministry of Justice",
@@ -12823,7 +13104,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0502",
+     "id": "B01-C0513",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "submitted 67 parliamentary queries to the Ministry of Justice concerning 86 civil-law contracts (with annexes) concluded by the ministry in 2024",
@@ -12846,7 +13127,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0503",
+     "id": "B01-C0514",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided to publish a register of civil-law contracts concluded in the justice department for 2019–2023",
@@ -12866,7 +13147,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0504",
+     "id": "B01-C0515",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided that a further register was published, covering contracts concluded in 2024",
@@ -12886,7 +13167,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0505",
+     "id": "B01-C0516",
      "subject": "Ministerstwo Sprawiedliwości",
      "subject_type": "public_body",
      "relation": "published information on contracts concluded within the Justice Fund",
@@ -12910,7 +13191,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0506",
+     "id": "B01-C0517",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "is",
@@ -12931,7 +13212,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0507",
+     "id": "B01-C0518",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a contractor, client or fee recipient in",
@@ -12977,7 +13258,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0508",
+     "id": "B01-C0519",
      "subject": "Jerzego Polaczka",
      "subject_type": "person",
      "relation": "submitted, with a group of MPs, query K10ZAP729 raising an alleged conflict of interest of a minister (not named)",
@@ -12997,7 +13278,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0509",
+     "id": "B01-C0520",
      "subject": "Minister (not named on the page)",
      "subject_type": "person",
      "relation": "is described as chair of the Standing Committee of the Council of Ministers",
@@ -13014,7 +13295,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0510",
+     "id": "B01-C0521",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "states that there is no legal bar on combining membership of the Council of Ministers, or the presidency of the Government Legislation Centre, with radca prawny status",
@@ -13039,7 +13320,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0511",
+     "id": "B01-C0522",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "signed the reply (DSP.INT.4611.160.2024) addressed to Marshal of the Sejm Szymon Hołownia",
@@ -13062,7 +13343,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0512",
+     "id": "B01-C0523",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as client, contractor or fee recipient in",
@@ -13133,7 +13414,7 @@
    "names_found_in_page_text": "26/26",
    "claims": [
     {
-     "id": "B01-C0513",
+     "id": "B01-C0524",
      "subject": "Hoffman, Taborowski i Wspólnicy",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, as shown on this page",
@@ -13152,7 +13433,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0514",
+     "id": "B01-C0525",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in or linked to this sitting",
@@ -13171,7 +13452,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0515",
+     "id": "B01-C0526",
      "subject": "Waldemar Żurek",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -13190,7 +13471,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0516",
+     "id": "B01-C0527",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -13209,7 +13490,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0517",
+     "id": "B01-C0528",
      "subject": "Sylwia Kuźniar",
      "subject_type": "person",
      "relation": "spoke for the Ministry of Justice at the Sejm Petitions Committee sitting, invited by presiding member Urszula Augustyn (KO)",
@@ -13258,7 +13539,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0518",
+     "id": "B01-C0529",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is entered on the list of advocates (lista adwokatów) in the current chamber",
@@ -13278,7 +13559,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0519",
+     "id": "B01-C0530",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "has register status 'Wykonujący zawód' (practising the profession) on the advocates' register, number WAW/ADW/9259",
@@ -13297,7 +13578,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0520",
+     "id": "B01-C0531",
      "subject": "DR HAB Taborowski Maciej (WAW/ADW/9259)",
      "subject_type": "person",
      "relation": "is the same person as the TK judge Maciej Taborowski named in the requested list",
@@ -13318,7 +13599,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0521",
+     "id": "B01-C0532",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is recorded as practising at the firm named as his place of practice",
@@ -13345,7 +13626,7 @@
      ]
     },
     {
-     "id": "B01-C0522",
+     "id": "B01-C0533",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is listed under the heading 'PREFEROWANA PRAKTYKA' with the Izba Adwokacka w Warszawie",
@@ -13364,7 +13645,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0523",
+     "id": "B01-C0534",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "holds a Constitutional Tribunal post, or is subject to other-activity limits under the TK Act, per this entry",
@@ -13392,7 +13673,7 @@
      ]
     },
     {
-     "id": "B01-C0524",
+     "id": "B01-C0535",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is also listed as a legal adviser (radca prawny)",
@@ -13413,7 +13694,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0525",
+     "id": "B01-C0536",
      "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, per this entry",
@@ -13473,7 +13754,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0526",
+     "id": "B01-C0537",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a candidate for judge of the Constitutional Tribunal (TK)",
@@ -13500,7 +13781,7 @@
      ]
     },
     {
-     "id": "B01-C0527",
+     "id": "B01-C0538",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a former 'superminister', described as the minister responsible for supervising implementation of government policy, who came from government",
@@ -13519,7 +13800,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0528",
+     "id": "B01-C0539",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "moved from the centre of executive power to a constitutional-judge candidacy in an express transfer",
@@ -13545,7 +13826,7 @@
      ]
     },
     {
-     "id": "B01-C0529",
+     "id": "B01-C0540",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "does not meet key formal requirements for the TK post, per the author's analysis",
@@ -13564,7 +13845,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0530",
+     "id": "B01-C0541",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is said by the author not to meet the statutory minimum of 10 years of actual practice as a legal adviser",
@@ -13585,7 +13866,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0531",
+     "id": "B01-C0542",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "is described on the page as a former deputy minister of justice",
@@ -13602,7 +13883,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0532",
+     "id": "B01-C0543",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "argues in the headline that being entered on a list is not 'wykonywanie zawodu' (practising the profession)",
@@ -13619,7 +13900,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0533",
+     "id": "B01-C0544",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as calling for the Tribunal grounds to be left by coercive forces",
@@ -13644,7 +13925,7 @@
      ]
     },
     {
-     "id": "B01-C0534",
+     "id": "B01-C0545",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as having made a night visit to the TK",
@@ -13716,7 +13997,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0535",
+     "id": "B01-C0546",
      "subject": "Trybunał Konstytucyjny (case K 3/10)",
      "subject_type": "public_body",
      "relation": "found constitutional (as reported) the provision allowing entry to the legal-adviser profession without the legal-adviser exam for persons holding judge or prosecutor posts or practising as advocates or notaries",
@@ -13736,7 +14017,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0536",
+     "id": "B01-C0547",
      "subject": "resort sprawiedliwości (Ministry of Justice)",
      "subject_type": "public_body",
      "relation": "was working on rules to simplify access to the legal-adviser profession (2012 statement)",
@@ -13759,7 +14040,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0537",
+     "id": "B01-C0548",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named on the page in any role (advocate, legal adviser or TK judge)",
@@ -13779,7 +14060,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0538",
+     "id": "B01-C0549",
      "subject": "Constitutional Tribunal Act (ustawa o Trybunale Konstytucyjnym): rules on other activity or incompatibility of judges",
      "subject_type": "other",
      "relation": "are stated in the article",
@@ -13799,7 +14080,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0539",
+     "id": "B01-C0550",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named on the page",
@@ -13853,7 +14134,7 @@
    "names_found_in_page_text": "10/10",
    "claims": [
     {
-     "id": "B01-C0540",
+     "id": "B01-C0551",
      "subject": "Trybunał Konstytucyjny (full bench, case W. 2/92)",
      "subject_type": "public_body",
      "relation": "issued a resolution (uchwała) on the interpretation of arts 23(1), 26 and 28(1)(2) of the Act on Legal Advisers of 6 July 1982",
@@ -13873,7 +14154,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0541",
+     "id": "B01-C0552",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "held (ustalił) that entry on the list of legal advisers of a person practising as a judge or prosecutor is inadmissible",
@@ -13893,7 +14174,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0542",
+     "id": "B01-C0553",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "filed a separate opinion (zadanie odrębne) stating that he did not share the interpretation in resolution W. 2/92",
@@ -13916,7 +14197,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0543",
+     "id": "B01-C0554",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "reads art. 26 of the 1982 Act as banning only simultaneous practice of the listed professions with the legal-adviser profession",
@@ -13934,7 +14215,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0544",
+     "id": "B01-C0555",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "cites, as the procedural basis of the proceedings (w trybie art. 13 pkt 1 i 2), the Constitutional Tribunal Act of 29 April 1985",
@@ -13954,7 +14235,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0545",
+     "id": "B01-C0556",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in the document in any role",
@@ -13974,7 +14255,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0546",
+     "id": "B01-C0557",
      "subject": "Constitutional Tribunal Act of 29 April 1985: incompatibility or other-activity rules for judges",
      "subject_type": "other",
      "relation": "are reproduced or stated in the document",
@@ -13994,7 +14275,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0547",
+     "id": "B01-C0558",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named in the document",
@@ -14040,7 +14321,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0548",
+     "id": "B01-C0559",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "has a biography on this page stating party affiliation or government role",
@@ -14057,7 +14338,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0549",
+     "id": "B01-C0560",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is captioned as 'Premier' (prime minister) in news images on the gov.pl homepage",
@@ -14106,7 +14387,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0550",
+     "id": "B01-C0561",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 19",
@@ -14126,7 +14407,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0551",
+     "id": "B01-C0562",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Coalition' in the member table",
@@ -14151,7 +14432,7 @@
      ]
     },
     {
-     "id": "B01-C0552",
+     "id": "B01-C0563",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 31",
@@ -14171,7 +14452,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0553",
+     "id": "B01-C0564",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Platform'; parliamentary group as 'Civic Coalition'",
@@ -14192,7 +14473,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0554",
+     "id": "B01-C0565",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "was replaced as a Sejm member (footnote text 'Replaced Borys Budka')",
@@ -14212,7 +14493,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0555",
+     "id": "B01-C0566",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on The Left list in constituency 1",
@@ -14232,7 +14513,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0556",
+     "id": "B01-C0567",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "party is listed as 'New Left' (parliamentary group 'The Left')",
@@ -14251,7 +14532,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0557",
+     "id": "B01-C0568",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -14268,7 +14549,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0558",
+     "id": "B01-C0569",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -14285,7 +14566,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0559",
+     "id": "B01-C0570",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -14340,7 +14621,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0560",
+     "id": "B01-C0571",
      "subject": "Grupa PTWP",
      "subject_type": "org",
      "relation": "says the 2025 EEC is its own event ('autorskie wydarzenie Grupy PTWP') and that it is the organiser",
@@ -14360,7 +14641,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0561",
+     "id": "B01-C0572",
      "subject": "Polskie Towarzystwo Wspierania Przedsiębiorczości S.A.",
      "subject_type": "company",
      "relation": "is the parent company (spółka matka) of the PTWP capital group, called 'Grupa PTWP' in the release",
@@ -14378,7 +14659,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0562",
+     "id": "B01-C0573",
      "subject": "PTWP Event Center",
      "subject_type": "company",
      "relation": "manages the International Congress Centre and the Spodek hall in Katowice",
@@ -14396,7 +14677,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0563",
+     "id": "B01-C0574",
      "subject": "Międzynarodowe Centrum Kongresowe w Katowicach",
      "subject_type": "other",
      "relation": "is the venue of the 2025 EEC",
@@ -14416,7 +14697,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0564",
+     "id": "B01-C0575",
      "subject": "Województwo Śląskie",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -14436,7 +14717,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0565",
+     "id": "B01-C0576",
      "subject": "Miasto Katowice",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -14458,7 +14739,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0566",
+     "id": "B01-C0577",
      "subject": "Górnośląsko-Zagłębiowska Metropolia",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -14478,7 +14759,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0567",
+     "id": "B01-C0578",
      "subject": "Wojciech Kuśpik",
      "subject_type": "person",
      "relation": "is prezes zarządu (management board president) of PTWP SA",
@@ -14496,7 +14777,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0568",
+     "id": "B01-C0579",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -14514,7 +14795,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0569",
+     "id": "B01-C0580",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is named as a management board president of ING Bank Śląski",
@@ -14532,7 +14813,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0570",
+     "id": "B01-C0581",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -14550,7 +14831,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0571",
+     "id": "B01-C0582",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is named as a management board president of mBank",
@@ -14568,7 +14849,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0572",
+     "id": "B01-C0583",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -14586,7 +14867,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0573",
+     "id": "B01-C0584",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is named as a management board president of PKO BP",
@@ -14604,7 +14885,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0574",
+     "id": "B01-C0585",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -14622,7 +14903,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0575",
+     "id": "B01-C0586",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is named as a management board president of Bank Millennium",
@@ -14640,7 +14921,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0576",
+     "id": "B01-C0587",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is stated as invited to take part in the EEC 2025 capital-markets session as GPW president",
@@ -14658,7 +14939,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0577",
+     "id": "B01-C0588",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is prezes (president) of GPW",
@@ -14676,7 +14957,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0578",
+     "id": "B01-C0589",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -14694,7 +14975,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0579",
+     "id": "B01-C0590",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -14712,7 +14993,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0580",
+     "id": "B01-C0591",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -14730,7 +15011,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0581",
+     "id": "B01-C0592",
      "subject": "Sikora",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -14748,7 +15029,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0582",
+     "id": "B01-C0593",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",

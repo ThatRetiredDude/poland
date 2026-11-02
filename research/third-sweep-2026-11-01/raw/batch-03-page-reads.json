@@ -173,6 +173,69 @@
    "note": null
   },
   {
+   "agent": "read:C3_us_money:2",
+   "url": "https://www.gmfus.org/event/restoring-judicial-independence-poland-progress-so-far",
+   "final_url": "https://www.gmfus.org/event/restoring-judicial-independence-poland-progress-so-far",
+   "fetched_at": "2026-11-02T00:14:56.590Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 11332,
+   "sha256": "1bae610724f573961ea7f311c77dfb2a1342693984943180a63e53da359a09ba",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:2",
+   "url": "https://grantable.co/grants/strengthening-democratic-resilience-and-civil-society-in-poland-6298be21a270",
+   "final_url": "https://grantable.co/grants/strengthening-democratic-resilience-and-civil-society-in-poland-6298be21a270",
+   "fetched_at": "2026-11-02T00:14:56.674Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12628,
+   "sha256": "14235849033a55daf9c097da5c7e7f4f7a3ff28525376527403664fec4501486",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:2",
+   "url": "https://wolnesady.org/en/justice-under-attack-lessons-from-poland-bratislava-11-04-2024/",
+   "final_url": "https://wolnesady.org/en/justice-under-attack-lessons-from-poland-bratislava-11-04-2024/",
+   "fetched_at": "2026-11-02T00:15:02.263Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 3227,
+   "sha256": "433e2f55c956cbfb0d1e25cf427cb225923b0a09424fc20bbbcbb64a9d3ac3d8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:2",
+   "url": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+   "final_url": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+   "fetched_at": "2026-11-02T00:17:36.313Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20662,
+   "sha256": "6839ecb01e2b804ca751b56ca30a973bdbcae7b99a663fa8b95fbdd4aa67d6b4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C3_us_money:2",
+   "url": "https://wolnesady.org/files/Venue-2-poster.png",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:17:37.372Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": true,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 94,
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+  },
+  {
    "agent": "read:C4_private_foundations:1",
    "url": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf",
    "final_url": "https://www.sigrid-rausing-trust.org/wp-content/uploads/2026/07/SRT-Activity-Report-2024-25-V5.pdf",
@@ -801,6 +864,222 @@
    "returned": "reader_extract",
    "extract_chars": 995,
    "extract_sha256": "5ab05d0dc1676baaad6af5b1430faabd234230f4187a958744d130af7c31f8eb"
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
+   "final_url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
+   "fetched_at": "2026-11-02T00:19:06.470Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 11824,
+   "sha256": "bac53334ec23fd85967fb6cc50bc04ff51780d480d3bacc441669b0a2ad43ddd",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "final_url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "fetched_at": "2026-11-02T00:19:06.483Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5719,
+   "sha256": "d0e6e8084765c1cdb1dbedd883a4107cb09c27a1d840a3f9d3fff319764ebcbf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://oko.press/to-ona-zglosila-iustitie-do-nagrody-nobla",
+   "final_url": "https://oko.press/to-ona-zglosila-iustitie-do-nagrody-nobla",
+   "fetched_at": "2026-11-02T00:19:06.581Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 18052,
+   "sha256": "2b4dcb3c2518f98c1f31b665dcb4f67a6372bd62b34cbe4b5928f10398427b18",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://aktywniobywatele.org.pl/en/projekty/helsinki-foundation-for-human-rights/",
+   "final_url": "https://aktywniobywatele.org.pl/en/projekty/helsinki-foundation-for-human-rights/",
+   "fetched_at": "2026-11-02T00:19:06.713Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12686,
+   "sha256": "4c240b2f0b38a83be51feb8839b9e9fc090c5cca43f79d8f6df65581be719b4c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://www.domstol.no/en/norwegian-courts-administration/international-cooperation/poland/",
+   "final_url": "https://www.domstol.no/en/norwegian-courts-administration/international-cooperation/poland/",
+   "fetched_at": "2026-11-02T00:19:07.833Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 6412,
+   "sha256": "e7aedb9d515cc77c64ce2dda47cfa16739a22cfd0783dc063a289a565995faaa",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:8",
+   "url": "https://gulbenkian.pt/emifund/projects/scale-up-of-fact-checking-activity-of-oko-press-online-portal",
+   "final_url": "https://gulbenkian.pt/emifund/projects/scale-up-of-fact-checking-activity-of-oko-press-online-portal",
+   "fetched_at": "2026-11-02T00:21:52.722Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1061,
+   "sha256": "a5d1ee05498ff5e5dfbaad260ef720d5239b20a8fb31c88737fe79d771607667",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:8",
+   "url": "https://www.developmentaid.org/organizations/awards/view/603955/europe-and-central-asia-to-support-the-grantees-work-on-pro-democracy-research-and-strategic-communi",
+   "final_url": "https://www.developmentaid.org/organizations/awards/view/603955/europe-and-central-asia-to-support-the-grantees-work-on-pro-democracy-research-and-strategic-communi",
+   "fetched_at": "2026-11-02T00:21:53.101Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 856,
+   "sha256": "1a21dd472e0d5dcd634cdf53321ac7bebe69be5a39aef94a523bc7251250fbef",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:4",
+   "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:54.141Z",
+   "http": null,
+   "content_type": null,
+   "chars": 41101,
+   "sha256": "a9187c61d44b10b1d7bc7261643ebae7f35a2bd2a2cdeb439a34410970270fec",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:5",
+   "url": "https://aktywniobywatele.org.pl/en/projekty/foundation-for-civic-monitoring-oko/",
+   "final_url": "https://aktywniobywatele.org.pl/en/projekty/foundation-for-civic-monitoring-oko/",
+   "fetched_at": "2026-11-02T00:18:21.896Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 13131,
+   "sha256": "ead131b9a3f2305c1d026f6607fde0cb1499303e864ba61bd8a9a70df969d629",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:5",
+   "url": "https://osf.cz/en/2025/11/10/the-stronger-roots-program-will-support-84-organizations-and-networks-with-29-million-euro-copy/",
+   "final_url": "https://osf.cz/en/2025/11/10/the-stronger-roots-program-will-support-84-organizations-and-networks-with-29-million-euro-copy/",
+   "fetched_at": "2026-11-02T00:18:21.910Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 10060,
+   "sha256": "0f4f2553cd9c43596cd5bffb25a87436bc1ca19c30dc22133307405d3b0525a5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:5",
+   "url": "https://www.batory.org.pl/en/grants/the_equal_rights_program/",
+   "final_url": "https://www.batory.org.pl/en/grants/the_equal_rights_program/",
+   "fetched_at": "2026-11-02T00:18:21.951Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 17748,
+   "sha256": "83e3b16bd0af87c3d129e84e3cd326e0631a7f4b03f47a188642275d910c2800",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:5",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2025/11/Decyzja-Zarzadu-Fundacji-im.-Stefana-Batorego-nr-1857-z-dnia-5-listopada-2025r.pdf",
+   "final_url": "https://www.batory.org.pl/wp-content/uploads/2025/11/Decyzja-Zarzadu-Fundacji-im.-Stefana-Batorego-nr-1857-z-dnia-5-listopada-2025r.pdf",
+   "fetched_at": "2026-11-02T00:18:22.000Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 7976,
+   "sha256": "3fb15856ab57b0eb18ff16d6fe44b85e7c16aa9c284ccbd04868bf8df289d90c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:5",
+   "url": "https://www.batory.org.pl/2025/11/10/konkurs-na-dotacje-w-programie-stronger-roots-oglaszamy-wyniki/",
+   "final_url": "https://www.batory.org.pl/2025/11/10/konkurs-na-dotacje-w-programie-stronger-roots-oglaszamy-wyniki/",
+   "fetched_at": "2026-11-02T00:18:22.003Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19679,
+   "sha256": "a981bb009bca8c27a2a09437844592a4344bc67f2927baa083384c67299e8ff9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:7",
+   "url": "https://www.sigrid-rausing-trust.org/grantee/helsinki-foundation-for-human-rights/",
+   "final_url": "https://www.sigrid-rausing-trust.org/grantee/helsinki-foundation-for-human-rights/",
+   "fetched_at": "2026-11-02T00:20:09.354Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 5257,
+   "sha256": "b890c2f67490b51bb7661f23fe714142b947c1bfd5871573962f538ee98e3eee",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:7",
+   "url": "https://www.developmentaid.org/organizations/awards/view/603514/europe-and-central-asia-to-decrease-the-risk-of-anti-climate-backlash-by-building-support-for-just-t",
+   "final_url": "https://www.developmentaid.org/organizations/awards/view/603514/europe-and-central-asia-to-decrease-the-risk-of-anti-climate-backlash-by-building-support-for-just-t",
+   "fetched_at": "2026-11-02T00:20:09.357Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 853,
+   "sha256": "5e4c5bdf1394dd94ece47c63e15ecc72c5d294c1e5e2bd2acc491269b4cb98c4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:7",
+   "url": "https://pafw.pl/wp-content/uploads/2020/05/20_LAT_PAFW.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:50.606Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43177,
+   "sha256": "98a430f535c752dd8d6379403647085b30885ddc761d0a70df99ba2b01b6b7ae",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:7",
+   "url": "https://pafw.pl/wp-content/uploads/2021/11/Raport_Roczny_PAFW_2020_.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:13.955Z",
+   "http": null,
+   "content_type": null,
+   "chars": 42539,
+   "sha256": "7b77c37006cf5548cf681e5ec192be1de00f331eb7b4cd98f64ee9b061cb9944",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:7",
+   "url": "https://archiwum.hfhr.pl/wp-content/uploads/2021/10/raport2020.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:37.329Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43124,
+   "sha256": "1b73284c31c13f191344ce42b0ee3dc6d0aad7af4cf2adfe8d4dcc2a676c71bc",
+   "error": null,
+   "note": null
   }
  ],
  "fetches_by_stopped_agents": [
@@ -814,7 +1093,8 @@
    "chars": 24624,
    "sha256": "635523c2f5738f2a22fb369685997474a541a68df233fad5edcdc78fa577b8ec",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -826,7 +1106,8 @@
    "chars": 20364,
    "sha256": "9ad0e115e41b7c5dc8920590fc49ef921ac4b3aaabb51ecad6f0c5e3a6a6b057",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -838,7 +1119,8 @@
    "chars": 39781,
    "sha256": "372b3d54d5447b7ef89de79046213bc2787c2a570f63e0fc80fdd78c23eb6232",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -850,7 +1132,8 @@
    "chars": 39781,
    "sha256": "b2b8799d460722d343b0e32ca3a7cfa0088dcbcd6958366c23f4042760af793c",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -865,7 +1148,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 203,
-   "extract_sha256": "4f1919d4c4eb2880e90179244c6d397b0a1c914233583b5aa23b4ca4ba1e15a9"
+   "extract_sha256": "4f1919d4c4eb2880e90179244c6d397b0a1c914233583b5aa23b4ca4ba1e15a9",
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -880,7 +1164,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 221,
-   "extract_sha256": "75a8aa2c4a27f982465a0e88caf6d36c21950f970418e0d7f2b2edb66172c3ae"
+   "extract_sha256": "75a8aa2c4a27f982465a0e88caf6d36c21950f970418e0d7f2b2edb66172c3ae",
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -892,7 +1177,8 @@
    "chars": 1495,
    "sha256": "0548041e7b1ff177b0b561587149a012de2f994da4f9e1d8e2147a6bce57f07c",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -904,7 +1190,8 @@
    "chars": 11348,
    "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -916,7 +1203,8 @@
    "chars": 40694,
    "sha256": "2083249e7c147c4bf697dabe90fdc2e48194c174c609db2c371711b612493aac",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -928,7 +1216,8 @@
    "chars": 15379,
    "sha256": "25d435b64bc91c86f8794a2c350cfb084fc2f715d870538fdadc96a6f361e6cf",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -943,7 +1232,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1365,
-   "extract_sha256": "7665eeee553439c5a07a56e4dcbbe7220c77e89de8f894ce2e1b50271e362ecd"
+   "extract_sha256": "7665eeee553439c5a07a56e4dcbbe7220c77e89de8f894ce2e1b50271e362ecd",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -958,7 +1248,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1324,
-   "extract_sha256": "9e73241b49343bdb901d0a2c89cf85c7025b2cb873a0adc349a8ec3d1df65527"
+   "extract_sha256": "9e73241b49343bdb901d0a2c89cf85c7025b2cb873a0adc349a8ec3d1df65527",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -973,7 +1264,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1176,
-   "extract_sha256": "96801c2ebb52bf632fed5870c652b03c8fa7df29436628ae2007aa1db000d46d"
+   "extract_sha256": "96801c2ebb52bf632fed5870c652b03c8fa7df29436628ae2007aa1db000d46d",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -988,7 +1280,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 3502,
-   "extract_sha256": "c14a4f901f26982d2007a33ffbffd27a72fc66b3dc0f029cb1fc89215b582993"
+   "extract_sha256": "c14a4f901f26982d2007a33ffbffd27a72fc66b3dc0f029cb1fc89215b582993",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C5_domestic_public_money",
@@ -1003,7 +1296,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 48,
-   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a"
+   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1018,7 +1312,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2115,
-   "extract_sha256": "60467de46a52b2cfe9357871a187b2b397e9fdf18c16c9d56a0bc7f01431f49c"
+   "extract_sha256": "60467de46a52b2cfe9357871a187b2b397e9fdf18c16c9d56a0bc7f01431f49c",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1033,7 +1328,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 82,
-   "extract_sha256": "dd508c1a65bec54bdb33a70d67b471828a745062e088ed06154c39c5a220034f"
+   "extract_sha256": "dd508c1a65bec54bdb33a70d67b471828a745062e088ed06154c39c5a220034f",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1048,7 +1344,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1022,
-   "extract_sha256": "fcd459de3c7d4a0b52a0adc4775b3406619928c4ee6d138392eb5f614044b22d"
+   "extract_sha256": "fcd459de3c7d4a0b52a0adc4775b3406619928c4ee6d138392eb5f614044b22d",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1063,7 +1360,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2905,
-   "extract_sha256": "75396d4c34ef20d0dfcd13418a323fedc8160c0f8d5ee24cc907f8016f8f91cb"
+   "extract_sha256": "75396d4c34ef20d0dfcd13418a323fedc8160c0f8d5ee24cc907f8016f8f91cb",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1078,7 +1376,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 3171,
-   "extract_sha256": "16843582a9301861b8047154de0d92936a00cb6f7a2fcdf3d8a211f0ac00c240"
+   "extract_sha256": "16843582a9301861b8047154de0d92936a00cb6f7a2fcdf3d8a211f0ac00c240",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1093,7 +1392,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1629,
-   "extract_sha256": "90b45cbee8b0e8f1bd21e33a0ee0773209ef66277f652a8d6edf87a6b898c148"
+   "extract_sha256": "90b45cbee8b0e8f1bd21e33a0ee0773209ef66277f652a8d6edf87a6b898c148",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1108,7 +1408,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1714,
-   "extract_sha256": "52a2d823dd5c7ad75f5e30daed2d6b61e3142636519f4e9c16e0542086d782e1"
+   "extract_sha256": "52a2d823dd5c7ad75f5e30daed2d6b61e3142636519f4e9c16e0542086d782e1",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1123,7 +1424,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 4182,
-   "extract_sha256": "376941cc5ebff7a0e69a76f73d7da72e3ea8f8475012a2beb96bcd81392affaa"
+   "extract_sha256": "376941cc5ebff7a0e69a76f73d7da72e3ea8f8475012a2beb96bcd81392affaa",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C6_org_finances",
@@ -1138,7 +1440,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 48,
-   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a"
+   "extract_sha256": "7a42747aaada812fda423400aa877c65dc302c1acb2a8070dce11de95669340a",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C7_firms_contracts",
@@ -1153,7 +1456,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 912,
-   "extract_sha256": "c2ea691fae0d169bcf491978e5faf57dd2cc62a5ee938ad846177e54d0709167"
+   "extract_sha256": "c2ea691fae0d169bcf491978e5faf57dd2cc62a5ee938ad846177e54d0709167",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:C7_firms_contracts",
@@ -1168,7 +1472,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1600,
-   "extract_sha256": "c2e1abc844afb40ac47b8180af2a465bbe6be1821c18a0b0cfedce9f893e71f0"
+   "extract_sha256": "c2e1abc844afb40ac47b8180af2a465bbe6be1821c18a0b0cfedce9f893e71f0",
+   "agent_rerun_later": false
   }
  ]
 }

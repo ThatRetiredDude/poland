@@ -362,6 +362,54 @@
    "note": null
   },
   {
+   "agent": "read:R036-R038",
+   "url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf",
+   "final_url": "https://efile.fara.gov/docs/7246-Informational-Materials-20240517-38.pdf",
+   "fetched_at": "2026-11-02T00:14:43.181Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 11225,
+   "sha256": "8c3afabfb26bec3377428327f5ebfd7b1c238a3650df28de2fc32a9836462deb",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/92/body",
+   "fetched_at": "2026-11-02T00:14:43.184Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2762,
+   "sha256": "e416fe97178f4a08e3df5665fbf0a1e4aa6b1de9d30ab284ab89d4c6b5e43cb3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "final_url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "fetched_at": "2026-11-02T00:14:43.248Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 45790,
+   "sha256": "26bf48a18cedde83c2f8c4b49e863dd59620978ad26e177c3b60c6ad34a46875",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R036-R038",
+   "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:16:17.086Z",
+   "http": null,
+   "content_type": null,
+   "chars": 25790,
+   "sha256": "382e3eb8e5c7a44738b6b697354d64652d6e7dbda6db1841b12fcd47d403628b",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R044-R046",
    "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
    "final_url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
@@ -906,6 +954,18 @@
    "sha256": "0a587ef014c87b8032b2e73527287cc52e17bc078f608c4cb82727e18cd8dc49",
    "error": null,
    "note": null
+  },
+  {
+   "agent": "recheck:6",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "final_url": "https://www.judicialwatch.org/wp-content/uploads/2026/02/JW-v.-State-Dept-Europe-complaint-00346.pdf",
+   "fetched_at": "2026-11-02T00:19:06.483Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5719,
+   "sha256": "d0e6e8084765c1cdb1dbedd883a4107cb09c27a1d840a3f9d3fff319764ebcbf",
+   "error": null,
+   "note": null
   }
  ],
  "fetches_by_stopped_agents": [
@@ -919,7 +979,8 @@
    "chars": 8416,
    "sha256": "7c4361d65b8da31f1419f3986218c154bd778ed61782eb2493046cc5cd9f4df6",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -931,7 +992,8 @@
    "chars": 5043,
    "sha256": "8f6e0d044f5645005d23c3909764b9a1358861dab693f8959ab157cc4ed3e1e8",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -943,7 +1005,8 @@
    "chars": 18881,
    "sha256": "1add9c784a14dfc08862905176ecf2af90ee58e9579c28c254132bfaca71baa4",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -955,7 +1018,8 @@
    "chars": 12758,
    "sha256": "b46a5b484da98ee7965570745315f233ef25fbe8ab4216fb67ad4e3f350d911c",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -967,7 +1031,8 @@
    "chars": 40747,
    "sha256": "91f36e1c49bdbf9dde002a2d1ba179d6d172a831f08fd9f3eb2f27c6b2e9f8b3",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -979,7 +1044,8 @@
    "chars": 46311,
    "sha256": "1713cf4a75684fdd482974970be219a8a5ffacb7d0376f1681d50ba713029456",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R015-R017",
@@ -991,7 +1057,8 @@
    "chars": 40312,
    "sha256": "149296d677cef59d749294758e6f973515605789eab678bff1a441809140c19c",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R021-R023",
@@ -1003,7 +1070,8 @@
    "chars": 3779,
    "sha256": "95da66c7d6b71cf3d144f9de39db5c3f3f0e886be715402ee4c9899b5e05ff29",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R021-R023",
@@ -1015,7 +1083,8 @@
    "chars": 266,
    "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R021-R023",
@@ -1027,7 +1096,8 @@
    "chars": 45048,
    "sha256": "e465d4d84f509f1d8b4cd46a273bcdc0ccb3c34361fc543596269a6ba2169461",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R036-R038",
@@ -1039,7 +1109,8 @@
    "chars": 11225,
    "sha256": "8c3afabfb26bec3377428327f5ebfd7b1c238a3650df28de2fc32a9836462deb",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R036-R038",
@@ -1051,7 +1122,8 @@
    "chars": 2762,
    "sha256": "e416fe97178f4a08e3df5665fbf0a1e4aa6b1de9d30ab284ab89d4c6b5e43cb3",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R036-R038",
@@ -1063,7 +1135,8 @@
    "chars": 45790,
    "sha256": "26bf48a18cedde83c2f8c4b49e863dd59620978ad26e177c3b60c6ad34a46875",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R053-R055",
@@ -1075,7 +1148,8 @@
    "chars": 23102,
    "sha256": "8f12c4401e79b9a1ac8165fada85d9b0d44a15f923df862622162fe67457f11b",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R053-R055",
@@ -1087,7 +1161,8 @@
    "chars": 41264,
    "sha256": "eba04dcfe57a5e9c184e03036beb019b97359c1a04811b46fa66f7aedebe1182",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R053-R055",
@@ -1099,7 +1174,8 @@
    "chars": 39721,
    "sha256": "f5d6b1789aa3508450caa7a19e3dd7c9f267e2ed715ce271b7689986e7219248",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R053-R055",
@@ -1111,7 +1187,8 @@
    "chars": 45981,
    "sha256": "734c85700c39f19f15d3a269bb02dbee879348724a1e370b256ab5ab35f1a9b4",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R053-R055",
@@ -1123,7 +1200,8 @@
    "chars": 43303,
    "sha256": "ccf2d8edee06c44b931193874a0f58ba31e345bd01017ec550bf13ee8ca4f270",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R059-R061",
@@ -1135,7 +1213,8 @@
    "chars": 20502,
    "sha256": "72d36548b5a4844f1d94cafb986d204f46337a15eb24b905a9276b91a56912ff",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R059-R061",
@@ -1147,7 +1226,8 @@
    "chars": 655,
    "sha256": "7e09b6317c5a76b602830218198bee602c601071c5ef3505ddd9314587a7f41d",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R059-R061",
@@ -1162,7 +1242,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 94,
-   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4",
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R080-R082",
@@ -1174,7 +1255,8 @@
    "chars": 2134,
    "sha256": "90cd71757345984421f530890dcb89bae458b499e4b3b40ffb897d6e1e79fd2d",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R080-R082",
@@ -1186,7 +1268,8 @@
    "chars": 33551,
    "sha256": "275bc67eec8e70eeb2e1d3c4524a15a6a9e3bfc834e355bd7a008d2466c6fe4d",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R080-R082",
@@ -1198,7 +1281,8 @@
    "chars": 25577,
    "sha256": "83f8592eff19ec1d6505c52763a717a33ffc0efb1292c4d51c4f4965d6697c8d",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R083-R085",
@@ -1210,7 +1294,8 @@
    "chars": 19111,
    "sha256": "f26b3405919c5733b0c5fd6e909a79b3cc67a452d0d111591746d11c50db229e",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R083-R085",
@@ -1222,7 +1307,8 @@
    "chars": 16521,
    "sha256": "5230b64772feebed5fa36b6201dd9723c0cee37be1e30120cc4dc8ae2968895c",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R083-R085",
@@ -1237,7 +1323,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 94,
-   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4"
+   "extract_sha256": "61bf9bc77cfc88f49b47ae1c72d839e11f37bdc3aead81a4ffa3017bee3188b4",
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R100-R102",
@@ -1249,7 +1336,8 @@
    "chars": 15105,
    "sha256": "df262511b004d767e50fed3bb5fc2a39e654c2a4edb12925b40e30669db1aa09",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R100-R102",
@@ -1261,7 +1349,8 @@
    "chars": 25623,
    "sha256": "a6d5850b196c623e4161f057591a53ab4fcc8d40668a13914efa4f967304c2f0",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   },
   {
    "agent": "read:R100-R102",
@@ -1273,7 +1362,8 @@
    "chars": 44567,
    "sha256": "fae2cb77ebc011f17012a0008490022f686461dc13a73ff62078b22c56adf160",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": false
   }
  ]
 }

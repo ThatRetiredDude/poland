@@ -47,6 +47,42 @@
    "note": null
   },
   {
+   "agent": "read:B1_judges_income:2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDM2HTN/i11127-o1.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDM2HTN/i11127-o1.pdf",
+   "fetched_at": "2026-11-02T00:14:55.092Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 9122,
+   "sha256": "467065665bdc38e48c8a998a6a924b9ea7468959e1e9c18f58d80ef9e3093cb8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B1_judges_income:2",
+   "url": "https://us.edu.pl/centra-badawcze/icbws/centrum/wladze-i-czlonkowie",
+   "final_url": "https://us.edu.pl/centra-badawcze/icbws/centrum/wladze-i-czlonkowie",
+   "fetched_at": "2026-11-02T00:14:55.252Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 27816,
+   "sha256": "0e48e081167155d2e80342b361fa46bc6618dd2c4b9e7cc9209185b4eba35ce0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B1_judges_income:2",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "fetched_at": "2026-11-02T00:14:57.243Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/json",
+   "chars": 266,
+   "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:B3_state_boards:1",
    "url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",
    "final_url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",
@@ -223,6 +259,66 @@
    "content_type": "application/pdf",
    "chars": 1785,
    "sha256": "e955c8081d29de17c52bcbb50d0ffa06fa64e778911cb9e40267f2e96ef940da",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B4_wawrykiewicz:2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/29c7a310-60d5-4121-b5b2-8bbf918b1708_1739802000661.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/29c7a310-60d5-4121-b5b2-8bbf918b1708_1739802000661.pdf",
+   "fetched_at": "2026-11-02T00:14:43.975Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 2338,
+   "sha256": "1fecdf7cb56724276418ef5345e2ccc4e7def0b75f25ad818bd63b97196f3f6d",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B4_wawrykiewicz:2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/1fd67e53-d67d-4570-85d5-1df527374d9c_1784814960682.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/1fd67e53-d67d-4570-85d5-1df527374d9c_1784814960682.pdf",
+   "fetched_at": "2026-11-02T00:14:43.977Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 2230,
+   "sha256": "67f3ea5278c05762766c5f74658809fcbeccf130e9e1ccbf605209a376715987",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B4_wawrykiewicz:2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/d1bbf36a-910a-4c59-89e3-60c69b0dc407_1739802001380.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/d1bbf36a-910a-4c59-89e3-60c69b0dc407_1739802001380.pdf",
+   "fetched_at": "2026-11-02T00:14:44.024Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 2388,
+   "sha256": "df38fba0002c52dec91508342c41c5377413795dd21cd2f11668d909bf62ab96",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B4_wawrykiewicz:2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+   "fetched_at": "2026-11-02T00:15:04.128Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 3790,
+   "sha256": "77af9b7983d58bb7bf76ce3ead1cddfaa2db4e0bdfe5a44658107347e528fb7f",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B4_wawrykiewicz:2",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+   "fetched_at": "2026-11-02T00:15:04.416Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 1966,
+   "sha256": "77c7285c61ef8eb4941944af38432b17805cba83617ee9c49f3975fd9213cf91",
    "error": null,
    "note": null
   },
@@ -795,6 +891,234 @@
    "returned": "reader_extract",
    "extract_chars": 1000,
    "extract_sha256": "ffdb2e5298e18d46349178615f8f6761514896682ab2d3130363e06cb51c47fd"
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
+   "final_url": "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
+   "fetched_at": "2026-11-02T00:16:40.039Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 34373,
+   "sha256": "d923b5170529de430a75fe484a14f85760ac3bc3cd42e4bb1a7ff02b4b8eb381",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/mikolaj-pietrzak",
+   "final_url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board/mikolaj-pietrzak",
+   "fetched_at": "2026-11-02T00:16:40.107Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 22719,
+   "sha256": "6953403fcb5938c139402eaa3124c50c375840fb49db6327e690168e8f79526a",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://oko.press/walczyli-o-praworzadnosc-teraz-prezesami-sadow",
+   "final_url": "https://oko.press/walczyli-o-praworzadnosc-teraz-prezesami-sadow",
+   "fetched_at": "2026-11-02T00:16:40.110Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19741,
+   "sha256": "0e4eaecd383122fadfcc84e28fd1334786a9a749949d6df4d516b9b31a847fea",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+   "final_url": "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+   "fetched_at": "2026-11-02T00:16:40.152Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 21063,
+   "sha256": "7f33ab2602c717b710e382732f0a68c1b46a2e352567cf42948db72494236d82",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:2",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
+   "final_url": "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
+   "fetched_at": "2026-11-02T00:16:41.692Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 14987,
+   "sha256": "3342a73743752f6fd8de1916f40c2b31b6201df25e52bea06e0049fc4b6f3f70",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:4",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/a5a7fbbc-358a-41c1-b57d-0106e3dfbc17_1784814961202.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/10/a5a7fbbc-358a-41c1-b57d-0106e3dfbc17_1784814961202.pdf",
+   "fetched_at": "2026-11-02T00:17:32.590Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 2266,
+   "sha256": "e7839042f36f07f3901f117a6727128767225d58aef1350677fdadf37a0918ac",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:4",
+   "url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c1374ecb-378b-4ef8-86c2-c214be3f3821_1769705280469.pdf",
+   "final_url": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c1374ecb-378b-4ef8-86c2-c214be3f3821_1769705280469.pdf",
+   "fetched_at": "2026-11-02T00:17:32.612Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5661,
+   "sha256": "78016fb74061d045bbab7ecf5d7b38875dd351c01c9f789fc42d99e90af1aa28",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:4",
+   "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/assistants",
+   "final_url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/assistants",
+   "fetched_at": "2026-11-02T00:17:34.305Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 14034,
+   "sha256": "85ab521e3bec0ca8d0bddae8705772e49b0b5a2d38aca945ea151cdbe1049204",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:4",
+   "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
+   "final_url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
+   "fetched_at": "2026-11-02T00:17:34.753Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 21535,
+   "sha256": "20711048e18e032ac98aed27158165d09a1ad4284aabe77ca0b559719d44deab",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDFJHTE/i07111-o1.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDFJHTE/i07111-o1.pdf",
+   "fetched_at": "2026-11-02T00:16:39.617Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 11007,
+   "sha256": "31da0f7841f7e181e2182f192c244fe4654a708ab600f4c1d10b0d511ce01eb5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDAHJZV/i04671-o1.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDAHJZV/i04671-o1.pdf",
+   "fetched_at": "2026-11-02T00:16:39.620Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 7032,
+   "sha256": "8088fe4b60451eee3563cc6c7d658fbe309ef1acefd915cf87d32957fc25ecc3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+   "final_url": "https://oko.press/wazna-decyzja-bodnara-sedzia-zurek-symbol-wolnych-sadow-zostal-wicedyrektorem-kssip",
+   "fetched_at": "2026-11-02T00:16:39.630Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19287,
+   "sha256": "c84e3d0340bb88503f822b5a057a07d022b6e6ddf84f4d63c49777ff9cb64b35",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/909/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/909/body",
+   "fetched_at": "2026-11-02T00:16:39.659Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 1422,
+   "sha256": "e81fc488ccee9d47bb7dc50fba446c82e62056c33ab87b1e0701ce98564a9130",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:1",
+   "url": "https://umcs.pl/en/department-of-constitutional-law,31794.htm",
+   "final_url": "https://umcs.pl/en/department-of-constitutional-law,31794.htm",
+   "fetched_at": "2026-11-02T00:16:41.436Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 7764,
+   "sha256": "e4fbef1e40dca55e025c51848b6368ba0e0bb1151e2d33c638d5b60a66efef26",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/386/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/386/body",
+   "fetched_at": "2026-11-02T00:17:23.969Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2137,
+   "sha256": "82a16fbbaf546ac369c9f5cdf5f98fc4f477bbb8399fbc803dcb10529cd391a6",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4237/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4237/body",
+   "fetched_at": "2026-11-02T00:17:24.044Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2617,
+   "sha256": "39df3488a1492539de92135d520a00a807f04bdf7ca55250cd7d55dbe2060cbf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:3",
+   "url": "https://parltrack.eu/mep/257045",
+   "final_url": "https://parltrack.eu/mep/257045",
+   "fetched_at": "2026-11-02T00:17:24.102Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 4118,
+   "sha256": "866a456737513e0150733ef5b5c568ef1526366e3f722bf26098f4841c4d9cab",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:3",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048/body",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/13048/body",
+   "fetched_at": "2026-11-02T00:17:25.076Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 1436,
+   "sha256": "492f4493e9ed969e62d0ec0c512861b00513ab640c69e2ee8fb99f0f4e394455",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "recheck:3",
+   "url": "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap",
+   "final_url": "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap",
+   "fetched_at": "2026-11-02T00:17:28.602Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 23788,
+   "sha256": "123b045ee8f4f018bcccda557e7eff6f750b3b9d4a6af2397e99186df7ea76a0",
+   "error": null,
+   "note": null
   }
  ],
  "fetches_by_stopped_agents": [
@@ -808,7 +1132,8 @@
    "chars": 266,
    "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "read:B1_judges_income:2",
@@ -820,7 +1145,8 @@
    "chars": 9122,
    "sha256": "467065665bdc38e48c8a998a6a924b9ea7468959e1e9c18f58d80ef9e3093cb8",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "read:B1_judges_income:2",
@@ -832,7 +1158,8 @@
    "chars": 27816,
    "sha256": "0e48e081167155d2e80342b361fa46bc6618dd2c4b9e7cc9209185b4eba35ce0",
    "error": null,
-   "note": null
+   "note": null,
+   "agent_rerun_later": true
   },
   {
    "agent": "search:B5_nominations",
@@ -847,7 +1174,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1541,
-   "extract_sha256": "739e03d96dfbf5ceaa96c2ff5cdd97024c28554512239e112ff50dabaaecc6c8"
+   "extract_sha256": "739e03d96dfbf5ceaa96c2ff5cdd97024c28554512239e112ff50dabaaecc6c8",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B5_nominations",
@@ -862,7 +1190,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1475,
-   "extract_sha256": "88f5811a70267c95ef0cf9ef63fe513148de17648c87601bd3cf727adf54338f"
+   "extract_sha256": "88f5811a70267c95ef0cf9ef63fe513148de17648c87601bd3cf727adf54338f",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B5_nominations",
@@ -877,7 +1206,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2141,
-   "extract_sha256": "217c14553fbde1edbe955ef3d8dd23c140642bf15f7410cb14f6e227abd3ef42"
+   "extract_sha256": "217c14553fbde1edbe955ef3d8dd23c140642bf15f7410cb14f6e227abd3ef42",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B5_nominations",
@@ -892,7 +1222,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 1777,
-   "extract_sha256": "08b147d5cdd2188798e921917a9a5682c4f0e532ac1703d3b4270f32e7477b9e"
+   "extract_sha256": "08b147d5cdd2188798e921917a9a5682c4f0e532ac1703d3b4270f32e7477b9e",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -907,7 +1238,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2147,
-   "extract_sha256": "4ce1440c37bae87bc96873ae361ed5fb0af42a5a855b311bc5e0cf0b96efe055"
+   "extract_sha256": "4ce1440c37bae87bc96873ae361ed5fb0af42a5a855b311bc5e0cf0b96efe055",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -922,7 +1254,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 827,
-   "extract_sha256": "ce570ec020054c536890dd889900858c1fcf02f4c19a190eb7be6fa69fa2fd9c"
+   "extract_sha256": "ce570ec020054c536890dd889900858c1fcf02f4c19a190eb7be6fa69fa2fd9c",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -937,7 +1270,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 440,
-   "extract_sha256": "45578fb4bc0098f5cf95b267e1eca3d9f35b82d9731b16a818a2755931e8706f"
+   "extract_sha256": "45578fb4bc0098f5cf95b267e1eca3d9f35b82d9731b16a818a2755931e8706f",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -952,7 +1286,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 171,
-   "extract_sha256": "1cd3f22fa830527cc0d60e59fabb585ecaae5137df22e26fcd0f044b4e2fbc98"
+   "extract_sha256": "1cd3f22fa830527cc0d60e59fabb585ecaae5137df22e26fcd0f044b4e2fbc98",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -967,7 +1302,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2280,
-   "extract_sha256": "ee2a1a49a2ce9f32950f246576449c34883da1bda5cc8d0034f0e6970b72b633"
+   "extract_sha256": "ee2a1a49a2ce9f32950f246576449c34883da1bda5cc8d0034f0e6970b72b633",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -982,7 +1318,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2185,
-   "extract_sha256": "499a5dba17aff4612e89377a6bd9211232e42959685a66fc3ab2062ee061fb2f"
+   "extract_sha256": "499a5dba17aff4612e89377a6bd9211232e42959685a66fc3ab2062ee061fb2f",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -997,7 +1334,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 200,
-   "extract_sha256": "35d416e14b21aaee9d32a557cf7cf033b07c23dc1fa3af99d6318c89f88f4650"
+   "extract_sha256": "35d416e14b21aaee9d32a557cf7cf033b07c23dc1fa3af99d6318c89f88f4650",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B6_prosecutors_police",
@@ -1012,7 +1350,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 3229,
-   "extract_sha256": "cbcad5a30128e54e1412ce140098b65baaa84ebad71e7717495dc5fbf7446d1b"
+   "extract_sha256": "cbcad5a30128e54e1412ce140098b65baaa84ebad71e7717495dc5fbf7446d1b",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1027,7 +1366,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 566,
-   "extract_sha256": "ecad646c27f1c718a5c90c9e441fc0014109cb8c19d423008c5b097cc28c9a24"
+   "extract_sha256": "ecad646c27f1c718a5c90c9e441fc0014109cb8c19d423008c5b097cc28c9a24",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1042,7 +1382,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 932,
-   "extract_sha256": "cf19241c615d963616447649e9ecb3b0782d9959400d2a5b7ac9a42349acc5ca"
+   "extract_sha256": "cf19241c615d963616447649e9ecb3b0782d9959400d2a5b7ac9a42349acc5ca",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1057,7 +1398,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 664,
-   "extract_sha256": "ea9f23705f6421d8ec578ac1c977d1a3e88ff56ebd93a66f40fa2046b6cf3dac"
+   "extract_sha256": "ea9f23705f6421d8ec578ac1c977d1a3e88ff56ebd93a66f40fa2046b6cf3dac",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1072,7 +1414,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 2479,
-   "extract_sha256": "4b0ef8b5d31fcd2d9399aa22e13e0db36c07a09e7edfd5a2fd2af7ff28ef71d6"
+   "extract_sha256": "4b0ef8b5d31fcd2d9399aa22e13e0db36c07a09e7edfd5a2fd2af7ff28ef71d6",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1087,7 +1430,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 703,
-   "extract_sha256": "f2c3da05093c38a89ffe59869304e92144cbd4c118ba1347c8daa1290dc2d5a7"
+   "extract_sha256": "f2c3da05093c38a89ffe59869304e92144cbd4c118ba1347c8daa1290dc2d5a7",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1102,7 +1446,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 176,
-   "extract_sha256": "6059a97b8a3ae87ff7b28e7ae4b0a0e90f62179dc8a491352ebaa38f9ada044b"
+   "extract_sha256": "6059a97b8a3ae87ff7b28e7ae4b0a0e90f62179dc8a491352ebaa38f9ada044b",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1117,7 +1462,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 546,
-   "extract_sha256": "cb64c589c186b55421ad6c232f587e016e3b78e676cbd75963a91f5b9d15be7c"
+   "extract_sha256": "cb64c589c186b55421ad6c232f587e016e3b78e676cbd75963a91f5b9d15be7c",
+   "agent_rerun_later": false
   },
   {
    "agent": "search:B7_international",
@@ -1132,7 +1478,8 @@
    "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
    "returned": "reader_extract",
    "extract_chars": 3060,
-   "extract_sha256": "fc2ac5da7c2368ea3a5909462a5b8269ae7c7017a72cc7f6f4ce99a4129af170"
+   "extract_sha256": "fc2ac5da7c2368ea3a5909462a5b8269ae7c7017a72cc7f6f4ce99a4129af170",
+   "agent_rerun_later": false
   }
  ]
 }

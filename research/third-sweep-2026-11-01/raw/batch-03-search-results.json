@@ -9312,6 +9312,7 @@
  "searches_by_stopped_agents": [
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "NOWEFIO 2024 wyniki konkursu lista rankingowa Helsińska Fundacja Praw Człowieka OR Iustitia OR \"Wolne Sądy\" OR Themis",
    "searched_at": "2026-11-01T19:38:06.774Z",
    "n_results": 18,
@@ -9410,6 +9411,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Narodowy Instytut Wolności PROO 2025 wyniki dotacje Fundacja im. Stefana Batorego OR \"Akcja Demokracja\" OR \"Komitet Obrony Demokracji\" OR \"Fundacja Ośrodek Monitoringu Obywatelskiego\"",
    "searched_at": "2026-11-01T19:38:06.942Z",
    "n_results": 20,
@@ -9518,6 +9520,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Kancelaria Sejmu rejestr umów 2024 2025 ekspertyzy opinie prawne Trybunał Konstytucyjny wynagrodzenie autorzy",
    "searched_at": "2026-11-01T19:38:07.096Z",
    "n_results": 15,
@@ -9601,6 +9604,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Fundusz Sprawiedliwości konkurs 2025 rozstrzygnięcie lista podmiotów którym przyznano dotację Ministerstwo Sprawiedliwości Żurek",
    "searched_at": "2026-11-01T19:38:16.177Z",
    "n_results": 17,
@@ -9694,6 +9698,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Fundusz Sprawiedliwości Bodnar 2024 nowy konkurs Sieć Pomocy Pokrzywdzonym wyniki organizacje Helsińska Fundacja Praw Człowieka dotacja",
    "searched_at": "2026-11-01T19:38:16.205Z",
    "n_results": 19,
@@ -9797,6 +9802,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"rejestr umów\" Ministerstwo Sprawiedliwości BIP 2024 opinia prawna umowa o dzieło profesor",
    "searched_at": "2026-11-01T19:38:16.314Z",
    "n_results": 17,
@@ -9890,6 +9896,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Urząd m.st. Warszawy dotacja 2024 2025 \"Helsińska Fundacja Praw Człowieka\" OR \"Fundacja Ośrodek Monitoringu Obywatelskiego\" OR \"Akcja Demokracja\" otwarty konkurs ofert wyniki",
    "searched_at": "2026-11-01T19:38:42.099Z",
    "n_results": 17,
@@ -9983,6 +9990,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Kancelaria Senatu opinie zlecone ekspertyzy 2024 ustawa o Trybunale Konstytucyjnym opinia prof. Patyra OR Piotrowski OR Wyrzykowski",
    "searched_at": "2026-11-01T19:38:42.144Z",
    "n_results": 19,
@@ -10086,6 +10094,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Kancelaria Prezesa Rady Ministrów rejestr umów BIP 2025 umowy cywilnoprawne ekspertyza wykonawca kwota",
    "searched_at": "2026-11-01T19:38:42.269Z",
    "n_results": 18,
@@ -10184,6 +10193,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Narodowy Instytut Wolności dyrektor 2024 zmiana Tusk nowe programy dotacje organizacje strażnicze praworządność NIW 2025",
    "searched_at": "2026-11-01T19:38:55.943Z",
    "n_results": 19,
@@ -10287,6 +10297,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "oko.press niw dotacje",
    "searched_at": "2026-11-01T19:38:55.947Z",
    "n_results": 18,
@@ -10385,6 +10396,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Przegląd Sejmowy 2024 opinie zlecone przez Kancelarię Sejmu projekt ustawy o Trybunale Konstytucyjnym druk 254 opinia autorzy",
    "searched_at": "2026-11-01T19:38:55.960Z",
    "n_results": 16,
@@ -10473,6 +10485,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Stowarzyszenie Sędziów Polskich Iustitia\" NIW OR \"Narodowy Instytut Wolności\" OR NOWEFIO OR PROO dotacja 2025",
    "searched_at": "2026-11-01T19:39:06.781Z",
    "n_results": 19,
@@ -10576,6 +10589,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Helsińska Fundacja Praw Człowieka\" dotacja ministerstwo 2025 \"zadanie publiczne\" OR \"dofinansowano ze środków\" OR \"sfinansowano ze środków\" budżetu państwa",
    "searched_at": "2026-11-01T19:39:06.784Z",
    "n_results": 18,
@@ -10674,6 +10688,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "wyniki otwartego konkursu ofert Ministerstwo Sprawiedliwości 2025 edukacja prawna organizacje pozarządowe lista dotacji",
    "searched_at": "2026-11-01T19:39:06.956Z",
    "n_results": 12,
@@ -10742,6 +10757,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Ministry of Justice Poland Bodnar commissioned legal opinions Constitutional Tribunal 2024 experts paid fee opinion status of judges",
    "searched_at": "2026-11-01T19:39:26.701Z",
    "n_results": 16,
@@ -10830,6 +10846,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "WATCH DOCS 2024 OR 2025 festiwal Helsińska Fundacja \"m.st. Warszawa\" dofinansowanie Biuro Kultury dotacja kwota",
    "searched_at": "2026-11-01T19:39:26.790Z",
    "n_results": 20,
@@ -10938,6 +10955,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Komitet Obrony Demokracji dotacja publiczna samorząd 2024 2025 urząd miasta konkurs \"Stowarzyszenie Komitet Obrony Demokracji\"",
    "searched_at": "2026-11-01T19:39:26.811Z",
    "n_results": 20,
@@ -11046,6 +11064,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Fundacja Wolne Sądy\" OR \"Fundacja Ośrodek Monitoringu Obywatelskiego\" OR \"Fundacja Akcja Demokracja\" dotacja \"Narodowy Instytut Wolności\" OR \"budżetu państwa\" 2025",
    "searched_at": "2026-11-01T19:39:36.293Z",
    "n_results": 18,
@@ -11144,6 +11163,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "interpelacja ekspertyzy opinie prawne zlecone przez Ministerstwo Sprawiedliwości 2024 koszt nazwiska autorów odpowiedź sekretarz stanu",
    "searched_at": "2026-11-01T19:39:36.313Z",
    "n_results": 18,
@@ -11242,6 +11262,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Rada Narodowego Instytutu Wolności skład 2024 2025 członkowie powołani przedstawiciele organizacji pozarządowych",
    "searched_at": "2026-11-01T19:39:36.511Z",
    "n_results": 19,
@@ -11345,6 +11366,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "wyloniono członków Rady Narodowego Instytutu Wolności Centrum Rozwoju Społeczeństwa Obywatelskiego Buczyńska nazwiska",
    "searched_at": "2026-11-01T19:39:46.803Z",
    "n_results": 18,
@@ -11443,6 +11465,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Interpelacja nr 16150 Narodowy Instytut Wolności",
    "searched_at": "2026-11-01T19:39:46.818Z",
    "n_results": 17,
@@ -11536,6 +11559,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "PiS posłowie NIW dotacje 2025 organizacje związane z koalicją \"Narodowy Instytut Wolności\" Buczyńska lista beneficjentów kontrowersje",
    "searched_at": "2026-11-01T19:39:46.864Z",
    "n_results": 18,
@@ -11634,6 +11658,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "niw.gov.pl lista rankingowa PROO Priorytet 4 think tanki 2025 wyniki naboru Fundacja Instytut Spraw Publicznych",
    "searched_at": "2026-11-01T19:39:57.582Z",
    "n_results": 17,
@@ -11727,6 +11752,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "niw.gov.pl wyniki NOWEFIO 2025 lista ofert dofinansowanych Priorytet 2 Priorytet 4 aktywni obywatele PDF",
    "searched_at": "2026-11-01T19:39:57.667Z",
    "n_results": 19,
@@ -11830,6 +11856,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Iustitia OR \"Wolne Sądy\" OR \"Akcja Demokracja\" OR \"Komitet Obrony Demokracji\" OR \"OKO.press\" wyniki konkursu dofinansowanie",
    "searched_at": "2026-11-01T19:40:06.980Z",
    "n_results": 7,
@@ -11873,6 +11900,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Helsińska Fundacja Praw Człowieka\" OR \"Fundacja im. Stefana Batorego\" OR \"Stowarzyszenie Sędziów THEMIS\" lista rankingowa wyniki",
    "searched_at": "2026-11-01T19:40:07.008Z",
    "n_results": 9,
@@ -11926,6 +11954,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Kancelaria Sejmu publikuje rejestr umów Hołownia jawność umów Kancelarii Sejmu BIP",
    "searched_at": "2026-11-01T19:40:41.387Z",
    "n_results": 16,
@@ -12014,6 +12043,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Ministerstwo Sprawiedliwości opublikowało rejestr umów Bodnar jawność lista umów cywilnoprawnych ekspertyzy",
    "searched_at": "2026-11-01T19:40:41.390Z",
    "n_results": 16,
@@ -12102,6 +12132,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "senat.gov.pl senatekspertyzy opinia o ustawie o Trybunale Konstytucyjnym 2024 opinia zlecona",
    "searched_at": "2026-11-01T19:40:41.467Z",
    "n_results": 19,
@@ -12205,6 +12236,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"na zlecenie Kancelarii Sejmu\" OR \"zleconej przez Kancelarię Sejmu\" opinia 2024 Patyra OR Taborowski OR Szostek OR Dziurda OR Markiewicz Trybunał",
    "searched_at": "2026-11-01T19:40:58.391Z",
    "n_results": 17,
@@ -12298,6 +12330,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Biuro Ekspertyz i Oceny Skutków Regulacji Kancelaria Sejmu ekspertyzy zewnętrzne 2024 2025 wydatki umowy o dzieło eksperci lista nazwisk odpowiedź",
    "searched_at": "2026-11-01T19:40:58.411Z",
    "n_results": 17,
@@ -12391,6 +12424,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"interpelacja nr 8694\" OR \"interpelacji nr 8694\" OR \"interpelacja nr 2490\" OR \"interpelacji nr 2490\" Ministerstwo Sprawiedliwości",
    "searched_at": "2026-11-01T19:41:07.845Z",
    "n_results": 20,
@@ -12499,6 +12533,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "ile Ministerstwo Sprawiedliwości zapłaciło za opinie prawne Bodnar ekspertyzy 2024 kwota profesorowie umowy Prokurator Krajowy Trybunał Konstytucyjny",
    "searched_at": "2026-11-01T19:41:07.986Z",
    "n_results": 19,
@@ -12602,6 +12637,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Zapytanie nr 289\" Sejm 10 kadencja opinie prawne",
    "searched_at": "2026-11-01T19:41:19.638Z",
    "n_results": 18,
@@ -12700,6 +12736,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "opinie prawne Barski prokurator krajowy Patyra Rakowska Kuca wynagrodzenie ile kosztowały umowa Ministerstwo Sprawiedliwości odpowiedź na zapytanie",
    "searched_at": "2026-11-01T19:41:19.662Z",
    "n_results": 18,
@@ -12798,6 +12835,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Interpelacja nr 1303 opinie prawne Ministerstwo Sprawiedliwości prokurator krajowy koszt",
    "searched_at": "2026-11-01T19:41:47.074Z",
    "n_results": 20,
@@ -12906,6 +12944,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Departament Społeczeństwa Obywatelskiego KPRM konkurs 2025 wyniki dotacje organizacje \"Kancelaria Prezesa Rady Ministrów\" przyznane dotacje lista organizacji praworządność edukacja obywatelska",
    "searched_at": "2026-11-01T19:41:47.226Z",
    "n_results": 13,
@@ -12979,6 +13018,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Fundusz Sprawiedliwości\" 2024 Bodnar konkurs nr 1/2024 OR \"1/2025\" wyniki \"Fundacja Centrum Praw Kobiet\" OR \"Stowarzyszenie Interwencji Prawnej\" OR \"Fundacja Court Watch Polska\" dotacja kwota",
    "searched_at": "2026-11-01T19:44:07.818Z",
    "n_results": 19,
@@ -13082,6 +13122,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "interpelacja Fundusz Sprawiedliwości 2025 dotacje dla organizacji Iustitia Themis Helsińska Fundacja Centrum Praw Kobiet odpowiedź Ministerstwa Sprawiedliwości lista beneficjentów kwoty",
    "searched_at": "2026-11-01T19:44:07.885Z",
    "n_results": 20,
@@ -13190,6 +13231,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Kancelaria Senatu rejestr umów wykaz umów zawartych 2024 2025 BIP Senatu umowy o dzieło opinie",
    "searched_at": "2026-11-01T19:44:24.443Z",
    "n_results": 14,
@@ -13268,6 +13310,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "bip.ms.gov.pl rejestr umów Ministerstwo Sprawiedliwości 2025 wykaz umów zawartych",
    "searched_at": "2026-11-01T19:44:24.570Z",
    "n_results": 17,
@@ -13361,6 +13404,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "zapytanie poselskie 2026 w sprawie umów zawartych przez ministerstwo z kandydatami na sędziów Trybunału Konstytucyjnego Taborowski Markiewicz Dziurda kancelaria Hoffman Taborowski",
    "searched_at": "2026-11-01T19:44:45.499Z",
    "n_results": 18,
@@ -13459,6 +13503,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"Zapytanie nr 3200\" OR \"Zapytanie nr 3180\" OR \"Zapytanie nr 3178\" Sejm",
    "searched_at": "2026-11-01T19:44:45.525Z",
    "n_results": 20,
@@ -13567,6 +13612,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Matecki 67 zapytań umowy Ministerstwa Sprawiedliwości 2024 rejestr umów opinie prawne Taborowski OR Patyra OR Szostek OR Markiewicz wynagrodzenie",
    "searched_at": "2026-11-01T19:45:55.712Z",
    "n_results": 18,
@@ -13665,6 +13711,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "rejestr umów cywilnoprawnych zawartych w Ministerstwie Sprawiedliwości w 2024 roku gov.pl sprawiedliwosc",
    "searched_at": "2026-11-01T19:45:55.782Z",
    "n_results": 16,
@@ -13753,6 +13800,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "Ministerstwo Sprawiedliwości rejestr umów 2024 opublikowany Matecki pyta o umowy ekspertów Bodnara",
    "searched_at": "2026-11-01T19:46:12.090Z",
    "n_results": 18,
@@ -13851,6 +13899,7 @@
   },
   {
    "agent": "search:C5_domestic_public_money",
+   "agent_rerun_later": false,
    "query": "\"rejestr umów\" Ministerstwo Sprawiedliwości 2019-2023 opublikowanie 1 lipca 2024 Bodnar umowy cywilnoprawne lista wykonawców",
    "searched_at": "2026-11-01T19:46:12.100Z",
    "n_results": 18,
@@ -13949,6 +13998,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Fundacja Wolne Sądy\" zarząd KRS Gregorczyk-Abram Kieszkowska członek zarządu 2025",
    "searched_at": "2026-11-01T19:37:44.592Z",
    "n_results": 18,
@@ -14047,6 +14097,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Helsińska Fundacja Praw Człowieka\" sprawozdanie merytoryczne 2024 przychody źródła finansowania darczyńcy",
    "searched_at": "2026-11-01T19:37:44.633Z",
    "n_results": 14,
@@ -14125,6 +14176,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Ministerstwo Finansów kwoty 1,5% podatku przekazane organizacjom pożytku publicznego 2025 wykaz KRS",
    "searched_at": "2026-11-01T19:37:44.643Z",
    "n_results": 14,
@@ -14203,6 +14255,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Helsińska Fundacja Praw Człowieka\" KRS 0000029852 zarząd",
    "searched_at": "2026-11-01T19:37:54.713Z",
    "n_results": 19,
@@ -14306,6 +14359,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Akcja Demokracja\" fundacja KRS zarząd sprawozdanie finansowe darowizny przychody",
    "searched_at": "2026-11-01T19:37:54.774Z",
    "n_results": 15,
@@ -14389,6 +14443,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Fundacja Ośrodek Kontroli Obywatelskiej OKO\" KRS sprawozdanie finansowe przychody darowizny",
    "searched_at": "2026-11-01T19:37:54.842Z",
    "n_results": 19,
@@ -14492,6 +14547,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Stowarzyszenie Komitet Obrony Demokracji KRS sprawozdanie finansowe 2024 zarząd przewodniczący",
    "searched_at": "2026-11-01T19:38:13.300Z",
    "n_results": 20,
@@ -14600,6 +14656,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Stowarzyszenie Sędziów Themis\" KRS sprawozdanie finansowe składki darowizny",
    "searched_at": "2026-11-01T19:38:13.406Z",
    "n_results": 19,
@@ -14703,6 +14760,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Stowarzyszenie Sędziów Polskich Iustitia\" KRS organizacja pożytku publicznego 1,5% sprawozdanie",
    "searched_at": "2026-11-01T19:38:13.550Z",
    "n_results": 19,
@@ -14806,6 +14864,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Archiwum Osiatyńskiego finansowanie darczyńcy rada programowa Fundacja OKO sprawozdanie 2024",
    "searched_at": "2026-11-01T19:38:26.525Z",
    "n_results": 13,
@@ -14879,6 +14938,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Helsinki Foundation for Human Rights annual report 2024 donors funders list National Endowment for Democracy European Commission",
    "searched_at": "2026-11-01T19:38:26.538Z",
    "n_results": 18,
@@ -14977,6 +15037,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "wolnesady.org sprawozdanie z działalności fundacji Wolne Sądy finanse wpłaty darczyńców 1,5 procent",
    "searched_at": "2026-11-01T19:38:26.919Z",
    "n_results": 19,
@@ -15080,6 +15141,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "pitax Iustitia KRS 1,5% Stowarzyszenie Sędziów Polskich \"Iustitia\" przekaż podatek",
    "searched_at": "2026-11-01T19:38:38.601Z",
    "n_results": 19,
@@ -15183,6 +15245,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Akcja Demokracja sprawozdanie merytoryczne 2024 przychody darowizny od osób fizycznych Fundacja Akcja Demokracja 0000552033",
    "searched_at": "2026-11-01T19:38:38.630Z",
    "n_results": 14,
@@ -15261,6 +15324,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "hfhr.pl raport roczny 2024 Helsińska Fundacja Praw Człowieka sprawozdanie finansowe przychody z dotacji zagranicznych",
    "searched_at": "2026-11-01T19:38:38.759Z",
    "n_results": 16,
@@ -15349,6 +15413,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "rejestr.io \"Fundacja Wolne Sądy\" zarząd fundatorzy rada fundacji",
    "searched_at": "2026-11-01T19:39:06.413Z",
    "n_results": 19,
@@ -15452,6 +15517,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "sprawozdaniaopp.niw.gov.pl sprawozdanie finansowe organizacji pożytku publicznego Helsińska Fundacja OR Iustitia OR \"Akcja Demokracja\" OR \"Ośrodek Kontroli Obywatelskiej\"",
    "searched_at": "2026-11-01T19:39:06.543Z",
    "n_results": 16,
@@ -15540,6 +15606,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Komitet Obrony Demokracji\" KRS numer stowarzyszenie rejestr zarząd Jakub Karyś OR Rafał Zalewski OR Mateusz Kijowski 2025",
    "searched_at": "2026-11-01T19:39:06.631Z",
    "n_results": 18,
@@ -15638,6 +15705,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Zarząd Helsińskiej Fundacji Praw Człowieka 2026 prezes zarządu Rada Fundacji członkowie HFPC",
    "searched_at": "2026-11-01T19:39:33.498Z",
    "n_results": 15,
@@ -15721,6 +15789,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Free Courts Foundation Poland financial report revenue donors grants \"Free Courts\" foundation funding sources board members",
    "searched_at": "2026-11-01T19:39:33.529Z",
    "n_results": 17,
@@ -15814,6 +15883,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "oko.press \"kto finansuje\" OKO.press wpływy 1,5 procent 2025 kwota darowizny od czytelników granty fundacje",
    "searched_at": "2026-11-01T19:39:33.591Z",
    "n_results": 16,
@@ -15902,6 +15972,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Wiktor Osiatyński Archive funding donors Rule of Law in Poland archive OKO foundation grant Open Society Batory 2023 2024",
    "searched_at": "2026-11-01T19:39:51.226Z",
    "n_results": 20,
@@ -16010,6 +16081,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Iustitia\" stowarzyszenie sędziów KRS 0000 rejestr stowarzyszeń zarząd prezes 2026 Bartłomiej Przymusiński OR Krystian Markiewicz",
    "searched_at": "2026-11-01T19:39:51.229Z",
    "n_results": 19,
@@ -16113,6 +16185,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Komitet Obrony Demokracji\" sprawozdanie finansowe 2023 OR 2024 przychody składki darowizny zbiórka KOD finanse",
    "searched_at": "2026-11-01T19:39:51.440Z",
    "n_results": 13,
@@ -16186,6 +16259,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "podatki.gov.pl wykaz kwot 1,5% podatku przekazanych poszczególnym organizacjom pożytku publicznego w 2025 roku plik numer KRS nazwa kwota",
    "searched_at": "2026-11-01T19:40:05.679Z",
    "n_results": 20,
@@ -16294,6 +16368,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "\"Fundacja Wolne Sądy\" KRS 0000829554 Warszawa członkowie zarządu Paulina Kieszkowska-Knapik Sylwia Gregorczyk-Abram aleo OR krs-online OR rejestr.io",
    "searched_at": "2026-11-01T19:40:50.273Z",
    "n_results": 19,
@@ -16397,6 +16472,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "Stowarzyszenie Sędziów THEMIS KRS 0000 organizacja pożytku publicznego numer KRS Themis sędziowie wpłać 1,5%",
    "searched_at": "2026-11-01T19:40:50.357Z",
    "n_results": 17,
@@ -16490,6 +16566,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "interpelacja 7418 OR 8054 OR 8199 Sejm 10 kadencja dotacje organizacje pozarządowe Helsińska Fundacja Praw Człowieka Fundacja Wolne Sądy odpowiedź ministerstwa",
    "searched_at": "2026-11-01T19:44:26.826Z",
    "n_results": 19,
@@ -16593,6 +16670,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "interpelacja nr 13366 Sejm X kadencji stowarzyszenia sędziów finansowanie Themis Iustitia odpowiedź Ministra Sprawiedliwości",
    "searched_at": "2026-11-01T19:44:26.911Z",
    "n_results": 19,
@@ -16696,6 +16774,7 @@
   },
   {
    "agent": "search:C6_org_finances",
+   "agent_rerun_later": false,
    "query": "podatki.gov.pl \"Załącznik nr 2\" kwoty 1,5% podatku przekazane na rzecz poszczególnych OPP 2026 xlsx",
    "searched_at": "2026-11-01T19:45:30.928Z",
    "n_results": 16,
@@ -16784,6 +16863,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "informacja o działalności lobbingowej w Sejmie 2024 projekt ustawy o Trybunale Konstytucyjnym zgłoszenie",
    "searched_at": "2026-11-01T19:39:33.555Z",
    "n_results": 20,
@@ -16892,6 +16972,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"zainteresowania pracami\" OR \"zgłoszenie lobbingowe\" ustawa o Trybunale Konstytucyjnym druk 2024 Sejm lobbysta",
    "searched_at": "2026-11-01T19:40:10.345Z",
    "n_results": 20,
@@ -17000,6 +17081,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "interpelacja koszt opinii prawnych zamówionych przez Ministerstwo Sprawiedliwości 2024 profesorowie wynagrodzenie odpowiedź",
    "searched_at": "2026-11-01T19:40:17.374Z",
    "n_results": 20,
@@ -17108,6 +17190,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Ministerstwo Sprawiedliwości kampania informacyjna 2025 agencja reklamowa koszt spot praworządność przetarg Żurek",
    "searched_at": "2026-11-01T19:40:36.892Z",
    "n_results": 17,
@@ -17201,6 +17284,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "kampania rządowa praworządność spot \"Ministerstwo Sprawiedliwości\" Bodnar 2024 ile kosztowała kampania wykonawca",
    "searched_at": "2026-11-01T19:40:43.198Z",
    "n_results": 17,
@@ -17294,6 +17378,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "FARA registration Republic of Poland foreign principal 2025 2026 lobbying firm Embassy of Poland Washington contract",
    "searched_at": "2026-11-01T19:40:51.451Z",
    "n_results": 17,
@@ -17387,6 +17472,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "polski rząd wynajął firmę lobbingową w Waszyngtonie FARA 2025 2026 umowa ambasada kwota",
    "searched_at": "2026-11-01T19:40:58.109Z",
    "n_results": 15,
@@ -17470,6 +17556,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Akcja Demokracja kampania Trybunał Konstytucyjny 2026 reklamy Facebook billboardy petycja nowi sędziowie",
    "searched_at": "2026-11-01T19:41:04.943Z",
    "n_results": 17,
@@ -17563,6 +17650,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "biblioteka reklam Meta 2026 wydatki partii na reklamy polityczne Koalicja Obywatelska PiS Trybunał Konstytucyjny raport",
    "searched_at": "2026-11-01T19:41:13.626Z",
    "n_results": 14,
@@ -17641,6 +17729,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Fundacja Wolne Sądy kampania społeczna 2026 Trybunał Konstytucyjny spot zbiórka finansowanie \"Wolne Sądy\"",
    "searched_at": "2026-11-01T19:41:23.098Z",
    "n_results": 17,
@@ -17734,6 +17823,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "sejm.gov.pl lobbing informacja roczna 2025 działalność lobbingowa w Sejmie podmioty zawodowe projekty ustaw sądy Trybunał",
    "searched_at": "2026-11-01T19:41:40.429Z",
    "n_results": 18,
@@ -17832,6 +17922,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"Ministerstwo Sprawiedliwości\" informacja o działaniach podejmowanych przez podmioty wykonujące zawodową działalność lobbingową w 2024 r.",
    "searched_at": "2026-11-01T19:41:49.283Z",
    "n_results": 19,
@@ -17935,6 +18026,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"interpelacja nr 8551\" lobbing",
    "searched_at": "2026-11-01T19:41:58.491Z",
    "n_results": 13,
@@ -18008,6 +18100,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Prokuratoria Generalna reprezentuje Skarb Państwa pozew sędziowie Trybunału Konstytucyjnego wynagrodzenie 2026 sąd pracy Markiewicz Taborowski",
    "searched_at": "2026-11-01T19:42:04.611Z",
    "n_results": 17,
@@ -18101,6 +18194,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Trybunał Konstytucyjny firma ochroniarska ochrona budynku umowa przetarg 2026 strażnicy Święczkowski Korwin-Piotrowska",
    "searched_at": "2026-11-01T19:42:22.879Z",
    "n_results": 18,
@@ -18199,6 +18293,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Trybunał Konstytucyjny Warszawa Szucha usługi ochrony zamówienie ogłoszenie o udzieleniu zamówienia wykonawca",
    "searched_at": "2026-11-01T19:42:39.335Z",
    "n_results": 10,
@@ -18257,6 +18352,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "notariusz ślubowanie sędziów Trybunału Konstytucyjnego Sejm kwiecień 2026 akt notarialny kto notariusz Korwin-Piotrowska Markiewicz",
    "searched_at": "2026-11-01T19:42:46.517Z",
    "n_results": 19,
@@ -18360,6 +18456,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "rząd zamówił ekspertyzy prawne w sprawie Trybunału Konstytucyjnego 2026 opinie profesorów ślubowanie sędziów koszt KPRM Ministerstwo Sprawiedliwości",
    "searched_at": "2026-11-01T19:42:52.319Z",
    "n_results": 19,
@@ -18463,6 +18560,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "opinia prawna na zlecenie Biura Ekspertyz i Oceny Skutków Regulacji Kancelarii Sejmu ślubowanie sędziów Trybunału Konstytucyjnego 2026 prof.",
    "searched_at": "2026-11-01T19:42:59.521Z",
    "n_results": 19,
@@ -18566,6 +18664,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "sprawozdanie o źródłach pozyskania środków finansowych Platforma Obywatelska 2025 PKW wydatki reklama Facebook Google agencja",
    "searched_at": "2026-11-01T19:43:12.239Z",
    "n_results": 18,
@@ -18664,6 +18763,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Akcja Demokracja reklamy Meta 2026 sędziowie Trybunału zamach stanu wPolityce OR niezalezna OR dorzeczy kto płaci kampania",
    "searched_at": "2026-11-01T19:43:26.083Z",
    "n_results": 17,
@@ -18757,6 +18857,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"działalności lobbingowej\" Sejm 2024 roku informacja Szef Kancelarii Sejmu podmioty zawodowe lobbyści zgłosili projekt Trybunał",
    "searched_at": "2026-11-01T19:43:37.758Z",
    "n_results": 18,
@@ -18855,6 +18956,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Poland Tusk government hired PR agency OR consultancy rule of law communication campaign contract 2024 2025 justice ministry tender",
    "searched_at": "2026-11-01T19:43:48.281Z",
    "n_results": 18,
@@ -18953,6 +19055,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "skarga nowych sędziów TK do ETPCz 2026 pełnomocnik adwokat kancelaria reprezentuje Markiewicz Taborowski Dziurda Strasburg",
    "searched_at": "2026-11-01T19:44:01.890Z",
    "n_results": 20,
@@ -19061,6 +19164,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Centralny Rejestr Umów 2026 Ministerstwo Sprawiedliwości umowa kancelaria prawna ekspertyza opinia Trybunał Konstytucyjny wykonawca",
    "searched_at": "2026-11-01T19:44:30.362Z",
    "n_results": 18,
@@ -19159,6 +19263,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"Zapytanie nr 3200\" OR \"Zapytanie nr 3178\" OR \"Zapytanie nr 3180\" w sprawie umów kancelaria",
    "searched_at": "2026-11-01T19:44:51.612Z",
    "n_results": 1,
@@ -19172,6 +19277,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "odpowiedź na interpelację koszt ekspertyz zamówionych przez Kancelarię Prezesa Rady Ministrów 2024 2025 autorzy opinii Trybunał publikacja wyroków",
    "searched_at": "2026-11-01T19:45:08.575Z",
    "n_results": 18,
@@ -19270,6 +19376,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Kancelaria Prezydenta Nawrocki zleciła ekspertyzy prawne Trybunał Konstytucyjny ślubowanie 2026 autorzy opinii kancelaria prawna koszt",
    "searched_at": "2026-11-01T19:45:37.098Z",
    "n_results": 19,
@@ -19373,6 +19480,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "Ministerstwo Sprawiedliwości umowa doradcza 2024 2025 \"komunikacja strategiczna\" OR \"obsługa PR\" OR \"monitoring mediów\" wykonawca kwota Bodnar Żurek",
    "searched_at": "2026-11-01T19:45:44.228Z",
    "n_results": 20,
@@ -19481,6 +19589,7 @@
   },
   {
    "agent": "search:C7_firms_contracts",
+   "agent_rerun_later": false,
    "query": "\"MS/5286/DKO/2024\"",
    "searched_at": "2026-11-01T19:46:14.221Z",
    "n_results": 13,
