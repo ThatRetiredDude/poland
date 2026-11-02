@@ -410,6 +410,54 @@
    "note": null
   },
   {
+   "agent": "read:R039-R041",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/014",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/014",
+   "fetched_at": "2026-11-02T00:14:43.956Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 2423,
+   "sha256": "79d36c77c35c5ae4589ef294a0197619433c661cf22e40ed9ebb644d29fea5c4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R039-R041",
+   "url": "https://sakig.pl/en/news/marcin-dziurda-appointed-as-member-of-the-arbitration-council-for-the-term-2023-2026",
+   "final_url": "https://sakig.pl/en/news/marcin-dziurda-appointed-as-member-of-the-arbitration-council-for-the-term-2023-2026",
+   "fetched_at": "2026-11-02T00:14:45.422Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 19927,
+   "sha256": "c84265c4c53b631c8c293bd637f23508a0a9e505fd830e5aa6992e5d9a9a2b18",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R039-R041",
+   "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:16:33.825Z",
+   "http": null,
+   "content_type": null,
+   "chars": 42351,
+   "sha256": "a7b52960f9f2ad5d3427afa87713b99a7987150b7df142bad8a952e99c8ed1d9",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R039-R041",
+   "url": "https://hfhr.pl/upload/2024/05/opinia-hfpc-do-projektu-ustawy-o-tk.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:18:34.838Z",
+   "http": null,
+   "content_type": null,
+   "chars": 25965,
+   "sha256": "8a14501701d112889fddb53004b85eea9cc83c5cb821f401cfe59fc72a4b0fc8",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R044-R046",
    "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
    "final_url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
