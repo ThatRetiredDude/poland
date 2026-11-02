@@ -28,50 +28,50 @@
   ]
  },
  "stats": {
-  "agents": 24,
-  "agents_left_out_unfinished_or_other_batch": 29,
+  "agents": 26,
+  "agents_left_out_unfinished_or_other_batch": 28,
   "searches": 0,
   "search_results": 0,
   "unique_result_urls": 0,
-  "page_fetches": 89,
-  "pages_reported": 79,
-  "pages_with_page_text": 74,
+  "page_fetches": 100,
+  "pages_reported": 85,
+  "pages_with_page_text": 80,
   "fetch_status": {
-   "partial": 16,
-   "ok": 55,
+   "partial": 18,
+   "ok": 59,
    "empty": 5,
    "error": 2,
    "blocked": 1
   },
-  "claims": 709,
+  "claims": 794,
   "labels": {
-   "fact": 485,
-   "alleged": 51,
-   "speculation": 13,
-   "no_link": 160
+   "fact": 527,
+   "alleged": 68,
+   "speculation": 14,
+   "no_link": 185
   },
   "evidence_check": {
-   "exact": 537,
-   "normalized": 134,
-   "not_found": 29,
+   "exact": 602,
+   "normalized": 135,
+   "not_found": 48,
    "empty": 9
   },
   "map_status": {
-   "pair_already_linked": 131,
-   "new_tie_between_known_entities": 113,
-   "new_entity_or_unmatched_name": 368,
-   "both_names_unmatched": 97
+   "pair_already_linked": 147,
+   "new_tie_between_known_entities": 140,
+   "new_entity_or_unmatched_name": 405,
+   "both_names_unmatched": 102
   },
   "kinds": {
-   "membership_or_board": 48,
-   "event_or_speech": 50,
-   "statement": 145,
-   "nomination_or_vote": 38,
-   "role_or_job": 136,
-   "other": 163,
+   "membership_or_board": 50,
+   "event_or_speech": 53,
+   "statement": 171,
+   "nomination_or_vote": 42,
+   "role_or_job": 155,
+   "other": 188,
    "grant_or_donation": 73,
-   "legal_action": 38,
-   "contract_or_fee": 16,
+   "legal_action": 41,
+   "contract_or_fee": 19,
    "ownership": 2
   },
   "title_only_leads": 0,
@@ -86,8 +86,6 @@
    "read:R059-R061",
    "read:R062-R064",
    "read:R065-R067",
-   "read:R083-R085",
-   "read:R086-R088",
    "read:R089-R090",
    "read:R106-R108",
    "read:R109-R111",
@@ -97,10 +95,14 @@
    "read:R036-R038",
    "read:R039-R041",
    "read:R080-R082",
+   "read:R083-R085",
+   "read:R086-R088",
    "read:R100-R102"
   ],
   "duplicate_reads_left_out": [
-   "read:R018-R020"
+   "read:R018-R020",
+   "read:R056-R058",
+   "read:R103-R105"
   ],
   "searches_by_stopped_agents": 0,
   "page_fetches_by_stopped_agents": 30
@@ -14687,6 +14689,2028 @@
    ]
   },
   {
+   "ref": "R083",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art44898061-slawomir-patyra-zaprzysiezony-przez-prezydenta-na-sedziego-tk-nie-bedzie-jednak-orzekal",
+   "host": "rp.pl",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Patyra's status after the oath | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "ok",
+   "fetch_note": "Read in full. Byline 'PAP, oprac. dgk, mat'; dateline 28.07.2026 12:22, updated 16:04; the text gives the oath day as 'we wtorek'. No mention of Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl. Sidebar links not fetched (see followup_urls).",
+   "page_title": "Sławomir Patyra zaprzysiężony przez prezydenta na sędziego TK. Nie będzie jednak orzekał",
+   "page_date": "28.07.2026",
+   "publisher": "Rzeczpospolita (rp.pl), PAP wire",
+   "capture_answer": "Patyra took the oath on Tuesday (dateline 28.07.2026) and announced he will file a declaration refusing to adjudicate. He said he will take no part in adjudication or TK organisational matters until the judges now barred from work can sit. No Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie appears.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.133Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 19111,
+    "sha256": "f26b3405919c5733b0c5fd6e909a79b3cc67a452d0d111591746d11c50db229e",
+    "url_read": "https://www.rp.pl/sady-i-trybunaly/art44898061-slawomir-patyra-zaprzysiezony-przez-prezydenta-na-sedziego-tk-nie-bedzie-jednak-orzekal"
+   },
+   "names_listed": [
+    "Sławomir Patyra",
+    "Karol Nawrocki",
+    "Rafał Leśkiewicz",
+    "Magdalena Bentkowska",
+    "Dariusz Szostek",
+    "Anna Korwin-Piotrowska",
+    "Krystian Markiewicz",
+    "Maciej Taborowski",
+    "Marcin Dziurda",
+    "Andrzej Zielonacki"
+   ],
+   "names_found_in_page_text": "7/10",
+   "followup_urls": [
+    {
+     "url": "https://www.rp.pl/sady-i-trybunaly/art44606991-slawomir-patyra-wybrany-na-nowego-sedziego-trybunalu-konstytucyjnego-to-radca-prawny",
+     "why": "Linked from this article: the June 2026 Sejm election of Patyra, described as a radca prawny. Not fetched."
+    },
+    {
+     "url": "https://www.rp.pl/zawody-prawnicze/art45208831-jak-strazak-na-dyzurze-prezes-krajowej-rady-radcow-prawnych-o-statusie-macieja-berka",
+     "why": "Sidebar link on this page, headline 'Włodzimierz Chróścik o Macieju Berku: jest radcą prawnym i może zostać sędzią TK'. On Berek's radca status. Not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0584",
+     "subject": "Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "received the oath of TK judge",
+     "object": "Sławomir Patyra",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "date": "28.07.2026 (dateline; text says 'we wtorek')",
+     "evidence_location": "lead paragraph",
+     "evidence_text": "Prezydent Karol Nawrocki przyjął we wtorek ślubowanie od sędziego Trybunału Konstytucyjnego Sławomira Patyry",
+     "evidence_translation": "President Karol Nawrocki received on Tuesday the oath of Constitutional Tribunal judge Sławomir Patyra.",
+     "label": "fact",
+     "label_scope": "Oath event as reported by PAP; the presidential spokesman Rafał Leśkiewicz is named as the source.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "object_map_id": "patyra",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "took oath",
+      "took oath"
+     ]
+    },
+    {
+     "id": "B01-C0585",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "announced a declaration refusing to adjudicate",
+     "object": "Trybunał Konstytucyjny (adjudication)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_location": "section 'Sędzia Patyra nie będzie obecnie uczestniczył w orzekaniu', paragraph 1",
+     "evidence_text": "Mam zamiar złożyć oświadczenie o odmowie orzekania",
+     "evidence_translation": "I intend to file a declaration refusing to adjudicate.",
+     "label": "fact",
+     "label_scope": "Patyra's own announced intention as reported; no filing is verified on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B01-C0586",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "will not take part in TK adjudication or organisational procedures while the March judges are barred",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_location": "same section, paragraph 1",
+     "evidence_text": "nie będzie uczestniczył w jakichkolwiek procedurach związanych z orzekaniem",
+     "evidence_translation": "he will not take part in any procedures connected with adjudication.",
+     "label": "fact",
+     "label_scope": "Patyra's stated position as reported by PAP.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B01-C0587",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "forms a team of TK judges together with the judges elected by the Sejm in March",
+     "object": "Sejm-elected judges of March 2026 (named on page: Bentkowska, Szostek, Korwin-Piotrowska, Markiewicz, Taborowski, Dziurda)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_location": "section 'Sędzia Patyra nie będzie obecnie...', paragraph 3",
+     "evidence_text": "wraz z sędziami wybranymi w marcu przez Sejm tworzy zespół sędziów TK",
+     "evidence_translation": "together with the judges elected by the Sejm in March, he forms a team of TK judges.",
+     "label": "fact",
+     "label_scope": "Patyra's own description of the group.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "circulated legal reasons for her 30 Oct suspension orders",
+      "his note gave the reasons for her 30 Oct suspension orders: blocking the TK 2027 budget assembly, arbitrary panels, barring the new judges d",
+      "his note gave the reasons for her 30 Oct suspension orders: blocking the TK 2027 budget assembly, arbitrary panels, barring the new judges d",
+      "circulated legal reasons for her 30 Oct suspension orders",
+      "his note gave the reasons for her 30 Oct suspension orders: blocking the TK 2027 budget assembly, arbitrary panels, barring the new judges d"
+     ]
+    },
+    {
+     "id": "B01-C0588",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "has served as head of the Chair of Constitutional Law, Faculty of Law and Administration",
+     "object": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "since 2019",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 1",
+     "evidence_text": "gdzie od 2019 r. pełni funkcję kierownika Katedry Prawa Konstytucyjnego",
+     "evidence_translation": "where since 2019 he has served as head of the Chair of Constitutional Law.",
+     "label": "fact",
+     "label_scope": "Page's biography of Patyra.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0589",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "works at",
+     "object": "Uniwersytet Radomski im. Kazimierza Pułaskiego",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "since 2013",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 1",
+     "evidence_text": "Od 2013 r. pracuje także na Uniwersytecie Radomskim im. Kazimierza Pułaskiego.",
+     "evidence_translation": "Since 2013 he has also worked at the Kazimierz Pułaski University of Radom.",
+     "label": "fact",
+     "label_scope": "Page's biography of Patyra.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0590",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "is a radca prawny and member of",
+     "object": "Okręgowa Izba Radców Prawnych w Lublinie",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "since 2013",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 2",
+     "evidence_text": "Od 2013 r. Patyra jest radcą prawnym i członkiem Okręgowej Izby Radców Prawnych w Lublinie.",
+     "evidence_translation": "Since 2013 Patyra has been a radca prawny and a member of the Lublin District Chamber of Legal Advisers.",
+     "label": "fact",
+     "label_scope": "Page's biography of Patyra.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0591",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "cooperates with",
+     "object": "Krajowa Rada Radców Prawnych",
+     "object_type": "org",
+     "kind": "other",
+     "date": "since 2013",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 2",
+     "evidence_text": "Od tamtego czasu współpracuje także z Krajową Radą Radców Prawnych.",
+     "evidence_translation": "Since then he has also cooperated with the National Chamber of Legal Advisers.",
+     "label": "fact",
+     "label_scope": "Page says 'współpracuje' (cooperates). It does not say whether this is paid or contracted.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0592",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "is a member of",
+     "object": "Polskie Towarzystwo Prawa Konstytucyjnego",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 2",
+     "evidence_text": "członkiem m.in. Polskiego Towarzystwa Prawa Konstytucyjnego",
+     "evidence_translation": "a member, among others, of the Polish Association of Constitutional Law.",
+     "label": "fact",
+     "label_scope": "Page's biography of Patyra.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0593",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "elected to the TK in June 2026 (replacing Andrzej Zielonacki, whose term ended 28 June)",
+     "object": "Sławomir Patyra",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "June 2026",
+     "evidence_location": "link text in section 'Kim jest Sławomir Patyra'",
+     "evidence_text": "Sejm wybrał dr. hab. Sławomira Patyrę na sędziego Trybunału Konstytucyjnego w czerwcu tego roku",
+     "evidence_translation": "The Sejm elected Dr hab. Sławomir Patyra as a Constitutional Tribunal judge in June of this year.",
+     "label": "fact",
+     "label_scope": "Page text; the page also says the vacancy came from Andrzej Zielonacki's term ending 28 June.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "patyra",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0594",
+     "subject": "Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "has not taken the oath from",
+     "object": "Maciej Taborowski, Marcin Dziurda, Krystian Markiewicz, Anna Korwin-Piotrowska",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 4",
+     "evidence_text": "Prezydent Nawrocki nie odebrał jednak ślubowania od pozostałej wybranej w marcu przez Sejm na sędziów TK czwórki",
+     "evidence_translation": "President Nawrocki did not, however, take the oath from the remaining four judges elected by the Sejm in March.",
+     "label": "fact",
+     "label_scope": "Page's statement of the position as of 28.07.2026.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+     ]
+    },
+    {
+     "id": "B01-C0595",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "took the oath in the President's presence (April 2026)",
+     "object": "Karol Nawrocki",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "date": "April 2026",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 4",
+     "evidence_text": "Do tej pory ślubowanie w jego obecność złożyli w kwietniu Magdalena Bentkowska i Dariusz Szostek.",
+     "evidence_translation": "So far, Magdalena Bentkowska and Dariusz Szostek took the oath in his presence, in April.",
+     "label": "fact",
+     "label_scope": "Same statement covers Dariusz Szostek.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "took oath",
+      "took oath"
+     ]
+    },
+    {
+     "id": "B01-C0596",
+     "subject": "Kancelaria Prezydenta RP (KPRP)",
+     "subject_type": "public_body",
+     "relation": "said that the four judges' situation is under analysis because, according to the chancellery, errors occurred in the Sejm",
+     "object": "Sejm (alleged errors in the March election)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "date": "April 2026",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 4",
+     "evidence_text": "gdyż - według prezydenckiej kancelarii - w Sejmie doszło do błędów",
+     "evidence_translation": "because, according to the presidential chancellery, errors occurred in the Sejm.",
+     "label": "fact",
+     "label_scope": "That KPRP said this (as reported). The page does not verify that any error occurred.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0597",
+     "subject": "Prokuratura Krajowa",
+     "subject_type": "public_body",
+     "relation": "is conducting an investigation into facilitating the President's non-taking of oaths from four TK judges and their exclusion from adjudication",
+     "object": "Karol Nawrocki (investigation concerns facilitating his decision; no suspect named)",
+     "object_type": "person",
+     "kind": "legal_action",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 5",
+     "evidence_text": "Prokuratura Krajowa prowadzi śledztwo w sprawie dotyczącej ułatwienia prezydentowi nieodebrania ślubowania",
+     "evidence_translation": "The National Prosecutor's Office is conducting an investigation concerning facilitating the President's non-taking of oaths.",
+     "label": "fact",
+     "label_scope": "The investigation is reported by the page. No suspect is named and the page does not say who is under investigation.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "prokuratura_krajowa",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0598",
+     "subject": "Judges elected by the Sejm in March 2026 (not named on the page)",
+     "subject_type": "other",
+     "relation": "filed a complaint with the European Court of Human Rights",
+     "object": "ETPCz (European Court of Human Rights)",
+     "object_type": "org",
+     "kind": "legal_action",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 5",
+     "evidence_text": "Wybrani w marcu sędziowie TK złożyli skargę do ETPCz.",
+     "evidence_translation": "The judges elected in March filed a complaint with the ECtHR.",
+     "label": "fact",
+     "label_scope": "Page does not say which of the March judges filed it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0599",
+     "subject": "Karol Nawrocki",
+     "subject_type": "person",
+     "relation": "has a pending application (wniosek) in a competence dispute over the four judges' oath taken in the Sejm on 9 April",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "application pending; oath in Sejm 9 kwietnia",
+     "evidence_location": "section 'Kim jest Sławomir Patyra', paragraph 6",
+     "evidence_text": "na rozstrzygnięcie czeka wniosek prezydenta ws. sporu kompetencyjnego",
+     "evidence_translation": "awaiting a decision is the President's application in a competence dispute.",
+     "label": "fact",
+     "label_scope": "Page text.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "nawrocki",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "30 Oct 2026: turned his plane back from a state visit to Senegal; entered the TK building about 1 a.m. on 31 Oct; his office called it 'a fo",
+      "30 Oct 2026: turned his plane back from a state visit to Senegal; entered the TK building about 1 a.m. on 31 Oct; his office called it 'a fo"
+     ]
+    },
+    {
+     "id": "B01-C0600",
+     "subject": "Rafał Leśkiewicz",
+     "subject_type": "person",
+     "relation": "is the presidential spokesman (prezydencki rzecznik)",
+     "object": "Prezydent RP Karol Nawrocki",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_location": "lead paragraph",
+     "evidence_text": "przekazał PAP prezydencki rzecznik Rafał Leśkiewicz",
+     "evidence_translation": "told PAP the presidential spokesman Rafał Leśkiewicz.",
+     "label": "fact",
+     "label_scope": "Title given on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0601",
+     "subject": "Magdalena Bentkowska and Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "were admitted to adjudicate; Anna Korwin-Piotrowska and Krystian Markiewicz were not",
+     "object": "Trybunał Konstytucyjny (adjudication)",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_location": "section 'Sędzia Patyra nie będzie obecnie...', paragraph 1 (photo caption block)",
+     "evidence_text": "z których Magdalena Bentkowska i Dariusz Szostek zostali dopuszczeni do orzekania",
+     "evidence_translation": "of whom Magdalena Bentkowska and Dariusz Szostek were admitted to adjudicate.",
+     "label": "fact",
+     "label_scope": "Page also says Korwin-Piotrowska and Markiewicz were not admitted. Who admitted them is not stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B01-C0602",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "source line at end of article",
+     "evidence_text": "Źródło: PAP",
+     "evidence_translation": "Source: PAP",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl. The source line is PAP.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R084",
+   "url": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk",
+   "host": "pap.pl",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Szostek timing | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "ok",
+   "fetch_note": "Read in full. Dateline 01.04.2026 11:29, updated 11:49. The year of the 13 March Sejm vote is implied by the dateline; the page says only '13 marca'. No mention of Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl; the no_link claims rest on the PAP credit. The page gives no party affiliation for Donald Tusk.",
+   "page_title": "Sędzia Szostek: na pewno tuż po świętach obejmę funkcję jako sędzia TK",
+   "page_date": "01.04.2026",
+   "publisher": "Polska Agencja Prasowa (PAP)",
+   "capture_answer": "Szostek said he will take up his TK post 'tuż po świętach' (right after the Easter holidays) and had not decided whether to do so on Wednesday. Page does not mention Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl for any judge.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.187Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16521,
+    "sha256": "5230b64772feebed5fa36b6201dd9723c0cee37be1e30120cc4dc8ae2968895c",
+    "url_read": "https://www.pap.pl/aktualnosci/sedzia-szostek-na-pewno-tuz-po-swietach-obejme-funkcje-jako-sedzia-tk"
+   },
+   "names_listed": [
+    "Dariusz Szostek",
+    "Magdalena Bentkowska",
+    "Krystian Markiewicz",
+    "Maciej Taborowski",
+    "Marcin Dziurda",
+    "Anna Korwin-Piotrowska",
+    "Donald Tusk",
+    "Rafał Leśkiewicz",
+    "Zbigniew Bogucki",
+    "Andrzej Zielonacki",
+    "Justyn Piskorski"
+   ],
+   "names_found_in_page_text": "11/11",
+   "claims": [
+    {
+     "id": "B01-C0603",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "said he will take up his function as TK judge right after the Easter holidays",
+     "object": "Trybunał Konstytucyjny (judge function)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_location": "lead and section 'Objęcie funkcji przez sędziego'",
+     "evidence_text": "Na pewno tuż po świętach podejmę swoją funkcję jako sędzia TK",
+     "evidence_translation": "I will certainly take up my function as a TK judge right after the holidays.",
+     "label": "fact",
+     "label_scope": "His statement as reported; he had not decided whether to do so on Wednesday.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of"
+     ]
+    },
+    {
+     "id": "B01-C0604",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "was invited to the Presidential Palace for an oath ceremony",
+     "object": "Pałac Prezydencki (Presidential Palace)",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "date": "01.04.2026 (article)",
+     "evidence_location": "lead paragraph",
+     "evidence_text": "został zaproszony do Pałacu Prezydenckiego na uroczystość ślubowania",
+     "evidence_translation": "he was invited to the Presidential Palace for the oath ceremony.",
+     "label": "fact",
+     "label_scope": "Invitation as reported; the page does not name the issuer beyond the Palace.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0605",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "said every TK panel without 15 judges is defective",
+     "object": "TK panels",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_location": "section 'Wypowiedź Dariusza Szostka przed uroczystością', paragraph 1",
+     "evidence_text": "każdy skład, który nie ma 15 sędziów, jest składem wadliwym",
+     "evidence_translation": "every panel that does not have 15 judges is a defective panel.",
+     "label": "fact",
+     "label_scope": "His statement to reporters.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0606",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "elected six TK judges on 13 March",
+     "object": "Krystian Markiewicz, Maciej Taborowski, Marcin Dziurda, Anna Korwin-Piotrowska, Dariusz Szostek, Magdalena Bentkowska",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "13 marca",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 1",
+     "evidence_text": "Wyboru sześciorga sędziów TK, Sejm dokonał 13 marca.",
+     "evidence_translation": "The Sejm made the choice of six TK judges on 13 March.",
+     "label": "fact",
+     "label_scope": "Page's own dating; year implied by article date.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "korwin_piotrowska",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0607",
+     "subject": "Krystian Markiewicz",
+     "subject_type": "person",
+     "relation": "is a judge and chair of the codification commission on the judiciary and prosecution system at the Ministry of Justice (MS)",
+     "object": "Ministerstwo Sprawiedliwości (MS)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "przewodniczący komisji kodyfikacyjnej ustroju sądownictwa i prokuratury przy MS Krystian Markiewicz",
+     "evidence_translation": "chairman of the codification commission on the judiciary and prosecution system at the MS (Ministry of Justice), Krystian Markiewicz.",
+     "label": "fact",
+     "label_scope": "Page's own description.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0608",
+     "subject": "Krystian Markiewicz",
+     "subject_type": "person",
+     "relation": "has an institutional tie to Justice Minister Waldemar Żurek",
+     "object": "Waldemar Żurek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "przewodniczący komisji kodyfikacyjnej ustroju sądownictwa i prokuratury przy MS Krystian Markiewicz",
+     "evidence_translation": "chairman of the codification commission on the judiciary and prosecution system at the MS (Ministry of Justice), Krystian Markiewicz.",
+     "label": "no_link",
+     "label_scope": "Checked this article: it names the MS commission but does not name Żurek or any link to him.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0609",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "holds academic post: dr hab. nauk prawnych, professor at",
+     "object": "Instytut Nauk Prawnych PAN",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "dr hab. nauk prawnych, prof. w Instytucie Nauk Prawnych PAN Maciej Taborowski",
+     "evidence_translation": "Dr hab. of legal sciences, professor at the Institute of Legal Sciences of the Polish Academy of Sciences, Maciej Taborowski.",
+     "label": "fact",
+     "label_scope": "Page's own description.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0610",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "holds academic post: dr hab. nauk prawnych, professor at the Chair of Civil Procedure",
+     "object": "Uniwersytet Warszawski",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "w Katedrze Postępowania Cywilnego na Wydziale Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "at the Chair of Civil Procedure, Faculty of Law and Administration of the University of Warsaw.",
+     "label": "fact",
+     "label_scope": "Page's own description; name appears directly after this excerpt.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0611",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "was a judge, until then president of the Regional Court in Opole",
+     "object": "Sąd Okręgowy w Opolu",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "sędzia, dotąd prezes Sądu Okręgowego w Opolu Anna Korwin-Piotrowska",
+     "evidence_translation": "judge, until then president of the Regional Court in Opole, Anna Korwin-Piotrowska.",
+     "label": "fact",
+     "label_scope": "Page's own description.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "so_opole",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
+      "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
+      "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election",
+      "judge 2006; vice-president 2012-17; president 2024-26; refused to give up the judgeship after TK election"
+     ]
+    },
+    {
+     "id": "B01-C0612",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "holds academic post: dr hab., professor at",
+     "object": "Uniwersytet Śląski",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "dr hab. prof. Uniwersytetu Śląskiego Dariusz Szostek",
+     "evidence_translation": "Dr hab., professor of the University of Silesia, Dariusz Szostek.",
+     "label": "fact",
+     "label_scope": "Page's own description.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0613",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "is an advocate (adwokat), Dr",
+     "object": "adwokatura (advocate profession; no firm named)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego', paragraph 2",
+     "evidence_text": "a także adwokat dr Magdalena Bentkowska",
+     "evidence_translation": "and also advocate Dr Magdalena Bentkowska.",
+     "label": "fact",
+     "label_scope": "Page names no law firm, employer or client for her.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0614",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "said, asked at a press conference on Tuesday about the presidential invitation to two judges, that a way will be found for these judges to start work",
+     "object": "Dariusz Szostek and Magdalena Bentkowska",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "section 'Komentarz premiera'",
+     "evidence_text": "znajdziemy sposób, by ci sędziowie mogli rozpocząć pracę",
+     "evidence_translation": "we will find a way for these judges to be able to start work.",
+     "label": "fact",
+     "label_scope": "Prime Minister's statement as reported by PAP. Page gives no party affiliation for Tusk.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "bentkowska",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0615",
+     "subject": "Rafał Leśkiewicz",
+     "subject_type": "person",
+     "relation": "stated on Radio Jedynka that Zbigniew Bogucki would brief on all details of the President's actions toward the TK on Wednesday at 12:00",
+     "object": "Zbigniew Bogucki",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "section 'Objęcie funkcji przez sędziego' (photo caption block)",
+     "evidence_text": "Rzecznik prezydenta Rafał Leśkiewicz oświadczył w Radiowej Jedynce",
+     "evidence_translation": "Presidential spokesman Rafał Leśkiewicz stated on Radio Jedynka",
+     "label": "fact",
+     "label_scope": "Spokesman's statement as reported by PAP.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0616",
+     "subject": "Zbigniew Bogucki",
+     "subject_type": "person",
+     "relation": "is head of the Chancellery of the President (szef KPRP)",
+     "object": "Kancelaria Prezydenta RP (KPRP)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_location": "photo caption block",
+     "evidence_text": "szef KPRP Zbigniew Bogucki poinformuje o wszystkich szczegółach działań prezydenta Karola Nawrockiego wobec Trybunału",
+     "evidence_translation": "KPRP head Zbigniew Bogucki will inform about all details of President Karol Nawrocki's actions toward the Tribunal.",
+     "label": "fact",
+     "label_scope": "Page's own description.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0617",
+     "subject": "Trybunał Konstytucyjny",
+     "subject_type": "public_body",
+     "relation": "currently has six vacancies (9 judges of 15 posts)",
+     "object": "Constitutional Tribunal seats",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_location": "section 'Komentarz premiera' (closing paragraph)",
+     "evidence_text": "Obecnie w Trybunale Konstytucyjnym jest sześć wakatów.",
+     "evidence_translation": "Currently there are six vacancies in the Constitutional Tribunal.",
+     "label": "fact",
+     "label_scope": "Page's count as of 01.04.2026.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tk",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0618",
+     "subject": "Andrzej Zielonacki",
+     "subject_type": "person",
+     "relation": "term ends in June 2026; Justyn Piskorski's term ends in September 2026",
+     "object": "Justyn Piskorski (term ends September 2026)",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_location": "closing paragraph",
+     "evidence_text": "sędzia Andrzej Zielonacki (czerwiec) oraz Justyn Piskorski (wrzesień)",
+     "evidence_translation": "judge Andrzej Zielonacki (June) and Justyn Piskorski (September).",
+     "label": "fact",
+     "label_scope": "Page's own statement of term ends.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0619",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0620",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0621",
+     "subject": "Krystian Markiewicz",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0622",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0623",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0624",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "gave no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl tie (writes for / interviewed by)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "article credit at end",
+     "evidence_text": "(PAP)",
+     "evidence_translation": "(PAP)",
+     "label": "no_link",
+     "label_scope": "Checked this article only: no mention of these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R085",
+   "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/19",
+   "host": "api.sejm.gov.pl",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Sejm sitting of 4 Sep 2026, when TK judges were elected. Check for Taborowski, Berek and Patyra speech and any firm or client mention, with the timestamp | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "partial",
+   "fetch_note": "transcripts/19 (Paweł Jabłoński, point 22) read in full; no per-speech timestamp on it. Also read the linked pages transcripts/0 (point 22 verbatim text; time markers 'Wznowienie posiedzenia o godz. 9 min 07' and 'Przerwa w posiedzeniu od godz. 10 min 45 do godz. 11 min 05'), transcripts/014, 016, 018 and 029. Not read: point 22 speeches at transcripts/015, 017, 020 to 028 and 030. Not read: transcripts/0 beyond character 39,383 of 66,372. A condensed note on that unread tail says point 22 is absent; the verbatim text contains point 22 in full, so that note is wrong. Transcript slip in transcripts/014: 'Marek Berek' is corrected on the page to 'Macieja Berka'. Taborowski and Patyra do not speak or appear in point 22; Berek is named only as a candidate.",
+   "page_title": "10. kadencja, 64. posiedzenie, 3. dzień - Poseł Paweł Jabłoński",
+   "page_date": "04-09-2026",
+   "publisher": "Sejm RP (api.sejm.gov.pl)",
+   "capture_answer": "Point 22 (Wybór sędziego TK, druki 3005, 3006, 3057, 3058) elected one judge: Maciej Berek, 226 votes to Artur Kotowski's 184 (437 voting, 219 needed). Taborowski and Patyra do not speak or appear. Berek does not speak. Timing: point 22 falls between the resumption at 9 min 07 and the break at 10 min 45; no per-speech times. Firm or client: Jabłoński alleges Berek 'provided legal aid to private firms' (none named). No Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl mention in the pages read.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:14:42.657Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1727,
+    "sha256": "b5d0df6b380492743e96d23a208c411d6c4090e690d409bb7a287785e36caba4",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/19"
+   },
+   "names_listed": [
+    "Jarosław Urbaniak",
+    "Kazimierz Smoliński",
+    "Patryk Jaskulski",
+    "Sylwia Bielawska",
+    "Sebastian Kaleta",
+    "Paweł Jabłoński",
+    "Przemysław Wipler",
+    "Witold Tumanowicz",
+    "Marcelina Zawisza",
+    "Krzysztof Paszyk",
+    "Marcin Józefaciuk",
+    "Sławomir Ćwik",
+    "Bartosz Romowicz",
+    "Jarosław Sachajko",
+    "Paulina Matysiak",
+    "Zbigniew Bogucki",
+    "Władysław Kosiniak-Kamysz",
+    "Maciej Berek",
+    "Artur Kotowski"
+   ],
+   "names_found_in_page_text": "3/19",
+   "followup_urls": [
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/017",
+     "why": "Point 22 speech by Sylwia Bielawska (Kolacja Obywatelska), not read; may mention Berek's career."
+    },
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/020",
+     "why": "Point 22 speech by Witold Tumanowicz (Konfederacja), not read; possible firm or client references."
+    },
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/015",
+     "why": "Point 22 speech by Kazimierz Smoliński, who presented Artur Kotowski's candidacy; not read."
+    },
+    {
+     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/027",
+     "why": "Point 22 speech by Jarosław Sachajko, not read; possible firm or client references."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0625",
+     "subject": "Sejm",
+     "subject_type": "public_body",
+     "relation": "elected Maciej Berek to the TK by absolute majority (226 votes; 437 voting; 219 needed)",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "04-09-2026",
+     "evidence_location": "transcripts/0, point 22 vote",
+     "evidence_text": "Sejm bezwzględną większością głosów wybrał pana Macieja Berka",
+     "evidence_translation": "The Sejm by an absolute majority elected Mr Maciej Berek.",
+     "label": "fact",
+     "label_scope": "Vote record on the sitting page. Artur Kotowski received 184 votes and was not elected.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0626",
+     "subject": "grupa posłów Klubu Parlamentarnego Koalicja Obywatelska",
+     "subject_type": "party",
+     "relation": "submitted the candidacy of",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "nomination_or_vote",
+     "date": "04-09-2026",
+     "evidence_location": "transcripts/0, point 22 presenter announcement",
+     "evidence_text": "zgłoszonej przez grupę posłów Klubu Parlamentarnego Koalicja Obywatelska",
+     "evidence_translation": "submitted by a group of MPs of the Koalicja Obywatelska parliamentary club.",
+     "label": "fact",
+     "label_scope": "Marshal's announcement on the sitting page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "ko",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "nominated and elected to TK",
+      "nominated and elected to TK"
+     ]
+    },
+    {
+     "id": "B01-C0627",
+     "subject": "Komisja Sprawiedliwości i Praw Człowieka",
+     "subject_type": "public_body",
+     "relation": "gave a positive opinion on the candidacy of",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_location": "transcripts/0, point 22, before the vote",
+     "evidence_text": "zaopiniowała pozytywnie kandydaturę pana Macieja Berka",
+     "evidence_translation": "gave a positive opinion on the candidacy of Mr Maciej Berek.",
+     "label": "fact",
+     "label_scope": "Committee opinion as read out by the Marshal.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0628",
+     "subject": "Paweł Jabłoński",
+     "subject_type": "person",
+     "relation": "says he wrote for three weeks to every institution that employed Berek",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "transcripts/19, opening",
+     "evidence_text": "przez 3 tygodnie zwracałem się do wszystkich instytucji, które zatrudniały pana Berka",
+     "evidence_translation": "for 3 weeks I wrote to all the institutions that employed Mr Berek.",
+     "label": "alleged",
+     "label_scope": "Paweł Jabłoński's account in the chamber. The letters are not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0629",
+     "subject": "Kancelaria Senatu",
+     "subject_type": "public_body",
+     "relation": "employed Berek (per Jabłoński) and wrote that none of his posts was a radca prawny post",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/19, opening",
+     "evidence_text": "Kancelaria Senatu napisała, że żadne ze stanowisk pana Macieja Berka nie było stanowiskiem radcy prawnego",
+     "evidence_translation": "The Senate Chancellery wrote that none of Mr Maciej Berek's posts was a radca prawny post.",
+     "label": "alleged",
+     "label_scope": "Jabłoński's account. The letter is not on the page. Employment claim is his.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0630",
+     "subject": "Biuro Rzecznika Praw Obywatelskich, Rządowe Centrum Legislacji, kancelaria premiera",
+     "subject_type": "org",
+     "relation": "employed Berek (per Jabłoński) and said the same",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/19, opening",
+     "evidence_text": "To samo stwierdziły Biuro Rzecznika Praw Obywatelskich, Rządowe Centrum Legislacji i kancelaria premiera.",
+     "evidence_translation": "The Office of the Ombudsman, the Government Legislation Centre and the Prime Minister's chancellery said the same.",
+     "label": "alleged",
+     "label_scope": "Jabłoński's account in the chamber. Letters not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "rpo_office",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "director general of the Ombudsman's Office from 13 Sep (2021, inferred from Wiącek's term)",
+      "director general of the Ombudsman's Office from 13 Sep (2021, inferred from Wiącek's term)"
+     ]
+    },
+    {
+     "id": "B01-C0631",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "was a minister under Tusk while giving legal aid to private firms and concealing it (rhetorical allegation)",
+     "object": "private firms (unnamed)",
+     "object_type": "company",
+     "kind": "statement",
+     "evidence_location": "transcripts/19, middle",
+     "evidence_text": "był ministrem u pana Tuska i równocześnie świadczył pomoc prawną prywatnym firmom i to zatajał?",
+     "evidence_translation": "was a minister under Mr Tusk and at the same time provided legal aid to private firms and concealed it?",
+     "label": "alleged",
+     "label_scope": "Rhetorical allegation by Paweł Jabłoński. No firm is named. Not verified.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0632",
+     "subject": "Przemysław Wipler",
+     "subject_type": "person",
+     "relation": "interjected 'Przestępstwo' (crime) during Jabłoński's allegation about Berek",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "transcripts/19, middle",
+     "evidence_text": "(Poseł Przemysław Wipler: Przestępstwo.)",
+     "evidence_translation": "(MP Przemysław Wipler: 'Crime.')",
+     "label": "alleged",
+     "label_scope": "Interjection by MP Przemysław Wipler. Not verified.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wipler",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0633",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "worked first at UMCS Lublin and now at the University of Warsaw, in a constitutional law chair (as presented by nominating MP)",
+     "object": "Uniwersytet Warszawski",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/014, paragraph 2",
+     "evidence_text": "najpierw w Uniwersytecie Marii Curie-Skłodowskiej w Lublinie, a obecnie na Uniwersytecie Warszawskim",
+     "evidence_translation": "first at Maria Curie-Skłodowska University in Lublin, and currently at the University of Warsaw.",
+     "label": "alleged",
+     "label_scope": "Career as presented by Jarosław Urbaniak in the chamber. Not checked. The page does not say the two chairs overlapped.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0634",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "was president of the Government Legislation Centre for 8 years (as presented by nominating MP)",
+     "object": "Rządowe Centrum Legislacji",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/014, paragraph 2",
+     "evidence_text": "przez bycie przez 8 lat prezesem Rządowego Centrum Legislacji",
+     "evidence_translation": "by having been for 8 years president of the Government Legislation Centre.",
+     "label": "alleged",
+     "label_scope": "Career as presented by Jarosław Urbaniak. Not checked.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0635",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "practised as radca prawny for 17 years, shown by a document from the Warsaw district chamber (per Urbaniak)",
+     "object": "Okręgowa Izba Radców Prawnych w Warszawie",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/014, paragraph 3",
+     "evidence_text": "przez 17 lat wykonywał pracę radcy prawnego",
+     "evidence_translation": "practised as a radca prawny for 17 years.",
+     "label": "alleged",
+     "label_scope": "Urbaniak's claim; document not on the page. Conflicts with Jabłoński quoting Berek's writing as continuous practice from 1 August 2012 and with Kaleta's 10-year claim.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0636",
+     "subject": "Patryk Jaskulski",
+     "subject_type": "person",
+     "relation": "recommended voting for Maciej Berek (committee rapporteur)",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "transcripts/016, paragraph 2",
+     "evidence_text": "Komisja rekomenduje głosowanie na pana dr. Macieja Berka",
+     "evidence_translation": "The committee recommends voting for Dr Maciej Berek.",
+     "label": "fact",
+     "label_scope": "Committee recommendation as stated by its rapporteur.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0637",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "said at the committee he had worked for 25 years as Donald Tusk's 'right hand' (per Kaleta)",
+     "object": "Donald Tusk",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/018, paragraph 1",
+     "evidence_text": "pan Berek wczoraj podczas posiedzenia komisji chwalił się, że od ćwierć wieku pracuje jako prawa ręka Donalda Tuska",
+     "evidence_translation": "Mr Berek yesterday at the committee meeting boasted that for a quarter century he has worked as Donald Tusk's right hand.",
+     "label": "alleged",
+     "label_scope": "Sebastian Kaleta's account of the committee. The committee transcript is not on these pages.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0638",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "did not practise as radca prawny for 10 years, as the law requires (per Kaleta)",
+     "object": "radca prawny practice requirement",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_location": "transcripts/018, paragraph 1",
+     "evidence_text": "Nie wykonywał zawodu radcy prawnego przez 10 lat, czego wymagają przepisy prawa.",
+     "evidence_translation": "He did not practise the profession of radca prawny for 10 years, which the law requires.",
+     "label": "alleged",
+     "label_scope": "Sebastian Kaleta (PiS) in the chamber.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "opole_exam_commission",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0639",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "as Tusk's 'right hand' was to implement government policy (per Bogucki)",
+     "object": "Donald Tusk",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/029, paragraph 2",
+     "evidence_text": "pan minister Berek, jako prawa ręka pana premiera Tuska, miał wdrażać politykę rządu",
+     "evidence_translation": "Minister Berek, as the right hand of Prime Minister Tusk, was to implement government policy.",
+     "label": "alleged",
+     "label_scope": "Zbigniew Bogucki's characterisation in the chamber.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
+    },
+    {
+     "id": "B01-C0640",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "is a politician in this government (per Bogucki)",
+     "object": "Rząd (government)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/029, paragraph 6",
+     "evidence_text": "Jest pan politykiem w tym rządzie.",
+     "evidence_translation": "You are a politician in this government.",
+     "label": "alleged",
+     "label_scope": "Zbigniew Bogucki addressing Berek in the chamber.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0641",
+     "subject": "Kancelaria Prezesa Rady Ministrów",
+     "subject_type": "public_body",
+     "relation": "replied to Jabłoński that none of Berek's posts was radca prawny work (per Bogucki)",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "transcripts/029, paragraph 4",
+     "evidence_text": "nawet Kancelaria Prezesa Rady Ministrów odpowiedziała, że żadne ze stanowisk",
+     "evidence_translation": "even the Chancellery of the Prime Minister replied that none of the posts",
+     "label": "alleged",
+     "label_scope": "Bogucki's account. The reply is not on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0642",
+     "subject": "Helsińska Fundacja Praw Człowieka (HFHR)",
+     "subject_type": "org",
+     "relation": "opposes the candidacy of (per Bogucki)",
+     "object": "Maciej Berek",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_location": "transcripts/029, paragraph 9",
+     "evidence_text": "Helsińską Fundację Praw Człowieka, która również dzisiaj sprzeciwia się pana kandydaturze",
+     "evidence_translation": "the Helsinki Foundation for Human Rights, which also today opposes your candidacy.",
+     "label": "alleged",
+     "label_scope": "Claim by Zbigniew Bogucki. HFHR's own statement is not on the page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "object_map_id": "berek",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0643",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "posted on X a certificate or declaration from the head of the Izba Radców Prawnych after the committee (per Bogucki)",
+     "object": "Izba Radców Prawnych (chamber not named)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_location": "transcripts/029, paragraph 4",
+     "evidence_text": "zaświadczenie czy oświadczenie szefowej Izby Radców Prawnych",
+     "evidence_translation": "certificate or declaration of the head of the Chamber of Legal Advisers.",
+     "label": "alleged",
+     "label_scope": "Bogucki's claim; Bogucki says it is dated 'z wczoraj, z godz. 12.58'.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0644",
+     "subject": "Zbigniew Bogucki",
+     "subject_type": "person",
+     "relation": "is head of the Chancellery of the President (Szef Kancelarii Prezydenta RP)",
+     "object": "Kancelaria Prezydenta RP",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_location": "transcripts/029 speaker heading and transcripts/0 point 22",
+     "evidence_text": "Szef Kancelarii Prezydenta RP Zbigniew Bogucki",
+     "evidence_translation": "Head of the Chancellery of the President of the Republic of Poland, Zbigniew Bogucki.",
+     "label": "fact",
+     "label_scope": "Speaker heading on the sitting page.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B01-C0645",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "gave a speech in, or is named in, the point 22 debate",
+     "object": "Sejm debate on point 22 (04-09-2026)",
+     "object_type": "event",
+     "kind": "statement",
+     "evidence_location": "transcripts/0, point 22 opening",
+     "evidence_text": "Przystępujemy do rozpatrzenia punktu 22. porządku dziennego: Wybór sędziego Trybunału Konstytucyjnego",
+     "evidence_translation": "We now proceed to point 22 of the agenda: election of a Constitutional Tribunal judge.",
+     "label": "no_link",
+     "label_scope": "Checked the point 22 speaker list and the speeches read. Taborowski does not speak or appear.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0646",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "gave a speech in, or is named in, the point 22 debate",
+     "object": "Sejm debate on point 22 (04-09-2026)",
+     "object_type": "event",
+     "kind": "statement",
+     "evidence_location": "transcripts/0, point 22 opening",
+     "evidence_text": "Przystępujemy do rozpatrzenia punktu 22. porządku dziennego: Wybór sędziego Trybunału Konstytucyjnego",
+     "evidence_translation": "We now proceed to point 22 of the agenda: election of a Constitutional Tribunal judge.",
+     "label": "no_link",
+     "label_scope": "Checked the point 22 speaker list and the speeches read. Patyra does not speak or appear.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0647",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "gave a speech in the point 22 debate",
+     "object": "Sejm debate on point 22 (04-09-2026)",
+     "object_type": "event",
+     "kind": "statement",
+     "evidence_location": "transcripts/0, point 22 speaker list",
+     "evidence_text": "grupy posłów zgłosiły kandydatury pana Macieja Berka i pana Artura Kotowskiego",
+     "evidence_translation": "groups of MPs put forward the candidacies of Mr Maciej Berek and Mr Artur Kotowski.",
+     "label": "no_link",
+     "label_scope": "No speaker heading for Berek in point 22; he appears only as candidate.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0648",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object": "Gazeta Wyborcza, Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_location": "sitting header",
+     "evidence_text": "10. kadencja, 64. posiedzenie, 3. dzień (04-09-2026)",
+     "evidence_translation": "10th term, 64th sitting, day 3 (04-09-2026).",
+     "label": "no_link",
+     "label_scope": "Checked transcripts/19, transcripts/0 (verbatim part), 014, 016, 018 and 029; none mentions these outlets.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0649",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "has a law firm or paid client named as tie",
+     "object": "law firm or client (none named)",
+     "object_type": "company",
+     "kind": "contract_or_fee",
+     "evidence_location": "transcripts/014, paragraph 1",
+     "evidence_text": "Pan Maciej Berek wyróżnia się w świecie prawniczym",
+     "evidence_translation": "Mr Maciej Berek stands out in the legal world.",
+     "label": "no_link",
+     "label_scope": "In the speeches read, no law firm is named; the only firm reference is the unnamed 'prywatnym firmom' alleged by Jabłoński.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "linklaters",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R086",
+   "url": "https://trybunal.gov.pl/fileadmin/content/omowienia/Ts_55_04_PL.pdf",
+   "host": "trybunal.gov.pl",
+   "lead_ref": "S1-judges_wyborcza_bylines",
+   "capture_request": "Context for the bar-register question | Lead question: Do any of the eight TK judges write for, or get interviewed by, Gazeta Wyborcza (or Agora outlets such as TOK FM and wyborcza.pl)?",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/plain, 5970 characters; full text returned in Polish. The document is a 2004 ruling. It names no judge of the 2026 cohort and no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+   "page_title": "Postanowienie z 13 października 2004 r., Ts 55/04",
+   "page_date": "13 października 2004 r.",
+   "publisher": "Trybunał Konstytucyjny (trybunal.gov.pl)",
+   "capture_answer": "Does not answer the media lead. This is a ruling of 13 October 2004 (Ts 55/04), titled 'NIEDOPUSZCZALNOŚĆ SKARGI KONSTYTUCYJNEJ ZMIERZAJĄCEJ DO UZUPEŁNIENIA SYSTEMU PRAWA' (inadmissibility of a constitutional complaint aimed at supplementing the legal system). A private individual, a tax adviser, challenged the rules under which tax advisers may appear as party representatives before administrative courts in tax cases; the Tribunal did not uphold the appeal. The panel is given only as '3 sędziów', so no judge is named. Gazeta Wyborcza, Agora, TOK FM and wyborcza.pl do not appear. Bar-register context: the summary of the complaint in the ruling says 'Ograniczenia takiego nie ma w przypadku osób dopuszczonych do wykonywania zawodu adwokata lub radcy prawnego' (no such restriction applies to persons admitted to practise as advocate or legal adviser). This is background on who may represent parties. The page does not discuss any bar register, register entry or individual.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:29:11.309Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 5967,
+    "sha256": "418d44444ed0131dbfb2a9e0161be49320d39887f9683abbd9de3580cff05248",
+    "url_read": "https://trybunal.gov.pl/fileadmin/content/omowienia/Ts_55_04_PL.pdf"
+   },
+   "claims": [
+    {
+     "id": "B01-C0650",
+     "subject": "Krystian Markiewicz",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0651",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0652",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0653",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0654",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0655",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0656",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0657",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "writes for or is interviewed by",
+     "object": "Gazeta Wyborcza / Agora (TOK FM, wyborcza.pl)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "3 sędziów",
+     "evidence_translation": "3 judges",
+     "evidence_location": "PDF page 1, header block 'Skład orzekający'",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 (2004) checked: this judge not named; no Gazeta Wyborcza, Agora, TOK FM or wyborcza.pl reference.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "gazeta_wyborcza",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0658",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "is registered as an advocate (adwokat) or legal adviser (radca prawny)",
+     "object": "bar-register status (adwokat or radca prawny); no register named on page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "osób dopuszczonych do wykonywania zawodu adwokata lub radcy prawnego",
+     "evidence_translation": "persons admitted to practise the profession of advocate or legal adviser",
+     "evidence_location": "PDF page 1, paragraph beginning 'W swojej skardze konstytucyjnej' (summary of the complaint)",
+     "label": "no_link",
+     "label_scope": "Full text of Ts 55/04 checked: no individual named; advocates and legal advisers appear only generically; no bar register or register entry is mentioned.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "opole_exam_commission",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "R087",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+   "host": "api.sejm.gov.pl",
+   "lead_ref": "S1-taborowski_firm_clients",
+   "capture_request": "Source of the firm mention; capture text, date and author verbatim | Lead question: Does Hoffman, Taborowski i Wspólnicy (KRS 0000901486) have state or foreign clients, or fees from public bodies?",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200, text/html, 1515 characters; full question text returned. The page holds the question only: no ministry reply, no party or club for the submitters, no name for the minister, and no links in the returned text. 'Data wpływu' is the date of receipt.",
+   "page_title": "Zapytanie w sprawie umowy nr MS/5286/DKO/2024 zawartej z Kancelarią Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+   "page_date": "20-02-2026",
+   "publisher": "Sejm Rzeczypospolitej Polskiej (api.sejm.gov.pl)",
+   "capture_answer": "This page is the source of the firm mention. It is written question no. 3200 to the minister of justice ('do ministra sprawiedliwości'), headed 'Zapytanie w sprawie umowy nr MS/5286/DKO/2024 zawartej z Kancelarią Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska'. Author, verbatim: 'Zgłaszający: Dariusz Matecki, Zbigniew Ziobro'. Date, verbatim: 'Data wpływu: 20-02-2026' (date of receipt). The text says, 'W związku z zawarciem w dniu 25 listopada 2024 r. umowy nr MS/5286/DKO/2024 z Kancelarią...', that the contract was concluded with the firm for analysis and a recommendation on a legal opinion about judges' declarations to the Krajowa Rada Sądownictwa, for 4920,00 zł. It asks for the full contract with annexes, the scope and analysis, whether a separate opinion was prepared and by whom, the payment record, and who on the ministry side approved the work. No reply is included. On the lead question: the only public-body fee this page names is this 4920,00 zł contract with the ministry (alleged by the submitters). No foreign client and no other state client is named. No partner is named, and Maciej Taborowski is not mentioned; 'Taborowski' appears only in the firm's name. The question gives no register number. The firm name matches compabase's record for KRS 0000901486 by name only, and that record dates the addition of 'Taborowski' to 2026-04-01, after both the contract date and the receipt date.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:28:53.887Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 1515,
+    "sha256": "1a252f68d0a737865d4f3f08f005b1ca470f16f4b2612619bc11765a0eeb606b",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body"
+   },
+   "names_listed": [
+    "Dariusz Matecki",
+    "Zbigniew Ziobro"
+   ],
+   "names_found_in_page_text": "2/2",
+   "claims": [
+    {
+     "id": "B01-C0659",
+     "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "subject_type": "company",
+     "relation": "concluded contract no. MS/5286/DKO/2024 for paid work (dzieło) with",
+     "object": "Minister of Justice (ministra sprawiedliwości; holder not named on page)",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "amount": "4920,00",
+     "currency": "zł",
+     "date": "25 listopada 2024 r.",
+     "evidence_text": "umowy nr MS/5286/DKO/2024 z Kancelarią Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "evidence_translation": "contract no. MS/5286/DKO/2024 with the law firm Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "evidence_location": "Body, opening paragraph ('W związku z zawarciem w dniu...')",
+     "label": "alleged",
+     "label_scope": "Stated as the premise of Sejm written question no. 3200 by Dariusz Matecki and Zbigniew Ziobro (received 20-02-2026). The page has no ministry reply. The ministry as counterparty is implied: the question is addressed to the minister and asks who on the ministry's side approved the work.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0660",
+     "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "subject_type": "company",
+     "relation": "paid work (dzieło): analysis of court documents and case law and a recommendation on a legal opinion about judges' declarations, submitted to",
+     "object": "Krajowa Rada Sądownictwa",
+     "object_type": "public_body",
+     "kind": "contract_or_fee",
+     "amount": "4920,00",
+     "currency": "zł",
+     "date": "25 listopada 2024 r.",
+     "evidence_text": "oświadczeń woli dalszego zajmowania stanowiska składanych przez sędziów do Krajowej Rady Sądownictwa",
+     "evidence_translation": "declarations of will to continue holding the post, submitted by judges to the Krajowa Rada Sądownictwa",
+     "evidence_location": "Body, opening paragraph (end of the contract description)",
+     "label": "alleged",
+     "label_scope": "Same premise as the contract claim: Sejm written question no. 3200 by Dariusz Matecki and Zbigniew Ziobro; no ministry reply on the page. 'Krajowa Rada Sądownictwa' here is the judicial council, not the court register.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0661",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "partner, representative or shareholder of",
+     "object": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "object_type": "company",
+     "kind": "other",
+     "evidence_text": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "evidence_translation": "Hoffman Taborowski and Partners, Advocates' Partnership (law firm)",
+     "evidence_location": "Body, opening paragraph",
+     "label": "no_link",
+     "label_scope": "Full question text checked: no partner, representative or shareholder is named, and no person named Maciej Taborowski appears. The surname occurs only inside the firm name.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "hoffman_taborowski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising"
+     ]
+    },
+    {
+     "id": "B01-C0662",
+     "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "subject_type": "company",
+     "relation": "is the same entity as (identity by name match only)",
+     "object": "KRS 0000901486",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
+     "evidence_translation": "Hoffman Taborowski and Partners, Advocates' Partnership (law firm)",
+     "evidence_location": "Body, opening paragraph",
+     "label": "speculation",
+     "label_scope": "Rests on name similarity only: the question gives no register number. Compabase lists KRS 0000901486 under 'Hoffman Taborowski I Wspólnicy Adwokackasp. p.', with a name change dated 2026-04-01.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "R088",
+   "url": "https://compabase.com/companies/krs/0000901486",
+   "host": "compabase.com",
+   "lead_ref": "S1-taborowski_firm_clients",
+   "capture_request": "Partners and status from the KRS record | Lead question: Does Hoffman, Taborowski i Wspólnicy (KRS 0000901486) have state or foreign clients, or fees from public bodies?",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200, text/plain, 1962 characters; full text returned. The 'Authorized Representatives' and 'Ownership' headings have no entries beneath them in the returned text, so no partner or owner is shown. Header reads 'Hoffman Taborowski I Wspólnicy Adwokackasp. p.Status: Entity active'. Footer reads 'Last updated: 2026-04-07'.",
+   "page_title": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+   "page_date": "2026-04-07",
+   "publisher": "compabase.com",
+   "capture_answer": "Status: the record shows 'Status: Entity active' (footer 'Last updated: 2026-04-07'). Identifiers line: 'KRS: 0000901486 NIP: 7010344029 REGON: 14614140500000'. Registry date 2021-06-01; registered address Ul. Kaniowska 114/2, 01-529 Warszawa, Poland; website hlegal.pl. Partners and owners: none are shown. The 'Authorized Representatives' and 'Ownership' headings have no names beneath them in the returned text, so this page neither confirms nor excludes any partner, including Maciej Taborowski. Name history: 'Hoffman I Wspólnicy Adwokacka → Hoffman Taborowski I Wspólnicy Adwokacka', dated 2026-04-01. That date is after the 25 November 2024 contract date and the 20-02-2026 receipt date in the Sejm question, which already used the name with 'Taborowski'; this page does not explain the difference. Clients and public fees: none are named. The activity description says 'They represent clients in various cases' and mentions 'advising on EU state aid law and housing cooperatives' without naming any client, state body or foreign client. The official court register is not linked from this page and was not checked.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:28:54.339Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 1962,
+    "sha256": "546a231555a79f8d7b03fa69b471b8bb22d298e80afa7e532e491430cfba2d13",
+    "url_read": "https://compabase.com/companies/krs/0000901486"
+   },
+   "followup_urls": [
+    {
+     "url": "https://hlegal.pl",
+     "why": "Firm website as shown on the record ('hlegal.pl'); may name partners, team and clients. Not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B01-C0663",
+     "subject": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "subject_type": "company",
+     "relation": "register number (labelled 'KRS' on the page)",
+     "object": "KRS 0000901486",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "KRS: 0000901486 NIP: 7010344029 REGON: 14614140500000",
+     "evidence_translation": "KRS: 0000901486 NIP: 7010344029 REGON: 14614140500000",
+     "evidence_location": "Top of record, identifiers line under 'Legal activities'",
+     "label": "fact",
+     "label_scope": "Compabase record fields for this entity; the page gives no source for them.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0664",
+     "subject": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "subject_type": "company",
+     "relation": "status on compabase record",
+     "object": "Entity active",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Status: Entity active",
+     "evidence_translation": "Status: Entity active",
+     "evidence_location": "Top of record, header line",
+     "label": "fact",
+     "label_scope": "Compabase status field; page footer 'Last updated: 2026-04-07'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0665",
+     "subject": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "subject_type": "company",
+     "relation": "name change (former name 'Hoffman I Wspólnicy Adwokacka') to",
+     "object": "Hoffman Taborowski I Wspólnicy Adwokacka",
+     "object_type": "company",
+     "kind": "other",
+     "date": "2026-04-01",
+     "evidence_text": "Hoffman I Wspólnicy Adwokacka → Hoffman Taborowski I Wspólnicy Adwokacka",
+     "evidence_translation": "Hoffman I Wspólnicy Adwokacka → Hoffman Taborowski I Wspólnicy Adwokacka",
+     "evidence_location": "'Change history' table, row 'Name change'",
+     "label": "fact",
+     "label_scope": "Compabase change-history entry dated 2026-04-01; this is the site's record of the change, not an official register entry.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "hoffman_taborowski",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0666",
+     "subject": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "subject_type": "company",
+     "relation": "practice area listed in activity description",
+     "object": "advice on EU state aid law and on housing cooperatives",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "advising on EU state aid law and housing cooperatives",
+     "evidence_translation": "advising on EU state aid law and housing cooperatives",
+     "evidence_location": "'Activity description' section, first paragraph",
+     "label": "fact",
+     "label_scope": "Compabase activity description; not attributed to the firm or to the court register. It names no client.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "orlen",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B01-C0667",
+     "subject": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "subject_type": "company",
+     "relation": "has a named state or foreign client",
+     "object": "none named",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "They represent clients in various cases",
+     "evidence_translation": "They represent clients in various cases",
+     "evidence_location": "'Activity description' section, first paragraph",
+     "label": "no_link",
+     "label_scope": "Whole record checked: no client is named, and no state body or foreign client is mentioned. 'EU state aid law' appears only as a practice area.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hoffman_taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B01-C0668",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "partner, authorized representative or owner of",
+     "object": "Hoffman Taborowski I Wspólnicy Adwokackasp. p.",
+     "object_type": "company",
+     "kind": "other",
+     "evidence_text": "Authorized Representatives",
+     "evidence_translation": "Authorized Representatives",
+     "evidence_location": "'Authorized Representatives' and 'Ownership' headings (no entries beneath)",
+     "label": "no_link",
+     "label_scope": "'Authorized Representatives' and 'Ownership' sections checked: no names appear under either heading in the returned text, so no partner or owner is named on this page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "object_map_id": "hoffman_taborowski",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising",
+      "partner; bar entry Warsaw 2020-09-07, still listed as practising"
+     ]
+    }
+   ]
+  },
+  {
    "ref": "R091",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/4234/body",
    "host": "api.sejm.gov.pl",
@@ -14727,7 +16751,7 @@
    "names_found_in_page_text": "16/16",
    "claims": [
     {
-     "id": "B01-C0584",
+     "id": "B01-C0669",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "submitted (Zgłaszający) interpellation no. 4234 to the prime minister",
@@ -14748,7 +16772,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0585",
+     "id": "B01-C0670",
      "subject": "Łukasz Schreiber",
      "subject_type": "person",
      "relation": "signs as Member of the Sejm",
@@ -14765,7 +16789,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0586",
+     "id": "B01-C0671",
      "subject": "Krzysztofa Szczuckiego",
      "subject_type": "person",
      "relation": "submitted query no. 456 to the KPRM about a session of the Council for matters of companies with State Treasury participation",
@@ -14786,7 +16810,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0587",
+     "id": "B01-C0672",
      "subject": "Macieja Berka",
      "subject_type": "person",
      "relation": "sent a request for an extension of the time to reply; the page gives only the title 'minister'",
@@ -14804,7 +16828,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0588",
+     "id": "B01-C0673",
      "subject": "Rada do spraw spółek z udziałem Skarbu Państwa i państwowych osób prawnych",
      "subject_type": "public_body",
      "relation": "reportedly gave a positive opinion to 15 named persons (see names_listed)",
@@ -14825,7 +16849,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0589",
+     "id": "B01-C0674",
      "subject": "Maciej Henryk Taborowski",
      "subject_type": "person",
      "relation": "is named (as one of 15 persons) as having received a positive opinion of the Council for matters of companies with State Treasury participation",
@@ -14845,7 +16869,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0590",
+     "id": "B01-C0675",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a state or foreign client, or as a fee recipient from a public body, in",
@@ -14864,7 +16888,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0591",
+     "id": "B01-C0676",
      "subject": "Interpelacja nr 4234",
      "subject_type": "document",
      "relation": "is addressed to the prime minister, who is named",
@@ -14924,7 +16948,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0592",
+     "id": "B01-C0677",
      "subject": "Arkadiusz Myrcha",
      "subject_type": "person",
      "relation": "signs the reply as Sekretarz Stanu (Secretary of State) of the Ministry of Justice",
@@ -14949,7 +16973,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0593",
+     "id": "B01-C0678",
      "subject": "Dariusz Matecki",
      "subject_type": "person",
      "relation": "submitted 67 parliamentary queries to the Ministry of Justice concerning 86 civil-law contracts (with annexes) concluded by the ministry in 2024",
@@ -14972,7 +16996,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0594",
+     "id": "B01-C0679",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided to publish a register of civil-law contracts concluded in the justice department for 2019–2023",
@@ -14992,7 +17016,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0595",
+     "id": "B01-C0680",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "decided that a further register was published, covering contracts concluded in 2024",
@@ -15012,7 +17036,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0596",
+     "id": "B01-C0681",
      "subject": "Ministerstwo Sprawiedliwości",
      "subject_type": "public_body",
      "relation": "published information on contracts concluded within the Justice Fund",
@@ -15036,7 +17060,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0597",
+     "id": "B01-C0682",
      "subject": "Minister Sprawiedliwości",
      "subject_type": "person",
      "relation": "is",
@@ -15057,7 +17081,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0598",
+     "id": "B01-C0683",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as a contractor, client or fee recipient in",
@@ -15103,7 +17127,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0599",
+     "id": "B01-C0684",
      "subject": "Jerzego Polaczka",
      "subject_type": "person",
      "relation": "submitted, with a group of MPs, query K10ZAP729 raising an alleged conflict of interest of a minister (not named)",
@@ -15123,7 +17147,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0600",
+     "id": "B01-C0685",
      "subject": "Minister (not named on the page)",
      "subject_type": "person",
      "relation": "is described as chair of the Standing Committee of the Council of Ministers",
@@ -15140,7 +17164,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0601",
+     "id": "B01-C0686",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "states that there is no legal bar on combining membership of the Council of Ministers, or the presidency of the Government Legislation Centre, with radca prawny status",
@@ -15165,7 +17189,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0602",
+     "id": "B01-C0687",
      "subject": "Jan Grabiec",
      "subject_type": "person",
      "relation": "signed the reply (DSP.INT.4611.160.2024) addressed to Marshal of the Sejm Szymon Hołownia",
@@ -15188,7 +17212,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0603",
+     "id": "B01-C0688",
      "subject": "Hoffman, Taborowski i Wspólnicy (KRS 0000901486)",
      "subject_type": "company",
      "relation": "named as client, contractor or fee recipient in",
@@ -15259,7 +17283,7 @@
    "names_found_in_page_text": "26/26",
    "claims": [
     {
-     "id": "B01-C0604",
+     "id": "B01-C0689",
      "subject": "Hoffman, Taborowski i Wspólnicy",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, as shown on this page",
@@ -15278,7 +17302,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0605",
+     "id": "B01-C0690",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in or linked to this sitting",
@@ -15297,7 +17321,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0606",
+     "id": "B01-C0691",
      "subject": "Waldemar Żurek",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -15316,7 +17340,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0607",
+     "id": "B01-C0692",
      "subject": "Adam Bodnar",
      "subject_type": "person",
      "relation": "speaks at, or is represented at, this sitting",
@@ -15335,7 +17359,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0608",
+     "id": "B01-C0693",
      "subject": "Sylwia Kuźniar",
      "subject_type": "person",
      "relation": "spoke for the Ministry of Justice at the Sejm Petitions Committee sitting, invited by presiding member Urszula Augustyn (KO)",
@@ -15384,7 +17408,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0609",
+     "id": "B01-C0694",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is entered on the list of advocates (lista adwokatów) in the current chamber",
@@ -15404,7 +17428,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0610",
+     "id": "B01-C0695",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "has register status 'Wykonujący zawód' (practising the profession) on the advocates' register, number WAW/ADW/9259",
@@ -15423,7 +17447,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0611",
+     "id": "B01-C0696",
      "subject": "DR HAB Taborowski Maciej (WAW/ADW/9259)",
      "subject_type": "person",
      "relation": "is the same person as the TK judge Maciej Taborowski named in the requested list",
@@ -15444,7 +17468,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0612",
+     "id": "B01-C0697",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is recorded as practising at the firm named as his place of practice",
@@ -15471,7 +17495,7 @@
      ]
     },
     {
-     "id": "B01-C0613",
+     "id": "B01-C0698",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is listed under the heading 'PREFEROWANA PRAKTYKA' with the Izba Adwokacka w Warszawie",
@@ -15490,7 +17514,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0614",
+     "id": "B01-C0699",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "holds a Constitutional Tribunal post, or is subject to other-activity limits under the TK Act, per this entry",
@@ -15518,7 +17542,7 @@
      ]
     },
     {
-     "id": "B01-C0615",
+     "id": "B01-C0700",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is also listed as a legal adviser (radca prawny)",
@@ -15539,7 +17563,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0616",
+     "id": "B01-C0701",
      "subject": "Hoffman Taborowski i Wspólnicy Adwokacka Spółka Partnerska",
      "subject_type": "company",
      "relation": "has state or foreign clients, or fees from public bodies, per this entry",
@@ -15599,7 +17623,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0617",
+     "id": "B01-C0702",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a candidate for judge of the Constitutional Tribunal (TK)",
@@ -15626,7 +17650,7 @@
      ]
     },
     {
-     "id": "B01-C0618",
+     "id": "B01-C0703",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is a former 'superminister', described as the minister responsible for supervising implementation of government policy, who came from government",
@@ -15645,7 +17669,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0619",
+     "id": "B01-C0704",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "moved from the centre of executive power to a constitutional-judge candidacy in an express transfer",
@@ -15671,7 +17695,7 @@
      ]
     },
     {
-     "id": "B01-C0620",
+     "id": "B01-C0705",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "does not meet key formal requirements for the TK post, per the author's analysis",
@@ -15690,7 +17714,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0621",
+     "id": "B01-C0706",
      "subject": "Maciej Berek",
      "subject_type": "person",
      "relation": "is said by the author not to meet the statutory minimum of 10 years of actual practice as a legal adviser",
@@ -15711,7 +17735,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0622",
+     "id": "B01-C0707",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "is described on the page as a former deputy minister of justice",
@@ -15728,7 +17752,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0623",
+     "id": "B01-C0708",
      "subject": "Łukasz Piebiak",
      "subject_type": "person",
      "relation": "argues in the headline that being entered on a list is not 'wykonywanie zawodu' (practising the profession)",
@@ -15745,7 +17769,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0624",
+     "id": "B01-C0709",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as calling for the Tribunal grounds to be left by coercive forces",
@@ -15770,7 +17794,7 @@
      ]
     },
     {
-     "id": "B01-C0625",
+     "id": "B01-C0710",
      "subject": "Karol Nawrocki",
      "subject_type": "person",
      "relation": "is reported in a sidebar headline as having made a night visit to the TK",
@@ -15842,7 +17866,7 @@
    "names_found_in_page_text": "1/1",
    "claims": [
     {
-     "id": "B01-C0626",
+     "id": "B01-C0711",
      "subject": "Trybunał Konstytucyjny (case K 3/10)",
      "subject_type": "public_body",
      "relation": "found constitutional (as reported) the provision allowing entry to the legal-adviser profession without the legal-adviser exam for persons holding judge or prosecutor posts or practising as advocates or notaries",
@@ -15862,7 +17886,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0627",
+     "id": "B01-C0712",
      "subject": "resort sprawiedliwości (Ministry of Justice)",
      "subject_type": "public_body",
      "relation": "was working on rules to simplify access to the legal-adviser profession (2012 statement)",
@@ -15885,7 +17909,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0628",
+     "id": "B01-C0713",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named on the page in any role (advocate, legal adviser or TK judge)",
@@ -15905,7 +17929,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0629",
+     "id": "B01-C0714",
      "subject": "Constitutional Tribunal Act (ustawa o Trybunale Konstytucyjnym): rules on other activity or incompatibility of judges",
      "subject_type": "other",
      "relation": "are stated in the article",
@@ -15925,7 +17949,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0630",
+     "id": "B01-C0715",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named on the page",
@@ -15979,7 +18003,7 @@
    "names_found_in_page_text": "10/10",
    "claims": [
     {
-     "id": "B01-C0631",
+     "id": "B01-C0716",
      "subject": "Trybunał Konstytucyjny (full bench, case W. 2/92)",
      "subject_type": "public_body",
      "relation": "issued a resolution (uchwała) on the interpretation of arts 23(1), 26 and 28(1)(2) of the Act on Legal Advisers of 6 July 1982",
@@ -15999,7 +18023,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0632",
+     "id": "B01-C0717",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "held (ustalił) that entry on the list of legal advisers of a person practising as a judge or prosecutor is inadmissible",
@@ -16019,7 +18043,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0633",
+     "id": "B01-C0718",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "filed a separate opinion (zadanie odrębne) stating that he did not share the interpretation in resolution W. 2/92",
@@ -16042,7 +18066,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0634",
+     "id": "B01-C0719",
      "subject": "Remigiusz Orzechowski",
      "subject_type": "person",
      "relation": "reads art. 26 of the 1982 Act as banning only simultaneous practice of the listed professions with the legal-adviser profession",
@@ -16060,7 +18084,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0635",
+     "id": "B01-C0720",
      "subject": "Trybunał Konstytucyjny (W. 2/92)",
      "subject_type": "public_body",
      "relation": "cites, as the procedural basis of the proceedings (w trybie art. 13 pkt 1 i 2), the Constitutional Tribunal Act of 29 April 1985",
@@ -16080,7 +18104,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0636",
+     "id": "B01-C0721",
      "subject": "Maciej Taborowski",
      "subject_type": "person",
      "relation": "is named in the document in any role",
@@ -16100,7 +18124,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0637",
+     "id": "B01-C0722",
      "subject": "Constitutional Tribunal Act of 29 April 1985: incompatibility or other-activity rules for judges",
      "subject_type": "other",
      "relation": "are reproduced or stated in the document",
@@ -16120,7 +18144,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0638",
+     "id": "B01-C0723",
      "subject": "Other 2026 actors named in the task (see label_scope)",
      "subject_type": "other",
      "relation": "is named in the document",
@@ -16180,7 +18204,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0639",
+     "id": "B01-C0724",
      "subject": "Rada Krajowa PO",
      "subject_type": "party",
      "relation": "approved the Koalicja Obywatelska lists for the European Parliament election",
@@ -16199,7 +18223,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0640",
+     "id": "B01-C0725",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "placed first ('jedynka') on the KO Silesian list for the European Parliament election",
@@ -16220,7 +18244,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0641",
+     "id": "B01-C0726",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is a minister in Donald Tusk's government and is among the three KO ministers standing for the European Parliament",
@@ -16245,7 +18269,7 @@
      ]
     },
     {
-     "id": "B01-C0642",
+     "id": "B01-C0727",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "said that the ministers had placed themselves at the disposal of Prime Minister Donald Tusk (quote to capture)",
@@ -16270,7 +18294,7 @@
      ]
     },
     {
-     "id": "B01-C0643",
+     "id": "B01-C0728",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "said his current functions run until 10 May, when the government reconstruction is due",
@@ -16288,7 +18312,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0644",
+     "id": "B01-C0729",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "said the State Assets ministry would stay in the hands of KO",
@@ -16308,7 +18332,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0645",
+     "id": "B01-C0730",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "decides on dismissals of ministers (per Budka)",
@@ -16326,7 +18350,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0646",
+     "id": "B01-C0731",
      "subject": "Donald Tusk (Prime Minister)",
      "subject_type": "person",
      "relation": "was spoken with before Marcin Kierwiński decided to run for the European Parliament (per video caption)",
@@ -16344,7 +18368,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0647",
+     "id": "B01-C0732",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "is quoted in a teaser headline saying the president has no right to go everywhere and always",
@@ -16362,7 +18386,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0648",
+     "id": "B01-C0733",
      "subject": "Anna Korwin-Piotrowska",
      "subject_type": "person",
      "relation": "alleges the president charged at her",
@@ -16380,7 +18404,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0649",
+     "id": "B01-C0734",
      "subject": "Kancelaria Prezydenta",
      "subject_type": "public_body",
      "relation": "wants to notify the prosecutor's office over a violation of inviolability",
@@ -16396,7 +18420,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0650",
+     "id": "B01-C0735",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "party tie or role checked on this page",
@@ -16414,7 +18438,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0651",
+     "id": "B01-C0736",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "party tie or role checked on this page",
@@ -16432,7 +18456,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0652",
+     "id": "B01-C0737",
      "subject": "Sikora",
      "subject_type": "person",
      "relation": "party tie or role checked on this page",
@@ -16450,7 +18474,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0653",
+     "id": "B01-C0738",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "party tie or role checked on this page",
@@ -16508,7 +18532,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0654",
+     "id": "B01-C0739",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "was sworn in as minister of state assets in Donald Tusk's government",
@@ -16529,7 +18553,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0655",
+     "id": "B01-C0740",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is a Member of the Sejm",
@@ -16548,7 +18572,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0656",
+     "id": "B01-C0741",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "chaired Platforma Obywatelska (party chair), printed as 2020-2021",
@@ -16567,7 +18591,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0657",
+     "id": "B01-C0742",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "has chaired the KO parliamentary club since 2021",
@@ -16588,7 +18612,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0658",
+     "id": "B01-C0743",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "was minister of justice in Ewa Kopacz's government",
@@ -16608,7 +18632,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0659",
+     "id": "B01-C0744",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "said that all supervisory and management board members of state companies would be dismissed",
@@ -16628,7 +18652,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0660",
+     "id": "B01-C0745",
      "subject": "Prawo i Sprawiedliwość",
      "subject_type": "party",
      "relation": "created the Ministry of State Assets",
@@ -16647,7 +18671,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0661",
+     "id": "B01-C0746",
      "subject": "Waldemar Żurek",
      "subject_type": "person",
      "relation": "is headlined as having spoken on the Constitutional Tribunal (TK) budget",
@@ -16670,7 +18694,7 @@
      ]
     },
     {
-     "id": "B01-C0662",
+     "id": "B01-C0747",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "received income for work as an academic teacher (asset declaration)",
@@ -16748,7 +18772,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0663",
+     "id": "B01-C0748",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "party affiliation",
@@ -16768,7 +18792,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0664",
+     "id": "B01-C0749",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "other political affiliation",
@@ -16788,7 +18812,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0665",
+     "id": "B01-C0750",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "leader of the Civic Coalition parliamentary group since 2019",
@@ -16808,7 +18832,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0666",
+     "id": "B01-C0751",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "chairman of Civic Platform, succeeding Grzegorz Schetyna",
@@ -16829,7 +18853,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0667",
+     "id": "B01-C0752",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "succeeded Borys Budka as chairman of Civic Platform",
@@ -16849,7 +18873,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0668",
+     "id": "B01-C0753",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "Prime Minister over Budka's post as Minister of State Assets",
@@ -16873,7 +18897,7 @@
      ]
     },
     {
-     "id": "B01-C0669",
+     "id": "B01-C0754",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "Minister of State Assets",
@@ -16894,7 +18918,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0670",
+     "id": "B01-C0755",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "Member of the European Parliament for Poland, Silesia (constituency 11)",
@@ -16915,7 +18939,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0671",
+     "id": "B01-C0756",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "chairs the Committee on Industry, Research and Energy (ITRE)",
@@ -16935,7 +18959,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0672",
+     "id": "B01-C0757",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "appointed by the parliament (Sejm) to the National Council of the Judiciary",
@@ -16956,7 +18980,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0673",
+     "id": "B01-C0758",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "Minister of Justice in the government of Ewa Kopacz",
@@ -16977,7 +19001,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0674",
+     "id": "B01-C0759",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "Member of the Sejm",
@@ -17024,7 +19048,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0675",
+     "id": "B01-C0760",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "has a biography on this page stating party affiliation or government role",
@@ -17041,7 +19065,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0676",
+     "id": "B01-C0761",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is captioned as 'Premier' (prime minister) in news images on the gov.pl homepage",
@@ -17090,7 +19114,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0677",
+     "id": "B01-C0762",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 19",
@@ -17110,7 +19134,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0678",
+     "id": "B01-C0763",
      "subject": "Donald Tusk",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Coalition' in the member table",
@@ -17135,7 +19159,7 @@
      ]
     },
     {
-     "id": "B01-C0679",
+     "id": "B01-C0764",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on the Civic Coalition list in constituency 31",
@@ -17155,7 +19179,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0680",
+     "id": "B01-C0765",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "party is listed as 'Civic Platform'; parliamentary group as 'Civic Coalition'",
@@ -17176,7 +19200,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B01-C0681",
+     "id": "B01-C0766",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "was replaced as a Sejm member (footnote text 'Replaced Borys Budka')",
@@ -17196,7 +19220,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0682",
+     "id": "B01-C0767",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "is listed as a Sejm member of the 2023–2027 term elected on The Left list in constituency 1",
@@ -17216,7 +19240,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0683",
+     "id": "B01-C0768",
      "subject": "Arkadiusz Sikora",
      "subject_type": "person",
      "relation": "party is listed as 'New Left' (parliamentary group 'The Left')",
@@ -17235,7 +19259,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0684",
+     "id": "B01-C0769",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -17252,7 +19276,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0685",
+     "id": "B01-C0770",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -17269,7 +19293,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0686",
+     "id": "B01-C0771",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is listed among the Sejm members of the 2023–2027 term (member tables)",
@@ -17324,7 +19348,7 @@
    ],
    "claims": [
     {
-     "id": "B01-C0687",
+     "id": "B01-C0772",
      "subject": "Grupa PTWP",
      "subject_type": "org",
      "relation": "says the 2025 EEC is its own event ('autorskie wydarzenie Grupy PTWP') and that it is the organiser",
@@ -17344,7 +19368,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0688",
+     "id": "B01-C0773",
      "subject": "Polskie Towarzystwo Wspierania Przedsiębiorczości S.A.",
      "subject_type": "company",
      "relation": "is the parent company (spółka matka) of the PTWP capital group, called 'Grupa PTWP' in the release",
@@ -17362,7 +19386,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0689",
+     "id": "B01-C0774",
      "subject": "PTWP Event Center",
      "subject_type": "company",
      "relation": "manages the International Congress Centre and the Spodek hall in Katowice",
@@ -17380,7 +19404,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0690",
+     "id": "B01-C0775",
      "subject": "Międzynarodowe Centrum Kongresowe w Katowicach",
      "subject_type": "other",
      "relation": "is the venue of the 2025 EEC",
@@ -17400,7 +19424,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0691",
+     "id": "B01-C0776",
      "subject": "Województwo Śląskie",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -17420,7 +19444,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0692",
+     "id": "B01-C0777",
      "subject": "Miasto Katowice",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -17442,7 +19466,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0693",
+     "id": "B01-C0778",
      "subject": "Górnośląsko-Zagłębiowska Metropolia",
      "subject_type": "public_body",
      "relation": "is named as a support body for the PTWP Group's EEC 2025 ('realizowane przy wsparciu')",
@@ -17462,7 +19486,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0694",
+     "id": "B01-C0779",
      "subject": "Wojciech Kuśpik",
      "subject_type": "person",
      "relation": "is prezes zarządu (management board president) of PTWP SA",
@@ -17480,7 +19504,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0695",
+     "id": "B01-C0780",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -17498,7 +19522,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0696",
+     "id": "B01-C0781",
      "subject": "Brunon Bartkiewicz",
      "subject_type": "person",
      "relation": "is named as a management board president of ING Bank Śląski",
@@ -17516,7 +19540,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0697",
+     "id": "B01-C0782",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -17534,7 +19558,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0698",
+     "id": "B01-C0783",
      "subject": "Cezary Kocik",
      "subject_type": "person",
      "relation": "is named as a management board president of mBank",
@@ -17552,7 +19576,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0699",
+     "id": "B01-C0784",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -17570,7 +19594,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0700",
+     "id": "B01-C0785",
      "subject": "Szymon Midera",
      "subject_type": "person",
      "relation": "is named as a management board president of PKO BP",
@@ -17588,7 +19612,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0701",
+     "id": "B01-C0786",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is announced to take part in the EEC 2025 banking-sector debate ('finanse' track) as a bank management board president",
@@ -17606,7 +19630,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0702",
+     "id": "B01-C0787",
      "subject": "Joao Bras Jorge",
      "subject_type": "person",
      "relation": "is named as a management board president of Bank Millennium",
@@ -17624,7 +19648,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0703",
+     "id": "B01-C0788",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is stated as invited to take part in the EEC 2025 capital-markets session as GPW president",
@@ -17642,7 +19666,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0704",
+     "id": "B01-C0789",
      "subject": "Tomasz Bardziłowski",
      "subject_type": "person",
      "relation": "is prezes (president) of GPW",
@@ -17660,7 +19684,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B01-C0705",
+     "id": "B01-C0790",
      "subject": "Borys Budka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -17678,7 +19702,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0706",
+     "id": "B01-C0791",
      "subject": "Baranowski",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -17696,7 +19720,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0707",
+     "id": "B01-C0792",
      "subject": "Duszczyk",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -17714,7 +19738,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0708",
+     "id": "B01-C0793",
      "subject": "Sikora",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",
@@ -17732,7 +19756,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B01-C0709",
+     "id": "B01-C0794",
      "subject": "Sobkowiak-Czarnecka",
      "subject_type": "person",
      "relation": "is named as an EEC 2025 speaker or panellist in this announcement",

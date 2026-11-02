@@ -332,6 +332,54 @@
    "note": null
   },
   {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://gulbenkian.pt/emifund/",
+   "final_url": "https://gulbenkian.pt/emifund/",
+   "fetched_at": "2026-11-02T00:21:45.189Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1495,
+   "sha256": "0548041e7b1ff177b0b561587149a012de2f994da4f9e1d8e2147a6bce57f07c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "final_url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "fetched_at": "2026-11-02T00:21:45.219Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 11348,
+   "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:40.766Z",
+   "http": null,
+   "content_type": null,
+   "chars": 41101,
+   "sha256": "c4e96d242ab398800b5407c5d6043a5917c96da12d59f3da81c95bfecc9f880c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C4_private_foundations:2",
+   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:47.604Z",
+   "http": null,
+   "content_type": null,
+   "chars": 15379,
+   "sha256": "25d435b64bc91c86f8794a2c350cfb084fc2f715d870538fdadc96a6f361e6cf",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "search:C1_eu_money",
    "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
    "final_url": null,
@@ -1214,7 +1262,7 @@
    "sha256": "0548041e7b1ff177b0b561587149a012de2f994da4f9e1d8e2147a6bce57f07c",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -1227,7 +1275,7 @@
    "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -1240,7 +1288,7 @@
    "sha256": "2083249e7c147c4bf697dabe90fdc2e48194c174c609db2c371711b612493aac",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -1253,7 +1301,7 @@
    "sha256": "25d435b64bc91c86f8794a2c350cfb084fc2f715d870538fdadc96a6f361e6cf",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C5_domestic_public_money",

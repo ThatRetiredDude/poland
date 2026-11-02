@@ -29,44 +29,44 @@
   ]
  },
  "stats": {
-  "agents": 9,
-  "agents_left_out_unfinished_or_other_batch": 18,
+  "agents": 10,
+  "agents_left_out_unfinished_or_other_batch": 17,
   "searches": 108,
   "search_results": 1688,
   "unique_result_urls": 1110,
-  "page_fetches": 83,
-  "pages_reported": 39,
-  "pages_with_page_text": 38,
+  "page_fetches": 87,
+  "pages_reported": 42,
+  "pages_with_page_text": 41,
   "fetch_status": {
-   "ok": 32,
-   "partial": 7
+   "ok": 34,
+   "partial": 8
   },
-  "claims": 243,
+  "claims": 275,
   "labels": {
-   "fact": 167,
-   "no_link": 70,
-   "speculation": 4,
+   "fact": 190,
+   "no_link": 77,
+   "speculation": 6,
    "alleged": 2
   },
   "evidence_check": {
-   "exact": 171,
+   "exact": 195,
    "not_found": 18,
-   "normalized": 35,
+   "normalized": 43,
    "normalized_ci": 2,
    "found_in_reader_extract_only": 17
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 122,
-   "both_names_unmatched": 61,
-   "pair_already_linked": 16,
-   "new_tie_between_known_entities": 44
+   "new_entity_or_unmatched_name": 141,
+   "both_names_unmatched": 69,
+   "pair_already_linked": 18,
+   "new_tie_between_known_entities": 47
   },
   "kinds": {
-   "other": 38,
-   "grant_or_donation": 118,
-   "statement": 14,
+   "other": 47,
+   "grant_or_donation": 132,
+   "statement": 16,
    "membership_or_board": 19,
-   "role_or_job": 12,
+   "role_or_job": 19,
    "event_or_speech": 28,
    "ownership": 1,
    "contract_or_fee": 7,
@@ -74,19 +74,19 @@
    "legal_action": 4
   },
   "title_only_leads": 104,
-  "to_read_unread": 18,
+  "to_read_unread": 15,
   "nothing_found": 30,
   "agents_stopped_at_usage_limit": [
    "read:C1_eu_money:2",
    "read:C2_eea_norway:2",
-   "read:C4_private_foundations:2",
    "search:C5_domestic_public_money",
    "search:C6_org_finances",
    "search:C7_firms_contracts"
   ],
   "agents_rerun_after_usage_limit": [
    "read:C2_eea_norway:1",
-   "read:C3_us_money:2"
+   "read:C3_us_money:2",
+   "read:C4_private_foundations:2"
   ],
   "duplicate_reads_left_out": [
    "read:C4_private_foundations:1"
@@ -3877,6 +3877,769 @@
    "claims": []
   },
   {
+   "ref": "C4_private_foundations-T4",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "host": "old.akcjademokracja.pl",
+   "theme": "C4_private_foundations",
+   "fetch_status": "ok",
+   "fetch_note": "Returned as extracted text (text/plain, 11,351 characters), complete, no truncation. Covers the 2017 financial year only. Line breaks in excerpts condensed to single spaces.",
+   "page_title": "Sprawozdanie finansowe za rok 2017 - Fundacja Akcja Demokracja",
+   "page_date": "Data sporządzenia: 30.03.2018 r. (per document)",
+   "publisher": "Fundacja Akcja Demokracja",
+   "capture_answer": "Reporting year: 2017 (01.01.2017 to 31.12.2017). Total revenue 2.352.704,36 zł. Grants 425.812,28 zł: Campact 147.421,20 zł; European Climate Foundation 76.624,40 zł; We Move 196.461,00 zł; travel refunds 5.305,68 zł. Donations 1.282.246,57 zł, described as dedicated payments from activists. Awarded prize 10.000,00 zł from the Fundacja im Janiny Paradowskiej i Jerzego Zimowskiego. Prior-year surplus 634.483,33 zł. The line for the PIT allocation is written as '1%' and is 0,00 zł in 2017; the statement does not say 1.5%. Named funders on the revenue side are Campact e.V., European Climate Foundation and Share E.V. (for We Move). On the cost side, grant costs are listed from Global Greengrants Fund (122.317,04 zł), European Climate Foundation (87.069,62 zł), We Move (210.010,90 zł) and Purpose Climate Lab/HereNow (110.276,24 zł). Founders named in the 2015 notarial act are Piotra Trzaskowskiego, Aleksandrę Szymczyk, Marcina Antoniego Kozieja and Weronikę Paszewską; the page gives no titles or parties for them. The statement names no signing board members; the only signature line is 'Podpis osoby sporządzającej', with no name. The campaign line 'kampanie Bodnar' (14.139,80 zł) appears in the cost list, but the page does not say who Bodnar is.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:21:45.219Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 11348,
+    "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
+    "url_read": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf"
+   },
+   "names_listed": [
+    "Piotra Trzaskowskiego",
+    "Aleksandrę Szymczyk",
+    "Marcina Antoniego Kozieja",
+    "Weronikę Paszewską",
+    "Campact e.V.",
+    "Europejska Fundacja Klimatyczna",
+    "European Climate Foundation",
+    "Share E.V.",
+    "Global Greengrants Fund",
+    "Purpose Climate Lab/HereNow",
+    "Fundacja im Janiny Paradowskiej i Jerzego Zimowskiego",
+    "Anna Manser",
+    "Minister Rodziny, Pracy i Polityki Społecznej"
+   ],
+   "names_found_in_page_text": "13/13",
+   "claims": [
+    {
+     "id": "B03-C0152",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "reporting period of this financial statement",
+     "object": "01.01.2017 - 31.12.2017",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Przedmiotowe sprawozdanie finansowe obejmuje rok obrotowy 2017 trwający od dnia 01.01.2017 do 31.12.2017 .",
+     "evidence_translation": "The statement covers financial year 2017, running from 01.01.2017 to 31.12.2017.",
+     "evidence_location": "Wprowadzenie, item 2 'Wskazanie okresu objętego sprawozdaniem finansowym'",
+     "label": "fact",
+     "label_scope": "the document's own statement of its reporting period",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0153",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "founded by (fundatorzy named in notarial act of 30.01.2015)",
+     "object": "Piotra Trzaskowskiego",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "przez fundatorów: Piotra Trzaskowskiego, Aleksandrę Szymczyk,",
+     "evidence_translation": "by the founders: Piotr Trzaskowski, Aleksandra Szymczyk,",
+     "evidence_location": "Wprowadzenie, opening paragraph",
+     "label": "fact",
+     "label_scope": "the page names him as one of four founders in the notarial act dated 30.01.2015; the page gives no title or party for him",
+     "new_entities": [
+      "Piotra Trzaskowskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0154",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "founded by (fundatorzy named in notarial act of 30.01.2015)",
+     "object": "Aleksandrę Szymczyk",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "przez fundatorów: Piotra Trzaskowskiego, Aleksandrę Szymczyk,",
+     "evidence_translation": "by the founders: Piotr Trzaskowski, Aleksandra Szymczyk,",
+     "evidence_location": "Wprowadzenie, opening paragraph",
+     "label": "fact",
+     "label_scope": "the page names her as one of four founders in the notarial act dated 30.01.2015; no title or party given",
+     "new_entities": [
+      "Aleksandrę Szymczyk"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0155",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "founded by (fundatorzy named in notarial act of 30.01.2015)",
+     "object": "Marcina Antoniego Kozieja",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "Marcina Antoniego Kozieja, Weronikę Paszewską, działa na podstawie przepisów ustawy",
+     "evidence_translation": "Marcin Antoni Kozieja, Weronika Paszewska, acts under the provisions of the act",
+     "evidence_location": "Wprowadzenie, opening paragraph (continuation line)",
+     "label": "fact",
+     "label_scope": "the page names him as one of four founders in the notarial act dated 30.01.2015; no title or party given",
+     "new_entities": [
+      "Marcina Antoniego Kozieja"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0156",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "founded by (fundatorzy named in notarial act of 30.01.2015)",
+     "object": "Weronikę Paszewską",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "evidence_text": "Marcina Antoniego Kozieja, Weronikę Paszewską, działa na podstawie przepisów ustawy",
+     "evidence_translation": "Marcin Antoni Kozieja, Weronika Paszewska, acts under the provisions of the act",
+     "evidence_location": "Wprowadzenie, opening paragraph (continuation line)",
+     "label": "fact",
+     "label_scope": "the page names her as one of four founders in the notarial act dated 30.01.2015; no title or party given",
+     "new_entities": [
+      "Weronikę Paszewską"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0157",
+     "subject": "Minister Rodziny, Pracy i Polityki Społecznej",
+     "subject_type": "public_body",
+     "relation": "supervises (nadzór nad Fundacją sprawuje)",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Nadzór nad Fundacją sprawuje Minister Rodziny, Pracy i Polityki Społecznej.",
+     "evidence_translation": "Supervision over the Foundation is exercised by the Minister of Family, Labour and Social Policy.",
+     "evidence_location": "Wprowadzenie, paragraph after legal basis",
+     "label": "fact",
+     "label_scope": "the document's own statement of supervisory authority",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0158",
+     "subject": "Campact e.V.",
+     "subject_type": "org",
+     "relation": "granted to Fundacja Akcja Demokracja (grant recorded as 2017 revenue, under agreement of 02.03.2017)",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "147.421,20",
+     "currency": "zł",
+     "date": "02.03.2017",
+     "evidence_text": "na podstawie umowy między Akcją Demokracją a Campact e.V. z dnia 02.03.2017.",
+     "evidence_translation": "under an agreement between Akcja Demokracja and Campact e.V. dated 02.03.2017.",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, 1. Granty, dotacje (grants line)",
+     "label": "fact",
+     "label_scope": "the statement records 147.421,20 zł from Campact as 2017 grant revenue under an agreement dated 02.03.2017",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0159",
+     "subject": "European Climate Foundation",
+     "subject_type": "org",
+     "relation": "granted to Fundacja Akcja Demokracja (grant recorded as 2017 revenue, agreement 06.03.2017, grant no. 1602-56039)",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "76.624,40",
+     "currency": "zł",
+     "date": "06.03.2017",
+     "evidence_text": "Grant przyznany przez European Climate Foundation na podstawie umowy z dn. 06.03.2017, numer grantu  1602-56039.",
+     "evidence_translation": "Grant awarded by the European Climate Foundation under an agreement dated 06.03.2017, grant number 1602-56039.",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, 1. Granty, dotacje (grants line)",
+     "label": "fact",
+     "label_scope": "the statement records 76.624,40 zł from the European Climate Foundation as 2017 grant revenue, agreement 06.03.2017; the revenue line itself reads 'Europejska Fundacja Klimatyczna'",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0160",
+     "subject": "Share E.V.",
+     "subject_type": "org",
+     "relation": "granted to Fundacja Akcja Demokracja for the 'We Move' grant (grant recorded as 2017 revenue, agreement 18.01.2017)",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "196.461,00",
+     "currency": "zł",
+     "date": "18.01.2017",
+     "evidence_text": "Grant przyznany przez Share E.V.  na podstawie umowy z dn.  18.01.2017 r.",
+     "evidence_translation": "Grant awarded by Share E.V. under an agreement dated 18.01.2017.",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, 1. Granty, dotacje (grants line, 'We Move' entry)",
+     "label": "fact",
+     "label_scope": "the statement records 196.461,00 zł for 'We Move' as 2017 grant revenue from Share E.V.; the page's entry label is 'We Move'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0161",
+     "subject": "Global Greengrants Fund",
+     "subject_type": "org",
+     "relation": "listed as a grant source for costs incurred in 2017 (cost side, 'od Global Greengrants Fund')",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "122.317,04",
+     "currency": "zł",
+     "evidence_text": "od Global Greengrants Fund 122.317,04 zł",
+     "evidence_translation": "from Global Greengrants Fund 122,317.04 zł",
+     "evidence_location": "Informacja dodatkowa, II. Koszty, 'Poniesione w ramach grantów' list",
+     "label": "fact",
+     "label_scope": "the cost-side list names this fund as the source of grant-related costs of 122.317,04 zł; no revenue line for it appears in this statement",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0162",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "cost line naming a donation to or from",
+     "object": "Anna Manser",
+     "object_type": "person",
+     "kind": "grant_or_donation",
+     "amount": "87.578,47",
+     "currency": "zł",
+     "evidence_text": "darowizna Anna Manser   87.578,47 zł",
+     "evidence_translation": "donation Anna Manser 87,578.47 zł",
+     "evidence_location": "Informacja dodatkowa, II. Koszty, 'Poniesione w ramach darowizn' list",
+     "label": "fact",
+     "label_scope": "listed as a cost item under costs incurred within donations, 87.578,47 zł; the page does not state the direction beyond that heading",
+     "new_entities": [
+      "Anna Manser"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0163",
+     "subject": "Fundacja im Janiny Paradowskiej i Jerzego Zimowskiego",
+     "subject_type": "org",
+     "relation": "awarded prize of 10.000,00 zł to Fundacja Akcja Demokracja (booked as revenue)",
+     "object": "Fundacja Akcja Demokracja",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "10.000,00",
+     "currency": "zł",
+     "evidence_text": "Nagroda im Janiny Paradowskiej i Jerzego Zimowskiego na cele statutowe",
+     "evidence_translation": "Prize named after Janina Paradowska and Jerzy Zimowski for statutory purposes",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, 3. 'Przyznane nagrody'",
+     "label": "fact",
+     "label_scope": "the statement books a 10.000,00 zł prize from this foundation as 2017 revenue, for statutory purposes",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "akcja_demokracja",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0164",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "revenue from donations described as dedicated payments from activists (unnamed donors)",
+     "object": "activist donors (unnamed)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "1.282.246,57",
+     "currency": "zł",
+     "evidence_text": "Wpłaty dedykowane od aktywistów i aktywistek Akcji Demokracji",
+     "evidence_translation": "Dedicated payments from activists of Akcja Demokracja",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, 2. Darowizny - łącznie",
+     "label": "fact",
+     "label_scope": "the statement books 1.282.246,57 zł of donations for 2017; donors are not named",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0165",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "revenue from PIT allocation (line written as '1%'), 2017",
+     "object": "0,00 zł",
+     "object_type": "other",
+     "kind": "other",
+     "amount": "0,00",
+     "currency": "zł",
+     "evidence_text": "Przychody z tytułu  1%    0,00 zł.",
+     "evidence_translation": "Revenue from the 1% allocation: 0.00 zł.",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, item 6",
+     "label": "fact",
+     "label_scope": "the statement shows 0,00 zł for the PIT allocation line in 2017; the line says 1%, not 1.5%",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0166",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "obtained public benefit organisation (OPP) status on",
+     "object": "07.12.2017",
+     "object_type": "other",
+     "kind": "other",
+     "date": "07.12.2017",
+     "evidence_text": "W dniu 07.12.2017 r. Fundacja zyskała status Organizacji Pożytku Publicznego .",
+     "evidence_translation": "On 07.12.2017 the Foundation gained the status of a public benefit organisation.",
+     "evidence_location": "Wprowadzenie, item 3 (KRS entry)",
+     "label": "fact",
+     "label_scope": "the statement's own statement of its OPP status date",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0167",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "campaign cost line named 'kampanie Bodnar' (surname only), within dedicated campaign costs",
+     "object": "Bodnar (campaign, first name not given)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "14.139,80",
+     "currency": "zł",
+     "evidence_text": "kampanie Bodnar 14.139,80 zł",
+     "evidence_translation": "Bodnar campaigns 14,139.80 zł",
+     "evidence_location": "Informacja dodatkowa, II. Koszty, 'darowizny na dedykowane kampanie' sub-list",
+     "label": "fact",
+     "label_scope": "the cost list names a campaign line 'kampanie Bodnar' of 14.139,80 zł; the page gives no first name or role for the person named",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0168",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "campaign cost line 'kampanie Bodnar' may refer to Adam Bodnar",
+     "object": "Adam Bodnar",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "kampanie Bodnar 14.139,80 zł",
+     "evidence_translation": "Bodnar campaigns 14,139.80 zł",
+     "evidence_location": "Informacja dodatkowa, II. Koszty, 'darowizny na dedykowane kampanie' sub-list",
+     "label": "speculation",
+     "label_scope": "speculation based only on the surname 'Bodnar' in the campaign line; the page does not name the person or link the campaign to Adam Bodnar",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "object_map_id": "bodnar",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0169",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "signing board members (none named)",
+     "object": "no named signing board member",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Podpis osoby sporządzającej",
+     "evidence_translation": "Signature of the person who prepared the statement",
+     "evidence_location": "End of statement, signature block",
+     "label": "no_link",
+     "label_scope": "checked the page for signing board members (Zarząd / Prezes / Członek Zarządu); none named. The page mentions a 'Zarządu Fundacji' only in an insurance-cost line; the only signature line has no name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0170",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "1.5% PIT allocation (as stated in the request)",
+     "object": "1.5% PIT",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Przychody z tytułu  1%    0,00 zł.",
+     "evidence_translation": "Revenue from the 1% allocation: 0.00 zł.",
+     "evidence_location": "Informacja dodatkowa, I. Przychody, item 6",
+     "label": "no_link",
+     "label_scope": "checked for a 1.5% PIT allocation; the page names only a '1%' line, valued at 0,00 zł for 2017",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T5",
+   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
+   "host": "opensocietyfoundations.org",
+   "theme": "C4_private_foundations",
+   "fetch_status": "partial",
+   "fetch_note": "Two reads of the same PDF (text/application/pdf, 54,722 characters). Read 1 returned characters 0 to 39,341 verbatim; read 2 (offset 39341) returned the rest verbatim. Together this covers the full list. Line breaks in excerpts condensed to single spaces. Status is partial because the first read ended mid-entry at 39,341 and no fetch returned the document's own table of contents or amounts in a single block.",
+   "page_title": "Open Society Initiative for Europe: Our Grantees 2015",
+   "page_date": "2015 (grants awarded in 2015, per document)",
+   "publisher": "Open Society Foundations (Open Society Initiative for Europe)",
+   "capture_answer": "Polish grantees on the 2015 list: HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND, $44,856, 3 YEARS, 'Enhancing HFHR's communication capacity' (p. 42, Human Rights Movements and Institutions). FRANK BOLD FOUNDATION, $24,000, 1 YEAR, 'Lobbying transparency in Poland' (Democratic Practice section). Batory (Fundacja im. Stefana Batorego) and Akcja Demokracja do not appear in either read. KOS, KOD, OKO.press, Fundacja Wolne Sądy, Iustitia and Themis do not appear. STANISLAW BRZOZOWSKI ASSOCIATION, $600,000, 1 YEAR, 'Core support for the Stanislaw Brzozowski Association (institutional grant)' is listed without a country; the name suggests a Polish organisation, but the page does not say so. GOVERNMENT TRANSPARENCY INSTITUTE LTD. ($24,839, 'Controlling Government: Red Flags of Corruption Risks in Romanian and Polish Public Procurement Data') is not a Polish grantee on its face; its purpose names Polish procurement data. No individual grantees are listed.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:24:40.766Z",
+    "http": null,
+    "content_type": null,
+    "chars": 41101,
+    "sha256": "c4e96d242ab398800b5407c5d6043a5917c96da12d59f3da81c95bfecc9f880c",
+    "url_read": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf"
+   },
+   "names_listed": [
+    "HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND",
+    "FRANK BOLD FOUNDATION",
+    "STANISLAW BRZOZOWSKI ASSOCIATION",
+    "GOVERNMENT TRANSPARENCY INSTITUTE LTD."
+   ],
+   "names_found_in_page_text": "4/4",
+   "claims": [
+    {
+     "id": "B03-C0171",
+     "subject": "Helsinki Foundation for Human Rights, Poland",
+     "subject_type": "org",
+     "relation": "Open Society Initiative for Europe grant (2015 list), grantee",
+     "object": "Enhancing HFHR's communication capacity",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "44,856",
+     "currency": "$ (as printed; no code given)",
+     "evidence_text": "HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND $44,856 Enhancing HFHR's communication capacity 3 YEARS",
+     "evidence_translation": "Helsinki Foundation for Human Rights, Poland, $44,856, purpose: enhancing HFHR's communication capacity, 3 years",
+     "evidence_location": "p. 42, section 'Human Rights Movements and Institutions', between FONDAZIONE LETTERA27 ONLUS and HUMAN RIGHTS INSTITUTE OF CATALONIA",
+     "label": "fact",
+     "label_scope": "the OSF list states this grant; it was awarded in 2015 per the list's own definition, duration 3 YEARS as printed",
+     "new_entities": [
+      "Helsinki Foundation for Human Rights, Poland"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-C0172",
+     "subject": "Frank Bold Foundation",
+     "subject_type": "org",
+     "relation": "Open Society Initiative for Europe grant (2015 list), grantee",
+     "object": "Lobbying transparency in Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "24,000",
+     "currency": "$ (as printed; no code given)",
+     "evidence_text": "FRANK BOLD FOUNDATION $24,000 Lobbying transparency in Poland 1 YEAR",
+     "evidence_translation": "Frank Bold Foundation, $24,000, purpose: lobbying transparency in Poland, 1 year",
+     "evidence_location": "Democratic Practice section, page 5 of the list (between ASSOCIATION ... and FRIENDS OF EUROPE area; alphabetical F entries)",
+     "label": "fact",
+     "label_scope": "the list states this grant and its Poland-focused purpose; the page does not give the grantee's country, so its Polish status is not confirmed from the page",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0173",
+     "subject": "Stanisław Brzozowski Association (STANISLAW BRZOZOWSKI ASSOCIATION)",
+     "subject_type": "org",
+     "relation": "Open Society Initiative for Europe grant (2015 list), grantee: core support, institutional grant",
+     "object": "Core support for the Stanislaw Brzozowski Association (institutional grant)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "600,000",
+     "currency": "$ (as printed; no code given)",
+     "evidence_text": "STANISLAW BRZOZOWSKI ASSOCIATION $600,000 Core support for the Stanislaw Brzozowski Association (institutional grant) 1 YEAR",
+     "evidence_translation": "Stanislaw Brzozowski Association, $600,000, core support for the Stanislaw Brzozowski Association (institutional grant), 1 year",
+     "evidence_location": "Equality and Anti-discrimination section, page 22 of the list",
+     "label": "fact",
+     "label_scope": "the list states this grant; the page gives no country for the grantee",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0174",
+     "subject": "Stanislaw Brzozowski Association",
+     "subject_type": "org",
+     "relation": "is a Polish organisation",
+     "object": "Poland",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "STANISLAW BRZOZOWSKI ASSOCIATION",
+     "evidence_translation": "(same as above)",
+     "evidence_location": "Equality and Anti-discrimination section, page 22 of the list",
+     "label": "speculation",
+     "label_scope": "inferred only from the association's name, which matches a Polish writer's name; the page gives no country for this grantee, so this is unverified",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0175",
+     "subject": "Government Transparency Institute Ltd.",
+     "subject_type": "org",
+     "relation": "Open Society Initiative for Europe grant (2015 list), grantee: purpose concerns Romanian and Polish public procurement data",
+     "object": "Controlling Government: Red Flags of Corruption Risks in Romanian and Polish Public Procurement Data",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "24,839",
+     "currency": "$ (as printed; no code given)",
+     "evidence_text": "Controlling Government: Red Flags of Corruption Risks in Romanian and Polish Public Procurement Data",
+     "evidence_translation": "Controlling Government: Red Flags of Corruption Risks in Romanian and Polish Public Procurement Data",
+     "evidence_location": "Democratic Practice section, page 13 of the list (G entries)",
+     "label": "fact",
+     "label_scope": "the list states this grant and its purpose; the grantee is not named as Polish on the page, and the purpose concerns Polish data",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0176",
+     "subject": "Batory Foundation (Fundacja im. Stefana Batorego)",
+     "subject_type": "org",
+     "relation": "appears in the OSF 2015 grantee list",
+     "object": "Open Society Initiative for Europe 2015 grantee list",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND",
+     "evidence_translation": "(not present; checked full list)",
+     "evidence_location": "Full list, read verbatim in two reads",
+     "label": "no_link",
+     "label_scope": "checked both reads of the full list for any Batory / Fundacja im. Stefana Batorego entry; none present",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "object_map_id": "osf",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founder (Soros, 1988); grants e.g. $340k 2014; donor 2023 and 2025",
+      "\"Soros interfered in Poland 2023 election\" (Magyar Nemzet)",
+      "named donor in 2023 annual report (no amount)",
+      "named donor 2023, 2024, 2025 (amounts not given); 2006-09 reports: most programmes OSI-funded",
+      "named donor in 2023 annual report (no amount)"
+     ]
+    },
+    {
+     "id": "B03-C0177",
+     "subject": "Fundacja Akcja Demokracja",
+     "subject_type": "org",
+     "relation": "appears in the OSF 2015 grantee list",
+     "object": "Open Society Initiative for Europe 2015 grantee list",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND",
+     "evidence_translation": "(not present; checked full list)",
+     "evidence_location": "Full list, read verbatim in two reads",
+     "label": "no_link",
+     "label_scope": "checked both reads of the full list for any Akcja Demokracja entry; none present",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "akcja_demokracja",
+     "subject_map_status": "on_map",
+     "object_map_id": "osf",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-C0178",
+     "subject": "KOS / KOD / OKO.press / Fundacja Wolne Sądy / Iustitia / Themis",
+     "subject_type": "org",
+     "relation": "appear in the OSF 2015 grantee list",
+     "object": "Open Society Initiative for Europe 2015 grantee list",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "HELSINKI FOUNDATION FOR HUMAN RIGHTS, POLAND",
+     "evidence_translation": "(not present; checked full list)",
+     "evidence_location": "Full list, read verbatim in two reads",
+     "label": "no_link",
+     "label_scope": "checked both reads of the full list for each of these names; none present",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "object_map_id": "osf",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
+      "$130k for 2023-24 rule-of-law work around the election",
+      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "C4_private_foundations-T6",
+   "url": "https://gulbenkian.pt/emifund/",
+   "host": "gulbenkian.pt",
+   "theme": "C4_private_foundations",
+   "fetch_status": "ok",
+   "fetch_note": "Returned as text (text/plain, 1,495 characters), complete. The page text names no managing institution and does not mention Gulbenkian, OKO.press, or EUR 50,032.85. Line breaks in excerpts condensed to single spaces.",
+   "page_title": "Debunking disinformation in digital media (first heading on the page)",
+   "page_date": "not stated on page",
+   "publisher": "not stated on page (host gulbenkian.pt)",
+   "capture_answer": "Google is named as a funder: 'The EMIF welcomes Google's inaugural contribution of 25 million euros over 5 years.' The page says Google is not involved in decision making and does not profit from intellectual property of projects financed through the Fund. The page names no managing institution and no other funder. It names no Polish grantee and does not mention OKO.press or the EUR 50,032.85 grant, so the page does not show whose money finances that grant. The page's funding areas are 'Strengthening independent fact checking organisations' and related items; no recipients are named.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:21:45.189Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 1495,
+    "sha256": "0548041e7b1ff177b0b561587149a012de2f994da4f9e1d8e2147a6bce57f07c",
+    "url_read": "https://gulbenkian.pt/emifund/"
+   },
+   "names_listed": [
+    "Google"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B03-C0179",
+     "subject": "Google",
+     "subject_type": "company",
+     "relation": "contributed to the European Media and Information Fund (EMIF), described as its inaugural contribution",
+     "object": "European Media and Information Fund (EMIF)",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "25 million",
+     "currency": "euros (over 5 years)",
+     "evidence_text": "The EMIF welcomes Google's inaugural contribution of 25 million euros over 5 years.",
+     "evidence_translation": "The EMIF welcomes Google's inaugural contribution of 25 million euros over 5 years.",
+     "evidence_location": "Body text, third paragraph",
+     "label": "fact",
+     "label_scope": "the EMIF's own statement on its page that it welcomes this contribution; the page does not give the year or any independent check",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0180",
+     "subject": "Google",
+     "subject_type": "company",
+     "relation": "has no role in decision making on EMIF-financed projects, and gets no profit from their intellectual property (as stated by EMIF)",
+     "object": "European Media and Information Fund (EMIF)",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Google is not involved in decision making and does not profit from intellectual property of any ideas or projects",
+     "evidence_translation": "Google is not involved in decision making and does not profit from intellectual property of any ideas or projects",
+     "evidence_location": "Body text, third paragraph, second sentence",
+     "label": "fact",
+     "label_scope": "the EMIF's own statement on its page; not independently checked",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0181",
+     "subject": "European Media and Information Fund (EMIF)",
+     "subject_type": "org",
+     "relation": "provides support to organisations based in Europe through competitive award processes and independent, impartial selection committees",
+     "object": "organisations based in Europe",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "The Fund provides support to organisations based in Europe, through competitive award processes",
+     "evidence_translation": "The Fund provides support to organisations based in Europe, through competitive award processes",
+     "evidence_location": "Body text, second paragraph",
+     "label": "fact",
+     "label_scope": "the EMIF's own description of its grant process; no recipients are named on the page",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0182",
+     "subject": "European Media and Information Fund (EMIF)",
+     "subject_type": "org",
+     "relation": "managed or administered by (managing institution)",
+     "object": "no managing institution named",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "The EMIF is entrusted with an objective of public interest",
+     "evidence_translation": "The EMIF is entrusted with an objective of public interest",
+     "evidence_location": "Body text, first paragraph",
+     "label": "no_link",
+     "label_scope": "checked the whole page text for who manages or runs EMIF; no organisation is named, and the text does not mention Gulbenkian",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-C0183",
+     "subject": "European Media and Information Fund (EMIF)",
+     "subject_type": "org",
+     "relation": "funded the OKO.press fact-checking grant (EUR 50,032.85)",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "amount": "50,032.85",
+     "currency": "EUR",
+     "evidence_text": "Strengthening independent fact checking organisations",
+     "evidence_translation": "Strengthening independent fact checking organisations",
+     "evidence_location": "'More Info' list of funding areas",
+     "label": "no_link",
+     "label_scope": "checked the whole page for OKO.press, EUR 50,032.85 and any named Polish grantee; none appears. The only fact-checking reference is a funding-area heading",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
    "ref": "C1_eu_money-P1",
    "url": "https://programrownychpraw.batory.org.pl/wp-content/uploads/2025/11/CERVPRPdotacjetematycznedecyzjaZarzadu185605.11.2025.pdf",
    "host": "programrownychpraw.batory.org.pl",
@@ -3987,7 +4750,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0152",
+     "id": "B03-C0184",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 (5 Nov 2025) approved 40 large thematic grants totalling PLN 4,958,807.00 in its Equal Rights Programme (Program Równych Praw), its CERV-funded re-granting scheme",
@@ -4012,7 +4775,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0153",
+     "id": "B03-C0185",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1856 approved 40 small thematic grants totalling PLN 2,514,278.00 in the Equal Rights Programme",
@@ -4034,7 +4797,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0154",
+     "id": "B03-C0186",
      "subject": "Free Courts Foundation / Fundacja Wolne Sądy (free_courts)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0458, project 'Europa zaczyna się w sołectwie - wolności i prawa podstawowe UE w...', PLN 121,293.00 requested, score 31.50; status 'nieprzyznana dotacja' (not granted)",
@@ -4058,7 +4821,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0155",
+     "id": "B03-C0187",
      "subject": "Helsinki Foundation for Human Rights (hfhr)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0102, project 'Prawo i Karta: Monitoring Procesu Legislacyjnego', PLN 124,976.00 requested, score 32.50; not granted",
@@ -4082,7 +4845,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0156",
+     "id": "B03-C0188",
      "subject": "Akcja Demokracja (akcja_demokracja)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0190, project 'Dezinformacja wobec imigracji - działania lokalne', PLN 124,904.00 requested, score 32.00; not granted",
@@ -4110,7 +4873,7 @@
      ]
     },
     {
-     "id": "B03-C0157",
+     "id": "B03-C0189",
      "subject": "Institute of Public Affairs / Fundacja Instytut Spraw Publicznych (isp)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0098, project 'Społeczne granice akceptacji: wpływ dyskursu publi[cznego]...', PLN 124,874.00 requested, score 29.50; not granted",
@@ -4134,7 +4897,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0158",
+     "id": "B03-C0190",
      "subject": "Kultura Liberalna Foundation (kultura_liberalna)",
      "subject_type": "org",
      "relation": "applied for a large thematic grant in Batory's CERV-funded Equal Rights Programme: application PRP-KTD/0412, project 'Głosy Wykluczonych', PLN 125,000.00 requested, score 31.00; not granted",
@@ -4158,7 +4921,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0159",
+     "id": "B03-C0191",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Watchdog Polska (application PRP-KTD/0352, project 'Instytucje do podziału', score 33.00)",
@@ -4182,7 +4945,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0160",
+     "id": "B03-C0192",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 124,976.00 from the CERV-funded Equal Rights Programme to Amnesty International Poland (application PRP-KTD/0101, project 'Algorytmy bez uprzedzeń - wzmacnianie ochrony pra[w]...', score 33.50)",
@@ -4209,7 +4972,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0161",
+     "id": "B03-C0193",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Fundacja Panoptykon (application PRP-KTD/0276, project 'Razem dla dobrego wdrożenia dyrektywy policyjnej', score 34.00)",
@@ -4236,7 +4999,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0162",
+     "id": "B03-C0194",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "granted PLN 125,000.00 from the CERV-funded Equal Rights Programme to Stowarzyszenie Nowoczesnej Edukacji Prawnej, Wrocław (application PRP-KTD/0313, project 'Karta Praw Podstawowych lokalnie...', score 33.00)",
@@ -4261,7 +5024,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0163",
+     "id": "B03-C0195",
      "subject": "Joanna Pietruszka",
      "subject_type": "person",
      "relation": "chair of the grant committee (Komisja Konkursowa) for the Equal Rights Programme thematic-grants competition; listed among those present at the 5 Nov 2025 board meeting",
@@ -4284,7 +5047,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0164",
+     "id": "B03-C0196",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "approved the grant committee's recommendation not to create reserve lists in the Equal Rights Programme thematic round",
@@ -4304,7 +5067,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0165",
+     "id": "B03-C0197",
      "subject": "Iustitia, Themis, OKO.press (Fundacja Ośrodek Kontroli Obywatelskiej OKO), KOD, Osiatyński Archive, Fundacja Moje Państwo, Hołda Association, INPRIS",
      "subject_type": "org",
      "relation": "no thematic grant from Batory's CERV-funded Equal Rights Programme in the round approved by Decision 1856",
@@ -4365,7 +5128,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0166",
+     "id": "B03-C0198",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds Batory's Equal Rights Program; 2025-2027 budget EUR 6.7m, of which EUR 0.67m comes from Batory's own resources",
@@ -4395,7 +5158,7 @@
      ]
     },
     {
-     "id": "B03-C0167",
+     "id": "B03-C0199",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "runs the CERV-funded Equal Rights Program in cooperation with the Federation of Local Funds",
@@ -4418,7 +5181,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0168",
+     "id": "B03-C0200",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "re-grants the Equal Rights Program money to Polish civil society organisations as institutional, thematic, experience-exchange and rapid-response grants",
@@ -4470,7 +5233,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0169",
+     "id": "B03-C0201",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme, which re-grants to civil society in Czechia, Slovakia, Hungary and Poland",
@@ -4493,7 +5256,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0170",
+     "id": "B03-C0202",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Polish implementing partner of the Stronger Roots consortium",
@@ -4513,7 +5276,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0171",
+     "id": "B03-C0203",
      "subject": "Open Society Fund Prague",
      "subject_type": "org",
      "relation": "first-named joint implementer of Stronger Roots (with Glopolis, Open Society Foundation Bratislava, NIOK Foundation and Batory)",
@@ -4539,7 +5302,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0172",
+     "id": "B03-C0204",
      "subject": "Stronger Roots programme",
      "subject_type": "other",
      "relation": "2025 call: will support 84 organisations and networks with EUR 2.9 million (all four countries)",
@@ -4593,7 +5356,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0173",
+     "id": "B03-C0205",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots competition in Poland (results 10 Nov 2025): 25 organisations to receive grants totalling EUR 906,357",
@@ -4615,7 +5378,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0174",
+     "id": "B03-C0206",
      "subject": "EU CERV programme (cerv)",
      "subject_type": "other",
      "relation": "funds the Stronger Roots programme whose Polish grants Batory awards (as Batory states)",
@@ -4693,7 +5456,7 @@
    "names_found_in_page_text": "0/25",
    "claims": [
     {
-     "id": "B03-C0175",
+     "id": "B03-C0207",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 (5 Nov 2025) approved 17 Stronger Roots Area 1 grants (building organisations' social base) totalling EUR 631,566",
@@ -4715,7 +5478,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0176",
+     "id": "B03-C0208",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Board Decision 1857 approved 8 Stronger Roots Area 2 grants (cross-cutting cooperation of civil society networks) totalling EUR 274,791",
@@ -4737,7 +5500,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0177",
+     "id": "B03-C0209",
      "subject": "Stefan Batory Foundation (batory)",
      "subject_type": "org",
      "relation": "Stronger Roots Area 2 (network cooperation) grant to the Association for Legal Intervention, application SR-PW/0042, Warsaw; per-grant amount not stated",
@@ -4760,7 +5523,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0178",
+     "id": "B03-C0210",
      "subject": "HFHR, Free Courts, Iustitia, Themis, OKO.press, Akcja Demokracja, KOD, Osiatyński Archive, Fundacja Moje Państwo, ISP, Watchdog Polska",
      "subject_type": "org",
      "relation": "no Stronger Roots grant in the Polish 2025 round (Decision 1857)",
@@ -4821,7 +5584,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0179",
+     "id": "B03-C0211",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 May 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -4845,7 +5608,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0180",
+     "id": "B03-C0212",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant, to enhance its products and results",
@@ -4869,7 +5632,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0181",
+     "id": "B03-C0213",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "planned use of the EEA-funded organisational grant: refresh the Osiatyński Archive and the English-language Rule of Law in Poland service; the Archive to become a networked think tank publishing quarterly reports",
@@ -4898,7 +5661,7 @@
      ]
     },
     {
-     "id": "B03-C0182",
+     "id": "B03-C0214",
      "subject": "Foundation for Civic Monitoring OKO (OKO.press publisher)",
      "subject_type": "org",
      "relation": "runs the websites OKO.press, Osiatyński Archive and Rule of Law in Poland",
@@ -4926,7 +5689,7 @@
      ]
     },
     {
-     "id": "B03-C0183",
+     "id": "B03-C0215",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of OKO's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -4958,7 +5721,7 @@
      ]
     },
     {
-     "id": "B03-C0184",
+     "id": "B03-C0216",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "INDIRECT: the 2022-24 grant to OKO (EUR 100,000 + EUR 8,000) was to refresh the Osiatyński Archive, on whose programme council he sits",
@@ -5013,7 +5776,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0185",
+     "id": "B03-C0217",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "organisational grant of EUR 100,000 (project cost and funding equal), 1 Jul 2022 - 30 Apr 2024, status completed, nationwide outreach",
@@ -5037,7 +5800,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0186",
+     "id": "B03-C0218",
      "subject": "EEA and Norway Grants – Active Citizens Fund (Program Aktywni Obywatele)",
      "subject_type": "org",
      "relation": "additional grant of EUR 8,000 on top of the organisational grant",
@@ -5061,7 +5824,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0187",
+     "id": "B03-C0219",
      "subject": "Stefan Batory Foundation",
      "subject_type": "org",
      "relation": "one of three fund operators shown on the record of HFHR's EUR 100,000 + EUR 8,000 Active Citizens organisational grant (with operators linked at stocznia.org.pl and faoo.pl)",
@@ -5125,7 +5888,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0188",
+     "id": "B03-C0220",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme 2021-2028 (4th edition): approx. PLN 300 million, of which EUR 71.24 million from the EEA and Norway Grants plus national contribution; components: court access (digitalisation), prison service modernisation, domestic and gender-based violence",
@@ -5149,7 +5912,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0189",
+     "id": "B03-C0221",
      "subject": "Ministry of Justice (Poland)",
      "subject_type": "public_body",
      "relation": "Programme Operator of the EEA and Norway Grants Justice programme (2021-2028 edition)",
@@ -5171,7 +5934,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0190",
+     "id": "B03-C0222",
      "subject": "Jan Szyszko (Deputy Minister of Development Funds and Regional Policy)",
      "subject_type": "person",
      "relation": "signed the Green Transition and Justice programme agreements for Poland, with Norway's ambassador Øystein Bø",
@@ -5195,7 +5958,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0191",
+     "id": "B03-C0223",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Justice programme: 5 calls for proposals planned (Green Transition: 9), calls starting in 2026",
@@ -5217,7 +5980,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0192",
+     "id": "B03-C0224",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "4th edition (2021-2028) for Poland: almost PLN 4 billion / almost EUR 925 million across eight programmes",
@@ -5239,7 +6002,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0193",
+     "id": "B03-C0225",
      "subject": "EEA and Norway Grants (Justice programme 2021-2028)",
      "subject_type": "org",
      "relation": "INDIRECT: the Ministry of Justice he heads is Programme Operator of the EUR 71.24m Justice programme signed in April 2026",
@@ -5295,7 +6058,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0194",
+     "id": "B03-C0226",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "Donor Programme Partner for programme area Access to Justice (PA11) in Poland's EEA and Norway Grants Justice Programme, under the Programme Agreement",
@@ -5318,7 +6081,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0195",
+     "id": "B03-C0227",
      "subject": "EEA and Norway Grants (donor states incl. Norway)",
      "subject_type": "org",
      "relation": "Memorandum of Understanding for the new funding period (Norway Grants 4.0) signed in Warsaw on 23 Apr 2025",
@@ -5338,7 +6101,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0196",
+     "id": "B03-C0228",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "Programme Agreement for the Justice Programme signed on 20 Apr 2026; Programme Operator: Ministry of Justice (Poland)",
@@ -5360,7 +6123,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0197",
+     "id": "B03-C0229",
      "subject": "Council of Europe",
      "subject_type": "org",
      "relation": "International Partner Organisation of Poland's EEA and Norway Grants Justice Programme",
@@ -5385,7 +6148,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0198",
+     "id": "B03-C0230",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "donor project partner in the MoJ predefined project 'Courts closer to people' (courts' relations with society, role of lay judges); also in 'Competent Staff – Efficient Justice System' and free legal aid and mediation",
@@ -5405,7 +6168,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0199",
+     "id": "B03-C0231",
      "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
      "subject_type": "public_body",
      "relation": "no cooperation with Polish judges' associations or individual judges named; the only Polish partner named is the Ministry of Justice",
@@ -5450,7 +6213,7 @@
    "names_found_in_page_text": "0/1",
    "claims": [
     {
-     "id": "B03-C0200",
+     "id": "B03-C0232",
      "subject": "Jette F. Christensen (Norwegian MP, Labour Party)",
      "subject_type": "person",
      "relation": "nominated the Polish judges' association Iustitia for the Nobel Peace Prize",
@@ -5473,7 +6236,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0201",
+     "id": "B03-C0233",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Labour Party (Partia Pracy; Norwegian Arbeiderpartiet)",
@@ -5494,7 +6257,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0202",
+     "id": "B03-C0234",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "member of the Norwegian parliament (Storting) since 2010",
@@ -5515,7 +6278,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0203",
+     "id": "B03-C0235",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "sits on the Storting's Foreign Affairs and Defence Committee",
@@ -5533,7 +6296,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0204",
+     "id": "B03-C0236",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "delegate to the Parliamentary Assembly of the Council of Europe",
@@ -5553,7 +6316,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0205",
+     "id": "B03-C0237",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "nominated it for the Nobel Peace Prize together with Iustitia",
@@ -5574,7 +6337,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0206",
+     "id": "B03-C0238",
      "subject": "Jette F. Christensen",
      "subject_type": "person",
      "relation": "stated reason for nominating Iustitia: to give an impulse for further work for democracy in Europe",
@@ -5594,7 +6357,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0207",
+     "id": "B03-C0239",
      "subject": "Rafto Foundation (Bergen)",
      "subject_type": "org",
      "relation": "awarded the Rafto Prize (2018) to Ombudsman Adam Bodnar",
@@ -5619,7 +6382,7 @@
      ]
     },
     {
-     "id": "B03-C0208",
+     "id": "B03-C0240",
      "subject": "EEA and Norway Grants",
      "subject_type": "org",
      "relation": "2014-2021 period: total EUR 2.8 billion, of which about EUR 800 million for Poland; a large part goes to civil-society organisations",
@@ -5671,7 +6434,7 @@
    "names_found_in_page_text": "2/5",
    "claims": [
     {
-     "id": "B03-C0209",
+     "id": "B03-C0241",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "FOIA request (12 Nov 2025, State Dept ref. F-2026-02738) for all State Department contracts, grant agreements or similar records with Free Courts (Wolne Sądy), 1 Jan 2016 to present",
@@ -5694,7 +6457,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0210",
+     "id": "B03-C0242",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item C: all State Department contracts, grant agreements or similar records with DemoCrisis (1 Jan 2016 to present)",
@@ -5714,7 +6477,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0211",
+     "id": "B03-C0243",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "same FOIA request, item B: State Department contracts and grant agreements with Civil Liberties Union for Europe",
@@ -5735,7 +6498,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0212",
+     "id": "B03-C0244",
      "subject": "Judicial Watch",
      "subject_type": "org",
      "relation": "filed FOIA suit Judicial Watch, Inc. v. U.S. Department of State, D.D.C. No. 1:26-cv-00346 (dated 4 Feb 2026), seeking the Free Courts, DemoCrisis, Liberties and Ökotárs records and all State emails and cables mentioning them",
@@ -5755,7 +6518,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0213",
+     "id": "B03-C0245",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "as of the complaint, had made no determination on the Free Courts request and produced no records (per Judicial Watch)",
@@ -5818,7 +6581,7 @@
    "names_found_in_page_text": "3/16",
    "claims": [
     {
-     "id": "B03-C0214",
+     "id": "B03-C0246",
      "subject": "aba",
      "subject_type": "org",
      "relation": "project partner: HFHR's project monitoring disciplinary proceedings against judges was carried out with the ABA (2020)",
@@ -5840,7 +6603,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0215",
+     "id": "B03-C0247",
      "subject": "hfhr",
      "subject_type": "org",
      "relation": "monitored disciplinary proceedings against Polish judges (project run with the ABA, 2020)",
@@ -5860,7 +6623,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0216",
+     "id": "B03-C0248",
      "subject": "freedom_house",
      "subject_type": "org",
      "relation": "fellow participant, with the Norwegian Helsinki Committee and Front Line Defenders, in an informal rapid-response network for human rights defenders",
@@ -5882,7 +6645,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0217",
+     "id": "B03-C0249",
      "subject": "Polish Ministry of Foreign Affairs (MSZ)",
      "subject_type": "public_body",
      "relation": "supports HFHR's urgent aid (incl. relocation) for human rights defenders; form and amount not stated",
@@ -5907,7 +6670,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0218",
+     "id": "B03-C0250",
      "subject": "ned",
      "subject_type": "org",
      "relation": "named as a funder in HFHR's 2020 annual report: not found (funders named only for single projects: Media Legal Defense Initiative, EU programmes, Polish MFA)",
@@ -5935,7 +6698,7 @@
      ]
     },
     {
-     "id": "B03-C0219",
+     "id": "B03-C0251",
      "subject": "us_state_dept",
      "subject_type": "public_body",
      "relation": "US Embassy Warsaw or State Department (incl. DRL) named as a funder in HFHR's 2020 annual report: not found",
@@ -5992,7 +6755,7 @@
    "names_found_in_page_text": "0/10",
    "claims": [
     {
-     "id": "B03-C0220",
+     "id": "B03-C0252",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "PAFW's endowment was created from capital transferred to it by the Polish-American Enterprise Fund",
@@ -6013,7 +6776,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0221",
+     "id": "B03-C0253",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "PAFW grants for the 'Szkoła Ucząca Się' (Learning School) programme, which CEO operates: USD 13,858,857 in total, incl. USD 833,847 in 2020",
@@ -6035,7 +6798,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0222",
+     "id": "B03-C0254",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for Batory: none in PAFW's 2020 annual report (NGO support, USD 14,637,000 in total and USD 685,225 in 2020, ran through Klon/Jawor, FIMANGO and PROMENGO)",
@@ -6055,7 +6818,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0223",
+     "id": "B03-C0255",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "grant or programme role for HFHR: none in PAFW's 2020 annual report",
@@ -6112,7 +6875,7 @@
    "names_found_in_page_text": "0/12",
    "claims": [
     {
-     "id": "B03-C0224",
+     "id": "B03-C0256",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "passed the 1989 SEED Act ('Support for East European Democracy'), under which the Polish-American Enterprise Fund was set up",
@@ -6135,7 +6898,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0225",
+     "id": "B03-C0257",
      "subject": "us_congress",
      "subject_type": "public_body",
      "relation": "PAFP's initial capital: USD 240 million (fund set up under the SEED Act)",
@@ -6156,7 +6919,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0226",
+     "id": "B03-C0258",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "returned half of its founding capital, USD 120 million, to the US budget (2001)",
@@ -6179,7 +6942,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0227",
+     "id": "B03-C0259",
      "subject": "Polish-American Enterprise Fund (PAFP)",
      "subject_type": "org",
      "relation": "transferred the rest of its capital with the surplus earned, USD 255 million in total, to PAFW's endowment",
@@ -6201,7 +6964,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0228",
+     "id": "B03-C0260",
      "subject": "Michał Boni",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -6222,7 +6985,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0229",
+     "id": "B03-C0261",
      "subject": "Marek Belka",
      "subject_type": "person",
      "relation": "member of PAFW's founding Board of Directors (2000)",
@@ -6243,7 +7006,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0230",
+     "id": "B03-C0262",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "launched in 2000 the 'Obywatel i Prawo' programme to develop community civic and legal advice; no operator named on this page",
@@ -6264,7 +7027,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B03-C0231",
+     "id": "B03-C0263",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "Batory as operator or grantee of any PAFW programme: not named in the publication's extracted text (the 'Obywatel i Prawo' entry names no operator)",
@@ -6283,7 +7046,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0232",
+     "id": "B03-C0264",
      "subject": "Polish-American Freedom Foundation (PAFW)",
      "subject_type": "org",
      "relation": "HFHR as operator or grantee of any PAFW programme: not named in the publication's extracted text",
@@ -6363,7 +7126,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0233",
+     "id": "B03-C0265",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "current grant to HFHR of GBP 1,050,000, starting March 2024, under the trust's 'Human Rights and Rule of Law' programme",
@@ -6388,7 +7151,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0234",
+     "id": "B03-C0266",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "earlier grants to HFHR totalling GBP 2,245,000 (before the current grant; no breakdown)",
@@ -6413,7 +7176,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0235",
+     "id": "B03-C0267",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "additional gift of GBP 75,000 to HFHR in 2025",
@@ -6438,7 +7201,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0236",
+     "id": "B03-C0268",
      "subject": "sigrid_rausing_trust",
      "subject_type": "org",
      "relation": "HFHR has been a Sigrid Rausing Trust grantee since 2011",
@@ -6482,7 +7245,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0237",
+     "id": "B03-C0269",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 100,000 (2006; term 1 year 3 months; Human Rights programme) for the 'International Advanced Course on Human Rights Protection'",
@@ -6506,7 +7269,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0238",
+     "id": "B03-C0270",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "grant of USD 750,000 (2001; term 3 years 6 months; Human Rights programme) for a training programme for a network of human rights activists in Russia",
@@ -6530,7 +7293,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B03-C0239",
+     "id": "B03-C0271",
      "subject": "macarthur",
      "subject_type": "org",
      "relation": "no MacArthur grant to HFHR after 2006: the grantee page lists 2 grants, USD 850,000 in total, years 2001-2006",
@@ -6582,7 +7345,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0240",
+     "id": "B03-C0272",
      "subject": "osf",
      "subject_type": "org",
      "relation": "award of USD 150,000 (2023-2024, 16 months) 'to decrease the risk of anti-climate backlash by building support for Just Transition in key demographics (working class & smaller cities)'; grantee not shown",
@@ -6627,7 +7390,7 @@
    },
    "claims": [
     {
-     "id": "B03-C0241",
+     "id": "B03-C0273",
      "subject": "osf",
      "subject_type": "org",
      "relation": "no grant to Akcja Demokracja shown: this Open Society Action Fund award (pro-democracy research and strategic communications, USD 270,000, 2023-2024, 17 months) came up in a search for OSF grants to Akcja Demokracja, but it is listed for Spain",
@@ -6679,7 +7442,7 @@
    ],
    "claims": [
     {
-     "id": "B03-C0242",
+     "id": "B03-C0274",
      "subject": "emif",
      "subject_type": "org",
      "relation": "grant of EUR 50,032.85 to the Foundation Centre for Civic Monitoring OKO (OKO.press), 1st Funding Round – Scale-up Projects, years 2022-2023",
@@ -6704,7 +7467,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B03-C0243",
+     "id": "B03-C0275",
      "subject": "emif",
      "subject_type": "org",
      "relation": "funded project 'Scale-up of fact-checking activity of OKO.Press online portal' (priority area 'Boosting Fact-checking Activities in Europe'; fact-checking taught through gamification tools)",
@@ -9911,27 +10674,6 @@
    "title": "batory.org.pl",
    "why": "Batory 2010 annual report, not yet read (later reports are already read). It was returned for the PAFW-Batory query.",
    "capture": "PAFW (Polsko-Amerykańska Fundacja Wolności) lines in the donor list and the Batory programmes PAFW funded, with amounts. Also any US Embassy, NED or GMF lines."
-  },
-  {
-   "theme": "C4_private_foundations",
-   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
-   "title": "Sprawozdanie finansowe Fundacja Akcja Demokracja",
-   "why": "Akcja Demokracja's own financial statement; no funder record for it has been found yet",
-   "capture": "Reporting year, revenue by source (foreign grants, donations, 1.5% tax), any named funders, signing board members"
-  },
-  {
-   "theme": "C4_private_foundations",
-   "url": "https://www.opensocietyfoundations.org/sites/default/files/open-society-initiative-for-europe-2015-20170424.pdf",
-   "title": "open society initiative for europe 2015 20170424",
-   "why": "OSF's own 2015 grantee list for Europe (only the 2014 list has been used so far)",
-   "capture": "Every Polish grantee with amount and purpose (HFHR, Batory, Akcja Demokracja, others)"
-  },
-  {
-   "theme": "C4_private_foundations",
-   "url": "https://gulbenkian.pt/emifund/",
-   "title": "European Media and Information Fund (parent section of the page read)",
-   "why": "To establish who finances and runs EMIF, and so whose money is behind the EUR 50,032.85 OKO.press fact-checking grant",
-   "capture": "Named funders (check whether Google is one), contribution size, managing institutions, other Polish grantees"
   },
   {
    "theme": "C4_private_foundations",

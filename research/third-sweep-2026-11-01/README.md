@@ -6,13 +6,13 @@ Goal: find more people, money, contract jobs and organisations (NGOs, foundation
 
 ## Status
 
-The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 1320 claims.
+The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly usage limit was reached, and resumed after the limit reset at 00:00 UTC on 2026-11-02. The resumed parts are still running; this file is updated as each one lands. So far: 1437 claims.
 
 | Batch | What | Status |
 |---|---|---|
-| 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 74 of 113 leads read: 79 pages, 709 claims. Not yet read: R015-R017, R021-R026, R042-R043, R053-R055, R059-R067, R083-R090, R106-R113 (reads running). |
+| 01 | Page reads of the open leads left by the two earlier sweeps (`batch-01-open-lead-reads.json`) | 80 of 113 leads read: 85 pages, 794 claims. Not yet read: R015-R017, R021-R026, R042-R043, R053-R055, R059-R067, R089-R090, R106-R113 (reads running). |
 | 02 | New searches and page reads: people, appointments and contract jobs (`batch-02-people-jobs.json`) | 4 of 7 themes searched (judges' paid roles, appointments, state company and media boards, Wawrykiewicz). 52 pages, 368 claims, 115 title-only leads. Follow-up reads: 8 groups done. Running: nominations, prosecutors and police, international bodies. |
-| 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 4 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations). 39 pages, 243 claims, 104 title-only leads. Follow-up reads: 5 groups done, 3 running. Running: domestic public money, NGO finances, firms and contracts. |
+| 03 | New searches and page reads: money, grants and organisations (`batch-03-money-orgs.json`) | 4 of 7 themes searched (EU money, EEA and Norway grants, US money, private foundations). 42 pages, 275 claims, 104 title-only leads. Follow-up reads: 6 groups done, 2 running. Running: domestic public money, NGO finances, firms and contracts. |
 | 04 | Cross-check of every quoted excerpt against its page context | to do |
 
 Agents stopped by the usage limit had already run 200 searches and 79 page reads. Those are logged in `raw/` under `searches_by_stopped_agents` and `fetches_by_stopped_agents`, as returned, with `agent_rerun_later` saying whether that part was run again. No claims came from the stopped agents.
