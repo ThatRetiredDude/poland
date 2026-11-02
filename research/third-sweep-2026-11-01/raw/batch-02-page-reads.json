@@ -425,6 +425,66 @@
    "note": null
   },
   {
+   "agent": "read:B7_international:1",
+   "url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
+   "final_url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
+   "fetched_at": "2026-11-02T00:36:01.535Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 1132,
+   "sha256": "e8ab3c3b5e8cea3b40488f3528edeccfbd51711349ff30851c4a5d1e55ea4c87",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:1",
+   "url": "https://www.echr.coe.int/w/anna-adamska-gallant",
+   "final_url": "https://www.echr.coe.int/w/anna-adamska-gallant",
+   "fetched_at": "2026-11-02T00:36:02.045Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16701,
+   "sha256": "02553e1875c72be672ce0dd56be080ab24fe4a0c1503a97697d65c4a2a156f42",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:1",
+   "url": "https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/",
+   "final_url": "https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/",
+   "fetched_at": "2026-11-02T00:36:03.012Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 28255,
+   "sha256": "0df0e036fc70809a742a3dc05e93e09bc1ba03c9975b759436ec7bef068563d1",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:1",
+   "url": "https://www.echr.coe.int/composition-of-the-court",
+   "final_url": "https://www.echr.coe.int/composition-of-the-court",
+   "fetched_at": "2026-11-02T00:37:33.913Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 29803,
+   "sha256": "513b2680fd4468e703d190bf24b0d5afe913e13108b8b068c4415b61a1f9e652",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B7_international:1",
+   "url": "https://www.echr.coe.int/documents/d/echr/list_judges_since_1959_bil?download=true",
+   "final_url": "https://www.echr.coe.int/documents/d/echr/list_judges_since_1959_bil?download=true",
+   "fetched_at": "2026-11-02T00:40:16.736Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 9207,
+   "sha256": "8da91e49afc9acc8fe845f60e3634557e75fbc088dba22b9add9e8b56c5ba44a",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "search:B1_judges_income",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/909/body",
    "final_url": null,

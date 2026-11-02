@@ -13,6 +13,7 @@
    "not_found": "not found in the captured page text: treat the claim as unverified",
    "no_raw": "no page text was captured for this URL",
    "*_in_reader_extract": "the page reader returned an extract rather than the page text; the excerpt was found in that extract (a page-text re-check is pending)",
+   "found_on_linked_page": "not on the page at url, but found word for word on another page the same reader opened from it (see evidence_found_at)",
    "found_in_reader_extract_only": "the page text was captured later and the excerpt is not in it word for word; it is only in the page reader's own extract, so treat the wording as unverified"
   },
   "labels": "fact | alleged | speculation | unproven_conspiracy | no_link. fact = the source states it (or the organisation published it about itself). label_scope says what the label covers.",
@@ -29,56 +30,57 @@
   ]
  },
  "stats": {
-  "agents": 14,
+  "agents": 15,
   "agents_left_out_unfinished_or_other_batch": 15,
   "searches": 171,
   "search_results": 2749,
   "unique_result_urls": 2183,
-  "page_fetches": 109,
-  "pages_reported": 62,
-  "pages_with_page_text": 43,
+  "page_fetches": 114,
+  "pages_reported": 65,
+  "pages_with_page_text": 46,
   "fetch_status": {
    "error": 6,
-   "ok": 45,
+   "ok": 48,
    "partial": 7,
    "empty": 3,
    "blocked": 1
   },
-  "claims": 415,
+  "claims": 465,
   "labels": {
-   "fact": 313,
-   "no_link": 82,
-   "alleged": 10,
-   "speculation": 10
+   "fact": 347,
+   "no_link": 96,
+   "alleged": 11,
+   "speculation": 11
   },
   "evidence_check": {
-   "exact": 271,
+   "exact": 316,
    "normalized": 52,
-   "not_found": 42,
+   "found_on_linked_page": 32,
+   "not_found": 15,
    "found_in_reader_extract_only": 3,
    "exact_in_reader_extract": 45,
    "not_found_in_reader_extract": 2
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 250,
-   "pair_already_linked": 36,
-   "new_tie_between_known_entities": 48,
-   "both_names_unmatched": 81
+   "new_entity_or_unmatched_name": 268,
+   "pair_already_linked": 38,
+   "new_tie_between_known_entities": 54,
+   "both_names_unmatched": 105
   },
   "kinds": {
-   "nomination_or_vote": 35,
-   "other": 69,
-   "statement": 38,
+   "nomination_or_vote": 37,
+   "other": 73,
+   "statement": 46,
    "contract_or_fee": 36,
-   "role_or_job": 93,
-   "membership_or_board": 85,
+   "role_or_job": 106,
+   "membership_or_board": 87,
    "grant_or_donation": 4,
-   "event_or_speech": 41,
+   "event_or_speech": 62,
    "ownership": 4,
    "legal_action": 10
   },
   "title_only_leads": 228,
-  "to_read_unread": 24,
+  "to_read_unread": 21,
   "nothing_found": 47,
   "agents_stopped_at_usage_limit": [
    "search:B5_nominations"
@@ -1772,7 +1774,8 @@
       "Marek Szydło"
      ],
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "pis_meps",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1794,7 +1797,8 @@
       "Elżbieta Karska"
      ],
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -1811,7 +1815,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Batory Legal Experts Team, and the organisation is not mentioned on the page.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "zep_batory",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1830,7 +1835,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to HFHR, and HFHR is not mentioned on the page.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1849,7 +1855,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Iustitia, and Iustitia is not mentioned on the page.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "iustitia",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1868,7 +1875,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to Themis, and Themis is not mentioned on the page.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "themis",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1887,7 +1895,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: none of the 15 names is tied to the Osiatyński Archive council, and that council is not mentioned on the page.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "osiatynski",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -1906,7 +1915,8 @@
      "label": "no_link",
      "label_scope": "Checked the Rada Legislacyjna section: no pay, fee or remuneration for members is stated. The linked regulations were not read.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.gov.pl/web/premier/organy-pomocnicze-prezesa-rady-ministrow2",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3609,7 +3619,8 @@
      "label": "fact",
      "label_scope": "The reply names him as author. The Sejm record gives only author ID 360. His party is not stated on any page read.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3626,7 +3637,8 @@
      "label": "fact",
      "label_scope": "Reply states the Minister acts as the company's General Meeting.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3643,7 +3655,8 @@
      "label": "fact",
      "label_scope": "Reply states this, citing the Commercial Companies Code of 15 September 2000. No liquidator is named.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "tvp",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -3662,7 +3675,8 @@
      "label": "fact",
      "label_scope": "Reply gives no figures.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3697,7 +3711,8 @@
      "label": "no_link",
      "label_scope": "Not named in the reply. The Sejm record names no liquidator.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3714,7 +3729,8 @@
      "label": "no_link",
      "label_scope": "Reply says pay rules and levels are for the liquidator and gives no pay figure for anyone. Sejm record has no figure.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -3731,7 +3747,8 @@
      "label": "no_link",
      "label_scope": "Law-firm contracts are mentioned in general terms only. No firm, lawyer or fee is named.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "linklaters",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5530,7 +5547,8 @@
      "label_scope": "Checked all four pages of the enclosure. His only entries are the 08:25 pm arrival with pick-up and transfer, and participant 6 on the list. No session names him as a speaker.",
      "date": "04/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5550,7 +5568,8 @@
      "label_scope": "The programme's own participant list.",
      "date": "04/12/2024 - 05/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5570,7 +5589,8 @@
      "label_scope": "Letterhead only. The page does not use the words 'organised by' or 'host', and the inviter is not named.",
      "date": "04/12/2024 - 05/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -5588,7 +5608,8 @@
      "label_scope": "Checked the letterheads, venue lines, the participant list and every programme entry. No other organisation is named as co-organiser, sponsor or funder.",
      "date": "04/12/2024 - 05/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -5606,7 +5627,8 @@
      "label_scope": "The programme's own dates. The form gives 04/12/2024 - 05/12/2024 (2).",
      "date": "04/12/2024 - 05/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -5642,7 +5664,8 @@
      "label_scope": "The programme's arrival entry (08:25 pm, Eurostar ER 9376). The programme states no payment terms.",
      "date": "04/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "wawrykiewicz",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5682,7 +5705,8 @@
      "label_scope": "Only the title 'MEP' is given for him. Another participant is listed with a group tag ('Markus Arens, PPE'), but no party or group is given for him.",
      "date": "04/12/2024 - 05/12/2024",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/513061d0-f9c4-40d8-a7a2-163058c675f5_1739802001528.pdf",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5877,7 +5901,8 @@
      "label_scope": "Agenda title as printed. The venue and dates appear in the enclosure header.",
      "date": "27/01/2025 - 28/01/2025",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "carnegie_endowment",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5897,7 +5922,8 @@
      "label_scope": "Venue line in the agenda header. The extracted line also contains stray 'th th' fragments.",
      "date": "27/01/2025 - 28/01/2025",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -5915,7 +5941,8 @@
      "label_scope": "Speaker column; names only, with no titles or affiliations. The table sits under 'AGENDA - DAY 1'; the page's day headings give 27.01.2025 and 28.01.2025.",
      "date": "27/01/2025",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -5938,7 +5965,8 @@
       "Ewa Kulik-Bielińska"
      ],
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -5956,7 +5984,8 @@
      "label_scope": "Checked both agenda days for any organiser, host, inviter, sponsor or funder: none is named, and D-HUB does not appear in the enclosure.",
      "date": "27/01/2025 - 28/01/2025",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DAT/attachments/10/701dcad9-71ac-400a-9afc-89418d606e9b_1739802000947.pdf",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -6044,6 +6073,1106 @@
    ]
   },
   {
+   "ref": "B7_international-T1",
+   "url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
+   "host": "coe.int",
+   "theme": "B7_international",
+   "fetch_status": "ok",
+   "fetch_note": "Read https://www.coe.int/en/web/venice-commission/-/event-3740 (HTTP 200 OK, text/plain, 1,132 characters). Short visit notice with header 'Warsaw 14 - 15 October 2024'. The text returned has no hyperlinks; 'Related documents' reads 'There are no entries.' No rapporteur, Secretariat staff member, NGO or association is named, and the CDL-AD(2024)035 number does not appear on the page.",
+   "page_title": "POLAND – Country visit for the forthcoming Opinion on the Laws on the Constitutional Tribunal",
+   "page_date": "14 - 15 October 2024 (visit dates in page header); no publication date shown",
+   "publisher": "Venice Commission (coe.int)",
+   "capture_answer": "A Venice Commission notice of a delegation's country visit to Warsaw on 14-15 October 2024, to prepare an Opinion on the Laws on the Constitutional Tribunal and draft constitutional amendments concerning the TK. The Minister of Justice of Poland requested the Opinion on 4 September 2024; the minister is not named. Bodies and people met, as listed: the Minister of Justice; Members of Parliament from the governing coalition and the opposition (no chamber and no names given); the Constitutional Tribunal; the Chancellery of the President; the Deputy Commissioner for Human Rights (the page does not use 'Ombudsman'); a former President of the Constitutional Tribunal (unnamed); and civil society organisations (unnamed). Not on the page: any rapporteur or Secretariat name, the CDL-AD(2024)035 number, the Sejm or Senate by name, Iustitia, Themis, Batory or HFHR, or any core actor (Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the eight TK judges). No fee or payment is mentioned. The draft Opinion was to go to the 141st Plenary Session on 6-7 December 2024 for adoption.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:36:01.535Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 1132,
+    "sha256": "e8ab3c3b5e8cea3b40488f3528edeccfbd51711349ff30851c4a5d1e55ea4c87",
+    "url_read": "https://www.coe.int/en/web/venice-commission/-/event-3740"
+   },
+   "claims": [
+    {
+     "id": "B02-C0251",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "conducted a country visit to Warsaw to prepare an Opinion on the Laws on the Constitutional Tribunal",
+     "object": "Warsaw, Poland (country visit, 14 - 15 October 2024)",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "On 14 and 15 October, a delegation of the Venice Commission conducted a visit to Warsaw, Poland,",
+     "evidence_translation": "On 14 and 15 October, a delegation of the Venice Commission conducted a visit to Warsaw, Poland,",
+     "label": "fact",
+     "label_scope": "Stated on the Commission's own page. Host and funders are not named; the Opinion was requested by the Minister of Justice (see the next claim).",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 1",
+     "new_entities": [
+      "Venice Commission"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "synoradzki_bentkowska",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0252",
+     "subject": "Minister of Justice of Poland",
+     "subject_type": "public_body",
+     "relation": "requested an Opinion on the Laws on the Constitutional Tribunal from the Venice Commission",
+     "object": "Opinion on the Laws on the Constitutional Tribunal and draft constitutional amendments concerning the Constitutional Tribunal",
+     "object_type": "document",
+     "kind": "other",
+     "evidence_text": "This Opinion was requested by the Minister of Justice of Poland on 4 September 2024.",
+     "evidence_translation": "This Opinion was requested by the Minister of Justice of Poland on 4 September 2024.",
+     "label": "fact",
+     "label_scope": "Minister not named on the page. The page states no fee, payment or contract value for the Opinion.",
+     "date": "4 September 2024",
+     "evidence_location": "Body paragraph 1, second sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0253",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "Minister of Justice",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "met with the Minister of Justice",
+     "evidence_translation": "met with the Minister of Justice",
+     "label": "fact",
+     "label_scope": "Minister not named on the page.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0254",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "Members of Parliament (governing coalition and opposition parties)",
+     "object_type": "other",
+     "kind": "event_or_speech",
+     "evidence_text": "Members of Parliament (governing coalition and opposition parties)",
+     "evidence_translation": "Members of Parliament (governing coalition and opposition parties)",
+     "label": "fact",
+     "label_scope": "No individual MP is named and the page does not say whether the Sejm, the Senate or both were met.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0255",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "Constitutional Tribunal, Chancellery of the President,",
+     "evidence_translation": "Constitutional Tribunal, Chancellery of the President,",
+     "label": "fact",
+     "label_scope": "No Constitutional Tribunal judge or official is named on the page.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "translator married to Wyborcza journalist (presidential office claim)",
+      "translator married to Wyborcza journalist (presidential office claim)"
+     ]
+    },
+    {
+     "id": "B02-C0256",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "Chancellery of the President",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "Chancellery of the President, Deputy Commissioner for Human Rights",
+     "evidence_translation": "Chancellery of the President, Deputy Commissioner for Human Rights",
+     "label": "fact",
+     "label_scope": "The President is not named on the page; the body is named only as 'Chancellery of the President'.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0257",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "Deputy Commissioner for Human Rights",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "Deputy Commissioner for Human Rights",
+     "evidence_translation": "Deputy Commissioner for Human Rights",
+     "label": "fact",
+     "label_scope": "Person not named; the page does not use the word 'Ombudsman'.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0258",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "a former President of the Constitutional Tribunal (not named)",
+     "object_type": "person",
+     "kind": "event_or_speech",
+     "evidence_text": "a former President of the Constitutional Tribunal",
+     "evidence_translation": "a former President of the Constitutional Tribunal",
+     "label": "fact",
+     "label_scope": "Person not named on the page.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "translator married to Wyborcza journalist (presidential office claim)",
+      "translator married to Wyborcza journalist (presidential office claim)"
+     ]
+    },
+    {
+     "id": "B02-C0259",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met with",
+     "object": "civil society organisations (not named)",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society organisations",
+     "evidence_translation": "civil society organisations",
+     "label": "fact",
+     "label_scope": "No organisation is named; the page says only 'civil society organisations'.",
+     "date": "14 - 15 October 2024",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0260",
+     "subject": "Venice Commission",
+     "subject_type": "org",
+     "relation": "scheduled submission of the draft Opinion to its plenary for adoption",
+     "object": "141st Plenary Session of the Venice Commission",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "The draft Opinion will be submitted to the 141st Plenary Session of the Venice Commission on 6-7 December 2024",
+     "evidence_translation": "The draft Opinion will be submitted to the 141st Plenary Session of the Venice Commission on 6-7 December 2024",
+     "label": "fact",
+     "label_scope": "Scheduled date as stated on the page; the page does not report the outcome.",
+     "date": "6-7 December 2024",
+     "evidence_location": "Body paragraph 3",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0261",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "had members named as delegation members (rapporteurs or Secretariat staff)",
+     "object": "Venice Commission rapporteurs and Secretariat staff (none named)",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "a delegation of the Venice Commission conducted a visit to Warsaw, Poland",
+     "evidence_translation": "a delegation of the Venice Commission conducted a visit to Warsaw, Poland",
+     "label": "no_link",
+     "label_scope": "Checked the whole page: no rapporteur or Secretariat staff member is named.",
+     "evidence_location": "Body paragraph 1",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "venice",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0262",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "Sejm",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "Members of Parliament (governing coalition and opposition parties)",
+     "evidence_translation": "Members of Parliament (governing coalition and opposition parties)",
+     "label": "no_link",
+     "label_scope": "The Sejm is not named; the page says only 'Members of Parliament'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0263",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "Senate",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "Members of Parliament (governing coalition and opposition parties)",
+     "evidence_translation": "Members of Parliament (governing coalition and opposition parties)",
+     "label": "no_link",
+     "label_scope": "The Senate is not named; the page says only 'Members of Parliament'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0264",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "Iustitia",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society organisations",
+     "evidence_translation": "civil society organisations",
+     "label": "no_link",
+     "label_scope": "Iustitia is not named; the page says only 'civil society organisations'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0265",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "Themis",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society organisations",
+     "evidence_translation": "civil society organisations",
+     "label": "no_link",
+     "label_scope": "Themis is not named; the page says only 'civil society organisations'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0266",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "Batory Foundation",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society organisations",
+     "evidence_translation": "civil society organisations",
+     "label": "no_link",
+     "label_scope": "Batory Foundation is not named; the page says only 'civil society organisations'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0267",
+     "subject": "Venice Commission delegation",
+     "subject_type": "org",
+     "relation": "met",
+     "object": "HFHR",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society organisations",
+     "evidence_translation": "civil society organisations",
+     "label": "no_link",
+     "label_scope": "HFHR is not named; the page says only 'civil society organisations'.",
+     "evidence_location": "Body paragraph 2",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "venice",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "B7_international-T2",
+   "url": "https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/",
+   "host": "nationaltribune.com.au",
+   "theme": "B7_international",
+   "fetch_status": "ok",
+   "fetch_note": "Read https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/ (HTTP 200 OK, text/html, 28,255 characters). Republished OHCHR press release; a line above the text reads 'OHCHR'. Metadata: published_time 2026-05-29T10:15:14+00:00, shown as '29 May 2026 8:15 pm AEST'. The page names one person, Margaret Satterthwaite, and none of the core actors. Its links to the full release and to the end-of-mission statement PDF point to ohchr.org, a different host, so they are listed in followup_urls and were not fetched.",
+   "page_title": "Obstruction must give way to efficient and independent justice for all says UN expert: Poland | The National Tribune",
+   "page_date": "2026-05-29 (published_time 2026-05-29T10:15:14+00:00)",
+   "publisher": "The National Tribune (Australia), republishing an OHCHR press release",
+   "capture_answer": "Republished OHCHR press release dated 29 May 2026 on the end-of-visit findings of UN Special Rapporteur on the independence of judges and lawyers, Margaret Satterthwaite. Visit dates: not stated; the page says only 'At the end of an official visit to Poland'. Bodies and people met: none named. The page says 'everyone I met during my visit' and 'all stakeholders' but names no Ministry of Justice, TK, KRS, judges' association or NGO as met. Constitutional Tribunal: only 'a shuttered tribunal', in a list of obstacles, with the tribunal not named. Oath refusals: 'an unsubstantiated denial of appointment oaths' appears in the same list, but the page does not name the President or any official as the person who denied the oaths; 'an unexplained veto' is also unattributed. New body: 'This new Council of the Judiciary offers hope, and should start work immediately' (not named as KRS). Report: 'my report in June 2027' (the body receiving it is not named). None of the core actors (Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the eight TK judges) is named on the page.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:36:03.012Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 28255,
+    "sha256": "0df0e036fc70809a742a3dc05e93e09bc1ba03c9975b759436ec7bef068563d1",
+    "url_read": "https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/"
+   },
+   "names_listed": [
+    "Margaret Satterthwaite"
+   ],
+   "names_found_in_page_text": "1/1",
+   "followup_urls": [
+    {
+     "url": "https://www.ohchr.org/sites/default/files/statements/20260529-eom-stm-poland-sr-independence-judges-lawyers-en.pdf",
+     "why": "End-of-mission statement linked from the article as 'findings'. The best next read for visit dates and bodies met, which the article omits. Different host (ohchr.org); not fetched."
+    },
+    {
+     "url": "https://www.ohchr.org/en/press-releases/2026/05/poland-obstruction-must-give-way-efficient-and-independent-justice-all-says",
+     "why": "Original OHCHR press release that the article republishes ('View in full here'). Different host (ohchr.org); not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0268",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "is the Special Rapporteur on the independence of judges and lawyers",
+     "object": "Special Rapporteur on the independence of judges and lawyers",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "the Special Rapporteur on the independence of judges and lawyers, Margaret Satterthwaite",
+     "evidence_translation": "the Special Rapporteur on the independence of judges and lawyers, Margaret Satterthwaite",
+     "label": "fact",
+     "label_scope": "Page identifies her in this role; the lead calls her 'a UN expert'.",
+     "evidence_location": "Paragraph 2",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0269",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "completed an official visit to",
+     "object": "Poland",
+     "object_type": "other",
+     "kind": "event_or_speech",
+     "evidence_text": "At the end of an official visit to Poland",
+     "evidence_translation": "At the end of an official visit to Poland",
+     "label": "fact",
+     "label_scope": "Visit dates not stated. Host, funders, organiser and bodies met are not named; the article's source label reads 'OHCHR'.",
+     "date": "not stated on page",
+     "evidence_location": "Paragraph 2",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0270",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "listed 'a shuttered tribunal' among obstacles that had blocked progress",
+     "object": "a shuttered tribunal (tribunal not named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "progress has been blocked by a handful of people: an unexplained veto, a shuttered tribunal",
+     "evidence_translation": "progress has been blocked by a handful of people: an unexplained veto, a shuttered tribunal",
+     "label": "fact",
+     "label_scope": "Quoted statement. The page does not name the tribunal, so identifying it as the Constitutional Tribunal is not on the page.",
+     "evidence_location": "Quotation beginning 'I share Poland’s frustration'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0271",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "listed 'an unexplained veto' among obstacles that had blocked progress",
+     "object": "an unexplained veto (issuer not named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "an unexplained veto",
+     "evidence_translation": "an unexplained veto",
+     "label": "fact",
+     "label_scope": "Quoted statement. The page does not say who issued the veto.",
+     "evidence_location": "Quotation beginning 'I share Poland’s frustration'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0272",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "listed 'an unsubstantiated denial of appointment oaths' among obstacles that had blocked progress",
+     "object": "denial of appointment oaths (person not named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "an unsubstantiated denial of appointment oaths",
+     "evidence_translation": "an unsubstantiated denial of appointment oaths",
+     "label": "fact",
+     "label_scope": "Quoted statement. The page does not name the President or any other official as the person who denied the oaths.",
+     "evidence_location": "Quotation beginning 'I share Poland’s frustration'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0273",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "said the framework has allowed abuses in judicial appointments",
+     "object": "political interference in judicial appointments (no actor or case named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "the framework that has allowed abuses such as political interference in judicial appointments",
+     "evidence_translation": "the framework that has allowed abuses such as political interference in judicial appointments",
+     "label": "alleged",
+     "label_scope": "Claim by Margaret Satterthwaite in a quotation about the framework. The page names no actor, appointment or case.",
+     "evidence_location": "Quotation beginning 'I welcome the efforts made'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0274",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "said of the new body that it offers hope and should start work immediately",
+     "object": "new Council of the Judiciary (not named as KRS on the page)",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "This new Council of the Judiciary offers hope, and should start work immediately.",
+     "evidence_translation": "This new Council of the Judiciary offers hope, and should start work immediately.",
+     "label": "fact",
+     "label_scope": "Quoted statement. The page does not name the KRS or say whether the body was met.",
+     "evidence_location": "Quotation beginning 'I noted broad agreement'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0275",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "reported that stakeholders told her Poland needs working apex courts that all in Poland can consider legitimate",
+     "object": "apex courts (not named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "Poland needs working apex courts that all in Poland can consider legitimate and that renewing these was urgent.",
+     "evidence_translation": "Poland needs working apex courts that all in Poland can consider legitimate and that renewing these was urgent.",
+     "label": "fact",
+     "label_scope": "Her account of what stakeholders said. The apex courts are not named, so the Constitutional Tribunal is not named either.",
+     "evidence_location": "Paragraph beginning 'The Special Rapporteur also noted'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0276",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "noted broad agreement on clarifying the status of judges appointed after 2017",
+     "object": "judges appointed after 2017 (not individually named)",
+     "object_type": "other",
+     "kind": "statement",
+     "evidence_text": "I noted broad agreement on the need to clarify the status of judges appointed after 2017",
+     "evidence_translation": "I noted broad agreement on the need to clarify the status of judges appointed after 2017",
+     "label": "fact",
+     "label_scope": "Quoted statement. No judges, bodies or appointment process are named.",
+     "evidence_location": "Quotation beginning 'I noted broad agreement'",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0277",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "said her report would be issued in June 2027",
+     "object": "report (June 2027; receiving body not named)",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "my report in June 2027 will contribute to these efforts.",
+     "evidence_translation": "my report in June 2027 will contribute to these efforts.",
+     "label": "fact",
+     "label_scope": "The page gives 'my report in June 2027' only; the body that receives the report is not named.",
+     "date": "June 2027",
+     "evidence_location": "Final quotation",
+     "new_entities": [
+      "Margaret Satterthwaite"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0278",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "met or consulted",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "everyone I met during my visit",
+     "evidence_translation": "everyone I met during my visit",
+     "label": "no_link",
+     "label_scope": "No ministry is named; meetings are described only as 'everyone I met during my visit'.",
+     "evidence_location": "Quotation beginning 'The reinstatement of judicial independence'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0279",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "met or consulted",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "everyone I met during my visit",
+     "evidence_translation": "everyone I met during my visit",
+     "label": "no_link",
+     "label_scope": "The tribunal is named only as 'a shuttered tribunal' in a list of obstacles; no meeting with it is stated.",
+     "evidence_location": "Quotation beginning 'The reinstatement of judicial independence'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0280",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "met or consulted",
+     "object": "KRS",
+     "object_type": "public_body",
+     "kind": "event_or_speech",
+     "evidence_text": "This new Council of the Judiciary offers hope",
+     "evidence_translation": "This new Council of the Judiciary offers hope",
+     "label": "no_link",
+     "label_scope": "The KRS is not named; the page refers only to 'this new Council of the Judiciary' and does not say it was met.",
+     "evidence_location": "Quotation beginning 'I noted broad agreement'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0281",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "met or consulted",
+     "object": "judges' associations",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "she heard from all stakeholders",
+     "evidence_translation": "she heard from all stakeholders",
+     "label": "no_link",
+     "label_scope": "No judges' association is named, described or said to have been met.",
+     "evidence_location": "Paragraph beginning 'The Special Rapporteur also noted'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0282",
+     "subject": "Margaret Satterthwaite",
+     "subject_type": "person",
+     "relation": "met or consulted",
+     "object": "NGOs (none named)",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "civil society was fatigued by the convoluted discussions and political deadlock",
+     "evidence_translation": "civil society was fatigued by the convoluted discussions and political deadlock",
+     "label": "no_link",
+     "label_scope": "No NGO is named, including Iustitia, Themis, Free Courts, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja or KOD. 'Civil society' appears only as a general observation.",
+     "evidence_location": "Paragraph 4",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B7_international-T3",
+   "url": "https://www.echr.coe.int/w/anna-adamska-gallant",
+   "host": "echr.coe.int",
+   "theme": "B7_international",
+   "fetch_status": "ok",
+   "fetch_note": "Read https://www.echr.coe.int/w/anna-adamska-gallant (HTTP 200 OK, text/html, 16,701 characters). Follow-up reads on the same host, both linked from the CV page's navigation or from each other: https://www.echr.coe.int/composition-of-the-court (HTTP 200 OK, text/html, 29,803 characters; 'In order of precedence as at 27/04/2026'), which lists her with 'Poland' and states the nine-year term rule; and https://www.echr.coe.int/documents/d/echr/list_judges_since_1959_bil?download=true (application/pdf, returned as text, 9,207 characters), which gives years only for Poland: '2024 – Anna ADAMSKA-GALLANT', '2012 – 2024 Krzysztof WOJTYCZEK', '2002 – 2012 Lech GARLICKI', '1992 – 2002 Jerzy MAKARCZYK'. The CV page's photo caption reads 'Canòlic Mingorance Cairat, judge elected  in respect of Andorra'. It names a different judge; the composition page and the PDF list Mingorance Cairat for Andorra, so the caption does not describe this CV. Birth details and education entries are not captured as claims.",
+   "page_title": "Anna Adamska-Gallant - ECHR - ECHR / CEDH",
+   "page_date": "No date on the CV page; composition page order of precedence as at 27/04/2026",
+   "publisher": "ECHR (European Court of Human Rights) website",
+   "capture_answer": "CV of Anna Adamska-Gallant as a judge of the European Court of Human Rights 'as from 16 December 2024'. PACE election date: not stated on the CV, the composition page or the judges list (the list gives only the year, '2024 – Anna ADAMSKA-GALLANT'). Term: the composition page says judges 'are elected for a non-renewable term of nine years'; her own end date is not stated (speculation claim: about December 2033). Nominating state: Poland, as shown on the composition page; the government that proposed her is not named. That page also says judges 'hear cases as individuals and do not represent that State'. NGO or association ties on the CV: National Board member of the Polish Judges Association 'Iustitia', 2009-2011, the only association listed; no Themis, Free Courts, Batory or HFHR tie is listed. Government or ministry post: none listed. Courts: judicial assessor, Gdańsk labour court (2001-2002); judicial assessor, Biała Podlaska misdemeanour division (2002-2004); judge, Lublin criminal division (2004-2013). International posts: International Judge, Kosovo* Court of First Instance, criminal division (2013-2015) and International Judge, Supreme Court, criminal chamber (2015-2018). Expertise France: 'Key International Expert' on the Judicial Reform of the EU Pravo Justice in Ukraine (2018-2024). Other: private criminal-law practice (2021-2024); lecturer at the University of Wrocław Faculty of Law, Administration and Economics (2021-2024); lecturer for trainee lawyers on the European Convention on Human Rights (2023-2024). Education entries are not captured as posts.",
+   "raw": {
+    "fetched_at": "2026-11-02T00:36:02.045Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16701,
+    "sha256": "02553e1875c72be672ce0dd56be080ab24fe4a0c1503a97697d65c4a2a156f42",
+    "url_read": "https://www.echr.coe.int/w/anna-adamska-gallant"
+   },
+   "followup_urls": [
+    {
+     "url": "https://pace.coe.int/en/pages/committee-30/AS-CDH",
+     "why": "Committee on the Election of Judges page, linked from the composition page. It may hold the PACE election date for her, which none of the pages read gives. Different host (pace.coe.int); not fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-C0283",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "is a judge of the European Court of Human Rights",
+     "object": "European Court of Human Rights",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Judge of the European Court of Human Rights as from 16 December 2024.",
+     "evidence_translation": "Judge of the European Court of Human Rights as from 16 December 2024.",
+     "label": "fact",
+     "label_scope": "CV entry. The CV gives no end date and no PACE election date.",
+     "date": "as from 16 December 2024",
+     "evidence_location": "CV list, final item",
+     "new_entities": [
+      "Anna Adamska-Gallant"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0284",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "is listed as judge elected in respect of the state",
+     "object": "Poland",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "evidence_text": "Anna  \nAdamska-Gallant  \nJudge\n\nPoland",
+     "evidence_translation": "Anna  \nAdamska-Gallant  \nJudge\n\nPoland",
+     "label": "fact",
+     "label_scope": "Composition of the Court page lists her with 'Poland' (order of precedence as at 27/04/2026). The page says judges 'hear cases as individuals and do not represent that State'. The government that proposed her is not named on any page read.",
+     "date": "as at 27/04/2026",
+     "evidence_location": "Composition of the Court page, 'Judges of the Court' list, her entry",
+     "new_entities": [
+      "Anna Adamska-Gallant"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://www.echr.coe.int/composition-of-the-court",
+     "evidence_check": "found_on_linked_page",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0285",
+     "subject": "Parliamentary Assembly of the Council of Europe (PACE)",
+     "subject_type": "org",
+     "relation": "elects judges from lists of three candidates proposed by each State",
+     "object": "judges of the European Court of Human Rights (general rule, not specific to her)",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "The judges are elected by the Parliamentary Assembly of the Council of Europe from lists of three candidates",
+     "evidence_translation": "The judges are elected by the Parliamentary Assembly of the Council of Europe from lists of three candidates",
+     "label": "fact",
+     "label_scope": "General rule on the Composition of the Court page. Her own PACE election date is not stated on the CV, the composition page or the judges list.",
+     "evidence_location": "Composition of the Court page, 'Election of judges'",
+     "new_entities": [
+      "Parliamentary Assembly of the Council of Europe (PACE)"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://www.echr.coe.int/composition-of-the-court",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "pace",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-C0286",
+     "subject": "judges of the European Court of Human Rights (general rule)",
+     "subject_type": "other",
+     "relation": "are elected for a term of",
+     "object": "a non-renewable term of nine years",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "They are elected for a non-renewable term of nine years.",
+     "evidence_translation": "They are elected for a non-renewable term of nine years.",
+     "label": "fact",
+     "label_scope": "General rule on the Composition of the Court page. No end date for Adamska-Gallant's term is stated on any page read.",
+     "evidence_location": "Composition of the Court page, 'Election of judges'",
+     "access": "page_read",
+     "evidence_found_at": "https://www.echr.coe.int/composition-of-the-court",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "echr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0287",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "is listed as judge for Poland from",
+     "object": "2024 (year only)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "2024 – Anna ADAMSKA-GALLANT",
+     "evidence_translation": "2024 – Anna ADAMSKA-GALLANT",
+     "label": "fact",
+     "label_scope": "Year-only entry in the 'Judges of the Court since 1959' list. No month, day, election date or end date appears, and the text returned gives no explanation of the date format.",
+     "date": "2024",
+     "evidence_location": "PDF 'List of judges of the Court since 1959', entry under 'POLAND / POLOGNE'",
+     "new_entities": [
+      "Anna Adamska-Gallant"
+     ],
+     "access": "page_read",
+     "evidence_found_at": "https://www.echr.coe.int/documents/d/echr/list_judges_since_1959_bil?download=true",
+     "evidence_check": "found_on_linked_page",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0288",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "term may run until",
+     "object": "about December 2033",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "They are elected for a non-renewable term of nine years.",
+     "evidence_translation": "They are elected for a non-renewable term of nine years.",
+     "label": "speculation",
+     "label_scope": "Inference only: a nine-year, non-renewable term (Composition of the Court page) counted from 'as from 16 December 2024' (CV). No end date is stated on any page read.",
+     "evidence_location": "Composition of the Court page, 'Election of judges'",
+     "access": "page_read",
+     "evidence_found_at": "https://www.echr.coe.int/composition-of-the-court",
+     "evidence_check": "found_on_linked_page",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0289",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was a member of the National Board of",
+     "object": "Polish Judges Association “Iustitia”",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Member of the National Board of the Polish Judges Association “Iustitia”, 2009-2011",
+     "evidence_translation": "Member of the National Board of the Polish Judges Association “Iustitia”, 2009-2011",
+     "label": "fact",
+     "label_scope": "CV entry, which gives this association post for 2009-2011 only.",
+     "date": "2009-2011",
+     "evidence_location": "CV list, membership entry",
+     "new_entities": [
+      "Anna Adamska-Gallant"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0290",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was judicial assessor at",
+     "object": "District Court, labour court, Gdańsk",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Judicial assessor, District Court, labour court, Gdańsk, 2001-2002",
+     "evidence_translation": "Judicial assessor, District Court, labour court, Gdańsk, 2001-2002",
+     "label": "fact",
+     "label_scope": "CV entry.",
+     "date": "2001-2002",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0291",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was judicial assessor at",
+     "object": "District Court, misdemeanour division, Biała Podlaska",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Judicial assessor, District Court, misdemeanour division, Biała Podlaska, Poland, 2002-2004",
+     "evidence_translation": "Judicial assessor, District Court, misdemeanour division, Biała Podlaska, Poland, 2002-2004",
+     "label": "fact",
+     "label_scope": "CV entry.",
+     "date": "2002-2004",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0292",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was judge at",
+     "object": "District Court, criminal division, Lublin",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Judge, District Court, criminal division, Lublin, Poland, 2004-2013",
+     "evidence_translation": "Judge, District Court, criminal division, Lublin, Poland, 2004-2013",
+     "label": "fact",
+     "label_scope": "CV entry.",
+     "date": "2004-2013",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0293",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was International Judge at",
+     "object": "Court of First Instance, criminal division, Kosovo*",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "International Judge, Court of First Instance, criminal division, Kosovo*, 2013-2015",
+     "evidence_translation": "International Judge, Court of First Instance, criminal division, Kosovo*, 2013-2015",
+     "label": "fact",
+     "label_scope": "CV entry. The CV does not name the mission or its sponsor.",
+     "date": "2013-2015",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0294",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was International Judge at",
+     "object": "Supreme Court, criminal chamber, Kosovo*",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "International Judge, Supreme Court, criminal chamber, Kosovo*, 2015-2018",
+     "evidence_translation": "International Judge, Supreme Court, criminal chamber, Kosovo*, 2015-2018",
+     "label": "fact",
+     "label_scope": "CV entry. The CV does not name the mission or its sponsor.",
+     "date": "2015-2018",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "supreme_court",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0295",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "held the role 'Key International Expert on the Judicial Reform of the EU Pravo Justice in Ukraine' with",
+     "object": "Expertise France",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Key International Expert on the Judicial Reform of the EU Pravo Justice in Ukraine, Expertise France, 2018-2024",
+     "evidence_translation": "Key International Expert on the Judicial Reform of the EU Pravo Justice in Ukraine, Expertise France, 2018-2024",
+     "label": "fact",
+     "label_scope": "CV entry. The CV gives no contract value or fee and does not say whether the role was paid.",
+     "date": "2018-2024",
+     "evidence_location": "CV list",
+     "new_entities": [
+      "Expertise France"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0296",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "worked in private practice specialised in criminal law",
+     "object": "private legal practice (not named)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Lawyer in private practice, specialized in criminal law, 2021-2024",
+     "evidence_translation": "Lawyer in private practice, specialized in criminal law, 2021-2024",
+     "label": "fact",
+     "label_scope": "CV entry; no firm is named.",
+     "date": "2021-2024",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0297",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was lecturer for trainee lawyers on the European Convention on Human Rights",
+     "object": "trainee lawyers course (organiser not named)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Lecturer for trainee lawyers on the application of the European Convention on Human Rights, 2023-2024",
+     "evidence_translation": "Lecturer for trainee lawyers on the application of the European Convention on Human Rights, 2023-2024",
+     "label": "fact",
+     "label_scope": "CV entry. The organiser and any fee are not named.",
+     "date": "2023-2024",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0298",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "was lecturer at",
+     "object": "Faculty of Law, Administration and Economics, University of Wrocław",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Lecturer at the Faculty of Law, Administration and Economics, University of Wrocław, Poland, 2021-2024",
+     "evidence_translation": "Lecturer at the Faculty of Law, Administration and Economics, University of Wrocław, Poland, 2021-2024",
+     "label": "fact",
+     "label_scope": "CV entry.",
+     "date": "2021-2024",
+     "evidence_location": "CV list",
+     "new_entities": [
+      "University of Wrocław"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-C0299",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "has a listed membership or role in",
+     "object": "Themis; Free Courts (Wolne Sądy); Batory Foundation; HFHR",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "Member of the National Board of the Polish Judges Association “Iustitia”, 2009-2011",
+     "evidence_translation": "Member of the National Board of the Polish Judges Association “Iustitia”, 2009-2011",
+     "label": "no_link",
+     "label_scope": "The CV lists only Iustitia among associations. None of the other named organisations appears on the page.",
+     "evidence_location": "CV list, membership entry",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-C0300",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "held a government or ministry post",
+     "object": "Ministry of Justice or any other government post (Poland)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Judge of the European Court of Human Rights as from 16 December 2024.",
+     "evidence_translation": "Judge of the European Court of Human Rights as from 16 December 2024.",
+     "label": "no_link",
+     "label_scope": "No government, ministry or ministerial post appears in the CV list.",
+     "evidence_location": "CV list",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
    "ref": "B1_judges_income-P1",
    "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/909/body",
    "host": "api.sejm.gov.pl",
@@ -6075,7 +7204,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0251",
+     "id": "B02-C0301",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "pay as vice-chair of TVP's supervisory board: not in this interpellation",
@@ -6163,7 +7292,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0252",
+     "id": "B02-C0302",
      "subject": "mazur",
      "subject_type": "person",
      "relation": "as deputy justice minister signed the 26 Oct 2024 answer defending KKUSiP's legality, including the legal basis for paying its members",
@@ -6188,7 +7317,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0253",
+     "id": "B02-C0303",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "pays its members for taking part in its work (§12 of the Council of Ministers regulation of 5 Mar 2024)",
@@ -6262,7 +7391,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0254",
+     "id": "B02-C0304",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 10,000 for the chair of each codification commission, including KKUSiP",
@@ -6289,7 +7418,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0255",
+     "id": "B02-C0305",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "sets a fixed monthly lump-sum pay of PLN 3,500 for members of each codification commission, including KKUSiP",
@@ -6316,7 +7445,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0256",
+     "id": "B02-C0306",
      "subject": "kkusip",
      "subject_type": "public_body",
      "relation": "cost PLN 437,062.26 in total in 2024 (row figures 409,684.13 and 27,378.13)",
@@ -6340,7 +7469,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0257",
+     "id": "B02-C0307",
      "subject": "codification_commission",
      "subject_type": "public_body",
      "relation": "Civil Law Codification Commission cost PLN 530,074.77 in total in 2024 (row figures 493,549.95 and 36,524.82)",
@@ -6367,7 +7496,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0258",
+     "id": "B02-C0308",
      "subject": "markiewicz",
      "subject_type": "person",
      "relation": "as KKUSiP chair (Apr 2024–Apr 2026) was entitled to the chair's fixed PLN 10,000 monthly lump sum",
@@ -6395,7 +7524,7 @@
      ]
     },
     {
-     "id": "B02-C0259",
+     "id": "B02-C0309",
      "subject": "taborowski",
      "subject_type": "person",
      "relation": "as a KKUSiP member (appointed 12 Apr 2024) was entitled to the members' fixed PLN 3,500 monthly lump sum",
@@ -6423,7 +7552,7 @@
      ]
     },
     {
-     "id": "B02-C0260",
+     "id": "B02-C0310",
      "subject": "dziurda",
      "subject_type": "person",
      "relation": "as a member of the Civil Law Codification Commission would have drawn the fixed PLN 3,500 monthly member pay, if he sat on it in 2024-2025",
@@ -6450,7 +7579,7 @@
      ]
     },
     {
-     "id": "B02-C0261",
+     "id": "B02-C0311",
      "subject": "myrcha",
      "subject_type": "person",
      "relation": "as Secretary of State in the Justice Ministry signed the 4 Apr 2025 answer to MP Przemysław Wipler (interpellation 7111) that disclosed codification-commission pay rates and 2024 costs",
@@ -6506,7 +7635,7 @@
    "names_found_in_page_text": "7/9",
    "claims": [
     {
-     "id": "B02-C0262",
+     "id": "B02-C0312",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "professor at UMCS, Department of Constitutional Law (staff list)",
@@ -6527,7 +7656,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0263",
+     "id": "B02-C0313",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "represented the Batory Foundation in legislative work on the draft TK Act and its Introductory Provisions, adopted 13 Sep 2024",
@@ -6555,7 +7684,7 @@
      ]
     },
     {
-     "id": "B02-C0264",
+     "id": "B02-C0314",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Batory Foundation's Legal Experts Group since 2020",
@@ -6583,7 +7712,7 @@
      ]
     },
     {
-     "id": "B02-C0265",
+     "id": "B02-C0315",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "member of the Justice Ministry's delegation to the Venice Commission's 141st Plenary Session (4 Dec 2024)",
@@ -6608,7 +7737,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0266",
+     "id": "B02-C0316",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "gave an expert statement during the Venice Commission's deliberations on the Act of 13 Sep 2024 on the TK and its Introductory Provisions",
@@ -6636,7 +7765,7 @@
      ]
     },
     {
-     "id": "B02-C0267",
+     "id": "B02-C0317",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "expert of the Ministry of Justice since 2024",
@@ -6661,7 +7790,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0268",
+     "id": "B02-C0318",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Sejm Chancellery's Bureau of Analysis (BAS)",
@@ -6683,7 +7812,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0269",
+     "id": "B02-C0319",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "wrote expert opinions for the Senate's Bureau of Analysis and Documentation",
@@ -6707,7 +7836,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0270",
+     "id": "B02-C0320",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the judges' association Iustitia",
@@ -6728,7 +7857,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0271",
+     "id": "B02-C0321",
      "subject": "patyra",
      "subject_type": "person",
      "relation": "collaborator of the prosecutors' association Lex Super Omnia",
@@ -6788,7 +7917,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0272",
+     "id": "B02-C0322",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed him deputy director of the National School of Judiciary and Public Prosecution (KSSiP) for organisational affairs, on Friday 7 June 2024",
@@ -6819,7 +7948,7 @@
      ]
     },
     {
-     "id": "B02-C0273",
+     "id": "B02-C0323",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Deputy director of KSSiP for organisational affairs from 7 June 2024: heads the Director's Office and is the Director's permanent deputy (end date not on this page)",
@@ -6842,7 +7971,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0274",
+     "id": "B02-C0324",
      "subject": "Izabela Fountoukidis (judge, Kraków Regional Court)",
      "subject_type": "person",
      "relation": "Appointed second deputy director of KSSiP on the same Friday as Żurek (7 June 2024)",
@@ -6863,7 +7992,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0275",
+     "id": "B02-C0325",
      "subject": "zurek",
      "subject_type": "person",
      "relation": "Member of the National Council of the Judiciary (KRS) 2010-2018, two terms, while also serving as its spokesperson (the pre-2018 council, before the PiS-era 'neo-KRS')",
@@ -6888,7 +8017,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0276",
+     "id": "B02-C0326",
      "subject": "Ministry of Justice (MS)",
      "subject_type": "public_body",
      "relation": "Ministry communiqué justified Żurek's appointment by his experience for the post of deputy director for organisational affairs",
@@ -6997,7 +8126,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0277",
+     "id": "B02-C0327",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "As Justice Minister, appointed the judges listed in the article (names_listed) to court-president and vice-president posts (reported 18 May 2024)",
@@ -7017,7 +8146,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0278",
+     "id": "B02-C0328",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed her president of the District Court Poznań-Nowe Miasto i Wilda",
@@ -7040,7 +8169,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0279",
+     "id": "B02-C0329",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Member of Iustitia; the article says she was persecuted for defending the rule of law",
@@ -7063,7 +8192,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0280",
+     "id": "B02-C0330",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Rafał Jerka president of the Olsztyn Regional Court",
@@ -7086,7 +8215,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0281",
+     "id": "B02-C0331",
      "subject": "Rafał Jerka (judge, Olsztyn)",
      "subject_type": "person",
      "relation": "Member of the Forum Współpracy Sędziów (Judges' Cooperation Forum)",
@@ -7107,7 +8236,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0282",
+     "id": "B02-C0332",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Jerzy Nawrocki president of the Lublin Court of Appeal",
@@ -7132,7 +8261,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0283",
+     "id": "B02-C0333",
      "subject": "Jerzy Nawrocki (judge, Lublin; not President Karol Nawrocki)",
      "subject_type": "person",
      "relation": "Member of the Presidium of the Forum Współpracy Sędziów",
@@ -7155,7 +8284,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0284",
+     "id": "B02-C0334",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "Appointed Paweł Juszczyszyn (and Katarzyna Zabuska) vice-presidents of the Olsztyn District Court, under president Krzysztof Krygielski",
@@ -7246,7 +8375,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0285",
+     "id": "B02-C0335",
      "subject": "Judges' assemblies (zgromadzenia sędziów) of the courts",
      "subject_type": "public_body",
      "relation": "Held an opinion vote on 60 candidates for the judge-members of the renewed KRS; each judge could cast 15 votes; turnout about 60%",
@@ -7270,7 +8399,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0286",
+     "id": "B02-C0336",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Topped the judges' assemblies' opinion vote for the renewed KRS with 4201 votes",
@@ -7295,7 +8424,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0287",
+     "id": "B02-C0337",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia; won one of the 15 places (3382 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -7320,7 +8449,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0288",
+     "id": "B02-C0338",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; won 14th place (3297 votes) in the judges' assemblies' vote for the renewed KRS",
@@ -7343,7 +8472,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0289",
+     "id": "B02-C0339",
      "subject": "piebiak_radzik",
      "subject_type": "person",
      "relation": "In the judges' assemblies' vote Przemysław Radzik got 14 votes nationwide and Łukasz Piebiak 39",
@@ -7369,7 +8498,7 @@
      ]
     },
     {
-     "id": "B02-C0290",
+     "id": "B02-C0340",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Was due to elect the judge-members soon after the assemblies' vote, because the neo-KRS term ended in May 2026",
@@ -7442,7 +8571,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0291",
+     "id": "B02-C0341",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Elected 15 judge-members of the National Council of the Judiciary on Friday 15 May 2026 (names in names_listed)",
@@ -7466,7 +8595,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0292",
+     "id": "B02-C0342",
      "subject": "Sejm",
      "subject_type": "public_body",
      "relation": "Vote on the KRS judge-members: 235 for, 18 against, 5 abstaining (3/5 majority required: 155)",
@@ -7486,7 +8615,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0293",
+     "id": "B02-C0343",
      "subject": "ko",
      "subject_type": "party",
      "relation": "The ruling coalition's clubs named 13 of the 15 judges elected, all of them picked earlier in the judges' assemblies' opinion vote",
@@ -7508,7 +8637,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0294",
+     "id": "B02-C0344",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Judges backed by associations including Iustitia won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -7536,7 +8665,7 @@
      ]
     },
     {
-     "id": "B02-C0295",
+     "id": "B02-C0345",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Judges backed by associations including Themis won the most support at the judges' assemblies that picked the coalition's KRS candidates",
@@ -7558,7 +8687,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0296",
+     "id": "B02-C0346",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS nominated Łukasz Piebiak, ex-deputy justice minister under Ziobro; he was elected among the 15 under the rule that each club's candidate is included",
@@ -7580,7 +8709,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0297",
+     "id": "B02-C0347",
      "subject": "Łukasz Zawadzki (judge, Opole)",
      "subject_type": "person",
      "relation": "Opole judge linked, like Piebiak, to the Stowarzyszenie Prawnicy dla Polski; elected to the KRS on 15 May 2026 as one of the two non-coalition picks",
@@ -7602,7 +8731,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0298",
+     "id": "B02-C0348",
      "subject": "tk",
      "subject_type": "public_body",
      "relation": "Issued an injunction (zabezpieczenie) on 12 May 2026 telling the Sejm to refrain from electing KRS judges until it ruled on a PiS motion; the Sejm voted on 15 May regardless",
@@ -7625,7 +8754,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0299",
+     "id": "B02-C0349",
      "subject": "pis",
      "subject_type": "party",
      "relation": "PiS MPs did not take part in the KRS vote",
@@ -7645,7 +8774,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0300",
+     "id": "B02-C0350",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia vice-president for finance per B2_appointments-P6)",
@@ -7670,7 +8799,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0301",
+     "id": "B02-C0351",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026, while president of a Poznań district court appointed by Bodnar (B2_appointments-P2); Iustitia member",
@@ -7693,7 +8822,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0302",
+     "id": "B02-C0352",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (Iustitia member per B2_appointments-P6)",
@@ -7716,7 +8845,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0303",
+     "id": "B02-C0353",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (president of the administrative judges' association per B2_appointments-P6)",
@@ -7739,7 +8868,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0304",
+     "id": "B02-C0354",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Elected a judge-member of the KRS by the Sejm on 15 May 2026 (last chair of the pre-2018 KRS per B2_appointments-P6)",
@@ -7764,7 +8893,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0305",
+     "id": "B02-C0355",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Checked: not among the 15 judges the Sejm elected on 15 May 2026, although she (Themis board) placed 14th in the judges' assemblies' vote (B2_appointments-P4); Sławomir Cilulko (12th) is also absent; their places went to Piebiak (PiS) and Zawadzki (Konfederacja)",
@@ -7837,7 +8966,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0306",
+     "id": "B02-C0356",
      "subject": "themis",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Iustitia, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -7864,7 +8993,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0307",
+     "id": "B02-C0357",
      "subject": "iustitia",
      "subject_type": "org",
      "relation": "Backs the 15-judge candidate list for the renewed KRS, together with Themis, the Family Judges' Association in Poland and the National Association of Administrative Court Judges",
@@ -7892,7 +9021,7 @@
      ]
     },
     {
-     "id": "B02-C0308",
+     "id": "B02-C0358",
      "subject": "Forum Współpracy Sędziów (Judges' Cooperation Forum)",
      "subject_type": "org",
      "relation": "Published the 15-judge candidate list for the renewed KRS on its website",
@@ -7915,7 +9044,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0309",
+     "id": "B02-C0359",
      "subject": "Wojciech Buchajczuk (judge, District Court for the City of Warsaw)",
      "subject_type": "person",
      "relation": "Vice-president of Iustitia for finance; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -7940,7 +9069,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0310",
+     "id": "B02-C0360",
      "subject": "Bartłomiej Starosta (judge, Sulęcin District Court)",
      "subject_type": "person",
      "relation": "Member of Iustitia; on the association-backed KRS list (elected by the Sejm 15 May 2026, per P5)",
@@ -7963,7 +9092,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0311",
+     "id": "B02-C0361",
      "subject": "Monika Frąckowiak (judge, Poznań)",
      "subject_type": "person",
      "relation": "Linked to Iustitia and to the European judges' association MEDEL; became a district court president after PiS lost power",
@@ -7986,7 +9115,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0312",
+     "id": "B02-C0362",
      "subject": "Beata Donhoffner-Grodzicka (judge, District Court for Kraków-Śródmieście)",
      "subject_type": "person",
      "relation": "Themis board member; on the association-backed KRS list (not among those the Sejm elected, per P5)",
@@ -8009,7 +9138,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0313",
+     "id": "B02-C0363",
      "subject": "Aleksandra Wrzesińska-Nowacka (judge, Supreme Administrative Court)",
      "subject_type": "person",
      "relation": "President of the National Association of Administrative Court Judges (one of the four associations backing the list); elected to the KRS 15 May 2026, per P5",
@@ -8031,7 +9160,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0314",
+     "id": "B02-C0364",
      "subject": "Dariusz Zawistowski (Supreme Court judge, Civil Chamber)",
      "subject_type": "person",
      "relation": "Last chair of the pre-2018 KRS, dissolved by PiS in 2018; on the association-backed list for the renewed KRS",
@@ -8088,7 +9217,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0315",
+     "id": "B02-C0365",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Independent Member of the ORLEN Supervisory Board",
@@ -8110,7 +9239,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0316",
+     "id": "B02-C0366",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "coordinated the HFHR programme 'Human Rights and Settlements with the Past'",
@@ -8129,7 +9258,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0317",
+     "id": "B02-C0367",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Social Council of the Human Rights Ombudsman",
@@ -8148,7 +9277,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0318",
+     "id": "B02-C0368",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "member of the Program Council of Amnesty International Poland",
@@ -8167,7 +9296,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0319",
+     "id": "B02-C0369",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "co-founder of the Prof. Zbigniew Hołda Association",
@@ -8186,7 +9315,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0320",
+     "id": "B02-C0370",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "Dean of the District Bar Council in Warsaw since November 2016",
@@ -8209,7 +9338,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0321",
+     "id": "B02-C0371",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "partner and co-founder of the law firm",
@@ -8231,7 +9360,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0322",
+     "id": "B02-C0372",
      "subject": "Mikołaj Pietrzak",
      "subject_type": "person",
      "relation": "graduate of the Faculty of Law and Administration",
@@ -8277,7 +9406,7 @@
    "names_found_in_page_text": "4/4",
    "claims": [
     {
-     "id": "B02-C0323",
+     "id": "B02-C0373",
      "subject": "Paweł Majcher",
      "subject_type": "person",
      "relation": "became president of Polskie Radio (chosen by the new supervisory board)",
@@ -8302,7 +9431,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0324",
+     "id": "B02-C0374",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "became president of Telewizja Polska",
@@ -8325,7 +9454,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0325",
+     "id": "B02-C0375",
      "subject": "Marek Błoński",
      "subject_type": "person",
      "relation": "became president of the Polish Press Agency (PAP)",
@@ -8348,7 +9477,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0326",
+     "id": "B02-C0376",
      "subject": "Bartłomiej Sienkiewicz",
      "subject_type": "person",
      "relation": "as Culture Minister appointed new supervisory boards of TVP, Polskie Radio and PAP, which then appointed the new management boards (after he dismissed the old boards on 19 Dec 2023)",
@@ -8419,7 +9548,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0327",
+     "id": "B02-C0377",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "described as a management board member of Miejskie Zakłady Autobusowe w Warszawie when picked as TVP president",
@@ -8440,7 +9569,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0328",
+     "id": "B02-C0378",
      "subject": "Tomasz Sygut",
      "subject_type": "person",
      "relation": "worked in a city company under Warsaw Mayor Rafał Trzaskowski",
@@ -8509,7 +9638,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0329",
+     "id": "B02-C0379",
      "subject": "Daniel Gorgosz",
      "subject_type": "person",
      "relation": "liquidator of TVP SA w likwidacji",
@@ -8532,7 +9661,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0330",
+     "id": "B02-C0380",
      "subject": "Marek Suski (MP)",
      "subject_type": "person",
      "relation": "claims the liquidator was given the goal of liquidating the national broadcaster effectively",
@@ -8583,7 +9712,7 @@
    "names_found_in_page_text": "2/3",
    "claims": [
     {
-     "id": "B02-C0331",
+     "id": "B02-C0381",
      "subject": "kieszkowska",
      "subject_type": "person",
      "relation": "named as a State Treasury company board appointee",
@@ -8636,7 +9765,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0332",
+     "id": "B02-C0382",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the EP Delegation for relations with the United States (from 2024/09/19 per Parltrack)",
@@ -8659,7 +9788,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0333",
+     "id": "B02-C0383",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "shadow rapporteur for the responsible committee (LIBE) on the Article 7 file on Hungary",
@@ -8683,7 +9812,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0334",
+     "id": "B02-C0384",
      "subject": "Kamil KLOPOCKI",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape; not on the EP's current list (1 Nov 2026)",
@@ -8702,7 +9831,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0335",
+     "id": "B02-C0385",
      "subject": "Sylwia TYRA-WŁOSTOWSKA",
      "subject_type": "person",
      "relation": "listed as his accredited assistant in Parltrack's scrape (same slot also shows 'Sylwia TYRA'); not on the EP's current list",
@@ -8721,7 +9850,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0336",
+     "id": "B02-C0386",
      "subject": "Maciej Pawel JELENSKI",
      "subject_type": "person",
      "relation": "listed as accredited assistant (grouping) in Parltrack's scrape; not on the EP's current list",
@@ -8740,7 +9869,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0337",
+     "id": "B02-C0387",
      "subject": "Arkadiusz CHOROBIK",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -8759,7 +9888,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0338",
+     "id": "B02-C0388",
      "subject": "Andrzej PRENDKE",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -8778,7 +9907,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0339",
+     "id": "B02-C0389",
      "subject": "Jakub Shebani SEWEHLI",
      "subject_type": "person",
      "relation": "listed as a service provider to his office in Parltrack's scrape",
@@ -8829,7 +9958,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0340",
+     "id": "B02-C0390",
      "subject": "KATARZYNA IZABELA NIEDŹWIECKA",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -8848,7 +9977,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0341",
+     "id": "B02-C0391",
      "subject": "Dominika Julia OLASZEK",
      "subject_type": "person",
      "relation": "accredited assistant",
@@ -8867,7 +9996,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0342",
+     "id": "B02-C0392",
      "subject": "Piotr Aleksander PŁACHTA",
      "subject_type": "person",
      "relation": "accredited assistant (also on Parltrack's earlier snapshot, P1)",
@@ -8886,7 +10015,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0343",
+     "id": "B02-C0393",
      "subject": "Jakub KARWANSKI",
      "subject_type": "person",
      "relation": "accredited assistant (grouping)",
@@ -8905,7 +10034,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0344",
+     "id": "B02-C0394",
      "subject": "Wojciech CHUDY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -8924,7 +10053,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0345",
+     "id": "B02-C0395",
      "subject": "Jan JEZIORNY",
      "subject_type": "person",
      "relation": "local assistant",
@@ -8943,7 +10072,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0346",
+     "id": "B02-C0396",
      "subject": "MICHALINA LYSIAK",
      "subject_type": "person",
      "relation": "local assistant",
@@ -8962,7 +10091,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0347",
+     "id": "B02-C0397",
      "subject": "Pawel JAROMIN",
      "subject_type": "person",
      "relation": "paying agent for his office",
@@ -8981,7 +10110,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0348",
+     "id": "B02-C0398",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no national party membership on the EP record: listed as 'Independent (Poland)'",
@@ -9060,7 +10189,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0349",
+     "id": "B02-C0399",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "filed his declaration of private interests three times: original 16-07-2024, revision no 1 on 29-01-2026, revision no 2 on 10-09-2026",
@@ -9080,7 +10209,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0350",
+     "id": "B02-C0400",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "rapporteur for the LIBE opinion on procedure 2025/2061(INI) (declared 07-04-2025)",
@@ -9100,7 +10229,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0351",
+     "id": "B02-C0401",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on the Hungary Article 7 file 2018/0902(NLE) (declared 10-09-2025)",
@@ -9120,7 +10249,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0352",
+     "id": "B02-C0402",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE shadow rapporteur on legislative procedure 2025/0255(COD) (declared 09-02-2026)",
@@ -9140,7 +10269,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0353",
+     "id": "B02-C0403",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "JURI shadow rapporteur for the opinion on 2025/2263(INI) (declared 11-06-2026)",
@@ -9160,7 +10289,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0354",
+     "id": "B02-C0404",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "LIBE rapporteur on 2026/2144(INI), conflict-of-interest declaration dated 09-10-2026",
@@ -9180,7 +10309,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0355",
+     "id": "B02-C0405",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "took part in four official EUDS delegations (declarations 10-04-2025 twice, 14-07-2025, 22-03-2026)",
@@ -9203,7 +10332,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0356",
+     "id": "B02-C0406",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared official LIBE delegations (27-03-2025, 07-04-2025, 21-01-2026, 07-09-2026, 14-09-2026, 22-09-2026) and JURI delegations (07-04-2025, 29-01-2026, 09-02-2026, 30-09-2026)",
@@ -9231,7 +10360,7 @@
      ]
     },
     {
-     "id": "B02-C0357",
+     "id": "B02-C0407",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "declared attendance at six events organised by third parties: 04-12-2024, 27-01-2025, 04-11-2025, 24-02-2026, 24-06-2026, 25-06-2026",
@@ -9282,7 +10411,7 @@
    "names_found_in_page_text": "8/8",
    "claims": [
     {
-     "id": "B02-C0358",
+     "id": "B02-C0408",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "member of the Bar Exam Committee until 2023, paid 1425 EUR once a year",
@@ -9307,7 +10436,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0359",
+     "id": "B02-C0409",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lecturer at SWPS University in 2022 only, one-off 220 EUR",
@@ -9332,7 +10461,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0360",
+     "id": "B02-C0410",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "lawyer at Wawrykiewicz Law Firm: 151917 PLN income for 2024; 2025 income deferred until after 30 April 2026",
@@ -9362,7 +10491,7 @@
      ]
     },
     {
-     "id": "B02-C0361",
+     "id": "B02-C0411",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "partnership holding in Wawrykiewicz Law Firm: no income in 2024, 2025 income to follow",
@@ -9388,7 +10517,7 @@
      ]
     },
     {
-     "id": "B02-C0362",
+     "id": "B02-C0412",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Saag sp. z o.o. not declared in revision no 1",
@@ -9413,7 +10542,7 @@
      ]
     },
     {
-     "id": "B02-C0363",
+     "id": "B02-C0413",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "MW Estate Consulting sp. z o.o. not declared in revision no 1",
@@ -9438,7 +10567,7 @@
      ]
     },
     {
-     "id": "B02-C0364",
+     "id": "B02-C0414",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "Energy Efficiency Engineering S.A. supervisory board seat not declared in revision no 1",
@@ -9465,7 +10594,7 @@
      ]
     },
     {
-     "id": "B02-C0365",
+     "id": "B02-C0415",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "no declared financial, staff or material support from Free Courts or any other third party",
@@ -9514,7 +10643,7 @@
    },
    "claims": [
     {
-     "id": "B02-C0366",
+     "id": "B02-C0416",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "invited him to 'Presentation of the BSP Position on the EU Multiannual Financial Framework 2028–2034', Brussels, 24/02/2026",
@@ -9537,7 +10666,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0367",
+     "id": "B02-C0417",
      "subject": "Związek Pracodawców Business & Science Poland (BSP)",
      "subject_type": "org",
      "relation": "form marks travel, accommodation and subsistence as not covered",
@@ -9557,7 +10686,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0368",
+     "id": "B02-C0418",
      "subject": "wawrykiewicz",
      "subject_type": "person",
      "relation": "dated the declaration 21/07/2026, 147 days after the 24/02/2026 event, past the form's 60-day limit",
@@ -9608,7 +10737,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0369",
+     "id": "B02-C0419",
      "subject": "Waldemar Żurek",
      "subject_type": "person",
      "relation": "as Prosecutor General, gave the order of 13 Apr 2026 under which a verification proceeding was run. This led the National Prosecutor's Office to open an investigation on 21 Apr 2026 into the non-admission of four TK judges elected by the Sejm on 13 Mar 2026",
@@ -9636,7 +10765,7 @@
      ]
     },
     {
-     "id": "B02-C0370",
+     "id": "B02-C0420",
      "subject": "Magdalena Bentkowska",
      "subject_type": "person",
      "relation": "with fellow TK judge Dariusz Szostek, filed the criminal notification that, together with Żurek's order, was the basis for the 21 Apr 2026 investigation into the non-admission of four other Sejm-elected TK judges",
@@ -9658,7 +10787,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0371",
+     "id": "B02-C0421",
      "subject": "Dariusz Szostek",
      "subject_type": "person",
      "relation": "with fellow TK judge Magdalena Bentkowska, filed the criminal notification that, together with Żurek's order, was the basis for the 21 Apr 2026 investigation into the non-admission of four other Sejm-elected TK judges",
@@ -9680,7 +10809,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0372",
+     "id": "B02-C0422",
      "subject": "National Prosecutor's Office (Prokuratura Krajowa)",
      "subject_type": "public_body",
      "relation": "opened an investigation on 21 Apr 2026 into suspected failure of duty by public officials employed at the TK: not providing the four judges with working conditions and pay, not assigning them cases, and not completing employment formalities (art. 231 §1 and art. 218 §1a with art. 11 §2 of the Criminal Code)",
@@ -9702,7 +10831,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0373",
+     "id": "B02-C0423",
      "subject": "National Prosecutor's Office (Prokuratura Krajowa)",
      "subject_type": "public_body",
      "relation": "the same investigation covers suspected aiding (art. 18 §3 with art. 231 §1) of the President's failure to fulfil his duties, i.e. not receiving the four judges' oaths, by reinforcing his belief that this was justified and lawful",
@@ -9724,7 +10853,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0374",
+     "id": "B02-C0424",
      "subject": "Anna Adamiak",
      "subject_type": "person",
      "relation": "prosecutor and press spokesperson of the Prosecutor General; signed the 22 Apr 2026 statement on the TK-judges investigation",
@@ -9747,7 +10876,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0375",
+     "id": "B02-C0425",
      "subject": "Investigation opened by the National Prosecutor's Office on 21 Apr 2026 (non-admission of four TK judges)",
      "subject_type": "event",
      "relation": "is probably the same proceeding as investigation 1001-14.Ds.16.2026 already on the map",
@@ -9823,7 +10952,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0376",
+     "id": "B02-C0426",
      "subject": "Czesław Mroczek",
      "subject_type": "person",
      "relation": "Secretary of State in the Ministry of Interior and Administration; answered in the Sejm (current questions, 31 Jul 2026) on the police action at the TK",
@@ -9845,7 +10974,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0377",
+     "id": "B02-C0427",
      "subject": "Policja (Polish Police; unit not named on page)",
      "subject_type": "public_body",
      "relation": "acted on a report that two TK judges due at a planned TK General Assembly were not let into the TK building. Police contacted the prosecutor's office at once, and officers and a prosecutor went to the TK seat only to establish the facts (Interior Ministry account)",
@@ -9865,7 +10994,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0378",
+     "id": "B02-C0428",
      "subject": "TK chancellery director (dyrektor kancelarii TK; name not given)",
      "subject_type": "person",
      "relation": "together with the TK guard commandant, told police and the prosecutor at the TK that they were carrying out the TK President's written order not to let the two judges into the building",
@@ -9888,7 +11017,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0379",
+     "id": "B02-C0429",
      "subject": "TK guard commandant (komendant straży TK; name not given)",
      "subject_type": "person",
      "relation": "together with the TK chancellery director, carried out the TK President's written order not to admit the judges to the TK building",
@@ -9911,7 +11040,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0380",
+     "id": "B02-C0430",
      "subject": "TK chancellery director and TK guard commandant (names not given)",
      "subject_type": "person",
      "relation": "at the prosecutor's request, handed over a copy of the TK President's written order not to admit the judges",
@@ -9929,7 +11058,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0381",
+     "id": "B02-C0431",
      "subject": "two TK judges due at the planned TK General Assembly (not named)",
      "subject_type": "person",
      "relation": "were not let into the TK building and complied with the information passed to them about the TK President's order (Interior Ministry account)",
@@ -9949,7 +11078,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0382",
+     "id": "B02-C0432",
      "subject": "unnamed prosecutor (office not stated)",
      "subject_type": "person",
      "relation": "attended the police intervention at the TK. Told the people questioned that they would be summoned to testify, and instructed police to document the intervention and send the file to the National Prosecutor's Office",
@@ -9969,7 +11098,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0383",
+     "id": "B02-C0433",
      "subject": "Bogdan Święczkowski (TK President; named on the page only as 'prezes Trybunału Konstytucyjnego')",
      "subject_type": "person",
      "relation": "asked the Chief Commander of Police to explain the legal basis and reasons for the intervention. The Chief Commander replied, pointing to the facts set out by Mroczek",
@@ -10015,7 +11144,7 @@
    "names_found_in_page_text": "no page text captured",
    "claims": [
     {
-     "id": "B02-C0384",
+     "id": "B02-C0434",
      "subject": "Bogdan Święczkowski",
      "subject_type": "person",
      "relation": "demanded (Feb 2025) that the investigation into his coup notification be led by prosecutor Beata Marczak, not by the prosecutor's office indicated by the National Prosecutor",
@@ -10038,7 +11167,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0385",
+     "id": "B02-C0435",
      "subject": "National Prosecutor (Prokurator Krajowy; not named on page)",
      "subject_type": "person",
      "relation": "had designated a prosecutor's office to handle Święczkowski's 2025 coup notification. The office's name is cut off on the fetched page",
@@ -10147,7 +11276,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0386",
+     "id": "B02-C0436",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10170,7 +11299,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0387",
+     "id": "B02-C0437",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10190,7 +11319,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0388",
+     "id": "B02-C0438",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10210,7 +11339,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0389",
+     "id": "B02-C0439",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10230,7 +11359,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0390",
+     "id": "B02-C0440",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10250,7 +11379,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0391",
+     "id": "B02-C0441",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10270,7 +11399,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0392",
+     "id": "B02-C0442",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10290,7 +11419,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0393",
+     "id": "B02-C0443",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "met in virtual country-visit meetings (Feb-Mar 2026) for the 2026 Rule of Law Report",
@@ -10310,7 +11439,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0394",
+     "id": "B02-C0444",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "did not list Themis among the bodies met in the 2026 country visit (Free Courts and the Osiatyński Archive are also absent)",
@@ -10330,7 +11459,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0395",
+     "id": "B02-C0445",
      "subject": "free_courts",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report' (seven Polish NGOs), cited by the Commission",
@@ -10353,7 +11482,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0396",
+     "id": "B02-C0446",
      "subject": "batory",
      "subject_type": "org",
      "relation": "co-author (listed first) of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10373,7 +11502,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0397",
+     "id": "B02-C0447",
      "subject": "hfhr",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10393,7 +11522,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0398",
+     "id": "B02-C0448",
      "subject": "watchdog_polska",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10413,7 +11542,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0399",
+     "id": "B02-C0449",
      "subject": "isp",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10433,7 +11562,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0400",
+     "id": "B02-C0450",
      "subject": "National Federation of Polish NGOs",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10454,7 +11583,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0401",
+     "id": "B02-C0451",
      "subject": "Responsible Politics Foundation",
      "subject_type": "org",
      "relation": "co-author of the joint 'Written input to the 2026 Rule of Law Report'",
@@ -10475,7 +11604,7 @@
      "map_status": "both_names_unmatched"
     },
     {
-     "id": "B02-C0402",
+     "id": "B02-C0452",
      "subject": "batory",
      "subject_type": "org",
      "relation": "its 16th Civic Legislation Forum report (15 Dec 2025) is cited as a source in the 2026 Poland chapter",
@@ -10495,7 +11624,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0403",
+     "id": "B02-C0453",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "2026 recommendation to Poland: continue Action Plan progress, including on the KRS and the TK (no separate TK recommendation)",
@@ -10515,7 +11644,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0404",
+     "id": "B02-C0454",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "records that the President took the oath from only two of six elected judges and has not let the judge elected 11 Jun 2026 take the oath",
@@ -10535,7 +11664,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0405",
+     "id": "B02-C0455",
      "subject": "European Commission services (2026 Rule of Law Report)",
      "subject_type": "public_body",
      "relation": "reports that the TK budget was increased for 2026 over 2025",
@@ -10589,7 +11718,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0406",
+     "id": "B02-C0456",
      "subject": "iaj_eaj",
      "subject_type": "org",
      "relation": "gave its judicial independence prize to him as President of the Polish Association of Judges (Iustitia)",
@@ -10611,7 +11740,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0407",
+     "id": "B02-C0457",
      "subject": "markiewicz",
      "subject_type": "person",
      "relation": "received the IAJ prize at the closing ceremony of the IAJ's 64th annual meeting in Tel Aviv (host: IAJ), in his capacity as Iustitia president, and addressed the Assembly",
@@ -10634,7 +11763,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0408",
+     "id": "B02-C0458",
      "subject": "iaj_eaj",
      "subject_type": "org",
      "relation": "prize money or other payment attached to the award",
@@ -10684,7 +11813,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0409",
+     "id": "B02-C0459",
      "subject": "venice",
      "subject_type": "public_body",
      "relation": "adopted opinion CDL-AD(2024)035 on the draft constitutional amendments on the TK and two draft TK laws, 141st Plenary (Venice, 6-7 Dec 2024)",
@@ -10738,7 +11867,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0410",
+     "id": "B02-C0460",
      "subject": "moj",
      "subject_type": "public_body",
      "relation": "requested Venice Commission Opinion 1203/2024 on the TK draft constitutional amendments and two draft TK laws",
@@ -10760,7 +11889,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0411",
+     "id": "B02-C0461",
      "subject": "bodnar",
      "subject_type": "person",
      "relation": "as Justice Minister, requested Venice Commission Opinion 1203/2024 on the TK drafts",
@@ -10782,7 +11911,7 @@
      "map_status": "new_tie_between_known_entities"
     },
     {
-     "id": "B02-C0412",
+     "id": "B02-C0462",
      "subject": "venice",
      "subject_type": "public_body",
      "relation": "Opinion 1203/2024 assessed the drafts behind the coalition's 2024 TK bills",
@@ -10837,7 +11966,7 @@
    ],
    "claims": [
     {
-     "id": "B02-C0413",
+     "id": "B02-C0463",
      "subject": "Christophe Brico",
      "subject_type": "person",
      "relation": "PACE co-rapporteur for the monitoring of Poland (Monaco delegation; EPP/CD group)",
@@ -10859,7 +11988,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0414",
+     "id": "B02-C0464",
      "subject": "Didier Marie",
      "subject_type": "person",
      "relation": "PACE co-rapporteur for the monitoring of Poland (France delegation; SOC group)",
@@ -10881,7 +12010,7 @@
      "map_status": "new_entity_or_unmatched_name"
     },
     {
-     "id": "B02-C0415",
+     "id": "B02-C0465",
      "subject": "Christophe Brico and Didier Marie (PACE co-rapporteurs for Poland)",
      "subject_type": "person",
      "relation": "said after a three-day Warsaw visit that the TK and the National Judicial Council are politicised",
@@ -17185,27 +18314,6 @@
    "title": "przepychanki przed trybunalem konstytucyjnym waldemar zurek polecil prokuraturze przyjrzec sie zajsciom z udzialem roberta bakiewicza",
    "why": "Żurek's instruction to prosecutors over clashes at the TK.",
    "capture": "Date; which prosecutor's office was instructed; Bąkiewicz's role and organisation; whether charges or detentions followed."
-  },
-  {
-   "theme": "B7_international",
-   "url": "https://www.coe.int/en/web/venice-commission/-/event-3740",
-   "title": "Back POLAND – Country visit for the forthcoming Opinion on the Laws on the Constitutional Tribunal",
-   "why": "Country visit behind CDL-AD(2024)035; these event pages usually name the delegation",
-   "capture": "Names, countries and roles of the rapporteurs and Secretariat staff; visit dates; every institution, NGO and judges' association met (Sejm, Senate, Justice Ministry, TK, Ombudsman, Iustitia, Themis, Batory, HFHR)"
-  },
-  {
-   "theme": "B7_international",
-   "url": "https://www.nationaltribune.com.au/obstruction-must-give-way-to-efficient-and-independent-justice-for-all-says-un-expert-poland/",
-   "title": "Obstruction must give way to efficient and independent justice for all says UN expert: Poland",
-   "why": "Republished UN press release on the Special Rapporteur's Poland visit",
-   "capture": "Special Rapporteur's name and dates of visit; bodies and people met (Justice Ministry, TK, KRS, judges' associations, NGOs); statements on the TK and the President's oath refusals; report due date"
-  },
-  {
-   "theme": "B7_international",
-   "url": "https://www.echr.coe.int/w/anna-adamska-gallant",
-   "title": "Anna Adamska-Gallant",
-   "why": "Official CV of the ECtHR judge elected in respect of Poland",
-   "capture": "Date of election by PACE and term; earlier posts (courts, international missions, ministries); NGO or judges' association ties; nominating government"
   },
   {
    "theme": "B7_international",

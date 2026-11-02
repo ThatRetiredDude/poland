@@ -13,6 +13,7 @@
    "not_found": "not found in the captured page text: treat the claim as unverified",
    "no_raw": "no page text was captured for this URL",
    "*_in_reader_extract": "the page reader returned an extract rather than the page text; the excerpt was found in that extract (a page-text re-check is pending)",
+   "found_on_linked_page": "not on the page at url, but found word for word on another page the same reader opened from it (see evidence_found_at)",
    "found_in_reader_extract_only": "the page text was captured later and the excerpt is not in it word for word; it is only in the page reader's own extract, so treat the wording as unverified"
   },
   "labels": "fact | alleged | speculation | unproven_conspiracy | no_link. fact = the source states it (or the organisation published it about itself). label_scope says what the label covers.",
@@ -30,7 +31,7 @@
  },
  "stats": {
   "agents": 15,
-  "agents_left_out_unfinished_or_other_batch": 16,
+  "agents_left_out_unfinished_or_other_batch": 17,
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
@@ -50,10 +51,11 @@
   },
   "evidence_check": {
    "exact": 262,
-   "not_found": 18,
-   "normalized": 57,
+   "found_on_linked_page": 13,
+   "not_found": 5,
+   "normalized": 58,
    "normalized_ci": 2,
-   "found_in_reader_extract_only": 17,
+   "found_in_reader_extract_only": 16,
    "exact_in_reader_extract": 96,
    "not_found_in_reader_extract": 2
   },
@@ -191,7 +193,8 @@
      "label_scope": "Programme's own description of its funding source, on /o-programie/ (intro paragraph).",
      "evidence_location": "/o-programie/, intro paragraph",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://programrownychpraw.batory.org.pl/o-programie/",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -211,7 +214,8 @@
      "label_scope": "Stated on /o-programie/. The EUR 0.67 million share is described as the Foundation's own funds.",
      "evidence_location": "/o-programie/, after the grant-type list",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://programrownychpraw.batory.org.pl/o-programie/",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -245,7 +249,8 @@
      "label_scope": "Pages read: homepage, /o-programie/, /konkursy/, /rozwoj-instytucjonalny/, /projekty/ page 1 of 16. None of the listed names appears. Pages 2-16 of /projekty/ were not read.",
      "evidence_location": "/projekty/, intro paragraph",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://programrownychpraw.batory.org.pl/projekty/",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "free_courts",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -390,7 +395,8 @@
      "label_scope": "Stated on /o-nas.",
      "evidence_location": "/o-nas, 'Fundacja' section",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://oko.press/o-nas",
+     "evidence_check": "found_on_linked_page",
      "subject_map_id": "okopress",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -429,7 +435,8 @@
      "label_scope": "Listed in the 'Redakcja od A do Z' section of /o-nas. The support page does not list staff.",
      "evidence_location": "/o-nas, 'Redakcja od A do Z'",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://oko.press/o-nas",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -4352,7 +4359,8 @@
      "label": "fact",
      "label_scope": "Grantable funder profile, based on IRS filing data. The listing itself does not state the legal form.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "sixteen_thirty",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -4371,7 +4379,8 @@
      "label": "fact",
      "label_scope": "Location as listed on the Grantable funder profile.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "depaul",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -4390,7 +4399,8 @@
      "label": "speculation",
      "label_scope": "Inferred from 'Chicago, IL' and the IRS Form 990 sourcing shown on the pages. Neither page writes 'United States'.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -4484,7 +4494,8 @@
      "label": "no_link",
      "label_scope": "The profile lists these four places only. Poland is not among them.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -4622,7 +4633,8 @@
      "label": "fact",
      "label_scope": "Funder description shown on the Grantable profile. The profile does not say where the wording comes from.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "object_map_id": "solidarity_1980s",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -4644,7 +4656,8 @@
       "David Koranyi"
      ],
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -4724,7 +4737,8 @@
      "label": "fact",
      "label_scope": "Compensation as shown on the 2024 filing via the Grantable profile. The officer list gives '$125K (2022) → $298K (2024)'.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -4744,7 +4758,8 @@
      "label": "fact",
      "label_scope": "Compensation as shown on the 2024 filing via the Grantable profile. The officer list gives '$11K (2022) → $27K (2024)'.",
      "access": "page_read",
-     "evidence_check": "not_found",
+     "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
+     "evidence_check": "found_on_linked_page",
      "map_status": "both_names_unmatched"
     },
     {
@@ -8218,7 +8233,7 @@
      "label": "fact",
      "label_scope": "That the suit was filed with this request for relief. The outcome is not covered.",
      "access": "page_read",
-     "evidence_check": "found_in_reader_extract_only",
+     "evidence_check": "normalized",
      "object_map_id": "us_state_dept",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
