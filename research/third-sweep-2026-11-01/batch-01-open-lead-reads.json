@@ -59,10 +59,10 @@
    "empty": 21
   },
   "map_status": {
-   "pair_already_linked": 196,
-   "new_tie_between_known_entities": 145,
-   "new_entity_or_unmatched_name": 630,
-   "both_names_unmatched": 247
+   "pair_already_linked": 187,
+   "new_tie_between_known_entities": 131,
+   "new_entity_or_unmatched_name": 639,
+   "both_names_unmatched": 261
   },
   "kinds": {
    "membership_or_board": 78,
@@ -889,12 +889,9 @@
      "evidence_check": "exact",
      "subject_map_id": "civic_fund",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "rafto_foundation",
-     "object_map_status": "haiku_branch_only",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "Rafto Prize money (awarded to the Ombudsman and his office) used for the competition"
-     ]
+     "object_map_id": "civic_fund",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-ad12484b",
@@ -910,8 +907,8 @@
      "label_scope": "Page's list of the two thematic areas (first item).",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -928,8 +925,8 @@
      "label_scope": "Page's list of the two thematic areas (second item).",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -948,9 +945,12 @@
      "evidence_check": "exact",
      "subject_map_id": "rpo_office",
      "subject_map_status": "on_map",
-     "object_map_id": "rafto_foundation",
-     "object_map_status": "haiku_branch_only",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_id": "civic_fund",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "ran a grant competition from Rafto Prize money (call and results published)"
+     ]
     },
     {
      "id": "B01-97a0130c",
@@ -967,8 +967,8 @@
      "date": "2019-01-31",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -986,8 +986,8 @@
      "date": "2019-01",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1004,8 +1004,8 @@
      "label_scope": "Stated as a preference ('Preferowane będą'), not as a requirement.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1022,8 +1022,8 @@
      "label_scope": "Full page text checked: no evaluation panel, jury or commission members are named. The page refers to the Civic Fund's website for details.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1040,8 +1040,8 @@
      "label_scope": "No sum for the Rafto money or for any grant appears in the page text.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
+     "subject_map_id": "civic_fund",
+     "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -1347,8 +1347,6 @@
      "evidence_check": "exact",
      "subject_map_id": "tk",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1508,18 +1506,9 @@
      "label_scope": "Article's statement. The MPs are not named.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "tusk",
-     "subject_map_status": "on_map",
      "object_map_id": "berek",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "consented to his move to TK; former minister",
-      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
-      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
-      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
-      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-2d3d94b6",
@@ -1713,9 +1702,7 @@
      "label_scope": "Checked the article and embedded posts for Michał Wawrykiewicz, Iustitia, Themis, Wolne Sądy, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja and KOD. None appear.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "wawrykiewicz",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-0d22a4bc",
@@ -1731,8 +1718,13 @@
      "label_scope": "No formal party membership is stated for Tusk, Święczkowski or Nawrocki. The article says Nawrocki was elected 'with the support of PiS' and that Nawrocki and Święczkowski are 'aligned with the right-wing opposition'.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "swieczkowski",
+     "subject_map_id": "tusk",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "tusk",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -1993,9 +1985,7 @@
      "label_scope": "None of these names appears in the fetched article text or sidebar: Wawrykiewicz, Iustitia, Themis, Wolne Sądy, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja, KOD.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "wawrykiewicz",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -2074,9 +2064,7 @@
      "evidence_check": "exact",
      "subject_map_id": "zurek",
      "subject_map_status": "on_map",
-     "object_map_id": "bodnar_rpo_report",
-     "object_map_status": "haiku_branch_only",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-e57e381f",
@@ -2369,9 +2357,7 @@
      "evidence_location": "letter header",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "tk",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-94aa4372",
@@ -2410,8 +2396,12 @@
      "evidence_location": "letter, paragraph beginning 'Od lat funkcjonuje'",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "hfhr",
+     "subject_map_id": "inpris",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "inpris",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -2430,9 +2420,7 @@
      "evidence_check": "exact",
      "subject_map_id": "akcja_demokracja",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-fb45f469",
@@ -2448,9 +2436,7 @@
      "evidence_location": "Lista sygnatariuszy, entry 3",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-bf799dfe",
@@ -2468,15 +2454,7 @@
      "evidence_check": "exact",
      "subject_map_id": "batory",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "PiS: coalition TK bills drafted by Batory experts = illegal lobbying (Batory denies)",
-      "PiS: coalition TK bills drafted by Batory experts = illegal lobbying (Batory denies)",
-      "PiS: coalition TK bills drafted by Batory experts = illegal lobbying (Batory denies)",
-      "PiS: coalition TK bills drafted by Batory experts = illegal lobbying (Batory denies)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-40d12d5b",
@@ -2494,9 +2472,7 @@
      "evidence_check": "exact",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-67979858",
@@ -2514,9 +2490,7 @@
      "evidence_check": "exact",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-16e6792d",
@@ -2534,9 +2508,7 @@
      "evidence_check": "exact",
      "subject_map_id": "kod",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-1e45b934",
@@ -2731,9 +2703,7 @@
      "evidence_location": "lead paragraph",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-1f9398ad",
@@ -2749,9 +2719,7 @@
      "evidence_location": "body, paragraph beginning 'Pod apelem podpisały się'",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-fa70b530",
@@ -2797,6 +2765,10 @@
      "subject_map_status": "on_map",
      "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
       "suspended (one month, disputed)",
@@ -3049,9 +3021,7 @@
      "label_scope": "The appeal's own request.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-7b891eab",
@@ -3069,9 +3039,7 @@
      "label_scope": "Date as stated in the appeal.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-f12bffc2",
@@ -3089,6 +3057,10 @@
      "evidence_check": "not_found",
      "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -3121,8 +3093,14 @@
      "label_scope": "Signatory list checked; none of these names appears on it.",
      "access": "page_read",
      "evidence_check": "not_found",
-     "object_map_id": "okopress",
+     "object_map_id": "themis",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "themis",
+      "hfhr",
+      "okopress",
+      "kos"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -3303,7 +3281,9 @@
      "label_scope": "OKO.press statement; the page names no grantees. The programme name appears only in a related-article link title.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "eea",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-87ecb918",
@@ -4077,9 +4057,7 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "supreme_court",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-9ec16b15",
@@ -4098,9 +4076,27 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "batory",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "iustitia",
+      "themis",
+      "hfhr",
+      "batory",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)"
+     ]
     },
     {
      "id": "B01-9b46d77b",
@@ -4369,8 +4365,20 @@
      "evidence_check": "exact",
      "subject_map_id": "impact_cee",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "moj",
-     "object_map_status": "sweep2_candidate",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "moj"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -4573,9 +4581,7 @@
      "evidence_location": "lede (standfirst)",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "swieczkowski",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-73e3f6bf",
@@ -4810,13 +4816,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "object_map_id": "swieczkowski",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "wrote letters naming who should lead the coup investigation",
-      "called him and Ostrowski \"faithful soldiers of Ziobro\" (statement)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-460950d0",
@@ -4897,7 +4897,11 @@
      "subject_map_status": "on_map",
      "object_map_id": "tk",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "object_map_ids": [
+      "tk",
+      "supreme_court"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
       "president of",
       "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file",
@@ -5389,11 +5393,26 @@
      "evidence_check": "exact",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
-      "part of an organised 'resistance movement' in the judiciary; based on protest-style rhetoric ('It is our court', avalanche line) at high-pro"
+      "speech to Iustitia general assembly: 'powstrzymanie lawiny, która miała zniszczyć niezależność Sądu Najwyższego'; 'główna lawina została zat",
+      "honorary member; encouraged its founding",
+      "honorary member; encouraged its founding",
+      "honorary member; encouraged its founding",
+      "honorary member; encouraged its founding"
      ]
     },
     {
@@ -5413,9 +5432,21 @@
      "evidence_check": "exact",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "object_map_id": "wawrykiewicz",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "wawrykiewicz"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "Justice Minister in his government, Dec 2023 to Jul 2025; replaced by Żurek",
+      "Justice Minister in his government, Dec 2023 to Jul 2025; replaced by Żurek",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held",
+      "Justice Minister before Żurek; ran the ministry where DemoCrisis summit was held"
+     ]
     }
    ]
   },
@@ -5480,13 +5511,9 @@
      "evidence_check": "exact",
      "subject_map_id": "pace_kovacs",
      "subject_map_status": "on_map",
-     "object_map_id": "venice",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "requested opinion on president's oath powers (29 Jun 2026)",
-      "requested opinion on president's oath powers (29 Jun 2026)"
-     ]
+     "object_map_id": "pace",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-ceadb904",
@@ -5588,8 +5615,20 @@
      "evidence_location": "Body paragraph 1 under 'Poland – request for an opinion'",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "nawrocki",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "nawrocki",
+      "swieczkowski",
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -5607,8 +5646,14 @@
      "evidence_location": "Body paragraph 1 under 'Poland – request for an opinion'",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "wawrykiewicz",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "wawrykiewicz"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -5626,8 +5671,19 @@
      "evidence_location": "Whole page",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "free_courts",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -7045,8 +7101,19 @@
      "evidence_check": "normalized",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "object_map_id": "batory",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -7065,12 +7132,24 @@
      "evidence_check": "normalized",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "zurek",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "object_map_ids": [
+      "zurek",
+      "wawrykiewicz",
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
-      "\"brain\" of the 30 Oct operation (anonymous govt sources)",
-      "backed her 30 Oct 2026 order taking over TK leadership, with Taborowski",
+      "knew of or helped plan 30 Oct",
+      "knew of or helped plan 30 Oct",
+      "accompanied him into the TK judges' section after Święczkowski had blocked Berek",
       "\"brain\" of the 30 Oct operation (anonymous govt sources)",
       "backed her 30 Oct 2026 order taking over TK leadership, with Taborowski"
      ]
@@ -7379,6 +7458,10 @@
      "evidence_check": "exact",
      "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "morawiec"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -7396,14 +7479,9 @@
      "evidence_location": "Section 'Frivolous strategic lawsuits...' paragraph",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rafto_foundation",
-     "subject_map_status": "haiku_branch_only",
      "object_map_id": "bodnar",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "awarded Rafto Prize to RPO Bodnar and his office, Bergen 4 Nov 2018; RPO headlined it 'Lawina bieg od tego zmienia...' (Miłosz line)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-2e029528",
@@ -7467,9 +7545,7 @@
      "evidence_check": "exact",
      "subject_map_id": "ziobro",
      "subject_map_status": "on_map",
-     "object_map_id": "cjeu",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-952f011c",
@@ -7509,6 +7585,15 @@
      "subject_map_status": "haiku_branch_only",
      "object_map_id": "batory",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "batory",
+      "hfhr",
+      "free_courts",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -9234,7 +9319,21 @@
      "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "batory",
+      "iustitia",
+      "themis",
+      "hfhr",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "founding member (4 Jun 2018)",
+      "founding member (4 Jun 2018)"
+     ]
     },
     {
      "id": "B01-074f4085",
@@ -9253,9 +9352,21 @@
      "evidence_check": "exact",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
-     "object_map_id": "swieczkowski",
+     "object_map_id": "bodnar",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "bodnar",
+      "tusk",
+      "zurek",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "part of an organised 'resistance movement' in the judiciary; based on protest-style rhetoric ('It is our court', avalanche line) at high-pro",
+      "\"NGO capture of the state\" framing",
+      "\"NGO capture of the state\" framing"
+     ]
     }
    ]
   },
@@ -9402,7 +9513,9 @@
      "label_scope": "No sum in any currency is stated anywhere in the text for this prize or for the NGO payment described in the sentence.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "roland_berger_foundation",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-0f277028",
@@ -9971,7 +10084,9 @@
      "label_scope": "Checked for a specific nominator of the 2020 award; none is named. The page says only that MEPs nominate candidates and that citizens and organisations may nominate themselves or others.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "free_courts",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -10398,9 +10513,7 @@
      "label_scope": "The Ministry of Justice states this in its letter; not independently verified. The list includes prisons, the Institute of Forensic Research and others.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "moj",
-     "subject_map_status": "sweep2_candidate",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-1aa40e03",
@@ -10417,8 +10530,6 @@
      "label_scope": "The ministry's statement in the letter; no organisation or amount is named.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "moj",
-     "subject_map_status": "sweep2_candidate",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
@@ -10481,9 +10592,7 @@
      "label_scope": "Checked the returned text: no grant recipient, organisation or amount appears. The list ('Zestawienie – Fundusz Sprawiedliwości') is referenced as attached but absent.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "justice_fund",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-c1a5e7a7",
@@ -10518,11 +10627,9 @@
      "label_scope": "One NIK irregularity as described in the letter; no beneficiary or employee is named.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "justice_fund",
-     "subject_map_status": "on_map",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-9951cbe8",
@@ -10950,8 +11057,16 @@
      "access": "page_read",
      "evidence_found_at": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2025/05/3-4-54-2024-Konferencje-i-szkolenia-2",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "batory",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -12896,8 +13011,23 @@
      "evidence_location": "Body para 1 (lead)",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "swieczkowski",
+     "object_map_id": "tusk",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "iustitia",
+      "themis",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -13537,7 +13667,9 @@
      "label_scope": "Foundation's own appeal, which describes Patrons as regular supporters. The page gives no patron names, amounts or counts.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-13cdde72",
@@ -13621,7 +13753,9 @@
      "evidence_check": "exact",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-f7b615c8",
@@ -14586,9 +14720,7 @@
      "subject_type": "other",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "nl_gov",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-72e4e772",
@@ -15655,6 +15787,10 @@
      "evidence_check": "exact",
      "object_map_id": "morawiec",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "morawiec",
+      "mazur"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -16357,9 +16493,7 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "supreme_court",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-baaa4dc4",
@@ -16496,8 +16630,6 @@
      "evidence_check": "exact",
      "subject_map_id": "ned",
      "subject_map_status": "on_map",
-     "object_map_id": "ned",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18085,8 +18217,17 @@
      "label_scope": "Checked for awards or beneficiaries to these organisations, for CERV, AgoraEU, EEA/Norway or EU prize money, and for any 'replacing US money' framing. None named. The page shows calls and a portal link only.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18253,9 +18394,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "codification_commission",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-bcde761d",
@@ -18312,9 +18451,7 @@
      "label_scope": "Page's account of the commission's work. The page does not expand the abbreviation NCJ.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "codification_commission",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-fd6f1bdd",
@@ -18352,8 +18489,12 @@
      "evidence_check": "exact",
      "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
-     "object_map_id": "agoraeu",
+     "object_map_id": "cerv",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "cerv",
+      "agoraeu"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -18375,7 +18516,24 @@
      "subject_map_status": "on_map",
      "object_map_id": "free_courts",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "free_courts",
+      "themis",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2022 instalment EUR 22,319, project 'Praworządność Wspólna Sprawa' (Active Citizens Fund, EEA/Norway money run by Batory, not OSF); probably",
+      "2024: institutional grant instalment EUR 10,000 plus EUR 8,000 additional institutional grant; same report lists a EUR 8,127.18 refund on th",
+      "2002: partner in Batory's Legal Education Programme ('Obywatel w sądzie', 'Dziennikarz w sądzie' with HFHR); probable grant PLN 39,000 for j"
+     ]
     },
     {
      "id": "B01-22fb27ae",
@@ -18394,9 +18552,32 @@
      "evidence_check": "exact",
      "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "president 2016-2025",
+      "27 Oct: applied for pay aid for Markiewicz and Taborowski; 'IUSTITIA bierze zatem sprawy w swoje ręce'",
+      "27 Oct: applied for pay aid for Markiewicz and Taborowski; 'IUSTITIA bierze zatem sprawy w swoje ręce'",
+      "27 Oct 2026: asked the Dom Sędziego Seniora aid fund for one-time support of PLN 75,000 (request, not yet paid); he gave up his court judges",
+      "president 2016-2025"
+     ]
     },
     {
      "id": "B01-c28b5e98",
@@ -18606,6 +18787,17 @@
      "evidence_check": "exact",
      "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "themis",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "iustitia"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18623,8 +18815,24 @@
      "label_scope": "Checked the whole page: none of these fourteen people (names from the request) is named. The page names no individual at all.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18642,8 +18850,12 @@
      "label_scope": "Checked the whole page: no mention of US funding, of replacing US money, or of CERV, AgoraEU or EU prizes. Period 2014-2021 only; no 2024-26 money.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "agoraeu",
+     "object_map_id": "cerv",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "cerv",
+      "agoraeu"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18816,6 +19028,17 @@
      "evidence_check": "exact",
      "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "themis",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "iustitia"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18833,8 +19056,24 @@
      "label_scope": "Checked the whole text: none of these fourteen people (names from the request) is named. The text names no individual at all.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -18852,8 +19091,12 @@
      "label_scope": "Checked the whole text: no mention of US funding, of replacing US money, or of CERV, AgoraEU or EU prizes. The funder of the institutional grant is not named.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "agoraeu",
+     "object_map_id": "cerv",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "cerv",
+      "agoraeu"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -19044,8 +19287,18 @@
      "evidence_location": "Whole page",
      "access": "page_read",
      "evidence_check": "empty",
-     "object_map_id": "akcja_demokracja",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -19061,8 +19314,12 @@
      "evidence_location": "Whole page",
      "access": "page_read",
      "evidence_check": "empty",
-     "object_map_id": "agoraeu",
+     "object_map_id": "cerv",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "cerv",
+      "agoraeu"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -19180,8 +19437,19 @@
      "evidence_location": "Whole article",
      "access": "page_read",
      "evidence_check": "empty",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "akcja_demokracja",
+      "kod",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -19330,8 +19598,6 @@
      "evidence_location": "Body, early paragraph",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "watchdog_polska",
-     "subject_map_status": "on_map",
      "object_map_id": "watchdog_polska",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -19352,9 +19618,7 @@
      "evidence_location": "Body, quote paragraph",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "watchdog_polska",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-4e51f214",
@@ -19523,8 +19787,18 @@
      "evidence_location": "Whole article body",
      "access": "page_read",
      "evidence_check": "empty",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -20027,9 +20301,7 @@
      "object_type": "other",
      "access": "page_read",
      "evidence_check": "not_found",
-     "subject_map_id": "free_courts",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-66062731",
@@ -20215,9 +20487,7 @@
      "object_type": "other",
      "access": "page_read",
      "evidence_check": "not_found",
-     "subject_map_id": "free_courts",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -20273,8 +20543,17 @@
      "label_scope": "Checked the page text (article dated 2023-05-25/26, outside 2024-26): it names none of these seven organisations and no CERV, AgoraEU, EEA/Norway grant or EU prize. The only EU payments it names go to other groups. The quote is the nearest funding sentence.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -20309,8 +20588,33 @@
      "label_scope": "Checked the page text: none of the eight judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs is named. The one official named is Johannes Hahn, an EU Commissioner, who is not on the brief's actor list.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -20361,8 +20665,17 @@
      "label_scope": "Checked the page text (article dated 19 January 2021): it names none of these organisations and does not mention Poland, the EU, CERV, AgoraEU, EEA or Norway grants, or EU prizes. The quote is the nearest sentence on aid spending.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -20397,8 +20710,33 @@
      "label_scope": "Checked the page text: none of the eight judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs is named. The quote is a named USAID spokesperson, the nearest official named.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -20439,8 +20777,17 @@
      "label_scope": "Checked the page text: it names none of these organisations and does not mention Poland, the EU, the European Commission, CERV, AgoraEU, EEA or Norway grants, or EU prizes. The text stops after the second paragraph. The quote is the series lead.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "batory",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -20475,8 +20822,33 @@
      "label_scope": "Checked the page text: none of the eight judges, Tusk, Wawrykiewicz, Żurek, Bodnar, Święczkowski, Nawrocki, or the brief's NGOs is named. The people named in the article text are Joe Biden and, as former president, Donald Trump.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -20621,6 +20993,15 @@
      "evidence_check": "exact",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "free_courts",
+      "okopress",
+      "batory",
+      "iustitia",
+      "themis",
+      "kos",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -20933,9 +21314,7 @@
      "evidence_check": "exact",
      "subject_map_id": "korwin_piotrowska",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-a40d5baa",
@@ -21252,8 +21631,12 @@
      "evidence_check": "exact",
      "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "rpo_office",
+     "object_map_id": "supreme_court",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "supreme_court",
+      "rpo_office"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -21370,6 +21753,10 @@
      "subject_map_status": "on_map",
      "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
       "suspended (one month, disputed)",
@@ -21540,8 +21927,12 @@
      "object_type": "person",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "markiewicz",
+     "subject_map_id": "szostek",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "szostek",
+      "markiewicz"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -22026,8 +22417,14 @@
      "evidence_location": "section 'W tle spór o czwórkę sędziów TK'",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "korwin_piotrowska",
+     "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "markiewicz",
+      "dziurda",
+      "taborowski",
+      "korwin_piotrowska"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -22048,8 +22445,14 @@
      "subject_map_status": "on_map",
      "object_map_id": "nawrocki",
      "object_map_status": "on_map",
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
+      "took oath",
+      "took oath",
       "took oath",
       "took oath"
      ]
@@ -22087,14 +22490,21 @@
      "evidence_check": "exact",
      "subject_map_id": "nawrocki",
      "subject_map_status": "on_map",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "dziurda",
+      "taborowski",
+      "korwin_piotrowska"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
       "refused / does not recognise oath",
-      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
       "refused / does not recognise oath",
-      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+      "refused / does not recognise oath",
+      "refused / does not recognise oath",
+      "refused / does not recognise oath"
      ]
     },
     {
@@ -22175,6 +22585,10 @@
      "evidence_check": "exact",
      "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "markiewicz",
+      "dziurda"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -22645,8 +23059,12 @@
      "evidence_location": "article body, Tusk press conference section",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "swieczkowski",
+     "subject_map_id": "nawrocki",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "nawrocki",
+      "swieczkowski"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -22962,14 +23380,21 @@
      "evidence_check": "exact",
      "subject_map_id": "nawrocki",
      "subject_map_status": "on_map",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "taborowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "taborowski",
+      "dziurda",
+      "markiewicz",
+      "korwin_piotrowska"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
       "refused / does not recognise oath",
-      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
       "refused / does not recognise oath",
-      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+      "refused / does not recognise oath",
+      "refused / does not recognise oath",
+      "refused / does not recognise oath"
      ]
     },
     {
@@ -23120,8 +23545,14 @@
      "subject_map_status": "on_map",
      "object_map_id": "tk",
      "object_map_status": "on_map",
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
+      "elected judge of",
+      "elected judge of",
       "elected judge of",
       "elected judge of"
      ]
@@ -23264,8 +23695,16 @@
      "label_scope": "Page's own dating; year implied by article date.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "dziurda",
+      "korwin_piotrowska",
+      "szostek",
+      "bentkowska"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -23430,8 +23869,12 @@
      "evidence_check": "exact",
      "subject_map_id": "tusk",
      "subject_map_status": "on_map",
-     "object_map_id": "bentkowska",
+     "object_map_id": "szostek",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "szostek",
+      "bentkowska"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -24859,6 +25302,10 @@
      "subject_map_status": "on_map",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
+     "object_map_ids": [
+      "moj",
+      "justice_fund"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -26368,7 +26815,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-b6f109dd",
@@ -26523,9 +26972,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-48cdcaf8",
@@ -27344,13 +27791,7 @@
      "evidence_check": "exact",
      "subject_map_id": "tusk",
      "subject_map_status": "on_map",
-     "object_map_id": "budka",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "minister in his government",
-      "minister in his government"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-2356a87e",
@@ -29031,9 +29472,7 @@
      "evidence_location": "Session header line under the H1 'The rule of law and justice system'",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "pis",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B01-c390f6d2",
@@ -29114,9 +29553,7 @@
      "evidence_check": "exact",
      "subject_map_id": "sikora_dominika",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-15bc24f4",
@@ -29135,9 +29572,7 @@
      "evidence_check": "exact",
      "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-642ac362",
@@ -29187,9 +29622,7 @@
      "evidence_check": "exact",
      "subject_map_id": "nowicki",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-e1012a83",
@@ -29236,9 +29669,7 @@
      "evidence_check": "exact",
      "subject_map_id": "bernatowicz",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-3b560c60",
@@ -29261,9 +29692,7 @@
      "evidence_check": "exact",
      "subject_map_id": "gwiazdowski",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-1e20abdc",
@@ -29286,9 +29715,7 @@
      "evidence_check": "exact",
      "subject_map_id": "kaminski_piotr",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-7d98bf13",
@@ -29311,9 +29738,7 @@
      "evidence_check": "exact",
      "subject_map_id": "stabinska",
      "subject_map_status": "haiku_branch_only",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-4e14e5c8",
@@ -29330,11 +29755,24 @@
      "evidence_location": "Whole page; checked against the '### Speakers' and '### Host' sections",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "korwin_piotrowska",
+     "subject_map_id": "tusk",
      "subject_map_status": "on_map",
-     "object_map_id": "pis",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "subject_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -29391,8 +29829,19 @@
      "evidence_location": "Page heading and whole text",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "hfhr",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]

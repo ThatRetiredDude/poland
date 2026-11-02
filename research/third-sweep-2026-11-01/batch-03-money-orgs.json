@@ -30,57 +30,57 @@
   ]
  },
  "stats": {
-  "agents": 21,
-  "agents_left_out_unfinished_or_other_batch": 17,
+  "agents": 23,
+  "agents_left_out_unfinished_or_other_batch": 15,
   "searches": 218,
   "search_results": 3496,
   "unique_result_urls": 2509,
-  "page_fetches": 174,
-  "pages_reported": 82,
-  "pages_with_page_text": 77,
+  "page_fetches": 184,
+  "pages_reported": 89,
+  "pages_with_page_text": 83,
   "fetch_status": {
-   "ok": 63,
-   "partial": 15,
+   "ok": 68,
+   "partial": 16,
+   "blocked": 2,
    "empty": 1,
-   "blocked": 1,
    "error": 2
   },
-  "claims": 620,
+  "claims": 670,
   "labels": {
-   "fact": 446,
-   "no_link": 144,
-   "speculation": 15,
-   "alleged": 15
+   "fact": 478,
+   "no_link": 158,
+   "speculation": 17,
+   "alleged": 17
   },
   "evidence_check": {
-   "exact": 455,
+   "exact": 476,
    "found_on_linked_page": 13,
-   "not_found": 8,
-   "normalized": 114,
+   "not_found": 18,
+   "normalized": 133,
    "normalized_ci": 2,
    "empty": 9,
    "found_in_reader_extract_only": 19
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 359,
-   "both_names_unmatched": 162,
-   "pair_already_linked": 26,
-   "new_tie_between_known_entities": 73
+   "new_entity_or_unmatched_name": 380,
+   "both_names_unmatched": 187,
+   "pair_already_linked": 25,
+   "new_tie_between_known_entities": 78
   },
   "kinds": {
-   "other": 141,
-   "grant_or_donation": 216,
-   "statement": 35,
-   "membership_or_board": 56,
-   "role_or_job": 52,
-   "event_or_speech": 30,
-   "contract_or_fee": 71,
-   "legal_action": 6,
+   "other": 161,
+   "grant_or_donation": 222,
+   "statement": 36,
+   "membership_or_board": 58,
+   "role_or_job": 58,
+   "event_or_speech": 32,
+   "contract_or_fee": 83,
+   "legal_action": 7,
    "nomination_or_vote": 11,
    "ownership": 2
   },
   "title_only_leads": 192,
-  "to_read_unread": 15,
+  "to_read_unread": 11,
   "nothing_found": 53,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -253,8 +253,19 @@
      "access": "page_read",
      "evidence_found_at": "https://programrownychpraw.batory.org.pl/projekty/",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "osiatynski",
+     "object_map_id": "hfhr",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "hfhr",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "isp",
+      "osiatynski"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -693,8 +704,16 @@
      "evidence_location": "'List of awarded projects' heading",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "akcja_demokracja",
+     "object_map_id": "free_courts",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "free_courts",
+      "iustitia",
+      "themis",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -876,6 +895,13 @@
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "hfhr",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "inpris"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -1053,6 +1079,17 @@
      "evidence_check": "exact",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "hfhr",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "batory",
+      "okopress",
+      "akcja_demokracja",
+      "kos",
+      "inpris"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -1655,7 +1692,700 @@
      "evidence_check": "exact",
      "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "hfhr",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C1_eu_money-F1",
+   "url": "https://frittord.no/en/news/civitates-grant-boosting-civil-society-in-poland",
+   "host": "frittord.no",
+   "theme": "C1_eu_money",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 10816 characters. English article dated March 13 2019 (not 2026). The text gives no grant amount, no grant period and no named Civitates grantee.",
+   "page_title": "Civitates grant: Boosting civil society in Poland",
+   "page_date": "March 13 2019",
+   "publisher": "The Fritt Ord Foundation",
+   "capture_answer": "Article dated March 13 2019, headlined 'Civitates grant: Boosting civil society in Poland'. It says Civitates, a consortium of 16 foundations (listed in names_listed, including Stefan Batory Foundation, Fritt Ord and Open Society Foundations), 'has funded projects of support for civil society organizations'. It profiles Dorota Setniewska of the NGO Klon/Jawor Association, who says 'we built an NGO coalition' at the beginning of 2017 and that over 30 organizations have their work boosted by it. It says the campaign 'Organizacje społeczne.To Działa' is supported by consultants, who are not named. No grant amount, grant period, or Civitates grant to the Klon/Jawor Association is stated. The Network of European Foundations and the Ford Foundation are not mentioned.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:00.389Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 10816,
+    "sha256": "504275903b5f24c96f98b13a5ad0977f1ac2618d0c6bb47669acf6ad781bc159",
+    "url_read": "https://frittord.no/en/news/civitates-grant-boosting-civil-society-in-poland"
+   },
+   "names_listed": [
+    "Fritt Ord",
+    "Adessium Foundation",
+    "Stefan Batory Foundation",
+    "Bertelsmann Stiftung",
+    "European Cultural Foundation",
+    "ERSTE Stiftung",
+    "Fondation de France",
+    "King Baudouin Foundation",
+    "Körber Stiftung",
+    "Luminate",
+    "Mott Foundation",
+    "Nicolas Puech Foundation",
+    "Oak Foundation",
+    "Open Society Foundations",
+    "Robert Bosch Stiftung",
+    "Stiftung Mercator",
+    "Dorota Setniewska",
+    "Klon/Jawor Association"
+   ],
+   "names_found_in_page_text": "18/18",
+   "followup_urls": [
+    {
+     "url": "http://www.civitates-eu.org",
+     "why": "Civitates' own site, linked from the article as 'www.civitates-eu.org'. It may list grants, grantees and amounts. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-03b243f5",
+     "subject": "Fritt Ord",
+     "subject_type": "org",
+     "relation": "is one of the sixteen foundations that came together to form (consortium member of)",
+     "object": "Civitates",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "sixteen philanthropic foundations including Fritt Ord have come together to form Civitates.",
+     "evidence_translation": "sixteen philanthropic foundations including Fritt Ord have come together to form Civitates.",
+     "evidence_location": "Standfirst (italic summary under the headline and date)",
+     "label": "fact",
+     "label_scope": "The article, published by the Fritt Ord Foundation, says Fritt Ord is one of the sixteen foundations forming Civitates. Article dated March 13 2019; no membership dates given.",
+     "date": "March 13 2019",
+     "new_entities": [
+      "Fritt Ord",
+      "Civitates"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "civitates",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-d089b7d8",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "is one of the 16 members of the consortium (Civitates)",
+     "object": "Civitates",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "The 16 members of the consortium are: Adessium Foundation, Stefan Batory Foundation, Bertelsmann Stiftung,",
+     "evidence_translation": "The 16 members of the consortium are: Adessium Foundation, Stefan Batory Foundation, Bertelsmann Stiftung,",
+     "evidence_location": "'About Civitates' section, paragraph after the fact-sheet image",
+     "label": "fact",
+     "label_scope": "The article lists Stefan Batory Foundation among the 16 consortium members. It gives no membership dates and does not say which member funded any Polish project.",
+     "date": "March 13 2019",
+     "new_entities": [
+      "Civitates"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "object_map_id": "civitates",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "Batory is a Civitates member and contributor (e.g. PLN 105,420 in 2018; EUR 150k pledged for 2024-26), i.e. a funder, not a recipient",
+      "Batory is a Civitates member and contributor (e.g. PLN 105,420 in 2018; EUR 150k pledged for 2024-26), i.e. a funder, not a recipient"
+     ]
+    },
+    {
+     "id": "B03-bba16b7a",
+     "subject": "Civitates",
+     "subject_type": "org",
+     "relation": "has funded projects of support for",
+     "object": "civil society organizations (the article is headlined 'Civitates grant: Boosting civil society in Poland')",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Civitates has funded projects of support for civil society organizations which have worked tirelessly",
+     "evidence_translation": "Civitates has funded projects of support for civil society organizations which have worked tirelessly",
+     "evidence_location": "Bold lead-in paragraph of the article body",
+     "label": "fact",
+     "label_scope": "Article's statement. The sentence does not say 'in Poland', although the headline and the article are about Poland. No grant amount, grant period or named grantee is given for these projects.",
+     "date": "March 13 2019",
+     "new_entities": [
+      "Civitates"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "civitates",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-31c63bbb",
+     "subject": "Dorota Setniewska",
+     "subject_type": "person",
+     "relation": "is from (affiliated with)",
+     "object": "Klon/Jawor Association",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "evidence_text": "Dorota Setniewska from the NGO Klon/Jawor Association, a leading partner in a new set up",
+     "evidence_translation": "Dorota Setniewska from the NGO Klon/Jawor Association, a leading partner in a new set up",
+     "evidence_location": "First body paragraph after the bold lead-in",
+     "label": "fact",
+     "label_scope": "The article says she is 'from' the association and calls it 'a leading partner in a new set up'. No job title is stated for her.",
+     "date": "March 13 2019",
+     "new_entities": [
+      "Dorota Setniewska",
+      "Klon/Jawor Association"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-0a545f26",
+     "subject": "Klon/Jawor Association",
+     "subject_type": "org",
+     "relation": "built (per Setniewska) an NGO coalition",
+     "object": "NGO coalition (unnamed)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "At the beginning of 2017 we built an NGO coalition after a series of attacks against organizations on public television",
+     "evidence_translation": "At the beginning of 2017 we built an NGO coalition after a series of attacks against organizations on public television",
+     "evidence_location": "Body text, first quoted paragraph (before the 'Civil society organizations' subheading)",
+     "label": "fact",
+     "label_scope": "Stated by Dorota Setniewska ('we built'), so it is her statement. The article does not say that the Klon/Jawor Association alone built the coalition. The coalition is not named.",
+     "date": "early 2017",
+     "new_entities": [
+      "Klon/Jawor Association",
+      "NGO coalition (unnamed)"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-bc96934c",
+     "subject": "NGO coalition (unnamed)",
+     "subject_type": "other",
+     "relation": "boosts the work of",
+     "object": "over 30 organizations focusing on a range of issues",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "There are now over 30 organizations focusing on a range of issues whose work is boosted by the coalition.",
+     "evidence_translation": "There are now over 30 organizations focusing on a range of issues whose work is boosted by the coalition.",
+     "evidence_location": "Body text, same quoted paragraph as the coalition statement",
+     "label": "fact",
+     "label_scope": "Stated by Dorota Setniewska. The over 30 organizations are not named.",
+     "new_entities": [
+      "NGO coalition (unnamed)"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-8f88eada",
+     "subject": "Organizacje społeczne.To Działa (campaign)",
+     "subject_type": "other",
+     "relation": "is being supported by",
+     "object": "consultants (unnamed)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "The campaign is being supported by consultants to improve the way NGOs in Poland communicate and strategize",
+     "evidence_translation": "The campaign is being supported by consultants to improve the way NGOs in Poland communicate and strategize",
+     "evidence_location": "'Civil society organizations' subsection, paragraph after the 'Before we did anything' paragraph",
+     "label": "fact",
+     "label_scope": "Article's statement. The consultants are not named, and no fee, contract or funder for them is stated.",
+     "date": "March 13 2019",
+     "new_entities": [
+      "Organizacje społeczne.To Działa (campaign)"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-0e2573d4",
+     "subject": "Stefan Batory Foundation",
+     "subject_type": "org",
+     "relation": "may have funded, through Civitates, the Polish civil society projects described",
+     "object": "Polish civil society projects supported by Civitates (not named)",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Civitates has funded projects of support for civil society organizations which have worked tirelessly",
+     "evidence_translation": "Civitates has funded projects of support for civil society organizations which have worked tirelessly",
+     "evidence_location": "Bold lead-in paragraph of the article body",
+     "label": "speculation",
+     "label_scope": "Inference only. It rests on the article's statement that Civitates has funded projects of support for civil society organizations, and on Stefan Batory Foundation being one of the 16 consortium members. The article does not say that Batory funded any Polish project, and gives no amounts.",
+     "date": "March 13 2019",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "batory",
+     "subject_map_status": "on_map",
+     "object_map_id": "civitates",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "Batory is a Civitates member and contributor (e.g. PLN 105,420 in 2018; EUR 150k pledged for 2024-26), i.e. a funder, not a recipient",
+      "Batory is a Civitates member and contributor (e.g. PLN 105,420 in 2018; EUR 150k pledged for 2024-26), i.e. a funder, not a recipient"
+     ]
+    },
+    {
+     "id": "B03-3951f886",
+     "subject": "Civitates",
+     "subject_type": "org",
+     "relation": "is hosted by or linked to (checked whole article)",
+     "object": "Network of European Foundations; Ford Foundation",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "Checked the whole article for any mention of the Network of European Foundations or the Ford Foundation. Neither is named, and neither is in the list of 16 consortium members.",
+     "new_entities": [
+      "Network of European Foundations",
+      "Ford Foundation"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "civitates",
+     "subject_map_status": "on_map",
+     "object_map_id": "ford_foundation",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-1043b1d1",
+     "subject": "Civitates grant article (Fritt Ord, March 13 2019)",
+     "subject_type": "document",
+     "relation": "names (checked whole text)",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; Helsinki Foundation for Human Rights (HFHR); KOS; OKO.press; Akcja Demokracja; KOD",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "Checked the whole article for these names. None of them appears.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "civitates",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "EUR 349,888 independent-journalism grant to OKO (Foundation Centre for Civic Monitoring); 11-grantee call worth EUR 2.467m announced Nov 202",
+      "EUR 349,888 independent-journalism grant to OKO (Foundation Centre for Civic Monitoring); 11-grantee call worth EUR 2.467m announced Nov 202"
+     ]
+    },
+    {
+     "id": "B03-d2bd82cf",
+     "subject": "Civitates grant article (Fritt Ord, March 13 2019)",
+     "subject_type": "document",
+     "relation": "names (checked whole text)",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "Checked the whole article for these names. None of them appears.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "civitates",
+     "subject_map_status": "on_map",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B03-8e293172",
+     "subject": "Civitates",
+     "subject_type": "org",
+     "relation": "made an explicit grant to (checked whole article)",
+     "object": "Klon/Jawor Association",
+     "object_type": "org",
+     "kind": "grant_or_donation",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "The article states no Civitates grant to the Klon/Jawor Association and gives no grant amount for any Civitates project. The headline 'Civitates grant: Boosting civil society in Poland' names no grantee.",
+     "new_entities": [
+      "Klon/Jawor Association"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "civitates",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C1_eu_money-F2",
+   "url": "https://www.fordfoundation.org/work/our-grants/awarded-grants/grants-database/network-of-european-foundations-149863",
+   "host": "fordfoundation.org",
+   "theme": "C1_eu_money",
+   "fetch_status": "blocked",
+   "fetch_note": "HTTP 200 OK, text/html, 190 characters. The page returned a human-verification check instead of the grant record. Page title: 'Verifying you're human — Ford Foundation'. Body: '# One quick check' then 'Please confirm you're human to continue to the grants database.' No grant record was returned. Treated as a block by the site; not retried.",
+   "page_title": "Verifying you're human — Ford Foundation",
+   "page_date": "not returned",
+   "publisher": "Ford Foundation",
+   "capture_answer": "Not read. The page returned a human-verification check rather than the Network of European Foundations grant record, so no grant amount, dates, purpose text, or Civitates or Poland reference could be read from it. The check is a block by the site and was not retried.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.206Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 190,
+    "sha256": "c1f5cc427750e8e21e14a4cf45d75b909d5bbff62b7f11573ad34f90df753846",
+    "url_read": "https://www.fordfoundation.org/work/our-grants/awarded-grants/grants-database/network-of-european-foundations-149863"
+   },
+   "claims": []
+  },
+  {
+   "ref": "C1_eu_money-F3",
+   "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
+   "host": "eeagrants.org",
+   "theme": "C1_eu_money",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, reported as 10000 characters. The text runs through to the site footer, so the record appears complete. The canonical URL is the lower-case pl-activecitizens-national-0081 form of the same record.",
+   "page_title": "Monitoring the system of defense of human rights in Poland",
+   "page_date": "not stated (project approval date 27/01/2021; footer reads 'Copyright 2026')",
+   "publisher": "EEA & Norway Grants",
+   "capture_answer": "EEA & Norway Grants archive record for 'Monitoring the system of defense of human rights in Poland' (programme 'Civil Society', country Poland, project code from URL PL-ACTIVECITIZENS-NATIONAL-0081). Project promoter: Helsinki Foundation for Human Rights. Period 2014-2021. Approval date 27/01/2021. Grant amount €87,500; Final Grant amount €103,295. Partner: Human Rights House Foundation, called 'the Norway-based partner', with regional offices in Brussels and Geneva. Planned outputs include eight reports, four assessments of the consequences of legislation and 20 legal opinions. The record names no individual people, and it does not name the programme operator or any donor beyond the EEA & Norway Grants site.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:00.536Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 10000,
+    "sha256": "d805a849b7d9b246f77376a90fb6886a4c3def3174c6b04cf1f8a2f3407ebe06",
+    "url_read": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081"
+   },
+   "names_listed": [
+    "Helsinki Foundation for Human Rights",
+    "Human Rights House Foundation"
+   ],
+   "names_found_in_page_text": "2/2",
+   "followup_urls": [
+    {
+     "url": "https://www.hfhr.pl/publikacje/monitoring-systemu-ochrony-praw-czlowieka-w-polsce/",
+     "why": "The 'Project website' link in the record (the link text is truncated on the page, but the target is this URL). It is the HFHR publication page for this monitoring project and may list the reports, legal opinions and partners. Not read."
+    },
+    {
+     "url": "https://eeagrants.org/en/fmo/areas-work/programmes-and-projects-information/archive/2014-2021/programmes/pl-activecitizens-national",
+     "why": "Programme page linked under 'Related' (Programme: Civil Society). The project record does not name the programme operator, and this page may. Not read."
+    },
+    {
+     "url": "https://data.eeagrants.org/2014-2021/",
+     "why": "EEA & Norway Grants Data and Results Portal, linked from the site menu. It may hold grant-level or partner data for this project. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-66b7669f",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "is project promoter of",
+     "object": "Monitoring the system of defense of human rights in Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "evidence_text": "Helsinki Foundation for Human Rights",
+     "evidence_translation": "Helsinki Foundation for Human Rights",
+     "evidence_location": "'Project details' > 'Project info' > field 'Project promoter' (value)",
+     "label": "fact",
+     "label_scope": "The EEA & Norway Grants archive record lists this organisation as the Project promoter. The record's period is 2014-2021.",
+     "date": "2014-2021",
+     "new_entities": [
+      "Monitoring the system of defense of human rights in Poland"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-8d345dea",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "holds Project grant (Grant amount) for the project",
+     "object": "Monitoring the system of defense of human rights in Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "€87,500",
+     "currency": "EUR",
+     "evidence_text": "€87,500",
+     "evidence_translation": "€87,500",
+     "evidence_location": "'Project grant' section, row 'Grant amount'",
+     "label": "fact",
+     "label_scope": "The record lists 'Grant amount' €87,500 under 'Project grant', with approval date 27/01/2021. The record does not name a payer beyond the EEA & Norway Grants site that hosts it.",
+     "date": "27/01/2021",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-55e47ab6",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "holds Final Grant amount for the project",
+     "object": "Monitoring the system of defense of human rights in Poland",
+     "object_type": "other",
+     "kind": "grant_or_donation",
+     "amount": "€103,295",
+     "currency": "EUR",
+     "evidence_text": "€103,295",
+     "evidence_translation": "€103,295",
+     "evidence_location": "'Project grant' section, row 'Final Grant amount'",
+     "label": "fact",
+     "label_scope": "The record lists 'Final Grant amount' €103,295 under 'Project grant'. The record does not name a payer beyond the EEA & Norway Grants site that hosts it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-c097caf2",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "cooperated with (partner)",
+     "object": "Human Rights House Foundation",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Helsinki Foundation for Human Rights (HFHR) cooperated with the Norwegian organisation Human Rights House Foundation (HRHF)",
+     "evidence_translation": "Helsinki Foundation for Human Rights (HFHR) cooperated with the Norwegian organisation Human Rights House Foundation (HRHF)",
+     "evidence_location": "'Summary of bilateral results', first paragraph",
+     "label": "fact",
+     "label_scope": "The record describes the Human Rights House Foundation as 'the Norway-based partner' for the project. No funding flow between the two organisations is stated.",
+     "new_entities": [
+      "Human Rights House Foundation"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-7db63f80",
+     "subject": "Human Rights House Foundation",
+     "subject_type": "org",
+     "relation": "organised (congress of its member organisations)",
+     "object": "congress of Human Rights House Foundation member organisations, Warsaw",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "In November 2023, HRHF organised a congress of its member organisations in Warsaw.",
+     "evidence_translation": "In November 2023, HRHF organised a congress of its member organisations in Warsaw.",
+     "evidence_location": "'Summary of bilateral results', last paragraph",
+     "label": "fact",
+     "label_scope": "Organiser per the record: Human Rights House Foundation (HRHF). The venue, host, funders and sponsors are not named.",
+     "date": "November 2023",
+     "new_entities": [
+      "Human Rights House Foundation"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-0212499e",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "participated in preparing the programme of, and chaired sessions at",
+     "object": "congress of Human Rights House Foundation member organisations, Warsaw",
+     "object_type": "event",
+     "kind": "event_or_speech",
+     "evidence_text": "HFHR participated in the preparation of the congress programme and chaired sessions on, among other things,",
+     "evidence_translation": "HFHR participated in the preparation of the congress programme and chaired sessions on, among other things,",
+     "evidence_location": "'Summary of bilateral results', last paragraph",
+     "label": "fact",
+     "label_scope": "HFHR's capacity per the record: participant in programme preparation and session chair. The record says the sessions covered, among other things, 'situation in Poland after election in October 2023'. Organiser: Human Rights House Foundation.",
+     "date": "November 2023",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-abb7fdb5",
+     "subject": "The system of defense of human rights in Poland (per project record)",
+     "subject_type": "other",
+     "relation": "is named as a constitutional body comprising the system",
+     "object": "Constitutional Tribunal",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "comprises both constitutional bodies such as the Supreme Court, Constitutional Tribunal, common courts,",
+     "evidence_translation": "comprises both constitutional bodies such as the Supreme Court, Constitutional Tribunal, common courts,",
+     "evidence_location": "Opening paragraph under the H1 heading",
+     "label": "fact",
+     "label_scope": "The project record's own description of the system that the HFHR project monitors. No individual judge or president of the Constitutional Tribunal is named.",
+     "new_entities": [
+      "Constitutional Tribunal"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-3c21f58d",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "will produce reports on the work of institutions in the system",
+     "object": "courts, public prosecution offices, advocacy institutions and CSOs",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "The monitoring will include producing reports on the work of the crucial institutions in that system (courts,",
+     "evidence_translation": "The monitoring will include producing reports on the work of the crucial institutions in that system (courts,",
+     "evidence_location": "Opening paragraph under the H1 heading",
+     "label": "fact",
+     "label_scope": "Project plan stated in the record ('will include'). The sentence does not name the Constitutional Tribunal among the monitored institutions.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-a87028f7",
+     "subject": "Helsinki Foundation for Human Rights",
+     "subject_type": "org",
+     "relation": "will produce (planned project outputs)",
+     "object": "Eight reports, four assessments of the consequences of legislation, and 20 legal opinions in this field",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Eight reports, four assessments of the consequences of legislation, and 20 legal opinions in this field will be produced.",
+     "evidence_translation": "Eight reports, four assessments of the consequences of legislation, and 20 legal opinions in this field will be produced.",
+     "evidence_location": "Opening paragraph under the H1 heading",
+     "label": "fact",
+     "label_scope": "Planned outputs stated in the record ('will be produced'). The record does not say who writes them or whether any are commissioned or paid separately.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "hfhr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-323d14a1",
+     "subject": "EEA & Norway Grants project record",
+     "subject_type": "document",
+     "relation": "names as partner or funder (checked whole record)",
+     "object": "Stefan Batory Foundation; Civitates",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "Checked the whole record for these two names. Neither appears.",
+     "new_entities": [
+      "Civitates"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "eea",
+     "subject_map_status": "on_map",
+     "object_map_id": "batory",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-operator of Active Citizens / Civil Society Fund (€83.5m)",
+      "2023: 287 Active Citizens grant instalments EUR 4.82m paid; 2024: 209 instalments EUR 1.69m; 2025-31: Batory leads EEA Civil Society Fund (E",
+      "2023: 287 Active Citizens grant instalments EUR 4.82m paid; 2024: 209 instalments EUR 1.69m; 2025-31: Batory leads EEA Civil Society Fund (E",
+      "co-operator of Active Citizens / Civil Society Fund (€83.5m)",
+      "2023: 287 Active Citizens grant instalments EUR 4.82m paid; 2024: 209 instalments EUR 1.69m; 2025-31: Batory leads EEA Civil Society Fund (E"
+     ]
+    },
+    {
+     "id": "B03-e79a4d32",
+     "subject": "EEA & Norway Grants project record",
+     "subject_type": "document",
+     "relation": "names (checked whole record)",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; KOS; OKO.press; Akcja Demokracja; KOD; Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "[no matching text on page]",
+     "evidence_translation": "[no matching text on page]",
+     "label": "no_link",
+     "label_scope": "Checked the whole record for these names. None of them appears, and the record names no individual people at all.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "subject_map_id": "eea",
+     "subject_map_status": "on_map",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "grant €100k + €8k (2022-2024) via Active Citizens fund",
+      "Active Citizens Fund project 'Praworządność Wspólna Sprawa': EUR 58,830.82 (Nov 2021-Apr 2024); Batory's 2022 and 2023 instalments are part ",
+      "grant €100k + €8k (2022-2024) via Active Citizens fund",
+      "Active Citizens Fund project 'Praworządność Wspólna Sprawa': EUR 58,830.82 (Nov 2021-Apr 2024); Batory's 2022 and 2023 instalments are part ",
+      "2014 project 'Wspólnie przeciw dyskryminacji' with INPRIS, funded by the EEA 'Obywatele dla Demokracji' programme (amount not stated)"
+     ]
     }
    ]
   },
@@ -1939,9 +2669,7 @@
      "date": "12/06/2024",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "nl_gov",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-cfc27a0d",
@@ -2155,8 +2883,12 @@
      "date": "February 21. (year not in body; posted 22.02.2024)",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_id": "ejchart",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -2219,8 +2951,12 @@
      "date": "February 21.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_id": "ejchart",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -2239,8 +2975,12 @@
      "date": "February 21.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_id": "ejchart",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -2259,10 +2999,14 @@
      "date": "February 21.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_id": "ejchart",
      "subject_map_status": "on_map",
      "object_map_id": "eea",
      "object_map_status": "on_map",
+     "subject_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -2310,10 +3054,14 @@
      "date": "February 21. (posted 22.02.2024)",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rudzinska_bluszcz",
+     "subject_map_id": "ejchart",
      "subject_map_status": "on_map",
      "object_map_id": "rafto_foundation",
      "object_map_status": "haiku_branch_only",
+     "subject_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -2683,6 +3431,20 @@
      "evidence_check": "normalized",
      "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "nawrocki",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "free_courts"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -3321,8 +4083,19 @@
      "label_scope": "The 13 pages name no awardee, partner or sub-awardee and give no award ID. None of the listed organisations or individuals appears.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -3697,8 +4470,6 @@
      "evidence_check": "exact",
      "subject_map_id": "free_courts",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -3721,15 +4492,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "ned",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "listed as a partner (logo only, no amount or year)",
-      "listed as a partner (logo only, no amount or year)",
-      "listed as a partner (logo only, no amount or year)",
-      "listed as a partner (logo only, no amount or year)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-e5d68c41",
@@ -3882,8 +4645,18 @@
      "label_scope": "Checked the full page text: the only co-inviter named is VIA IURIS and the only funder named is NED. None of the listed names appears.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "batory",
+     "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "iustitia",
+      "themis",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -4246,8 +5019,16 @@
      "label_scope": "Checked the full page text: none of these names appears. Iustitia and HFHR appear only through speakers' titles.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "batory",
+     "subject_map_id": "themis",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "themis",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -4601,9 +5382,7 @@
      "access": "page_read",
      "evidence_found_at": "https://grantable.co/funders/action-for-democracy-morg_b24105ad41aa41fa93b856d9ac5cbcbe",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "solidarity_1980s",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-80aba8d4",
@@ -6183,17 +6962,25 @@
      "label_scope": "checked both reads of the full list for each of these names; none present",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "free_courts",
+     "subject_map_id": "kos",
      "subject_map_status": "on_map",
      "object_map_id": "osf",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "subject_map_ids": [
+      "kos",
+      "kod",
+      "okopress",
+      "free_courts",
+      "iustitia",
+      "themis"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
-      "$130k for 2023-24 rule-of-law work around the election",
-      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
-      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n",
-      "$130k for 2023-24 rule-of-law work around the election",
-      "grant USD 130,000, 15 months, 'rule of law around the electoral process of 2023' (OSF ID OR2023-91066 per Judicial Watch); OSF site itself n"
+      "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)",
+      "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)",
+      "INDIRECT: the 2018 Batory programme that paid PLN 100,000 for KOS was co-funded by an OSF grant",
+      "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)",
+      "money from OSF to KOS as such: none found; OSF reaches KOS only indirectly via member HFHR (2014-17) and Free Courts (2023-24)"
      ]
     }
    ]
@@ -6631,8 +7418,19 @@
      "label_scope": "Checked the full text of the page: the only NGO reference is the generic 'organizacji pozarządowych'. None of the listed organisations is named, for the experts or for Bodnar.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -7285,6 +8083,770 @@
     "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
    },
    "claims": []
+  },
+  {
+   "ref": "C5_domestic_public_money-F1",
+   "url": "https://www.gov.pl/web/aktywa-panstwowe/rejestr-umow-w-2025-r",
+   "host": "gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "partial",
+   "fetch_note": "Main page read in full: HTTP 200, text/html, 16482 characters. It has no contract rows; its embedded register block is the empty code block {\"register\":{\"columns\":[]}}. The register data sits in 12 spreadsheet attachments linked from the page. Three Q4 2025 attachments were fetched: https://www.gov.pl/attachment/55006ddb-5c25-46ac-9e12-d1596735b15a (Ewidencja_umów_osoby_prawne_IV_kw_2025..xls), https://www.gov.pl/attachment/c1178d85-eecb-4082-80a8-296f097cc66f (Ewidencja_umów_KPO_IV_kw_2025.xls), https://www.gov.pl/attachment/6b96962c-40ff-4fca-9c8a-ac6e899b4151 (Ewidencja_umów_dotacje_i_inwestycje_IV_kw_2025_1_(2).xls). Each returned HTTP 200, application/vnd.ms-excel, 13 characters, body '[binary data]', with no readable text and no rows. The other nine attachments were not fetched. Page-metadata names (Arkadiusz Antoszewski, Włodzimierz Boruc, Anna Błaszczak) are BIP publication staff and are not listed.",
+   "page_title": "Rejestr umów w 2025 r. - Ministerstwo Aktywów Państwowych - Portal Gov.pl",
+   "page_date": "12.05.2026 09:45 (latest version 11.0; first published 17.04.2025 15:18)",
+   "publisher": "Ministerstwo Aktywów Państwowych (gov.pl)",
+   "capture_answer": "Not answerable from this page. The page lists no legal-opinion, expert or other contract rows. Its contract data sits in 12 linked spreadsheets (entrepreneurs/legal persons, KPO, grants and investments) with as-of dates of 31 March, 30 June, 30 September and 31 December 2025. The three Q4 2025 spreadsheets returned no readable text, so no legal-opinion or expert contract, and no contract with Sławomir Patyra, Marcin Dziurda, Maciej Berek, Maciej Taborowski, the other four judges, Batory, HFHR or Free Courts, could be checked. The page text names none of them and does not mention PGE or any supervisory board. No category label names natural persons, so individual contracts may be absent from these files (an inference from the labels only).",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:57.165Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16482,
+    "sha256": "13d3f8e35d698ca254c072bf4888c56afa92365686f3459f1a2a6457df684851",
+    "url_read": "https://www.gov.pl/web/aktywa-panstwowe/rejestr-umow-w-2025-r"
+   },
+   "followup_urls": [
+    {
+     "url": "https://www.gov.pl/attachment/d2e92ebc-09f1-45ad-b5c7-b933ed7aafbc",
+     "why": "Q1 2025 'osoby prawne' register (Ewidencja_umów_osoby_prawne_I. kw_2025.xlsx, as of 31 March 2025). Not fetched; the Q4 spreadsheets returned no readable text."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/d42c05d8-cf37-4cd1-ab85-58dcc303ef6e",
+     "why": "Q1 2025 KPO register (Ewidencja_umów_KPO_I. kw_2025.xlsx). Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/e90d4dc4-c0b3-4a0c-862c-acba77fed973",
+     "why": "Q1 2025 grants and investments register (Ewidencja_umów_dotacje_i_inwestycje_I.kw_2025.xlsx). Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/9f5abe11-b232-4d91-9218-d30dd68aefcd",
+     "why": "Q2 2025 'osoby prawne' register (as of 30 June 2025). Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/679cf74d-461d-481f-af30-6613473b81d4",
+     "why": "Q2 2025 KPO register. Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/92dd2424-be81-4aae-ac74-5b407892d68b",
+     "why": "Q2 2025 grants and investments register. Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/16ab85e8-c9af-4cd2-a003-beaa0ef19d4d",
+     "why": "Q3 2025 'osoby prawne' register (as of 30 September 2025). Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/241ed8a5-c109-487f-b89f-85a0dda0badf",
+     "why": "Q3 2025 KPO register. Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/attachment/658a47ed-1189-4df8-b255-08b38a085bce",
+     "why": "Q3 2025 grants and investments register. Not fetched, same reason."
+    },
+    {
+     "url": "https://www.gov.pl/web/aktywa-panstwowe/rejestr-umow",
+     "why": "Index of the ministry's contract registers for other years, linked from the page. Not fetched."
+    },
+    {
+     "url": "https://www.gov.pl/web/aktywa-panstwowe/podmioty",
+     "why": "List of entities under the minister's ownership supervision, linked from the page. Not fetched; could help check the PGE premise in the brief."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B03-498d34f9",
+     "subject": "Ministerstwo Aktywów Państwowych",
+     "subject_type": "public_body",
+     "relation": "publishes contract register files for 2025 as of quarter-end dates",
+     "object": "quarterly contract register files (ewidencja umów) for 2025, titled Rejestr umów w 2025 r.",
+     "object_type": "document",
+     "kind": "other",
+     "date": "31 grudnia 2025 r.",
+     "evidence_text": "Ewidencja umów wg stanu na dzień 31 grudnia 2025 r. w zakresie:",
+     "evidence_translation": "Contract register as of 31 December 2025, covering:",
+     "evidence_location": "page body, Q4 2025 heading, before the attachment list",
+     "label": "fact",
+     "label_scope": "Page statement of what the ministry publishes. The contract rows themselves are not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-3c624880",
+     "subject": "Rejestr umów w 2025 r. (HTML page)",
+     "subject_type": "document",
+     "relation": "contains contract rows (any type) naming",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek; Batory; HFHR; Free Courts (Wolne Sądy)",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "Wykaz umów zawartych przez Ministra Aktywów Państwowych.",
+     "evidence_translation": "List of contracts concluded by the Minister of State Assets.",
+     "evidence_location": "page body, introduction under the 'Rejestr umów w 2025 r.' heading",
+     "label": "no_link",
+     "label_scope": "HTML page text only. The page has no contract rows at all. The 12 linked spreadsheets were not readable (see fetch_note), so this does not cover them.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "batory",
+      "hfhr",
+      "free_courts"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-64ee7de5",
+     "subject": "Rejestr umów w 2025 r. (HTML page)",
+     "subject_type": "document",
+     "relation": "lists a legal-opinion or expert contract (number, date, contractor, subject, value)",
+     "object": "any legal-opinion, expert or other contract entry",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "{\"register\":{\"columns\":[]}}",
+     "evidence_translation": "Embedded register data block whose columns list is empty.",
+     "evidence_location": "code block after the version-history table, before the footer",
+     "label": "no_link",
+     "label_scope": "HTML page only. The embedded register block has no columns or rows. Contract data exists only in the linked spreadsheets, which were not readable.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-1ef477b9",
+     "subject": "Rejestr umów w 2025 r. (HTML page, attachment categories)",
+     "subject_type": "document",
+     "relation": "may leave out contracts with natural persons who are not entrepreneurs",
+     "object": "contracts with natural persons who are not entrepreneurs",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "przedsiębiorców, osób prawnych i jednostek organizacyjnych",
+     "evidence_translation": "entrepreneurs, legal persons and organisational units",
+     "evidence_location": "attachment list, bullet labels for the Q1 to Q4 2025 files",
+     "label": "speculation",
+     "label_scope": "Inference from the category labels only. The labels name entrepreneurs, legal persons, organisational units, KPO and grants/investments; none names natural persons. The page does not say this.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-F2",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
+   "host": "senat.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "Full text read: HTTP 200, text/plain, 30246 characters. Front-matter staff names (Agata Karwowska-Sokołowska, Danuta Antoszkiewicz, Artur Dragan) are Bureau staff and are not listed.",
+   "page_title": "Opinie i ekspertyzy OE–468 – Opinia prawna dotycząca ustawy o zmianie ustawy o Państwowej Komisji do spraw badania wpływów rosyjskich (druk senacki nr 1022)",
+   "page_date": "lipiec 2023",
+   "publisher": "Kancelaria Senatu (Biuro Analiz, Dokumentacji i Korespondencji)",
+   "capture_answer": "Author: Dr hab. Teresa Gardocka, professor at SWPS University (Faculty of Law / Institute of Law). Title: Opinia prawna dotycząca ustawy o zmianie ustawy o Państwowej Komisji do spraw badania wpływów rosyjskich na bezpieczeństwo wewnętrzne Rzeczypospolitej Polskiej w latach 2007–2022 w zakresie zgodności z Konstytucją i przepisami obowiązującego prawa (druk senacki nr 1022), series OE–468. Date: lipiec 2023 (July 2023). Subject: constitutional and legal assessment of the 2023 amendment to the law on the State Commission for the Investigation of Russian Influences, a change the President proposed; the author concludes the proposal did not remove the law's incompatibility with the constitutional order. Commissioned by: Biuro Analiz, Dokumentacji i Korespondencji (publication line: Kancelaria Senatu). The series text says the Bureau commissions opinions in general; the page gives no contract, fee or payment for this one. Not one of the eight judges; none of the eight names appears in the text. Date check: this is not 2024–25 TK legislation; it concerns a 2023 law.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.744Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 30242,
+    "sha256": "42471d0353f48871433a743729bbab383696bef74613b4cd6b8a942c9ce9820b",
+    "url_read": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf"
+   },
+   "names_listed": [
+    "Dr hab. Teresa Gardocka"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B03-926c4ce5",
+     "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+     "subject_type": "public_body",
+     "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–468",
+     "object": "OE–468 legal opinion (druk senacki nr 1022)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "lipiec 2023",
+     "evidence_text": "Biuro Analiz, Dokumentacji i Korespondencji zamawia opinie, analizy i ekspertyzy sporządzone przez specjalistów",
+     "evidence_translation": "The Bureau of Analysis, Documentation and Correspondence commissions opinions, analyses and expert studies prepared by specialists.",
+     "evidence_location": "front matter after the cover, series disclaimer (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Series-level statement of the Bureau's practice. The publication line reads 'Kancelaria Senatu'. The page gives no contract number, fee or payment for OE–468.",
+     "new_entities": [
+      "Kancelaria Senatu"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-1f0a977b",
+     "subject": "Dr hab. Teresa Gardocka",
+     "subject_type": "person",
+     "relation": "is the named author of",
+     "object": "OE–468 legal opinion (druk senacki nr 1022)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "lipiec 2023",
+     "evidence_text": "Dr hab. Teresa Gardocka, profesor Uniwersytetu SWPS Wydział Prawa / Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University, Faculty of Law / Institute of Law.",
+     "evidence_location": "PDF page 3, author block (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Named author as printed. Commissioning is described only in the series statement; no fee for this opinion is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-85d540d7",
+     "subject": "Dr hab. Teresa Gardocka",
+     "subject_type": "person",
+     "relation": "holds the post of professor at",
+     "object": "Uniwersytet SWPS (Wydział Prawa / Instytut Prawa)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "lipiec 2023",
+     "evidence_text": "Dr hab. Teresa Gardocka, profesor Uniwersytetu SWPS Wydział Prawa / Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University, Faculty of Law / Institute of Law.",
+     "evidence_location": "PDF page 3, author block",
+     "label": "fact",
+     "label_scope": "Affiliation as printed on the opinion's author line.",
+     "new_entities": [
+      "Uniwersytet SWPS"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-28fcd57f",
+     "subject": "Prezydent Rzeczypospolitej Polskiej (not named in OE–468)",
+     "subject_type": "public_body",
+     "relation": "sent the 2023 State Commission law to the Constitutional Tribunal for review after signing it (author's account)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "evidence_text": "wysłał po złożeniu swego podpisu ustawę do kontroli Trybunału Konstytucyjnego",
+     "evidence_translation": "after signing the law, sent it to the Constitutional Tribunal for review.",
+     "evidence_location": "PDF pages 3–4, introduction",
+     "label": "alleged",
+     "label_scope": "Author Teresa Gardocka's account. The page gives no referral date or case number; not checked against Tribunal records.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-2ff53784",
+     "subject": "Prezydent Rzeczypospolitej Polskiej (not named in OE–468)",
+     "subject_type": "public_body",
+     "relation": "knew the situation in the Tribunal when the law was sent to it (author's assertion)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "Prezydent znał bowiem sytuację w Trybunale",
+     "evidence_translation": "The President knew, after all, the situation in the Tribunal.",
+     "evidence_location": "PDF pages 3–4, introduction",
+     "label": "alleged",
+     "label_scope": "Author's opinion with no source cited. The page does not say what the 'situation' was.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-3b91e8aa",
+     "subject": "OE–468 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the eight judges",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Dr hab. Teresa Gardocka, profesor Uniwersytetu SWPS Wydział Prawa / Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University, Faculty of Law / Institute of Law.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of the eight names appears, the author is not one of them, and no institutional, financial or professional tie to any of them is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-5b6208b9",
+     "subject": "OE–468 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the listed organisations or officials",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Dr hab. Teresa Gardocka, profesor Uniwersytetu SWPS Wydział Prawa / Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University, Faculty of Law / Institute of Law.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of these names or organisations appears. The President is referred to only as 'Prezydent Rzeczypospolitej Polskiej', unnamed.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-F3",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf",
+   "host": "senat.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "Full text read: HTTP 200, text/plain, 19579 characters. Front-matter staff names (Agata Karwowska-Sokołowska, Danuta Antoszkiewicz, Barbara Górska) are Bureau staff and are not listed.",
+   "page_title": "Opinie i ekspertyzy OE–476 – Opinia prawna dotycząca uchwalonej przez Sejm w dniu 28 lipca 2023 roku ustawy o zmianie ustawy o współpracy Rady Ministrów z Sejmem i Senatem",
+   "page_date": "sierpień 2023",
+   "publisher": "Kancelaria Senatu (Biuro Analiz, Dokumentacji i Korespondencji)",
+   "capture_answer": "Author: Dr hab. Teresa Gardocka, professor at SWPS University in Warsaw (Institute of Law), also the author of OE–468. Title: Opinia prawna dotycząca uchwalonej przez Sejm w dniu 28 lipca 2023 roku ustawy o zmianie ustawy o współpracy Rady Ministrów z Sejmem i Senatem w sprawach związanych z członkostwem Rzeczypospolitej Polskiej w Unii Europejskiej oraz ustawy o Komitecie do Spraw Europejskich, series OE–476 (druk senacki nr 1081). Date: sierpień 2023 (August 2023). Subject: the bill the Sejm passed on 28 July 2023, which adds the President as a further party to EU-cooperation arrangements. The author says all readings took place on 28 July and calls the bill a deliberate design to hamper, if not paralyse, Poland's EU cooperation. Commissioned by: Biuro Analiz, Dokumentacji i Korespondencji (series statement; no fee stated). The page says two external opinions on the draft were commissioned by Deputy Marshal of the Sejm Małgorzata Kidawa-Błońska: from Krzysztof Skotnicki (dated 5 July 2023) and Ryszard Balicki (dated 6 July 2023). No fees are given. Not one of the eight judges; none of the eight names appears. Date check: this is not 2024–25 TK legislation; it concerns the 2023 EU-cooperation bill.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.906Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 19575,
+    "sha256": "a71ea4027230b0b78b82982054e846b50d972c9351664fe5230e2c4ca380cf00",
+    "url_read": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6961/plik/oe-476.pdf"
+   },
+   "names_listed": [
+    "Dr hab. Teresa Gardocka",
+    "profesora dr hab. Krzysztofa Skotnickiego",
+    "dr hab. Ryszarda Balickiego",
+    "Małgorzatę Kidawa-Błońską",
+    "Andrzej Duda",
+    "Zbigniew Ziobro"
+   ],
+   "names_found_in_page_text": "6/6",
+   "claims": [
+    {
+     "id": "B03-3561f7a1",
+     "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+     "subject_type": "public_body",
+     "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–476",
+     "object": "OE–476 legal opinion on the bill passed 28 July 2023 (druk senacki nr 1081)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "sierpień 2023",
+     "evidence_text": "Biuro Analiz, Dokumentacji i Korespondencji zamawia opinie, analizy i ekspertyzy sporządzone przez specjalistów",
+     "evidence_translation": "The Bureau of Analysis, Documentation and Correspondence commissions opinions, analyses and expert studies prepared by specialists.",
+     "evidence_location": "front matter after the cover, series disclaimer (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Series-level statement of the Bureau's practice. The publication line reads 'Kancelaria Senatu'. The page gives no contract number, fee or payment for OE–476.",
+     "new_entities": [
+      "Kancelaria Senatu"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-fe04302a",
+     "subject": "Dr hab. Teresa Gardocka",
+     "subject_type": "person",
+     "relation": "is the named author of",
+     "object": "OE–476 legal opinion (druk senacki nr 1081)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "sierpień 2023",
+     "evidence_text": "Dr hab. Teresa Gardocka profesor Uniwersytetu SWPS w Warszawie Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University in Warsaw, Institute of Law.",
+     "evidence_location": "PDF page 3, author block (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Named author as printed. No fee for this opinion is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-ed5feb1d",
+     "subject": "Dr hab. Teresa Gardocka",
+     "subject_type": "person",
+     "relation": "holds the post of professor at",
+     "object": "Uniwersytet SWPS w Warszawie (Instytut Prawa)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "sierpień 2023",
+     "evidence_text": "Dr hab. Teresa Gardocka profesor Uniwersytetu SWPS w Warszawie Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University in Warsaw, Institute of Law.",
+     "evidence_location": "PDF page 3, author block",
+     "label": "fact",
+     "label_scope": "Affiliation as printed on the author line.",
+     "new_entities": [
+      "Uniwersytet SWPS"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-7b43b045",
+     "subject": "Krzysztofa Skotnickiego (printed form; nominative Krzysztof Skotnicki)",
+     "subject_type": "person",
+     "relation": "wrote an external opinion on the draft bill (druk nr 3335); the page describes it as one of two external opinions commissioned by the Deputy Marshal of the Sejm",
+     "object": "external legal opinion on the draft bill (druk nr 3335)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "5 lipca 2023 r.",
+     "evidence_text": "Pierwsza opinia profesora dr hab. Krzysztofa Skotnickiego (Uniwersytet Łódzki) jest datowaną na 5 lipca 2023 r.",
+     "evidence_translation": "The first opinion of professor dr hab. Krzysztof Skotnicki (University of Łódź) is dated 5 July 2023.",
+     "evidence_location": "PDF page 4",
+     "label": "fact",
+     "label_scope": "The page states the opinion's date, affiliation and that two external opinions were commissioned by the Deputy Marshal. No fee or contract value is stated. Not one of the named actors.",
+     "new_entities": [
+      "Uniwersytet Łódzki"
+     ],
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-6751af00",
+     "subject": "Ryszarda Balickiego (printed form; nominative Ryszard Balicki)",
+     "subject_type": "person",
+     "relation": "wrote an external opinion on the draft bill (druk nr 3335); the page describes it as one of two external opinions commissioned by the Deputy Marshal of the Sejm",
+     "object": "external legal opinion on the draft bill (druk nr 3335)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "6 lipca 2023 roku",
+     "evidence_text": "Druga opinia dr hab. Ryszarda Balickiego, profesora Uniwersytetu Wrocławskiego jest datowana na 6 lipca 2023 roku",
+     "evidence_translation": "The second opinion of dr hab. Ryszard Balicki, professor at the University of Wrocław, is dated 6 July 2023.",
+     "evidence_location": "PDF page 4",
+     "label": "fact",
+     "label_scope": "The page states the opinion's date, affiliation and that two external opinions were commissioned by the Deputy Marshal. No fee or contract value is stated. Not one of the named actors.",
+     "new_entities": [
+      "Uniwersytet Wrocławski"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-3d30051f",
+     "subject": "Małgorzatę Kidawa-Błońską (printed form; nominative Małgorzata Kidawa-Błońska)",
+     "subject_type": "person",
+     "relation": "commissioned two external opinions on the draft bill (druk nr 3335) before the Sejm passed it",
+     "object": "two external legal opinions on the draft bill (druk nr 3335)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "Przed dniem 28 lipca",
+     "evidence_text": "do projektu sporządzono dwie zewnętrzne opinie, zamówione przez Panią wicemarszałek Sejmu Małgorzatę Kidawa-Błońską",
+     "evidence_translation": "Two external opinions were prepared on the draft, commissioned by Ms Deputy Marshal of the Sejm Małgorzata Kidawa-Błońska.",
+     "evidence_location": "PDF page 4",
+     "label": "fact",
+     "label_scope": "The page states the commissioning ('zamówione'). No fee or contract value is given. The page gives her office but not her party.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-16ee6897",
+     "subject": "Małgorzatę Kidawa-Błońską (printed form; nominative Małgorzata Kidawa-Błońska)",
+     "subject_type": "person",
+     "relation": "held the office of deputy speaker (wicemarszałek) of the Sejm",
+     "object": "Sejm (deputy speaker, wicemarszałek Sejmu)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "Przed dniem 28 lipca",
+     "evidence_text": "zamówione przez Panią wicemarszałek Sejmu Małgorzatę Kidawa-Błońską",
+     "evidence_translation": "commissioned by Ms Deputy Marshal of the Sejm Małgorzata Kidawa-Błońska.",
+     "evidence_location": "PDF page 4",
+     "label": "fact",
+     "label_scope": "Office as printed in the 2023 opinion. Party affiliation is not stated on the page.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-eb61e3a9",
+     "subject": "Andrzej Duda",
+     "subject_type": "person",
+     "relation": "is described as the President (prezydent) who would still hold the office",
+     "object": "President of the Republic of Poland (prezydent)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "sierpień 2023",
+     "evidence_text": "kiedy to prezydentem będzie nadal Andrzej Duda",
+     "evidence_translation": "when Andrzej Duda will still be president.",
+     "evidence_location": "PDF page 9, section 'Ad. II.'",
+     "label": "fact",
+     "label_scope": "As stated in the author's text (August 2023). The page gives no party affiliation.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "duda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-08bf154c",
+     "subject": "OE–476 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the eight judges",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Dr hab. Teresa Gardocka profesor Uniwersytetu SWPS w Warszawie Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University in Warsaw, Institute of Law.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of the eight names appears and no institutional, financial or professional tie to any of them is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-91e59220",
+     "subject": "OE–476 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the listed organisations or officials",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Dr hab. Teresa Gardocka profesor Uniwersytetu SWPS w Warszawie Instytut Prawa",
+     "evidence_translation": "Dr hab. Teresa Gardocka, professor at SWPS University in Warsaw, Institute of Law.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of these names or organisations appears. Andrzej Duda is named (see his claim), but no tie to the listed actors is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "C5_domestic_public_money-F4",
+   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6962/plik/oe-477.pdf",
+   "host": "senat.gov.pl",
+   "theme": "C5_domestic_public_money",
+   "fetch_status": "ok",
+   "fetch_note": "Full text read: HTTP 200, text/plain, 31452 characters. Front-matter staff names (Agata Karwowska-Sokołowska, Danuta Antoszkiewicz, Joanna Granowska) are Bureau staff and are not listed.",
+   "page_title": "Opinie i ekspertyzy OE–477 – Opinia prawna o zgodności z Konstytucją RP ustawy o zmianie ustawy o współpracy Rady Ministrów z Sejmem i Senatem (druk senacki nr 1081)",
+   "page_date": "sierpień 2023",
+   "publisher": "Kancelaria Senatu (Biuro Analiz, Dokumentacji i Korespondencji)",
+   "capture_answer": "Author: dr hab. prof. UW Ryszard Piotrowski, Faculty of Law and Administration, University of Warsaw. Title: Opinia prawna o zgodności z Konstytucją RP ustawy o zmianie ustawy o współpracy Rady Ministrów z Sejmem i Senatem w sprawach związanych z członkostwem Rzeczypospolitej Polskiej w Unii Europejskiej oraz ustawy o Komitecie do Spraw Europejskich (druk senacki nr 1081), series OE–477. Date: sierpień 2023 (August 2023). Subject: the same 2023 EU-cooperation bill, reviewed for constitutional compliance. The theses say the bill's art. 1 pkt 8 and pkt 9 provisions conflict with arts 10(1), 126(3) with 146(4)(9) and 133(3), and the preamble. They also say the bill as a whole conflicts with arts 112 and 119(1) to the extent it was passed in breach of procedure. Commissioned by: Biuro Analiz, Dokumentacji i Korespondencji (series statement; no fee stated). Not one of the eight judges; none of the eight names appears. The author's surname resembles that of judge Anna Korwin-Piotrowska; the page gives no tie, and none is inferred. Date check: this is not 2024–25 TK legislation; it concerns the 2023 EU-cooperation bill.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:56.915Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 31448,
+    "sha256": "2a7922a82e096dd7a3c3728d162f0a782b9538bdd3680dc3040d721ebfb4122c",
+    "url_read": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6962/plik/oe-477.pdf"
+   },
+   "names_listed": [
+    "dr hab. prof. UW Ryszard Piotrowski"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B03-46ac25aa",
+     "subject": "Biuro Analiz, Dokumentacji i Korespondencji",
+     "subject_type": "public_body",
+     "relation": "commissions opinions, analyses and expert studies from specialists (series statement); no contract or fee stated for OE–477",
+     "object": "OE–477 legal opinion (druk senacki nr 1081)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "sierpień 2023",
+     "evidence_text": "Biuro Analiz, Dokumentacji i Korespondencji zamawia opinie, analizy i ekspertyzy sporządzone przez specjalistów",
+     "evidence_translation": "The Bureau of Analysis, Documentation and Correspondence commissions opinions, analyses and expert studies prepared by specialists.",
+     "evidence_location": "front matter after the cover, series disclaimer (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Series-level statement of the Bureau's practice. The publication line reads 'Kancelaria Senatu'. The page gives no contract number, fee or payment for OE–477.",
+     "new_entities": [
+      "Kancelaria Senatu"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-a25b1425",
+     "subject": "dr hab. prof. UW Ryszard Piotrowski",
+     "subject_type": "person",
+     "relation": "is the named author of",
+     "object": "OE–477 legal opinion (druk senacki nr 1081)",
+     "object_type": "document",
+     "kind": "contract_or_fee",
+     "date": "sierpień 2023",
+     "evidence_text": "dr hab. prof. UW Ryszard Piotrowski Wydział Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "dr hab. prof. UW Ryszard Piotrowski, Faculty of Law and Administration, University of Warsaw.",
+     "evidence_location": "PDF page 3, author block (line breaks normalised)",
+     "label": "fact",
+     "label_scope": "Named author as printed. No fee for this opinion is stated.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-bc8d50ae",
+     "subject": "dr hab. prof. UW Ryszard Piotrowski",
+     "subject_type": "person",
+     "relation": "is affiliated with the Faculty of Law and Administration of",
+     "object": "Uniwersytet Warszawski (Wydział Prawa i Administracji)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "sierpień 2023",
+     "evidence_text": "dr hab. prof. UW Ryszard Piotrowski Wydział Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "dr hab. prof. UW Ryszard Piotrowski, Faculty of Law and Administration, University of Warsaw.",
+     "evidence_location": "PDF page 3, author block",
+     "label": "fact",
+     "label_scope": "Affiliation as printed on the author line.",
+     "new_entities": [
+      "Uniwersytet Warszawski"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-da944dc6",
+     "subject": "Prezydent RP (not named in OE–477)",
+     "subject_type": "public_body",
+     "relation": "submitted (przedstawił) the draft bill amending the act on cooperation between the Council of Ministers and the Sejm and Senate on EU matters",
+     "object": "draft bill (druk nr 3335), later the bill on druk senacki nr 1081",
+     "object_type": "document",
+     "kind": "other",
+     "date": "7 czerwca 2023 r.",
+     "evidence_text": "Przedstawiony przez Prezydenta RP projekt ustawy o zmianie ustawy o współpracy Rady Ministrów z Sejmem i Senatem",
+     "evidence_translation": "Presented by the President of the Republic, the draft act amending the act on cooperation of the Council of Ministers with the Sejm and Senate.",
+     "evidence_location": "section 6 of the analysis (near PDF page 12)",
+     "label": "fact",
+     "label_scope": "As stated on the page; the page says the draft was submitted to the Sejm on 7 June 2023 and does not name the President.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B03-9332aadd",
+     "subject": "OE–477 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the eight judges",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "dr hab. prof. UW Ryszard Piotrowski Wydział Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "dr hab. prof. UW Ryszard Piotrowski, Faculty of Law and Administration, University of Warsaw.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of the eight names appears and no tie to any of them is stated. The author's surname (Piotrowski) resembles that of Anna Korwin-Piotrowska; a name resemblance is not a tie, and none is stated or inferred.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B03-4b092a9d",
+     "subject": "OE–477 (full text)",
+     "subject_type": "document",
+     "relation": "names or ties any of the listed organisations or officials",
+     "object": "Iustitia; Themis; Free Courts / Wolne Sądy; HFHR; Batory Foundation; KOS; OKO.press; Akcja Demokracja; KOD; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "dr hab. prof. UW Ryszard Piotrowski Wydział Prawa i Administracji Uniwersytetu Warszawskiego",
+     "evidence_translation": "dr hab. prof. UW Ryszard Piotrowski, Faculty of Law and Administration, University of Warsaw.",
+     "evidence_location": "PDF page 3, author block; full text checked",
+     "label": "no_link",
+     "label_scope": "Full text checked: none of these names or organisations appears. The President is referred to only as 'Prezydent RP', unnamed.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "object_map_id": "iustitia",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
   },
   {
    "ref": "C6_org_finances-T1",
@@ -8624,6 +10186,14 @@
      "subject_map_status": "on_map",
      "object_map_id": "tusk",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -9295,6 +10865,14 @@
      "subject_map_status": "on_map",
      "object_map_id": "tusk",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -9401,8 +10979,34 @@
      "evidence_location": "Body, opening sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "democrisis",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -9424,6 +11028,10 @@
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zurek",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "zurek",
+      "bodnar"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -9531,8 +11139,34 @@
      "evidence_location": "Body, opening sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "democrisis",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -9554,6 +11188,10 @@
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zurek",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "zurek",
+      "bodnar"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -9684,8 +11322,34 @@
      "evidence_location": "Body, opening sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "democrisis",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -9707,6 +11371,10 @@
      "subject_map_status": "sweep2_candidate",
      "object_map_id": "zurek",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "zurek",
+      "bodnar"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -10568,16 +12236,25 @@
      "label_scope": "None of these names is among the 80 granted rows, all of which are readable, and none appears in the 227 readable large-grant rows. Whether any of them applied with a large-grant score below 27.00 cannot be checked, because those rows are cut off in the extracted text. Other Equal Rights Programme rounds were not checked.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "osiatynski",
+     "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "subject_map_ids": [
+      "iustitia",
+      "themis",
+      "okopress",
+      "kod",
+      "osiatynski",
+      "inpris"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website"
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2022 instalment EUR 22,319, project 'Praworządność Wspólna Sprawa' (Active Citizens Fund, EEA/Norway money run by Batory, not OSF); probably",
+      "2024: institutional grant instalment EUR 10,000 plus EUR 8,000 additional institutional grant; same report lists a EUR 8,127.18 refund on th",
+      "2002: partner in Batory's Legal Education Programme ('Obywatel w sądzie', 'Dziennikarz w sądzie' with HFHR); probable grant PLN 39,000 for j"
      ]
     }
    ]
@@ -10785,9 +12462,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "osf",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B03-352f1db1",
@@ -11024,16 +12699,29 @@
      "label_scope": "None of these names is among the 25 awarded organisations, all of which are listed. The decision does not list unsuccessful applicants, so applications are not ruled out.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "osiatynski",
+     "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
      "object_map_id": "batory",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "subject_map_ids": [
+      "hfhr",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "okopress",
+      "akcja_demokracja",
+      "kod",
+      "osiatynski",
+      "isp",
+      "watchdog_polska"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website",
-      "2017 grant paid for the Archive website"
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2023 grants €44,639 project + €40,000 institutional (EEA/Norway Active Citizens money, not OSF)",
+      "2022 instalment EUR 22,319, project 'Praworządność Wspólna Sprawa' (Active Citizens Fund, EEA/Norway money run by Batory, not OSF); probably",
+      "2024: institutional grant instalment EUR 10,000 plus EUR 8,000 additional institutional grant; same report lists a EUR 8,127.18 refund on th",
+      "2002: partner in Batory's Legal Education Programme ('Obywatel w sądzie', 'Dziennikarz w sądzie' with HFHR); probable grant PLN 39,000 for j"
      ]
     }
    ]
@@ -11599,11 +13287,9 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "venice",
-     "subject_map_status": "on_map",
      "object_map_id": "moj",
      "object_map_status": "sweep2_candidate",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-ddf6b54c",
@@ -12119,11 +13805,9 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "nl_gov",
-     "subject_map_status": "on_map",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B03-683d439c",
@@ -13453,8 +15137,16 @@
      "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "taborowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "taborowski",
+      "markiewicz",
+      "szostek",
+      "bentkowska",
+      "korwin_piotrowska",
+      "berek"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -13475,8 +15167,15 @@
      "evidence_check": "exact",
      "subject_map_id": "moj",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "free_courts",
+     "object_map_id": "batory",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "batory",
+      "hfhr",
+      "iustitia",
+      "themis",
+      "free_courts"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -13625,8 +15324,28 @@
      "label_scope": "Only this 4-entry PROO Priority 1B 2025 formal-evaluation list was checked. Other PROO priorities and editions, NOWEFIO and other NIW programmes were not.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "repressed_judges_fund",
+     "object_map_id": "hfhr",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "hfhr",
+      "batory",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "akcja_demokracja",
+      "kod",
+      "okopress",
+      "inpris",
+      "holda_assoc",
+      "lex_super_omnia",
+      "watchdog_polska",
+      "ceo_poland",
+      "isp",
+      "aktywna_demokracja",
+      "dom_sedziego_seniora",
+      "obywatele_rp",
+      "krytyka_polityczna"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -13880,8 +15599,18 @@
      "label_scope": "Only the top-30 table was checked. None of the nine organisations appears in it, so each received less than PLN 10,801,810.40 in 2026. Their exact amounts are in Załącznik nr 2, which this PDF does not contain.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "repressed_judges_fund",
+     "subject_map_id": "hfhr",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "hfhr",
+      "akcja_demokracja",
+      "kod",
+      "free_courts",
+      "iustitia",
+      "themis",
+      "batory",
+      "repressed_judges_fund"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -21600,20 +23329,6 @@
  ],
  "to_read_unread": [
   {
-   "theme": "C1_eu_money",
-   "url": "https://frittord.no/en/news/civitates-grant-boosting-civil-society-in-poland",
-   "title": "Civitates grant: Boosting civil society in Poland",
-   "why": "A Civitates grant in Poland reported by a Civitates funder.",
-   "capture": "Recipient(s), amount, period, and the consortium members (e.g. Batory)."
-  },
-  {
-   "theme": "C1_eu_money",
-   "url": "https://www.fordfoundation.org/work/our-grants/awarded-grants/grants-database/network-of-european-foundations-149863",
-   "title": "network of european foundations 149863",
-   "why": "The Ford Foundation grant record for the Network of European Foundations, Civitates' host.",
-   "capture": "Amount, dates and purpose (whether it is for Civitates)."
-  },
-  {
    "theme": "C2_eea_norway",
    "url": "https://eeagrants.org/archive/2014-2021/projects/PL-ACTIVECITIZENS-NATIONAL-0081",
    "title": "PL ACTIVECITIZENS NATIONAL 0081",
@@ -21661,18 +23376,6 @@
    "title": "Action For Democracy logo",
    "why": "Grant programme for Polish civil society run by Action for Democracy",
    "capture": "Funder identity and backers, size of the fund, dates, eligible or named Polish grantees and partner organisations"
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://www.gov.pl/web/aktywa-panstwowe/rejestr-umow-w-2025-r",
-   "why": "The State Assets Ministry's 2025 contract register; this ministry nominated Patyra to PGE's supervisory board.",
-   "capture": "Legal-opinion contracts and any contracts with Patyra, Dziurda, Berek or Batory expert-team members: amounts and dates."
-  },
-  {
-   "theme": "C5_domestic_public_money",
-   "url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatekspertyzy/6853/plik/oe-468.pdf",
-   "why": "A Senate-commissioned expert opinion (also oe-476 and oe-477) surfaced in searches on 2024-2025 TK legislation.",
-   "capture": "Author, date and subject; whether the author is one of the eight TK judges (Patyra, Szostek, Taborowski, Dziurda, Berek) or a Batory expert; any fee information."
   },
   {
    "theme": "C6_org_finances",

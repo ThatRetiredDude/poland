@@ -30,55 +30,55 @@
   ]
  },
  "stats": {
-  "agents": 21,
-  "agents_left_out_unfinished_or_other_batch": 19,
+  "agents": 26,
+  "agents_left_out_unfinished_or_other_batch": 14,
   "searches": 210,
   "search_results": 3414,
   "unique_result_urls": 2482,
-  "page_fetches": 167,
-  "pages_reported": 86,
-  "pages_with_page_text": 72,
+  "page_fetches": 183,
+  "pages_reported": 102,
+  "pages_with_page_text": 88,
   "fetch_status": {
    "error": 9,
-   "ok": 59,
-   "partial": 14,
-   "empty": 3,
+   "ok": 63,
+   "partial": 17,
+   "empty": 12,
    "blocked": 1
   },
-  "claims": 686,
+  "claims": 779,
   "labels": {
-   "fact": 527,
-   "no_link": 124,
+   "fact": 588,
+   "no_link": 153,
    "alleged": 22,
-   "speculation": 13
+   "speculation": 16
   },
   "evidence_check": {
-   "exact": 492,
-   "normalized": 107,
+   "exact": 573,
+   "normalized": 119,
    "found_on_linked_page": 59,
    "not_found": 22,
    "found_in_reader_extract_only": 6
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 366,
-   "pair_already_linked": 58,
-   "new_tie_between_known_entities": 64,
-   "both_names_unmatched": 198
+   "new_entity_or_unmatched_name": 418,
+   "pair_already_linked": 54,
+   "new_tie_between_known_entities": 61,
+   "both_names_unmatched": 246
   },
   "kinds": {
-   "nomination_or_vote": 90,
-   "other": 115,
-   "statement": 88,
-   "contract_or_fee": 37,
-   "role_or_job": 132,
-   "membership_or_board": 102,
-   "grant_or_donation": 6,
-   "event_or_speech": 79,
-   "ownership": 4,
+   "nomination_or_vote": 95,
+   "other": 145,
+   "statement": 100,
+   "contract_or_fee": 40,
+   "role_or_job": 141,
+   "membership_or_board": 118,
+   "grant_or_donation": 9,
+   "event_or_speech": 90,
+   "ownership": 8,
    "legal_action": 33
   },
   "title_only_leads": 272,
-  "to_read_unread": 14,
+  "to_read_unread": 8,
   "nothing_found": 58,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -218,8 +218,6 @@
      "evidence_check": "exact",
      "subject_map_id": "pge",
      "subject_map_status": "on_map",
-     "object_map_id": "pge",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1143,6 +1141,443 @@
    ]
   },
   {
+   "ref": "B1_judges_income-F1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
+   "host": "api.sejm.gov.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "ok",
+   "fetch_note": "Returned as text (HTTP 200, application/pdf, 6,709 characters). The text is a Ministry of Culture reply to interpellation 15635 and has no visible date line. It names no TVP S.A. supervisory-board member and gives no board pay, legal basis or appointer.",
+   "page_title": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
+   "publisher": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+   "capture_answer": "No TVP S.A. supervisory-board member is named, so nothing on Maciej Taborowski's role, start date, monthly pay, legal basis or appointer appears in this letter. It is the Ministry of Culture's reply to interpellation 15635 from MP Barbara Bartuś of 3 March 2026 on the legal and financial situation of TVP SA and Polskie Radio SA in liquidation. Signatory: Maciej Wróbel, 'Sekretarz Stanu', signing on behalf of the Minister of Culture and National Heritage. No date line is visible in the returned text; the latest date in it is the 2026 TVP grant figure, stated as of 28 February 2026. Captured as claims: the 27 December 2023 extraordinary general meeting resolutions to liquidate TVP and Polskie Radio, the ministry's statement that a planned broadcasting-law amendment would change how company bodies are selected, and the TVP subsidies for 2024 to 2026. Polskie Radio subsidy figures are also in the letter but are not tied to any listed actor, so they were not captured.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:58.206Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 6709,
+    "sha256": "c27717370605e757802c5a82494bfddba4c63d71ce443e36b0b858e88da1b27f",
+    "url_read": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf"
+   },
+   "names_listed": [
+    "Maciej Wróbel",
+    "Marta Cienkowska",
+    "Barbara Bartuś",
+    "Włodzimierz Czarzasty"
+   ],
+   "names_found_in_page_text": "3/4",
+   "claims": [
+    {
+     "id": "B02-b23b593c",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "supervisory-board member of TVP, with start date, pay and appointer",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "label": "no_link",
+     "label_scope": "Letter checked for Maciej Taborowski and for any TVP S.A. supervisory-board member, role, start date, monthly pay, legal basis or appointer. None is named in the returned text.",
+     "evidence_text": "sytuacji prawnej i finansowej Telewizji Polskiej SA w likwidacji oraz Polskiego Radia SA",
+     "evidence_translation": "concerning the legal and financial situation of Telewizja Polska SA in liquidation and Polskie Radio SA in liquidation",
+     "evidence_location": "first body paragraph, subject of interpellation 15635",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-be21607f",
+     "subject": "Nadzwyczajne Walne Zgromadzenia spółek TVP i PR (Extraordinary General Meetings of TVP and Polskie Radio)",
+     "subject_type": "org",
+     "relation": "adopted resolutions to dissolve and open liquidation of",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "nomination_or_vote",
+     "label": "fact",
+     "label_scope": "The ministry's letter states these EGM resolutions were adopted on 27 December 2023. The same resolutions covered POLSKIE RADIO - Spółka Akcyjna w likwidacji. Not checked against the company register.",
+     "date": "27 grudnia 2023 r.",
+     "evidence_text": "W związku z podjęciem 27 grudnia 2023 r. przez Nadzwyczajne Walne Zgromadzenia spółek: TELEWIZJA POLSKA",
+     "evidence_translation": "In connection with the adoption on 27 December 2023 by the Extraordinary General Meetings of the companies: TELEWIZJA POLSKA",
+     "evidence_location": "body, paragraph beginning 'W związku z podjęciem'",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "tvp",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-f24a742d",
+     "subject": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "states that the planned amendment of the broadcasting act (uortv) provides for",
+     "object": "a new method of selecting the bodies (organy) of the public radio and television companies",
+     "object_type": "other",
+     "kind": "statement",
+     "label": "fact",
+     "label_scope": "The ministry's own description of the planned amendment to the 1992 broadcasting act (ustawa o radiofonii i telewizji). The letter gives neither the draft text nor its status. The ministry also states it expects liquidation to end after the amendment takes effect.",
+     "evidence_text": "reorganizacji spółek publicznej radiofonii i telewizji poprzez wprowadzenie nowego sposobu wyłaniania organów spółek",
+     "evidence_translation": "reorganisation of public radio and television companies by introducing a new method of selecting the bodies of the companies",
+     "evidence_location": "body, paragraph on the expected end of liquidation after the amendment",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-2b42ca88",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "granted subsidy (dotacja) to",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "grant_or_donation",
+     "amount": "1 850 617 240,00",
+     "currency": "zł",
+     "date": "2024",
+     "label": "fact",
+     "label_scope": "Ministry's own figure. The letter says these are mainly targeted subsidies for statutory public-mission tasks (art. 21 ust. 1 uortv).",
+     "evidence_text": "w 2024 r. przyznano dotacje w kwocie 1 850 617 240,00 zł",
+     "evidence_translation": "in 2024 subsidies were granted in the amount of 1 850 617 240,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-1bd1da13",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "granted subsidy (dotacja) to",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "grant_or_donation",
+     "amount": "1 633 033 904,00",
+     "currency": "zł",
+     "date": "2025",
+     "label": "fact",
+     "label_scope": "Ministry's own figure. The letter says these are mainly targeted subsidies for statutory public-mission tasks (art. 21 ust. 1 uortv).",
+     "evidence_text": "w 2025 r. przyznano dotacje w kwocie 1 633 033 904,00 zł",
+     "evidence_translation": "in 2025 subsidies were granted in the amount of 1 633 033 904,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-9054f8b8",
+     "subject": "Minister Kultury i Dziedzictwa Narodowego",
+     "subject_type": "public_body",
+     "relation": "granted subsidy (dotacja) to",
+     "object": "TELEWIZJA POLSKA Spółka Akcyjna w likwidacji",
+     "object_type": "company",
+     "kind": "grant_or_donation",
+     "amount": "900 000 000,00",
+     "currency": "zł",
+     "date": "2026 (figure stated as of 28 luty 2026 r.)",
+     "label": "fact",
+     "label_scope": "Ministry's own figure, stated as of 28 February 2026 in the letter. Not a full-year figure.",
+     "evidence_text": "w 2026 r. przyznano dotacje w kwocie 900 000 000,00 zł",
+     "evidence_translation": "in 2026 subsidies were granted in the amount of 900 000 000,00 zł",
+     "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
+   "ref": "B1_judges_income-F2",
+   "url": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy",
+   "host": "gkpge.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "partial",
+   "fetch_note": "Returned as text/plain (HTTP 200, 3,716 characters). The 'Files to download' list gives the report titles, including 'Report on remuneration of the members of the Management Board nad Supervisory Board of PGE for 2024 [pdf 551 kB]', but the returned text has no link targets. The 2024 PDF was therefore not read and no pay rows were retrieved. No 2025 remuneration report is listed; the list ends with 'Remuneration policy adopted in 2025 [pdf 153 kB]'.",
+   "page_title": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE Polska Grupa Energetyczna S.A.",
+   "publisher": "PGE Polska Grupa Energetyczna S.A.",
+   "capture_answer": "The page names no individual, so there is no row for Sławomir Patyra and no board pay figure. The file list has 'Report on remuneration of the members of the Management Board nad Supervisory Board of PGE for 2024 [pdf 551 kB]' (spelling 'nad' as on the page). The returned text carries no link URLs, so the PDF address could not be taken from it and the PDF was not read. Months on the board, fixed pay, committee fees, other benefits, total, currency and table heading are therefore not retrieved. No 2025 remuneration report is listed; the only 2025 item is 'Remuneration policy adopted in 2025 [pdf 153 kB]'. The page states that the general meeting gave a positive opinion on the 2024 report on June 27, 2025 (resolution no. 9), captured as a claim. No other listed actor is named.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:14.783Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 3716,
+    "sha256": "81ad61efb49fdc7e5e42397cf5eda0b98ab555d155cd267b157391fd04a934de",
+    "url_read": "https://gkpge.pl/en/for-investors/corporate-governance/remuneration-policy"
+   },
+   "claims": [
+    {
+     "id": "B02-eca02c48",
+     "subject": "PGE Polska Grupa Energetyczna S.A. Ordinary General Meeting (OGM)",
+     "subject_type": "org",
+     "relation": "gave a positive opinion on the remuneration report for year 2024",
+     "object": "Report on the remuneration of the Members of the Management Board and the Supervisory Board (2024, resolution no. 9)",
+     "object_type": "document",
+     "kind": "nomination_or_vote",
+     "date": "June 27, 2025",
+     "label": "fact",
+     "label_scope": "The company's own website states the OGM vote and its date. The contents of the report are not on this page.",
+     "evidence_text": "On June 27, 2025 the OGM provided a positive opinion on The report on the remuneration of the Members of the",
+     "evidence_translation": "On June 27, 2025 the OGM provided a positive opinion on The report on the remuneration of the Members of the (original text is English)",
+     "evidence_location": "history paragraph beginning 'On June 27, 2025 the OGM...'",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "pge",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-f694e88a",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "pay as PGE supervisory board member, in the 2024 remuneration report",
+     "object": "Supervisory Board of PGE Polska Grupa Energetyczna S.A.",
+     "object_type": "company",
+     "kind": "contract_or_fee",
+     "label": "no_link",
+     "label_scope": "Page text checked for Sławomir Patyra, board months, fixed pay, committee fees, benefits and total. None is present. The 2024 report PDF, where individual rows would be, was not read.",
+     "evidence_text": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE",
+     "evidence_translation": "The Remuneration Policy for the Members of the Management Board and Supervisory Board of PGE (original text is English)",
+     "evidence_location": "page title and first line",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)",
+      "board role shaped his TK conduct",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "B1_judges_income-F3",
+   "url": "https://www.telepolis.pl/wiadomosci/ministerstwo-cyfryzacji-rada-do-spraw-cyfryzacji-vi-kadencja",
+   "host": "telepolis.pl",
+   "theme": "B1_judges_income",
+   "fetch_status": "partial",
+   "fetch_note": "Returned as HTML (HTTP 200, 28,110 characters). The article text is complete and carries the byline 'MARIAN SZUTIAK (MSNET) 23 GRU 2025'. Its text source is given as 'Ministerstwo Cyfryzacji'. It names six members only; the full roster is behind a link to gov.pl, which was not followed. The article says nothing about pay or fees.",
+   "page_title": "Oni zaprojektują cyfrową Polskę. Ministerstwo ujawnia nazwiska",
+   "page_date": "23 GRU 2025",
+   "publisher": "Telepolis.pl (part of OV Grupa sp. z o.o.)",
+   "capture_answer": "The article names six members of the 6th-term Digitisation Council, not the full roster: Marta Mikliszańska (Allegro), Jakub Turowski (representing Meta), Joanna Jaworek-Korjakowska (AGH), Maciej Jan Broniarz (University of Warsaw), prof. Agnieszka Gryszczyńska and dr Agnieszka Kasprzak (no affiliation given). Deputy Chairman of the Council of Ministers Krzysztof Gawkowski is named as the official who appointed the new composition; the article gives no appointment date. The article is dated 23 GRU 2025 and says the new term starts at a session on 16 January 2026. Dariusz Szostek and the other seven judges are not named, and neither are Donald Tusk, Michał Wawrykiewicz, Waldemar Żurek or Adam Bodnar. The article does not say whether members are paid or serve in an honorary capacity. The full official member list is at the gov.pl link in followup_urls, which was not fetched because it is on another host.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:58.840Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 28110,
+    "sha256": "bf2f29817a63137cc1ab18e98f31a4cf2152384360e3ead0a4be7193a33240b7",
+    "url_read": "https://www.telepolis.pl/wiadomosci/ministerstwo-cyfryzacji-rada-do-spraw-cyfryzacji-vi-kadencja"
+   },
+   "names_listed": [
+    "Marta Mikliszańska",
+    "Jakub Turowski",
+    "Joanna Jaworek-Korjakowska",
+    "Maciej Jan Broniarz",
+    "prof. Agnieszka Gryszczyńska",
+    "dr Agnieszka Kasprzak"
+   ],
+   "names_found_in_page_text": "6/6",
+   "followup_urls": [
+    {
+     "url": "https://www.gov.pl/web/cyfryzacja/powolano-sklad-vi-kadencji-rady-do-spraw-cyfryzacji",
+     "why": "Linked from the article ('listę powołanych członków Rady') as the official list of the 6th-term Digitisation Council. It should give the full roster and any pay or honorary status. It is on gov.pl, a different host, so it was named rather than fetched."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-32039ac2",
+     "subject": "Krzysztof Gawkowski",
+     "subject_type": "person",
+     "relation": "officially appointed the new composition of",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "date": "not given in article (article dated 23 GRU 2025)",
+     "label": "fact",
+     "label_scope": "The article reports the appointment. It gives no appointment date. The body calls him 'Minister Gawkowski' and refers to 'Ministerstwo Cyfryzacji'.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-c95572a6",
+     "subject": "Dariusz Szostek",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "szostek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-3fee396f",
+     "subject": "Krystian Markiewicz",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "markiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-2201fc05",
+     "subject": "Maciej Taborowski",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "taborowski",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-66bb4313",
+     "subject": "Anna Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-3aa0f025",
+     "subject": "Marcin Dziurda",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "dziurda",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-92f5e2b7",
+     "subject": "Magdalena Bentkowska",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bentkowska",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-9c681830",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-76b24338",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "member of Rada do spraw Cyfryzacji (6th term)",
+     "object": "Rada do spraw Cyfryzacji (6th term)",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "label": "no_link",
+     "label_scope": "Article searched for this name; not present. The article names six members only; the full list is at a linked gov.pl page that was not read.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "lead (standfirst) under the headline; full article searched for the name",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-b91b37b0",
+     "subject": "Rada do spraw Cyfryzacji (6th term) members",
+     "subject_type": "public_body",
+     "relation": "receive pay, fees or an honorarium for council membership",
+     "object": "remuneration",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "label": "no_link",
+     "label_scope": "Article searched for pay, fees, honorarium or unpaid status; none is stated.",
+     "evidence_text": "Wiceprezes Rady Ministrów Krzysztof Gawkowski oficjalnie powołał nowy skład Rady do spraw Cyfryzacji.",
+     "evidence_translation": "Deputy Chairman of the Council of Ministers Krzysztof Gawkowski officially appointed a new composition of the Council for Digital Affairs.",
+     "evidence_location": "full article text searched",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
    "ref": "B2_appointments-T1",
    "url": "https://www.bankier.pl/wiadomosc/Sedzia-Slawomir-Palka-nowym-wiceministrem-sprawiedliwosci-9023109.html",
    "host": "bankier.pl",
@@ -1371,9 +1806,7 @@
      "evidence_location": "Standfirst (lead paragraph under the headline)",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "rpo_office",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-42b5c190",
@@ -1605,8 +2038,12 @@
      "evidence_location": "Standfirst (lead paragraph under the headline)",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "pis",
+     "object_map_id": "ko",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "ko",
+      "pis"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1643,11 +2080,25 @@
      "evidence_location": "Body, paragraph beginning 'Chodzi o dr. Michała Peno'",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "gregorczyk_abram",
+     "subject_map_id": "rpo_office",
      "subject_map_status": "on_map",
-     "object_map_id": "free_courts",
+     "object_map_id": "iustitia",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "subject_map_ids": [
+      "rpo_office",
+      "gregorczyk_abram"
+     ],
+     "object_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
       "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
       "co-leads the foundation now",
@@ -2516,8 +2967,6 @@
      "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
-     "object_map_id": "venice",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -2826,8 +3275,20 @@
      "evidence_check": "exact",
      "subject_map_id": "orlen",
      "subject_map_status": "on_map",
-     "object_map_id": "rpo_office",
+     "object_map_id": "hfhr",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "hfhr",
+      "free_courts",
+      "batory",
+      "kod",
+      "rpo_office",
+      "iustitia",
+      "themis",
+      "kos",
+      "okopress",
+      "akcja_demokracja"
+     ],
      "map_status": "new_tie_between_known_entities"
     }
    ]
@@ -2986,9 +3447,7 @@
      "label_scope": "Bio states it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "codification_commission",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-43b73579",
@@ -3496,9 +3955,7 @@
      "label_scope": "MPs not named. Page says they questioned his powers and the legal force of the decision to change the station's management.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "pis",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-a940cec6",
@@ -3632,9 +4089,7 @@
      "access": "page_read",
      "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
      "evidence_check": "found_on_linked_page",
-     "object_map_id": "tvp",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-74ca238a",
@@ -4048,11 +4503,21 @@
      "evidence_location": "Whole page checked; intro paragraph given as scope",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "korwin_piotrowska",
+     "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
+     "subject_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_tie_between_known_entities",
      "existing_relations": [
       "criticised 30 Oct order: 'legal basis ... is questionable'; 'We see no clear legal basis for such a decision to be issued by the longest-ser"
      ]
@@ -4072,11 +4537,21 @@
      "evidence_location": "Whole page checked; intro paragraph given as scope",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "wawrykiewicz",
+     "subject_map_id": "tusk",
      "subject_map_status": "on_map",
      "object_map_id": "hfhr",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "subject_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "vice-president 2010-2015",
+      "vice-president 2010-2015"
+     ]
     }
    ]
   },
@@ -5201,9 +5676,7 @@
      "date": "04/11/2025",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "wawrykiewicz",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-7fbb7918",
@@ -5221,9 +5694,7 @@
      "date": "04/11/2025",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "wawrykiewicz",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-2ddc886d",
@@ -6016,6 +6487,748 @@
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-F1",
+   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
+   "host": "bizraport.pl",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 16229 characters. Page reproduces KRS data via BizRaport.pl; footer says data last updated 30 October 2026. Liquidation start date and financial figures are not shown ('b.d.').",
+   "page_title": "KANCELARIA ADWOKACKA WAWRYKIEWICZ W LIKWIDACJI | KRS: 0000989203 | BizRaport",
+   "page_date": "30 October 2026 (last data update shown on page)",
+   "publisher": "BizRaport.pl",
+   "capture_answer": "Partners and liquidator: the listing names Wawrykiewicz Michał as liquidator and partner, and Janczara Sandra as partner. Registered 2022-08-26 as a spółka partnerska; liquidation flagged 'Tak' with no start date shown. Address: UL. JESIONOWA 3, 02-073 Warszawa, changed by entry of 28.08.2024 from UL. WIEJSKA 12, 00-490. Revenue, profit, assets and goodwill are all 'b.d.' (no data). Three MSiG notices, latest dated 12 September 2024 (MSiG 178/2024): formation entry 26.08.2022 (notarial deed of 14.07.2022, REP. 5036/2022, notary Anna Zegarowicz; indefinite term; partners listed); name change entered 23.05.2024 (from '... I PARTNERZY ...'); address change entered 28.08.2024. The page does not identify this Wawrykiewicz as the MEP. The EP declarations link named in the brief was not read here.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:58.540Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16229,
+    "sha256": "efb27bea261eccc4ce7cc477b28fbe49680475b0e928d16c84dccc99aa6544c9",
+    "url_read": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji"
+   },
+   "names_listed": [
+    "Janczara Sandra",
+    "Wawrykiewicz Michał"
+   ],
+   "names_found_in_page_text": "2/2",
+   "followup_urls": [
+    {
+     "url": "https://www.bizraport.pl/osoba/0b43aa4ac0ba49bd0cc2b412da63ed70/wawrykiewicz_michal",
+     "why": "BizRaport person page for 'Wawrykiewicz Michał', linked from the Reprezentacja section; may list his other registered roles."
+    },
+    {
+     "url": "https://www.bizraport.pl/osoba/d97b1f325134c4f201994780aafd0235/janczara_sandra",
+     "why": "BizRaport person page for 'Janczara Sandra', linked from the Reprezentacja section; may list her other registered roles."
+    },
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
+     "why": "EP declarations page for the MEP; check whether the law partnership is named there (the brief says it is; not verified on these pages)."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-4f09b0e9",
+     "subject": "Wawrykiewicz Michał",
+     "subject_type": "person",
+     "relation": "is liquidator and partner (wspólnik) of",
+     "object": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji (KRS 0000989203)",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "evidence_text": "likwidatorwspólnik",
+     "evidence_translation": "liquidator and partner (the two labels run together on the page)",
+     "evidence_location": "Section 'Reprezentacja' (Representation), entry 'Wawrykiewicz Michał'",
+     "label": "fact",
+     "label_scope": "Register listing as shown on BizRaport. The page does not say this person is the MEP Michał Wawrykiewicz.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-d0797d7e",
+     "subject": "Janczara Sandra",
+     "subject_type": "person",
+     "relation": "is partner (wspólnik) of",
+     "object": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji (KRS 0000989203)",
+     "object_type": "company",
+     "kind": "role_or_job",
+     "evidence_text": "wspólnik",
+     "evidence_translation": "partner",
+     "evidence_location": "Section 'Reprezentacja', entry 'Janczara Sandra'",
+     "label": "fact",
+     "label_scope": "Register listing as shown on BizRaport. The 2022 formation notice gives the name as 'JANCZARA SANDRA NATALIA' (Dane partnerów).",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-d851726c",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "entered in the KRS register on",
+     "object": "26.08.2022 (KRS 0000989203; basic data also gives 'Rejestracja' 2022-08-26)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "wpis do rejestru: 26.08.2022",
+     "evidence_translation": "entry in the register: 26.08.2022",
+     "evidence_location": "MSiG notice 3 (Poz. 714940, MSiG 172/2022 of 6 September 2022); 'Rejestracja' field in basic data",
+     "label": "fact",
+     "label_scope": "Registration date only. The page gives no liquidation start date.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-5c31c94b",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "is in liquidation (Postępowanie likwidacyjne)",
+     "object": "Tak; no liquidation start date or liquidator appointment date shown",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Postępowanie likwidacyjne",
+     "evidence_translation": "liquidation proceedings",
+     "evidence_location": "Basic data table, row 'Postępowanie likwidacyjne' (value 'Tak')",
+     "label": "fact",
+     "label_scope": "Status flag only. The page gives no date for the start of liquidation.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-54fa323d",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "has registered address (changed by KRS entry of 28.08.2024)",
+     "object": "UL. JESIONOWA, 3, 02-073 Warszawa (previously UL. WIEJSKA 12, 00-490 Warszawa)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "wpisać: 2. miejscowość WARSZAWA ulica UL. JESIONOWA nr domu 3 kod pocztowy 02-073",
+     "evidence_translation": "to be entered: 2. locality WARSZAWA, street UL. JESIONOWA, house no. 3, postal code 02-073",
+     "evidence_location": "MSiG notice 1 (Poz. 1244143, MSiG 178/2024 of 12 September 2024), Treść obwieszczenia, Rub. 2",
+     "label": "fact",
+     "label_scope": "Address as registered per the 2024 entry and the basic data table.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-d398e9ff",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "reports revenue or profit",
+     "object": "none shown (przychód b.d.; zysk b.d.; aktywa b.d.; wartość firmy b.d.)",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "przychód",
+     "evidence_translation": "revenue",
+     "evidence_location": "Top financial tiles: aktywa, przychód, zysk, wartość firmy (each 'b.d.')",
+     "label": "no_link",
+     "label_scope": "Page checked for revenue, profit, assets and goodwill figures; all shown as 'b.d.' (no data). No yearly breakdown appears.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-70bd4a4f",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "has shareholders (udziałowcy) listed",
+     "object": "none shown",
+     "object_type": "other",
+     "kind": "ownership",
+     "evidence_text": "Brak danych o udziałowcach.",
+     "evidence_translation": "No data on shareholders.",
+     "evidence_location": "Section 'Udziałowcy'",
+     "label": "no_link",
+     "label_scope": "Page checked for shareholders; none shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-a267c6f0",
+     "subject": "Kancelaria Adwokacka Wawrykiewicz spółka partnerska w likwidacji",
+     "subject_type": "company",
+     "relation": "lists as partner, liquidator or shareholder any named actor in the brief",
+     "object": "none of: judges named in the brief, Donald Tusk, Waldemar Żurek, Adam Bodnar, Bogdan Święczkowski, Karol Nawrocki, or the NGOs named in the brief",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Reprezentacja",
+     "evidence_translation": "Representation",
+     "evidence_location": "Section 'Reprezentacja' (partners and liquidator list)",
+     "label": "no_link",
+     "label_scope": "Page checked for the brief's named actors among partners, liquidator and shareholders; none appears.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-F2",
+   "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/meetings/past",
+   "host": "europarl.europa.eu",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "partial",
+   "fetch_note": "HTTP 200 OK, text/html, 16246 characters. Only the first 10 past meetings are shown; the page has a 'Load more' control, so later meetings were not read. Capacity values shown are only 'Member' and 'Member Staff meeting'. Host shown is the European Parliament (Brussels or MEP office) in each entry; no funders, sponsors or inviters are shown.",
+   "page_title": "Past meetings | Michał WAWRYKIEWICZ | MEPs | European Parliament",
+   "page_date": "01-11-2026 (page metadata 'meta-available')",
+   "publisher": "European Parliament (MEP profile)",
+   "capture_answer": "Ten meetings are visible, dated 26-09-2025 to 14-07-2026, all listed at the European Parliament (Brussels or the MEP office). Procedures named: 2025/0360(COD) Digital Omnibus (three meetings), 2025/0359(COD) Digital Omnibus, 2025/0358(COD) EU Business Wallets, Digital Omnibus, 2025/0045(COD) OMNIOBUS I; two meetings have no procedure number. Organisations met: Allegro sp. z o.o., Apple Inc., Google Ireland Limited and its affiliates, IBM Corporation, Microsoft Corporation, Polish Confederation Lewiatan (two meetings), AI CHAMBER (three), European Council on Foreign Relations (ECFR project), Mouvement des Entreprises de France, AAVIT, Związek Cyfrowa Polska, Związek Banków Polskich, RES PUBLICA FOUNDATION, NOVE, TotalEnergies SE. Capacity is 'Member' or 'Member Staff meeting' throughout; no rapporteur, shadow or chair capacity appears. No funders, sponsors or inviters are shown. None of the brief's named actors appears. More meetings sit behind 'Load more' and were not read.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.442Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 16246,
+    "sha256": "7327317628c1b22c1b7b4ccf1a10f80827050782b36255ec18ef129677e6fbbe",
+    "url_read": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/meetings/past"
+   },
+   "names_listed": [
+    "Allegro sp. z o.o.",
+    "Apple Inc.",
+    "Google Ireland Limited and its affiliates",
+    "IBM Corporation",
+    "Microsoft Corporation",
+    "Polish Confederation Lewiatan",
+    "AI CHAMBER",
+    "European Council on Foreign Relations",
+    "Mouvement des Entreprises de France",
+    "AAVIT",
+    "Związek Cyfrowa Polska",
+    "Związek Banków Polskich",
+    "RES PUBLICA FOUNDATION",
+    "NOVE",
+    "TotalEnergies SE"
+   ],
+   "names_found_in_page_text": "15/15",
+   "followup_urls": [
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/search-meetings",
+     "why": "EP meeting search linked from the site navigation; use it to reach meetings behind 'Load more'. Not read."
+    },
+    {
+     "url": "https://transparency-register.europa.eu/search-details_en?id=647057551927-39&prefLang=647057551927-39",
+     "why": "Transparency Register entry for RES PUBLICA FOUNDATION, linked on this page; may show its funding and activities."
+    },
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
+     "why": "EP declarations page linked from the site navigation; may list outside positions and the law partnership. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-c7494881",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Digital Omnibus', 2025/0360(COD), capacity 'Member')",
+     "object": "Allegro sp. z o.o.; Apple Inc.; Google Ireland Limited and its affiliates; IBM Corporation; Microsoft Corporation; Polish Confederation Lewiatan",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "14-07-2026 European Parliament, Brussels",
+     "evidence_translation": "14-07-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 1 of the list: 'Digital Omnibus', Date, Place block; organisations under 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting and these organisations. Host: European Parliament, Brussels. No funders, sponsors or inviter shown; the page gives no agenda content beyond the heading.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-4b3308b0",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Digital Omnibus', 2025/0360(COD), capacity 'Member')",
+     "object": "AI CHAMBER",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "01-07-2026 European Parliament, Brussels",
+     "evidence_translation": "01-07-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 2 of the list: 'Digital Omnibus', Date, Place block; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation. Host: European Parliament, Brussels. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-7fe6fb91",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting '’European Sentiment Compass’, ECFR project', capacity 'Member Staff meeting')",
+     "object": "European Council on Foreign Relations",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "30-06-2026 European Parliament, Brussels",
+     "evidence_translation": "30-06-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 3 of the list: heading ''European Sentiment Compass'', ECFR project'; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation, under a heading naming the ECFR project. The page does not show who funds the project.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-8def9e97",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Digital Omnibus', 2025/0360(COD), capacity 'Member Staff meeting')",
+     "object": "AI CHAMBER",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "24-06-2026 European Parliament, Brussels",
+     "evidence_translation": "24-06-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 4 of the list: 'Digital Omnibus', Date, Place block; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation. Host: European Parliament, Brussels. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-6e785344",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'EU Business Wallets, Digital Omnibus', 2025/0358(COD), capacity 'Member Staff meeting')",
+     "object": "Mouvement des Entreprises de France",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "12-05-2026 European Parliament, Brussels",
+     "evidence_translation": "12-05-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 5 of the list: 'EU Business Wallets, Digital Omnibus', Date, Place block; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation (transparency register link on page). No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-902cf36a",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Digital Omnibus', 2025/0359(COD), capacity 'Member Staff meeting')",
+     "object": "AI CHAMBER; Polish Confederation Lewiatan; AAVIT",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "07-05-2026 European Parliament, Brussels",
+     "evidence_translation": "07-05-2026 European Parliament, Brussels (English on page)",
+     "evidence_location": "Entry 6 of the list: 'Digital Omnibus', Date, Place block; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with these organisations. Host: European Parliament, Brussels. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-6fd98f1e",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Regulatory challenges and the need to strengthen competitiveness in the digital environment.', capacity 'Member')",
+     "object": "Związek Cyfrowa Polska",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "15-04-2026 European Parliament MEP office",
+     "evidence_translation": "15-04-2026 European Parliament MEP office (English on page)",
+     "evidence_location": "Entry 7 of the list: heading, Date, Place block; 'Meeting with:'",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation, held at the MEP's office. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-4249ffe7",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'discussion on the situation of the Polish banking sector', capacity 'Member')",
+     "object": "Związek Banków Polskich",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "28-01-2026 European Parliament Brussels",
+     "evidence_translation": "28-01-2026 European Parliament Brussels (English on page)",
+     "evidence_location": "Entry 8 of the list: heading, Date, Place block; 'Meeting with:' (transparency register link on page)",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this organisation. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-043a61e5",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'Support for civil society and NGOs', capacity 'Member')",
+     "object": "RES PUBLICA FOUNDATION",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "04-11-2025 European Parliament office of the MEP",
+     "evidence_translation": "04-11-2025 European Parliament office of the MEP (English on page)",
+     "evidence_location": "Entry 9 of the list: heading, Date, Place block; 'Meeting with:' (transparency register link on page)",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with this foundation, under a heading about civil society and NGOs. The page does not say what was discussed or whether the foundation funds or is funded by any listed actor.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-8cdfe84b",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "met (listed EP meeting 'OMNIOBUS I', 2025/0045(COD), capacity 'Member Staff meeting')",
+     "object": "NOVE; TotalEnergies SE",
+     "object_type": "org",
+     "kind": "event_or_speech",
+     "evidence_text": "26-09-2025 Brussels",
+     "evidence_translation": "26-09-2025 Brussels (English on page)",
+     "evidence_location": "Entry 10 of the list: 'OMNIOBUS I', Date, Place block; 'Meeting with:' (transparency register links on page)",
+     "label": "fact",
+     "label_scope": "The EP meetings list shows this meeting with these organisations. Host: Brussels as written. No funders or inviter shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-f0613a12",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "holds rapporteur, shadow rapporteur or committee chair capacity at the listed meetings",
+     "object": "none shown",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Capacity:",
+     "evidence_translation": "Capacity:",
+     "evidence_location": "Each meeting entry, 'Capacity:' line",
+     "label": "no_link",
+     "label_scope": "Page checked for these capacities across the 10 visible meetings; each shows 'Member' or 'Member Staff meeting'. Meetings behind 'Load more' were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-890008d3",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "has a listed meeting with any named actor in the brief",
+     "object": "none of: the judges named in the brief, Donald Tusk, Waldemar Żurek, Adam Bodnar, Bogdan Święczkowski, Karol Nawrocki, Iustitia, Themis, Free Courts, HFHR, Batory Foundation, KOS, OKO.press, Akcja Demokracja, KOD",
+     "object_type": "other",
+     "kind": "event_or_speech",
+     "evidence_text": "Meeting with:",
+     "evidence_translation": "Meeting with:",
+     "evidence_location": "All 10 visible meeting entries",
+     "label": "no_link",
+     "label_scope": "Page checked for these names among the 10 visible meetings; none appears. Meetings behind 'Load more' were not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki",
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "co-founder (2017)"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "B4_wawrykiewicz-F3",
+   "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home",
+   "host": "europarl.europa.eu",
+   "theme": "B4_wawrykiewicz",
+   "fetch_status": "ok",
+   "fetch_note": "HTTP 200 OK, text/html, 17805 characters. No dates for committee or delegation roles are shown on this page. Roles are shown only as 'Member' or 'Substitute'. No vice-chair or chair role appears.",
+   "page_title": "Home | Michał WAWRYKIEWICZ | MEPs | European Parliament",
+   "page_date": "01-11-2026 (page metadata 'meta-available')",
+   "publisher": "European Parliament (MEP profile)",
+   "capture_answer": "Political group: Group of the European People's Party (Christian Democrats), role 'Member'. National party line as shown: 'Poland - Independent (Poland)'. Committees and delegations: Member of JURI (Committee on Legal Affairs) and D-US (Delegation for relations with the United States); Substitute on LIBE (Committee on Civil Liberties, Justice and Home Affairs), EUDS (Special Committee on the European Democracy Shield), D-BR (Delegation for relations with the Federative Republic of Brazil) and DLAT (Delegation to the Euro-Latin American Parliamentary Assembly). The page gives no dates for any role and shows no chair or vice-chair role.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:58.703Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 17805,
+    "sha256": "d994f177f0bf50a0fda353cac1189a31f501895b65e635aa6dfc1b20444b771b",
+    "url_read": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/home"
+   },
+   "names_listed": [
+    "Group of the European People's Party (Christian Democrats)",
+    "Committee on Legal Affairs",
+    "Delegation for relations with the United States",
+    "Committee on Civil Liberties, Justice and Home Affairs",
+    "Special Committee on the European Democracy Shield",
+    "Delegation for relations with the Federative Republic of Brazil",
+    "Delegation to the Euro-Latin American Parliamentary Assembly"
+   ],
+   "names_found_in_page_text": "7/7",
+   "followup_urls": [
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/history/10",
+     "why": "10th-term history page linked from this profile; may show dates for the committee and delegation roles, which this page does not show. Not read."
+    },
+    {
+     "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/declarations",
+     "why": "Declarations page linked from this profile; the brief says the law partnership is named in them. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-894c3c18",
+     "subject": "Michał WAVRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is member of political group",
+     "object": "Group of the European People's Party (Christian Democrats)",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Group of the European People's Party (Christian Democrats)",
+     "evidence_translation": "Group of the European People's Party (Christian Democrats) (English on page)",
+     "evidence_location": "Profile header under name; role line 'Member' below the group name",
+     "label": "fact",
+     "label_scope": "Political group as shown on the EP profile. The page gives no start date.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "epp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-935a875e",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "national party as shown on EP profile",
+     "object": "Poland - Independent (Poland)",
+     "object_type": "party",
+     "kind": "membership_or_board",
+     "evidence_text": "Poland - Independent (Poland)",
+     "evidence_translation": "Poland - Independent (Poland) (English on page)",
+     "evidence_location": "Profile header, line below the political group",
+     "label": "fact",
+     "label_scope": "Line reproduced exactly as displayed on the profile; the page does not explain the party name.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-577f79e2",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Member of committee (abbreviation JURI)",
+     "object": "Committee on Legal Affairs",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Committee on Legal Affairs",
+     "evidence_translation": "Committee on Legal Affairs (English on page)",
+     "evidence_location": "'Member' block, first entry (JURI)",
+     "label": "fact",
+     "label_scope": "Role 'Member' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-5a599be1",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Member of delegation (abbreviation D-US)",
+     "object": "Delegation for relations with the United States",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Delegation for relations with the United States",
+     "evidence_translation": "Delegation for relations with the United States (English on page)",
+     "evidence_location": "'Member' block, second entry (D-US)",
+     "label": "fact",
+     "label_scope": "Role 'Member' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-acf3f1ce",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Substitute on committee (abbreviation LIBE)",
+     "object": "Committee on Civil Liberties, Justice and Home Affairs",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Committee on Civil Liberties, Justice and Home Affairs",
+     "evidence_translation": "Committee on Civil Liberties, Justice and Home Affairs (English on page)",
+     "evidence_location": "'Substitute' block, first entry (LIBE)",
+     "label": "fact",
+     "label_scope": "Role 'Substitute' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-db750d7b",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Substitute on special committee (abbreviation EUDS)",
+     "object": "Special Committee on the European Democracy Shield",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Special Committee on the European Democracy Shield",
+     "evidence_translation": "Special Committee on the European Democracy Shield (English on page)",
+     "evidence_location": "'Substitute' block, second entry (EUDS)",
+     "label": "fact",
+     "label_scope": "Role 'Substitute' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-2bbda704",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Substitute on delegation (abbreviation D-BR)",
+     "object": "Delegation for relations with the Federative Republic of Brazil",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Delegation for relations with the Federative Republic of Brazil",
+     "evidence_translation": "Delegation for relations with the Federative Republic of Brazil (English on page)",
+     "evidence_location": "'Substitute' block, third entry (D-BR)",
+     "label": "fact",
+     "label_scope": "Role 'Substitute' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-9ba97fbc",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "is Substitute on delegation (abbreviation DLAT)",
+     "object": "Delegation to the Euro-Latin American Parliamentary Assembly",
+     "object_type": "public_body",
+     "kind": "membership_or_board",
+     "evidence_text": "Delegation to the Euro-Latin American Parliamentary Assembly",
+     "evidence_translation": "Delegation to the Euro-Latin American Parliamentary Assembly (English on page)",
+     "evidence_location": "'Substitute' block, fourth entry (DLAT)",
+     "label": "fact",
+     "label_scope": "Role 'Substitute' as shown on the profile. No dates shown on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-03bc8a3b",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "holds chair or vice-chair role in a committee or delegation",
+     "object": "none shown",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Substitute",
+     "evidence_translation": "Substitute (role heading)",
+     "evidence_location": "Committee and delegation role headings ('Member', 'Substitute')",
+     "label": "no_link",
+     "label_scope": "Page checked for chair or vice-chair roles; only 'Member' and 'Substitute' headings appear. No dates shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-a3b3fadc",
+     "subject": "Michał WAWRYKIEWICZ",
+     "subject_type": "person",
+     "relation": "has a listed tie with any named actor in the brief",
+     "object": "none of: the judges named in the brief, Donald Tusk, Waldemar Żurek, Adam Bodnar, Bogdan Święczkowski, Karol Nawrocki, or the NGOs named in the brief",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Most recent activities",
+     "evidence_translation": "Most recent activities (heading)",
+     "evidence_location": "Section 'Most recent activities' and the group, committee and delegation blocks",
+     "label": "no_link",
+     "label_scope": "Page checked for these names; none appears in the group, committee, delegation or activity blocks shown.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz",
+     "subject_map_status": "on_map",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)",
+      "Tusk personally picked him for the 2024 list (plausible since Tusk leads KO list-making, but no source says so)"
+     ]
     }
    ]
   },
@@ -7215,6 +8428,1182 @@
    ]
   },
   {
+   "ref": "B5_nominations-F1",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The URL returned HTTP 200 OK (text/html, 505 characters), but the body is a placeholder notice, not the opinion. Site name line: 'Archiwum im. Wiktora Osiatyńskiego'. Title: 'Archiwum Osiatyńskiego'. Heading: 'Treści Archiwum są dostępne w OKO.press'. Text: 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna. Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.' Link: 'Przejdź do OKO.press →' to https://oko.press/. Footer: 'Fundacja Ośrodek Kontroli Obywatelskiej OKO'. No retry: the response was a 200 with a notice, not a timeout or Retry-After. https://oko.press/ was not fetched (different host). The same 505-character notice came back for all three PDFs.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "The opinion itself did not come back, so the author's name and title, the commissioning body, the number and date, the bill or print covered, and the main conclusion cannot be read. The notice names none of the listed actors, so whether the author is one of the eight judges cannot be answered. Re-check the PDF later, as the notice says the site is temporarily unavailable.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.258Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice ('Przejdź do OKO.press →') as the place where the archive's materials are said to be. Not fetched: another host, and the notice does not name the opinion PDFs."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-0ddcf684",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials concerning the rule of law, democracy and human rights in the OKO.press service.",
+     "evidence_location": "Paragraph under the main heading (second sentence)",
+     "label": "fact",
+     "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-fa30eeb6",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "page footer names",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "fact",
+     "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-1a3a643b",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "operated by (inferred, not stated)",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "speculation",
+     "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-bd9e6c31",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "owns or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "ownership",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer; the OKO.press link appears separately in the notice ('Przejdź do OKO.press →')",
+     "label": "no_link",
+     "label_scope": "Page checked for any statement that the foundation owns or runs OKO.press; none found. The two names appear separately on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F2",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The URL returned HTTP 200 OK (text/html, 505 characters), but the body is a placeholder notice, not the opinion. Site name line: 'Archiwum im. Wiktora Osiatyńskiego'. Title: 'Archiwum Osiatyńskiego'. Heading: 'Treści Archiwum są dostępne w OKO.press'. Text: 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna. Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.' Link: 'Przejdź do OKO.press →' to https://oko.press/. Footer: 'Fundacja Ośrodek Kontroli Obywatelskiej OKO'. No retry: the response was a 200 with a notice, not a timeout or Retry-After. https://oko.press/ was not fetched (different host). The same 505-character notice came back for all three PDFs.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "Same result as B5_nominations-F1. The opinion did not come back, so the author, the commissioning body, the number and date, the bill or print, and the main conclusion cannot be read, and the eight-judges question cannot be answered. The notice names none of the listed actors. Re-check the PDF later, as the notice says the site is temporarily unavailable.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.250Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_JZ-2.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice ('Przejdź do OKO.press →') as the place where the archive's materials are said to be. Not fetched: another host, and the notice does not name the opinion PDFs."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-d68fef08",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials concerning the rule of law, democracy and human rights in the OKO.press service.",
+     "evidence_location": "Paragraph under the main heading (second sentence)",
+     "label": "fact",
+     "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-e7734f90",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "page footer names",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "fact",
+     "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-d9ceffe8",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "operated by (inferred, not stated)",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "speculation",
+     "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-930ebba1",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "owns or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "ownership",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer; the OKO.press link appears separately in the notice ('Przejdź do OKO.press →')",
+     "label": "no_link",
+     "label_scope": "Page checked for any statement that the foundation owns or runs OKO.press; none found. The two names appear separately on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F3",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The URL returned HTTP 200 OK (text/html, 505 characters), but the body is a placeholder notice, not the opinion. Site name line: 'Archiwum im. Wiktora Osiatyńskiego'. Title: 'Archiwum Osiatyńskiego'. Heading: 'Treści Archiwum są dostępne w OKO.press'. Text: 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna. Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.' Link: 'Przejdź do OKO.press →' to https://oko.press/. Footer: 'Fundacja Ośrodek Kontroli Obywatelskiej OKO'. No retry: the response was a 200 with a notice, not a timeout or Retry-After. https://oko.press/ was not fetched (different host). The same 505-character notice came back for all three PDFs.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "Same result as B5_nominations-F1. The opinion did not come back, so the author, the commissioning body, the number and date, the bill or print, and the main conclusion cannot be read, and the eight-judges question cannot be answered. The notice names none of the listed actors. Re-check the PDF later, as the notice says the site is temporarily unavailable.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.242Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_TK-2.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice ('Przejdź do OKO.press →') as the place where the archive's materials are said to be. Not fetched: another host, and the notice does not name the opinion PDFs."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-e952516f",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are available on",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials concerning the rule of law, democracy and human rights in the OKO.press service.",
+     "evidence_location": "Paragraph under the main heading (second sentence)",
+     "label": "fact",
+     "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-1e83bd19",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "page footer names",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "fact",
+     "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-a6f3a083",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "operated by (inferred, not stated)",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer, last line of the page",
+     "label": "speculation",
+     "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-80e910fb",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "owns or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "ownership",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "evidence_location": "Footer; the OKO.press link appears separately in the notice ('Przejdź do OKO.press →')",
+     "label": "no_link",
+     "label_scope": "Page checked for any statement that the foundation owns or runs OKO.press; none found. The two names appear separately on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F4",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The fetch returned HTTP 200 OK, text/html, 505 characters, not the PDF. The body is a site notice: title 'Archiwum Osiatyńskiego'; heading 'Treści Archiwum są dostępne w OKO.press'; text 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna.'; link 'Przejdź do OKO.press →' to https://oko.press/. It contains no author, commissioning body, number, date, print number, conclusion or judge name. The URL path contains /2024/04/ and the page gives no date. No retry was made.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "Not answerable from this page. The fetched text is only a notice that the Archive site is temporarily unavailable and its materials are in OKO.press. It gives no author, commissioning body, number or date, bill or print, main conclusion, or judge name, so whether the author is one of the eight judges cannot be determined. The file name is i681-24A_AB-K; the page does not say what it refers to.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:00.616Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_AB-K.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are now available. Not fetched: a different host from the given page. May hold the opinion texts or their author and commission details."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-55387fd7",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on rule of law, democracy and human rights can be found in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Archiwum Osiatyńskiego materials on rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "The Archive's own site notice says this. The page gives no date, no list of items and no terms of any arrangement with OKO.press.",
+     "evidence_location": "Paragraph under the heading 'Treści Archiwum są dostępne w OKO.press'",
+     "new_entities": [
+      "Archiwum im. Wiktora Osiatyńskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-38d69862",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "named on the same page, with no role stated",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "label": "fact",
+     "label_scope": "The last line of the page text shows this name. The page does not say what role the foundation has in the Archive or in OKO.press.",
+     "evidence_location": "Last line of the page text, after the link to OKO.press",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-48b950fa",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "publishes or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Przejdź do OKO.press →",
+     "evidence_translation": "Go to OKO.press →",
+     "label": "no_link",
+     "label_scope": "Checked the page for any statement that this foundation publishes or runs OKO.press. None is on the page; the foundation name appears only in the last line.",
+     "evidence_location": "Link line under the notice text",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F5",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_KE.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The fetch returned HTTP 200 OK, text/html, 505 characters, not the PDF. The body is the same site notice as B5_nominations-F4 (title 'Archiwum Osiatyńskiego'; 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna.'; link 'Przejdź do OKO.press →'). No author, commissioning body, number, date, print or judge name appears. The URL path contains /2024/04/ and the page gives no date. No retry was made.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "Not answerable from this page. The fetched text is only a notice that the Archive site is temporarily unavailable and its materials are in OKO.press. It gives no author, commissioning body, number or date, bill or print, main conclusion, or judge name, so whether the author is one of the eight judges cannot be determined. The file name is i681-24A_KE; the page does not say what it refers to.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:57.972Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i681-24A_KE.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are now available. Not fetched: a different host from the given page. May hold the opinion texts or their author and commission details."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-ac3dd1b9",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on rule of law, democracy and human rights can be found in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Archiwum Osiatyńskiego materials on rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "The Archive's own site notice says this. The page gives no date, no list of items and no terms of any arrangement with OKO.press.",
+     "evidence_location": "Paragraph under the heading 'Treści Archiwum są dostępne w OKO.press'",
+     "new_entities": [
+      "Archiwum im. Wiktora Osiatyńskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-01b1ce74",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "named on the same page, with no role stated",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "label": "fact",
+     "label_scope": "The last line of the page text shows this name. The page does not say what role the foundation has in the Archive or in OKO.press.",
+     "evidence_location": "Last line of the page text, after the link to OKO.press",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-ee6b27ed",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "publishes or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Przejdź do OKO.press →",
+     "evidence_translation": "Go to OKO.press →",
+     "label": "no_link",
+     "label_scope": "Checked the page for any statement that this foundation publishes or runs OKO.press. None is on the page; the foundation name appears only in the last line.",
+     "evidence_location": "Link line under the notice text",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F6",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "The fetch returned HTTP 200 OK, text/html, 505 characters, not the PDF. The body is the same site notice as B5_nominations-F4 (title 'Archiwum Osiatyńskiego'; 'Strona archiwumosiatynskiego.pl jest obecnie tymczasowo niedostępna.'; link 'Przejdź do OKO.press →'). No author, commissioning body, number, date, print or judge name appears. The URL path contains /2024/04/ and the page gives no date. No retry was made.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "capture_answer": "Not answerable from this page. The fetched text is only a notice that the Archive site is temporarily unavailable and its materials are in OKO.press. It gives no author, commissioning body, number or date, bill or print, main conclusion, or judge name, so whether the author is one of the eight judges cannot be determined. The file name is i829-24A; the page does not say what it refers to.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:00.618Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i829-24A.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are now available. Not fetched: a different host from the given page. May hold the opinion texts or their author and commission details."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-68a7bd67",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on rule of law, democracy and human rights can be found in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Archiwum Osiatyńskiego materials on rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "The Archive's own site notice says this. The page gives no date, no list of items and no terms of any arrangement with OKO.press.",
+     "evidence_location": "Paragraph under the heading 'Treści Archiwum są dostępne w OKO.press'",
+     "new_entities": [
+      "Archiwum im. Wiktora Osiatyńskiego"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-ca8d4327",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "named on the same page, with no role stated",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre of Civic Control OKO",
+     "label": "fact",
+     "label_scope": "The last line of the page text shows this name. The page does not say what role the foundation has in the Archive or in OKO.press.",
+     "evidence_location": "Last line of the page text, after the link to OKO.press",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-55de132c",
+     "subject": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "subject_type": "org",
+     "relation": "publishes or runs",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Przejdź do OKO.press →",
+     "evidence_translation": "Go to OKO.press →",
+     "label": "no_link",
+     "label_scope": "Checked the page for any statement that this foundation publishes or runs OKO.press. None is on the page; the foundation name appears only in the last line.",
+     "evidence_location": "Link line under the notice text",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "okopress",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F7",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i572-24-3.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "Returned as text/html, HTTP 200 OK, 505 characters, page title 'Archiwum Osiatyńskiego'. The body is a notice headed 'Treści Archiwum są dostępne w OKO.press' saying the site is temporarily unavailable and that the Archive's materials are on OKO.press (link: https://oko.press/). The PDF itself was not returned, so nothing from the PDF is available. No retry was made and the linked site was not read.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "publisher": "Archiwum im. Wiktora Osiatyńskiego",
+   "capture_answer": "Not captured. The URL returned a notice page, not the PDF, so the author, title, commissioning body, number, date, print and main conclusion are unavailable. Whether the author is one of the eight judges cannot be determined from this fetch.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:01.739Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i572-24-3.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are said to be. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-9018b530",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "names in the site footer of its notice page",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre for Civic Control OKO",
+     "label": "fact",
+     "label_scope": "Footer text of the notice page at this URL; the PDF itself was not returned. The page does not say which entity publishes OKO.press.",
+     "evidence_location": "Footer of the notice page",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-f87c651b",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials on the rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "Statement in the notice text at this URL, made by the Archive's site. No ownership, funding or contract is stated.",
+     "evidence_location": "Main text of the notice, below the heading",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-a4269675",
+     "subject": "archiwumosiatynskiego.pl notice page",
+     "subject_type": "document",
+     "relation": "names",
+     "object": "the eight judges elected in 2026; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki; listed NGOs other than OKO.press",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Treści Archiwum są dostępne w OKO.press",
+     "evidence_translation": "Archive content is available in OKO.press.",
+     "label": "no_link",
+     "label_scope": "Checked the notice text at this URL. Apart from OKO.press and the footer name Fundacja Ośrodek Kontroli Obywatelskiej OKO, none of these is named. The PDF content was not returned, so the PDF itself is not checked.",
+     "evidence_location": "Main heading of the notice (used as the anchor for the check)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F8",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "Returned as text/html, HTTP 200 OK, 505 characters, page title 'Archiwum Osiatyńskiego'. The body is the same notice as for the other archive PDF URLs in this request: a notice headed 'Treści Archiwum są dostępne w OKO.press' saying the site is temporarily unavailable and that the Archive's materials are on OKO.press (link: https://oko.press/). The PDF itself was not returned. No retry was made and the linked site was not read.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "publisher": "Archiwum im. Wiktora Osiatyńskiego",
+   "capture_answer": "Not captured. The URL returned a notice page, not the PDF, so the author, title, commissioning body, number, date, print and main conclusion are unavailable. Whether the author is one of the eight judges cannot be determined from this fetch.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:00.798Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i579-24A-3.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are said to be. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-7129c61b",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "names in the site footer of its notice page",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre for Civic Control OKO",
+     "label": "fact",
+     "label_scope": "Footer text of the notice page at this URL; the PDF itself was not returned. The page does not say which entity publishes OKO.press.",
+     "evidence_location": "Footer of the notice page",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-5e1850b5",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials on the rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "Statement in the notice text at this URL, made by the Archive's site. No ownership, funding or contract is stated.",
+     "evidence_location": "Main text of the notice, below the heading",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-5be561d9",
+     "subject": "archiwumosiatynskiego.pl notice page",
+     "subject_type": "document",
+     "relation": "names",
+     "object": "the eight judges elected in 2026; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki; listed NGOs other than OKO.press",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Treści Archiwum są dostępne w OKO.press",
+     "evidence_translation": "Archive content is available in OKO.press.",
+     "label": "no_link",
+     "label_scope": "Checked the notice text at this URL. Apart from OKO.press and the footer name Fundacja Ośrodek Kontroli Obywatelskiej OKO, none of these is named. The PDF content was not returned, so the PDF itself is not checked.",
+     "evidence_location": "Main heading of the notice (used as the anchor for the check)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F9",
+   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i733-24A_-2.pdf",
+   "host": "archiwumosiatynskiego.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "empty",
+   "fetch_note": "Returned as text/html, HTTP 200 OK, 505 characters, page title 'Archiwum Osiatyńskiego'. The body is the same notice as for the other archive PDF URLs in this request: a notice headed 'Treści Archiwum są dostępne w OKO.press' saying the site is temporarily unavailable and that the Archive's materials are on OKO.press (link: https://oko.press/). The PDF itself was not returned. No retry was made and the linked site was not read.",
+   "page_title": "Archiwum Osiatyńskiego",
+   "publisher": "Archiwum im. Wiktora Osiatyńskiego",
+   "capture_answer": "Not captured. The URL returned a notice page, not the PDF, so the author, title, commissioning body, number, date, print and main conclusion are unavailable. Whether the author is one of the eight judges cannot be determined from this fetch.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:16:01.239Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 505,
+    "sha256": "8aa191de03e03d879db5cdb5890ec1190e54b5b5a0b54624b429c87dd01a1cf3",
+    "url_read": "https://archiwumosiatynskiego.pl/images/2024/04/i733-24A_-2.pdf"
+   },
+   "followup_urls": [
+    {
+     "url": "https://oko.press/",
+     "why": "Linked from the notice as the place where the Archive's materials are said to be. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-0968ea00",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "names in the site footer of its notice page",
+     "object": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "Fundacja Ośrodek Kontroli Obywatelskiej OKO",
+     "evidence_translation": "Foundation Centre for Civic Control OKO",
+     "label": "fact",
+     "label_scope": "Footer text of the notice page at this URL; the PDF itself was not returned. The page does not say which entity publishes OKO.press.",
+     "evidence_location": "Footer of the notice page",
+     "new_entities": [
+      "Fundacja Ośrodek Kontroli Obywatelskiej OKO"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-cc337be0",
+     "subject": "Archiwum im. Wiktora Osiatyńskiego",
+     "subject_type": "org",
+     "relation": "states that its materials on the rule of law, democracy and human rights are in",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Materiały Archiwum Osiatyńskiego dotyczące praworządności, demokracji i praw człowieka znajdziesz w serwisie OKO.press.",
+     "evidence_translation": "You will find the Osiatyński Archive's materials on the rule of law, democracy and human rights in the OKO.press service.",
+     "label": "fact",
+     "label_scope": "Statement in the notice text at this URL, made by the Archive's site. No ownership, funding or contract is stated.",
+     "evidence_location": "Main text of the notice, below the heading",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-fd14b2e2",
+     "subject": "archiwumosiatynskiego.pl notice page",
+     "subject_type": "document",
+     "relation": "names",
+     "object": "the eight judges elected in 2026; Donald Tusk; Michał Wawrykiewicz; Waldemar Żurek; Adam Bodnar; Bogdan Święczkowski; Karol Nawrocki; listed NGOs other than OKO.press",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Treści Archiwum są dostępne w OKO.press",
+     "evidence_translation": "Archive content is available in OKO.press.",
+     "label": "no_link",
+     "label_scope": "Checked the notice text at this URL. Apart from OKO.press and the footer name Fundacja Ośrodek Kontroli Obywatelskiej OKO, none of these is named. The PDF content was not returned, so the PDF itself is not checked.",
+     "evidence_location": "Main heading of the notice (used as the anchor for the check)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "tusk",
+      "wawrykiewicz",
+      "zurek",
+      "bodnar",
+      "swieczkowski",
+      "nawrocki"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B5_nominations-F10",
+   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
+   "host": "obsil.kirp.pl",
+   "theme": "B5_nominations",
+   "fetch_status": "ok",
+   "fetch_note": "Returned as application/pdf; 24,361 characters of extracted text, no file saved. The opinion is dated 5 April 2024 and is earlier than the 2026 elections named in the brief. The text has no opinion number and no print number. The file name reads '16_24-253'; the text does not confirm the 253 print number. The text does not name the bill's sponsors and does not say whether the bill was enacted, and it names no commissioning body. It refers to an unnamed 'Zespół opiniujący' (reviewing team). The URL slug abbreviates the issuer as OBSiL KRRP; the text gives the full name. Section headings are used for locations because PDF page breaks are not shown.",
+   "page_title": "Opinia Ośrodka Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych w sprawie Poselskiego projektu ustawy o Trybunale Konstytucyjnym",
+   "page_date": "2024-04-05",
+   "publisher": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+   "capture_answer": "Author: r. pr. dr hab. Grzegorz Koksanowicz, the only named person in the text, and not one of the eight judges. Issuing body: Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych; the text names no commissioning body and no formal adoption. Date: 5 kwietnia 2024 r. Number: none printed (the file name reads 16_24-253). Print: referred to only as 'Poselskiego projektu ustawy o Trybunale Konstytucyjnym'; the number 253 appears only in the file name. Main conclusion: the bill 'zasługuje na pozytywną rekomendację ze strony samorządu radców prawnych' (it deserves a positive recommendation from the legal advisers' self-government). None of the eight judges is named in the text.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:59.354Z",
+    "http": "HTTP 200 OK",
+    "content_type": "application/pdf",
+    "chars": 24361,
+    "sha256": "6a65e471c42d5bf2d43768d710e7b3201d68787a9a56c498501a7e2d05c242b1",
+    "url_read": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf"
+   },
+   "names_listed": [
+    "Grzegorz Koksanowicz"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-dfb85ed6",
+     "subject": "Grzegorz Koksanowicz",
+     "subject_type": "person",
+     "relation": "prepared (Opracował) the opinion; title printed as 'r. pr. dr hab.'",
+     "object": "opinion on the Poselskiego projektu ustawy o Trybunale Konstytucyjnym (dated 5 April 2024)",
+     "object_type": "document",
+     "kind": "role_or_job",
+     "evidence_text": "Opracował: r. pr. dr hab. Grzegorz Koksanowicz",
+     "evidence_translation": "Prepared by: r. pr. (radca prawny, legal adviser) dr hab. (habilitated doctor) Grzegorz Koksanowicz.",
+     "label": "fact",
+     "label_scope": "Authorship and title as printed on the final line. 'r. pr.' is read here as radca prawny (legal adviser). No other author is named.",
+     "evidence_location": "Final line of the document, after section III (Konkluzje)",
+     "new_entities": [
+      "Grzegorz Koksanowicz"
+     ],
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-3578c182",
+     "subject": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+     "subject_type": "org",
+     "relation": "is named as the issuing body of the opinion",
+     "object": "opinion on the Poselskiego projektu ustawy o Trybunale Konstytucyjnym",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "Opinia Ośrodka Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+     "evidence_translation": "Opinion of the Centre for Research, Studies and Legislation of the National Council of Legal Advisers (KRRP).",
+     "label": "fact",
+     "label_scope": "Issuing body as stated in the title block. The text does not say who commissioned the opinion or whether any body formally adopted it.",
+     "evidence_location": "Title block at the top of the document (PDF line breaks removed in this excerpt)",
+     "new_entities": [
+      "Krajowa Rada Radców Prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-1b0d436f",
+     "subject": "opinion on the Poselskiego projektu ustawy o Trybunale Konstytucyjnym",
+     "subject_type": "document",
+     "relation": "is dated",
+     "object": "Warszawa, dnia 5 kwietnia 2024 r.",
+     "object_type": "other",
+     "kind": "other",
+     "date": "2024-04-05",
+     "evidence_text": "Warszawa, dnia 5 kwietnia 2024 r.",
+     "evidence_translation": "Warsaw, dated 5 April 2024.",
+     "label": "fact",
+     "label_scope": "Date line on the first line of the document. The text gives no opinion number.",
+     "evidence_location": "First line of the document",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-766ee94b",
+     "subject": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+     "subject_type": "org",
+     "relation": "concludes that the bill on the Constitutional Tribunal deserves a positive recommendation from the legal advisers' self-government",
+     "object": "Poselski projekt ustawy o Trybunale Konstytucyjnym",
+     "object_type": "document",
+     "kind": "statement",
+     "evidence_text": "projekt ustawy o Trybunale Konstytucyjnym, zasługuje na pozytywną rekomendację ze strony samorządu radców prawnych.",
+     "evidence_translation": "the bill on the Constitutional Tribunal deserves a positive recommendation from the legal advisers' self-government.",
+     "label": "fact",
+     "label_scope": "The opinion's own conclusion, stated in section III, the final paragraph. The text does not name the bill's sponsors.",
+     "evidence_location": "III. Konkluzje, final paragraph",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-ed2d1d93",
+     "subject": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+     "subject_type": "org",
+     "relation": "recommends that the right to nominate Constitutional Tribunal judge candidates go to the national-level body of the legal advisers' self-government (KRRP), not to a unit (KIRP)",
+     "object": "Krajowa Rada Radców Prawnych",
+     "object_type": "org",
+     "kind": "nomination_or_vote",
+     "evidence_text": "organowi samorządu zawodowego radców prawnych szczebla krajowego, a więc Krajowej Radzie Radców Prawnych",
+     "evidence_translation": "to the body of the legal advisers' professional self-government at national level, that is, the National Council of Legal Advisers (KRRP).",
+     "label": "fact",
+     "label_scope": "The opinion's own recommendation on the nomination right under art. 18 ust. 1 of the bill. This is not a statement that any body has nominated anyone.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 1",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-8053c4e1",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "authorises the Krajowa Izba Radców Prawnych to nominate a candidate for Constitutional Tribunal judge (art. 18 ust. 1 of the bill)",
+     "object": "Krajowa Izba Radców Prawnych",
+     "object_type": "org",
+     "kind": "nomination_or_vote",
+     "evidence_text": "upoważnia on do zgłoszenia kandydata na sędziego TK Krajową Izbę Radców Prawnych (art. 18 ust.1 Projektu)",
+     "evidence_translation": "it authorises to nominate a candidate for a Constitutional Tribunal judge the National Chamber of Legal Advisers (art. 18(1) of the bill).",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 18 ust. 1 of the bill, which the opinion questions. The bill text itself is not in this fetch.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 1",
+     "new_entities": [
+      "Krajowa Izba Radców Prawnych"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-15990d16",
+     "subject": "Krajowa Izba Radców Prawnych",
+     "subject_type": "org",
+     "relation": "is an organisational unit of the legal advisers' self-government, per art. 5 ust. 2 of the act on legal advisers as cited in the opinion",
+     "object": "samorząd radcowski (legal advisers' self-government)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "jest jednostką organizacyjną samorządu radcowskiego",
+     "evidence_translation": "is an organisational unit of the legal advisers' self-government",
+     "label": "fact",
+     "label_scope": "The opinion's citation of art. 5 ust. 2 of the act on legal advisers. The act itself is not on the page.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 1, second sentence",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-9074b891",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "includes a candidate's declaration on ceasing party membership in the Sejm Marshal's vetting of the candidate (art. 18 ust. 5)",
+     "object": "candidate's declaration on ceasing membership of a political party",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "oświadczenie kandydata w sprawie ustania jego członkostwa w partii politycznej",
+     "evidence_translation": "the candidate's declaration regarding the cessation of his membership of a political party",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 18 ust. 5 of the bill. The opinion says the scope of this vetting needs further analysis. No party or person is named.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 3",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-c12fd317",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "allows a person who was actively engaged in political activity to stand for TK judge only after four years have passed since that activity ended (art. 17 ust. 2 and 3)",
+     "object": "political-activity cooling-off period for TK judge candidates",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "od ustania tej działalności minęło 4 lata",
+     "evidence_translation": "four years have passed since that activity ceased",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 17 ust. 2 and 3 of the bill, which the opinion supports. No candidate is named.",
+     "evidence_location": "II.1, opening paragraphs",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-c323ef0d",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "lists as a ground for excluding a TK judge from a case that the judge was a 'doradca' of a participant within the last 10 years (art. 54 ust. 1 pkt 4 and ust. 2 pkt 2)",
+     "object": "TK judge's past advisory role to a participant in proceedings",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "w okresie ostatnich 10 lat sędzia TK był „doradcą” uczestnika postępowania",
+     "evidence_translation": "within the last 10 years the TK judge was an adviser ('doradca') to a participant in the proceedings",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 54 ust. 1 pkt 4 and ust. 2 pkt 2 of the bill. The opinion asks what 'był doradcą' means. No judge is named.",
+     "evidence_location": "II.2 'Wątpliwości i zastrzeżenia', point 2",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-ba820d05",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "routes a motion to start disciplinary proceedings against a TK judge to the TK President (art. 34 ust. 1-3)",
+     "object": "Prezes Trybunału (office; holder not named on the page)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "wniosek o wszczęcie postępowania dyscyplinarnego składa się do Prezesa Trybunału",
+     "evidence_translation": "a motion to initiate disciplinary proceedings is submitted to the President of the Tribunal",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 34 ust. 1-3 of the bill. The opinion argues that the TK President would in effect become the disciplinary body. The holder of the office is not named on the page.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 5",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-4150f61d",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "requires a nominated TK judge candidate to receive an opinion from the KRS (art. 19 ust. 2)",
+     "object": "KRS",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "Akceptując co do zasady rozwiązanie poddające zgłoszonego kandydata na urząd sędziego TK opinii KRS",
+     "evidence_translation": "accepting in principle the solution subjecting the nominated candidate for the office of TK judge to an opinion of the KRS",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 19 ust. 2 of the bill. The opinion accepts the rule in principle and asks that the time limit and the effect of a missing KRS opinion be set out.",
+     "evidence_location": "II.1 'Wątpliwości i zastrzeżenia', point 4",
+     "new_entities": [
+      "KRS"
+     ],
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-4efda796",
+     "subject": "Poselski projekt ustawy o Trybunale Konstytucyjnym (as described in the opinion)",
+     "subject_type": "document",
+     "relation": "would give the Chairman of the Council of Ministers (Prezes RM) participant status in every case before the TK (art. 57 pkt 12)",
+     "object": "Prezes Rady Ministrów (office; holder not named on the page)",
+     "object_type": "other",
+     "kind": "role_or_job",
+     "evidence_text": "Prezesowi RM w każdej sprawie toczącej się przed TK",
+     "evidence_translation": "to the Chairman of the Council of Ministers (Prezes RM) in every case before the Constitutional Tribunal",
+     "label": "fact",
+     "label_scope": "The opinion's description of art. 57 pkt 12 of the bill, which the opinion calls too far-reaching and unjustified. The office-holder is not named on the page.",
+     "evidence_location": "II.2 'Wątpliwości i zastrzeżenia', point 3",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-163906f3",
+     "subject": "OBSiL KRRP opinion on the Poselskiego projektu ustawy o Trybunale Konstytucyjnym",
+     "subject_type": "document",
+     "relation": "names",
+     "object": "Krystian Markiewicz; Maciej Taborowski; Anna Korwin-Piotrowska; Marcin Dziurda; Dariusz Szostek; Magdalena Bentkowska; Sławomir Patyra; Maciej Berek",
+     "object_type": "person",
+     "kind": "other",
+     "evidence_text": "Opracował: r. pr. dr hab. Grzegorz Koksanowicz",
+     "evidence_translation": "Prepared by: r. pr. dr hab. Grzegorz Koksanowicz.",
+     "label": "no_link",
+     "label_scope": "Checked the full extracted text for the eight judges elected in 2026 and for the other named actors (Donald Tusk, Michał Wawrykiewicz, Waldemar Żurek, Adam Bodnar, Bogdan Święczkowski, Karol Nawrocki) and the listed NGOs. None appears. The only personal name in the text is the author shown in the evidence.",
+     "evidence_location": "Whole document; the evidence is the final author line",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "markiewicz",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska",
+      "patyra",
+      "berek"
+     ],
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-9cca2ba1",
+     "subject": "Ośrodek Badań, Studiów i Legislacji Krajowej Rady Radców Prawnych",
+     "subject_type": "org",
+     "relation": "names any fee, payment, grant, commission or contract involving",
+     "object": "the author Grzegorz Koksanowicz or the issuing body",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "wynagrodzenie adwokatów i radców prawnych",
+     "evidence_translation": "remuneration of advocates and legal advisers",
+     "label": "no_link",
+     "label_scope": "Checked the full extracted text for any fee, payment, grant, commission or contract tied to the author or the issuing body; none is stated. The only remuneration mention is art. 117 ust. 1 of the bill, which refers to regulations on advocates' and legal advisers' remuneration.",
+     "evidence_location": "II.2 'Wątpliwości i zastrzeżenia', point 14 (quoted)",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
    "ref": "B6_prosecutors_police-T1",
    "url": "https://www.gov.pl/web/prokuratura-krajowa/informacja-w-sprawie-zawiadomienia-zlozonego-przez-sedziow-trybunalu-konstytucyjnego",
    "host": "gov.pl",
@@ -7264,6 +9653,10 @@
      "subject_map_status": "on_map",
      "object_map_id": "zurek",
      "object_map_status": "on_map",
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
      "map_status": "new_tie_between_known_entities"
     },
     {
@@ -7283,9 +9676,24 @@
      "evidence_check": "exact",
      "subject_map_id": "bentkowska",
      "subject_map_status": "on_map",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "dziurda",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
+     "object_map_ids": [
+      "dziurda",
+      "markiewicz",
+      "korwin_piotrowska",
+      "taborowski"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "22 Oct 2026: brought him into the judges' section of the TK building; Święczkowski informed the disciplinary officer",
+      "brought him into the judges' section of the TK building, against internal rules (TK statement)",
+      "22 Oct 2026: brought him into the judges' section of the TK building; Święczkowski informed the disciplinary officer"
+     ]
     },
     {
      "id": "B02-4df2df93",
@@ -7304,6 +9712,10 @@
      "evidence_check": "exact",
      "subject_map_id": "bentkowska",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -7395,8 +9807,14 @@
      "label_scope": "The PK statement's description of the Sejm election",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "korwin_piotrowska",
+     "subject_map_id": "dziurda",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "dziurda",
+      "markiewicz",
+      "korwin_piotrowska",
+      "taborowski"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -7654,8 +10072,14 @@
      "subject_map_status": "on_map",
      "object_map_id": "nawrocki",
      "object_map_status": "on_map",
+     "subject_map_ids": [
+      "bentkowska",
+      "szostek"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
+      "took oath",
+      "took oath",
       "took oath",
       "took oath"
      ]
@@ -7692,8 +10116,14 @@
      "label_scope": "Article's statement (PAP-based); the four judges are named in the article's background paragraph",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "korwin_piotrowska",
+     "subject_map_id": "markiewicz",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "dziurda",
+      "korwin_piotrowska"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -7846,9 +10276,19 @@
      "evidence_check": "exact",
      "subject_map_id": "tk",
      "subject_map_status": "on_map",
-     "object_map_id": "sochanski",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file",
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file"
+     ]
     },
     {
      "id": "B02-91a4f8ad",
@@ -7868,15 +10308,19 @@
      "evidence_check": "exact",
      "subject_map_id": "korwin_piotrowska",
      "subject_map_status": "on_map",
-     "object_map_id": "sochanski",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
-      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
-      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
-      "ordered a one-month break in his duties as TK vice-president on 30 Oct 2026, alongside the order on President Święczkowski (disputed: the pr",
-      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'",
-      "phoned him on 30 Oct; he said 'Nie wiem w ogóle o co chodzi'"
+      "suspended (one month, disputed)",
+      "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
+      "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
+      "30 Oct 2026 orders: legal basis given as art. 130 of the common courts law, applied to TK judges via art. 19 of the TK judges' status act an",
+      "suspended (one month, disputed)"
      ]
     },
     {
@@ -7895,8 +10339,13 @@
      "label_scope": "Article reports that these three judges told PAP; not independently verified.",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "bentkowska",
+     "subject_map_id": "taborowski",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "taborowski",
+      "bentkowska",
+      "berek"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -7935,9 +10384,19 @@
      "evidence_check": "exact",
      "subject_map_id": "tk",
      "subject_map_status": "on_map",
-     "object_map_id": "sochanski",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
+     "map_status": "new_tie_between_known_entities",
+     "existing_relations": [
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file",
+      "president of",
+      "TK General Assembly, 15 Oct 2025: all 10 voting judges refused consent to prosecute him; prosecutors say only 3 had read the classified file"
+     ]
     },
     {
      "id": "B02-f6c668fe",
@@ -8029,14 +10488,19 @@
      "evidence_check": "exact",
      "subject_map_id": "zurek",
      "subject_map_status": "on_map",
-     "object_map_id": "sochanski",
+     "object_map_id": "swieczkowski",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
      "map_status": "pair_already_linked",
      "existing_relations": [
-      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
-      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
-      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)",
-      "held TK talks with him before 30 Oct, no compromise (Żurek's admission, undated)"
+      "filed 5 immunity motions (224 pages) before 30 Oct",
+      "suspended his wife as Sosnowiec court president (Jul 2025)",
+      "30 Sep 2025: asked the TK to allow his prosecution (Pegasus team No. 3); prosecutors allege that as National Prosecutor (Jul 2020 to Jun 202",
+      "filed 5 immunity motions (224 pages) before 30 Oct",
+      "suspended his wife as Sosnowiec court president (Jul 2025)"
      ]
     },
     {
@@ -8571,8 +11035,19 @@
      "label_scope": "The article names none of these organisations, so it shows no such tie.",
      "access": "page_read",
      "evidence_check": "not_found",
-     "subject_map_id": "batory",
+     "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "iustitia",
+      "themis",
+      "free_courts",
+      "hfhr",
+      "batory",
+      "kos",
+      "okopress",
+      "akcja_demokracja",
+      "kod"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -8590,8 +11065,16 @@
      "label_scope": "The article does not name these people, so it shows no tie to the events it covers. Maciej Taborowski, Magdalena Bentkowska and Maciej Berek are named elsewhere in the article.",
      "access": "page_read",
      "evidence_check": "not_found",
-     "subject_map_id": "markiewicz",
+     "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "wawrykiewicz",
+      "bodnar",
+      "markiewicz",
+      "dziurda",
+      "szostek",
+      "patyra"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -8628,8 +11111,12 @@
      "label_scope": "The article gives Żurek's titles (minister sprawiedliwości, prokurator generalny) and Nawrocki's title (prezydent) only, with no party affiliation or role.",
      "access": "page_read",
      "evidence_check": "not_found",
-     "subject_map_id": "nawrocki",
+     "subject_map_id": "zurek",
      "subject_map_status": "on_map",
+     "subject_map_ids": [
+      "zurek",
+      "nawrocki"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     }
    ]
@@ -8721,9 +11208,7 @@
      "evidence_location": "Body paragraph 1, second sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-fdd5e95d",
@@ -8849,13 +11334,7 @@
      "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "translator married to Wyborcza journalist (presidential office claim)",
-      "translator married to Wyborcza journalist (presidential office claim)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-c73fa629",
@@ -8916,8 +11395,6 @@
      "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
-     "object_map_id": "venice",
-     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -9463,9 +11940,7 @@
      "evidence_check": "found_on_linked_page",
      "subject_map_id": "pace",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "echr",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-2a7f349e",
@@ -9483,9 +11958,7 @@
      "access": "page_read",
      "evidence_found_at": "https://www.echr.coe.int/composition-of-the-court",
      "evidence_check": "found_on_linked_page",
-     "subject_map_id": "echr",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-ad98ab2d",
@@ -9638,9 +12111,7 @@
      "evidence_location": "CV list",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "supreme_court",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-f499d887",
@@ -9735,8 +12206,14 @@
      "evidence_location": "CV list, membership entry",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "batory",
+     "object_map_id": "themis",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "themis",
+      "free_courts",
+      "batory",
+      "hfhr"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -10131,8 +12608,6 @@
      "label_scope": "Coalition's statement; holder not named on page",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "tk",
-     "subject_map_status": "on_map",
      "object_map_id": "tk",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
@@ -10217,8 +12692,12 @@
      "label_scope": "Coalition's characterisation of the majority's position; no party or individual named",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "neo_krs",
+     "object_map_id": "tk",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "tk",
+      "neo_krs"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -10276,9 +12755,7 @@
      "label_scope": "Checked the Access to information passage and the rest of the media section: opinions described and undisclosed; no fee, payer or contract named",
      "access": "page_read",
      "evidence_check": "normalized",
-     "subject_map_id": "tusk",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-9cc89852",
@@ -10337,7 +12814,9 @@
      "label_scope": "Coalition's statement; date and candidate not given; chamber's status described as contested",
      "access": "page_read",
      "evidence_check": "normalized",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "supreme_court",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-f6c86450",
@@ -11632,9 +14111,7 @@
      "evidence_check": "exact",
      "subject_map_id": "zurek",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-e6b0a155",
@@ -12010,9 +14487,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-13965f9d",
@@ -12033,9 +14508,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-538757a3",
@@ -12101,13 +14574,7 @@
      "evidence_check": "exact",
      "subject_map_id": "piebiak_radzik",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "members appear in hate network (Puchalski edited pamphlet)",
-      "members appear in hate network (Puchalski edited pamphlet)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-9ba94b98",
@@ -12128,9 +14595,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -12202,9 +14667,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-48be3d3b",
@@ -12222,9 +14685,7 @@
      "label_scope": "Vote figures as reported; the article does not break the vote down by club.",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-52d7648f",
@@ -12244,9 +14705,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "ko",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-a54c6f0d",
@@ -12266,15 +14725,7 @@
      "evidence_check": "exact",
      "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-eeae29fc",
@@ -12294,9 +14745,7 @@
      "evidence_check": "exact",
      "subject_map_id": "themis",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-d399a7d5",
@@ -12404,9 +14853,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-3b2827fb",
@@ -12427,9 +14874,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-f1339969",
@@ -12450,9 +14895,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-12ad0506",
@@ -12473,9 +14916,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-43e90b73",
@@ -12496,9 +14937,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-aefed0ef",
@@ -12519,9 +14958,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -12596,9 +15033,7 @@
      "evidence_check": "exact",
      "subject_map_id": "themis",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-876671e8",
@@ -12618,15 +15053,7 @@
      "evidence_check": "exact",
      "subject_map_id": "iustitia",
      "subject_map_status": "on_map",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)",
-      "2023 motion to check 'who finances Iustitia and whether it gets money from abroad' (at Ziobro's request)"
-     ]
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-a9a050ed",
@@ -12647,9 +15074,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-17c2ea8a",
@@ -12784,9 +15209,7 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "neo_krs",
-     "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     }
    ]
   },
@@ -12974,7 +15397,9 @@
      "label_scope": "Education only; no employment tie stated.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -14355,7 +16780,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14378,7 +16803,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14419,7 +16844,7 @@
      "date": "2024-07-16",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14439,7 +16864,7 @@
      "date": "2024-04-26",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14462,7 +16887,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     }
@@ -14653,7 +17078,7 @@
      "date": "2024-03-06",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14676,7 +17101,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14699,7 +17124,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14722,7 +17147,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14745,7 +17170,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14767,7 +17192,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "czarzasty",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14789,7 +17214,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "myrcha",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14811,7 +17236,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "paszyk",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14833,7 +17258,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "hennig_kloska",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14856,7 +17281,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14879,7 +17304,7 @@
      ],
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14899,7 +17324,7 @@
      "date": "2024-03-06",
      "access": "page_read",
      "evidence_check": "normalized",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
@@ -14921,16 +17346,9 @@
      "evidence_check": "normalized",
      "subject_map_id": "tusk",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
-     "map_status": "pair_already_linked",
-     "existing_relations": [
-      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
-      "\"our judges will enter that building\" (Campus Polska)",
-      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
-      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
-      "\"our judges will enter that building\" (Campus Polska)"
-     ]
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B02-9acf13bd",
@@ -14950,7 +17368,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "giertych",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14972,7 +17390,7 @@
      "evidence_check": "normalized",
      "subject_map_id": "budka",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
      "map_status": "new_tie_between_known_entities"
     },
@@ -14994,9 +17412,15 @@
      "evidence_check": "normalized",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "bills counted in the 'Bodnar four-pack' of justice laws",
+      "bills counted in the 'Bodnar four-pack' of justice laws",
+      "bills counted in the 'Bodnar four-pack' of justice laws",
+      "bills counted in the 'Bodnar four-pack' of justice laws"
+     ]
     },
     {
      "id": "B02-1556a90b",
@@ -15016,9 +17440,15 @@
      "evidence_check": "exact",
      "subject_map_id": "zep_batory",
      "subject_map_status": "on_map",
-     "object_map_id": "tk",
+     "object_map_id": "tk_bills_2024",
      "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "drafted the TK bills 2019-22; filed by coalition MPs 2024",
+      "drafted the TK bills 2019-22; filed by coalition MPs 2024",
+      "drafted the TK bills 2019-22; filed by coalition MPs 2024",
+      "drafted the TK bills 2019-22; filed by coalition MPs 2024"
+     ]
     }
    ]
   },
@@ -15203,8 +17633,16 @@
      "date": "2026-03-13",
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -15226,8 +17664,16 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
-     "object_map_id": "korwin_piotrowska",
+     "object_map_id": "markiewicz",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "markiewicz",
+      "taborowski",
+      "korwin_piotrowska",
+      "dziurda",
+      "szostek",
+      "bentkowska"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -15357,9 +17803,7 @@
      "date": "2026-03-12",
      "access": "page_read",
      "evidence_check": "exact",
-     "subject_map_id": "pis",
-     "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "both_names_unmatched"
     },
     {
      "id": "B02-b5451a56",
@@ -15755,6 +18199,10 @@
      "evidence_check": "exact",
      "object_map_id": "patyra",
      "object_map_status": "on_map",
+     "object_map_ids": [
+      "patyra",
+      "kotowski"
+     ],
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -16007,9 +18455,7 @@
      "evidence_check": "exact",
      "subject_map_id": "prokuratura_krajowa",
      "subject_map_status": "sweep2_candidate",
-     "object_map_id": "tk",
-     "object_map_status": "on_map",
-     "map_status": "new_tie_between_known_entities"
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-227b75f7",
@@ -25444,20 +27890,6 @@
  ],
  "to_read_unread": [
   {
-   "theme": "B1_judges_income",
-   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSBJYY/i15635-o1.pdf",
-   "title": "i15635 o1",
-   "why": "This answer surfaced for a query on Taborowski and TVP supervisory-board pay. His pay as vice-chair since Dec 2023 is not on the map.",
-   "capture": "Signatory, date, TVP supervisory-board pay amounts and member names (Taborowski)."
-  },
-  {
-   "theme": "B1_judges_income",
-   "url": "https://www.telepolis.pl/wiadomosci/ministerstwo-cyfryzacji-rada-do-spraw-cyfryzacji-vi-kadencja",
-   "title": "Oni zaprojektują cyfrową Polskę. Ministerstwo ujawnia nazwiska",
-   "why": "Szostek is a cybersecurity and digital-law expert advising the Tusk government. The Digitisation Council may be a further advisory seat.",
-   "capture": "Full 6th-term member list, the appointing minister and the date; whether Szostek is listed; any remuneration."
-  },
-  {
    "theme": "B2_appointments",
    "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
    "title": "Logo Assembly Logo Hemicycle",
@@ -25484,34 +27916,6 @@
    "title": "PAP wpisany do Krajowego Rejestru Sądowego jako spółka w likwidacji",
    "why": "PAP liquidator Marek Błoński's KRS entry and background. pap.pl itself refuses fetches, so a non-PAP source is needed.",
    "capture": "Date of the KRS entry, the liquidator's name and earlier career, and the PAP supervisory board members if named"
-  },
-  {
-   "theme": "B4_wawrykiewicz",
-   "url": "https://www.bizraport.pl/krs/0000989203/kancelaria-adwokacka-wawrykiewicz-spolka-partnerska-w-likwidacji",
-   "title": "KANCELARIA ADWOKACKA WAWRYKIEWICZ SPÓŁKA PARTNERSKA W LIKWIDACJI",
-   "why": "Partners and dates of the law partnership in his EP declarations. The official KRS extract (api-krs.ms.gov.pl OdpisPelny 0000989203, rejestr P) is the primary record.",
-   "capture": "Registration date, partners (professional partners only; skip private family details), when liquidation was opened, liquidator, address, PKD."
-  },
-  {
-   "theme": "B4_wawrykiewicz",
-   "url": "https://www.europarl.europa.eu/meps/en/257045/MICHAL_WAWRYKIEWICZ/meetings/past",
-   "title": "Michał WAWRYKIEWICZ - past meetings (EP)",
-   "why": "As rapporteur and shadow rapporteur he must publish meetings with interest representatives; this names the organisations behind his files.",
-   "capture": "Each meeting: date, organisations or people met, the procedure involved and his capacity. Flag Free Courts, Iustitia, Themis, HFHR, Batory, NED, US embassy, KO and government officials."
-  },
-  {
-   "theme": "B5_nominations",
-   "url": "https://archiwumosiatynskiego.pl/images/2024/04/i659-24A_MS-2.pdf",
-   "title": "Expert opinion i659/24A (MS), Osiatyński Archive",
-   "why": "Part of a series of Sejm-commissioned expert opinions on the 2024 TK bills: i659/24A MS, JZ, TK; i681/24A AB-K, KE; i829/24A; i579/24A; i733/24A; i572/24.",
-   "capture": "For each file: author name and affiliation (e.g. HFHR, university), commissioning office (Biuro Ekspertyz / BAS), print number, date, and any fee or contract reference."
-  },
-  {
-   "theme": "B5_nominations",
-   "url": "https://obsil.kirp.pl/wp-content/uploads/2025/01/16_24-253-PDF-Opinia-OBSiL-KRRP-w-sprawie-projektu-ustawy-o-Trybunale-Konstytucyjnym.pdf",
-   "title": "Opinia OBSiL KRRP 16/24 on the TK bill (print 253)",
-   "why": "The legal advisers' chamber research centre gave an opinion on the 2024 TK bill. Berek (paid OBSiL expert per the map) and Dziurda (KRRP member) are linked to this body.",
-   "capture": "Named authors or reviewers of the opinion, date, addressee, conclusions; whether Berek or Dziurda took part (record a no_link if not)."
   },
   {
    "theme": "B6_prosecutors_police",
