@@ -30,38 +30,38 @@
   ]
  },
  "stats": {
-  "agents": 27,
-  "agents_left_out_unfinished_or_other_batch": 15,
+  "agents": 28,
+  "agents_left_out_unfinished_or_other_batch": 14,
   "searches": 210,
   "search_results": 3414,
   "unique_result_urls": 2482,
-  "page_fetches": 187,
-  "pages_reported": 106,
-  "pages_with_page_text": 92,
+  "page_fetches": 195,
+  "pages_reported": 109,
+  "pages_with_page_text": 93,
   "fetch_status": {
    "error": 9,
    "ok": 63,
-   "partial": 21,
+   "partial": 22,
    "empty": 12,
-   "blocked": 1
+   "blocked": 3
   },
-  "claims": 815,
+  "claims": 816,
   "labels": {
    "fact": 613,
-   "no_link": 158,
+   "no_link": 159,
    "alleged": 28,
    "speculation": 16
   },
   "evidence_check": {
    "exact": 607,
    "normalized": 120,
-   "found_on_linked_page": 59,
+   "found_on_linked_page": 60,
    "not_found": 23,
    "found_in_reader_extract_only": 6
   },
   "map_status": {
    "new_entity_or_unmatched_name": 415,
-   "pair_already_linked": 87,
+   "pair_already_linked": 88,
    "new_tie_between_known_entities": 73,
    "both_names_unmatched": 240
   },
@@ -71,7 +71,7 @@
    "statement": 107,
    "contract_or_fee": 42,
    "role_or_job": 150,
-   "membership_or_board": 120,
+   "membership_or_board": 121,
    "grant_or_donation": 9,
    "event_or_speech": 90,
    "legal_action": 36,
@@ -14435,6 +14435,103 @@
      "subject_map_id": "pace",
      "subject_map_status": "sweep2_candidate",
      "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B7_international-F1",
+   "url": "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2024)035-e",
+   "host": "venice.coe.int",
+   "theme": "B7_international",
+   "fetch_status": "blocked",
+   "fetch_note": "Refused before any content came back: \"Not fetched: https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2024)035-e failed at its site (robots_disallowed), and nothing of the page was retrieved.\" This is a robots.txt refusal, so it is permanent: sending the same URL again would fail the same way. No other page on www.venice.coe.int was tried.",
+   "capture_answer": "Not captured. The site's robots.txt refused the fetch, so nothing of opinion CDL-AD(2024)035 was read. Its requester and request date, rapporteurs, visit dates and the list of people and institutions met are unknown from this run.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B7_international-F2",
+   "url": "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2026)031-e",
+   "host": "venice.coe.int",
+   "theme": "B7_international",
+   "fetch_status": "blocked",
+   "fetch_note": "Refused before any content came back: \"Not fetched: https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2026)031-e failed at its site (robots_disallowed), and nothing of the page was retrieved.\" This is a robots.txt refusal, so it is permanent: sending the same URL again would fail the same way. No other page on www.venice.coe.int was tried.",
+   "capture_answer": "Not captured. The site's robots.txt refused the fetch, so nothing of opinion CDL-AD(2026)031 was read. Its subject, requester and request date, rapporteurs, visit dates and the delegation's list of meetings are unknown from this run.",
+   "raw": {
+    "kind": "reader_extract",
+    "note": "the page reader returned an extract it wrote from the page, not the page text; excerpts were checked against that extract"
+   },
+   "claims": []
+  },
+  {
+   "ref": "B1_judges_income-F4",
+   "url": "https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/",
+   "host": "financialfilings.com",
+   "theme": "B7_international",
+   "fetch_status": "partial",
+   "fetch_note": "The starting URL https://financialreports.eu/companies/pge-polska-grupa-energetyczna-sa/ returned 302 Found, redirecting to https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/ (same company path). The redirect target was read (HTTP 200). Three links were then followed, which is the limit set for this page: the 2024 filings list https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2024/ (HTTP 200), the 2025 filings list https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2025/ (HTTP 200), and page 2 of the 2025 list https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2025/?page=2 (HTTP 200). No remuneration document was opened, so no Patyra row was obtained. In the 2024 list, the rows from about 2024-06-24 backwards came back condensed, not verbatim. In 2025 page 2, the final ~20 rows (2025-02-07 back to 2025-01-07) also came back condensed.",
+   "page_title": "PGE Polska Grupa Energetyczna S.A. (PGE) Annual Reports & Filings",
+   "page_date": "2026-10-30 (latest filing listed on the overview)",
+   "publisher": "FinancialFilings (FINANCIALREPORTS PTE. LTD.)",
+   "capture_answer": "Not captured. No Sławomir Patyra row was obtained: the 2024 remuneration report was not opened, so months on the board, fixed pay, committee pay, other benefits, total, currency and the table heading are unknown. The only remuneration-category lead is a Polish-titled PGE filing, 'Projekty uchwał wraz z uzasadnieniem', dated 2025-06-24, which the aggregator labels 'Remuneration Information'. Its title does not name a remuneration report, and it was not opened. Patyra's name is in no visible filing title on the 2024 or 2025 lists. The 2025 report was not checked, because the 2026 list was not read.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:34:13.254Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 33695,
+    "sha256": "68f31965b6f0ed8c834d4cbabf9a914eea66d0cb62e09ac6796c0c61f034e9a5",
+    "url_read": "https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/"
+   },
+   "followup_urls": [
+    {
+     "url": "https://financialfilings.com/filings/pge-polska-grupa-energetyczna-sa/remuneration-information/2025/6453926/",
+     "why": "Polish title 'Projekty uchwał wraz z uzasadnieniem', dated 2025-06-24, category label 'Remuneration Information' on the 2025 list (page 2). The title does not name a remuneration report. Not opened: the link limit was reached."
+    },
+    {
+     "url": "https://financialfilings.com/filings/pge-polska-grupa-energetyczna-sa/agm-information/2025/6453927/",
+     "why": "English counterpart dated 2025-06-24, titled 'Draft resolutions with their justification' (category AGM Information). Not opened."
+    },
+    {
+     "url": "https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2026/",
+     "why": "2026 filings list (287 filings). The 2025 remuneration report, if it is listed, would be checked here. Not opened: the link limit was reached."
+    },
+    {
+     "url": "https://www.gkpge.pl/en",
+     "why": "Company website linked from the overview page. Not opened; it may host the remuneration reports."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-443f97ce",
+     "subject": "Sławomir Patyra",
+     "subject_type": "person",
+     "relation": "has a row in PGE's 2024 remuneration report for Management or Supervisory Board members (not found)",
+     "object": "PGE Polska Grupa Energetyczna S.A.",
+     "object_type": "company",
+     "kind": "membership_or_board",
+     "evidence_text": "All 200 regulatory filings released by PGE Polska Grupa Energetyczna S.A. (PGE) in 2025",
+     "evidence_translation": "Original text is English; only the bold markup is removed. It states the scope of the 2025 filings list.",
+     "evidence_location": "Intro paragraph under the heading '# PGE Polska Grupa Energetyczna S.A. — 2025 filings' on https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2025/",
+     "label": "no_link",
+     "label_scope": "Only the visible filing titles on PGE's 2025 list (page 1; page 2 except its final ~20 rows, which came back condensed) and on its 2024 list (up to 2024-06-24; the rest condensed). Patyra's name is in none of these titles. The remuneration report content was not opened, so its table is unchecked.",
+     "access": "page_read",
+     "evidence_found_at": "https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/2025/",
+     "evidence_check": "found_on_linked_page",
+     "subject_map_id": "patyra",
+     "subject_map_status": "on_map",
+     "object_map_id": "pge",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)",
+      "board role shaped his TK conduct",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board 1 Feb 2024 - 4 Dec 2025, State Treasury (Budka ministry) nominee; removed by EGM; pay not retrieved (PGE site blocks fetch",
+      "supervisory board member Feb 2024-Dec 2025 (State Treasury nominee)"
+     ]
     }
    ]
   },

@@ -15,10 +15,10 @@
   "cross_check": "Batch 04: a skeptical checker read each claim against the page text around its excerpt and gave a verdict: supported, partly_supported or not_supported, plus whether the label fits. Present on evidence items as cross_check."
  },
  "summary": {
-  "pages_read": 323,
-  "claims": 2725,
-  "no_link_findings": 571,
-  "no_link_findings_by_page_and_subject": 438,
+  "pages_read": 328,
+  "claims": 2746,
+  "no_link_findings": 592,
+  "no_link_findings_by_page_and_subject": 441,
   "claims_naming_several_map_entities": 30,
   "claims_with_unverified_excerpt": 56,
   "claims_not_supported_on_cross_check": 29,
@@ -78007,6 +78007,158 @@
    ]
   },
   {
+   "url": "https://ned.org/wp-content/uploads/2025/04/Global-Grant-Listing-FY24.pdf",
+   "subject": "National Endowment for Democracy FY2024 global grant listing",
+   "subject_map_id": "ned",
+   "checked": [
+    {
+     "claim_id": "B03-293a5156",
+     "relation": "lists a grant under a Poland heading or names Poland in grant text",
+     "object": "Poland",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. No Poland heading or reference, and no Polish organisation or person, appears in any entry. Eastern and Central Europe appear only as regions."
+    },
+    {
+     "claim_id": "B03-a9199296",
+     "relation": "names as grantee or in grant text",
+     "object": "Free Courts / Wolne Sądy",
+     "object_map_id": "free_courts",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-edd79f52",
+     "relation": "names as grantee or in grant text",
+     "object": "Michał Wawrykiewicz",
+     "object_map_id": "wawrykiewicz",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-2c3d7929",
+     "relation": "names as grantee or in grant text",
+     "object": "HFHR",
+     "object_map_id": "hfhr",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-dd404fee",
+     "relation": "names as grantee or in grant text",
+     "object": "Batory Foundation",
+     "object_map_id": "batory",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-39f0a838",
+     "relation": "names as grantee or in grant text",
+     "object": "OKO.press",
+     "object_map_id": "okopress",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-eeb1e21f",
+     "relation": "names as grantee or in grant text",
+     "object": "Iustitia",
+     "object_map_id": "iustitia",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-0235c9fa",
+     "relation": "names as grantee or in grant text",
+     "object": "Themis",
+     "object_map_id": "themis",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-6bc888b6",
+     "relation": "names as grantee or in grant text",
+     "object": "Akcja Demokracja",
+     "object_map_id": "akcja_demokracja",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    },
+    {
+     "claim_id": "B03-928b3a21",
+     "relation": "names as grantee or in grant text",
+     "object": "KOD",
+     "object_map_id": "kod",
+     "label_scope": "Checked the full 42,566-character text returned, which ends with a complete sentence on page 15. Name does not appear."
+    }
+   ]
+  },
+  {
+   "url": "https://www.ned.org/wp-content/uploads/2026/07/July-2026-Active-Grant-Listings_Final.pdf",
+   "subject": "National Endowment for Democracy July 2026 active grant listing",
+   "subject_map_id": "ned",
+   "checked": [
+    {
+     "claim_id": "B03-53b55613",
+     "relation": "lists a grant under a Poland heading or names Poland in grant text",
+     "object": "Poland",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. No Poland heading or reference, and no Europe or Eurasia heading, appears in the text returned."
+    },
+    {
+     "claim_id": "B03-550679e8",
+     "relation": "names as grantee or in grant text",
+     "object": "Free Courts / Wolne Sądy",
+     "object_map_id": "free_courts",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-f5f9390c",
+     "relation": "names as grantee or in grant text",
+     "object": "Michał Wawrykiewicz",
+     "object_map_id": "wawrykiewicz",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-bf7bf98c",
+     "relation": "names as grantee or in grant text",
+     "object": "HFHR",
+     "object_map_id": "hfhr",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-1d505f7d",
+     "relation": "names as grantee or in grant text",
+     "object": "Batory Foundation",
+     "object_map_id": "batory",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-3393e466",
+     "relation": "names as grantee or in grant text",
+     "object": "OKO.press",
+     "object_map_id": "okopress",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-0b9d6ed6",
+     "relation": "names as grantee or in grant text",
+     "object": "Iustitia",
+     "object_map_id": "iustitia",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-eb924fac",
+     "relation": "names as grantee or in grant text",
+     "object": "Themis",
+     "object_map_id": "themis",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-af8a6631",
+     "relation": "names as grantee or in grant text",
+     "object": "Akcja Demokracja",
+     "object_map_id": "akcja_demokracja",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    },
+    {
+     "claim_id": "B03-6f20aba6",
+     "relation": "names as grantee or in grant text",
+     "object": "KOD",
+     "object_map_id": "kod",
+     "label_scope": "Checked the 146,927-character text returned. It stops mid-sentence in the NEPAL entry on page 27, so later pages are not covered. Name does not appear in the text returned."
+    }
+   ]
+  },
+  {
    "url": "https://www.domstol.no/en/norwegian-courts-administration/international-cooperation/poland/",
    "subject": "Norwegian Courts Administration (Domstoladministrasjonen)",
    "subject_map_id": null,
@@ -79107,6 +79259,20 @@
      "relation": "checked for a contract tie: contract no. MS/4645/BF/2024 is not on the page",
      "object": "umowa nr MS/4645/BF/2024",
      "label_scope": "Checked the whole page: neither the name Sławomir Patyra (name taken from this sweep's brief, not from the page) nor contract MS/4645/BF/2024 appears. The page's only contract is MS/5287/DSRIN/2024."
+    }
+   ]
+  },
+  {
+   "url": "https://financialfilings.com/companies/pge-polska-grupa-energetyczna-sa/",
+   "subject": "Sławomir Patyra",
+   "subject_map_id": "patyra",
+   "checked": [
+    {
+     "claim_id": "B02-443f97ce",
+     "relation": "has a row in PGE's 2024 remuneration report for Management or Supervisory Board members (not found)",
+     "object": "PGE Polska Grupa Energetyczna S.A.",
+     "object_map_id": "pge",
+     "label_scope": "Only the visible filing titles on PGE's 2025 list (page 1; page 2 except its final ~20 rows, which came back condensed) and on its 2024 list (up to 2024-06-24; the rest condensed). Patyra's name is in none of these titles. The remuneration report content was not opened, so its table is unchecked."
     }
    ]
   },
@@ -87995,6 +88161,22 @@
     "url": "https://api.sejm.gov.pl/sejm/term10/proceedings/63/2026-07-31/transcripts/096",
     "fetch_status": "error",
     "fetch_note": "Server error from the target (error_type SERVER_ERROR, source \"target\", message \"There was an error while fetching.\"). Treated as permanent: sending this URL again would fail the same way.",
+    "capture_request": null
+   },
+   {
+    "batch": "02",
+    "ref": "B7_international-F1",
+    "url": "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2024)035-e",
+    "fetch_status": "blocked",
+    "fetch_note": "Refused before any content came back: \"Not fetched: https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2024)035-e failed at its site (robots_disallowed), and nothing of the page was retrieved.\" This is a robots.txt refusal, so it is permanent: sending the same URL again would fail the same way. No other page on www.venice.coe.int was tried.",
+    "capture_request": null
+   },
+   {
+    "batch": "02",
+    "ref": "B7_international-F2",
+    "url": "https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2026)031-e",
+    "fetch_status": "blocked",
+    "fetch_note": "Refused before any content came back: \"Not fetched: https://www.venice.coe.int/webforms/documents/default.aspx?pdffile=CDL-AD(2026)031-e failed at its site (robots_disallowed), and nothing of the page was retrieved.\" This is a robots.txt refusal, so it is permanent: sending the same URL again would fail the same way. No other page on www.venice.coe.int was tried.",
     "capture_request": null
    },
    {
