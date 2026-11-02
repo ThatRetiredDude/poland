@@ -337,17 +337,16 @@
    ]
   }
  ],
- "node_updates": [
-  {
-   "id": "curtis",
+ "node_updates": {
+  "curtis": {
    "label": "John Curtis (US Senator, R-Utah; Senate Foreign Relations)",
-   "add_sources": [
+   "sources_add": [
     "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
     "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa",
     "https://www.curtis.senate.gov/press-releases/senator-curtis-announces-subcommittee-chairmanships-on-foreign-relations-and-environment-public-works-committees"
    ]
   }
- ],
+ },
  "edges": [
   {
    "source": "curtis",
@@ -1070,52 +1069,6 @@
    ],
    "added_by": "lead_party_ties",
    "date": "2019-12-10"
-  }
- ],
- "checked_no_link": [
-  {
-   "subject": "curtis",
-   "searched_for": "attendance at the 9 Sep 2026 Justice Ministry meeting with Żurek, Ejchart and Mazur",
-   "result": "no link found. The release names only 'senator Elissa Slotkin oraz senator Thom Tillis' plus advisers and embassy staff. The Defence Ministry release (9 Sep) also names only Slotkin and Tillis. Curtis may have arrived on 10 Sep; not proven either way.",
-   "sources": [
-    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa",
-    "https://www.gov.pl/web/obrona-narodowa/delegacja-senatu-usa-w-ministerstwie-obrony-narodowej"
-   ]
-  },
-  {
-   "subject": "curtis",
-   "searched_for": "a Budapest / Hungary leg of the Sep 2026 trip",
-   "result": "no link found. His office told Deseret the CODEL went 'to Ukraine' 'with a pit stop in Poland first'; no Hungary stop mentioned. No Curtis statement on Orbán found (the 'puppet to Putin' line was Tillis; the Oct 2024 Hungary CODEL was Moran, Boozman, Collins, Cornyn, Hoeven).",
-   "sources": [
-    "https://www.deseret.com/politics/2026/09/19/curtis-witnesses-ukraine-war-up-close/",
-    "https://www.kyivpost.com/amp/post/69756",
-    "https://kyivindependent.com/us-republican-delegation-visits-hungary-questions-orbans-relations-with-russia-and-china"
-   ]
-  },
-  {
-   "subject": "curtis",
-   "searched_for": "job, grant, board seat or paid speech at NED, IRI, NDI, OSF, Batory, Free Courts, Iustitia, Themis or USAID; any Poland/Tribunal statement",
-   "result": "none found. Career: OC Tanner, Citizen Watch, Action Target COO, Provo mayor 2010-17, House 2017-25, Senate 2025-. Congressional Record 2026 index has Ukraine/Russia sanctions items but nothing on Poland, Hungary or rule of law.",
-   "sources": [
-    "https://en.wikipedia.org/wiki/John_Curtis_(American_politician)",
-    "https://www.govinfo.gov/content/pkg/CRI-2026/html/CRI-2026-CURTIS-JOHN-R-D194C8.htm"
-   ]
-  },
-  {
-   "subject": "curtis",
-   "searched_for": "privately funded trips paid by NED, IRI, NDI, OSF, GMF, Carnegie Endowment or any Poland/Ukraine group",
-   "result": "none among the 52 sponsored House-office trips 2018-2023. Senate-era (2025-) gift travel not checked (efdsearch requires a browser).",
-   "sources": [
-    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/C001114.html"
-   ]
-  },
-  {
-   "subject": "curtis",
-   "searched_for": "Soros, Open Society, Pinchuk, Reid Hoffman, Bloomberg (person), NED/IRI/NDI/GMF/Atlantic Council/Carnegie/Tides/RBF/Omidyar/Democracy Fund/Aspen or USAID employees, Applebaum/Sikorski, and Polish or Ukrainian names, employers or addresses, among itemised donors to his five committees and the five super PACs that backed him (2018-2026)",
-   "result": "no link found. The FEC bulk files for the 2018, 2020, 2022, 2024 and 2026 cycles were scanned (individual, committee and PAC-to-candidate files). Only trivial name matches: one Bloomberg LP programmer gave $1,000.",
-   "sources": [
-    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
-   ]
   }
  ],
  "timeline": [

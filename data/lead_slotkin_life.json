@@ -282,7 +282,8 @@
    "kind": "claim",
    "event": "Reported as a possible Biden pick for CIA Director (not appointed).",
    "sources": [
-    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director", "https://whmi.com/news/article/38179"
+    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director",
+    "https://whmi.com/news/article/38179"
    ],
    "map_touch": "cia"
   },
@@ -1068,7 +1069,8 @@
    "confidence": "fact",
    "date": "2025-03-04",
    "sources": [
-    "https://www.clickondetroit.com/news/local/2025/02/27/michigan-sen-elissa-slotkin-to-deliver-democratic-response-to-trumps-joint-address", "https://m.washingtontimes.com/news/2025/feb/27/democrats-pick-michigan-elissa-slotkin-counter-donald-trumps-address/",
+    "https://www.clickondetroit.com/news/local/2025/02/27/michigan-sen-elissa-slotkin-to-deliver-democratic-response-to-trumps-joint-address",
+    "https://m.washingtontimes.com/news/2025/feb/27/democrats-pick-michigan-elissa-slotkin-counter-donald-trumps-address/",
     "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html"
    ]
   },
@@ -1113,7 +1115,8 @@
    "date": "2018-2020",
    "sources": [
     "https://www.lansingcitypulse.com/stories/slotkinendorses-biden-as-michigan-primary-approaches,13928",
-    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director", "https://whmi.com/news/article/38179"
+    "https://www.foxnews.com/politics/rep-elissa-slotkin-of-michigan-reportedly-eyed-as-bidens-cia-director",
+    "https://whmi.com/news/article/38179"
    ]
   },
   {
@@ -1195,99 +1198,6 @@
    "confidence": "fact",
    "sources": [
     "https://www.factcheck.org/2024/09/democracy-pac-democracy-pac-ii-2"
-   ]
-  }
- ],
- "checked_no_link": [
-  {
-   "subject": "slotkin",
-   "searched_for": "any job, grant, board seat or speech at NED, NDI/IRI, OSF, Batory, Free Courts, Iustitia, Themis, GMF or USAID",
-   "result": "none found. Her jobs were all US government (CIA, ODNI, NSC, State, Pentagon) or small NGOs in Kenya, Tanzania, Boston and Israel/West Bank in 1996-2001.",
-   "sources": [
-    "https://www.legistorm.com/person/bio/307589/Elissa_Blair_Slotkin/hashkey/1ef2fae5.html",
-    "https://freebeacon.com/wp-content/uploads/2019/05/Elissa-Slotkin-Resume-2012.pdf"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "any meeting with Tusk, Bodnar, Wawrykiewicz or any of the 8 TK judges",
-   "result": "none found. Her Polish counterparts on record are Żurek, Ejchart and Mazur (Justice Ministry, 9 Sep 2026), Zalewski (defence ministry, 9 Sep 2026), Sikorski and Ombudsman Gregorczyk-Abram (10 Sep 2026) and Przydacz (Presidential Palace, 10 Sep 2026). Tusk and Sikorski were at the Feb 2026 Munich conference with her; no meeting found.",
-   "sources": [
-    "https://www.gov.pl/web/sprawiedliwosc/spotkanie-kierownictwa-ministerstwa-sprawiedliwosci-z-delegacja-kongresu-usa",
-    "https://www.gov.pl/web/diplomacy/deputy-prime-minister-radoslaw-sikorski-meets-with-a-united-states-senate-delegation",
-    "https://capitolreleases.com/releases/082303a6-52e4-4de4-9a54-e22a895a2d70",
-    "https://bip.brpo.gov.pl/pl/content/rpo-spotkanie-delegacja-kongres-usa"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "Poland, courts or judges in her Brookings 'authoritarian playbook' speech (29 Oct 2025)",
-   "result": "none; the text never mentions Poland, Hungary, Europe, NATO, Russia, courts or judges",
-   "sources": [
-    "https://www.slotkin.senate.gov/wp-content/uploads/2025/10/2025-10-29-Brookings-Remarks.pdf"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "her Senate NATO Observer Group membership (S.1980)",
-   "result": "not named in the bill (sponsors Tillis and Shaheen)",
-   "sources": [
-    "https://www.congress.gov/119/bills/s1980/BILLS-119s1980is.htm"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "a Warsaw Security Forum appearance (2025)",
-   "result": "not named in the WSF 2025 recap",
-   "sources": [
-    "https://warsawsecurityforum.org/wp-content/uploads/2025/10/2025-10-02-Press-Release-—-WSF-2025-Recap.pdf"
-   ]
-  },
-  {
-   "subject": "carnegie_dcg",
-   "searched_for": "who invited Slotkin, who paid for the 30 Sep 2026 event, any event sponsor",
-   "result": "none stated. The event page names only the host programme. Carnegie's funding policy says it 'does not allow donors prior approval of drafts, selection of project participants, or any influence over the findings' (Carnegie's own statement, published on its site).",
-   "sources": [
-    "https://carnegieendowment.org/events/2026/09/a-conversation-on-defending-democracy-with-senator-elissa-slotkin-and-anne-applebaum",
-    "https://carnegieendowment.org/development"
-   ]
-  },
-  {
-   "subject": "osf",
-   "searched_for": "OSF money earmarked to the DCG programme that hosted Slotkin",
-   "result": "none found: OSF is in Carnegie's top tier ($2m+) in FY2024 and FY2025, but the donor lists tie it to other programmes, not DCG (machine-read; check printed pages)",
-   "sources": [
-    "https://assets.production.carnegie.fusionary.io/files/2025_AnnualReport_final-1.pdf",
-    "https://carnegie-production-assets.s3.amazonaws.com/static/files/2024_AnnualReport.pdf"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "privately paid trips to Poland, Hungary or Europe (Senate/House gift-rule travel)",
-   "result": "none found. Four privately sponsored trips 2019-2022 for her office (Los Angeles, San Francisco, Boston, Tel Aviv), none to Europe. The Sep 2026 trip was a Senate delegation, which is government-paid and needs no ethics pre-approval; its foreign-currency costs appear in quarterly Congressional Record reports (Q3 2026 report not yet found).",
-   "sources": [
-    "https://cnsmaryland.org/interactives/fall-2024/congressional_travel_explorer/member/S001208.html",
-    "https://www.ethics.senate.gov/public/index.cfm/travel",
-    "https://m.washingtontimes.com/news/2026/feb/20/lawmakers-trip-munich-dhs-shutdown-puts-spotlight-congress-pricey/"
-   ]
-  },
-  {
-   "subject": "holy_land_trust",
-   "searched_for": "any Orlando/Florida branch, or tie to the Holy Land Experience theme park (TBN) or the Texas Holy Land Foundation",
-   "result": "none found; only US link is fiscal sponsor Nonviolence International, Washington DC",
-   "sources": [
-    "https://www.influencewatch.org/non-profit/holy-land-trust/",
-    "https://www.nonviolenceinternational.net/donate_hlt",
-    "https://ngo-monitor.org/ngos/holy_land_trust_hlt_/",
-    "https://zenpeacemakers.org/projects/holy-land-trust"
-   ]
-  },
-  {
-   "subject": "slotkin",
-   "searched_for": "DNC (national committee) money to her campaigns, and Democracy PAC / Soros direct spending for her (FEC bulk pas2 files 2018-2024)",
-   "result": "none found: no DNC contributions or coordinated expenditures; party money came from the DSCC, DCCC and Michigan Democratic Party. No Democracy PAC transactions for or against her; its money reached her race only indirectly via SMP and WinSenate.",
-   "sources": [
-    "https://www.fec.gov/data/browse-data/?tab=bulk-data"
    ]
   }
  ],
