@@ -125,6 +125,114 @@
    "note": null
   },
   {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://en.wikipedia.org/wiki/European_Citizen%27s_Prize",
+   "final_url": "https://en.wikipedia.org/wiki/European_Citizen%27s_Prize",
+   "fetched_at": "2026-11-02T00:14:58.682Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 24624,
+   "sha256": "635523c2f5738f2a22fb369685997474a541a68df233fad5edcdc78fa577b8ec",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://www.liberties.eu/en/stories/cervstrive2025-grantees/45405",
+   "final_url": "https://www.liberties.eu/en/stories/cervstrive2025-grantees/45405",
+   "fetched_at": "2026-11-02T00:14:59.833Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20364,
+   "sha256": "74bc461aa2404707487aa8019eb932c9429bab1b22c5694cdb5bcb598fe4bfe5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://gmfus.org/proteus-0",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:22:50.253Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39781,
+   "sha256": "372b3d54d5447b7ef89de79046213bc2787c2a570f63e0fc80fdd78c23eb6232",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.C_.2016.239.01.0001.01.FRA&toc=OJ:C:2016:239:TOC",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:26.366Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 203,
+   "extract_sha256": "4f1919d4c4eb2880e90179244c6d397b0a1c914233583b5aa23b4ca4ba1e15a9"
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1540975186139&uri=CELEX:52018XP0622(01)",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:26.376Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 183,
+   "extract_sha256": "92e11811fe562df710e8a1c917bcf1359b3c16d0f1b36ddce84a2f2121960106"
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1540975186139&uri=CELEX:52017XP0714(01)",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:26.391Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 183,
+   "extract_sha256": "33c2e4f686cf089230328272884d4fe332cd51e31aa0138244c017859b4d06b4"
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "http://www.europarl.europa.eu/news/en/headlines/content/20120426STO44158/html/European-Citizen's-Prize-honouring-exceptional-Europeans",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:26.511Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 221,
+   "extract_sha256": "75a8aa2c4a27f982465a0e88caf6d36c21950f970418e0d7f2b2edb66172c3ae"
+  },
+  {
+   "agent": "read:C1_eu_money:2",
+   "url": "https://gmfus.org/proteus-0",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:32:03.635Z",
+   "http": null,
+   "content_type": null,
+   "chars": 46584,
+   "sha256": "ad2ba563fce7f5f8627f7d51a2e896f301d3d20c66a5f1802e0e4895dae48651",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:C2_eea_norway:1",
    "url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
    "final_url": "https://www.regjeringen.no/en/aktuelt/speech-by-state-secretary-maria-varteressian-during-the-badge-of-honor-ceremony-to-human-rights-advisor-iver-orstavik-polish-ministry-of-justice/id3055086",
@@ -157,6 +265,42 @@
    "content_type": "text/html",
    "chars": 8494,
    "sha256": "5aabac51d0e2e70573165ca19155728a538d98aa5e384b5bd2619fd5068effcd",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C2_eea_norway:2",
+   "url": "https://eeagrants.org/en/fmo/news/fund-operator-selected-poland",
+   "final_url": "https://eeagrants.org/en/fmo/news/fund-operator-selected-poland",
+   "fetched_at": "2026-11-02T00:26:35.378Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 7807,
+   "sha256": "4c17eb8590330e9ce59fa455aaece565feb4164932be66a34d0b3e87db2027e4",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C2_eea_norway:2",
+   "url": "https://www.rafto.no/assets/documents/Letters-and-appeals/Full-letter-to-MFA-Norway.pdf",
+   "final_url": "https://www.rafto.no/assets/documents/Letters-and-appeals/Full-letter-to-MFA-Norway.pdf",
+   "fetched_at": "2026-11-02T00:26:35.574Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 13701,
+   "sha256": "4b9938491c25027a99d860c3d85e9583005febd8375645c0bc2e34245bb48913",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C2_eea_norway:2",
+   "url": "https://aktywniobywatele.org.pl/en/projekty/democracy-action/",
+   "final_url": "https://aktywniobywatele.org.pl/en/projekty/democracy-action/",
+   "fetched_at": "2026-11-02T00:26:37.517Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 12811,
+   "sha256": "51a158f7a1b0011b7c96c806c1993ae2e468742c9e919c87293cd973d3cbd75f",
    "error": null,
    "note": null
   },
@@ -1280,6 +1424,186 @@
    "extract_sha256": "127017056800de26b92ad7bb43997510c229ee4abd7839d00ca4177da489f9cf"
   },
   {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://sejm.gov.pl/lobbing/informacja_roczna_2024.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:17:01.649Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3004,
+   "extract_sha256": "982191080de5f38288223162e577ca8459a19353e69092b60fe8176315aebd88"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://sejm.gov.pl/lobbing/informacja_roczna_2024.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:17:20.841Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 860,
+   "extract_sha256": "097aafee4867c3bd9887fb2d9525cb441d60b5a8cfa56fad34643f707393dfc8"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/opinie-prawne-dot-prawnych-i-faktycznych-podstaw-wydania-przez-tk-postanowienia-o-sygnaturze-ts-924-oraz-jego-legalnosci",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:20:05.376Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 3008,
+   "extract_sha256": "a606c81590e1f387555af92c896771e2268ffc863b20fdb794455204c955952a"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3200/body",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:21:34.189Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1673,
+   "extract_sha256": "22641bbe333d374c02a2d97f0db09310bec4d1d94f6ca501135a4f759cbdab0b"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:01.501Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 9465,
+   "extract_sha256": "526049f88c114c50ee9816e09651cabc95fab40e39d21c9d76db6f90654417d1"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:38.375Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2341,
+   "extract_sha256": "cba85084d8dc25cee373e5eba42f5bc016bfac08236628589eb1327f5eb03eee"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:24:59.160Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2552,
+   "extract_sha256": "97c79bc54af836700c9a5dd2ed96b79fe4652c8dbf7be9295c88a377224c0aa1"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:25:06.561Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 82,
+   "extract_sha256": "c1b038e328e8411abbe53c8eaeaa5b46936f295b638c904c33ff646ed4aee80c"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:25:37.755Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1188,
+   "extract_sha256": "43b3125f9f30be353b2e1d1e16a3b19a1811ffe20255555e83fba863b80d815a"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://www.gov.pl/web/sprawiedliwosc/umowy-zawarte-w-2024-roku",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:00.973Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 1411,
+   "extract_sha256": "e3c50da4e784a14931d71db9249524e5786d3af0001b174fc94a19eda910e8be"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:26:56.891Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 2460,
+   "extract_sha256": "ce40b244a4c570992a2616217f43dcac5759b545569e6946df8f9a363d4675d7"
+  },
+  {
+   "agent": "search:C7_firms_contracts",
+   "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDSWJ86/z03182-o1.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:27:16.294Z",
+   "http": null,
+   "content_type": null,
+   "chars": null,
+   "sha256": null,
+   "error": null,
+   "note": "The page reader returned its own extract of the page instead of the page text. The extract is kept privately for checking; it is not republished.",
+   "returned": "reader_extract",
+   "extract_chars": 766,
+   "extract_sha256": "d7a68f038dc14d962e54b4aba092c16b14c4c6c99a9807505faaa26d918f150e"
+  },
+  {
    "agent": "recheck:6",
    "url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
    "final_url": "https://eeagrants.org/en/poland/news/programme-agreements-green-transition-and-justice-signed",
@@ -1508,7 +1832,7 @@
    "sha256": "635523c2f5738f2a22fb369685997474a541a68df233fad5edcdc78fa577b8ec",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -1521,7 +1845,7 @@
    "sha256": "9ad0e115e41b7c5dc8920590fc49ef921ac4b3aaabb51ecad6f0c5e3a6a6b057",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -1534,7 +1858,7 @@
    "sha256": "372b3d54d5447b7ef89de79046213bc2787c2a570f63e0fc80fdd78c23eb6232",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -1547,7 +1871,7 @@
    "sha256": "b2b8799d460722d343b0e32ca3a7cfa0088dcbcd6958366c23f4042760af793c",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -1563,7 +1887,7 @@
    "returned": "reader_extract",
    "extract_chars": 203,
    "extract_sha256": "4f1919d4c4eb2880e90179244c6d397b0a1c914233583b5aa23b4ca4ba1e15a9",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C1_eu_money:2",
@@ -1579,7 +1903,7 @@
    "returned": "reader_extract",
    "extract_chars": 221,
    "extract_sha256": "75a8aa2c4a27f982465a0e88caf6d36c21950f970418e0d7f2b2edb66172c3ae",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:C4_private_foundations:2",
@@ -1871,7 +2195,7 @@
    "returned": "reader_extract",
    "extract_chars": 912,
    "extract_sha256": "c2ea691fae0d169bcf491978e5faf57dd2cc62a5ee938ad846177e54d0709167",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "search:C7_firms_contracts",
@@ -1887,7 +2211,7 @@
    "returned": "reader_extract",
    "extract_chars": 1600,
    "extract_sha256": "c2e1abc844afb40ac47b8180af2a465bbe6be1821c18a0b0cfedce9f893e71f0",
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   }
  ]
 }

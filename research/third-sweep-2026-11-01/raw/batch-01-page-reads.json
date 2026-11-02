@@ -347,6 +347,66 @@
    "note": null
   },
   {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2331",
+   "fetched_at": "2026-11-02T00:19:37.597Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/json",
+   "chars": 266,
+   "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/prints/2334/2334.pdf",
+   "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2334/2334.pdf",
+   "fetched_at": "2026-11-02T00:19:40.696Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 3779,
+   "sha256": "95da66c7d6b71cf3d144f9de39db5c3f3f0e886be715402ee4c9899b5e05ff29",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:23:46.026Z",
+   "http": null,
+   "content_type": null,
+   "chars": 44387,
+   "sha256": "1c57c82d83197466b8be1d4ae75c9b34b592169a52ddb24ab1003d09ea9dd17e",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:31:32.994Z",
+   "http": null,
+   "content_type": null,
+   "chars": 38824,
+   "sha256": "b1ad777a08641de385b7a60accbd9a227d1f4a5d06613c8cf22ff59256a5284c",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R021-R023",
+   "url": "https://api.sejm.gov.pl/sejm/term10/committees/SPC/sittings/179/pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:39:41.218Z",
+   "http": null,
+   "content_type": null,
+   "chars": 12209,
+   "sha256": "27d64e004180b87b23b7d084d460824f027f9b9a9b0e1a51b9480fb8a7f49fab",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R027-R029",
    "url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
    "final_url": "https://api.sejm.gov.pl/sejm/term10/prints/2333",
@@ -1376,6 +1436,42 @@
    "note": null
   },
   {
+   "agent": "read:R106-R108",
+   "url": "https://www.spodekkatowice.pl/en/events/17th-european-economic-congress,3508.html",
+   "final_url": "https://www.spodekkatowice.pl/en/events/17th-european-economic-congress,3508.html",
+   "fetched_at": "2026-11-02T00:28:56.297Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 7989,
+   "sha256": "8abecaae09a808e78adbfa308490f218eb955caae7aa67b739d29faf0ba941e2",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R106-R108",
+   "url": "https://files.ptwp.pl/i/00/15/08/001508.pdf",
+   "final_url": "https://files.ptwp.pl/i/00/15/08/001508.pdf",
+   "fetched_at": "2026-11-02T00:28:56.542Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5635,
+   "sha256": "90f848521d3f53af3facd2eff2065dbbbf9750759eed0812b479c35981505625",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R106-R108",
+   "url": "https://pliki.eecpoland.eu/i/00/07/28/000728.pdf",
+   "final_url": "https://pliki.eecpoland.eu/i/00/07/28/000728.pdf",
+   "fetched_at": "2026-11-02T00:28:56.930Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 12737,
+   "sha256": "04880b9accdd757fa9258dc8838b418548f2a8b3f290c5f8959c0faf053d945e",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R109-R111",
    "url": "https://www.rp.pl/finanse/art13737311-ekg-pulsu-gospodarki",
    "final_url": "https://www.rp.pl/finanse/art13737311-ekg-pulsu-gospodarki",
@@ -1527,7 +1623,7 @@
    "sha256": "95da66c7d6b71cf3d144f9de39db5c3f3f0e886be715402ee4c9899b5e05ff29",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R021-R023",
@@ -1540,7 +1636,7 @@
    "sha256": "128f5d123c48f1afb3142f847e92ea03dd930c00a173b7310816653519eccda0",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R021-R023",
@@ -1553,7 +1649,7 @@
    "sha256": "e465d4d84f509f1d8b4cd46a273bcdc0ccb3c34361fc543596269a6ba2169461",
    "error": null,
    "note": null,
-   "agent_rerun_later": false
+   "agent_rerun_later": true
   },
   {
    "agent": "read:R036-R038",
