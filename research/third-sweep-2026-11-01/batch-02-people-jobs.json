@@ -93,7 +93,8 @@
   ],
   "duplicate_reads_left_out": [],
   "searches_by_stopped_agents": 91,
-  "page_fetches_by_stopped_agents": 23
+  "page_fetches_by_stopped_agents": 23,
+  "agent_notes_cleaned": 1
  },
  "pages": [
   {
@@ -4573,7 +4574,7 @@
    "host": "data.europarl.europa.eu",
    "theme": "B4_wawrykiewicz",
    "fetch_status": "partial",
-   "fetch_note": "HTTP 200, PDF, returned as text (1,785 characters); no binary file saved. Two-page declaration. The text layer prints both conflict-of-interest options, so the ticked one is not visible. No links on the page. The three sibling DCI documents (2025/2061(INI), 2025/0255(COD), 2025/2263(INI)) were not fetched: their URLs are not on this page and were not constructed from the IDs given in the task, so their titles are unverified. Send their URLs to have them read.",
+   "fetch_note": "HTTP 200, PDF, returned as text (1,785 characters); no binary file saved. Two-page declaration. The text layer prints both conflict-of-interest options, so the ticked one is not visible. No links on the page. The three sibling DCI documents (2025/2061(INI), 2025/0255(COD), 2025/2263(INI)) were not fetched: their URLs are not on this page and were not constructed from the IDs given in this sweep's brief, so their titles are unverified. Send their URLs to have them read.",
    "page_title": "DECLARATION ON AWARENESS OF CONFLICTS OF INTEREST PURSUANT TO ARTICLE 3 OF ANNEX I TO THE EUROPEAN PARLIAMENT’S RULES OF PROCEDURE",
    "page_date": "09/10/2026",
    "publisher": "European Parliament",

@@ -94,7 +94,8 @@
    "read:C4_private_foundations:1"
   ],
   "searches_by_stopped_agents": 109,
-  "page_fetches_by_stopped_agents": 26
+  "page_fetches_by_stopped_agents": 26,
+  "agent_notes_cleaned": 1
  },
  "pages": [
   {
@@ -3222,7 +3223,7 @@
    "host": "sigrid-rausing-trust.org",
    "theme": "C4_private_foundations",
    "fetch_status": "ok",
-   "fetch_note": "HTTP 200. The PDF came back as extracted text (33,257 characters); no file was saved. Page numbers are the page labels in the extracted text. The report's contents list differs for some sections: Open Societies is listed at 11 but its introduction is labelled 13, and Total grants is listed at 27 but its table is labelled 28. The text contains no hyperlinks. Named grantees are highlights only; the report has no full grantee list and gives programme totals only. No repository or file access in this run, so nothing was saved to a branch.",
+   "fetch_note": "HTTP 200. The PDF came back as extracted text (33,257 characters); no file was saved. Page numbers are the page labels in the extracted text. The report's contents list differs for some sections: Open Societies is listed at 11 but its introduction is labelled 13, and Total grants is listed at 27 but its table is labelled 28. The text contains no hyperlinks. Named grantees are highlights only; the report has no full grantee list and gives programme totals only.",
    "page_title": "THE SIGRID RAUSING TRUST Activity Report 2024/25",
    "page_date": "Covers 2024 and 2025; no publication date in the extracted text",
    "publisher": "The Sigrid Rausing Trust",

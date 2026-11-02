@@ -578,6 +578,30 @@
    "note": null
   },
   {
+   "agent": "read:R042-R043",
+   "url": "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+   "final_url": "https://www.batory.org.pl/wp-content/uploads/2023/05/ZEP_TK.pdf",
+   "fetched_at": "2026-11-02T00:24:49.088Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 5721,
+   "sha256": "d2733f11265195af4208f83309525587a11029e3d7507a429cff5523339d8ac8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R042-R043",
+   "url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2026/04/1-4-55-2025-Na-dobry-poczatek.pdf",
+   "final_url": "https://www.kwartalnikiustitia.pl/wp-content/uploads/2026/04/1-4-55-2025-Na-dobry-poczatek.pdf",
+   "fetched_at": "2026-11-02T00:24:49.764Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 10544,
+   "sha256": "c110e063c094bdc70aff09f5bc37752eb1066c91901fd22c9ad9260d91eb37a7",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:R044-R046",
    "url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
    "final_url": "https://www.judicialwatch.org/grants-left-wing-european-ngos/",
@@ -1348,6 +1372,42 @@
    "content_type": null,
    "chars": 40976,
    "sha256": "0a587ef014c87b8032b2e73527287cc52e17bc078f608c4cb82727e18cd8dc49",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R109-R111",
+   "url": "https://www.rp.pl/finanse/art13737311-ekg-pulsu-gospodarki",
+   "final_url": "https://www.rp.pl/finanse/art13737311-ekg-pulsu-gospodarki",
+   "fetched_at": "2026-11-02T00:30:46.073Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 16885,
+   "sha256": "db3cb0fd1d85b85b0319a8c0f37c9f0aa3cfcbd1ff9be4b27eff49144e9ded8f",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R109-R111",
+   "url": "https://us.edu.pl/event/xvii-europejski-kongres-gospodarczy",
+   "final_url": "https://us.edu.pl/event/xvii-europejski-kongres-gospodarczy",
+   "fetched_at": "2026-11-02T00:30:48.673Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 32553,
+   "sha256": "6c75271e19e1a1fbbff65238bbbcb7eec9567e87b19f51bff8ab58586b729ccf",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:R109-R111",
+   "url": "https://slaskie.travel/event/1028608/europejski-kongres-gospodarczy",
+   "final_url": null,
+   "fetched_at": "2026-11-02T00:34:02.908Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43564,
+   "sha256": "80de1b7c843a475cc0173810bfc69e5c0a1458996be7abf25561d2a7e4b3d147",
    "error": null,
    "note": null
   },
