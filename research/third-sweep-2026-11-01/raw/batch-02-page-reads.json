@@ -223,6 +223,54 @@
    "summary_chars": 954
   },
   {
+   "agent": "read:B2_appointments:F1",
+   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "final_url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "fetched_at": "2026-11-02T01:15:56.581Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 709,
+   "sha256": "cf2d353f0642468b372ff30bc5c61e4273063892a5ce6dd525f742cb960eb941",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B2_appointments:F1",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "final_url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "fetched_at": "2026-11-02T01:15:57.218Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 17387,
+   "sha256": "47fc6396d5753fd95e007aba8f9d46a3393782bc1025d1ad0db31fe2136aad89",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B2_appointments:F1",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "final_url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "fetched_at": "2026-11-02T01:15:58.102Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 20793,
+   "sha256": "438142752a84988951290642cb5fd8e3d7da9e9b04111f61a20b40957753e5c5",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:B2_appointments:F1",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "final_url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "fetched_at": "2026-11-02T01:26:27.157Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 22399,
+   "sha256": "769c754e2a80be0c42e8d73bbc81f614ea3f523a9c9c4b50b7667a20e755c795",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:B3_state_boards:1",
    "url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",
    "final_url": "https://oko.press/na-zywo/dzien-na-zywo-najwazniejsze-informacje/nowy-szef-rady-nadzorczej-tvp-jest-juz-w-gmachu-telewizji-byly-prezes-ustapil",

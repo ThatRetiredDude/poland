@@ -30,55 +30,55 @@
   ]
  },
  "stats": {
-  "agents": 26,
-  "agents_left_out_unfinished_or_other_batch": 14,
+  "agents": 27,
+  "agents_left_out_unfinished_or_other_batch": 13,
   "searches": 210,
   "search_results": 3414,
   "unique_result_urls": 2482,
-  "page_fetches": 183,
-  "pages_reported": 102,
-  "pages_with_page_text": 88,
+  "page_fetches": 187,
+  "pages_reported": 106,
+  "pages_with_page_text": 92,
   "fetch_status": {
    "error": 9,
    "ok": 63,
-   "partial": 17,
+   "partial": 21,
    "empty": 12,
    "blocked": 1
   },
-  "claims": 779,
+  "claims": 815,
   "labels": {
-   "fact": 588,
-   "no_link": 153,
-   "alleged": 22,
+   "fact": 613,
+   "no_link": 158,
+   "alleged": 28,
    "speculation": 16
   },
   "evidence_check": {
-   "exact": 573,
-   "normalized": 119,
+   "exact": 607,
+   "normalized": 120,
    "found_on_linked_page": 59,
-   "not_found": 22,
+   "not_found": 23,
    "found_in_reader_extract_only": 6
   },
   "map_status": {
-   "new_entity_or_unmatched_name": 418,
-   "pair_already_linked": 54,
-   "new_tie_between_known_entities": 61,
-   "both_names_unmatched": 246
+   "new_entity_or_unmatched_name": 415,
+   "pair_already_linked": 87,
+   "new_tie_between_known_entities": 73,
+   "both_names_unmatched": 240
   },
   "kinds": {
-   "nomination_or_vote": 95,
-   "other": 145,
-   "statement": 100,
-   "contract_or_fee": 40,
-   "role_or_job": 141,
-   "membership_or_board": 118,
+   "nomination_or_vote": 98,
+   "other": 155,
+   "statement": 107,
+   "contract_or_fee": 42,
+   "role_or_job": 150,
+   "membership_or_board": 120,
    "grant_or_donation": 9,
    "event_or_speech": 90,
-   "ownership": 8,
-   "legal_action": 33
+   "legal_action": 36,
+   "ownership": 8
   },
   "title_only_leads": 272,
-  "to_read_unread": 8,
+  "to_read_unread": 7,
   "nothing_found": 58,
   "agents_stopped_at_usage_limit": [],
   "agents_rerun_after_usage_limit": [
@@ -1183,7 +1183,13 @@
      "evidence_check": "exact",
      "subject_map_id": "taborowski",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "vice-chair of TVP's supervisory board since Dec 2023",
+      "vice-chair of TVP's supervisory board since Dec 2023"
+     ]
     },
     {
      "id": "B02-be21607f",
@@ -1203,6 +1209,8 @@
      "evidence_check": "normalized",
      "subject_map_id": "tvp",
      "subject_map_status": "on_map",
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
      "map_status": "new_entity_or_unmatched_name"
     },
     {
@@ -1240,7 +1248,9 @@
      "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-1bd1da13",
@@ -1260,7 +1270,9 @@
      "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-9054f8b8",
@@ -1280,7 +1292,9 @@
      "evidence_location": "section 'W zakresie spółek TVP i PR...', bullet under 'TVP:'",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     }
    ]
   },
@@ -2991,6 +3005,938 @@
    ]
   },
   {
+   "ref": "B2_appointments-F1",
+   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
+   "host": "pace.coe.int",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "Returned in full (HTTP 200, text/plain, 709 characters). No date appears in the returned text. It gives no vote counts, no other candidates on Poland's list and no nominating body. No link to a vote record came back in the text, so none is named here.",
+   "page_title": "PACE elects Anna Adamska-Gallant judge to the European Court of Human Rights in respect of Poland",
+   "publisher": "Council of Europe Parliamentary Assembly (PACE)",
+   "capture_answer": "No date appears in the returned text. PACE elected Anna Adamska-Gallant, having obtained an absolute majority of votes cast, as judge of the European Court of Human Rights in respect of Poland for a nine-year term. The page gives no vote counts for any candidate, does not name the other two candidates on Poland's list, and does not say who put the list forward. It states only that judges are elected from a list of three candidates nominated by each State that has ratified the Convention.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:56.581Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/plain",
+    "chars": 709,
+    "sha256": "cf2d353f0642468b372ff30bc5c61e4273063892a5ce6dd525f742cb960eb941",
+    "url_read": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland"
+   },
+   "names_listed": [
+    "Anna Adamska-Gallant"
+   ],
+   "names_found_in_page_text": "1/1",
+   "claims": [
+    {
+     "id": "B02-ad1ac61b",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "elected by PACE as judge of the European Court of Human Rights in respect of Poland for a nine-year term",
+     "object": "European Court of Human Rights",
+     "object_type": "public_body",
+     "kind": "nomination_or_vote",
+     "evidence_text": "elected Anna Adamska-Gallant as judge to the European Court of Human Rights in respect of Poland",
+     "evidence_translation": "English original, no translation needed",
+     "evidence_location": "lead paragraph",
+     "label": "fact",
+     "label_scope": "PACE's own news item states the election. No date and no vote counts are on the page. She is not one of the named core actors.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-ff199210",
+     "subject": "Anna Adamska-Gallant",
+     "subject_type": "person",
+     "relation": "obtained an absolute majority of votes cast in the PACE election",
+     "object": "PACE election vote",
+     "object_type": "event",
+     "kind": "nomination_or_vote",
+     "evidence_text": "having obtained an absolute majority of votes cast",
+     "evidence_translation": "English original, no translation needed",
+     "evidence_location": "lead paragraph, second sentence",
+     "label": "fact",
+     "label_scope": "The page gives no numerical vote counts for any candidate.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "pace",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-cdc601e2",
+     "subject": "Poland's ECtHR candidate list (Anna Adamska-Gallant)",
+     "subject_type": "other",
+     "relation": "other two candidates on Poland's list and the body that nominated it",
+     "object": "not named on page",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "Judges are elected by PACE from a list of three candidates nominated by each State which has ratified",
+     "evidence_translation": "English original, no translation needed",
+     "evidence_location": "closing paragraph",
+     "label": "no_link",
+     "label_scope": "Checked for the other two candidates on Poland's list and for who nominated it. Neither is named. The page's only rule is that each State nominates a list of three.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "echr",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-F2",
+   "url": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html",
+   "host": "prawo.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "Returned in full (HTTP 200, 20793 characters). Metadata: published 13.12.2023 21:15, modified 14.12.2023. The team appears only as 'międzyresortowego zespołu ds. przywracania praworządności'. No members, organisations, remit beyond the name, pay or set-up date are given. names_listed holds the MoJ management names, not team members. Sidebar headlines dated 31.10.2026 to 01.11.2026 are headline-only and were not read.",
+   "page_title": "Minister Bodnar: Będzie zespół do przywracania praworządności",
+   "page_date": "13.12.2023 21:15",
+   "publisher": "Prawo.pl (Wolters Kluwer)",
+   "capture_answer": "The article reports that Bodnar said at his first press conference that Tusk signed an order setting up an interdepartmental rule-of-law team, named only as 'międzyresortowego zespołu ds. przywracania praworządności'. The page names no team member, no remit beyond the name, no set-up date and says nothing about pay. The four people it names (Ejchart - Dubois, Rudzińska-Bluszcz, Śmiszek, Myrcha) are described as entering MoJ management, not as team members. No team member is tied to Iustitia, Themis, Free Courts, HFHR, Batory or universities on this page; those organisations appear only in descriptions of the four management names.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:58.102Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 20793,
+    "sha256": "438142752a84988951290642cb5fd8e3d7da9e9b04111f61a20b40957753e5c5",
+    "url_read": "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html"
+   },
+   "names_listed": [
+    "Maria Ejchart - Dubois",
+    "Zuzanna Rudzińska-Bluszcz",
+    "Krzysztof Śmiszek",
+    "Arkadiusz Myrcha"
+   ],
+   "names_found_in_page_text": "4/4",
+   "followup_urls": [
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/iustitia-wyraza-wsparcie-dla-nowych-sedziow-trybunalu-konstytucyjnego,1556259.html",
+     "why": "Sidebar headline dated 31.10.2026: Iustitia statement of support for the new TK judges. Not read."
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/zarzadzenie-korwin-piotrowskiej-dotyczace-pracy-trybunalu-konstytucyjnego-sedziow-pracownikow-swieczkowskiego,1556233.html",
+     "why": "Sidebar headline dated 31.10.2026: Korwin-Piotrowska on Święczkowski and Sochański; URL names a zarządzenie (order). Not read."
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/oredzie-premiera-donalda-tuska-w-sprawie-trybunalu-konstytucyjnego,1556251.html",
+     "why": "Sidebar headline dated 31.10.2026: Tusk's address (orędzie) on the Constitutional Tribunal. Not read."
+    },
+    {
+     "url": "https://www.prawo.pl/prawnicy-sady/immunitet-prezesa-swieczkowskiego-a-zgromadzenie-ogolne-sedziow-co-wynika-z-przepisow-ilu-sedziow-potrzeba,1556272.html",
+     "why": "Sidebar headline dated 01.11.2026 on the immunity of TK president Święczkowski. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-ff5aba1b",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "role: new Minister Sprawiedliwości Prokurator Generalny (Minister of Justice – Prosecutor General)",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "13.12.2023",
+     "evidence_text": "Adam Bodnar, nowy Minister Sprawiedliwości Prokurator Generalny, poinformował podczas swojej pierwszej konferencji",
+     "evidence_translation": "Adam Bodnar, new Minister of Justice – Prosecutor General, announced at his first press conference",
+     "evidence_location": "lead paragraph",
+     "label": "fact",
+     "label_scope": "The page's report of what Bodnar announced, with his title as printed on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-0f542b45",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "reported by Bodnar to have signed an order setting up an interdepartmental rule-of-law team",
+     "object": "międzyresortowy zespół ds. przywracania praworządności",
+     "object_type": "other",
+     "kind": "other",
+     "date": "13.12.2023",
+     "evidence_text": "premier Donald Tusk podpisał zarządzenie ws. powołania międzyresortowego zespołu ds. przywracania praworządności",
+     "evidence_translation": "Prime Minister Donald Tusk signed an order on setting up an interdepartmental team for the restoration of the rule of law",
+     "evidence_location": "lead paragraph",
+     "label": "alleged",
+     "label_scope": "Adam Bodnar, at his first press conference, as reported on the page. The order itself is not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-c33e8506",
+     "subject": "Maria Ejchart - Dubois",
+     "subject_type": "person",
+     "relation": "deputy minister of justice (wiceminister), per the page's wording",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "Wiceminster Ejchart zapowiedziała",
+     "evidence_translation": "Deputy minister Ejchart announced (page spells it 'Wiceminster')",
+     "evidence_location": "section 'Wiceministrowie o swoich planach'",
+     "label": "fact",
+     "label_scope": "The page's title for her in that sentence. Her announced policy is not part of this claim.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-71150928",
+     "subject": "Maria Ejchart - Dubois",
+     "subject_type": "person",
+     "relation": "co-founder of the Wolne Sądy initiative and of the Committee for the Defence of Justice (KOS)",
+     "object": "Wolne Sądy; Komitet Obrony Sprawiedliwości (KOS)",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "evidence_text": "współzałożycielka inicjatywy Wolne Sądy i Komitetu Obrony Sprawiedliwości KOS",
+     "evidence_translation": "co-founder of the Wolne Sądy initiative and of the Committee for the Defence of Justice (KOS)",
+     "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
+     "label": "fact",
+     "label_scope": "The page's description of her. Not checked outside the page.",
+     "access": "page_read",
+     "evidence_check": "normalized",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "free_courts",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "co-founder; deputy justice minister from Dec 2023",
+      "still listed in founders' assembly while in office",
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)",
+      "co-founder (July 2017 initiative; foundation 2020, KRS 0000829554)"
+     ]
+    },
+    {
+     "id": "B02-9c7dd0c3",
+     "subject": "Maria Ejchart - Dubois",
+     "subject_type": "person",
+     "relation": "associated with the Helsinki Foundation for Human Rights (HFHR) for over 20 years",
+     "object": "Helsińska Fundacja Praw Człowieka (HFHR)",
+     "object_type": "org",
+     "kind": "other",
+     "evidence_text": "od ponad 20 lat związana z Helsińską Fundacją Praw Człowieka",
+     "evidence_translation": "associated with the Helsinki Foundation for Human Rights for over 20 years",
+     "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
+     "label": "fact",
+     "label_scope": "The page's description of her, same paragraph.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "coordinated its Innocence programme from 2003",
+      "coordinated its Innocence programme from 2003"
+     ]
+    },
+    {
+     "id": "B02-0958be87",
+     "subject": "Krzysztof Śmiszek",
+     "subject_type": "person",
+     "relation": "deputy chair (wiceprzewodniczący) of Nowa Lewica (party role)",
+     "object": "Nowa Lewica",
+     "object_type": "party",
+     "kind": "role_or_job",
+     "evidence_text": "Krzysztof Śmiszek - wiceprzewodniczący Nowej Lewicy",
+     "evidence_translation": "Krzysztof Śmiszek - deputy chair of Nowa Lewica",
+     "evidence_location": "paragraph 'Potwierdziły się też wcześniejsze informacje...'",
+     "label": "fact",
+     "label_scope": "Party role as stated on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-f125196d",
+     "subject": "Krzysztof Śmiszek",
+     "subject_type": "person",
+     "relation": "described as deputy minister (wiceminister) in the day's press report",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "evidence_text": "wiceminister Śmiszek mówił",
+     "evidence_translation": "deputy minister Śmiszek said",
+     "evidence_location": "section 'Wiceministrowie o swoich planach'",
+     "label": "fact",
+     "label_scope": "The page's title for him in that sentence.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-50f56747",
+     "subject": "Arkadiusz Myrcha",
+     "subject_type": "person",
+     "relation": "KO politician and MP for the 8th, 9th and 10th Sejm terms",
+     "object": "KO",
+     "object_type": "party",
+     "kind": "role_or_job",
+     "evidence_text": "polityk KO, samorządowiec, doktor nauk prawnych, poseł na Sejm VIII, IX i X kadencji",
+     "evidence_translation": "KO politician, local government official, doctor of legal sciences, Sejm deputy in the 8th, 9th and 10th terms",
+     "evidence_location": "closing paragraph of the management list",
+     "label": "fact",
+     "label_scope": "Page's description. 'KO' is not expanded on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "myrcha",
+     "subject_map_status": "on_map",
+     "object_map_id": "ko",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-da320bdf",
+     "subject": "Ministry of Justice management (kierownictwo MS)",
+     "subject_type": "public_body",
+     "relation": "to include Maria Ejchart - Dubois, Zuzanna Rudzińska-Bluszcz, Krzysztof Śmiszek and Arkadiusz Myrcha",
+     "object": "Maria Ejchart - Dubois; Zuzanna Rudzińska-Bluszcz; Krzysztof Śmiszek; Arkadiusz Myrcha",
+     "object_type": "person",
+     "kind": "role_or_job",
+     "date": "13.12.2023",
+     "evidence_text": "Potwierdziły się też wcześniejsze informacje, że w skład kierownictwa MS wejdą",
+     "evidence_translation": "Earlier reports were also confirmed that the following will enter the MoJ management:",
+     "evidence_location": "body, paragraph after the lead, before the list",
+     "label": "fact",
+     "label_scope": "The page says these four are to enter MoJ management and gives no posts for three of them. They are not described as members of the rule-of-law team.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "object_map_id": "ejchart",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "ejchart",
+      "rudzinska_bluszcz",
+      "myrcha"
+     ],
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-c9216cfd",
+     "subject": "międzyresortowy zespół ds. przywracania praworządności",
+     "subject_type": "other",
+     "relation": "named members and their organisations (Iustitia, Themis, Wolne Sądy, HFHR, Fundacja Batorego, universities)",
+     "object": "none named",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "międzyresortowego zespołu ds. przywracania praworządności",
+     "evidence_translation": "interdepartmental team for the restoration of the rule of law",
+     "evidence_location": "lead paragraph",
+     "label": "no_link",
+     "label_scope": "Checked the page for named members of this team and their organisations. None is named. The four people in the management list are a separate list.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-c30d5d31",
+     "subject": "międzyresortowy zespół ds. przywracania praworządności",
+     "subject_type": "other",
+     "relation": "members paid or receive fees",
+     "object": "none stated",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "międzyresortowego zespołu ds. przywracania praworządności",
+     "evidence_translation": "interdepartmental team for the restoration of the rule of law",
+     "evidence_location": "lead paragraph",
+     "label": "no_link",
+     "label_scope": "Checked the page for any pay or fee to team members. None is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-22d46a0d",
+     "subject": "Iustitia",
+     "subject_type": "org",
+     "relation": "says it supports the 'new' judges of the Constitutional Tribunal (sidebar headline)",
+     "object": "nowych sędziów Trybunału Konstytucyjnego",
+     "object_type": "other",
+     "kind": "statement",
+     "date": "31.10.2026 22:18",
+     "evidence_text": "Iustitia wyraża wsparcie dla „nowych” sędziów Trybunału Konstytucyjnego",
+     "evidence_translation": "Iustitia expresses support for the 'new' judges of the Constitutional Tribunal",
+     "evidence_location": "sidebar 'Ostatnio dodane', item 4 (headline only)",
+     "label": "fact",
+     "label_scope": "Iustitia's statement about itself, as headlined in the sidebar. The article was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "iustitia",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)",
+      "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)",
+      "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)",
+      "28 Oct statement 'Organy państwa muszą kierować się prawem, a nie ustępować przed siłą' (general, no operation described)"
+     ]
+    },
+    {
+     "id": "B02-5a40a2d0",
+     "subject": "Donald Tusk",
+     "subject_type": "person",
+     "relation": "speaks on an attack on the Tribunal and its judges (address, per the URL slug)",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "statement",
+     "date": "31.10.2026 21:41",
+     "evidence_text": "Premier o ataku na Trybunał i sędziów",
+     "evidence_translation": "The prime minister on an attack on the Tribunal and judges",
+     "evidence_location": "sidebar 'Ostatnio dodane', item 6 (headline only)",
+     "label": "fact",
+     "label_scope": "Headline and URL slug only. The address was not read, and the headline does not name who is alleged to have carried out the attack.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "tusk",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "\"our judges will enter that building\" (Campus Polska)",
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "'wymaga zdecydowanego działania. Innej drogi nie ma' (X, 30 Oct 19:43)",
+      "\"our judges will enter that building\" (Campus Polska)"
+     ]
+    },
+    {
+     "id": "B02-a4b263bf",
+     "subject": "Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "says that Święczkowski and Sochański have no entry to the Tribunal (sidebar headline; URL names an order, zarządzenie, by her)",
+     "object": "Święczkowski; Sochański",
+     "object_type": "person",
+     "kind": "statement",
+     "date": "31.10.2026 21:50",
+     "evidence_text": "Sędzia Korwin-Piotrowska: Święczkowski i Sochański bez wstępu do Trybunału",
+     "evidence_translation": "Judge Korwin-Piotrowska: Święczkowski and Sochański have no entry to the Tribunal",
+     "evidence_location": "sidebar 'Ostatnio dodane', item 5 (headline only)",
+     "label": "alleged",
+     "label_scope": "Judge Korwin-Piotrowska, as the headline attributes it. The page gives only the surname; the link to the actor 'Anna Korwin-Piotrowska' is the caller's, not the page's. The article was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "swieczkowski",
+     "object_map_status": "on_map",
+     "object_map_ids": [
+      "swieczkowski",
+      "sochanski"
+     ],
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "suspended (one month, disputed)",
+      "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
+      "'To ja wydałam zarządzenie'; decision 'zapadła dziś' (her account)",
+      "30 Oct 2026 orders: legal basis given as art. 130 of the common courts law, applied to TK judges via art. 19 of the TK judges' status act an",
+      "suspended (one month, disputed)"
+     ]
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-F2-linked",
+   "url": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html",
+   "host": "prawo.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "Same-site article linked from the F2 page, read because the F2 page names no team members. Returned in full (HTTP 200, 22399 characters). Published 12.12.2023 13:05. It names a management list reported from 8 December social-media information, not members of the rule-of-law team, and says nothing about pay.",
+   "page_title": "Profesor Adam Bodnar będzie ministrem sprawiedliwości",
+   "page_date": "12.12.2023 13:05",
+   "publisher": "Prawo.pl (Wolters Kluwer)",
+   "capture_answer": "Supplementary to F2. Confirms the MoJ management names and gives background on Bodnar and Mazur. Still no members of the rule-of-law team.",
+   "raw": {
+    "fetched_at": "2026-11-02T01:26:27.157Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 22399,
+    "sha256": "769c754e2a80be0c42e8d73bbc81f614ea3f523a9c9c4b50b7667a20e755c795",
+    "url_read": "https://www.prawo.pl/prawnicy-sady/adam-bodnar-ministrem-sprawiedliwosci-kto-w-resorcie,524360.html"
+   },
+   "names_listed": [
+    "Maria Ejchart - Dubois",
+    "Zuzanna Rudzińska-Bluszcz",
+    "Dariusz Mazur",
+    "Krzysztof Śmiszek",
+    "Arkadiusz Myrcha"
+   ],
+   "names_found_in_page_text": "5/5",
+   "claims": [
+    {
+     "id": "B02-4bb27639",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "vice-president of the Helsinki Foundation for Human Rights (HFHR), 2010–2015",
+     "object": "Helsińska Fundacja Praw Człowieka (HFHR)",
+     "object_type": "org",
+     "kind": "role_or_job",
+     "date": "2010–2015",
+     "evidence_text": "W latach 2010–2015 był wiceprezesem Helsińskiej Fundacji Praw Człowieka",
+     "evidence_translation": "In 2010–2015 he was vice-president of the Helsinki Foundation for Human Rights",
+     "evidence_location": "body, paragraph after the photo",
+     "label": "fact",
+     "label_scope": "The page's background on Bodnar.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "hfhr",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "vice-president 2010-2015",
+      "vice-president 2010-2015"
+     ]
+    },
+    {
+     "id": "B02-b5d62340",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "Rzecznik Praw Obywatelskich (Ombudsman / Commissioner for Human Rights), 2015–2021",
+     "object": "Rzecznik Praw Obywatelskich",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "2015–2021",
+     "evidence_text": "w latach 2015–2021 Rzecznikiem Praw Obywatelskich",
+     "evidence_translation": "in 2015–2021 Ombudsman (Commissioner for Human Rights)",
+     "evidence_location": "body, same paragraph as the HFHR entry",
+     "label": "fact",
+     "label_scope": "The page's background on Bodnar.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "rpo_office",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-249d3369",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "won a Senate mandate in the 2023 parliamentary election on behalf of the Senate pact (Paktu senackiego)",
+     "object": "Paktu senackiego",
+     "object_type": "other",
+     "kind": "nomination_or_vote",
+     "evidence_text": "uzyskał mandat senatora z ramienia Paktu senackiego",
+     "evidence_translation": "won a Senate mandate on behalf of the Senate pact",
+     "evidence_location": "body, paragraph beginning 'W tegorocznych wyborach'",
+     "label": "fact",
+     "label_scope": "The page's background on Bodnar.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-4cf7531d",
+     "subject": "Dariusz Mazur",
+     "subject_type": "person",
+     "relation": "member of the Themis judges' association; judge of the Kraków Regional Court (Sąd Okręgowy w Krakowie)",
+     "object": "Stowarzyszenie Sędziów „Themis”",
+     "object_type": "org",
+     "kind": "membership_or_board",
+     "date": "12.12.2023",
+     "evidence_text": "członek Stowarzyszenia Sędziów „Themis”",
+     "evidence_translation": "member of the Association of Judges 'Themis'",
+     "evidence_location": "section 'W resorcie - prawnicy, sędziowie, obrońcy praw człowieka'",
+     "label": "fact",
+     "label_scope": "The page's description. The 13.12.2023 article's list of confirmed names does not include Mazur.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "mazur",
+     "subject_map_status": "on_map",
+     "object_map_id": "themis",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "OKO.press (19 Oct 2025) lists him among judges associated with Themis: 'Z Themis byli związani sędziowie ... Dariusz Mazur (obecny wiceminis",
+      "OKO.press (19 Oct 2025) lists him among judges associated with Themis: 'Z Themis byli związani sędziowie ... Dariusz Mazur (obecny wiceminis"
+     ]
+    },
+    {
+     "id": "B02-25c53f3f",
+     "subject": "Dariusz Mazur",
+     "subject_type": "person",
+     "relation": "reported as set to enter MoJ management, per 8 December social-media information",
+     "object": "Ministry of Justice management (kierownictwo MS)",
+     "object_type": "public_body",
+     "kind": "role_or_job",
+     "date": "12.12.2023",
+     "evidence_text": "Z informacji, które pojawiły się 8 grudnia na sędziowskich i prawniczych portalach społecznościowych",
+     "evidence_translation": "According to information that appeared on 8 December on judges' and lawyers' social media",
+     "evidence_location": "section 'W resorcie - prawnicy, sędziowie, obrońcy praw człowieka', first sentence",
+     "label": "alleged",
+     "label_scope": "The sourcing is social-media information as reported by the page on 12.12.2023. The 13.12.2023 article does not repeat Mazur among the names it says were confirmed.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "mazur",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-7b38c776",
+     "subject": "Maria Ejchart - Dubois",
+     "subject_type": "person",
+     "relation": "represented judges before the European Court of Human Rights in Strasbourg as part of KOS work",
+     "object": "Europejski Trybunał Praw Człowieka w Strasburgu",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "W ramach prac KOS reprezentowała sędziów przed Europejskim Trybunałem Praw Człowieka w Strasburgu",
+     "evidence_translation": "As part of KOS work she represented judges before the European Court of Human Rights in Strasbourg",
+     "evidence_location": "section 'W resorcie...', first entry",
+     "label": "fact",
+     "label_scope": "The page's description of her KOS work. The cases are not named on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "ejchart",
+     "subject_map_status": "on_map",
+     "object_map_id": "echr",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    }
+   ]
+  },
+  {
+   "ref": "B2_appointments-F3",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka",
+   "host": "rp.pl",
+   "theme": "B2_appointments",
+   "fetch_status": "partial",
+   "fetch_note": "Returned in full (HTTP 200, 17387 characters). Publication 06.05.2025 20:32; the page shows an update of 02.11.2026 02:15. Names no team members and says nothing about pay. The H1 calls it 'zespół negocjacyjny' and the body calls it 'roboczy zespół negocjacyjny'. Sidebar items are headline-only. The 'Czytaj więcej' teaser is the only text about the Żurek lawsuit.",
+   "page_title": "W Ministerstwie Sprawiedliwości powstał zespół negocjacyjny. Zajmie się m.in. sprawą sędziego Waldemara Żurka",
+   "page_date": "Publikacja: 06.05.2025 20:32; Aktualizacja: 02.11.2026 02:15",
+   "publisher": "Rzeczpospolita (rp.pl)",
+   "capture_answer": "The article describes a 'roboczy zespół negocjacyjny' (working negotiation team) that Minister Bodnar said the MoJ had set up. Its aim is to work out settlements for people harmed under PiS rule, and its remit includes the case of judge Waldemar Żurek. The page calls Żurek a judge, not a minister. The wording about compensation and apology 'ze strony sędziego Waldemara Żurka' is ambiguous on the page. No member is named, no set-up date or order is given, and pay is not mentioned. Two earlier settlements are mentioned as context: prok. Krzysztof Parchimowicz (carried out) and sędziego Wojciecha Łączewskiego (awaiting finality).",
+   "raw": {
+    "fetched_at": "2026-11-02T01:15:57.218Z",
+    "http": "HTTP 200 OK",
+    "content_type": "text/html",
+    "chars": 17387,
+    "sha256": "47fc6396d5753fd95e007aba8f9d46a3393782bc1025d1ad0db31fe2136aad89",
+    "url_read": "https://www.rp.pl/sady-i-trybunaly/art42237901-w-ministerstwie-sprawiedliwosci-powstal-zespol-negocjacyjny-zajmie-sie-m-in-sprawa-sedziego-waldemara-zurka"
+   },
+   "followup_urls": [
+    {
+     "url": "https://www.rp.pl/sady-i-trybunaly/art42192001-sedzia-waldemar-zurek-pozwal-polske-chce-miliona-zlotych",
+     "why": "Linked 'Czytaj więcej' article on Żurek's lawsuit against the State Treasury. Lists the defendants and the demand in full. Not read."
+    },
+    {
+     "url": "https://www.rp.pl/sady-i-trybunaly/art45428881-nocne-starcie-w-trybunale-konstytucyjnym-ludzie-nawrockiego-ida-do-prokuratury",
+     "why": "Sidebar headline on a night clash at the TK. Names of those involved are not on the page. Not read."
+    },
+    {
+     "url": "https://www.rp.pl/sady-i-trybunaly/art45429181-idzie-prezydent-korwin-piotrowska-przedstawia-swoja-wersje-nocnego-wejscia-karola-nawrockiego-do-tk",
+     "why": "Sidebar headline; URL says Korwin-Piotrowska presents her version of Karol Nawrocki's night entry to the TK. Not read."
+    },
+    {
+     "url": "https://www.rp.pl/zawody-prawnicze/art45208831-jak-strazak-na-dyzurze-prezes-krajowej-rady-radcow-prawnych-o-statusie-macieja-berka",
+     "why": "Sidebar headline on Maciej Berek's legal-adviser status, attributed to Włodzimierz Chróścik. Not read."
+    }
+   ],
+   "claims": [
+    {
+     "id": "B02-d2209207",
+     "subject": "Ministerstwo Sprawiedliwości",
+     "subject_type": "public_body",
+     "relation": "set up a working negotiation team (roboczy zespół negocjacyjny) to work out settlements for people harmed under PiS rule",
+     "object": "roboczy zespół negocjacyjny",
+     "object_type": "other",
+     "kind": "other",
+     "date": "06.05.2025",
+     "evidence_text": "w Ministerstwie Sprawiedliwości powstał roboczy zespół negocjacyjny",
+     "evidence_translation": "a working negotiation team was set up at the Ministry of Justice",
+     "evidence_location": "body, paragraph beginning 'Jednocześnie zaznaczył'",
+     "label": "fact",
+     "label_scope": "Minister Bodnar's statement as quoted, i.e. the MoJ describing its own action. No order, set-up date or members are given. The 06.05.2025 date is the article's publication date.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-de2dcf12",
+     "subject": "Adam Bodnar",
+     "subject_type": "person",
+     "relation": "wrote on social media, as Minister of Justice, that he feels obliged to remedy the wrongs done to judges and prosecutors",
+     "object": "Ministry of Justice",
+     "object_type": "public_body",
+     "kind": "statement",
+     "date": "06.05.2025",
+     "evidence_text": "Jako Minister Sprawiedliwości czuję się do tego zobowiązany",
+     "evidence_translation": "As Minister of Justice I feel obliged to do this",
+     "evidence_location": "lead paragraph",
+     "label": "fact",
+     "label_scope": "Social-media post as quoted by rp.pl, with his title as stated there.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "bodnar",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-08a79c75",
+     "subject": "roboczy zespół negocjacyjny",
+     "subject_type": "other",
+     "relation": "headline: will deal with, among others, the case of judge Waldemar Żurek",
+     "object": "Waldemar Żurek",
+     "object_type": "person",
+     "kind": "other",
+     "date": "06.05.2025",
+     "evidence_text": "Zajmie się m.in. sprawą sędziego Waldemara Żurka",
+     "evidence_translation": "It will deal, among others, with the case of judge Waldemar Żurek",
+     "evidence_location": "headline (H1 and page title)",
+     "label": "fact",
+     "label_scope": "Headline statement by rp.pl. The body calls the team 'roboczy zespół negocjacyjny'. The og:title says 'specjalny zespół'.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-6b6ecabf",
+     "subject": "roboczy zespół negocjacyjny",
+     "subject_type": "other",
+     "relation": "remit includes compensation and public apology 'ze strony sędziego Waldemara Żurka', as Bodnar informed",
+     "object": "Waldemar Żurek",
+     "object_type": "person",
+     "kind": "other",
+     "date": "06.05.2025",
+     "evidence_text": "zajmie się także oczekiwaniem zadośćuczynienia oraz publicznych przeprosin ze strony sędziego Waldemara Żurka",
+     "evidence_translation": "will also deal with the awaiting of compensation and public apologies from judge Waldemar Żurek (literal)",
+     "evidence_location": "body, paragraph beginning 'Bodnar poinformował, iż zespół'",
+     "label": "fact",
+     "label_scope": "Bodnar's statement as reported. 'ze strony' is ambiguous about who is to pay or apologise, and the page does not settle it.",
+     "access": "page_read",
+     "evidence_check": "not_found",
+     "object_map_id": "zurek",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-eb3e08eb",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "judge of Sąd Okręgowy w Krakowie suing the State Treasury over PiS-era repression (teaser)",
+     "object": "Skarb Państwa",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "date": "w kwietniu (April; year not stated in the teaser)",
+     "evidence_text": "Sędzia Waldemar Żurek z Sądu Okręgowego w Krakowie pozywa Skarb Państwa",
+     "evidence_translation": "Judge Waldemar Żurek of the Kraków Regional Court is suing the State Treasury",
+     "evidence_location": "'Czytaj więcej' teaser",
+     "label": "fact",
+     "label_scope": "Teaser for the related rp.pl article (art42192001). The lawsuit itself was not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-7fe84fae",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "lawsuit asks for compensation (zadośćuczynienie) against the State",
+     "object": "Skarb Państwa",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "amount": "1 miliona",
+     "currency": "złotych",
+     "evidence_text": "Wnosi też o zasądzenie 1 miliona złotych zadośćuczynienia",
+     "evidence_translation": "He also asks for an award of 1 million złoty in compensation",
+     "evidence_location": "'Czytaj więcej' teaser, section 'Sędzia Waldemar Żurek: zmobilizowanie instytucji państwa...'",
+     "label": "fact",
+     "label_scope": "The teaser's description of the demand. The court filing is not on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
+    },
+    {
+     "id": "B02-bde38602",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "lawsuit names among the institutions: Minister Sprawiedliwości – Prokurator Generalny; Kancelaria Sejmu; Kancelaria Prezydenta; Sąd Najwyższy; disciplinary spokespersons",
+     "object": "Minister Sprawiedliwości – Prokurator Generalny; Kancelaria Sejmu; Kancelaria Prezydenta; Sąd Najwyższy; rzecznicy dyscyplinarni sędziów",
+     "object_type": "public_body",
+     "kind": "legal_action",
+     "evidence_text": "W pozwie wymienione zostały najważniejsze instytucje państwa polskiego, m.in. Minister Sprawiedliwości",
+     "evidence_translation": "The lawsuit names the most important institutions of the Polish state, among them the Minister of Justice",
+     "evidence_location": "'Czytaj więcej' teaser",
+     "label": "fact",
+     "label_scope": "Teaser statement; the list is introduced by 'm.in.' (among others), so it may not be complete.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "object_map_ids": [
+      "moj",
+      "supreme_court"
+     ],
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-22674f43",
+     "subject": "Waldemar Żurek",
+     "subject_type": "person",
+     "relation": "told OKO.press that the lawsuit's main aim is to mobilise state institutions to seek recourse against officials",
+     "object": "OKO.press",
+     "object_type": "org",
+     "kind": "statement",
+     "evidence_text": "Głównym celem pozwu jest zmobilizowanie instytucji państwa do regresu wobec tych funkcjonariuszy władzy autorytarnej",
+     "evidence_translation": "The main aim of the lawsuit is to mobilise state institutions to seek recourse against those officials of the authoritarian power",
+     "evidence_location": "quotation in section 'Sędzia Waldemar Żurek: zmobilizowanie instytucji państwa...'",
+     "label": "fact",
+     "label_scope": "Quote as reported by rp.pl ('powiedział sędzia Żurek serwisowi OKO.press'). No date is given for the interview.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "zurek",
+     "subject_map_status": "on_map",
+     "object_map_id": "okopress",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
+    },
+    {
+     "id": "B02-9bfde01f",
+     "subject": "roboczy zespół negocjacyjny",
+     "subject_type": "other",
+     "relation": "named members and their organisations",
+     "object": "none named",
+     "object_type": "other",
+     "kind": "other",
+     "evidence_text": "roboczy zespół negocjacyjny, który ma na celu wypracowanie ugód",
+     "evidence_translation": "a working negotiation team that aims to work out settlements",
+     "evidence_location": "body, paragraph beginning 'Jednocześnie zaznaczył'",
+     "label": "no_link",
+     "label_scope": "Checked for team members and their organisations. None is named. Only the two earlier settlement parties (prok. Krzysztof Parchimowicz; sędziego Wojciecha Łączewskiego) and Żurek are named in connection with it.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-2d01f012",
+     "subject": "roboczy zespół negocjacyjny",
+     "subject_type": "other",
+     "relation": "members paid or receive fees",
+     "object": "none stated",
+     "object_type": "other",
+     "kind": "contract_or_fee",
+     "evidence_text": "roboczy zespół negocjacyjny, który ma na celu wypracowanie ugód",
+     "evidence_translation": "a working negotiation team that aims to work out settlements",
+     "evidence_location": "body, paragraph beginning 'Jednocześnie zaznaczył'",
+     "label": "no_link",
+     "label_scope": "Checked the page for any pay or fee to team members. None is stated.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    },
+    {
+     "id": "B02-7b7dfa16",
+     "subject": "Maciej Berek",
+     "subject_type": "person",
+     "relation": "headline attributes to Włodzimierz Chróścik the statement that Berek is a legal adviser (radca prawny) who may become a TK judge",
+     "object": "Trybunał Konstytucyjny",
+     "object_type": "public_body",
+     "kind": "statement",
+     "evidence_text": "Włodzimierz Chróścik o Macieju Berku: jest radcą prawnym i może zostać sędzią TK",
+     "evidence_translation": "Włodzimierz Chróścik on Maciej Berek: he is a legal adviser and may become a TK judge",
+     "evidence_location": "sidebar 'Powiązane/Polecane/Najnowsze' (headline only)",
+     "label": "alleged",
+     "label_scope": "Włodzimierz Chróścik, as the headline attributes it. Headline only; article not read; undated on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "berek",
+     "subject_map_status": "on_map",
+     "object_map_id": "tk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected judge of",
+      "elected judge of",
+      "co-signed 23 Oct statement: 'Spór kompetencyjny nie istnieje'; demands admission to adjudicate"
+     ]
+    },
+    {
+     "id": "B02-bfefc621",
+     "subject": "Korwin-Piotrowska",
+     "subject_type": "person",
+     "relation": "gives her account of Karol Nawrocki's night entry into the TK (headline; URL says 'przedstawia swoją wersję')",
+     "object": "Nawrocki",
+     "object_type": "person",
+     "kind": "statement",
+     "evidence_text": "Korwin-Piotrowska relacjonuje wejście Nawrockiego do TK",
+     "evidence_translation": "Korwin-Piotrowska gives an account of Nawrocki's entry into the TK",
+     "evidence_location": "sidebar 'Najnowsze' (headline only)",
+     "label": "alleged",
+     "label_scope": "Korwin-Piotrowska's account, as the headline attributes it. The headline gives only the surname; the URL slug names Karol Nawrocki. Article not read; undated on the page.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "subject_map_id": "korwin_piotrowska",
+     "subject_map_status": "on_map",
+     "object_map_id": "nawrocki",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew",
+      "refused / does not recognise oath",
+      "31 Oct 2026 confrontation at the TK entrance: Berek says the president 'barged into' her; the president's aide Przydacz says she and Markiew"
+     ]
+    },
+    {
+     "id": "B02-a32ae36a",
+     "subject": "Ludzie Nawrockiego",
+     "subject_type": "other",
+     "relation": "headline: going to the prosecutor's office after a night clash at the TK",
+     "object": "prokuratura",
+     "object_type": "public_body",
+     "kind": "other",
+     "evidence_text": "Ludzie Nawrockiego idą do prokuratury",
+     "evidence_translation": "Nawrocki's people are going to the prosecutor's office",
+     "evidence_location": "sidebar 'Najnowsze' (headline only)",
+     "label": "alleged",
+     "label_scope": "rp.pl headline only. The people are not named in it and the complaint is not described. Article not read.",
+     "access": "page_read",
+     "evidence_check": "exact",
+     "map_status": "both_names_unmatched"
+    }
+   ]
+  },
+  {
    "ref": "B3_state_boards-T1",
    "url": "https://www.orlen.pl/en/about-the-company/company/bodies-and-structure/supervisory-board",
    "host": "orlen.pl",
@@ -3447,7 +4393,9 @@
      "label_scope": "Bio states it.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-43b73579",
@@ -4071,7 +5019,9 @@
      "access": "page_read",
      "evidence_found_at": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDNCK42/i13048-o1.pdf",
      "evidence_check": "found_on_linked_page",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "tvp",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-183f6c73",
@@ -6546,7 +7496,13 @@
      "evidence_check": "exact",
      "subject_map_id": "wawrykiewicz",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "wawrykiewicz_firm",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "income PLN 151,917 (2024) -> PLN 1,632,556 (2025) while MEP; clients not named",
+      "income PLN 151,917 (2024) -> PLN 1,632,556 (2025) while MEP; clients not named"
+     ]
     },
     {
      "id": "B02-d0797d7e",
@@ -6563,7 +7519,9 @@
      "label_scope": "Register listing as shown on BizRaport. The 2022 formation notice gives the name as 'JANCZARA SANDRA NATALIA' (Dane partnerów).",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "wawrykiewicz_firm",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-d851726c",
@@ -6580,7 +7538,9 @@
      "label_scope": "Registration date only. The page gives no liquidation start date.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-5c31c94b",
@@ -6597,7 +7557,9 @@
      "label_scope": "Status flag only. The page gives no date for the start of liquidation.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-54fa323d",
@@ -6614,7 +7576,9 @@
      "label_scope": "Address as registered per the 2024 entry and the basic data table.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-d398e9ff",
@@ -6631,7 +7595,9 @@
      "label_scope": "Page checked for revenue, profit, assets and goodwill figures; all shown as 'b.d.' (no data). No yearly breakdown appears.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-70bd4a4f",
@@ -6648,7 +7614,9 @@
      "label_scope": "Page checked for shareholders; none shown.",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-a267c6f0",
@@ -6665,6 +7633,8 @@
      "label_scope": "Page checked for the brief's named actors among partners, liquidator and shareholders; none appears.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "wawrykiewicz_firm",
+     "subject_map_status": "on_map",
      "object_map_id": "tusk",
      "object_map_status": "on_map",
      "object_map_ids": [
@@ -6674,7 +7644,7 @@
       "swieczkowski",
       "nawrocki"
      ],
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "new_tie_between_known_entities"
     }
    ]
   },
@@ -8466,9 +9436,18 @@
      "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-fa30eeb6",
@@ -8485,9 +9464,18 @@
      "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-1a3a643b",
@@ -8504,9 +9492,18 @@
      "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-bd9e6c31",
@@ -8570,9 +9567,18 @@
      "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-e7734f90",
@@ -8589,9 +9595,18 @@
      "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-d9ceffe8",
@@ -8608,9 +9623,18 @@
      "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-930ebba1",
@@ -8674,9 +9698,18 @@
      "label_scope": "The archive site's own statement on the placeholder notice returned for this URL. The notice gives no date for it.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-1e83bd19",
@@ -8693,9 +9726,18 @@
      "label_scope": "The foundation's name appears in the footer of the archive site. The page does not say in words that the foundation runs the archive or OKO.press.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-a6f3a083",
@@ -8712,9 +9754,18 @@
      "label_scope": "Inference only. It rests on the footer naming the foundation on the archive site and on the notice sending the archive's materials to OKO.press. The page does not state who operates the archive.",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-80e910fb",
@@ -8781,9 +9832,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-38d69862",
@@ -8803,9 +9863,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-48b950fa",
@@ -8872,9 +9941,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-01b1ce74",
@@ -8894,9 +9972,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-ee6b27ed",
@@ -8963,9 +10050,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-ca8d4327",
@@ -8985,9 +10081,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-55de132c",
@@ -9055,9 +10160,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-f87c651b",
@@ -9074,9 +10188,18 @@
      "evidence_location": "Main text of the notice, below the heading",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-a4269675",
@@ -9150,9 +10273,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-5e1850b5",
@@ -9169,9 +10301,18 @@
      "evidence_location": "Main text of the notice, below the heading",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-5be561d9",
@@ -9245,9 +10386,18 @@
      ],
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-cc337be0",
@@ -9264,9 +10414,18 @@
      "evidence_location": "Main text of the notice, below the heading",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "osiatynski",
+     "subject_map_status": "on_map",
      "object_map_id": "okopress",
      "object_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017",
+      "founded the archive (2017)",
+      "same foundation (Fundacja OKO) runs both; Archive set up 2017"
+     ]
     },
     {
      "id": "B02-fd14b2e2",
@@ -11208,7 +12367,9 @@
      "evidence_location": "Body paragraph 1, second sentence",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B02-fdd5e95d",
@@ -11228,7 +12389,9 @@
      "evidence_check": "exact",
      "subject_map_id": "venice",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B02-58456f50",
@@ -17633,6 +18796,8 @@
      "date": "2026-03-13",
      "access": "page_read",
      "evidence_check": "exact",
+     "subject_map_id": "ko",
+     "subject_map_status": "on_map",
      "object_map_id": "markiewicz",
      "object_map_status": "on_map",
      "object_map_ids": [
@@ -17643,7 +18808,14 @@
       "szostek",
       "bentkowska"
      ],
-     "map_status": "new_entity_or_unmatched_name"
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "elected to TK",
+      "elected to TK",
+      "elected to TK",
+      "elected to TK",
+      "elected to TK"
+     ]
     },
     {
      "id": "B02-8956ca2b",
@@ -27889,13 +29061,6 @@
   }
  ],
  "to_read_unread": [
-  {
-   "theme": "B2_appointments",
-   "url": "https://pace.coe.int/news/9611/pace-elects-anna-adamska-gallant-judge-to-the-european-court-of-human-rights-in-respect-of-poland",
-   "title": "Logo Assembly Logo Hemicycle",
-   "why": "Primary record of Poland's ECtHR judge election under the Tusk government",
-   "capture": "Date, votes, the other candidates on Poland's list; then her CV (PACE doc 33717 or echr.coe.int) for Iustitia or other association membership"
-  },
   {
    "theme": "B2_appointments",
    "url": "https://www.gazetaprawna.pl/prawnik/orzecznictwo/artykuly/10954669,piotr-girdwoyn-nowym-dyrektorem-krajowej-szkoly-sadownictwa-i-prokurat.html",

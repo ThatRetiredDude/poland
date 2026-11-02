@@ -869,6 +869,68 @@
    "note": null
   },
   {
+   "agent": "read:C6_org_finances:F1",
+   "url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+   "final_url": "https://www.judicialwatch.org/documents/jw-v-state-exhibits-02034/jw-v-state-exhibits-02034/",
+   "fetched_at": "2026-11-02T01:16:06.254Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/html",
+   "chars": 36238,
+   "sha256": "70a076a5945d441e3e073bd3751f9b2fee268056c212667ba68db8755046c7f8",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C6_org_finances:F1",
+   "url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "final_url": "https://old.akcjademokracja.pl/app/uploads/Sprawozdanie-finansowe-Fundacja-Akcja-Demokracja.pdf",
+   "fetched_at": "2026-11-02T01:16:06.256Z",
+   "http": "HTTP 200 OK",
+   "content_type": "text/plain",
+   "chars": 11348,
+   "sha256": "1b7f8263348accfd217520a9af6919d6e6e071924704834db47f87fac503d7c3",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C6_org_finances:F1",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:20:51.660Z",
+   "http": null,
+   "content_type": null,
+   "chars": 39387,
+   "sha256": "8edeb82b8a02d74e30f265cbc1ce4c51d2c1f1e2c4c4ca9d59462ce9a3c915dd",
+   "error": null,
+   "note": "The page reader returned the page text verbatim for the first 39387 characters and its own summary of the rest. Only the verbatim part counts as page text (chars and sha256 are for that part); the summary is kept privately and not republished.",
+   "returned": "page_text_then_reader_summary",
+   "summary_chars": 3582
+  },
+  {
+   "agent": "read:C6_org_finances:F1",
+   "url": "https://hfhr.pl/upload/2024/07/sprawozdanie-merytoryczne-2023.pdf",
+   "final_url": null,
+   "fetched_at": "2026-11-02T01:22:52.980Z",
+   "http": null,
+   "content_type": null,
+   "chars": 43481,
+   "sha256": "58b314fbfc0f65b936f82b1d80f48160b3cbc72eeb9f466e28f3151e2ae1c9ef",
+   "error": null,
+   "note": null
+  },
+  {
+   "agent": "read:C6_org_finances:F1",
+   "url": "https://www.judicialwatch.org/wp-content/uploads/2015/09/JW-v.-State-exhibits-02034.pdf",
+   "final_url": "https://www.judicialwatch.org/wp-content/uploads/2015/09/JW-v.-State-exhibits-02034.pdf",
+   "fetched_at": "2026-11-02T01:22:53.214Z",
+   "http": "HTTP 200 OK",
+   "content_type": "application/pdf",
+   "chars": 28947,
+   "sha256": "8536581cd13ae126a984eff9ddb968857aa5dafb2dccece24981b1489f528d4c",
+   "error": null,
+   "note": null
+  },
+  {
    "agent": "read:C7_firms_contracts:1",
    "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3237/body",
    "final_url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3237/body",

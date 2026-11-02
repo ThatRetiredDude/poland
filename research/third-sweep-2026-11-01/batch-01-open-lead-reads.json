@@ -59,10 +59,10 @@
    "empty": 21
   },
   "map_status": {
-   "pair_already_linked": 187,
-   "new_tie_between_known_entities": 131,
-   "new_entity_or_unmatched_name": 639,
-   "both_names_unmatched": 261
+   "pair_already_linked": 195,
+   "new_tie_between_known_entities": 136,
+   "new_entity_or_unmatched_name": 636,
+   "both_names_unmatched": 251
   },
   "kinds": {
    "membership_or_board": 78,
@@ -484,7 +484,16 @@
      "evidence_check": "normalized",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "tusk",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "consented to his move to TK; former minister",
+      "nominated to secure 8:7 TK assembly majority; plan from Tusk-Żurek talks (anonymous)",
+      "President of the Government Legislation Centre and Secretary of the Council of Ministers 2008-2015 in the PO-PSL government; resigned as min",
+      "Tusk described Berek as his 'right-hand man' (quoted 14 Oct 2026)",
+      "unnamed government sources told Interia the plan is to 'take back' the TK from PiS and that Berek is being sent for that; a deputy minister "
+     ]
     },
     {
      "id": "B01-ee44c3d5",
@@ -5291,7 +5300,9 @@
      "evidence_check": "exact",
      "subject_map_id": "bodnar",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-23b121b1",
@@ -6215,7 +6226,9 @@
      "evidence_check": "normalized",
      "subject_map_id": "pis",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-3dbf45ab",
@@ -6233,7 +6246,9 @@
      "evidence_check": "exact",
      "subject_map_id": "pis",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-1f6813d7",
@@ -6890,7 +6905,13 @@
      "evidence_check": "normalized",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
     },
     {
      "id": "B01-a10fdbcf",
@@ -6909,7 +6930,13 @@
      "evidence_check": "exact",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
     },
     {
      "id": "B01-74a59cd5",
@@ -10664,7 +10691,9 @@
      "label_scope": "As stated in the letter; the minister is not named.",
      "access": "page_read",
      "evidence_check": "normalized",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "moj",
+     "subject_map_status": "sweep2_candidate",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-6a9797a8",
@@ -11226,7 +11255,13 @@
      "evidence_check": "exact",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
     },
     {
      "id": "B01-7e13b736",
@@ -15176,7 +15211,9 @@
      "subject_type": "org",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "pfn",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-9bfd14ce",
@@ -15208,7 +15245,9 @@
      "subject_type": "org",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-7afd9d88",
@@ -15244,7 +15283,15 @@
      "evidence_check": "exact",
      "subject_map_id": "swirski",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "board member (2017)",
+      "charged 14 Jul 2026 by Rzeszów regional prosecutors, with fellow board member Cezary J., with abuse of power over the 2017 'Sprawiedliwe Sąd",
+      "board member (2017)",
+      "charged 14 Jul 2026 by Rzeszów regional prosecutors, with fellow board member Cezary J., with abuse of power over the 2017 'Sprawiedliwe Sąd"
+     ]
     },
     {
      "id": "B01-0aa290cd",
@@ -15278,7 +15325,9 @@
      "subject_type": "person",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-75e9d485",
@@ -15312,7 +15361,9 @@
      "subject_type": "org",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "pfn",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-8bce3642",
@@ -15360,7 +15411,9 @@
      "subject_type": "company",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-abe46523",
@@ -15410,7 +15463,9 @@
      "subject_type": "org",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "pfn",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-cfb8099d",
@@ -15460,7 +15515,9 @@
      "subject_type": "company",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-4c8e83fc",
@@ -15476,7 +15533,9 @@
      "subject_type": "person",
      "access": "page_read",
      "evidence_check": "exact",
-     "map_status": "both_names_unmatched"
+     "object_map_id": "pfn",
+     "object_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-7f593b6a",
@@ -15586,7 +15645,9 @@
      "subject_type": "org",
      "access": "page_read",
      "evidence_check": "empty",
-     "map_status": "both_names_unmatched"
+     "subject_map_id": "pfn",
+     "subject_map_status": "on_map",
+     "map_status": "new_entity_or_unmatched_name"
     },
     {
      "id": "B01-10f421a8",
@@ -22325,7 +22386,13 @@
      "evidence_check": "exact",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
     },
     {
      "id": "B01-5b2057ae",
@@ -23785,7 +23852,13 @@
      "evidence_check": "exact",
      "subject_map_id": "dziurda",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "professor, civil procedure (2023); PhD 2004, habilitation 2020",
+      "professor, civil procedure (2023); PhD 2004, habilitation 2020"
+     ]
     },
     {
      "id": "B01-c4e8974b",
@@ -24327,7 +24400,13 @@
      "evidence_check": "found_on_linked_page",
      "subject_map_id": "berek",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "uw",
+     "object_map_status": "on_map",
+     "map_status": "pair_already_linked",
+     "existing_relations": [
+      "assistant professor since 2019; ~PLN 44k in 2025",
+      "assistant professor since 2019; ~PLN 44k in 2025"
+     ]
     },
     {
      "id": "B01-6b28cedd",
@@ -24926,7 +25005,9 @@
      "evidence_check": "exact",
      "subject_map_id": "hoffman_taborowski",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "moj",
+     "object_map_status": "sweep2_candidate",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-0d83b0e4",
@@ -27493,7 +27574,9 @@
      "evidence_check": "normalized",
      "subject_map_id": "budka",
      "subject_map_status": "on_map",
-     "map_status": "new_entity_or_unmatched_name"
+     "object_map_id": "po",
+     "object_map_status": "on_map",
+     "map_status": "new_tie_between_known_entities"
     },
     {
      "id": "B01-46c2dbcb",
