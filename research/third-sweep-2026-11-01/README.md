@@ -17,6 +17,16 @@ The sweep stopped on 2026-11-01 at about 19:46 UTC, when the account's weekly us
 
 Agents stopped by the usage limit had already run 200 searches and 79 page reads. Those are logged in `raw/` under `searches_by_stopped_agents` and `fetches_by_stopped_agents`, as returned, with `agent_rerun_later` saying whether that part was run again. No claims came from the stopped agents.
 
+## Candidate nodes and ties (`third-sweep-2026-11-01.json`)
+
+The claims from batches 01 to 03, merged into candidate graph data with every piece of evidence attached (none of it is on the map):
+
+- 1244 candidate ties. 164 of them link two entities already on the map that the map does not yet link; 166 repeat or add to a pair the map already links.
+- 748 candidate new people, organisations, bodies, firms and documents, 463 of them tied to at least one map entity.
+- 571 no_link findings (a page checked for a link that it does not show), grouped into 438 entries by page and subject.
+- Left out of the ties and kept under `leads_to_check`: 56 claims whose excerpt was not found in the page text, 29 claims the cross-check found not supported, and the title-only leads, unread pages and pages that could not be read.
+- Each tie has `map_status`, its `relations`, `dates`, `amounts`, `label` and `label_scopes`, and `evidence` (one item per claim, with URL, excerpt, translation, excerpt check and cross-check verdict).
+
 ## How to read a data point
 
 - `access` says how the evidence was obtained: `page_read` (the page text was read and the quoted string was checked against it by script), `page_read_via_reader_extract` (the page reader returned its own extract of the page; the quoted string was checked against that extract, and a page-text re-check is pending) or `search_result_title_only` (only the search result title and URL were seen).
