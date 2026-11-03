@@ -1407,15 +1407,6 @@
       ]
     },
     {
-      "id": "us_exim_dfc",
-      "type": "org",
-      "group": "us_gov",
-      "label": "US EXIM & DFC",
-      "sources": [
-        "https://www.nucnet.org/news/us-development-finance-corporation-signs-letter-of-intent-for-usd979-million-nuclear-loan-11-3-2024"
-      ]
-    },
-    {
       "id": "police_warsaw",
       "type": "org",
       "group": "government",
@@ -1438,7 +1429,7 @@
       "id": "tvp",
       "type": "org",
       "group": "media",
-      "label": "TVP / Polish Radio / PAP (public media)",
+      "label": "TVP (Telewizja Polska, public television; in liquidation since Dec 2023)",
       "sources": [
         "https://www.prawo.pl/biznes/oddalenie-wniosku-o-otwarcie-likwidacji-tvp-z-powolaniem-na-wyrok-tk,525058.html"
       ]
@@ -2300,7 +2291,7 @@
     {
       "source": "ko",
       "target": "markiewicz",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2310,7 +2301,7 @@
     {
       "source": "ko",
       "target": "taborowski",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2320,7 +2311,7 @@
     {
       "source": "ko",
       "target": "korwin_piotrowska",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2330,7 +2321,7 @@
     {
       "source": "ko",
       "target": "dziurda",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2340,7 +2331,7 @@
     {
       "source": "ko",
       "target": "szostek",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2350,7 +2341,7 @@
     {
       "source": "ko",
       "target": "bentkowska",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 13 Mar 2026",
       "confidence": "fact",
       "sources": [
         "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/",
@@ -2360,7 +2351,7 @@
     {
       "source": "ko",
       "target": "patyra",
-      "relation": "elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 11 Jun 2026",
       "confidence": "fact",
       "date": "2026-06-11",
       "sources": [
@@ -2370,7 +2361,7 @@
     {
       "source": "ko",
       "target": "berek",
-      "relation": "nominated and elected to TK",
+      "relation": "put forward as the ruling coalition's candidate; elected by the Sejm 4 Sep 2026",
       "confidence": "fact",
       "date": "2026-09-04",
       "sources": [
@@ -4784,7 +4775,7 @@
     {
       "source": "tusk",
       "target": "tvp",
-      "relation": "government put public media into liquidation (Dec 2023)",
+      "relation": "government put TVP into liquidation (Dec 2023; Polish Radio and PAP were handled the same way)",
       "confidence": "fact",
       "date": "2023-12",
       "sources": [
@@ -5066,7 +5057,7 @@
       ]
     },
     {
-      "source": "neo_krs",
+      "source": "krs_2026",
       "target": "tk",
       "relation": "renewed KRS (May 2026) backed Sejm-elected judges; TK ordered it to stop",
       "confidence": "fact",

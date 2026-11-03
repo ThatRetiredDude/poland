@@ -259,7 +259,7 @@
     {
       "source": "tvp",
       "target": "eec_2025",
-      "relation": "Polish Radio CEO Paweł Majcher and TVP journalists (Joanna Dunikowska-Paź, Marcin Kowalski, Marcin Zaborowski) took part",
+      "relation": "TVP journalists (Joanna Dunikowska-Paź, Marcin Kowalski, Marcin Zaborowski) took part",
       "confidence": "fact",
       "date": "2025-04-23/25",
       "sources": [
@@ -339,6 +339,16 @@
       "date": "2025-04-23",
       "added_by": "lead_eec_2025",
       "note": "Panel line-up as recorded on the congress panel page, which this node already cites."
+    },
+    {
+      "source": "polskie_radio",
+      "target": "eec_2025",
+      "relation": "Polish Radio CEO Paweł Majcher took part",
+      "confidence": "fact",
+      "sources": [
+        "https://web.archive.org/web/20251018092158/https://www.eecpoland.eu/2025/en/prelegenci/"
+      ],
+      "added_by": "review_2026_11_03"
     }
   ]
 }

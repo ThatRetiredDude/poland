@@ -288,11 +288,12 @@
    "id": "buchajczuk",
    "type": "person",
    "group": "judge",
-   "label": "Wojciech Buchajczuk (Warsaw district judge; Iustitia vice-president; KRS member from 2026)",
+   "label": "Wojciech Buchajczuk (Warsaw district judge; Iustitia vice-president; KRS member from 2026, deputy chair from Jun 2026)",
    "sources": [
     "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
     "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
-    "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow"
+    "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
    ],
    "added_by": "sweep_2026_11"
   },
@@ -1593,7 +1594,7 @@
    "id": "krs_2026",
    "type": "org",
    "group": "government",
-   "label": "Krajowa Rada Sądownictwa, renewed (National Council of the Judiciary; judge-members elected May 2026)",
+   "label": "Krajowa Rada Sądownictwa, renewed (National Council of the Judiciary; judge-members elected May 2026, chaired by Zawistowski from Jun 2026)",
    "sources": [
     "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
     "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
@@ -2422,9 +2423,10 @@
    "id": "pawelczyk_woicka",
    "type": "person",
    "group": "judge",
-   "label": "Dagmara Pawełczyk-Woicka (chair of the National Council of the Judiciary, KRS)",
+   "label": "Dagmara Pawełczyk-Woicka (chair of the PiS-era KRS; resigned the chair 15 May 2026)",
    "sources": [
-    "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu"
+    "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu",
+    "https://www.polsatnews.pl/wiadomosc/2026-05-18/zmiany-w-krajowej-radzie-sadownictwa-przewodniczaca-rezygnuje/"
    ],
    "added_by": "sweep_2026_11"
   },
@@ -3629,10 +3631,11 @@
    "id": "wrzesinska_nowacka",
    "type": "person",
    "group": "judge",
-   "label": "Aleksandra Wrzesińska-Nowacka (NSA judge; KRS member from May 2026)",
+   "label": "Aleksandra Wrzesińska-Nowacka (NSA judge; KRS member from May 2026, deputy chair from Jun 2026)",
    "sources": [
     "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
-    "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska"
+    "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
    ],
    "added_by": "sweep_2026_11"
   },
@@ -3683,11 +3686,12 @@
    "id": "zawistowski",
    "type": "person",
    "group": "judge",
-   "label": "Dariusz Zawistowski (Supreme Court judge; last pre-2018 KRS chair; KRS member from 2026)",
+   "label": "Dariusz Zawistowski (Supreme Court judge; last pre-2018 KRS chair; chair of the renewed KRS from 11 Jun 2026)",
    "sources": [
     "https://oko.press/zwyciestwo-15-sedziow-z-listy-praworzadnosciowej-w-wyborach-do-krs-radzik-dostal-tylko-14-glosow",
     "https://www.polsatnews.pl/wiadomosc/2026-05-15/nowi-sedziowie-krs-wybrani-przez-sejm-na-liscie-15-nazwisk/",
-    "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska"
+    "https://oko.press/lista-15-sedziow-do-krs-rekomendowanych-przez-iustitie-nazwiska",
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
    ],
    "added_by": "sweep_2026_11"
   },
@@ -3752,6 +3756,36 @@
     "https://oko.press/ujawniamy-kulisy-odwolania-zastepcy-rpo-partyjny-deal-w-instytucji-ktora-powinna-byc-niezalezna"
    ],
    "added_by": "sweep_2026_11"
+  },
+  {
+   "id": "polskie_radio",
+   "type": "org",
+   "group": "media",
+   "label": "Polskie Radio SA (public radio)",
+   "sources": [
+    "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "id": "pap",
+   "type": "org",
+   "group": "media",
+   "label": "Polska Agencja Prasowa (PAP, state news agency)",
+   "sources": [
+    "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "id": "krrit",
+   "type": "org",
+   "group": "state",
+   "label": "Krajowa Rada Radiofonii i Telewizji (KRRiT, broadcasting regulator)",
+   "sources": [
+    "https://tvn24.pl/polska/maciej-swirski-odwolany-z-funkcji-szefa-krrit-st8576289"
+   ],
+   "added_by": "review_2026_11_03"
   }
  ],
  "node_updates": {
@@ -5889,9 +5923,10 @@
   {
    "source": "bodnar",
    "target": "ostrowski",
-   "relation": "as Prosecutor General, suspended him for six months (rp.pl related-article teaser)",
+   "relation": "as Prosecutor General, suspended him for six months on 11 Feb 2025 over his handling of Święczkowski's 'zamach stanu' notification; the decision was immediately enforceable but appealable to the disciplinary court (rp.pl, 11 Feb 2025)",
    "confidence": "fact",
    "sources": [
+    "https://www.rp.pl/prawnicy/art41791651-adam-bodnar-zawiesza-swojego-zastepce-prok-michala-ostrowskiego",
     "https://www.rp.pl/prawo-karne/art41855681-prezes-tk-bogdan-swieczkowski-napisal-do-adama-bodnara-wskazuje-kto-ma-prowadzic-sledztwo-ws-zamachu-stanu"
    ],
    "quote": [
@@ -5908,9 +5943,10 @@
   {
    "source": "ostrowski",
    "target": "bodnar",
-   "relation": "contends that Prosecutor General Bodnar had no right to suspend him, as that encroaches on the president's powers (rp.pl teaser)",
+   "relation": "said he would appeal the suspension but comply for now ('Jak zapoznam się z decyzją to złożę zażalenie, ale na razie muszę się podporządkować', rp.pl, 11 Feb 2025); an rp.pl teaser also reports his view that Bodnar had no right to suspend him",
    "confidence": "fact",
    "sources": [
+    "https://www.rp.pl/prawnicy/art41791651-adam-bodnar-zawiesza-swojego-zastepce-prok-michala-ostrowskiego",
     "https://www.rp.pl/prawo-karne/art41855681-prezes-tk-bogdan-swieczkowski-napisal-do-adama-bodnara-wskazuje-kto-ma-prowadzic-sledztwo-ws-zamachu-stanu"
    ],
    "quote": [
@@ -16579,7 +16615,7 @@
   },
   {
    "source": "blonski",
-   "target": "tvp",
+   "target": "pap",
    "relation": "became the new president of the Polish Press Agency (PAP) (Radio Lublin, 20 Dec 2023)",
    "confidence": "fact",
    "sources": [
@@ -16643,7 +16679,7 @@
   },
   {
    "source": "majcher_pawel",
-   "target": "tvp",
+   "target": "polskie_radio",
    "relation": "Vice President of Polish Radio 2009-2012; listed as its President on the EEC 2026 speaker page (session 24 Apr 2026)",
    "confidence": "fact",
    "sources": [
@@ -16662,7 +16698,7 @@
   },
   {
    "source": "majcher_pawel",
-   "target": "tvp",
+   "target": "polskie_radio",
    "relation": "became the new president of Polskie Radio, appointed by the new supervisory board (Radio Lublin, 20 Dec 2023)",
    "confidence": "fact",
    "sources": [
@@ -18972,6 +19008,96 @@
    ],
    "party_tie": true,
    "added_by": "sweep_2026_11"
+  },
+  {
+   "source": "sienkiewicz",
+   "target": "polskie_radio",
+   "relation": "as Culture Minister dismissed the Polskie Radio president and supervisory board on 19 Dec 2023 and appointed new ones",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "sienkiewicz",
+   "target": "pap",
+   "relation": "as Culture Minister dismissed the PAP president and supervisory board on 19 Dec 2023 and appointed new ones",
+   "confidence": "fact",
+   "sources": [
+    "https://radio.lublin.pl/2023/12/nowe-wladze-polskiego-radia-telewizji-polskiej-i-pap"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "pawelczyk_woicka",
+   "target": "neo_krs",
+   "relation": "chair of the Council; resigned the chair on 15 May 2026, citing the TK's injunction and the Sejm's lack of response to it; chaired her last sitting on 8 May 2026 (Polsat News, 18 May 2026)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.polsatnews.pl/wiadomosc/2026-05-18/zmiany-w-krajowej-radzie-sadownictwa-przewodniczaca-rezygnuje/"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "zawistowski",
+   "target": "krs_2026",
+   "relation": "elected chairman at its first sitting on 11 Jun 2026: 18 for, 3 against, 2 abstentions (prawo.pl)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "wrzesinska_nowacka",
+   "target": "krs_2026",
+   "relation": "elected deputy chair at its first sitting, 11 Jun 2026 (prawo.pl)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "buchajczuk",
+   "target": "krs_2026",
+   "relation": "elected deputy chair at its first sitting, 11 Jun 2026 (prawo.pl)",
+   "confidence": "fact",
+   "sources": [
+    "https://www.prawo.pl/prawnicy-sady/pierwsze-posiedzenie-krajowej-rady-sadownictwa-zawistowski-przewodniczacym,1546325.html"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "swirski",
+   "target": "krrit",
+   "relation": "chairman until 28 Jul 2025, when the other members dismissed him from the chair by the statutory majority of four votes and elected Agnieszka Glapiak; he called the dismissal legally defective but did not contest it (TVN24, 28 Jul 2025)",
+   "confidence": "fact",
+   "sources": [
+    "https://tvn24.pl/polska/maciej-swirski-odwolany-z-funkcji-szefa-krrit-st8576289"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "sejm",
+   "target": "swirski",
+   "relation": "voted on 25 Jul 2025 to put him before the State Tribunal; the MPs' motion accused him of blocking about three hundred million zloty of licence-fee money for public radio and TV, blocking licences for TVN, TVN24, TOK FM and Radio ZET, and not running TV audience research; the vote suspended him as KRRiT chairman (TVN24, 28 Jul 2025)",
+   "confidence": "fact",
+   "sources": [
+    "https://tvn24.pl/polska/maciej-swirski-odwolany-z-funkcji-szefa-krrit-st8576289"
+   ],
+   "added_by": "review_2026_11_03"
+  },
+  {
+   "source": "swirski",
+   "target": "trybunal_stanu",
+   "relation": "sent before the State Tribunal by the Sejm vote of 25 Jul 2025 (an indictment, not a verdict)",
+   "confidence": "fact",
+   "sources": [
+    "https://tvn24.pl/polska/maciej-swirski-odwolany-z-funkcji-szefa-krrit-st8576289"
+   ],
+   "added_by": "review_2026_11_03"
   }
  ]
 }

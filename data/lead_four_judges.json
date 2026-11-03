@@ -105,16 +105,6 @@
       ]
     },
     {
-      "id": "shop4cf",
-      "type": "project",
-      "group": "eu_funding",
-      "label": "SHOP4CF (EU Horizon 2020 project 873087)",
-      "sources": [
-        "https://cordis.europa.eu/project/id/873087"
-      ],
-      "note": "EUR 15.0m EU contribution; coordinated by TU Munich; Univ. of Opole a participant (EUR 189k)"
-    },
-    {
       "id": "synoradzki_bentkowska",
       "type": "org",
       "group": "law_firm",
