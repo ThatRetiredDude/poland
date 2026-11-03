@@ -53,7 +53,7 @@
       "elected": "2026-03-13",
       "sworn_before_president": false,
       "energy_wind": "None found",
-      "roots": "Katowice, Silesia (career base; birthplace not found)",
+      "roots": "Born Proszowice (per Polish Wikipedia); career base Katowice, Silesia",
       "education": "Law, Univ. of Silesia 2000; PhD 2006; habilitation 2014",
       "career": "Judge, Katowice courts 2003-2026 (first appointed by Lech Kaczynski); Iustitia president 2016-2025; chair, MoJ judiciary codification commission 2024",
       "money_affiliations": "2016 judge asset declaration archived (not yet reviewed); none found for 2023-25; Osiatyński Archive programme council member since 2017; co-author of its 2024 report; speaker at 2025 European Economic Congress rule-of-law panel",
@@ -1080,15 +1080,6 @@
       ]
     },
     {
-      "id": "wawrykiewicz_law",
-      "type": "org",
-      "group": "company",
-      "label": "Wawrykiewicz Law Firm (Kancelaria Adwokacka)",
-      "sources": [
-        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
-      ]
-    },
-    {
       "id": "ejchart",
       "type": "person",
       "group": "lawyer",
@@ -1609,7 +1600,7 @@
       "id": "budka",
       "type": "person",
       "group": "government",
-      "label": "Borys Budka (State Assets Minister 2023-25)",
+      "label": "Borys Budka (State Assets Minister 2023-24)",
       "sources": [
         "https://www.parkiet.com/energetyka/art39766321-duze-zmiany-w-pge-borys-budka-wymienil-rade-nadzorcza"
       ]
@@ -2572,19 +2563,19 @@
     {
       "source": "patyra",
       "target": "tk",
-      "relation": "elected judge of",
+      "relation": "elected judge of (11 Jun 2026)",
       "confidence": "fact",
       "sources": [
-        "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/"
+        "https://www.prawo.pl/prawnicy-sady/prof-slawomir-patyra-wybrany-na-sedziego-trybunalu,1545525.html"
       ]
     },
     {
       "source": "berek",
       "target": "tk",
-      "relation": "elected judge of",
+      "relation": "elected judge of (4 Sep 2026)",
       "confidence": "fact",
       "sources": [
-        "https://notesfrompoland.com/2026/03/13/polish-ruling-coalition-pick-six-judges-for-constitution-court-but-faces-potential-standoff-with-president/"
+        "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
       ]
     },
     {
@@ -3237,10 +3228,12 @@
     {
       "source": "czarzasty",
       "target": "berek",
-      "relation": "presided over oath (14 Oct 2026); voted against him",
+      "relation": "voted against him in the 4 Sep 2026 Sejm vote (later said this was an error); presided over his Sejm oath as Marshal (14 Oct 2026)",
       "confidence": "fact",
       "sources": [
-        "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/"
+        "https://notesfrompoland.com/2026/09/04/prime-ministers-right-hand-man-elected-as-polish-constitutional-court-judge/",
+        "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-04/transcripts/164",
+        "https://xyz.pl/burza-wokol-trybunalu-konstytucyjnego-co-sie-stalo-w-piatek-wieczorem/"
       ]
     },
     {
@@ -3342,15 +3335,6 @@
       "confidence": "fact",
       "sources": [
         "https://en.wikipedia.org/wiki/Micha%C5%82_Wawrykiewicz"
-      ]
-    },
-    {
-      "source": "tusk",
-      "target": "epp",
-      "relation": "party president 2019-2022",
-      "confidence": "fact",
-      "sources": [
-        "https://brusselssignal.eu/2026/04/polish-ruling-majority-defies-president-taking-oath-of-office-from-disputed-judges/"
       ]
     },
     {
@@ -3791,7 +3775,7 @@
     {
       "source": "wawrykiewicz",
       "target": "free_courts",
-      "relation": "board member until 2024 (resigned June 2024 before taking EP seat); paid EUR 1,737/month per EP declaration",
+      "relation": "board member until 2024 (EP declaration: paid to Apr 2024; removal from the board entered in KRS 2 Jul 2024); paid EUR 1,737/month per EP declaration",
       "confidence": "fact",
       "sources": [
         "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf",
@@ -3802,7 +3786,7 @@
     },
     {
       "source": "wawrykiewicz",
-      "target": "wawrykiewicz_law",
+      "target": "wawrykiewicz_firm",
       "relation": "own law firm; declared PLN 1,632,556 lawyer income for 2025 + PLN 9,997 partnership",
       "confidence": "fact",
       "sources": [

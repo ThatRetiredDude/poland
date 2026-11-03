@@ -11343,39 +11343,6 @@
    "added_by": "sweep_2026_11"
   },
   {
-   "source": "korwin_piotrowska",
-   "target": "nawrocki",
-   "relation": "said 'prezydent nie ma prawa wejść wszędzie i zawsze' (the president has no right to enter everywhere and always) (TVN24 teaser headline)",
-   "confidence": "fact",
-   "sources": [
-    "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438"
-   ],
-   "quote": [
-    "Sędzia Anna Korwin-Piotrowska: prezydent nie ma prawa wejść wszędzie i zawsze"
-   ],
-   "quote_translation": [
-    "Judge Anna Korwin-Piotrowska: the president has no right to enter everywhere and always."
-   ],
-   "added_by": "sweep_2026_11"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "nawrocki",
-   "relation": "says 'prezydent natarł na mnie i na ułamek sekundy się zatrzymał' (the president charged at me and stopped for a split second) (TVN24 teaser headline)",
-   "confidence": "alleged",
-   "sources": [
-    "https://tvn24.pl/polska/wybory-do-europarlamentu-kandyduje-trzech-ministrow-z-ko-borys-budka-oddalismy-sie-do-dyspozycji-premiera-st7888438"
-   ],
-   "claimed_by": "Anna Korwin-Piotrowska",
-   "quote": [
-    "Korwin-Piotrowska: prezydent natarł na mnie i na ułamek sekundy się zatrzymał"
-   ],
-   "quote_translation": [
-    "Korwin-Piotrowska: the president charged at me and stopped for a fraction of a second."
-   ],
-   "added_by": "sweep_2026_11"
-  },
-  {
    "source": "sejm",
    "target": "korwin_piotrowska",
    "relation": "Sejm Presidium recommended her and the five other coalition candidates for TK judge before the vote (OKO.press, 13 Mar 2026)",
@@ -11433,71 +11400,6 @@
    ],
    "quote_location": [
     "JSON field title, print 2346 (https://api.sejm.gov.pl/sejm/term10/prints/2346)"
-   ],
-   "added_by": "sweep_2026_11"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "sochanski",
-   "relation": "said Święczkowski and Sochański have no entry to the Tribunal ('bez wstępu do Trybunału') (prawo.pl headline, 31 Oct 2026)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.prawo.pl/prawnicy-sady/krystian-markiewicz-nowym-szefem-iustitii,182635.html",
-    "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html"
-   ],
-   "date": "2026-10-31",
-   "quote": [
-    "Sędzia Korwin-Piotrowska: Święczkowski i Sochański bez wstępu do Trybunału"
-   ],
-   "quote_translation": [
-    "Judge Korwin-Piotrowska: Święczkowski and Sochański without entry to the Tribunal.",
-    "Judge Korwin-Piotrowska: Święczkowski and Sochański have no entry to the Tribunal"
-   ],
-   "quote_location": [
-    "Sidebar 'Ostatnio dodane', item 5",
-    "sidebar 'Ostatnio dodane', item 5 (headline only)"
-   ],
-   "added_by": "sweep_2026_11"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "swieczkowski",
-   "relation": "announced a new order (zarządzenie) concerning Święczkowski (rp.pl related-article headline)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.rp.pl/prawnicy/art41864891-oto-prokuratorka-ktora-zajmie-sie-zawiadomieniem-ws-zamachu-stanu"
-   ],
-   "quote": [
-    "Korwin-Piotrowska zapowiada nowe zarządzenie ws. Święczkowskiego"
-   ],
-   "quote_translation": [
-    "Korwin-Piotrowska announces a new order concerning Święczkowski"
-   ],
-   "quote_location": [
-    "'Powiązane' list (headline only)"
-   ],
-   "added_by": "sweep_2026_11"
-  },
-  {
-   "source": "korwin_piotrowska",
-   "target": "swieczkowski",
-   "relation": "said Święczkowski and Sochański have no entry to the Tribunal ('bez wstępu do Trybunału') (prawo.pl headline, 31 Oct 2026)",
-   "confidence": "fact",
-   "sources": [
-    "https://www.prawo.pl/prawnicy-sady/krystian-markiewicz-nowym-szefem-iustitii,182635.html",
-    "https://www.prawo.pl/prawnicy-sady/zespol-do-przywracania-praworzadnosci-minister-bodnar,524435.html"
-   ],
-   "date": "2026-10-31",
-   "quote": [
-    "Sędzia Korwin-Piotrowska: Święczkowski i Sochański bez wstępu do Trybunału"
-   ],
-   "quote_translation": [
-    "Judge Korwin-Piotrowska: Święczkowski and Sochański without entry to the Tribunal.",
-    "Judge Korwin-Piotrowska: Święczkowski and Sochański have no entry to the Tribunal"
-   ],
-   "quote_location": [
-    "Sidebar 'Ostatnio dodane', item 5",
-    "sidebar 'Ostatnio dodane', item 5 (headline only)"
    ],
    "added_by": "sweep_2026_11"
   },

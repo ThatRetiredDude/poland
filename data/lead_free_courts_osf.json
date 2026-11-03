@@ -35,15 +35,6 @@
       ]
     },
     {
-      "id": "wawrykiewicz_law",
-      "type": "org",
-      "group": "company",
-      "label": "Wawrykiewicz Law Firm (Kancelaria Adwokacka)",
-      "sources": [
-        "https://www.europarl.europa.eu/erpl-app-public/mep-documents/DPI/10/c42e7edf-dc8f-42f8-afaa-2d59af542d47_1789629480706.pdf"
-      ]
-    },
-    {
       "id": "ejchart",
       "type": "person",
       "group": "lawyer",
@@ -373,7 +364,7 @@
     },
     {
       "source": "wawrykiewicz",
-      "target": "wawrykiewicz_law",
+      "target": "wawrykiewicz_firm",
       "relation": "own law firm; declared PLN 1,632,556 lawyer income for 2025 + PLN 9,997 partnership",
       "confidence": "fact",
       "sources": [
